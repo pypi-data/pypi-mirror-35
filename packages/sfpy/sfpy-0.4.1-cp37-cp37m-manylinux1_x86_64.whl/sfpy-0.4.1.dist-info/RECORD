@@ -1,0 +1,7 @@
+sfpy-0.4.1.dist-info/METADATA,sha256=m0NslFs7ehaJlx96MjayOk-BwGIP9A1aY7f2Yrm9VXc,2032
+sfpy-0.4.1.dist-info/top_level.txt,sha256=Ub1gTgFr_qx7a5lcR7ECh67Vr69px4-sxBtU2R906dM,5
+sfpy-0.4.1.dist-info/RECORD,,
+sfpy-0.4.1.dist-info/WHEEL,sha256=AhV6RMqZ2IDfreRJKo44QWYxYeP-0Jr0bezzBLQ1eog,109
+sfpy/__init__.py,sha256=-K4ZfqwAAjg9eNa1NNvziezc_L_Q2v8FUjMVFRNRlmM,351
+sfpy/posit.cpython-37m-x86_64-linux-gnu.so,sha256=yTNw7vLyqNcrH-xEZ1cFwbapNtLYRAge4cKDvu8wkjQ,1764323
+sfpy/float.cpython-37m-x86_64-linux-gnu.so,sha256=C6awyC1PFD1Kcv9yBAWEDFwwcxGD2vAnXaJ-U_hM1Xk,1498792
