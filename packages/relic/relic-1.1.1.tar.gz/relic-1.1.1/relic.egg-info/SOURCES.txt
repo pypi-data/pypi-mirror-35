@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+RELIC-INFO
+setup.cfg
+setup.py
+relic/__init__.py
+relic/git.py
+relic/release.py
+relic.egg-info/PKG-INFO
+relic.egg-info/SOURCES.txt
+relic.egg-info/dependency_links.txt
+relic.egg-info/top_level.txt
+tests/__init__.py
+tests/test_relic.py
