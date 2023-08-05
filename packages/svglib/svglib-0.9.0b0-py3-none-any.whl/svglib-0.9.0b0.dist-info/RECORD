@@ -1,0 +1,10 @@
+svglib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svglib/svglib.py,sha256=xcJvPSTHJCP0abhrnsnf3tfa9NL69vFm7tI77jvEFIc,45626
+svglib/utils.py,sha256=APo18hLaNHHKdQ8TG1IPjW3f92p7dhi3nb2DBpQykVw,7941
+svglib-0.9.0b0.data/scripts/svg2pdf,sha256=8aYW9s95Jj95uECgT7ZZpM8ITK-VeknQsdnXzAhtEiE,3724
+svglib-0.9.0b0.dist-info/DESCRIPTION.rst,sha256=HKQLHBLA52Z_VDuxjsPOwakBhbYz-yRPbzumSTaIS5A,8972
+svglib-0.9.0b0.dist-info/METADATA,sha256=RTRBuylT4m2qlPwnSIXEVC4JRtCy6KEubcw6QV9Z_pk,10361
+svglib-0.9.0b0.dist-info/RECORD,,
+svglib-0.9.0b0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+svglib-0.9.0b0.dist-info/metadata.json,sha256=8yNeJqiIc3om3ZjQq2PCEECD-bHOs9uicSIaurYIf9s,1495
+svglib-0.9.0b0.dist-info/top_level.txt,sha256=jZ_KkxnJfKRlooSLDF3kNi5LKMPNNkVcBP7h9oZDMQU,7
