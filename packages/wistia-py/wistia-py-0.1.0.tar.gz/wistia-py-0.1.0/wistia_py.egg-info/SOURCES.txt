@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+wistia_py/__init__.py
+wistia_py/wrapper.py
+wistia_py.egg-info/PKG-INFO
+wistia_py.egg-info/SOURCES.txt
+wistia_py.egg-info/dependency_links.txt
+wistia_py.egg-info/entry_points.txt
+wistia_py.egg-info/requires.txt
+wistia_py.egg-info/top_level.txt
