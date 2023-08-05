@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: py-coinmarketcap
+Version: 0.0.2
+Summary: threadsafe coinmarketcap pro api library for use in high performance environments
+Home-page: UNKNOWN
+Author: sharath
+Author-email: sharathramku@umass.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.19.1)
+Requires-Dist: beautifulsoup4 (>=4.6.3)
+
+UNKNOWN
+
+
