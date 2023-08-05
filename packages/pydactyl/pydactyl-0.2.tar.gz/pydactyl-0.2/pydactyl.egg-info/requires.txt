@@ -1,0 +1,4 @@
+music21>=5.3
+pymysql
+networkx>=2.2
+TatSu
