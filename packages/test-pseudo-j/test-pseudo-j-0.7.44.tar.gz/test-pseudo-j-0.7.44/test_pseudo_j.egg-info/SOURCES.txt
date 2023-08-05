@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+pseudo_java/__init__.py
+pseudo_java/api_translator.py
+pseudo_java/errors.py
+pseudo_java/helpers.py
+pseudo_java/java_ast_translator.py
+pseudo_java/main.py
+test_pseudo_j.egg-info/PKG-INFO
+test_pseudo_j.egg-info/SOURCES.txt
+test_pseudo_j.egg-info/dependency_links.txt
+test_pseudo_j.egg-info/entry_points.txt
+test_pseudo_j.egg-info/requires.txt
+test_pseudo_j.egg-info/top_level.txt
