@@ -1,0 +1,13 @@
+README.md
+setup.py
+turing_api/__init__.py
+turing_api.egg-info/PKG-INFO
+turing_api.egg-info/SOURCES.txt
+turing_api.egg-info/dependency_links.txt
+turing_api.egg-info/requires.txt
+turing_api.egg-info/top_level.txt
+turing_api/lib/__init__.py
+turing_api/lib/turingAPIException.py
+turing_api/lib/visualAPI.py
+turing_api/test/__init__.py
+turing_api/test/visualAPITest.py
