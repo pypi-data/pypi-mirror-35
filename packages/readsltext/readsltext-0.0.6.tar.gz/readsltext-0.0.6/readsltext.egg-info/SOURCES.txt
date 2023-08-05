@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+readsltext/__init__.py
+readsltext/readsltext.py
+readsltext.egg-info/PKG-INFO
+readsltext.egg-info/SOURCES.txt
+readsltext.egg-info/dependency_links.txt
+readsltext.egg-info/entry_points.txt
+readsltext.egg-info/top_level.txt
