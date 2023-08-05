@@ -1,0 +1,41 @@
+Metadata-Version: 1.1
+Name: roddy
+Version: 0.0.1
+Summary: Generates compositions based upon musical analysis.
+Home-page: https://github.com/ntoll/roddy
+Author: Nicholas H.Tollervey
+Author-email: ntoll@ntoll.org
+License: GPL3
+Description: Roddy
+        =====
+        
+        A Python module to generate compositions based upon musical analysis.
+        
+        Named after my musical analysis teacher at the Royal College of Music.
+        
+        
+        Release History
+        ---------------
+        
+        0.0.1
+        =====
+        
+        * Initial release with skeleton project.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Education
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Classifier: Topic :: Multimedia :: Sound/Audio :: MIDI

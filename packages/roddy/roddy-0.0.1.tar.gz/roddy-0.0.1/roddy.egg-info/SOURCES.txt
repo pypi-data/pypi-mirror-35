@@ -1,0 +1,10 @@
+README.rst
+setup.py
+roddy/__init__.py
+roddy.egg-info/PKG-INFO
+roddy.egg-info/SOURCES.txt
+roddy.egg-info/dependency_links.txt
+roddy.egg-info/entry_points.txt
+roddy.egg-info/not-zip-safe
+roddy.egg-info/requires.txt
+roddy.egg-info/top_level.txt
