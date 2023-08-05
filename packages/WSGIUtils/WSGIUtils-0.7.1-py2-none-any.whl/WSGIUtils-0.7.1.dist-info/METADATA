@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: WSGIUtils
+Version: 0.7.1
+Summary: WSGI Utils are a collection of useful libraries for use in a WSGI environnment.
+Home-page: https://www.owlfish.com/software/wsgiutils/index.html
+Author: Colin Stewart
+Author-email: colin@owlfish.com
+License: BSD-3-Clause
+Project-URL: Source Code, https://github.com/davidfraser/WSGIUtils/
+Project-URL: Documentation, https://www.owlfish.com/software/wsgiutils/documentation/index.html
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 2 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Description-Content-Type: text/markdown
+
+WSGI Utils (Version 0.7.1)
+--------------------------
+WSGI Utils are a package of standalone utility libraries that ease the
+development of simple WSGI programs.  The functionality provided is limited
+at the moment, patches to add new features and address defects are most 
+welcome.
+
+The following components are included please refer to the documentation 
+for more details:
+
+wsgiServer
+----------
+This module provides a very simple multi-threaded WSGI server implementation
+based on SimpleHTTPServer from Python's standard library.  Multiple 
+applications can be hosted at different URLs.
+
+wsgiAdaptor
+-----------
+A very basic web application framework that works with WSGI compliant servers.
+Provides Basic authentication, signed cookies, and persistent sessions 
+(see SessionClient).
+
+SessionClient
+-------------
+This module provides simple session management.  Two implementations are
+given: LocalSessionClient and SessionServerClient.  The LocalSessionClient
+class is suitable for use with multi-threaded, single process, long-lived WSGI
+implementations such as wsgiServer.  SessionServerClient communicates to the
+SessionServer via Unix domain sockets and is suitable for multi-process WSGI
+implementations such as CGI.
+
+SessionServer & SessionServerDaemon
+-----------------------------------
+Listens on a Unix domain socket for connections from a single client and
+provides session persistence.
+
+
+

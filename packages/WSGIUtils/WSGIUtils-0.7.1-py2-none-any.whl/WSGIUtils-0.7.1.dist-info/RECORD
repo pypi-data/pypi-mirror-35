@@ -1,0 +1,12 @@
+WSGIUtils-0.7.1.data/data/LICENSE.txt,sha256=dZRsVAhDdxcZpGn0LwjYjKs6qPO0FgaV1XZdZggRQqk,1504
+WSGIUtils-0.7.1.data/data/README.txt,sha256=hoOjJlPYQqF0EjnLo6HIYEAZlq5ljcO163PtqFcem8o,1403
+WSGIUtils-0.7.1.dist-info/LICENSE.txt,sha256=dZRsVAhDdxcZpGn0LwjYjKs6qPO0FgaV1XZdZggRQqk,1504
+WSGIUtils-0.7.1.dist-info/METADATA,sha256=nbQPiYk6t3oNyM4J5LZk1pF_3Jo30jK0Djz5SARJcsc,2398
+WSGIUtils-0.7.1.dist-info/RECORD,,
+WSGIUtils-0.7.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+WSGIUtils-0.7.1.dist-info/top_level.txt,sha256=hv5o12QIG-Ey_eEwWef-ivXKBBvfX5g3i5qc7mtCnXA,10
+wsgiutils/SessionClient.py,sha256=RV7m8bGt-LVEEI7TuFTyCBU6x6OTfGt7ncUMYyuXNa0,9720
+wsgiutils/SessionServer.py,sha256=U5F89CgdQCvIhHaA4tVoQFXqVvWIJJxSfIxzbR1qxIU,4483
+wsgiutils/__init__.py,sha256=2KJZDSMOG7KS82AxYOrZ4ZihYxX0wjfUjDsIZh3L024,22
+wsgiutils/wsgiAdaptor.py,sha256=9raweF0X4vyfePXNXM8qpQGmmCQUAd5h3IsnE_7FoBs,10526
+wsgiutils/wsgiServer.py,sha256=Zf6Mvo1KvD47tmqSRk8iL5VqcCSyVOx21ke5o9PUj1w,6744
