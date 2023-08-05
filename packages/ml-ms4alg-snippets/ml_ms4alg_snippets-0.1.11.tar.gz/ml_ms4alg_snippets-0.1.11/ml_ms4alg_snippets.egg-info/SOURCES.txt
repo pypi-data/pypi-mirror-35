@@ -1,0 +1,11 @@
+README.md
+setup.py
+ml_ms4alg_snippets/__init__.py
+ml_ms4alg_snippets/ms4alg_snippets.py
+ml_ms4alg_snippets/ms4alg_snippets_spec.py.mp
+ml_ms4alg_snippets/p_ms4alg_snippets.py
+ml_ms4alg_snippets.egg-info/PKG-INFO
+ml_ms4alg_snippets.egg-info/SOURCES.txt
+ml_ms4alg_snippets.egg-info/dependency_links.txt
+ml_ms4alg_snippets.egg-info/requires.txt
+ml_ms4alg_snippets.egg-info/top_level.txt
