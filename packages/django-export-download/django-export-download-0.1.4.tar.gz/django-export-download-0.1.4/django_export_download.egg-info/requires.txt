@@ -1,0 +1,2 @@
+Django>=1.11
+django-import-export>=1.0
