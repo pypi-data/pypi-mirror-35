@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: Kaiwen
+Version: 0.1
+Summary: Kaiwen's package, mainly for personal use
+Home-page: http://github.com/kxue4/python100
+Author: Kaiwen Xue
+Author-email: yixian.xue@gmail.com
+License: BSD License
+Description: Kaiwen's package, mainly for personal use.
+        Contact me: yixian.xue@gmail.com
+        
+Platform: all
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
