@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: advice
+Version: 0.1.0
+Summary: Aspect-oriented programming
+Home-page: https://github.com/orsinium/advice
+Author: @orsinium
+Author-email: master_fess@mail.ru
+License: UNKNOWN
+Description: # Advice
+        
+        [Aspect-oriented programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
+        
+        ## Usage
+        
+        ```python
+        import advice
+        
+        
+        def multiply(context):
+            print(context.args)
+            print(context.kwargs)
+            yield
+            context.result *= 100
+        
+        
+        advice.register(
+            handler=multiply,
+            modules=advice.match(equals='math'),
+            targets=advice.match(regexp='(sin|cos)')
+        )
+        ```
+        
+        Ok, let's check:
+        
+        ```python
+        In [2]: import math
+        
+        In [3]: math.cos(0)
+        (0,)
+        {}
+        Out[3]: 100.0
+        ```
+        
+Keywords: aspect oriented programming advice joinpoint patching import decorators logging testing extension
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Pre-processors
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Mocking
+Classifier: Topic :: System :: Logging
+Description-Content-Type: text/markdown

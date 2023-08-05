@@ -1,0 +1,17 @@
+README.md
+setup.py
+advice/__init__.py
+advice/advice.py
+advice/aspect.py
+advice/hooks.py
+advice/import_patchers.py
+advice/interface.py
+advice/joinpoint.py
+advice/module.py
+advice/patchers.py
+advice/state.py
+advice/utils.py
+advice.egg-info/PKG-INFO
+advice.egg-info/SOURCES.txt
+advice.egg-info/dependency_links.txt
+advice.egg-info/top_level.txt
