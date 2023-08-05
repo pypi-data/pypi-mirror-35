@@ -1,0 +1,7 @@
+zeep
+python-dateutil
+M2Crypto
+pytz
+unidecode
+BeautifulSoup
+requests
