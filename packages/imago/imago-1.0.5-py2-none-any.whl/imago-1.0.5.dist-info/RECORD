@@ -1,0 +1,11 @@
+imago/__init__.py,sha256=FZk9hm7vBsK8G16pNugputbrrEciYqJc_XRAhTCcojI,46
+imago/__main__.py,sha256=pmZ-HIZVf_1UcypIVYJ9EHBU78AHWOF4Ouaqy_NZZg8,56
+imago/extractor.py,sha256=05Mc8LdDRM-D4pNRA_3gnMKERvjAVGBa6ra50FAysx0,8401
+imago/hash.py,sha256=YCOAkRCQcUZ0uXJKyoTXpo1oBi1ypPFMRhTM-X9jy1o,709
+imago/helper.py,sha256=XJkAgikIzCLZ6Mn78gMSEu55iYWqMl6zTuf5tdFWGgM,2323
+imago/imago.py,sha256=2K_HIA9PoDLudwyITlI4IByvVyWPU_NBlDNw8qxwILQ,3809
+imago-1.0.5.dist-info/METADATA,sha256=uuKfi4MyAYg8BZy9slTUNcOEC2tOyDjuKrDamgetXUo,5882
+imago-1.0.5.dist-info/RECORD,,
+imago-1.0.5.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+imago-1.0.5.dist-info/entry_points.txt,sha256=pg11r0TI8WXVRtJWjqg8iNpmTtebLkTLnqVOO68A46o,44
+imago-1.0.5.dist-info/top_level.txt,sha256=CmxEmWUcW3Yp1jcouEkh955ihyHK8wHIX2ud4RmMTuU,6
