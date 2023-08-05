@@ -1,0 +1,12 @@
+calysto_scheme/__init__.py,sha256=E5wgUQtg78on7HYHSNRDgcRthxcdQ7mZFsb1HDI7kcI,35
+calysto_scheme/__main__.py,sha256=xfQ5kPn-BueTTsLo5TmeAt4-Fpfbx7N3Tfd8bReQdAc,108
+calysto_scheme/kernel.py,sha256=A4-4N4rUnsZ4OF8lh3CjNDEG7ZFJE-r1R3y3U5qwsSw,16218
+calysto_scheme/scheme.py,sha256=mNQwbCAXwE0ae5jAuiQfl7uVb4fW9LaVEZ7Zu2QBASE,384828
+calysto_scheme/images/logo-32x32.png,sha256=wGA2dnlCEC8NdFAtqnwkzpndanxqBZRIlFLXjGIlaB0,731
+calysto_scheme/images/logo-64x64.png,sha256=Rp5lq5aAXeyPXGG4GpmWKyQxthCvtV_Ys16tb16QfIY,1724
+calysto_scheme/modules/sllgen.ss,sha256=IwfGyPmR65ag2_GDbj2jEgLOxPwY5WOvp999PY1ScyE,82686
+calysto_scheme/modules/test_all.ss,sha256=z9q-cxOo2N1VnvOLQy8IT3pes3c6UCbdftecJ1wJ4Yo,24621
+calysto_scheme-1.3.0.dist-info/METADATA,sha256=BRH8spxLvyF8cLzaioRy8NOrlaJzoQWQN88R-Xwk1XM,3190
+calysto_scheme-1.3.0.dist-info/RECORD,,
+calysto_scheme-1.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+calysto_scheme-1.3.0.dist-info/top_level.txt,sha256=oQAPM4gJ99bT8ub6LGY9EZhKMDTdl2CWLtQaSMbrAD0,15
