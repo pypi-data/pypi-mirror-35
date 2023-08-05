@@ -1,0 +1,13 @@
+SNPmatch-2.2.0.dist-info/METADATA,sha256=4hNweYKsiRkB4y3u62tGbQKqMi_g-Nj7FUQMqUvTdRY,6282
+SNPmatch-2.2.0.dist-info/RECORD,,
+SNPmatch-2.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+SNPmatch-2.2.0.dist-info/entry_points.txt,sha256=6rH4-fpK5ITjPWxR2aj-0r4PoZEqOOwg4uSC8JhWtYc,44
+SNPmatch-2.2.0.dist-info/top_level.txt,sha256=B0L5UjzdzwFxWZbm1mpjIQAVOqu7ASPYZwKNbOg-VaI,9
+snpmatch/__init__.py,sha256=CTnE5BBg4EpmtA8E5BzAdAOgQ3JR9YB8O0vZv3yikW8,10558
+snpmatch/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snpmatch/core/csmatch.py,sha256=ygDrBQRH_RFYz0cC2Wn-00exyz2uM48a89HXwwgaKQE,19508
+snpmatch/core/kinship_snpstats.py,sha256=l0f1w-4pQsd96gNKYWHbQEIMA3yYFE8uL4CQj_16TVY,1563
+snpmatch/core/makedb.py,sha256=K8B-VKSxmI0EvJBFBDCCZ4uA5Wyj8m1HS84ssmFNGrU,3734
+snpmatch/core/parsers.py,sha256=GjFjluE3zTua6QMbfW2jC2jhjwbmv4k_T-6t4GDHYb4,6173
+snpmatch/core/simulate.py,sha256=h7Q47KhiPP68QwlAnZFCrUMBdIeUZorQg-5Ol5Tzf-0,2213
+snpmatch/core/snpmatch.py,sha256=EGCnYeST22bHLFnqW2Cx3b2-Q1d6N3IvORYjREgGTZA,9638
