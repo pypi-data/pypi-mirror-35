@@ -1,0 +1,8 @@
+mailcli/__about__.py,sha256=Jady4HAvplrTjih_AOQmAnxIFr52tFSLo6QYFfR1h4I,326
+mailcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mailcli/mailcli.py,sha256=2ODvP0MMOfinaPNz2YMPs41K4DvezPeRZQ7vFH80A3U,2743
+mailcli-0.3.1.dist-info/METADATA,sha256=NX0dNN89S8wuDQyr_hEb1gIsQW93nle0jqBxsd8WkJU,2704
+mailcli-0.3.1.dist-info/RECORD,,
+mailcli-0.3.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+mailcli-0.3.1.dist-info/entry_points.txt,sha256=ajAFAfdO2AjOHgbW6Q-Nr0WnFsTfUhMONX3e3O4BHqE,50
+mailcli-0.3.1.dist-info/top_level.txt,sha256=HRnmNJ_hhPSyrGbasQSlcVv4ihtTA3M9lLBeiQUhVM0,8
