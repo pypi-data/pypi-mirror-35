@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.py
+src/.DS_Store
+src/gaddag.py
+src/GADDAG.egg-info/PKG-INFO
+src/GADDAG.egg-info/SOURCES.txt
+src/GADDAG.egg-info/dependency_links.txt
+src/GADDAG.egg-info/top_level.txt
+src/cGADDAG-0.1/.gitignore
+src/cGADDAG-0.1/LICENSE
+src/cGADDAG-0.1/README.rst
+src/cGADDAG-0.1/src/cgaddag.c
+src/cGADDAG-0.1/src/cgaddag.h
+src/cGADDAG-0.1/src/example.c
+src/cGADDAG-0.1/src/gdg.c
+src/cGADDAG-0.1/src/gdg.h
