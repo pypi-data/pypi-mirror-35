@@ -1,0 +1,42 @@
+container:
+    image: {{ task.image }}
+
+    {%- if task.env %}
+    env:
+        {% for name, value in task.env.items() %}
+            {{ name }}: {{ value }}
+        {% endfor %}
+    {% endif %}
+
+    {%- if task.expose %}
+    expose:
+        {% for src, dist in task.expose %}
+            - {{ src }}: {{ dist }}
+        {% endfor %}
+    {% endif %}
+
+    commit_on_stop: {{ task.commit_on_stop }}
+
+#  networks:
+#    - type: tinc
+#      subnet: "10.20.30.0/24"
+#  volumes:
+#    cifs:
+#      type: cifs
+#      options:
+#        share: samba-host.ru/share
+#        username: username
+#        password: password
+#        security: ntlm
+#        vers: 3.0
+#  mounts:
+#    - cifs:/mnt:rw
+#    - cifs:/opt:rw
+# # custom registry settings, optional section
+# registry:
+#   # if not empty, Worker will use given registry to pull an image from, optional param
+#   server_address: registry.user.io
+#   # registry username, optional param
+#   username: name
+#   # registry password, optional param
+#   password: secret
