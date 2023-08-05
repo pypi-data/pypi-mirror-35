@@ -1,0 +1,8 @@
+swepy/__init__.py,sha256=HNl7seaLHP9QcOwHoAyrVYGmZKWmqQjXWTi7ti0tGyQ,15
+swepy/swepy.py,sha256=uGbdGSiPjDF4sJo6hCZGRGgqcV5P-FPPzwoOA1zd_VI,16304
+swepy/nsidcDownloader/__init__.py,sha256=vmt78HTEDbgYjbESWvJOiFuXq6_Q5Y9KR8o5tdQVjHc,25
+swepy/nsidcDownloader/nsidcDownloader.py,sha256=t2ONSAB29h0d24HJBrmoBsGx3ne5ob1q5xRZL5yoUA0,5415
+swepy-1.1.4.dist-info/METADATA,sha256=A6dzlaiaQ1kUnJDWGzjwsSb7S0lCwC1RST9jRzfQUFU,6505
+swepy-1.1.4.dist-info/RECORD,,
+swepy-1.1.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+swepy-1.1.4.dist-info/top_level.txt,sha256=A2pZsZLvXxIFsmKrIrXCl6wDxzVIiYHl-51ZeI8RBgE,6
