@@ -1,0 +1,3 @@
+[console_scripts]
+kb-stopwatch = kbstopwatch.main:main
+
