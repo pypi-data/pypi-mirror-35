@@ -1,0 +1,17 @@
+README.rst
+setup.cfg
+setup.py
+aiogql/__init__.py
+aiogql/client.py
+aiogql/dsl.py
+aiogql/gql.py
+aiogql/utils.py
+aiogql.egg-info/PKG-INFO
+aiogql.egg-info/SOURCES.txt
+aiogql.egg-info/dependency_links.txt
+aiogql.egg-info/requires.txt
+aiogql.egg-info/top_level.txt
+aiogql/transport/__init__.py
+aiogql/transport/aio.py
+aiogql/transport/http.py
+aiogql/transport/local_schema.py
