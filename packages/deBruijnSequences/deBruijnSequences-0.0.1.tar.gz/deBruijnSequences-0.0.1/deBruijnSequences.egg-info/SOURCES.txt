@@ -1,0 +1,8 @@
+README.md
+setup.py
+deBruijnSequence/__init__.py
+deBruijnSequence/coroutine.py
+deBruijnSequences.egg-info/PKG-INFO
+deBruijnSequences.egg-info/SOURCES.txt
+deBruijnSequences.egg-info/dependency_links.txt
+deBruijnSequences.egg-info/top_level.txt
