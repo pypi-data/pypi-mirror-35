@@ -1,0 +1,4 @@
+cython==0.28
+kivy==1.10.1
+python-gnupg==0.4.3
+requests==2.19.1
