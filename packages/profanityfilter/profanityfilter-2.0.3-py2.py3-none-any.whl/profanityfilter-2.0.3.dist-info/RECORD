@@ -1,0 +1,11 @@
+profanityfilter/__init__.py,sha256=EKxrE7-ACRNIqIyeYUTZ6oA_QSk2n4lEtjJI37JgduA,126
+profanityfilter/console.py,sha256=8xb1v3KyJ92zbNO96sBMNps6EceLBmOefpwAgyAEowA,1403
+profanityfilter/profanityfilter.py,sha256=j5ojdM5YnZxqLa6uTrZGLrUQFY9oDLpAwilo0XbOuwA,3515
+profanityfilter/data/badwords.txt,sha256=n-WGbK_T1y2LuyCQQEzQqgYNLwui1X3xX6mHompqIbU,2894
+profanityfilter-2.0.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+profanityfilter-2.0.3.dist-info/METADATA,sha256=blUFZBfcL5SBAZnYg0rB4k0oyNM4tKF1uJUI3uHK9a0,1125
+profanityfilter-2.0.3.dist-info/RECORD,,
+profanityfilter-2.0.3.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+profanityfilter-2.0.3.dist-info/entry_points.txt,sha256=VKhJAs0UUi9k45j2rVb0nhr-D3flz_54oPaxeuba8oE,58
+profanityfilter-2.0.3.dist-info/metadata.json,sha256=85YrZIZeArQgYFECIaScyURi0yMpgu_zEogElAQuESc,1401
+profanityfilter-2.0.3.dist-info/top_level.txt,sha256=Y_B8XHcqQNCvxm-Nh9wexQAc4jApU1ejTUTsv5q3w1g,16
