@@ -1,0 +1,14 @@
+1.0.0
+++++++++++++++++++
+
+* initial release
+
+1.1.0
+++++++++++++++++++
+
+* update config spec to leverage package names as dotted strings vs Python objects
+
+1.1.1
+++++++++++++++++++
+
+* fix bug with dotted name package resolution
