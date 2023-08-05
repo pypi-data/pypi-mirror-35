@@ -1,0 +1,15 @@
+python-dateutil
+numpy>=1.10.0
+
+[full]
+astropy
+
+[testproj]
+pyproj
+
+[tests]
+pytest
+pytest-cov
+coveralls
+flake8
+mypy
