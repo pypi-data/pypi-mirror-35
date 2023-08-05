@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: shishito
+Version: 3.0.3
+Summary: Python module for selenium webdriver test execution
+Home-page: https://github.com/salsita/shishito
+Author: Vojtech Burian
+Author-email: vojtech.burian@gmail.com
+License: MIT
+Keywords: testing,selenium,webdriver,browserstack,appium
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Testing
+Requires-Dist: selenium
+Requires-Dist: pytest-xdist
+Requires-Dist: pytest-instafail
+Requires-Dist: pytest
+Requires-Dist: UnittestZero
+Requires-Dist: Jinja2
+Requires-Dist: requests
+Requires-Dist: Appium-Python-Client
+Requires-Dist: Click (>=6.0)
+
+
+shishito
+========
+
+Shishito is module for web application and browser extension integration testing
+with Selenium Webdriver & Python. It runs tests using included libraries and
+generates nice test results output.
+
+
