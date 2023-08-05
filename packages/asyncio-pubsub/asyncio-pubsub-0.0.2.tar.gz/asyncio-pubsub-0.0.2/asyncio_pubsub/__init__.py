@@ -1,0 +1,1 @@
+name = 'asyncio_pubsub'
