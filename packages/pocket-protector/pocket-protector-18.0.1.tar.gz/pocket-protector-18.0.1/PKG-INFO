@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pocket-protector
+Version: 18.0.1
+Summary: Handy secret management system with a convenient CLI and readable storage format.
+Home-page: https://github.com/SimpleLegal/pocket_protector
+Author: Kurt Rose and Mahmoud Hashemi
+Author-email: kurt@kurtrose.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: any
