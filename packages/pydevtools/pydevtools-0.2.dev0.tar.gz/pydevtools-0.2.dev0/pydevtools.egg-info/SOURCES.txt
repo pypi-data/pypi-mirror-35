@@ -1,0 +1,9 @@
+README.txt
+setup.py
+pydevtools/__init__.py
+pydevtools.egg-info/PKG-INFO
+pydevtools.egg-info/SOURCES.txt
+pydevtools.egg-info/dependency_links.txt
+pydevtools.egg-info/top_level.txt
+pydevtools/debug/__init__.py
+pydevtools/optimize/__init__.py
