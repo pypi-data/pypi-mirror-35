@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: entrance
+Version: 0.0.1
+Summary: Server framework for web apps
+Home-page: https://github.com/ensoft/entrance
+Author: Ensoft Ltd
+License: UNKNOWN
+Description: # EnTrance
+        
+        EnTrance is a framework for writing web apps, using a Python 3.5+ asyncio
+        backend, and an Elm frontend.
+        
+        Communication between the frontend and backend is via JSON messages sent
+        asynchronously over a websocket.
+        
+        This repo includes the Python package (published in PyPi) and also the Elm
+        package (published in elm-package).
+        
+        A design document is [in the docs/ directory](docs/design-notes.docx),
+        currently in Microsoft Word format.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
