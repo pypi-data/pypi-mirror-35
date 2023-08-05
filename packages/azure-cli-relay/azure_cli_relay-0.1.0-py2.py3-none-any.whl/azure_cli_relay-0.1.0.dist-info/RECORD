@@ -1,0 +1,13 @@
+azure/cli/command_modules/relay/__init__.py,sha256=CN6jNuOQC3LldWesDKwAC3NdDZJ-zGBqAdJIFwxGg9Y,1311
+azure/cli/command_modules/relay/_client_factory.py,sha256=ElXsDJsrmjIpL3hGaR8Eh9_YWD8gHF3OjtDOnbBEoUs,848
+azure/cli/command_modules/relay/_completers.py,sha256=Fi5b9sxOY1McnpLRjf7ubLRq5-A-pynlUJJMPZsvcXY,1271
+azure/cli/command_modules/relay/_help.py,sha256=88XhRw4bceeGrBwpr4vsqNcxU6VtJlYKpsLBeqdeVRk,15794
+azure/cli/command_modules/relay/_params.py,sha256=5F7rxdBxOPWjuz4lgadaDEXnoNPaZBkJerXs4rf5kv0,10672
+azure/cli/command_modules/relay/_utils.py,sha256=FrAbIp9Z92R5TfNssn3oviU1Yk24bFsh5vNE7trF800,781
+azure/cli/command_modules/relay/_validators.py,sha256=mfS_pikxhe48DdcIR-76bsEbLYmDjIk23-EkP1buqZ4,435
+azure/cli/command_modules/relay/commands.py,sha256=cubEO7xVZr9_f8tLg3cg3BaAp8RGy-aQLhPGEULWC3U,4858
+azure/cli/command_modules/relay/custom.py,sha256=MlZ0rh3Xnud0ecQP8Y5ND4_8S-l49bNPle-20tGMIk0,4864
+azure_cli_relay-0.1.0.dist-info/METADATA,sha256=1AW4PQ3H_wrmVoEmod_4TbVcBiHL5NWxV0i3Q0t-l3Y,1193
+azure_cli_relay-0.1.0.dist-info/RECORD,,
+azure_cli_relay-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+azure_cli_relay-0.1.0.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
