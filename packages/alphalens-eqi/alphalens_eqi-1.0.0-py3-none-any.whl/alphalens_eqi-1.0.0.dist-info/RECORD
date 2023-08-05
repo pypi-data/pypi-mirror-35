@@ -1,0 +1,14 @@
+alphalens/__init__.py,sha256=YFOY9LIU7fNvqaEPpO--TDfe40cyRY62CIe42J76qqo,334
+alphalens/_version.py,sha256=anV2Bg9GRNXfLqLJyVpSKzhNX5vPIf4sbHtVCca2Tlc,497
+alphalens/performance.py,sha256=h-SwItoqFPz4NGqy3ZS_twaxeGgG2sPEaLVcvlc-Oa0,52264
+alphalens/plotting.py,sha256=nuxIWpfpM4K94rQd2pDCE4YPUUF6Cpjz6p1nE9-uwjs,31027
+alphalens/tears.py,sha256=Zfup8AkKIwq1sXyrgfRerw_XttDddr3yLbF3Yw1UIAI,29651
+alphalens/utils.py,sha256=WAk7gudQUj50l7HmuLOBZWXV9S90X3nK5B5rDUABnZA,38640
+alphalens/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alphalens/tests/test_performance.py,sha256=xsUqhYEM3i92hezhxWNsJX-VxpaFbE-7lmwPIcRyIOE,48130
+alphalens/tests/test_tears.py,sha256=wkZb_LGW4oKsG76Dglyha-95PZr6sHXvVtiN_ywnCKc,13235
+alphalens/tests/test_utils.py,sha256=DZ7iSSkXP7reW2tyFuvj6W6ZgCQpWNNOp-4G2O95vF0,23382
+alphalens_eqi-1.0.0.dist-info/METADATA,sha256=R7VTk57bALWDp438fbx-01e7Cx0psULnSWspu-nO77Y,1241
+alphalens_eqi-1.0.0.dist-info/RECORD,,
+alphalens_eqi-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+alphalens_eqi-1.0.0.dist-info/top_level.txt,sha256=uRRSJxUNf3C_dlfHktOhnvuRluqgl7aD2E4bDR1bqVg,10
