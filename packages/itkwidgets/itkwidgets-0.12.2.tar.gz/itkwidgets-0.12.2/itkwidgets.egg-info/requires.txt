@@ -1,0 +1,5 @@
+itk-core>=4.13.1
+ipywidgets>=7.4.0
+numpy
+six
+zstandard
