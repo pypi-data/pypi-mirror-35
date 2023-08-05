@@ -1,0 +1,10 @@
+README.md
+setup.py
+dcp/__init__.py
+dcp/client.py
+dcp_client.egg-info/PKG-INFO
+dcp_client.egg-info/SOURCES.txt
+dcp_client.egg-info/dependency_links.txt
+dcp_client.egg-info/not-zip-safe
+dcp_client.egg-info/requires.txt
+dcp_client.egg-info/top_level.txt
