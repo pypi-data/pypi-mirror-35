@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: zeel-publisher
+Version: 1.0.0
+Summary: A package for publishing to SNS
+Home-page: https://github.com/zeel-dev/zeel-publisher
+Author: Zeel
+Author-email: hosting@zeel.com
+License: UNKNOWN
+Description: # Zeel Publisher
+        
+        ## Event Publisher
+        
+        A simple package meant for publishing SNS messages to a single topic.
+        
+        # pipenv Virtual Enviornment
+        
+        To save virtual enviornment in .venv directory save the following in your .bash_profile or .zshrc:
+        `export PIPENV_VENV_IN_PROJECT=1`
+        
+        # Running on Docker
+        
+        `docker-compose up`
+        
+        # Running test on Docker
+        
+        `docker-compose run test-app bash test.sh`
+            
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
