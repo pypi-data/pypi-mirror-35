@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+scrapy_spider_auto_repair.egg-info/PKG-INFO
+scrapy_spider_auto_repair.egg-info/SOURCES.txt
+scrapy_spider_auto_repair.egg-info/dependency_links.txt
+scrapy_spider_auto_repair.egg-info/requires.txt
+scrapy_spider_auto_repair.egg-info/top_level.txt
+spider_auto_repair/Data Extractor.py
+spider_auto_repair/__init__.py
+spider_auto_repair/auto_repair_api.py
+spider_auto_repair/auto_repair_code.py
+spider_auto_repair/data_extractor_scrapy.py
