@@ -1,0 +1,12 @@
+biobb_common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_common/command_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_common/command_wrapper/cmd_wrapper.py,sha256=SRt0eNNeis75QqY7ixrPdI8PJ1BcD87eOVyFySADa0A,1522
+biobb_common/configuration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_common/configuration/settings.py,sha256=H5x3APs3gVSlyo9Fes7ZzLqViQ0YZwJ_sghl6XeZwQI,4822
+biobb_common/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_common/tools/file_utils.py,sha256=7NOtvKBBZJUuHOwinVAoumQzADCMOymXra9aKBZds-8,6985
+biobb_common/tools/test_fixtures.py,sha256=QrnXhTOc7IQzaCzTDG8h8VV_XQwtGfPvnlZQo68OD1M,2333
+biobb_common-0.0.3.dist-info/METADATA,sha256=WE48u4CDVZuw34ybQc52lS7Ymn_UHANBNFKp27FzY4U,2416
+biobb_common-0.0.3.dist-info/RECORD,,
+biobb_common-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+biobb_common-0.0.3.dist-info/top_level.txt,sha256=4-T8yEB9bIr01XlLalB9REBLD4U84F4HK4eLNrH7Ri8,13
