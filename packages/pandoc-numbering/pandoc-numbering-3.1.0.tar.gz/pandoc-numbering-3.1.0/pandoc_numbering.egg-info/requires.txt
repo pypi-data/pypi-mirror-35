@@ -1,0 +1,10 @@
+panflute>=1.10
+pypandoc>=1.4
+
+[dev]
+check-manifest
+pylint
+flake8
+
+[test]
+coverage
