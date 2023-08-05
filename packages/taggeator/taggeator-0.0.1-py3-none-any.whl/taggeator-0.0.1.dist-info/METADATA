@@ -1,0 +1,89 @@
+Metadata-Version: 2.0
+Name: taggeator
+Version: 0.0.1
+Summary: Transform tagged lists into readable files.
+Home-page: https://github.com/magmax/taggeator
+Author: Miguel Ángel García
+Author-email: miguelangel.garcia@gmail.com
+License: MIT
+Keywords: tag keyword
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+Description
+===========
+
+From a file with a tag description format like:
+
+.. code::
+
+
+   apps:
+     - name: fubar
+       url: http://example.org/fubar
+       description: a fubar app
+       tags:
+       - foo1
+       - bar1
+
+     - name: foo
+       url: http://example.org/foo
+       description: a foo app
+       tags:
+       - foo1
+       - foo2
+
+     - name: bar
+       url: http://example.org/bar
+       description: a bar app
+       tags:
+       - bar1
+       - bar2
+
+Generates a new file after applying a template with the inverted file, that is,
+a dict of tags with each app as a dict.
+
+As an example, with the template:
+
+.. code::
+
+
+    Simple output for tageator
+
+    {% for item in categories | dictsort %}
+    - {{ item[0] }}
+    {%- for app in item[1] | sort(attribute='name') %}
+      - {{ app.name }}: {{ app.description }} ({{ app.url }})
+    {%- endfor %}
+    {% endfor %}
+
+The previous input file will generate:
+
+.. code::
+
+    Simple output for tageator
+
+
+    - bar1
+      - bar: a bar app (http://example.org/bar)
+      - fubar: a fubar app (http://example.org/fubar)
+
+    - bar2
+      - bar: a bar app (http://example.org/bar)
+
+    - foo1
+      - foo: a foo app (http://example.org/foo)
+      - fubar: a fubar app (http://example.org/fubar)
+
+    - foo2
+      - foo: a foo app (http://example.org/foo)
+
+
