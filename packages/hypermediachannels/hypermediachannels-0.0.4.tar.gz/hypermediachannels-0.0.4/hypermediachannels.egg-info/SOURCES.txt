@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+hypermediachannels/__init__.py
+hypermediachannels/fields.py
+hypermediachannels/serializers.py
+hypermediachannels.egg-info/PKG-INFO
+hypermediachannels.egg-info/SOURCES.txt
+hypermediachannels.egg-info/dependency_links.txt
+hypermediachannels.egg-info/requires.txt
+hypermediachannels.egg-info/top_level.txt
