@@ -1,0 +1,51 @@
+[console_scripts]
+csmpe = csmpe.__main__:cli
+
+[csm.plugin]
+0b523261-8637-4b40-9e08-1a6863b6b430 = csmpe.core_plugins.csm_check_isis_neighbors.ios_xr.plugin:Plugin
+0e86428d-784f-48a2-9c80-b11251bd1f58 = csmpe.core_plugins.csm_redundancy_check.ios_xe.plugin:Plugin
+0efc6ea7-478d-40d8-8561-c2fed9900f4c = csmpe.core_plugins.csm_install_operations.ios_xr.migrate:Plugin
+0faed1cd-4fb6-42ea-9977-4d285dcc623e = csmpe.core_plugins.csm_install_operations.ios_xe.remove:Plugin
+1079da7f-62a7-47a5-a4ce-ad168e6f9fb7 = csmpe.core_plugins.csm_install_operations.exr.deactivate:Plugin
+188eefe6-656d-40cf-b1d7-9ae89a4625b3 = csmpe.core_plugins.csm_get_inventory.ios_xe.plugin:Plugin
+1f1337c3-03ae-4c6c-b6a7-b44ce9ece5c6 = csmpe.core_plugins.csm_install_operations.ios_xr.pre_migrate:Plugin
+258a5830-081c-48b4-8344-fb392a9323f8 = csmpe.core_plugins.csm_install_operations.ios.add:Plugin
+2a7a0740-3a8d-4289-951f-2319dfe1bc9c = csmpe.core_plugins.csm_install_operations.ios_xr.activate:Plugin
+2b5a29e5-4a5d-4ba6-84cb-86b2920a42f4 = csmpe.core_plugins.csm_install_operations.ios_xe.activate:Plugin
+339208a8-9c90-4cfd-960c-c0c8c06dd9bb = csmpe.core_plugins.csm_config_capture.plugin:Plugin
+350a08ba-323e-4dbb-b2fe-a873314a2aaa = csmpe.core_plugins.csm_install_operations.ios_xr.hardware_audit:Plugin
+358656b1-047e-485f-9a00-ba6be59d8416 = csmpe.core_plugins.csm_install_operations.ios_xe.pre_activate:Plugin
+3749accc-199e-4a1b-b42e-a5b99735ebd5 = csmpe.core_plugins.csm_get_inventory.ios_xr.plugin:Plugin
+3ad546af-27ec-4f1b-9b95-148a8bbd9c5c = csmpe.core_plugins.csm_failed_config_startup_check.ios_xr.plugin:Plugin
+3fa91a28-9bf4-46c8-b53d-5379ba43a88f = csmpe.core_plugins.csm_install_operations.ios_xr.deactivate:Plugin
+407e4bb6-c1db-405c-99ab-ffe96475016b = csmpe.core_plugins.csm_filesystem_check.ios_xr.filesystem_rw_check:Plugin
+5a08b9ad-4dfa-4b21-9965-ddb546d98c71 = csmpe.core_plugins.csm_install_operations.ios_xr.add:Plugin
+5a53f525-397c-4bc4-9d88-de741d46b837 = csmpe.core_plugins.csm_install_operations.exr.fpd_upgrade:Plugin
+5c7fa599-6054-43d9-8bba-19f73ccf311c = csmpe.core_plugins.csm_node_status_check.ios_xr.plugin:Plugin
+60b511dc-2710-4945-80f6-f4de3bbdf17d = csmpe.core_plugins.csm_filesystem_check.ios_xr.disk_space_check:Plugin
+6272035e-24fb-4c36-8d8b-f15b08048e33 = csmpe.core_plugins.csm_install_operations.ios.remove:Plugin
+6b342eba-a25c-416c-9d65-ac0bbfe7441e = csmpe.core_plugins.csm_install_operations.ios_xe.add:Plugin
+71831062-f6f6-4e82-ac70-ec3a0abcea56 = csmpe.core_plugins.csm_install_operations.exr.remove:Plugin
+770816aa-63b9-4cde-ac83-2b1d647d1a1f = csmpe.core_plugins.csm_install_operations.ios_xr.satellite_activate:Plugin
+8cb71b7b-82d7-4bf6-9c37-18c729b7a03a = csmpe.core_plugins.csm_install_operations.exr.activate:Plugin
+8efe2a27-d276-4ee2-9325-c35f3791812d = csmpe.core_plugins.csm_get_inventory.exr.plugin:Plugin
+9178f695-090f-48b2-8da1-3c9fb9c76fe1 = csmpe.core_plugins.csm_node_status_check.ios_xe.plugin:Plugin
+9303da64-4587-4582-a22a-bde7f04fbe4d = csmpe.core_plugins.csm_install_operations.ios_xr.fpd_upgrade:Plugin
+a25e7496-06d8-4683-b00a-d17906753439 = csmpe.core_plugins.csm_get_inventory.ios.plugin:Plugin
+a9d6da3b-0ac1-4551-9e0c-d00d8c67cad4 = csmpe.core_plugins.csm_install_operations.ios_xr.rollback:Plugin
+aa2c6468-7914-4bba-abfb-bf7da8d41478 = csmpe.core_plugins.csm_install_operations.ios_xr.commit:Plugin
+aaa62cf9-01b5-4b7a-95fd-2584e4dbbc69 = csmpe.core_plugins.csm_install_operations.ios.activate:Plugin
+abc7035c-804c-4032-b920-295ffffc3304 = csmpe.core_plugins.csm_install_operations.ios_xr.satellite_transfer:Plugin
+b778d08c-24c2-44d2-8829-f32931288341 = csmpe.core_plugins.csm_check_config_filesystem.ios_xr.plugin:Plugin
+bd13a871-f5a8-4676-9f85-a3ad956b8649 = csmpe.core_plugins.csm_install_operations.exr.remove_all:Plugin
+be9a5eee-9bad-4754-81ba-558812a68302 = csmpe.core_plugins.csm_install_operations.exr.commit:Plugin
+cdc4fa49-f7a8-46e0-9ade-fca841e04615 = csmpe.core_plugins.csm_error_core_check.ios_xr.plugin:Plugin
+d3a44e53-4d26-4a24-a82b-d63caadab3c1 = csmpe.core_plugins.csm_install_operations.ios_xr.remove_all:Plugin
+d90f20ec-6a71-4d45-abd6-940cb27b0cd2 = csmpe.core_plugins.csm_install_operations.ios_xr.post_migrate:Plugin
+dba3a725-1e2e-4fa1-8480-b64f7a84e77c = csmpe.core_plugins.csm_get_inventory.nx_os.plugin:Plugin
+f7c411e8-5b8d-4fee-9302-4c6e5ce73ee0 = csmpe.core_plugins.csm_install_operations.ios_xr.remove:Plugin
+f86aaf96-9bf7-4ab8-aae7-a0d2055b39b1 = csmpe.core_plugins.csm_redundancy_check.ios_xr.plugin:Plugin
+f90a5f28-ad5b-42ce-a56d-eb17972b9a2f = csmpe.core_plugins.csm_custom_commands_capture.plugin:Plugin
+fc00204c-a961-4710-a23c-d7671b7e6364 = csmpe.core_plugins.csm_node_status_check.exr.plugin:Plugin
+fc551e9e-ac77-4f04-82d2-d93fbf76cc5c = csmpe.core_plugins.csm_install_operations.exr.add:Plugin
+
