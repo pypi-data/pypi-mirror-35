@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mxnet-donkeycar
+Version: 1.0
+Summary: An Mxnet Implementation of DonkeyCar, adjusted from the original repo: https://github.com/wroscoe/donkey
+Home-page: https://github.com/vlamai/donkey
+Author: Vincent Lam
+Author-email: vincentthanhlam@gmail.com
+License: MIT
+Download-URL: https://github.com/vlamai/donkey/archive/2.1.5.tar.gz
+Description: A Mxnet Implementation for the DonkerCar repo @ https://github.com/wroscoe/donkey/
+        
+        
+        #### Quick Links
+        * [Donkeycar Updates & Examples](http://donkeycar.com)
+        * [Build instructions and Software documentation](http://docs.donkeycar.com)
+        * [Slack / Chat](https://donkey-slackin.herokuapp.com/)
+        
+Keywords: selfdriving cars donkeycar diyrobocars
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tf_gpu
+Provides-Extra: tf
+Provides-Extra: ci
+Provides-Extra: pi
+Provides-Extra: dev
