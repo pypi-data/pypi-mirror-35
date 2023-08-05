@@ -1,0 +1,17 @@
+crypto_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto_django/apps.py,sha256=GPTrrhJHADoecmoPcgxOO4TUwb4Ll25_H5any1au6Wo,100
+crypto_django/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto_django/constants/address.py,sha256=LwSIROyuOyrr4RrfvR9thfuxBxOiv7wg-ZalSCUkyk8,102
+crypto_django/forms/__init__.py,sha256=M36DjCt1g9JbPddA9RoioLEqb2bcNm8JJrr47NisrQA,115
+crypto_django/forms/fields/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto_django/forms/fields/addresses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto_django/forms/fields/addresses/ethereum.py,sha256=AMWb-839LzDLVP3cuZvUC3SeR75WcgQ9OEMG5oeDCRg,1941
+crypto_django/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto_django/tests/forms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto_django/tests/forms/fields/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto_django/tests/forms/fields/addresses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto_django/tests/forms/fields/addresses/test_ethereum.py,sha256=1laORITM8bTn5qsotSRm2kw7QT8EeccLsZ-6EACbD4U,2002
+crypto_django-0.0.1.dist-info/METADATA,sha256=WYz-uNPFW9g8lrWD39UdM6u_8KvOQ_-Tx1RC8ohx_X0,698
+crypto_django-0.0.1.dist-info/RECORD,,
+crypto_django-0.0.1.dist-info/WHEEL,sha256=9xUnOISuCvrSyfu9GlFZT4i2TZ_2OLkwLNqcDvIo3zM,92
+crypto_django-0.0.1.dist-info/top_level.txt,sha256=WzQSYY5e_gMiT1h8P5kLEi_u0Hn8XtDW_eVbBqdGyuY,14
