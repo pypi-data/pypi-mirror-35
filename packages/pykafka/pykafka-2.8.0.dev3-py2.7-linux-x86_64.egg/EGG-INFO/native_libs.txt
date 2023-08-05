@@ -1,0 +1,1 @@
+pykafka/rdkafka/_rd_kafka.so
