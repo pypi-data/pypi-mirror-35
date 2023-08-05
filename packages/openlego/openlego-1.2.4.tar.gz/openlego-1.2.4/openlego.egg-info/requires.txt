@@ -1,0 +1,5 @@
+openmdao
+lxml
+numpy
+ssbj-kadmos
+cached-property
