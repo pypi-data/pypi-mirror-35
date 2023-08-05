@@ -1,0 +1,1 @@
+cat <(crontab -l) <(echo "{minute} {hour} * * * {command}") | crontab -
