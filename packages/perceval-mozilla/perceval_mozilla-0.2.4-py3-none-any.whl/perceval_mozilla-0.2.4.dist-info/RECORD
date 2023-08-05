@@ -1,0 +1,11 @@
+perceval_mozilla-0.2.4-py3.5-nspkg.pth,sha256=RgJJWGhWjBZgt4XoGh2NKje_Xj0QBl5S1E7sV3yqMqY,1748
+perceval/backends/mozilla/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+perceval/backends/mozilla/crates.py,sha256=c_FTBahsgDmA97LWY45qFTflIvilClm-nBYTWiBRZnA,10589
+perceval/backends/mozilla/kitsune.py,sha256=7E1L_t3OpWhMSeeMC9en8TzRk-aI8YynakFVFu2x_Io,10386
+perceval/backends/mozilla/mozillaclub.py,sha256=W1Xd60iVMPRLEIYAvYZgV3nttx7yuCf2mLo6luNfkWA,11099
+perceval/backends/mozilla/remo.py,sha256=OO7eK16LVcGcIFYi6f4kXlhO39ZTInFMOPV7Ldb6RVw,10473
+perceval_mozilla-0.2.4.dist-info/METADATA,sha256=USQWLSUSoAe1W283j8fp54hgKTcjcrT8fH7oVaACrfA,2394
+perceval_mozilla-0.2.4.dist-info/RECORD,,
+perceval_mozilla-0.2.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+perceval_mozilla-0.2.4.dist-info/namespace_packages.txt,sha256=shroxg7iw5lZwyHTT3v6XEVlaUq_8ykOK3wQmzacZGg,27
+perceval_mozilla-0.2.4.dist-info/top_level.txt,sha256=NpQ-l8ZE65zY_3lNupbvvJAmxl_sdWgyVEYLmfZY-us,9
