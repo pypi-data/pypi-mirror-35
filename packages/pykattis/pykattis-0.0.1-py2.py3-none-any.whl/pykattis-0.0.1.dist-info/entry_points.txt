@@ -1,0 +1,3 @@
+[console_scripts]
+pykattis = pykattis:main
+
