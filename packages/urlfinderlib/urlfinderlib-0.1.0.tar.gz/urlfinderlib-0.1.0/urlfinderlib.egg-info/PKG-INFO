@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: urlfinderlib
+Version: 0.1.0
+Summary: Library to find URLs and check their validity.
+Home-page: https://github.com/IntegralDefense/urltools
+Author: Matthew Wilson
+Author-email: automationator@runbox.com
+License: Apache 2.0
+Description: # urltools
+        Python library for finding URLs in documents and arbitrary data and checking their validity.
+        
+Keywords: urltools
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5

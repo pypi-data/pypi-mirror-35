@@ -1,0 +1,8 @@
+setup.py
+urlfinderlib.egg-info/PKG-INFO
+urlfinderlib.egg-info/SOURCES.txt
+urlfinderlib.egg-info/dependency_links.txt
+urlfinderlib.egg-info/requires.txt
+urlfinderlib.egg-info/top_level.txt
+urltools/__init__.py
+urltools/urltools.py
