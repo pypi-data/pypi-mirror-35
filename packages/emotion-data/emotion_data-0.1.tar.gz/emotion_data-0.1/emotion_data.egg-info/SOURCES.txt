@@ -1,0 +1,9 @@
+setup.py
+emotion_data/__init__.py
+emotion_data/deepmoji.py
+emotion_data/feelings.py
+emotion_data/tag.py
+emotion_data.egg-info/PKG-INFO
+emotion_data.egg-info/SOURCES.txt
+emotion_data.egg-info/dependency_links.txt
+emotion_data.egg-info/top_level.txt
