@@ -1,0 +1,11 @@
+telethon_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telethon_django/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+telethon_django/apps.py,sha256=MFt3jq7BV5jH3-KObvJpMbAPOClRdVKhzQBww4XagSY,104
+telethon_django/models.py,sha256=r5O9Zqh2_6LqlJHOceZwyzdQmwSb9eMx3M6SvGUqA8Y,2229
+telethon_django/session.py,sha256=1UqkHelPbxVgs_YVm6RPFOiz6jCcgdYxoLEeql9wSic,5186
+telethon_django/migrations/0001_initial.py,sha256=cGVekEtqWbwxsvNXQNTbbDx8RevPus4puQiWQpER4IQ,2778
+telethon_django/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telethon_django-0.1.1.dist-info/METADATA,sha256=Zzzkn1preRFYG-WdAM9cgm1J-IKEMkLO-0bnd0yVXwA,742
+telethon_django-0.1.1.dist-info/RECORD,,
+telethon_django-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+telethon_django-0.1.1.dist-info/top_level.txt,sha256=39lt7XBC4xYKvn-eptP7KhLlhPMU2DuOHgdEvqmhphM,16
