@@ -1,0 +1,44 @@
+sudo: true
+language: python
+
+python:
+  - 3.5
+  - 3.6
+
+services:
+  - postgresql
+
+addons:
+  apt:
+    packages:
+    - ldap-utils
+    - slapd
+
+install:
+  - pip install -r requirements.pip
+
+before_script:
+  - cp django_ldap_user_registration/local_settings.py.default django_ldap_user_registration/local_settings.py
+  - export DJ_DEBUG=False
+  - export DATABASE_URL=postgres://postgres@localhost/travisdb
+  - psql -c "CREATE DATABASE travisdb;" -U postgres
+  - python manage.py migrate
+  - sudo apt-get purge slapd
+  - export DEBIAN_FRONTEND=noninteractive
+  - cat test_data/ldap/debconf-slapd.conf | sudo debconf-set-selections
+  - sudo apt-get install ldap-utils slapd
+  - sudo ldapadd -x -D cn=admin,dc=zion,dc=ac,dc=ke -w admin -f test_data/ldap/add_content.ldif
+
+deploy:
+  provider: pypi
+  user: sureronald
+  password:
+    secure: "ny8nQeZ3Yr/mHKBJe6GT4SjaG8LU2rS6q6tOUKUeUeb8YLV26/TSk1y7dITyy3MKUI3ztMF9qM7pbQAMbsHN3z0zZ8blwTsNKk3uCrvAWDF+GdB/DrHD/vn0FPDOVHVTDCHget5OmfvX8i/05A3BR482A3XPCpwswJ+7cXp39s4McLXtioKA27bBxdgJCpm/hujZGq7SNx/R5MEUXUoU5xKEKuOAoRz75RfUJ38Df91LNfjImw4Dq6s30I2o/emLEan/2QsjqCH11AmO0/tYjpvJUq3p3aVCzTEi3qab7lVgLqO780h3V2jItDR/TUWHTbP59/kmQdT6yOeKdkPEKJog3AUoRWHCld2TToetz3O2kie9Bp06CLpr/vOUjniIjS0O6/++aE0ERIFCAkoLGZAaUwEZLTuhIgxHrpFNbxac7av1shItvDjtu5zAAZLm9F5Sr29cmDPmdWEZW7SYGo3Rd2LLer7M1rdvUntvgMR1F4zINvmm8Qk2cwLF7unn/dXzfuiOEUybrOiOFrVUzF0k+cEsUN8jvBdN4ezC2rHE2w4d7CgdOOBbXRxs5cPlPwQ1Y4sd4AMcGhYoRaPkJMuWM2Vn+zi1SPBVv/LhFhaHdHLeFlclpWK/s06R+gftk0PnoJnAxiK0uCiiP8sNIuxGDIX88xvJa1+bQvW63Ok="
+  on:
+    tags: true
+
+script:
+ - coverage run --source=user -m pytest
+
+after_success:
+  - coveralls
