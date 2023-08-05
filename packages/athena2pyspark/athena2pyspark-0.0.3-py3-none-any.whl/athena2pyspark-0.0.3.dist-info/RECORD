@@ -1,0 +1,10 @@
+athena2pyspark/__init__.py,sha256=XZ_sNbQYJnErTI54ix4eBp5REl2_9abwHgJYGap20HI,11322
+athena2pyspark/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+athena2pyspark/config/__init__.py,sha256=J5KebuBrYIyI0q5ta_Rvr7pM9Ev0Bg7xMCrneM-LeJE,1798
+athena2pyspark/graph/__init__.py,sha256=GyucYigIUTX0tXa-ValYVCn-0JThszB6Oqvk7ftL_kw,1254
+athena2pyspark/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+athena2pyspark/utils/__init__.py,sha256=HRbLx1BC3loPBsQmkJXK3gG6Y9vJDTtF8USOdOVSptE,2635
+athena2pyspark-0.0.3.dist-info/METADATA,sha256=8M1l_3oh6TIatIIifJOgFpDUhS-54IRCznEKBBKus0M,306
+athena2pyspark-0.0.3.dist-info/RECORD,,
+athena2pyspark-0.0.3.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+athena2pyspark-0.0.3.dist-info/top_level.txt,sha256=OoOQBvme374_N8K59b7i066rWjVssGkNZ9VMLVDw79s,15
