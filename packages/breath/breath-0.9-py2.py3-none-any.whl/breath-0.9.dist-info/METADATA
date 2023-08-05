@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: breath
+Version: 0.9
+Summary: Console application for mindfulness support
+Home-page: UNKNOWN
+Author: Uros Jarc
+Author-email: jar.fmf@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Provides-Extra: develop
+Requires-Dist: pyaudio
+Requires-Dist: docopt
+Requires-Dist: pyxhook
+Requires-Dist: peewee
+Requires-Dist: autologging
+Requires-Dist: coloredlogs
+Requires-Dist: inquirer
+Provides-Extra: develop
+Requires-Dist: setuptools; extra == 'develop'
+Requires-Dist: pip; extra == 'develop'
+Requires-Dist: virtualenv; extra == 'develop'
+Requires-Dist: wheel; extra == 'develop'
+Requires-Dist: twine; extra == 'develop'
+Requires-Dist: bumpversion; extra == 'develop'
+Requires-Dist: setuptools-git; extra == 'develop'
+
+UNKNOWN
+
+

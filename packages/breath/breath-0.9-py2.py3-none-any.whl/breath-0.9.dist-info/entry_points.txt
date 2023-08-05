@@ -1,0 +1,3 @@
+[console_scripts]
+breath = breath.__main__:cli
+
