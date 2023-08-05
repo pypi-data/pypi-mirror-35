@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "decli"
+version = "0.5.0"
+description = "Minimal, easy-to-use, declarative cli tool"
+authors = ["Santiago Fraire <santiwilly@gmail.com>"]
+license = "MIT"
+readme = 'README.rst'
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+
+[tool.poetry.dev-dependencies]
+ipython = "^6.5"
+ipdb = "^0.11.0"
+pytest = "^3.7"
+flake8 = "^3.5"
+black = "^18.3-alpha.0"
+mypy = "^0.620.0"
+pytest-cov = "^2.5"
+pyparsing = "^2.2"
+codecov = "^2.0"
+
+
+[tool.black]
+line-length = 79
+py36 = true
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  # The following are specific to Black, you probably don't want those.
+  | blib2to3
+  | tests/data
+  | profiling
+)/
+'''
+
