@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: hera-librarian
+Version: 0.1.5
+Summary: A client for the HERA Librarian data management system
+Home-page: https://github.com/HERA-Team/librarian/
+Author: HERA Team
+Author-email: hera@lists.berkeley.edu
+License: BSD
+Description: The HERA Librarian is a distributed system for managing HERA collaboration
+        data products. This package provides client libraries that allow you to
+        communicate with a Librarian server. It also includes the server code,
+        although those modules are not installed in a standard ``pip install``.
+        
+        The Librarian client and server currently only run on Python 2.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Astronomy
