@@ -1,0 +1,7 @@
+tx_sendgrid_http_client/__init__.py,sha256=uWubPQYArkVjYoP_dZ6lqpHSokhn7ZffGK3rxLeYwwE,358
+tx_sendgrid_http_client/client.py,sha256=jmvsB1jZ8OWW8NSXyEA4LREkluQilR0CCJBy5dDdVgo,8704
+tx_sendgrid_http_client/exceptions.py,sha256=OYus7w2mF2fd8FbllYbZOWJXGJLOkx_RH_wNwjgs9_k,1454
+tx_sendgrid_http_client-0.1.0.dist-info/METADATA,sha256=-r1dVEj29799ndJV9xiuo8QrxySEMw5I4MeXjmHgixA,512
+tx_sendgrid_http_client-0.1.0.dist-info/RECORD,,
+tx_sendgrid_http_client-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tx_sendgrid_http_client-0.1.0.dist-info/top_level.txt,sha256=c-Pfdrz5vmY_-KvRuz7BmCqsx7Nutoze45-NJ289Tmo,24

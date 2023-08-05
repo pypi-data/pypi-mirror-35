@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tx-sendgrid-http-client
+Version: 0.1.0
+Summary: Sendgrid HTTP REST client for Twisted/Python
+Home-page: https://github.com/AdrienDS/tx_sendgrid_http_client
+Author: Adrien David
+Author-email: adrien.ooo@gmail.com
+License: MIT
+Download-URL: https://github.com/AdrienDS/tx_sendgrid_http_client/tarball/0.1.0
+Keywords: Sendgrid,Twisted,HTTP,API
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: Twisted
+Requires-Dist: treq
+
+Please see our GitHub README
+
+
