@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: funkcium
+Version: 0.1
+Summary: Yet Another Python functional library, with scala inspiration
+Home-page: https://github.com/nykh/funkcium
+Author: nykh
+Author-email: nykh.pypi.199421@tryninja.io
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
