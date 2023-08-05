@@ -1,0 +1,17 @@
+zope.authentication-4.4.0-py3.7-nspkg.pth,sha256=SWEVH-jEWsKYrL0qoC6GBJaStx_iKxGoAY9PQycFVC4,529
+zope/authentication/__init__.py,sha256=on0zuElHHdqEQ-rmDxgS8ag-r7YKW88XBvZGxMTf6Xs,16
+zope/authentication/configure.zcml,sha256=R0zzEnAACKZP7z7mXisEevAZ8oy-KP6dfQExtf_9dMI,158
+zope/authentication/interfaces.py,sha256=qhJu_9MFhiUhAA9XGYoQ_4yVkoUN1zbvLKiRbUNxdbY,5980
+zope/authentication/loginpassword.py,sha256=k7QldIeMu3GU-yAJ0pZXNMsCpakQ880enH9R-Zbf6fE,1346
+zope/authentication/logout.py,sha256=LmFqC5MfnUXxdMQ-B_sNN7KsgutHYhN--FBrPYARycw,1385
+zope/authentication/principal.py,sha256=eqdAPRoLhwgnhpPWUrbGniPT-oCtHelxaLJkrrjkljE,8272
+zope/authentication/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zope/authentication/tests/test_loginpassword.py,sha256=criuKFf7sB_jeRct0x0bfvW-hxTc-puZ6hTqckqteLE,1503
+zope/authentication/tests/test_logout.py,sha256=chiGla39pOTNxUnqdhoShFY9_vG1wTUnYtTy5jghfzA,740
+zope/authentication/tests/test_principal.py,sha256=KZJ2ESf24b_qATFJRYgUkihBk0nMYMuhHrW_YdNlLS8,1085
+zope/authentication/tests/utils.py,sha256=2epTX8aZHIs8txdY17AsLIHCPp3OpD4HUEiQe89d7kw,1941
+zope.authentication-4.4.0.dist-info/METADATA,sha256=mOpRh29Wze1EBe2M28zfbgA6qHf8W37CJCEGQkbwmQA,4475
+zope.authentication-4.4.0.dist-info/RECORD,,
+zope.authentication-4.4.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+zope.authentication-4.4.0.dist-info/namespace_packages.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
+zope.authentication-4.4.0.dist-info/top_level.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
