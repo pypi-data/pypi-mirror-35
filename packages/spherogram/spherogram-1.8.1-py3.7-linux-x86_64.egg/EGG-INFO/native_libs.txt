@@ -1,0 +1,2 @@
+spherogram/planarity.cpython-37m-x86_64-linux-gnu.so
+spherogram/planarmap.cpython-37m-x86_64-linux-gnu.so
