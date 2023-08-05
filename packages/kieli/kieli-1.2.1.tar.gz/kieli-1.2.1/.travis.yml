@@ -1,0 +1,34 @@
+language: python
+python:
+  - '3.4'
+  - '3.5'
+  - '3.6'
+
+cache: pip
+
+install:
+  # Kieli
+  - pip install .
+
+  # Linters
+  - pip install flake8 pytest
+  - if [[ $TRAVIS_PYTHON_VERSION == 3.6 ]]; then pip install black; fi
+
+  # Python Language Server
+  - if [[ $TRAVIS_PYTHON_VERSION == 3.4 ]]; then pip install futures; fi
+  - pip install 'python-language-server[all]'  # used in a test
+
+script:
+  - flake8 ./kieli.py ./test_kieli.py
+  - pytest -vv
+  - if [[ $TRAVIS_PYTHON_VERSION == 3.6 ]]; then black --check .; fi
+
+notifications:
+  irc:
+    channels:
+      - 'chat.freenode.net#8Banana'
+    skip_join: true
+    on_success: change
+    on_failure: always
+    template:
+      - '%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message} %{build_url}'
