@@ -1,0 +1,10 @@
+README
+setup.py
+acidoseq/__init__.py
+acidoseq/acidoseq.py
+acidoseq.egg-info/PKG-INFO
+acidoseq.egg-info/SOURCES.txt
+acidoseq.egg-info/dependency_links.txt
+acidoseq.egg-info/not-zip-safe
+acidoseq.egg-info/top_level.txt
+map/map.py
