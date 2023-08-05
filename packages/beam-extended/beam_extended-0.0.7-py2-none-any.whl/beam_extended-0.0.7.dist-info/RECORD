@@ -1,0 +1,7 @@
+beam_extended/__init__.py,sha256=f6swMDb2KIbU6YZFwDAbX_ppoZFRSa0QfmlyLuMNpco,22
+beam_extended/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beam_extended/io/mongodbio.py,sha256=JfxIlnsiRPUwHQtxm2JhB2dXnl6RDECNme1zZzE2Om8,6456
+beam_extended-0.0.7.dist-info/METADATA,sha256=5sf2zVxjdP4BVfNdeB5M1ylYj15kuAxM3TqSRdqj_KE,690
+beam_extended-0.0.7.dist-info/RECORD,,
+beam_extended-0.0.7.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+beam_extended-0.0.7.dist-info/top_level.txt,sha256=bl7KaA6BpOhFJP-cPX-GU_7As3bmxe-NJHsYF_CTogk,14
