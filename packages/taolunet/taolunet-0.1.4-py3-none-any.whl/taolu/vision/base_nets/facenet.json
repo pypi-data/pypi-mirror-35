@@ -1,0 +1,29 @@
+{
+  "name": "facenet",
+  "width": 224,
+  "height": 224,
+  "type": "fr",
+  "layers": [
+    {
+      "type": "backbone",
+      "name": "resnet18",
+      "remove": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "type": "linear",
+      "output": 128
+    },
+    {
+      "type": "linear",
+      "output": 6
+    }
+  ],
+  "data_transformer": "triplet_transformer",
+  "num_classes": 6,
+  "num_triplets": 50,
+  "batch_size": 1800,
+  "alpha": 0.4
+}
