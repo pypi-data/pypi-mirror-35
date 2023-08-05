@@ -1,0 +1,8 @@
+setup.py
+quickviz/__init__.py
+quickviz/quickviz.py
+quickviz.egg-info/PKG-INFO
+quickviz.egg-info/SOURCES.txt
+quickviz.egg-info/dependency_links.txt
+quickviz.egg-info/requires.txt
+quickviz.egg-info/top_level.txt
