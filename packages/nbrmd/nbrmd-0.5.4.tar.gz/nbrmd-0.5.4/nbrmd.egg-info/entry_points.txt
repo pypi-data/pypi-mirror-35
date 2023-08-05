@@ -1,0 +1,9 @@
+[console_scripts]
+nbrmd = nbrmd.cli:nbrmd
+nbsrc = nbrmd.cli:nbsrc
+
+[nbconvert.exporters]
+pynotebook = nbrmd:PyNotebookExporter
+rmarkdown = nbrmd:RMarkdownExporter
+rnotebook = nbrmd:RNotebookExporter
+
