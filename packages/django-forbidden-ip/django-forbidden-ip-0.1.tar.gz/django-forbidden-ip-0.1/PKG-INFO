@@ -1,0 +1,34 @@
+Metadata-Version: 1.2
+Name: django-forbidden-ip
+Version: 0.1
+Summary: IP forbidding utilities for Django2.0
+Home-page: https://github.com/jasonqiao36/django-forbidden-ip
+Author: Jason Qiao
+Author-email: jasonqiao36@gmail.com
+License: MIT
+Description: django-forbidden-ip
+        ---
+        
+        This is a django application to forbid access by IP address.
+        
+        Install
+        ===
+        
+            pip install django-forbidden-ip
+            
+        Config
+        ===
+        
+        1. Add `ip_interceptor` to `INSTALLED_APPS`.
+        2. Add `ip_interceptor.middleware.IPInterceptorMiddleware` to `MIDDLEWARE`.
+        3. Run `./manage.py make migrations` and `./manage.py migrate`.
+        4. Add IP you want to block to `ForbiddenIP`.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Django
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0

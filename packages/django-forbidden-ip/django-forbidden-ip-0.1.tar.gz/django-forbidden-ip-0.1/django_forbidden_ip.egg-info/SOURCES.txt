@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_forbidden_ip.egg-info/PKG-INFO
+django_forbidden_ip.egg-info/SOURCES.txt
+django_forbidden_ip.egg-info/dependency_links.txt
+django_forbidden_ip.egg-info/not-zip-safe
+django_forbidden_ip.egg-info/requires.txt
+django_forbidden_ip.egg-info/top_level.txt
+ip_interceptor/__init__.py
+ip_interceptor/middleware.py
+ip_interceptor/models.py
