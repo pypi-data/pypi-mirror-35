@@ -1,0 +1,3 @@
+[console_scripts]
+distances-calc = distances_calculator.command_line:main
+
