@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+seswatcher/__init__.py
+seswatcher/main.py
+seswatcher.egg-info/PKG-INFO
+seswatcher.egg-info/SOURCES.txt
+seswatcher.egg-info/dependency_links.txt
+seswatcher.egg-info/entry_points.txt
+seswatcher.egg-info/requires.txt
+seswatcher.egg-info/top_level.txt
