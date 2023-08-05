@@ -1,0 +1,10 @@
+sidepanel/__init__.py,sha256=JnmZZvryKPF5sZV6k9JV0nm1USzYFRr2coq_1BF5OhU,121
+sidepanel/_version.py,sha256=mjh5ryNSUEt0JjYuMzUbrOiu1PI1hV4DLgn5ZBkPE9o,391
+sidepanel/sidepanel.py,sha256=3hba8M5eudWpVh3rIQ1w_0ncydcQsiKVXFjEPMnzFCc,656
+sidepanel/labextension/regulus-sidepanel-0.1.0.tgz,sha256=wvNAUqlV76eYJh2LjBSk8wBpsVViJN8FCUWwtpkDows,4690
+sidepanel-0.3.0a0.data/data/share/jupyter/lab/extensions/regulus-sidepanel-0.1.0.tgz,sha256=wvNAUqlV76eYJh2LjBSk8wBpsVViJN8FCUWwtpkDows,4690
+sidepanel-0.3.0a0.dist-info/LICENSE.txt,sha256=tAOz8H86H857PO6d36YkJDoMrKkDWTFJ1txzrc-zRC8,1515
+sidepanel-0.3.0a0.dist-info/METADATA,sha256=P20R4NjnxJE4zuZ206JzJgP_IJIf3pdaOZQWl7Ys8Bw,1417
+sidepanel-0.3.0a0.dist-info/RECORD,,
+sidepanel-0.3.0a0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+sidepanel-0.3.0a0.dist-info/top_level.txt,sha256=76dgiG2trOfVY7ZpQV-T047k0N6olCdqZOqsDBvkWAI,10
