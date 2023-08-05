@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: lemonsqueezer
+Version: 0.1.0
+Summary: An fast and lightweight wrapper for lemonbar
+Home-page: https://gitlab.com/michalis_pardalos/lemonsqueezer
+Author: Michalis Pardalos
+Author-email: mpardalos@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+
+
+LemonSqueezer
+=============
+
+* Kill subprocesses on exit - 
+    - Fixed reading non-existent config file, but it hangs on because the button handler
+      waits for the bar's stdout. IDEA: add read and write locks?
+
+* Allow using config colors in modules
+    - IDEA: provide dummy values from the bar, representing each colour. When the module
+      sees them, it asks the bar for the appropriate color
+
+DONE
+====
+
+* Refresh BSPWM modules on more events 
+
+
