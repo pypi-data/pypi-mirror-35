@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pkcrypt2
+Version: 1.10.2
+Summary: public key cryptography
+Home-page: https://gist.github.com/val314159/ae5c886a593fc1523d936baf690e8343
+Author: Joel Ward
+Author-email: jmward@gmail.com
+License: MIT
+Description: # pkcrypt2
+        
+Platform: any
