@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: lipsumAPI
+Version: 1.0
+Summary: A lipsum.com API for Python.
+Home-page: https://gitlab.com/xedre/Python-Lipsum-API
+Author: Theo Toth
+Author-email: lipsumapi@xed.re
+License: UNKNOWN
+Description: # Python-Lipsum-API
+        
+        Generates Lorem Ipsum from https://www.lipsum.com/
+        
+        ### Basic use
+        
+        ##### One time use
+        
+        ```Python
+        import lipsum
+        
+        lipsum(mode, amount, start)
+        ```
+        modes:
+        * words - generate x words
+        * paras - generate x paragraphs
+        * bytes - generate x characters
+        * lists - generate x lists
+        
+        amount:
+        How much is generated
+        
+        start:
+        Whether to start section with "Lorem ipsum dolor sit amet"
+        ##### Repeated use
+        
+        ```Python
+        import lipsum
+        
+        
+        Lipsum = lipsum.LipsumGen()
+        
+        Lipsum.amount(x)
+        Lipsum.start(True)
+        
+        Lipsum.words()
+        Lipsum.bytes()
+         
+        ```
+        
+        1. First we create a grabber object `LipsumGen`
+        2. Then we set the amount to be generated using `LipsumGen.amount`
+        3. Set `LipsumGen` object to start with "Lorem ipsum dolor sit amet"
+        4. Now we can generate Lorem Ipsum using the various functions inside our `LipsumGen` object. 
+        See below for various functions:
+        * `LipsumGen.words()`
+        * `LipsumGen.paras()`
+        * `LipsumGen.bytes()`
+        * `LipsumGen.lists()`
+            
+        Note: you can set the amount when calling these functions `LipsumGen.words(100)`
+        
+        ##### Examples
+        
+        Generate 100 characters of text:
+        ```Python
+        import lipsum
+        
+        lipsum.byte(100)
+        ```
+        
+        Generate 3 paragraphs the first of which starts with "Lorem ipsum dolor sit amet":
+        ```Python
+        import lipsum
+        
+        lipsum.paras(100, True)
+        ```
+        
+        Generate 10 sets of Loren Ipsum of Increasing size
+        
+        ```Python
+        import lipsum
+        
+        Lipsum = lipsum.LipsumGen()
+        Lipsum.amount = 500
+        
+        output = []
+        
+        for i in range(10):
+            Lipsum.amount *= 2
+            output.append(Lipsum.bytes())
+        ```
+        
+        ### Latest Changes
+        * Initial release
+        
+        for full changelog click [here](https://gitlab.com/xedre/Python-Lipsum-API/blob/master/CHANGELOG)
+        
+        ### TODO
+        * CLI
+            * text IO
+            * file IO
+            
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Internet
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
