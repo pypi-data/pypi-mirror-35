@@ -1,0 +1,6 @@
+psutil
+ujson
+pyssdb==0.4.2
+cryptography
+enum
+setuptools>=40.0.0

@@ -1,0 +1,8 @@
+setup.py
+farbox/__init__.py
+farbox.egg-info/PKG-INFO
+farbox.egg-info/SOURCES.txt
+farbox.egg-info/dependency_links.txt
+farbox.egg-info/entry_points.txt
+farbox.egg-info/requires.txt
+farbox.egg-info/top_level.txt
