@@ -1,0 +1,10 @@
+README.md
+setup.py
+mailcli/__about__.py
+mailcli/__init__.py
+mailcli/mailcli.py
+mailcli.egg-info/PKG-INFO
+mailcli.egg-info/SOURCES.txt
+mailcli.egg-info/dependency_links.txt
+mailcli.egg-info/entry_points.txt
+mailcli.egg-info/top_level.txt
