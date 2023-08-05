@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: shakecast-aebm
+Version: 0.0a2
+Summary: Potential impact calculation for well defined facilities due to an input earthquake hazard
+Home-page: https://github.com/usgs/shakecast-aebm
+Author: Daniel Slosky
+Author-email: dslosky@usgs.gov
+License: MIT
+Keywords: impact hazus aebm earthquake damage
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: dev
+Provides-Extra: dev
+Requires-Dist: backports.functools-lru-cache (==1.5); extra == 'dev'
+Requires-Dist: cycler (==0.10.0); extra == 'dev'
+Requires-Dist: kiwisolver (==1.0.1); extra == 'dev'
+Requires-Dist: matplotlib (==2.2.2); extra == 'dev'
+Requires-Dist: numpy (==1.15.0); extra == 'dev'
+Requires-Dist: pyparsing (==2.2.0); extra == 'dev'
+Requires-Dist: python-dateutil (==2.7.3); extra == 'dev'
+Requires-Dist: pytz (==2018.5); extra == 'dev'
+Requires-Dist: six (==1.11.0); extra == 'dev'
+Requires-Dist: subprocess32 (==3.5.2); extra == 'dev'
+
+[![Build Status](https://travis-ci.org/usgs/shakecast-aebm.svg?branch=master)](https://travis-ci.org/usgs/shakecast-aebm)
+[![codecov](https://codecov.io/gh/usgs/shakecast-aebm/branch/master/graph/badge.svg)](https://codecov.io/gh/usgs/shakecast-aebm) 
+
+A Python package for estimating potential impact to a structure using HAZUS's Advanced Engineering Building Module. Potentially useful for engineering research, but developed for integration with [ShakeCast](www.github.com/usgs/shakecast)
+
+
