@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ecs-consul-reg
+Version: 0.0.2
+Summary: AWS ECS Consul Registration
+Home-page: https://github.com/hampsterx/ecs-consul-reg
+Author: Tim van der Hulst
+Author-email: tim.vdh@gmail.com
+License: Apache2
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: python-consul (==1.1.0)
+Requires-Dist: docker (==3.5.0)
+Requires-Dist: click (==6.7)
+
+ecs-consul-reg
+
+
