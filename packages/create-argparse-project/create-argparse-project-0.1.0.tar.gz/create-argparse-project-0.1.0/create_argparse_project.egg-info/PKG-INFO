@@ -1,0 +1,41 @@
+Metadata-Version: 1.0
+Name: create-argparse-project
+Version: 0.1.0
+Summary: Create new click project
+Home-page: https://git
+Author: Hibikine Kage
+Author-email: mail@hibikine.me
+License: MIT
+Description: # Create Argparse Project
+        
+        CLI Python application generator
+        
+        ## Usage
+        
+        ```bash
+        create-argparse-project
+        Project Name > Create Argparse Project
+        Package Name > createargparseproject
+        Author Name > Hibikine Kage
+        Author Email > mail@hibikine.me
+        Repository URL > https://github.com/HibikineKage/create-argparse-project
+        Description > CLI Python application generator
+        Command Name > create-argparse-project
+        ```
+        
+        ## Install
+        
+        ### Requirement
+        
+        - Python3
+        - pip
+        
+        ```bash
+        pip install create-argparse-project
+        ```
+        
+        ## License
+        
+        MIT
+        
+Platform: UNKNOWN

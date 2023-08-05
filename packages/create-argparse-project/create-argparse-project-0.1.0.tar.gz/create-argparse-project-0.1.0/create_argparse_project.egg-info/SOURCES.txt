@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+create_argparse_project.egg-info/PKG-INFO
+create_argparse_project.egg-info/SOURCES.txt
+create_argparse_project.egg-info/dependency_links.txt
+create_argparse_project.egg-info/entry_points.txt
+create_argparse_project.egg-info/top_level.txt
+createargparseproject/__init__.py
+createargparseproject/cli.py
+createargparseproject_template/__init__.py
+createargparseproject_template/setup.py
+createargparseproject_template/PACKAGE_NAME/__init__.py
+createargparseproject_template/PACKAGE_NAME/cli.py
