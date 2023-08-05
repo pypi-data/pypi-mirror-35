@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+RPiMusic/__init__.py
+RPiMusic/rpimusicd.py
+RPiMusic.egg-info/PKG-INFO
+RPiMusic.egg-info/SOURCES.txt
+RPiMusic.egg-info/dependency_links.txt
+RPiMusic.egg-info/entry_points.txt
+RPiMusic.egg-info/requires.txt
+RPiMusic.egg-info/top_level.txt
