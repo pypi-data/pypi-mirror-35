@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: formstorm
+Version: 1.0.0b1
+Summary: A tool to test Django forms by trying (almost) every combination of valid and invalid input.
+Home-page: https://github.com/TravisDart/formstorm/
+Author: Travis Dart
+Author-email: git@travisdart.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Testing
