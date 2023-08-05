@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: punyverse
+Version: 0.3
+Summary: Python simulator of a puny universe.
+Home-page: https://github.com/quantum5/punyverse
+Author: quantum
+Author-email: quantum2048@gmail.com
+License: UNKNOWN
+Keywords: universe simulator
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Description-Content-Type: text/markdown
+Requires-Dist: pyglet
+Requires-Dist: Pillow
+Requires-Dist: six
+
+punyverse
+=========
+
+Python simulator of a puny universe. (How many words can I stick into one?)
+
+![Punyverse Preview](https://guanzhong.ca/assets/projects/punyverse-c91f1cb1415c2922c5dcdf9773bc8d86e52e86e1c1b01d33a0969af7b669b8c4.png)
+
+Installation
+------------
+
+Currently, only Windows is supported.
+
+To install, run `pip install punyverse`.
+
+Then, run `punyverse` to launch the simulator, or `punyversew` to launch without the console.
+
+### A Note on Textures
+
+If your graphics card doesn't support the massive texture sizes this module comes with, you can shrink them.
+
+To do this, run `punyverse_small_images`.
+
+
