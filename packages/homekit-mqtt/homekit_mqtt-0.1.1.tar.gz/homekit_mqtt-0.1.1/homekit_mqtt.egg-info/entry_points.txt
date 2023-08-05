@@ -1,0 +1,3 @@
+[console_scripts]
+homekit_mqtt = homekit_mqtt.cli:main
+
