@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ip-range
+Version: 0.0.1
+Summary: library to handle ip ranges (using `ipaddress`)
+Home-page: https://github.com/reutsharabani/ipv4range
+Author: Reut Sharabani
+Author-email: reut.sharabani@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+
+Demo implementation of an IPv4Range based on python's standard `range` function.
+
+
