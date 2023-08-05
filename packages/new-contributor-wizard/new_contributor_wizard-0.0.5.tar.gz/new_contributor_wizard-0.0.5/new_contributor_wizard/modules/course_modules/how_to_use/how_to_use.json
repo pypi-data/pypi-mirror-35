@@ -1,0 +1,130 @@
+[
+    {
+        "lesson": [
+            {
+                "type": "text",
+                "content": "[size=40]Welcome to New Contributor Wizard[/size]"
+            },
+            {
+                "type": "text",
+                "content": "This is 'How To Use', here you'll learn about how to use this application to get the best out of it. Let's first understand why you should use this application?"
+            },
+            {
+                "type": "text",
+                "content": "[size=25]Why you should use this application?[/size]"
+            },
+            {
+                "type": "text",
+                "content": "New Contributor Wizard originated as a [ref=https://summerofcode.withgoogle.com/projects/#5056989357408256]Google Summer of Code 2018[/ref] project under Debian. It is a initiative to create an application which can provide all the resources to a person in order to help them out with Open Source contributions."
+            },
+            {
+                "type": "text",
+                "content": "For more information regarding the project you can visit project repository on [ref=https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard][color=0000ff]https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard[/color][/ref]"
+            },
+            {
+                "type": "text",
+                "content": "Next. We'll look into what all we can learn from this application."
+            }
+        ]
+    },
+    {
+        "lesson": [
+            {
+                "type": "text",
+                "content": "Now, let's have a look at different modules available for you. If you press the hamburger button available on the top-left corner of the application which looks something like the image below..."
+            },
+            {
+                "type": "image",
+                "content": "ui/assets/images/how_to_use_1.png"
+            },
+            {
+                "type": "text",
+                "content": "After clicking on it you will see a sidebar appear from the left which would look something like the image below..."
+            },
+            {
+                "type": "image",
+                "content": "ui/assets/images/how_to_use_2.png"
+            },
+            {
+                "type": "text",
+                "content": "You might be overwhelmed by all these options. Next we'll understand what you'll find in all these options."
+            }
+        ]
+    },
+    {
+        "lesson": [
+            {
+                "type": "text",
+                "content": "Now let's take a look at what each option on the sidebar will teach you."
+            },
+            {
+                "type": "text",
+                "content": "[size=25]How To Use[/size]\nThis module will help you understand, What this application is, How to use the application and How you can also contribute to the application."
+            },
+            {
+                "type": "text",
+                "content": "[size=25]Communication[/size]\nThis module will help you understand, How to communicate with your mentors, How to communicate with an organization, What are the various ways of communication used in communities and What are the best practices you should follow while communicating."
+            },
+            {
+                "type": "text",
+                "content": "[size=25]CLI[/size]\nThis module will help you understand, What is Command Line Interface, Why we use CLI, What are the various ways in which CLI will help you in day to day work and more about CLI hacks."
+            },
+            {
+                "type": "text",
+                "content": "[size=25]Blog[/size]\nThis module will help you understand, How to write blogs, Why blogging is important, Where to host blogs and more about efficiently bogging."
+            },
+            {
+                "type": "text",
+                "content": "[size=25]VCS[/size]\nThis module will help you understand, What is Version Control System, How to manage projects efficiently with VCS and How VCS is used to collaborate with other contributors of a project."
+            },
+            {
+                "type": "text",
+                "content": "[size=25]Encryption[/size]\nThis module will help you understand, What is encryption, Why encrypting your data is important, What are the various ways in which you can do encryption."
+            },
+            {
+                "type": "text",
+                "content": "[size=25]Way Ahead[/size]\nThis module will help you understand, What are the various ways in which you can start getting involve with different communities, What are the various Open Source competitions which you can take part in like Google Summer of Code and much more."
+            },
+            {
+                "type": "text",
+                "content": "In the next lesson, we'll look into what are Tools and Tutorials inside every course option on the sidebar."
+            }
+        ]
+    },
+    {
+        "lesson": [
+            {
+                "type": "text",
+                "content": "If you visit any of the option from the left sidebar (except How To Use), you'll find a bottom navigation like below."
+            },
+            {
+                "type": "image",
+                "content": "ui/assets/images/how_to_use_3.png"
+            },
+            {
+                "type": "text",
+                "content": "Tutorials and Tools! You can select either of them by simply clicking on them and a menu will appear just like the image below..."
+            },
+            {
+                "type": "image",
+                "content": "ui/assets/images/how_to_use_4.png"
+            },
+            {
+                "type": "text",
+                "content": "Tutorials are a manual about a particular topic which will help you understand the topic. Just like this tutorial which are reading right now which helps you understand how this application works."
+            },
+            {
+                "type": "text",
+                "content": "Tools for a particular option would be simple tools provided to you in order to do simple tasks related to the option you select. For example, in the image above you can see 'Encryption Tools' menu. Here, all the tools are related to Encryption. Like, 'Enrypt a message' which will allow you to encrypt a message right from this application itself. Cool, right?"
+            },
+            {
+                "type": "text",
+                "content": "You might have also noticed that Each option in Tutorials or Tools menu has a specific difficulty attached to it. This will help you identify which Tutorials or Tools to start with. A difficulty can be 'Beginner', 'Intermediate' or 'Advance'. Menu items are also colored respectively for visual aid."
+            },
+            {
+                "type": "text",
+                "content": "That's all you needed to know in order to get started. If you have any more question or problem regarding the application please reach out to the maintainers at [ref=https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard][color=0000ff]https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard[/color][/ref]"
+            }
+        ]
+    }
+]

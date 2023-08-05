@@ -1,0 +1,59 @@
+BoxLayout
+    BoxLayout
+        size_hint: 0.35, 1
+        orientation: 'vertical'
+        BigLabel
+            text: 'New'
+            valign: 'bottom'
+        BigLabel
+            text: 'Contributor'
+            valign: 'middle'
+        BigLabel
+            text: 'Wizard'
+            valign: 'top'
+    BoxLayout
+        size_hint: 0.65, 1
+        ScreenManager
+            Screen
+                name: 'signup'
+                SignUp
+            Screen
+                name: 'signin'
+                SignIn
+
+<BigLabel@Label>
+    text_size: self.size
+    size: self.texture_size
+    font_name: app.get_file_path('ui/assets/fonts/Anton-Regular.ttf')
+    font_size: dp(50)
+    padding_x: dp(10)
+    halign: 'left'
+
+# To be imported inside Tools or Tutorials of any module
+<InvitingContributors>
+    orientation: 'vertical'
+    padding: (20, 20, 20, 20)
+    size_hint_y: None
+    height: 150
+    canvas.before:
+        Color
+            rgba: 0, 0, 0, 1
+        RoundedRectangle
+            pos: self.pos
+            size: self.size
+    Label
+        id: inviting_contributors_box_title
+        text_size: self.width, None
+        size: self.texture_size
+        text: 'You can contribute Tools or Tutorials for this application by visting [ref=https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard][color=0000ff]New Contributor Wizard[/color][/ref]\'s repository'
+        markup: True
+        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+        font_size: 20
+        line_height: 1
+        color: 1, 1, 1, 1
+        halign: 'justify'
+        valign: 'top'
+        on_ref_press:
+            import webbrowser
+            webbrowser.open(args[1])
+

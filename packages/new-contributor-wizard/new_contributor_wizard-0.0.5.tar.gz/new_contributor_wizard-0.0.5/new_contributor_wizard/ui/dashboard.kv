@@ -1,0 +1,129 @@
+<Dashboard>
+    NavigationDrawer
+        id: navid
+        anim_type: 'slide_above_anim'
+        BoxLayout
+            orientation: 'vertical'
+            BoxLayout
+                size_hint: 1, 0.142
+            MenuButton
+                id: how_to_use_box
+                on_press: nav_screen.current = 'how_to_use_screen'
+                MenuLabel
+                    id: how_to_use_label
+                    text: 'How To Use'
+            MenuButton
+                id: communication_box
+                on_press: nav_screen.current = 'communication_screen'
+                MenuLabel
+                    id: communication_label
+                    text: 'Communication'
+            MenuButton
+                id: command_line_interface_box
+                on_press: nav_screen.current = 'command_line_interface_screen'
+                MenuLabel
+                    id: command_line_interface_label
+                    text: 'CLI'
+            MenuButton
+                id: blog_box
+                on_press: nav_screen.current = 'blog_screen'
+                MenuLabel
+                    id: blog_label
+                    text: 'Blog'
+            MenuButton
+                id: version_control_system_box
+                on_press: nav_screen.current = 'version_control_system_screen'
+                MenuLabel
+                    id: version_control_system_label
+                    text: 'VCS'
+            MenuButton
+                id: encryption_box
+                on_press: nav_screen.current = 'encryption_screen'
+                MenuLabel
+                    id: encryption_label
+                    text: 'Encryption'
+            MenuButton
+                id: way_ahead_box
+                on_press: nav_screen.current = 'way_ahead_screen'
+                MenuLabel
+                    id: way_ahead_label
+                    text: 'Way Ahead'
+            MenuButton
+        BoxLayout
+            orientation: 'vertical'
+            BoxLayout
+                size_hint: 1, 0.1
+                padding: 0, 0, dp(50), 0
+                Button
+                    size_hint_x: None
+                    width: self.height
+                    border: 0, 0, 0, 0
+                    background_normal: app.get_file_path('ui/assets/images/ham.png')
+                    on_press: navid.toggle_state()
+                Label
+                    size_hint: 0.9, 1
+                    text: 'Welcome'
+                    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+                    font_size: dp(25)
+            ScreenManager
+                id: nav_screen
+                size_hint: 1, 0.9
+                Screen
+                    name: 'welcome_screen'
+                    BoxLayout
+                        canvas.before:
+                            Color
+                                rgba: 1, 1, 1, 1
+                            Rectangle
+                                pos: self.pos
+                                size: self.size
+                        Label
+                            text: '[size=30]Welcome To New Contributor Wizard[/size]\n\n\nClick on hamburger on the top-left corner to access the sidebar menu\nSelect \'How To Use\' option to know about how this application work'
+                            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+                            font_size: dp(20)
+                            color: 0, 0, 0, 1
+                            text_size: self.width, None
+                            size: self.texture_size
+                            padding_x: 10
+                            halign: 'center'
+                            markup: True
+                Screen
+                    name: 'blog_screen'
+                    Blog
+                Screen
+                    name: 'command_line_interface_screen'
+                    CommandLineInterface
+                Screen
+                    name: 'communication_screen'
+                    Communication
+                Screen
+                    name: 'encryption_screen'
+                    Encryption
+                Screen
+                    name: 'how_to_use_screen'
+                    HowToUse
+                Screen
+                    name: 'version_control_system_screen'
+                    VersionControlSystem
+                Screen
+                    name: 'way_ahead_screen'
+                    WayAhead
+
+<MenuButton@ButtonBehavior+BoxLayout>
+    size_hint: 1, 0.142
+    padding: 0, 0, 10, 0
+    on_release: app.root.children[0].ids['navid'].toggle_state()
+    canvas.before:
+        Color
+            rgba: 0, 0, 0, 1
+        Rectangle
+            pos: self.pos
+            size: self.size
+
+<MenuLabel@Label>
+    text_size: self.size
+    size: self.texture_size
+    valign: 'middle'
+    halign: 'right'
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+    font_size: dp(20)

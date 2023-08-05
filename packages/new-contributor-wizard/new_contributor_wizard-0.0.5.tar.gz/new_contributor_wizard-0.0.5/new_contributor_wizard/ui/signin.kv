@@ -1,0 +1,80 @@
+<SignIn>
+    orientation: 'vertical'
+    canvas.before:
+        Color:
+            rgba:  	0.114, 0.306, 0.537, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Label
+        size_hint: 1, 0.16
+        text: 'Welcome Back'
+        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+        font_size: dp(30)
+    BoxLayout
+        size_hint: 1, 0.5
+        FloatLayout
+            size_hint: 0.20, 1
+        BoxLayout
+            size_hint: 0.5, 1
+            id: user_info_screen
+            orientation: 'vertical'
+            SignInLabel
+                text: 'Email'
+                id: email_label
+            SignInBoxLayout
+                SignInTextInput
+                    id: user_email
+            SignInLabel
+                text: 'Password'
+                id: password_label
+            SignInBoxLayout
+                SignInTextInput
+                    password: True
+                    id: password
+        FloatLayout
+            size_hint: 0.30, 1
+    BoxLayout
+        size_hint: 1, 0.16
+        id: submit_info
+        FloatLayout
+        Button
+            text_size: self.size
+            size: self.texture_size
+            size_hint: 0.7, 0.6
+            text: 'Sign In'
+            background_normal: ''
+            background_color: 0, 0, 0, 1
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            font_size: 20
+            padding: 0, 0
+            halign: 'center'
+            valign: 'middle'
+            on_press: root.sign_in(app)
+        FloatLayout
+    BoxLayout
+        size_hint: 1, 0.16
+        SignUpButtonLabel
+            on_press: root.parent.parent.current = 'signup'
+
+<SignInLabel@Label>
+    text_size: self.size
+    size: self.texture_size
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+    font_size: dp(25)
+    halign: 'right'
+
+<SignInBoxLayout@BoxLayout>
+    size_hint: 1, 0.5
+    padding: 20, 0, 0, 0
+
+<SignInTextInput@TextInput>
+    multiline: False
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+    font_size: dp(18)
+
+<SignUpButtonLabel@ButtonBehavior+Label>
+    text: 'New User? Sign Up'
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+    font_size: 20
+    halign: 'right'

@@ -1,0 +1,63 @@
+<ModuleBox>
+    orientation: 'vertical'
+    BoxLayout
+        size_hint: 1, 0.9
+        id: module_content_box
+        canvas.before:
+            Color
+                rgba: 1, 1, 1, 1
+            Rectangle
+                pos: self.pos
+                size: self.size
+        BoxLayout
+            orientation: 'vertical'
+            id: module_details_box
+            BoxLayout
+                size_hint: 1, 0.2
+                ModuleLabel
+                    id: module_title
+                    font_size: dp(30)
+                    valign: 'center'
+                    halign: 'center'
+            BoxLayout
+                size_hint: 1, 0.8
+                orientation: 'vertical'
+                ModuleLabel
+                    id: module_description
+                    font_size: dp(20)
+                    padding: 20, 20
+                    valign: 'top'
+                    halign: 'justify'
+    BoxLayout
+        size_hint: 1, 0.1175
+        RadioNavButton
+            id: tutorials_box
+            on_press: root.enable_option('tutorials')
+            RadioNavLabel
+                text: 'Tutorials'
+                id: tutorials
+        RadioNavButton
+            id: tools_box
+            on_press: root.enable_option('tools')
+            RadioNavLabel
+                text: 'Tools'
+                id: tools
+
+<ModuleLabel@Label>
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+    color: 0, 0, 0, 1
+    markup: True
+    text_size: self.size
+    size: self.texture_size
+
+<RadioNavButton@ButtonBehavior+BoxLayout>
+    canvas.before:
+        Color
+            rgba: 0, 0, 0, 1
+        Rectangle
+            pos: self.pos
+            size: self.size
+
+<RadioNavLabel@Label>
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+    font_size: dp(20)

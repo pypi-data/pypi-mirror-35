@@ -1,0 +1,70 @@
+<ModuleTutorialsMenu>
+    ScrollView
+        size_hint: None, None
+        size: root.size
+        GridLayout
+            id: module_tutorials_menu
+            padding: dp(9)
+            spacing: dp(9)
+            cols: 2
+            size_hint: 1, None
+            height: self.minimum_height
+            orientation: 'vertical'
+
+<TutorialBox>
+    orientation: 'vertical'
+    padding: (10, 25, 10, 25)
+    size_hint_y: None
+    height: 150
+    canvas.before:
+        Color
+            rgba: 0.5, 1, 0.5, 1
+        RoundedRectangle
+            pos: self.pos
+            size: self.size
+    Label
+        id: tutorial_box_title
+        text_size: self.width, None
+        size: self.texture_size
+        text: 'Tutorial Title'
+        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+        font_size: 20
+        line_height: 1
+        color: 0, 0, 0, 1
+        halign: 'left'
+        valign: 'top'
+    BoxLayout
+        Button
+            text: 'Open'
+            id: tutorial_button
+            size_hint: 0.4, 0.8
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            background_color: 0, 0, 0, 1
+        Label
+            id: tutorial_box_difficulty
+            text_size: self.width, None
+            size: self.texture_size
+            text: 'Tutorial Difficulty'
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            font_size: 20
+            halign: 'right'
+            valign: 'bottom'
+
+<BackToTutorialsMenu>
+    size_hint: 1, 0.1
+    padding: (0, 10, 0, 0)
+    BoxLayout
+        size_hint: 0.2, 1
+        padding: (10, 0, 0, 0)
+        Button
+            text: 'Back'
+            id: tutorials_menu_button
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            background_color: 0, 0, 0, 1
+    BoxLayout
+        size_hint: 0.8, 1
+        padding: (0, 0, 70, 0)
+        Label
+            text: 'Tutorial Title'
+            id: tutorial_title
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')

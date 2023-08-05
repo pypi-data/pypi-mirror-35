@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: new-contributor-wizard
+Version: 0.0.5
+Summary: New Contributor Wizard is a GUI application build to help new contributors get started with Open Source.
+Home-page: https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard
+Author: Shashank Kumar
+Author-email: shashankkumarkushwaha@gmail.com
+License: UNKNOWN
+Description: # New Contributor Wizard
+        
+        ![New Contributor Wizard](new_contributor_wizard/ui/assets/images/newcontributorwizard.gif)
+        
+        ### Description
+        
+        New Contributor Wizard is a GUI application build to help new contributors get started with Open Source. It was an idea to bring together all the Tools and Tutorials necessary for a person to learn and start contributing to Open Source. The application contains different courseware sections like Communication, Version Control System etc. and within each section, there are respective Tools and Tutorials.
+        
+        A Tool is an up and running service right inside the application which can perform tasks to help the user understand the concepts. For example, encrypting a message using the primary key, decrypting the encrypted message using the private key, and so on, these tools can help the user better understand the concepts of encryption.
+        
+        A tutorial is comprised of lessons which contain text, images, questions and code snippets. It is a comprehensive guide for a particular concept. For example, Encryption 101, How to use git?, What is a mailing list? and so on.
+        
+        In addition to providing the Tools and Tutorials, this application is build to be progressive. One can easily contribute new Tutorials by just creating a JSON file, the process of which is documented in the project repository itself. Similarly, a documentation for contributing Tools is present as well.
+        
+        ### Project Repository
+        
+        Project repository can be found on [Debian Salsa](https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard).
+        
+        ### Project Management
+        
+        Project management i.e. issue/bug tracker is present on [Redmine](https://outreach-lab.debian.net/redmine/projects/new-contributor-wizard) hosted on Debian.
+        
+        ### Prerequisites To Build Application
+        
+        - GNU/Linux OS (Tested on Debian 9)
+        - Python (Tested on Python => 3.5)
+        - Kivy (Tested on ==1.10.1)
+        
+        ### How To Install
+        
+        Make sure you have all the [dependencies of Kivy](https://kivy.org/docs/gettingstarted/installation.html) installed. Then run:
+        
+        `$ pip install new-contributor-wizard`
+        
+        ### How To Run
+        
+        `$ new-contributor-wizard`
+        
+        ### Documentation
+        
+        #### Developer Documentation
+        
+        These documentations help developers who are willing to build this application from source. Checkout docs from [here](https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/docs/developer.md).
+        
+        #### Contributor Documentation
+        
+        These documentations contains guildelines for the contributors get started with best practices to help out in contributing to this project. Checkout docs from [here](https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/docs/contributing.md).
+        
+        ##### Contribute To Tutorials
+        
+        Contributing Tutorials is as simple as creating a JSON file, NO CODING REQUIRED! You can create a JSON file in order to contribute to Tutorials of any module of your choice. Visit [Contribute To Tutorials](https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/docs/contribute-to-tutorials.md) to know how.
+        
+        ##### Contribute To Tools
+        
+        In order to contribute tools for any module of this application visit [Contribute To Tools](https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/docs/contribute-to-tools.md) documentation.
+        
+        #### Changelogs
+        
+        Changelogs for this project is based on [SemVer](https://semver.org/) or Semantic Versioning. Checkout Changelogs from [here](https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/changelog).
+        
+        ### Contributors
+        
+        Checkout [CONTRIBUTORS](https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/CONTRIBUTORS.md) to know more about the awesome people behind this project.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

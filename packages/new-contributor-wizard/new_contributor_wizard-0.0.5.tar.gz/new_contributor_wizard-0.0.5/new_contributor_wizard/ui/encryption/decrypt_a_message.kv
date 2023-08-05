@@ -1,0 +1,114 @@
+<DecryptAMessage>
+    size_hint: 1, 0.9
+    ScrollView
+        size_hint: None, None
+        size: root.size
+        GridLayout
+            id: scroll_view_box
+            padding: dp(0)
+            spacing: dp(0)
+            cols: 1
+            size_hint: 1, None
+            height: self.minimum_height
+            orientation: 'vertical'
+            KeyColumnBox
+                padding: dp(0)
+                spacing: dp(0)
+                DecryptMessageHeaderLabel
+                    text: 'Select Key To Decrypt'
+                DecryptMessageHeaderLabel
+                    text: 'UID'
+                DecryptMessageHeaderLabel
+                    text: 'Fingerprint'
+
+<KeyColumnBox>
+    orientation: 'vertical'
+    padding: (10, 25, 10, 25)
+    size_hint_y: None
+    cols: 4
+
+<DecryptKeyBox>
+    FloatLayout
+    DecryptMessageButton
+        id: Key_button
+        text: 'Decrypt Using This Private Key'
+    FloatLayout
+
+<DecryptMessageHeaderLabel@Label>
+    color: 0, 0, 0, 1
+    font_size: dp(20)
+    markup: True
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+
+<KeyInfoLabel>
+    color: 0, 0, 0, 1
+    font_size: dp(12)
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+
+<DecryptMessageButton@Button>
+    size_hint_x: None
+    width: 300
+
+<DecryptMessagePopup>
+    title: 'Decrypt Message Using Public Key'
+    size_hint: (None, None)
+    size: (700, 450)
+    BoxLayout
+        orientation: 'vertical'
+        BoxLayout
+            size_hint: (1, 0.1)
+            Label
+                text: 'Enter Passphrase'
+                font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+                font_size: dp(20)
+            TextInput
+                id: passphrase_input
+                password: True
+        BoxLayout
+            padding: [0, 20, 0, 0]
+            BoxLayout
+                size_hint: (0.5, 1)
+                orientation: 'vertical'
+                BoxLayout
+                    size_hint: (1, 0.1)
+                    Label
+                        text: 'Enter Your Message'
+                        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+                        font_size: dp(20)
+                BoxLayout
+                    size_hint: (1, 0.9)
+                    TextInput
+                        id: encrypted_message
+                        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            BoxLayout
+                size_hint: (0.5, 1)
+                orientation: 'vertical'
+                BoxLayout
+                    size_hint: (1, 0.1)
+                    Label
+                        text: 'Decrypted Message'
+                        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+                        font_size: dp(20)
+                BoxLayout
+                    size_hint: (1, 0.9)
+                    TextInput
+                        id: decrypted_message
+                        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+                        readonly: True
+
+<NoKeyPresentDecrypt>
+    padding: (10, 50, 10, 25)
+    orientation: 'vertical'
+    size_hint_y: None
+    height: 300
+    Label
+        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+        font_size: 30
+        text: 'No Key Pair Present'
+        color: 0, 0, 0, 1
+    Label
+        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+        font_size: 20
+        text: 'Please use Create Key Pair from the \nEncryption > Tools\nmenu to create your first key pair'
+        halign: 'center'
+        color: 0, 0, 0, 1

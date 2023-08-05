@@ -1,0 +1,113 @@
+<SignUp>
+    orientation: 'vertical'
+    canvas.before:
+        Color:
+            rgba: 0.114, 0.306, 0.537, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Label
+        size_hint: 1, 0.16
+        text: 'Let\'s Set You Up'
+        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+        font_size: dp(30)
+    BoxLayout
+        size_hint: 1, 0.5
+        id: user_info_screen
+        BoxLayout
+            size_hint: 0.45, 1
+            orientation: 'vertical'
+            SignUpLabel
+                text: 'Email'
+                id: email_label
+                halign: 'right'
+            SignUpBoxLayout
+                SignUpTextInput
+                    id: user_email
+            SignUpLabel
+                text: 'Password'
+                id: first_pass_label
+                halign: 'right'
+            SignUpBoxLayout
+                SignUpTextInput
+                    password: True
+                    id: first_pass
+            SignUpLabel
+                text: 'Once Again'
+                id: confirm_pass_label
+                halign: 'right'
+            SignUpBoxLayout
+                SignUpTextInput
+                    password: True
+                    id: confirm_pass
+        BoxLayout
+            size_hint: 0.1, 1
+        BoxLayout
+            size_hint: 0.45, 1
+            orientation: 'vertical'
+            SignUpLabel
+                text: 'Full Name'
+                id: full_name_label
+            SignUpBoxLayout
+                padding: 0, 0, 20, 0
+                SignUpTextInput
+                    id: user_full_name
+            SignUpLabel
+                text: 'Language'
+            SignUpBoxLayout
+                padding: 0, 0, 20, 0
+                SignUpTextInput:
+                    id: user_language
+                    readonly: True
+                    text: 'English'
+            SignUpLabel
+                text: 'Timezone'
+                font_size: 20
+                id: timezone_label
+            SignUpBoxLayout
+                padding: 0, 0, 20, 0
+                SignUpTextInput
+                    id: user_timezone
+                    hint_text: 'In format "UTC+00:00"'
+    BoxLayout
+        size_hint: 1, 0.16
+        id: submit_info
+        FloatLayout
+        Button
+            text_size: self.size
+            size: self.texture_size
+            size_hint: 0.7, 0.6
+            text: 'Sign Up'
+            background_normal: ''
+            background_color: 0, 0, 0, 1
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            font_size: 20
+            padding: 0, 0
+            halign: 'center'
+            valign: 'middle'
+            on_press: root.sign_up(app)
+        FloatLayout
+    BoxLayout
+        size_hint: 1, 0.16
+        SignInButtonLabel
+            on_press: root.parent.parent.current = 'signin'
+
+<SignUpLabel@Label>
+    text_size: self.size
+    size: self.texture_size
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+    font_size: dp(25)
+
+<SignUpBoxLayout@BoxLayout>
+    size_hint: 1, 0.7
+    padding: 20, 0, 0, 0
+
+<SignUpTextInput@TextInput>
+    multiline: False
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+    font_size: dp(18)
+
+<SignInButtonLabel@ButtonBehavior+Label>
+    text: 'Already a user? Sign In'
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+    font_size: 20

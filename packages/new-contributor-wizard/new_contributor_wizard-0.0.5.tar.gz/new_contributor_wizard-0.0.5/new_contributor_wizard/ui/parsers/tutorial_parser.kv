@@ -1,0 +1,126 @@
+<LessonContent>
+    ScrollView
+        size_hint: None, None
+        size: root.size
+        GridLayout
+            id: scroll_tutorial_content_box
+            padding: dp(0)
+            spacing: dp(0)
+            cols: 1
+            spacing: 20
+            size_hint: 1, None
+            height: self.minimum_height
+            orientation: 'vertical'
+
+<LessonNavigation>
+    size_hint_y: None
+    height: 70
+    padding: 0, 20, 0, 0
+
+<PreviousLessonButton>
+    text: 'Previous Lesson'
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+
+<NextLessonButton>
+    text: 'Next Lesson'
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+
+<LessonHeader>
+    orientation: 'vertical'
+    size_hint_y: None
+    height: 50
+    Label
+        id: lesson_header_label
+        color: 0, 0, 0, 1
+        text_size: self.width, None
+        size: self.texture_size
+        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+        font_size: 30
+        halign: 'center'
+
+<LessonTextBox>
+    orientation: 'vertical'
+    size_hint_y: None
+    Label
+        id: lesson_label
+        color: 0, 0, 0, 1
+        text_size: self.width, None
+        size: self.texture_size
+        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+        font_size: 20
+        halign: 'justify'
+        markup: True
+        on_ref_press:
+            import webbrowser
+            webbrowser.open(args[1])
+
+<LessonQuestionBox>
+    orientation: 'vertical'
+    size_hint_y: None
+    height: 150
+    padding: 20, 0, 20, 0
+    BoxLayout
+        size_hint: 1, 0.5
+        Label
+            id: lesson_question_label
+            color: 0, 0, 0, 1
+            text_size: self.width, None
+            size: self.texture_size
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            font_size: 20
+            halign: 'center'
+    BoxLayout
+        halign: 'center'
+        size_hint: 1, 0.3
+        BoxLayout
+            size_hint: 0.6, 1
+            TextInput
+                id: lesson_question_input
+                font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+                font_size: 20
+                multiline: False
+                write_tab: False
+        BoxLayout
+            size_hint: 0.4, 1
+            Button
+                id: lesson_submit_answer
+                background_color: 0, 0, 0, 1
+                font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+                text: 'Submit'
+    BoxLayout
+        size_hint: 1, 0.3
+        Label
+            id: lesson_answer_validation
+            text_size: self.width, None
+            size: self.texture_size
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            font_size: 15
+            halign: 'center'
+
+<LessonImageBox>
+    orientation: 'vertical'
+    size_hint_y: None
+    padding: 20, 0, 20, 0
+
+<LessonCodeBox>
+    size_hint_y: None
+    height: 40
+    padding: 20, 0, 20, 0
+    BoxLayout
+        size_hint: 0.2, 1
+        Label
+            id: lesson_label
+            color: 0, 0, 0, 1
+            text_size: self.width, None
+            size: self.texture_size
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            font_size: 20
+            text: 'Code Snippet'
+    BoxLayout
+        size_hint: 0.8, 1
+        TextInput
+            id: lesson_code_block
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            font_size: 20
+            multiline: False
+            readonly: True

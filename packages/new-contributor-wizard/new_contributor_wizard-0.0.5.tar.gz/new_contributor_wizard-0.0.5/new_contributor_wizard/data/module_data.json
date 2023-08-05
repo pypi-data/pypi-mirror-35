@@ -1,0 +1,94 @@
+[
+    {
+        "application_settings": {
+            "description": "",
+            "tutorials": [],
+            "tools": []
+        }
+    },
+    {
+        "blog": {
+            "description": "A blog can be seen as a perspective of the author about a particular topic they want the world to know. It also serves as a reminder to self which helps remember past concepts and accomplishments. And, it can also be seen as a place to show off your cool projects to the world. In Blog section, you'll learn about what are the various ways to setup a blog, you'll learn about how to put the blog out for the world to see and much more.",
+            "tutorials": [],
+            "tools": []
+        }
+    },
+    {
+        "command_line_inteface": {
+            "description": "Command Line Interfaces are one of the essential tool used by a developer on a daily basis irrespective of their domain of work. This makes it the first thing to learn before even starting a programming language. In Command Line Interface section, you'll learn about the basics and few hacks to improve productivity.",
+            "tutorials": [],
+            "tools": []
+        }
+    },
+    {
+        "communication": {
+            "description": "When in an organization, communication plays a vital role in deciding how smooth the team will function. Whether team is comprised of just 2 contributors or more than that. Improving communication can bring a surprising change in time taken while querying peers for doubt, reviews and feedbacks. In this communication section, you'll learn about different forms of communication channel an organization uses and guidelines for communication.",
+            "tutorials": [],
+            "tools": []
+        }
+    },
+    {
+        "encryption": {
+            "description": "You might have heard about data being the key to today's world. More so, within an organization and in your own life you might have to store and share sensetive information with your peers. Hence, it becomes important that you use best practices in order to better encrypt/decrypt the data in consideration. This Encryption section, you'll learn more about cryptography and encryption. You'll even get to create and manage your own key pair, encrypt and decrypt messages.",
+            "tutorials": [
+                {
+                    "title": "Encryption 101",
+                    "difficulty": "Beginner"
+                }
+            ],
+            "tools": [
+                {
+                    "title": "Display and manage key pair",
+                    "difficulty": "Beginner"
+                },
+                {
+                    "title": "Create key pair",
+                    "difficulty": "Beginner"
+                },
+                {
+                    "title": "Encrypt a message",
+                    "difficulty": "Intermediate"
+                },
+                {
+                    "title": "Decrypt a message",
+                    "difficulty": "Intermediate"
+                }
+            ]
+        }
+    },
+    {
+        "how_to_use": {
+            "description": "How To Use section contains a simple description about the application and different sections in it.",
+            "tutorials": [],
+            "tools": []
+        }
+    },
+    {
+        "profile_settings": {
+            "description": "",
+            "tutorials": [],
+            "tools": []
+        }
+    },
+    {
+        "theme_settings": {
+            "description": "",
+            "tutorials": [],
+            "tools": []
+        }
+    },
+    {
+        "version_control_system": {
+            "description": "While collaborating, a Version Control System helps in managing the codebase shared across contributors for a project, smooth out the development process varying different versions and gives enough freedom for a person to experiment with a new feature without much hassle. In Version Control System, you'll learn about how it works, what are the various ways of using VCS and get to work on a sample repository as well.",
+            "tutorials": [],
+            "tools": []
+        }
+    },
+    {
+        "way_ahead": {
+            "description": "If you have a general idea about all the course ware sections above this, then mark yourself ready for the real world projects and collaborating with different organizations. This section will help you understand how open source organizations like Debian work, how to contribute to such organizations, what are the various programs like Google Summer of Code or Outreachy and much more.",
+            "tutorials": [],
+            "tools": []
+        }
+    }
+]

@@ -1,0 +1,79 @@
+<CreateKeyPair>
+    size_hint: 1, 0.9
+    orientation: 'vertical'
+    InputBox
+        InputLabel
+            text: 'Name'
+            id: label_name
+        InputField
+            id: input_name
+    InputBox
+        InputLabel
+            text: 'Email'
+            id: label_email
+        InputField
+            id: input_email
+    InputBox
+        InputLabel
+            text: 'Comment'
+            id: label_comment
+        InputField
+            id: input_comment
+    InputBox
+        InputLabel
+            text: 'Expire Date'
+            id: label_expire_date
+        InputField
+            id: input_expire_date
+            hint_text: 'YYYY-MM-DD'
+    BoxLayout
+        size_hint: 1, 2
+        padding: 0, 0, 0, 20
+        FloatLayout
+        Button
+            text_size: self.size
+            size: self.texture_size
+            size_hint: 0.7, 0.5
+            text: 'Proceed'
+            background_normal: ''
+            background_color: 0, 0, 0, 1
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            font_size: dp(20)
+            halign: 'center'
+            valign: 'middle'
+            on_press: root.creating_key_pair()
+        FloatLayout
+
+<InputBox@BoxLayout>
+    padding: 0, 0, 50, 10
+    spacing: 10
+    size_hint: 1, 2
+
+<InputLabel@Label>
+    size_hint: 0.3, 1
+    text_size: self.size
+    size: self.texture_size
+    valign: 'bottom'
+    halign: 'right'
+    padding_y: 10
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+    font_size: dp(20)
+    color: 0, 0, 0, 1
+
+<InputField@TextInput>
+    size_hint: 0.7, 0.5
+    multiline: False
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+    font_size: dp(18)
+    halign: 'right'
+
+<CreateKeyPairPopup>
+    title: 'Creating Key Pair'
+    size_hint: (None, None)
+    size: (450, 300)
+    BoxLayout
+        orientation: 'vertical'
+        Label
+            id: create_gpg_key_pair_popup_label
+            text: 'Key creation in progress'
+            font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')

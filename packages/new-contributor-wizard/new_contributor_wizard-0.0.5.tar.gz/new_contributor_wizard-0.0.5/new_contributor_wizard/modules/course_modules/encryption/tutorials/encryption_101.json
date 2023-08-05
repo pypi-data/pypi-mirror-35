@@ -1,0 +1,42 @@
+[
+    {
+        "lesson": [
+            {
+                "type": "image",
+                "content": "ui/assets/images/encryption_101_1.jpg"
+            },
+            {
+                "type": "text",
+                "content": "Welcome to Encryption 101. This is just to get you started with what the term 'Encryption' means and how it is practiced in real life. Roughly speaking, encryption is the problem of how two parties can communicate in secret in the presence of an eavesdropper. The main goals of this chapter are to develop a meaningful and useful definition of what we are trying to achieve, and to take some first steps in actually achieving it. "
+            },
+            {
+                "type": "question",
+                "content": {
+                        "question": "So, what can you secure using Encryption?",
+                        "answer": "Communication",
+                        "hint": "Read the above paragraph for answer"
+                    }
+            }
+        ]
+    },
+    {
+        "lesson": [
+            {
+                "type": "text",
+                "content": "Now, let's take a real life example to understand where Encryption can be used."
+            },
+            {
+                "type": "text",
+                "content": "Suppose Alice and Bob share a secret key k, and Alice wants to transmit a message m to Bob over a network while maintaining the secrecy of m in the presence of an eavesdropping adversary. This tutorial begins the development of basic techniques to solve this problem. Besides transmitting a message over a network, these same techniques allow Alice to store a file on a disk so that no one else with access to the disk can read the file, but Alice herself can read the file at a later time."
+            },
+            {
+                "type": "question",
+                "content": {
+                    "question": "What Alice and Bob can use to secure message while transmission?",
+                    "answer": "A secret key",
+                    "hint": "Read the above paragraph for answer"
+                }
+            }
+        ]
+    }
+]

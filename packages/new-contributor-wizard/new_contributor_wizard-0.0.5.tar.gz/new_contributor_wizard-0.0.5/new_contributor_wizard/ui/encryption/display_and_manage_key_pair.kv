@@ -1,0 +1,102 @@
+<DisplayAndManageKeyPair>
+	size_hint: 1, 0.9
+	ScrollView
+        size_hint: None, None
+        size: root.size
+        GridLayout
+            id: scroll_view_box
+            padding: dp(0)
+            spacing: dp(0)
+            cols: 1
+            size_hint: 1, None
+            height: self.minimum_height
+            orientation: 'vertical'
+            KeyColumnBox
+                padding: dp(0)
+                spacing: dp(0)
+                KeyHeaderLabel
+                    text: 'UID'
+                KeyHeaderLabel
+                    text: 'Fingerprint'
+                KeyHeaderLabel
+                    text: 'Public Key'
+                KeyHeaderLabel
+                    text: 'Private Key'
+
+<KeyColumnBox>
+    orientation: 'vertical'
+    padding: (10, 25, 10, 25)
+    size_hint_y: None
+    cols: 4
+
+<KeyBox>
+    FloatLayout
+    KeyButton
+        id: Key_button
+        text: 'View'
+    FloatLayout
+
+<KeyHeaderLabel@Label>
+    color: 0, 0, 0, 1
+    font_size: dp(20)
+    markup: True
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+
+<KeyInfoLabel>
+    color: 0, 0, 0, 1
+    font_size: dp(12)
+    font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+
+<KeyButton@Button>
+    size_hint_x: None
+    width: 100
+
+<PublicKeyPopup>
+    title: 'Public Key'
+    size_hint: (None, None)
+    size: (650, 450)
+    BoxLayout
+        orientation: 'vertical'
+        BoxLayout
+            TextInput
+                id: public_key_text_display
+                text: 'Fetching Public Key'
+                font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+                readonly: True
+
+<PrivateKeyPopup>
+    title: 'Private Key'
+    size_hint: (None, None)
+    size: (650, 450)
+    BoxLayout
+        orientation: 'vertical'
+        BoxLayout
+            size_hint: (1, 0.1)
+            Label
+                text: 'Enter Passphrase'
+                font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+            TextInput
+                id: private_key_passphrase_input
+                password: True
+        BoxLayout
+            TextInput
+                id: private_key_text_display
+                font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+                readonly: True
+
+<NoKeyPresent>
+    padding: (10, 50, 10, 25)
+    orientation: 'vertical'
+    size_hint_y: None
+    height: 300
+    Label
+        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+        font_size: 30
+        text: 'No Key Pair Present'
+        color: 0, 0, 0, 1
+    Label
+        font_name: app.get_file_path('ui/assets/fonts/VarelaRound-Regular.ttf')
+        font_size: 20
+        text: 'Please use Create Key Pair from the \nEncryption > Tools\nmenu to create your first key pair'
+        halign: 'center'
+        color: 0, 0, 0, 1
