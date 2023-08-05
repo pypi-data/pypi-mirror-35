@@ -1,0 +1,10 @@
+click
+bio2bel>=0.1.4
+compath_utils>=0.1.0
+sqlalchemy
+pandas
+tqdm
+
+[web]
+flask
+flask_admin
