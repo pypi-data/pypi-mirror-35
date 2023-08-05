@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: recursion-detect
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/looking-for-a-job/recursion-detect.py
+License: UNKNOWN
+Description: [![](https://img.shields.io/pypi/pyversions/recursion-detect.svg?longCache=True)](https://pypi.org/pypi/recursion-detect/)
+        
+        ### Install
+        ```bash
+        $ [sudo] pip install recursion-detect
+        ```
+        
+        ### Examples
+        ```python
+        >>> import recursion_detect
+        >>> def recur():
+            depth = recursion_detect.depth()
+            print("depth = %s" % depth)
+            if depth==5:
+                return
+            recur()
+        
+        >>> recur()
+        0
+        1
+        2
+        3
+        4
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
