@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: osensapy
+Version: 0.1.4
+Summary: OSENSA Python library
+Home-page: UNKNOWN
+Author: OSENSA Innovations
+Author-email: cng@osensa.com
+License: MIT
+Requires-Dist: numpy
+Requires-Dist: pyserial
+
+===============
+
+

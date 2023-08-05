@@ -1,0 +1,8 @@
+osensapy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osensapy/minimalmodbusosensa.py,sha256=5LVc0dpugZASYvOtPUEvcjtPE6G9I3iO_zNt1kAsgU8,103949
+osensapy/osensapy.py,sha256=8Cak0YqOpPyqmTSvolDazS4VnUL9ZP59f69tsBDLkxI,8159
+osensapy/osensapy_example.py,sha256=VTNddctNT3hpCONSBWzRU0NxIrpaR7DsK0FWmvryK8M,285
+osensapy-0.1.4.dist-info/METADATA,sha256=jsI7nd7K3_1tIdb1sAywOW8rSXC4gwkWrx_5qBtm8dc,235
+osensapy-0.1.4.dist-info/RECORD,,
+osensapy-0.1.4.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+osensapy-0.1.4.dist-info/top_level.txt,sha256=KpdFp1S2FaE4Am_ROlwPszR4zs2AUzTY8rWUxDg-XOE,9
