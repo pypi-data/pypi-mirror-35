@@ -1,0 +1,12 @@
+README.rst
+setup.py
+lexlib/__init__.py
+lexlib/consonant_clusters.py
+lexlib/io.py
+lexlib/neighbors.py
+lexlib/syllables.py
+lexlib/utilities.py
+lexlib.egg-info/PKG-INFO
+lexlib.egg-info/SOURCES.txt
+lexlib.egg-info/dependency_links.txt
+lexlib.egg-info/top_level.txt
