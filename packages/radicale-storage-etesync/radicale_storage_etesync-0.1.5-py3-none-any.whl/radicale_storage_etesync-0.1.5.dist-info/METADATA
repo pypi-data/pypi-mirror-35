@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: radicale-storage-etesync
+Version: 0.1.5
+Summary: An EteSync storage plugin for Radicale
+Home-page: https://github.com/etesync/radicale_storage_etesync
+Author: EteSync
+Author-email: development@etesync.com
+License: GPL
+Keywords: etesync,encryption,sync,pim,radicale
+Platform: UNKNOWN
+Requires-Dist: etesync (>=0.5.4)
+Requires-Dist: Radicale (>=2.1.9)
+
+This is an `EteSync <https://www.etesync.com>`_ storage plugin for `Radicale <http://radicale.org/>`_.
+
+This plugin makes Radicale use EteSync as the storage module, essentially
+making Radicale a CalDav/CardDav frontend for EteSync.
+
+| Source code: https://github.com/etesync/radicale_storage_etesync
+| README: https://github.com/etesync/radicale_storage_etesync/blob/master/README.md
+
+
