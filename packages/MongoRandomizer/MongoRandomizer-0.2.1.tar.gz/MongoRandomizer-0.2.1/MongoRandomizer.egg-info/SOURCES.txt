@@ -1,0 +1,8 @@
+setup.py
+MongoRandomizer/__init__.py
+MongoRandomizer.egg-info/PKG-INFO
+MongoRandomizer.egg-info/SOURCES.txt
+MongoRandomizer.egg-info/dependency_links.txt
+MongoRandomizer.egg-info/entry_points.txt
+MongoRandomizer.egg-info/requires.txt
+MongoRandomizer.egg-info/top_level.txt
