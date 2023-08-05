@@ -1,0 +1,7 @@
+README.md
+setup.py
+consistentsamplerpkg/__init__.py
+consistentsamplerpkg.egg-info/PKG-INFO
+consistentsamplerpkg.egg-info/SOURCES.txt
+consistentsamplerpkg.egg-info/dependency_links.txt
+consistentsamplerpkg.egg-info/top_level.txt
