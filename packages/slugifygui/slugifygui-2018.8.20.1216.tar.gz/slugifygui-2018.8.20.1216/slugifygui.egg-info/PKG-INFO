@@ -1,0 +1,28 @@
+Metadata-Version: 1.0
+Name: slugifygui
+Version: 2018.8.20.1216
+Summary: graphical user interface to slugify text
+Home-page: https://github.com/wdbm/slugifygui
+Author: Will Breaden Madden
+Author-email: wbm@protonmail.ch
+License: GPLv3
+Description: slugifygui
+        ==========
+        
+        graphical user interface to slugify text
+        
+        .. figure:: https://raw.githubusercontent.com/wdbm/slugifygui/master/media/slugifygui.png
+           :alt: 
+        
+        setup
+        =====
+        
+        .. code:: bash
+        
+            sudo apt install python-qt5
+            sudo pip install slugifygui
+        
+            sudo wget --content-disposition -N -P /usr/share/icons/ https://raw.githubusercontent.com/wdbm/slugifygui/master/slugifygui/static/slugifygui.svg
+            sudo wget --content-disposition -N -P /usr/share/applications/ https://raw.githubusercontent.com/wdbm/slugifygui/master/slugifygui/static/slugifygui.desktop
+        
+Platform: UNKNOWN
