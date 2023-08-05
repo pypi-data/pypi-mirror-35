@@ -1,0 +1,8 @@
+setup.py
+jy_word/Word.py
+jy_word/__init__.py
+jy_word.egg-info/PKG-INFO
+jy_word.egg-info/SOURCES.txt
+jy_word.egg-info/dependency_links.txt
+jy_word.egg-info/not-zip-safe
+jy_word.egg-info/top_level.txt
