@@ -1,0 +1,10 @@
+README.md
+setup.py
+constellationfs/__init__.py
+constellationfs/gateway.py
+constellationfs/ipfsnode.py
+constellationfs/result.py
+constellationfs.egg-info/PKG-INFO
+constellationfs.egg-info/SOURCES.txt
+constellationfs.egg-info/dependency_links.txt
+constellationfs.egg-info/top_level.txt
