@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pylivetrader
+Version: 0.0.1
+Summary: simple live trading framework
+Home-page: https://github.com/alpacahq/pylivetrader.git
+Author: Alpaca
+Author-email: oos@alpaca.markets
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: numpy (<1.15.0)
+Requires-Dist: pytz
+Requires-Dist: logbook
+Requires-Dist: astor
+Requires-Dist: trading-calendars
+Requires-Dist: click
+Requires-Dist: PyYAML
+Requires-Dist: alpaca-trade-api
+
+UNKNOWN
+
+
