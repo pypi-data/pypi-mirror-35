@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pylarization
+Version: 0.1.1
+Summary: Package for polarization state calculations
+Home-page: https://github.com/szuro/pylarization
+Author: Robert Szulist
+Author-email: r.szulist@gmail.com
+License: UNKNOWN
+Requires-Dist: numpy
+
+============
+
+
