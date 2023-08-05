@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pysonio
+Version: 0.0.3
+Summary: incomplete library to personio time tracking
+Home-page: https://github.com/jayme-github/pysonio
+Author: Jayme
+Author-email: tuxnet@gmail.com
+License: GNU Affero General Public License v3
+Description: pysonio
+        =======
+        
+        [pysonio](https://github.com/jayme-github/pysonio) is a python library
+        that provides minimalistic (and incomplete as of now) access to
+        time-tracking data in Personio.
+        
+        Installation
+        ------------
+        
+        ```
+        pip install git+https://github.com/jayme-github/pysonio.git
+        ```
+        
+Keywords: personio
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
