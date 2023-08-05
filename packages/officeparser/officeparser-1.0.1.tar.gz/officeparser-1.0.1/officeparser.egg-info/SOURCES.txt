@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+officeparser.py
+setup.py
+officeparser.egg-info/PKG-INFO
+officeparser.egg-info/SOURCES.txt
+officeparser.egg-info/dependency_links.txt
+officeparser.egg-info/entry_points.txt
+officeparser.egg-info/top_level.txt
