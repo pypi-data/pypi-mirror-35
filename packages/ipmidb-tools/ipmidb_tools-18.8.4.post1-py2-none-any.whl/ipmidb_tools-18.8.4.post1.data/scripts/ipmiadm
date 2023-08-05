@@ -1,0 +1,304 @@
+#!python
+# PYTHON_ARGCOMPLETE_OK
+""" CLI tool to query IPMIDB and execute IPMI commands"""
+
+import argparse
+import argcomplete
+import subprocess
+import logging
+import sys
+import time
+import os
+import tempfile
+import datetime
+from urllib import urlencode
+from suds import WebFault
+from suds.client import Client
+import shelve
+
+from aitools.common import append_domain
+from pylandb import LanDB
+
+from pyipmidb.client import IPMIDBClient, IPMIDBError
+
+IPMIDB_ENDPOINT = 'ipmidb.cern.ch'
+CACHE_PATH = os.path.join(tempfile.gettempdir(), 'ipmidbadm_cache.pkl')
+EXPIRY = datetime.timedelta(hours=24)
+
+class color:
+    PURPLE = '\033[95m'
+    CYAN = '\033[96m'
+    DARKCYAN = '\033[36m'
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+    END = '\033[0m'
+
+class BMCResetTimeout(Exception):
+    """Raise when BMC reset timeout is exceeded."""
+    pass
+
+def retrieve_landb_info(hostname):
+    # Check if value is in cache
+    cache = shelve.open(CACHE_PATH)
+    key = '%s_landb' % hostname.lower()
+    if cache.has_key(key):
+        if cache[key]['expires_on'] < datetime.datetime.now():
+            del cache[key]
+        else:
+            print color.DARKCYAN + color.BOLD + \
+                  'Using LanDB data from cache.' + color.END
+            return cache[key]['data']
+
+    # Object is not in cache
+    landb = LanDB()
+    landb_service = landb.get_service()
+
+    try:
+        landb_host = landb_service.getDeviceInfo(hostname.replace('.cern.ch', ''))
+    except WebFault:
+        # Host not found in LanDB
+        sys.exit("%s%sError: Host %s doesn't seem to exist.%s"
+                 % (color.RED, color.BOLD, hostname.upper(), color.END))
+
+    # Clean LanDB Object for serialization and save in cache
+    landb_host['Location'] = None
+    landb_host['OperatingSystem'] = None
+    landb_host['StartDate'] = None
+    landb_host['LastChangeDate'] = None
+    landb_host['EndDate'] = None
+    landb_host['UserPerson'] = None
+    landb_host['ResponsiblePerson'] = None
+    landb_host['LandbManagerPerson'] = None
+
+    landb_host['NetworkInterfaceCards'] = None
+    for k, elem in enumerate(landb_host['Interfaces']):
+        landb_host['Interfaces'][k] = Client.dict(elem)
+        landb_host['Interfaces'][k]['Outlet'] = None
+        landb_host['Interfaces'][k]['BoundInterfaceCard'] = None
+
+    cache_entry = {'data': Client.dict(landb_host),
+                   'expires_on' : datetime.datetime.now() + EXPIRY}
+    cache[key] = cache_entry
+    cache.close()
+    return Client.dict(landb_host)
+
+def retrieve_ipmidb_rows(serial_number):
+    # Check if value is in cache
+    cache = shelve.open(CACHE_PATH)
+
+    key = '%s_ipmidb' % str(serial_number).lower()
+    if cache.has_key(key):
+        if cache[key]['expires_on'] < datetime.datetime.now():
+            del cache[key]
+        else:
+            print color.DARKCYAN + color.BOLD + \
+                  'Using IPMIDB data from cache.' + color.END
+            return cache[key]['data']
+
+    # Object is not in cache
+    ipmidb = IPMIDBClient()
+    payload = {'serial': serial_number.lower()}
+
+    try:
+        ipmidb_rows = ipmidb.query_ipmidb('get_row/?%s' % urlencode(payload))
+    except IPMIDBError:
+        sys.exit("%s%sError: There was an issue while accessing IPMIDB, are "
+                 "you authenticated?%s" % (color.RED, color.BOLD, color.END))
+
+    # Save in cache
+    cache_entry = {'data': ipmidb_rows,
+                   'expires_on' : datetime.datetime.now() + EXPIRY}
+    cache[key] = cache_entry
+    cache.close()
+
+    return ipmidb_rows
+
+def ipmi_command_iterable(bmc_ip, username, password, command):
+    """Generator to retrieve ipmitool command output before execution ends."""
+    # Prepare command
+    cmd = 'ipmitool -H %s -U %s -P %s %s' % (bmc_ip, username,
+                                             password, command)
+
+    # Execute command
+    popen = subprocess.Popen(cmd,
+                             shell=True,
+                             stdin=subprocess.PIPE,
+                             stdout=subprocess.PIPE,
+                             stderr=subprocess.STDOUT,
+                             universal_newlines=True)
+
+    # Yield the single line from the output buffer
+    for stdout_line in iter(popen.stdout.readline, ""):
+        yield stdout_line
+
+    # Close the buffer
+    popen.stdout.close()
+
+def wait_for_ping(bmc_ip, count=5, max_seconds=120):
+    """Wait until IP  replies to ping, or raise a BMCResetTimeout."""
+    wait_time = 10 # seconds
+    elapsed = 0
+    while os.system('/bin/ping -c %s %s > /dev/null' % (count, bmc_ip)) != 0:
+        time.sleep(wait_time)
+        elapsed += wait_time
+        if elapsed > max_seconds:
+            raise BMCResetTimeout
+
+def reboot_main(pargs):
+    """Reboot a server using 'chassis power cycle'."""
+
+    # We use a generator to return buffered lines before execution finishes
+    for line in ipmi_command_iterable(pargs.bmc_ip, pargs.username,
+                                      pargs.password, 'chassis power cycle'):
+        # Print each line after removing any trailing newline or whitespace
+        print line.strip()
+
+
+def resetreboot_main(pargs):
+    """Reset the BMC and reboot a server."""
+
+    print color.DARKCYAN + color.BOLD + 'Resetting BMC...' + color.END
+    bmcreset_main(pargs)
+
+    print color.DARKCYAN + color.BOLD + 'Waiting for the BMC to come ' \
+          'back...' + color.END
+    time.sleep(10)
+    wait_for_ping(pargs.bmc_ip)
+
+    print color.DARKCYAN + color.BOLD + 'Rebooting server... '+ color.END
+    reboot_main(pargs)
+
+def run_main(pargs):
+    """Execute an IPMI command and print the result."""
+    pargs.command = ' '.join(pargs.command)
+
+    # We use a generator to return buffered lines before execution finishes
+    for line in ipmi_command_iterable(pargs.bmc_ip, pargs.username,
+                                      pargs.password, pargs.command):
+        # Print each line after removing any trailing newline or whitespace
+        print line.strip()
+
+def bmcreset_main(pargs):
+    """Reset the BMC of a server"""
+    # We use a generator to return buffered lines before execution finishes
+    for line in ipmi_command_iterable(pargs.bmc_ip, pargs.username,
+                                      pargs.password, 'mc reset cold'):
+        # Print each line after removing any trailing newline or whitespace
+        print line.strip()
+
+def cleancache_main(pargs):
+    # Clean the cache
+    try:
+        os.remove(CACHE_PATH)
+    except OSError:
+        pass
+    except Exception:
+        print color.RED + color.BOLD + "Error: cannot clean cache " \
+              "(%s)." % CACHE_PATH + color.END
+
+
+    print color.DARKCYAN + color.BOLD + "Cache cleaned." + color.END
+
+
+def getconsole_main(pargs):
+    """Retrieve console URL and credentials"""
+    out = color.DARKCYAN + color.BOLD + 'Console URL:' + color.END + \
+          color.GREEN + ' %s ' + color.END + '(CTRL+CLICK to open)\n' + \
+          color.DARKCYAN + color.BOLD + 'Username:' + color.END + \
+          color.GREEN + ' %s ' + color.END + \
+          color.DARKCYAN + color.BOLD + 'Password:' + color.END + \
+          color.GREEN + ' %s \n' + color.END
+
+    print out % ('https://%s-ipmi' % pargs.serial.lower(),
+                 pargs.username, pargs.password)
+
+
+def main():
+    """ Start CLI, retrieve creds and route to proper function. """
+    logging.getLogger('suds.client').setLevel(logging.DEBUG)
+
+    parser = argparse.ArgumentParser(description="Execute IPMI queries and retrieve credentials")
+    subparser = parser.add_subparsers()
+
+    reboot_parser = subparser.add_parser("reboot", help="Reboot a server")
+    reboot_parser.add_argument("hostname", metavar="HOSTNAME", help="The hostname of the real node (not the BMC)")
+    reboot_parser.set_defaults(func=reboot_main)
+
+    resetreboot_parser = subparser.add_parser("reset-reboot", help="Reset the BMC and reboot a server")
+    resetreboot_parser.add_argument("hostname", metavar="HOSTNAME", help="The hostname of the real node (not the BMC)")
+    resetreboot_parser.set_defaults(func=resetreboot_main)
+
+    run_parser = subparser.add_parser("run", help="Execute an IPMI command")
+    run_parser.add_argument("hostname", metavar="HOSTNAME", help="The hostname of the real node (not the BMC)")
+    run_parser.add_argument("command", metavar="COMMAND", nargs='*', help="The ipmitool command to run, e.g. 'mc cold reset'")
+    run_parser.set_defaults(func=run_main)
+
+    bmcreset_parser = subparser.add_parser("bmc-reset", help="Reset the BMC of a server")
+    bmcreset_parser.add_argument("hostname", metavar="HOSTNAME", help="The hostname of the real node (not the BMC)")
+    bmcreset_parser.set_defaults(func=bmcreset_main)
+
+    console_parser = subparser.add_parser("console", help="Retrieve console URL and credentials")
+    console_parser.add_argument("hostname", metavar="HOSTNAME", help="The hostname of the real node (not the BMC)")
+    console_parser.set_defaults(func=getconsole_main)
+
+    cleancache_parser = subparser.add_parser("clean-cache", help="Force cleaning of IPMIADM cache file")
+    cleancache_parser.set_defaults(func=cleancache_main)
+
+    argcomplete.autocomplete(parser)
+
+    pargs = parser.parse_args()
+    if pargs.func is cleancache_main:
+        pargs.func(pargs)
+    else:
+        # Qualify hostname
+        if hasattr(pargs, 'hostname'):
+            pargs.hostname = append_domain(pargs.hostname)
+
+        # Retrieve serial number
+        landb_host = retrieve_landb_info(pargs.hostname)
+
+        if landb_host['SerialNumber'] is None:
+            # Host doesn't have a serial number
+            sys.exit("%s%sError: Host %s doesn't seem to have a serial number. "
+                     "Is it a VM?%s" % (color.RED, color.BOLD,
+                                        pargs.hostname.upper(), color.END))
+
+        # Find IPMIDB Interface
+        for elem in landb_host['Interfaces']:
+            if '-IPMI' in elem['Name'].upper():
+                pargs.bmc_ip = str(elem['IPAddress'])
+                break
+        else:
+            # Host doesn't have an IPMI interface
+            sys.exit("%s%sError: Host %s doesn't seem to have an "
+                     "IPMI interface.%s" % (color.RED, color.BOLD,
+                                            pargs.hostname.upper(), color.END))
+
+        # Retrieve creds
+        ipmidb_rows = retrieve_ipmidb_rows(landb_host['SerialNumber'])
+
+        if not ipmidb_rows:
+            sys.exit("%s%sError: Host %s doesn't seem to have credentials "
+                     "in IPMIDB%s"  % (color.RED, color.BOLD,
+                                       pargs.hostname.upper(), color.END))
+
+        if len(ipmidb_rows) > 1:
+            sys.exit("%s%sError: Host %s has too many credentials rows "
+                     "in IPMIDB%s" % (color.RED, color.BOLD,
+                                      pargs.hostname.upper(), color.END))
+
+        # Save credentials
+        pargs.serial = landb_host['SerialNumber']
+        pargs.username = ipmidb_rows[0][4]
+        pargs.password = ipmidb_rows[0][5]
+
+        # Route function
+        pargs.func(pargs)
+
+
+if __name__ == "__main__":
+    main()
