@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: gitlabirced
+Version: 0.1.2
+Summary: IRC bot that connects with your GitLab projects
+Home-page: https://github.com/palvarez89/gitlabirced
+Author: Pedro Alvarez Piedehierro
+Author-email: pedro@alvarezpiedehierro.com
+License: MIT license
+Keywords: gitlabirced
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Click (>=6.0)
+Requires-Dist: irc
+Requires-Dist: pyyaml
+
+===========
+GitlabIRCed
+===========
+
+
+.. image:: https://img.shields.io/pypi/v/gitlabirced.svg
+        :target: https://pypi.python.org/pypi/gitlabirced
+
+.. image:: https://gitlab.com/palvarez89/gitlabirced/badges/master/pipeline.svg
+        :target: https://gitlab.com/palvarez89/gitlabirced/commits/master
+
+.. image:: https://gitlab.com/palvarez89/gitlabirced/badges/master/coverage.svg?job=tests
+        :target: https://gitlab.com/palvarez89/gitlabirced/commits/master
+
+.. image:: https://readthedocs.org/projects/gitlabirced/badge/?version=latest
+        :target: https://gitlabirced.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+IRC bot that connects with your GitLab projects
+
+
+* Free software: MIT license
+* Documentation: https://gitlabirced.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2018-08-19)
+------------------
+
+* First release on PyPI.
+
+
