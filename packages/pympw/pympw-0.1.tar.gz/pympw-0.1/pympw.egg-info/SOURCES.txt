@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/pympw
+pympw/__init__.py
+pympw.egg-info/PKG-INFO
+pympw.egg-info/SOURCES.txt
+pympw.egg-info/dependency_links.txt
+pympw.egg-info/not-zip-safe
+pympw.egg-info/requires.txt
+pympw.egg-info/top_level.txt
