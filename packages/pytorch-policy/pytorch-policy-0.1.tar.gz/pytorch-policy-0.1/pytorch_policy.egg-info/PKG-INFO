@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pytorch-policy
+Version: 0.1
+Summary: Reinforcement Learning in Pytorch
+Home-page: https://github.com/navneet-nmk/pytorch-rl
+Author: Navneet M Kumar
+Author-email: navneet.nmk@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
