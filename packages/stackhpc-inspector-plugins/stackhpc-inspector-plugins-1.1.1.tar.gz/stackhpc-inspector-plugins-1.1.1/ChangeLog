@@ -1,0 +1,26 @@
+CHANGES
+=======
+
+1.1.1
+-----
+
+* Fix AttributeError when some ports don't have physnet
+
+1.1.0
+-----
+
+* Address review comments
+* Add Infiniband phyiscal network plugin
+* Fix unit test failures
+* Finish off test for invalid system name mapping
+* Fix name of config option in README and docstring
+* Add system name to physical network plugin
+* Add base physical network plugin
+* Add TravisCI configuration
+* Add usage to README
+
+1.0.0
+-----
+
+* Add system name local link connection plugin
+* Initial commit of StackHPC inspector plugins
