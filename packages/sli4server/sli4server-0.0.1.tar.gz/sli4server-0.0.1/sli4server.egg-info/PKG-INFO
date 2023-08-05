@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sli4server
+Version: 0.0.1
+Summary: Example about Python Server
+Home-page: https://github.com/sli4/pyservereg
+Author: sli4
+Author-email: 928981943@qq.com
+License: UNKNOWN
+Description: # Python Server Example
+        
+        sli4server is a python project which store some examples about python server
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
