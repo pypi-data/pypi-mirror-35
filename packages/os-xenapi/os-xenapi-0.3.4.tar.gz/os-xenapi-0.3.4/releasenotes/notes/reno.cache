@@ -1,0 +1,50 @@
+---
+file-contents:
+  releasenotes/notes/compute-bootstrap-54cb5eb24b6ba133.yaml:
+    features: ["Now we can support boostrap an OpenStack compute node by running the\
+        \ command of\n``xenapi_bootstrap`` from a VM which is running on XenServer.\
+        \ It will automatically\nfinish the following bootstrap tasks:\n\n* configure\
+        \ HIMN interface (firstly need add a VIF for the VM to connect to HIMN.)\n\
+        \n* configure iptalbes to allow OpenStack traffic between compute VM and Dom0.\n\
+        \n* install OpenStack XAPI plugins into Dom0\n\n* gather XenAPI facts and\
+        \ save them into a json file which can be used\n  as input for other OpenStack\
+        \ deployment tasks.\n\n* and other misc bootstrap operations: e.g. enable\
+        \ Linux bridge in Dom0.\n\n.. note::\n\n       At the moment, ``xenapi_bootstrap``\
+        \ only supports CentOS 7.x.\n"]
+  releasenotes/notes/vdi-stream-536202fc2f0a4d0a.yaml:
+    features: ['The os-xenapi library now supports the VDI streaming feature which
+        will
+
+        allow the library user to create XenServer VDI from a gzipped image data
+
+        stream; or create gzipped image data stream from a specified XenServer
+
+        VDI.
+
+
+        By comparing to the existing dom0 glance plugin, the image data gets
+
+        processed on the fly via streams. So it doesn''t create intermediate files.
+
+        And it completely uses the formal VDI import or export APIs when it
+
+        exchanges VDI data with XenServer.
+
+        ']
+  releasenotes/notes/xapi-pool-f6282fbca7c0690a.yaml:
+    features: ['The os-xenapi library now supports XAPI pool. We can deploy OpenStack
+        on
+
+        hosts which belong to a XAPI pool, so that we can get the benefits from
+
+        XAPI pool features: e.g. it''s able to live migrate between two hosts
+
+        without moving the disks on shared storage.
+
+        ']
+notes:
+- files:
+  - [releasenotes/notes/compute-bootstrap-54cb5eb24b6ba133.yaml, 9f31d2af8f3d7d8ac6f9f059ba97b8fce5477c25]
+  - [releasenotes/notes/vdi-stream-536202fc2f0a4d0a.yaml, b61ca2a13cd3d63da76fbd2c4aa2f61d94431724]
+  - [releasenotes/notes/xapi-pool-f6282fbca7c0690a.yaml, b61ca2a13cd3d63da76fbd2c4aa2f61d94431724]
+  version: 0.3.2
