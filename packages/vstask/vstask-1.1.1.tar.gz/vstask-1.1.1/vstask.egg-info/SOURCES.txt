@@ -1,0 +1,15 @@
+README.md
+setup.py
+tests/__init__.py
+tests/sanity_test.py
+vstask/Timer.py
+vstask/__init__.py
+vstask/__version__.py
+vstask/cli.py
+vstask/completion.py
+vstask/vstask.py
+vstask.egg-info/PKG-INFO
+vstask.egg-info/SOURCES.txt
+vstask.egg-info/dependency_links.txt
+vstask.egg-info/entry_points.txt
+vstask.egg-info/top_level.txt

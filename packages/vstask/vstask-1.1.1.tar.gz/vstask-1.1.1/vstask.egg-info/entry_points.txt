@@ -1,0 +1,3 @@
+[console_scripts]
+vstask = vstask.vstask:main
+
