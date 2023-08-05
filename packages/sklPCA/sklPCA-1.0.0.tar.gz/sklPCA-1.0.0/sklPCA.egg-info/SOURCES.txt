@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+examples.py
+setup.cfg
+setup.py
+sklPCA/__init__.py
+sklPCA/functions.py
+sklPCA.egg-info/PKG-INFO
+sklPCA.egg-info/SOURCES.txt
+sklPCA.egg-info/dependency_links.txt
+sklPCA.egg-info/requires.txt
+sklPCA.egg-info/top_level.txt
