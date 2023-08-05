@@ -1,0 +1,16 @@
+hundo/Snakefile,sha256=G0JM8ofwHHV1C9DjW1Kgo_p1jQAKcCgb4IKuB6lVGug,31033
+hundo/__init__.py,sha256=hGL-AArQ0Apbe5sOTsn9tuwPHS36a2thv6a0syI0awg,23
+hundo/blast.py,sha256=WHifWGA9cDkjBJVUUm16QNOBMwHb_cmi2Xs5ybSU5sk,3824
+hundo/crest_classifier.py,sha256=76j09Pk5sHjuw4ZpwphsSOd0n6EvJ0MI68LttGwyuf8,7096
+hundo/environment.yml,sha256=15sPsGGTeVK9E8Bv5rzz8BMKrBEXi3x69mFB8cdOhug,447
+hundo/fasta.py,sha256=0O4fvyNHLKugmbRE0dSfHuIpRnSYT9x94rXJS9TvkQc,1425
+hundo/hundo.py,sha256=5NSmKAFhGZzycFL87G713C-fkS-rMDJxXBonV9msMuM,19329
+hundo/unite_classifier.py,sha256=2Rn1BJpUgDSAuGJeuy7fZiCGSSJdJgZKsjHhOGjrgCU,2511
+hundo/scripts/build_report.py,sha256=xTnyz58B1encF6OgAx5fwJzjON9AWfy6barHxkAUTDg,21825
+hundo-1.1.21.dist-info/DESCRIPTION.rst,sha256=aYAqCQMcB5PSSL5lwu9QUwFn4M0z6wi2TYMbn_lwYqQ,3973
+hundo-1.1.21.dist-info/METADATA,sha256=GCbox2CeI3Yi59h8OKShHuflUTIplbUdmA1e56xxi3M,4219
+hundo-1.1.21.dist-info/RECORD,,
+hundo-1.1.21.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+hundo-1.1.21.dist-info/entry_points.txt,sha256=YIPRHDYJTzWPxwmWSg9YocjfHAcMHo4MdWBAi9o3FlM,43
+hundo-1.1.21.dist-info/metadata.json,sha256=iy19OfTKkZATh-VczmxRbqyoWKgaqzjBAQhx6TzuBwg,573
+hundo-1.1.21.dist-info/top_level.txt,sha256=VKtC2Q0cnBV6GhCx-XDouYt3ouCFj20H-n2DJcw1FUc,6
