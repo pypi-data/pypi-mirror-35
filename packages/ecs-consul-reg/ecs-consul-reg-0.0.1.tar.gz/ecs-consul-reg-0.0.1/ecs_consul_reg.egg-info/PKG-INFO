@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: ecs-consul-reg
+Version: 0.0.1
+Summary: ecs-consul-reg
+Home-page: https://github.com/hampsterx/ecs-consul-reg
+Author: Tim van der Hulst
+Author-email: tim.vdh@gmail.com
+License: Apache2
+Description: ecs-consul-reg
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2

@@ -1,0 +1,3 @@
+[ecs_consul_reg]
+ecs-consul-reg = ecs_consul_reg.main:run
+
