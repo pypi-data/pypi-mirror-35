@@ -1,0 +1,112 @@
+Metadata-Version: 1.1
+Name: pyxstr2swift
+Version: 0.1.0.dev12
+Summary: Python package for a xcode strings file to a swift localized string file
+Home-page: https://github.com/ocworld/pyxstr2swift
+Author: Keunhyun Oh
+Author-email: ocworld@gmail.com
+License: MIT License
+
+Copyright (c) 2018 Keunhyun Oh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Project-URL: Bug Reports, https://github.com/ocworld/pyxstr2swift/issues
+Project-URL: Source, https://github.com/ocworld/pyxstr2swift
+Description: # pyxstr2swift
+        Python package for a Xcode strings file to a swift localized string file
+        
+        For example,
+        ```swift
+        import Foundation
+        
+        struct Localized {
+          static let edit = "edit".localized // edit
+        }
+        
+        ```
+        
+        It is available in python2.7 and python3
+        
+        ```console
+        foo@bar:~$ pip install -U pyxstr2swift
+        ```
+        
+        ```console
+        foo@bar:~$ xstr2swift [-f] [-m] [source_path] [target_path] [struct_name]
+        foo@bar:~$ python -m pyxstr2swift.pyxstr2swift [-f] [-m] [source_path] [target_path] [struct_name]
+        ```
+        
+        For using it, you should import a string extension library or write it.
+        Below the library help you to use it easily.
+        https://github.com/ocworld/OHSwiftLocalizedString
+        
+        
+        To use it in Xcode build pharses,
+        1. Install this module using python PIP.
+        If pip is not installed on your device, this command helps you. 
+        
+        ```console
+        foo@bar:~$ brew install python
+        foo@bar:~$ pip3 install -U pyxstr2swift
+        ```
+        
+        2. Add a output swift file to your project
+        3. Add a strings file to your project and write string keys and values
+        4. Add Run Script to build pharses before Compile Sources
+        5. Change Shell /bin/sh to /bin/bash (or /bin/zsh)
+        6. Write shell command.
+        For example,
+        ```console
+        xstr2swift -f -m "${SRCROOT}/Your project/en.lproj/Localized.strings" "${SRCROOT}/Your project/Localized.swift" "Localized"
+        ```
+        
+        7. That' all! build Your project now!
+        
+        Thanks to an author of this post https://medium.com/ios-forever/ios에서-localization하는-gorgeous-한-방법-f82ac29d2cfe
+        
+        ```console
+        usage: xstr2swift [-h] [-f] [-m] source target structname
+        
+        pyxstr2swift needs arguments
+        
+        positional arguments:
+          source         Input source a strings file
+          target         Input target a swift file
+          structname     Input target a swift struct name
+        
+        optional arguments:
+          -h, --help     show this help message and exit
+          -f, --force    force to write a target file if already exist
+          -m, --comment  values are added as comment
+        ```
+        
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.6
