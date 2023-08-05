@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier id="uid">gorgonzola-informeren-dagens-template</dc:identifier>
+      <dc:title>Information – Skabelon for dagens avis</dc:title>
+      <dc:creator>Dagbladet Information (og gorgonzo.la)</dc:creator>
+      <dc:language>da</dc:language>
+      <meta property="dcterms:modified">1945-05-05T00:00:00Z</meta>
+   </metadata>
+   <manifest>
+      <item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav" />
+   </manifest>
+   <spine>
+      <itemref idref="nav"/>
+   </spine>
+</package>

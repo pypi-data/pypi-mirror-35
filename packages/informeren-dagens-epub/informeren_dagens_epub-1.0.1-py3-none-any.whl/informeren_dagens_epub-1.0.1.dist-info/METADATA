@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: informeren-dagens-epub
+Version: 1.0.1
+Summary: Create an EPUB of any online issue of Danish daily Information.
+Home-page: https://gitlab.com/gorgonzola/informeren-dagens-epub/
+Author: Mikkel Munch Mortensen
+Author-email: 3xm@detfalskested.dk
+License: MIT
+Keywords: information informeren epub news newspaper
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: Danish
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: News/Diary
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Requires-Dist: beautifulsoup4 (==4.6.0)
+Requires-Dist: lxml (==4.2.1)
+Requires-Dist: requests (==2.18.4)
+
+Read more on `the project home page <https://gitlab.com/gorgonzola/informeren-dagens-epub/blob/master/README.md>`_.
+
+

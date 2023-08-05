@@ -1,0 +1,14 @@
+informeren/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+informeren/epub.py,sha256=1L3GucD4zy3zKy9VWb1SpPoLx9tC4WhiF8j-702GTQ4,22058
+informeren/version.py,sha256=4SrBpX_zhtShstkj1rfXWgPbo5c4MJLHiN4JjhWfJvQ,66
+informeren/template/mimetype,sha256=5GjjUNEUPrZI9gx7C9YDEQHsBUSjYcp07O8laskB9Is,20
+informeren/template/EPUB/package.opf,sha256=tqzOkAdhTKwj01ApJN6AvChJDXq_eaGSaFRZWdG6-fI,730
+informeren/template/EPUB/xhtml/article.xhtml,sha256=GlWeve_FII9en_E5oVmhM84WXr8ZqoLCpIOIL1I2kt0,1255
+informeren/template/EPUB/xhtml/frontpage.xhtml,sha256=XU80JyVKREo7sg7YCGuoIDGgbEGoMnFLCkBIfaqOYd4,444
+informeren/template/EPUB/xhtml/nav.xhtml,sha256=2ZD5SU8EL4hJEM_kzwG7LxlW11kYCsIv532BcqlnPJ0,509
+informeren/template/META-INF/container.xml,sha256=bX6h6z8vaDAYaYmdbG7F3vOmqw2oCgtJFPiR7c0lHrM,261
+informeren_dagens_epub-1.0.1.dist-info/METADATA,sha256=XPosOdDkOHC_VX2ANni3sUsFCr0C0nPqE0jDNQjzu_E,972
+informeren_dagens_epub-1.0.1.dist-info/RECORD,,
+informeren_dagens_epub-1.0.1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+informeren_dagens_epub-1.0.1.dist-info/entry_points.txt,sha256=e_x2dqrRIjkppeEbV0KroITKsk1rUt__BDSJbSb1bVM,58
+informeren_dagens_epub-1.0.1.dist-info/top_level.txt,sha256=4dnr6FBziHYYI1XUvbxngUTWKrQajn44yYOXoDOF3SU,11
