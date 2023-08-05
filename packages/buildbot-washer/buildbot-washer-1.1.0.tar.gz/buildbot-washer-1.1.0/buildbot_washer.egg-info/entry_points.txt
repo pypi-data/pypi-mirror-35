@@ -1,0 +1,8 @@
+[buildbot.steps]
+ReduceTriggerProperties = washer.master.steps.reducetriggerproperties:ReduceTriggerProperties
+TriggerFromFile = washer.master.steps.triggerfromfile:TriggerFromFile
+WasherTask = washer.master.steps.washertask:WasherTask
+
+[buildbot.worker]
+WasherDockerLatentWorker = washer.master.worker.docker:WasherDockerLatentWorker
+
