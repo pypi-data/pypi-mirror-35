@@ -1,0 +1,6 @@
+README.md
+setup.py
+weatherpi.egg-info/PKG-INFO
+weatherpi.egg-info/SOURCES.txt
+weatherpi.egg-info/dependency_links.txt
+weatherpi.egg-info/top_level.txt
