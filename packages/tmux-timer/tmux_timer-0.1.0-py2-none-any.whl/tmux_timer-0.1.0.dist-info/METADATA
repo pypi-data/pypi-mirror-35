@@ -1,0 +1,35 @@
+Metadata-Version: 2.0
+Name: tmux-timer
+Version: 0.1.0
+Summary: Command-line timer for tmux
+Home-page: https://github.com/chrahunt/python-tmux-timer
+Author: Chris Hunt
+Author-email: chrahunt@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+# tmux timer
+
+This package provides a timer that can be used in tmux.
+
+## Usage
+
+First, set up your tmux config to run the display command
+
+```
+set -g status-right '#(tmux_timer show)'
+```
+
+Next, set up bindings to invoke the timer
+
+```
+bind t run-shell "tmux_timer toggle"
+```
+
+
