@@ -1,0 +1,7 @@
+[console_scripts]
+zyre-broker = pyzyre.broker:main
+zyre-certs = pyzyre.zcerts:main
+zyre-chat = pyzyre.chat:main
+zyre-gateway = pyzyre.gateway:main
+zyre-pipe = pyzyre.zpipe:main
+
