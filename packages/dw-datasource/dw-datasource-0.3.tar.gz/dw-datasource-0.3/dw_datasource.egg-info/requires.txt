@@ -1,0 +1,5 @@
+tiingo
+pandas
+beautifulsoup4
+requests
+quandl
