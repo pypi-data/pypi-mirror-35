@@ -1,0 +1,13 @@
+llnl_scraper-0.3.0.data/scripts/codegov_compute_hours.py,sha256=U22wDwo2buFVTYln3dVeAzHDz07kJNaSAM1tbqEOjWQ,705
+llnl_scraper-0.3.0.dist-info/METADATA,sha256=jtp3Z_mA1Rxd9SenPqr67Wb5okd0XQ0J9sG5-Y0gX_A,632
+llnl_scraper-0.3.0.dist-info/RECORD,,
+llnl_scraper-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+llnl_scraper-0.3.0.dist-info/entry_points.txt,sha256=PjP0k6CdQf_f7ykRZj260U9ttxcfyfSwXPDAllrFjRI,60
+llnl_scraper-0.3.0.dist-info/top_level.txt,sha256=7mMSfNnJkw1ZNz9GtP5MR6Hh0DYR7LY7dqAaNJATf4c,8
+scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scraper/gen_code_gov_json.py,sha256=MJYtUtd8eQyquOT8p5XVinKCfc9q3IMlWebO8PNrKVI,8903
+scraper/util.py,sha256=ph2Moyz0F0BpwptfGv03QFaBEF6bgLbqu0422WF3VRQ,5680
+scraper/code_gov/__init__.py,sha256=xI4d6PMO37wajT13VpRxC0tN3WJaq09mgrGOV_ARjP8,24578
+scraper/code_gov/doe.py,sha256=8pxGqQTN1w1veuGaLPMUbgKaoNX9oglJ6QtgMvMTJA0,2503
+scraper/github/__init__.py,sha256=R013XjhY7yW-5yiKq8fcSMuHtSjOul-_2aAQSmKVAew,1989
+scraper/github/queryManager.py,sha256=lahzUQY6JO-IDUte5KgarRKWG2KFD_MvrpKCaVjsFQc,21672
