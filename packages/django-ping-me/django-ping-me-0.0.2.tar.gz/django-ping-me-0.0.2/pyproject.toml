@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "django-ping-me"
+version = "0.0.2"
+description = "Django application to create availability statistics of web servers"
+authors = ["Aloha68 <git@aloha.im>"]
+license = "WTFPL"
+
+readme = 'README.md'
+
+repository = "https://gitlab.com/aloha68/django-ping-me"
+homepage = "https://gitlab.com/aloha68/django-ping-me"
+
+keywords = ['django']
+
+[tool.poetry.dependencies]
+python = "^3.4"
+aloha-utils = "^0.0.3"
+django = "2.0.7"
+django-cron = "0.5.1"
+
+[tool.poetry.dev-dependencies]
