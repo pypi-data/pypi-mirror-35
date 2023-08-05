@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyleftpad
+Version: 0.1.0
+Summary: Python leftpad
+Home-page: UNKNOWN
+License: GPLv3
+Description: UNKNOWN
+Keywords: leftpad,pyleftpad
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+Provides-Extra: docs

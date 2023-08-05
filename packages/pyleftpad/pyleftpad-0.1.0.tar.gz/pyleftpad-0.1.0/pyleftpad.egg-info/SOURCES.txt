@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+leftpad/__init__.py
+leftpad/cli.py
+leftpad/func.py
+pyleftpad.egg-info/PKG-INFO
+pyleftpad.egg-info/SOURCES.txt
+pyleftpad.egg-info/dependency_links.txt
+pyleftpad.egg-info/entry_points.txt
+pyleftpad.egg-info/requires.txt
+pyleftpad.egg-info/top_level.txt
