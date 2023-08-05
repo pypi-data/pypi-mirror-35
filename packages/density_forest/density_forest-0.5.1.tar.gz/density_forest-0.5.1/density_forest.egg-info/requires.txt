@@ -1,0 +1,10 @@
+numpy
+matplotlib
+scipy
+tqdm
+Cython
+scikit-image
+pandas
+joblib
+pip
+sklearn
