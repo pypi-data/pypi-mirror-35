@@ -1,0 +1,6 @@
+README.md
+pyoslapi.egg-info/PKG-INFO
+pyoslapi.egg-info/SOURCES.txt
+pyoslapi.egg-info/dependency_links.txt
+pyoslapi.egg-info/requires.txt
+pyoslapi.egg-info/top_level.txt
