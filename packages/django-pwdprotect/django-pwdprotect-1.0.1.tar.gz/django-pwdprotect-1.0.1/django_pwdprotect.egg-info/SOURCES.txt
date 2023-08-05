@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_pwdprotect.egg-info/PKG-INFO
+django_pwdprotect.egg-info/SOURCES.txt
+django_pwdprotect.egg-info/dependency_links.txt
+django_pwdprotect.egg-info/top_level.txt
+pwdprotect/__init__.py
+pwdprotect/admin.py
+pwdprotect/apps.py
+pwdprotect/middleware.py
+pwdprotect/models.py
+pwdprotect/migrations/0001_initial.py
+pwdprotect/migrations/__init__.py
