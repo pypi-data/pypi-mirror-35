@@ -1,0 +1,5 @@
+requests>=2.0
+pypiwin32>=223
+
+[dev]
+setuptools-version-command
