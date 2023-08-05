@@ -1,0 +1,5 @@
+Keras==2.1.6
+Pillow
+keras-vis-temp
+lime
+pytest
