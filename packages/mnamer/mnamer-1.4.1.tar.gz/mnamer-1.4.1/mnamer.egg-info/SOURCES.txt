@@ -1,0 +1,17 @@
+MANIFEST.in
+license.txt
+readme.md
+requirements.txt
+setup.cfg
+setup.py
+mnamer/__init__.py
+mnamer/__main__.py
+mnamer/__version__.py
+mnamer/exceptions.py
+mnamer/utils.py
+mnamer.egg-info/PKG-INFO
+mnamer.egg-info/SOURCES.txt
+mnamer.egg-info/dependency_links.txt
+mnamer.egg-info/entry_points.txt
+mnamer.egg-info/requires.txt
+mnamer.egg-info/top_level.txt
