@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: hydra-server
+Version: 0.1.1
+Summary: A JSON RPC server front end for the hydra-base network manager
+Home-page: https://github.com/hydraplatform/hydra-server
+Author: Stephen Knox
+Author-email: stephen.knox@manchester.ac.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
