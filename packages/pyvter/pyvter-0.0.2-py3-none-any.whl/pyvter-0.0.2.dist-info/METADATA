@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyvter
+Version: 0.0.2
+Summary: Interactive Statistics Workflows
+Home-page: https://github.com/jhd/pyvter
+Author: jhd
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Interactive Statistics Workflows
+
+
