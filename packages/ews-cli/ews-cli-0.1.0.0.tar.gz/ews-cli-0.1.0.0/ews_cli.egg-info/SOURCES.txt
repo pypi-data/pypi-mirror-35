@@ -1,0 +1,16 @@
+setup.cfg
+setup.py
+ews_cli/__init__.py
+ews_cli/cli.py
+ews_cli/ews.py
+ews_cli/gui.py
+ews_cli/msg.py
+ews_cli/rules.py
+ews_cli/util.py
+ews_cli.egg-info/PKG-INFO
+ews_cli.egg-info/SOURCES.txt
+ews_cli.egg-info/dependency_links.txt
+ews_cli.egg-info/entry_points.txt
+ews_cli.egg-info/not-zip-safe
+ews_cli.egg-info/requires.txt
+ews_cli.egg-info/top_level.txt
