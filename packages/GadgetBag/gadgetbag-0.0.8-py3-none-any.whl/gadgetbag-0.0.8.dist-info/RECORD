@@ -1,0 +1,12 @@
+gadgetbag/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gadgetbag/mydyplib.py,sha256=ssYF1UuV5AQoQHDQ4WJ1hCgsmHET9hPDSrYjj3PvPrY,404
+gadgetbag/Filegadget/FileProcess.py,sha256=kpvKWF8Y0ViGKWB6G3oNGy9ZZYQQTwhZ62jEZY9MFxU,6701
+gadgetbag/Filegadget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gadgetbag/Webgadget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gadgetbag/filegadget/FileProcess.py,sha256=kpvKWF8Y0ViGKWB6G3oNGy9ZZYQQTwhZ62jEZY9MFxU,6701
+gadgetbag/filegadget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gadgetbag/webgadget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gadgetbag-0.0.8.dist-info/METADATA,sha256=w8C4ykXke_o8WW6UsiqnqOpjHWydGbKGfy82odvOrRE,489
+gadgetbag-0.0.8.dist-info/RECORD,,
+gadgetbag-0.0.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+gadgetbag-0.0.8.dist-info/top_level.txt,sha256=WRtnSoSYUr41A7LEjpRxZDLA8xO-BQWx5yToajOMfXM,10
