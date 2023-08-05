@@ -1,0 +1,12 @@
+README.md
+setup.py
+voice_commander/__init__.py
+voice_commander/__main__.py
+voice_commander/actions.py
+voice_commander/commander.py
+voice_commander/gui.py
+voice_commander.egg-info/PKG-INFO
+voice_commander.egg-info/SOURCES.txt
+voice_commander.egg-info/dependency_links.txt
+voice_commander.egg-info/requires.txt
+voice_commander.egg-info/top_level.txt
