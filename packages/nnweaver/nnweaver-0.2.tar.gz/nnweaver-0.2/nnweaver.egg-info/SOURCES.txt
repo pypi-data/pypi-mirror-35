@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+nnweaver/__init__.py
+nnweaver/activations.py
+nnweaver/callbacks.py
+nnweaver/losses.py
+nnweaver/nn.py
+nnweaver/optimizers.py
+nnweaver/regularizers.py
+nnweaver/utils.py
+nnweaver/validation.py
+nnweaver.egg-info/PKG-INFO
+nnweaver.egg-info/SOURCES.txt
+nnweaver.egg-info/dependency_links.txt
+nnweaver.egg-info/requires.txt
+nnweaver.egg-info/top_level.txt
