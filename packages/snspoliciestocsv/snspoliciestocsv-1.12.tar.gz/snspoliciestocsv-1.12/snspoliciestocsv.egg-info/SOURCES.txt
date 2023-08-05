@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+snspoliciestocsv/README.md
+snspoliciestocsv/__init__.py
+snspoliciestocsv/snspoliciestocsv.py
+snspoliciestocsv.egg-info/PKG-INFO
+snspoliciestocsv.egg-info/SOURCES.txt
+snspoliciestocsv.egg-info/dependency_links.txt
+snspoliciestocsv.egg-info/entry_points.txt
+snspoliciestocsv.egg-info/top_level.txt
