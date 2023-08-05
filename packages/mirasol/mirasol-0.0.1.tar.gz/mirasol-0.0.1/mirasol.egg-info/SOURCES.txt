@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+mirasol.egg-info/PKG-INFO
+mirasol.egg-info/SOURCES.txt
+mirasol.egg-info/dependency_links.txt
+mirasol.egg-info/requires.txt
+mirasol.egg-info/top_level.txt

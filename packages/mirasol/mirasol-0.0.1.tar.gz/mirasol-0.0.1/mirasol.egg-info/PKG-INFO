@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mirasol
+Version: 0.0.1
+Summary: A self-contained backend-independent version of FLOW for (deep) reinforcement learning in a network environment.
+Home-page: https://github.com/fywu85/mirasol
+Author: Fangyu Wu
+Author-email: fangyuwu@berkeley.edu
+License: MIT
+Description: This is a minimized version of FLOW (https://github.com/berkeleyflow/flow) stack. It allows users to define a custom environment backend and a custom agent backend. The current version supports SUMO (https://github.com/eclipse/sumo) as the environment backend and tensorflow (https://github.com/tensorflow) as the agent backend.
+Keywords: deep reinforcement learning on networks
+Platform: UNKNOWN
