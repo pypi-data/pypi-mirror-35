@@ -1,0 +1,4 @@
+aioredis
+fb-re2
+msgpack-python
+redis
