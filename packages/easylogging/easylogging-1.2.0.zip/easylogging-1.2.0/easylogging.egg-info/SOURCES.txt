@@ -1,0 +1,8 @@
+README.md
+setup.py
+easylogging/__init__.py
+easylogging.egg-info/PKG-INFO
+easylogging.egg-info/SOURCES.txt
+easylogging.egg-info/dependency_links.txt
+easylogging.egg-info/requires.txt
+easylogging.egg-info/top_level.txt
