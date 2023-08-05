@@ -1,0 +1,11 @@
+megaphone/__init__.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+megaphone/client.py,sha256=szWfB7odciMGZAQ7pGp1J4XQ6Cc2zt88qc6nmp5hJmI,2367
+megaphone/errors.py,sha256=SaRfwUsZrU_CWvG9OmgK2T-nKnzPGmdhRMzahQlaqqU,152
+megaphone/network.py,sha256=udLjDlto73k5yhGQVk5tyY5X3LvQ6BptRYsc7HsQc0s,788
+megaphone/organization.py,sha256=rmjOAzsdEQdfa0EzVQa6QQTAG8glAtCPjCc3gs2KC2Q,783
+megaphone/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+megaphone/test/test_linting.py,sha256=phuiucBVpmeIVhxTTMaxwOLou5XsZ8XNRvOBJmfylG0,689
+megaphone-0.1.dist-info/METADATA,sha256=6i7cClIejOc6C-JBkrLU-0GOR6_Ke5ekat3q8YkK824,309
+megaphone-0.1.dist-info/RECORD,,
+megaphone-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+megaphone-0.1.dist-info/top_level.txt,sha256=6gEs7ohCiZCXiLWHI9xfW-CM41EWoEnJUyUzRHXkkWI,10
