@@ -1,0 +1,3 @@
+[kibitzr.before_start]
+before_start = kibitzr_sentry:on_before_start
+
