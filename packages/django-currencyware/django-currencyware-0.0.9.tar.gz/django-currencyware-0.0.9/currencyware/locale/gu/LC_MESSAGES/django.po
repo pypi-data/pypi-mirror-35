@@ -1,0 +1,529 @@
+# Translation of ISO 4217 to LANGUAGE
+# Codes for the representation of currencies
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright ©
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "યુએઇ દિરહામ"
+
+msgid "ISO_4217.AFN"
+msgstr "અફઘાની"
+
+msgid "ISO_4217.ALL"
+msgstr "લેક"
+
+msgid "ISO_4217.AMD"
+msgstr "આર્મેનિયન ડ્રામ"
+
+msgid "ISO_4217.ANG"
+msgstr "નેધરલેન્ડ એન્ટિલિયન ગિલ્ડર"
+
+msgid "ISO_4217.AOA"
+msgstr "ક્વાન્ઝા"
+
+msgid "ISO_4217.ARS"
+msgstr "અર્જેન્ટીના પેસો"
+
+msgid "ISO_4217.AUD"
+msgstr "ઓસ્ટ્રેલિયન ડોલર"
+
+msgid "ISO_4217.AWG"
+msgstr "અરુબાન ફ્લોરીન"
+
+msgid "ISO_4217.AZN"
+msgstr "અઝરબૈજાન મનાત"
+
+msgid "ISO_4217.BAM"
+msgstr "કન્વર્ટિબલ માર્ક"
+
+msgid "ISO_4217.BBD"
+msgstr "બાર્બાડોસ ડૉલર"
+
+msgid "ISO_4217.BDT"
+msgstr "ટાકા"
+
+msgid "ISO_4217.BGN"
+msgstr "બલ્ગેરિયન લેવ"
+
+msgid "ISO_4217.BHD"
+msgstr "બેહરીની દીનાર"
+
+msgid "ISO_4217.BIF"
+msgstr "બુરુન્ડી ફ્રાન્ક"
+
+msgid "ISO_4217.BMD"
+msgstr "બર્મુડિયન ડૉલર"
+
+msgid "ISO_4217.BND"
+msgstr "બ્રુનેઇ ડૉલર"
+
+msgid "ISO_4217.BOB"
+msgstr "બોલિવિયાનો"
+
+msgid "ISO_4217.BRL"
+msgstr "બ્રાઝિલિયન રિયલ"
+
+msgid "ISO_4217.BSD"
+msgstr "બાહમિયન ડૉલર"
+
+msgid "ISO_4217.BTN"
+msgstr "એનગલ્ટમ"
+
+msgid "ISO_4217.BWP"
+msgstr "પ્યૂલા"
+
+msgid "ISO_4217.BYR"
+msgstr "બેલારુશિયન રૂબલ"
+
+msgid "ISO_4217.BZD"
+msgstr "બેલીઝ ડોલર"
+
+msgid "ISO_4217.CAD"
+msgstr "કેનેડિયન ડૉલર"
+
+msgid "ISO_4217.CDF"
+msgstr "Congolese ફ્રાંસ"
+
+msgid "ISO_4217.CHF"
+msgstr "સ્વિસ ફ્રેંક"
+
+msgid "ISO_4217.CLP"
+msgstr "ચિલીયન પેસો"
+
+msgid "ISO_4217.CNY"
+msgstr "યુઆન રેન્મિબી"
+
+msgid "ISO_4217.COP"
+msgstr "કોલમ્બિઅન પેસો"
+
+msgid "ISO_4217.CRC"
+msgstr "કોસ્ટા રિકન કોલન"
+
+msgid "ISO_4217.CUC"
+msgstr "પેસો કન્વર્ટિબલ"
+
+msgid "ISO_4217.CUP"
+msgstr "ક્યુબન પેસો"
+
+msgid "ISO_4217.CVE"
+msgstr "કાબો વર્ડે એસ્કોડો"
+
+msgid "ISO_4217.CZK"
+msgstr "ચેક કોરુના"
+
+msgid "ISO_4217.DJF"
+msgstr "જીબૌટી ફ્રેંક"
+
+msgid "ISO_4217.DKK"
+msgstr "ડેનિશ ક્રોન"
+
+msgid "ISO_4217.DOP"
+msgstr "ડોમિનિકન પેસો"
+
+msgid "ISO_4217.DZD"
+msgstr "અલ્જેરિયાના દીનાર"
+
+msgid "ISO_4217.EGP"
+msgstr "ઇજિપ્તિયન પાઉન્ડ"
+
+msgid "ISO_4217.ERN"
+msgstr "નાક્ફા"
+
+msgid "ISO_4217.ETB"
+msgstr "ઇથિયોપીયન બિર"
+
+msgid "ISO_4217.EUR"
+msgstr "યુરો"
+
+msgid "ISO_4217.FJD"
+msgstr "ફીજી ડૉલર"
+
+msgid "ISO_4217.FKP"
+msgstr "ફોકલેન્ડ ટાપુઓ પાઉન્ડ"
+
+msgid "ISO_4217.GBP"
+msgstr "પાઉન્ડ સ્ટર્લિંગ"
+
+msgid "ISO_4217.GEL"
+msgstr "લારી"
+
+msgid "ISO_4217.GHS"
+msgstr "ઘાના સીડી"
+
+msgid "ISO_4217.GIP"
+msgstr "જિબ્રાલ્ટર પાઉન્ડ"
+
+msgid "ISO_4217.GMD"
+msgstr "દાલસી"
+
+msgid "ISO_4217.GNF"
+msgstr "ગિની ફ્રૅંક"
+
+msgid "ISO_4217.GTQ"
+msgstr "ક્વેટાઝાલ"
+
+msgid "ISO_4217.GYD"
+msgstr "ગુઆના ડૉલર"
+
+msgid "ISO_4217.HKD"
+msgstr "હોંગ કોંગ ડૉલર"
+
+msgid "ISO_4217.HNL"
+msgstr "લેમ્પીરા"
+
+msgid "ISO_4217.HRK"
+msgstr "કુના"
+
+msgid "ISO_4217.HTG"
+msgstr "ગોર્ડે"
+
+msgid "ISO_4217.HUF"
+msgstr "ફ્રિન્ટ"
+
+msgid "ISO_4217.IDR"
+msgstr "રૂપીયાહ"
+
+msgid "ISO_4217.ILS"
+msgstr "ન્યૂ ઇઝરાયેલી શેકલ"
+
+msgid "ISO_4217.INR"
+msgstr "ભારતીય રૂપિયો"
+
+msgid "ISO_4217.IQD"
+msgstr "ઇરાકી દીનાર"
+
+msgid "ISO_4217.IRR"
+msgstr "ઈરાની રિયાલ"
+
+msgid "ISO_4217.ISK"
+msgstr "આઇસલેન્ડ ક્રોના"
+
+msgid "ISO_4217.JMD"
+msgstr "જમૈકન ડોલર"
+
+msgid "ISO_4217.JOD"
+msgstr "જોર્ડનીયન દિવસર"
+
+msgid "ISO_4217.JPY"
+msgstr "યેન"
+
+msgid "ISO_4217.KES"
+msgstr "કેન્યાના શિલિંગ"
+
+msgid "ISO_4217.KGS"
+msgstr "સોમ"
+
+msgid "ISO_4217.KHR"
+msgstr "રિયેલ"
+
+msgid "ISO_4217.KMF"
+msgstr "કોમોરૉ ફ્રાન્ક"
+
+msgid "ISO_4217.KPW"
+msgstr "ઉત્તર કોરિયન વૅન"
+
+msgid "ISO_4217.KRW"
+msgstr "જીત્યું"
+
+msgid "ISO_4217.KWD"
+msgstr "કુવૈતી દિનાર"
+
+msgid "ISO_4217.KYD"
+msgstr "કેમેન ટાપુઓ ડોલર"
+
+msgid "ISO_4217.KZT"
+msgstr "તંગી"
+
+msgid "ISO_4217.LAK"
+msgstr "કિપ"
+
+msgid "ISO_4217.LBP"
+msgstr "લેબનીઝ પાઉન્ડ"
+
+msgid "ISO_4217.LKR"
+msgstr "શ્રીલંકા રૂપી"
+
+msgid "ISO_4217.LRD"
+msgstr "લાઇબેરિયન ડોલર"
+
+msgid "ISO_4217.LSL"
+msgstr "લોટી"
+
+msgid "ISO_4217.LYD"
+msgstr "લિબિયન દીનાર"
+
+msgid "ISO_4217.MAD"
+msgstr "મોરોક્કન દિરહામ"
+
+msgid "ISO_4217.MDL"
+msgstr "મોલ્ડોવન લ્યુ"
+
+msgid "ISO_4217.MGA"
+msgstr "મલાગસી એરિયરી"
+
+msgid "ISO_4217.MKD"
+msgstr "ડેનર"
+
+msgid "ISO_4217.MMK"
+msgstr "કિયાટ"
+
+msgid "ISO_4217.MNT"
+msgstr "તુગ્રીક"
+
+msgid "ISO_4217.MOP"
+msgstr "પેટાકા"
+
+msgid "ISO_4217.MRO"
+msgstr "ઓગુયિયા"
+
+msgid "ISO_4217.MUR"
+msgstr "મોરિશિયસ રૂપિયો"
+
+msgid "ISO_4217.MVR"
+msgstr "રૂફિયા"
+
+msgid "ISO_4217.MWK"
+msgstr "માલાવી Kwacha"
+
+msgid "ISO_4217.MXN"
+msgstr "મેક્સીકન પેસો"
+
+msgid "ISO_4217.MYR"
+msgstr "મલેશિયન રીંગિટ"
+
+msgid "ISO_4217.MZN"
+msgstr "મોઝામ્બિક મેટિકલ"
+
+msgid "ISO_4217.NAD"
+msgstr "નામીબીયા ડૉલર"
+
+msgid "ISO_4217.NGN"
+msgstr "નાયરા"
+
+msgid "ISO_4217.NIO"
+msgstr "કૉર્ડોબા ઓરો"
+
+msgid "ISO_4217.NOK"
+msgstr "નોર્વેયન ક્રોન"
+
+msgid "ISO_4217.NPR"
+msgstr "નેપાળી રૂપિયો"
+
+msgid "ISO_4217.NZD"
+msgstr "ન્યુઝીલેન્ડ ડૉલર"
+
+msgid "ISO_4217.OMR"
+msgstr "રિયલ ઓમની"
+
+msgid "ISO_4217.PAB"
+msgstr "બાલબોઆ"
+
+msgid "ISO_4217.PEN"
+msgstr "સોલ"
+
+msgid "ISO_4217.PGK"
+msgstr "કિના"
+
+msgid "ISO_4217.PHP"
+msgstr "ફિલિપાઇન પેસો"
+
+msgid "ISO_4217.PKR"
+msgstr "પાકિસ્તાન રૂપિયો"
+
+msgid "ISO_4217.PLN"
+msgstr "ઝાલ્ટી"
+
+msgid "ISO_4217.PYG"
+msgstr "ગુઆરાણી"
+
+msgid "ISO_4217.QAR"
+msgstr "કતાર રાયલ"
+
+msgid "ISO_4217.RON"
+msgstr "રોમાનિયન લુ"
+
+msgid "ISO_4217.RSD"
+msgstr "સર્બિયન દિનાર"
+
+msgid "ISO_4217.RUB"
+msgstr "રશિયન રૂબલ"
+
+msgid "ISO_4217.RWF"
+msgstr "રવાન્ડા ફ્રાન્ક"
+
+msgid "ISO_4217.SAR"
+msgstr "સાઉદી રિયાલ"
+
+msgid "ISO_4217.SBD"
+msgstr "સોલોમન આઇલેન્ડ્સ ડૉલર"
+
+msgid "ISO_4217.SCR"
+msgstr "સેશેલ્સ રૂપી"
+
+msgid "ISO_4217.SDG"
+msgstr "સુદાનિસ પાઉન્ડ"
+
+msgid "ISO_4217.SEK"
+msgstr "સ્વીડિશ ક્રોના"
+
+msgid "ISO_4217.SGD"
+msgstr "સિંગાપોર ડૉલર"
+
+msgid "ISO_4217.SHP"
+msgstr "સેન્ટ હેલેના પાઉન્ડ"
+
+msgid "ISO_4217.SLL"
+msgstr "લિઓન"
+
+msgid "ISO_4217.SOS"
+msgstr "સોમાલી શિલિંગ"
+
+msgid "ISO_4217.SRD"
+msgstr "સુરીનામ ડૉલર"
+
+msgid "ISO_4217.SSP"
+msgstr "દક્ષિણ સુદાનિસ પાઉન્ડ"
+
+msgid "ISO_4217.STD"
+msgstr "ડોબ્રા"
+
+msgid "ISO_4217.SVC"
+msgstr "અલ સાલ્વાડોર કોલન"
+
+msgid "ISO_4217.SYP"
+msgstr "સીરિયન પાઉન્ડ"
+
+msgid "ISO_4217.SZL"
+msgstr "લિલેજેની"
+
+msgid "ISO_4217.THB"
+msgstr "બાહ્ટ"
+
+msgid "ISO_4217.TJS"
+msgstr "સોમોની"
+
+msgid "ISO_4217.TMT"
+msgstr "તુર્કમેનિસ્તાન ન્યૂ મનાટ"
+
+msgid "ISO_4217.TND"
+msgstr "ટ્યૂનિશિઅન દિનર"
+
+msgid "ISO_4217.TOP"
+msgstr "પંગા"
+
+msgid "ISO_4217.TRY"
+msgstr "ટર્કિશ લીરા"
+
+msgid "ISO_4217.TTD"
+msgstr "ત્રિનિદાદ અને ટોબેગો ડૉલર"
+
+msgid "ISO_4217.TWD"
+msgstr "ન્યૂ તાઇવાન ડોલર"
+
+msgid "ISO_4217.TZS"
+msgstr "તાંઝાનિયા શિલિંગ"
+
+msgid "ISO_4217.UAH"
+msgstr "રિવનિયા"
+
+msgid "ISO_4217.UGX"
+msgstr "યુગાન્ડા શિલિંગ"
+
+msgid "ISO_4217.USD"
+msgstr "અમેરીકી ડોલર"
+
+msgid "ISO_4217.UYU"
+msgstr "પેસો ઉરુગ્વેયો"
+
+msgid "ISO_4217.UZS"
+msgstr "ઉઝબેકિસ્તાન રકમ"
+
+msgid "ISO_4217.VEF"
+msgstr "બોલિવર"
+
+msgid "ISO_4217.VND"
+msgstr "ડોંગ"
+
+msgid "ISO_4217.VUV"
+msgstr "વુટુ"
+
+msgid "ISO_4217.WST"
+msgstr "તલા"
+
+msgid "ISO_4217.XAF"
+msgstr "સીએફએફ્રાફ્રેક બીઇએસી"
+
+msgid "ISO_4217.XAG"
+msgstr "ચાંદીના"
+
+msgid "ISO_4217.XAU"
+msgstr "સોનું"
+
+msgid "ISO_4217.XBA"
+msgstr "બોન્ડ માર્કેટ યુનિટ યુરોપિયન કંપોઝિટ યુનિટ (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "બોન્ડ માર્કેટ એકમ યુરોપિયન મોનેટરી યુનિટ (ઇએમયુ -6)"
+
+msgid "ISO_4217.XBC"
+msgstr "બોન્ડ માર્કેટ યુનિટ યુરોપીયન યુનિટ ઓફ એકાઉન્ટ 9 (ઇયુએ -9)"
+
+msgid "ISO_4217.XBD"
+msgstr "બોન્ડ માર્કેટ એકમ યુરોપિયન યુનિટ ઓફ એકાઉન્ટ 17 (ઇયુએ -17)"
+
+msgid "ISO_4217.XCD"
+msgstr "પૂર્વ કેરેબિયન ડૉલર"
+
+msgid "ISO_4217.XDR"
+msgstr "એસડીઆર (ખાસ રેખાંકન અધિકાર)"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA ફૉન્ટ બીસીઇએઓ"
+
+msgid "ISO_4217.XPD"
+msgstr "પેલેડિયમ"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP ફ્રેંક"
+
+msgid "ISO_4217.XPT"
+msgstr "પ્લેટિનમ"
+
+msgid "ISO_4217.XSU"
+msgstr "સુકેર"
+
+msgid "ISO_4217.XTS"
+msgstr "વિશિષ્ટ રીતે ચકાસણી હેતુઓ માટે આરક્ષિત કોડ્સ"
+
+msgid "ISO_4217.XUA"
+msgstr "એડીબી એકાઉન્ટ એકમ"
+
+msgid "ISO_4217.XXX"
+msgstr "કોઈ સોદામાં કોઈ ચલણ શામેલ ન હોય ત્યાં સોદા માટે સોંપે છે"
+
+msgid "ISO_4217.YER"
+msgstr "યેમેની રાયલ"
+
+msgid "ISO_4217.ZAR"
+msgstr "રેન્ડ"
+
+msgid "ISO_4217.ZMW"
+msgstr "ઝામ્બિયન કવાચા"
+
+msgid "ISO_4217.ZWL"
+msgstr "ઝિમ્બાબ્વે ડૉલર"

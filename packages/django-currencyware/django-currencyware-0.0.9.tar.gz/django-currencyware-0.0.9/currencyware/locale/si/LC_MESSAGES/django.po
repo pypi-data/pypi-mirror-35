@@ -1,0 +1,529 @@
+# Translation of ISO 4217 to LANGUAGE
+# Codes for the representation of currencies
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright ©
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "එක්සත් අරාබි එමීර් රාජ්යය"
+
+msgid "ISO_4217.AFN"
+msgstr "ඇෆ්ගනිස්ථාන"
+
+msgid "ISO_4217.ALL"
+msgstr "ලීක්"
+
+msgid "ISO_4217.AMD"
+msgstr "ආර්මේනියානු ඩ්රම්"
+
+msgid "ISO_4217.ANG"
+msgstr "නෙදර්ලන්ත ඇන්ටිලියන් ගිලිඩ්"
+
+msgid "ISO_4217.AOA"
+msgstr "කන්සා"
+
+msgid "ISO_4217.ARS"
+msgstr "ආර්ජන්ටිනාවේ Peso"
+
+msgid "ISO_4217.AUD"
+msgstr "ඕස්ට්රේලියානු ඩොලර්"
+
+msgid "ISO_4217.AWG"
+msgstr "අරූබන් ෆ්ලොරින්"
+
+msgid "ISO_4217.AZN"
+msgstr "අසර්සියානු මැනට්"
+
+msgid "ISO_4217.BAM"
+msgstr "පරිවර්තිත සලකුණ"
+
+msgid "ISO_4217.BBD"
+msgstr "බාර්බඩෝස් ඩොලරය"
+
+msgid "ISO_4217.BDT"
+msgstr "ටකා"
+
+msgid "ISO_4217.BGN"
+msgstr "බල්ගේරියානු ලෙව්"
+
+msgid "ISO_4217.BHD"
+msgstr "බහරේන ඩිනාරා"
+
+msgid "ISO_4217.BIF"
+msgstr "බුරුන්ඩි ෆ්රෑන්ක්"
+
+msgid "ISO_4217.BMD"
+msgstr "බර්මුඩියානු ඩොලරය"
+
+msgid "ISO_4217.BND"
+msgstr "බෲනායි ඩොලරය"
+
+msgid "ISO_4217.BOB"
+msgstr "බොලිවීනෝ"
+
+msgid "ISO_4217.BRL"
+msgstr "බ්රසීලියානු රියල්"
+
+msgid "ISO_4217.BSD"
+msgstr "Bahamian Dollar"
+
+msgid "ISO_4217.BTN"
+msgstr "Ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "Pula"
+
+msgid "ISO_4217.BYR"
+msgstr "බෙලරිකානු රබ්ලික්"
+
+msgid "ISO_4217.BZD"
+msgstr "බෙලිස් ඩොලර්"
+
+msgid "ISO_4217.CAD"
+msgstr "කැනේඩියානු ඩොලරය"
+
+msgid "ISO_4217.CDF"
+msgstr "කොංගෝලියානු ෆ්රෑන්ක්"
+
+msgid "ISO_4217.CHF"
+msgstr "ස්විස් ෆ්රෑන්ක්"
+
+msgid "ISO_4217.CLP"
+msgstr "චිලියානු පෙසෝ"
+
+msgid "ISO_4217.CNY"
+msgstr "යුවාන් රෙනින්ජි"
+
+msgid "ISO_4217.COP"
+msgstr "කොලොම්බියානු පෙසෝ"
+
+msgid "ISO_4217.CRC"
+msgstr "කොස්ටරිකා කොලෝන්"
+
+msgid "ISO_4217.CUC"
+msgstr "Peso Convertible"
+
+msgid "ISO_4217.CUP"
+msgstr "කියුබානු පෙසෝ"
+
+msgid "ISO_4217.CVE"
+msgstr "කබො වර්ඩ් ඊස්කුඩෝ"
+
+msgid "ISO_4217.CZK"
+msgstr "චෙක් කෝරනා"
+
+msgid "ISO_4217.DJF"
+msgstr "ජිබුටි ෆ්රෑන්ක්"
+
+msgid "ISO_4217.DKK"
+msgstr "ඩෙන්මාර්ක ක්රෝන්"
+
+msgid "ISO_4217.DOP"
+msgstr "ඩොමිනිකානු පෙසෝ"
+
+msgid "ISO_4217.DZD"
+msgstr "ඇල්ජීරියානු ඩිනාර්"
+
+msgid "ISO_4217.EGP"
+msgstr "ඊජිප්තු පවුම"
+
+msgid "ISO_4217.ERN"
+msgstr "නක්ෆා"
+
+msgid "ISO_4217.ETB"
+msgstr "ඉතියෝපියානු බර්"
+
+msgid "ISO_4217.EUR"
+msgstr "යුරෝ"
+
+msgid "ISO_4217.FJD"
+msgstr "ෆීජි ඩොලර්"
+
+msgid "ISO_4217.FKP"
+msgstr "ෆෝක්ලන්ත දූපත් පවුම්"
+
+msgid "ISO_4217.GBP"
+msgstr "පවුම් ස්ටර්ලිං"
+
+msgid "ISO_4217.GEL"
+msgstr "ලාරි"
+
+msgid "ISO_4217.GHS"
+msgstr "ඝාන සීඩි"
+
+msgid "ISO_4217.GIP"
+msgstr "ගිබර්ටලර් පවුම"
+
+msgid "ISO_4217.GMD"
+msgstr "ඩලාසි"
+
+msgid "ISO_4217.GNF"
+msgstr "ගිනියා ෆ්රෑන්ක්"
+
+msgid "ISO_4217.GTQ"
+msgstr "කට්සල්"
+
+msgid "ISO_4217.GYD"
+msgstr "ගයානා ඩොලරය"
+
+msgid "ISO_4217.HKD"
+msgstr "හොංකොං ඩොලරය"
+
+msgid "ISO_4217.HNL"
+msgstr "ලම්පීරා"
+
+msgid "ISO_4217.HRK"
+msgstr "කූනා"
+
+msgid "ISO_4217.HTG"
+msgstr "ගුර්ඩී"
+
+msgid "ISO_4217.HUF"
+msgstr "Forint"
+
+msgid "ISO_4217.IDR"
+msgstr "රූපියා"
+
+msgid "ISO_4217.ILS"
+msgstr "නව ඊශ්රායල් ෂෙකෙල්"
+
+msgid "ISO_4217.INR"
+msgstr "ඉන්දියානු රුපියල"
+
+msgid "ISO_4217.IQD"
+msgstr "ඉරාකීය ඩිනාර්"
+
+msgid "ISO_4217.IRR"
+msgstr "ඉරාන රයිල්"
+
+msgid "ISO_4217.ISK"
+msgstr "අයිස්ලන්ත කී්රඩා"
+
+msgid "ISO_4217.JMD"
+msgstr "ජැමෙයිකානු ඩොලර්"
+
+msgid "ISO_4217.JOD"
+msgstr "ජෝර්දාන් ඩිනාර්"
+
+msgid "ISO_4217.JPY"
+msgstr "යෙන්"
+
+msgid "ISO_4217.KES"
+msgstr "කෙන්යන් ශිලිං"
+
+msgid "ISO_4217.KGS"
+msgstr "සෑම්"
+
+msgid "ISO_4217.KHR"
+msgstr "රීල්"
+
+msgid "ISO_4217.KMF"
+msgstr "කොමොරෝ ෆ්රෑන්ක්"
+
+msgid "ISO_4217.KPW"
+msgstr "උතුරු කොරියානු වොන්"
+
+msgid "ISO_4217.KRW"
+msgstr "වොන්"
+
+msgid "ISO_4217.KWD"
+msgstr "කුවේට් ඩිනාර්"
+
+msgid "ISO_4217.KYD"
+msgstr "කේමන්ය දූපත්ව ඩොලර්"
+
+msgid "ISO_4217.KZT"
+msgstr "ටෙන්ගෝ"
+
+msgid "ISO_4217.LAK"
+msgstr "කිප"
+
+msgid "ISO_4217.LBP"
+msgstr "ලෙබනන පවුම"
+
+msgid "ISO_4217.LKR"
+msgstr "ශ්රී ලංකා රුපියල"
+
+msgid "ISO_4217.LRD"
+msgstr "ලිබරියානු ඩොලර්"
+
+msgid "ISO_4217.LSL"
+msgstr "ලොටි"
+
+msgid "ISO_4217.LYD"
+msgstr "ලිබියානු ඩිනාර්"
+
+msgid "ISO_4217.MAD"
+msgstr "මොරොක්කෝ ඩ්රැහැම්"
+
+msgid "ISO_4217.MDL"
+msgstr "මොල්ඩුවාව් ලියු"
+
+msgid "ISO_4217.MGA"
+msgstr "මලගාසි ආරියරි"
+
+msgid "ISO_4217.MKD"
+msgstr "මුදල්"
+
+msgid "ISO_4217.MMK"
+msgstr "කයට්"
+
+msgid "ISO_4217.MNT"
+msgstr "Tugrik"
+
+msgid "ISO_4217.MOP"
+msgstr "පැටැක්"
+
+msgid "ISO_4217.MRO"
+msgstr "ඕගියාය"
+
+msgid "ISO_4217.MUR"
+msgstr "මුරුසිය රු"
+
+msgid "ISO_4217.MVR"
+msgstr "රෆියාය"
+
+msgid "ISO_4217.MWK"
+msgstr "මලවි ක්වාචා"
+
+msgid "ISO_4217.MXN"
+msgstr "මෙක්සිකානු පෙසෝ"
+
+msgid "ISO_4217.MYR"
+msgstr "මැලේසියානු Ringgit"
+
+msgid "ISO_4217.MZN"
+msgstr "මොසැම්බික් මෙටිකල්"
+
+msgid "ISO_4217.NAD"
+msgstr "නැමීබියා ඩොලර්"
+
+msgid "ISO_4217.NGN"
+msgstr "නායිරා"
+
+msgid "ISO_4217.NIO"
+msgstr "කෝඩෝබා ඔර"
+
+msgid "ISO_4217.NOK"
+msgstr "නෝර්වේජියානු ක්රෝන්"
+
+msgid "ISO_4217.NPR"
+msgstr "නේපාලයේ රුපියල"
+
+msgid "ISO_4217.NZD"
+msgstr "නවසීලන්ත ඩොලරය"
+
+msgid "ISO_4217.OMR"
+msgstr "රියාල් ඕමානි"
+
+msgid "ISO_4217.PAB"
+msgstr "බල්බාව"
+
+msgid "ISO_4217.PEN"
+msgstr "සෝල්"
+
+msgid "ISO_4217.PGK"
+msgstr "චීනය"
+
+msgid "ISO_4217.PHP"
+msgstr "පිලිපීන පෙසෝ"
+
+msgid "ISO_4217.PKR"
+msgstr "පකිස්ථාන රුපියල"
+
+msgid "ISO_4217.PLN"
+msgstr "සෝලි"
+
+msgid "ISO_4217.PYG"
+msgstr "ගුරානි"
+
+msgid "ISO_4217.QAR"
+msgstr "කටාර් රයිල්"
+
+msgid "ISO_4217.RON"
+msgstr "රුමේනියානු ලියු"
+
+msgid "ISO_4217.RSD"
+msgstr "සර්බියානු ඩී"
+
+msgid "ISO_4217.RUB"
+msgstr "රුසියානු රබ්බ්"
+
+msgid "ISO_4217.RWF"
+msgstr "රුවන්ඩා ෆ්රෑන්ක්"
+
+msgid "ISO_4217.SAR"
+msgstr "සෞදි රියාල්"
+
+msgid "ISO_4217.SBD"
+msgstr "සොලොමන් දූපත්ව ඩොලර්"
+
+msgid "ISO_4217.SCR"
+msgstr "සීෂෙල්ස් රුපියල"
+
+msgid "ISO_4217.SDG"
+msgstr "සුඩාන පවුම"
+
+msgid "ISO_4217.SEK"
+msgstr "ස්වීඩන් ක්රෝනා"
+
+msgid "ISO_4217.SGD"
+msgstr "සිංගප්පූරු ඩොලරය"
+
+msgid "ISO_4217.SHP"
+msgstr "ශාන්ත හෙලේනා රාත්තල"
+
+msgid "ISO_4217.SLL"
+msgstr "ලියොන්"
+
+msgid "ISO_4217.SOS"
+msgstr "සෝමාලි ෂිලිං"
+
+msgid "ISO_4217.SRD"
+msgstr "සුරිනාම් ඩොලරය"
+
+msgid "ISO_4217.SSP"
+msgstr "දකුණු සුඩාන පවුම"
+
+msgid "ISO_4217.STD"
+msgstr "Dobra"
+
+msgid "ISO_4217.SVC"
+msgstr "එල් සැල්වදෝර් කොලෝන්"
+
+msgid "ISO_4217.SYP"
+msgstr "සිරියානු පවුම්"
+
+msgid "ISO_4217.SZL"
+msgstr "ලිලෑන්නි"
+
+msgid "ISO_4217.THB"
+msgstr "බාහ්"
+
+msgid "ISO_4217.TJS"
+msgstr "සෙමෝනි"
+
+msgid "ISO_4217.TMT"
+msgstr "ටර්ක්මෙනිස්තාන නව මනා"
+
+msgid "ISO_4217.TND"
+msgstr "ටියුනීසියානු ඩිනාරා"
+
+msgid "ISO_4217.TOP"
+msgstr "Paanga"
+
+msgid "ISO_4217.TRY"
+msgstr "තුර්කි ලීරා"
+
+msgid "ISO_4217.TTD"
+msgstr "ට්රිනිඩෑඩ් සහ ටොබැගෝ ඩොලර්"
+
+msgid "ISO_4217.TWD"
+msgstr "නව තායිවාන් ඩොලරයක්"
+
+msgid "ISO_4217.TZS"
+msgstr "ටැන්සානියානු ශිලිං"
+
+msgid "ISO_4217.UAH"
+msgstr "හීනි"
+
+msgid "ISO_4217.UGX"
+msgstr "උගන්ඩා ශිලිං"
+
+msgid "ISO_4217.USD"
+msgstr "ඇමරිකන් ඩොලර්"
+
+msgid "ISO_4217.UYU"
+msgstr "පෙසෝ උරුගුවෝ"
+
+msgid "ISO_4217.UZS"
+msgstr "සමූහාණ්ඩුව"
+
+msgid "ISO_4217.VEF"
+msgstr "බොලිවාර්"
+
+msgid "ISO_4217.VND"
+msgstr "ඩොං"
+
+msgid "ISO_4217.VUV"
+msgstr "වටු"
+
+msgid "ISO_4217.WST"
+msgstr "ටාලා"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA ෆ්රැන්සිස් බීඒක්"
+
+msgid "ISO_4217.XAG"
+msgstr "රිදී"
+
+msgid "ISO_4217.XAU"
+msgstr "රන්"
+
+msgid "ISO_4217.XBA"
+msgstr "Bond Markets ඒකක යුරෝපීය සංයුක්ත ඒකකය (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "බැඳුම්කර වෙළඳපොල ඒකකය යුරෝපීය මුදල් ඒකකය (EMU-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Bond Markets Unit යුරෝපීය ඒකකය ගිණුම් 9 (EUA-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Bond Markets Unit යුරෝපීය ඒකකය ගිණුම් 17 (EUA-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "නැගෙනහිර කැරිබියන් ඩොලරය"
+
+msgid "ISO_4217.XDR"
+msgstr "SDR (විශේෂිත දකින දකුණේ)"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA ෆ්රාන්ස් BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "පල්ලාදියම්"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP ෆ්රෑන්ක්"
+
+msgid "ISO_4217.XPT"
+msgstr "ප්ලැටිනම්"
+
+msgid "ISO_4217.XSU"
+msgstr "සූක්ර"
+
+msgid "ISO_4217.XTS"
+msgstr "පරීක්ෂණ අවශ්යතා සඳහා විශේෂයෙන් වෙන් කර ඇති කේත"
+
+msgid "ISO_4217.XUA"
+msgstr "ADB ගිණුම් ඒකකය"
+
+msgid "ISO_4217.XXX"
+msgstr "කිසිදු මුදලක් සම්බන්ධ නොවන ගනුදෙනු සඳහා නියම කරන ලද කේත"
+
+msgid "ISO_4217.YER"
+msgstr "යේමනි රයිල්"
+
+msgid "ISO_4217.ZAR"
+msgstr "රන්ඩ්"
+
+msgid "ISO_4217.ZMW"
+msgstr "සැම්බියා ක්වාචා"
+
+msgid "ISO_4217.ZWL"
+msgstr "සිම්බාබ්වේ ඩොලරය"
