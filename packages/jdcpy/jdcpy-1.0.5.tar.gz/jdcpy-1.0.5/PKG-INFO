@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: jdcpy
+Version: 1.0.5
+Summary: jdcpy模块,吉富数据中心的python接口
+Home-page: UNKNOWN
+Author: JaydenFish@ThizGroup
+Author-email: xmyjd@163.com
+License: UNKNOWN
+Description: jdcpy module
+        ============
+        
+        .. automodule:: jdcpy
+            :members:
+            :undoc-members:
+            :show-inheritance:
+        
+Platform: UNKNOWN
