@@ -1,0 +1,13 @@
+README.md
+setup.py
+OOWS.egg-info/PKG-INFO
+OOWS.egg-info/SOURCES.txt
+OOWS.egg-info/dependency_links.txt
+OOWS.egg-info/requires.txt
+OOWS.egg-info/top_level.txt
+oows/__init__.py
+oows/ecs/__init__.py
+oows/ecs/cluster.py
+oows/ecs/service.py
+oows/ecs/task.py
+oows/ecs/task_definition.py
