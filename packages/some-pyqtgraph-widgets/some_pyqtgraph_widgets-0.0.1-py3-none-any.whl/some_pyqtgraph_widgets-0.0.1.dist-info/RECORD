@@ -1,0 +1,8 @@
+some_pyqtgraph_widgets/__init__.py,sha256=PVrRYSVrhhRC-ft2ogzCvM-gLTOR4ZuLEl3vClBSM30,90
+some_pyqtgraph_widgets/gl_surface_plot.py,sha256=uP5K6fvkZn1crtQl2_3OCY_kvzZvqmnfjOO_IqVZGQA,6763
+some_pyqtgraph_widgets/image_widget.py,sha256=lHzq3Opd0l-puKLtDpYVX9bJg909tW8QgULDHxAkA0o,2944
+some_pyqtgraph_widgets/profile_widget.py,sha256=VhSygvP6jxJLOQqhuADT9lULuDyveh9MiW51gyin_d0,3196
+some_pyqtgraph_widgets-0.0.1.dist-info/METADATA,sha256=KW45J8fnGCLFPkKntJdrZX452Xzksd5nyn8CsJBCH5M,243
+some_pyqtgraph_widgets-0.0.1.dist-info/RECORD,,
+some_pyqtgraph_widgets-0.0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+some_pyqtgraph_widgets-0.0.1.dist-info/top_level.txt,sha256=_lmTtfZVyWVqA4yf1_LpZe0cb72R5YFOskgS2qhZRHA,23
