@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: libaloha
+Version: 0.0.1
+Summary: Personal library to provide some classes, functions and binaries
+Home-page: https://gitlab.com/aloha68/libaloha
+Author: Aloha68
+Author-email: dev@aloha.im
+Requires-Python: >=3,<4
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Provides-Extra: django
+Provides-Extra: markdown
+Provides-Extra: redis
+Requires-Dist: django (==2.0.6); extra == "django"
+Requires-Dist: markdown (>=2.6,<3.0); extra == "markdown"
+Requires-Dist: redis (>=2.10,<3.0); extra == "redis"
+Requires-Dist: requests (>=2.19,<3.0)
