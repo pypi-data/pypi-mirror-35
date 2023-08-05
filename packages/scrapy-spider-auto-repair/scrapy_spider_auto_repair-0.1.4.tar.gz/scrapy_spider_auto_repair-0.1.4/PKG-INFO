@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: scrapy_spider_auto_repair
+Version: 0.1.4
+Summary: Spiders can become broken due to changes                 on the target site, which lead to different                 page layouts (therefore, broken XPath and                 CSS extractors). Often however, the information                 content of a page remains roughly similar, just                 in a different form or layout. This tool that can,                 in some fortunate cases, automatically infer                 extraction rules to keep a spider up-to-date                 with site changes.
+Home-page: https://github.com/virmht/Scrapy-Spider-Autorepair
+Author: Viral Paresh Mehta
+Author-email: virmht@gmail.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development
