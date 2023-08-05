@@ -1,0 +1,13 @@
+tsne/bh_sne.cpython-37m-x86_64-linux-gnu.so,sha256=K_bZlsV-oDECnxP9fOe4OcQS-n4mVcH02MnEB4B3T4c,183664
+tsne/bh_sne_3d.cpython-37m-x86_64-linux-gnu.so,sha256=SvgvzolztKBrU4k0aV4TmfitvsUlGMnb3czagPTfsA0,183672
+tsne/_version.py,sha256=LWKV25EryvjA37fCurbrmsEaBn23-4rpEDF22q6Gv_Q,499
+tsne/__init__.py,sha256=6A267zo8ajWYXEZUHPwuenhsRkvVbnjzA4swnPRzdFA,2785
+tsne/.libs/libgomp-3300acd3.so.1.0.0,sha256=EnFXr4fqW6urRgYk7TwUCvF6S1oXVZfVyUZW3IZWJYo,63024
+tests/test_iris.py,sha256=CyuZKUBZudwIkbUG9i9fKvGchWHggPRmAu-PNGgN7OY,174
+tests/test_seed.py,sha256=asMnyYwWxE7635cnuZXcJ3pHVI7RQIsHpJLQ879v5D4,352
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsne_mp-0.1.12.data/scripts/bhtsne.py,sha256=PW0J96cQu4wpPfeScu7K3tkedAHQ1aXvVM03Xb3FtuQ,9769
+tsne_mp-0.1.12.dist-info/RECORD,,
+tsne_mp-0.1.12.dist-info/METADATA,sha256=wgLvQmLhK_er7GHFQ0Fgh6-iCd1KPEAoQ0W734NHRds,3042
+tsne_mp-0.1.12.dist-info/WHEEL,sha256=AhV6RMqZ2IDfreRJKo44QWYxYeP-0Jr0bezzBLQ1eog,109
+tsne_mp-0.1.12.dist-info/top_level.txt,sha256=h-aOzpYndEDcJ-v9y4sUAdF4zCVcf3Yuj-p9AJcLgcc,11
