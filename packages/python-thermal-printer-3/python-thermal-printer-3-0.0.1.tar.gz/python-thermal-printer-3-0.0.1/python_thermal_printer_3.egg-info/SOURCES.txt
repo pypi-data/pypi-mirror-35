@@ -1,0 +1,7 @@
+README.md
+setup.py
+python-thermal-printer-3/__init__.py
+python_thermal_printer_3.egg-info/PKG-INFO
+python_thermal_printer_3.egg-info/SOURCES.txt
+python_thermal_printer_3.egg-info/dependency_links.txt
+python_thermal_printer_3.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: python-thermal-printer-3
+Version: 0.0.1
+Summary: The Adafruit thermal printer library ported for Python 3
+Home-page: https://github.com/ConorMatthews/Python-Thermal-Printer/tree/Python3andRaspberryPi3
+Author: Conor Matthews
+Author-email: conormatthews6@gmail.com
+License: UNKNOWN
+Description: Python 3 Thermal Printer Library
+        
+        Adafruit thermal library modified for python 3.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
