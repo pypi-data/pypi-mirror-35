@@ -1,0 +1,4 @@
+include LICENSE.rst
+recursive-exclude * .DS_Store
+recursive-exclude examples *
+recursive-exclude tests *
