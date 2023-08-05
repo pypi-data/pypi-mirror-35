@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"contacts": [{"email": "tunnell@rice.edu", "name": "Christopher Tunnell", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}, "generator": "bdist_wheel (0.29.0)", "metadata_version": "2.0", "name": "nestpy", "summary": "Python bindings for the NEST noble element simulations", "version": "1.0.1"}
