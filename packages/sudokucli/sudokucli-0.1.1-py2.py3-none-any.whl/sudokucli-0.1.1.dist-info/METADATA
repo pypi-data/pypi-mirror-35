@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sudokucli
+Version: 0.1.1
+Summary: Console 9*9 Sudoku Game
+Home-page: https://github.com/a2htray/sudoku-cli
+Author: a2htray
+Author-email: a2htray.yuen@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: click
+
+等学会了 RST 语法，我再来写，最近没时间学
+
+
