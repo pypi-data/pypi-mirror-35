@@ -1,0 +1,12 @@
+flowlogs_reader/__init__.py,sha256=bgGZSZ_6LDA6YQo2M3sOrrxEVMkdfmP6c59PhGMqnuU,798
+flowlogs_reader/__main__.py,sha256=uXOKmxFGKmbUagPoiGw-_xL-hwF33UiA4ULBtH4QjQo,7127
+flowlogs_reader/aggregation.py,sha256=j_fv6bW7hYvhmnmUmdO0HXNtQcKj-ow-dJbdgFmxJbY,2338
+flowlogs_reader/flowlogs_reader.py,sha256=wTxlfJYXdxgLAQMrNi9depx5ck4A2-j4_dFiApldwqE,12284
+flowlogs_reader-1.1.0.dist-info/METADATA,sha256=xSo08P2j95xbtEvdcMHdKOC5_on2Po3XLc4MWMHdTHE,939
+flowlogs_reader-1.1.0.dist-info/RECORD,,
+flowlogs_reader-1.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+flowlogs_reader-1.1.0.dist-info/entry_points.txt,sha256=w0_pzlGgUNGdWCCqKrjOkCRKkHoggwm4kD6rm5FtnzI,67
+flowlogs_reader-1.1.0.dist-info/top_level.txt,sha256=Gfep031QDdZWSOCjZoXjK7LiX0-7lIgAeUUHeHJEI64,22
+tests/__init__.py,sha256=rA3ogXF0MpNoagBiO7Ktt4J3WOr91OweFpF963wee1E,587
+tests/test_flowlogs_reader.py,sha256=svmWkxQvexLL7VC_l7ioo2olvTpwAthqhBHQ-6J54Vc,18208
+tests/test_main.py,sha256=mrxKglYXRCfAX6E0lNSRv3sDtOANqjkmIrvrS4vmtok,10105
