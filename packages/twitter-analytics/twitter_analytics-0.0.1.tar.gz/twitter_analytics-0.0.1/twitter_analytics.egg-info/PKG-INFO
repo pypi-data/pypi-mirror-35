@@ -1,0 +1,31 @@
+Metadata-Version: 1.0
+Name: twitter-analytics
+Version: 0.0.1
+Summary: A twitter analytics reports downloader. The only way to get tweet impressions data
+Home-page: http://someurl.com/
+Author: Philippe Oger
+Author-email: phil.oger@gmail.com
+License: MIT
+Description: Twitter analytics downloader
+        ========
+        
+        This script downloads the tweets report from the analytics section of a twitter account (including impressions). It takes only the last 28 days (default period)
+        This was created so we can get impressions data for every tweets. This metric is not available via API.
+        
+        
+        Installation
+        
+        Selenium uses a few binaries (Chromedriver, xvfb) that needs to be installed beforehand with the following command:
+        
+        ```commandline
+        $ sudo apt-get install chromium-chromedriver xvfb
+        
+        ```
+        
+        ####TODO:
+        
+        * Add a command line interface to be able to launch for any twitter account on the fly.
+        * Add a monitoring tool to track when script breaks (it will, this is selenium).
+        
+Keywords: twitter analytics reports downloader
+Platform: UNKNOWN
