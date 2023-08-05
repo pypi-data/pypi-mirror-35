@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+include/graph.h
+include/km_multiresol.h
+include/km_omp.h
+multiresolcp/MultiResolCP.py
+multiresolcp/__init__.py
+multiresolcp.egg-info/PKG-INFO
+multiresolcp.egg-info/SOURCES.txt
+multiresolcp.egg-info/dependency_links.txt
+multiresolcp.egg-info/not-zip-safe
+multiresolcp.egg-info/requires.txt
+multiresolcp.egg-info/top_level.txt
+src/_km_omp.cpp
