@@ -1,0 +1,14 @@
+attrs_to_sql/__init__.py,sha256=Nr1GacArbRxPYlHm3pdGGqn4hIdjg6oozR9FaHJAoBo,85
+attrs_to_sql/columns.py,sha256=_UDEyhS8psbd0kf6aa4NDyNhnBy6xhJ6bNzfFQqoNkI,6388
+attrs_to_sql/renderer.py,sha256=XIBlzAqolARU_thM5PcQRPGALe9gFtkVh54TciJ7OS0,356
+attrs_to_sql/table.py,sha256=GpXqmU1Nt2cmK4IFwwEizycnWtjA0j1G16D4MAwlRkk,928
+attrs_to_sql/utils.py,sha256=efzhmGRJ-dEV3Tsk6UN0YH8S4UOa5WSsfo7o12aCH8s,1281
+attrs_to_sql/templates/create_table.sql,sha256=mcfZ_BqcoFEQ9yrBlbbh7xp_lpNg0j8WsAWtc6bjD7o,143
+attrs_to_sql/templates/sqlalchemy_table.py_,sha256=K__1EdsWEhI0HUmsy-QQwViQub5TuGE2iytKwcSr_X0,181
+attrs_to_sql-0.1.0.dist-info/METADATA,sha256=N6x60CSBEEzx0DI1KeeCBqI0P-bcF7q5xEL_WPo00eI,1126
+attrs_to_sql-0.1.0.dist-info/RECORD,,
+attrs_to_sql-0.1.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+attrs_to_sql-0.1.0.dist-info/top_level.txt,sha256=D4KBKuX3YidcmWPMvKM4m791OF_1hHn4nuJEn9vseho,19
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_table.py,sha256=ugM92CLJ_hfzmczGu4qJDF-gdzzHbCNsLsNtA_MQ53Q,1437
+tests/test_utils.py,sha256=hTZN2rvGQ-l4JLR2arW42KaVtievm5x-krT6IKmnQTk,765
