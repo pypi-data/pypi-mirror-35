@@ -1,0 +1,10 @@
+solr_dsl/__init__.py,sha256=U9288BiViu_EfyCO_fwdFLNSdXJCJ6V1HGuwvrQW3Ok,27
+solr_dsl/add.py,sha256=acTQetFDH2D-l5ghaxwZyW1e5TOGqus3MohIIqug6PI,20
+solr_dsl/cursor.py,sha256=4vp1oYzBOUItL9mO4ZiHr0_7d0LzMq0oPfxszKnAWH4,850
+solr_dsl/delete.py,sha256=9tjeai41nBifaWKK4Z-kl7W9W76RpmweB7CSGz9byKU,23
+solr_dsl/query.py,sha256=t-qpVOqxq9zrSN3XcADti4lJhOhwR_tD9WGH8QQkL_g,22
+solr_dsl/search.py,sha256=3DlPMJlnC4veg_FcO7ibVPez8Q7G0RPAk6NjmTyJMBU,870
+solr_dsl-0.0.3.dist-info/METADATA,sha256=Ya_R2d99nJHfWGsur4UALzYJ1k9OMRL0LpX45JEuE2k,848
+solr_dsl-0.0.3.dist-info/RECORD,,
+solr_dsl-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+solr_dsl-0.0.3.dist-info/top_level.txt,sha256=TZbywNVRG73mZCFkzL7Bdpfo-u7vTD8ArBGdp0WCvfc,9
