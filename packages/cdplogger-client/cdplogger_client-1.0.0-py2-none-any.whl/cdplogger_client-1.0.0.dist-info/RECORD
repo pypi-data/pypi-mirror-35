@@ -1,0 +1,13 @@
+cdplogger_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdplogger_client/cdplogger.py,sha256=j4wlxfp6y6Rw02HGR7JL4A3R7bdUzL3Xxilx56LF8CI,15686
+cdplogger_client/container_pb2.py,sha256=BBV-dEZqasf9mrErdIljfpD2lyIGXbd33CmjZ4M66y0,10931
+cdplogger_client/database_pb2.py,sha256=41_ueAxhHi2C-4HY8_hFzOD671BYnn4TsWH-6dGjtLs,23828
+cdplogger_client/variant_pb2.py,sha256=2WEbjmh0h-VxYWdngu0Z57p-m9Bow-orPYf36wCx6H0,10002
+cdplogger_client/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdplogger_client/test/fake_data.py,sha256=lmQvKsbaEuKY54as0CVtT7sdY6Gou3m6eX3-2vNE2uU,4201
+cdplogger_client/test/test_client.py,sha256=S4Uskfu3SiRWrz-zrYoWuas9TFnmFiW815wIMVMiKSY,10037
+cdplogger_client/test/test_main.py,sha256=6t9pjHAllngvipeChq8ZR16TguQxtilM3gY52LZ3Ft4,68
+cdplogger_client-1.0.0.dist-info/METADATA,sha256=FCo84QhVXM8b6J-mYZ0DOW0QYokzsWb2GQilHbk9ozU,6426
+cdplogger_client-1.0.0.dist-info/RECORD,,
+cdplogger_client-1.0.0.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+cdplogger_client-1.0.0.dist-info/top_level.txt,sha256=BxnJQSbQYU6TZZ-4Bg9vR5a-zNK6stsFbQUsSdpgwtE,17
