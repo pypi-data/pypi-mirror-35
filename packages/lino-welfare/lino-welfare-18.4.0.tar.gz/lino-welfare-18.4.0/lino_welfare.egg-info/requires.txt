@@ -1,0 +1,8 @@
+lino-cosi
+pytidylib
+channels<2
+django-iban
+metafone
+weasyprint
+cairocffi
+suds
