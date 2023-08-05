@@ -1,0 +1,4 @@
+[console_scripts]
+lgx_x = lgx:lgx_x
+lgx_y = lgx:lgx_y
+

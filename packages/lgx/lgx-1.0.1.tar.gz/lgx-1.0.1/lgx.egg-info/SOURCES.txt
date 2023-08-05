@@ -1,0 +1,9 @@
+setup.py
+lgx/__init__.py
+lgx/lgx.py
+lgx.egg-info/PKG-INFO
+lgx.egg-info/SOURCES.txt
+lgx.egg-info/dependency_links.txt
+lgx.egg-info/entry_points.txt
+lgx.egg-info/requires.txt
+lgx.egg-info/top_level.txt
