@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+version.txt
+micral_classify/__init__.py
+micral_classify/micral_classify.py
+micral_classify/version.txt
+micral_classify.egg-info/PKG-INFO
+micral_classify.egg-info/SOURCES.txt
+micral_classify.egg-info/dependency_links.txt
+micral_classify.egg-info/not-zip-safe
+micral_classify.egg-info/requires.txt
+micral_classify.egg-info/top_level.txt
