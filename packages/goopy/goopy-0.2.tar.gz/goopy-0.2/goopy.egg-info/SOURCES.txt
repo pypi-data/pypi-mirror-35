@@ -1,0 +1,8 @@
+setup.py
+goopy/Wrapper.py
+goopy/__govars.py
+goopy/__init__.py
+goopy.egg-info/PKG-INFO
+goopy.egg-info/SOURCES.txt
+goopy.egg-info/dependency_links.txt
+goopy.egg-info/top_level.txt

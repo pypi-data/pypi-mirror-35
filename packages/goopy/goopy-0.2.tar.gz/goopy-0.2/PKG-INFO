@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: goopy
+Version: 0.2
+Summary: A simple compatibility layer between Go and Python
+Home-page: UNKNOWN
+Author: Matt C. (fluofoxxo)
+Author-email: me@fluofoxxo.pw
+License: UNKNOWN
+Download-URL: https://github.com/fluofoxxo/goopy/tarball/master/
+Description: UNKNOWN
+Keywords: goopy,go,golang,python,compatibility,layer,wrapper
+Platform: UNKNOWN
