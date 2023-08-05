@@ -1,0 +1,3 @@
+[console_scripts]
+mangenerator_demo = mangenerator.mangenerator:main
+
