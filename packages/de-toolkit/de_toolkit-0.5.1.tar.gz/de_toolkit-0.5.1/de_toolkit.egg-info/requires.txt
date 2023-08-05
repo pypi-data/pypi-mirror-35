@@ -1,0 +1,17 @@
+docopt
+future
+matplotlib
+mpld3
+numpy
+pandas
+patsy
+ply
+pytest
+seaborn
+setuptools
+scipy
+scikit-learn
+sphinx
+sphinx-autobuild
+sphinx-rtd-theme
+statsmodels>=0.8.0
