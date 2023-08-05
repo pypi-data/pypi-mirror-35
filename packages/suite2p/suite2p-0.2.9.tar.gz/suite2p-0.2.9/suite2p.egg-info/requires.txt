@@ -1,0 +1,8 @@
+pyqtgraph
+PyQt5
+numpy
+scipy
+h5py
+scikit-image
+matplotlib
+rastermap
