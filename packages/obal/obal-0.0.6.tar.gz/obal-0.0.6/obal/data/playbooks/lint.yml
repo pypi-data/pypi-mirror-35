@@ -1,0 +1,18 @@
+---
+- hosts: packages
+  serial: 1
+  gather_facts: no
+  roles:
+    - package_variables
+  tasks:
+    - name: "RPM lint spec file"
+      command: "rpmlint {{ inventory_dir }}/{{ package_base_dir }}{{ inventory_hostname }}"
+      register: output
+
+    - name: "Check for a new changelog entry"
+      rpmspec_changelog_check:
+        directory: "{{ inventory_dir }}/{{ package_base_dir }}{{ inventory_hostname }}"
+
+    - name: 'Print rpmlint output'
+      debug:
+        msg: "{{ output.stdout }}"
