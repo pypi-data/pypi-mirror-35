@@ -1,0 +1,22 @@
+
+@section Section headings
+@node Section headings
+
+@i{Headings} organize your writing into
+sections. The Wiki software can automatically
+generate a @ref{table of contents} from them.
+
+@subsection Subsection
+@node Subsection
+
+Using more "equals" (=) signs creates a subsection.
+
+@subsubsection A smaller subsection
+@node A smaller subsection
+
+Don't skip levels,
+like from two to four equals signs.
+
+Start with 2 equals signs not 1
+because 1 creates H1 tags
+which should be reserved for page title.
