@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: souffle
+Version: 0.1
+Summary: A light and fluffy serving of Cheese.
+Home-page: https://github.com/sffjunkie/souffle
+Author: Simon Kennedy
+Author-email: sffjunkie+code@gmail.com
+License: Apache-2.0
+Project-URL: Documentation, https://souffle.readthedocs.io/en/stable/index.html
+Project-URL: Source, https://github.com/sffjunkie/souffle
+Project-URL: Issues, https://github.com/sffjunkie/souffle/issues
+Description: A light and fluffy serving of Cheese.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
