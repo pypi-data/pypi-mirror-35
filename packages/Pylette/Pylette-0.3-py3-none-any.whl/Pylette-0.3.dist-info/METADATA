@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Pylette
+Version: 0.3
+Summary: A Python library for extracting color palettes from images.
+Home-page: https://github.com/qTipTip/Pylette
+Author: Ivar Stangeby
+Author-email: istangeby@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: scikit-learn
+
+This Python library lets you extract a set of colors from a supplied image. The resulting 
+Palette object facilitates displaying the palette, dumping the color palette to CSV, and picking colors from the 
+palette at random.
+
