@@ -1,0 +1,6 @@
+README.rst
+setup.py
+clpb.egg-info/PKG-INFO
+clpb.egg-info/SOURCES.txt
+clpb.egg-info/dependency_links.txt
+clpb.egg-info/top_level.txt
