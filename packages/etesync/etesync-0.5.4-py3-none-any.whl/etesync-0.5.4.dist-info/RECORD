@@ -1,0 +1,12 @@
+etesync/__init__.py,sha256=12tOQh_mHLXFrZbYt9bEbSaIz5dFWRcLmxX0_IyvTQ8,19
+etesync/api.py,sha256=Vn9oOWZchIx1vyPhV77S_va2WdEwewLKWf02Lr1mHtc,14527
+etesync/cache.py,sha256=TgpCUnuR2plwmTdpv6iYqQWdiwT3DxqFNtGLeVC05_4,1206
+etesync/crypto.py,sha256=ShBQ0vEZGsEnGF1Y2RXgRUZHpMwlsq9ugLmiPXr-W-0,4436
+etesync/db.py,sha256=mTQ-GvO0jnDLhnxCDMj7NsCFjatLe2Y3T72ptaTauYk,128
+etesync/exceptions.py,sha256=rn7uXGJz2EMI_A_pw-GqajcTEh9dceJ8R3p2pAJobAQ,552
+etesync/pim.py,sha256=VnDHvHwnlLrkMvN_7m_VqBgiWdqzmKMWToPkmeCeDKA,478
+etesync/service.py,sha256=PP_6rsTUuhmfxwCWMbRsntLLmHwYXxj7Xu8nRbSk5y4,10269
+etesync-0.5.4.dist-info/METADATA,sha256=0wygB0BkgkZNb9sBQ3Xj3lapQ-Ox87ql2cjoFHshLc8,1352
+etesync-0.5.4.dist-info/RECORD,,
+etesync-0.5.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+etesync-0.5.4.dist-info/top_level.txt,sha256=z3a_3C_GWV0JBHJ68DEJ6HjqZ7wUAv-d6iToFDGF2_k,8
