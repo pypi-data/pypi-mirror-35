@@ -1,0 +1,3 @@
+[console_scripts]
+iautomate = iautomate.__main__:main
+
