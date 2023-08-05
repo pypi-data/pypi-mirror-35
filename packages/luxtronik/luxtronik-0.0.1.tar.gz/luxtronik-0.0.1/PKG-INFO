@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: luxtronik
+Version: 0.0.1
+Summary: A luxtronik heatpump controller interface
+Home-page: https://github.com/bouni/luxtronik
+Author: Bouni
+Author-email: bouni@owee.de
+License: UNKNOWN
+Description: # Luxtronik
+        
+        python-luxtronik is a library that allow you to interact with a Luxtronik heatpump controller.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
