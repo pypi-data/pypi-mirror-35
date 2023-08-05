@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pixels_encoder
+Version: 1.1.2
+Summary: extract image pixels info into json
+Home-page: https://github.com/app-craft/pixels-encoder
+Author: sroik
+Author-email: vasili.kazhanouski@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
