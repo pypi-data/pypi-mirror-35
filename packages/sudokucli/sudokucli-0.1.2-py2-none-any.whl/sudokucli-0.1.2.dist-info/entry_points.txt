@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        sudokucli=src.cli:cli
+    
