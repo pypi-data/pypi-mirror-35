@@ -1,0 +1,8 @@
+django_forbidden_ip-0.1.dist-info/METADATA,sha256=QDcOthV7_Q348avFKrEBOpy7wq9nEsTFDdIW3jN0bj0,950
+django_forbidden_ip-0.1.dist-info/RECORD,,
+django_forbidden_ip-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_forbidden_ip-0.1.dist-info/top_level.txt,sha256=IM7KHmcrVMTpgZnx8zpx37gvue78X8Px_5Ch9eQ7bmw,15
+ip_interceptor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ip_interceptor/apps.py,sha256=HMQrVfXHNKazBmHGeAG-oiky0t5lMl1lCaT-yzprosc,102
+ip_interceptor/middleware.py,sha256=8mSLmmXBIaQ4C19i2wIuAVzGXJNfKc_pd7m0o2Qznt4,574
+ip_interceptor/models.py,sha256=kTzLzncvkzs2iuOHYrPzc3rHmtKJSR6syMP_28Qs9kM,303
