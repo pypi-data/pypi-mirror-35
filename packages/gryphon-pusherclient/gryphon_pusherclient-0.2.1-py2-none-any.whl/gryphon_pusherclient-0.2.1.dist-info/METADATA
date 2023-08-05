@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gryphon-pusherclient
+Version: 0.2.1
+Summary: Pusher websocket client for python
+Home-page: https://github.com/TinkerWork/PythonPusherClient
+Author: MacLeod & Robinson
+Author-email: hello@tinkercoin.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: websocket-client
+
+A duplicate of PythonPusherClient (https://github.com/ekulyk/PythonPusherClient) for
+use with the Gryphon trading framework. All credit to the original author.
+
+
