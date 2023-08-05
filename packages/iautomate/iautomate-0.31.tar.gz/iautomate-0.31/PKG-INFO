@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: iautomate
+Version: 0.31
+Summary: A too to automate infrastructure tasks
+Home-page: https://github.com/iranianpep/iautomate
+Author: Ehsan Abbasi
+Author-email: ehsan.abb@gmail.com
+License: MIT
+Description: A too to automate infrastructure tasks
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
