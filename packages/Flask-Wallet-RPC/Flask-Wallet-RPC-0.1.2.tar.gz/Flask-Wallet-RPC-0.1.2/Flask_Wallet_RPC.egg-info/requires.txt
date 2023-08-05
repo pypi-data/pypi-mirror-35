@@ -1,0 +1,2 @@
+Flask
+slick-bitcoinrpc>=0.1.4
