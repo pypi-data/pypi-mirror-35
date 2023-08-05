@@ -1,0 +1,8 @@
+somosmas_common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+somosmas_common/authentication_backends.py,sha256=LmZe8928HEhp1gCdgM6f6L8Ijs3oyK7X_SBtSlof4ZA,1410
+somosmas_common/graphql.py,sha256=goBHI8T_fOeiqbhOjtOaw1gwjncObk0eSH3Vi8Rb1jg,174
+somosmas_common/middlewares.py,sha256=1uFYAzi_ZgIVl6Uz0m5IMfTXdc8WwnPQ1TwmxgtId8g,296
+somosmas_common-1.0.4.dist-info/METADATA,sha256=DT41HlBW5C12y1548N4F7k_4KHic4muLr9rCZFAfHKU,317
+somosmas_common-1.0.4.dist-info/RECORD,,
+somosmas_common-1.0.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+somosmas_common-1.0.4.dist-info/top_level.txt,sha256=oTWKHEZywNrHJyzlfT99V5Wh1wu8Ayiebboi8QjpC1I,16

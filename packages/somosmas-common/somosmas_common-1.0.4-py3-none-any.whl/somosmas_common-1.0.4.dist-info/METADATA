@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: somosmas-common
+Version: 1.0.4
+Summary: Package for the software components that are common for the S+ projects
+Home-page: UNKNOWN
+Author: Omar Diaz
+Author-email: zcool2005@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: django-oauth-toolkit
+
+UNKNOWN
+
+
