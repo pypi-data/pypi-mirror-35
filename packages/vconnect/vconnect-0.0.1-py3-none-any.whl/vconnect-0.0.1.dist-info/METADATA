@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: vconnect
+Version: 0.0.1
+Summary: A small vconnect package
+Home-page: https://github.com/pypa/sampleproject
+Author: vconnect_meena
+Author-email: meenaadepu4vconnect@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+
