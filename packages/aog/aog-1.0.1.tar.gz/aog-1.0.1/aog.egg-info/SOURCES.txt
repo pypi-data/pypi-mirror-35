@@ -1,0 +1,8 @@
+README.md
+setup.py
+aog/__init__.py
+aog/conv.py
+aog.egg-info/PKG-INFO
+aog.egg-info/SOURCES.txt
+aog.egg-info/dependency_links.txt
+aog.egg-info/top_level.txt
