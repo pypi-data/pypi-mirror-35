@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: lfdeploy
+Version: 1.2
+Summary: Improved tfdeploy module
+Home-page: https://github.com/LendFlo/Lendflo-tfdeploy
+Author: Przemyslaw Winszczyk
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
