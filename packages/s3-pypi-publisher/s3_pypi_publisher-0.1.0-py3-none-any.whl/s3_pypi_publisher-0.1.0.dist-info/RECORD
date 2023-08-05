@@ -1,0 +1,7 @@
+s3_pypi_publisher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3_pypi_publisher/publish_package.py,sha256=FOKVI1mGS8qVICmwf5InsFTyttnj9OX51_w9FsdD5xE,3009
+s3_pypi_publisher-0.1.0.data/scripts/publish_package,sha256=S0Mlr9_ernPQ-3kbvPa9-1IsQ8ufksFi5iZcgxTRy2Y,180
+s3_pypi_publisher-0.1.0.dist-info/METADATA,sha256=RZma62MhF6DCB5KfWDI2Ag8QZoEUFxiGq7vsVC-Uy5Y,515
+s3_pypi_publisher-0.1.0.dist-info/RECORD,,
+s3_pypi_publisher-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+s3_pypi_publisher-0.1.0.dist-info/top_level.txt,sha256=Ndq1yZqrVrW8saZyt4xxQt0rKOA6FgAeIEcHQMZNqBE,18
