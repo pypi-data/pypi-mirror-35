@@ -1,0 +1,16 @@
+[console_scripts]
+psec = python_secrets.main:main
+python_secrets = python_secrets.main:main
+
+[python_secrets]
+environments create = python_secrets.environments:EnvironmentsCreate
+environments list = python_secrets.environments:EnvironmentsList
+groups list = python_secrets.groups:GroupsList
+groups show = python_secrets.groups:GroupsShow
+secrets describe = python_secrets.secrets:SecretsDescribe
+secrets generate = python_secrets.secrets:SecretsGenerate
+secrets init = python_secrets.secrets:SecretsInit
+secrets send = python_secrets.secrets:SecretsSend
+secrets set = python_secrets.secrets:SecretsSet
+secrets show = python_secrets.secrets:SecretsShow
+
