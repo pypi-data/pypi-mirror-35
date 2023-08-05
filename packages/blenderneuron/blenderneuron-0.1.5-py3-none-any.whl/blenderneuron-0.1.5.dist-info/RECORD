@@ -1,0 +1,10 @@
+blenderneuron/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blenderneuron/client.py,sha256=89WiSrJjF8b0AwopkUJYLW9jYsLaaSCqAIT5sPKrkcw,24158
+blenderneuron/quick.py,sha256=YYnVNGFibWfMDepESw334x3U0ClYKiLqJV-db5CgwhI,72
+blenderneuron/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blenderneuron/tests/client.py,sha256=BeF2I58I_RHdFHhNjX539OIMdy62B6tHTqdcDh7YM8g,27229
+blenderneuron/tests/testscript.py,sha256=yKyyc9epjU5hudH1UUjjKD0QWJfj4ZCAAm_K6_iN-uY,581
+blenderneuron-0.1.5.dist-info/METADATA,sha256=IK_A4U-rZYfd7_o_1Qg3JjfQQQ1MFGKCu8c4-dYBcAM,2074
+blenderneuron-0.1.5.dist-info/RECORD,,
+blenderneuron-0.1.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+blenderneuron-0.1.5.dist-info/top_level.txt,sha256=VwqY1Y5mewPHx3dKeJB84SE_0qtkKlQ2WSiLrfReNpw,14
