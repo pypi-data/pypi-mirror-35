@@ -1,0 +1,9 @@
+DingtalkChatbot-1.2.0.dist-info/METADATA,sha256=silHB9ok7TsDiliHixLTaRb_UOsN76Ru7qq7PUHHB4c,8470
+DingtalkChatbot-1.2.0.dist-info/RECORD,,
+DingtalkChatbot-1.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+DingtalkChatbot-1.2.0.dist-info/top_level.txt,sha256=2Tx3GWdAVGP6_qLP4kJYZwyqbBos8aVLuFpzswKDPM4,16
+dingtalkchatbot/__about__.py,sha256=A61i0KPHscKy8n3GN305lEkIOcBYjwnyGxgps1JeQys,306
+dingtalkchatbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dingtalkchatbot/chatbot.py,sha256=NAcbBac8ZuyRsNh-p63mu6tHmTFfZsafkbLZp1WhrAM,13239
+dingtalkchatbot/chatbot_test.py,sha256=VoZqlLaDjG_N4eX8wjVZBGO-D0UVDC3b9V3hQsdcqkE,6571
+dingtalkchatbot/samples.py,sha256=G-QscCGsirWSiXjU9cykUUnBHMjNmcuJJJfBR1JKn-E,5582
