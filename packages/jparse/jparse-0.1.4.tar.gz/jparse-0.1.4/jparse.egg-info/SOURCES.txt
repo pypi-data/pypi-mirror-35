@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+VERSION
+setup.cfg
+setup.py
+jparse/__init__.py
+jparse/jparse.py
+jparse.egg-info/PKG-INFO
+jparse.egg-info/SOURCES.txt
+jparse.egg-info/dependency_links.txt
+jparse.egg-info/requires.txt
+jparse.egg-info/top_level.txt
