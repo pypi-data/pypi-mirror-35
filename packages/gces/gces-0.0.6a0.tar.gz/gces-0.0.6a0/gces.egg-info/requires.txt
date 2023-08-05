@@ -1,0 +1,13 @@
+google-cloud-pubsub
+python-dateutil
+
+[celery]
+celery[redis]>=3.1.20
+
+[ci]
+python-coveralls
+
+[test]
+pytest
+pytest-cov
+mock
