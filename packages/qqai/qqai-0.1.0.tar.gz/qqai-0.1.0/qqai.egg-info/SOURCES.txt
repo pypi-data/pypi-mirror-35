@@ -1,0 +1,7 @@
+README.md
+setup.py
+qqai.egg-info/PKG-INFO
+qqai.egg-info/SOURCES.txt
+qqai.egg-info/dependency_links.txt
+qqai.egg-info/requires.txt
+qqai.egg-info/top_level.txt

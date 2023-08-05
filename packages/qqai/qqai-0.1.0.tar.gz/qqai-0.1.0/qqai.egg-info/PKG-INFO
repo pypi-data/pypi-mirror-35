@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: qqai
+Version: 0.1.0
+Summary: Easy use of apis for Tencent AI
+Home-page: https://github.com/clumsyme/qqai
+Author: Li Yan
+Author-email: me@imliyan.com
+License: MIT
+Description: 
+        # qqai
+        简单易用的腾讯AI接口
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
