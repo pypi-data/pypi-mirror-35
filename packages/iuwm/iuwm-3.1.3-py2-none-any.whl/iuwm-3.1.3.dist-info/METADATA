@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: iuwm
+Version: 3.1.3
+Summary: Forecasts municipal water demand with changes in population, land use, climate, water use behavior, and use of alternative sources of water.
+Home-page: UNKNOWN
+Author: Andre Dozier, Bradley Reichel, Sybil Sharvelle, Larry Roesner, Mazdak Arabi
+Author-email: adozier@razixsolutions.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: requests
+Requires-Dist: SALib
+
+UNKNOWN
+
+
