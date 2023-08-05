@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: comtele_sdk
+Version: 1.1.4
+Summary: SDK para envio de mensagens de texto usando a plataforma Comtele
+Home-page: UNKNOWN
+Author: Diego Vieira
+Author-email: desenvolvimento@comtele.com.br
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: sms,REST,comtele,phone,telephony
+Platform: UNKNOWN
