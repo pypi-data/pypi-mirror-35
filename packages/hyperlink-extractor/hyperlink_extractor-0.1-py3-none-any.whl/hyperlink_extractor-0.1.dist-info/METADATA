@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hyperlink-extractor
+Version: 0.1
+Summary: Simple html link extractor.
+Home-page: https://github.com/sardok/hyperlink-extractor
+Author: Sinan Nalkaya
+Author-email: sardok@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: hyperlink
+Requires-Dist: lxml
+Requires-Dist: six
+
+UNKNOWN
+
+
