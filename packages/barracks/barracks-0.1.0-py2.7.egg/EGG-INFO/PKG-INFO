@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: barracks
+Version: 0.1.0
+Summary: Simple file storing util for reading & writing series of data for data mining
+Home-page: https://github.com/Prev/barracks
+Author: Youngsoo Lee
+Author-email: 0soo.2@prev.kr
+License: MIT
+Description: UNKNOWN
+Keywords: barracks,file-storage,data-mining
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
