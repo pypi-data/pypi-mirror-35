@@ -1,0 +1,13 @@
+surfinBH/__init__.py,sha256=-V36rFyj1w8ySfeYxGE2jcny46WiTxD9xD4H68V7I9Y,2220
+surfinBH/_downloadData.py,sha256=qHdnNu5xbwDSDSm_MKbqoJ7zfybJa-pCDX_kyMJe4L8,2361
+surfinBH/_loadFits.py,sha256=_mBwEnoRO9FE8L844DKyZUjVilZVK4WRfBiGq9M_mkc,283
+surfinBH/surfinBH.py,sha256=q-e89KtXu3IaXcBlXH45dvpoZyPvDzkDQ65CbYwMuQU,5215
+surfinBH/_eval_pysur/__init__.py,sha256=fTQPhNsH5jFY2-hfO9LH0i8w2oo8i_hMoLI9qiFwb5Q,20
+surfinBH/_eval_pysur/evaluate_fit.py,sha256=rxpy8OEBmhZXUXUqhIdCyD5JR-iVeu1GUEEPWBJDXkk,9578
+surfinBH/_fit_evaluators/__init__.py,sha256=EZwWDVOF__qjxW2hcwjjw0PVivRXiiSY8WxOyxIRdEg,58
+surfinBH/_fit_evaluators/fit_3dq8.py,sha256=NSJaLrq71y3zyJSSMF_-t8OpTUuzOtHysYJJrWIHhTE,2902
+surfinBH/_fit_evaluators/fit_7dq2.py,sha256=6xpmvhzSn3ayvRBZrhf_WiL7SHwIjBb0Jb2c75fgRxY,1301
+surfinBH-0.0.4.dev2.dist-info/METADATA,sha256=x7gozTAGyEnPlYxBlmvGKT0NS6mKvd7DXdX8aqgbxBI,2603
+surfinBH-0.0.4.dev2.dist-info/RECORD,,
+surfinBH-0.0.4.dev2.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+surfinBH-0.0.4.dev2.dist-info/top_level.txt,sha256=Kf_15sBHjrMiMQJIITOfO_PO2whfgMzAH5-ZurQtuyI,9
