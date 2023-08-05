@@ -1,0 +1,13 @@
+MAnorm2_utils/__init__.py,sha256=SwGK0P__yzXzMqnjkcyZvMppeeDJnLPWGMiUHNe48GM,1977
+MAnorm2_utils/genomic_bin.py,sha256=nY3NU2gDdPT-cLjVahQH1k71Wv0ELP8uhRZXw7y69nI,14866
+MAnorm2_utils/htseq_read.py,sha256=PUUKU1CW-Htedt79tmtYjjvdxUr7o52vyb6UESo8ts8,10426
+MAnorm2_utils/parse_sam.py,sha256=EsYOQc0EOPz6Oea3GSOVPuiO7GTBGT4FSTwoeuKjk78,4269
+MAnorm2_utils/scripts/__init__.py,sha256=vhNTr0yjrJwNxVy7zS13nA88jbVV8-iPxXPslg77akk,270
+MAnorm2_utils/scripts/profile_bins.py,sha256=Kzzy4xSUVbiFqUfY90SvfGVJceNZiKn-tdQr2xpr7fE,24537
+MAnorm2_utils/scripts/sam2bed.py,sha256=gjsE0eAaoG8obBXeQS3TUuhcAd_PSW6iERY9tjAOQXY,7985
+MAnorm2_utils-1.0.0.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+MAnorm2_utils-1.0.0.dist-info/METADATA,sha256=n-wAvzqIvVIxLZx7lBA9q_p7C3j25zTyqZ3pvj47HDU,10227
+MAnorm2_utils-1.0.0.dist-info/RECORD,,
+MAnorm2_utils-1.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+MAnorm2_utils-1.0.0.dist-info/entry_points.txt,sha256=bZrfI1Xq6s0eJYAz1WifIXX9DbsZXryVctDMMIm2DOE,119
+MAnorm2_utils-1.0.0.dist-info/top_level.txt,sha256=Edr3o3VRj7e7BNOUrnup1PGy13yft2vCnxt4CgtYC-A,14
