@@ -1,0 +1,8 @@
+cached_property
+click
+pycurl
+
+[test]
+coverage
+flake8
+pytest
