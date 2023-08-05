@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hydra-base
+Version: 0.1.6
+Summary: A data manager for networks
+Home-page: https://github.com/hydraplatform/hydra-base
+Author: Stephen Knox
+Author-email: stephen.knox@manchester.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: sqlalchemy
+Requires-Dist: psycopg2
+Requires-Dist: zope.sqlalchemy (>=0.4)
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: bcrypt
+Requires-Dist: lxml
+Requires-Dist: mysqlclient
+Requires-Dist: python-dateutil
+Requires-Dist: cheroot
+Requires-Dist: beaker
+Requires-Dist: packaging
+
+UNKNOWN
+
+
