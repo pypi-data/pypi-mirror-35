@@ -1,0 +1,15 @@
+plone.api>=1.8.4
+Products.GenericSetup>=1.8.2
+setuptools
+z3c.jbot
+plone.app.dexterity<=2.1.1
+plone.app.referenceablebehavior
+plone.app.relationfield
+plone.app.lockingbehavior
+plone.schema
+plone.directives.form
+
+[test]
+plone.app.testing
+plone.testing>=5.0.0
+plone.app.robotframework[debug]
