@@ -1,0 +1,17 @@
+djangohelper/__init__.py,sha256=xgUTzrdgTwCWtCspVY-_3gRHujSE9E4UTIvbYx8LhC8,374
+djangohelper/project2lines.py,sha256=PaRG_Ukcj5Ojjk5MxNilmnL2x4JAnlWU23qcCWKiOnk,2454
+djangohelper/tests.py,sha256=_b2yQDgTG1ZLFucUtOyQ-dUxvtasp5EoFBNhLBCiqa0,256
+djangohelper/util.py,sha256=nxGQyaZ2xkCUeYIE3YhkNO6R1XUJoRO0qmbA7LrC3ss,4718
+djangohelper/middleware/__init__.py,sha256=7EWP4SwG9xtO-djYHh_8pXdJxPmStyLlyXseQuxOkOw,294
+djangohelper/middleware/middleware.py,sha256=nfAdDaXUHlQY5WymAthVy6X-hlDlTYM53RdbmxS9adI,517
+slapy/__init__.py,sha256=zuJfoM5gFEwJi3seaHbkWamyDW0GdJQ5lBOgbc3MfjA,277
+slapy/djangohelper/__init__.py,sha256=O4CPq1s-ViEcqGUCM99BfFn38GIZhnFMsEVyf95MU5E,320
+slapy/djangohelper/project2lines.py,sha256=NnGmlMrVwoMIpXNvYW_PC3A6XYzX8M1WykXNjOpWXws,2462
+slapy/djangohelper/tests.py,sha256=_b2yQDgTG1ZLFucUtOyQ-dUxvtasp5EoFBNhLBCiqa0,256
+slapy/djangohelper/util.py,sha256=nxGQyaZ2xkCUeYIE3YhkNO6R1XUJoRO0qmbA7LrC3ss,4718
+snowland_djangohelper-0.0.4.dist-info/DESCRIPTION.rst,sha256=KMYXujNH1U7BBlHEI8VwyuUfqDtKLHDhhhJOXgygdGo,51
+snowland_djangohelper-0.0.4.dist-info/METADATA,sha256=uYTXu4WjS6b_R5q6v2KsktReAea2j2rc1bwDRn8Fv1Q,887
+snowland_djangohelper-0.0.4.dist-info/RECORD,,
+snowland_djangohelper-0.0.4.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+snowland_djangohelper-0.0.4.dist-info/metadata.json,sha256=CxH02dnatOa0Uut8qXCN34GMP1nVbtORQDET5jtgOZM,1004
+snowland_djangohelper-0.0.4.dist-info/top_level.txt,sha256=TeT2D3XiYKQMURSkxBzSqjMcYksQuFkTbVimqrG6JAQ,13
