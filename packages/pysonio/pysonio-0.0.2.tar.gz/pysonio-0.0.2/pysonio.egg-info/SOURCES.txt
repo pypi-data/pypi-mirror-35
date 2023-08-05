@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+pysonio/__init__.py
+pysonio/attendance.py
+pysonio/browser.py
+pysonio.egg-info/PKG-INFO
+pysonio.egg-info/SOURCES.txt
+pysonio.egg-info/dependency_links.txt
+pysonio.egg-info/requires.txt
+pysonio.egg-info/top_level.txt
