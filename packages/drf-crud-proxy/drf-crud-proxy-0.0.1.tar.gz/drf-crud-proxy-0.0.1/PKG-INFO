@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: drf-crud-proxy
+Version: 0.0.1
+Summary: Generic views, viewsets and mixins that extend the ones provided by Django REST Framework, adding separated serializers for read and write operations.
+Home-page: https://github.com/attevaltonen/drf-crud-proxy
+Author: attevaltonen
+Author-email: atte.hj.valtonen@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Django REST Framework,Serializers,REST,API,Django
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Finnish
+Classifier: Programming Language :: Python :: 3.7
