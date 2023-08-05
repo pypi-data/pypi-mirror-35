@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xenos
+Version: 0.0.0
+Summary: A cross-platform collection of simple game environments suitable for Reinforcement Learning 
+                   applications. The environments are all written in C++. A minimal interface exposes the relevant methods
+                   to Python. This project is inspired by OpenAI Gym and even contains some of the environments that 
+                   are also found in OpenAI Gym.
+Home-page: UNKNOWN
+Author: Ahura Jami
+Author-email: ahura.jami@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

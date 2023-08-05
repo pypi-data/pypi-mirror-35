@@ -1,0 +1,18 @@
+include README.md
+
+include CMakeLists.txt
+
+include Orenda/CMakeLists.txt
+recursive-include Orenda/CMake *
+
+recursive-include Bindings CMakeLists.txt
+recursive-include Bindings *.cmake
+
+recursive-include Orenda/Source *
+# recursive-include Orenda/ThirdParty/boost/include/ *
+# include Orenda/ThirdParty/boost/include/boost/variant.hpp
+# recursive-include Orenda/ThirdParty/boost/include/boost/variant *
+
+recursive-include Bindings/Source *
+recursive-include Bindings/Header *
+recursive-include Bindings/ThirdParty/pybind11/include *.h
