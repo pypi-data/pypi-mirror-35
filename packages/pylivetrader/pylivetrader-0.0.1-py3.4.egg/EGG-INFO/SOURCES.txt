@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pylivetrader/__init__.py
+pylivetrader.egg-info/PKG-INFO
+pylivetrader.egg-info/SOURCES.txt
+pylivetrader.egg-info/dependency_links.txt
+pylivetrader.egg-info/requires.txt
+pylivetrader.egg-info/top_level.txt
