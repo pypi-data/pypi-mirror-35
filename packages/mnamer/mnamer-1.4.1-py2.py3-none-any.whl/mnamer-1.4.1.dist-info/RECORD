@@ -1,0 +1,10 @@
+mnamer/__init__.py,sha256=gZDIefg2XIIgkE1W9CTFQegr7-8JZK9zkWi90eXFCEc,1340
+mnamer/__main__.py,sha256=C3o3fWxfbS5lQNF31D6Q14hSGCgzzp0oeGFSdk_JbHY,13041
+mnamer/__version__.py,sha256=y5cARD-sqGxs-6JYAclH792CslJ6HpjztINvWvMZw5o,18
+mnamer/exceptions.py,sha256=1McP4GS4VyoyemOUJyx2aIMosXZ-3Yu-Rh8Yuu7RWD0,225
+mnamer/utils.py,sha256=5lW3tabAsyILbcjpdZ2b4hfgvGqtPW6HpfdrlUQv2yA,7374
+mnamer-1.4.1.dist-info/METADATA,sha256=oF_Isf-k3MTu8E78OxWfH76mMRIVi4vqw2tkJ1pi7-g,6882
+mnamer-1.4.1.dist-info/RECORD,,
+mnamer-1.4.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+mnamer-1.4.1.dist-info/entry_points.txt,sha256=Muy4M3_h7oMEYXhzQJtDQrPrYAPzID48TrYmNECbS9o,49
+mnamer-1.4.1.dist-info/top_level.txt,sha256=RER9MaloDml8ZAsXHlm6oKwvv2KgH_YWJLlOfKC1zAY,7
