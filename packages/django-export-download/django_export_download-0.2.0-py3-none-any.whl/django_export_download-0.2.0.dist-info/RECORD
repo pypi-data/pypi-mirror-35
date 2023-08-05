@@ -1,0 +1,9 @@
+django_export_download-0.2.0.dist-info/METADATA,sha256=SnUjPfgoJnHqC-RokhjQ02uWy5sO0_lHBj7gvZWmR6I,4750
+django_export_download-0.2.0.dist-info/RECORD,,
+django_export_download-0.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_export_download-0.2.0.dist-info/top_level.txt,sha256=kAzsxoxcjf7i5fRIcnu9f8hjCSUlGT2efdiqb7vN6CU,16
+export_download/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+export_download/templates/export_download_menu.html,sha256=EmyCHuVpDOncU0V9U-u0S9QFQnpQMucscCne5ooHd4o,785
+export_download/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+export_download/templatetags/export_download.py,sha256=TDmgtUGQB3EvnL6faunDuUstKDGnZoyfpqsANT8emBI,333
+export_download/views/__init__.py,sha256=xQuMRY-T08sQOV4jADdTdbbrlGbaq9rkH5WfHWjnB2M,5573
