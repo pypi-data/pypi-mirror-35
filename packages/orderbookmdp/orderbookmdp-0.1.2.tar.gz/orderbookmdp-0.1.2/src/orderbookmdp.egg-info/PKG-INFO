@@ -1,0 +1,56 @@
+Metadata-Version: 1.1
+Name: orderbookmdp
+Version: 0.1.2
+Summary: A package for simulating a limit order market as an OpenAI env.
+Home-page: https://github.com/valldabo2/python-orderbookmdp
+Author: Olle Dahlen
+Author-email: olledahlen04@hotmail.com
+License: MIT license
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        A package for simulating a limit order market as an OpenAI env.
+        
+        * Free software: MIT license
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install orderbookmdp
+        
+        Documentation
+        =============
+        
+        https://python-orderbookmdp.readthedocs.io/
+        
+        Development
+        ===========
+        
+        To run the all tests run::
+        
+            tox
+        
+        
+        
+        Changelog
+        =========
+        
+        0.1.0 (2018-08-19)
+        ------------------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
