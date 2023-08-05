@@ -1,0 +1,57 @@
+Metadata-Version: 1.1
+Name: dockerignore-generate
+Version: 1.0.5
+Summary: automatically generate dockerignore data
+Home-page: https://github.com/theden/dockerignore-generate
+Author: Denis Khshaba
+Author-email: deniskhoshaba@gmail.com
+License: GPL-2.0
+Description: dockerignore-generate
+        =====================
+        
+        Python 3 cli tool to automatically generate ``.dockerignore`` files
+        
+        Install
+        -------
+        
+        .. code:: bash
+        
+           pip install dockerignore-generate
+        
+        Usage
+        -----
+        
+        In a directory with a ``Dockerfile``
+        
+        .. code:: bash
+        
+           dockerignore-generate 
+        
+        will print out the contents of the generated ``.dockerignore`` file.
+        Without arguments the docker build context is assumed to be the curret
+        working directory.
+        
+        Contexts and Dockerfiles
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        To speciify a specific context use the ``-c`` flag, and ``-f`` to
+        speciify a ``Dockerfile``, e.g.,
+        
+        .. code:: bash
+        
+           dockerignore-generate -f Dockerfile.custom  -c ../
+        
+        To save a the ``.dockerignore`` file, use the ``-s`` flag, and ``-o`` to
+        overwrite an existing file (file will be stored in the docker build
+        context)
+        
+        .. code:: bash
+        
+           dockerignore-generate -f Dockerfile.custom  -c ../ -s
+           wrote ../.dockerignore
+        
+Keywords: docker,dockerignore,linux,containers
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
