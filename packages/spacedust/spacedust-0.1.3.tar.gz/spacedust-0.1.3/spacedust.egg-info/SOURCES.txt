@@ -1,0 +1,10 @@
+README.rst
+setup.py
+spacedust/__init__.py
+spacedust/core.py
+spacedust.egg-info/PKG-INFO
+spacedust.egg-info/SOURCES.txt
+spacedust.egg-info/dependency_links.txt
+spacedust.egg-info/not-zip-safe
+spacedust.egg-info/requires.txt
+spacedust.egg-info/top_level.txt
