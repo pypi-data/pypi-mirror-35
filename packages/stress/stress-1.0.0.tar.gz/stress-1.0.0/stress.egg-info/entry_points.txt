@@ -1,0 +1,3 @@
+[console_scripts]
+stress = stress:_cmd_line
+
