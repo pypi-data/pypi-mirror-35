@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: thermoworks_smoke
+Version: 0.1.5
+Summary: Pull data for your thermoworks smoke thermometer
+Home-page: https://github.com/nhorvath/python-thermoworks-smoke
+Author: nhorvath
+Author-email: UNKNOWN
+License: GPLv3
+Description: UNKNOWN
+Keywords: Thermoworks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.5
