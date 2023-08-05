@@ -1,0 +1,10 @@
+bovespa2csv/BovespaParser.py,sha256=RNDSfjs0GVaR5AULvVShRQ4hX9ts1BeodKmumLdqj80,4506
+bovespa2csv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bovespa2csv/parse_file.py,sha256=CMuSTpVpV7kn2FMM6mznb2y09KeMP8d-EwAEhnWNCAo,1194
+bovespa2csv/util.py,sha256=J251sEmu8VWS1j_yio44oRYuv6bHYUkZBxyz1QfX39Q,6436
+bovespa2csv-0.0.2.dist-info/METADATA,sha256=r-O5jakh9cDOfhzVh59MS9KLzIF1wOKlLvnpVYnfb1o,1937
+bovespa2csv-0.0.2.dist-info/RECORD,,
+bovespa2csv-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+bovespa2csv-0.0.2.dist-info/top_level.txt,sha256=VkUdtpyCqXEf-B3nPA4ACJkUSKKF0ln72FndpxC_1Mk,18
+tests/2csv_tests.py,sha256=iVo1T5sUP8M5e8WoVXmCm8llicRjdAqHKv90MVrNOu0,1668
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
