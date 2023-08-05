@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: SlaterPythonGames
+Version: 0.15a0
+Summary: An updated version of rygames, a collection of games written in Python
+Home-page: https://github.com/rjslater2000/SlaterPythonGames
+Author: Ryan J. Slater
+Author-email: ryan.j.slater.2@gmail.com
+License: UNKNOWN
+Keywords: games,battleship,python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pygame
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: names
+
+# SlaterPythonGames
+[![Downloads](http://pepy.tech/badge/SlaterPythonGames)](http://pepy.tech/project/SlaterPythonGames)<br>
+
+Python games by Ryan J Slater<br>
+This is a replacement for rygames [![Downloads](http://pepy.tech/badge/rygames)](http://pepy.tech/project/rygames)<br>
+[GitHub](https://github.com/rjslater2000/SlaterPythonGames)
+
+To install:<br>
+`pip install SlaterPythonGames`
+
+## Games
+
+* CoinGame
+* CountryGuessingGame
+* TicTacToe1Player
+* TicTacToe2Player
+* TwentyFortyEight
+* Warships
+
+### Running Games
+`import SlaterPythonGames as s`<br>
+`s.GAMENAME()`<br> where GAMENAME is one of the options shown above
+
+
