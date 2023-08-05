@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: scvelo
+Version: 0.1.1
+Summary: Stochastic RNA velocity for inferring single cell dynamics
+Home-page: https://github.com/VolkerBergen/scvelo
+Author: Volker Bergen
+Author-email: volker.bergen@helmholtz-muenchen.de
+License: BSD
+Download-URL: https://github.com/VolkerBergen/scvelo
+Description: UNKNOWN
+Keywords: RNAseq,singlecell,stochastic,velocity,transcriptomics
+Platform: UNKNOWN
