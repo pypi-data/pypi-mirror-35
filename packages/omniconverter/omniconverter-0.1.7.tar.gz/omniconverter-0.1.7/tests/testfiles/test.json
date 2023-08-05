@@ -1,0 +1,50 @@
+{
+  "name": "test",
+  "study": "test",
+  "period": 2018,
+  "analysis_unit": "h",
+  "conceptual_dataset": "net-long",
+  "sub_type": "net-long",
+  "boost": 1,
+  "resources": [
+    {
+      "path": "test.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "a",
+            "label": "A",
+            "type": "number",
+            "min": 0,
+            "max": 999999,
+            "primary_key": true
+          },
+          {
+            "name": "b",
+            "label": "B",
+            "type": "number",
+            "min": 1,
+            "max": 5
+          },
+          {
+            "name": "c",
+            "label": "C",
+            "type": "cat",
+            "min": -9,
+            "max": 3,
+            "values": [
+              {"value": 1, "label": "A"},
+              {"value": 2, "label": "B"},
+              {"value": 3, "label": "C"}
+            ]
+          },
+          {
+            "name": "d",
+            "label": "D",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
