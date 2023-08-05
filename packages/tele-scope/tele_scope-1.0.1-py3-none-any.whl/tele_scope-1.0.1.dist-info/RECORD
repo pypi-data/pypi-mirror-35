@@ -1,0 +1,10 @@
+scope/__init__.py,sha256=a84Yj9eYz03gXIvQTYsuCby-Hh0wjZTqH3ie1bDYVhU,212
+scope/batch.py,sha256=KwLl8avvD-MjDKPqTNweB6rDY0-V5omY3y5pfyrRvN4,6284
+scope/scopemath.py,sha256=DaMc1LN-3qMN9-9mV5g2xONzbi3TSiHx54mw_G7YMR4,10946
+scope/simulatetarget.py,sha256=LstbQE-GD300oRK9OPizD7Zr4u-qp8NgpgmkPar92yg,17094
+tele_scope-1.0.1.dist-info/DESCRIPTION.rst,sha256=2wXdmCJ13eo9Uak42IEMZVaMhom_StjojhOUkcIjHho,207
+tele_scope-1.0.1.dist-info/METADATA,sha256=Jh3ApfcqMhymctmRLrxDVWpUAUrHbf8ThDnVvBh8008,728
+tele_scope-1.0.1.dist-info/RECORD,,
+tele_scope-1.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+tele_scope-1.0.1.dist-info/metadata.json,sha256=xz-WDn1_4LK3Jb82wd49wXXjw-EhkCVEqxi3DJomo6E,772
+tele_scope-1.0.1.dist-info/top_level.txt,sha256=2CM6KU4wKPVS0iGdr72fQXzMA5Vn0U5FzuzOYCYth_8,6
