@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cividis
+Version: 0.0.2
+Summary: Register `cividis` with matplotlib, a color map optimized for color vision deficiency, as published in Nuñez, et al. (2018), PLoS ONE 13(7): e0199239 .
+Home-page: https://www.github.com/benmaier/cividis
+Author: Benjamin F. Maier
+Author-email: bfmaier@physik.hu-berlin.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
