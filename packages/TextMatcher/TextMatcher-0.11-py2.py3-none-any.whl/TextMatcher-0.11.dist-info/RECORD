@@ -1,0 +1,10 @@
+TextMatcher-0.11.dist-info/METADATA,sha256=cU2Yfc0brlMJM36BmuE7c_r1N2Ft7wo-39nYamqNWWA,2906
+TextMatcher-0.11.dist-info/RECORD,,
+TextMatcher-0.11.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+TextMatcher-0.11.dist-info/top_level.txt,sha256=K-e-QZGrkEzIbTlsCnRkP41LydeTMhjowEmdb2MErm0,18
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=s8f-7xBxBGsL5OVZO3ix9YjtdKdYnjZpzGZVwJoCKA8,84
+tests/test_pdf_match.py,sha256=Be6J95qtYRVhOmUwutyiHU0L0vKvJNfLgrrVAaE8kAU,6827
+tests/test_webpage_match.py,sha256=6QNj2Xfmp6QRvVMDjbpql75KbZreF2Cr22xKc_DYU2c,3582
+textmatcher/__init__.py,sha256=mIpbqJTRKpcizeCdUVx4EtjjznhOLQ9EyKf9I41s8Oo,49
+textmatcher/program.py,sha256=WOuGhtwCTOAmE7uL8xf6DqMX4u8WtCBzkTWRCuTMi7Y,3358
