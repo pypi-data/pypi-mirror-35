@@ -1,0 +1,32 @@
+Metadata-Version: 1.0
+Name: jdcpy
+Version: 1.0.9
+Summary: jdcpy模块,吉富数据中心的python接口
+Home-page: UNKNOWN
+Author: JaydenFish@ThizGroup
+Author-email: xmyjd@163.com
+License: UNKNOWN
+Description: jdcpy module
+        ============
+        本模块是吉富数据中心的python版接口
+        
+        提供下载基金相关信息的功能
+        
+        大致使用方法如下:
+        
+        from jdcpy import jdcpy
+        
+        jdcpy.login('username','password')
+        
+        登录,成功登录返回整数0,否则返回string错误信息
+        
+        jdcpy.info(基金list,基本信息list,投资分布信息list,业绩表现list)
+        
+        获得基金基本信息,成功返回pandas.DataFrame,否则返回string错误信息
+        
+        jdcpy.nav(基金list,起始日期,最终日期,信息类别list)
+        
+        获得基金历史数据,成功返回pandas.DataFrame,否则返回string错误信息
+        
+        
+Platform: UNKNOWN
