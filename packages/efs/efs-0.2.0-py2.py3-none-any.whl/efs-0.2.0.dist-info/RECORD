@@ -1,0 +1,10 @@
+efs/__init__.py,sha256=HclNBwdBhfYLn8G8aG-xq0OrWqkwnZ7tIKuegLDqqhM,127
+efs/eatfirst_osfs.py,sha256=BtkDkMKK0bZ5Y9MlTsKxofEjLmbMVajMzepAZSTa7sE,185
+efs/eatfirst_s3.py,sha256=uFsga2UL9DB2nOw-10b2UmTGPxRO2003iGh-1DIzcVo,711
+efs/filesystem.py,sha256=kMJReLLHVRbql6qqoRdt05inwiBPNYmVBb0vQMA1mjo,5251
+efs-0.2.0.dist-info/DESCRIPTION.rst,sha256=ZXMHX6KQ8Dy5Sb10O6HsMXyf17orum0uNb7DTHa8PpU,957
+efs-0.2.0.dist-info/METADATA,sha256=YCzRrlDIgQY7jWB95f5Ok9NIJd5uOqtSZn9JUXInt-c,2145
+efs-0.2.0.dist-info/RECORD,,
+efs-0.2.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+efs-0.2.0.dist-info/metadata.json,sha256=A_EOlyxaiMVO0fEwGVRbntiIk369svSFZlpZpCv0uLE,1247
+efs-0.2.0.dist-info/top_level.txt,sha256=MUqad5sfd1tq_9HhvAXrYm9LPtCv9nrXNWaT7aWPH60,4
