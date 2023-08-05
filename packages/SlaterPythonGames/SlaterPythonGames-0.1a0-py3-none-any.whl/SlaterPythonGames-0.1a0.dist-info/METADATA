@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: SlaterPythonGames
+Version: 0.1a0
+Summary: An updated version of rygames, a collection of games written in Python
+Home-page: https://github.com/rjslater2000/SlaterPythonGames
+Author: Ryan J. Slater
+Author-email: ryan.j.slater.2@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# SlaterPythonGames
+
+Python games by Ryan J Slater<br>
+[GitHub](https://github.com/rjslater2000/SlaterPythonGames)
+
+To install:<br>
+`pip install SlaterPythonGames`
+
+## Games
+
+* CoinGame
+* CountryGuessingGame
+* Hangman
+* TicTacToe1Player
+* TicTacToe2Player
+* TwentyFortyEight
+* Warships
+
+
