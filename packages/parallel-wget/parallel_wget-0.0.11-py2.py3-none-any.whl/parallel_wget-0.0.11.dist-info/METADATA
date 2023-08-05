@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: parallel-wget
+Version: 0.0.11
+Summary: Wget in parallel
+Home-page: UNKNOWN
+Author: Aimee Barciauskas
+Author-email: aimee@developmentseed.org
+License: UNKNOWN
+Keywords: wget multiprocessing parallel http https
+Platform: UNKNOWN
+Requires-Dist: wget
+
+Given a set of http URLs, fetch in parallel
+
+
