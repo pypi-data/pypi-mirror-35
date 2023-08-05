@@ -1,0 +1,41 @@
+Metadata-Version: 2.0
+Name: temporal-sqlalchemy
+Version: 0.5.0
+Summary: Temporal Extensions for SQLAlchemy ORM
+Home-page: https://github.com/CloverHealth/temporal-sqlalchemy
+Author: Clover Health
+Author-email: oss@cloverhealth.com
+License: BSD 3-Clause
+Platform: UNKNOWN
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Requires-Dist: sqlalchemy (>=1.1.9)
+Requires-Dist: psycopg2 (>=2.7.5)
+
+temporal_sqlalchemy
+########################################################################
+
+Documentation
+=============
+
+`View the temporal-sqlalchemy docs here <http://temporal-sqlalchemy.readthedocs.io/>`_.
+
+Installation
+============
+
+temporal-sqlalchemy can be installed with::
+
+    pip3 install temporal-sqlalchemy
+
+
+Contributing Guide
+==================
+
+For information on setting up temporal-sqlalchemy for development and contributing changes, view `CONTRIBUTING.rst <CONTRIBUTING.rst>`_.
+
+
+
