@@ -1,0 +1,6 @@
+discord_webhook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discord_webhook/webhook.py,sha256=VQF3qFfC0V3h8zSaQTIhKAz1CRBR-y0wqwy9jFigzv8,8739
+discord_webhook-0.2.0.dist-info/METADATA,sha256=q0h8d5BTzaiVdyw-ovWCmS3H1ocOiONYMR_xeh5Ku14,4345
+discord_webhook-0.2.0.dist-info/RECORD,,
+discord_webhook-0.2.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+discord_webhook-0.2.0.dist-info/top_level.txt,sha256=nCdHZH--JOMmIcQny6gJWUAYUPHLHTkh-uE5L0MLYIE,16
