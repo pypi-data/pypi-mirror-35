@@ -1,0 +1,12 @@
+asyncscrapy/__init__.py,sha256=jrNDwHfWMyUayxjeW_nm90Fs_uVa8Ts5LjBRqDEBo_c,18
+asyncscrapy/asyncdefer.py,sha256=Hh3Bn7uOmdjh5cSepYshQIPIKDUFypUAUYhYlwOzi7c,261
+asyncscrapy/misc.py,sha256=tWfoUrAjaT99HwtbfsXN3QazWkLiAYRUgOfoiI33I1I,289
+asyncscrapy/next_req.py,sha256=c7KNDSLRwR7kiVo14Ob2NpGBddWxEhxPGDzILDwMmp0,1483
+asyncscrapy/offs.py,sha256=CI50IyV3ECPg6wZ3xYQjEq6M9fnPg4xKLCx2rvNa3OE,845
+asyncscrapy/inline/__init__.py,sha256=QWcK28BWkfDKCHkwxQAyP-pQAjGWbKLTnZaY1YinYzY,1459
+asyncscrapy/inline/generator.py,sha256=ohVUlafxN6kK9h616Ojf_Cct2mp0liQrqYmOAIb6qp0,5210
+asyncscrapy/inline/utils.py,sha256=-8oHcR0DHEByEQ253zVs4TwRO9tFra7-tsfDB_FOpCg,318
+asyncscrapy-0.2.dist-info/METADATA,sha256=NwfTk9m9kBSYae89VqS5TyWc_TJanOc6ZOTNyFlJj-o,363
+asyncscrapy-0.2.dist-info/RECORD,,
+asyncscrapy-0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+asyncscrapy-0.2.dist-info/top_level.txt,sha256=egeOadids7Fx5aYl0IfZYgYWJHUHfYm15o4YApZ3rL8,12
