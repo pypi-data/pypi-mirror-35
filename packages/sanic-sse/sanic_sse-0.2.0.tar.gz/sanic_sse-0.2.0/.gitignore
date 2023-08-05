@@ -1,0 +1,9 @@
+*.pyc
+venv
+htmlcov
+.coverage
+.pytest_cache
+.mypy_cache
+client.py
+server.py
+dist
