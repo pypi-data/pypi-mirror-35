@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django-xapp-render
+Version: 0.0.7
+Summary: Cross app rendering utilities.
+Home-page: UNKNOWN
+Author: Netnix
+Author-email: netnix@ocado.com
+Maintainer: Mike Bryant
+Maintainer-email: mike.bryant@ocado.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: django (>=1.4)
+Requires-Dist: jinja2
+
+Cross app rendering utilities.
+
+

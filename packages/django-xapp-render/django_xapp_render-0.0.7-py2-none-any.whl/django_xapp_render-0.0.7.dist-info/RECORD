@@ -1,0 +1,14 @@
+django_xapp_render-0.0.7.dist-info/METADATA,sha256=PHz-XsvRLrcMr5noP0mXvHSieEayujqL3xI7W5fNOsU,352
+django_xapp_render-0.0.7.dist-info/RECORD,,
+django_xapp_render-0.0.7.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+django_xapp_render-0.0.7.dist-info/top_level.txt,sha256=gj4u5GdiDixObFW2XRrd6xevkvBZIeUXI1I3jGWFYic,12
+xapp_render/__init__.py,sha256=zfb7xTxRIxMjaNBGPw10ISCxiWX6c5V1teDZNIb26qg,26
+xapp_render/models.py,sha256=Wi_LQq1VoxubFJiZwCRazLith2wQFAanmSuuq2TSBus,17
+xapp_render/signals.py,sha256=IDtvb8Bk6o3__mvty9rJM-jaf_mR7yOc29ZEACESWiM,304
+xapp_render/template_utils.py,sha256=w-pK4MffVesjc1EUetGv2nWrxJUcI9QEzFJm_VBU2mk,1623
+xapp_render/tests.py,sha256=BW3SOqwDG-qZdUcjMnt-FjUveyx7pYVHF2tAl0Xt8dg,7763
+xapp_render/utils.py,sha256=MzbhyKR8sgfiIzk8QSuhdBFzBhM3T2sCtK6BmfA5lu0,2551
+xapp_render/version.py,sha256=PWFwP7wt4Q9zeORPGuwh1A2f_U_5GWHUUwPJ0H42Q6U,22
+xapp_render/templatetags/__init__.py,sha256=14Dgxo1qbiIrG8w0jIGMzc2qg2XCrZbhq3h0JwEeWg8,36
+xapp_render/templatetags/xapp_render.py,sha256=Vy8l_swy-qq2ug6bGmgwdsBNncZDuW6VZhIAwa8HxzU,468
+xapp_render/templatetags/xapp_render_jinja2.py,sha256=e0fxHL2ej3ZakwkAYM0ZKYLdvleI5oF3mV-9bKqcj2Y,1199
