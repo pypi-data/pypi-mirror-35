@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "libaloha"
+version = "0.0.2"
+description = "Personal library to provide some classes, functions and binaries"
+authors = ["Aloha68 <dev@aloha.im>"]
+
+license = "ISC"
+
+readme = "README.md"
+
+homepage = "https://gitlab.com/aloha68/libaloha"
+repository = "https://gitlab.com/aloha68/libaloha"
+
+classifiers=[
+    'Intended Audience :: Developers',
+    'Operating System :: POSIX :: Linux',
+    'Topic :: Software Development :: Libraries',
+]
+
+[tool.poetry.dependencies]
+python = "^3"
+requests = "^2.19"
+redis = {version = "^2.10", optional = true}
+django = {version = "2.0.6", optional = true}
+markdown = {version = "^2.6", optional = true}
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.extras]
+django = ["django"]
+markdown = ["markdown"]
+redis = ["redis"]
+
+[tool.poetry.scripts]
+check-ip = 'libaloha.bin:check_ip'
+check-website-alive = 'libaloha.bin:check_website_alive'
+send-sms = 'libaloha.bin:send_sms'
