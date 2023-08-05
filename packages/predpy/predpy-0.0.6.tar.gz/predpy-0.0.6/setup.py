@@ -1,0 +1,43 @@
+from setuptools import setup, find_packages
+from codecs import open
+from os import path
+
+here = path.abspath(path.dirname(__file__))
+with open(path.join(here, 'long_description.txt'), encoding='utf-8') as f:
+    long_description = '\n' + f.read()
+
+setup(
+    name='predpy',
+    version='0.0.6',
+    description='Series of Data Science Graphs written by Philip Geurin and Matt Drury',
+    long_description=long_description,
+    url='https://github.com/pgeurin/predpy',
+    author='Philip Geurin and Matt Drury',
+    author_email='philip.geurin@gmail.com',
+    license='BSD',
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Education',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: BSD License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Topic :: Scientific/Engineering',
+        'Topic :: Scientific/Engineering :: Mathematics'
+    ],
+    keywords=['statistics', 'data', 'science', 'datascience'],
+    packages=find_packages(),
+    # packages=find_packages(),
+    install_requires=['numpy', 'pandas', 'scikit-learn', 'matplotlib', 'scipy',
+                        'basis_expansions', 'regression_tools',
+                        'stringcase', 'tqdm'],
+    dependency_links=[
+      # 'git+ssh://git@github.com/username/private_repo.git#egg=private_package_name-1.1',
+      'git+https://github.com/madrury/basis-expansions/archive/master.zip#egg=basis-expansions-0.0.1',
+      'git+https://github.com/madrury/regression-tools/archive/master.zip#egg=regression_tools-0.0.1',
+    ]
+)
