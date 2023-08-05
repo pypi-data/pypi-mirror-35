@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: ezdb
+Version: 1.5
+Summary: Access a remote database like you would a native python structure
+Home-page: https://github.com/tyoung03/ezdb
+Author: Tyler Young
+Author-email: tyler.young@villanova.edu
+License: UNKNOWN
+Description: Access a remote database like you would a native python structure
+Keywords: database,ezdb,EZDB,easy,db,python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Operating System :: OS Independent

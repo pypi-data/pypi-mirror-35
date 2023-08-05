@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+commands.txt
+requirements.txt
+setup.cfg
+setup.py
+ezdb/__init__.py
+ezdb/ezdb.py
+ezdb.egg-info/PKG-INFO
+ezdb.egg-info/SOURCES.txt
+ezdb.egg-info/dependency_links.txt
+ezdb.egg-info/top_level.txt
