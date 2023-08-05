@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+html2dict/__init__.py
+html2dict/base_extractor.py
+html2dict/extractors.py
+html2dict/resources.py
+html2dict.egg-info/PKG-INFO
+html2dict.egg-info/SOURCES.txt
+html2dict.egg-info/dependency_links.txt
+html2dict.egg-info/requires.txt
+html2dict.egg-info/top_level.txt
