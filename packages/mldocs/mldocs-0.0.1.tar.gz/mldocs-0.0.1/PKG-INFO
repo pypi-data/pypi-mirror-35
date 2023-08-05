@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mldocs
+Version: 0.0.1
+Summary: Documents the Machine Learning process from data to model and performance.
+Home-page: https://github.com/craftworksgmbh/mldocs
+Author: Simon Stiebellehner
+Author-email: simon.stiebellehner@craftworks.at
+License: MIT
+Description: # mldocs
+        Documentation Package for ML Process.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
