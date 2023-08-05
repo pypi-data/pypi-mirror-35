@@ -1,0 +1,10 @@
+unidecode
+pyparsing
+flashtext
+six
+
+[:python_version < "3.0"]
+pattern
+
+[:python_version >= "3.0"]
+Pattern
