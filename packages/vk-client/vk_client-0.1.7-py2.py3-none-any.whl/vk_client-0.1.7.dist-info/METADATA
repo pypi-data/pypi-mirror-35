@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: vk-client
+Version: 0.1.7
+Summary: Python 2/3 high level VK API.
+Home-page: https://github.com/Suenweek/vk-client
+Author: Roman Novatorov
+Author-email: roman.novatorov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: captcha-handlers
+Provides-Extra: tests
+Requires-Dist: arrow
+Requires-Dist: cached-property
+Requires-Dist: six
+Requires-Dist: enum34
+Requires-Dist: more-itertools
+Requires-Dist: vk
+Provides-Extra: captcha-handlers
+Requires-Dist: requests; extra == 'captcha-handlers'
+Requires-Dist: Pillow; extra == 'captcha-handlers'
+Provides-Extra: tests
+Requires-Dist: tox; extra == 'tests'
+Requires-Dist: pytest; extra == 'tests'
+
+UNKNOWN
+
+
