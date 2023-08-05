@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+telethon_django/__init__.py
+telethon_django/admin.py
+telethon_django/apps.py
+telethon_django/models.py
+telethon_django/session.py
+telethon_django.egg-info/PKG-INFO
+telethon_django.egg-info/SOURCES.txt
+telethon_django.egg-info/dependency_links.txt
+telethon_django.egg-info/top_level.txt
+telethon_django/migrations/0001_initial.py
+telethon_django/migrations/__init__.py

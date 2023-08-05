@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: telethon-django
+Version: 0.1.1
+Summary: Telethon Django helper (telethon-sync)
+Home-page: https://github.com/TheUnravelGhoul/telethon-django/
+Author: theunravelghoul
+Author-email: densmorgon@gmail.com
+License: BSD License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
