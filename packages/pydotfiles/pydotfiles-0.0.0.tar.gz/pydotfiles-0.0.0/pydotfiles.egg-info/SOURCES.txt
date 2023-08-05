@@ -1,0 +1,12 @@
+setup.py
+pydotfiles/__init__.py
+pydotfiles/setup.py
+pydotfiles.egg-info/PKG-INFO
+pydotfiles.egg-info/SOURCES.txt
+pydotfiles.egg-info/dependency_links.txt
+pydotfiles.egg-info/top_level.txt
+pydotfiles.egg-info/zip-safe
+pydotfiles/core/__init__.py
+pydotfiles/core/pydotfiles.py
+pydotfiles/utils/__init__.py
+pydotfiles/utils/utils.py
