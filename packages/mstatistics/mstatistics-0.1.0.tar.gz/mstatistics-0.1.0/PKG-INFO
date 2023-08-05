@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mstatistics
+Version: 0.1.0
+Summary: Provide a robust statistical library for Python to be used in conjunction with NumPy, SciPy, Pandas, and other common data science packages.
+Home-page: http://github.com/MaxMifkovic/mstatistics
+Author: Max Mifkovic
+Author-email: maxmifkovic@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
