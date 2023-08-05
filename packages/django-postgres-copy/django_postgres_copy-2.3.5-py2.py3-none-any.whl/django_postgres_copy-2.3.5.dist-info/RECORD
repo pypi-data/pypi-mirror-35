@@ -1,0 +1,11 @@
+django_postgres_copy-2.3.5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+django_postgres_copy-2.3.5.dist-info/LICENSE.txt,sha256=tlO-DaG-hSd04vRiK2sLwrMkn4mh0rVkX-zQC7NlYXo,1098
+django_postgres_copy-2.3.5.dist-info/METADATA,sha256=BfZ5mKfjCrBsSSLb_adDaf14PyvrEQm6BTmhfJaSDfw,817
+django_postgres_copy-2.3.5.dist-info/RECORD,,
+django_postgres_copy-2.3.5.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+django_postgres_copy-2.3.5.dist-info/metadata.json,sha256=4q6DFqObcNw2JH61ZTMTtEarTW8SF36HPp5BAVwW10k,985
+django_postgres_copy-2.3.5.dist-info/top_level.txt,sha256=abtMpxwUkcTcYHAKF1cK99vEO5d4fLOefKMotXSyk2k,14
+postgres_copy/__init__.py,sha256=0jV9lUPDz2YTum8TgzsQfbyfotrN9uaD6cc-FR5qlGk,320
+postgres_copy/copy_from.py,sha256=bVhzH86h1tyLsOrh77N2cVB-FU7QJRwz9d-OfZffdsU,13543
+postgres_copy/copy_to.py,sha256=9ZE7DY6ADdyeXWRtz3uqrNsOtd5TFlS_riFIH_zXkNs,3422
+postgres_copy/managers.py,sha256=M7WsifqPEyh233UDTjzHhoYbxPt5rnDxH-Pmcpb1O38,8475
