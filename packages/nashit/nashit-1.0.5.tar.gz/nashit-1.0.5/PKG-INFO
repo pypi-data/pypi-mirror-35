@@ -1,0 +1,193 @@
+Metadata-Version: 1.1
+Name: nashit
+Version: 1.0.5
+Summary: A Cluster of essential utilities for python
+Home-page: https://github.com/nashit93/nashit
+Author: Nashit Babber
+Author-email: nashit93@gmail.com
+License: UNKNOWN
+Description: <div align="center">
+          <img src="http://theammis.com/logo-image.png"><br>
+        </div>
+        
+        -----------------
+        
+        # nashit: powerful Python data download toolkit
+        
+        <table>
+        <tr>
+          <td>Latest Release</td>
+          <td>
+            0.0.1
+            </a>
+          </td>
+        </tr>
+          <td></td>
+          <td>
+            0.0.1
+            </a>
+        </td>
+        </tr>
+        <tr>
+          <td>Package Status</td>
+          <td>
+        		<a href="https://pypi.org/project/nashit/">
+        		<img src="https://img.shields.io/pypi/status/nashit.svg" alt="status" /></td>
+        		</a>
+        </tr>
+        <tr>
+          <td>License</td>
+          <td>
+            <a href="https://github.com/nashit-dev/nashit/blob/master/LICENSE">
+            <img src="https://img.shields.io/pypi/l/nashit.svg" alt="license" />
+            </a>
+        </td>
+        </tr>
+        <tr>
+          <td>Build Status</td>
+          <td>
+            <a href="https://travis-ci.org/nashit-dev/nashit">
+            <img src="https://travis-ci.org/nashit-dev/nashit.svg?branch=master" alt="travis build status" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href="https://circleci.com/gh/nashit-dev/nashit">
+            <img src="https://circleci.com/gh/circleci/mongofinil/tree/master.svg?style=shield&circle-token=223d8cafa7b02902c3e150242520af8944e34671" alt="circleci build status" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href="https://ci.appveyor.com/project/nashit-dev/nashit">
+            <img src="https://ci.appveyor.com/api/projects/status/86vn83mxgnl4xf1s/branch/master?svg=true" alt="appveyor build status" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>Coverage</td>
+          <td>
+            <a href="https://codecov.io/gh/nashit-dev/nashit">
+            <img src="https://codecov.io/github/nashit-dev/nashit/coverage.svg?branch=master" alt="coverage" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>Downloads</td>
+          <td>
+            <a href="https://nashit.pydata.org">
+            <img src="https://anaconda.org/conda-forge/nashit/badges/downloads.svg" alt="conda-forge downloads" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+        	<td>Gitter</td>
+        	<td>
+        		<a href="https://gitter.im/pydata/nashit">
+        		<img src="https://badges.gitter.im/Join%20Chat.svg"
+        	</a>
+        	</td>
+        </tr>
+        </table>
+        
+        
+        
+        ## What is it?
+        
+        **nashit** is a Python package providing fast, flexible, and expressive utilities
+         which are widely used in day to day activities.using these functions are quite
+        easy and intuitive. It aims to be the fundamental high-level building block for
+        doing practical, **real world** tasks in Python. Additionally, it has
+        the broader goal of becoming **the most powerful and flexible open source utility
+         available in any language**. It is already well on
+        its way toward this goal.
+        
+        ## Main Features
+        Here are just a few of the things that nashit does well:
+        
+          - Downloading all files from a given URL of a specified format.
+        
+        As of now this package implements a single method **nas_fetch_it()** which can fetch all the mp3/pdf or (any other file format) from a perticular url.
+        this method takes 3 parameters namely:
+          - url : The URL from which data has to be fetched
+          - save_path : where the data is to be saved
+          - file_type : the file type which has to be searched(mp3 , pdf , xlsx etc...)
+        
+        ## Basic Usage
+        
+        ```sh
+        from nashit import data_fetchers
+        data_fetchers.nas_fetch_it("url","/path/to/save",".mp3")
+        ```
+        
+        ## Where to get it
+        The source code is currently hosted on GitHub at:
+        https://github.com/nashit93/nashit
+        
+        Binary installers for the latest released version are available at the [Python
+        package index](https://pypi.org/project/nashit) and on conda.
+        
+        ```sh
+        # conda
+        conda install nashit
+        ```
+        
+        ```sh
+        # or PyPI
+        pip install nashit
+        ```
+        
+        ## Dependencies
+        - [os](https://github.com/python/cpython): 1.9.0 or higher
+        - [tqdm](https://github.com/tqdm/tqdm): 2.5.0 or higher
+        - [re](https://github.com/python/cpython): 2011k or higher
+        - [requests](https://github.com/requests/requests): 2011k or higher
+        
+        ## Installation from sources
+        To install nashit from source you need Cython in addition to the normal
+        dependencies above. Cython can be installed from pypi:
+        
+        ```sh
+        pip install cython
+        ```
+        
+        In the `nashit` directory (same one where you found this file after
+        cloning the git repo), execute:
+        
+        ```sh
+        python setup.py install
+        ```
+        
+        ## License
+        [BSD 3](LICENSE)
+        
+        ## Documentation
+        The official documentation is hosted on readthedocs.org: https://readthedocs.org/projects/nashit
+        
+        ## Background
+        Work on ``nashit`` started at Hezkroust in 2018 and
+        has been under active development since then.
+        
+        ## Getting Help
+        
+        For usage questions, the best place to go to is [StackOverflow](https://stackoverflow.com/questions/tagged/nashit).
+        
+        ## Discussion and Development
+        Most development discussion is taking place on github in this repo. Further, the [nashit-dev mailing list](https://mail.python.org/mailman/listinfo/nashit-dev) can also be used for specialized discussions or design issues, and a [Gitter channel](https://gitter.im/pydata/nashit) is available for quick development related questions.
+        
+        All contributions, bug reports, bug fixes, documentation improvements, enhancements and ideas are welcome.
+        
+        If you are simply looking to start working with the nashit codebase, navigate to the [GitHub “issues” tab](https://github.com/nashit93/nashit/issues) and start looking through interesting issues.
+Keywords: pandas numpy download file bulk files
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
