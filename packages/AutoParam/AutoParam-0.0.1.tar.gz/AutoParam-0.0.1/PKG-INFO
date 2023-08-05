@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: AutoParam
+Version: 0.0.1
+Summary: An RL based HyperParameter Optimiser
+Home-page: https://github.com/vrishank97/AutoParam
+Author: Vrishank Bhardwaj
+Author-email: vrishank1997@gmail.com
+License: UNKNOWN
+Description: # AutoParam
+        An RL agent to help you optimise your hyperparameters
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

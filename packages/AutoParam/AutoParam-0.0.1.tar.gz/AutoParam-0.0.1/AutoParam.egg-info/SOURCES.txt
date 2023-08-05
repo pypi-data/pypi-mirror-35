@@ -1,0 +1,7 @@
+README.md
+setup.py
+AutoParam/__init__.py
+AutoParam.egg-info/PKG-INFO
+AutoParam.egg-info/SOURCES.txt
+AutoParam.egg-info/dependency_links.txt
+AutoParam.egg-info/top_level.txt
