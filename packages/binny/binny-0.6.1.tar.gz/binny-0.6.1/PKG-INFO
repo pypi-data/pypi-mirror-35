@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: binny
+Version: 0.6.1
+Summary: Tools for binning
+Home-page: http://github.com/felixpatzelt/binny
+Author: Felix Patzelt
+Author-email: felix@neuro.uni-bremen.de
+License: MIT
+Download-URL: https://github.com/felixpatzelt/binny/archive/0.6.1.tar.gz
+Description: 
+                Bin one-dimensional data and calculate conditional expectation
+                values.
+            
+Keywords: Binning,Conditional expectation
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

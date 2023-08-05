@@ -1,0 +1,14 @@
+CHANGELOG.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+binny/__init__.py
+binny/binny.py
+binny/general_helpers.py
+binny.egg-info/PKG-INFO
+binny.egg-info/SOURCES.txt
+binny.egg-info/dependency_links.txt
+binny.egg-info/not-zip-safe
+binny.egg-info/requires.txt
+binny.egg-info/top_level.txt
