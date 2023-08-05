@@ -1,0 +1,10 @@
+README.rst
+setup.py
+scuttlebutt/__init__.py
+scuttlebutt/protocol.py
+scuttlebutt/server.py
+scuttlebutt.egg-info/PKG-INFO
+scuttlebutt.egg-info/SOURCES.txt
+scuttlebutt.egg-info/dependency_links.txt
+scuttlebutt.egg-info/requires.txt
+scuttlebutt.egg-info/top_level.txt
