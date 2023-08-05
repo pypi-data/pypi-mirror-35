@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: evalmate
+Version: 0.1.0
+Summary: Evalmate is a set of tools for evaluating audio related machine learning tasks.
+Home-page: https://github.com/ynop/evalmate
+Author: Matthias Buechi, Andreas Ahlenstorf
+Author-email: buec@zhaw.ch
+License: MIT
+Download-URL: https://github.com/ynop/evalmate/releases
+Description: Evalmate is a set of tools for evaluating audio related machine learning tasks.
+Keywords: audio music evaluation metrics
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: dev
+Provides-Extra: ci
