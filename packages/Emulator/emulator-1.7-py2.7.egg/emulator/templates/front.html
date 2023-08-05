@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Emulator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link media="Screen" rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link media="Screen" rel="stylesheet" href="static/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="static/script.js"></script>
+    <script type="text/javascript" src="static/prop_files/plus.json"></script>
+</head>
+
+<body style="background-color:lightblue" onload="javascript:init(); return false;">
+    {% block content %}
+    <div class="body_div">
+        <h2 align="center">Flask Web Interface</h2>
+        <div class="table_divs1" onmouseover="javascript:set_div_type(1); return false;">
+            <h3 align="center"> Added Devices </h3>
+            <div id="deviceTable1" class="Table">
+                <col width="25%">
+                <col width="25%">
+                <col width="25%">
+                <col width="25%">
+                <div id="tbody1">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="table_divs2" onmouseover="javascript:set_div_type(2); return false;">
+            <h3 align="center"> Add Devices </h3>
+            <form id="add_devices" method="POST" role="form">
+                <div id="deviceTable2" class="Table">
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                    <div id="tbody_add">>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    {% endblock %}
+
+    <div id="modal" class="modal w3-container" style="display:none">
+        <div id="device_prop" class="modal-content w3-container" style="max-width:600px;max-height:600px;overflow:auto;">
+
+        </div>
+
+        <div id="device_prop_buttons" class="modal-content w3-container" style="max-width:600px;max-height:600px;overflow:auto;">
+            <button class="w3-button w3-block w3-blue w3-section w3-padding" type="submit" onclick="javascript:modal_hide_ok('modal'); return false;">OK</button>
+            <button class="w3-button w3-block w3-blue w3-section w3-padding" type="submit" onclick="javascript:modal_hide_cancel('modal'); return false;">Cancel</button>
+            <button id="remove_device" class="w3-button w3-block w3-blue w3-section w3-padding" type="submit" style="visibility:hidden" onclick="javascript:remove_device('modal'); return false;">Remove Device</button>
+        </div>
+    </div>
+</body>
+
+</html>

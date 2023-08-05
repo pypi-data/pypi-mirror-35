@@ -1,0 +1,264 @@
+{
+"ctime": "0001-01-01T00:00:00Z",
+"uid": "",
+"type": "evt.thing.inclusion_report",
+"tags": null,
+"props": {},
+"ver": "",
+"corid": "",
+"val": {
+"product_hash": "zw_410_3_3",
+"product_name": "Sensative - Strips Guard - Strips-MaZw",
+"manufacturer_id": "410",
+"power_source": "battery",
+"security": "insecure",
+"wakeup_interval": "4200",
+"is_sensor": "0",
+"prop_set": {
+"nif_0": {
+"zw_supported_cc": [
+32,
+94,
+134,
+114,
+48,
+112,
+113,
+90,
+133,
+92,
+89,
+128,
+132,
+115,
+104,
+35
+],
+"zw_node_type": "0",
+"zw_generic_dev_class": "7",
+"zw_plus_version": "1",
+"zw_installer_icon": "0",
+"zw_role_type": "6",
+"zw_specific_dev_class": "1"
+}
+},
+"groups": [
+"ch_0"
+],
+"hw_ver": "1",
+"tech_specific_props": {
+"zw_sleep_capable": "1",
+"zw_lib_type": "6",
+"zw_product_type": "3",
+"zw_protocol_ver": "1029",
+"zw_product_id": "3"
+},
+"device_id": "",
+"category": "UNKNOWN ",
+"product_id": "3_3",
+"comm_tech": "zw",
+"sw_ver": "1",
+"address": "54",
+"services": [
+{
+"props": {
+"is_unsecure": true,
+"is_secure": false
+},
+"interfaces": [
+{
+"msg_t": "evt.lvl.report",
+"ver": "1",
+"val_t": "int",
+"intf_t": "out"
+},
+{
+"msg_t": "cmd.lvl.set",
+"ver": "1",
+"val_t": "int",
+"intf_t": "in"
+},
+{
+"msg_t": "cmd.lvl.get_report",
+"ver": "1",
+"val_t": "null",
+"intf_t": "in"
+}
+],
+"groups": [
+"ch_0"
+],
+"location": "",
+"name": "basic",
+"enabled": true,
+"prop_set_ref": "nif_0",
+"address": "/rt:dev/rn:zw/ad:1/sv:basic/ad:54_0"
+},
+{
+"props": {
+"is_unsecure": true,
+"is_secure": false
+},
+"interfaces": [
+{
+"msg_t": "evt.config.report",
+"ver": "1",
+"val_t": "str_map",
+"intf_t": "out"
+},
+{
+"msg_t": "cmd.config.set",
+"ver": "1",
+"val_t": "str_map",
+"intf_t": "in"
+},
+{
+"msg_t": "cmd.config.get_report",
+"ver": "1",
+"val_t": "str_array",
+"intf_t": "in"
+},
+{
+"msg_t": "evt.group.members_report",
+"ver": "1",
+"val_t": "object",
+"intf_t": "out"
+},
+{
+"msg_t": "cmd.group.add_members",
+"ver": "1",
+"val_t": "object",
+"intf_t": "in"
+},
+{
+"msg_t": "cmd.group.delete_members",
+"ver": "1",
+"val_t": "object",
+"intf_t": "in"
+},
+{
+"msg_t": "cmd.group.get_members",
+"ver": "1",
+"val_t": "string",
+"intf_t": "in"
+},
+{
+"msg_t": "evt.ping.report",
+"ver": "1",
+"val_t": "str_map",
+"intf_t": "out"
+},
+{
+"msg_t": "cmd.ping.send",
+"ver": "1",
+"val_t": "string",
+"intf_t": "in"
+}
+],
+"groups": [
+"ch_0"
+],
+"location": "",
+"name": "dev_sys",
+"enabled": true,
+"prop_set_ref": "nif_0",
+"address": "/rt:dev/rn:zw/ad:1/sv:dev_sys/ad:54_0"
+},
+{
+"props": {
+"is_unsecure": true,
+"is_secure": false
+},
+"interfaces": [
+{
+"msg_t": "evt.open.report",
+"ver": "1",
+"val_t": "bool",
+"intf_t": "out"
+},
+{
+"msg_t": "cmd.open.get_report",
+"ver": "1",
+"val_t": "null",
+"intf_t": "in"
+}
+],
+"groups": [
+"ch_0"
+],
+"location": "",
+"name": "sensor_contact",
+"enabled": true,
+"prop_set_ref": "nif_0",
+"address": "/rt:dev/rn:zw/ad:1/sv:sensor_contact/ad:54_0"
+},
+{
+"props": {
+"is_unsecure": true,
+"is_secure": false,
+"sup_events": [
+"temper_invalid_code"
+]
+},
+"interfaces": [
+{
+"msg_t": "evt.alarm.report",
+"ver": "1",
+"val_t": "str_map",
+"intf_t": "out"
+},
+{
+"msg_t": "cmd.alarm.get_report",
+"ver": "1",
+"val_t": "string",
+"intf_t": "in"
+}
+],
+"groups": [
+"ch_0"
+],
+"location": "",
+"name": "alarm_burglar",
+"enabled": true,
+"prop_set_ref": "nif_0",
+"address": "/rt:dev/rn:zw/ad:1/sv:alarm_burglar/ad:54_0"
+},
+{
+"props": {
+"is_unsecure": true,
+"is_secure": false
+},
+"interfaces": [
+{
+"msg_t": "evt.lvl.report",
+"ver": "1",
+"val_t": "int",
+"intf_t": "out"
+},
+{
+"msg_t": "evt.alarm.report",
+"ver": "1",
+"val_t": "str_map",
+"intf_t": "out"
+},
+{
+"msg_t": "cmd.lvl.get_report",
+"ver": "1",
+"val_t": "null",
+"intf_t": "in"
+}
+],
+"groups": [
+"ch_0"
+],
+"location": "",
+"name": "battery",
+"enabled": true,
+"prop_set_ref": "nif_0",
+"address": "/rt:dev/rn:zw/ad:1/sv:battery/ad:54_0"
+}
+]
+},
+"serv": "zwave-ad",
+"val_t": "object"
+}
