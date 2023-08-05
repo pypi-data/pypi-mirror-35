@@ -1,0 +1,8 @@
+README.md
+setup.py
+indentpy/__init__.py
+indentpy/indent.py
+indentpy.egg-info/PKG-INFO
+indentpy.egg-info/SOURCES.txt
+indentpy.egg-info/dependency_links.txt
+indentpy.egg-info/top_level.txt
