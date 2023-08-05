@@ -1,0 +1,8 @@
+strongarm/__init__.py,sha256=ewM41xqbdhgULWtnpKH6bueh9IrGNsc7WAVPCmRfgAU,582
+strongarm/common.py,sha256=ihmqp6h0X1Kx4DbWfkRhUi5NlUBE6xWUteC4AC5ZScc,8063
+strongarm/resources.py,sha256=-K00PWE1a0tdpH6qcyE95wHjABGwfaACG1489ErvlJA,1146
+stronglib-0.3.0.dist-info/METADATA,sha256=4jeXXrFZY5VWqKt0yzR-aHIfU9VwE_HrrNC0lAymIYE,3786
+stronglib-0.3.0.dist-info/RECORD,,
+stronglib-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+stronglib-0.3.0.dist-info/top_level.txt,sha256=xth6vKS0WjL_1wDX8cdCxjc26wb-lDxRgOrjeDNFxMY,16
+tasks/__init__.py,sha256=u9pHgdeQhErhWl5WZis3e2fJNamo3IeXkFr2SwCO-qE,1529
