@@ -1,0 +1,7 @@
+malloc_tracer/__init__.py,sha256=00EOI1jzC2BV6g8wEAO-GKOehoOEaThGPwAlyMs3QWQ,91
+malloc_tracer/tracer.py,sha256=BX22NF9KFYzAEhZNXX-2_braDOWUS0QRlRGgg5Zh9rQ,15053
+malloc_tracer/version.py,sha256=Zs9uhFGP2efIkmUMPT-C6CLWEAPakHCqVRKf_R_qX7s,107
+malloc_tracer-1.6.0.dist-info/METADATA,sha256=d9CRtijseY4hVzxDbcIoSC5PUOe21IjQQGwK7OE9Gq8,7433
+malloc_tracer-1.6.0.dist-info/RECORD,,
+malloc_tracer-1.6.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+malloc_tracer-1.6.0.dist-info/top_level.txt,sha256=ACjAPRGOAKNBl0LF9Pw6uT0Y5ZhR-SQpyxjU2Wu7e4U,14
