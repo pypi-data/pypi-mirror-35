@@ -1,0 +1,9 @@
+midaxusers/__init__.py,sha256=Wo_NrWfhjJeyq1hGJFyqeNqHe5FXqCkgAY_zT2IZVfY,744
+midaxusers/config.py,sha256=R9uQq72TRYjDbf3xSL-YPiLALPrkS5mmjuypi5XWfTo,481
+midaxusers/migration_types.py,sha256=jt_IGQa83U74KpgHSXOs5bhUNerfmYmAnQWD1iCr9JA,52
+midaxusers/models.py,sha256=SwCfTvbtmcG-uYD2YqBH7OhcjZ7BjZLRlV6_mFwN-gs,10789
+midaxusers/routes.py,sha256=MPo0MGOa73FzOeX-WNQwK3LtnaL2aEcLoAna-7DcOd0,7583
+midaxusers-2.0.0.dist-info/METADATA,sha256=gcemoS2UykHOWfCGXxx0Jtg7lHri-w5ptqSq4_9PJ5U,882
+midaxusers-2.0.0.dist-info/RECORD,,
+midaxusers-2.0.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+midaxusers-2.0.0.dist-info/top_level.txt,sha256=3rIJE4vHHjUX5LhtOxq6MkVUCZUGyipKYcBv-JGClPk,11
