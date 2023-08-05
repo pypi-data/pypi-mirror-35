@@ -1,0 +1,14 @@
+future
+six
+dss_python
+
+[dev]
+pytest
+pytest-cov
+sphinx-rtd-theme
+nbsphinx
+
+[extras]
+pandas
+matplotlib
+networkx
