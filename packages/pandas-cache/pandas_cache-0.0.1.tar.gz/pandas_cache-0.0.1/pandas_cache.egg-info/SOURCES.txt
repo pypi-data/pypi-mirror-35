@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pandas_cache/__init__.py
+pandas_cache/pandas_cache.py
+pandas_cache/timer.py
+pandas_cache.egg-info/PKG-INFO
+pandas_cache.egg-info/SOURCES.txt
+pandas_cache.egg-info/dependency_links.txt
+pandas_cache.egg-info/requires.txt
+pandas_cache.egg-info/top_level.txt
