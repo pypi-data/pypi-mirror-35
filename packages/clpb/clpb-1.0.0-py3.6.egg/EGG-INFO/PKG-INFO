@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: clpb
+Version: 1.0.0
+Summary:  Command line progress bar for Python 3
+Home-page: https://github.com/dmitriiweb/clpb
+Author: Dmitrii K
+Author-email: winston_smith_spb@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
