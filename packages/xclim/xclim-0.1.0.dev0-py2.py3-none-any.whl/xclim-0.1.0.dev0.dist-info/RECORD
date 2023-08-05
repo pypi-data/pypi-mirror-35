@@ -1,0 +1,10 @@
+xclim/__init__.py,sha256=jVu66p-AiLvxsCiFFPBSWP6wVkO462MiE29Q4pbUZ44,174
+xclim/checks.py,sha256=g8KWD0OkqNR1HS6sksMf5LQG34Lj-TGykgJiegaTQ8Q,2390
+xclim/hydro.py,sha256=Su0FNjm3F4-QdS3J2zaKpqSv8u8BRsXrotu_y-DEz1I,731
+xclim/icclim.py,sha256=NunrZXpEuOmrvEm-gxSDskPjd64XkK7d56SLh1LGQbY,5371
+xclim/stats.py,sha256=sQIdAJRJFRqxzBQ7boQ0ss3hvo6CQ0E-3ZNqsvkhtxI,1829
+xclim/xclim.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+xclim-0.1.0.dev0.dist-info/METADATA,sha256=10HnhQp64qCoAUOO4LRPAovOCOsy3pUPKaYq7_HyGcQ,2128
+xclim-0.1.0.dev0.dist-info/RECORD,,
+xclim-0.1.0.dev0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+xclim-0.1.0.dev0.dist-info/top_level.txt,sha256=U2i8SyQ7eJOqOztqF6ogbKSx3aczDgpdFt2lIc8QI4s,6
