@@ -1,0 +1,10 @@
+oceandb_driver_interface/__init__.py,sha256=iNI_iLJyIq4JY5tD3akyJyLKqqk3QUnRHao-RAhM7MY,260
+oceandb_driver_interface/constants.py,sha256=TsT-IVlAjCadyvCO9bB2rwRxEU4GmkPJfv9mOJwqs0c,26
+oceandb_driver_interface/exceptions.py,sha256=NVaBnFxqCE-qh_ByWw3tVRjw-mzB3DiYeOlMXR9k-0I,331
+oceandb_driver_interface/oceandb.py,sha256=FY2GsDpPGPE8gmHAcQITM18-WKsRAd1IMBM2vD9cRFI,652
+oceandb_driver_interface/plugin.py,sha256=gfrra9PEOV_wufc1bC8ZjYH9Q-59gsSRFh0Gs1vpMnA,2462
+oceandb_driver_interface/utils.py,sha256=p3NG6iFSx7BDhxX54bcFP1rAw9Qw8kH97xpGEV01JSo,2835
+oceandb_driver_interface-0.1.3.dist-info/METADATA,sha256=OgMQU_CeeUfCTY07NGF-pmi3INuGatryhMF7lwtjWIY,3639
+oceandb_driver_interface-0.1.3.dist-info/RECORD,,
+oceandb_driver_interface-0.1.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+oceandb_driver_interface-0.1.3.dist-info/top_level.txt,sha256=Vql7m824LJZEUNpvLCuqJ2SqKG9lPf3SrwrdVA-qg9Y,25
