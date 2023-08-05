@@ -1,0 +1,7 @@
+jhub_authenticators-0.0.7.dist-info/METADATA,sha256=pSdMvTGOfyw3xPQ75YoaDiFdGTQryggmWsPoC2VnE2s,3327
+jhub_authenticators-0.0.7.dist-info/RECORD,,
+jhub_authenticators-0.0.7.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+jhub_authenticators-0.0.7.dist-info/top_level.txt,sha256=pfQ0oYCocUxls1rElePKjaLRU1SdJS8STarNk5EYcY4,19
+jhubauthenticators/__init__.py,sha256=LIlFf8dZnXIZOnKGJdCAakiBLLdF8NgqGYdlMb1Su1E,66
+jhubauthenticators/_dummy_auth.py,sha256=wXlnDA1j_IoYqLSRGeFFaAvlxC6KlbDVePOC4UEEQis,546
+jhubauthenticators/_jhub_remote_auth_mount.py,sha256=74VYimeFIRKQinr3I7jF6E0aCS4cvs3U1UpFxmZDJMo,6953
