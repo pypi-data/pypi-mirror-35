@@ -1,0 +1,11 @@
+KinMSGUI-0.8.dist-info/METADATA,sha256=ejs58vjf_WD6RzjbislQIXAAUq7guMHPcTvxucCxn-s,1194
+KinMSGUI-0.8.dist-info/RECORD,,
+KinMSGUI-0.8.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+KinMSGUI-0.8.dist-info/top_level.txt,sha256=qzNOWuTCLSX7eDPZVt12Bn42bpjcGoM8PbXKQcNAV4s,10
+KinMS_GUI/Clipping.py,sha256=CIk473ZMWsNn7XZQ5vsJuHjnd-H29UXXDJsKT1oeY6o,3854
+KinMS_GUI/GUIFunctions.py,sha256=L-iHcSEH0V4rsjQKNN1UkJXwG4FsRgr-ZoZf2c6nkwA,6830
+KinMS_GUI/GUI_V0.8.py,sha256=HSAKAXKBz30AOdLCmeeEQ5Px7lxaN6qfuQ4-Z164LhY,67493
+KinMS_GUI/KinMS.py,sha256=0tIjG-xgT11kYYkbhVGmv-07zLggzuPM4hVnUIkW0oI,25115
+KinMS_GUI/__init__.py,sha256=_L2jVwYnaO6mCCV-IXW5tpCrkwtvb64BoO1J_u3b4tE,30
+KinMS_GUI/makebeam.py,sha256=KtC0tQ-Qbc7thSRCjzda3lFiB-r2BWWSVqtd-pdIV4A,845
+KinMS_GUI/sauron_colormap.py,sha256=8APka-_L432wyICcHcySjk3qmjNOynb3iDjjlMuUTU0,4448
