@@ -1,0 +1,9 @@
+README.md
+eyedropper.py
+setup.py
+eyedropper.egg-info/PKG-INFO
+eyedropper.egg-info/SOURCES.txt
+eyedropper.egg-info/dependency_links.txt
+eyedropper.egg-info/entry_points.txt
+eyedropper.egg-info/requires.txt
+eyedropper.egg-info/top_level.txt
