@@ -1,0 +1,9 @@
+setup.py
+soothsayer/__init__.py
+soothsayer.egg-info/Icon
+soothsayer.egg-info/PKG-INFO
+soothsayer.egg-info/SOURCES.txt
+soothsayer.egg-info/dependency_links.txt
+soothsayer.egg-info/requires.txt
+soothsayer.egg-info/top_level.txt
+soothsayer.egg-info/zip-safe
