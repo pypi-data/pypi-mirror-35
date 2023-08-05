@@ -1,0 +1,4 @@
+lxml
+pyyaml==3.13
+rdflib
+docopt

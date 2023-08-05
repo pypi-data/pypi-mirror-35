@@ -1,0 +1,3 @@
+[console_scripts]
+odmltordf = odml.scripts.odml_to_rdf:main
+
