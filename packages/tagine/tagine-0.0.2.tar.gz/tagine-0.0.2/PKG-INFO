@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: tagine
+Version: 0.0.2
+Summary: Sequence tagging interface library
+Home-page: https://gitlab.yunfutech.com/nlp_projects/Tagine
+Author: Liu Yang
+Author-email: mkliuyang@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
