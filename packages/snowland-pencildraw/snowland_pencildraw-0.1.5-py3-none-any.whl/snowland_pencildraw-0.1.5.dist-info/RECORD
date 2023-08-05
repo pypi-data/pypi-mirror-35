@@ -1,0 +1,13 @@
+pencildraw/__init__.py,sha256=r1yJOaddFYYNT9MyNj_wh5VQ5tRwMNf1Q5o44A9-hEM,282
+pencildraw/pencil_drawing.py,sha256=tK_x1BHp1WF69dq0PYjixIm1ntMpk8aXJL2urRfmjCI,8936
+pencildraw/pencils/__init__.py,sha256=HB0eCuzf5QAfZt8Eu9biLNTrNlclFeK5UUv4T_XkcsA,1610
+pencils/__init__.py,sha256=i_kU_WjsoZtX7LlYZ641K5eOnjfpEW_FTLh2DmOJTqI,1478
+slapy/__init__.py,sha256=B2i3u-amcwmhVaoUpGKDFQqKnpbqRk-r5cvY1uQemLM,282
+slapy/pencil_drawing.py,sha256=tK_x1BHp1WF69dq0PYjixIm1ntMpk8aXJL2urRfmjCI,8936
+slapy/pencils/__init__.py,sha256=HB0eCuzf5QAfZt8Eu9biLNTrNlclFeK5UUv4T_XkcsA,1610
+snowland_pencildraw-0.1.5.dist-info/DESCRIPTION.rst,sha256=34wzIT2Y2v0BwtBm9IrVYt5SjXiD2mluGghd1wvNuV8,651
+snowland_pencildraw-0.1.5.dist-info/METADATA,sha256=POUFnX2ooh0o7L5EpDMiaQ-WRcaUqjsmCG08yIu3_4A,1590
+snowland_pencildraw-0.1.5.dist-info/RECORD,,
+snowland_pencildraw-0.1.5.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+snowland_pencildraw-0.1.5.dist-info/metadata.json,sha256=ARQ9YfPXNk9iLmRDNHu8kjMeok4_2KBgjbRNK8IzlXc,1071
+snowland_pencildraw-0.1.5.dist-info/top_level.txt,sha256=nMW8KCnxiJtNfHcbUmpfY0oFGWSWlErfHcHhmkgYpLM,11
