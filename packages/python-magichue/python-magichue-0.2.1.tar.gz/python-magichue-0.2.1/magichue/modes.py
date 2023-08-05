@@ -1,0 +1,29 @@
+
+
+class Mode:
+
+    RAINBOW_CORSSFADE = 0x25
+    RED_GRADUALLY = 0x26
+    GREEN_GRADUALLY = 0x27
+    BLUE_GRADUALLY = 0x28
+    YELLOW_GRADUALLY = 0x29
+    BLUE_GREEN_GRADUALLY = 0x2a
+    PURPLE_GRADUALLY = 0x2b
+    WHITE_GRADUALLY = 0x2c
+    RED_GREEN_CROSSFADE = 0x2d
+    RED_BLUE_CROSSFADE = 0x2e
+    GREEN_BLUE_CROSSFADE = 0x2f
+    RAINBOW_STROBE = 0x30
+    RED_STROBE = 0x31
+    GREEN_STROBE = 0x32
+    BLUE_STROBE = 0x33
+    YELLOW_STROBE = 0x34
+    BLUE_GREEN_STROBE = 0x35
+    PURPLE_STROBE = 0x36
+    WHITE_STROBE = 0x37
+    RAINBOW_FLASH = 0x38
+
+    @classmethod
+    def data_change_mode(cls, mode):
+        d = [0x61, mode, 0x01, 0x0f]
+        return d
