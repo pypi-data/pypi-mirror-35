@@ -1,0 +1,11 @@
+braulio/__init__.py,sha256=q6rGpnGrMur8eSgb3CiS3rNGVKndApgdIxbvJ90v8es,169
+braulio/cli.py,sha256=EdtDf_EC0yoxS4AiH3CYy9Zb79UnMfCotYSzQLzEj3o,12748
+braulio/config.py,sha256=dYaBXbhXy_rYk4Xgn_xKFog80gGWqzJxT4DvrVZ9YNM,4011
+braulio/files.py,sha256=tFO_6m6H0t8zkr4qwgE4kNlnDhrixxDuxQ0UoLnYR5I,6016
+braulio/git.py,sha256=0sUVcmiWrUokeYxa9GyyF3KgU3IRdFDgo3WxbyoJLZY,6511
+braulio/version.py,sha256=bSsHZN-AhzSVoFvXhVGrltvO8sth8nOHjSdMtMMxa9g,5854
+braulio-0.3.0.dist-info/METADATA,sha256=5Uu9ctG0N49MXFYwm4co3SOoqtkUE4WPWIMTGZI3gzk,3122
+braulio-0.3.0.dist-info/RECORD,,
+braulio-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+braulio-0.3.0.dist-info/entry_points.txt,sha256=fwxe34B4KASc1nyTDNRMoQDvgNU0ueVW_LWG5Ihx0K8,60
+braulio-0.3.0.dist-info/top_level.txt,sha256=CwbTf4qJ_FFEKg8T8Va33gpTjAB-N4v5Pl7Fvy20r7E,8
