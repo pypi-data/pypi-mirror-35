@@ -1,0 +1,9 @@
+ascii_table/Align.py,sha256=AcVRDRz07SyIg52g1k3FY6l_2Y58rmSH3q9OMK1hNmg,48
+ascii_table/Cell.py,sha256=Pf3Jbdg9sPwr4YL7QZoI85c6JcbCqnrmVPX_AVlJSUw,1386
+ascii_table/Column.py,sha256=50jIWyfPygT5uZRcwmNcsckkAGYHr2cJ4P3DXAdzZCY,758
+ascii_table/Table.py,sha256=zt1Nomq0EyPCeLLPC0Zu1mNh1UbecrejZsVTaDygdXU,2221
+ascii_table/__init__.py,sha256=8ysOSpfXRS8b6b70bJpCvpxFeCywkRELkwjLBcRPj-s,37
+ascii_table-0.1.0.dist-info/METADATA,sha256=MTTfOukBXrVADIbglXAJAB4YEdqnD_UA_L2AFpP0ktU,276
+ascii_table-0.1.0.dist-info/RECORD,,
+ascii_table-0.1.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+ascii_table-0.1.0.dist-info/top_level.txt,sha256=vLHJmnhB3L1jg3fwO4YyiJG2rXduqmSu-BV5UXpAdsE,12
