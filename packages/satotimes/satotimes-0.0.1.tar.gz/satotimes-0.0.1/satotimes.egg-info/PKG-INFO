@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: satotimes
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://bitbucket.org/avilay/sample-app
+Author: sato
+Author-email: satokarashi@gmail.com
+License: UNKNOWN
+Description: # How to package a Python 3.x project?
+        
+        Detailed documentation of setup utilities maintained by [Python org](https://packaging.python.org/en/latest/distributing/)
+        
+        * Step 1: How to create a distributable library or an executable?
+        * Step 2: How to add non-code files to the package?
+        * Step 3: How to execute post-install steps on the target machine like setting up a cron job
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
