@@ -1,0 +1,9 @@
+contextily/__init__.py,sha256=BnxQ6lP-A3UAPWsf-m1JktMQoIriOb5aFIo_v7Td8EI,237
+contextily/place.py,sha256=xUo-ks7wA606JVC0pJ1gE7XkHsXCCF-mwbZVsXAlDWY,8054
+contextily/plotting.py,sha256=auUk7Fcjzrm4Tj6jmNgn0qDqTDM4xqn7cRKweCm9_ew,4580
+contextily/tile.py,sha256=86ZC851lAPxScqOY_46PqVuBhDQQYv0ZGqwJdCMW-cw,10621
+contextily/tile_providers.py,sha256=3pyO7WEPIs92lyPRvw2BhHh1-pLEPM9IHAGJCkfeeZ0,1144
+contextily-1.0rc1.dist-info/METADATA,sha256=EwUeRBnSLY89W6aFz0kmR9IRru6hLo7EINoXvdzXODY,2658
+contextily-1.0rc1.dist-info/RECORD,,
+contextily-1.0rc1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+contextily-1.0rc1.dist-info/top_level.txt,sha256=xxOM7ceOTtTAvsUNi4E73FFU8vPOk5TFl1ERN4QgIQA,11
