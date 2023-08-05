@@ -1,0 +1,13 @@
+venv_pack/__init__.py,sha256=5qgyNeu0Pas8V65sF2GgoCADc92SyhzsrGtEqNX_lHA,203
+venv_pack/__main__.py,sha256=3AgzDCKtkvIsGiyMnQ1Ch5_mnHAb6Qcc6vDjfyqjv7A,5363
+venv_pack/_version.py,sha256=vnnA-U299FOk4o-oQPLM8_Tw8476HHUzeIqWY03X_f4,497
+venv_pack/core.py,sha256=2HIjyflIsC6Ac7DTAnmxtzw5l7V5Tt9Qd5ICJ9Q55K0,16791
+venv_pack/formats.py,sha256=cQ_UqnYf_e-nlg0uqCltUX7le7GZOKpvQtQoEPKk7DU,4306
+venv_pack/progress.py,sha256=amSS1NfqXDvTI9czLR8fcrgsUUQfNwkUz2h8FfhlcrY,2893
+venv_pack/scripts/CPYTHON_LICENSE.txt,sha256=MfcsvSFae8Doi2k1HNK-eA4ehM4feYBgj8oXbdbeMVg,2681
+venv_pack/scripts/common/activate,sha256=Eq5j_QUW59ue-g_F7_nCJb9QaemVArExDLKzo2x-j3o,2766
+venv_pack-0.0.1.dist-info/METADATA,sha256=ECy4RQx9lUu4X_7fIOH2XpNINyBhRXvBkC1RhQCYmt4,1162
+venv_pack-0.0.1.dist-info/RECORD,,
+venv_pack-0.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+venv_pack-0.0.1.dist-info/entry_points.txt,sha256=BBVJzVWv7062HM7jf85i6jhkM127VArtCzWLwGLuo94,70
+venv_pack-0.0.1.dist-info/top_level.txt,sha256=qd1qiBpbP-8h-S5OlHAVLUK-d_UdmcKXm6bB4lSgM-c,10
