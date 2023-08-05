@@ -1,0 +1,6 @@
+PyMySQL
+xlrd
+sshtunnel
+requests
+PyYAML
+xmlrunner
