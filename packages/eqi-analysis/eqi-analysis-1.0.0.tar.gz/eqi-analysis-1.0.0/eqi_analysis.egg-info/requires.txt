@@ -1,0 +1,4 @@
+eqi-utils>=1.0.1
+cx_Oracle>=6.0b2
+sqlalchemy>=1.2.8
+alphalens-eqi>=1.0.0
