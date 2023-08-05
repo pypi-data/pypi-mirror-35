@@ -1,0 +1,12 @@
+numpy
+scipy
+astropy
+matplotlib
+tornado
+requests
+tqdm
+markdown
+pygments
+itsdangerous
+cryptography
+astrobase>=0.3.16
