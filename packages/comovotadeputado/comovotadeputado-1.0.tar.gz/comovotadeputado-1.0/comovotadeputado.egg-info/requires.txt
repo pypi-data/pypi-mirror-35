@@ -1,0 +1,7 @@
+beaker
+pandas
+requests
+xmltodict
+mock
+nose
+enum
