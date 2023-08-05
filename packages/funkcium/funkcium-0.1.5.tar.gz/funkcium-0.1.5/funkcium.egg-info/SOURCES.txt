@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+funkcium/__init__.py
+funkcium/function.py
+funkcium/underscore.py
+funkcium.egg-info/PKG-INFO
+funkcium.egg-info/SOURCES.txt
+funkcium.egg-info/dependency_links.txt
+funkcium.egg-info/top_level.txt
+funkcium/functor/__init__.py
+funkcium/functor/functor.py
+funkcium/functor/list_functor.py
+funkcium/functor/option.py
