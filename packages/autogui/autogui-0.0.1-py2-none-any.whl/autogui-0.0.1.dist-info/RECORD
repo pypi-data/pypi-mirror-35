@@ -1,0 +1,13 @@
+autogui/__init__.py,sha256=8Q472aKbHT4A4P2a-Zq4K2za6kh8HEk8zSneC53JRDc,467
+autogui/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogui-0.0.1.data/data/Lib/site-packages/autogui/bin/GUILibrary.dll,sha256=qDWHK8wx-D_-FtOCEAXO3ZpDgMq6-lPSJDV6dKOZdNQ,17408
+autogui-0.0.1.data/data/Lib/site-packages/autogui/bin/GUILibrary.pdb,sha256=ypLAK3_aj8TPwdLBBu0lD1ifPH8TAsQ7BDROG3RORtg,19968
+autogui-0.0.1.data/data/Lib/site-packages/autogui/bin/Interop.UIAutomationClient.dll,sha256=cWpni6WTb3ZKXZcx7RGgnbsrF8bYhQrxAv-3mcztmCo,89808
+autogui-0.0.1.data/data/Lib/site-packages/autogui/bin/TestApiCore.dll,sha256=eWpHUHptHkiKt-chCk05BpgKY8IA4f8Sxr_oPamO_yk,306176
+autogui-0.0.1.data/data/Lib/site-packages/autogui/bin/TestApiCore.pdb,sha256=yvAoSRx1I9zgWydPivzPuLszoDI8VKC56rk9QsEskN8,665088
+autogui-0.0.1.data/data/Lib/site-packages/autogui/bin/TestApiCore.xml,sha256=MYEz0OanlEsAKJo4DDc1qRswtqTWaerlQk66bHCOEag,412997
+autogui-0.0.1.data/data/Lib/site-packages/autogui/bin/UIAComWrapper.dll,sha256=OGSw0EfsbTxcDZ9oB8Kcjz2Faxg2r41e87ius5z86LE,171184
+autogui-0.0.1.dist-info/METADATA,sha256=-s8L-KLzqwPneCtVyryQPi4egTLweVdsGY6o_wcvPgQ,1556
+autogui-0.0.1.dist-info/RECORD,,
+autogui-0.0.1.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+autogui-0.0.1.dist-info/top_level.txt,sha256=8_y5qMM8Sxpm1t71YfNURsFMhLbKcnkca7pI6IhhevM,8
