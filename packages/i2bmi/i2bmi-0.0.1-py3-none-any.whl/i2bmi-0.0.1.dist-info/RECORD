@@ -1,0 +1,9 @@
+i2bmi/README.md,sha256=VfZgGHQWKnz0DMcJIIm61GeN0v7aOh41Dt8ss8rrCNg,8
+i2bmi/__init__.py,sha256=D4yDr_pbrrRitLExn5cWovGEhg-Q2NmgWQln6-w2c8A,14
+i2bmi/elixhauser_comorbidities.pickle,sha256=IpsKv7i5sH-2AAiiBCKx4ijFmiAUu9xv5PGGvr82xL0,6223
+i2bmi/main.py,sha256=Lj6sQDo_lFy7meMQjX9wMcHrhTSsfnaMNk_MIowumpI,9900
+i2bmi/mapdf.pickle,sha256=mPZmTIvdB1VPoOu7Z0uwf9Gwheu2r4jtg-9g1gtSlD0,7478178
+i2bmi-0.0.1.dist-info/METADATA,sha256=PVh8YFd333Y5rtXIEhVm3OnazM5skMDH8U6vu8p45FI,666
+i2bmi-0.0.1.dist-info/RECORD,,
+i2bmi-0.0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+i2bmi-0.0.1.dist-info/top_level.txt,sha256=MHI5upskLu0fJEfG7ZK_D0BEi1l16EKHi67FnKoOycA,6
