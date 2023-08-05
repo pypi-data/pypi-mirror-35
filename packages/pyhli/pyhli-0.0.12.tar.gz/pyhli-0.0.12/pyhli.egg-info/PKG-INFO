@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pyhli
+Version: 0.0.12
+Summary: Python Host Language Interface for FAME
+Home-page: http://github.com/qomaio/pyhli
+Author: Qoma LLC
+Author-email: info@qoma.io
+License: AGPLv3
+Description: Complete access from Python to the FIS MarketMap C-Toolkit (FAME C-HLI). FAME is a fully integrated software and database management system from FIS that provides the following capabilities: Time series and cross-sectional data management; Financial calculation, data analysis, econometrics, and forecasting; Table generation and detailed multicolor, presentation-quality report writing; Multicolor, presentation-quality graphics; What-if analysis; Application development and structured programming; Data transfer to and from other applications; Tools for building customized graphical user interfaces.
+Platform: any
