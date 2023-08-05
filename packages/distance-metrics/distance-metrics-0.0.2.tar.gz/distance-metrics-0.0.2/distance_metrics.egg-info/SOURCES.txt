@@ -1,0 +1,8 @@
+README.md
+setup.py
+distance_metrics/__init__.py
+distance_metrics/lcs.py
+distance_metrics.egg-info/PKG-INFO
+distance_metrics.egg-info/SOURCES.txt
+distance_metrics.egg-info/dependency_links.txt
+distance_metrics.egg-info/top_level.txt
