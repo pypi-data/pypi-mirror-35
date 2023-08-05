@@ -1,0 +1,2 @@
+pyTest
+happybase >= 1.1

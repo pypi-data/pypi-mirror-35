@@ -1,0 +1,2 @@
+from dig.reducer.jsonld_comparator import JSONLDComparator
+from dig.reducer.jsonld_reducer import JSONLDReducer
