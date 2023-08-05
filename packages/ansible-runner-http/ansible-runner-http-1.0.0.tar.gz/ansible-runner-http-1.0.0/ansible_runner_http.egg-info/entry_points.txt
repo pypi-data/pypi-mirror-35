@@ -1,0 +1,3 @@
+[ansible_runner.plugins]
+http = ansible_runner_http
+
