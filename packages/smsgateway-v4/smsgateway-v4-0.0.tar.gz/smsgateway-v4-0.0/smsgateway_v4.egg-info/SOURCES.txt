@@ -1,0 +1,8 @@
+setup.py
+smsgateway/__init__.py
+smsgateway/smsgateway.py
+smsgateway_v4.egg-info/PKG-INFO
+smsgateway_v4.egg-info/SOURCES.txt
+smsgateway_v4.egg-info/dependency_links.txt
+smsgateway_v4.egg-info/requires.txt
+smsgateway_v4.egg-info/top_level.txt
