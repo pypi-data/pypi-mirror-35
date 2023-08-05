@@ -1,0 +1,1 @@
+from kafka_event_hub.consumers.elastic_consumer import ElasticConsumer
