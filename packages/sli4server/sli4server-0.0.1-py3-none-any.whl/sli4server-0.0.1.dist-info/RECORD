@@ -1,0 +1,14 @@
+1_socket_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+1_socket_server/client_socket.py,sha256=BINA6qSfA9ruHUqML8acpROymXTNk00RSrlQM4BxIgs,391
+1_socket_server/server_socket.py,sha256=9hL-0FKGECqTAn8YC1U6oEgV10_k_xaSHVk3UZVnzeA,545
+2_socketserver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+2_socketserver/client.py,sha256=_P_YQY5UPxAd0cpcvBLnSx_qxH6xQYGXJs2Clh3jGJw,487
+2_socketserver/server.py,sha256=Gv5P1m4aXMENC48h2ZaiNLs32zoJ398yEv86_2Py4y8,723
+3_httpserver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+3_httpserver/server.py,sha256=BKeAJHEYsS5zzXFq6enIwTlmCWg2JxZgV0ENsf5qC9w,1003
+4_wsgi_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+4_wsgi_server/server.py,sha256=eKzfWu_8vNPMn-OK3i5_7qfv-5yCrsibk3mcUP1WWNA,474
+sli4server-0.0.1.dist-info/METADATA,sha256=HxDQZcDs2HfiWTpDdNnCiVLcD57BIKKhrlNzMB1gg2Y,362
+sli4server-0.0.1.dist-info/RECORD,,
+sli4server-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sli4server-0.0.1.dist-info/top_level.txt,sha256=YzSlg0pDf7iQ0juf_lxlrV4htLoLCCSOBv3ofitfMhw,58
