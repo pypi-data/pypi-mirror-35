@@ -1,0 +1,1 @@
+https://github.com/Gluejar/pyepub/archive/0.3.2.zip
