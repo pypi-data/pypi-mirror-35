@@ -1,0 +1,14 @@
+README.rst
+setup.py
+core/__init__.py
+core/console.py
+core/env.py
+core/main.py
+core/utils.py
+core/version.py
+matches_cli.egg-info/PKG-INFO
+matches_cli.egg-info/SOURCES.txt
+matches_cli.egg-info/dependency_links.txt
+matches_cli.egg-info/entry_points.txt
+matches_cli.egg-info/requires.txt
+matches_cli.egg-info/top_level.txt
