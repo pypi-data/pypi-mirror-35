@@ -1,0 +1,8 @@
+[redash.extensions]
+api_endpoint = redash_stmo.api_endpoint:api_endpoint
+datasource_health = redash_stmo.health:datasource_health
+dockerflow = redash_stmo.dockerflow:dockerflow
+
+[webpack.bundles]
+datasource_link = redash_stmo.js_extensions:datasource_link
+
