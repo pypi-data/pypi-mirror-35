@@ -1,0 +1,175 @@
+Metadata-Version: 2.1
+Name: docserve
+Version: 0.9.4
+Summary: A tool for quick and easy Markdown project documentation.
+Home-page: https://github.com/HEInventions/DocServe
+Author: Hardy & Ellis Inventions LTD
+Author-email: support@heinventions.com
+License: UNKNOWN
+Description: # DocServe
+        
+        A tool for quick and easy Markdown project documentation.
+        
+        DocServe renders an adapted Markdown to provide:
+        
+        * Images, Video, YouTube links, CSV tables.
+        * Code highlighting.
+        * File download blocks.
+        * Lists and Tables.
+        * Document defined template selection.
+        * Document Meta-data.
+        * Auto-generated index sidebar.
+        
+        DocServe can be used as a server to:
+        
+        * Output documents as insecure HTML on a localhost.
+        * Output documents as PDF files via the HTML server.
+        
+        DocServe can also:
+        
+        * Create a **static** set of HTML files that contain the documentation and related resources.
+        
+        Basic usage with the default template:
+        
+        ```bash
+        python -m pip install docserve
+        mkdir docs
+        vim docs/home.md # then add some documentation
+        docserve
+        ```
+        
+        Basic usage with a custom template:
+        
+        ```bash
+        python -m pip install docserve
+        docserve --new # copies sample style and docs into working directory
+        docserve # run the server
+        ```
+        
+        ## Roadmap
+        
+        We are requesting pull-requests for the following features:
+        
+        * [ ] Find orphans href, embed, img, video, audio
+        * [ ] Test cases and CI steps
+        * [ ] Add `write-good` CI step.
+        * [ ] Clearer heading CSS.  H1 and H2 are confusing.
+        * [X] PDF Rendering Plugin using iFrame / embed.
+        * [X] Table CSS to include Images.
+        * [X] Table CSS to include background and smaller text.
+        * [X] Image in li to display:block.
+        * [X] Multiple nav entries.
+        * [X] Rebuild index as first action to avoid reloading.
+        * [X] Checkbox list CSS.
+        * [X] V-scroll in nav.
+        * [X] Lightbox for images.
+        * [ ] Reload on new files.
+        * [ ] Better support for missing or no metadata (determine it from the directory structure).
+        * [ ] Windows EXE bundle for non-developer use.
+        * [ ] Responsive design in default template.
+        * [ ] Add support for changing the default Flask host and port.
+        * [ ] Generate a large PDF file made from multiple documents (including table of contents with page numbers).
+        * [ ] Gravatar print CSS / absent internet in the default theme.
+        * [ ] Examples of Python extensions and SCSS extensions.
+        * [ ] New template themes.
+        
+        ## Getting Started
+        
+        If you are running from the script:
+        
+        ```bash
+        python docserve.py                  # start a server on localhost:5000
+        
+        python docserve.py --html           # freeze the server into a static site as a set of HTML files
+                                            # this will exit with -1 if there was a problem parsing any file
+        
+        python docserve.py --pdf            # generate a set of pdf files for each .md file - won't pull through
+                                            # static resource files like with the --html command
+        
+        python docserve.py --new            # copy default templates and sample docs into the working directory
+                                            # and update the config too, only if they don't already exist
+        
+        python docserve.py --new-force      # copy default templates and sample docs into the working directory
+                                            # and update the config too, this will overwrite any existing docs or
+                                            # configs.
+        
+        
+        python docserve.py --dirs           # display all the different directories docserve will use to generate
+                                            # the documentation
+        
+        python docserve.py --find-orphans   # display unreferenced media assets in the documentation
+        ```
+        
+        ### Writing Documentation
+        
+        Documents are managed using `meta-data` at the top of each document.
+        Documents can select which `template` they present themselves with.
+        Documents must end in **lowercase** `.md`.  For example: `mydocument.md`.
+        
+        
+        ### Environment variables
+        
+        * `DS_FLASK_DEBUG` flag for enabling or disabling flask debug. Defaults to `TRUE`.
+        * `DS_FLASK_CHANGERELOAD` flag for reloading the server when a file changes.  Defaults to `TRUE`. If set, this forces `DS_FLASK_DEBUG` to `TRUE`.
+        * `DS_WKHTMLTOPDF` the path to the WkHTMLtoPDF binary. Defaults to `wkhtmltopdf_0.12.5.exe`.
+        * `DS_DOCS_DIR` the path to the directory that contains the documents. Defaults to `docs`.
+        * `DS_STYLE_DIR` the path to the directory that contains the style templates and resources. Defaults to `style`.
+        * `DS_PROJECT_LOGO` the path to the project logo *PNG* file.  Defaults to `logo.png` in the current working directory.
+        
+        ## Development
+        
+        ### Virtual Environment
+        
+        ```python
+        python -m virtualenv env
+        env/Scripts/activate.bat # or the bash equivalent
+        pip install -r requirements.txt
+        ```
+        
+        ```python
+        python docserve.py # with options
+        ```
+        
+        ```python
+        pip install flake8
+        flake8 docserve.py --max-line-length=120
+        ```
+        
+        ### WkHTMLtoPDF
+        
+        To enable PDF output, WkHTMLtoPDF must be set in the config `DS_WKHTMLTOPDF` or `wkhtmltopdf_0.12.5.exe` placed in working directory.
+        
+        This build uses version 0.12.5. Get it from here: https://wkhtmltopdf.org/downloads.html
+        
+        ### SCSS
+        
+        The default theme is built using SCSS.
+        
+        The SASSC compiler can be found here: http://libsass.ocbnet.ch/installer/
+        Usage: `sassc style/static/default.scss style/static/default.css`
+        
+        If you want it to auto-watch, run as admin from this directory, and remember to disable your browser cache:
+        
+        ```bash
+        pip install watchdog
+        watchmedo shell-command --patterns="*.scss" --recursive --command='echo "${watch_src_path}" && sassc style/static/default.scss style/static/default.css' .
+        ````
+        
+        ### Style
+        
+        We use `flake8 docserve.py --max-line-length=110` to static check the code.
+        
+        ### Rebuilding the Package
+        
+        ```
+        python -m pip install --user --upgrade setuptools wheel twine
+        python setup.py sdist bdist_wheel
+        
+        python -m twine upload dist/*
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
