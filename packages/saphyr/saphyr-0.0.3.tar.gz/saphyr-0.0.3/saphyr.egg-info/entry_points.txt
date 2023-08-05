@@ -1,0 +1,3 @@
+[console_scripts]
+saphyr = saphyr.__main__:main
+
