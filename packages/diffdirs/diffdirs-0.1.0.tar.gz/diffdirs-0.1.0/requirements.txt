@@ -1,0 +1,2 @@
+astropy>=1.0.3
+deepdiff>=3.3.0

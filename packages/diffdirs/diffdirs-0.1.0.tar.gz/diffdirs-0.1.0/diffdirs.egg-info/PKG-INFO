@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: diffdirs
+Version: 0.1.0
+Summary: Tool to diff two directories containing FITS files
+Home-page: http://github.com/GreenBankObservatory/diffdirs
+Author: Thomas Chamberlin
+Author-email: thomaswchamberlin@gmail.com
+License: MIT
+Project-URL: Source Code, http://github.com/GreenBankObservatory/diffdirs
+Description: Tool to diff two directories containing FITS files
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
