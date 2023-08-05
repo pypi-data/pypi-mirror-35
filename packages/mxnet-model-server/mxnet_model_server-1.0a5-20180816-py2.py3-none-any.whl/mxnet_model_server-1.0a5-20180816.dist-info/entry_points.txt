@@ -1,0 +1,3 @@
+[console_scripts]
+mxnet-model-server = mms.model_server:start
+
