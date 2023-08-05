@@ -1,0 +1,13 @@
+django_pwdprotect-1.0.1.dist-info/DESCRIPTION.rst,sha256=IWSjHOwI6wQZQYh1Slg33E7WFZJqialPC3JjEHJOfXs,748
+django_pwdprotect-1.0.1.dist-info/METADATA,sha256=R4VJquM2ac57ZzPl_3X0MNvxaRtIc1BKjVdfcgAkgNs,1547
+django_pwdprotect-1.0.1.dist-info/RECORD,,
+django_pwdprotect-1.0.1.dist-info/WHEEL,sha256=BTHHj6QhsHpWhRUrxioIvCAgjx81u-a8gkPTO6bi_A0,116
+django_pwdprotect-1.0.1.dist-info/metadata.json,sha256=9YUlx44DkdN-7K0aVB2Ise_Uxf72OZmmIh9zqHa_XTY,931
+django_pwdprotect-1.0.1.dist-info/top_level.txt,sha256=jFZ9wLsQyNfTXtD6QB7fvQcBS-KlLQ3Sx_3RfBQtU9A,11
+pwdprotect/__init__.py,sha256=NLhO9KbX-mhulQzblFc8Nj8hbrdeNnz9UhGX7p-KAMc,80
+pwdprotect/admin.py,sha256=BETal-Fox67Zvi6wKEtjDhAm-pj6lyoJyZGSH6BzX5A,275
+pwdprotect/apps.py,sha256=K9vG-ZNFbjgMJ81mzIuLTUWBXHAtf-GBNzSC20GAmp8,124
+pwdprotect/middleware.py,sha256=86BCgW3mLdxh7yHMskXxyIJiR-rxbMiZnzzGa0v-GOY,1889
+pwdprotect/models.py,sha256=NRIyhF8zblCAfRWEJdWpSHOU4ygQUeMyJOw6LhW0IQ4,1148
+pwdprotect/migrations/0001_initial.py,sha256=r46LD-aEWvJphpt4qvk0puO353Lcz63bypcgEvzNNrY,965
+pwdprotect/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
