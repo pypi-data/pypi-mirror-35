@@ -1,0 +1,10 @@
+README.md
+setup.py
+unijson/__init__.py
+unijson/unijson.py
+unijson.egg-info/PKG-INFO
+unijson.egg-info/SOURCES.txt
+unijson.egg-info/dependency_links.txt
+unijson.egg-info/not-zip-safe
+unijson.egg-info/requires.txt
+unijson.egg-info/top_level.txt
