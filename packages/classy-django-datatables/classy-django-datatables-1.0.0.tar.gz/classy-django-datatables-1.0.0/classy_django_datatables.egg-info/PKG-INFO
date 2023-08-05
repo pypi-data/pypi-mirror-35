@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: classy-django-datatables
+Version: 1.0.0
+Summary: Create datatables as classes in django.
+Home-page: https://github.com/scuml/django-datatables
+Author: Stephen Mitchell, Patrick Coronel
+Author-email: stephen@echodot.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: '>=3.6'
