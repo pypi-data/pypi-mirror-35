@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+zeroconf.py
+zeroconf2.egg-info/PKG-INFO
+zeroconf2.egg-info/SOURCES.txt
+zeroconf2.egg-info/dependency_links.txt
+zeroconf2.egg-info/not-zip-safe
+zeroconf2.egg-info/requires.txt
+zeroconf2.egg-info/top_level.txt
