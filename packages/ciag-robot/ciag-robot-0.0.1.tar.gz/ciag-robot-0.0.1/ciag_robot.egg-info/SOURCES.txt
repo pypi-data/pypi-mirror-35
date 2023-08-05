@@ -1,0 +1,15 @@
+README.md
+requirements.txt
+setup.py
+ciag_robot.egg-info/PKG-INFO
+ciag_robot.egg-info/SOURCES.txt
+ciag_robot.egg-info/dependency_links.txt
+ciag_robot.egg-info/top_level.txt
+robot/__init__.py
+robot/core.py
+robot/xml_fixers.py
+tests/unit/__init__.py
+tests/unit/test_array.py
+tests/unit/test_attr.py
+tests/unit/test_const.py
+tests/unit/test_obj.py
