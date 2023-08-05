@@ -1,0 +1,17 @@
+README.rst
+setup.py
+src/__init__.py
+src/cli.py
+src/abs/__init__.py
+src/abs/cell.py
+src/abs/game.py
+src/abs/unit.py
+src/commands/__init__.py
+src/commands/cmd_generate.py
+sudokucli.egg-info/PKG-INFO
+sudokucli.egg-info/SOURCES.txt
+sudokucli.egg-info/dependency_links.txt
+sudokucli.egg-info/entry_points.txt
+sudokucli.egg-info/requires.txt
+sudokucli.egg-info/top_level.txt
+sudokucli.egg-info/zip-safe
