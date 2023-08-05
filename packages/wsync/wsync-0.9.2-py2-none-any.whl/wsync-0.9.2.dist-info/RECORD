@@ -1,0 +1,10 @@
+wsync/__init__.py,sha256=JHteqlvUabZL-yCvZE6jX3RfbKms7nSqeMuAf_Yb7sU,43
+wsync/__main__.py,sha256=nOtKDBf3jqFD1RqhV0z_v1h8iOsbLsx79ug4DEUtPlM,5029
+wsync/wsync.py,sha256=OBwdcEx6QGfJQmqC63qIKXarea3aU9bZ8g9oZDWHqDg,7942
+wsync/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wsync/tests/test.py,sha256=Ib3ABhG4NKsozcDkxVMjNOkiU-sBaVSTdwGtcys_5uo,601
+wsync-0.9.2.dist-info/METADATA,sha256=J9AYgYvvqvqVcOY1rdc86kj44EiDjtUa-jeE6ofedU0,3558
+wsync-0.9.2.dist-info/RECORD,,
+wsync-0.9.2.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+wsync-0.9.2.dist-info/entry_points.txt,sha256=LgeiWkt1Sth4h0A8w2-k8e3cKW62P6vipXcr4xrrInU,47
+wsync-0.9.2.dist-info/top_level.txt,sha256=O5ZyCSdMrW9Ho87b6t_9e4S9_mik9BvkxBdOPG5pMdU,6
