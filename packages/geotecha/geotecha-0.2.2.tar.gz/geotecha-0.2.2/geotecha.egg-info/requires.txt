@@ -1,0 +1,11 @@
+numpy>=1.14
+matplotlib>=2.0.0
+scipy>=1.1.0
+sympy>=1.1.1
+brewer2mpl
+testfixtures
+pandas
+numpydoc
+IPython
+sphinx>=1.7.4
+mock
