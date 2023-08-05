@@ -1,0 +1,8 @@
+setup.py
+wsrLab-demo/__init__.py
+wsrLab-demo/stock_tools.py
+wsrLab_demo.egg-info/PKG-INFO
+wsrLab_demo.egg-info/SOURCES.txt
+wsrLab_demo.egg-info/dependency_links.txt
+wsrLab_demo.egg-info/not-zip-safe
+wsrLab_demo.egg-info/top_level.txt
