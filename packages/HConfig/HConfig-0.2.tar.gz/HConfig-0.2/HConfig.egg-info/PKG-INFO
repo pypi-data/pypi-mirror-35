@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: HConfig
+Version: 0.2
+Summary: UNKNOWN
+Home-page: https://github.com/feynmanlabs/hconfig
+Maintainer: Holloway Inc
+Maintainer-email: info@holloway.com
+License: Apache
+Description: # hconfig
+        Tiny hierarchical config files library and cli
+        
+Platform: UNKNOWN
