@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+msa_cigars/__init__.py
+msa_cigars/msa_cigars.py
+msa_cigars.egg-info/PKG-INFO
+msa_cigars.egg-info/SOURCES.txt
+msa_cigars.egg-info/dependency_links.txt
+msa_cigars.egg-info/entry_points.txt
+msa_cigars.egg-info/requires.txt
+msa_cigars.egg-info/top_level.txt

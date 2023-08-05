@@ -1,0 +1,3 @@
+[console_scripts]
+msa_cigars = msa_cigars.msa_cigars:main
+
