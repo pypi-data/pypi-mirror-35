@@ -1,0 +1,9 @@
+README.md
+setup.py
+swriter/__init__.py
+swriter/eventwriters.py
+swriter/subdirwriter.py
+swriter.egg-info/PKG-INFO
+swriter.egg-info/SOURCES.txt
+swriter.egg-info/dependency_links.txt
+swriter.egg-info/top_level.txt

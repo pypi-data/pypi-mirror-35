@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: swriter
+Version: 0.0.1
+Summary: tf.summary.FileWriter extended
+Home-page: http://github.com/dade-ai/swriter
+Author: dade
+Author-email: aiplore@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
