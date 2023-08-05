@@ -1,0 +1,14 @@
+# Tenant domain
+domain: umich.edu
+
+# This should be an Azure AD 2.0 client
+microsoft:
+  client_id: foo
+  client_secret: bar
+
+# This should be a Google service account
+google:
+  credentials: /path/to/oauth2service.json
+
+# Request timeout
+timeout: 6
