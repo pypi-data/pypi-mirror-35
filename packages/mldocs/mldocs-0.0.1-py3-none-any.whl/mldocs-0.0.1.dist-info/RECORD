@@ -1,0 +1,10 @@
+mldocs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mldocs/documentation.py,sha256=CMhBYxoY39vSFB8vxp9Y5OOjaYHO-OSujvVz_lMknxY,11333
+mldocs/tests/__init__.py,sha256=gKF2RkW7u6NvgMjHeZ0s619RyixZh176qwewzWW_saM,98
+mldocs/tests/test_documentation.py,sha256=GjtJUyUPhSo2zwPYeFF36iyH-oihlpeMxqkREjUomrM,2494
+mldocs-0.0.1.dist-info/DESCRIPTION.rst,sha256=RXUuHU7Vmo-Y0wFAAgWxaG6f9_P0xVM6rozE-ineTkY,49
+mldocs-0.0.1.dist-info/METADATA,sha256=-K3Ux3tDQAoQy6_1Lsp_IySjx4HNBLBL1KsFZyAhfQs,616
+mldocs-0.0.1.dist-info/RECORD,,
+mldocs-0.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+mldocs-0.0.1.dist-info/metadata.json,sha256=d_QATqIXUqrU4MeXzAOdEc_Gw8rfNtMgUrbqzb1RDGg,748
+mldocs-0.0.1.dist-info/top_level.txt,sha256=WubCT1DEg4p4_ww66eNtXhVmEOUEUQQvj9gEYAmYhmg,7
