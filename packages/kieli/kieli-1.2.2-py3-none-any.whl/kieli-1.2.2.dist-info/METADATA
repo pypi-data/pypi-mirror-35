@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: kieli
+Version: 1.2.2
+Summary: Minimalistic language server protocol client.
+Home-page: https://github.com/PurpleMyst/kieli
+License: UNKNOWN
+Author: PurpleMyst
+Author-email: PurpleMyst@users.noreply.github.com
+Requires-Python: ~=3.4
+Description-Content-Type: text/x-rst
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: attrs
+
+kieli
+=====
+
+``kieli`` is a minimalistic language server protocol client.
+
+Dependencies
+------------
+
+Python 3.4 or newer and attrs. Many other projects use attrs, so you may
+already have it installed.
+
+Installation
+------------
+
+To install, simply run the following:
+
+.. code:: shell
+
+    $ python3 -m pip install .
+
+Usage
+-----
+
+Here`s a simple usage example which just sends an ``initialize`` request and
+then exits.
+
+.. code:: python
+
+    import sys
+
+    import kieli
+
+    client = kieli.LSPClient()
+
+    @client.response_handler("initialize")
+    def initialize(request, response):
+        print("We have initialized!")
+        print()
+        print("Request:", request)
+        print()
+        print("Response:", response)
+        sys.exit(0)
+
+    client.connect_to_process(sys.executable, "-m", "pyls")
+    client.request(
+        "initialize", {"processId": None, "rootUri": None, "capabilities": {}}
+    )
+
+
+
+License
+-------
+
+MIT
+
