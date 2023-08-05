@@ -1,0 +1,11 @@
+pyscaffoldext/__init__.py,sha256=vXgXMgYCDkxR9ifnsCGWSHLloiNxhHjy0mpN2L-EspA,80
+pyscaffoldext/markdown/__init__.py,sha256=hrG9v2umd19sWncjHcx8Nmctyjb2hAZxrAM8720jZyg,379
+pyscaffoldext/markdown/extension.py,sha256=yAzhnATb5R4INd91AC9fNd791sJlLZiTesvQ8Ipz8Xs,1443
+pyscaffoldext/markdown/templates/__init__.py,sha256=jeuFgybVoSzSKs_TAYeRck41BfHvxEL1bn9HHNh_Gps,799
+pyscaffoldext/markdown/templates/readme.template,sha256=XTiWiBPvkJTKIlTbj3oKV8wwqP6jAtoUzQP-DEYYAeU,244
+pyscaffoldext_markdown-0.1a3.dist-info/DESCRIPTION.rst,sha256=aWSiFTI8Rnyep9EFXMt_QQ6sJB4R6Io7wj8y0ick1cA,670
+pyscaffoldext_markdown-0.1a3.dist-info/METADATA,sha256=zeBVVK2Ipx5PB0bNizwfHFTR5ammRLlNhZbp2n9cUSs,1228
+pyscaffoldext_markdown-0.1a3.dist-info/RECORD,,
+pyscaffoldext_markdown-0.1a3.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+pyscaffoldext_markdown-0.1a3.dist-info/metadata.json,sha256=JxZX7s-mYUuiWr-vMsCpH0llPQS0J1A0YfZuxGeHaoU,736
+pyscaffoldext_markdown-0.1a3.dist-info/top_level.txt,sha256=zac9JJq83qBJe5oCWbtXhQVr8mJ5TZFW2jCFlSQ6n0Y,14
