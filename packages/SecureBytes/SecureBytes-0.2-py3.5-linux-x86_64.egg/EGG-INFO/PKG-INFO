@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: SecureBytes
+Version: 0.2
+Summary: Clears the contents of bytes containing cryptographic material
+Home-page: https://github.com/dnet/pysecbytes
+Author: Erik Aronesty
+Author-email: erik@getvida.io
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
