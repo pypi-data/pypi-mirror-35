@@ -1,0 +1,13 @@
+msb_client/ComplexDataFormat.py,sha256=lVPqwHSDut15Wxl2tT9ioTJn37fkX_YM_ESscCkwwsE,4201
+msb_client/DataFormat.py,sha256=ntN0UGYvTQX2rVGLFQP_fziP26IC1rc6i4R8bNUBJC4,847
+msb_client/DataType.py,sha256=js5-xIT8coeRkuZSSyHq1YnzmGCQXekRzZ6jSiCuXw0,2466
+msb_client/Event.py,sha256=gecG5ljv2TWSp0UCQRJm1MFgGgLaJOZ6vFoetHFDJQo,1766
+msb_client/Function.py,sha256=Kzh4WhmZPQcTD4TGlpRidZZ1V9B-sZKv0kuh2ZHyHpc,1661
+msb_client/MsbClient.py,sha256=gtw_Va1t9hKKYfpmY9eMA3T36C7nq9D1uhFSJQRu5mw,27924
+msb_client/__init__.py,sha256=1MTniVlWM9ZFS15vVgxThhKqOenmJ-xqW68gJIfkRYg,454
+msb_client/event_schema.json,sha256=EX_hfqxa0rwoPMbC4cYKAVdbomUdC7tgdpgFGFiZzPo,6935
+msb_client/function_schema.json,sha256=EX_hfqxa0rwoPMbC4cYKAVdbomUdC7tgdpgFGFiZzPo,6935
+vfk.msb.client.library.python-1.0.dist-info/METADATA,sha256=CTrl6-VS35tyxcbb9zA0vzn1FG38PBYYbK6VhuY6NvQ,392
+vfk.msb.client.library.python-1.0.dist-info/RECORD,,
+vfk.msb.client.library.python-1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+vfk.msb.client.library.python-1.0.dist-info/top_level.txt,sha256=Kj7Sw6GGaHhw7pzSN2rRqfnUd9STXfMiB_M6-q7UkWw,11
