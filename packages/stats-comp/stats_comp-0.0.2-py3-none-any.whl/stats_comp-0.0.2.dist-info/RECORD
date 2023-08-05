@@ -1,0 +1,13 @@
+stats_comp/__init__.py,sha256=vQqiHUNjFXjxDDxkMZ_wPk-4VcGNOWNG_Mh5s8U6-aE,20
+stats_comp/analysis_c.py,sha256=J9Z1EaRiTsF4uqQ56ngppg70_r4xnTs_rRH_awUs0bs,3015
+stats_comp/analysis_cc.py,sha256=XuUOjydUFeU_Lp0StwKgKcxoEx7PYk23i1bu1xkNH0c,2929
+stats_comp/analysis_multi.py,sha256=XzAcHYn1lYlSS0yyWRD4OZGbkFOj-zzqGNRYll4AbXw,8398
+stats_comp/analysis_n.py,sha256=w1GKQzrpfu135yxuRnM9W2LhmMb3640PfxzYmtwhZ7A,2822
+stats_comp/analysis_nc.py,sha256=WM1tKKAtnhGoJXJ6s72je8W3jVTditMDIDgsQ01ae70,7748
+stats_comp/analysis_nn.py,sha256=HD_dgfM_rCL0tj6ao4sOjazKt4XieaD5P_1odjUOKm4,7690
+stats_comp/lttb.py,sha256=DfDrCQhZQpWO2hfw23eLjrgajB6fLtQ1o7ViZzsw9Qk,2458
+stats_comp/utilities.py,sha256=pLnguHN4rdkiUw0tNHPxOd3exZRBN_xXNkrtPgsaU6k,10608
+stats_comp-0.0.2.dist-info/METADATA,sha256=aLxB0hvwzXVnuLlZejBzVxQ5ftVosE_vekTR3x3fnyM,1037
+stats_comp-0.0.2.dist-info/RECORD,,
+stats_comp-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+stats_comp-0.0.2.dist-info/top_level.txt,sha256=tUTMDiczIw04EGkFOpflGyeKUyoRrdlrLrXO0ZvFDD4,11

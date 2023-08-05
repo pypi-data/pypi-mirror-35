@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: stats-comp
+Version: 0.0.2
+Summary: A package to explore and visualize huge data sets
+Home-page: https://github.com/Shreyanand/insights-ds-analysis-worker/statscomp
+Author: Shrey
+Author-email: shrey.anand@ymail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: certifi
+Requires-Dist: chardet
+Requires-Dist: decorator
+Requires-Dist: docutils
+Requires-Dist: idna
+Requires-Dist: ipython-genutils
+Requires-Dist: jmespath
+Requires-Dist: jsonschema
+Requires-Dist: jupyter-core
+Requires-Dist: nbformat
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: pyarrow
+Requires-Dist: python-dateutilpytz
+Requires-Dist: requests
+Requires-Dist: s3fs
+Requires-Dist: s3transfer
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: scikit-learn
+Requires-Dist: traitlets
+Requires-Dist: urllib3
+
+UNKNOWN
+
+
