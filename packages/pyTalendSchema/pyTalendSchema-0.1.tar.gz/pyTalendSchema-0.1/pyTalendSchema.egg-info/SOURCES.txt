@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyTalendSchema/__init__.py
+pyTalendSchema.egg-info/PKG-INFO
+pyTalendSchema.egg-info/SOURCES.txt
+pyTalendSchema.egg-info/dependency_links.txt
+pyTalendSchema.egg-info/top_level.txt
