@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pycodec
+Version: 0.0.2
+Summary: PyCodec is a package for coding and decoding any message by any Coders and Decoders also as Crypto Coders and Crypto Decoders
+Home-page: https://github.com/redradist/PyCodec.git
+Author: Denis Kotov (redradist, RedRadist, redra, RedRa)
+Author-email: redradist@gmail.com
+License: UNKNOWN
+Description: # PyCodec
+        
+        ### Description
+        This a package for encrypting and decrypting any kinds of messages
+        including calculating CRC for messages.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
