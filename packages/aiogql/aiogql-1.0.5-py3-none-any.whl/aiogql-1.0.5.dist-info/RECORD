@@ -1,0 +1,13 @@
+aiogql/__init__.py,sha256=1V-YfaVgVDlQ63bw4dYyvIWEbi163tZADiO0tWpUj7Q,83
+aiogql/client.py,sha256=PKirpHoMaUm1HhBebmaJywaaujPtzKlohVq-_TmvILU,3033
+aiogql/dsl.py,sha256=I9FS5xEsGaL349p6BvagjBcQ86XE7uMJbKQvTa08NN4,5753
+aiogql/gql.py,sha256=3Oxh2F1HSr3R3UnFsG7oCnkLcwZ7Kfz-JFjaXzuhhOA,360
+aiogql/utils.py,sha256=vnEwF0okZBFwCN8hhUs7H3Zi5xLxTqHZv7BPg27CgaQ,675
+aiogql/transport/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiogql/transport/aio.py,sha256=0hUs0pztK15eLpx0YAV1vFKHKtrdGPIVq5cKyTj7cY4,1901
+aiogql/transport/http.py,sha256=W_21pHSLCNme_ukkin1muiF7vUtK21LEzUcqPNK-6_k,172
+aiogql/transport/local_schema.py,sha256=BY_kttnjipKXj6q7x_T_ca1AusOmBiiVokQ94faqymg,310
+aiogql-1.0.5.dist-info/METADATA,sha256=cvZXCIPtHmdPXSB1-PKZYqw3aqjO6FDHm6eexc_vK-Y,1813
+aiogql-1.0.5.dist-info/RECORD,,
+aiogql-1.0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+aiogql-1.0.5.dist-info/top_level.txt,sha256=ixm8z-pOj6PGJfqPJVaV2_AVitPwHAgG_siFZ_nh3WA,7
