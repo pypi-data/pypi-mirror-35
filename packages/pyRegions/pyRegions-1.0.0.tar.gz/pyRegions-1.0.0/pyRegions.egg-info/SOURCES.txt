@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pyRegions.egg-info/PKG-INFO
+pyRegions.egg-info/SOURCES.txt
+pyRegions.egg-info/dependency_links.txt
+pyRegions.egg-info/entry_points.txt
+pyRegions.egg-info/requires.txt
+pyRegions.egg-info/top_level.txt
