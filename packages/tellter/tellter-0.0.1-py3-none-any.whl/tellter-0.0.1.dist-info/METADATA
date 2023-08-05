@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tellter
+Version: 0.0.1
+Summary: Tellter Public API
+Home-page: https://tellter.com/
+Author: Tellter
+Author-email: contact@tellter.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Tellter Public API
+
+Contains :
+
+- Tellter Neural System (https://tns.tellter.com/) public API
+- Tellter Safechat public API
+
