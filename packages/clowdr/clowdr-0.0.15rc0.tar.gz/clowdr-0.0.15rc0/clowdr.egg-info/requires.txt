@@ -1,0 +1,6 @@
+boto3
+boutiques>=0.5.10
+slurmpy
+memory-profiler
+pandas
+flask
