@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: cli-interface-utils
+Version: 0.1
+Summary: create a CliInterface, extends AbstractCliWorker, now you have a working cli application
+Home-page: https://github.com/FabioCingottini/cli_interface_utils
+Author: Fabio Cingottini
+Author-email: fabio.cingottini@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

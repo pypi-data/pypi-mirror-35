@@ -1,0 +1,12 @@
+README.md
+setup.py
+cli_interface_utils/__init__.py
+cli_interface_utils/cli_input_controller.py
+cli_interface_utils/cli_interface.py
+cli_interface_utils/cli_word_processor.py
+cli_interface_utils/cli_workers_controller.py
+cli_interface_utils.egg-info/PKG-INFO
+cli_interface_utils.egg-info/SOURCES.txt
+cli_interface_utils.egg-info/dependency_links.txt
+cli_interface_utils.egg-info/not-zip-safe
+cli_interface_utils.egg-info/top_level.txt
