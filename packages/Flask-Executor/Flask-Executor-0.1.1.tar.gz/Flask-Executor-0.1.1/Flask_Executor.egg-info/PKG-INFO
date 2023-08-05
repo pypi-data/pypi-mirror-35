@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: Flask-Executor
+Version: 0.1.1
+Summary: A simple Flask wrapper for concurrent.futures
+Home-page: https://github.com/dchevell/flask-executor
+Author: Dave Chevell
+Author-email: chevell@gmail.com
+License: MIT
+Description: Flask-Executor
+        ==============
+        
+        Wraps concurrent.futures for use with Flask.
+        
+        
+        Setup
+        -----
+        
+        Flask-Executor is available on PyPI and can be installed with:
+        
+            pip install flask-executor
+        
+        The Executor Extension can either be initialized directly:
+        
+        ```python
+        from flask import Flask
+        from flask_executor import Executor
+        
+        app = Flask(__name__)
+        app.config['EXECUTOR_TYPE'] = 'thread'
+        app.config['EXECUTOR_MAX_WORKERS'] = 5
+        
+        executor = Executor(app)
+        ```
+        
+        Or through the factory method:
+        
+        ```python
+        executor = Executor()
+        
+        executor.init_app(app)
+        ```
+        
+Keywords: flask,concurrent.futures
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.3.0
+Description-Content-Type: text/markdown
