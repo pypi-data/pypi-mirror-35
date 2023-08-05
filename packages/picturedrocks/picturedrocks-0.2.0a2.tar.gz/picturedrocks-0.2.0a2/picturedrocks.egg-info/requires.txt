@@ -1,0 +1,9 @@
+anndata
+colorlover
+h5py
+loompy
+numpy
+pandas
+plotly
+scanpy
+scipy
