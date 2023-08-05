@@ -1,0 +1,15 @@
+frccontrol/__init__.py,sha256=k1yUeR_unHnmft6-jkQ2kh4UoXQ90q0UCeOgeuc9r_g,277
+frccontrol/ctrlutil.py,sha256=UODLgsWVqPOfr9lZsvUKSHEU3dAsYeU74M9gTHBEVzs,1677
+frccontrol/dlqr.py,sha256=t-yfpHB7Nac7aH4nvQE9PVB4NxzEXYhNqQdfxVXRHI4,780
+frccontrol/kalmd.py,sha256=_kBpu123SpaA18XryDZGfG77WTCjBpmDQVdkR7j58xk,910
+frccontrol/models.py,sha256=tYFgpoAVAx4bySHjj0RNvzadKr-TsVv3ia77JhSp4rs,6030
+frccontrol/profiles.py,sha256=YNGwbfJglybqY87hVEH8rVTAKXUeTM_6BtWKyeVV_nY,4414
+frccontrol/system.py,sha256=MUxOBwFWYK2uyHxAkOkUSMSwta0Guu22WY7x-AavQI8,11686
+frccontrol/system_writer.py,sha256=F-EayeGlyVQ1q8Sg7cV7GrnpU-BPaUmF6SSCZp5xAtQ,9078
+frccontrol/version.py,sha256=wz9kmP409sXdvBYh86HBAY7ziCfxb8rm2Wn2LEUEcag,51
+frccontrol-2018.14.dist-info/METADATA,sha256=kaZuSh8zQGavcWentMUrqm95PDJaiCrtgNd9uh6dELA,1147
+frccontrol-2018.14.dist-info/RECORD,,
+frccontrol-2018.14.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+frccontrol-2018.14.dist-info/top_level.txt,sha256=7XQ2hTRfbbZZLvN4nFNqlzLwke5Ajn7faWDKrkSWDx8,16
+frccontrol-2018.14.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+test/__init__.py,sha256=oj_mYYchUsJwE_OFlM9fN_qU0a6KJgumLHFcu5yrKak,63
