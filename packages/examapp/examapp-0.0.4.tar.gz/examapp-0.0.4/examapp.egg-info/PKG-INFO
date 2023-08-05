@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: examapp
+Version: 0.0.4
+Summary: Generator for exam at Logic Pondok Programmer
+Home-page: https://github.com/moslog/exam-app
+Author: Muhammad Muizzsuddin
+Author-email: m.muizzsuddin@windowslive.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
