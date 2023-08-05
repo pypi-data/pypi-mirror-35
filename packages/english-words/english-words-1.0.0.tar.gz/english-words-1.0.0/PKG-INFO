@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: english-words
+Version: 1.0.0
+Summary: Contains sets of english words
+Home-page: https://github.com/mwiens91/english-words-py
+Author: Matt Wiens
+Author-email: mwiens91@gmail.com
+License: MIT
+Description: # english-words-py
+        
+        Contains a list of English words from
+        [svnweb.freebsd.org/csrg/share/dic/](https://svnweb.freebsd.org/csrg/share/dic/).
+        This is up to date with revision 61569 of their words list.
+        
+        ## Installation
+        
+        
+        
+        ## Usage
+        
+        There are four sets in this package:
+        
+        `english_words_set`: A set of English words containing both upper- and
+            lower-case letters; with punctuation.
+        `english_words_lower_set`: A set of English words containing lower-case
+            letters; with punctuation.
+        `english_words_alpha_set`: A set of English words containing both upper-
+            and lower-case letters; with no punctuation.
+        `english_words_lower_alpha_set`: A set of English words containing
+            lower-case letters; with no punctuation.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
