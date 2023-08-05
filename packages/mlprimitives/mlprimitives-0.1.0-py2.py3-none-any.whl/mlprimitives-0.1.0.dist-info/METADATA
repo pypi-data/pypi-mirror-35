@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: mlprimitives
+Version: 0.1.0
+Summary: MLBlocks Primitives
+Home-page: https://github.com/HDI-Project/MLPrimitives
+Author: MIT Data To AI Lab
+Author-email: dailabmit@gmail.com
+License: MIT license
+Keywords: mlblocks mlprimitives mlblocks_primitives
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+Requires-Dist: Keras (>=2.1.6)
+Requires-Dist: featuretools (>=0.1.17)
+Requires-Dist: lightfm (>=1.15)
+Requires-Dist: networkx (>=2.0)
+Requires-Dist: numpy (>=1.14.0)
+Requires-Dist: opencv-python (>=3.4.0.12)
+Requires-Dist: python-louvain (>=0.10)
+Requires-Dist: scikit-image (>=0.13.1)
+Requires-Dist: scikit-learn (>=0.19.1)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: tensorflow (==1.8.0)
+Requires-Dist: xgboost (>=0.72.1)
+Provides-Extra: dev
+Requires-Dist: mlblocks (>=0.2.0); extra == 'dev'
+Requires-Dist: pytest (>=3.4.2); extra == 'dev'
+Requires-Dist: Sphinx (>=1.7.1); extra == 'dev'
+Requires-Dist: autoflake (>=1.1); extra == 'dev'
+Requires-Dist: autopep8 (>=1.3.5); extra == 'dev'
+Requires-Dist: bumpversion (>=0.5.3); extra == 'dev'
+Requires-Dist: coverage (>=4.5.1); extra == 'dev'
+Requires-Dist: flake8 (>=3.5.0); extra == 'dev'
+Requires-Dist: isort (>=4.3.4); extra == 'dev'
+Requires-Dist: pip (>=10.0.1); extra == 'dev'
+Requires-Dist: pycodestyle (==2.3.1); extra == 'dev'
+Requires-Dist: pyflakes (==1.6.0); extra == 'dev'
+Requires-Dist: recommonmark (>=0.4.0); extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (>=0.2.4); extra == 'dev'
+Requires-Dist: tox (>=2.9.1); extra == 'dev'
+Requires-Dist: twine (>=1.10.0); extra == 'dev'
+Requires-Dist: wheel (>=0.30.0); extra == 'dev'
+Provides-Extra: test
+Requires-Dist: mlblocks (>=0.2.0); extra == 'test'
+Requires-Dist: pytest (>=3.4.2); extra == 'test'
+
+[![][pypi-img]][pypi-url] [![][travis-img]][travis-url]
+
+# MLPrimitives
+
+MLBlocks Primitives
+
+- Free software: MIT license
+- Documentation: https://HDI-Project.github.io/MLPrimitives
+
+[travis-img]: https://travis-ci.org/HDI-Project/MLPrimitives.svg?branch=master
+[travis-url]: https://travis-ci.org/HDI-Project/MLPrimitives
+[pypi-img]: https://img.shields.io/pypi/v/mlprimitives.svg
+[pypi-url]: https://pypi.python.org/pypi/mlprimitives
+
+
+## Overview
+
+This repository contains JSON primitives to be used by the MLBlocks library, as well as the
+necessary Python code to make some of the comply with the MLBlocks API requirements.
+
+There are is also a colleciton of custom primitives contributed directly to this library,
+which either combine third party tools or implement new functionalities from scratch.
+
+## Project Structure
+
+The project is divided in two parts
+
+### `mlblocks_primitives` folder
+
+The `mlblocks_primitives` folder contains the actual MLBlocks JSON primitives.
+
+### `mlprimitives` folder
+
+The mlprimitives folder is where the python code can be found.
+
+
+# History
+
+## 0.0.1
+
+* First release on PyPI.
+
+
