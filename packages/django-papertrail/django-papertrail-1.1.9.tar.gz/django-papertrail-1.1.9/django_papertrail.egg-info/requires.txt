@@ -1,0 +1,8 @@
+six
+django-apptemplates
+
+[:python_version < "3.0"]
+Django<2.0,>=1.10
+
+[:python_version > "3.0"]
+Django>=1.10
