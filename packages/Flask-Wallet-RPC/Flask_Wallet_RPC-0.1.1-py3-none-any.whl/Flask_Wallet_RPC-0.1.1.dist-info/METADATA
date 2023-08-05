@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Flask-Wallet-RPC
+Version: 0.1.1
+Summary: Crypto Wallet RPC client for Flask, based on the Python module slick-bitcoinrpc
+Home-page: https://github.com/OneDevGuy/flask-bitcoinrpc
+Author: Trevor Johnson
+Author-email: devtrev@protonmail.com
+License: BSD
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Flask
+Requires-Dist: slick-bitcoinrpc (>=0.1.4)
+
+### Flask-Wallet-RPC
+Crypto Wallet RPC client for Flask, based on the [Python module slick-bitcoinrpc](https://pypi.org/project/slick-bitcoinrpc/)
+Connects to the RPC server for of your wallet either locally or remote if enabled on the wallet.
+
+
