@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: secondshot
+Version: 0.9.0
+Summary: Linux-based backup utility
+Home-page: https://github.com/instantlinux/secondshot
+Author: Rich Braun
+Author-email: richb@instantlinux.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7.3
+Description-Content-Type: text/markdown
+Requires-Dist: alembic
+Requires-Dist: docopt
+Requires-Dist: pymysql
+Requires-Dist: sqlalchemy
+
+## secondshot
+
+[![](https://images.microbadger.com/badges/version/instantlinux/secondshot.svg)](https://microbadger.com/images/instantlinux/secondshot "Version badge") [![](https://images.microbadger.com/badges/image/instantlinux/secondshot.svg)](https://microbadger.com/images/instantlinux/secondshot "Image badge") [![](https://images.microbadger.com/badges/commit/instantlinux/secondshot.svg)](https://microbadger.com/images/instantlinux/secondshot "Commit badge")
+
+This is a command-line tool and library for managing filesystem backups on a local network. Each incremental backup is made available according to rotation rules defined in [this 2004 article](http://www.mikerubel.org/computers/rsync_snapshots/) by Mike Rubel.
+
+Reliability and simplicity of this are inherently provided by rsnapshot and rsync, which are used without modification. What this tool adds is storage of metadata in a local SQL database, along with functions to store and verify checksums for files in each saveset.
+
+Example crontab and configuration files can be found here under etc/ and cron/.
+
+[![](https://images.microbadger.com/badges/license/instantlinux/secondshot.svg)](https://microbadger.com/images/instantlinux/secondshot "License badge")
+
+
