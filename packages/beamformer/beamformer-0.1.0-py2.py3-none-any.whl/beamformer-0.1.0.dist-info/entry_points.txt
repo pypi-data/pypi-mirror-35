@@ -1,0 +1,3 @@
+[console_scripts]
+beamformer = beamformer.cli:main
+
