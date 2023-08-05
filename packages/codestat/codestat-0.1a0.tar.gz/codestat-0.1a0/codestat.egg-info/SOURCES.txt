@@ -1,0 +1,7 @@
+README.md
+setup.py
+codestat.egg-info/PKG-INFO
+codestat.egg-info/SOURCES.txt
+codestat.egg-info/dependency_links.txt
+codestat.egg-info/entry_points.txt
+codestat.egg-info/top_level.txt
