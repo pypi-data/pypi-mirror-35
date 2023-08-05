@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.py
+msb_client/ComplexDataFormat.py
+msb_client/DataFormat.py
+msb_client/DataType.py
+msb_client/Event.py
+msb_client/Function.py
+msb_client/MsbClient.py
+msb_client/__init__.py
+msb_client/event_schema.json
+msb_client/function_schema.json
+vfk.msb.client.library.python.egg-info/PKG-INFO
+vfk.msb.client.library.python.egg-info/SOURCES.txt
+vfk.msb.client.library.python.egg-info/dependency_links.txt
+vfk.msb.client.library.python.egg-info/not-zip-safe
+vfk.msb.client.library.python.egg-info/requires.txt
+vfk.msb.client.library.python.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+websocket-client
+jsonschema
+jsonpickle
+enum34
