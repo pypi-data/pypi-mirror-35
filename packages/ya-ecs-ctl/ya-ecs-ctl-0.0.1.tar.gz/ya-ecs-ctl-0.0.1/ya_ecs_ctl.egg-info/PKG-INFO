@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ya-ecs-ctl
+Version: 0.0.1
+Summary: AWS ECS Control Tool
+Home-page: https://github.com/hampsterx/ya-ecs-ctl
+Author: Tim van der Hulst
+Author-email: tim.vdh@gmail.com
+License: Apache2
+Description: # Yet Another ECS CTL tool
+        
+        
+        
+        
+        ## Alternatives..
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Description-Content-Type: text/markdown
