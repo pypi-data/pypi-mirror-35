@@ -1,0 +1,9 @@
+README.md
+setup.py
+cimem/__init__.py
+cimem/core.py
+cimem.egg-info/PKG-INFO
+cimem.egg-info/SOURCES.txt
+cimem.egg-info/dependency_links.txt
+cimem.egg-info/requires.txt
+cimem.egg-info/top_level.txt
