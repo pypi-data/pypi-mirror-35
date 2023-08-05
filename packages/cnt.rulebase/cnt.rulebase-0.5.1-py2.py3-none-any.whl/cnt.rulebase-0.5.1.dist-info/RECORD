@@ -1,0 +1,10 @@
+cnt/rulebase/__init__.py,sha256=n6X62FbRVax6pwmvfoKVxEkfpANclLSrnFPV5DwOXqs,352
+cnt/rulebase/common.py,sha256=a9w0aZMz54QpnEvG887gaPG5KbOd70aGgpTeU3blAzU,1316
+cnt/rulebase/const.py,sha256=jzWc3yPViuTf_QuKs5orJMpIY_8GMLe1hVRWSrPi0jE,4288
+cnt/rulebase/dlmseg.py,sha256=F2vaaJ8-nv0PqzdzSdPgi8CLDTQYZBMuGhYmgiMj3H8,596
+cnt/rulebase/replace.py,sha256=7NcExrD_wraMBvLyliUKlLw3JYgMP6k-H7mxOzyRnTc,724
+cnt/rulebase/sentseg.py,sha256=rUU-LVITdX9fLF4_brJlhOyCr6NYrfylAwvMkEzx9P8,2516
+cnt.rulebase-0.5.1.dist-info/METADATA,sha256=9xW1Xbj7auRxlw_cNSWa_h59618xIc-7x4WITOulB_w,1571
+cnt.rulebase-0.5.1.dist-info/RECORD,,
+cnt.rulebase-0.5.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+cnt.rulebase-0.5.1.dist-info/top_level.txt,sha256=nXQCu8dzav5U5WpTSy4th5UUtiZCPuTO4OaH81GC1bg,4
