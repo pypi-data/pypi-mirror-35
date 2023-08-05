@@ -1,0 +1,12 @@
+README.md
+setup.py
+bovespa2csv/BovespaParser.py
+bovespa2csv/__init__.py
+bovespa2csv/parse_file.py
+bovespa2csv/util.py
+bovespa2csv.egg-info/PKG-INFO
+bovespa2csv.egg-info/SOURCES.txt
+bovespa2csv.egg-info/dependency_links.txt
+bovespa2csv.egg-info/top_level.txt
+tests/2csv_tests.py
+tests/__init__.py
