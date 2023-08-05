@@ -1,0 +1,13 @@
+django_grappelli_extras-1.0.0.dist-info/METADATA,sha256=PVAaSHyQlKxpOZmSx7gwrF7EywiQ-39e88P-hW8KqyQ,880
+django_grappelli_extras-1.0.0.dist-info/RECORD,,
+django_grappelli_extras-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_grappelli_extras-1.0.0.dist-info/top_level.txt,sha256=B5G-FHqrJPwGZ1GrPNW4G6nSlSSWauP443h621VQXP4,17
+grappelli_extras/__init__.py,sha256=dHuoY6voK7np1A7oRzw1xyBy7CK9_KBAc4FCKW29uRQ,21
+grappelli_extras/admin.py,sha256=yDUncqrHtgnH9djz6ogDg5rTJzOxBCLgQ5ppBCFSBFw,1325
+grappelli_extras/ajax.py,sha256=TlTAaDKpeEa3ZsydnP_hByyw_Gq2gkUlajmVMMa0ATc,5996
+grappelli_extras/ajax_urls.py,sha256=Xz68f2Gn_FWVQn_I62lx81OwuO8hFWzGzfoWZTJd8h0,623
+grappelli_extras/extras.py,sha256=wdEJAszme4dOAPLrLm0FX5IqAXtM3-0tf6U_uhkURLs,443
+grappelli_extras/extras_urls.py,sha256=K7a08WaozyKXx3ObZQYaWhGRdgcqd2wZPUfhc3xCN-Y,129
+grappelli_extras/models.py,sha256=5PHHagpKPgu3NRVZ0C5Eq77QnFkSXPuGYmWlUqFs0Zw,3696
+grappelli_extras/utils.py,sha256=7jb1_wbZ01X4GRfg55cA3wKkMtY9qvrIVD_xpov71Ic,3169
+grappelli_extras/views.py,sha256=DSOhjBawXlB516xfgXb5NLgYap_QJ9YEyjC3ArtHiWg,1785
