@@ -1,0 +1,9 @@
+echo "Gen a ssh key"
+mkdir ~/.ssh
+yes y | ssh-keygen -t rsa -b 4096 -C "$ADMIN_EMAIL" -N "" -f ~/.ssh/id_rsa
+
+echo "Run ssh-agent"
+eval "$(ssh-agent -s)"
+
+echo "Add ssh key"
+ssh-add ~/.ssh/id_rsa
