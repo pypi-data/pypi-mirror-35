@@ -1,0 +1,11 @@
+README.md
+setup.py
+Pylette/__init__.py
+Pylette/color.py
+Pylette/color_extraction.py
+Pylette/palette.py
+Pylette.egg-info/PKG-INFO
+Pylette.egg-info/SOURCES.txt
+Pylette.egg-info/dependency_links.txt
+Pylette.egg-info/requires.txt
+Pylette.egg-info/top_level.txt
