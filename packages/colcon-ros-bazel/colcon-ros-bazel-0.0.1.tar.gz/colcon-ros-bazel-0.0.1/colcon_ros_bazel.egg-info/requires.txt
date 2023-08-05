@@ -1,0 +1,4 @@
+colcon-core
+colcon-bazel>=0.1.0
+colcon-library-path
+colcon-ros>=0.3.2

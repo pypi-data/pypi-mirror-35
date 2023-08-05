@@ -1,0 +1,35 @@
+Metadata-Version: 1.2
+Name: colcon-ros-bazel
+Version: 0.0.1
+Summary: Extension for colcon to support ROS2 Bazel packages.
+Home-page: https://colcon.readthedocs.io
+Author: Mickael Gaillard
+Author-email: mick.gaillard@gmail.com
+Maintainer: Mickael Gaillard
+Maintainer-email: mick.gaillard@gmail.com
+License: Apache License, Version 2.0
+Project-URL: Changelog, https://github.com/colcon/colcon-ros-bazel/milestones?state=closed
+Project-URL: GitHub, https://github.com/colcon/colcon-ros-bazel/
+Description: colcon-ros-bazel
+        =================
+        
+        [![Travis CI](https://travis-ci.org/colcon/colcon-ros-bazel.svg?branch=master)](https://travis-ci.org/colcon/colcon-ros-bazel)
+        [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/colcon/colcon-ros-bazel?svg=true&branch=master)](https://ci.appveyor.com/project/Theosakamg/colcon-ros-bazel)
+        [![codecov](https://codecov.io/gh/colcon/colcon-ros-bazel/branch/master/graph/badge.svg)](https://codecov.io/gh/colcon/colcon-ros-bazel)
+        [![PyPI version](https://img.shields.io/pypi/v/colcon_ros_bazel.svg)](https://pypi.python.org/pypi/colcon_ros_bazel/)
+        
+        
+        An extension for [colcon-core](https://github.com/colcon/colcon-core) to support ROS2 Bazel projects.
+        
+        
+Keywords: colcon
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Build Tools
