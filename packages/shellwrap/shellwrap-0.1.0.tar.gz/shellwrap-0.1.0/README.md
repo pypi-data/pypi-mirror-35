@@ -1,0 +1,100 @@
+# ShellWrap
+
+This small module allows you to write `shell` commands inside your
+Python program. This module is not a replacement for `subprocess` or
+any of the Python modules that are a high level abstractions on top of
+program and command execution or shell interaction. On the contrary
+ShellWrap executes a shell interpreter that will live as long as your
+Python script is running. A simple function decorator will allow
+Python function to have a shell script body. These functions will be
+augmented and passed to the shell interpreter. Let's start with some
+examples:
+
+## Example: Check if a site is UP
+
+This example will regularily check for the given site to respond with a 200, Ok.
+This is handy when you are waiting for a site to become responsive or waiting
+for it to boot up.
+
+``` python
+import time
+from shellwrap import ShellWrap
+shell = ShellWrap('bash').get_shell()
+
+@shell()
+def is_the_site_up(url):
+    'curl -sL -m 2 -w "%{http_code}" "${url}" -o /dev/null | grep -q 200'
+
+while is_the_site_up('https://google.com').fails():
+    time.sleep(4)
+```
+
+You just have to annotate a function with the `@shell` decorator and it will
+be parsed and each line (a loose string) will be fed into a running `bash`
+interpreter.
+
+## Example: Getting results
+
+The return value of calling a function annotated with `@shell` is a `Result`
+type that has a few convenience functions:
+
+* `Result().fails()` returns True if the command failed (its exitcode is != 0)
+* `Result().success()` returns True if the command succeeded (equivalent to `not .fails()`)
+* `Result().exitcode` contains the exit code of the last command executed in your function
+* `Result().stdout` contains all the output of the execution of your function
+
+## Example: Passing arguments to functions
+
+You can define a function with arguments, like `is_the_site_up` above and these
+arguments will be converted into variables for the execution of your function,
+inside the `bash` environment.
+
+```python
+@shell()
+def passing_arguments_to_funcs(arg0, arg1, someother):
+    'echo "got $arg0 and $arg1"'
+    'echo "and also $someother"'
+
+result = passing_arguments_to_funcs('hello', 10, 'love you bash')
+
+assert(result.exitcode == 0)
+```
+
+This will result in the following being displayed:
+
+```
+got hello and 10
+and also I love you bash
+```
+
+## Example: Timeouts
+
+You might have a process that you only want to execute for a few seconds, for it to return.
+If the process get stuck, you want to kill it and continue with your life. This is possible
+with `ShellWrap` by using the `timeout` parameter in your decorator.
+
+``` python
+@shell(timeout=3)
+def will_timeout_in_3_secs(mymessage):
+    'sleep 1'
+    'echo "${mymessage}"'
+    'sleep 1'
+
+result = will_timeout_in_3_secs('Only patience will reveal the truth.')
+if result.success():
+    print('Your patience will be rewarded')
+```
+
+In the last example, we will give the decorated function 10 seconds to run, and we know it will
+take around 8 seconds to complete. The first run will succeed, but if you change the `timeout`
+parameter to 7, the function will fail. Will still print the message passed as an argument to the
+function (the `echo` was called), but the function will result in an error, as it was killed because
+of the timeout.
+
+# Contributing to the project
+
+Please see our [Contribution](./CONTRIBUTE.md) page!
+
+# License
+
+The project is distributed under the [MIT license](./LICENSE.txt).

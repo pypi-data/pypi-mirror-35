@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+shellwrap/__init__.py
+shellwrap/shellwrap.py
+shellwrap/utils.py
+shellwrap.egg-info/PKG-INFO
+shellwrap.egg-info/SOURCES.txt
+shellwrap.egg-info/dependency_links.txt
+shellwrap.egg-info/top_level.txt
