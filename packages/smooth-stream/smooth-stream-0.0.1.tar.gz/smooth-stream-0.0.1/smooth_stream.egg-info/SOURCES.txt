@@ -1,0 +1,9 @@
+README.md
+setup.py
+camera/Camera.py
+camera/__init__.py
+camera/test_camera.py
+smooth_stream.egg-info/PKG-INFO
+smooth_stream.egg-info/SOURCES.txt
+smooth_stream.egg-info/dependency_links.txt
+smooth_stream.egg-info/top_level.txt
