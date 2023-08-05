@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include classifiers/classifier.npy
+include classifiers/classifer_user.npy
+include gui_data.txt
+include logo/logo.png
+include logo/logo_unshaded.png
