@@ -1,0 +1,8 @@
+serving_utils/__init__.py,sha256=FyIINHZlS48Fnt6oPY4wMRipn1f7gCLsO4DgE2dGWp4,66
+serving_utils/client.py,sha256=h21dhEMiQiSHlY4nWJo4rDXpDqFvFNL5FT3aLaOR9cA,4216
+serving_utils/saver.py,sha256=7ETcKqEjqC0litMQwIzfFNqVvuWUBjS-9J3zhLVEfP4,1786
+serving_utils/protos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serving_utils-0.4.5.dist-info/METADATA,sha256=uRs8cmQbSHUizbTEDO9385wlEbgwqldSIAsXyDohDzA,1540
+serving_utils-0.4.5.dist-info/RECORD,,
+serving_utils-0.4.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+serving_utils-0.4.5.dist-info/top_level.txt,sha256=ppe2T_Ifq-c5Re4BVw3cAy0MKhBaA3GtSRMqgo0UC6w,14
