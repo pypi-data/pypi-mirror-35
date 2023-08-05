@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: winauto
+Version: 0.0.7
+Summary: A simple Windows module to simulate user input (written in C)
+Home-page: https://github.com/thecornerpiece/winauto
+Author: TheCornerPiece
+Author-email: cornerpieceofficial@gmail.com
+License: UNKNOWN
+Description: A simple Windows module to simulate user input (written in C)
+        
+        includes:
+            set_mouse_pos
+            get_mouse_pos
+            click
+            type_str
+            press_key
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

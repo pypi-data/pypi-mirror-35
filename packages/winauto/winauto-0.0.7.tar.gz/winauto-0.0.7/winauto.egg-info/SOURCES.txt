@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+winauto.egg-info/PKG-INFO
+winauto.egg-info/SOURCES.txt
+winauto.egg-info/dependency_links.txt
+winauto.egg-info/top_level.txt
