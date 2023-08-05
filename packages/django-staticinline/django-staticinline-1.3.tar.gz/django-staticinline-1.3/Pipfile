@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sphinx = "*"
+sphinx-rtd-theme = "*"
+pytest-cov = "*"
+pytest-django = "*"
+sphinx-autobuild = "*"
+
+[dev-packages]
+ipdb = "*"
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+test = "django-admin test staticinline"
+docs = "sphinx-build docs docs/_build/html"
+watch-docs = "sphinx-autobuild docs docs/_build/html"
