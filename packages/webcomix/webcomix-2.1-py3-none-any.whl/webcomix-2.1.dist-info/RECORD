@@ -1,0 +1,14 @@
+webcomix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webcomix/comic.py,sha256=To0w9CoXytHncUxwZA9Stk8sBsuZmexNGWHP-mJ7ffI,4258
+webcomix/comic_page.py,sha256=VTDErj3LKN506hwwrbspDG5mCsRPat9JYgzb0LjZ3Ew,97
+webcomix/comic_pipeline.py,sha256=Kg1bgIh2g63VO7ooncTJFUCy1sHfNCSZ74pJYyFbGOU,1251
+webcomix/comic_spider.py,sha256=DDBUk1U1okKincp1fEU7diZ5A0XAPKg49FPQXCnlUq4,1255
+webcomix/main.py,sha256=AJS6Y-sF9QGLdc-zwLupiO9gUHICx3hFwJ1IOpZ6wNc,3589
+webcomix/search.py,sha256=vaPShLnVkZWK76NRXUeEUjPfEwUy62wmY7e50l_p43c,1908
+webcomix/supported_comics.py,sha256=Wyri3IVIMYrWxt3wlImS-bW1WuHolm0kX6y9rZWG9g0,1783
+webcomix/util.py,sha256=RKxgRawZX45P72IzjGdqlKWNZFHD3uOe9HskPULDKUM,336
+webcomix-2.1.dist-info/METADATA,sha256=eFKsfSTAB35O8QIfAkuQ-u-0vW-_J2OnPDCZ5uI5gE0,1114
+webcomix-2.1.dist-info/RECORD,,
+webcomix-2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+webcomix-2.1.dist-info/entry_points.txt,sha256=EmY2a11R6HA-sxhl3Wignqj7bU8Ji90QEwvbRpgKExA,66
+webcomix-2.1.dist-info/top_level.txt,sha256=_lmLfnMWhGa0A-lNqZ6XldG4CLM5I6lzh32BnDNyBXM,9
