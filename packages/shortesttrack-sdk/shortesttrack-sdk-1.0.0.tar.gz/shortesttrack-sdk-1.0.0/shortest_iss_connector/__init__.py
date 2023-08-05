@@ -1,0 +1,1 @@
+from shortest_iss_connector.sync_connector import SyncConnector
