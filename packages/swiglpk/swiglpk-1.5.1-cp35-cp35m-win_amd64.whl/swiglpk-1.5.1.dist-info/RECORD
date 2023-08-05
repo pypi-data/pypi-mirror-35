@@ -1,0 +1,6 @@
+swiglpk/__init__.py,sha256=4bVoDRKGYZ3NG-6E1o7y1KNiVlfbk3jo3FlArLPkNw4,22
+swiglpk/_swiglpk.cp35-win_amd64.pyd,sha256=5S-B6n_XLBguE-AtfMd8kIFhNShcCyc4tHPimA_G4Fk,1146880
+swiglpk/swiglpk.py,sha256=fWZi9FN6g-MBtB39q3BO8SGVHYntq-FPIjViZyLHYLo,66495
+swiglpk-1.5.1.dist-info/METADATA,sha256=OX4bZaYHOW1IfYLrtEFhDnmiuevUi5N-JJucBXGvueE,5471
+swiglpk-1.5.1.dist-info/RECORD,,
+swiglpk-1.5.1.dist-info/WHEEL,sha256=5t140dZF8EIt8zPJ1QBOWmhybl_bZudh5t7xSibKWHU,106
