@@ -1,0 +1,7 @@
+README.md
+setup.py
+lfdeploy/tfdeploy.py
+lfdeploy.egg-info/PKG-INFO
+lfdeploy.egg-info/SOURCES.txt
+lfdeploy.egg-info/dependency_links.txt
+lfdeploy.egg-info/top_level.txt
