@@ -1,0 +1,7 @@
+README.rst
+setup.cfg
+setup.py
+solum_tempest_plugin.egg-info/PKG-INFO
+solum_tempest_plugin.egg-info/SOURCES.txt
+solum_tempest_plugin.egg-info/dependency_links.txt
+solum_tempest_plugin.egg-info/top_level.txt
