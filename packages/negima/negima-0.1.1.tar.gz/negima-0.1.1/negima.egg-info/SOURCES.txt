@@ -1,0 +1,11 @@
+README.md
+setup.py
+negima/__init__.py
+negima/merger.py
+negima/parser.py
+negima/rule.py
+negima.egg-info/PKG-INFO
+negima.egg-info/SOURCES.txt
+negima.egg-info/dependency_links.txt
+negima.egg-info/requires.txt
+negima.egg-info/top_level.txt

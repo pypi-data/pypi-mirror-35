@@ -1,0 +1,6 @@
+mecab-python3>=0.7
+pandas>=0.19
+xlrd>=1.1.0
+
+[dev]
+pytest>=3
