@@ -1,0 +1,7 @@
+iso4217/__init__.py,sha256=36EjxcNQC70p5x8niLxU4ROqDF21ceEge2MWmEUlgNQ,4008
+iso4217/table.xml,sha256=CGeuj2W_xScjgEGYEmn00UCOYhiHq9qPivGiup81bJA,47140
+iso4217/test.py,sha256=4c4A0L9FOBFpbuNaJ83phjuUuohZgVLfiFbx6O-ZuVw,585
+iso4217-1.5.20180820.dist-info/METADATA,sha256=9sqPgMAzOeY-jYYpOQP9_EzypCs4LZLRD8sxgxaAzmc,2755
+iso4217-1.5.20180820.dist-info/RECORD,,
+iso4217-1.5.20180820.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+iso4217-1.5.20180820.dist-info/top_level.txt,sha256=h6InKsyP9G6dHWdcT4FubacfHHaSZeikFJ7wIHawUKk,8
