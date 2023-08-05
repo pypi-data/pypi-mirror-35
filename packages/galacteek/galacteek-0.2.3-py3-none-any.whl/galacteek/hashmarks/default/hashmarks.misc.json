@@ -1,0 +1,106 @@
+{
+    "feeds": {},
+    "ipfsmarks": {
+        "categories": {
+            "computers": {
+                "_marks": {},
+                "atari": {
+                    "_marks": {
+                        "/ipfs/QmbKxNNCxBox7Cmv3jiUZbiG3zpzmtnYzVUuKHxfAjvpyH": {
+                            "comment": "",
+                            "metadata": {
+                                "numlinks": 6,
+                                "cumulativesize": 5483645,
+                                "title": "Atari 2600 + IPFS",
+                                "datasize": 2,
+                                "description": "Play atari 2600 games (JS emulator)"
+                            },
+                            "tags": [],
+                            "share": false,
+                            "datecreated": "2018-08-04T21:36:43.902723",
+                            "tscreated": 1533411403
+                        }
+                    }
+                }
+            },
+            "misc": {
+                "_marks": {
+                    "/ipfs/Qmb8wsGZNXt5VXZh1pEmYynjB6Euqpq3HYyeAdw2vScTkQ": {
+                        "comment": "",
+                        "metadata": {
+                            "numlinks": 1799,
+                            "cumulativesize": 109796940,
+                            "title": "XKCD",
+                            "datasize": 2,
+                            "description": ""
+                        },
+                        "tags": [],
+                        "share": false,
+                        "datecreated": "2018-08-04T21:36:43.902852",
+                        "tscreated": 1533411403
+                    }
+                }
+            },
+            "archives": {
+                "_marks": {
+                    "/ipfs/QmSnuWmxptJZdLJpKRarxBMS2Ju2oANVrgbr2xWbie9b2D": {
+                        "comment": "",
+                        "metadata": {
+                            "numlinks": 6,
+                            "cumulativesize": 61702258918,
+                            "title": "Project Apollo Archives",
+                            "datasize": 2,
+                            "description": ""
+                        },
+                        "tags": [],
+                        "share": false,
+                        "datecreated": "2018-08-04T21:36:43.903125",
+                        "tscreated": 1533411403
+                    },
+                    "/ipfs/QmbsZEvJE8EU51HCUHQg2aem9JNFmFHdva3tGVYutdCXHp": {
+                        "comment": "",
+                        "metadata": {
+                            "numlinks": 1,
+                            "cumulativesize": 217761653,
+                            "title": "Old Internet files",
+                            "datasize": 2,
+                            "description": ""
+                        },
+                        "tags": [],
+                        "share": false,
+                        "datecreated": "2018-08-04T21:36:43.902990",
+                        "tscreated": 1533411403
+                    },
+                    "/ipfs/QmdA5WkDNALetBn4iFeSepHjdLGJdxPBwZyY47ir1bZGAK": {
+                        "comment": "",
+                        "metadata": {
+                            "numlinks": 35,
+                            "cumulativesize": 205218066,
+                            "title": "Usenet Archives",
+                            "datasize": 2,
+                            "description": ""
+                        },
+                        "tags": [],
+                        "share": false,
+                        "datecreated": "2018-08-04T21:36:43.903058",
+                        "tscreated": 1533411403
+                    },
+                    "/ipfs/QmRTSA1UFHSx3z7taNRwUVM8AjB2EQwKvyZu3BfJg9QRtZ": {
+                        "comment": "",
+                        "metadata": {
+                            "numlinks": 12,
+                            "cumulativesize": 96444667,
+                            "title": "The World Wide Web History Project",
+                            "datasize": 2,
+                            "description": "The World Wide Web History Project is a collaborative effort to record and publish the history of the World Wide Web and its roots in hypermedia and networking"
+                        },
+                        "tags": [],
+                        "share": false,
+                        "datecreated": "2018-08-04T21:36:43.902923",
+                        "tscreated": 1533411403
+                    }
+                }
+            }
+        }
+    }
+}

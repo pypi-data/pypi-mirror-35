@@ -1,0 +1,70 @@
+{
+    "feeds": {},
+    "ipfsmarks": {
+        "categories": {
+            "wikipedia": {
+                "english": {
+                    "_marks": {
+                        "/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco": {
+                            "comment": "Snapshot date: 2017-05",
+                            "metadata": {
+                                "numlinks": 5,
+                                "cumulativesize": 658038834798,
+                                "title": "Wikipedia mirror (English, 2017-05 snapshot)",
+                                "datasize": 30,
+                                "description": "Distributed wikipedia mirror (english)"
+                            },
+                            "tags": [
+                                "wikipedia"
+                            ],
+                            "share": false,
+                            "datecreated": "2018-08-04T21:36:43.834376",
+                            "tscreated": 1533411403
+                        }
+                    }
+                },
+                "_marks": {},
+                "kurdish": {
+                    "_marks": {
+                        "/ipfs/QmWY4KZXKTuspGSwYVDNbNLLZcmSiQ63Mdmz7eRd4KzBbb": {
+                            "comment": "Snapshot date: 2017-05",
+                            "metadata": {
+                                "numlinks": 5,
+                                "cumulativesize": 482238015,
+                                "title": "Wikipedia mirror (Kurdish, 2017-05 snapshot)",
+                                "datasize": 30,
+                                "description": "Distributed wikipedia mirror (kurdish)"
+                            },
+                            "tags": [
+                                "wikipedia"
+                            ],
+                            "share": false,
+                            "datecreated": "2018-08-04T21:36:43.834947",
+                            "tscreated": 1533411403
+                        }
+                    }
+                },
+                "turkish": {
+                    "_marks": {
+                        "/ipfs/QmT5NvUtoM5nWFfrQdVrFtvGfKFmG7AHE8P34isapyhCxX": {
+                            "comment": "Snapshot date: 2017-04",
+                            "metadata": {
+                                "numlinks": 5,
+                                "cumulativesize": 14907878675,
+                                "title": "Wikipedia mirror (Turkish, 2017-04 snapshot)",
+                                "datasize": 30,
+                                "description": "Distributed wikipedia mirror (turkish)"
+                            },
+                            "tags": [
+                                "wikipedia"
+                            ],
+                            "share": false,
+                            "datecreated": "2018-08-04T21:36:43.834842",
+                            "tscreated": 1533411403
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
