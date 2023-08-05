@@ -1,0 +1,12 @@
+SSplines/__init__.py,sha256=jhGQavAhglffpwgOEpdnHoswvRqtNoVhHZ76CAoMGUA,526
+SSplines/constants.py,sha256=kyeGZ7Z4HzFUSHrLUWNaA68wFXj4PdgCRkzwpobOnPA,12857
+SSplines/dicts.py,sha256=NJGdLw-L7lei0Dr_20DWttYHP26dpdDHBxPndyzxPOU,4346
+SSplines/helper_functions.py,sha256=GW6P-NJ9QMpN8lYAH2-cDTOPPZw3Nr2r-BKDbHOakPc,36043
+SSplines/simplex_spline.py,sha256=b17TftIa-YrFZCI2HUmZ3h5oYY7-PKSZqOdqfB34mTA,2007
+SSplines/spline_function.py,sha256=4gwCP1eqd4-qrL2Ry8KXBCFO-t3-4mXNAUAU7Bpoces,4874
+SSplines/spline_space.py,sha256=xO2T9indRshbwhFAY9j_9C-ilWV3xF4tS_dXL-fRYFk,2774
+SSplines/symbolic.py,sha256=t30wPtlUzIe7npadZuGLEy2cfvXxGchN5lD0xja5a98,6511
+SSplines-2.0.1.dist-info/METADATA,sha256=jlqbE-002xdLFsvSoY6p-xGNJLiy5JGNfxrKTM0DvBA,587
+SSplines-2.0.1.dist-info/RECORD,,
+SSplines-2.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+SSplines-2.0.1.dist-info/top_level.txt,sha256=zdgZvy-ltWf04RtcR4f4zDpUQJLdyueWv1JRfh2lUgI,9
