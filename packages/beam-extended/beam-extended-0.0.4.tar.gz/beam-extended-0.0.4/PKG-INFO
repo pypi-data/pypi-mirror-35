@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: beam-extended
+Version: 0.0.4
+Summary: Extend Apache Beam python API with new modules
+Home-page: https://github.com/PEAT-AI/beam-extended
+Author: Pascal Gula
+Author-email: pascal@plantix.net
+License: UNKNOWN
+Description: # beam-extended
+        Provide extensions to existing SDKs (mainly Python)
+        
+Keywords: Apache,Beam,python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
