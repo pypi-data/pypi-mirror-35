@@ -1,0 +1,98 @@
+Metadata-Version: 1.1
+Name: changewords
+Version: 1.0.2
+Summary: Python tool to change or replace the text string in the files.
+Home-page: https://github.com/agusmakmun/changewords/
+Author: Agus Makmun (Summon Agus)
+Author-email: summon.agus@gmail.com
+License: MIT
+Download-URL: https://github.com/agusmakmun/changewords/tarball/v1.0.0
+Description: ===================
+        changewords
+        ===================
+        
+        |pypi version| |build status|
+        
+        Simply python tool to change or replace the text string in the files.
+        This tool pretty nice for programmers if somehow they want to replace/change their codes for any files,
+        eg: ``function``, ``class``, ``variable``, etc for recursive files or not.
+        
+        
+        Installation
+        ============
+        
+        Install from PyPI:
+        
+        ::
+        
+            $ pip install changewords
+        
+        
+        Usage
+        --------------
+        
+        ::
+        
+            usage: changewords.py [-h] [-p PATH] [-ft FILE_TYPE] [-fs FROM_STRING]
+                                  [-ts TO_STRING]
+        
+            Python tool to change or replace the strings in files.
+        
+            optional arguments:
+              -h, --help            show this help message and exit
+              -p PATH, --path PATH  the file type you are looking for. eg: '.py', '.txt'
+                                    by default is current path/folder.
+              -ft FILE_TYPE, --file_type FILE_TYPE
+                                    file type you are looking for, eg: '.py', '.txt'
+              -fs FROM_STRING, --from_string FROM_STRING
+                                    the string to change/replace
+              -ts TO_STRING, --to_string TO_STRING
+                                    the string replacement
+        
+        
+        Example
+        --------------
+        
+        ::
+        
+            $ changewords -p=changewords_test -ft=.py -fs=helloworld -ts=mantabjiwa
+        
+            # or
+        
+            $ changewords --path=changewords_test --file_type=.py --from_string=helloworld --to_string=mantabjiwa
+        
+        
+        
+        Running tests
+        --------------
+        
+        To run the test use:
+        
+        ::
+        
+            $ python tests.py
+        
+        
+        .. |pypi version|
+           image:: https://img.shields.io/pypi/v/changewords.svg
+           :target: https://pypi.python.org/pypi/changewords
+        
+        .. |build status| image:: https://travis-ci.org/agusmakmun/changewords.svg?branch=master
+           :target: https://travis-ci.org/agusmakmun/changewords
+        
+Keywords: change words,word replacer,python tool
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Software Development
