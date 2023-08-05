@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zmanim
+Version: 0.0.1
+Summary: A Zmanim library for Python
+Home-page: https://github.com/pinnymz/python-zmanim
+Author: Pinny Markowitz
+Author-email: pinny@mwitz.com
+License: UNKNOWN
+Description: # python-zmanim
+        Python Zmanim library
+        
+        This project is a port from Eliyahu Hershfeld's KosherJava project, with some Python niceties and other minor modifications.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
