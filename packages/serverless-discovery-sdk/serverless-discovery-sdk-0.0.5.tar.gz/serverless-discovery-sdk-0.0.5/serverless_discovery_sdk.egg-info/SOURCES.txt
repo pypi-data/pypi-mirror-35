@@ -1,0 +1,9 @@
+README.md
+setup.py
+serverless_discovery_sdk/DiscoverySdk.py
+serverless_discovery_sdk/DiscoveryServiceApi.py
+serverless_discovery_sdk/__init__.py
+serverless_discovery_sdk.egg-info/PKG-INFO
+serverless_discovery_sdk.egg-info/SOURCES.txt
+serverless_discovery_sdk.egg-info/dependency_links.txt
+serverless_discovery_sdk.egg-info/top_level.txt
