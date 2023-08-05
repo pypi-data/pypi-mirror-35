@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jderobot-jderobottypes
+Version: 1.0.0
+Summary: package of types for jderobot project
+Home-page: https://github.com/JdeRobot/JdeRobot
+Author: aitormf
+Author-email: aitor.martinez.fernandez@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# JdeRobotTypes
+Module of types for JdeRobot projetcs [JdeRobot](https://github.com/JdeRobot/)
+
+
+
