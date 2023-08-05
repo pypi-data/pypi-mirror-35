@@ -1,0 +1,7 @@
+cfn_cumulus-0.1.0.dist-info/METADATA,sha256=FZo_AGO6nW-niykcSPZHKfX-Jt6vAh8bW81xln4KmYw,2129
+cfn_cumulus-0.1.0.dist-info/RECORD,,
+cfn_cumulus-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+cfn_cumulus-0.1.0.dist-info/top_level.txt,sha256=7-wH5UKyG0EUf7EdkLt7JXUiLLAPBIoY46KR1gboKXY,8
+cumulus/__init__.py,sha256=9VhQ4LUDwu3FPDNWo0vqYMQ9C497NoGtPZaJs7WQJwU,151
+cumulus/cloudformation_builder.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+cumulus/cumulus.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
