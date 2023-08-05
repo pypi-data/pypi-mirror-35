@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: onshapepy
+Version: 0.0.4
+Summary: Drive part configurations from Python.
+Home-page: https://github.com/onshapepy/onshapepy/tree/master/python
+Author: Ty-Lucas Kelley, Ethan Keller
+Author-email: UNKNOWN
+License: Copyright (c) 2016 Onshape, Inc. All rights reserved.
+
+Description: # OnShapepy [![Build Status](https://travis-ci.org/AguaClara/onshapepy.svg?branch=master)](https://travis-ci.org/AguaClara/onshapepy) [![codecov](https://codecov.io/gh/AguaClara/onshapepy/branch/master/graph/badge.svg)](https://codecov.io/gh/AguaClara/onshapepy)
+        
+        Access OnShape part configurations from your python interpreter! Allows you to use Numpy, Scipy, and any other python packages you may need to accurately configure your part. An open source alternative to CADWolf or SwiftCalcs.
+        
+        ## [Documentation is here!](https://aguaclara.github.io/onshapepy/)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
