@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pytaoassets
+Version: 0.4.8
+Summary: Python implementation of the PeerAssets protocol for the Tao blockchain.
+Home-page: https://github.com/taoblockchain/pytaoassets
+Author: Bryce Weiner
+Author-email: bryce@tao.network
+License: BSD
+Description: UNKNOWN
+Keywords: blockchain,digital assets,protocol
+Platform: UNKNOWN
+Provides-Extra: rcp_provider
