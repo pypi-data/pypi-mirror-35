@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: CommandUI
+Version: 1.0.5
+Summary: ui tools for console
+Home-page: https://coding.net/u/lin3x/p/CUI/git
+Author: lishion
+Author-email: 544670411@qq.com
+License: MIT Licence
+Description: ui tools for console
+Keywords: pip,commandline,console,UI
+Platform: any
