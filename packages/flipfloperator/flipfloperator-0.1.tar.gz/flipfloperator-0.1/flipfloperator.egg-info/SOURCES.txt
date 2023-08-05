@@ -1,0 +1,6 @@
+flipfloperator.py
+setup.py
+flipfloperator.egg-info/PKG-INFO
+flipfloperator.egg-info/SOURCES.txt
+flipfloperator.egg-info/dependency_links.txt
+flipfloperator.egg-info/top_level.txt
