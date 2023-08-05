@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rogersbank
+Version: 1.2.0
+Summary: API for the rogersbank Bank
+Home-page: https://github.com/kevinjqiu/rogersbank
+Author: Kevin J. Qiu
+Author-email: kevin@idempotent.ca
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: beautifulsoup4 (==4.6.3)
+Requires-Dist: certifi (==2018.8.13)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: idna (==2.7)
+Requires-Dist: requests (==2.19.1)
+Requires-Dist: urllib3 (==1.23)
+
+RogersBank
+==========
+
+
