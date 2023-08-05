@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: symdisk
+Version: 0.0.2
+Summary: Disk modelling with sympy
+Home-page: https://gitlab.oca.eu/crobert/symdisk-project
+Author: Clément Robert
+Author-email: clement.robert@oca.eu
+License: GNU
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: math modelling protoplanetary-disks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
