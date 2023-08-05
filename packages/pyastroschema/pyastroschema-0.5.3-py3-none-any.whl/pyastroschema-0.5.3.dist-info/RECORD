@@ -1,0 +1,12 @@
+pyastroschema/VERSION,sha256=J-z_H82vZatGwbuZwQctbRNKDo3Zfdlc-ohpa57UU7I,6
+pyastroschema/__init__.py,sha256=m4ntkcgKqYEJQyEDeH-1_w5J6kDJezIj5cbCQ6l3Cos,4509
+pyastroschema/__main__.py,sha256=Yt7YzXkWCw9SzN13KZFFmHLsjSGx5slwt8l5TBSvuwE,6418
+pyastroschema/keys.py,sha256=g7KyG1XVKqalXlPvEZQU3_W6xy9t_9nZfW5jEDMl4Gs,6696
+pyastroschema/schema.py,sha256=nvx98vV6mdayYNRpROWtbZmL0ZVeYgeyJcTdf-SqIxY,6888
+pyastroschema/struct.py,sha256=YCefXbYCqZeVHN8g3IINRRfetkaD-wsg4RUAZ4YQ1Gg,8556
+pyastroschema/utils.py,sha256=Wr4azBgUZz5qPAkYDQ9bm9GBCN4eu1GIpN5nIDKk-Bg,5604
+pyastroschema/validation.py,sha256=o51R4P94QIAujntmsEeKcp9D4-Jxfj0oxTsQfxASV_k,3326
+pyastroschema-0.5.3.dist-info/METADATA,sha256=LyR2NmQC5MR7IEzlsG3bxHI2bBDSrg72lTs3DdLvUFw,18599
+pyastroschema-0.5.3.dist-info/RECORD,,
+pyastroschema-0.5.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pyastroschema-0.5.3.dist-info/top_level.txt,sha256=yXreohN9NXdldGKgbULmDCtbfOBe-Tabrpouttk2R30,14
