@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: stats_comp
+Version: 0.0.1
+Summary: A package to explore and visualize huge data sets
+Home-page: https://github.com/Shreyanand/insights-ds-analysis-worker/statscomp
+Author: Shrey
+Author-email: shrey.anand@ymail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
