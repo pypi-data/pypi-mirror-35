@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pykubeyaml
+Version: 0.0.1
+Summary: Automate Kubernetes workflow.
+Home-page: https://github.com/zyt312074545/pykubeyaml
+Author: zyt
+Author-email: zyt312074545@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Requires-Dist: click
+Requires-Dist: PyYAML (==3.13)
+Requires-Dist: prompt-toolkit (==2.0.4)
+
+
+.. image:: https://raw.githubusercontent.com/zyt312074545/pykubeyaml/master/Logo.png
+    :align: center
+
+pykubeyaml
+==============================================
+
+.. image:: https://travis-ci.org/zyt312074545/pykubeyaml.svg?branch=master
+    :target: https://travis-ci.org/zyt312074545/pykubeyaml
+
+.. image:: https://img.shields.io/badge/License-MIT-blue.svg
+    :target: https://opensource.org/licenses/MIT
+
+----------------------------------------------
+
+Automate Kubernetes workflow.
+
+
