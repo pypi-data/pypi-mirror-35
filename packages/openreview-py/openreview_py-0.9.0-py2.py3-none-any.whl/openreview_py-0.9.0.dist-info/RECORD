@@ -1,0 +1,10 @@
+openreview/__init__.py,sha256=IZoJF6bkmLRLYWNqIBbAUz7DnBcg5uG0aAoEZnRZCFA,112
+openreview/openreview.py,sha256=DikPoViTRr2ZLWWzu51pw-HilmqjZ8ByIfZEoopwlIE,37035
+openreview/tools.py,sha256=Uagztz-wYlihqwDErkFZGkR33jujZC9N-Kp1nEuOxu0,33974
+openreview/invitations/__init__.py,sha256=_Pfzs6r3VkJBp33w0r0k4pjVxcUdaF3W0YoZrQQ9ZQM,88
+openreview/invitations/content.py,sha256=ga7rSOWfog295al2WUlC1XauSCpv3BlRgUqVl7lmrHU,4908
+openreview/invitations/templates.py,sha256=aGEM9E7ylRAnt5Itq6r0Ok3gsKbit7XFkRZbIWPDJ1w,9907
+openreview_py-0.9.0.dist-info/METADATA,sha256=NtU35bRJXSJCH59DjgBCyw95MS94BSJbrcj-wlaAyt8,664
+openreview_py-0.9.0.dist-info/RECORD,,
+openreview_py-0.9.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+openreview_py-0.9.0.dist-info/top_level.txt,sha256=KYARbctsLcQxiOydGuV-pctnfSizP1CHvIszC04jKT4,34
