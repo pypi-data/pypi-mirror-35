@@ -1,0 +1,1 @@
+In case of any questions to arelle please contact us
