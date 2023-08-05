@@ -1,0 +1,9 @@
+README.md
+setup.py
+leveldbs/__init__.py
+leveldbs/client.py
+leveldbs/zmq_client.py
+leveldbs.egg-info/PKG-INFO
+leveldbs.egg-info/SOURCES.txt
+leveldbs.egg-info/dependency_links.txt
+leveldbs.egg-info/top_level.txt
