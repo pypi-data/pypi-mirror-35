@@ -1,0 +1,10 @@
+autogui/__init__.py,sha256=n64WBBpq6fkg-qEyao3oNMFyE8AfdZFSs3vwexn3ktk,1059
+autogui/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogui-0.0.8.data/data/Lib/site-packages/autogui/bin/GUILibrary.dll,sha256=zxn9n0ZCrtsYwuQZrQnhFfThFHLhAzZq3iBQQ4b3bcU,16896
+autogui-0.0.8.data/data/Lib/site-packages/autogui/bin/Interop.UIAutomationClient.dll,sha256=cWpni6WTb3ZKXZcx7RGgnbsrF8bYhQrxAv-3mcztmCo,89808
+autogui-0.0.8.data/data/Lib/site-packages/autogui/bin/TestApiCore.dll,sha256=eWpHUHptHkiKt-chCk05BpgKY8IA4f8Sxr_oPamO_yk,306176
+autogui-0.0.8.data/data/Lib/site-packages/autogui/bin/UIAComWrapper.dll,sha256=OGSw0EfsbTxcDZ9oB8Kcjz2Faxg2r41e87ius5z86LE,171184
+autogui-0.0.8.dist-info/METADATA,sha256=2ZNJDzW3qWHAphKQhQeDcYNFnTAYIpoqSTWDFf1MNrE,2848
+autogui-0.0.8.dist-info/RECORD,,
+autogui-0.0.8.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+autogui-0.0.8.dist-info/top_level.txt,sha256=8_y5qMM8Sxpm1t71YfNURsFMhLbKcnkca7pI6IhhevM,8
