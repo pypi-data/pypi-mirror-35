@@ -1,0 +1,7 @@
+README.md
+setup.py
+lager.egg-info/PKG-INFO
+lager.egg-info/SOURCES.txt
+lager.egg-info/dependency_links.txt
+lager.egg-info/top_level.txt
+lager.egg-info/zip-safe
