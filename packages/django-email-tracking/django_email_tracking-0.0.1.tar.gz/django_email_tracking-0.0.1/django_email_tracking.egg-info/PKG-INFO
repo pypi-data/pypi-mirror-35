@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: django-email-tracking
+Version: 0.0.1
+Summary: Simple email tracking package for Django
+Home-page: https://git.pispalanit.fi/pit/django-email-tracking/
+Author: Harry Karvonen
+Author-email: harry.karvonen@pispalanit.fi
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

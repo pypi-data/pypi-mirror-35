@@ -1,0 +1,11 @@
+setup.py
+django_email_tracking.egg-info/PKG-INFO
+django_email_tracking.egg-info/SOURCES.txt
+django_email_tracking.egg-info/dependency_links.txt
+django_email_tracking.egg-info/top_level.txt
+email_tracking/__init__.py
+email_tracking/backend.py
+email_tracking/conf.py
+email_tracking/signals.py
+email_tracking/urls.py
+email_tracking/views.py
