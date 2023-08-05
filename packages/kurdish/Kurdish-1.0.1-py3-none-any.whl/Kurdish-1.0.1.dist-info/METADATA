@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Kurdish
+Version: 1.0.1
+Summary: Kurdish Language Library for converting characters and numbers in Persian, English and also Arabic to Kurdish and vice versa.
+Home-page: https://github.com/dolanskurd
+Author: Dolan Hêriş
+Author-email: dolanskurd@mail.com
+License: UNKNOWN
+Keywords: Kurdish Language Module Library
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Documentation
+Classifier: Topic :: Printing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: Fonts
+Classifier: Topic :: Text Editors :: Word Processors
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+
+UNKNOWN
+
+
