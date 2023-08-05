@@ -1,0 +1,8 @@
+_mssql.so,sha256=a78--0i_FyqvGRIF-_ZUx3URHHnJozEmIkFggP7LRzQ,1885536
+pymssql.so,sha256=8chRvymHDL9Rf6h0--mCSE3wYjuXpHVkWGo-_jNkrVY,1199272
+.libs_mssql/libsybdb-c34c6f98.so.5.1.0,sha256=0tN5ZI45Y4ml1Xp8SDw4XUArFllO7dDdclNw4I9m2Co,557224
+.libspymssql/libsybdb-c34c6f98.so.5.1.0,sha256=0tN5ZI45Y4ml1Xp8SDw4XUArFllO7dDdclNw4I9m2Co,557224
+pymssql-2.1.4rc1.dist-info/RECORD,,
+pymssql-2.1.4rc1.dist-info/top_level.txt,sha256=W2_l_jF4lZqb8rklQZPFv3fqpjCHrwfk_VbwsHuEhlE,15
+pymssql-2.1.4rc1.dist-info/WHEEL,sha256=M5Ujap42zjfAFnpJOoFU72TFHuBKh-JF0Rqu5vZhkVE,110
+pymssql-2.1.4rc1.dist-info/METADATA,sha256=kFHs0HeEWnp1ce4vAm63MWRoHVBpdAmg5CCymHJbnhk,16396
