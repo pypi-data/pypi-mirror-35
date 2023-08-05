@@ -1,0 +1,10 @@
+setup.py
+pysubmodule/__init__.py
+pysubmodule/git_operator.py
+pysubmodule/logger.py
+pysubmodule/utils.py
+pysubmodule.egg-info/PKG-INFO
+pysubmodule.egg-info/SOURCES.txt
+pysubmodule.egg-info/dependency_links.txt
+pysubmodule.egg-info/requires.txt
+pysubmodule.egg-info/top_level.txt
