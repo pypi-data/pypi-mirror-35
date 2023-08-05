@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: darkbox
+Version: 0.0.2
+Summary: Portable all-in-one cross-platform toolkit.
+Home-page: https://github.com/AbnormalSec/darkbox
+Author: AbnormalSec
+Author-email: vesche@protonmail.com
+License: WTFPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Security
