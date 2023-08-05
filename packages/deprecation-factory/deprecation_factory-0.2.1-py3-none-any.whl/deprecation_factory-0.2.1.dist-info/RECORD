@@ -1,0 +1,15 @@
+deprecation_factory/__init__.py,sha256=k8FKYkYvwkPUJxI2edjtPEYJSEnapXPJ2Wi-o0Ykdvg,270
+deprecation_factory/_version.py,sha256=batAVoheN0gGomZcMgwypK7mRwjMGxLeSS3pmDZOgM0,536
+deprecation_factory/default_parameter_change.py,sha256=UBCk5ImA3C7ZxtiHzMO_TODooQhzx7uKLe541DQ9Agk,7071
+deprecation_factory/docscrape.py,sha256=6m5DY6gdbAHGBwaew_dY_fw452ud-HCya1yI7YRZalY,4547
+deprecation_factory/kwonly_change.py,sha256=Po5AkaN850Gy0KkW7PK3-eDiRqwnxYL1Mupgt259ga0,8753
+deprecation_factory/merge_docstrings.py,sha256=SNYRjjV0hBki0Jc1u6Nhk7b7T5rJpOG4l3YNl-DdHok,1005
+deprecation_factory/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deprecation_factory/tests/test_kwarg_deprecation.py,sha256=O3X6AD20rgWkdGoo7v2t21fPh83MexC5uzxl00E82qQ,6893
+deprecation_factory/tests/test_kwargs_with_numpydoc.py,sha256=-43WF4pB40wyARHACiUCofAXUyySql-nE0P5eWt4Ksg,2309
+deprecation_factory/tests/test_kwonly_deprecation.py,sha256=UXXRb7QSx0TAZH1en_Ufpa_7c3lPr8r99G0CpD94eGY,3425
+deprecation_factory-0.2.1.dist-info/LICENSE.txt,sha256=gxRfgZ6jegaAn94Q5Xp0-FSiSsEQgoO07EnRjuP1VXQ,1514
+deprecation_factory-0.2.1.dist-info/METADATA,sha256=pslULuoI4YA_eFCVq_2GZt3h6Or1fUMX5MNAYAWtj8g,4607
+deprecation_factory-0.2.1.dist-info/RECORD,,
+deprecation_factory-0.2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+deprecation_factory-0.2.1.dist-info/top_level.txt,sha256=ktNBftvfsWrx8UZywnUsMhXKssz12TLbmZRubfrEAqA,20
