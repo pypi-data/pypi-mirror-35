@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: strpipe
+Version: 0.1.0
+Summary: Reversible String Process Pipeline
+Home-page: https://github.com/Yoctol/strpipe
+Author: Yoctol Info
+Author-email: cph@yoctol.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+strpipe
+=======
+
+|Build Status| |PyPI version|
+
+About this project...
+
+Installation
+------------
+
+Installation instructions...
+
+Usage
+-----
+
+Usage instructions...
+
+Test
+----
+
+Testing instructions...
+
+.. |Build Status| image:: https://travis-ci.org/Yoctol/strpipe.svg?branch=master
+   :target: https://travis-ci.org/Yoctol/strpipe
+.. |PyPI version| image:: https://badge.fury.io/py/strpipe.svg
+   :target: https://badge.fury.io/py/strpipe
+
+

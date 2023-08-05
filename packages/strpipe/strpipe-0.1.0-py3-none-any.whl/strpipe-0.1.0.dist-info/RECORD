@@ -1,0 +1,7 @@
+strpipe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+strpipe/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+strpipe/tests/test_dummy.py,sha256=j8ydyoqtudNltLGZ9KOXC4doq-f9kvJ7ktItF6ycJC0,36
+strpipe-0.1.0.dist-info/METADATA,sha256=ucIhQPuAHqTrA7fAYzRiNlS39axEpC_sW1zz0MrhTnQ,684
+strpipe-0.1.0.dist-info/RECORD,,
+strpipe-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+strpipe-0.1.0.dist-info/top_level.txt,sha256=iVqwv9svWIkDCM7BetysmPizQZfjgBZ2gR5Yk2plbq0,8
