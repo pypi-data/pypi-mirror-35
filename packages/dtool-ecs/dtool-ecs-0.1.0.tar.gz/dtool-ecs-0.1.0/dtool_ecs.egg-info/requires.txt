@@ -1,0 +1,5 @@
+click
+dtoolcore>=3.4
+dtool_cli
+boto3
+dtool-s3
