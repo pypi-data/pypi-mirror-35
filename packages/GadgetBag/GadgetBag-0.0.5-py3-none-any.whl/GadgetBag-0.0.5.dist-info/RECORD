@@ -1,0 +1,10 @@
+Bag/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Bag/mydyplib.py,sha256=ssYF1UuV5AQoQHDQ4WJ1hCgsmHET9hPDSrYjj3PvPrY,404
+Bag/FileGadget/FileProcess.py,sha256=kpvKWF8Y0ViGKWB6G3oNGy9ZZYQQTwhZ62jEZY9MFxU,6701
+Bag/FileGadget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Bag/WebGadget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GadgetBag/mydyplib.py,sha256=ssYF1UuV5AQoQHDQ4WJ1hCgsmHET9hPDSrYjj3PvPrY,404
+GadgetBag-0.0.5.dist-info/METADATA,sha256=9KByp_KVEUuCzJo0uEVU2tuehst-7Ny_gaX7PJUsNM8,489
+GadgetBag-0.0.5.dist-info/RECORD,,
+GadgetBag-0.0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+GadgetBag-0.0.5.dist-info/top_level.txt,sha256=vjmaRctzo7wEzfJHTM85y1LTuNhsEevhDmIH1U7tmac,4
