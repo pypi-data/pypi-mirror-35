@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pydemult
+Version: 0.1
+Summary: Streamed and parallel demultiplexing of fastq files in python
+Home-page: https://github.com/jenzopr/pydemult
+Author: Jens Preussner
+Author-email: jens.preussner@mpi-bn.mpg.de
+License: MIT
+Description: # Streamed and parallel demultiplexing of fastq files
+        
+        ```
+        pydemult --fastq input.fastq.gz --barcodes barcodes.txt --threads 4 --writer-threads 16
+        ```
+        
+        ## Available options
+        
+        ## License
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3
