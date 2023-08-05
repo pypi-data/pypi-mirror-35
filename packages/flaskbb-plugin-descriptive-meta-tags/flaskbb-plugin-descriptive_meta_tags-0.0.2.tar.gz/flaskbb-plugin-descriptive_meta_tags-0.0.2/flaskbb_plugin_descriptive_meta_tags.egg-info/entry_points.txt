@@ -1,0 +1,3 @@
+[flaskbb_plugins]
+descriptive-meta-tags = descriptive_meta_tags
+
