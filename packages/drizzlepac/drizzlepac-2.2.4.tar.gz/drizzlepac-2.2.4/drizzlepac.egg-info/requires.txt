@@ -1,0 +1,16 @@
+astropy
+fitsblender
+nictools
+nose
+numpy
+scipy
+spherical_geometry
+stsci.tools
+stsci.convolve
+stsci.image>=2.3.0
+stsci.imagemanip
+stsci.imagestats
+stsci.ndimage
+stsci.stimage
+stwcs
+stregion
