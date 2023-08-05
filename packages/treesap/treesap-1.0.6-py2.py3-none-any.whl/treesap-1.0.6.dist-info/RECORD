@@ -1,0 +1,11 @@
+treesap/NHPP.py,sha256=svoZDG9roRR72mT3ILXe9nwveWLJJQDDVDSsFYvE1IM,3164
+treesap/__init__.py,sha256=2hYKTbu4l407de5rPUBgx3XUWqT_XJtCIAxBxPbY8HM,322
+treesap/coalescent.py,sha256=4d5XG9WofEXFsOGx2xsLBVWsxw9S1vngUhyIC_Jxwbk,1743
+treesap/common.py,sha256=KHV5WAKY_Kt3n7gZ3AX9igIn5WZlvLUTZ7ZY9iQhAz4,2293
+treesap/dualbirth.py,sha256=eqQ5IJ-hZqHa03Fk9q2tvO82GQT00Z2Lgym3oRt185U,2392
+treesap/yule.py,sha256=a-55fecYfYGCQVwIu_16gpSqDcrcp3aOFogfIq5A05Q,1792
+treesap-1.0.6.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+treesap-1.0.6.dist-info/METADATA,sha256=5l0ZKvE1gSxwHVHmQyfsvSQG4B788xw6_YNTshCi_Ws,1088
+treesap-1.0.6.dist-info/RECORD,,
+treesap-1.0.6.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+treesap-1.0.6.dist-info/top_level.txt,sha256=pS-W2ldwwNF0ciITzDvLocGmzMDeOoc2nJTdEeLSnDk,8
