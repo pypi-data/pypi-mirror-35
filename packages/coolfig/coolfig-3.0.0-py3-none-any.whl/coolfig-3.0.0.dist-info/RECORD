@@ -1,0 +1,16 @@
+coolfig/__init__.py,sha256=DzGGPuVDx5xzzWz-BR6ZOCeJHzAWsGLBYaSca7kcHmU,779
+coolfig/django.py,sha256=mQNlkJnGoZ21aR7s19zuEonpGlNIiWXbrnV7nM-2Aq8,3061
+coolfig/providers.py,sha256=rRx6Azj3kFrCj_y8a5hRrTzbC-wk04HY25ycWRpht3Y,2341
+coolfig/schema.py,sha256=CAmi2NpQI1eVjEkxp1hzpyOc9HmIKpjueZscWgRPs-U,4683
+coolfig/types.py,sha256=5oHtpM14xJgQMxqwg7kJfWVqAheNIVJi6p4aQdMlvvA,1574
+coolfig/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coolfig/test/test_config.py,sha256=kfNI4_NdRVRC7YMV9MzB_5AqRZpuyijA5Si5L30TQ9Q,6526
+coolfig/test/test_django.py,sha256=ZT5NOx4CYl0W3vuSlnxJed42fSW5V8qmTRqSU9jQ5Kg,6873
+coolfig/test/test_providers.py,sha256=pj0OGUo3J5KNUEZCOoZqgnepIi5qumfzqYWNKwsnGFw,2060
+coolfig/test/test_schema.py,sha256=0PVOrDpJg_F_JtWl8T5TT3gtUhhmhospfcxCdzbQYBc,235
+coolfig-3.0.0.dist-info/DESCRIPTION.rst,sha256=POuj_yJIlXvQx_OiNurrdBJHx-PaI4PNNQcijmY2fog,5437
+coolfig-3.0.0.dist-info/METADATA,sha256=HarjZZPvSyOZpaMR4fAZcFbIiCQpsJmYia2HkhaZpVE,6174
+coolfig-3.0.0.dist-info/RECORD,,
+coolfig-3.0.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+coolfig-3.0.0.dist-info/metadata.json,sha256=kURTuBQ3UkKv2BevXHWh1ePY_8w9FZNUKiaY2uFHeqs,900
+coolfig-3.0.0.dist-info/top_level.txt,sha256=oW5qSMxZXjWKtqHkd-mwV_MhJKW-Os4vVh9hxGJpe_U,8
