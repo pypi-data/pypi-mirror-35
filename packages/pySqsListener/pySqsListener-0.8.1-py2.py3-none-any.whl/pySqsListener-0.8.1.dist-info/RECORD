@@ -1,0 +1,7 @@
+pySqsListener-0.8.1.dist-info/METADATA,sha256=PpMPscUbjpV4mfd-bz2sWoGf3w8LQA4vZYPBS0SVlEI,6925
+pySqsListener-0.8.1.dist-info/RECORD,,
+pySqsListener-0.8.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pySqsListener-0.8.1.dist-info/top_level.txt,sha256=QxeUIRtLXmM7yWKfRf53_mjJFYveH7qybs9ekyhjKOM,26
+sqs_launcher/__init__.py,sha256=cWnZ9s1x03N4ZzOY50KakelYJjcNG_mcktIb7wI_vh0,3809
+sqs_listener/__init__.py,sha256=7fNeLyAdzZKm2qCK7Jae3Vmar9n19EFRbfKAFzu6XzA,8961
+sqs_listener/daemon.py,sha256=98xsUD7lxvlmeGnYPabTCTQ1RDIxE7DaPC3FExw3XE4,4052
