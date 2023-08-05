@@ -1,0 +1,11 @@
+README.md
+setup.py
+swift/__init__.py
+swift/context.py
+swift/data_base_provider.py
+swift/sql_mapper.py
+swift/swift.py
+swift_morm.egg-info/PKG-INFO
+swift_morm.egg-info/SOURCES.txt
+swift_morm.egg-info/dependency_links.txt
+swift_morm.egg-info/top_level.txt
