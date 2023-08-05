@@ -1,0 +1,17 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests_character.py,sha256=DWC6KLxfLYZt9rHhGWPBqgDk-YpTkuQUgbUAbHUZUMw,3776
+tests/tests_guild.py,sha256=ncJHxv-xM6nzGe22QURNYDUImgIv7UcNSAQ-B6YwFEw,8031
+tests/tests_tibiapy.py,sha256=KwxYvFio4cfgYWrezYdZqW4CwH1N6SC7QCa3lUYFFrg,668
+tests/tests_utils.py,sha256=VugucVfkPRDz3yuk3J_AIgczN2Gq2zNqKUp0bZSdO5Y,1740
+tibia.py-0.1.0.dist-info/METADATA,sha256=h_Of2tZ9PWLiI0dFPLRgRt6i4wmwzc9JlVrSp7PfKiY,2642
+tibia.py-0.1.0.dist-info/RECORD,,
+tibia.py-0.1.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+tibia.py-0.1.0.dist-info/top_level.txt,sha256=4BytBu7KMzRhnHLEA0RhPNgbvj3Na43L4uhxhEnWeww,14
+tibiapy/__init__.py,sha256=ZUOp80SN3aGJdqBNlLOFB1zOjkwSl_BDoVGI6Q5WhFU,213
+tibiapy/abc.py,sha256=OlJqA1WjVnGF1v7oDSkAwsCgffNK2aEcaQ5fakX-6kQ,1314
+tibiapy/character.py,sha256=nuvIRGrlbKNmXS8NSeJJmjRd2B98vnWR4VYKS5fXrIE,22410
+tibiapy/const.py,sha256=gG2xUOT9SXwm73Kiu0fhn0e-_HjIyw-r9D60CqZc0GE,243
+tibiapy/errors.py,sha256=2W6FdUC4aw7LqlNkImEFGP1FT8H_uTM3aVluY1dG8xw,529
+tibiapy/guild.py,sha256=x4BZETugYecm8_NP5pGY0w-RS10wYC5EXtE0LCYXXl0,21102
+tibiapy/others.py,sha256=qazaa9TyG9A2R-M2D-jAgAqOGNdZtSwyoIIbkbopDPA,1092
+tibiapy/utils.py,sha256=a3263WNAB0d1oy4gSWXG4Tv-DY9TijMYPGq7TBgCg5Q,1522
