@@ -1,0 +1,7 @@
+oceandb_mongodb_driver/__init__.py,sha256=35BRxot1ouraeIjED8zxCupd8eRW4bOeCVeP9gMiJzM,42
+oceandb_mongodb_driver/instance.py,sha256=L-puY0l6tq7u-GN20P0dsa9sNEwtN6xc_unZ_zFUGPs,960
+oceandb_mongodb_driver/plugin.py,sha256=R_3DUMS9iUz9B3cd-qKmtKmpvyBlGq47T0Wnc4Fqj3s,1627
+oceandb_mongodb_driver-0.1.0.dist-info/METADATA,sha256=dCrmy95jiIFmgymtKkp8BmXMIkOgyJMafTcJjbbZZsI,2997
+oceandb_mongodb_driver-0.1.0.dist-info/RECORD,,
+oceandb_mongodb_driver-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+oceandb_mongodb_driver-0.1.0.dist-info/top_level.txt,sha256=9wPssuf_2egbUSxnA30H60UQM4yaNctHD96lcW6xXyo,23
