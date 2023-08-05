@@ -1,0 +1,8 @@
+graphpipe_tf-1.0.4.data/purelib/graphpipe_tf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphpipe_tf-1.0.4.data/purelib/graphpipe_tf/layers.py,sha256=FJgriUlYaOVrhbDxVW8VbNdL5S4V9Ri3rJO6848uB88,1485
+graphpipe_tf-1.0.4.data/purelib/graphpipe_tf/ops.py,sha256=7f16MrmG63Y9xM2CD24PTye06lPQdWQjgYPXIneD-JQ,1952
+graphpipe_tf-1.0.4.data/purelib/graphpipe_tf/remote_op.so,sha256=3WBBnOsgnmJg--dnlOl9mAaznqLVa5mogM2zBWvdYWA,58024
+graphpipe_tf-1.0.4.dist-info/METADATA,sha256=lfKLxMbjS0i7wprptTUhAZx4YxWTaKvSfLk-YIgAaEs,2169
+graphpipe_tf-1.0.4.dist-info/RECORD,,
+graphpipe_tf-1.0.4.dist-info/WHEEL,sha256=eEBb_wYuJ8YaScToaHvyCcGQ9F1sP5odSdYF2sbCH1A,111
+graphpipe_tf-1.0.4.dist-info/top_level.txt,sha256=q2dhsoiWcCUG6VWZOLUK1KvtB_4TpJ7Yq_aMv_odE7Q,13
