@@ -1,0 +1,3 @@
+dtt2hdf
+matplotlib
+numpy
