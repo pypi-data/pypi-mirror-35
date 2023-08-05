@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+geopandas_postgis/__init__.py
+geopandas_postgis/geopandas_postgis.py
+geopandas_postgis.egg-info/PKG-INFO
+geopandas_postgis.egg-info/SOURCES.txt
+geopandas_postgis.egg-info/dependency_links.txt
+geopandas_postgis.egg-info/requires.txt
+geopandas_postgis.egg-info/top_level.txt
+geopandas_postgis/tests/__init__.py
+geopandas_postgis/tests/config.py
+geopandas_postgis/tests/test_geopandas_postgis.py

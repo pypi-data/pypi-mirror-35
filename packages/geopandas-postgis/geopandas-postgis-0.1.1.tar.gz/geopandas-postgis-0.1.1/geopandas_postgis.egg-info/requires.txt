@@ -1,0 +1,4 @@
+SQLAlchemy
+GeoAlchemy2
+geopandas
+psycopg2
