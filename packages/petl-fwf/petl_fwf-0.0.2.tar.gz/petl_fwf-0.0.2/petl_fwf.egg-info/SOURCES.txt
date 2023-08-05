@@ -1,0 +1,13 @@
+README.md
+setup.py
+./petl_fwf/__init__.py
+./petl_fwf/__pkginfo__.py
+./petl_fwf/fwf_reader.py
+./petl_fwf/skiplast.py
+./petl_fwf/utils.py
+./petl_fwf/test/test_fwf_reader.py
+petl_fwf.egg-info/PKG-INFO
+petl_fwf.egg-info/SOURCES.txt
+petl_fwf.egg-info/dependency_links.txt
+petl_fwf.egg-info/requires.txt
+petl_fwf.egg-info/top_level.txt
