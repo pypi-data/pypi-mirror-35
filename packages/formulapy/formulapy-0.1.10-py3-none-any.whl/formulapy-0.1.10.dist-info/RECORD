@@ -1,0 +1,10 @@
+formulapy/__init__.py,sha256=DTNMO2hReloBQgjM7gAXnL4MSLOvyQ9y1AjoL6irEjM,27
+formulapy/__release_info__.py,sha256=JP5-yR352hLeMOj0NJzSdoTugfEUfySY-aAyaeSAwNw,48
+formulapy/api.py,sha256=rqSsnY1-36kZQ_trwWuPqiYFFmsVb9gPerFLOKyEepQ,4595
+formulapy/cli.py,sha256=iBKeJ0OQJh4HnSL0KvCpzizMEX-bBmY2V1uvxLRhsvc,776
+formulapy/mapping.py,sha256=5cIMWymfTG05icZbP6VMquKRHDnBw5cM9xZ0vuCboR4,64596
+formulapy-0.1.10.dist-info/METADATA,sha256=cH6eUEOVRVYYOczWLjo1y7hix2_tvnQyC2Gg1EwEp4Q,946
+formulapy-0.1.10.dist-info/RECORD,,
+formulapy-0.1.10.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+formulapy-0.1.10.dist-info/entry_points.txt,sha256=2cdRsgjuFWBg6gZXSr3bVeFZuXBFR2kUDuKjz1NVPvg,49
+formulapy-0.1.10.dist-info/top_level.txt,sha256=C_iqs22JxhAW8_upblckkJStu8uZ-Nx8FHDKqmWS3UQ,10
