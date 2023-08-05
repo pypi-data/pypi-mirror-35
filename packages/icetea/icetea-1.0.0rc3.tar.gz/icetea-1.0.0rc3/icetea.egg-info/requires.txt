@@ -1,0 +1,14 @@
+prettytable
+requests
+yattag
+pyserial>2.5
+jsonmerge
+psutil
+mbed-ls==1.*,>=1.4.2
+semver
+mbed-flasher==0.9.*
+six
+pyshark-legacy
+
+[colors]
+coloredlogs
