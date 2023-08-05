@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyexplorer
+Version: 0.1a0
+Summary: Explore python modules interactively.
+Home-page: https://github.com/dexpota/pyexplorer
+Author: Fabrizio Destro
+Author-email: destro.fabrizio@gmail.com
+License: UNKNOWN
+Description: # pyexplorer
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Description-Content-Type: text/markdown

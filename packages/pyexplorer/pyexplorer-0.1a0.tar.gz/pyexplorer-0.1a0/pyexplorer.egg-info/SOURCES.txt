@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyexplorer/__init__.py
+pyexplorer/pyexplorer.py
+pyexplorer.egg-info/PKG-INFO
+pyexplorer.egg-info/SOURCES.txt
+pyexplorer.egg-info/dependency_links.txt
+pyexplorer.egg-info/entry_points.txt
+pyexplorer.egg-info/requires.txt
+pyexplorer.egg-info/top_level.txt
