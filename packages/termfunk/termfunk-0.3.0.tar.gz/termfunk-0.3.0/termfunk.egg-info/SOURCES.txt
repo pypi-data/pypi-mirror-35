@@ -1,0 +1,14 @@
+README.md
+setup.py
+termfunk/__init__.py
+termfunk/bash_complete.py
+termfunk/helpformatter.py
+termfunk/termfunk.py
+termfunk/termfunk_types.py
+termfunk.egg-info/PKG-INFO
+termfunk.egg-info/SOURCES.txt
+termfunk.egg-info/dependency_links.txt
+termfunk.egg-info/namespace_packages.txt
+termfunk.egg-info/not-zip-safe
+termfunk.egg-info/requires.txt
+termfunk.egg-info/top_level.txt

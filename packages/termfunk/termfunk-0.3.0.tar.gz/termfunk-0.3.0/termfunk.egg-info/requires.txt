@@ -1,0 +1,5 @@
+argcomplete
+jinja2
+
+[testing]
+pytest
