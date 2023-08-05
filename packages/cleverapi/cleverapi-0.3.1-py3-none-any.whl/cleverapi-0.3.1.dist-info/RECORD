@@ -1,0 +1,14 @@
+cleverapi/__init__.py,sha256=xKISjL1QrNmf-yAviVAzXYIkEQEVA9UJ3Fp4aVHouns,168
+cleverapi/action.py,sha256=v2zY1jlSBgyqaLGLzNlChSNN3C55vDLI5qq0KoH2t9I,175
+cleverapi/clever_api.py,sha256=rQTlcKcpTSqWgo3X9G-lSh23UhIkMbW4NRAsSTIU8vw,4563
+cleverapi/clever_longpoll.py,sha256=7xE58v1Wg2IW46lMz-m7sN9YgQL44Neh6ZZ55rLSKsY,5254
+cleverapi/connector.py,sha256=eEyK9nf85FVQVO1D_tovC0nA_27XKhBrSig8HSTlPw8,423
+cleverapi/exceptions.py,sha256=hNkR7Upw94x7OEp2BIL78_bAlTD-GGN7D6itynE7k1o,89
+cleverapi/extension/__init__.py,sha256=QnGLZUEAvm-61KYk36FFvRMfSWHoWKCOggcQBCsdOoI,35
+cleverapi/extension/clever_auth.py,sha256=x8jmH01W3rDycmAFgVoc6kFGfx8bMrychOVC4p3-ww4,1830
+cleverapi-0.3.1.dist-info/DESCRIPTION.rst,sha256=vn49BULrUYt7n17Vkj7LbD75GlkqSIn4jcRjrGivcX4,11820
+cleverapi-0.3.1.dist-info/METADATA,sha256=jTue2e4JQcIh3hIDTz45m8xBbnhysE_p3xj_mWvPAbk,12243
+cleverapi-0.3.1.dist-info/RECORD,,
+cleverapi-0.3.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+cleverapi-0.3.1.dist-info/metadata.json,sha256=2uTl20zqk4PjAkQWI7BxVStjb2rLEVL5BxPRn4mcDng,608
+cleverapi-0.3.1.dist-info/top_level.txt,sha256=hly9c0h2u3Tt636D_mD3o9GdAfOPF6q_R555n3V5txc,10
