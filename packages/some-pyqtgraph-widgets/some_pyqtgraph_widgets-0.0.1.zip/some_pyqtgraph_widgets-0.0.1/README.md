@@ -1,0 +1,3 @@
+# PyQtGraph widgets
+
+PyQtGraph Widgets

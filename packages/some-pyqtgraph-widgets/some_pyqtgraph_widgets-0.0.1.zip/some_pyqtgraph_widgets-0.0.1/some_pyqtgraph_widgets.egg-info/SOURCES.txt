@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+some_pyqtgraph_widgets/__init__.py
+some_pyqtgraph_widgets/gl_surface_plot.py
+some_pyqtgraph_widgets/image_widget.py
+some_pyqtgraph_widgets/profile_widget.py
+some_pyqtgraph_widgets.egg-info/PKG-INFO
+some_pyqtgraph_widgets.egg-info/SOURCES.txt
+some_pyqtgraph_widgets.egg-info/dependency_links.txt
+some_pyqtgraph_widgets.egg-info/top_level.txt
