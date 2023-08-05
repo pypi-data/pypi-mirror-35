@@ -1,0 +1,17 @@
+django_markdown_messaging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_markdown_messaging/admin.py,sha256=NLeL-T1u-5Fw_1K1oI2FW1nPqs1VtNpXXfRcLBSMlBc,91
+django_markdown_messaging/apps.py,sha256=vOdeJ8cTIztfryXqOc_nkH69zWFauX_pV74h7zGa9qo,93
+django_markdown_messaging/migrations/0001_initial.py,sha256=wMXLyfW93VmSo7q03C6gDcLTJ6fsHyqk9otNgp0mOOA,765
+django_markdown_messaging/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_markdown_messaging/models.py,sha256=WjrREONnlK_8fIBnL1UQptPvX-MXTAeRZ9xNM5578gs,1289
+django_markdown_messaging/templates/messaging/base.html,sha256=amAHWioprCtmFTO12wHDN4-e9zjXe4E2X4-qa6p5ePs,1052
+django_markdown_messaging/templates/messaging/edit-message.html,sha256=Bnc1-gMSYkNnAdzC-oYBDL98GksIH-heRB7xPBY6Nd0,838
+django_markdown_messaging/templates/messaging/index.html,sha256=oFLStaJl0qRVKvjVj56kcS8OcMXii7glg1_PqHaeKz4,1087
+django_markdown_messaging/templates/messaging/message.html,sha256=31cuJuww-zw805zXxY3RSYnYlEwqRc9pUJPF17-wsmA,506
+django_markdown_messaging/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_markdown_messaging/urls.py,sha256=JlK82NmtmCCgvmSMx4Yw1AT1WpWkkvjoorbO7lJ9HCU,439
+django_markdown_messaging/views.py,sha256=2eTVRZ23_xCnRvh0CSGv_KqJKrG8rosPY9Vyaz5M9RY,4900
+django_markdown_messaging-0.0.1.dist-info/LICENSE,sha256=XOPXjwSRW2qWloT8NSySjJbPHbWPK5A89HhhZT-sG_g,733
+django_markdown_messaging-0.0.1.dist-info/WHEEL,sha256=iHNYzPUVYRtgtTQ6cDC8dDHik6tPtlP28oe-A5gfgbQ,88
+django_markdown_messaging-0.0.1.dist-info/METADATA,sha256=zyGtFoZywz_5CYPKhFyMjHRlDELZ6VsVASp-2aAJXes,2519
+django_markdown_messaging-0.0.1.dist-info/RECORD,,

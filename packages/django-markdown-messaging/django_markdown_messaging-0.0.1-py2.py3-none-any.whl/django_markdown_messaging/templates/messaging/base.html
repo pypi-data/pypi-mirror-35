@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Private messaging</title>
+        <style type="text/css">
+            body {
+                text-align: center;
+            }
+            footer {
+                margin-top: 20px;
+                font-size: 10px;
+            }
+            .alert {
+                border: 1px black solid;
+                display: inline-block;
+                padding: 5px;
+                margin: 10px;
+            }
+            .message {
+                border: 1px solid black;
+                margin: 10px;
+                text-align: left;
+                padding: 5px;
+            }
+            #txt-message {
+                width: 90%;
+                display: block;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            {% block content %}{% endblock %}
+        </div>
+        <footer>
+            Powered by <a href="https://pypi.org/project/django-markdown-messaging/">Aloha</a>
+        </footer>
+    </body>
+</html>
