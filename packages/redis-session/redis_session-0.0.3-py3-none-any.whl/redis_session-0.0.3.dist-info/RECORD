@@ -1,0 +1,8 @@
+redis_session/__init__.py,sha256=gnfavDXXdZjymjBc_doTd9rdqydJX3XhY2I9NA_KF5U,174
+redis_session/model.py,sha256=a0O6Rg86xQ64cPpxgcGROFPVaaTbl2qL8NhEU6tcGzc,2865
+redis_session/session.py,sha256=WxWhAqvGEbA6caSEsGdB1k-e5AvVI-ckwN4p1xhHcbM,3156
+redis_session-0.0.3.dist-info/METADATA,sha256=2UUwzQ0eP0C6XxARupQLq0S5FfcBOqgvyGjJUuPnQVE,4029
+redis_session-0.0.3.dist-info/RECORD,,
+redis_session-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+redis_session-0.0.3.dist-info/top_level.txt,sha256=gJtFSopMvYgfBc7XQVTEu8kY598NrA205TNNaWHYKY4,14
+redis_session-0.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
