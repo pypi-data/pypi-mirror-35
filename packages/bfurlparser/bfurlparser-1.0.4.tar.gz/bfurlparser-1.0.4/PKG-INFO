@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: bfurlparser
+Version: 1.0.4
+Summary: A blazing fast Python URL parser
+Home-page: https://github.com/davidfoliveira/py-bfurlparser
+Author: David Oliveira
+Author-email: d.oliveira@prozone.org
+License: MIT
+Description: py-bfurlparser
+        ==============
+        
+        A blazing fast URL parser for Python
+        
+        How to use ?
+        ------------
+        
+        First: Install it via pip
+        
+        ::
+        
+            pip install bfurlparser
+        
+        Then, use it
+        
+        ::
+        
+            from bfurlparser import urlparse
+            print urlparse('http://pz.org/~david/?arg=val#something')
+        
+        Can I replace Python’s builtin ``urlparse`` module with bfurlparser?
+        --------------------------------------------------------------------
+        
+        Probably not… but it’s really, really fast!
+        
+        Support
+        -------
+        
+        Please raise an issue or send a pull request.
+        
+Keywords: url parser fast
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
