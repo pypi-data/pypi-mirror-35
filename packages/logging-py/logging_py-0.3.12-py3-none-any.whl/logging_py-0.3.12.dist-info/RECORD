@@ -1,0 +1,9 @@
+logging_py-0.3.12.dist-info/METADATA,sha256=0iEIzlfAGauuAj_uqAfGTdLZCUXHtvIntgYtIMg249c,329
+logging_py-0.3.12.dist-info/RECORD,,
+logging_py-0.3.12.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+logging_py-0.3.12.dist-info/top_level.txt,sha256=UoCqek6NxqYd5UDWMyKssS9rIojJSKhwvbpwb5FKKz4,10
+loggingpy/__init__.py,sha256=qV_20kf7Bdps2t0lYQmx13S-5sePeAFabs2-A2CzZRc,108
+loggingpy/exceptions.py,sha256=3cmu1HniyE7vvEII8x3rmbp0K4bZwWFRehbM-SVxE-s,612
+loggingpy/log.py,sha256=Sz8TWhbeGUw8p0a4gMQP-ZJqiBX1B4W11eEN3vfuagA,14546
+loggingpy/sender.py,sha256=BC_0XlApU6hWX1UmJ44THBkfuIIGgchLPmJa7_-Z07Y,6159
+loggingpy/sink.py,sha256=xB5L-1EEZDrgGYBrgl7JxGVOkz64dhOCom9AWiE4VpU,1821
