@@ -1,0 +1,29 @@
+#!/bin/bash
+echo "---------------------------------------------------"
+echo " SUDO -S BEFORE RUN THIS SCRIPT.                   "
+echo " AFTER JOB DONE:                                   "
+echo " - SAVING GENERATED PASSWORDS.                     "
+echo "---------------------------------------------------"
+
+read -n 1 -r -s -p "Are you ready? Press any key to continue..."
+echo "Okay! Let's go ..."
+
+{account_block}
+
+echo  "All variable && generated password stored in './configgenerated' "
+source configgenerated
+
+{script_block}
+
+# > OPSBOT DONE! > RESTARTING SERVICES TO APPLY SETTINGS..."
+
+{final_block}
+
+echo "clear history."
+history -c && history -w
+
+echo "---------------------------------------------------"
+echo " AFTER JOB DONE:                                   "
+echo " - SAVING GENERATED PASSWORDS.                     "
+echo " - DELETE THIS FILE.                               " 
+echo "---------------------------------------------------"
