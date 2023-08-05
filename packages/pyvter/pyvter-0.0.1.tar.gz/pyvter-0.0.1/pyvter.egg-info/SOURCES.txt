@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyvter/__init__.py
+pyvter.egg-info/PKG-INFO
+pyvter.egg-info/SOURCES.txt
+pyvter.egg-info/dependency_links.txt
+pyvter.egg-info/top_level.txt
