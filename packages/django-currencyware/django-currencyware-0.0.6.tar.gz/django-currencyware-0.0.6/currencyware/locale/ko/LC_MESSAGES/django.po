@@ -1,0 +1,304 @@
+# Translation of ISO 4217 (currency names) to Korean
+# Copyright © various authors, see list below.
+# This file is distributed under the same license as the iso-codes package.
+#
+# Sung-Hyun Nam <namsh@lgic.co.kr>, 1998-2000.
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2000-06-29 05:12:16+0900\n"
+"Last-Translator: Sung-Hyun Nam <namsh@kldp.org>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AFN"
+msgstr "아프가니"
+
+msgid "ISO_4217.AMD"
+msgstr "아르메니아 드람"
+
+msgid "ISO_4217.ARS"
+msgstr "아르헨티나 페소"
+
+msgid "ISO_4217.AUD"
+msgstr "호주 달러"
+
+msgid "ISO_4217.AWG"
+msgstr "아루바 길더"
+
+msgid "ISO_4217.AZN"
+msgstr "아제르바이젠 마나트"
+
+msgid "ISO_4217.BBD"
+msgstr "바베이도스 달러"
+
+msgid "ISO_4217.BHD"
+msgstr "바레인 디나르"
+
+msgid "ISO_4217.BIF"
+msgstr "부룬디 프랑"
+
+msgid "ISO_4217.BND"
+msgstr "부루나이 달러"
+
+msgid "ISO_4217.BOB"
+msgstr "볼리비아노"
+
+msgid "ISO_4217.BRL"
+msgstr "브라질 레알"
+
+msgid "ISO_4217.BSD"
+msgstr "바하마 달러"
+
+msgid "ISO_4217.BTN"
+msgstr "부탄 눌투눔"
+
+msgid "ISO_4217.BYR"
+msgstr "라트비아 루블"
+
+msgid "ISO_4217.BZD"
+msgstr "벨리즈 달러"
+
+msgid "ISO_4217.CAD"
+msgstr "캐나다 달러"
+
+msgid "ISO_4217.CDF"
+msgstr "코모르 프랑"
+
+msgid "ISO_4217.CHF"
+msgstr "스위스 프랑달러"
+
+msgid "ISO_4217.CLP"
+msgstr "Cuban peso"
+
+msgid "ISO_4217.CNY"
+msgstr "중국 위안 인민폐"
+
+msgid "ISO_4217.COP"
+msgstr "Cuban peso"
+
+msgid "ISO_4217.CRC"
+msgstr "코스타리카 콜론"
+
+msgid "ISO_4217.CUP"
+msgstr "Cuban peso"
+
+msgid "ISO_4217.DJF"
+msgstr "지부티 프랑"
+
+msgid "ISO_4217.DKK"
+msgstr "덴마크 크로네"
+
+msgid "ISO_4217.DOP"
+msgstr "도미니카 페소"
+
+msgid "ISO_4217.DZD"
+msgstr "알제리 디나르"
+
+msgid "ISO_4217.EGP"
+msgstr "이집트 파운드"
+
+msgid "ISO_4217.ETB"
+msgstr "이디오피아 비르"
+
+msgid "ISO_4217.EUR"
+msgstr "유로화"
+
+msgid "ISO_4217.FJD"
+msgstr "피지 달러"
+
+msgid "ISO_4217.FKP"
+msgstr "케이맨 제도 달러"
+
+msgid "ISO_4217.GIP"
+msgstr "지브롤터 파운드"
+
+msgid "ISO_4217.GNF"
+msgstr "기니 프랑"
+
+msgid "ISO_4217.GYD"
+msgstr "가이아나 달러"
+
+msgid "ISO_4217.HKD"
+msgstr "홍콩 달러"
+
+msgid "ISO_4217.HTG"
+msgstr "하이티 구르드"
+
+msgid "ISO_4217.INR"
+msgstr "인도 루피"
+
+msgid "ISO_4217.IQD"
+msgstr "이라크 디나르"
+
+msgid "ISO_4217.IRR"
+msgstr "이란 리얄"
+
+msgid "ISO_4217.JMD"
+msgstr "자메이카 달러"
+
+msgid "ISO_4217.JOD"
+msgstr "요르단 디나르"
+
+msgid "ISO_4217.KES"
+msgstr "케냐 실링"
+
+msgid "ISO_4217.KMF"
+msgstr "코모르 프랑"
+
+msgid "ISO_4217.KPW"
+msgstr "조선 민주주의 인민 공화국 원"
+
+msgid "ISO_4217.KWD"
+msgstr "쿠웨이트 디나르"
+
+msgid "ISO_4217.KYD"
+msgstr "케이맨 제도 달러"
+
+msgid "ISO_4217.LBP"
+msgstr "레바논 파운드"
+
+msgid "ISO_4217.LKR"
+msgstr "스리랑카 루피"
+
+msgid "ISO_4217.LRD"
+msgstr "라이베리아 달러"
+
+msgid "ISO_4217.LYD"
+msgstr "리비아 디나르"
+
+msgid "ISO_4217.MAD"
+msgstr "모로코 디렘"
+
+msgid "ISO_4217.MDL"
+msgstr "몰도바 레이"
+
+msgid "ISO_4217.MUR"
+msgstr "모리셔스 루피"
+
+msgid "ISO_4217.MWK"
+msgstr "말라위 콰쳐"
+
+msgid "ISO_4217.MXN"
+msgstr "멕시코 페소"
+
+msgid "ISO_4217.MYR"
+msgstr "말레이지아 링기트"
+
+msgid "ISO_4217.NAD"
+msgstr "바하마 달러"
+
+msgid "ISO_4217.NIO"
+msgstr "니카라과 코르도바 오로"
+
+msgid "ISO_4217.NOK"
+msgstr "노르웨이 크로네"
+
+msgid "ISO_4217.NPR"
+msgstr "Seychelles rupee"
+
+msgid "ISO_4217.NZD"
+msgstr "뉴질랜드 달러"
+
+msgid "ISO_4217.PHP"
+msgstr "Cuban peso"
+
+msgid "ISO_4217.PKR"
+msgstr "파키스탄 루피"
+
+msgid "ISO_4217.PYG"
+msgstr "기니 프랑"
+
+msgid "ISO_4217.QAR"
+msgstr "사우디아라비아 리얄"
+
+msgid "ISO_4217.RSD"
+msgstr "알제리 디나르"
+
+msgid "ISO_4217.RUB"
+msgstr "라트비아 루블"
+
+msgid "ISO_4217.SAR"
+msgstr "사우디아라비아 리얄"
+
+msgid "ISO_4217.SBD"
+msgstr "솔로몬 제도 달러"
+
+msgid "ISO_4217.SCR"
+msgstr "Seychelles rupee"
+
+msgid "ISO_4217.SDG"
+msgstr "수단 파운드"
+
+msgid "ISO_4217.SEK"
+msgstr "스웨덴 크로나"
+
+msgid "ISO_4217.SGD"
+msgstr "짐비브웨 달러"
+
+msgid "ISO_4217.SHP"
+msgstr "세인트헬레나 파운드"
+
+msgid "ISO_4217.SOS"
+msgstr "케냐 실링"
+
+msgid "ISO_4217.SRD"
+msgstr "가이아나 달러"
+
+msgid "ISO_4217.SSP"
+msgstr "수단 파운드"
+
+msgid "ISO_4217.SVC"
+msgstr "엘살바도르 콜론"
+
+msgid "ISO_4217.SYP"
+msgstr "시리아 파운드"
+
+msgid "ISO_4217.SZL"
+msgstr "스와질란드 릴랑게니"
+
+msgid "ISO_4217.THB"
+msgstr "태국 바트"
+
+msgid "ISO_4217.TND"
+msgstr "튀니지 디나르"
+
+msgid "ISO_4217.TRY"
+msgstr "터기 리라"
+
+msgid "ISO_4217.TTD"
+msgstr "트리니다드 토바고 달러"
+
+msgid "ISO_4217.TZS"
+msgstr "케냐 실링"
+
+msgid "ISO_4217.UGX"
+msgstr "케냐 실링"
+
+msgid "ISO_4217.USD"
+msgstr "미국 달러"
+
+msgid "ISO_4217.UZS"
+msgstr "우즈베키스탄 숨"
+
+msgid "ISO_4217.XAU"
+msgstr "금"
+
+msgid "ISO_4217.XCD"
+msgstr "호주 달러"
+
+msgid "ISO_4217.YER"
+msgstr "예멘 디나르"
+
+msgid "ISO_4217.ZMW"
+msgstr "말라위 콰쳐"
+
+msgid "ISO_4217.ZWL"
+msgstr "짐비브웨 달러"

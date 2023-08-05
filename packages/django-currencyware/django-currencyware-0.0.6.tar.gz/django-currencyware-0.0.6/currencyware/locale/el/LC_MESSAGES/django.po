@@ -1,0 +1,510 @@
+# Translation of ISO 4217 (currency names) to Greek.
+# Copyright © various authors, see list below.
+# This file is distributed under the same license as the iso-codes package.
+#
+# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 2000.
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+# Konstantinos Margaritis <markos@debian.org>, 2004.
+# Vangelis Skarmoutsos <skarmoutsosv@gmail.com>, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2016-01-25 23:27+0200\n"
+"Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
+"Language-Team: Greek <team@lists.gnome.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "ISO_4217.AED"
+msgstr "ντιρχάμ ΗΑΕ"
+
+msgid "ISO_4217.AFN"
+msgstr "αφγάνι"
+
+msgid "ISO_4217.ALL"
+msgstr "λεκ"
+
+msgid "ISO_4217.AMD"
+msgstr "ντραμ Αρμενίας"
+
+msgid "ISO_4217.ANG"
+msgstr "γκίλντερ Ολλανδικών Αντίλλων"
+
+msgid "ISO_4217.AOA"
+msgstr "κουάνζα"
+
+msgid "ISO_4217.ARS"
+msgstr "πέσο Αργεντινής"
+
+msgid "ISO_4217.AUD"
+msgstr "δολάριο Αυστραλίας"
+
+msgid "ISO_4217.AWG"
+msgstr "γκίλντερ Αρούμπας"
+
+msgid "ISO_4217.AZN"
+msgstr "μανάτ Αζερμπαϊτζάν"
+
+msgid "ISO_4217.BAM"
+msgstr "κονβερτιμπίλνα μάρκα"
+
+msgid "ISO_4217.BBD"
+msgstr "δολάριο Μπαρμπέιντος"
+
+msgid "ISO_4217.BDT"
+msgstr "τάκα"
+
+msgid "ISO_4217.BGN"
+msgstr "λεβ Βουλγαρίας"
+
+msgid "ISO_4217.BHD"
+msgstr "δηνάριο Μπαχρέιν"
+
+msgid "ISO_4217.BIF"
+msgstr "φράγκο Μπουρούντι"
+
+msgid "ISO_4217.BMD"
+msgstr "δολάριο Βερμούδων"
+
+msgid "ISO_4217.BND"
+msgstr "δολάριο Μπρουνέι"
+
+msgid "ISO_4217.BOB"
+msgstr "μπολιβιάνο"
+
+msgid "ISO_4217.BRL"
+msgstr "ρεάλ Βραζιλίας"
+
+msgid "ISO_4217.BSD"
+msgstr "δολάριο Μπαχαμών"
+
+msgid "ISO_4217.BTN"
+msgstr "νγκουλτρουμ"
+
+msgid "ISO_4217.BWP"
+msgstr "πούλα"
+
+msgid "ISO_4217.BYR"
+msgstr "ρούβλι Λευκορωσίας"
+
+msgid "ISO_4217.BZD"
+msgstr "δολάριο Μπελίζ"
+
+msgid "ISO_4217.CAD"
+msgstr "δολάριο Καναδά"
+
+msgid "ISO_4217.CDF"
+msgstr "φράγκο Κονγκό"
+
+msgid "ISO_4217.CHF"
+msgstr "φράγκο Ελβετίας"
+
+msgid "ISO_4217.CLP"
+msgstr "πέσο Χιλής"
+
+msgid "ISO_4217.CNY"
+msgstr "γιουάν ρενμίνμπι"
+
+msgid "ISO_4217.COP"
+msgstr "πέσο Κολομβίας"
+
+msgid "ISO_4217.CRC"
+msgstr "κολόν Κόστα Ρίκας"
+
+msgid "ISO_4217.CUC"
+msgstr "κονβερτιμπίλνα μάρκα"
+
+msgid "ISO_4217.CUP"
+msgstr "πέσο Κούβας"
+
+msgid "ISO_4217.CVE"
+msgstr "εσκούδο Κάπο Βέρντε"
+
+msgid "ISO_4217.CZK"
+msgstr "κορόνα Τσεχίας"
+
+msgid "ISO_4217.DJF"
+msgstr "φράγκο Τζιμπούτι"
+
+msgid "ISO_4217.DKK"
+msgstr "κορόνα Δανίας"
+
+msgid "ISO_4217.DOP"
+msgstr "πέσο Δομηνίκου"
+
+msgid "ISO_4217.DZD"
+msgstr "δηνάριο Αλγερίας"
+
+msgid "ISO_4217.EGP"
+msgstr "λίρα Αιγύπτου"
+
+msgid "ISO_4217.ERN"
+msgstr "νάφκα"
+
+msgid "ISO_4217.ETB"
+msgstr "μπιρ Αιθιοπίας"
+
+msgid "ISO_4217.EUR"
+msgstr "ευρώ"
+
+msgid "ISO_4217.FJD"
+msgstr "δολάριο Φίτζι"
+
+msgid "ISO_4217.FKP"
+msgstr "λίρα Νήσων Φάλκλαντ"
+
+msgid "ISO_4217.GBP"
+msgstr "λίρα στερλίνα"
+
+msgid "ISO_4217.GEL"
+msgstr "λάρι"
+
+msgid "ISO_4217.GHS"
+msgstr "σέντι Γκάνας"
+
+msgid "ISO_4217.GIP"
+msgstr "λίρα Γιβραλτάρ"
+
+msgid "ISO_4217.GMD"
+msgstr "νταλάσι"
+
+msgid "ISO_4217.GNF"
+msgstr "φράγκο Γουινέας"
+
+msgid "ISO_4217.GTQ"
+msgstr "κετσάλ"
+
+msgid "ISO_4217.GYD"
+msgstr "δολάριο Γουιάνας"
+
+msgid "ISO_4217.HKD"
+msgstr "δολάριο Χονγκ Κονγκ"
+
+msgid "ISO_4217.HNL"
+msgstr "λεμπίρα"
+
+msgid "ISO_4217.HTG"
+msgstr "γκουρντ"
+
+msgid "ISO_4217.HUF"
+msgstr "φορίντ"
+
+msgid "ISO_4217.IDR"
+msgstr "ρουπία"
+
+msgid "ISO_4217.ILS"
+msgstr "νέο σεκέλ Ισραήλ"
+
+msgid "ISO_4217.INR"
+msgstr "ρουπία Ινδίας"
+
+msgid "ISO_4217.IQD"
+msgstr "δηνάριο Ιράκ"
+
+msgid "ISO_4217.IRR"
+msgstr "ριάλ Ιράν"
+
+msgid "ISO_4217.ISK"
+msgstr "κορόνα Ισλανδίας"
+
+msgid "ISO_4217.JMD"
+msgstr "δολάριο Τζαμάικα"
+
+msgid "ISO_4217.JOD"
+msgstr "δηνάριο Ιορδανίας"
+
+msgid "ISO_4217.JPY"
+msgstr "γιεν"
+
+msgid "ISO_4217.KES"
+msgstr "σελίνι Κένυας"
+
+msgid "ISO_4217.KGS"
+msgstr "σομ"
+
+msgid "ISO_4217.KHR"
+msgstr "ριέλ"
+
+msgid "ISO_4217.KMF"
+msgstr "φράγκο Κόμορο"
+
+msgid "ISO_4217.KPW"
+msgstr "γουόν Βόρειας Κορέας"
+
+msgid "ISO_4217.KRW"
+msgstr "γουόν"
+
+msgid "ISO_4217.KWD"
+msgstr "δηνάριο Κουβέιτ"
+
+msgid "ISO_4217.KYD"
+msgstr "δολάριο Νήσων Κέυμαν"
+
+msgid "ISO_4217.KZT"
+msgstr "τένγκε"
+
+msgid "ISO_4217.LAK"
+msgstr "κιπ"
+
+msgid "ISO_4217.LBP"
+msgstr "λίρα Λιβάνου"
+
+msgid "ISO_4217.LKR"
+msgstr "ρουπία Σρι Λάνκα"
+
+msgid "ISO_4217.LRD"
+msgstr "δολάριο Λιβερίας"
+
+msgid "ISO_4217.LSL"
+msgstr "λότι"
+
+msgid "ISO_4217.LYD"
+msgstr "δηνάριο Λιβύης"
+
+msgid "ISO_4217.MAD"
+msgstr "ντιρχάμ Μαρόκου"
+
+msgid "ISO_4217.MDL"
+msgstr "λέου Μολδαβίας"
+
+msgid "ISO_4217.MGA"
+msgstr "αριάρι Μαδαγασκάρης"
+
+msgid "ISO_4217.MKD"
+msgstr "δηνάριο"
+
+msgid "ISO_4217.MMK"
+msgstr "κιάτ"
+
+msgid "ISO_4217.MNT"
+msgstr "τουγκρίκ"
+
+msgid "ISO_4217.MOP"
+msgstr "πατάκα"
+
+msgid "ISO_4217.MRO"
+msgstr "ουγκίγια"
+
+msgid "ISO_4217.MUR"
+msgstr "ρουπία Μαυριτανίας"
+
+msgid "ISO_4217.MVR"
+msgstr "ρουφίγια"
+
+msgid "ISO_4217.MWK"
+msgstr "κουάτσα Ζάμπιας"
+
+msgid "ISO_4217.MXN"
+msgstr "πέσο Μεξικού"
+
+msgid "ISO_4217.MYR"
+msgstr "ρινγκίτ Μαλαισίας"
+
+msgid "ISO_4217.NAD"
+msgstr "δολάριο Λιβερίας"
+
+msgid "ISO_4217.NGN"
+msgstr "νάιρα"
+
+msgid "ISO_4217.NIO"
+msgstr "κόρδοβα όρο"
+
+msgid "ISO_4217.NOK"
+msgstr "κορόνα Νορβηγίας"
+
+msgid "ISO_4217.NPR"
+msgstr "ρουπία Νεπάλ"
+
+msgid "ISO_4217.NZD"
+msgstr "δολάριο Νέας Ζηλανδίας"
+
+msgid "ISO_4217.OMR"
+msgstr "ριάλ Ομάν"
+
+msgid "ISO_4217.PAB"
+msgstr "μπαλμπόα"
+
+msgid "ISO_4217.PEN"
+msgstr "σομ"
+
+msgid "ISO_4217.PGK"
+msgstr "κίνα"
+
+msgid "ISO_4217.PHP"
+msgstr "πέσο Φιλιππίνων"
+
+msgid "ISO_4217.PKR"
+msgstr "ρουπία Πακιστάν"
+
+msgid "ISO_4217.PLN"
+msgstr "ζλότι"
+
+msgid "ISO_4217.PYG"
+msgstr "γκουαρανί"
+
+msgid "ISO_4217.QAR"
+msgstr "ριάλ Κατάρ"
+
+msgid "ISO_4217.RSD"
+msgstr "δηνάριο Σερβίας"
+
+msgid "ISO_4217.RUB"
+msgstr "ρούβλι Ρωσίας"
+
+msgid "ISO_4217.RWF"
+msgstr "φράγκο Ρουάντας"
+
+msgid "ISO_4217.SAR"
+msgstr "ριάλ Σαουδικής Αραβίας"
+
+msgid "ISO_4217.SBD"
+msgstr "δολάριο Νήσων Σολομώντα"
+
+msgid "ISO_4217.SCR"
+msgstr "ρούπια Σεϋχέλλων"
+
+msgid "ISO_4217.SDG"
+msgstr "λίρα Σουδάν"
+
+msgid "ISO_4217.SEK"
+msgstr "κορόνα Σουηδίας"
+
+msgid "ISO_4217.SGD"
+msgstr "δολάριο Σιγκαπούρης"
+
+msgid "ISO_4217.SHP"
+msgstr "λίρα Αγίας Ελένης"
+
+msgid "ISO_4217.SLL"
+msgstr "λεόνε"
+
+msgid "ISO_4217.SOS"
+msgstr "σελίνι Σομαλίας"
+
+msgid "ISO_4217.SRD"
+msgstr "δολάριο Σουρινάμ"
+
+msgid "ISO_4217.SSP"
+msgstr "λίρα Σουδάν"
+
+msgid "ISO_4217.STD"
+msgstr "ντόμπρα"
+
+msgid "ISO_4217.SVC"
+msgstr "κολόν Ελ Σαλβαδόρ"
+
+msgid "ISO_4217.SYP"
+msgstr "λίρα Συρίας"
+
+msgid "ISO_4217.SZL"
+msgstr "Λιλανγκένι"
+
+msgid "ISO_4217.THB"
+msgstr "μπατ"
+
+msgid "ISO_4217.TJS"
+msgstr "σομόνι"
+
+msgid "ISO_4217.TND"
+msgstr "δηνάριο Τυνησίας"
+
+msgid "ISO_4217.TOP"
+msgstr "παάνγκα"
+
+msgid "ISO_4217.TRY"
+msgstr "νέα λίρα Τουρκίας"
+
+msgid "ISO_4217.TTD"
+msgstr "δολάριο Τρινιδάδ και Τομπάγκο"
+
+msgid "ISO_4217.TWD"
+msgstr "νέο δολάριο Ταϊβάν"
+
+msgid "ISO_4217.TZS"
+msgstr "σελίνι Τανζανίας"
+
+msgid "ISO_4217.UAH"
+msgstr "χρένια"
+
+msgid "ISO_4217.UGX"
+msgstr "σελίνι Ουγκάντας"
+
+msgid "ISO_4217.USD"
+msgstr "δολάριο ΗΠΑ"
+
+msgid "ISO_4217.UYU"
+msgstr "πέσο Ουρουγουάης"
+
+msgid "ISO_4217.UZS"
+msgstr "σομ Ουζμπεκιστάν"
+
+msgid "ISO_4217.VND"
+msgstr "ντονγκ"
+
+msgid "ISO_4217.VUV"
+msgstr "βάτου"
+
+msgid "ISO_4217.WST"
+msgstr "τάλα"
+
+msgid "ISO_4217.XAF"
+msgstr "φράγκο CFA BEAK"
+
+msgid "ISO_4217.XAG"
+msgstr "άργυρος"
+
+msgid "ISO_4217.XAU"
+msgstr "χρυσός"
+
+msgid "ISO_4217.XBA"
+msgstr "Ευρωπαϊκή σύνθετη μονάδα (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "Ευρωπαϊκή λογιστική μονάδα (E.M.U.-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Ευρωπαϊκή λογιστική μονάδα 9 (E.M.U.-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Ευρωπαϊκή λογιστική μονάδα 17 (E.M.U.-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "δολάριο Ανατολικής Καραϊβικής"
+
+msgid "ISO_4217.XDR"
+msgstr "Ειδικά δικαιώματα drawing"
+
+msgid "ISO_4217.XOF"
+msgstr "φράγκο CFA BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "παλλάδιο"
+
+msgid "ISO_4217.XPF"
+msgstr "φράγκο CFP"
+
+msgid "ISO_4217.XPT"
+msgstr "λευκόχρυσος"
+
+msgid "ISO_4217.XTS"
+msgstr "Κωδικός που χρησιμοποιείται σε δοκιμές"
+
+msgid "ISO_4217.YER"
+msgstr "ριάλ Υεμένης"
+
+msgid "ISO_4217.ZAR"
+msgstr "ραντ"
+
+msgid "ISO_4217.ZMW"
+msgstr "κουάτσα Ζάμπιας"
+
+msgid "ISO_4217.ZWL"
+msgstr "δολάριο Ζιμπάμπουε"
