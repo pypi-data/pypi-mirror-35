@@ -1,0 +1,3 @@
+[console_scripts]
+dokuwiki-fuse = dokuwiki_fuse:main
+
