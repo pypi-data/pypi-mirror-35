@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: stable_baselines
+Version: 1.0.1
+Summary: A fork of OpenAI Baselines, implementations of reinforcement learning algorithms.
+Home-page: https://github.com/openai/stable_baselines
+Author: Ashley Hill
+Author-email: ashley.hill@u-psud.fr
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
