@@ -1,0 +1,3 @@
+include README.rst
+include micral_classify_core/version.txt
+include micral_classify_core/CrystNet1.2.hdf5
