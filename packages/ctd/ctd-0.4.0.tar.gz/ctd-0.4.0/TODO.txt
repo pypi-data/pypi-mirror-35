@@ -1,0 +1,3 @@
+bins = range(0, max(int(depth)))
+binned = pd.cut(cast.index, bins)
+cast.groupby(binned).size().plot(kind='bar')
