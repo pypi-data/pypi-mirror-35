@@ -1,0 +1,8 @@
+lxml
+pyshp
+numpy
+pycollada>=0.6
+networkx
+scikit-learn
+pymf
+matplotlib
