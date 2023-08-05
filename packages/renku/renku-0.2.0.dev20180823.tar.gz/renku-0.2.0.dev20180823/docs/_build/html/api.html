@@ -1,0 +1,307 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Low-level API &#8212; Renku 0.2.0rc1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Contributing" href="contributing.html" />
+    <link rel="prev" title="Tools and Workflows" href="cwl.html" />
+  
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,300italic,400italic" rel="stylesheet" type="text/css">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  </head><body>
+  <div class="git-ribbon">
+    <a href="http://github.com/SwissDataScienceCenter" rel="me">Join us on GitHub</a>
+  </div>
+  
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="low-level-api">
+<h1>Low-level API<a class="headerlink" href="#low-level-api" title="Permalink to this headline">¶</a></h1>
+<p>This API is built on top of REST API endpoints exposed by Renku services.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Renku services are currently in <strong>beta preview</strong> status and they are
+subject to change in forseenable future.</p>
+</div>
+<span class="target" id="module-renku.api"></span><p>HTTP clients for Renku platform.</p>
+<dl class="class">
+<dt id="renku.api.LocalClient">
+<em class="property">class </em><code class="descclassname">renku.api.</code><code class="descname">LocalClient</code><span class="sig-paren">(</span><em>path=NOTHING</em>, <em>renku_home='.renku'</em>, <em>datadir='data'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/client.html#LocalClient"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.LocalClient" title="Permalink to this definition">¶</a></dt>
+<dd><p>A low-level client for communicating with a local Renku repository.</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">renku</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">client</span> <span class="o">=</span> <span class="n">renku</span><span class="o">.</span><span class="n">LocalClient</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<div class="section" id="module-renku.api.datasets">
+<span id="datasets"></span><h2>Datasets<a class="headerlink" href="#module-renku.api.datasets" title="Permalink to this headline">¶</a></h2>
+<p>Client for handling datasets.</p>
+<dl class="class">
+<dt id="renku.api.datasets.DatasetsApiMixin">
+<em class="property">class </em><code class="descclassname">renku.api.datasets.</code><code class="descname">DatasetsApiMixin</code><span class="sig-paren">(</span><em>datadir='data'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/datasets.html#DatasetsApiMixin"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.datasets.DatasetsApiMixin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Client for handling datasets.</p>
+<dl class="method">
+<dt id="renku.api.datasets.DatasetsApiMixin.add_data_to_dataset">
+<code class="descname">add_data_to_dataset</code><span class="sig-paren">(</span><em>dataset</em>, <em>url</em>, <em>git=False</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/datasets.html#DatasetsApiMixin.add_data_to_dataset"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.datasets.DatasetsApiMixin.add_data_to_dataset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Import the data into the data directory.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="renku.api.datasets.DatasetsApiMixin.datadir">
+<code class="descname">datadir</code><em class="property"> = None</em><a class="headerlink" href="#renku.api.datasets.DatasetsApiMixin.datadir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Define a name of the folder for storing datasets.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="renku.api.datasets.DatasetsApiMixin.with_dataset">
+<code class="descname">with_dataset</code><span class="sig-paren">(</span><em>name=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/datasets.html#DatasetsApiMixin.with_dataset"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.datasets.DatasetsApiMixin.with_dataset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Yield an editable metadata object for a dataset.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="renku.api.datasets.check_for_git_repo">
+<code class="descclassname">renku.api.datasets.</code><code class="descname">check_for_git_repo</code><span class="sig-paren">(</span><em>url</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/datasets.html#check_for_git_repo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.datasets.check_for_git_repo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if a url points to a git repository.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-renku.api.repository">
+<span id="repository"></span><h2>Repository<a class="headerlink" href="#module-renku.api.repository" title="Permalink to this headline">¶</a></h2>
+<p>Client for handling a local repository.</p>
+<dl class="class">
+<dt id="renku.api.repository.PathMixin">
+<em class="property">class </em><code class="descclassname">renku.api.repository.</code><code class="descname">PathMixin</code><span class="sig-paren">(</span><em>path=NOTHING</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/repository.html#PathMixin"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.repository.PathMixin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Define a default path attribute.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="renku.api.repository.RepositoryApiMixin">
+<em class="property">class </em><code class="descclassname">renku.api.repository.</code><code class="descname">RepositoryApiMixin</code><span class="sig-paren">(</span><em>renku_home='.renku'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/repository.html#RepositoryApiMixin"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Client for handling a local repository.</p>
+<dl class="attribute">
+<dt id="renku.api.repository.RepositoryApiMixin.LOCK_SUFFIX">
+<code class="descname">LOCK_SUFFIX</code><em class="property"> = '.lock'</em><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.LOCK_SUFFIX" title="Permalink to this definition">¶</a></dt>
+<dd><p>Default suffix for Renku lock file.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="renku.api.repository.RepositoryApiMixin.METADATA">
+<code class="descname">METADATA</code><em class="property"> = 'metadata.yml'</em><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.METADATA" title="Permalink to this definition">¶</a></dt>
+<dd><p>Default name of Renku config file.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="renku.api.repository.RepositoryApiMixin.WORKFLOW">
+<code class="descname">WORKFLOW</code><em class="property"> = 'workflow'</em><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.WORKFLOW" title="Permalink to this definition">¶</a></dt>
+<dd><p>Directory for storing workflow in Renku.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="renku.api.repository.RepositoryApiMixin.cwl_prefix">
+<code class="descname">cwl_prefix</code><a class="reference internal" href="_modules/renku/api/repository.html#RepositoryApiMixin.cwl_prefix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.cwl_prefix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a CWL prefix.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="renku.api.repository.RepositoryApiMixin.find_previous_commit">
+<code class="descname">find_previous_commit</code><span class="sig-paren">(</span><em>paths</em>, <em>revision='HEAD'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/repository.html#RepositoryApiMixin.find_previous_commit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.find_previous_commit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a previous commit for a given path.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="renku.api.repository.RepositoryApiMixin.git">
+<code class="descname">git</code><em class="property"> = None</em><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.git" title="Permalink to this definition">¶</a></dt>
+<dd><p>Store an instance of the Git repository.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="renku.api.repository.RepositoryApiMixin.init_external_storage">
+<code class="descname">init_external_storage</code><span class="sig-paren">(</span><em>force=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/repository.html#RepositoryApiMixin.init_external_storage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.init_external_storage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize the external storage for data.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="renku.api.repository.RepositoryApiMixin.init_repository">
+<code class="descname">init_repository</code><span class="sig-paren">(</span><em>name=None</em>, <em>force=False</em>, <em>use_external_storage=True</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/repository.html#RepositoryApiMixin.init_repository"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.init_repository" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize a local Renku repository.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="renku.api.repository.RepositoryApiMixin.is_cwl">
+<code class="descname">is_cwl</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/repository.html#RepositoryApiMixin.is_cwl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.is_cwl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if the path is a valid CWL file.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="renku.api.repository.RepositoryApiMixin.lock">
+<code class="descname">lock</code><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.lock" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a Renku config lock.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="renku.api.repository.RepositoryApiMixin.renku_home">
+<code class="descname">renku_home</code><em class="property"> = None</em><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.renku_home" title="Permalink to this definition">¶</a></dt>
+<dd><p>Define a name of the Renku folder (default: <code class="docutils literal notranslate"><span class="pre">.renku</span></code>).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="renku.api.repository.RepositoryApiMixin.renku_metadata_path">
+<code class="descname">renku_metadata_path</code><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.renku_metadata_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a <code class="docutils literal notranslate"><span class="pre">Path</span></code> instance of Renku metadata file.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="renku.api.repository.RepositoryApiMixin.renku_path">
+<code class="descname">renku_path</code><em class="property"> = None</em><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.renku_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Store a <code class="docutils literal notranslate"><span class="pre">Path</span></code> instance of the Renku folder.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="renku.api.repository.RepositoryApiMixin.track_paths_in_storage">
+<code class="descname">track_paths_in_storage</code><span class="sig-paren">(</span><em>*paths</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/repository.html#RepositoryApiMixin.track_paths_in_storage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.track_paths_in_storage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Track paths in the external storage.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="renku.api.repository.RepositoryApiMixin.with_metadata">
+<code class="descname">with_metadata</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/repository.html#RepositoryApiMixin.with_metadata"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.with_metadata" title="Permalink to this definition">¶</a></dt>
+<dd><p>Yield an editable metadata object.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="renku.api.repository.RepositoryApiMixin.with_workflow_storage">
+<code class="descname">with_workflow_storage</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/renku/api/repository.html#RepositoryApiMixin.with_workflow_storage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.with_workflow_storage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Yield a workflow storage.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="renku.api.repository.RepositoryApiMixin.workflow_path">
+<code class="descname">workflow_path</code><a class="headerlink" href="#renku.api.repository.RepositoryApiMixin.workflow_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a <code class="docutils literal notranslate"><span class="pre">Path</span></code> instance of the workflow folder.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo">
+  <a href="index.html">
+    <h1 class="logo logo-name">
+      Renku
+      <span class="renku">連句</span>
+    </h1>
+  </a>
+</p>
+
+
+<p class="blurb">Python API and CLI for the Renku platform.</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="cli.html">Renku Command Line</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datasets.html">Datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cwl.html">Tools and Workflows</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Low-level API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-renku.api.datasets">Datasets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-renku.api.repository">Repository</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changes.html">Changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Authors</a></li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="https://github.com/SwissDataScienceCenter/renku-python">renku-python@GitHub</a></li>
+    
+    <li class="toctree-l1"><a href="https://pypi.python.org/pypi/renku/">renku-python@PyPI</a></li>
+    
+    <li class="toctree-l1"><a href="https://github.com/SwissDataScienceCenter/renku">renku@GitHub</a></li>
+    
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="cwl.html" title="previous chapter">Tools and Workflows</a></li>
+      <li>Next: <a href="contributing.html" title="next chapter">Contributing</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Swiss Data Science Center.
+      
+      |
+      <a href="_sources/api.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
