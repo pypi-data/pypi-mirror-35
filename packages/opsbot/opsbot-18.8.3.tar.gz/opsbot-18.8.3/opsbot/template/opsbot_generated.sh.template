@@ -1,0 +1,14 @@
+echo "-----------------------------------------"
+echo " SUDO -S BEFORE RUN THIS SCRIPT.         "
+echo " AFTER JOB DONE:                         "
+echo " - SAVING GENERATED PASSWORDS.               "
+echo " - DELETE THIS FILE                      " 
+echo "-----------------------------------------"
+
+{account_block}
+
+read -n 1 -s -r -p "Press any key to continue\n"
+
+{script_block}
+
+
