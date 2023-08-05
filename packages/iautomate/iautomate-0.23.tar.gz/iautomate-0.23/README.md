@@ -1,0 +1,2 @@
+[![Build Status](https://travis-ci.org/iranianpep/iautomate.svg?branch=master)](https://travis-ci.org/iranianpep/iautomate)
+[![codecov](https://codecov.io/gh/iranianpep/iautomate/branch/master/graph/badge.svg)](https://codecov.io/gh/iranianpep/iautomate)
