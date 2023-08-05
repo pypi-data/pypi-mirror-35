@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: vac2fost
+Version: 1.2.1
+Summary: Interface from AMRVAC data format to MCFOST .fits format.
+Home-page: https://gitlab.oca.eu/crobert/vac2fost-project
+Author: Clément Robert
+Author-email: clement.robert@oca.eu
+License: GNU
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: interface data-analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6

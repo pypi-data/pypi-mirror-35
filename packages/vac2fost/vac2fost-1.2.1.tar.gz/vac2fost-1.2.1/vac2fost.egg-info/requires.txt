@@ -1,0 +1,4 @@
+numpy>=1.13.3
+astropy>=3.0.4f90nml>=1.0.2
+amrvac-pywrap>=0.0.6
+vtk_vacreader>=1.0.0

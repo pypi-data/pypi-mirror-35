@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+tests/sample/vac2fost_conf.nml
+vac2fost/__init__.py
+vac2fost/vac2fost.py
+vac2fost.egg-info/PKG-INFO
+vac2fost.egg-info/SOURCES.txt
+vac2fost.egg-info/dependency_links.txt
+vac2fost.egg-info/requires.txt
+vac2fost.egg-info/top_level.txt
+vac2fost/data/default_mcfost_conf.para
