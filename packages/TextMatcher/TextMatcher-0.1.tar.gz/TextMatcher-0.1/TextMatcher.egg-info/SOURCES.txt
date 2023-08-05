@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+TextMatcher.egg-info/PKG-INFO
+TextMatcher.egg-info/SOURCES.txt
+TextMatcher.egg-info/dependency_links.txt
+TextMatcher.egg-info/not-zip-safe
+TextMatcher.egg-info/requires.txt
+TextMatcher.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_pdf_match.py
+tests/test_webpage_match.py
+textmatcher/__init__.py
+textmatcher/program.py
