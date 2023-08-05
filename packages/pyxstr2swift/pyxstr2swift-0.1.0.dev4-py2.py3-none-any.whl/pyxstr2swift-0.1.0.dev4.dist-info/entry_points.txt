@@ -1,0 +1,3 @@
+[console_scripts]
+xstr2swift = main.__main__:main
+
