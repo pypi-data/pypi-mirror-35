@@ -1,0 +1,11 @@
+pydotfiles/__init__.py,sha256=detJMMZPtOp40wOcwKwITokoWkcaA0dOaekwdGOJ49s,48
+pydotfiles/setup.py,sha256=ByYOPnqSWqqcymzbnOf2_8rxUCEJUON6QsAzKDJw1x4,589
+pydotfiles/core/__init__.py,sha256=fLXJ7aDxeCl5RQeRvOBqYUQ6l1lWCJO27Ba2Wzhf0bA,29
+pydotfiles/core/pydotfiles.py,sha256=HkwEopb_l8tWJg4JZlGfrB1xLcRkglXtzC_rQbaXtRM,4947
+pydotfiles/utils/__init__.py,sha256=alIDGBnxWH4JvP-UW-7N99seBBi0r1GV1h8f1ERFBec,21
+pydotfiles/utils/utils.py,sha256=2Gy21gRXQZJ0eiaRoVcX-FSf7H_Jz7oCWMLkU40fq08,2237
+pydotfiles-0.0.0.dist-info/METADATA,sha256=V09gp7rk0zZdu1PG2In4D8kHdo937K7ZE4WaNKfLBrs,4240
+pydotfiles-0.0.0.dist-info/RECORD,,
+pydotfiles-0.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pydotfiles-0.0.0.dist-info/top_level.txt,sha256=Eok_CCuCzbnXLFgHUD-Yjgsi15eXy9kl2gzO2LLHgZA,11
+pydotfiles-0.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
