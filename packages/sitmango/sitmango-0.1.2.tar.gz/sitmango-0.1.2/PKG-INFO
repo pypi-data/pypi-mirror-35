@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: sitmango
+Version: 0.1.2
+Summary: Simple deployment for Flask micro web service
+Home-page: https://github.com/Jinsung-L/sit/
+Author: Jinsung Lim
+Author-email: js99028@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
