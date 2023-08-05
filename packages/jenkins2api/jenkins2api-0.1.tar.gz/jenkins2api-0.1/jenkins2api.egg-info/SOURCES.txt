@@ -1,0 +1,7 @@
+setup.py
+jenkins2api/__init__.py
+jenkins2api.egg-info/PKG-INFO
+jenkins2api.egg-info/SOURCES.txt
+jenkins2api.egg-info/dependency_links.txt
+jenkins2api.egg-info/not-zip-safe
+jenkins2api.egg-info/top_level.txt
