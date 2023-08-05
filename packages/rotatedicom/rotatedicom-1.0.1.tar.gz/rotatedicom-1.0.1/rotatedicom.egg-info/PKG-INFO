@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: rotatedicom
+Version: 1.0.1
+Summary: It will rotate image by a specific angle provided by user
+Home-page: UNKNOWN
+Author: Dibya Raj Ghosh
+Author-email: dibyaraj11@gmail.com
+Maintainer: Dibya
+Maintainer-email: dibyaraj11@gmail.com
+License: MIT
+Description: 
+            Input-Dicom image
+            Output-Dicom image
+            It will rotate image by a specific angle provided by user
+            This function will accept 3 mandatory parameter- source folder, destination folder, 
+            rotation-angle(positive  value means -anticlowise and negative value means clockwise rotation)
+        
+            
+Platform: UNKNOWN
