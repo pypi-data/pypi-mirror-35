@@ -1,0 +1,17 @@
+-e .
+pytest
+pytest-cov
+pytest-timeout<1.3
+pytest-xdist
+scikit-learn
+sphinx
+recommonmark
+distributed
+matplotlib
+seaborn
+joblib
+twine
+sphinx-readable-theme
+docutils <0.13.1
+networkx
+codecov
