@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "od-client"
+version = "0.1.0"
+description = "Python client for Oxford Dictionaries API"
+readme = "README.rst"
+authors = ["Oleksii <_@apologist.io>"]
+homepage = "https://github.com/apologist/oxford-dictionaries-client"
+repository = "https://github.com/apologist/oxford-dictionaries-client"
+documentation = "https://od-client.readthedocs.io/en/latest/"
+keywords = ["translation", "api-client", "http-client", "oxford-dictionaries"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Version Control :: Git"
+]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-cov = "*"
+tox = "*"
+flake8 = "*"
+
+[tool.black]
+line-length = 100
+py36 = true
