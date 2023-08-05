@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+dependencies.sh
+setup.py
+external/patchelf-0.9.tar.gz
+pyapron/__init__.py
+pyapron/apron_util.c
+pyapron/core.py
+pyapron/lib.py
+pyapron/polyhedron.py
+pyapron.egg-info/PKG-INFO
+pyapron.egg-info/SOURCES.txt
+pyapron.egg-info/dependency_links.txt
+pyapron.egg-info/top_level.txt
+tests/test_core.py
+tests/test_polyhedron.py
