@@ -1,0 +1,15 @@
+requests
+rdflib
+html5lib
+
+[dev]
+bumpversion
+black
+
+[test]
+pytest>=3.5
+coverage
+coveralls
+pytest-cov
+pytest-mypy
+pytest-flake8
