@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: pyxstr2swift
+Version: 0.1.0.dev6
+Summary: Python package for a xcode strings file to a swift localized string file
+Home-page: https://github.com/ocworld/pyxstr2swift
+Author: Keunhyun Oh
+Author-email: ocworld@gmail.com
+License: MIT License
+
+Copyright (c) 2018 Keunhyun Oh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Project-URL: Bug Reports, https://github.com/ocworld/pyxstr2swift/issues
+Project-URL: Source, https://github.com/ocworld/pyxstr2swift
+Description: # pyxstr2swift
+        Python package for a Xcode strings file to a swift localized string file
+        
+        For example,
+        ```swift
+        import Foundation
+        
+        struct Localized {
+          static let edit = "edit".localized // edit
+        }
+        
+        ```
+        
+        It is available in python2.7 and python3
+        
+        ```console
+        foo@bar:~$ pip install -U pyxstr2swift
+        ```
+        
+        ```console
+        foo@bar:~$ xstr2swift [-f] [-m] [source_path] [target_path] [struct_name]
+        foo@bar:~$ python -m pyxstr2swift.pyxstr2swift [-f] [-m] [source_path] [target_path] [struct_name]
+        ```
+        
+        For using it, you should import a string extension library or write it.
+        Below the library help you to use it easily.
+        https://github.com/ocworld/OHSwiftLocalizedString
+        
+        
+        To use it in Xcode build pharses,
+        1. Install this module using python PIP.
+        2. Add a output swift file to your project
+        3. Add a strings file to your project and write string keys and values
+        4. Add Run Script to build pharses before Compile Sources
+        5. Change Shell /bin/sh to /bin/bash (or /bin/zsh)
+        6. Write shell command.
+        For example,
+        xstr2swift -f -m "${SRCROOT}/Your project/en.lproj/Localized.strings" "${SRCROOT}/Your project/Localized.swift" "Localized"
+        7. That' all! You run build now!
+        
+        
+Platform: any
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Environment :: MacOS X
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
