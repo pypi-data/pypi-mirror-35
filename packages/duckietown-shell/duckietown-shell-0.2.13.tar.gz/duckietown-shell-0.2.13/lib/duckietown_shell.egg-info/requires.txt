@@ -1,0 +1,7 @@
+GitPython
+texttable
+base58
+ecdsa
+python-dateutil
+SystemCmd
+PyContracts
