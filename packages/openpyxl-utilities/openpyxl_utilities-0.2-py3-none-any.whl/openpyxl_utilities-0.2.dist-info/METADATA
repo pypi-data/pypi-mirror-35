@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: openpyxl-utilities
+Version: 0.2
+Summary: Library of functions with utilities for the popular xlsx Python module openpyxl
+Home-page: https://github.com/SebastianMCarreira/openpyxl_utils
+Author: Sebastian Matias Carreira
+Author-email: sebastian.m.carreira@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Openpyxl_utilities
+
+This project consists of a library with functionalities to work with the popular module openpyxl (mainly used to read and write xlsx and xls files from Python) more efficiently. It was kickstarted when I found out openpyxl package does not includes sorting fucntionalities to create xlsx files already sorted (the only option available was to set a sorting button to sort the rows inside Microsoft Excel, not creating the file already sorted).
+
+### Prerequisites
+
+This script is written in Python 3.6 using the following non-standard modules:
+* [terminalsize](https://github.com/relayr/python-sdk/blob/master/relayr/utils/terminalsize.py)
+* [openpyxl](https://github.com/chronossc/openpyxl)
+
+### 
+
