@@ -1,0 +1,11 @@
+README.md
+setup.py
+personalnames/__init__.py
+personalnames/names.py
+personalnames/titles.py
+personalnames.egg-info/PKG-INFO
+personalnames.egg-info/SOURCES.txt
+personalnames.egg-info/dependency_links.txt
+personalnames.egg-info/top_level.txt
+tests/__init__.py
+tests/test_names.py
