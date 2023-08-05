@@ -1,0 +1,12 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+om_transliterator/Transliterator.py
+om_transliterator/__init__.py
+om_transliterator/charmap.py
+om_transliterator.egg-info/PKG-INFO
+om_transliterator.egg-info/SOURCES.txt
+om_transliterator.egg-info/dependency_links.txt
+om_transliterator.egg-info/top_level.txt
