@@ -1,0 +1,509 @@
+# Translation of ISO-4217 (currency names) to Czech
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C)
+#   Free Software Foundation, Inc., 2002
+#   Alastair McKinstry <mckinstry@computer.org>, 2002.
+#   Miroslav Kure <kurem@debian.cz>, 2004-2008.
+#   Marek Černocký <marek@manet.cz>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2011-12-01 21:48+0100\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "ISO_4217.AED"
+msgstr "Arabskoemirátský Dirham"
+
+msgid "ISO_4217.AFN"
+msgstr "Afghani"
+
+msgid "ISO_4217.ALL"
+msgstr "Lek"
+
+msgid "ISO_4217.AMD"
+msgstr "Arménský dram"
+
+msgid "ISO_4217.ANG"
+msgstr "Nizozemskoantilský gulden"
+
+msgid "ISO_4217.AOA"
+msgstr "Kwanza"
+
+msgid "ISO_4217.ARS"
+msgstr "Argentinské peso"
+
+msgid "ISO_4217.AUD"
+msgstr "Australský dolar"
+
+msgid "ISO_4217.AWG"
+msgstr "Arubský gulden"
+
+msgid "ISO_4217.AZN"
+msgstr "Ázerbajdžánský manat"
+
+msgid "ISO_4217.BAM"
+msgstr "Konvertibilní marka"
+
+msgid "ISO_4217.BBD"
+msgstr "Barbadoský dolar"
+
+msgid "ISO_4217.BDT"
+msgstr "Taka"
+
+msgid "ISO_4217.BGN"
+msgstr "Bulharský lev"
+
+msgid "ISO_4217.BHD"
+msgstr "Bahrajnský dinár"
+
+msgid "ISO_4217.BIF"
+msgstr "Burundský frank"
+
+msgid "ISO_4217.BMD"
+msgstr "Bermudský dolar"
+
+msgid "ISO_4217.BND"
+msgstr "Brunejský dolar"
+
+msgid "ISO_4217.BOB"
+msgstr "Boliviano"
+
+msgid "ISO_4217.BRL"
+msgstr "Brazilský real"
+
+msgid "ISO_4217.BSD"
+msgstr "Bahamský dolar"
+
+msgid "ISO_4217.BTN"
+msgstr "Ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "Pula"
+
+msgid "ISO_4217.BYR"
+msgstr "Běloruský rubl"
+
+msgid "ISO_4217.BZD"
+msgstr "Belizský dolar"
+
+msgid "ISO_4217.CAD"
+msgstr "Kanadský dolar"
+
+msgid "ISO_4217.CDF"
+msgstr "Konžský frank"
+
+msgid "ISO_4217.CHF"
+msgstr "Švýcarský frank"
+
+msgid "ISO_4217.CLP"
+msgstr "Chilské peso"
+
+msgid "ISO_4217.CNY"
+msgstr "Čínský renminbi"
+
+msgid "ISO_4217.COP"
+msgstr "Kolumbijské peso"
+
+msgid "ISO_4217.CRC"
+msgstr "Kostarický colon"
+
+msgid "ISO_4217.CUC"
+msgstr "Konvertibilní marka"
+
+msgid "ISO_4217.CUP"
+msgstr "Kubánské peso"
+
+msgid "ISO_4217.CVE"
+msgstr "Kapverdské escudo"
+
+msgid "ISO_4217.CZK"
+msgstr "Česká koruna"
+
+msgid "ISO_4217.DJF"
+msgstr "Džibutský frank"
+
+msgid "ISO_4217.DKK"
+msgstr "Dánská koruna"
+
+msgid "ISO_4217.DOP"
+msgstr "Dominikánské peso"
+
+msgid "ISO_4217.DZD"
+msgstr "Alžírský dinár"
+
+msgid "ISO_4217.EGP"
+msgstr "Egyptská libra"
+
+msgid "ISO_4217.ERN"
+msgstr "Nakfa"
+
+msgid "ISO_4217.ETB"
+msgstr "Etiopský birr"
+
+msgid "ISO_4217.EUR"
+msgstr "Euro"
+
+msgid "ISO_4217.FJD"
+msgstr "Fidžijský dolar"
+
+msgid "ISO_4217.FKP"
+msgstr "Falklandská libra"
+
+msgid "ISO_4217.GBP"
+msgstr "Britská libra"
+
+msgid "ISO_4217.GEL"
+msgstr "Lari"
+
+msgid "ISO_4217.GHS"
+msgstr "Ghanský cedi"
+
+msgid "ISO_4217.GIP"
+msgstr "Gibraltarská libra"
+
+msgid "ISO_4217.GMD"
+msgstr "Dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "Guinejský frank"
+
+msgid "ISO_4217.GTQ"
+msgstr "Quetzal"
+
+msgid "ISO_4217.GYD"
+msgstr "Guyanský dolar"
+
+msgid "ISO_4217.HKD"
+msgstr "Hongkongský dolar"
+
+msgid "ISO_4217.HNL"
+msgstr "Lempira"
+
+msgid "ISO_4217.HTG"
+msgstr "Gourde"
+
+msgid "ISO_4217.HUF"
+msgstr "Forint"
+
+msgid "ISO_4217.IDR"
+msgstr "Rupie"
+
+msgid "ISO_4217.ILS"
+msgstr "Izraelský nový šekel"
+
+msgid "ISO_4217.INR"
+msgstr "Indická rupie"
+
+msgid "ISO_4217.IQD"
+msgstr "Irácký dinár"
+
+msgid "ISO_4217.IRR"
+msgstr "Íránský rial"
+
+msgid "ISO_4217.ISK"
+msgstr "Islandská koruna"
+
+msgid "ISO_4217.JMD"
+msgstr "Jamajský dolar"
+
+msgid "ISO_4217.JOD"
+msgstr "Jordánský dinár"
+
+msgid "ISO_4217.JPY"
+msgstr "Jen"
+
+msgid "ISO_4217.KES"
+msgstr "Keňský šilink"
+
+msgid "ISO_4217.KGS"
+msgstr "Som"
+
+msgid "ISO_4217.KHR"
+msgstr "Riel"
+
+msgid "ISO_4217.KMF"
+msgstr "Komorský frank"
+
+msgid "ISO_4217.KPW"
+msgstr "Severokorejský won"
+
+msgid "ISO_4217.KRW"
+msgstr "Won"
+
+msgid "ISO_4217.KWD"
+msgstr "Kuvajtský dinár"
+
+msgid "ISO_4217.KYD"
+msgstr "Kajmanský dolar"
+
+msgid "ISO_4217.KZT"
+msgstr "Tenge"
+
+msgid "ISO_4217.LAK"
+msgstr "Kip"
+
+msgid "ISO_4217.LBP"
+msgstr "Libanonská libra"
+
+msgid "ISO_4217.LKR"
+msgstr "Srílanská rupie"
+
+msgid "ISO_4217.LRD"
+msgstr "Liberijský dolar"
+
+msgid "ISO_4217.LSL"
+msgstr "Loti"
+
+msgid "ISO_4217.LYD"
+msgstr "Libyjský dinár"
+
+msgid "ISO_4217.MAD"
+msgstr "Marocký dirham"
+
+msgid "ISO_4217.MDL"
+msgstr "Moldavský leu"
+
+msgid "ISO_4217.MGA"
+msgstr "Madagaskarský ariary"
+
+msgid "ISO_4217.MKD"
+msgstr "Denár"
+
+msgid "ISO_4217.MMK"
+msgstr "Kyat"
+
+msgid "ISO_4217.MNT"
+msgstr "Tugrik"
+
+msgid "ISO_4217.MOP"
+msgstr "Pataca"
+
+msgid "ISO_4217.MRO"
+msgstr "Ouguiya"
+
+msgid "ISO_4217.MUR"
+msgstr "Mauricijská rupie"
+
+msgid "ISO_4217.MVR"
+msgstr "Rufiya"
+
+msgid "ISO_4217.MWK"
+msgstr "Zambijská kwacha"
+
+msgid "ISO_4217.MXN"
+msgstr "Mexické peso"
+
+msgid "ISO_4217.MYR"
+msgstr "Malajský ringgit"
+
+msgid "ISO_4217.NAD"
+msgstr "Namibijský dolar"
+
+msgid "ISO_4217.NGN"
+msgstr "Naira"
+
+msgid "ISO_4217.NIO"
+msgstr "Cordoba oro"
+
+msgid "ISO_4217.NOK"
+msgstr "Norská koruna"
+
+msgid "ISO_4217.NPR"
+msgstr "Nepálská rupie"
+
+msgid "ISO_4217.NZD"
+msgstr "Novozélandský dolar"
+
+msgid "ISO_4217.OMR"
+msgstr "Ománský rial"
+
+msgid "ISO_4217.PAB"
+msgstr "Balboa"
+
+msgid "ISO_4217.PEN"
+msgstr "Som"
+
+msgid "ISO_4217.PGK"
+msgstr "Kina"
+
+msgid "ISO_4217.PHP"
+msgstr "Filipínské peso"
+
+msgid "ISO_4217.PKR"
+msgstr "Pákistánská rupie"
+
+msgid "ISO_4217.PLN"
+msgstr "Zlotý"
+
+msgid "ISO_4217.PYG"
+msgstr "Guarani"
+
+msgid "ISO_4217.QAR"
+msgstr "Katarský rial"
+
+msgid "ISO_4217.RSD"
+msgstr "Srbský dinár"
+
+msgid "ISO_4217.RUB"
+msgstr "Ruský rubl"
+
+msgid "ISO_4217.RWF"
+msgstr "Rwandský frank"
+
+msgid "ISO_4217.SAR"
+msgstr "Saudskoarabský rial"
+
+msgid "ISO_4217.SBD"
+msgstr "Dolar šalamounských ostrovů"
+
+msgid "ISO_4217.SCR"
+msgstr "Seychelská rupie"
+
+msgid "ISO_4217.SDG"
+msgstr "Súdánská libra"
+
+msgid "ISO_4217.SEK"
+msgstr "Švédská koruna"
+
+msgid "ISO_4217.SGD"
+msgstr "Singapurský dolar"
+
+msgid "ISO_4217.SHP"
+msgstr "Svatohelenská libra"
+
+msgid "ISO_4217.SLL"
+msgstr "Leone"
+
+msgid "ISO_4217.SOS"
+msgstr "Somálský šilink"
+
+msgid "ISO_4217.SRD"
+msgstr "Surinamský dolar"
+
+msgid "ISO_4217.SSP"
+msgstr "Súdánská libra"
+
+msgid "ISO_4217.STD"
+msgstr "Dobra"
+
+msgid "ISO_4217.SVC"
+msgstr "Salvádorský colon"
+
+msgid "ISO_4217.SYP"
+msgstr "Sýrijská libra"
+
+msgid "ISO_4217.SZL"
+msgstr "Lilangeni"
+
+msgid "ISO_4217.THB"
+msgstr "Baht"
+
+msgid "ISO_4217.TJS"
+msgstr "Somoni"
+
+msgid "ISO_4217.TND"
+msgstr "Tuniský dinár"
+
+msgid "ISO_4217.TOP"
+msgstr "Pa'anga"
+
+msgid "ISO_4217.TRY"
+msgstr "Turecká nová lira"
+
+msgid "ISO_4217.TTD"
+msgstr "Trinidadský a Tobažský dolar"
+
+msgid "ISO_4217.TWD"
+msgstr "Taiwanský nový dolar"
+
+msgid "ISO_4217.TZS"
+msgstr "Tanzanský šilink"
+
+msgid "ISO_4217.UAH"
+msgstr "Hřivna"
+
+msgid "ISO_4217.UGX"
+msgstr "Ugandský šilink"
+
+msgid "ISO_4217.USD"
+msgstr "Americký dolar"
+
+msgid "ISO_4217.UYU"
+msgstr "Uruguayské peso"
+
+msgid "ISO_4217.UZS"
+msgstr "Uzbecký sum"
+
+msgid "ISO_4217.VND"
+msgstr "Dong"
+
+msgid "ISO_4217.VUV"
+msgstr "Vatu"
+
+msgid "ISO_4217.WST"
+msgstr "Tala"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA frank BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "Stříbro"
+
+msgid "ISO_4217.XAU"
+msgstr "Zlato"
+
+msgid "ISO_4217.XBA"
+msgstr "Evropská smíšená jednotka (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "Evropská měnová jednotka (E.M.U.-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Evropská jednotka účtu 9 (E.U.A.-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Evropská jednotka účtu 17 (E.U.A.-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "Východokaribský dolar"
+
+msgid "ISO_4217.XDR"
+msgstr "Zvláštní práva čerpání"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA frank BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "Paladium"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP frank"
+
+msgid "ISO_4217.XPT"
+msgstr "Platina"
+
+msgid "ISO_4217.XTS"
+msgstr "Kód pro testovací účely"
+
+msgid "ISO_4217.YER"
+msgstr "Jemenský rial"
+
+msgid "ISO_4217.ZAR"
+msgstr "Rand"
+
+msgid "ISO_4217.ZMW"
+msgstr "Zambijská kwacha"
+
+msgid "ISO_4217.ZWL"
+msgstr "Zimbabwský dolar"

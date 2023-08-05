@@ -1,0 +1,506 @@
+# Vietnamese translation for iso_4217.
+# Copyright © 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the iso-codes package.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2013-08-18 00:06+0100\n"
+"Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
+"Language-Team: The MOST project <du-an-most@lists.hanoilug.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "ISO_4217.AED"
+msgstr "Đồng đơ-âm UAE"
+
+msgid "ISO_4217.AFN"
+msgstr "Đồng Ap-ga-ni"
+
+msgid "ISO_4217.ALL"
+msgstr "Đồng Léc"
+
+msgid "ISO_4217.AMD"
+msgstr "Đồng Đơ-ram Ac-mê-ni"
+
+msgid "ISO_4217.ANG"
+msgstr "Đồng guin-đơn An-ti-li Hòa Lan"
+
+msgid "ISO_4217.AOA"
+msgstr "Đồng Cou-ăn-xa"
+
+msgid "ISO_4217.ARS"
+msgstr "Đồng Pê-xô Á-căn-đình"
+
+msgid "ISO_4217.AUD"
+msgstr "Đô-la Úc"
+
+msgid "ISO_4217.AWG"
+msgstr "Đồng guin-đơn A-ru-ba"
+
+msgid "ISO_4217.AZN"
+msgstr "Đồng Ma-nát Ai-xơ-bai-gianh"
+
+msgid "ISO_4217.BAM"
+msgstr "Đồng Mác có thể chuyển đổi"
+
+msgid "ISO_4217.BBD"
+msgstr "Đô-la Ba-bê-đoxơ"
+
+msgid "ISO_4217.BDT"
+msgstr "Đồng Ta-ca"
+
+msgid "ISO_4217.BGN"
+msgstr "Đồng Lév Bảo Gia Lơi"
+
+msgid "ISO_4217.BHD"
+msgstr "Đồng Đi-nă Ba-rê-ni"
+
+msgid "ISO_4217.BIF"
+msgstr "Đồng frăng Bu-run-đi"
+
+msgid "ISO_4217.BMD"
+msgstr "Đô-la Bơ-mu-đa"
+
+msgid "ISO_4217.BND"
+msgstr "Đô-la Bơ-ru-nei"
+
+msgid "ISO_4217.BOB"
+msgstr "Đồng Bo-li-vi-a-nô"
+
+msgid "ISO_4217.BRL"
+msgstr "Đồng Rê-ăn Braxin"
+
+msgid "ISO_4217.BSD"
+msgstr "Đô-la Ba-ha-ma"
+
+msgid "ISO_4217.BTN"
+msgstr "Đồng N-gun-trum"
+
+msgid "ISO_4217.BWP"
+msgstr "Đồng Pu-la"
+
+msgid "ISO_4217.BYR"
+msgstr "Đồng Rúp Be-la-ruxợ"
+
+msgid "ISO_4217.BZD"
+msgstr "Đô-la Be-li-xơ"
+
+msgid "ISO_4217.CAD"
+msgstr "Đô-la Ca-na-đa"
+
+msgid "ISO_4217.CDF"
+msgstr "Đồng Frăng Công-gô"
+
+msgid "ISO_4217.CHF"
+msgstr "Đồng Frăng Thụy Sĩ"
+
+msgid "ISO_4217.CLP"
+msgstr "Đồng Pê-sô Chi-lê"
+
+msgid "ISO_4217.CNY"
+msgstr "Đồng Yu-an Ren-min-bi"
+
+msgid "ISO_4217.COP"
+msgstr "Đồng Pê-sô Co-lom-bi-a"
+
+msgid "ISO_4217.CRC"
+msgstr "Đồng Co-lon Cốt-x-tha Ri-ca"
+
+msgid "ISO_4217.CUC"
+msgstr "Đồng Mác có thể chuyển đổi"
+
+msgid "ISO_4217.CUP"
+msgstr "Đồng Pê-sô Cu-ba"
+
+msgid "ISO_4217.CVE"
+msgstr "Đồng Ex-cu-đô Cáp Vea-đợ"
+
+msgid "ISO_4217.CZK"
+msgstr "Đồng Ko-ru-na Séc"
+
+msgid "ISO_4217.DJF"
+msgstr "Đồng Frăng Gi-bou-ti"
+
+msgid "ISO_4217.DKK"
+msgstr "Đồng Cơ-rô-ne Đan Mạch"
+
+msgid "ISO_4217.DOP"
+msgstr "Đồng Pê-sô Đo-mi-ni-ca"
+
+msgid "ISO_4217.DZD"
+msgstr "Đồng Đi-nă An-giê-ri"
+
+msgid "ISO_4217.EGP"
+msgstr "Đồng bảng Ai Cập"
+
+msgid "ISO_4217.ERN"
+msgstr "Đồng Nác-pha"
+
+msgid "ISO_4217.ETB"
+msgstr "Đông Bi-rợ Ê-ti-ô-pi"
+
+msgid "ISO_4217.EUR"
+msgstr "Đồng Eu-rô"
+
+msgid "ISO_4217.FJD"
+msgstr "Đô-la Phi-gi"
+
+msgid "ISO_4217.FKP"
+msgstr "Đồng bảng Đảo Phoa-kh-lận-đh"
+
+msgid "ISO_4217.GBP"
+msgstr "Đồng bảng Quốc Anh"
+
+msgid "ISO_4217.GEL"
+msgstr "Đồng La-ri"
+
+msgid "ISO_4217.GHS"
+msgstr "Đồng Xê-đi của Gha-na"
+
+msgid "ISO_4217.GIP"
+msgstr "Đồng bảng Gi-boa-tha"
+
+msgid "ISO_4217.GMD"
+msgstr "Đồng Đa-la-si"
+
+msgid "ISO_4217.GNF"
+msgstr "Đồng Frăng Ghi-ni"
+
+msgid "ISO_4217.GTQ"
+msgstr "Đồng Quét-xan"
+
+msgid "ISO_4217.GYD"
+msgstr "Đô-la Guy-a-na"
+
+msgid "ISO_4217.HKD"
+msgstr "Đô-la Hồng Kông"
+
+msgid "ISO_4217.HNL"
+msgstr "Đồng Lem-pi-ra"
+
+msgid "ISO_4217.HTG"
+msgstr "Đồng Guo-đe"
+
+msgid "ISO_4217.HUF"
+msgstr "Đồng Pho-rin-th"
+
+msgid "ISO_4217.IDR"
+msgstr "Đồng Ru-pi-a"
+
+msgid "ISO_4217.ILS"
+msgstr "Đồng seken Do Thái mới"
+
+msgid "ISO_4217.INR"
+msgstr "Đồng Ru-pi Ấn Độ"
+
+msgid "ISO_4217.IQD"
+msgstr "Đồng Đi-nă I-rắc"
+
+msgid "ISO_4217.IRR"
+msgstr "Đồng Ri-an Ba Tư"
+
+msgid "ISO_4217.ISK"
+msgstr "Đồng Cơ-rô-na Băng Đảo"
+
+msgid "ISO_4217.JMD"
+msgstr "Đô-la Gia-mê-ca"
+
+msgid "ISO_4217.JOD"
+msgstr "Đồng Đi-nă Gi-oa-đanh"
+
+msgid "ISO_4217.JPY"
+msgstr "Đồng yên"
+
+msgid "ISO_4217.KES"
+msgstr "Đồng Silinh Khi-ni-a"
+
+msgid "ISO_4217.KGS"
+msgstr "Đồng Xom"
+
+msgid "ISO_4217.KHR"
+msgstr "Đồng Ri-en"
+
+msgid "ISO_4217.KMF"
+msgstr "Đồng Frăng Co-mo-rô"
+
+msgid "ISO_4217.KPW"
+msgstr "Đồng Ouonh Bắc Hàn"
+
+msgid "ISO_4217.KRW"
+msgstr "Đồng ouonh"
+
+msgid "ISO_4217.KWD"
+msgstr "Đồng Đi-nă Cu-ouai-thi"
+
+msgid "ISO_4217.KYD"
+msgstr "Đô-la Quần Đảo Cay-manh"
+
+msgid "ISO_4217.KZT"
+msgstr "Đồng Ten-ge"
+
+msgid "ISO_4217.LAK"
+msgstr "Đồng Kip"
+
+msgid "ISO_4217.LBP"
+msgstr "Đồng Bảng Le-ba-nonh"
+
+msgid "ISO_4217.LKR"
+msgstr "Đồng Ru-pi Tích Lan"
+
+msgid "ISO_4217.LRD"
+msgstr "Đô-la Li-be-ri-a"
+
+msgid "ISO_4217.LSL"
+msgstr "Đồng Lô-ti"
+
+msgid "ISO_4217.LYD"
+msgstr "Đồng Đi-nă Lib-i-a"
+
+msgid "ISO_4217.MAD"
+msgstr "Đồng Đơ-rậm Mo-ro-cô"
+
+msgid "ISO_4217.MDL"
+msgstr "Đồng Leu Moc-đo-vanh"
+
+msgid "ISO_4217.MGA"
+msgstr "Đồng A-ri-a-ri Ma-la-ga-xi"
+
+msgid "ISO_4217.MKD"
+msgstr "Đồng Đi-nă"
+
+msgid "ISO_4217.MMK"
+msgstr "Đồng Kyat"
+
+msgid "ISO_4217.MNT"
+msgstr "Đồng Tu-gợ-ríc"
+
+msgid "ISO_4217.MOP"
+msgstr "Đồng Pa-ta-ca"
+
+msgid "ISO_4217.MRO"
+msgstr "Đồng Ou-gui-ya"
+
+msgid "ISO_4217.MUR"
+msgstr "Đồng Ru-pi Mau-ri-sợx"
+
+msgid "ISO_4217.MVR"
+msgstr "Đồng Ru-fi-i-ă"
+
+msgid "ISO_4217.MWK"
+msgstr "Đồng Cơ-ouă-cha Dăm-bi-a"
+
+msgid "ISO_4217.MXN"
+msgstr "Đồng Pê-sô Mê-hi-cô"
+
+msgid "ISO_4217.MYR"
+msgstr "Đồng Ring-git Ma-lay-si-a"
+
+msgid "ISO_4217.NAD"
+msgstr "Đô-la Na-mi-bi-a"
+
+msgid "ISO_4217.NGN"
+msgstr "Đồng Nai-ra"
+
+msgid "ISO_4217.NIO"
+msgstr "Đồng Coa-đô-ba O-rô"
+
+msgid "ISO_4217.NOK"
+msgstr "Đồng Cu-rô-ne Na Uy"
+
+msgid "ISO_4217.NPR"
+msgstr "Đồng Ru-pi Ne-pan"
+
+msgid "ISO_4217.NZD"
+msgstr "Đô-la Niu Di-Lan"
+
+msgid "ISO_4217.OMR"
+msgstr "Đồng Ri-an O-ma-ni"
+
+msgid "ISO_4217.PAB"
+msgstr "Đồng Ban-bô-a"
+
+msgid "ISO_4217.PEN"
+msgstr "Đồng Xom"
+
+msgid "ISO_4217.PGK"
+msgstr "Đồng Khi-na"
+
+msgid "ISO_4217.PHP"
+msgstr "Đồng Pê-sô Phi-li-pi-nô"
+
+msgid "ISO_4217.PKR"
+msgstr "Đồng Ru-pi Pa-ki-x-thănh"
+
+msgid "ISO_4217.PLN"
+msgstr "Đồng x-lo-ti"
+
+msgid "ISO_4217.PYG"
+msgstr "Đồng Gua-ra-ni"
+
+msgid "ISO_4217.QAR"
+msgstr "Đồng Ri-an Ca-tă"
+
+msgid "ISO_4217.RSD"
+msgstr "Đồng Đi-nă Xéc-bi"
+
+msgid "ISO_4217.RUB"
+msgstr "Đồng Rúp Nga"
+
+msgid "ISO_4217.RWF"
+msgstr "Đồng Frăng Rou-an-đa"
+
+msgid "ISO_4217.SAR"
+msgstr "Đồng Ri-an Sau-đi"
+
+msgid "ISO_4217.SBD"
+msgstr "Đô-la Quần Đảo So-lo-mon"
+
+msgid "ISO_4217.SCR"
+msgstr "Đồng Ru-pi Xê-sen"
+
+msgid "ISO_4217.SDG"
+msgstr "Đồng bảng Xu-đanh"
+
+msgid "ISO_4217.SEK"
+msgstr "Đồng Cơ-rô-na Thuỵ Điển"
+
+msgid "ISO_4217.SGD"
+msgstr "Đô-la Xin-ga-po"
+
+msgid "ISO_4217.SHP"
+msgstr "Đồng Bảng Xan He-le-na"
+
+msgid "ISO_4217.SLL"
+msgstr "Đồng Le-ô-ne"
+
+msgid "ISO_4217.SOS"
+msgstr "Đồng Silinh So-ma-li"
+
+msgid "ISO_4217.SRD"
+msgstr "Đô-la Xu-ri-nam"
+
+msgid "ISO_4217.SSP"
+msgstr "Đồng bảng Xu-đanh"
+
+msgid "ISO_4217.STD"
+msgstr "Đồng Đóp-ra"
+
+msgid "ISO_4217.SVC"
+msgstr "Đồng Co-lon En Xan-va-đoa"
+
+msgid "ISO_4217.SYP"
+msgstr "Đồng Bảng Xi-ri"
+
+msgid "ISO_4217.SZL"
+msgstr "Đồng Li-lan-ge-ni"
+
+msgid "ISO_4217.THB"
+msgstr "Đồng Băt"
+
+msgid "ISO_4217.TJS"
+msgstr "Đồng Xo-mo-ni"
+
+msgid "ISO_4217.TND"
+msgstr "Đồng Đi-nă Tu-ni-xi-a"
+
+msgid "ISO_4217.TOP"
+msgstr "Đồng Pa-an-ga"
+
+msgid "ISO_4217.TRY"
+msgstr "Đồng Li-ra mới Thổ Nhĩ Kỳ"
+
+msgid "ISO_4217.TTD"
+msgstr "Đô-la Trinh-i-đat và To-ba-gô"
+
+msgid "ISO_4217.TWD"
+msgstr "Đô-la mới Đài Loan"
+
+msgid "ISO_4217.TZS"
+msgstr "Đồng Silinh Tan-xa-ni-a"
+
+msgid "ISO_4217.UAH"
+msgstr "Đồng H-ri-v-ni-a"
+
+msgid "ISO_4217.UGX"
+msgstr "Đồng Silinh U-gan-đa"
+
+msgid "ISO_4217.USD"
+msgstr "Đô-la Mỹ"
+
+msgid "ISO_4217.UYU"
+msgstr "Đồng Pê-sô U-ru-guay"
+
+msgid "ISO_4217.UZS"
+msgstr "Đồng Xum U-dơ-bê-ki-xtanh"
+
+msgid "ISO_4217.VND"
+msgstr "Đồng"
+
+msgid "ISO_4217.VUV"
+msgstr "Đồng Va-tu"
+
+msgid "ISO_4217.WST"
+msgstr "Đồng Ta-la"
+
+msgid "ISO_4217.XAF"
+msgstr "Đồng Frăng CFA BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "Bạc"
+
+msgid "ISO_4217.XAU"
+msgstr "Vàng"
+
+msgid "ISO_4217.XBA"
+msgstr "Đơn vị đa hợp châu Âu (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "Đơn vị tiền tệ châu Âu (E.M.U.-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Đơn vị của tài khoản châu Âu 9 (E.U.A.-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Đơn vị của tài khoản châu Âu 17 (E.U.A.-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "Đô-la Đông Ca-rib"
+
+msgid "ISO_4217.XDR"
+msgstr "Quyền rút đặc biệt"
+
+msgid "ISO_4217.XOF"
+msgstr "Đồng Frăng CFA BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "Pa-la-đi"
+
+msgid "ISO_4217.XPF"
+msgstr "Đồng Frăng CFP"
+
+msgid "ISO_4217.XPT"
+msgstr "Bạch kim"
+
+msgid "ISO_4217.XTS"
+msgstr "Mã để thử ra"
+
+msgid "ISO_4217.YER"
+msgstr "Đồng Ri-an Ye-me-ni"
+
+msgid "ISO_4217.ZAR"
+msgstr "Đồng Ran-đợ"
+
+msgid "ISO_4217.ZMW"
+msgstr "Đồng Cơ-ouă-cha Dăm-bi-a"
+
+msgid "ISO_4217.ZWL"
+msgstr "Đô-la Xim-ba-bui"
