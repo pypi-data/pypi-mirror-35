@@ -1,0 +1,10 @@
+roon/.soodmsg,sha256=Aajp-7s_NZcBO7-pFGIoC-RPHiSfDiMdOmusl-iilJ8,104
+roon/__init__.py,sha256=7k-EO4IejVZ7qvGbVFsmU5G68B7J9nbTPY-jTSpzdcQ,58
+roon/constants.py,sha256=qJ7aqdovSlqqTsqG_2Z8ILeeMwyRwZm8m5uDGekwPK8,907
+roon/discovery.py,sha256=uqeDJeX4thhZYPltTT6SfdTH_bEP_Cj5EDRw9WPnDcU,2350
+roon/roonapi.py,sha256=t45DzJvo6EbqcwZ9mt7nZhqdQN5j_6XNfG8fA_ynVcc,23100
+roon/roonapisocket.py,sha256=J5TCOCAByySPw1Np6LiVYMjBZb0ZmEH_4-dJh6u6xIc,4604
+roonapi-0.0.6.dist-info/METADATA,sha256=Eodf6P48Vzyh7V7cziYhunJhSLpw7wKMq3uNluwKBz4,1260
+roonapi-0.0.6.dist-info/RECORD,,
+roonapi-0.0.6.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+roonapi-0.0.6.dist-info/top_level.txt,sha256=CqufOmEVCroJmFJSjzFzRUZxA3xNFgXW3WZBpsp3d0g,5
