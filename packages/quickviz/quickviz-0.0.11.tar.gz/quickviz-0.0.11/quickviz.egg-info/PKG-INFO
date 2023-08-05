@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: quickviz
+Version: 0.0.11
+Summary: quickviz: interactive widgets for plotting pandas dataframes.
+Home-page: https://github.com/chmduquesne/quickviz
+Author: Christophe-Marie Duquesne
+Author-email: chmd@chmd.fr
+License: MIT
+Download-URL: https://github.com/chmduquesne/quickviz
+Description: 
+        Widgets for quickly visualizing pandas dataframes
+        
+        It is often necessary to plot data in order to understand it. Plotting
+        allows to quiclky spot glitches in the data: that person who is 180 meters
+        tall or this car which can speed thousands of kilometers per hour will
+        immediately stand out. In this situation, one wants a way to quickly
+        (rather than beautifully) plot their data. Quickviz provides a set of
+        widgets to do this in a few clicks.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
