@@ -1,0 +1,7 @@
+README.md
+setup.py
+girasol.egg-info/PKG-INFO
+girasol.egg-info/SOURCES.txt
+girasol.egg-info/dependency_links.txt
+girasol.egg-info/requires.txt
+girasol.egg-info/top_level.txt
