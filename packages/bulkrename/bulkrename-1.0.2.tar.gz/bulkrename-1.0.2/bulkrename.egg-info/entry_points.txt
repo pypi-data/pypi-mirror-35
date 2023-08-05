@@ -1,0 +1,4 @@
+[console_scripts]
+bulkrename = bulkrename.bulkrename:main
+bulkrn = bulkrename.bulkrename:main
+
