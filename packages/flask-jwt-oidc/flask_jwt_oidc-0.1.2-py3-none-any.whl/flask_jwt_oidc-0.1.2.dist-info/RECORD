@@ -1,0 +1,7 @@
+flask_jwt_oidc/__init__.py,sha256=szW9WI5lXLg1u6JyYJsE--KN-QDvxVmnTOKez9b3tig,1706
+flask_jwt_oidc/exceptions.py,sha256=fjlYAUErH5VIVCpYpNwvRCZ10oB-wKEZeJKLO2Heg5E,186
+flask_jwt_oidc/jwt_manager.py,sha256=MCaOEr_QeoBbiq_H8fwUNTpQ55i-NbtzTa35QImp_TY,10348
+flask_jwt_oidc-0.1.2.dist-info/METADATA,sha256=ePDtE_6-OZTx6HvzGSVqK9ouk1vl0U6TGCI4I2-M-pE,6287
+flask_jwt_oidc-0.1.2.dist-info/RECORD,,
+flask_jwt_oidc-0.1.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+flask_jwt_oidc-0.1.2.dist-info/top_level.txt,sha256=MRAYTNdBt5MH4vYRnX8lYA0Bc5F9NkrnI8RzOwA0OKY,15
