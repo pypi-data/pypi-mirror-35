@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: django_blend
+Version: 0.0.0a0
+Summary:  Provides a simple starter module for creating new Python projects.
+Home-page: https://github.com/metanic/django-blend
+Author: Bailey "monokrome" Stoner
+Author-email: monokrome@monokro.me
+Maintainer: Bailey "monokrome" Stoner
+Maintainer-email: monokrome@monokro.me
+License: BSD 3-Clause License
+Description:  You can use this project to create new modules quickly. The process for creating a new module is to simply fork this project, rename the *project_module* package, change it's content to and explain your project by replacing any current documentation.  TODO: This docstring should be in standard PEP8 style, with a short description of the module on the first line as seen above. The short line should be followed by a long-form description of your module similar to the one which you are currently reading.  
+Platform: UNKNOWN
