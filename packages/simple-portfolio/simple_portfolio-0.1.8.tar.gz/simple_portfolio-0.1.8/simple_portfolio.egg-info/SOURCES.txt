@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+simple_portfolio/__init__.py
+simple_portfolio/calculate.py
+simple_portfolio/cli.py
+simple_portfolio/export.py
+simple_portfolio/fetch.py
+simple_portfolio/util.py
+simple_portfolio.egg-info/PKG-INFO
+simple_portfolio.egg-info/SOURCES.txt
+simple_portfolio.egg-info/dependency_links.txt
+simple_portfolio.egg-info/entry_points.txt
+simple_portfolio.egg-info/requires.txt
+simple_portfolio.egg-info/top_level.txt

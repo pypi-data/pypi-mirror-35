@@ -1,0 +1,4 @@
+click
+fast_arrow>=0.1.0
+pandas
+numpy
