@@ -1,0 +1,16 @@
+pyaudio
+docopt
+pyxhook
+peewee
+autologging
+coloredlogs
+inquirer
+
+[develop]
+setuptools
+pip
+virtualenv
+wheel
+twine
+bumpversion
+setuptools-git
