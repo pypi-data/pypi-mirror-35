@@ -1,0 +1,8 @@
+clean_pandas/__init__.py,sha256=ZUZ7fqxddMpDPyLeiZEGDoUiQxbMOvnk3_QQHhBoDFk,49
+clean_pandas/clean_pandas.py,sha256=z9-Z5FVULdSjKbJqy3RYzauFRsXatPAOkxE9clABlng,8451
+clean_pandas-0.1.1.dist-info/METADATA,sha256=1h_XKmoZvh0WbK2055b5JjvxNlTXKHmcI_4Id2K8Wy0,4125
+clean_pandas-0.1.1.dist-info/RECORD,,
+clean_pandas-0.1.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+clean_pandas-0.1.1.dist-info/top_level.txt,sha256=fJQytxMalAbO6mVUp3xRxemi4OCcw4JsejGNB4UxdYc,19
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_clean_pandas.py,sha256=KBT6gbhIfmdXA6ol8NVNp2pLQ13AiqT-ZzzOlIZSgfY,6399
