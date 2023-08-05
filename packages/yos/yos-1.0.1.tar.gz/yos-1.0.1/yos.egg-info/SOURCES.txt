@@ -1,0 +1,8 @@
+setup.py
+yos/__init__.py
+yos/yos.py
+yos.egg-info/PKG-INFO
+yos.egg-info/SOURCES.txt
+yos.egg-info/dependency_links.txt
+yos.egg-info/entry_points.txt
+yos.egg-info/top_level.txt
