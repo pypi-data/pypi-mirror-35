@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vel
+Version: 0.1
+Summary: Velocity in deep-learning research
+Home-page: https://github.com/MillionIntegrals/vel
+Author: Jerry Tworek
+Author-email: jerry@millionintegrals.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: gym
+Provides-Extra: mongo
+Provides-Extra: visdom
