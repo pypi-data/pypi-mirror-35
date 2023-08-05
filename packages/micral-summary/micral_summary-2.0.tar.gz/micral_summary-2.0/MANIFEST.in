@@ -1,0 +1,13 @@
+include README.rst
+include micral_summary/version.txt
+include micral_summary/template.docx
+include micral_summary/examples/Annealing_twins.jpg
+include micral_summary/examples/Bronze.jpg
+include micral_summary/examples/Ductile_iron.jpg
+include micral_summary/examples/Gray_iron.jpg
+include micral_summary/examples/Hypoeutectoid_steel.jpg
+include micral_summary/examples/Malleable_iron.jpg
+include micral_summary/examples/Martensite.jpg
+include micral_summary/examples/Pearlite.jpg
+include micral_summary/examples/Spheroidite.jpg
+include micral_summary/examples/Superalloy.jpg
