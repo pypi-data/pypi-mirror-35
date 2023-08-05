@@ -1,0 +1,12 @@
+mangascandl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mangascandl/mangascandl.py,sha256=PRkoIVRBVEx9R08JxgfLRd3hHPoTLDqA5oLeWa_Mjf8,1795
+mangascandl/extractor/Mangadex.py,sha256=tVHchwnweFBNwWZsFPYdoln0sRpe_eCzAaoBHHl3aL0,3816
+mangascandl/extractor/Mangareader.py,sha256=6sCIMsaS9B2Y9OzfQZXHAEIAnggsOZ0_34wda3fg384,2324
+mangascandl/extractor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mangascandl/extractor/common.py,sha256=vtHEOoYPVHeL60f7IvKyS5z9UHegf3KGSVq63SbVWjk,4284
+mangascandl/extractor/model.py,sha256=imFg4K0J0mJu92nZ_-zM0dchhboA44afTW4LCtYD-8I,120
+mangascandl-1.0.dist-info/METADATA,sha256=EWGPcPE89lfc19OIfuPKsPTs90Uq31j97OcHH89YbUg,286
+mangascandl-1.0.dist-info/RECORD,,
+mangascandl-1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+mangascandl-1.0.dist-info/entry_points.txt,sha256=k7UOyg027vkdW0GI1p5aWg72k3AL9XRO28D1aHZr_kI,62
+mangascandl-1.0.dist-info/top_level.txt,sha256=KZESe1pQ-TKy2PCtumhXZwZYX10YeE5G9chltW8sfPw,12
