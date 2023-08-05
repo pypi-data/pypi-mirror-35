@@ -1,0 +1,13 @@
+django_otp_agents-0.5.0.dist-info/METADATA,sha256=ED5_43us0e-wDcR03j4w_Bjv346g9tspPdSElwjpwVk,1186
+django_otp_agents-0.5.0.dist-info/RECORD,,
+django_otp_agents-0.5.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_otp_agents-0.5.0.dist-info/top_level.txt,sha256=xloLWg07k38HJI2eEEGNImDwZI4mZaVkf8sT-f-TI8I,11
+otp_agents/__init__.py,sha256=wy_Wgd45pzqN8vIgjQiBjkVymP5yDE4giYWnfVIIrxA,608
+otp_agents/admin.py,sha256=Q-cbo6TYqC7w5gQwr97LNJC5XHmPC9ehiwPKlNZi8Yc,1116
+otp_agents/decorators.py,sha256=R7Ipzxwt2FKcixio6T2k-_Es9ujeFemXD6MMDs2kKJs,1568
+otp_agents/forms.py,sha256=Vgu5Zpp4tkpq1abq-IK5UMMayxUG1wcbeNK6cZqDawY,2088
+otp_agents/tests.py,sha256=i5he1KIe-qaH6a-9rTRLJUFRpRQcImoQUCZl5JUyGRg,5454
+otp_agents/views.py,sha256=LLALSZP_9AragIJZUZBaB9FdZ4D7EWp62owWyV9APJ0,493
+otp_agents/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otp_agents/test/urls.py,sha256=k_j3JU9--2sU9VbqAi_9-JmOlygQoc2dc32rPjQMeTc,641
+otp_agents/test/views.py,sha256=o3yJGwedr69uxivo2gbFdyGz_C1NiML7keILLVQOtWE,528
