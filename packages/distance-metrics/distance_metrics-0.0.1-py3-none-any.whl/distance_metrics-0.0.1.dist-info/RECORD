@@ -1,0 +1,6 @@
+distance_metrics-0.0.1.dist-info/METADATA,sha256=eG5KiyoE6BolP_9_Ch2vbyVoS_H3X9243Y2QETyXNQs,1998
+distance_metrics-0.0.1.dist-info/RECORD,,
+distance_metrics-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+distance_metrics-0.0.1.dist-info/top_level.txt,sha256=_Wlww2GWXMT3NlWaN8HiTBB4EP5Xpsx7X3xQ7IAEXPs,8
+metrics/__init__.py,sha256=TZmZf3tfjCWcuKsaURY_yr0VnQo6XgoqINxbgnIPFyM,18
+metrics/lcs.py,sha256=siKurwKIKOpklzBAIGwoS7NZD9y4y8_Mc0DTsSlqTXE,3639
