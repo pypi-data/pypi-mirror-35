@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+dx/__init__.py
+dx/_version.py
+dx/datasets.py
+dx.egg-info/PKG-INFO
+dx.egg-info/SOURCES.txt
+dx.egg-info/dependency_links.txt
+dx.egg-info/requires.txt
+dx.egg-info/top_level.txt
