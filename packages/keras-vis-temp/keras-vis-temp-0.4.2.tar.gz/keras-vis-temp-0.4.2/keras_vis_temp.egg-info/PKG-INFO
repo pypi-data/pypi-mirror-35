@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: keras-vis-temp
+Version: 0.4.2
+Summary: Neural Network visualization toolkit for keras. Temporary release until the original package with fix isreleased.
+Home-page: https://github.com/raghakot/keras-vis
+Author: Raghavendra Kotikalapudi
+Author-email: ragha@outlook.com
+License: MIT
+Download-URL: https://github.com/raghakot/keras-vis/tarball/0.4.2
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tests
+Provides-Extra: vis_utils
