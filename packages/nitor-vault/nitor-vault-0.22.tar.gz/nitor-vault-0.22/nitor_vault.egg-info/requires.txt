@@ -1,0 +1,6 @@
+argcomplete
+boto3
+cryptography
+future
+pycrypto
+requests
