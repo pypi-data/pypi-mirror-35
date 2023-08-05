@@ -1,0 +1,9 @@
+README.md
+setup.py
+cividis/__init__.py
+cividis.egg-info/PKG-INFO
+cividis.egg-info/SOURCES.txt
+cividis.egg-info/dependency_links.txt
+cividis.egg-info/not-zip-safe
+cividis.egg-info/requires.txt
+cividis.egg-info/top_level.txt
