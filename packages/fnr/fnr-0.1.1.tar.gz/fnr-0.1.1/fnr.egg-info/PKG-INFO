@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: fnr
+Version: 0.1.1
+Summary: A command line utility to find & replace text.
+Home-page: UNKNOWN
+Author: Collin Choy
+Author-email: collinchoyccc@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
