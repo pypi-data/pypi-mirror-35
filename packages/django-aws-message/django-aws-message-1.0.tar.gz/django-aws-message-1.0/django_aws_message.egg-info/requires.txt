@@ -1,0 +1,5 @@
+Django<1.11,>=1.10
+boto3
+pycrypto
+oscrypto
+urllib3
