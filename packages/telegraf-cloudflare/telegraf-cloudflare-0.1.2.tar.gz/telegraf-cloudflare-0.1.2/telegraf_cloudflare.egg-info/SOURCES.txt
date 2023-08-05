@@ -1,0 +1,8 @@
+README.md
+setup.py
+telegraf-cloudflare
+telegraf_cloudflare.egg-info/PKG-INFO
+telegraf_cloudflare.egg-info/SOURCES.txt
+telegraf_cloudflare.egg-info/dependency_links.txt
+telegraf_cloudflare.egg-info/requires.txt
+telegraf_cloudflare.egg-info/top_level.txt
