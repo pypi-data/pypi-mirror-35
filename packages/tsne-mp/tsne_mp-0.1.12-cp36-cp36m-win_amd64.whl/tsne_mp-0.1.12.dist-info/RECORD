@@ -1,0 +1,12 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_iris.py,sha256=HONpdWFn8mbhajIIHHoerSde5PtGEc_oETkkoWWLRqg,185
+tests/test_seed.py,sha256=xQON-_1TLI9meKPzQJWkQw2BRLIvD2Zk9cMH7kAW72I,366
+tsne/__init__.py,sha256=_rVn2mOAVOfaeZnK1Tt57BDNMFldKss7jNGw2YGeYuI,2879
+tsne/_version.py,sha256=4DFUSGPB3_GxQItA1RNChMH69tOjLI4XIPEFapHTGEU,520
+tsne/bh_sne.cp36-win_amd64.pyd,sha256=xIyFOFi0--aygl2j40zAHK5ttHZRM54M-IAO885B8vM,95744
+tsne/bh_sne_3d.cp36-win_amd64.pyd,sha256=EBW_aUaKxFOj2tcHvjEF59uikWWI2AI1-gg4CrHCJgY,96768
+tsne_mp-0.1.12.data/scripts/bhtsne.py,sha256=x2lBu3-n8eK8OWVmaQkTRQPIW8t0yH9Vqi_qWeHRSqY,10024
+tsne_mp-0.1.12.dist-info/METADATA,sha256=wgLvQmLhK_er7GHFQ0Fgh6-iCd1KPEAoQ0W734NHRds,3042
+tsne_mp-0.1.12.dist-info/RECORD,,
+tsne_mp-0.1.12.dist-info/WHEEL,sha256=xq3J6sB2oJqjv0tDC7tGUGvne1fOugw1JUmk86QA7UM,106
+tsne_mp-0.1.12.dist-info/top_level.txt,sha256=h-aOzpYndEDcJ-v9y4sUAdF4zCVcf3Yuj-p9AJcLgcc,11
