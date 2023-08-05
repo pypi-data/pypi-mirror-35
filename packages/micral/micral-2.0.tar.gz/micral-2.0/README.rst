@@ -1,0 +1,39 @@
+Micral (MICROstructure anALysis)
+
+-----
+
+Description :
+
+The aim of this tool is to gather information about microstructure.
+
+-----
+
+Installation :
+
+pip install micral
+
+-----
+
+Usage :
+
+In a python file or directly in the interpreter, type :
+
+import micral
+
+micral.analyse(<your image>)
+
+-----
+
+Input :
+
+<your image> is the name of the image to analyse (with extension (ie jpg, png, bmp etc...))
+It's also possible to send multiple image at once : in that case, provide a list of name :
+<your image> = [<image1>, <image2>, ...]
+
+Note that the image must be in the same directory than the python file (or in the current directory of the command)
+
+-----
+
+Output :
+
+The output will be an Python dictionnary, and each entry is a dictionnary how gather the differents informations on the image.
