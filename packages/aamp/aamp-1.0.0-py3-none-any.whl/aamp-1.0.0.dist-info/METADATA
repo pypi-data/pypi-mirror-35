@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: aamp
+Version: 1.0.0
+Summary: Nintendo parameter archive (AAMP) library
+Home-page: https://github.com/leoetlino/aamp
+Author: leoetlino
+Author-email: leo@leolam.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML (~=3.12)
+
+# Nintendo parameter archive (AAMP) library
+
+## License
+
+This software is licensed under the terms of the GNU General Public License, version 2 or later.
+
+
