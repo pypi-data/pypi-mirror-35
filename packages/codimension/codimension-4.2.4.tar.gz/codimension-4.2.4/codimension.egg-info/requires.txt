@@ -1,0 +1,10 @@
+cdmpyparser
+cdmcfparser
+cdmgcplugin
+pyflakes==2.0.0
+PyQt5~=5.7
+python-magic==0.4.13
+qutepart
+yapsy==1.11.223
+jedi>=0.11.0
+gprof2dot
