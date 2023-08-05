@@ -1,0 +1,13 @@
+pocket_protector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pocket_protector/__main__.py,sha256=3iHvfIId_HD7zBQ5uCXPfbpLvyt9aKJwA2IY02XmV7A,222
+pocket_protector/_version.py,sha256=eZPxOoG715c17d6wSsDOBFveHXB_VyiV_HeIH9wkOYk,176
+pocket_protector/cli.py,sha256=Dmocnox93l4ZN2fn4s60P_n5H9PM81zC_zudMD7r6hs,16456
+pocket_protector/file_keys.py,sha256=QKpYMZn5cfaVCpp1X4vMxke37f4utjI8aLh1gKeBLe8,21774
+pocket_protector/test_file_keys.py,sha256=nNdEEzgjPf9rmSKD6cThYcQltNIXsw4b1EI_WuH-K18,2639
+pocket_protector-18.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pocket_protector-18.0.1.dist-info/METADATA,sha256=I7EK5PGx476Ml0YL7D9r9w22TqcHd80dp20pUW_oq38,449
+pocket_protector-18.0.1.dist-info/RECORD,,
+pocket_protector-18.0.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+pocket_protector-18.0.1.dist-info/entry_points.txt,sha256=09ecOlRKu1vxbclq9imKBHD_QlbAOyBnXUbZft9uf6E,111
+pocket_protector-18.0.1.dist-info/metadata.json,sha256=J2ksr43auzL3pFH6AwfjkLEzJFpQ8f8CQPUFWN4-nuY,916
+pocket_protector-18.0.1.dist-info/top_level.txt,sha256=9lDt4PtsMawQMAaJzvrO-5rXSZiRXOQKVbBvKN9HB6M,17
