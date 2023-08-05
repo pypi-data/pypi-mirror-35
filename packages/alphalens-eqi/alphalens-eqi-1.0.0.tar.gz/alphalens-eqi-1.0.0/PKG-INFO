@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: alphalens-eqi
+Version: 1.0.0
+Summary: Performance analysis of predictive (alpha) stock factors, EQI customized version
+Home-page: https://github.com/jinzha098718/alphalens
+Author: Quantopian Inc. + jinpeng zhang
+Author-email: jinzha098718@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Provides-Extra: test
