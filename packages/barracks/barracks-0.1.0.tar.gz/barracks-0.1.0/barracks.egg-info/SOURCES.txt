@@ -1,0 +1,9 @@
+README.md
+setup.py
+barracks/__init__.py
+barracks/barracks.py
+barracks.egg-info/PKG-INFO
+barracks.egg-info/SOURCES.txt
+barracks.egg-info/dependency_links.txt
+barracks.egg-info/requires.txt
+barracks.egg-info/top_level.txt
