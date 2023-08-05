@@ -1,0 +1,12 @@
+arvpyf/__init__.py,sha256=JOl41NviMN-qDV0Z8ZPmhNIxvgyauGGJHdB4A-8MhqM,93
+arvpyf/_version.py,sha256=hovAXUIdIkpRxg75nyKXtsmkiwc1yC1WzM0vriOHq3c,497
+arvpyf/cf.py,sha256=ofY8m4OwMGsYCq_Abp9qQOVkDBPU-JkjYbx_XfRkOgA,2212
+arvpyf/mgmt.py,sha256=xKTdB_ozhmOnnRy0xz8k_A4uYbYwnImjymfqVVSiEuQ,8322
+arvpyf/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arvpyf/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arvpyf/tests/test_examples.py,sha256=Hm1x01HZ9BiYYw4dS44uo0o_ku16oFRwSMjIh8_Uu-s,99
+arvpyf-0.2.0.dist-info/METADATA,sha256=m-_-5PW8cn2GPY97TxWFSbr80YW9AjqjE0_vrpJUko8,1269
+arvpyf-0.2.0.dist-info/RECORD,,
+arvpyf-0.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+arvpyf-0.2.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+arvpyf-0.2.0.dist-info/top_level.txt,sha256=xiQIxQT0MjglBHWkUv07CC1s35Hdo45EJeYJ98kJ84I,7
