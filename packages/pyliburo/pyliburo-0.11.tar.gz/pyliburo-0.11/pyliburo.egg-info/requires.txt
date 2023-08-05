@@ -1,0 +1,8 @@
+lxml
+pyshp
+numpy
+pycollada
+networkx
+scikit-learn
+pymf
+matplotlib

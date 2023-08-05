@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pyliburo
+Version: 0.11
+Summary: Python Library for Urban Optimization
+Home-page: https://github.com/chenkianwee/pyliburo
+Author: Chen Kian Wee
+Author-email: chenkianwee@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/architecture-building-systems/pyliburo/archive/0.11.tar.gz
+Description: refer to https://github.com/chenkianwee/pyliburo for full installation instructions
+Keywords: urban design,architecture design,design optimisation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2.7
