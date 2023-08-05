@@ -1,0 +1,80 @@
+---
+file-contents:
+  releasenotes/notes/added-reno-releasenotes-ae36507a78246a50.yaml:
+    other: [Started using Reno for release notes]
+  releasenotes/notes/fix-checkpoint-list-c0435fcbdf26858b.yaml:
+    fixes: ['Fix checkpoint listing bug, which caused results to be not filtered
+
+        correctly according to set filters.
+
+        ']
+  releasenotes/notes/ical-rfc24445-b98313a8c3eefb62.yaml:
+    features: ['Added RFC2445 (iCal) format for time triggers.
+
+        ']
+  releasenotes/notes/protection-plugin-api-063fd84b1f37d8e2.yaml:
+    deprecations: ['Old Protection Plugin interface and BaseProtectionPlugin are deprecated.
+
+        ']
+    features: ['Revised Protection Plugin interface which now supports multiple hooks
+        for
+
+        each operation. Hooks dictate when specific parts of the protection plugin
+
+        code runs in relation to the operation phase and other resource''s state.
+
+        ']
+  releasenotes/notes/protection-plugins-adjust-d228139bd2f19765.yaml:
+    features: ['Revised Cinder protection plugin, which takes a snapshot, backs up
+        from the
+
+        snapshot, and deletes the snapshot afterwards.
+
+        ', 'Revised Glance protection plugin, which uploads the glance image in chunks
+
+        to the bank.
+
+        ']
+  releasenotes/notes/restore-auth-79cd504bc0cc3712.yaml:
+    other: ['Restore auth parameters now reside in restore_auth instead of restore
+
+        parameters.
+
+        ']
+  releasenotes/notes/s3-bank-plugin-b55ca44739d492b0.yaml:
+    features: ['Add support for using S3 comptatible storage as bank plugin.
+
+        ']
+  releasenotes/notes/use-oslo-config-generator-f2a9be9e71d90b1f.yaml:
+    other: [oslo-config-generator is now used to generate a karbor.conf.sample file]
+notes:
+- files:
+  - - releasenotes/notes/s3-bank-plugin-b55ca44739d492b0.yaml
+    - !!binary |
+      MzIzZDE3YjZmYjkwMGE0NzU1ODkxNWFiOGU0MWVmODBiY2EzMWU2NQ==
+  - - releasenotes/notes/use-oslo-config-generator-f2a9be9e71d90b1f.yaml
+    - !!binary |
+      ZGJhNTE4MDZmMjA5YWRjZWUwMWM1NzhiZjFhZGVkNDk2ODg2ZWJlOQ==
+  version: 0.4.0
+- files:
+  - - releasenotes/notes/fix-checkpoint-list-c0435fcbdf26858b.yaml
+    - !!binary |
+      ZGEwYmQxZjljOTg5YWIxZTVlYTk5YWRkMWE0NTFkZTRlMGI0NmQ3Yg==
+  - - releasenotes/notes/ical-rfc24445-b98313a8c3eefb62.yaml
+    - !!binary |
+      ZGEwYmQxZjljOTg5YWIxZTVlYTk5YWRkMWE0NTFkZTRlMGI0NmQ3Yg==
+  - - releasenotes/notes/protection-plugin-api-063fd84b1f37d8e2.yaml
+    - !!binary |
+      ZGEwYmQxZjljOTg5YWIxZTVlYTk5YWRkMWE0NTFkZTRlMGI0NmQ3Yg==
+  - - releasenotes/notes/protection-plugins-adjust-d228139bd2f19765.yaml
+    - !!binary |
+      ZGEwYmQxZjljOTg5YWIxZTVlYTk5YWRkMWE0NTFkZTRlMGI0NmQ3Yg==
+  - - releasenotes/notes/restore-auth-79cd504bc0cc3712.yaml
+    - !!binary |
+      ZGEwYmQxZjljOTg5YWIxZTVlYTk5YWRkMWE0NTFkZTRlMGI0NmQ3Yg==
+  version: 0.2.0
+- files:
+  - - releasenotes/notes/added-reno-releasenotes-ae36507a78246a50.yaml
+    - !!binary |
+      ZDIwYTgzNDU0M2UzZTJlN2JkMWQ2NGQyN2EzNDE3NzMwNzU2ZjljZQ==
+  version: 0.1.0
