@@ -1,0 +1,3 @@
+gecosistema_core
+unicodecsv
+pyodbc
