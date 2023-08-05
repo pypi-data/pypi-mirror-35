@@ -1,0 +1,8 @@
+peewee_migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+peewee_migrations/cli.py,sha256=YA8_oItKCkP4efe5aaXYoOt5I41oQJ2lBgnw_JgPIh4,8206
+peewee_migrations/migrator.py,sha256=-giAIpeHNMxKuKm02Kl0Z_ljd8eGzIEosjxOdaUO8zY,50229
+peewee_migrations-0.3.10.dist-info/METADATA,sha256=URxbeqDKVEws6CVGeC9-pZ9wdd1So0YltlUtOb5FJRM,3011
+peewee_migrations-0.3.10.dist-info/RECORD,,
+peewee_migrations-0.3.10.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+peewee_migrations-0.3.10.dist-info/entry_points.txt,sha256=yhOeUxi-mrQ1-VqnnKIE_KZ7mAnaB86FnaJfeW9ALPE,51
+peewee_migrations-0.3.10.dist-info/top_level.txt,sha256=Hp9fJwvTF61C0a48dFLJO_BP-SrEPLsqoj7QkPpLhnY,18
