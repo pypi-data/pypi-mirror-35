@@ -1,0 +1,78 @@
+CHANGES
+=======
+
+0.1
+---
+
+* Added workaround for python 3.7
+* Added editor config
+* Flake8 cleanup
+* Added contributions to README
+* Corrected test cases
+* Added travis and setup files
+* Corrected building of error response
+* Added query/header/cookie parameter definitions
+* Fixed description name and location
+* Introduced the Odin Codec
+* Updated examples
+* Add odin to requirements
+* Generate parameters from spec
+* Added ResourceApi entry
+* Expanded openapi documentation and added resource references
+* Converted Error to resource
+* Updated DataType constant
+* Added generation of model schemas
+* Expanded on openapi spec generation
+* Little re-arrangement and generation of paths
+* Strip out un-necessary spaces etc
+* Cleaned up example
+* Expanded example
+* Added ResourceApi
+* Added sorting to middleware
+* Added helpers to handle
+* Added route and patch decorators
+* Serve Swagger UI - includes pre-gzipped files
+* Tweaks to operation
+* Added CORS support
+* Updated route registration to handle OPTIONS
+* Moved middleware helpers into middleware namespace
+* Added cached property
+* Added dict\_filter helper
+* Provided very simple (non api-class) implementation
+* Fleshed out operation
+* Fixed bug with operation call to pass empty function
+* Include content type in NO\_CONTENT to prevent file download default
+* Merged AIOHttp API interface directly into containers
+* Expanded default imports
+* Tweaks to where import path
+* Built out dispatch and middleware handling
+* Added middleware list
+* Import from correct location
+* Added wrappers for request/response
+* Added standard error response
+* Added standard exceptions
+* Update example
+* Add more imports
+* Added AIOHttp interface
+* Fixed some calls to typing and UrlPath handling
+* Added content type resolvers
+* Added basic dispatching and containers
+* Changed URLPath to tuple
+* defaulted types of enum
+* placeholder of a test
+* Added decorators to api
+* Removed decorator behavior of an operation, these are defined in decorators
+* Cleaned up un-used code and corrected some behaviours discovered in tests
+* Ported content type resolvers
+* Added basis of containers
+* Fixed a bug in force\_tuple handling of iterables
+* Added more detail to README
+* Implemented UrlPath
+* Updated readme
+* Added sample
+* Added sample
+* Added basics of Operation
+* Added base API
+* Added Request/Response classes
+* Added additional constants
+* Initial commit
