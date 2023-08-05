@@ -1,0 +1,11 @@
+pytropd/TropD_Example_Calculations.py,sha256=QHVcKpC6LbI925h66bjYxvkLHI8H_P9-ahYeMmEFax0,44226
+pytropd/__init__.py,sha256=tTUe0GYvGxcU-CImxV5m3xwietrpfwFAJrg3OrdS-hk,22
+pytropd/functions.py,sha256=2FX2WMkMX4x2UTmaHObo64j39l7Bs3PJWI3O-aWoH20,7353
+pytropd/metrics.py,sha256=DTLBeOotmQkNvEO6J8gmUm6ZmPT5AfiN9h9JmKZs0Rs,27579
+pytropd/tutorial.py,sha256=UnU_Py9lrdagLYfTyOSpGnphd8hkyKxgqv41DeNTTGQ,585
+pytropd-1.0.0.dist-info/DESCRIPTION.rst,sha256=jGQ8sMgYRkLAo1yHdYn6IrtUyoEB4D1gxBaXnt_kEcA,145
+pytropd-1.0.0.dist-info/METADATA,sha256=GYtQVlP4BNjIp_nYEJXaFT2YYTgzsQyRnBdfa0wAsUU,472
+pytropd-1.0.0.dist-info/RECORD,,
+pytropd-1.0.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pytropd-1.0.0.dist-info/metadata.json,sha256=oxVxvywVDc-WFGhmfLUeyT9mTB3pVUSjDIJ5o5DM6dM,452
+pytropd-1.0.0.dist-info/top_level.txt,sha256=esllUxZcmL0rp6JEC98I1UZ9XJohDeuENfexjrkmA30,8
