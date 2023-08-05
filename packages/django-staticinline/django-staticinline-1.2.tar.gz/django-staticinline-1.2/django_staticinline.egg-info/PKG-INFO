@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: django-staticinline
+Version: 1.2
+Summary: Django template tag to load static files inline with your template.
+Home-page: https://github.com/bartTC/django-staticinline
+Author: Martin Mahner
+Author-email: martin@mahner.org
+License: MIT
+Description: .. image:: https://travis-ci.org/bartTC/django-staticinline.svg?branch=master
+            :target: https://travis-ci.org/bartTC/django-staticinline
+        
+        .. image:: https://api.codacy.com/project/badge/Coverage/8e64345e99ea49888dc1bd9303c89a35
+            :target: https://www.codacy.com/app/bartTC/django-staticinline?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bartTC/django-staticinline&amp;utm_campaign=Badge_Coverage
+        
+        .. image:: https://api.codacy.com/project/badge/Grade/8e64345e99ea49888dc1bd9303c89a35
+            :target: https://www.codacy.com/app/bartTC/django-staticinline?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bartTC/django-staticinline&amp;utm_campaign=Badge_Grade
+        
+        ===================
+        django-staticinline
+        ===================
+        
+        Similiar to Django's ``static`` templatetag, but this includes
+        the file directly in the template, rather than a link to it.
+        
+        Example:
+        
+        .. code:: django
+        
+            {% load staticinline %}
+        
+            <style type="text/css">{% staticinline "myfile.css" %}</style>
+            <script>{% staticinline "myfile.js" %}</script>
+        
+        Becomes:
+        
+        .. code:: html
+        
+            <style type="text/css">body{ color: red; }</style>
+            <script>alert("Hello World");</script>
+        
+        For further information and installation instructions see the docs on
+        https://docs.elephant.house/django-staticinline/.
+        
+        =========
+        Changelog
+        =========
+        
+        
+        (master)
+        ========
+        
+        - Added support for Django 2.1 and Python 3.7.
+        - Added proper documentation.
+        - Added ``sri`` (Subresource Integrity) encoder to generate a sha256 for a given file.
+        
+        v1.1 (2018-08-09)
+        =================
+        
+        - Added support for custom data encoders to modify file content on the fly.
+        - Added ``data`` and ``base64`` encoders, both convert data into base64.
+        
+        v1.0 (2018-04-29)
+        =================
+        
+        - Initial release.
+Keywords: django,staticfiles,inline,performance
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: Django
+Provides-Extra: test
