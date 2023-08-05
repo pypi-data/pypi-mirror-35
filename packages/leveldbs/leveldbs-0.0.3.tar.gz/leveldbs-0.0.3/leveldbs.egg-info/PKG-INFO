@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: leveldbs
+Version: 0.0.3
+Summary: time and path tool
+Home-page: https://github.com/infinityfuture/leveldb-server
+Author: infinityfuture
+Author-email: infinityfuture@foxmail.com
+License: MIT Licence
+Description: time and path tool
+Keywords: pip,leveldb
+Platform: any
