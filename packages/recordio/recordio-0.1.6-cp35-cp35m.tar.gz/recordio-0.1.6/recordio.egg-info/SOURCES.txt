@@ -1,0 +1,9 @@
+setup.py
+recordio/__init__.py
+recordio/librecordio.so
+recordio/recordio.py
+recordio/recordio_test.py
+recordio.egg-info/PKG-INFO
+recordio.egg-info/SOURCES.txt
+recordio.egg-info/dependency_links.txt
+recordio.egg-info/top_level.txt
