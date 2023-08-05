@@ -1,0 +1,8 @@
+slackutils/__init__.py,sha256=hKXS-Mmn-DdtOqL912Nc7BIW1nUSBB6BBgTpn9tSg_M,38
+slackutils/_shared.py,sha256=asIiVg_golJ5Dbhdl0J63HAwvA_qa6qRN2t4RC_4_M4,805
+slackutils/conversations.py,sha256=3mnu74XY2gAUaDBm1K0PNpLdu29QnZ-XyBCxk370F2A,1045
+slackutils/users.py,sha256=4XqGp-UPAWNoKxYIJwnAUubW0pwPjCV-yyZCjLwaCW4,698
+slackutils-0.0.1.dist-info/METADATA,sha256=AUBns3cssfVgCP_TlHQkifhAgGWI0qSUf5R1bwZ9Zrg,1566
+slackutils-0.0.1.dist-info/RECORD,,
+slackutils-0.0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+slackutils-0.0.1.dist-info/top_level.txt,sha256=dpUMV87t0rAXDeUYDeb_HclUGSLnF6Nyshj0lR1Jr4Y,11
