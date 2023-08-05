@@ -1,0 +1,4 @@
+stsci.tools
+numpy>=1.5.1
+astropy>=1.0
+scipy
