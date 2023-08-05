@@ -1,0 +1,7 @@
+aws_cred_gen-0.0.5.dist-info/METADATA,sha256=VKiahd1SBCaKNVZiIDBEwaGg49rZsvAcZRgUU2vB2MA,409
+aws_cred_gen-0.0.5.dist-info/RECORD,,
+aws_cred_gen-0.0.5.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+aws_cred_gen-0.0.5.dist-info/entry_points.txt,sha256=hkaLGL_sCCPk8rPXUdUcU492HDbGD7wgxrVym6bYZ_M,103
+aws_cred_gen-0.0.5.dist-info/top_level.txt,sha256=T1R_FiMhJB0Tckh56oC710-VC6SNOvhNY8vii7BQzpA,19
+aws_cred_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_cred_generator/cli.py,sha256=3ZsdAZI_KSJUsyKkGMN3J4zQ5RQYGKJarovpvNpxxTc,5737
