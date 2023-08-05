@@ -1,0 +1,11 @@
+README.md
+setup.py
+FileGadget/FileProcess.py
+FileGadget/__init__.py
+GadgetBag/__init__.py
+GadgetBag/mydyplib.py
+GadgetBag.egg-info/PKG-INFO
+GadgetBag.egg-info/SOURCES.txt
+GadgetBag.egg-info/dependency_links.txt
+GadgetBag.egg-info/top_level.txt
+WebGadget/__init__.py
