@@ -1,0 +1,9 @@
+pypairs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypairs/cyclone.py,sha256=8m_UfycisAFHO3fay4MXzhSqgsrYz_PdcWKcRnTJw5U,5802
+pypairs/helper.py,sha256=NzvUjcP6kf-jYfXrfTAgS58WnTcRQ1BPbsfb-BwmJfo,5696
+pypairs/sandbag.py,sha256=RS9TXcw0niK_bcfFqvA8qJpk844pq9oaD1b7viXg-b4,7997
+pypairs/wrapper.py,sha256=Wp8Ag15Eux7O1s6u7IVKcPYlwYwji4zPg1KWt-I_X60,1681
+pypairs-2.0.0.dist-info/METADATA,sha256=_GeKOK06AYdbPbuRB7EZfmkXqzWZnT_LTc4-j67FKQQ,349
+pypairs-2.0.0.dist-info/RECORD,,
+pypairs-2.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pypairs-2.0.0.dist-info/top_level.txt,sha256=vBL33gdEjoz8zp2FHRS6dQtBinKNSNSqG1ySZRmM00I,8

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pypairs
+Version: 2.0.0
+Summary: A Python-reimplementation of the Pairs algorithm described by A. Scialdone et al. (2015)
+Home-page: https://github.com/rfechtner/pypairs
+Author: Ron Fechtner
+Author-email: ronfechtner@gmail.com
+License: https://github.com/rfechtner/pypairs/blob/master/LICENSE
+Platform: UNKNOWN
+
+UNKNOWN
+
+
