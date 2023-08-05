@@ -1,0 +1,10 @@
+{% extends "fakenews/web-base.html" %}
+{% load static %}
+
+{% block content %}
+<div id="app" class="react-app"></div>
+{% endblock %}
+
+{% block app %}
+<script type="text/javascript" src="{% static 'fakenews/js/main-web.js' %}"></script>
+{% endblock %}
