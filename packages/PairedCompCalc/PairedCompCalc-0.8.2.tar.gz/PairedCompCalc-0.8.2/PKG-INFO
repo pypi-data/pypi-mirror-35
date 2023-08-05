@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: PairedCompCalc
+Version: 0.8.2
+Summary: Statistical Analysis of Experimental Paired-Comparison Data
+Home-page: UNKNOWN
+Author: Arne Leijon
+Author-email: leijon@kth.se
+License: MIT
+Description: Package **PairedCompCalc** implements probabilistic Bayesian analysis
+        of Paired-Comparison data collected from psycho-physical experiments.
+        Paired comparisons are used, for example,
+        to evaluate the subjective sound quality of two or more different hearing aids
+        or other sound-transmission instruments or algorithms,
+        or other quality aspects of any multimedia presentations.
+        
+        The analysis model estimates quality parameters numerically on an objective *interval scale*,
+        although the raw input data are *subjective*
+        and indicate only an *ordinal ranking* for each presented pair.
+        
+        ## Paired-comparison Experiments
+        In a paired-comparison test procedure, each presentation includes exactly two test items,
+        and the test participant indicates a binary or graded judgment
+        about which of the two items is better in terms of the *perceptual attribute*
+        being investigated.
+        The perceptual attribute might be, for example, *speech clarity*, *sound quality*,
+        or whatever is specified by the instructions to participants.
+        The paired-comparison procedure can be applied
+        even if the difference between tested systems is very subtle,
+        even so small that the difference is hardly detectable at all.
+        
+        Data can be collected either in controlled *laboratory sessions*,
+        or by *Ecological Momentary Assessment (EMA)*, where each subject
+        evaluates the tested systems, e.g., hearing-aid programs,
+        while using them normally in real life.
+        
+        The package can analyse data from simple or quite complex experimental designs,
+        including the following features:
+        
+        1. The experiment must include two or more **Test Systems** (A, B, C, etc.).
+            The analysis results will show quality parameters for all systems,
+            but the first system will always be used as a reference with quality = 0,
+            because the zero point on the scale is arbitrary.
+        
+        1. One or more distinct **Participant Groups** may be included.
+            The analysis will show systematic differences between groups.
+        
+        1. One or more **Perceptual Attributes** may be evaluated.
+            The analysis will show correlations between different attributes.
+        
+        1. Response data may be collected in one or more distinct **Test Conditions**.
+            Each test condition may be a combination of categories from one or more *Test Factors*.
+            For example, one test factor may be *Stimulus Type*,
+            with categories *Speech*, or *Music*.
+            Another test factor may be, e.g.,
+            *Background*, with categories *Quiet*, or *Weak Noise*, or *Loud Noise*.
+            The analysis will show quality differences between categories within each test factor.
+        
+        1. The subjects' **Responses** may be either *binary*, e.g.,
+            *B better than A*, or include an *ordinal magnitude label* of the perceived difference, e.g.,
+            *no difference*, *slightly better*, or *much better*.
+        
+        1. The analysis model does not require anything about the number of
+            replicated judgments for each pair.
+            Of course, the reliability is improved if there are
+            many test participants, each giving many judgments
+            for each pair of systems.
+            The analysis estimates the *statistical credibility*
+            of any observed quality differences,
+            given the amount of collected data.
+        
+        ## Package Documentation
+        General information is given in the package doc-string that may be accessed by command
+        `help(PairedCompCalc)`.
+        
+        Specific information about the organisation and accepted formats of input data files
+        is presented in the doc-string of module pc_data, accessible via `help(PairedCompCalc.pc_data)`.
+        
+        After running an analysis, the logging output briefly explains
+        the analysis results presented in figures and tables.
+        
+        ## Usage
+        1. Install the most recent package version:
+            `python3 -m pip install --upgrade PairedCompCalc`
+        
+        1. Copy the template script `run_pc.py`, rename it, and
+            edit the copy as suggested in the template, to specify
+            - your experimental layout,
+            - the top input data directory,
+            - a directory where all output result files will be stored.
+        
+        1. Run your edited script: `python3 run_my_pc.py`.
+        
+        ## Requirements
+        This package requires Python 3.6 with Numpy, Scipy, and Matplotlib,
+        as well as a support package samppy.
+        The pip installer will check and install the required packages if needed.
+        
+        ## References
+        A. Leijon, M. Dahlquist, and K. Smeds (2018).
+        Bayesian analysis of paired-comparison sound quality ratings.
+        *Manuscript in preparation*.
+        
+        K. Smeds, F. Wolters, J. Larsson, P. Herrlin, and M. Dahlquist (2018).
+        Ecological momentary assessments for evaluation of hearing-aid preference.
+        *J Acoust Soc Amer* 143(3):1742–1742. [download](https://asa.scitation.org/doi/10.1121/1.5035685)
+        
+        M. Dahlquist and A. Leijon (2003).
+        Paired-comparison rating of sound quality using MAP parameter estimation for data analysis.
+        In *First ISCA Tutorial and Research Workshop on Auditory Quality of Systems*,
+        Mont-Cenis, Germany. [download](https://www.isca-speech.org/archive_open/aqs2003/aqs3_079.html)
+        
+        This Python package is a re-implementation and generalization of a similar MatLab package,
+        developed by Arne Leijon for *ORCA Europe, Widex A/S, Stockholm, Sweden*.
+        The MatLab development was financially supported by *Widex A/S, Denmark*.
+        
+        
+Keywords: Paired-comparison Bayesian psycho-acoustics
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Multimedia :: Sound/Audio
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
