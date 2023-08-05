@@ -1,0 +1,10 @@
+graphene_django_optimizer/__init__.py,sha256=TxWJFqi4Qzq5kT8hyo08KwMyVwyjj7ecEwmwZG9TJxw,129
+graphene_django_optimizer/field.py,sha256=rGjludNsZz33cYbFTQD4hPCeHFFnXdy4RvN0Dc2whoQ,627
+graphene_django_optimizer/hints.py,sha256=fKJ1RuDhWXSEGFyAgTqMLi-BmRtJNLHsNDUEKpMRTRs,670
+graphene_django_optimizer/query.py,sha256=21R3XAxxM393Gk2jdWh0i41T_16vVPUrmw3oi2IpMLM,13039
+graphene_django_optimizer/resolver.py,sha256=9OGHwySQzghzCExY9ZRf3HzNSPUh5Jx0WLpsE-XNxOM,291
+graphene_django_optimizer/utils.py,sha256=sZXWQMwWF7TRwIeWcjxi6yunWhS6-Yn1FnUv4cBkPeQ,125
+graphene_django_optimizer-0.3.0.dist-info/METADATA,sha256=xXaGyhNsqO6q6kpeHwloYn9D1hbw3FUaS5E-XPyh7_s,4048
+graphene_django_optimizer-0.3.0.dist-info/RECORD,,
+graphene_django_optimizer-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+graphene_django_optimizer-0.3.0.dist-info/top_level.txt,sha256=xQIPDdHeM_-u-A_2rlRYf8p0vun4-8P0Zm5Q5FaDFus,26
