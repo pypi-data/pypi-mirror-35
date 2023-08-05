@@ -1,0 +1,10 @@
+pyoslapi/__init__.py,sha256=6qtn4MXdf0yA9aA167g2Yootqn0lXPLDDpKeRP3ldbU,18
+pyoslapi/client.py,sha256=S7qM0GyJ0Z1Ywpwt40OEsYaLGP7wBwqsAlErdQ7kSng,1721
+pyoslapi/consts.py,sha256=lt8mZJ--9s8iTIYL0PF5GSSEalQ36NAK8Gv-ReYyAYI,426
+pyoslapi/errors.py,sha256=huX6ZuyGhW4dD682m1PbWlszdGnJ7DsEnZmyAbkq1OA,255
+pyoslapi/license.py,sha256=CV-ZiJHJW-T-qPMrNxA2J9tqteBi5Y3Nfum_d1gMciw,760
+pyoslapi/util.py,sha256=CoIB0t48b5pr71Q2oHXRtKY8pcuTAtZ1BHJhsUsl8Y8,2953
+pyoslapi-0.0.1.dist-info/METADATA,sha256=I1WUNpVt7ame9YMRbuaSmxt6J8MdFKXiYC0r2kCNQOY,1233
+pyoslapi-0.0.1.dist-info/RECORD,,
+pyoslapi-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pyoslapi-0.0.1.dist-info/top_level.txt,sha256=askRurbsKFHnm3X4zOkylXabse1Y0E1XmdK4VLQ0erg,9
