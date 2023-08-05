@@ -1,0 +1,9 @@
+pandas
+numpy<1.15.0
+pytz
+logbook
+astor
+trading_calendars
+click
+PyYAML
+alpaca-trade-api
