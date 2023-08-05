@@ -1,0 +1,7 @@
+README.md
+setup.py
+fuck_python_str.egg-info/PKG-INFO
+fuck_python_str.egg-info/SOURCES.txt
+fuck_python_str.egg-info/dependency_links.txt
+fuck_python_str.egg-info/top_level.txt
+fuck_str/__init__.py
