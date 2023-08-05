@@ -1,0 +1,6 @@
+[console_scripts]
+pyfocus = pylava.main:shell
+
+[pytest11]
+pylava = pylava.pytest
+
