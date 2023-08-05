@@ -1,0 +1,7 @@
+README.md
+setup.py
+xmlrpccomp/__init__.py
+xmlrpccomp.egg-info/PKG-INFO
+xmlrpccomp.egg-info/SOURCES.txt
+xmlrpccomp.egg-info/dependency_links.txt
+xmlrpccomp.egg-info/top_level.txt
