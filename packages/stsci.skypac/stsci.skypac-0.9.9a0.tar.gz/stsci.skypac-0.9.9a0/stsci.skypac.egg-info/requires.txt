@@ -1,0 +1,5 @@
+astropy
+numpy
+spherical_geometry
+stsci.tools
+stwcs
