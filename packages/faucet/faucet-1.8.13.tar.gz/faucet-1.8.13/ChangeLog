@@ -1,0 +1,138 @@
+CHANGES
+=======
+
+1.8.13
+------
+
+* Better GlobalRouting test
+* Disable global routing optimzation by default
+* Clarify ND advert log message
+* Don't need in port match on table 7, static pipeline
+* Dump table IDs, correct NF static pipeline
+* pytype
+* pylint
+* Bump version
+* Add TODO for optimization
+* Limit global router test
+* /Enable global router test
+* skeleton FaucetTaggedGlobalIPv4RouteTest
+* Clean up ScaleTest
+* Update pytype from 2018.6.19 to 2018.8.10
+* index out of range exception
+* Correct port\_acl enabled test
+* skip port\_acl if not configured
+* pylint
+* Don't configure port\_acl table if not present
+* true -> True
+* proactive learn v4 true
+* \_global\_routing
+* Docs
+* Conflict with scale test
+* Only bootstrap VLAN from VIP if using global router VID
+* ipaddresses need to be strings for notify
+* ND solicit handler should consider src\_ip
+* self.dp.global\_vlan
+* Make global\_vlan configurable
+* Incremental global router implementation
+* use clib\_mininet\_tests.py after rename
+* Add placeholder AnyVLAN
+* Don't flap port state yet for LACP
+* Should wait for port down before confirming LACP status
+* flap switch ports during LACP test
+* Fix broken port\_lacp\_status Prometheus variable
+* verify\_no\_bcast\_to\_self() should check NSs aren't looped
+* Wider use of unicast loop test
+* Wider broadcast test
+* pytype false positive on FileNotFoundError
+* Disable state keeping for LINK\_LOCAL unless a host is a gateway
+* Add faucet Raspberry Pi image documentation/tutorial
+* Revert "Maintain link local FIB, but do not write FIB entries to DP - we don't want to provide a routing service."
+* Maintain link local FIB, but do not write FIB entries to DP - we don't want to provide a routing service
+* Stack destinations must be learned at root
+* Add traveling MAC test to stacks
+* Can't verify output of scapy
+* TODO for traveling mac test
+* Implement traveling DHCP request (host moves between all ports)
+* Use scapy template
+* Speed up test startup
+* Handle missed down event on a port flap
+* Unnecessary port down before port up, on port that was already down previously. Log port description with state changes
+* pylint
+* Check for overlapping VIP subnets in routers
+* Rename clib
+* Move stacked hosts around
+* Don't package TFM files
+* Tidy unneeded TFM items from documentation
+* Revert "Disable live changes to stack topology."
+* Revert "Rollback stack topology calculation."
+* Preversion 1.8.13
+
+1.8.12
+------
+
+* Rollback stack topology calculation
+* Disable live changes to stack topology
+* Need to merge masks where mask present overrides always
+* LINK\_LOCAL for v4
+* Bump version for release
+* Add link local VIPs to FaucetUntaggedIPv6InterVLANRouteTest
+* Do not inter-VLAN route IPv6 link local subnets
+* More thorough check that a dst\_ip is not a VIP on any VLAN
+* Add comment re future eth\_type table
+* JSON files gone
+* Move TFM table size configuration in to DP. Remove obsolete per-Valve JSON
+* Update ryu from 4.26 to 4.27
+* Update ryu from 4.26 to 4.27
+* Make eth\_dst exact match
+* eth\_dst is now exact match
+* Simplify MAC learning
+* Configure miss flow for eth\_dst to flood
+* coverage for get\_config\_dict()
+* Remove unused all\_valve\_tables()
+* Delete unused TFM parser
+* All TFM properties now dynamically generated
+* Remove more OFPTFPT\_APPLY\_ACTIONS
+* Simplify verify\_flowmod()
+* Fix priority 0 flowmod check
+* pylint
+* OFPTFPT\_APPLY\_ACTIONS automatically generated
+* ACLs can enable meter TFM
+* Handle TypeError from ofctl
+* Run time check for exact match tables
+* Move coverage file location
+* Clean up by IPV helpers, remove unnecessary dyn attributes
+* Conf objects make more attributes immutable
+* Use metrics helper
+* Use readlink -f
+* Move LLDP code out of valve.py
+* Type check FAUCET LLDP TLVs
+* Test for stack islands
+* pylint
+* Port ACL table could unnecessarily require VLAN VID match
+* Incorrect set\_fields set for VLAN ACL table
+* allow: 1 should work with output: ACL actions
+* update unit test
+* Mininet test for the correctness of stack loop prevention
+* extend string of stack topo to support ring topo
+* update unit tests
+* Remove "has\_changed" state
+* Do not update stack-graph on dp connect/disconnect events
+* Test on stack graph update on topology changes
+* Add port option to rcv\_lldp
+* Update stack graph upon link-state events
+* Call Valves to update stack graph
+* Explicitly drop ECTP (eth type 0x9000). q.v. https://mail.openvswitch.org/pipermail/ovs-dev/2016-June/316970.html
+* Don't delete flows for ports in the same LACP controlled LAG
+* remove duplicate VID VLANs
+* Revert "Revert "Prevent duplicate VLAN VID.""
+* Fix missing ACL log message
+* Fix compatibility with sphinx 1.7.6+
+* Reduce min coverage to 92
+* Preversion 1.8.12
+
+1.8.11
+------
+
+* Use copy of generated tables
+* Update sphinx\_rtd\_theme from 0.4.0 to 0.4.1
+* Update sphinx from 1.7.5 to 1.7.6
