@@ -1,0 +1,2 @@
+django>=1.11
+scrapy-calaccess-crawler>=0.0.1
