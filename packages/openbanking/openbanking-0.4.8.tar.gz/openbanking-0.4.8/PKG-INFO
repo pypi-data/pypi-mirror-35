@@ -1,0 +1,24 @@
+Metadata-Version: 1.0
+Name: openbanking
+Version: 0.4.8
+Summary: Python 3 client SDK for UK Open Banking.
+Home-page: https://getopenbanking.com/
+Author: Glyn Jackson
+Author-email: me@glynjackson.org
+License: MIT
+Description: Python 3 client SDK for UK Open Banking.
+        ========================================
+        
+        A Python SDK for Open Banking (alpha).
+        
+        The Open Banking Python SDK is designed to be the simplest way possible to make interact with
+        Open Banking UK Model Banks.
+        
+        Documentation
+        -------------
+        
+        Full documentation at http://www.getopenbanking.com
+        
+        
+Keywords: openbanking,open banking,banking api,open banking uk,open banking sdk
+Platform: UNKNOWN
