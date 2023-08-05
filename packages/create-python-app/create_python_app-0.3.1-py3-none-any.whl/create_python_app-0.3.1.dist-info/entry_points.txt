@@ -1,0 +1,3 @@
+[console_scripts]
+create_python_app = create_python_app.main:main
+
