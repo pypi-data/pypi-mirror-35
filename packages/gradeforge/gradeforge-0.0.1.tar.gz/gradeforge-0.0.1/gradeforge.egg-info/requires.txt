@@ -1,0 +1,8 @@
+lxml<=4.2.1
+requests
+flask
+selenium
+pandas<=0.23.0
+matplotlib
+xlsx2csv
+pylint
