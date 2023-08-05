@@ -1,0 +1,7 @@
+README.md
+setup.py
+xirasol.egg-info/PKG-INFO
+xirasol.egg-info/SOURCES.txt
+xirasol.egg-info/dependency_links.txt
+xirasol.egg-info/requires.txt
+xirasol.egg-info/top_level.txt
