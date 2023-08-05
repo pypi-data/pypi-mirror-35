@@ -1,0 +1,9 @@
+README.md
+setup.py
+strpipe/__init__.py
+strpipe.egg-info/PKG-INFO
+strpipe.egg-info/SOURCES.txt
+strpipe.egg-info/dependency_links.txt
+strpipe.egg-info/top_level.txt
+strpipe/tests/__init__.py
+strpipe/tests/test_dummy.py
