@@ -1,0 +1,41 @@
+# This is a sample build configuration for Python.
+# Check our guides at https://confluence.atlassian.com/x/x4UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: python:3.5.1
+
+.stepdefs:
+  - build: &builddef
+      name: Build package
+      caches:
+        - pip
+      script:
+        - python3 -m pip install --user --upgrade setuptools wheel
+        - python3 setup.py sdist bdist_wheel
+      artifacts:
+        - dist/**
+
+pipelines:
+  default:
+    - step: *builddef
+    - step:
+        name: Deploy to TestPyPi
+        deployment: test
+        caches:
+          - pip
+        script:
+          - python3 -m pip install --user --upgrade twine
+          - python3 -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
+  tags:
+    '**':
+      - step: *builddef
+      - step:
+          name: Deploy to production PyPi
+          deployment: production
+          caches:
+            - pip
+          script:
+            - python3 -m pip install --user --upgrade twine
+            - python3 -m twine upload dist/*
