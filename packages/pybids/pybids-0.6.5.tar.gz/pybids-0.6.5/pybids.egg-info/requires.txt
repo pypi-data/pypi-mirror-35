@@ -1,0 +1,10 @@
+grabbit>=0.2.3
+six
+num2words
+numpy
+scipy
+pandas
+nibabel
+patsy
+
+[analysis]
