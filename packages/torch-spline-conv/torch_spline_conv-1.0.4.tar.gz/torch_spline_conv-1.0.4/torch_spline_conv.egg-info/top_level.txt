@@ -1,0 +1,6 @@
+basis_cpu
+basis_cuda
+test
+torch_spline_conv
+weighting_cpu
+weighting_cuda
