@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: digcommpy
+Version: 0.1
+Summary: Package for digitial communications functions
+Home-page: https://gitlab.com/klb2/digcommpy
+Author: Karl Besser
+Author-email: karl-ludwig.besser@tu-dresden.de
+License: BSD
+Description: Python3 package for digital communications simulations.
+        
+        It includes channel coding and different channel models. Simulations can be run
+        to calculate bit/block error rates for different configurations.
+        
+Platform: UNKNOWN
