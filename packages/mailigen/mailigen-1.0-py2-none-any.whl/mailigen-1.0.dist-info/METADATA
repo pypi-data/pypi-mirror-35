@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mailigen
+Version: 1.0
+Summary: Python wrapper for the MailiGen API
+Home-page: http://admin.mailigen.lv/settings/api
+Author: Juris
+Author-email: suppport@mailigen.com
+License: New BSD License
+Keywords: email mail mailinglist newsletter
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+UNKNOWN
+
+
