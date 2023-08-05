@@ -1,0 +1,426 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+# bank
+msgctxt "field:bank,fintsblz:"
+msgid "Bank code"
+msgstr "Bank code"
+
+msgctxt "help:bank,fintsblz:"
+msgid "Bank code of your bank (not the BIC)"
+msgstr "Bank code of your bank (not the BIC)"
+
+
+msgctxt "field:bank,fintsurl:"
+msgid "FinTS-URL"
+msgstr "FinTS-URL"
+
+msgctxt "help:bank,fintsurl:"
+msgid "URL for accessing the FinTS interface of your bank"
+msgstr "URL for accessing the FinTS interface of your bank"
+
+msgctxt "view:bank:"
+msgid "FinTS-URL: Visit https://www.hbci-zka.de/institute/institut_auswahl.htm to get the right URL for your bank."
+msgstr "FinTS-URL: Visit https://www.hbci-zka.de/institute/institut_auswahl.htm to get the right URL for your bank."
+
+msgctxt "view:bank:"
+msgid "- use the 'PIN/TAN-URL' specified there"
+msgstr "- use the 'PIN/TAN-URL' specified there"
+
+msgctxt "view:bank:"
+msgid "- the 'PIN/TAN Version' of your bank should be 'FinTS V3.0'"
+msgstr "- the 'PIN/TAN Version' of your bank should be 'FinTS V3.0'"
+
+
+# bank.account
+msgctxt "field:bank.account,owners_text:"
+msgid "Owners"
+msgstr "Owners"
+
+
+# bank.account.number
+msgctxt "error:bank.account.number:"
+msgid "This name is already in use."
+msgstr "This name is already in use."
+
+msgctxt "field:bank.account.number,fints_login:"
+msgid "FinTS-Login"
+msgstr "FinTS-Login"
+
+msgctxt "help:bank.account.number,fints_login:"
+msgid "Login name to access your bank account."
+msgstr "Login name to access your bank account."
+
+msgctxt "field:bank.account.number,fints_pin:"
+msgid "FinTS-PIN"
+msgstr "FinTS-PIN"
+
+msgctxt "help:bank.account.number,fints_pin:"
+msgid "Your PIN to the login name, leave blank if you want to be asked on every access."
+msgstr "Your PIN to the login name, leave blank if you want to be asked on every access."
+
+msgctxt "field:bank.account.number,fints_ena:"
+msgid "Enable online access"
+msgstr "Enable online access"
+
+msgctxt "field:bank.account.number,fints_name:"
+msgid "Statement name"
+msgstr "Statement name"
+
+msgctxt "help:bank.account.number,fints_name:"
+msgid "Name to be used for bank statements"
+msgstr "Name to be used for bank statements"
+
+
+# wizard: account_statement_fints.wiz_checkbankaccess
+msgctxt "error:account_statement_fints.wiz_checkbankaccess:"
+msgid "FinTS: The access-check must be done from an account number."
+msgstr "FinTS: The access-check must be done from an account number."
+
+msgctxt "error:account_statement_fints.wiz_checkbankaccess:"
+msgid "FinTS: no account numbers available for testing."
+msgstr "FinTS: no account numbers available for testing."
+
+msgctxt "error:account_statement_fints.wiz_checkbankaccess:"
+msgid "FinTS: The FinTS URL for the bank '%s' is not set. Please complete this setting."
+msgstr "FinTS: The FinTS URL for the bank '%s' is not set. Please complete this setting."
+
+msgctxt "view:account_statement_fints.wiz_checkbankaccess.enterpin:"
+msgid "Enter the PIN for the account:"
+msgstr "Enter the PIN for the account:"
+
+msgctxt "model:ir.action,name:act_checkbankaccess_wizard"
+msgid "check online connection"
+msgstr "check online connection"
+
+msgctxt "wizard_button:account_statement_fints.wiz_checkbankaccess,enterpin,end:"
+msgid "Cancel"
+msgstr "Cancel"
+
+msgctxt "wizard_button:account_statement_fints.wiz_checkbankaccess,enterpin,testconnection:"
+msgid "Test connection"
+msgstr "Test connection"
+
+msgctxt "wizard_button:account_statement_fints.wiz_checkbankaccess,checkresult,end:"
+msgid "Close"
+msgstr "Close"
+
+msgctxt "wizard_button:account_statement_fints.wiz_checkbankaccess,checkresult,selnext:"
+msgid "next connection"
+msgstr "next connection"
+
+# wizard view: wiz_checkbankaccess.enterpin
+msgctxt "field:account_statement_fints.wiz_checkbankaccess.enterpin,accountnum:"
+msgid "Bank Account Number"
+msgstr "Bank Account Number"
+
+msgctxt "field:account_statement_fints.wiz_checkbankaccess.enterpin,fintspin:"
+msgid "PIN"
+msgstr "PIN"
+
+msgctxt "field:account_statement_fints.wiz_checkbankaccess.enterpin,bankname:"
+msgid "Bank"
+msgstr "Bank"
+
+# wizard view: account_statement_fints.wiz_checkbankaccess.checkresult
+msgctxt "field:account_statement_fints.wiz_checkbankaccess.checkresult,accountnum:"
+msgid "Bank Account Number"
+msgstr "Bank Account Number"
+
+msgctxt "field:account_statement_fints.wiz_checkbankaccess.checkresult,resultstate:"
+msgid "Result"
+msgstr "Result"
+
+msgctxt "selection:account_statement_fints.wiz_checkbankaccess.checkresult,resultstate:"
+msgid "Successful"
+msgstr "Successful"
+
+msgctxt "selection:account_statement_fints.wiz_checkbankaccess.checkresult,resultstate:"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "field:account_statement_fints.wiz_checkbankaccess.checkresult,infotxt:"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "field:account_statement_fints.wiz_checkbankaccess.checkresult,bankname:"
+msgid "Bank"
+msgstr "Bank"
+
+
+# wizard: wiz_import
+msgctxt "model:ir.action,name:act_import_wizard"
+msgid "Import bank statements online"
+msgstr "Import bank statements online"
+
+msgctxt "model:ir.ui.menu,name:menu_import_wizard"
+msgid "Import bank statements online"
+msgstr "Import bank statements online"
+
+msgctxt "wizard_button:account_statement_fints.wiz_import,selaccount,end:"
+msgid "Cancel"
+msgstr "Cancel"
+
+msgctxt "wizard_button:account_statement_fints.wiz_import,selaccount,importstart:"
+msgid "Start import"
+msgstr "Start import"
+
+msgctxt "wizard_button:account_statement_fints.wiz_import,enterdata,end:"
+msgid "Cancel"
+msgstr "Cancel"
+
+msgctxt "wizard_button:account_statement_fints.wiz_import,enterdata,importstatement:"
+msgid "Import statement"
+msgstr "Import statement"
+
+msgctxt "wizard_button:account_statement_fints.wiz_import,checkresult,end:"
+msgid "Close"
+msgstr "Close"
+
+msgctxt "wizard_button:account_statement_fints.wiz_import,checkresult,selnext:"
+msgid "next statement"
+msgstr "next statement"
+
+msgctxt "wizard_button:account_statement_fints.wiz_import,checkresult,shownewstatements:"
+msgid "show bank statements"
+msgstr "show bank statements"
+
+msgctxt "error:account_statement_fints.wiz_import:"
+msgid "Please choose a bank account."
+msgstr "Please choose a bank account."
+
+
+# wizard view: account_statement_fints.wiz_import.selaccounts
+msgctxt "view:account_statement_fints.wiz_import.selaccounts:"
+msgid "All bank accounts with online access are selected for picking up the bank statements."
+msgstr "All bank accounts with online access are selected for picking up the bank statements."
+
+msgctxt "view:account_statement_fints.wiz_import.selaccounts:"
+msgid "Click on the bank accounts for which you do not want to pick up bank statements."
+msgstr "Click on the bank accounts for which you do not want to pick up bank statements."
+
+msgctxt "field:account_statement_fints.wiz_import.selaccounts,accountnumbers:"
+msgid "Accounts numbers"
+msgstr "Accounts numbers"
+
+
+# wizard view: account_statement_fints.wiz_import.enterdata
+msgctxt "view:account_statement_fints.wiz_import.enterdata:"
+msgid "Enter the PIN for the account:"
+msgstr "Enter the PIN for the account:"
+
+msgctxt "view:account_statement_fints.wiz_import.enterdata:"
+msgid "Load bank statement for the following bank account"
+msgstr "Load bank statement for the following bank account"
+
+msgctxt "view:account_statement_fints.wiz_import.enterdata:"
+msgid "Parameters for loading the bank statement"
+msgstr "Parameters for loading the bank statement"
+
+msgctxt "field:account_statement_fints.wiz_import.enterdata,accountnum:"
+msgid "Bank Account Number"
+msgstr "Bank Account Number"
+
+msgctxt "field:account_statement_fints.wiz_import.enterdata,bankname:"
+msgid "Bank"
+msgstr "Bank"
+
+msgctxt "field:account_statement_fints.wiz_import.enterdata,fintspin:"
+msgid "PIN"
+msgstr "PIN"
+
+msgctxt "field:account_statement_fints.wiz_import.enterdata,datestart:"
+msgid "Start date"
+msgstr "Start date"
+
+msgctxt "help:account_statement_fints.wiz_import.enterdata,datestart:"
+msgid "Start date for retrieving the bank statement. Automatically set to last end date minus 2 days."
+msgstr "Start date for retrieving the bank statement. Automatically set to last end date minus 2 days."
+
+msgctxt "field:account_statement_fints.wiz_import.enterdata,dateend:"
+msgid "End date"
+msgstr "End date"
+
+msgctxt "help:account_statement_fints.wiz_import.enterdata,dateend:"
+msgid "End date for retrieving the bank statement. Automatically set to 'Today'."
+msgstr "End date for retrieving the bank statement. Automatically set to 'Today'."
+
+msgctxt "field:account_statement_fints.wiz_import.enterdata,journal:"
+msgid "Journal"
+msgstr "Journal"
+
+msgctxt "help:account_statement_fints.wiz_import.enterdata,journal:"
+msgid "Bank statement journal for the current bank account."
+msgstr "Bank statement journal for the current bank account."
+
+msgctxt "field:account_statement_fints.wiz_import.enterdata,last_date:"
+msgid "last statement"
+msgstr "last statement"
+
+msgctxt "field:account_statement_fints.wiz_import.enterdata,last_balance:"
+msgid "last balance"
+msgstr "last balance"
+
+msgctxt "field:account_statement_fints.wiz_import.enterdata,skipknownlines:"
+msgid "Skip known bank statement lines"
+msgstr "Skip known bank statement lines"
+
+msgctxt "help:account_statement_fints.wiz_import.enterdata,skipknownlines:"
+msgid "The import will recognize bank statement lines that have already been saved and will not save them again."
+msgstr "The import will recognize bank statement lines that have already been saved and will not save them again."
+
+msgctxt "field:account_statement_fints.wiz_import.enterdata,linkinvoice:"
+msgid "Link invoices to bank statement lines"
+msgstr "Link invoices to bank statement lines"
+
+msgctxt "help:account_statement_fints.wiz_import.enterdata,linkinvoice:"
+msgid "The import will connect unpaid invoices with matching bank statement lines."
+msgstr "The import will connect unpaid invoices with matching bank statement lines."
+
+
+# wizard view: account_statement_fints.wiz_import.checkresult
+msgctxt "view:account_statement_fints.wiz_import.checkresult:"
+msgid "Bank balance"
+msgstr "Bank balance"
+
+msgctxt "view:account_statement_fints.wiz_import.checkresult:"
+msgid "Information about the bank statement"
+msgstr "Information about the bank statement"
+
+msgctxt "field:account_statement_fints.wiz_import.checkresult,resultstate:"
+msgid "Result"
+msgstr "Result"
+
+msgctxt "selection:account_statement_fints.wiz_import.checkresult,resultstate:"
+msgid "Successful"
+msgstr "Successful"
+
+msgctxt "selection:account_statement_fints.wiz_import.checkresult,resultstate:"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "selection:account_statement_fints.wiz_import.checkresult,resultstate:"
+msgid "Account not found"
+msgstr "Account not found"
+
+msgctxt "selection:account_statement_fints.wiz_import.checkresult,resultstate:"
+msgid "Successful: but no bank statement lines received from the bank."
+msgstr "Successful: but no bank statement lines received from the bank."
+
+msgctxt "selection:account_statement_fints.wiz_import.checkresult,resultstate:"
+msgid "Successful: No bank statement created. Only already known lines were received."
+msgstr "Successful: No bank statement created. Only already known lines were received."
+
+msgctxt "field:account_statement_fints.wiz_import.checkresult,accountnum:"
+msgid "Bank Account Number"
+msgstr "Bank Account Number"
+
+msgctxt "field:account_statement_fints.wiz_import.checkresult,balance_val:"
+msgid "Balance amount"
+msgstr "Balance amount"
+
+msgctxt "help:account_statement_fints.wiz_import.checkresult,balance_val:"
+msgid "Account balance transmitted by your bank"
+msgstr "Account balance transmitted by your bank"
+
+msgctxt "field:account_statement_fints.wiz_import.checkresult,balance_date:"
+msgid "Balance date"
+msgstr "Balance date"
+
+msgctxt "help:account_statement_fints.wiz_import.checkresult,balance_date:"
+msgid "Date of the account balance"
+msgstr "Date of the account balance"
+
+msgctxt "field:account_statement_fints.wiz_import.checkresult,nolines:"
+msgid "Number of lines"
+msgstr "Number of lines"
+
+msgctxt "help:account_statement_fints.wiz_import.checkresult,nolines:"
+msgid "Number of received lines in the bank statement"
+msgstr "Number of received lines in the bank statement"
+
+msgctxt "field:account_statement_fints.wiz_import.checkresult,newlines:"
+msgid "New lines"
+msgstr "New lines"
+
+msgctxt "help:account_statement_fints.wiz_import.checkresult,newlines:"
+msgid "Number of new lines in the bank statement"
+msgstr "Number of new lines in the bank statement"
+
+msgctxt "field:account_statement_fints.wiz_import.checkresult,doubleline:"
+msgid "Double lines"
+msgstr "Double lines"
+
+msgctxt "help:account_statement_fints.wiz_import.checkresult,doubleline:"
+msgid "Number of double lines in the bank statement"
+msgstr "Number of double lines in the bank statement"
+
+msgctxt "field:account_statement_fints.wiz_import.checkresult,banknew:"
+msgid "New banks"
+msgstr "New banks"
+
+msgctxt "help:account_statement_fints.wiz_import.checkresult,banknew:"
+msgid "Number of new created banks."
+msgstr "Number of new created banks."
+
+msgctxt "field:account_statement_fints.wiz_import.checkresult,bankaccnew:"
+msgid "New banks accounts"
+msgstr "New banks accounts"
+
+msgctxt "help:account_statement_fints.wiz_import.checkresult,bankaccnew:"
+msgid "Number of new created bank accounts."
+msgstr "Number of new created bank accounts."
+
+
+# account.statement
+msgctxt "field:account.statement,start_date:"
+msgid "Start Date"
+msgstr "Start Date"
+
+msgctxt "help:account.statement,start_date:"
+msgid "date of final opening balance provided by your bank"
+msgstr "date of final opening balance provided by your bank"
+
+msgctxt "field:account.statement,end_date:"
+msgid "End Date"
+msgstr "End Date"
+
+msgctxt "help:account.statement,end_date:"
+msgid "date of final closing balance provided by your bank"
+msgstr "date of final closing balance provided by your bank"
+
+
+# account.statement.line
+msgctxt "field:account.statement.line,fints_data:"
+msgid "SEPA-Data"
+msgstr "SEPA-Data"
+
+# account.statement.journal
+msgctxt "view:account.statement.journal:"
+msgid "Import bank statement online"
+msgstr "Import bank statement online"
+
+msgctxt "field:account.statement.journal,fints_createbankaccounts:"
+msgid "Create bank accounts"
+msgstr "Create bank accounts"
+
+msgctxt "help:account.statement.journal,fints_createbankaccounts:"
+msgid "When importing online, new bank accounts are created automatically for the parties."
+msgstr "When importing online, new bank accounts are created automatically for the parties."
+
+msgctxt "field:account.statement.journal,fints_bankcategory:"
+msgid "Category bank party"
+msgstr "Category bank party"
+
+msgctxt "help:account.statement.journal,fints_bankcategory:"
+msgid "the specified category is assigned to the party of the newly created bank"
+msgstr "the specified category is assigned to the party of the newly created bank"
+
+msgctxt "field:account.statement.journal,fints_payercategory:"
+msgid "Category payer party"
+msgstr "Category payer party"
+
+msgctxt "help:account.statement.journal,fints_payercategory:"
+msgid "The specified category is assigned to the payer/payee."
+msgstr "The specified category is assigned to the payer/payee."

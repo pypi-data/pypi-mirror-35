@@ -1,0 +1,9 @@
+fints>=1.0.1
+mt-940>=4.12.2
+mds-sqlextension>=0.1.7
+pytz
+trytond_bank<4.9,>=4.8
+trytond_party<4.9,>=4.8
+trytond_account_statement<4.9,>=4.8
+trytond_account_invoice<4.9,>=4.8
+trytond<4.9,>=4.8
