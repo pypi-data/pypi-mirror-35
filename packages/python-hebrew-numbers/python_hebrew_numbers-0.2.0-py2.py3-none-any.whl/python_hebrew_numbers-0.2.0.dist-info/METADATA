@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: python-hebrew-numbers
+Version: 0.2.0
+Summary: conversion of hebrew numbers (Gimatria)
+Home-page: UNKNOWN
+Author: Ori Hoch
+Author-email: ori@uumpa.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyYaml
+
+UNKNOWN
+
+
