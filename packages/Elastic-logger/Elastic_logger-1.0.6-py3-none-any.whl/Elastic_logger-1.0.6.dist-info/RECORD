@@ -1,0 +1,7 @@
+Elastic_logger-1.0.6.dist-info/METADATA,sha256=d7g1vysSK6rjQK1_yJYoreavqJMF9Fui0jDzwjvqA3U,633
+Elastic_logger-1.0.6.dist-info/RECORD,,
+Elastic_logger-1.0.6.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+Elastic_logger-1.0.6.dist-info/top_level.txt,sha256=-8D0S7WmTX4nE9CXztZ__KOxvK5jeOYtAUERm_rDSyk,14
+elasticlogger/__init__.py,sha256=i2Al7Sc8I5PAgCRBtRvoMqS2vsoghwzx3fadxG9mMjA,111
+elasticlogger/elastic.py,sha256=Taayf4InCWjf09fsfyB0SqwfHabZgTu5e9O78GvE4lo,2195
+elasticlogger/logger.py,sha256=jbunYIUGGhMB6L4PoH76AoNfBIIhJLvN9xpBqlaNDdM,1617
