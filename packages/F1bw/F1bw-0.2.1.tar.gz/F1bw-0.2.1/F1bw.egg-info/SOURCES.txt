@@ -1,0 +1,15 @@
+F1bw.jpg
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+F1bw/__init__.py
+F1bw/cli.py
+F1bw/version.py
+F1bw.egg-info/PKG-INFO
+F1bw.egg-info/SOURCES.txt
+F1bw.egg-info/dependency_links.txt
+F1bw.egg-info/entry_points.txt
+F1bw.egg-info/not-zip-safe
+F1bw.egg-info/requires.txt
+F1bw.egg-info/top_level.txt

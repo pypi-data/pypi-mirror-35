@@ -1,0 +1,3 @@
+[console_scripts]
+F1bw = F1bw:main
+
