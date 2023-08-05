@@ -1,0 +1,8 @@
+tornado
+bcrypt
+jinja2
+gitpython
+click
+orator
+python-env
+colorama
