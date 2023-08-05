@@ -1,0 +1,8 @@
+README.md
+setup.py
+vconnect/__init__.py
+vconnect/vconnectadd.py
+vconnect.egg-info/PKG-INFO
+vconnect.egg-info/SOURCES.txt
+vconnect.egg-info/dependency_links.txt
+vconnect.egg-info/top_level.txt
