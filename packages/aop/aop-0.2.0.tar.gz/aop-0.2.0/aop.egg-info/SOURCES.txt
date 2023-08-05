@@ -1,0 +1,17 @@
+README.md
+setup.py
+aop/__init__.py
+aop/advice.py
+aop/aspect.py
+aop/hooks.py
+aop/import_patchers.py
+aop/interface.py
+aop/joinpoint.py
+aop/module.py
+aop/patchers.py
+aop/state.py
+aop/utils.py
+aop.egg-info/PKG-INFO
+aop.egg-info/SOURCES.txt
+aop.egg-info/dependency_links.txt
+aop.egg-info/top_level.txt
