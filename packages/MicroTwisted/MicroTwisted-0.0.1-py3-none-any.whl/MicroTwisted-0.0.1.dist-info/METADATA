@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: MicroTwisted
+Version: 0.0.1
+Summary: Micro Service Manager made with Twisted
+Home-page: https://github.com/MaximilianoRom7/MicroTwisted
+Author: Maximiliano Romay Figueroa
+Author-email: maximilianorom7@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+# MicroTwisted
+A Micro Service Written in Twisted, Klein and Flask
+
+![Demo](https://i.imgur.com/j4fMKwR.gif)
+
+[![Watch the video]()](https://i.imgur.com/FCfWYrH.mp4)
+
+
