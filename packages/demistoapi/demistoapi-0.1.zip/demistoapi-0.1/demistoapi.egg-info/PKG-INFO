@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: demistoapi
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: #Demisto api sdk
+        
+        abstracts the http calls for demisto 
+        
+        
+        #github
+        
+        https://github.com/aaronjonen/demistoapi
+Platform: UNKNOWN
