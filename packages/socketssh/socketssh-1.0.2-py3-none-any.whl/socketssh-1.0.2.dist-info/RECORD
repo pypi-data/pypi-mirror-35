@@ -1,0 +1,7 @@
+socketssh/__init__.py,sha256=KbZo4nfq2OuaK5rWQKdcW5KhWAkHvmIHuZB-DM2C55g,755
+socketssh/client.py,sha256=8oMy1LBTUmTk_IaBavam9uadXTWTmnD9bRsM4SUb_Ro,1329
+socketssh/server.py,sha256=g--dvEl6RrWEx0qOqaakpdfSheq1f446Nq5knRuRfGI,4122
+socketssh-1.0.2.dist-info/METADATA,sha256=GFzp_gs8WZMpmGMcd8tYtKbZ3Qf_GAO-R-ssTa_PL_I,714
+socketssh-1.0.2.dist-info/RECORD,,
+socketssh-1.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+socketssh-1.0.2.dist-info/top_level.txt,sha256=D-HVUD_BZmTJP0nhLJg-dqgTP0-1IllHQKRdHcdjbLE,10
