@@ -1,0 +1,11 @@
+cnt/rulebase/__init__.py,sha256=o9SnxTx9G4XDWSc09Ua474UJHpeUfBdqwv7CDWmWGrg,394
+cnt/rulebase/common.py,sha256=AL3CplgrNLFXSl-jkcuqCs86Xy-FnqI73kvkkl_r7As,1907
+cnt/rulebase/const.py,sha256=s2nobBR-Q7w55-AScRoE3KUu-8HBfY4je6go3fLfd6Y,3614
+cnt/rulebase/dlmseg.py,sha256=EopBy182qC18-UKALjh0V1_C02CWcNa4L4b1cnJzJ_0,803
+cnt/rulebase/replace.py,sha256=Ei4L67kVeEUWMY1veqU-GYgGZmvYlgWH-GU6VtB4Zbk,887
+cnt/rulebase/sentseg.py,sha256=PNF8hppu8VhBXyN_y5zlN8VDT2U6V00C6r22x0-EbQU,2973
+cnt/rulebase/utils.py,sha256=4n6Li9wmQDJU2-UFeGB2kX-ioXqdmQHuCTRBFJb6igI,1164
+cnt.rulebase-0.5.3.dist-info/METADATA,sha256=acduPbBGtBa3uLCjjnOV33rIk5SVdMjxek6reqTMeQ4,1571
+cnt.rulebase-0.5.3.dist-info/RECORD,,
+cnt.rulebase-0.5.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+cnt.rulebase-0.5.3.dist-info/top_level.txt,sha256=nXQCu8dzav5U5WpTSy4th5UUtiZCPuTO4OaH81GC1bg,4
