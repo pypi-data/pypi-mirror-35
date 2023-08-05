@@ -1,0 +1,4 @@
+[sqlalchemy.dialects]
+hive = pyhivehere.sqlalchemy_hive:HiveDialect
+presto = pyhivehere.sqlalchemy_presto:PrestoDialect
+
