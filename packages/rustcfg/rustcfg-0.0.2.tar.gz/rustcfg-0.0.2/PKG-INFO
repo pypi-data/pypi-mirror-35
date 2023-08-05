@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rustcfg
+Version: 0.0.2
+Summary: Rust cfg expression parser in python
+Home-page: https://pagure.io/fedora-rust/python-rustcfg
+Author: Zbigniew Jędrzejewski-Szmek
+Author-email: zbyszek@in.waw.pl
+License: MIT
+Description: # Rust cfg expression parser in python
+        
+        ## See also
+        
+        - https://doc.rust-lang.org/reference/attributes.html#conditional-compilation
+        - https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html
+        - https://gitlab.com/kornelski/parse_cfg
+        - https://pagure.io/fedora-rust/rust2rpm
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Provides-Extra: test
