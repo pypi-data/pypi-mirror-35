@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: binaryrpc
+Version: 0.1.0
+Summary: A basic binary RPC for Python
+Home-page: https://github/ihaywood3/binaryrpc/
+Author: Ian Haywood
+Author-email: ian@haywood.id.au
+License: LGPLv3
+Keywords: RPC binary
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+
+UNKNOWN
+
+
