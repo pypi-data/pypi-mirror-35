@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: sphinx-paragraph-extractor
+Version: 1.0.3
+Summary: A builder for Sphinx to extract paragraphs from docs.
+Home-page: https://github.com/mitsuse/sphinx-paragraph-extractor
+Author: Tomoya Kose
+Author-email: tomoya@mitsuse.jp
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
