@@ -1,0 +1,40 @@
+# Module read_hnd
+
+For interacting with HND file types
+
+To set it up, you just install it as any other module:
+
+`pip install --user read_hnd`
+
+This should fix any dependency issues and hopefully work without too much issue.
+
+### Module use:
+To run the code there are a few options:
+
+Convert all the HND images in that folder and save then in a Processed subfolder
+
+`python -m read_hnd -f C:\path\to\folder`
+
+Read and display the image
+
+`python -m read_hnd -i C:\path\to\image.hnd -p=1`
+
+Save the image
+
+`python -m read_hnd -i C:\path\to\image.hnd -o C:\path\to\save.tiff`
+
+Also save the metadata
+
+`python -m read_hnd -i C:\path\to\image.hnd -o C:\path\to\save.tiff -m C:\path\to\meatadata.txt`
+
+### Use in python code:
+```python
+from read_hnd import read_hnd					# Load module
+fp = read_hnd.HndReader(inputfile)				# Create object to interact with file
+fp.headerData()									# Read the header
+fp.pixelData()									# Read pixel data (must read header first)
+matplotlib.plot.imshow(fp.uncompressedImage)	# Show the image using matplotlib
+plt.show()
+```
+
+This is very much still a work in progress, so there may be bugs. For example, the metadata doesn’t seem to read correctly (i.e., you get some non-sensical values)
