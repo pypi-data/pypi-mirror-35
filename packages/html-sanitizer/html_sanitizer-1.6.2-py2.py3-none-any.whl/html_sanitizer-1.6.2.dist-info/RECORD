@@ -1,0 +1,11 @@
+html_sanitizer/__init__.py,sha256=XCKpR2_CSKhOBJU4bf1MbKOczkVKN1tKHL8nU_IqZC4,185
+html_sanitizer/__main__.py,sha256=gsfYQddhVmAAJ2Vg7e0mhX5daqsFSoMN-zuSyhFJJus,334
+html_sanitizer/django.py,sha256=-RlunMJhoWPrEdcRwIAR3L5ftYYJYi-dBiOvMlsPp1Y,1214
+html_sanitizer/sanitizer.py,sha256=u_y1ax5M8JO0d1_8IFEa3301gjbuMGgHunV2Y-T2Uxc,11240
+html_sanitizer/tests.py,sha256=QUML2jLRfV0qu97cSCGQz3qwPLNEQd1vbVXi-jci2WM,11385
+html_sanitizer-1.6.2.dist-info/DESCRIPTION.rst,sha256=HdzHiy3PW55GcGeh-68_k2EjSYJMspoyJlG5AxvC380,6418
+html_sanitizer-1.6.2.dist-info/METADATA,sha256=eJ_URkx8UWgpLs3aiTH4bZqPAQyN_LX-ONj2kdMnl2Q,7139
+html_sanitizer-1.6.2.dist-info/RECORD,,
+html_sanitizer-1.6.2.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+html_sanitizer-1.6.2.dist-info/metadata.json,sha256=Qx_dewiP6EERStmLlA_scjy20CzWXZxcIxNmhX3Mqjw,890
+html_sanitizer-1.6.2.dist-info/top_level.txt,sha256=V8316_ckY2SSjoaTuBozTtd_UwFkHN9-3ajtm_lzLGs,15
