@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: falcon-signed-requests
+Version: 1.0.0
+Summary: falcon-signed-requests
+Home-page: https://github.com/OpenLearningNet/falcon-signed-request-middleware
+Author: David Collien
+Author-email: david@openlearning.com
+License: MIT
+Download-URL: https://github.com/OpenLearningNet/falcon-signed-request-middleware/tarball/master
+Description: UNKNOWN
+Platform: UNKNOWN

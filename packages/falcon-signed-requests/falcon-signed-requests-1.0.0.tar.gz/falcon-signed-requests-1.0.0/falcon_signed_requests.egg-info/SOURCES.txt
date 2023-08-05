@@ -1,0 +1,9 @@
+README.rst
+setup.py
+falcon_signed_requests/__init__.py
+falcon_signed_requests/middleware.py
+falcon_signed_requests.egg-info/PKG-INFO
+falcon_signed_requests.egg-info/SOURCES.txt
+falcon_signed_requests.egg-info/dependency_links.txt
+falcon_signed_requests.egg-info/requires.txt
+falcon_signed_requests.egg-info/top_level.txt
