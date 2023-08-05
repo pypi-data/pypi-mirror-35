@@ -1,0 +1,12 @@
+hookman/__init__.py,sha256=SpdLrYauiArRGRtiI1xtcnUbTX1se-z4XvnJ8a6Jffo,136
+hookman/cli.py,sha256=8g_0kAz5H0tmD4SOCb_EMgT-kzTBwO1DyLyzzlWs16E,1321
+hookman/exceptions.py,sha256=iYNloINyn_IHDnH3AaiUXZ5vaBEz2KM2KW7-TYkXvyc,1168
+hookman/hookman_generator.py,sha256=h1p3EJ5rqnwvLV3ZPG1JU288X9_3hp-YUgBSY_9ckAU,20197
+hookman/hookman_utils.py,sha256=-4AWLXJJAkZ0ZK_cQNNUdWd1djmfbHUUACCHjCf_TIg,1090
+hookman/hooks.py,sha256=cb5chbgzixporNhIyD5nhKBzrztsD8Kt2FxSVcsZIWM,7342
+hookman/plugin_config.py,sha256=7XlU1znCTcQeYzyL3hXnm_kDXyZaHwuF-D89EBJ2Qsg,5016
+python_hookman-0.1.7.dist-info/METADATA,sha256=D1Kfmf_G8e3Lkma8kVM1QD1qtPMXE24i5Se1z9H7TIs,5526
+python_hookman-0.1.7.dist-info/RECORD,,
+python_hookman-0.1.7.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+python_hookman-0.1.7.dist-info/entry_points.txt,sha256=cZ3V9aHkgjC2ZV4zxUyBap1E3K5J1Oo9PTsisWs-x7Q,46
+python_hookman-0.1.7.dist-info/top_level.txt,sha256=owIxC3oz8qvEf1CsxqI5lmVeu-h3_ya68_iOAi3HnvI,8
