@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: Flask-Zipper
+Version: 1.0
+Summary: Pythonic JSON payload validator for requested JSON payload of Flask
+Home-page: https://github.com/JoMingyu/Flask-Zipper
+Author: PlanB, devArtoria
+Maintainer: PlanB, devArtoria
+Maintainer-email: call.viper.sign@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
