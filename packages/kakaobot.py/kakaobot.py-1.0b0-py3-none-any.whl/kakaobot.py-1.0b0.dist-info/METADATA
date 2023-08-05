@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: kakaobot.py
+Version: 1.0b0
+Summary: API wrapper for Kakaotalk written in Python.
+Home-page: https://github.com/Katinor/kakaobot.py
+Author: Katinor
+Author-email: katinor@4ears.net
+License: MIT
+Download-URL: https://github.com/Katinor/kakaobot.py
+Keywords: kakaotalk,chatbot,api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Communications :: Chat
+Classifier: Framework :: Flask
+Classifier: Natural Language :: Korean
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Requires-Dist: Flask (==1.0.2)
+
+# Kakaobot.py
+
+<b>[Kakaobot.py]</b> is a basic wrapper library for use Kakaotalk plusfriend API easily. It use Flask to construct web service.
+
