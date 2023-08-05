@@ -1,0 +1,9 @@
+setuptools
+psutil
+ruamel.yaml<0.15.52
+pluginbase
+Click
+blessings>=1.6
+jinja2>=2.10
+protobuf>=3.5
+grpcio>=1.10

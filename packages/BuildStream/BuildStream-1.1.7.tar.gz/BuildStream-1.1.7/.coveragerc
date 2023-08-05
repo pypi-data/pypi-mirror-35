@@ -1,0 +1,21 @@
+[run]
+concurrency = multiprocessing
+include =
+  */buildstream/*
+
+omit =
+  # Omit profiling helper module
+  */buildstream/_profile.py
+  # Omit generated code
+  */buildstream/_protos/*
+  */.eggs/*
+
+[report]
+show_missing = True
+precision = 2
+
+[paths]
+source =
+    buildstream/
+    */site-packages/buildstream/
+    */buildstream/buildstream/
