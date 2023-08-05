@@ -1,0 +1,3 @@
+The tmmpy library provides an object-oriented implementation of the Transfer Matrix Method (TMM) for all standard cases, i.e. s- and p-polarization, oblique incidence, absorbing and non-absorbing materials. In addition, a number of extensions to deal with partial as well as complete incoherence are implemented. Functionality is also provided to do parallel evaluations, e.g. for multiple wavelengths, on Linux. Furthermore, evaluation of properties across the stack, e.g. the energy flux, the absorption or the electric field, is supported. 
+
+https://doi.org/10.5281/zenodo.1344878
