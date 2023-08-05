@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dumb-pypi
+Version: 1.4.0
+Summary: UNKNOWN
+Home-page: https://github.com/chriskuehl/dumb-pypi
+Author: Chris Kuehl
+Author-email: ckuehl@ckuehl.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: distlib
+Requires-Dist: jinja2
+Requires-Dist: packaging
+
+UNKNOWN
+
+
