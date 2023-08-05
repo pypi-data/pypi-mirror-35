@@ -1,0 +1,8 @@
+README.md
+setup.py
+wittyPy/__init__.py
+wittyPy/wittyPy.py
+wittyPy.egg-info/PKG-INFO
+wittyPy.egg-info/SOURCES.txt
+wittyPy.egg-info/dependency_links.txt
+wittyPy.egg-info/top_level.txt
