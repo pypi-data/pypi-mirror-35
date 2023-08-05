@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xbus
+Version: 0.1.6
+Summary: python client for xbus
+Home-page: https://github.com/infrmods/xbus-client
+Author: Jiong Du
+Author-email: londevil@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: requests (==2.19.1)
+
+UNKNOWN
+
+
