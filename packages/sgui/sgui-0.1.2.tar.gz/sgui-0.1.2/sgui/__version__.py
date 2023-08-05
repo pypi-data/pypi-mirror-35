@@ -1,0 +1,8 @@
+__title__ = 'sgui'
+__description__ = 'A simple GUI library for Python'
+__url__ = 'https://github.com/DGriffin91/sgui'
+__version__ = '0.1.1'
+__author__ = 'DGriffin91'
+__author_email__ = 'sgui@dgdigital.net'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2018 Daniel Griffin'
