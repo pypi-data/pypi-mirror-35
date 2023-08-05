@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: robot-scratch4robots
+Version: 1.0.5
+Summary: robot lib for scratch4robots projects
+Home-page: https://github.com/JdeRobot/Scratch4Robots
+Author: carrionvs
+Author-email: carrionvs@gmail.com
+License: UNKNOWN
+Description: # Robot 
+        This is a robot lib for scratch4robots projects.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
