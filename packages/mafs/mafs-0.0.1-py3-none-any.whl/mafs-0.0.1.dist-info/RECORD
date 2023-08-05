@@ -1,0 +1,8 @@
+mafs/__init__.py,sha256=TFIKmyMTrRznEV94vkCu60-dOA7xVcezNV-0kbbuvis,26
+mafs/filesystem.py,sha256=yzuoFr27BTmmcIyr9wySeNbCiFAwtIY5QzLFd58CFK0,3466
+mafs/mafs.py,sha256=70KN2OQD2-992PvU8wz9Y71WaF6DORwvB7oryIHQoCw,1460
+mafs/router.py,sha256=TpdlSyzBRSRQVdaSPK2pcwa06EtqkWOIWBwgR9buGQg,2018
+mafs-0.0.1.dist-info/METADATA,sha256=KTMoOy9OGkYUpIV5RmeUbsu13I2Y7qtGFWS1sHBJWe0,1579
+mafs-0.0.1.dist-info/RECORD,,
+mafs-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+mafs-0.0.1.dist-info/top_level.txt,sha256=HM0bA0f8iV5BCv0m9kyH8h-nwuDd4ZJKbKbRRmO6ZYY,5
