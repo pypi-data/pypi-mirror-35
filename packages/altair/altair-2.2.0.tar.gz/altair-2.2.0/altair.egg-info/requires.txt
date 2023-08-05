@@ -1,0 +1,23 @@
+entrypoints
+jsonschema
+numpy
+pandas
+six
+toolz
+typing
+
+[dev]
+flake8
+pytest
+jinja2
+sphinx
+m2r
+docutils
+vega_datasets
+recommonmark
+
+[dev:python_version < "3"]
+ipython<6
+
+[dev:python_version >= "3"]
+ipython
