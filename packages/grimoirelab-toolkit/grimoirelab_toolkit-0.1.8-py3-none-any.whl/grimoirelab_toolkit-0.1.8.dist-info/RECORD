@@ -1,0 +1,9 @@
+grimoirelab_toolkit/__init__.py,sha256=Fazhyowy8kcnz5SP3uxLRmI5JX2XlAgSxNvUO0cLrmo,895
+grimoirelab_toolkit/_version.py,sha256=9wo1j7pP1TeYf_QpLpx3pjYd6nFggJoo1JrUxVWpvAY,97
+grimoirelab_toolkit/datetime.py,sha256=MGwmk_vSAKpjb4DQxv7xU6psuXt-GtEHHxF6E8lhyY0,4942
+grimoirelab_toolkit/introspect.py,sha256=kaNfXWGIudRlSKr_ZHpUC-baEXONBgelI7gHHDr6-Gw,3730
+grimoirelab_toolkit/uris.py,sha256=xkehDr9FCNHp-yCUQC1By_XQgvjNG_GeodeU4U1O9u4,1267
+grimoirelab_toolkit-0.1.8.dist-info/METADATA,sha256=Ug4lC8mbP0ZGU0-Xm9N-u0_JwBPJAWuA-VYeVxgZncw,1559
+grimoirelab_toolkit-0.1.8.dist-info/RECORD,,
+grimoirelab_toolkit-0.1.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+grimoirelab_toolkit-0.1.8.dist-info/top_level.txt,sha256=U7BqEq-uQmwUL3ecpmJ2AzW0wrNcdhI1J5mAMk4cOtE,20
