@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: arelle
+Version: 2.0
+Summary: Light arelle package to extract xbrl files
+Home-page: https://github.com/LendFlo/Lendflo-arelle
+Author: Przemyslaw Winszczyk, Filip Duch, Remi Tuyaerts
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
