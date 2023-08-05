@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+easywatch/__init__.py
+easywatch/easywatch.py
+easywatch.egg-info/PKG-INFO
+easywatch.egg-info/SOURCES.txt
+easywatch.egg-info/dependency_links.txt
+easywatch.egg-info/requires.txt
+easywatch.egg-info/top_level.txt
