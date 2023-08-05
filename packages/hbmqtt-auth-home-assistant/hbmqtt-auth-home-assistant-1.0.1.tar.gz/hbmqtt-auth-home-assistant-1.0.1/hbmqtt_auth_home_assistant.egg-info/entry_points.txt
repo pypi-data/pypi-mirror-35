@@ -1,0 +1,3 @@
+[hbmqtt.broker.plugins]
+auth_home_assistant = hbmqtt_auth_home_assistant:HassAuthPlugin
+
