@@ -1,0 +1,4 @@
+mroylib-min>=1.5.8
+x-mroy-1045
+qtornado
+telethon-sync
