@@ -1,0 +1,2 @@
+click
+pefile>=2018.8.8
