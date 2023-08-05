@@ -1,0 +1,6 @@
+setup.py
+PiHole_api.egg-info/PKG-INFO
+PiHole_api.egg-info/SOURCES.txt
+PiHole_api.egg-info/dependency_links.txt
+PiHole_api.egg-info/requires.txt
+PiHole_api.egg-info/top_level.txt
