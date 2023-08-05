@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: wapi-python
+Version: 0.1.0
+Summary: Wattsight API python library
+Home-page: http://www.wattsight.com
+Author: Harald Nordgård-Hansen
+Author-email: hnh@wattsight.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.18)
+Requires-Dist: sseclient (>=0.0.18)
+Requires-Dist: pytz
+Requires-Dist: pandas (>=0.21)
+Requires-Dist: future (>=0.16)
+
+UNKNOWN
+
+
