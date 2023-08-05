@@ -1,0 +1,9 @@
+README.md
+setup.py
+nashit/__init__.py
+nashit/data_fetchers.py
+nashit.egg-info/PKG-INFO
+nashit.egg-info/SOURCES.txt
+nashit.egg-info/dependency_links.txt
+nashit.egg-info/requires.txt
+nashit.egg-info/top_level.txt
