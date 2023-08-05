@@ -1,0 +1,17 @@
+quantulum3/__init__.py,sha256=J4moIVMCo-4Gz2lMQOh5Z9kpPI06zR-VXG2RqVAl9uo,388
+quantulum3/classes.py,sha256=I7Iq2fphcqFVriioNRfbdEb6gLRWn8KU-fbQTYHWDO8,2596
+quantulum3/classifier.py,sha256=FWFRON1MsIVeHIB7YBmPncmQYj_1TelmExsLawP6wm0,5731
+quantulum3/clf.pickle,sha256=DOxa6OpFqwk2cCNqXZVHVv12GNAMo-qC3IH0KYaAlQY,2700843
+quantulum3/entities.json,sha256=tyysWdP_ulXfcFiKTYb5KL6ogxR63cuDVpLLauQ5Mrg,13674
+quantulum3/load.py,sha256=KkR2jxW0VGx8f_QIek4HacBGCSr2ST_Ht-2njIzS0SA,5714
+quantulum3/parser.py,sha256=4RhWl2xzqi0Nt80Y6OEyxypWvFmLWdAlw_yfIN-m5LI,18325
+quantulum3/regex.py,sha256=d18U81OTtNEMi0gnPgFsaGLrvoRgqEB1vlD7GxEkMNI,6192
+quantulum3/tests.json,sha256=tvcmxIXcw6MKknB9yiGu5AIF-TSZSGH7TrDf4z11_vM,12366
+quantulum3/tests.py,sha256=tuqWBnOS8b-758J2SCZbhKXg7iWsy74-dhJyURkUgAk,4839
+quantulum3/train.json,sha256=Jvz4bRqJNgOQDtm5hv8ia73YyZUu6g3LBqCoHi7evYA,2092
+quantulum3/units.json,sha256=zJZokAI22_BKiGTQJDXtDwgL75bopWSkm8jZiQcKau4,72243
+quantulum3/wiki.json,sha256=_jNtmYjFPPxdVVSXrXStcnhaHoRsXf2UaF9cuIN9hzw,965041
+quantulum3-0.2.0.dist-info/METADATA,sha256=RJAT4m-33Qwi0vGaF-gR0vSM_rMQWtJM5XwYg7p5C1U,7316
+quantulum3-0.2.0.dist-info/RECORD,,
+quantulum3-0.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+quantulum3-0.2.0.dist-info/top_level.txt,sha256=0D9rKXOli6VsGooSjwE4PA5XSCWv8O3QOpqWqbElrAs,11
