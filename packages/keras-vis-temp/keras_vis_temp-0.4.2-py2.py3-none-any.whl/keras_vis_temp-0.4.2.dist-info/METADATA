@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: keras-vis-temp
+Version: 0.4.2
+Summary: Neural Network visualization toolkit for keras. Temporary release until the original package with fix isreleased.
+Home-page: https://github.com/raghakot/keras-vis
+Author: Raghavendra Kotikalapudi
+Author-email: ragha@outlook.com
+License: MIT
+Download-URL: https://github.com/raghakot/keras-vis/tarball/0.4.2
+Platform: UNKNOWN
+Provides-Extra: tests
+Provides-Extra: vis_utils
+Requires-Dist: keras
+Requires-Dist: six
+Requires-Dist: scikit-image
+Requires-Dist: matplotlib
+Requires-Dist: h5py
+Provides-Extra: tests
+Requires-Dist: pytest; extra == 'tests'
+Requires-Dist: pytest-pep8; extra == 'tests'
+Requires-Dist: pytest-xdist; extra == 'tests'
+Requires-Dist: pytest-cov; extra == 'tests'
+Provides-Extra: vis_utils
+Requires-Dist: Pillow; extra == 'vis_utils'
+Requires-Dist: imageio; extra == 'vis_utils'
+
+UNKNOWN
+
+
