@@ -1,0 +1,12 @@
+brica.cpython-37m-darwin.so,sha256=zmL5nqbQm-X7LokBPDCaN8oqqhyj3Ebkhgrdi1UwLc0,264680
+BriCA2-0.0.10.data/headers/assocvec.hpp,sha256=75NQ9HzwOn_XSKykDrHXAcih-aA8GY3Y3xeZDz2aAA0,11132
+BriCA2-0.0.10.data/headers/brica.hpp,sha256=DzRnktDnuo27Tumu4OnYZaHGFTI61C_neIP-V8W31-Y,1210
+BriCA2-0.0.10.data/headers/buffer.hpp,sha256=oAFyvtfWiwu-EcFXHTbqDUyqCxONEhx4KGQtA1KcG0c,7062
+BriCA2-0.0.10.data/headers/component.hpp,sha256=Evkx2vEUB_Ap_QeOAP1pyfOsHAOleLa4RjYX5e2kX7M,3306
+BriCA2-0.0.10.data/headers/functor.hpp,sha256=eweIG2ckNwOkfjd52aWxGT0P8jG8U5FC5p8kb5xPN-U,1345
+BriCA2-0.0.10.data/headers/mpi.hpp,sha256=jfj7956AfCHzq9jTYz2HSOgd_nurAIyJUaLU4JG-nzY,6171
+BriCA2-0.0.10.data/headers/scheduler.hpp,sha256=m775Kf2r3EVQB0f2kP-7zar1ZjMn5aaSlGxwUi8cUDk,2590
+BriCA2-0.0.10.dist-info/METADATA,sha256=i2RCGsPFAScSqg5mMJ31Rpo8k12HcOsM_P4UdZmjmTw,331
+BriCA2-0.0.10.dist-info/RECORD,,
+BriCA2-0.0.10.dist-info/WHEEL,sha256=Wsh4kZctvMbDWranFCVuiXOZQ3Wu4nYa59AW5yCkES0,111
+BriCA2-0.0.10.dist-info/top_level.txt,sha256=rgEaG4LRZPVCeQ3F3HAtpHKv1J7eeAwYTVf3ytT26c8,6
