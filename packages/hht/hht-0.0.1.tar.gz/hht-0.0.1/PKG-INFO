@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: hht
+Version: 0.0.1
+Summary: A Python implementation of Hilbert-Huang Transform
+Home-page: https://github.com/fzhu2e/hht
+Author: Feng Zhu
+Author-email: fengzhu@usc.edu
+License: MIT license
+Description: [![PyPI](https://img.shields.io/pypi/v/hht.svg)]()
+        
+        # Introduction
+        
+        This is a Python implementation of Hilbert-Huang Transform (HHT).
+        
+        ## Requirement
+        Python 3
+        
+        ## How to install
+        Simply
+        ```bash
+        pip install hht
+        ```
+        
+        ## Usage Example
+        
+        ```python
+        import hht
+        ```
+        
+        ## License
+        MIT License
+        
+        Copyright (c) 2018 Feng Zhu
+        
+Keywords: hht
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
