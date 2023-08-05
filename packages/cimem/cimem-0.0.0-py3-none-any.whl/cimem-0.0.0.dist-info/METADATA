@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cimem
+Version: 0.0.0
+Summary: A Python package that implements Connectivity Informed Maximum Entropy on the Mean (CIMEM)
+Home-page: https://github.com/sdeslauriers/cimem
+Author: Samuel Deslauriers-Gauthier
+Author-email: sam.deslauriers@gmail.com
+License: GPL-3.0
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: bayesnet
+Requires-Dist: scipy
+
+UNKNOWN
+
+
