@@ -1,0 +1,9 @@
+pyyaml
+nose
+jupyter
+requests
+Sphinx
+sphinx-rtd-theme
+recommonmark
+biopython
+cwltool
