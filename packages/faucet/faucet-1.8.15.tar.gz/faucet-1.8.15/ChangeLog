@@ -1,0 +1,145 @@
+CHANGES
+=======
+
+1.8.15
+------
+
+* Remove proactive\_learn which is now the default
+* Update PyCharm docs to support newer versions
+* Bump version
+* Redundant call to parse VLAN header
+* Avoid reparsing packet headers on packet in
+* Increase GlobalRouter test to 32 VLANs
+* Allow per-Valve GROUPS flag
+* Allow configuration of minimum and maximum wildcard table sizes
+* Better scale minimums for L2/L3 nexthops
+* Better table scale tests
+* Better estimation of table sizes for TFM
+* Fix note
+* TFM pipeline loader doesn't need to be a class
+* Split faucet and gauge unit tests
+* miss\_table\_name
+* flowmod()
+* miss\_goto
+* Miss rules configured from pipeline definition
+* Updated NoviFlow documentation to use GenericTFM starting from NW400.5.4
+* A stack edge, receiving a non-broadcast packet from the root, can assume the root has learned it
+* Log age of last LLDP received
+* Don't run unit tests twice in sanity shard
+* Remove out of data faucet\_bgp tests (already tested by test\_valve.py)
+* Update unittests to be more robust on internal data type changes
+* Remove config unittests
+* Add main methods to all unittest files
+* Refactor ACL validation so it is performed by ACL object
+* pylint fixes to work on new test base image
+* Make pip cache usage less confusing
+* Update test instructions when using a cache
+* missing import
+* lint
+* verify types before accessing values in ACL init
+* Add test for configuring acls without 'rule' key
+* tidy acl initialisation
+* Fix acl configuration interference
+* clean up acl actions resolution
+* Preversion 1.8.15
+* Fix doc header
+
+1.8.14
+------
+
+* Fix rpi image tutorial
+* Global routing test includes down nexthops
+* Bidirectional checks in global router test
+* Don't provision non-global VIP FIB entries, when global routing enabled
+* Bump version
+* Stricter checks in proactive learning
+* Can only responded to RS from link local
+* Support SOFTWARE\_ONLY tests
+* Obsolete TFM comments
+* Assume ARP packet first. Verify local VLAN switching performance
+* TFM loader needs to know if switch can do DEC\_TTL
+* Common PacketMeta log packet function
+* Speed up globl routing test
+* Skip routing handler entirely up front if routing not configured on VLAN
+* Correct vip\_map result
+* vip\_map tuple, faster global routing test setup
+* Need to check faucet\_vip None
+* Remove vip\_map tree from VLAN
+* pylint
+* pylint
+* Don't iterate on VLANs if no route managers
+* pylint
+* PacketMeta should use slots. Stricter ARP header checking
+* Make control plane handler more efficient
+* Make vip\_maps IP version specific
+* Make global router VLAN lookup less expensive
+* Make VIP lookups less expensive
+* Make routed\_vlans() less expensive
+* More basic Prom var testing
+* Test basic prom vars
+* Don't need to copy() tables
+* verify LACP status
+* Remove class attributes from tests
+* attributes
+* Don't use class attributes on Conf objects
+* pylint
+* Move RouteManager to slots
+* Move NextHop to \_\_slots\_\_
+* Move HostCacheEntry to slots
+* correct \_\_slots\_\_ for Valve
+* Move Valve to \_\_slots\_\_
+* frozenset
+* Fixing pylint error
+* Fix mutable static class variables and port status
+* When global routing, encode source VLAN in eth\_dst, so we don't need to look it up
+* Log port when receiving ND advert
+* Preversion 1.8.14
+
+1.8.13
+------
+
+* Better GlobalRouting test
+* Disable global routing optimzation by default
+* Clarify ND advert log message
+* Don't need in port match on table 7, static pipeline
+* Dump table IDs, correct NF static pipeline
+* pytype
+* pylint
+* Bump version
+* Add TODO for optimization
+* Limit global router test
+* /Enable global router test
+* skeleton FaucetTaggedGlobalIPv4RouteTest
+* Clean up ScaleTest
+* Update pytype from 2018.6.19 to 2018.8.10
+* index out of range exception
+* Correct port\_acl enabled test
+* skip port\_acl if not configured
+* pylint
+* Don't configure port\_acl table if not present
+* true -> True
+* proactive learn v4 true
+* \_global\_routing
+* Docs
+* Conflict with scale test
+* Only bootstrap VLAN from VIP if using global router VID
+* ipaddresses need to be strings for notify
+* ND solicit handler should consider src\_ip
+* self.dp.global\_vlan
+* Make global\_vlan configurable
+* use clib\_mininet\_tests.py after rename
+* Don't flap port state yet for LACP
+* Should wait for port down before confirming LACP status
+* flap switch ports during LACP test
+* Fix broken port\_lacp\_status Prometheus variable
+* verify\_no\_bcast\_to\_self() should check NSs aren't looped
+* Wider use of unicast loop test
+* Wider broadcast test
+* pytype false positive on FileNotFoundError
+* Disable state keeping for LINK\_LOCAL unless a host is a gateway
+* Add faucet Raspberry Pi image documentation/tutorial
+* Revert "Maintain link local FIB, but do not write FIB entries to DP - we don't want to provide a routing service."
+* Maintain link local FIB, but do not write FIB entries to DP - we don't want to provide a routing service
+* Stack destinations must be learned at root
+* Add traveling MAC test to stacks
+* Can't verify output of scapy
