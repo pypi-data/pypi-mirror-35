@@ -1,0 +1,9 @@
+django_pg_zero_downtime_migrations-0.1.1.dist-info/DESCRIPTION.rst,sha256=wQK7Ut5drEc--5Soc5HNK05Og9DuMgxpuMfckGEjhdA,20203
+django_pg_zero_downtime_migrations-0.1.1.dist-info/METADATA,sha256=rzRhdfDW4spBaOGmiCXvcV7JCboBkAMhsCGhbNQgrhU,21086
+django_pg_zero_downtime_migrations-0.1.1.dist-info/RECORD,,
+django_pg_zero_downtime_migrations-0.1.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+django_pg_zero_downtime_migrations-0.1.1.dist-info/metadata.json,sha256=GwXZluc0lhql6KXwrNaeUebhmkfawqL-7hzyC8L7Eok,1061
+django_pg_zero_downtime_migrations-0.1.1.dist-info/top_level.txt,sha256=QVQaxn1QwZY5XKEtesaQsdVI64epbUh6E5YAmmAEh50,49
+django_zero_downtime_migrations_postgres_backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_zero_downtime_migrations_postgres_backend/base.py,sha256=aH_-0lxiHY2Wldw-5nTiZqXlJTtjxcW9pFRTbMc10Mw,235
+django_zero_downtime_migrations_postgres_backend/schema.py,sha256=9SFVeIq2wB7rdmNbWAKX1H_zWOzalkgEydLFC6aUfKU,17492
