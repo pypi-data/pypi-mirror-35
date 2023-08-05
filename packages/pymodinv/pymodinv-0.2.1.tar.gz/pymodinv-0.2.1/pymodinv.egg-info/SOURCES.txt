@@ -1,0 +1,6 @@
+pymodinv.cpp
+setup.py
+pymodinv.egg-info/PKG-INFO
+pymodinv.egg-info/SOURCES.txt
+pymodinv.egg-info/dependency_links.txt
+pymodinv.egg-info/top_level.txt
