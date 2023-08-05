@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: laserhammer
+Version: 2.4
+Summary: DocBook to mdoc(7) converter
+Home-page: https://github.com/trasz/laserhammer
+Author: Edward Tomasz Napierała
+Author-email: trasz@FreeBSD.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+LaserHammer is a simple DocBook to mdoc(7) ("UNIX man page syntax") converter.
+
+The command line utility resides in the scripts/ subdirectory; use it like this:
+```
+./laserhammer book.parsed.xml book.7
+```
+The 7 above stands for section 7 of man pages, "miscellaneous documentation".
+The 'book.parsed.xml' is a processed XML source of the FreeBSD Handbook; you can
+use it as test sample.  The 'book.7' is the example translated into mdoc.
+
+There's also a rudimentary Python module.  Use it like this:
+```
+import laserhammer
+
+mdoc = laserhammer.laserhammer(file_path)
+print(mdoc)
+```
+
+
