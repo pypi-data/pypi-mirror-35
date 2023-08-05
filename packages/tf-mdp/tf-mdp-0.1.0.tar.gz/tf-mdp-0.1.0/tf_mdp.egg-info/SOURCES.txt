@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+scripts/tfmdp
+tf_mdp.egg-info/PKG-INFO
+tf_mdp.egg-info/SOURCES.txt
+tf_mdp.egg-info/dependency_links.txt
+tf_mdp.egg-info/not-zip-safe
+tf_mdp.egg-info/requires.txt
+tf_mdp.egg-info/top_level.txt
+tfmdp/__init__.py
