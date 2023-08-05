@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: collabi
+Version: 0.0.10
+Summary: UnityCloud Collaboration Command Line Interface
+Home-page: https://github.com/UnityTech/unitycloud-collab-cli
+Author: Unity
+Author-email: collabsupport@unity3d.com
+License: BSD
+Description: more stuff
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
