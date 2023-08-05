@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mali
+Version: 18.8.0
+Summary: Command line tool and SDK for MissingLink.ai platform
+Home-page: https://pypi.python.org/pypi/missinglink/
+Author: missinglink.ai
+Author-email: support@missinglink.ai
+Maintainer: missinglink.ai
+Maintainer-email: support@missinglink.ai
+License: UNKNOWN
+Platform: all
+Requires-Dist: missinglink
+
+Use `missinglink <https://pypi.python.org/pypi/missinglink/>`_ instead.
+
+
