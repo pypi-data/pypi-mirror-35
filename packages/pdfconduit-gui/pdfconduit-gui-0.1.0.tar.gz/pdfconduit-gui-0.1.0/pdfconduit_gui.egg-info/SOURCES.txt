@@ -1,0 +1,6 @@
+setup.py
+pdfconduit_gui.egg-info/PKG-INFO
+pdfconduit_gui.egg-info/SOURCES.txt
+pdfconduit_gui.egg-info/dependency_links.txt
+pdfconduit_gui.egg-info/requires.txt
+pdfconduit_gui.egg-info/top_level.txt
