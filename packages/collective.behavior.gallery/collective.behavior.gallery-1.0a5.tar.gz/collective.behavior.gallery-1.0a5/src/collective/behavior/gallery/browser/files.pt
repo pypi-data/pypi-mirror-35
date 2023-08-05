@@ -1,0 +1,9 @@
+<div id="files-viewlet"
+     i18n:domain="plone">
+
+  <legend i18n:translate="">Content</legend>
+  <tal:block define="view nocall:context/listing_view; listing_macro view/macros/listing|view/index/macros/listing">
+          <metal:use_macro use-macro="listing_macro" />
+      </tal:block>
+
+</div>
