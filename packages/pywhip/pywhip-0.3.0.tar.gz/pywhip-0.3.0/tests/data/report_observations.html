@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <style>
+            h1, h2, h3, h4, h5, h6 {
+                margin-top: 1em;
+            }
+            h2 {
+                line-height: 1.7;
+                margin-bottom: 0.5em;
+            }
+            a, a:active, a:hover, a:focus, a:visited {
+                color: #808080;
+            }
+            section {
+               display: block;
+               background-color: #F5F5F5;
+               padding:1em;
+            }
+
+            .theme-sidebar-primary {
+                position: sticky;
+                top: 2rem;
+            }
+
+            footer {
+                background-color: #F5F5F5;
+                padding: 15px 0;
+                color: #333333;
+            }
+
+            .foot-info {
+                margin-top: 10px;
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+            }
+        </style>
+
+        <title>Whip validator report</title>
+    </head>
+
+  <body>
+    <header></header>
+    <main class="container-fluid">
+        <div class="row">
+
+            <div class="col-12 col-md-9 order-md-1">
+            <h1>Whip validator report</h1>
+                <p>Date: 2018-08-21 17:57</p>
+
+            <h2>Summary</h2>
+            <section>
+                <p>Total rows: 5</p>
+                <h4>Unknown fields:</h4>
+                    <p><i><small>(these fields are described in the whip specifications, but are missing in the data)</small></i></p>
+                    
+
+                <h4>Unspecified fields:</h4>
+                    <p><i><small>(these fields exist in data, but have no whip specification):</small></i></p>
+                    
+                
+            </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-9 order-md-1">
+                <h2>Specifications</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-3 order-md-2" >
+                <nav class="navbar theme-sidebar-primary">
+                    <ul class="nav flex-column nav-stacked">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#country_nav">country</a><!-- anchor to class_group -->
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#eventDate_nav">eventDate</a><!-- anchor to class_group -->
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#individualCount_nav">individualCount</a><!-- anchor to class_group -->
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-12 col-md-9 order-md-1">
+            <div class="table-responsive">
+                <table class="table">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Field</th>
+                      <th scope="col">Specification</th>
+                      <th scope="col">Constraint</th>
+                      <th scope="col">Passed records</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    
+                        <tbody class="fields">
+                            <tr class="table-secondary">
+                                <td colspan="5" >
+                                    <div id="country_nav"> country </div>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        
+                        <tbody class="rules">
+                            <tr data-toggle="collapse" data-target="#country_allowed_examples" class="accordion-toggle">
+                               <td width="15%"></td>
+                               <td>allowed</td>
+                               <td>BE, NL</td>
+                               <td>
+                                   <div class="progress">
+                                       
+                                       <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;" aria-valuenow="80.0" aria-valuemin="0" aria-valuemax="100">4</div>
+                                       
+                                   </div>
+                               </td>
+                               <td>
+                                   
+                                    <i class="fas fa-chevron-down"></i>
+                                   
+                               </td>
+                            </tr>
+                            
+                            <tr>
+                                <td colspan="4" class="hiddenRow">
+                                    <div class="accordian-body collapse" id="country_allowed_examples">
+                                    <p>Value issue samples:</p>
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                              <th scope="col"></th>
+                                              <th scope="col">Data value</th>
+                                              <th scope="col">Message</th>
+                                              <th scope="col"># Rows failed</th>
+                                              <th scope="col">First presence row index</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            
+                                            <tr>
+                                               <td>1</td>
+                                               <td>BA</td>
+                                               <td>unallowed value BA</td>
+                                               <td>1</td>
+                                               <td>1</td>
+                                            </tr>
+                                            
+                                        </tbody>
+               	                    </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                        <tbody class="rules">
+                            <tr data-toggle="collapse" data-target="#country_empty_examples" class="accordion-toggle">
+                               <td width="15%"></td>
+                               <td>empty</td>
+                               <td>False</td>
+                               <td>
+                                   <div class="progress">
+                                       
+                                       <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100">5</div>
+                                       
+                                   </div>
+                               </td>
+                               <td>
+                                   
+                               </td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                    
+                        <tbody class="fields">
+                            <tr class="table-secondary">
+                                <td colspan="5" >
+                                    <div id="eventDate_nav"> eventDate </div>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        
+                        <tbody class="rules">
+                            <tr data-toggle="collapse" data-target="#eventDate_dateformat_examples" class="accordion-toggle">
+                               <td width="15%"></td>
+                               <td>dateformat</td>
+                               <td>%Y-%m-%d</td>
+                               <td>
+                                   <div class="progress">
+                                       
+                                       <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100">5</div>
+                                       
+                                   </div>
+                               </td>
+                               <td>
+                                   
+                               </td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                        <tbody class="rules">
+                            <tr data-toggle="collapse" data-target="#eventDate_empty_examples" class="accordion-toggle">
+                               <td width="15%"></td>
+                               <td>empty</td>
+                               <td>False</td>
+                               <td>
+                                   <div class="progress">
+                                       
+                                       <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100">5</div>
+                                       
+                                   </div>
+                               </td>
+                               <td>
+                                   
+                               </td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                        <tbody class="rules">
+                            <tr data-toggle="collapse" data-target="#eventDate_maxdate_examples" class="accordion-toggle">
+                               <td width="15%"></td>
+                               <td>maxdate</td>
+                               <td>2018-12-31</td>
+                               <td>
+                                   <div class="progress">
+                                       
+                                       <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100">5</div>
+                                       
+                                   </div>
+                               </td>
+                               <td>
+                                   
+                               </td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                        <tbody class="rules">
+                            <tr data-toggle="collapse" data-target="#eventDate_mindate_examples" class="accordion-toggle">
+                               <td width="15%"></td>
+                               <td>mindate</td>
+                               <td>2016-01-01</td>
+                               <td>
+                                   <div class="progress">
+                                       
+                                       <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;" aria-valuenow="80.0" aria-valuemin="0" aria-valuemax="100">4</div>
+                                       
+                                   </div>
+                               </td>
+                               <td>
+                                   
+                                    <i class="fas fa-chevron-down"></i>
+                                   
+                               </td>
+                            </tr>
+                            
+                            <tr>
+                                <td colspan="4" class="hiddenRow">
+                                    <div class="accordian-body collapse" id="eventDate_mindate_examples">
+                                    <p>Value issue samples:</p>
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                              <th scope="col"></th>
+                                              <th scope="col">Data value</th>
+                                              <th scope="col">Message</th>
+                                              <th scope="col"># Rows failed</th>
+                                              <th scope="col">First presence row index</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            
+                                            <tr>
+                                               <td>1</td>
+                                               <td>1018-01-08</td>
+                                               <td>date '1018-01-08' is before min limit '2016-01-01'</td>
+                                               <td>1</td>
+                                               <td>5</td>
+                                            </tr>
+                                            
+                                        </tbody>
+               	                    </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                    
+                        <tbody class="fields">
+                            <tr class="table-secondary">
+                                <td colspan="5" >
+                                    <div id="individualCount_nav"> individualCount </div>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        
+                        <tbody class="rules">
+                            <tr data-toggle="collapse" data-target="#individualCount_empty_examples" class="accordion-toggle">
+                               <td width="15%"></td>
+                               <td>empty</td>
+                               <td>False</td>
+                               <td>
+                                   <div class="progress">
+                                       
+                                       <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100">5</div>
+                                       
+                                   </div>
+                               </td>
+                               <td>
+                                   
+                               </td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                        <tbody class="rules">
+                            <tr data-toggle="collapse" data-target="#individualCount_max_examples" class="accordion-toggle">
+                               <td width="15%"></td>
+                               <td>max</td>
+                               <td>100</td>
+                               <td>
+                                   <div class="progress">
+                                       
+                                       <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;" aria-valuenow="80.0" aria-valuemin="0" aria-valuemax="100">4</div>
+                                       
+                                   </div>
+                               </td>
+                               <td>
+                                   
+                                    <i class="fas fa-chevron-down"></i>
+                                   
+                               </td>
+                            </tr>
+                            
+                            <tr>
+                                <td colspan="4" class="hiddenRow">
+                                    <div class="accordian-body collapse" id="individualCount_max_examples">
+                                    <p>Value issue samples:</p>
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                              <th scope="col"></th>
+                                              <th scope="col">Data value</th>
+                                              <th scope="col">Message</th>
+                                              <th scope="col"># Rows failed</th>
+                                              <th scope="col">First presence row index</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            
+                                            <tr>
+                                               <td>1</td>
+                                               <td>3300</td>
+                                               <td>max value is 100</td>
+                                               <td>1</td>
+                                               <td>3</td>
+                                            </tr>
+                                            
+                                        </tbody>
+               	                    </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                        <tbody class="rules">
+                            <tr data-toggle="collapse" data-target="#individualCount_min_examples" class="accordion-toggle">
+                               <td width="15%"></td>
+                               <td>min</td>
+                               <td>1</td>
+                               <td>
+                                   <div class="progress">
+                                       
+                                       <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100">5</div>
+                                       
+                                   </div>
+                               </td>
+                               <td>
+                                   
+                               </td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                        <tbody class="rules">
+                            <tr data-toggle="collapse" data-target="#individualCount_numberformat_examples" class="accordion-toggle">
+                               <td width="15%"></td>
+                               <td>numberformat</td>
+                               <td>x</td>
+                               <td>
+                                   <div class="progress">
+                                       
+                                       <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100">5</div>
+                                       
+                                   </div>
+                               </td>
+                               <td>
+                                   
+                               </td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                    
+                  </tbody>
+                </table>
+            </div>
+            </div>
+        </div>
+    </main>
+        <footer>
+            <div class="container-fluid">
+                <div>
+                    <nav class="nav justify-content-center">
+                        <a class="fa-stack fa-lg" href="https://twitter.com/lifewatchinbo"><i class="fab fa-twitter"></i></a>
+                        <a class="fa-stack fa-lg" href="https://github.com/inbo/whip"><i class="fab fa-github"></i></a>
+                    </nav>
+                </div>
+
+                <div class="foot-info">
+                    Whip validation executed by <a href="https://inbo.github.io/pywhip/" target="_blank">pywhip</a>
+                    using the <a href="https://github.com/inbo/whip" target="_blank"> whip</a> syntax,
+                    a human and machine-readable syntax to express specifications for data.
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,198 @@
+{
+    "errors": {
+        "basisOfRecord": {
+            "allowed": {
+                "3": [
+                    {
+                        "constraint": "['HumanObservation', 'PreservedSpecimen', 'Occurrence']",
+                        "message": "unallowed value Human Observation",
+                        "rule": "allowed",
+                        "scope": null,
+                        "value": "Human Observation"
+                    }
+                ]
+            }
+        },
+        "decimalLatitude": {
+            "max": {
+                "4": [
+                    {
+                        "constraint": "51.51",
+                        "message": "max value is 51.51",
+                        "rule": "max",
+                        "scope": null,
+                        "value": "58.11234"
+                    }
+                ]
+            }
+        },
+        "decimalLongitude": {
+            "max": {
+                "4": [
+                    {
+                        "constraint": "5.92",
+                        "message": "max value is 5.92",
+                        "rule": "max",
+                        "scope": null,
+                        "value": "58.0"
+                    }
+                ]
+            },
+            "numberformat": {
+                "4": [
+                    {
+                        "constraint": ".5",
+                        "message": "numberformat of value '58.0' not in agreement with '.5'",
+                        "rule": "numberformat",
+                        "scope": null,
+                        "value": "58.0"
+                    }
+                ]
+            }
+        },
+        "eventDate": {
+            "dateformat": {
+                "1": [
+                    {
+                        "constraint": "['%Y-%m-%d', '%Y-%m', '%Y']",
+                        "message": "string format of value '1984-07-24/2000-01-03' not compliant with '['%Y-%m-%d', '%Y-%m', '%Y']'",
+                        "rule": "dateformat",
+                        "scope": null,
+                        "value": "1984-07-24/2000-01-03"
+                    }
+                ],
+                "2": [
+                    {
+                        "constraint": "['%Y-%m-%d', '%Y-%m', '%Y']",
+                        "message": "string format of value '07241981' not compliant with '['%Y-%m-%d', '%Y-%m', '%Y']'",
+                        "rule": "dateformat",
+                        "scope": null,
+                        "value": "07241981"
+                    }
+                ]
+            },
+            "maxdate": {
+                "2": [
+                    {
+                        "constraint": "2014-12-31",
+                        "message": "value '07241981' could not be interpreted as date or datetime",
+                        "rule": "maxdate",
+                        "scope": null,
+                        "value": "07241981"
+                    }
+                ]
+            },
+            "mindate": {
+                "2": [
+                    {
+                        "constraint": "1830-01-01",
+                        "message": "value '07241981' could not be interpreted as date or datetime",
+                        "rule": "mindate",
+                        "scope": null,
+                        "value": "07241981"
+                    }
+                ]
+            }
+        },
+        "occurrenceID": {
+            "empty": {
+                "5": [
+                    {
+                        "constraint": "False",
+                        "message": "empty values not allowed",
+                        "rule": "empty",
+                        "scope": null,
+                        "value": ""
+                    }
+                ]
+            }
+        },
+        "recordedBy": {
+            "maxlength": {
+                "1": [
+                    {
+                        "constraint": "17",
+                        "message": "max length is 17",
+                        "rule": "maxlength",
+                        "scope": "delimitedvalues",
+                        "value": "observerID:JNHRLPAAA"
+                    },
+                    {
+                        "constraint": "17",
+                        "message": "max length is 17",
+                        "rule": "maxlength",
+                        "scope": "delimitedvalues",
+                        "value": "observerID:JNHRLCTGH"
+                    }
+                ],
+                "2": [
+                    {
+                        "constraint": "17",
+                        "message": "max length is 17",
+                        "rule": "maxlength",
+                        "scope": "delimitedvalues",
+                        "value": "observerID:JNHRLP ; observerID:JNHRLC"
+                    }
+                ]
+            }
+        },
+        "type": {
+            "allowed": {
+                "5": [
+                    {
+                        "constraint": "['Event']",
+                        "message": "unallowed value PhysicalObject",
+                        "rule": "allowed",
+                        "scope": "if",
+                        "value": "PhysicalObject"
+                    }
+                ]
+            }
+        }
+    },
+    "executed_at": "2018-08-16 09:19",
+    "missing_fields": [
+        "nonExistigColumn"
+    ],
+    "number_of_records": 5,
+    "unvalidated_fields": [
+        "georeferenceRemarks",
+        "datasetName",
+        "identificationVerificationStatus",
+        "stateProvince",
+        "scientificNameAuthorship",
+        "institutionCode",
+        "id",
+        "accessRights",
+        "verbatimCoordinateSystem",
+        "countryCode",
+        "kingdom",
+        "order",
+        "coordinateUncertaintyInMeters",
+        "phylum",
+        "verbatimEventDate",
+        "rightsHolder",
+        "continent",
+        "lifeStage",
+        "geodeticDatum",
+        "taxonRank",
+        "verbatimSRS",
+        "scientificName",
+        "verbatimCoordinates",
+        "dataGeneralizations",
+        "municipality",
+        "vernacularName",
+        "samplingEffort",
+        "verbatimLocality",
+        "ownerInstitutionCode",
+        "informationWithheld",
+        "sex",
+        "class",
+        "samplingProtocol",
+        "associatedReferences",
+        "nomenclaturalCode"
+    ],
+    "warnings": [
+        "Following fields mentioned inside if specifications do not exist inside the document: anotherNonExistigColumn"
+    ]
+}
