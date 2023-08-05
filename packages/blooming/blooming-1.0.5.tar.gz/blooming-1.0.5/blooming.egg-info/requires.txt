@@ -1,0 +1,7 @@
+coverage
+docopt
+nose
+paramiko
+pypi-publisher
+sphinx
+sphinx_rtd_theme
