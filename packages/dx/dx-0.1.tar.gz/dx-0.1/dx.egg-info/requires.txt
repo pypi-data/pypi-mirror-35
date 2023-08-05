@@ -1,0 +1,6 @@
+
+[all]
+pytest
+
+[tests]
+pytest
