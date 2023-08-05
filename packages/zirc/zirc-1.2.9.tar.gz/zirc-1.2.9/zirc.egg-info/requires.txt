@@ -1,0 +1,7 @@
+six
+
+[pysocks]
+pysocks
+
+[pysocks:sys_platform=="win32" and python_version == "2.7"]
+win_inet_pton
