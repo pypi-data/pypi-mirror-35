@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+flask_basicauth_ldap.py
+setup.cfg
+setup.py
+Flask_BasicAuth_LDAP.egg-info/PKG-INFO
+Flask_BasicAuth_LDAP.egg-info/SOURCES.txt
+Flask_BasicAuth_LDAP.egg-info/dependency_links.txt
+Flask_BasicAuth_LDAP.egg-info/not-zip-safe
+Flask_BasicAuth_LDAP.egg-info/requires.txt
+Flask_BasicAuth_LDAP.egg-info/top_level.txt
