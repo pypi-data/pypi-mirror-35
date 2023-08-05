@@ -1,0 +1,4 @@
+[console_scripts]
+distance-calc = distances_calculator.command_line:main
+distances_writer = distances_calculator.command_line:csv_writer
+
