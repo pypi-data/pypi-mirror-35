@@ -1,0 +1,12 @@
+dirstate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dirstate/bin.py,sha256=tESPOV38gEUwL-4qnDo6OGNTDZub0645__063sHL20E,714
+dirstate/constants.py,sha256=ssiQRS8P0bpUKrbh8OlImvhnVJ5tWxv1HknVhLnsuqA,99
+dirstate/state.py,sha256=hvGY_QMmzKE2QaH1KGHrqaXiMOYYpj9rp_rATTxVRzM,1098
+dirstate/utils.py,sha256=2deijKr5KkSMytizkOv9IW3iZR7OyD65jBsKchJ82gE,1034
+dirstate-1.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+dirstate-1.0.1.dist-info/METADATA,sha256=FsmY5Pw1xuWSByQEfW2D2_UcjBSgQM1-bJ1g6SdBmVQ,172
+dirstate-1.0.1.dist-info/RECORD,,
+dirstate-1.0.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+dirstate-1.0.1.dist-info/entry_points.txt,sha256=iOvMkjBkCoXaX1_nQZTVJwWgqEexBz0zfG-VLgBdCMI,47
+dirstate-1.0.1.dist-info/metadata.json,sha256=pgKW9Xi2_wly4-RVr_6-ykVBQx7PwPC458k8chgIcGE,360
+dirstate-1.0.1.dist-info/top_level.txt,sha256=a02gtHN3JR7INTFF4hYpMkA53E_vISar3Yk8aTtt6qo,9
