@@ -1,0 +1,7 @@
+README.md
+setup.py
+lipsum/__init__.py
+lipsumAPI.egg-info/PKG-INFO
+lipsumAPI.egg-info/SOURCES.txt
+lipsumAPI.egg-info/dependency_links.txt
+lipsumAPI.egg-info/top_level.txt
