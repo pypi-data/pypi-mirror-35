@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: escpy
+Version: 0.0.2
+Summary: A package that implements Born stability conditions
+Home-page: https://github.com/MineralsCloud/elastic-stability-conditions
+Author: Qi Zhang
+Author-email: qz2280@columbia.edu
+Maintainer: Qi Zhang
+Maintainer-email: qz2280@columbia.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
