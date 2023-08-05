@@ -1,0 +1,15 @@
+dhutil/__init__.py,sha256=GqUPDTIuazKwoIK5QParqzKNB2F9KGYLx7xnfJuau10,131
+dhutil/_version.py,sha256=_PppMpypJs43ZkQFDvsXshj4I-azjS-EeXlquxjJB7Q,497
+dhutil/drive_ops.py,sha256=3XUJYan8G2NEvZCAy_43RradmkxexBMfW5tvoK9h3jg,4746
+dhutil/drive_utils.py,sha256=bWJ7cmCsuM6-B8Jd_qbErwAyWp6lEr6nhJVdYvngexw,3222
+dhutil/mail_ops.py,sha256=G0oDuABG7ryehS-SvUupIGM0UmglISk-lJ6Pq1uxh0I,4440
+dhutil/mail_utils.py,sha256=omahNWiMsbJHs0QOaIdyxg_dyMpB23KOhA-us3g2LVo,1512
+dhutil/mailchimp_utils.py,sha256=RkMvKJUnJRWEYvSw8YkteGKF0Y5UjOgt_I2kQc_e-NI,4428
+dhutil/mongo_ops.py,sha256=lCvV3J9-U5EW02CuWNjEBSIK2D0RYpbG3Di3NfFFmHY,3912
+dhutil/mongo_utils.py,sha256=vBI81PMlOzUqjZRcR1_uto3p8k0KDWxPG_tytQ5Zni4,1077
+dhutil/shared.py,sha256=suFXFgOnD3hT_PlFCScW972QLC7tiTCTX-av1ZfEygk,59
+dhutil-0.0.4.dist-info/METADATA,sha256=40baBJHkEjOfwbrijkhXDaDTziEYRXcLfbB2zhrCOBU,8614
+dhutil-0.0.4.dist-info/RECORD,,
+dhutil-0.0.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+dhutil-0.0.4.dist-info/entry_points.txt,sha256=BJ1fqtgz7koulzhC8taozjV7WZPjB_5t-3upRc4P61g,76
+dhutil-0.0.4.dist-info/top_level.txt,sha256=D-dQg0eP-mNrIC1IKkUmpRjM1bL4gU7z-nVRhRehUE4,7
