@@ -1,0 +1,9 @@
+README.md
+setup.py
+stock/__init__.py
+stock/stock_quote.py
+stock_quote_cli.egg-info/PKG-INFO
+stock_quote_cli.egg-info/SOURCES.txt
+stock_quote_cli.egg-info/dependency_links.txt
+stock_quote_cli.egg-info/entry_points.txt
+stock_quote_cli.egg-info/top_level.txt
