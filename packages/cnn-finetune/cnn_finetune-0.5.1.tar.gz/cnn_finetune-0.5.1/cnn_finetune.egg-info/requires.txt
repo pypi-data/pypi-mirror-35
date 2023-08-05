@@ -1,0 +1,10 @@
+torch
+torchvision
+pretrainedmodels
+scipy
+tqdm
+
+[tests]
+pytest
+numpy
+pytest-cov
