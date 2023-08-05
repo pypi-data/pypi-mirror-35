@@ -1,0 +1,7 @@
+README.md
+setup.py
+mailcli.egg-info/PKG-INFO
+mailcli.egg-info/SOURCES.txt
+mailcli.egg-info/dependency_links.txt
+mailcli.egg-info/entry_points.txt
+mailcli.egg-info/top_level.txt
