@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+changewords/__init__.py
+changewords/changewords.py
+changewords.egg-info/PKG-INFO
+changewords.egg-info/SOURCES.txt
+changewords.egg-info/dependency_links.txt
+changewords.egg-info/entry_points.txt
+changewords.egg-info/top_level.txt
