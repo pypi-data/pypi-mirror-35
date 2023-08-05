@@ -1,0 +1,9 @@
+kibitzr_sentry.py
+setup.py
+kibitzr_sentry.egg-info/PKG-INFO
+kibitzr_sentry.egg-info/SOURCES.txt
+kibitzr_sentry.egg-info/dependency_links.txt
+kibitzr_sentry.egg-info/entry_points.txt
+kibitzr_sentry.egg-info/not-zip-safe
+kibitzr_sentry.egg-info/requires.txt
+kibitzr_sentry.egg-info/top_level.txt

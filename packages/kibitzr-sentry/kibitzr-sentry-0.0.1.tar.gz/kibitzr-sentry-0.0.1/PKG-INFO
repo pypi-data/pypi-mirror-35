@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: kibitzr-sentry
+Version: 0.0.1
+Summary: Kibitzr integration with Sentry
+Home-page: https://github.com/kibitzr/kibitzr-sentry
+Author: Peter Demin
+Author-email: kibitzrrr@gmail.com
+License: MIT license
+Description: 
+        Send errors from Kibitzr checks to Sentry.
+        
+        To setup this extension add following configuration to kibitzr-creds.yml:
+        
+        ```
+        sentry:
+            dsn: "https://123:456@sentry.io/789"
+            level: error
+        ```
+        
+        Note quotes aroung URL, they are required to disambiguate
+        YAML parser from parsing collon symbol as key-value mapping.
+        
+Keywords: kibitzr
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
