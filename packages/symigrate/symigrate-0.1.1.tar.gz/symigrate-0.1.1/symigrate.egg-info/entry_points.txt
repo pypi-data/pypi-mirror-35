@@ -1,0 +1,3 @@
+[console_scripts]
+symigrate = symigrate.main.symigrate:main
+
