@@ -1,0 +1,5 @@
+[console_scripts]
+check-ip=libaloha.bin:check_ip
+check-website-alive=libaloha.bin:check_website_alive
+send-sms=libaloha.bin:send_sms
+
