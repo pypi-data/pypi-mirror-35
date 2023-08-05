@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: forcasting
+Version: 0.0.1-beta-
+Summary: Predict the value any this like car price share market
+Home-page: http://www.sushilranjan.com
+Author: Sushil Ranjan
+Author-email: nikuraj006@gmail.com
+License: BSD
+Description: from sushil import main
+        and run main with getPridiction(user_input, raw_data, target)
+        getPrediction will return accuracy and predict value
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Requires-Python: >=3.5
+Provides-Extra: bcrypt
+Provides-Extra: argon2
