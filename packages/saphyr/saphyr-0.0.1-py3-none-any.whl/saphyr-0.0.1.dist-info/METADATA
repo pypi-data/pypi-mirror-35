@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: saphyr
+Version: 0.0.1
+Summary: An experiemental fullstack framework
+Home-page: https://github.com/laibulle/saphyr
+Author: Guillaume Bailleul
+Author-email: laibulle@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# Saphyr
+
+<img width=100 src="./docs/files/logo.svg">
+
+Fullstack and scalable python web framework based on uvloop.
+
+Is it ready for prod ? __Nooooooooooo__
+
+__Goals__
+
+- Strongly opinionated
+- Fast prototyping
+- Async IO
+- First class interop with Rust
+
+__Inspirations__
+
+- Phoenix
+- NodeJs
+
+__todo__
+
+- controllers
+- service container
+- test samples
+
