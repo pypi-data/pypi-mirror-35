@@ -1,0 +1,13 @@
+{
+    "current_step": 0,
+    "program_identifier": {
+        "type": "program",
+        "id": 42
+    },
+    "inputs": [],
+    "trigger": {
+        "event_type": "use_execution_rule",
+        "reason": ""
+    },
+    "tags": []
+}
