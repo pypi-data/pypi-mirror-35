@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: getlink_fshare
+Version: 0.3
+Summary: Get download link from Fshare.vn
+Home-page: https://github.com/TranDatDT/getlink_fshare
+Author: trandatdt
+Author-email: trandat021197@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: getlink,fshare
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
