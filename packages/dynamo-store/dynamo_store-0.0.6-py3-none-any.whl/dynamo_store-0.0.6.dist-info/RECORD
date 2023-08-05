@@ -1,0 +1,13 @@
+dynamo_store/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dynamo_store/aescrypt.py,sha256=KqBvBVuAi7NpjXxA2r4ry5wgVd0t8sjeqcCOtHgm_3k,995
+dynamo_store/log.py,sha256=5f8gNTQA7w_IAv8auQa_mTiwftucuqlFPOXUGHTNLxY,712
+dynamo_store/object.py,sha256=Nu_XGNp3lk8asaiCn8Nuz9v9zY52OIx1th0DiaCpBq0,5120
+dynamo_store/store.py,sha256=BEJ4_gImHRTV0QAsEmfzWzhMEdE-PdKdKCFKarc3ZC0,14645
+dynamo_store-0.0.6.dist-info/METADATA,sha256=nWl2e4-pCML1__ZVkxYVPB9D0MXZg1aSiyvBLND0cX4,12664
+dynamo_store-0.0.6.dist-info/RECORD,,
+dynamo_store-0.0.6.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+dynamo_store-0.0.6.dist-info/top_level.txt,sha256=bC8Wx1jjkfhczkEY70Sng1XEDUdr2vV7kcRgc0SmmGk,19
+dynamo_store-0.0.6.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/__init__.py,sha256=nfl9tSokP4mBvIO15ZFylwLOgDZACMy7uR84gsd0EpQ,41
+tests/test_object.py,sha256=vY9hXFaw0H135xnUtKq5968cvLKzfxQPxH5YCIUSnR0,6371
+tests/test_store.py,sha256=0-1YCkxn3Tgn9MixoWd-IilJccCWQkgUcllfYP3fgw0,3410
