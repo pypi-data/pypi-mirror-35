@@ -1,0 +1,9 @@
+djangorestframework
+django-cors-headers
+django-storages
+boto3
+Pillow
+celery
+
+[test]
+pytest
