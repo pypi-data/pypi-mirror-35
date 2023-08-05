@@ -1,0 +1,10 @@
+README.md
+setup.py
+pkg/__init__.py
+pkg/rmctl.py
+rmctl.egg-info/PKG-INFO
+rmctl.egg-info/SOURCES.txt
+rmctl.egg-info/dependency_links.txt
+rmctl.egg-info/entry_points.txt
+rmctl.egg-info/requires.txt
+rmctl.egg-info/top_level.txt
