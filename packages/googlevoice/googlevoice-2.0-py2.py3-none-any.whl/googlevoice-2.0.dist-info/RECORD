@@ -1,0 +1,15 @@
+googlevoice/__init__.py,sha256=NUG6Z1AzR3MJ-WnJvMktb44A-ITae8TLkdSjgRJX5UM,873
+googlevoice/__main__.py,sha256=2sjGubzZ62fQq_YhdU2SoVkGR0Po569QUlFqZ94W2EA,5059
+googlevoice/conf.py,sha256=BZwH3XzTZ-AlDa05uvjg6aijMuDdKsmWXB-BSylsKuo,1661
+googlevoice/interact.py,sha256=O0I8gZZDHgPTil7Ue8BoXmyy5u8b7lv42Rs6uYes-Pk,535
+googlevoice/settings.py,sha256=dIKFDTjL1ZEtYt_hIIUZwsuKrkvnYuN7Aj4q2eKEn30,2356
+googlevoice/setup-asterisk.py,sha256=XcXMsfOEZOv98hgAxGmwXlsv-bhj8_oaedKX6juvSks,3302
+googlevoice/tests.py,sha256=FZbFoqiDj4-9NS22S-hnR3DtWvPk090oOGNM-JdD5Lk,1649
+googlevoice/util.py,sha256=PoVcy356OfX9PZSWl5Cy8c7mCd8WTFFnTPrW7wlPE0o,7523
+googlevoice/voice.py,sha256=x8OTNDM07RpFeWVHROCAtzfe74FJxpip4pHiI02eTTE,11026
+googlevoice-2.0.dist-info/LICENSE.txt,sha256=pV4v_ptEmY5iHVHYwJS-0JrMS1I27nPX3zlaM7o8GP0,1050
+googlevoice-2.0.dist-info/METADATA,sha256=GafDsK86Cn0ylRt03CysrXxCi4jI9PZp8ELes-NnZnU,2139
+googlevoice-2.0.dist-info/RECORD,,
+googlevoice-2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+googlevoice-2.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+googlevoice-2.0.dist-info/top_level.txt,sha256=jkYLjURX88kEm7vWpyAzfJTWLFHpBc-ZMvkk27Rb6So,12
