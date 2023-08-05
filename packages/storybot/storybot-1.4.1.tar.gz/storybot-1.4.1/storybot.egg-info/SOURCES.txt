@@ -1,0 +1,7 @@
+README.md
+StoryBot/IRC.py
+StoryBot/__init__.py
+storybot.egg-info/PKG-INFO
+storybot.egg-info/SOURCES.txt
+storybot.egg-info/dependency_links.txt
+storybot.egg-info/top_level.txt
