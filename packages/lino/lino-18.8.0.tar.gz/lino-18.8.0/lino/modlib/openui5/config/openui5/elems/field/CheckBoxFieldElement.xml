@@ -1,0 +1,12 @@
+{% extends "/openui5/elems/field/FieldElement.xml" %}
+
+{% block field_label %}
+{% endblock %}
+
+{% block field_content %}
+
+    <CheckBox text="{{e.label}}"
+              value="{{bind('record>/data/',e.field.name)}}"
+              editable="{{str(e.editable).lower()}}"
+              selected="{{bind('record>/data/',e.field.name)}}" />
+{% endblock %}

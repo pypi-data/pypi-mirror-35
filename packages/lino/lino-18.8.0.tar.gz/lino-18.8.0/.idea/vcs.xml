@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../appypod" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../atelier" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../avanti" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../book" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../etgen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../extjs6" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../noi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../voga" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../welfare" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../xl" vcs="Git" />
+  </component>
+</project>
