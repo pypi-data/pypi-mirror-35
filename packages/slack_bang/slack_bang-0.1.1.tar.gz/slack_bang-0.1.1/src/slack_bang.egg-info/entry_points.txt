@@ -1,0 +1,4 @@
+[console_scripts]
+slack_bang = slack_bang.cli:post
+slack_bang_web = slack_bang.cli:web
+

@@ -1,0 +1,2 @@
+include src/slack_bang/*.txt
+include src/slack_bang/*.md
