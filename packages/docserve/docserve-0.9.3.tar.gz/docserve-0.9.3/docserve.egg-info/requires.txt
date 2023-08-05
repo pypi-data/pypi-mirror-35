@@ -1,0 +1,5 @@
+Flask==1.0.2
+Markdown==2.6.11
+markdown-checklist==0.4.1
+timeago==1.0.8
+Frozen-Flask==0.15
