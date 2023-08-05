@@ -1,0 +1,10 @@
+constellationfs/__init__.py,sha256=5rHoX1rtBFSGk2aQnRxOn6qK9yJZCn3W_iUbaNtd2Uo,25
+constellationfs/gateway.py,sha256=wNGDXAjtqNTQ6n8JeXkKgs88jfS52aNnWaguusIrZVc,3280
+constellationfs/ipfsnode.py,sha256=pQAROvqxjdOotK_uSEMUHUSK38inFeYuAhllbBXTbbE,4582
+constellationfs/result.py,sha256=Urt-K3T_l8_5dVdqFnzzOltV0tdkquvU61n0l1unTxg,1258
+constellationfs-0.3.6.dist-info/DESCRIPTION.rst,sha256=uQTz_3X9Qep2KQwqFv7pbhUsh2Q_R6R7cWoDUk1b1DA,4692
+constellationfs-0.3.6.dist-info/METADATA,sha256=lHhpF6mDJcn-IbIBvsa_IiaeXbHH99VGdixOxqA3VP0,5139
+constellationfs-0.3.6.dist-info/RECORD,,
+constellationfs-0.3.6.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+constellationfs-0.3.6.dist-info/metadata.json,sha256=LvwKiZSswocVBPjnAHjBbN4L4YQqiNcu7YerWf2-yhQ,611
+constellationfs-0.3.6.dist-info/top_level.txt,sha256=BTXl6TTZRgK-jSBxwE65ys2nvnqcuDuzHVLLe7zpfDc,16
