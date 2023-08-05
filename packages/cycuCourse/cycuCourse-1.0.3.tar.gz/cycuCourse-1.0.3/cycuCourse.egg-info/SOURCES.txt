@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+readme.md
+setup.py
+cycuCourse/__init__.py
+cycuCourse/crypto.py
+cycuCourse/cycuCourse.py
+cycuCourse/selection_helper.py
+cycuCourse.egg-info/PKG-INFO
+cycuCourse.egg-info/SOURCES.txt
+cycuCourse.egg-info/dependency_links.txt
+cycuCourse.egg-info/entry_points.txt
+cycuCourse.egg-info/not-zip-safe
+cycuCourse.egg-info/requires.txt
+cycuCourse.egg-info/top_level.txt

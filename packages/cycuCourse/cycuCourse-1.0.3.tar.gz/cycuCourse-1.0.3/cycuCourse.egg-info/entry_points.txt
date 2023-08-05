@@ -1,0 +1,3 @@
+[console_scripts]
+selection_helper = cycuCourse.selection_helper:cli
+
