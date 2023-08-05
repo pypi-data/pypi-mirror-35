@@ -1,0 +1,7 @@
+numpy
+matplotlib
+astropy
+scipy
+autograd
+lightkurve
+future==0.16.0
