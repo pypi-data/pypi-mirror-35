@@ -1,0 +1,9 @@
+README.md
+setup.py
+gpdvega/__init__.py
+gpdvega/geodata.py
+gpdvega.egg-info/PKG-INFO
+gpdvega.egg-info/SOURCES.txt
+gpdvega.egg-info/dependency_links.txt
+gpdvega.egg-info/requires.txt
+gpdvega.egg-info/top_level.txt
