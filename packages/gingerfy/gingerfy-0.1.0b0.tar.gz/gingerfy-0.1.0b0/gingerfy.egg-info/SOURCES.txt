@@ -1,0 +1,12 @@
+README.md
+setup.py
+gingerfy/__init__.py
+gingerfy/main.py
+gingerfy.egg-info/PKG-INFO
+gingerfy.egg-info/SOURCES.txt
+gingerfy.egg-info/dependency_links.txt
+gingerfy.egg-info/top_level.txt
+gingerfy/src/__init__.py
+gingerfy/src/gingerfied.py
+gingerfy/src/gingerfier.py
+gingerfy/src/unginger.py
