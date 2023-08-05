@@ -1,0 +1,9 @@
+magicfile-0.4.20.dist-info/RECORD,,
+magicfile-0.4.20.dist-info/WHEEL,sha256=RAKZceQadgvsh5lTcite2djFea5bPggV_oZLUtgekwY,111
+magicfile-0.4.20.dist-info/top_level.txt,sha256=3brWKQcgC_IzIHWJ5mbt605y6i3SHAh2ZgUVusbkfgA,10
+magicfile-0.4.20.dist-info/METADATA,sha256=twfs0j9t36p8bITfqkUG0LgaJ_vX2u-0dWq6dXJVAF8,4219
+magicfile/_libmagic.abi3.so,sha256=KzSUpmjejpqgww1XGrLpryDnzLqkyQCaHJcfMc8dMBY,17232
+magicfile/__init__.py,sha256=li6OrlucyuD7orb1g5We6DoMvuekyBIqa78oNgUsluI,5936
+magicfile/magic.mgc,sha256=oGTvSK7UxaXhDuQewhWMStyTS2QwI17EZ0TWHJqXe6Y,4964608
+magicfile/_libmagic_build.py,sha256=Sax6tnGhxbP5L7D0xfGfhnkVeMA8SKJV7hQKe8_O8Q4,812
+magicfile/.dylibs/libmagic.1.dylib,sha256=IomrfWcgHcE9GbCObTMb8VpGdOvEz3995-I1E5bhWSA,115496
