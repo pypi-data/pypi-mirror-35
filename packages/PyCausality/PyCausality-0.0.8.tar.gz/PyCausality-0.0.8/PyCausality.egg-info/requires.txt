@@ -1,0 +1,6 @@
+pandas
+statsmodels
+numpy
+python-dateutil==2.6.1
+nose
+matplotlib
