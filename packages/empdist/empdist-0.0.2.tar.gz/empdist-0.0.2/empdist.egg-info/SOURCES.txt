@@ -1,0 +1,10 @@
+README.md
+setup.py
+empdist/__init__.py
+empdist/empirical_distribution.py
+empdist.egg-info/PKG-INFO
+empdist.egg-info/SOURCES.txt
+empdist.egg-info/dependency_links.txt
+empdist.egg-info/not-zip-safe
+empdist.egg-info/requires.txt
+empdist.egg-info/top_level.txt
