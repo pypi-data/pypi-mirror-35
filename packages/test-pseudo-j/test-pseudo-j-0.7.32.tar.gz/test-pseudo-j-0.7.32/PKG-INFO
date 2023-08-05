@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: test-pseudo-j
+Version: 0.7.32
+Summary: A Java8 compiler to Pseudo
+Home-page: https://github.com/dfagneray/pseudo_java
+Author: David Fagneray
+Author-email: david.fagneray@gmail.com
+License: UNKNOWN
+Description: # Example Package
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+        
+Keywords: compiler,generation,c++,ruby,c#,javascript,go,python,pseudo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
