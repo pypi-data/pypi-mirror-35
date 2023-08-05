@@ -1,0 +1,7 @@
+README.rst
+setup.py
+Laputa.egg-info/PKG-INFO
+Laputa.egg-info/SOURCES.txt
+Laputa.egg-info/dependency_links.txt
+Laputa.egg-info/requires.txt
+Laputa.egg-info/top_level.txt
