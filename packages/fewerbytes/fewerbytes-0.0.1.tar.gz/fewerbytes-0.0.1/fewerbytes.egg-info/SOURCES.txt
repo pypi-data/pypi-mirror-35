@@ -1,0 +1,13 @@
+README.md
+setup.py
+fewerbytes/__init__.py
+fewerbytes/compression_details.py
+fewerbytes/exceptions.py
+fewerbytes/integer_compression.py
+fewerbytes/integer_decompression.py
+fewerbytes/types.py
+fewerbytes.egg-info/PKG-INFO
+fewerbytes.egg-info/SOURCES.txt
+fewerbytes.egg-info/dependency_links.txt
+fewerbytes.egg-info/requires.txt
+fewerbytes.egg-info/top_level.txt
