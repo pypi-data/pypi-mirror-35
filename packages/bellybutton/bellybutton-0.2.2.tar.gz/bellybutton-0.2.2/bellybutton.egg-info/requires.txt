@@ -1,0 +1,7 @@
+astpath[xpath]>=0.6.1
+lxml>=4.1.1
+pyyaml>=3.12
+
+[dev]
+future>=0.16.0
+pytest>=3.1.2
