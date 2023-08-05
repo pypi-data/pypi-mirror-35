@@ -1,0 +1,8 @@
+README.md
+setup.py
+iuwm/console.py
+iuwm.egg-info/PKG-INFO
+iuwm.egg-info/SOURCES.txt
+iuwm.egg-info/dependency_links.txt
+iuwm.egg-info/requires.txt
+iuwm.egg-info/top_level.txt
