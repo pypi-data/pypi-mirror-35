@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        guildwatcher=guildwatcher:scan_guilds
+    
