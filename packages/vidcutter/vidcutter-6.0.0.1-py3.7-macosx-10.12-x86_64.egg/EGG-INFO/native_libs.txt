@@ -1,0 +1,1 @@
+vidcutter/libs/mpv.cpython-37m-darwin.so
