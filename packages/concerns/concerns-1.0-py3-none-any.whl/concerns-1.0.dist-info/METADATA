@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: concerns
+Version: 1.0
+Summary: aspect oriented programming helper
+Home-page: https://bitbucket.org/cacilhas/concerns
+Author: ℜodrigo ℭacilhας
+Author-email: batalema@cacilhas.info
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides: concerns
+
+# Concerns
+
+[Python](https://www.python.org/) implementation of the
+[Ruby](https://www.ruby-lang.org/)’s
+[ActiveSupport::Concern](https://api.rubyonrails.org/v5.1/classes/ActiveSupport/Concern.html)
+behavior.
+
+## Use examples
+
+Note: the class context is the fourth argument of the
+[metaclass](https://www.python.org/doc/essays/metaclasses/) `__init__` method,
+formally “namespace”:
+
+```python
+def __init__(cls, name: str, bases: tuple, namespace: dict) -> None:
+    ...
+```
+
+It is a dictionary representation of the class body.
+
+### Using a class as mix-in
+
+If the aspect is a class, its context will be merged to the target context on
+its factoring.
+
+```python
+from typing import NamedTuple
+from concerns import concern
+
+
+class SerialMixin:
+
+    def serialize(self) -> str:
+        return json.dumps(self._asdict(), sort_keys=True)
+
+    @classmethod
+    def deserialize(cls, data: str):
+        return cls(**json.loads(data))
+
+
+class PersonBase(NamedTuple):
+    name: str
+    surname: str
+
+
+class Person(PersonBase):
+    concern(SerialMixin)
+```
+
+### Using a mapping as default values map
+
+If the aspect is a mapping (a dictionary, by example), it itself will be merged
+to the target context on its factoring.
+
+```python
+from concerns import concern
+
+class Animal:
+    # Too simple use, avoid doing it
+    concern({voice='grrr'})
+
+    def __init__(self, *, voice: str = None):
+        if voice:
+            self.voice = voice
+
+    def say(self) -> None:
+        print(self.voice)
+```
+
+### Function to change behavior
+
+If the aspect is a callable, the target class context will be passed as
+parameter to the aspect for processing before its factoring.
+
+```python
+from concerns import concern
+from collections.abc import MutableMapping
+from datetime import datetime
+
+def make_timed(context: MutableMapping) -> None:
+    """
+    Reusable aspect function to add creating time to objects
+    """
+
+    def set_created_attr(attr: str) -> None:
+        context[attr] = None
+        def new(cls, name: str, bases: tuple, _dict: dict):
+            self = super().__new__(cls, name, bases, _dict)
+            setattr(self, attr) = datetime.now()
+            return self
+        context['__new__'] = new
+    context['set_created_attr'] = set_created_attr
+
+
+class Register:
+    concern(make_timed)
+
+    ...  # more class attributes
+
+    set_created_attr('created_at')
+```
+
+
