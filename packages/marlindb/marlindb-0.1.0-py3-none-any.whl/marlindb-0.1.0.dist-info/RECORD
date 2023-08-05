@@ -1,0 +1,8 @@
+marlindb/Connection.py,sha256=8cLLiMc9I3G7DQb-jSRBejR3ADMN_n47K_GpW7olx8Y,1889
+marlindb/Database.py,sha256=sf1EhduOCOBfzYL4SBUh3rSenERNjGtY1C0M7kj8Qs0,364
+marlindb/__init__.py,sha256=duFToUO2NRAsXq-CfCLmm40tQO5hWvnMvrwz6U0INA0,257
+marlindb/query.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marlindb-0.1.0.dist-info/METADATA,sha256=J-GwoiNl5abztKWoTSinDwp9mboxCDsjlkQqVAzCtao,258
+marlindb-0.1.0.dist-info/RECORD,,
+marlindb-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+marlindb-0.1.0.dist-info/top_level.txt,sha256=AqE0TUCkRfUW6LWGvC_0J4rVlyiclIKo1I2LKgiKH9A,9
