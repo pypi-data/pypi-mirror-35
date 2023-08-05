@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: kieli
+Version: 1.2.0
+Summary: Minimalistic language server protocol client.
+Home-page: https://github.com/PurpleMyst/kieli
+Author: PurpleMyst
+Author-email: PurpleMyst@users.noreply.github.com
