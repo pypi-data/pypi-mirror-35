@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: GadgetBag
+Version: 0.0.5
+Summary: A small tool union
+Home-page: https://github.com/YanpingDong/IndexProject
+Author: YanpingDong
+Author-email: lear521@163.com
+License: UNKNOWN
+Description: # Gadget Bag
+        
+        This is gadget union include: web request, fill process and so on
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
