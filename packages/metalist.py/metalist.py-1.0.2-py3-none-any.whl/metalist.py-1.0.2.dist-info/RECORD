@@ -1,0 +1,8 @@
+metalist/__init__.py,sha256=xiV8ZJ3iMYLASjVnFajeu5FHg4qgXk4XenE294DsvL8,1970
+metalist/baseclient.py,sha256=Q25gHTwg6ZW4U8v4En0ujFgNoncnBuBfnbccmG9uB_8,5474
+metalist/client.py,sha256=ZFjMpn4ar8qBqJo7HiyLCe7a483xSCi8VQ0r9dUtgEQ,4061
+metalist/exceptions.py,sha256=RCFpHYXJT8trL8PXkXB0Tigdo6pCGbawhXeEKWplgm8,2063
+metalist.py-1.0.2.dist-info/METADATA,sha256=QRTNmyTq5bBXnzP-MPYDqQGbQGleDigm033LIlv25Zk,2473
+metalist.py-1.0.2.dist-info/RECORD,,
+metalist.py-1.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+metalist.py-1.0.2.dist-info/top_level.txt,sha256=xXZTfgKfOglaoJncV3scCxMHUTTfckpN5k0NoXy_LkM,9
