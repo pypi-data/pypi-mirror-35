@@ -1,0 +1,14 @@
+stata_kernel/__init__.py,sha256=S0P505mN7QoM4t5gUmL6PymPLolqqkz_OSaGmDANIM4,88
+stata_kernel/__main__.py,sha256=XvdpLOGh6sFMB4GD8mltd54ZgXqASB1MwxNf5JdBDDg,125
+stata_kernel/code_manager.py,sha256=xcgYsHf1dc8rvfiiylrvLtdKPf2aTrTY95nMlDEIsiQ,7412
+stata_kernel/completions.py,sha256=BkkpkuiKF3sTY49aBKGtFiGK6c4h_IloQK02QniBjug,9925
+stata_kernel/install.py,sha256=QiVgzq3QUeftnIOjlt1joXgC-kjKUcPhuqpIAlfMEyk,4676
+stata_kernel/kernel.py,sha256=lUI3P1kG2PY68TTywHVLWD89O4pW6RaU6EcHn-QE88I,5688
+stata_kernel/stata_lexer.py,sha256=dVuwW8S9Okph7KeeTdf4CY8dzIeL3fFCZDwv2AJj5PY,9053
+stata_kernel/stata_magics.py,sha256=UBDMkLclGkVkQwFYtrnS5pDHhP4Ei_f6vCDh8Hmi94Y,11039
+stata_kernel/stata_session.py,sha256=3uZVgODFi9oQGvVmczWtdRB_Fgx6pBUIWSfjdE3EAEM,29485
+stata_kernel/ado/_StataKernelCompletions.ado,sha256=FpwpGww7kteLyziGlwbVpoW_JiEI8kry3LH-aA2a9sk,515
+stata_kernel-1.3.1.dist-info/METADATA,sha256=-kkEsrpJA8-J9CNuWLTzT8Uuf50EpvpSwBBmhjnH6eQ,3300
+stata_kernel-1.3.1.dist-info/RECORD,,
+stata_kernel-1.3.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+stata_kernel-1.3.1.dist-info/top_level.txt,sha256=IVyn__y61fdV1CyT7RsP1HMsPNzLZY1VaggWidOTzIk,13
