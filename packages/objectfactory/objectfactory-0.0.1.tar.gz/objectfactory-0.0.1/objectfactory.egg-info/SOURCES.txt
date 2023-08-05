@@ -1,0 +1,10 @@
+README.md
+setup.py
+objectfactory/__init__.py
+objectfactory/serializable.py
+objectfactory.egg-info/PKG-INFO
+objectfactory.egg-info/SOURCES.txt
+objectfactory.egg-info/dependency_links.txt
+objectfactory.egg-info/top_level.txt
+test/__init__.py
+test/test_serializable.py
