@@ -1,0 +1,15 @@
+fiona
+flask
+isodate
+networkx
+numpy
+Pint
+pyarrow
+python-dateutil
+Rtree
+ruamel.yaml==0.15.50
+scikit-optimize
+shapely
+
+[win32]
+pywin32
