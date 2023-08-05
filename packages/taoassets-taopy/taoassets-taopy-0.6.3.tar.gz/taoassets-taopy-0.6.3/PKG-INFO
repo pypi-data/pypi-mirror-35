@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: taoassets-taopy
+Version: 0.6.3
+Summary: A Python3 SegWit-compliant library which provides tools to handle Tao data structures in a simple fashion.
+Home-page: https://github.com/taoblockchain/taopy
+Author: chainside srl, PeerAssets & TaoAssets development team
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: tao,blockchain,bitcoin,peercoin,taoassets
+Platform: UNKNOWN
+Requires-Python: >=3
