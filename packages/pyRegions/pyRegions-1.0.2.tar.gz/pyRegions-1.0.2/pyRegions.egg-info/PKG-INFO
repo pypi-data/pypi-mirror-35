@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pyRegions
+Version: 1.0.2
+Summary: Telegram Bot - Car registration regions of Russia
+Home-page: https://github.com/sk8higher/pyRegions
+Author: Nelly Simkova
+Author-email: sk8higher@iballwasrawt.ru
+License: GPL-3.0
+Download-URL: https://github.com/sk8higher/pyRegions/archive/1.0.2.tar.gz
+Description: UNKNOWN
+Keywords: regions,Russia,telegram,bot
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

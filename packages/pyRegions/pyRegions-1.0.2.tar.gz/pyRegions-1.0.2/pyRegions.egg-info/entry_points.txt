@@ -1,0 +1,3 @@
+[console_scripts]
+pyRegions = pyRegions.app:main
+
