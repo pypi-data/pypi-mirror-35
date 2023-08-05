@@ -1,0 +1,8 @@
+lyricfetch/__init__.py,sha256=Q-u1qr0Iv4oAEfmM3MCuWWlMAYDlkQQhyyt4asd1KdI,1021
+lyricfetch/config.json,sha256=feU0tpw4DQZ3vJGJ2SnPW9rKi6FZNfBN8RPbZPI96cU,54
+lyricfetch/lyrics.py,sha256=a5zPUwVSRli0fYUvBm177ckFoh6ShEoHvXLblUiRlJY,38085
+lyricfetch-1.0.1.dist-info/METADATA,sha256=koAxj_CvtHmkvLeP2BT0lhxFSOGTAOi3eGNAHeIE7Ys,1096
+lyricfetch-1.0.1.dist-info/RECORD,,
+lyricfetch-1.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+lyricfetch-1.0.1.dist-info/entry_points.txt,sha256=JGR87McFNnMN0PY4dh8ZHUwcWBXQs91Pa9D8khJ77wA,55
+lyricfetch-1.0.1.dist-info/top_level.txt,sha256=MUCPTXH79kPs_S7OAG11PVbOMuLh7KI2ZJW06IKojKM,11
