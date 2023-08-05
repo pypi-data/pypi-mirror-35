@@ -1,0 +1,3 @@
+[console_scripts]
+gradeforge = gradeforge.__main__:main
+
