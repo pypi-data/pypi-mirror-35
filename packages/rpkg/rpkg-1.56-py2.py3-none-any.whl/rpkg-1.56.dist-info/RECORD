@@ -1,0 +1,14 @@
+pyrpkg/__init__.py,sha256=LmMD9536OMYGYtNCmT22ATHAzHx0p7Cwq8PyjXpT7p4,137140
+pyrpkg/cli.py,sha256=MrH-3ey70g0lXF9K-qDPJ6avObHqRo4mzFBc7Icalk4,98013
+pyrpkg/errors.py,sha256=L9sxdLSXk_BiMOyOEIArXqyhsi2hytjdHzUYE9NM4bA,1629
+pyrpkg/gitignore.py,sha256=VXjJFaYvZcpiI9sfmAUfbQBqeEhD_bZG4fePhM5r5mM,2608
+pyrpkg/lookaside.py,sha256=HebfIQfw7DXZHcwQilGftwWGwROsWhmSTsiH1egzZ7E,12467
+pyrpkg/man_gen.py,sha256=Ecrg0kb0XPRpxXzdfPfb6FkfAYBcc4aOphCpe4VUZXY,4402
+pyrpkg/sources.py,sha256=SiddQPXzJHIL1RLVkcGnxaofmG_doT68KKhmysG36I4,3672
+pyrpkg/utils.py,sha256=xNCfUfu93S3g1L34x02IKyFtaCV0CughpreRRaHaTk8,3076
+rpkg-1.56.dist-info/DESCRIPTION.rst,sha256=wq8zAYqGZL6yXHvgY_DVFrwgi4tb1_OebmADqPuBUjg,2649
+rpkg-1.56.dist-info/METADATA,sha256=7J1V1kRkH_oHxhlk_YNm0ka4TWZajnI5BYiRSzIp3So,3922
+rpkg-1.56.dist-info/RECORD,,
+rpkg-1.56.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+rpkg-1.56.dist-info/metadata.json,sha256=XmuZBlTPGpNuqCHzx4a4I4aW6mz_3YJ3dG_R4tDjYck,1426
+rpkg-1.56.dist-info/top_level.txt,sha256=9cIadL8Ji2OEquekdH2qwwnDYp7QRmEb3cCpXI4ukjc,7
