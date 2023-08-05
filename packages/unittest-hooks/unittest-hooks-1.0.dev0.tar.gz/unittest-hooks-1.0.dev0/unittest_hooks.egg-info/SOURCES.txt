@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+unittest_hooks.egg-info/PKG-INFO
+unittest_hooks.egg-info/SOURCES.txt
+unittest_hooks.egg-info/dependency_links.txt
+unittest_hooks.egg-info/entry_points.txt
+unittest_hooks.egg-info/top_level.txt
+unittest_hooks.egg-info/zip-safe
+unittesthooks/__init__.py

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: unittest-hooks
+Version: 1.0.dev0
+Summary: pre commit hook for unittest
+Home-page: UNKNOWN
+Author: Nanthakumar
+Author-email: splnanthakumar@gmail.com
+License: UNKNOWN
+Description: used to run unittests on python project on /tests/unittests path
+Keywords: unittest pre-commit ut
+Platform: UNKNOWN
