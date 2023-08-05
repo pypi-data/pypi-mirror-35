@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: csvtoparquetlib
+Version: 0.1.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: IBM
+Author-email: abdullah.alger@ibm.com
+License: Apache 2.0
+Description: # Serverless using CSVtoParquet for IBM Cloud
+        
+        This repository uses a version of the Python library csvtoparquet that's been modified from a command-line tool to a library you can place into your application and run.
+        
+        The `Dockerfile` gives an example of how it's put together and the folder `serverless` contains the code for the serverless function that will list the CSV files in your IBM Cloud Object Storage bucket.
+        
+        More docs to come ...
+        
+Keywords: cloud csv parquet object_storage IBM
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
