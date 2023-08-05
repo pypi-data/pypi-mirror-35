@@ -1,0 +1,12 @@
+external_data_structures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+external_data_structures/dictionaries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+external_data_structures/dictionaries/prototype.py,sha256=Af5-s5_vjcWi_D2M4Ymwg8QstOj6KIUjqjVxw7oYElU,1179
+external_data_structures/dictionaries/s3.py,sha256=yTWexg8rfHAyoif4IQuBBc4vF7NHIDQ_bdTo6WEGzeo,2662
+external_data_structures-0.0.1.data/data/LICENSE,sha256=Q76oRC_V6LhNTYlsDAoR5vyvkJudmhBhii6z_rjoWW4,1057
+external_data_structures-0.0.1.data/data/VERSION,sha256=5mNQReHSR47EynEtjA4d_O-Lt7Wx6OO7Vg03_jmannI,6
+external_data_structures-0.0.1.dist-info/DESCRIPTION.rst,sha256=c2mo3-Nm5LysqW5rxKb73gHabbLe_4FA9ZhsUE8lxMk,1545
+external_data_structures-0.0.1.dist-info/METADATA,sha256=LCcW6h7IksCtu_BJcEZbsEI5W2uaGucYUkRYFXiUAw0,2066
+external_data_structures-0.0.1.dist-info/RECORD,,
+external_data_structures-0.0.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+external_data_structures-0.0.1.dist-info/metadata.json,sha256=vcPjw2UNeSHFWvmKu6SyExOe9rgFbBDc1lRl7fA02vU,728
+external_data_structures-0.0.1.dist-info/top_level.txt,sha256=Z0DXwEXBts6lwUhjjaQdFFXpiJRAdc8JsOX77yfIQ58,25
