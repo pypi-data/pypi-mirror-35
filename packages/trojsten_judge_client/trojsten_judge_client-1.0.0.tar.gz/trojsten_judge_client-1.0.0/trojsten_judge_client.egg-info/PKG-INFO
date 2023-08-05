@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: trojsten-judge-client
+Version: 1.0.0
+Summary: Client for Trojsten Judge System.
+Home-page: https://github.com/trojsten/judge-client
+Author: Michal Hozza
+Author-email: mhozza@gmail.com
+License: UNKNOWN
+Description: trojsten_judge_client
+        =====================
+        
+        .. image:: https://img.shields.io/pypi/v/trojsten_judge_client.svg
+            :target: https://pypi.python.org/pypi/trojsten_judge_client
+            :alt: Latest PyPI version
+        
+        Client for Trojsten Judge System.
+        
+        Usage
+        -----
+        
+        Installation
+        ------------
+        
+        Requirements
+        ^^^^^^^^^^^^
+        
+        Compatibility
+        -------------
+        
+        Licence
+        -------
+        
+        Authors
+        -------
+        
+        `trojsten_judge_client` was written by `Michal Hozza <mhozza@gmail.com>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
