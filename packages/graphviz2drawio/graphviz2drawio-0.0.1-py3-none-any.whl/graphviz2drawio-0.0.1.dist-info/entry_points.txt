@@ -1,0 +1,3 @@
+[console_scripts]
+graphviz2drawio = graphviz2drawio.__main__:main
+
