@@ -1,0 +1,3 @@
+[console_scripts]
+igrf12 = RunIGRF:main
+
