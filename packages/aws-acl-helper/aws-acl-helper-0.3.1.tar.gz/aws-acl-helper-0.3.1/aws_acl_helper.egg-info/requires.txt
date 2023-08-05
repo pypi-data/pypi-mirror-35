@@ -1,0 +1,8 @@
+click
+boto3
+asyncio
+aioredis<1.0.0,>=0.2.8
+configparser>=3.5.0
+
+[dev]
+setuptools-version-command
