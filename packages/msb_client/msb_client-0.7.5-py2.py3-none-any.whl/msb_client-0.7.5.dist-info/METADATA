@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: msb-client
+Version: 0.7.5
+Summary: A library to connect to the MSB of VirtualFortKnox
+Home-page: https://www.virtualfortknox.de/
+Author: Daniel Stock
+Author-email: daniel.stock@ipa.fraunhofer.de
+License: Apache-2.0
+Platform: UNKNOWN
+Requires-Dist: websocket-client
+Requires-Dist: jsonschema
+Requires-Dist: jsonpickle
+Requires-Dist: enum34
+
+UNKNOWN
+
+
