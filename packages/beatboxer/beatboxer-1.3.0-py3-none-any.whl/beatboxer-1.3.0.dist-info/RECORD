@@ -1,0 +1,12 @@
+beatboxer/__init__.py,sha256=8AUPVfH5uhBz7MsbGy-n_zkZWwYx1JJyRjr4JBzpgJA,83
+beatboxer/beatboxer.py,sha256=ozFB5czQYrnHtd1MVfkxjy-Wtvo9qM1sfR54QbRpkIU,17938
+beatboxer/samples/bass.wav,sha256=FQCsAyLa89jpZxlB9se0TGIgMQ0xB6D30-L44DoY7FY,393320
+beatboxer/samples/clap.wav,sha256=R16Bj3Xk9LUWkT6biuhi0e8UISDBdbaUVLaIi56ThU4,22680
+beatboxer/samples/crash.wav,sha256=TNcBtg05GHDeE_O1vOcaE1ohJGEEhqSyrfwMymZpwpg,281928
+beatboxer/samples/hihat.wav,sha256=xKejhWn2Xx8i5QPX2hdSYAN8RHJjBcruwoLNohQapmQ,9512
+beatboxer/samples/kick.wav,sha256=SwmBS2m7ROenui3u29a5jVuZCLfm_w4AVVxY_Le9JWU,29144
+beatboxer/samples/snare.wav,sha256=cL7WWEVBZepq-ie_bP9P25Hb22m-fyOSaCgi4DYPXxU,16066
+beatboxer-1.3.0.dist-info/METADATA,sha256=69oKDmMejAqnqW-N5S1mgOUnJu8rejpQFj1K9rg34vI,4704
+beatboxer-1.3.0.dist-info/RECORD,,
+beatboxer-1.3.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+beatboxer-1.3.0.dist-info/top_level.txt,sha256=h1mqfTvCf6u74srOegyF08au28rO84MDnKYBNtlu4rc,10
