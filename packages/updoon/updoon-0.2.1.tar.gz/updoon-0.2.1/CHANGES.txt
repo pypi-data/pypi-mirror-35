@@ -1,0 +1,4 @@
+v0.2.1, 2018-08-23 -- manual file location added
+v0.2.0, 2018-08-23 -- mechanism to store Quandl API Key locally
+
+v0.1.0, 2018-08-17 -- Initial release.
