@@ -1,0 +1,3 @@
+[console_scripts]
+blindtex = blindtex.tex2all:main
+
