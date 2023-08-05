@@ -1,0 +1,10 @@
+gingerfy/__init__.py,sha256=MkXRsu_HQQcRKYIba3JpuMw9KEXZJXDSw8zwG0jwB8E,95
+gingerfy/main.py,sha256=q5yVT__cEMaM0JP0uHGeCJMKWydjI2TqxQ1wQ1MWg80,334
+gingerfy/src/__init__.py,sha256=vtJq5Ts7uA-RO3PWq5mJXH8nXCxUl8TJxNOdcrdIq-E,32
+gingerfy/src/gingerfied.py,sha256=WW7ED8pe4_GT7N_f1Z-pe-t_zH0RFw-bJ_uJGjG9IQY,798
+gingerfy/src/gingerfier.py,sha256=ziqhezmG3UasisIfOEmNfpNWVJY0VLathxp2SYBYEn4,1156
+gingerfy/src/unginger.py,sha256=8oZ0vEwlkg99BxRTuQBIWGSjjPx8SlWMKyX5eIqJtg0,176
+gingerfy-0.1.0b0.dist-info/METADATA,sha256=wLIhzqt_MgmGHbFtuhaD4p0_GuTLEE1eimUYJ6iVYs8,1456
+gingerfy-0.1.0b0.dist-info/RECORD,,
+gingerfy-0.1.0b0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+gingerfy-0.1.0b0.dist-info/top_level.txt,sha256=3UGolR6gMjLfH4fm_atS3gSNhOX5_cvr1X0_T3z7a34,9
