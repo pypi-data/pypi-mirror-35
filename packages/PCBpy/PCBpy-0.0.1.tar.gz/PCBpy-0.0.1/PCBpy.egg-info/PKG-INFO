@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PCBpy
+Version: 0.0.1
+Summary: A Cadence Allegro PCB schematics parser and verification tool
+Home-page: https://github.com/mvsoliveira/PCBpy
+Author: Marcos Oliveira
+Author-email: marcos.oliveira@cern.ch
+License: UNKNOWN
+Description: # PCBpy
+        A Cadence Allegro PCB schematics parser and verification tool 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

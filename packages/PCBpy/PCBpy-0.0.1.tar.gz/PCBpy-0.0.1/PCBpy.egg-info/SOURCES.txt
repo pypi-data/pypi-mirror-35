@@ -1,0 +1,7 @@
+README.md
+setup.py
+PCBpy/__init__.py
+PCBpy.egg-info/PKG-INFO
+PCBpy.egg-info/SOURCES.txt
+PCBpy.egg-info/dependency_links.txt
+PCBpy.egg-info/top_level.txt
