@@ -1,0 +1,17 @@
+---
+file-contents:
+  releasenotes/notes/introduce-reno-0c400f440d89ffff.yaml:
+    features: [Use distroinfo module to access rdoinfo. distroinfo was created by
+        forking rdoinfo parsing code from rdopkg and rdoinfo itself into a generic
+        module., Try using reno module to maintain release notes., Allow '|' in patches_ignore
+        regex., Reworked ``rdopkg doctor`` with rainbows.]
+    fixes: [Fix version to tag translations for vX.Y.Z tag style., Prevent unneeded
+        patch file changes using extra format-patch parameters., Improve Python 3
+        compatibility.]
+    prelude: 'This rdopkg release brings support for distroinfo and reno.
+
+      '
+notes:
+- files:
+  - [releasenotes/notes/introduce-reno-0c400f440d89ffff.yaml, 01ae72aad9b45fca6a18790fb1a08bbcfa738961]
+  version: 0.47.0
