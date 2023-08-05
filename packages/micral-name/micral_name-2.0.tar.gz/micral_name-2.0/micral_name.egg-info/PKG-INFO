@@ -1,0 +1,43 @@
+Metadata-Version: 1.0
+Name: micral-name
+Version: 2.0
+Summary: Name tool between 7 available
+Home-page: UNKNOWN
+Author: Yann LEROY
+Author-email: yann.leroy102@orange.fr
+License: MIT
+Description: Micral (MICROstructure anALysis)
+        
+        Name module
+        
+        -----
+        
+        Description :
+        
+        The aim is to give a name between 7 available 
+        This tools output the name of the sample, and some others details as the accuracy.
+        
+        -----
+        
+        Installation :
+        
+        pip install micral_name
+        
+        -----
+        
+        Usage :
+        
+        In a python file or directly in the interpreter, type :
+        
+        import micral_name
+        print(micral_name.analyse(<your image>))
+        
+        Where <your image> is the name of the image to analyse (with extension (ie jpg, png, bmp etc...))
+        The output is an unique value.
+        
+        It's also possible to send multiple image at once : in that case, provide a list of name :
+        <your image> = [<image1>, <image2>, ...]
+        And the return will be also a list of all the results
+        
+        Note that the image must be in the same directory than the python file (or in the current directory of the command)
+Platform: UNKNOWN
