@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/python_stingray.egg-info/PKG-INFO
+src/python_stingray.egg-info/SOURCES.txt
+src/python_stingray.egg-info/dependency_links.txt
+src/python_stingray.egg-info/not-zip-safe
+src/python_stingray.egg-info/requires.txt
+src/python_stingray.egg-info/top_level.txt
+src/stingray/__init__.py
+src/stingray/apiclient/__init__.py
+src/stingray/config/__init__.py
+src/stingray/config/pools.py
+src/stingray/config/traffic_ip_groups.py
+src/stingray/config/virtual_servers.py
