@@ -1,0 +1,5 @@
+[console_scripts]
+etl_exec_cli = rcsb_db.exec.ETLExec:main
+exdb_repo_load_cli = rcsb_db.exec.RepoLoadExec:main
+repo_scan_cli = rcsb_db.exec.RepoScanExec:main
+

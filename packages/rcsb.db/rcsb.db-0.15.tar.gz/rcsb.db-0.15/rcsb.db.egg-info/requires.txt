@@ -1,0 +1,17 @@
+future
+six
+python-dateutil
+pytz
+
+[:python_version < "3.0"]
+scandir
+configparser
+
+[:python_version >= "0.18"]
+mmcif
+
+[dev]
+check-manifest
+
+[test]
+coverage
