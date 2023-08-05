@@ -1,0 +1,17 @@
+infi.clickhouse_orm-1.0.2-py2.7-nspkg.pth,sha256=Puo8Dhy7BSgYsqSaXhYQWKH_Zr23iy05JZ2pxHOAtNc,529
+infi/clickhouse_orm/__init__.py,sha256=q3JNmHn0CMPtEqkMR40lkjKQzuWUtT39xIFUYJ-MKIE,56
+infi/clickhouse_orm/__version__.py,sha256=SQmG_AKBaEZU_jKo2tMk11dx_HHq73zNXXegHED0CWo,463
+infi/clickhouse_orm/database.py,sha256=90BfCw-3f77sBsUv1ER_CCD4bRHwcGAJjdWRDlPwpmI,14402
+infi/clickhouse_orm/engines.py,sha256=XOyVlBLq2XqJXllTJGiPi8X4f7mzV-tKMsF3NMRQ7g4,10241
+infi/clickhouse_orm/fields.py,sha256=TOqglNHOHjn2ZW-lOudl7TdCXl_5ANUz5L9oJC6FqsU,14385
+infi/clickhouse_orm/migrations.py,sha256=Q6N52HNY3-0o3Thjr7wmN9YdWTe0U5rpBto5-WEefR8,6415
+infi/clickhouse_orm/models.py,sha256=b0c78GTZ2YANv4yQqG4dBkp0WAqrq2PeXbHD34-_CqU,13986
+infi/clickhouse_orm/query.py,sha256=v610RjouTOKkEvsJamZanZfaZ6pHEq4zqixmTwCI3h8,17464
+infi/clickhouse_orm/system_models.py,sha256=uf7ZRgdHT7FoIoIGrK2BDwMa3CkJuIN5BJHxEDxHLl0,6321
+infi/clickhouse_orm/utils.py,sha256=r5HJD2mh2cgqF3mNiOV-vZWsxg2VIO2viBLfsQSGUM0,2966
+infi.clickhouse_orm-1.0.2.dist-info/METADATA,sha256=b0v_NYJOc1_Sm8RX3A3Gd5rGFnckLfDFoNIALbzjgr4,852
+infi.clickhouse_orm-1.0.2.dist-info/RECORD,,
+infi.clickhouse_orm-1.0.2.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+infi.clickhouse_orm-1.0.2.dist-info/entry_points.txt,sha256=mUNMmpYTR3SQX28bXHIajDqBXHktexsbcq1_r41xrys,36
+infi.clickhouse_orm-1.0.2.dist-info/namespace_packages.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
+infi.clickhouse_orm-1.0.2.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
