@@ -1,0 +1,7 @@
+diskcache
+enum34
+packaging
+numpy
+requests
+scikit-image
+six
