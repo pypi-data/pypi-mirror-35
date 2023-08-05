@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: redis-session
+Version: 0.0.1
+Summary: Simple session implementation for Tornado
+Home-page: http://github.com/devfans/redis-session
+Author: Stefan Liu
+Author-email: stefanliu@outlook.com
+License: MIT
+Keywords: redis_session tornado web cookie session redis python
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Dist: tornado
+
+Simple tornado session implementation with redis store
+
+
