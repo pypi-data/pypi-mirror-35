@@ -1,0 +1,15 @@
+MANIFEST.in
+NEWS.txt
+README.md
+setup.py
+src/spacexPython.egg-info/PKG-INFO
+src/spacexPython.egg-info/SOURCES.txt
+src/spacexPython.egg-info/dependency_links.txt
+src/spacexPython.egg-info/entry_points.txt
+src/spacexPython.egg-info/not-zip-safe
+src/spacexPython.egg-info/requires.txt
+src/spacexPython.egg-info/top_level.txt
+src/spacexpython/__init__.py
+src/spacexpython/launches.py
+src/spacexpython/rockets.py
+src/spacexpython/urldata.py
