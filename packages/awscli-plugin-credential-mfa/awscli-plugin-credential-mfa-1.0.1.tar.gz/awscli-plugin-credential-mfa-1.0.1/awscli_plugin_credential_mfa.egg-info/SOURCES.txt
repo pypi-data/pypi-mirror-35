@@ -1,0 +1,10 @@
+README.rst
+awscli_plugin_credential_mfa.py
+setup.cfg
+setup.py
+awscli_plugin_credential_mfa.egg-info/PKG-INFO
+awscli_plugin_credential_mfa.egg-info/SOURCES.txt
+awscli_plugin_credential_mfa.egg-info/dependency_links.txt
+awscli_plugin_credential_mfa.egg-info/not-zip-safe
+awscli_plugin_credential_mfa.egg-info/requires.txt
+awscli_plugin_credential_mfa.egg-info/top_level.txt
