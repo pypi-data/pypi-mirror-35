@@ -1,0 +1,15 @@
+README.md
+setup.py
+bin/imago
+imago/__init__.py
+imago/__main__.py
+imago/extractor.py
+imago/hash.py
+imago/helper.py
+imago/imago.py
+imago.egg-info/PKG-INFO
+imago.egg-info/SOURCES.txt
+imago.egg-info/dependency_links.txt
+imago.egg-info/entry_points.txt
+imago.egg-info/requires.txt
+imago.egg-info/top_level.txt

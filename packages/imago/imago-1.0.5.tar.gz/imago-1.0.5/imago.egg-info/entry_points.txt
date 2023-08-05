@@ -1,0 +1,3 @@
+[console_scripts]
+imago = imago.imago:main
+
