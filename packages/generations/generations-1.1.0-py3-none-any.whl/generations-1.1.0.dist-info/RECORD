@@ -1,0 +1,17 @@
+generations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generations/base_model.py,sha256=ZLqk95dbCRitENPfDWkvb_TpDar5ny412hWuAxpdDlg,1682
+generations/biennial.py,sha256=1GewIcgf7poE1EwTU4KIw8EcVzAHlx-32ZKZWQ2J6HE,3168
+generations/buckley.py,sha256=At1DDkUOC5TRTMEk0fckGl3BTFehQh4jKRxO9sjG7eI,2676
+generations/create_config.py,sha256=V-lC8ycYZmBKHwDzN_2pjMjAmb73IzWkqbI17XB2itE,134
+generations/default_parameters.cfg,sha256=xKQazUf8cnjPFMj_Mbr0Hhl3SX3VzTrhrErCil8D0lQ,1096
+generations/memoization.py,sha256=fG-NCmDB6HLN9CcoFPgCTqtNdS9QS0WSDqFRBJlqf3g,300
+generations/nicholson_bailey.py,sha256=rEuyRqc4ZbxVkB3lwGbDe1WCVYf-wZRcauhLOmlr4ak,1323
+generations-1.1.0.dist-info/METADATA,sha256=-FDYgQ0_h6IOocwpyXQkaLUnGc13ULsKMgyjXf3VssM,3262
+generations-1.1.0.dist-info/RECORD,,
+generations-1.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+generations-1.1.0.dist-info/top_level.txt,sha256=GleSIso8JzPIYYDNiBxdeg7ks5G8UqHqyO3f__HSGpI,18
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_base_model.py,sha256=jmPcCGid6bUwrUR6knBxHxzn0aJUXZsTP1GExPw535Y,392
+tests/test_biennial.py,sha256=WYSQ_uTTJqIVc1odflA4jN6Xa_s1X5YET9BVZkosVQ4,1073
+tests/test_buckley.py,sha256=UCaJwz2ybmXCYyF8AMkNEV98IRqiTPU5EV951oFKPSo,845
+tests/test_nicholson_bailey.py,sha256=cOc-Aia6qWbqHA608os-PS86amYIesHaG92mgQPJUCg,887
