@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pandas-cache
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/N2ITN/pandas_cache
+Author: Zach Estela
+Author-email: z@aracel.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas
+
+UNKNOWN
+
+
