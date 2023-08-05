@@ -1,0 +1,189 @@
+- job:
+    name: patrole-base
+    parent: devstack-tempest
+    description: |
+       Patrole base job for admin and member roles. This job executes RBAC tests
+       for all the "core" services that Tempest covers, excluding Swift.
+    required-projects:
+      - name: openstack/tempest
+      - name: openstack/patrole
+    timeout: 7800
+    roles:
+      - zuul: openstack-dev/devstack
+    irrelevant-files:
+      - ^(test-|)requirements.txt$
+      - ^.*\.rst$
+      - ^doc/.*
+      - ^patrole/patrole_tempest_plugin/tests/unit/.*$
+      - ^releasenotes/.*
+      - ^setup.cfg$
+    vars:
+      devstack_localrc:
+        TEMPEST_PLUGINS: "'/opt/stack/patrole'"
+      devstack_plugins:
+        patrole: git://git.openstack.org/openstack/patrole.git
+      devstack_services:
+        tempest: true
+        neutron: true
+      tempest_concurrency: 2
+      tempest_test_regex: (?!.*\[.*\bslow\b.*\])(^patrole_tempest_plugin\.tests\.api)
+      tox_envlist: all-plugin
+
+- job:
+    name: patrole-base-multinode
+    parent: tempest-multinode-full
+    description: |-
+      Patrole base job for multinode and "slow" tests where "slow" tests include:
+
+      * Tests that take more than ~30 seconds to run.
+      * Tests that experience spurious failures related to servers, volumes,
+        backups and similar resources failing to build.
+    timeout: 7800
+    branches:
+      - master
+    required-projects:
+      - openstack-infra/devstack-gate
+      - openstack/tempest
+      - openstack/patrole
+    irrelevant-files:
+      - ^(test-|)requirements.txt$
+      - ^.*\.rst$
+      - ^doc/.*
+      - ^patrole/patrole_tempest_plugin/tests/unit/.*$
+      - ^releasenotes/.*
+      - ^setup.cfg$
+    vars:
+      devstack_localrc:
+        TEMPEST_PLUGINS: "'{{ ansible_user_dir }}/src/git.openstack.org/openstack/patrole'"
+      devstack_plugins:
+        patrole: git://git.openstack.org/openstack/patrole.git
+      devstack_services:
+        tempest: true
+        neutron: true
+      tempest_concurrency: 1
+      tempest_test_regex: (?=.*\[.*\bslow\b.*\])(^patrole_tempest_plugin\.tests\.api)
+      tox_envlist: all-plugin
+
+- job:
+    name: patrole-admin
+    parent: patrole-base
+    description: Patrole job for admin role.
+    vars:
+      devstack_localrc:
+        RBAC_TEST_ROLE: admin
+
+- job:
+    name: patrole-member
+    parent: patrole-base
+    description: Patrole job for member role.
+    # This currently works from stable/pike onward.
+    branches:
+      - master
+      - stable/queens
+      - stable/pike
+    vars:
+      devstack_localrc:
+        RBAC_TEST_ROLE: member
+
+- job:
+    name: patrole-member-queens
+    parent: patrole-member
+    override-checkout: stable/queens
+
+- job:
+    name: patrole-member-pike
+    parent: patrole-member
+    override-checkout: stable/pike
+
+- job:
+    name: patrole-multinode-admin
+    parent: patrole-base-multinode
+    voting: false
+    vars:
+      devstack_localrc:
+        RBAC_TEST_ROLE: admin
+
+- job:
+    name: patrole-multinode-member
+    parent: patrole-base-multinode
+    voting: false
+    vars:
+      devstack_localrc:
+        RBAC_TEST_ROLE: member
+
+- job:
+    name: patrole-py35-member
+    parent: patrole-base
+    description: Patrole py35 job for member role.
+    vars:
+      devstack_localrc:
+        # Use member for py35 because arguably negative testing is more
+        # important than admin, which is already covered by patrole-admin job.
+        RBAC_TEST_ROLE: member
+        USE_PYTHON3: true
+      devstack_services:
+        s-account: false
+        s-container: false
+        s-object: false
+        s-proxy: false
+        # Without Swift, c-bak cannot run (in the gate at least).
+        c-bak: false
+
+- job:
+    name: patrole-plugin-base
+    parent: patrole-base
+    description: |
+         Patrole plugin job for admin and member roles which
+         runs RBAC tests for neutron-tempest-plugin APIs (if the plugin is installed).
+    required-projects:
+      - name: openstack/tempest
+      - name: openstack/patrole
+      - name: openstack/neutron-tempest-plugin
+    vars:
+      devstack_localrc:
+        TEMPEST_PLUGINS: "'/opt/stack/patrole
+                           /opt/stack/neutron-tempest-plugin'"
+      devstack_plugins:
+        neutron: git://git.openstack.org/openstack/neutron.git
+        patrole: git://git.openstack.org/openstack/patrole.git
+        neutron-tempest-plugin: git://git.openstack.org/openstack/neutron-tempest-plugin.git
+      devstack_services:
+        tempest: true
+        neutron: true
+        neutron-segments: true
+
+- job:
+    name: patrole-plugin-member
+    parent: patrole-plugin-base
+    voting: false
+    vars:
+      devstack_localrc:
+        RBAC_TEST_ROLE: member
+      tempest_test_regex: (?=.*PluginRbacTest)(^patrole_tempest_plugin\.tests\.api)
+
+- job:
+    name: patrole-plugin-admin
+    parent: patrole-plugin-base
+    voting: false
+    vars:
+      devstack_localrc:
+        RBAC_TEST_ROLE: admin
+      tempest_test_regex: (?=.*PluginRbacTest)(^patrole_tempest_plugin\.tests\.api)
+
+- project:
+    check:
+      jobs:
+        - patrole-admin
+        - patrole-member
+        - patrole-member-queens
+        - patrole-member-pike
+        - patrole-py35-member
+        - patrole-multinode-admin
+        - patrole-multinode-member
+        - openstack-tox-lower-constraints
+        - patrole-plugin-admin
+        - patrole-plugin-member
+    gate:
+      jobs:
+        - patrole-admin
+        - patrole-member
