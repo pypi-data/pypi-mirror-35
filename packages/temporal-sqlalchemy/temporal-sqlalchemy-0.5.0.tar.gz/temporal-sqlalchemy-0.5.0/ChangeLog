@@ -1,0 +1,166 @@
+CHANGES
+=======
+
+0.5.0
+-----
+
+* bump to 0.5.0 for publishing
+* bump version manually
+* publish to pypi
+* back fill ye ol changelog
+* remove eval calls
+* drop python 3.4 support
+* remove bugbear from 3.4 build
+* add postgres and older flake8 requirement
+* add test\_py34 to jobs workflow
+* empty commit to trigger rebuild
+* lol nice typo joey
+* woops accidentally added a bunch of doc builds
+* gitignore from temple
+* tests pass now locally
+* make validate passes
+* starting flak8 and pylint fixes
+* temple scaffolding
+
+0.4.7
+-----
+
+* Bump version: 0.4.6 → 0.4.7
+* Use list per transaction instead of one big list for persist\_on\_commit (#48)
+* remove 3.3 support because pytest dropped it
+* remove behavior flag for persist\_on\_commit
+
+0.4.6
+-----
+
+* Bump version: 0.4.5 → 0.4.6
+* more stylish code
+* more tests and a couple of guards
+* add nested transaction fix
+* clean up and tests
+* opt in to new behavior
+* no magic strings
+* batch history construction to commit instead of flush
+* Bump version: 0.4.4 → 0.4.5
+* Forgot to tell Travis and CircleCI to install 3.3
+* Fix documentation to reflect 3.3 fix
+* Fix broken support for Python 3.3
+* Bump version: 0.4.3 → 0.4.4
+* Fix README formatting
+* Remove unnecessary --current-version arg
+* Bump version: 0.4.2 → 0.4.3
+* Travis: install multiple Python versions?
+* Override default Python version in Travis
+* Fix filename in README, eliminate redundant bumpversion
+* Fix Travis?
+* Fix incorrect installation instructions
+* Forgot to change dev-requirements.txt in circle.yml
+* Install requirements in Travis
+* Be consistent with dashes and underscores
+* Fix Travis?
+* Add dev instructions
+* Forgot to install dev requirements
+* Remove leading \`v\` from version tag
+* Copy-pasta error
+* Need to manually set version here, bumpversion will handle it for us
+* Messed up the bumpversion config
+* Forgot bumpversion.cfg
+* Change circle.yml to use tox
+* Fix wrong version number
+* Randomize test execution order to reveal interdependencies
+* Configure tox
+* Prepare to use tox
+* No support for Python2 so this isn't a universal wheel
+* Remove unnecessary dynamic code for dependencies
+* Move installation dependencies into setup()
+* Move descriptions into setup call instead of reading file
+* Remove support for Python 3.3 and add 3.6
+* Don't put install requirements in requirements.txt
+
+0.4.2
+-----
+
+* redo index fixes for better history ready performance
+
+0.4.1
+-----
+
+* Use lists instead of sets, which SHOULD BE safe, and preserve order
+* Revert "Add indices on history table foreign keys"
+* bump version
+* get rid of python 3.3
+* WHAT THE HECK PYTHON 3.3
+* fix nullable migration breaking, as well as unintentional unique constraint rename
+* Add indices on history table foreign keys
+
+0.4.0
+-----
+
+* new version
+* fix relationship handling
+
+0.3.3
+-----
+
+* Fix issue #26: Remove compound primary keys on temporal clock tables (#31)
+* unify everything
+* ClockedOption to TemporalOption
+
+0.3.2
+-----
+
+* Raise an assertion if a flush() occurs on changes without a proper clock tick (#24)
+* WHAT IS HAPPEN -- the event isn't properly handled in all cases [#19]
+* Detect if sessions are already temporalized (#20)
+* Update README.rst
+* Update README.rst
+* simple usage doc
+
+0.3.0
+-----
+
+* cleanup and actually fix py 3.3
+* whoops really maybe fix python 3.3
+* add python 3.5.3 and 3.6.0 to build matrix
+* fix python 3.3
+* fix python 3.4
+* cleanup the bootstrap portion of temporal
+* more tests, ensure the first\_tick and last\_tick only load one result
+* test the session behavior around deletes
+* speed up tests considerably
+* TemporalModel extends Clocked for great victory
+* stylistic changes
+* new style models with better init clock
+* support arbitrary shaped relationships (as long as they have real foreign keys)
+* pending deprecate bad named properties on ClockedOption -- they're models not tables
+* simplify test models
+* bump version
+* new style temporal declaration first pass
+* truncate\_identifier a public method
+* Add Travis and Coveralls, to provide complex build matrix (#11)
+* Because I'm vain
+* pep8
+* bump version number
+* support for simple joined table inheritance
+* bump sqlalchemy to 1.1.2
+* port over activity tests
+* test via setup.py
+* Rearrange things and reformat to flake8 standards
+* Tweak and clean up setuptools setup.py script
+* clover does open source
+* Include version information in package and link setup version to package version
+* Activity tests
+* related model tests
+* concrete base tests
+* updated tests, added actual db tests
+* it actually works with the api service now
+* six of nine
+* remove tox
+* non-persistent tests
+* tox + setup + pytest
+* first pass at setup.py
+* get tox prepped
+* update readme
+* skeleton
+* Init circle ci config
+* Initial commit
