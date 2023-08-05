@@ -1,0 +1,17 @@
+tap_stripe/__init__.py,sha256=9hxZ2J8O9W8Zi_2Wht5sH6cXk7obu1_nfDxUzTUi_Xg,5594
+tap_stripe/schemas/charges.json,sha256=O9MBzE-h2qp2lOk6hKwIOgTFnBC6vdxKoJY195z3U1k,5251
+tap_stripe/schemas/customers.json,sha256=xuGMFzj6H23OE9L8CYgf4tMtIqI3ClpP9GT-CppxVdk,1576
+tap_stripe/schemas/invoices.json,sha256=DobUFMmBw2H8-aVDuyOMwjWu67vQEpO-UN4DQv5k6Q8,6037
+tap_stripe/schemas/plans.json,sha256=drdX7MFR-MKSGTViorGu9ywRQ8Eeb5FcCV-DjD9TPKg,23
+tap_stripe/schemas/subscriptions.json,sha256=OzlJ2QfHZ47nAyMu9pnR6yPGDhl5XZi8thYwT2ruj4M,31
+tap_stripe/schemas/shared/coupon.json,sha256=OIA141IZSmW5Dq-ha-efyxd1jqFTJhFay_bPDTau4Ag,1526
+tap_stripe/schemas/shared/discount.json,sha256=sCspzB0amKxdlMW-yssciz5UZJUkMMOam3DMW6FZASI,569
+tap_stripe/schemas/shared/plan.json,sha256=k62xmTd5TgQngeZWRRO4PKBxYfV9zgjjl6KTD-iAuAw,2392
+tap_stripe/schemas/shared/source.json,sha256=gIkOIUfc4UOfuqlqmtCdTl-mWzfJOZJ75Es2McXlB6o,2096
+tap_stripe/schemas/shared/subscription.json,sha256=OjnY168GTxlTZhptZ4A6Ozw_EB1CDnsdBqEyoft_w_U,2412
+tap_stripe/schemas/shared/subscription_item.json,sha256=Rl8-2GNKULS2YUay0JdeUXJETllKgKtNv_MUlX1Myd8,690
+tap_stripe-1.0.0.dist-info/METADATA,sha256=_nB5j5O2bxMYnQkS8gfpVsdklq7BRZ2LE0V4Z_Ln0YY,354
+tap_stripe-1.0.0.dist-info/RECORD,,
+tap_stripe-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tap_stripe-1.0.0.dist-info/entry_points.txt,sha256=0Ic3grQEFxb_THrqf0_U0uVnQx7Fn3zRxqklKaRF9D8,58
+tap_stripe-1.0.0.dist-info/top_level.txt,sha256=AJ0MhVqYf5xN6D4bpuTgo8YH5gPeYVTH0iRyQ39Qx9M,11

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tap-stripe
+Version: 1.0.0
+Summary: Singer.io tap for Stripe
+Home-page: http://statsbot.co
+Author: Statsbot
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: singer-python (==5.2.0)
+Requires-Dist: stripe (==2.4.0)
+Requires-Dist: requests
+
+UNKNOWN
+
+
