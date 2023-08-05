@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: telegraf-cloudflare
+Version: 0.1.2
+Summary: Plugin for Telegraf for gathering statistics from Cloudflare
+Home-page: https://github.com/SebastianCzoch/telegraf-cloudflare
+Author: Sebastian Czoch
+Author-email: sebastian@czoch.pl
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests (>=2.19)
+
+# telegraf-cloudflare
+Plugin for Telegraf for gathering statistics from Cloudflare
+
+This script is in beta version, use with caution
+
+## Installation
+```
+$ pip install telegraf-cloudflare
+```
+
+
