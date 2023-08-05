@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+daydreamer/__init__.py
+daydreamer/apiclient.py
+daydreamer/baseclient.py
+daydreamer/compat.py
+daydreamer/enums.py
+daydreamer/exceptions.py
+daydreamer/utils.py
+daydreamer.egg-info/PKG-INFO
+daydreamer.egg-info/SOURCES.txt
+daydreamer.egg-info/dependency_links.txt
+daydreamer.egg-info/requires.txt
+daydreamer.egg-info/top_level.txt
