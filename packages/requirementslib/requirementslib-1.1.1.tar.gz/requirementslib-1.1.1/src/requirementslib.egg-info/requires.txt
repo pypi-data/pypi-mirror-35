@@ -1,0 +1,17 @@
+setuptools>=36.2.2
+attrs
+appdirs
+packaging
+first
+six
+vistir>=0.1.4
+pip-shims>=0.1.2
+requests
+plette
+toml
+
+[tests]
+pytest
+pytest-timeout
+pytest-xdist
+pytest-cov
