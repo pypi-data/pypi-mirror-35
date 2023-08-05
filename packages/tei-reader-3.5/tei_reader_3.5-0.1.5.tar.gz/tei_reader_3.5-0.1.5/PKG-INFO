@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: tei_reader_3.5
+Version: 0.1.5
+Summary: TEI Reader
+Home-page: https://github.com/UUDigitalHumanitieslab/tei_reader
+Author: Nejc Mlakar (Department Intelligent Systems, Jozef Stefan Institute), based from Sheean Spoel (Digital Humanities Lab, Utrecht University)
+Author-email: 
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5, <3.6
