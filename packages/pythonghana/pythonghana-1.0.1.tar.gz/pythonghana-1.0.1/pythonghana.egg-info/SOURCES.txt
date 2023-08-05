@@ -1,0 +1,6 @@
+README.md
+setup.py
+pythonghana.egg-info/PKG-INFO
+pythonghana.egg-info/SOURCES.txt
+pythonghana.egg-info/dependency_links.txt
+pythonghana.egg-info/top_level.txt
