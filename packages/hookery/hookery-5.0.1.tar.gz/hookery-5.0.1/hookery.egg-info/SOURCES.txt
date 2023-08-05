@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+setup.cfg
+setup.py
+docs/README.rst
+hookery/__init__.py
+hookery/base.py
+hookery.egg-info/PKG-INFO
+hookery.egg-info/SOURCES.txt
+hookery.egg-info/dependency_links.txt
+hookery.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/helpers.py
+tests/test_base.py
