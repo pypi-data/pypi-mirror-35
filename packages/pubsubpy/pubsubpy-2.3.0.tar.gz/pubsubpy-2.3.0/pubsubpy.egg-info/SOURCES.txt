@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+pubsub/__init__.py
+pubsubpy.egg-info/PKG-INFO
+pubsubpy.egg-info/SOURCES.txt
+pubsubpy.egg-info/dependency_links.txt
+pubsubpy.egg-info/requires.txt
+pubsubpy.egg-info/top_level.txt
+tests/__init__.py
+tests/kombu_mock.py
+tests/pubsub.py
