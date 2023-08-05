@@ -1,0 +1,13 @@
+gimme_aws_creds/__init__.py,sha256=Zgym6-_mR1KRsN3OdkM-iZcHdDPmwxtdosDE5Ux6IV4,55
+gimme_aws_creds/aws.py,sha256=LO4yjzCiGLlPlcuxEpZcGJOlhXqElDC08q3RRjcgcCI,5295
+gimme_aws_creds/common.py,sha256=J26IcfbYH8V5hVSU1QHVp5HPBC8NY01-9WyAWrp2DIg,690
+gimme_aws_creds/config.py,sha256=A5vZCOVgsDb63BRUa6Of1_O0mdQcwXAGY9TPNTlDXzs,18095
+gimme_aws_creds/default.py,sha256=-xTuaHw6J97o9D49CqwLG_sQ7iKOGnUQT60F195gHmw,2872
+gimme_aws_creds/main.py,sha256=yo2LEgwne-8N7I_b8g9p0M8KF_w0_TwcA-gc_id0-AE,20771
+gimme_aws_creds/okta.py,sha256=8GEbFE_RqjgUR14WydO6S40fBH2qoJ0NVqqXAtzb1Q0,24697
+gimme_aws_creds-1.1.1.data/scripts/gimme-aws-creds,sha256=O8enkmn1hEV1cdPJSVay4H2cUGsfp7AUpvVhP8JLt88,734
+gimme_aws_creds-1.1.1.data/scripts/gimme-aws-creds.py,sha256=O8enkmn1hEV1cdPJSVay4H2cUGsfp7AUpvVhP8JLt88,734
+gimme_aws_creds-1.1.1.dist-info/METADATA,sha256=b28X0hKfJuHzaUdOHFg1_dmPKqqVzv2qpbf_iqqAA6c,697
+gimme_aws_creds-1.1.1.dist-info/RECORD,,
+gimme_aws_creds-1.1.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+gimme_aws_creds-1.1.1.dist-info/top_level.txt,sha256=EVQpc94o01krGTu3MRZahAimbNpN7_e53X9LVF9lGxM,16
