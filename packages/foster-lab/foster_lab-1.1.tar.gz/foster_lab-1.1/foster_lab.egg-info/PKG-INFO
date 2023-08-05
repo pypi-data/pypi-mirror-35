@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: foster-lab
+Version: 1.1
+Summary: Foster Lab Python scripts for cluster sorting
+Home-page: https://github.com/evidlo/foster_lab
+Author: Evan Widloski
+Author-email: evan@evanw.org
+License: GPLv3
+Description: UNKNOWN
+Keywords: mountainsort foster lab
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
