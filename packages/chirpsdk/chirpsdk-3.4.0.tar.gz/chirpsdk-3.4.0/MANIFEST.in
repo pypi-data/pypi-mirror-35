@@ -1,0 +1,8 @@
+include LICENSE.md
+include README.md
+include example.py
+include chirpsdk/include/*
+include chirpsdk/_connect.h
+include chirpsdk/libraries/darwin/libchirp-connect*
+include chirpsdk/libraries/linux/libchirp-connect*
+include chirpsdk/libraries/rpi/libchirp-connect*
