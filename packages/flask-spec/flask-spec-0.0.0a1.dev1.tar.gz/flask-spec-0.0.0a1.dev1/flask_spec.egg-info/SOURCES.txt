@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+flask_spec/__init__.py
+flask_spec/extensions.py
+flask_spec/registars.py
+flask_spec/utils.py
+flask_spec.egg-info/PKG-INFO
+flask_spec.egg-info/SOURCES.txt
+flask_spec.egg-info/dependency_links.txt
+flask_spec.egg-info/not-zip-safe
+flask_spec.egg-info/requires.txt
+flask_spec.egg-info/top_level.txt
+flask_spec/templates/envs.html

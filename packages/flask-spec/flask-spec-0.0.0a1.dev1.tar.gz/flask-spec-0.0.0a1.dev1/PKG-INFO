@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: flask-spec
+Version: 0.0.0a1.dev1
+Summary: A lightweight wrapper around apispec for extracting OpenApi specs from flask project.
+Home-page: https://github.com/ArtemAngelchev/flask-spec
+Author: Angelchev Artem
+Author-email: artangelchev@gmail.com
+License: MIT
+Description: =============
+        flask-apispec
+        =============
+        
+        
+        Install
+        -------
+        
+        ::
+        
+            pip install flask-apispec
+        
+        Quickstart
+        ----------
+        
+Keywords: swagger,apispec,openapi,documentation,docs,api,rest
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
