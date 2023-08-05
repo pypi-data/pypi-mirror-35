@@ -1,0 +1,7 @@
+scuttlebutt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scuttlebutt/protocol.py,sha256=T7XAzJ3C6ZGKDDzbkvtoR0aB3s4W0UcDjB9MnOBr1Mg,24
+scuttlebutt/server.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scuttlebutt-0.1.dist-info/METADATA,sha256=hoJRg0tv1ZlNPyNgzMD0UPRE11ATFgGJLIk1KJC-e2Q,291
+scuttlebutt-0.1.dist-info/RECORD,,
+scuttlebutt-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+scuttlebutt-0.1.dist-info/top_level.txt,sha256=390fyv4juGKivS7B5ELrOOUQQcwTo_LOV5ZzEsPGqME,12
