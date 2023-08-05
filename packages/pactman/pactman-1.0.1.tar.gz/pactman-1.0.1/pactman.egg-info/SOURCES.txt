@@ -1,0 +1,14 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pactman/__init__.py
+pactman/__version__.py
+pactman.egg-info/PKG-INFO
+pactman.egg-info/SOURCES.txt
+pactman.egg-info/dependency_links.txt
+pactman.egg-info/entry_points.txt
+pactman.egg-info/requires.txt
+pactman.egg-info/top_level.txt
