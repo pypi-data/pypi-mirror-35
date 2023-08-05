@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flit = "*"
+
+[dev-packages]
+pytest = "<3.7.0"
+pytest-cov = "*"
+pytest-pylint = "*"
+pytest-mock = "*"
+pudb = "*"
+tox = "*"
+
+[requires]
+python_version = "3.7"
