@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: python-geosupport
+Version: 1.0.1
+Summary: Python bindings for NYC Geosupport Desktop Edition
+Home-page: https://github.com/ishiland/python-geosupport
+Author: Ian Shiland
+Author-email: ishiland@gmail.com
+License: MIT
+Description: 
+                # Import the library and create a `Geosupport` object.
+                from geosupport import Geosupport
+                g = Geosupport()
+                
+                # Call the address processing function by name
+                result = g.address(house_number=125, street_name='Worth St', borough_code='Mn')
+                
+Keywords: NYC,geocoder,python-geosupport,geosupport
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
