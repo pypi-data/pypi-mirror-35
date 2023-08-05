@@ -1,0 +1,4 @@
+PyYAML
+colorama
+pseudo>=0.2.3
+termcolor
