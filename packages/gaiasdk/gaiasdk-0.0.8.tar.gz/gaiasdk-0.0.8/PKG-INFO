@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gaiasdk
+Version: 0.0.8
+Summary: Gaia Python SDK for python pipelines
+Home-page: https://github.com/gaia-pipeline/pythonsdk
+Author: Michel Vocks
+Author-email: michelvocks@gmail.com
+License: Apache-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
