@@ -1,0 +1,10 @@
+django_html_validator-0.5.0.dist-info/METADATA,sha256=QipcrNyfZim-SokpRWoV2bLZotywpU0ofxvhrHT19f8,6378
+django_html_validator-0.5.0.dist-info/RECORD,,
+django_html_validator-0.5.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_html_validator-0.5.0.dist-info/top_level.txt,sha256=hsYAz-tPX31CW3ZQ4aPVNFXxogpsb13uWf6SmFzzcUU,14
+htmlvalidator/__init__.py,sha256=0PaI2eSOCp5kkNcpKpUSbLHf66rL9xQzFpYyLGpEtyM,22
+htmlvalidator/client.py,sha256=S4dIaoj-niX3gMvwvdG5JYKzm9Gm2fSfWBQku2UIsnE,1511
+htmlvalidator/core.py,sha256=S51seJ6H795XOsjuw4PnTBckeJDwpe77g0glnDjzVbQ,4508
+htmlvalidator/exceptions.py,sha256=n4uABoAB9nARXYCVCh7IeA-FvGxMewL--MJaVMBtMbU,103
+htmlvalidator/middleware.py,sha256=9W-kGbbXHLeYRmXek0zfx6jEfe1isjAUVZPwW9PwHNU,1325
+htmlvalidator/utils.py,sha256=OkYmnubBCmuvKs_FVbP9-GwYZRNGL73tPRd56pxXSI0,294
