@@ -1,0 +1,7 @@
+TETyper.py
+setup.py
+TETyper.egg-info/PKG-INFO
+TETyper.egg-info/SOURCES.txt
+TETyper.egg-info/dependency_links.txt
+TETyper.egg-info/requires.txt
+TETyper.egg-info/top_level.txt
