@@ -1,0 +1,8 @@
+README.md
+setup.py
+ansible/plugins/callback/coverage.py
+ansible_coverage_callback.egg-info/PKG-INFO
+ansible_coverage_callback.egg-info/SOURCES.txt
+ansible_coverage_callback.egg-info/dependency_links.txt
+ansible_coverage_callback.egg-info/requires.txt
+ansible_coverage_callback.egg-info/top_level.txt
