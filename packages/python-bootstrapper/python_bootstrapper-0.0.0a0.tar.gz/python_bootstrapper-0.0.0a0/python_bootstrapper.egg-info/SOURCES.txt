@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+python_bootstrapper/__init__.py
+python_bootstrapper/__main__.py
+python_bootstrapper.egg-info/PKG-INFO
+python_bootstrapper.egg-info/SOURCES.txt
+python_bootstrapper.egg-info/dependency_links.txt
+python_bootstrapper.egg-info/entry_points.txt
+python_bootstrapper.egg-info/top_level.txt
+python_bootstrapper.egg-info/zip-safe
