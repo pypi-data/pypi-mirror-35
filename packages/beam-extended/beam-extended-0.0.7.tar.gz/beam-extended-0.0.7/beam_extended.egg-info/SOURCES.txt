@@ -1,0 +1,8 @@
+setup.py
+beam_extended/__init__.py
+beam_extended.egg-info/PKG-INFO
+beam_extended.egg-info/SOURCES.txt
+beam_extended.egg-info/dependency_links.txt
+beam_extended.egg-info/requires.txt
+beam_extended.egg-info/top_level.txt
+beam_extended/io/mongodbio.py
