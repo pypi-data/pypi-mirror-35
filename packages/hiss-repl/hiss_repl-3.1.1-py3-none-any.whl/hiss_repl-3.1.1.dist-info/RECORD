@@ -1,0 +1,12 @@
+hiss/__init__.py,sha256=co_0ehQc5A6RpGZhPmSWAfz7AZNnNcCvA_OhwaKE_Y4,92
+hiss/cli/__init__.py,sha256=FShu4HzJ08lUqHLdZvkvLktMxBU5GNDi48TXNvj16H0,1310
+hiss/cli/config.py,sha256=SlWWbjFjghfb5MMKiQaAFFyQ5Ud1j5ZGpJWP797STL8,2953
+hiss/cli/magic.py,sha256=F5g0LXrYKMBufiMSNccpFj1BnlqLUtXdFMyGZNm-Pss,3130
+hiss/cli/virtualenv.py,sha256=pdfmiqHRvKg07pIckJuCs4Tq2cXZzNb4A2Uey9-j8DI,580
+hiss_repl-3.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+hiss_repl-3.1.1.dist-info/METADATA,sha256=Fq2KI6atV-xU_NY8-ubL2IXcUP4-OrF1BF_aM_2E7v0,769
+hiss_repl-3.1.1.dist-info/RECORD,,
+hiss_repl-3.1.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+hiss_repl-3.1.1.dist-info/entry_points.txt,sha256=J5Py4zxCZZUZ4nQ-XebGJ68c8gUh0Nkm5zXVW44gzQg,40
+hiss_repl-3.1.1.dist-info/metadata.json,sha256=SZtNvSK290R3LFPV3iDwJj_SUyfXuvptqKahB8CQpsc,1023
+hiss_repl-3.1.1.dist-info/top_level.txt,sha256=riPoVAYV02hNd6lknNZhNGSXndmCwuyYDDqYvBP_-1A,5
