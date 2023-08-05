@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  {% for app in apps %}
+    <div class="card w-50 mx-auto mt-4">
+      <div class="card-header font-weight-bold">{{ app.name }}</div>
+      {% if app.urls %}
+        <ul class="list-group list-group-flush">
+          {% for url in app.urls %}
+            <a href="{{ url.url }}"
+               class="list-group-item list-group-item-action">{{ url.name }}</a>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  {% endfor %}
+{% endblock %}
