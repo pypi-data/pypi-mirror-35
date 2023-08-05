@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: swift-morm
+Version: 0.1
+Summary: Swift Morm is a simple object mapper for python
+Home-page: https://github.com/PdrLins/swift-morm
+Author: Pedro Lins
+Author-email: paugustolins@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Swift - Morm is a simple object mapper for python
+
+Features
+Swift - Morm (Swift Micro-ORM) is a free library that you can add in to your project that will help you to create easy connection and object mapper.
+
+

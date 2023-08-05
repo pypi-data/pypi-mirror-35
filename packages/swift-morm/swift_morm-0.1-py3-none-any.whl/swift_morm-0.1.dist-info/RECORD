@@ -1,0 +1,9 @@
+swift/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swift/context.py,sha256=f62Nw_pchwmPLnbyDGT6aNfa0kZYFxXDVe-lEW0Wd-M,717
+swift/data_base_provider.py,sha256=VJDfQ2YJ15yIu_wMlGP2DdwFngQK95aBPhV7yztS3I4,1303
+swift/sql_mapper.py,sha256=x-mrZat4gv2X1LewBJPSjuRaO8xpxhf67a7m7BIrn2g,10307
+swift/swift.py,sha256=ul7ULaH0anc15-57hMFbwIo0KC1qCkGMZBmenESN2WU,119
+swift_morm-0.1.dist-info/METADATA,sha256=eVXJxLG0jrUbxnIf8etp7V1ICGhq6Vhbl1725n5wRjk,649
+swift_morm-0.1.dist-info/RECORD,,
+swift_morm-0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+swift_morm-0.1.dist-info/top_level.txt,sha256=nVzNOToyzq0MM7JtrpalfOaPV9UIfm_lXhHX0duhVps,6
