@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gitcoin/__init__.py
+gitcoin/client.py
+gitcoin/validation.py
+gitcoin.egg-info/PKG-INFO
+gitcoin.egg-info/SOURCES.txt
+gitcoin.egg-info/dependency_links.txt
+gitcoin.egg-info/requires.txt
+gitcoin.egg-info/top_level.txt
