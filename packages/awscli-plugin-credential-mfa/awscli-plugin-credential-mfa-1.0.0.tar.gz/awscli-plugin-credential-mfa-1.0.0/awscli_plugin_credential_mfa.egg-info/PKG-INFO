@@ -1,0 +1,62 @@
+Metadata-Version: 1.2
+Name: awscli-plugin-credential-mfa
+Version: 1.0.0
+Summary: awscli plugin enabling automatic usage of mfa token
+Home-page: https://github.com/seporaitis/awscli-plugin-credential-mfa/
+Author: Julius Seporaitis
+Author-email: julius@seporaitis.net
+License: Apache License 2.0
+Description: =============================
+        awscli-plugin-credential-mfa
+        =============================
+        
+        .. image:: https://img.shields.io/travis/seporaitis/awscli-plugin-credential-mfa/master.svg
+                :target: https://travis-ci.org/seporaitis/awscli-plugin-credential-mfa
+        
+        Automatically asks for MFA token key to retrieve temporary credentials.
+        
+        Installation and Usage
+        ----------------------
+        
+        .. code-block:: sh
+        
+           python setup.py install
+           aws configure set plugins.credentials awscli_plugin_credential_mfa
+        
+        
+        Assuming your IAM user has `MFA enabled <https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_users-self-manage-mfa-and-creds.html>`_ and credentials set up, you also need to set ``mfa_serial`` and
+        ``source_profile`` in the configuration. Below are instructions for profile ``default``, adjust as
+        appropriate
+        
+        .. code-block:: ini
+        
+           [default]
+           mfa_serial = arn:aws:iam::123456789012:mfa/iam-user-name
+           source_profile = default
+        
+        
+        =======
+        History
+        =======
+        
+        Pending
+        -------
+        
+        * Initial version
+        * New notes here
+        
+Keywords: awscli,plugin,credentials,mfa,security,totp,otp,aws
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
