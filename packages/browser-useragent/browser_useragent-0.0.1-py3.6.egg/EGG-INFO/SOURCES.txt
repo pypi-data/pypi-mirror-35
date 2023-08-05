@@ -1,0 +1,6 @@
+README.rst
+setup.py
+browser_useragent.egg-info/PKG-INFO
+browser_useragent.egg-info/SOURCES.txt
+browser_useragent.egg-info/dependency_links.txt
+browser_useragent.egg-info/top_level.txt

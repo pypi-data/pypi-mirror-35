@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: browser-useragent
+Version: 0.0.1
+Summary: get a browser user_agent by random
+Home-page: https://github.com/mouday/browser_useragent
+Author: Peng Shiyu
+Author-email: pengshiyuyx@gmail.com
+License: MIT License
+Description: 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
