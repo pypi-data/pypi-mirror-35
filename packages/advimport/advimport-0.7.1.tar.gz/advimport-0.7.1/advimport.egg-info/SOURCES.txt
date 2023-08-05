@@ -1,0 +1,7 @@
+setup.py
+advimport/__init__.py
+advimport/__pipfix_f__.py
+advimport.egg-info/PKG-INFO
+advimport.egg-info/SOURCES.txt
+advimport.egg-info/dependency_links.txt
+advimport.egg-info/top_level.txt
