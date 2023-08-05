@@ -1,0 +1,6 @@
+README.rst
+setup.py
+pyfeeds.egg-info/PKG-INFO
+pyfeeds.egg-info/SOURCES.txt
+pyfeeds.egg-info/dependency_links.txt
+pyfeeds.egg-info/top_level.txt
