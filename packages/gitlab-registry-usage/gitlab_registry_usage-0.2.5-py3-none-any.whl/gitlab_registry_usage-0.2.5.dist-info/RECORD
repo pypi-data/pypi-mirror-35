@@ -1,0 +1,14 @@
+gitlab_registry_usage/__init__.py,sha256=lr8boFMJd2h5xqpciyhyX9sKCjtz8a5xDlI8i08B5LE,205
+gitlab_registry_usage/__main__.py,sha256=7lPKtSbpoAu00-zLubn5hIRy0cOGAc7Z0rzLSfK9q48,85
+gitlab_registry_usage/_version.py,sha256=6HGJ0ianyl-6EZ0qpCUGD9E5h6L7DapwOYgxt9C0_7s,80
+gitlab_registry_usage/cli.py,sha256=a4BiIv-TK5N2q7uNUQRY1QJgKOt00yi6EmlKqKw7uts,10142
+gitlab_registry_usage/registry/__init__.py,sha256=OYNvVCLW2E1BY2KDYc_r3C31TUPzv2BpKqmMBwLpDys,171
+gitlab_registry_usage/registry/high_level_api.py,sha256=Pqi8FFSDMMJ99tTSb4jKqB4Vyi4Y5mSzueHdUwIMAYI,9171
+gitlab_registry_usage/registry/low_level_api.py,sha256=xycLrs_aeTF_JpWkn-cpEGVmp-FCb6CQnTq61LehJxo,5005
+gitlab_registry_usage-0.2.5.dist-info/DESCRIPTION.rst,sha256=s25Il1Q8qCWkT77aHMRZxaqb5xgZNBs4Ajdy_ag495k,3987
+gitlab_registry_usage-0.2.5.dist-info/METADATA,sha256=pEtvVBGBHGr0gUuLSBxGE2W5hwlXGN8PI3OizazvJQg,5046
+gitlab_registry_usage-0.2.5.dist-info/RECORD,,
+gitlab_registry_usage-0.2.5.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+gitlab_registry_usage-0.2.5.dist-info/entry_points.txt,sha256=yw7rFXImOtBBrEQVY0Ja37MIGqaRFHME8v3wVx7Mhco,74
+gitlab_registry_usage-0.2.5.dist-info/metadata.json,sha256=QvPxSyCwYGm8OwgdlhudNbhJrwAyLPJKPnZT4tsUErs,1391
+gitlab_registry_usage-0.2.5.dist-info/top_level.txt,sha256=bsh-IK9_4OzJ0nz2BpbtKCNJEJZ1YmtQoUj1qz4nX9k,22
