@@ -1,0 +1,2 @@
+texttable
+jpegtran-cffi>0.5
