@@ -1,0 +1,16 @@
+Babel
+mock
+six
+speaklater
+
+[develop]
+flake8
+pytest
+pytest-cov
+tox
+
+[testing]
+flake8
+pytest
+pytest-cov
+tox
