@@ -1,0 +1,13 @@
+nnweaver/__init__.py,sha256=rcVT9guap6dO8VxzWdR75rgph8XDbB-7netmjXoZCR4,409
+nnweaver/activations.py,sha256=YuKoloXtZLKXo30lrGD5Fv1ZaxqHa---ksG7tU4MWhc,4122
+nnweaver/callbacks.py,sha256=sHUXsmiwcBylmctgbFzBZd3kQ17x3BTEUDzZG_YhPg0,7364
+nnweaver/losses.py,sha256=EYC8qxVEIkqTgzbOHdAbAoV2QfEvYTs0p1tQWOKZu7c,2930
+nnweaver/nn.py,sha256=bEybjMdUkcXdV53Jg288fhE0v6E2j52-ev5rr_LAMZI,7207
+nnweaver/optimizers.py,sha256=8FqI6VP0OTHb6NAbMwtGgSbznEq90paoXJpZNCm-Ax0,19116
+nnweaver/regularizers.py,sha256=gbgBaMFGZrWdf_jExF1xakGgERRAF5q545K2CRQRqRA,2108
+nnweaver/utils.py,sha256=xJjCSUwxzQK-F2kjG7AXw39FbOJllmoDYrDndDSWgnM,1096
+nnweaver/validation.py,sha256=n1SjCsN__K9H0QzpD-kEWE3c5P5N1H_KO6fSq1EufiY,11135
+nnweaver-0.2.dist-info/METADATA,sha256=qWpp6qDOq212E8Srve-_xvKoskwwFSMeg754ALGlOU4,4140
+nnweaver-0.2.dist-info/RECORD,,
+nnweaver-0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+nnweaver-0.2.dist-info/top_level.txt,sha256=gOEws22wBfuN4U4uy-Z1Dn0ZWieF-IzAJI4tvLkDl4k,9
