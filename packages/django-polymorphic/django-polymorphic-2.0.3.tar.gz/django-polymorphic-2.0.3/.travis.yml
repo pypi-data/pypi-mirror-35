@@ -1,0 +1,80 @@
+# https://travis-ci.org/django-polymorphic/django-polymorphic
+sudo: false
+language: python
+
+python: "3.6"
+
+env:
+  - TOXENV=py27-django111
+  - TOXENV=py34-django111
+  - TOXENV=py34-django20
+  - TOXENV=py35-django111
+  - TOXENV=py35-django20
+  - TOXENV=py35-djangomaster
+  - TOXENV=py36-django111
+  - TOXENV=py36-django20
+  - TOXENV=py36-django21
+  - TOXENV=py36-djangomaster
+  - TOXENV=py37-django21
+  # XXX: Use a matrix to build these?
+  - TOXENV=py36-django111-postgres DB=postgres
+  - TOXENV=py36-django20-postgres DB=postgres
+  - TOXENV=py36-djangomaster-postgres DB=postgres
+
+services:
+  - postgres
+addons:
+  postgresql: "9.6"
+
+matrix:
+  fast_finish: true
+  include:
+    - python: "2.7"
+      env: TOXENV=py27-django111
+    - python: "3.5"
+      env: TOXENV=py35-django111
+    - python: "3.5"
+      env: TOXENV=py35-django20
+    - python: "3.5"
+      env: TOXENV=py35-djangomaster
+    - python: "3.7"
+      env: TOXENV=py37-django21
+  exclude:
+    - python: "3.6"
+      env: TOXENV=py27-django111
+    - python: "3.6"
+      env: TOXENV=py35-django111
+    - python: "3.6"
+      env: TOXENV=py35-django20
+    - python: "3.6"
+      env: TOXENV=py35-djangomaster
+    - python: "3.6"
+      env: TOXENV=py37-django21
+  allow_failures:
+    - env: TOXENV=py35-djangomaster
+    - env: TOXENV=py36-djangomaster
+    - env: TOXENV=py36-djangomaster-postgres DB=postgres
+
+cache:
+  directories:
+    - $HOME/.cache/pip
+    - $TRAVIS_BUILD_DIR/.tox
+
+before_install:
+- psql -c 'CREATE DATABASE default;' -U postgres || true
+- psql -c 'CREATE DATABASE secondary;' -U postgres || true
+
+install:
+  - pip install --upgrade pip wheel setuptools
+  - pip install codecov coverage tox
+
+script:
+  - tox
+
+after_success:
+  - coverage xml -i
+  - codecov
+
+branches:
+  only:
+    - master
