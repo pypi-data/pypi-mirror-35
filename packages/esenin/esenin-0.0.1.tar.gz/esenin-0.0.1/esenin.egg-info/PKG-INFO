@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: esenin
+Version: 0.0.1
+Summary: Python wrapper for esenin.
+Home-page: https://github.com/esenin-org/esenin-python
+Author: vovapolu
+Author-email: vovapolu@gmail.com
+License: UNKNOWN
+Description: # Esenin python
+        
+        Python wrapper for json requests to [esenin-server](https://github.com/esenin-org/esenin-server). 
+        
+        ### Instalation
+        
+        ```bash
+        pip install esenin
+        ```
+        
+        ### Usage
+        
+        ```python
+        from esenin import Client
+        
+        nlp = Client(ip="127.0.0.1", port="9000")
+        print(nlp.get_pos("Мама мыла раму."))
+        ```
+        
+        ### Functions
+        
+        ##### `.get_pos(string)`
+        Takes arbitrary _russian_ text and returns Part Of Speech tags. 
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
