@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: vstask
+Version: 1.1.0
+Summary: CLI for VSCode tasks
+Home-page: https://github.com/cmccandless/vstask
+Author: Corey McCandless
+Author-email: crm1994@gmail.com
+License: UNKNOWN
+Description: # vstask
+        CLI for VSCode tasks
+        
+        ## Installation
+        ```bash
+        pip install vstask
+        ```
+        
+        ## Usage
+        ```bash
+        $ vstask -h
+        usage: vstask [-h] [--version] [-l] [-t] [TASK [TASK ...]]
+        
+        positional arguments:
+          TASK
+        
+        optional arguments:
+          -h, --help  show this help message and exit
+          --version   print version information
+          -l, --list  list available tasks
+          -t, --time  print runtime information
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
