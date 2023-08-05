@@ -1,0 +1,12 @@
+README.md
+setup.py
+mklists/__init__.py
+mklists/cli.py
+mklists/data.py
+mklists/rules.py
+mklists.egg-info/PKG-INFO
+mklists.egg-info/SOURCES.txt
+mklists.egg-info/dependency_links.txt
+mklists.egg-info/entry_points.txt
+mklists.egg-info/requires.txt
+mklists.egg-info/top_level.txt
