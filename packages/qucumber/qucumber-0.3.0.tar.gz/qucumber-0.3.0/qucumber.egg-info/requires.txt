@@ -1,0 +1,6 @@
+tqdm>=4.23
+numpy>=1.14
+matplotlib>=2.2
+
+[:sys_platform != "win32"]
+torch<0.4.2,>=0.4.1
