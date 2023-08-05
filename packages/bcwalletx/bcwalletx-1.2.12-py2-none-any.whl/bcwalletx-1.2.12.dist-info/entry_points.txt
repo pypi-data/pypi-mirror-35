@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            bcwalletx=bcwalletx:invoke_cli
+        

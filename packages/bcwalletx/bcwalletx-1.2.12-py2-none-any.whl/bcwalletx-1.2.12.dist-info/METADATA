@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: bcwalletx
+Version: 1.2.12
+Summary: Simple BIP32 HD cryptocurrecy command line wallet
+Home-page: https://github.com/dalijolijo/bcwalletx/
+Author: David Bergen
+Author-email: david.bergen@gmx.net
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: bitmerchantx (==0.1.9)
+Requires-Dist: blockcypher (==1.0.69)
+Requires-Dist: clint (==0.4.1)
+Requires-Dist: tzlocal (==1.2)
+
+UNKNOWN
+
+
