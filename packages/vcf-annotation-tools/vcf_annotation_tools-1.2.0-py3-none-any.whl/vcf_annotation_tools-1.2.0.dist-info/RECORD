@@ -1,0 +1,9 @@
+vcf_annotation_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcf_annotation_tools/vcf_expression_annotator.py,sha256=WnFf3JbvgSG_QNU8I04YXjlyY0oO4_TWUAoLtVQBfF4,9932
+vcf_annotation_tools/vcf_info_annotator.py,sha256=voSxwXUvRQjYBCSaRjZfssdv4l7tmDjwqjJ_XEH9dA4,4395
+vcf_annotation_tools/vcf_readcount_annotator.py,sha256=NJxLLzKx3ZRLD8MICQ6t1lgxNumXxqoGA23NuKeK4Ls,10036
+vcf_annotation_tools-1.2.0.dist-info/METADATA,sha256=C3WJjKgRdzl2vZB05zGB0LWxzwLpO2E4Ws0iBYGwjEQ,784
+vcf_annotation_tools-1.2.0.dist-info/RECORD,,
+vcf_annotation_tools-1.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+vcf_annotation_tools-1.2.0.dist-info/entry_points.txt,sha256=irg-nCqxoTT9QSQBtrVfvNW-VJYWhMwQ5xkq_i8IRvA,239
+vcf_annotation_tools-1.2.0.dist-info/top_level.txt,sha256=sbcK56msd7nYXWY82CFhxwjtfjlDRqRL-LmAZiDiFaI,21
