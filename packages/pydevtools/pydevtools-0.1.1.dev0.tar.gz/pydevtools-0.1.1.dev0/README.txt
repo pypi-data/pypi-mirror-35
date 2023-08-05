@@ -1,0 +1,20 @@
+================================================================
+Python Devtools
+================================================================
+
+**Pydevtools is full of tools i have found to be useful for python3 development**
+
+This project is BIG fans of decorators. All tools in this project can be used by adding a decorator to a function
+
+================
+Getting started
+================
+**Import**
+
+Importing is pretty straight forward simply add *import pydevtools*
+
+**Timer**
+
+Time any function in your code simply by adding the @pydevtools.optimize.timer(output_function) decorator
+The output_function variable is designed to be a logging function such as logging.debug
+Any function that accepts a single string as input can be used as an output_function
