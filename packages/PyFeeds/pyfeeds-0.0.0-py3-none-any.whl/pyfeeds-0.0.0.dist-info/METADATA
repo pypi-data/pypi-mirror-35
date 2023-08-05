@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyfeeds
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/nblock/feeds
+Author: Florian Preinstorfer, Lukas Anzinger
+Author-email: florian@nblock.org, lukas@lukasanzinger.at
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Framework :: Scrapy
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+
+UNKNOWN
+
+
