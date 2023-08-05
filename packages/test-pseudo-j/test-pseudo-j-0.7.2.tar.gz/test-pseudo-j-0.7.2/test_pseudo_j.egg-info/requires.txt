@@ -1,0 +1,5 @@
+PyYAML
+colorama
+javalang
+pseudo>=0.2.3
+termcolor

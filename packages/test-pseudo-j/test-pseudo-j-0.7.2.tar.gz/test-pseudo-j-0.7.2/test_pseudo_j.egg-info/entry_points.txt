@@ -1,0 +1,3 @@
+[console_scripts]
+test-pseudo-j = pseudo_java.main:main
+
