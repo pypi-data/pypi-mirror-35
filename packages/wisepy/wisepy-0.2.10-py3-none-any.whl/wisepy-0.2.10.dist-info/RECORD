@@ -1,0 +1,12 @@
+wisepy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wisepy/_cmd_parser.py,sha256=IWVgNEiFIKGng8BIzGjRlM95oVKUvrD1q9uL65udZaQ,5374
+wisepy/cmd_ast.py,sha256=YNnSePZibGsJQ1z_vFBgoQ13Zau4VTlOwJ2M4Wad5V8,366
+wisepy/cmd_parser.py,sha256=IyCl9Ysv-HMs-1gKKYmAxpQLPiZcJx1GfJykdNM77Kc,2769
+wisepy/color.py,sha256=fF7DyVyVN_HrzOkid2qkQcxb8yxEe8WjD99FvTed1dg,784
+wisepy/dynamic_cast.py,sha256=Wso7PtjAtJRvRipfDnLYWvS9ebcRH0G-h6EwUIW0YAY,356
+wisepy/fn_describe.py,sha256=j4gWWLiVCCV36lXZKwoYuzQgThbC2SLwPgDLYMzMc1Y,2175
+wisepy/talking.py,sha256=w8hALe0ZqirShK-SODDWsjleSIiQbHNpWN1gdNtGWCY,4539
+wisepy-0.2.10.dist-info/METADATA,sha256=l2zVFg4_p6hBM4vOimjk6yaxBwzSW63Vr-PVN9ldtaw,2711
+wisepy-0.2.10.dist-info/RECORD,,
+wisepy-0.2.10.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+wisepy-0.2.10.dist-info/top_level.txt,sha256=VyzB3Nk-pCnCEt1iglXuHNXbTv25gBrK3PtsRixM9C4,7
