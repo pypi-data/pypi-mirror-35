@@ -1,0 +1,9 @@
+setup.py
+Spelt.egg-info/PKG-INFO
+Spelt.egg-info/SOURCES.txt
+Spelt.egg-info/dependency_links.txt
+Spelt.egg-info/entry_points.txt
+Spelt.egg-info/requires.txt
+Spelt.egg-info/top_level.txt
+spelt/__init__.py
+spelt/picker.py
