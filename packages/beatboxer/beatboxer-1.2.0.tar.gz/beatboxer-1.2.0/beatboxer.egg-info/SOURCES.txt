@@ -1,0 +1,15 @@
+README.md
+setup.py
+beatboxer/__init__.py
+beatboxer/beatboxer.py
+beatboxer.egg-info/PKG-INFO
+beatboxer.egg-info/SOURCES.txt
+beatboxer.egg-info/dependency_links.txt
+beatboxer.egg-info/requires.txt
+beatboxer.egg-info/top_level.txt
+beatboxer/samples/bass.wav
+beatboxer/samples/clap.wav
+beatboxer/samples/crash.wav
+beatboxer/samples/hihat.wav
+beatboxer/samples/kick.wav
+beatboxer/samples/snare.wav
