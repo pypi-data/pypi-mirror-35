@@ -1,0 +1,11 @@
+distbelief/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+distbelief/server.py,sha256=vBxEAh9mAOpQVGu1Kw7aFBYmbfYyqS0qYsojn1TVr9E,1153
+distbelief/optim/__init__.py,sha256=PPrNcrQAcmtaxzxREIaY36hoFGie8JC-NkqjicziUTg,38
+distbelief/optim/downpour_sgd.py,sha256=ba8nlJtwhVb87BHuspuJ-IP_e9an9rOp13MC1ITGiHI,2940
+distbelief/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+distbelief/utils/messaging.py,sha256=MOx9TusLqPCLfatOkfEBWzrwP9BR6voN5qPmtuu50tk,1998
+distbelief/utils/serialization.py,sha256=KIVTng4LL8E3SKgmS4WnwM6iZiw3kGNL0SI5s9me3Os,1040
+pytorch_distbelief-0.1.0.dist-info/METADATA,sha256=4k0cGbyS7r--C7aQmc2QgZHwfOdouveupwgLNi6ZPRE,2505
+pytorch_distbelief-0.1.0.dist-info/RECORD,,
+pytorch_distbelief-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pytorch_distbelief-0.1.0.dist-info/top_level.txt,sha256=U4qKbWP5gCDsKbS-XsaDjT_CqSdPivAMEo5a0Mmf25w,11
