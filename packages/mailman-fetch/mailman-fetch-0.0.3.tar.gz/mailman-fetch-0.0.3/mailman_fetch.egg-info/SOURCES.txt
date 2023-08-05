@@ -1,0 +1,9 @@
+README.md
+mailmanfetch.py
+setup.py
+mailman_fetch.egg-info/PKG-INFO
+mailman_fetch.egg-info/SOURCES.txt
+mailman_fetch.egg-info/dependency_links.txt
+mailman_fetch.egg-info/entry_points.txt
+mailman_fetch.egg-info/requires.txt
+mailman_fetch.egg-info/top_level.txt
