@@ -1,0 +1,16 @@
+colcon_ros_bazel/__init__.py,sha256=9o99XtP4AN0z44QRrqLvd7Lyd9ZOKnfkl3GVZSwlPBg,106
+colcon_ros_bazel/argcomplete_completer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_ros_bazel/argcomplete_completer/ros_bazel_args.py,sha256=bkREEAYC8s8Ctj1eOk20rVdCHi6BSvjjblaldnJUd5Y,1009
+colcon_ros_bazel/environment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_ros_bazel/package_identification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_ros_bazel/package_identification/ros_bazel.py,sha256=uLWsZ5WeJTwy5QSxGMk1lNQP7dbU8VwdVOKr29JQ-YE,2182
+colcon_ros_bazel/task/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_ros_bazel/task/ros_bazel/__init__.py,sha256=TBcOCUt6k7vgksqIjfA9yiRPxu4shFKrRtTfinGJmuQ,2462
+colcon_ros_bazel/task/ros_bazel/build.py,sha256=hIdcIp9fzujscmVQ4mmkRYGhqPym4hG7hUMQSLNK4d0,1512
+colcon_ros_bazel/task/ros_bazel/test.py,sha256=ZhaKI5sOGC-quB9YVK8ddUQsWZ5dRdIKn22MVR3nTRU,1456
+colcon_ros_bazel-0.0.1.dist-info/METADATA,sha256=CZzSFrERLQZ-hCs2LdqlMKf4BS3COkMfxQzjC-ZsOWw,1776
+colcon_ros_bazel-0.0.1.dist-info/RECORD,,
+colcon_ros_bazel-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+colcon_ros_bazel-0.0.1.dist-info/entry_points.txt,sha256=LM6CrbSplInjI5PgEBhYt9yy9jW6dgO82OgLRv6jwDk,663
+colcon_ros_bazel-0.0.1.dist-info/top_level.txt,sha256=-yVgvs6c-Erag2pVx0q5-RhS4nQBP7LEgyjhiLiaJT0,17
+colcon_ros_bazel-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
