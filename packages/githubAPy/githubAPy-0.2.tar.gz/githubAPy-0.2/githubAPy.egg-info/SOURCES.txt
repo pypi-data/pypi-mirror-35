@@ -1,0 +1,9 @@
+README.md
+setup.py
+githubAPy/__init__.py
+githubAPy/wrapper.py
+githubAPy.egg-info/PKG-INFO
+githubAPy.egg-info/SOURCES.txt
+githubAPy.egg-info/dependency_links.txt
+githubAPy.egg-info/requires.txt
+githubAPy.egg-info/top_level.txt

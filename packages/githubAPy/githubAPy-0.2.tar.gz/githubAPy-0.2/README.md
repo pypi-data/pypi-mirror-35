@@ -1,0 +1,1 @@
+Python wrapper to easily communicate with the GitHub API. It includes most of the features included in the GitHub API as well as some extra ones.
