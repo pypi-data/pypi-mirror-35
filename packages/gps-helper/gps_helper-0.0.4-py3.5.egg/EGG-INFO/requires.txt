@@ -1,0 +1,7 @@
+numpy
+sgp4
+matplotlib
+
+[plotting]
+cython
+cartopy
