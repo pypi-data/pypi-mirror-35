@@ -1,0 +1,10 @@
+colorama
+requests
+tabulate
+
+[abidecoder]
+ethereum-input-decoder
+pyetherchain
+
+[mythril]
+mythril
