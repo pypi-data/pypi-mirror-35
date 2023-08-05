@@ -1,0 +1,17 @@
+nrrd/__init__.py,sha256=05eMxwcz1zZMGO2Y2Me_CVC9DILynfL4TEVu3x6NJW4,538
+nrrd/_version.py,sha256=64UBVh2KX7E-WVG4ZyY1dUiW9jGXZloWZk1N9nEUC2k,21
+nrrd/errors.py,sha256=g7MAgn542vuGyjLIJR-QKn3xCdH7eZ_291p8KdK8A3o,74
+nrrd/formatters.py,sha256=XWaCiSRfBGu0PpaMk0C7UJZHEF6ugOPTJfaNarJmgMM,4627
+nrrd/parsers.py,sha256=pOc9flAn0TSM35P9Vx16LGhscQpBHDVpWUYoksivs6A,8818
+nrrd/reader.py,sha256=oyboXVJrab_R85q_a7e36Sa7v7fzoL_4oTK3mzaqink,16387
+nrrd/writer.py,sha256=orBIBz21BTwwHu9n5ivBRPJFUU-iinKt4x-PBtI_S2I,11382
+nrrd/tests/__init__.py,sha256=vLkxoqLi5G3Tb2YHH_ozp2gMdkbPuncDpxb840Wvr3k,77
+nrrd/tests/test_formatting.py,sha256=PXusrHte1S4qyc3itYDGone1qd7VwSiOEtVlVnEmMv4,5840
+nrrd/tests/test_parsing.py,sha256=ZBOB2_B-Qn0KbyPYvweH5R6ejjKNT-mRAAOrUQCkNN4,8977
+nrrd/tests/test_reading.py,sha256=WFi3Kxn8RsUIPqikw_-gAiX1dSOnD5tYwfdq_LrYwFs,9493
+nrrd/tests/test_writing.py,sha256=PGVNfM6gIkN-yjMrsB2yxAyJKeTQdmfs13YhCiDcvXA,10136
+nrrd/tests/util.py,sha256=eo_zgV5VgXISH_Rt0aAnLqPSmfUJ8wkKCkZ7fvAx7BY,1181
+pynrrd-0.3.2.dist-info/METADATA,sha256=EsCJFdl7JQD1SHRj-vNtgBCxPeiT51kan7uoUcG1A2k,3485
+pynrrd-0.3.2.dist-info/RECORD,,
+pynrrd-0.3.2.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pynrrd-0.3.2.dist-info/top_level.txt,sha256=Ha1Zo_wlEiK8eV-VPFC4Dv0GqCTnMEwOBppv_5WuiXg,5
