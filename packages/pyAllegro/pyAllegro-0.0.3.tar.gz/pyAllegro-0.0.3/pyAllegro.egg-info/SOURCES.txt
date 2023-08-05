@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyAllegro/__init__.py
+pyAllegro/api.py
+pyAllegro.egg-info/PKG-INFO
+pyAllegro.egg-info/SOURCES.txt
+pyAllegro.egg-info/dependency_links.txt
+pyAllegro.egg-info/requires.txt
+pyAllegro.egg-info/top_level.txt
