@@ -1,0 +1,8 @@
+README.rst
+setup.py
+prattle/__init__.py
+prattle.egg-info/PKG-INFO
+prattle.egg-info/SOURCES.txt
+prattle.egg-info/dependency_links.txt
+prattle.egg-info/requires.txt
+prattle.egg-info/top_level.txt

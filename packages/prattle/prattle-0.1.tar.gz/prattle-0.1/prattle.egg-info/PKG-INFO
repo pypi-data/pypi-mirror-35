@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: prattle
+Version: 0.1
+Summary: A scuttlebutt bridge written in Tornado.
+Home-page: https://github.com/supakeen/prattle
+Author: supakeen
+Author-email: cmdr@supakeen.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
