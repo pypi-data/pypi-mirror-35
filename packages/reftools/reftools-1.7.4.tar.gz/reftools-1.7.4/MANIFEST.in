@@ -1,0 +1,13 @@
+include README.rst
+include LICENSE.txt
+
+include RELIC-INFO
+
+recursive-include doc *
+
+include reftools/*.so
+
+prune build
+prune doc/build
+
+global-exclude *.pyc *.o
