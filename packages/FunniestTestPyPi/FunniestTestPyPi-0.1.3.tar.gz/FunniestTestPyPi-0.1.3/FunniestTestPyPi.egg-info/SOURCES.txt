@@ -1,0 +1,9 @@
+README.md
+setup.py
+FunniestTestPyPi/__init__.py
+FunniestTestPyPi/text.py
+FunniestTestPyPi.egg-info/PKG-INFO
+FunniestTestPyPi.egg-info/SOURCES.txt
+FunniestTestPyPi.egg-info/dependency_links.txt
+FunniestTestPyPi.egg-info/not-zip-safe
+FunniestTestPyPi.egg-info/top_level.txt
