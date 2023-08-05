@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyhf
+Version: 0.0.12
+Summary: (partial) pure python histfactory implementation
+Home-page: UNKNOWN
+Author: Lukas Heinrich
+Author-email: lukas.heinrich@cern.ch
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: xmlimport
+Provides-Extra: tensorflow
+Provides-Extra: mxnet
+Provides-Extra: torch
+Provides-Extra: develop
