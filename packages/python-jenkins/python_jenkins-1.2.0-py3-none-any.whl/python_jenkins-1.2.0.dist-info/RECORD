@@ -1,0 +1,8 @@
+jenkins/__init__.py,sha256=90m-q1aA3PePCjq5qXYRRGCURTCNwy8bgbP6yifKE38,80795
+jenkins/plugins.py,sha256=hOQpxez_KIn0v_IrdyFUwv1Hssvw1-AcwdTY1Xv5P8Q,3819
+jenkins/version.py,sha256=tqrF8moeDrE-JsYA-OVvJRBvPOwXJxvmiyPylhuJsBs,786
+python_jenkins-1.2.0.dist-info/METADATA,sha256=IqORcwNBFZYZevkQjv1qisHei8cIHWfM6EZ15SX8-Ok,3597
+python_jenkins-1.2.0.dist-info/RECORD,,
+python_jenkins-1.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+python_jenkins-1.2.0.dist-info/pbr.json,sha256=MJNdEVNbY5dnnSLUp6m4MsLFHmtqvL28qInOoe_c3eY,46
+python_jenkins-1.2.0.dist-info/top_level.txt,sha256=g7vYG6AsySvzyXYCrZ-Ufyqeh9KmMed9WcuELfLZCp4,8
