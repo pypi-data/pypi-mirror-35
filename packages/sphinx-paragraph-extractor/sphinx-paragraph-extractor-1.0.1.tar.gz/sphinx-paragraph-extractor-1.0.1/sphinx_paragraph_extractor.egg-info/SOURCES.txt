@@ -1,0 +1,9 @@
+README.md
+setup.py
+sphinx_paragraph_extractor/__init__.py
+sphinx_paragraph_extractor.egg-info/PKG-INFO
+sphinx_paragraph_extractor.egg-info/SOURCES.txt
+sphinx_paragraph_extractor.egg-info/dependency_links.txt
+sphinx_paragraph_extractor.egg-info/entry_points.txt
+sphinx_paragraph_extractor.egg-info/requires.txt
+sphinx_paragraph_extractor.egg-info/top_level.txt
