@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: ikkuna
+Version: 0.0.1
+Summary: Ikkuna Neural Network Monitor
+Home-page: https://peltarion.github.io/ai_ikkuna/
+Author: Rasmus Diederichsen
+Author-email: rasmus@peltarion.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: deep-learning pytorch neural-networks machine-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
