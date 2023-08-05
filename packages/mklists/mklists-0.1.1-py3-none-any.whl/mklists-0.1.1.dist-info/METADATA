@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mklists
+Version: 0.1.1
+Summary: Rebuild plain-text todo lists using rules
+Home-page: https://github.com/tombaker/mklists
+Author: Tom Baker
+Author-email: tom@tombaker.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing
+Requires-Dist: pyyaml
+Requires-Dist: Click
+Requires-Dist: dataclasses
+Requires-Dist: string
+
+mklists
+
+Rebuild plain-text todo lists using rules
+
+
