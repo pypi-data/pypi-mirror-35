@@ -1,0 +1,7 @@
+requests
+
+[dev]
+mock
+nose
+nose-watch
+requests-mock
