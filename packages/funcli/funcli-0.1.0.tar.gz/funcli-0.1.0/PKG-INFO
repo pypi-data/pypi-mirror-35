@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: funcli
+Version: 0.1.0
+Summary: Turn commandline args into function calls
+Home-page: https://gitlab.com/valtron/funcli
+Author: valtron
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Provides-Extra: test
