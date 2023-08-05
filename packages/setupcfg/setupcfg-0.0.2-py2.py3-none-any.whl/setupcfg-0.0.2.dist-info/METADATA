@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: setupcfg
+Version: 0.0.2
+Summary: setup.cfg from python dict
+Home-page: https://github.com/looking-for-a-job/setupcfg.py
+License: UNKNOWN
+Keywords: setup.cfg setuptools setup
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Setuptools Plugin
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Installation/Setup
+Description-Content-Type: text/markdown
+Requires-Dist: configparser2string
+Requires-Dist: dict2configparser
+Requires-Dist: envdict
+Requires-Dist: find
+Requires-Dist: orderdict
+Requires-Dist: public
+Requires-Dist: setuptools
+Requires-Dist: slicedict
+Requires-Dist: write
+
+[![](https://img.shields.io/pypi/pyversions/setupcfg.svg?longCache=True)](https://pypi.org/pypi/setupcfg/)
+
+### Install
+```bash
+$ [sudo] pip install setupcfg
+```
+
+### Features
++   `python -m setupcfg` **autogenerate setup.cfg** :
+    +   **default values** (`install_requires`, `name`, `packages`, `py_modules`, `scripts`)
+    +   **environment variables** support ([metadata](http://setuptools.readthedocs.io/en/latest/setuptools.html#metadata), [options](http://setuptools.readthedocs.io/en/latest/setuptools.html#options) keys)
++   **`setupcfg.Setupcfg`** class
+    +   dict, attr access. string, dict representation
+    +   `load(path)`, `save(path)` methods
++   `setup.cfg` known sections and keys ordering
+
+### Usage
+```bash
+usage: python -m setupcfg
+```
+
+### Examples
+`python -m setupcfg` autogenerate setup.cfg
+```bash
+# environment variables (metadata, options known keys)
+$ export CLASSIFIERS="file: path/to/classifiers.txt"
+$ export DESCRIPTION="project description"
+$ export KEYWORDS="key1 key2"
+$ python -m setupcfg > setup.cfg
+```
+
+###### `setupcfg.Setupcfg` class
+```python
+>>> import setupcfg
+
+>>> medatata = dict(name="pkgname", version"0.0.1")
+>>> options = dict(packages=["pkgname"])
+>>> cfg = setupcfg.Setupcfg(metadata=medatata, options=options)
+```
+
+string/dict representation
+```python
+>>> str(cfg)  # string representation
+[metadata]
+name = pkgname
+version = 0.0.1
+
+[options]
+packages =
+    pkgname
+
+>>> dict(cfg)  # dict representation
+{'metadata':{...},'options':{...}}
+```
+
+`load(path)`, `save(path)`
+```python
+>>> cfg.load("setup.cfg")
+>>> cfg.save("setup.cfg")
+```
+
+`setupcfg.get(section, option, default=None)`
+```python
+>>> setupcfg.get("metadata","name")
+'pkgname'
+>>> setupcfg.get("options","scripts",[])
+[]
+```
+
+###### default values
+```
+.
+├── requirements.txt (req1, req2)
+├── module.py
+├── package
+|   └── __init__.py
+├── scripts
+|   └── script
+├── setup.py
+```
++   `name` - repo basename
++   `scripts` - files in `scripts/` folders
++   `packages` - `setuptools.find_packages()`
++   `py_modules` - python files in repo root
++   `install_requires` - `install_requires`, `requirements.txt`, `requires.txt` content
+
+### Links
++ [Specifying values](http://setuptools.readthedocs.io/en/latest/setuptools.html#specifying-values)
++ [metadata, options - setuptools documentation](http://setuptools.readthedocs.io/en/latest/setuptools.html#metadata)
+
