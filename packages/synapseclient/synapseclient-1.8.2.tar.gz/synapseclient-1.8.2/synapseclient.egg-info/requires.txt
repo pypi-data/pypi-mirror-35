@@ -1,0 +1,18 @@
+requests>=1.2
+six
+future
+backports.csv
+keyring==13.2.1
+deprecation
+
+[:sys_platform=="linux2" or sys_platform=="linux"]
+keyrings.alt
+
+[boto3]
+boto3
+
+[pandas]
+pandas==0.23.0
+
+[pysftp]
+pysftp>=0.2.8
