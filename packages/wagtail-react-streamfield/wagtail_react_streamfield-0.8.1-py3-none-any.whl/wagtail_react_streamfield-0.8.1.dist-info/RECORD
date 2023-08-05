@@ -1,0 +1,12 @@
+wagtail_react_streamfield/__init__.py,sha256=QdeU4cqCiNrGaDsK0CXeswG82O5zXl05-VOxeUBVp_Q,147
+wagtail_react_streamfield/apps.py,sha256=NmmHsk-5iQF2h18VPCK9aRMx5oacBekUkwtzNBbbFrs,194
+wagtail_react_streamfield/monkey_patch.py,sha256=bpsDD5qrRw1gVHKn-e9MniRFTo4xPlAaI2iCTElHi6s,510
+wagtail_react_streamfield/widget.py,sha256=zOmKecA35Bm1atQ5lsDbdCwfFPFshevr2CzCurOhG-k,7380
+wagtail_react_streamfield/static/css/wagtail-react-streamfield-extra.css,sha256=rLW7woB24GLsIz9s2x4HTcFCHU5ObOfelZQsgeDfEHo,899
+wagtail_react_streamfield/static/css/wagtail-react-streamfield.css,sha256=-ywcxU5q7F1NB69eFG0a8eO0yhLNfTkt-pwfiC4qUVs,6352
+wagtail_react_streamfield/static/js/wagtail-react-streamfield.js,sha256=zsSciN8SW7zKu6RZ3shHJgfATkVPb1nzJn4hZaP5aJc,281812
+wagtail_react_streamfield/static_src/js/entry.js,sha256=CbTY_pkFuu25-8rIxgxFmgbwInGa6HyrHS2Msl7ZUFM,28
+wagtail_react_streamfield-0.8.1.dist-info/METADATA,sha256=58mStxK97o24bKKMYtOHvKgn2przRCIf_Y9yNYVfaaw,1915
+wagtail_react_streamfield-0.8.1.dist-info/RECORD,,
+wagtail_react_streamfield-0.8.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+wagtail_react_streamfield-0.8.1.dist-info/top_level.txt,sha256=jUcudJ-rPW6AyStPIfIf2D7fYXyme7j4sJNFBIRideU,26
