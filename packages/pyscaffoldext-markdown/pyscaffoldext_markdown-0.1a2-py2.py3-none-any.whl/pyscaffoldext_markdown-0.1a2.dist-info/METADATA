@@ -1,0 +1,39 @@
+Metadata-Version: 2.0
+Name: pyscaffoldext-markdown
+Version: 0.1a2
+Summary: PyScaffold extension which replaces reStructuredText by Markdown
+Home-page: https://github.com/pyscaffold/pyscaffoldext-markdown
+Author: Florian Wilhelm
+Author-email: florian.wilhelm@inovex.de
+License: mit
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: testing
+Requires-Dist: pytest; extra == 'testing'
+Requires-Dist: pytest-cov; extra == 'testing'
+
+# pyscaffoldext-markdown
+
+WORK-IN-PROGRESS
+
+PyScaffold extension which replaces [reStructuredText] by [Markdown]
+
+## Usage
+
+Just install this package with ``pip install pyscaffoldext-markdown``
+and note that ``putup -h`` shows a new option ``--markdown``.
+Basically this extension will replace all `.rst` files with `.md` files and
+Sphinx is configured to use Markdown by default.
+
+## Note
+
+This project has been set up using PyScaffold 3.1rc1. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
+
+[reStructuredText]: http://docutils.sourceforge.net/rst.html
+[Markdown]: https://daringfireball.net/projects/markdown/
+
+
