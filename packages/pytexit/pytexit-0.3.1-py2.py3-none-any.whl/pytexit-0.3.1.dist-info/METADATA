@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: pytexit
+Version: 0.3.1
+Summary: Convert a Python expression in a LaTeX formula
+Home-page: http://pytexit.readthedocs.io/
+Author: Erwan Pannier
+Author-email: erwan.pannier@gmail.com
+License: CeCILL-2.1
+Description: 
+Requires-Dist: six
+
+        
+        
+        =======
+
+        pytexit
+
+        =======
+
+        
+
+        Convert a Python expression in a LaTeX formula
+
+        
+
+        
+
+        Documentation
+
+        -------------
+
+        
+
+        https://pytexit.readthedocs.io
+
+        
+
+        
+
+        
+        Install
+
+        -------
+
+        
+
+        ``pytexit`` is on PyPi::
+
+        
+
+            pip install pytexit
+
+        
+
+        	
+
+        Use
+
+        ---
+
+        
+
+        ``pytexit`` features the ``py2tex``, ``for2tex`` ``for2py`` functions.
+
+        
+
+        In a Terminal, use ``py2tex``::
+
+        
+
+            py2tex 'x = 2*sqrt(2*pi*k*T_e/m_e)*(DeltaE/(k*T_e))**2*a_0**2'
+
+        
+
+        In a Python console, use ``py2tex``::
+
+        
+
+            from pytexit import py2tex
+
+            py2tex('x = 2*sqrt(2*pi*k*T_e/m_e)*(DeltaE/(k*T_e))**2*a_0**2')
+
+        
+
+        returns the corresponding LaTeX formula (to re-use in papers)::
+
+        
+
+            $$x=2\\sqrt{\\frac{2\\pi k T_e}{m_e}} \\left(\\frac{\\Delta E}{k T_e}\\right)^2 a_0^2$$
+
+            
+
+        and (in ipython console only) prints the equation:
+
+        
+
+        
+        
+Keywords: latex,py2tex
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Text Processing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: OS Independent
