@@ -1,0 +1,8 @@
+allpairspy/__init__.py,sha256=1iqBLuZ6b-sfLiUiFkI9ZDCPvR4xadosfzvRBI80Mcg,197
+allpairspy/__version__.py,sha256=70ObjXMzqE1JYbMuAgGhaogi8GTmv-MxJlJI9z8TEqM,258
+allpairspy/allpairs.py,sha256=XK8SenoQoPWKMsDdELuRQ_VmvZ3WKiICK3Afx4O0vsc,7655
+allpairspy/pairs_storage.py,sha256=WxPBLDdk0HhLYmQoIUuROV5pvvi-8sjuVEHpyXEK6AA,1779
+allpairspy-2.4.1.dist-info/METADATA,sha256=Zwdvu-e74IcPHyAAhHm2ZPk-7OUXCg2h9IgLwGyT0o8,2027
+allpairspy-2.4.1.dist-info/RECORD,,
+allpairspy-2.4.1.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+allpairspy-2.4.1.dist-info/top_level.txt,sha256=3A3wYVnDL6iqE9gTCL9XPZYUaM_RRtX_PDFTGwbieQE,11
