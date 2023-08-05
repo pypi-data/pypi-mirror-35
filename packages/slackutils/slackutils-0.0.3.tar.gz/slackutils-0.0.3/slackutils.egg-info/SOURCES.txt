@@ -1,0 +1,11 @@
+README.md
+setup.py
+slackutils/__init__.py
+slackutils/_shared.py
+slackutils/conversations.py
+slackutils/users.py
+slackutils.egg-info/PKG-INFO
+slackutils.egg-info/SOURCES.txt
+slackutils.egg-info/dependency_links.txt
+slackutils.egg-info/requires.txt
+slackutils.egg-info/top_level.txt
