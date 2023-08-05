@@ -1,0 +1,1204 @@
+INFO:root:2018-08-15 14:04:11 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), 'sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 14:04:11 ENST00000426431
+INFO:root:2018-08-15 14:04:11 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:04:11 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:04:13 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53379739-53380738:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:04:15 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53379739-53380738:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:06:02 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), 'sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 14:06:02 ENST00000426431
+INFO:root:2018-08-15 14:06:02 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:06:03 transcript_dict already exists: loading
+INFO:root:2018-08-15 14:06:03 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 14:06:06 total time for this transcript: 3.24933385849 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:06:18 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), 'sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 14:06:18 ENST00000426431
+INFO:root:2018-08-15 14:06:18 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:06:18 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:06:18 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53378639-53380738:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:06:20 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53378639-53380738:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:06:27 total time for this transcript: 5.1276819706 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:06:51 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), 'sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 14:06:51 ENST00000426431
+INFO:root:2018-08-15 14:06:51 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:06:51 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:06:51 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53380039-53380538:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:06:53 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53380039-53380538:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:06:55 total time for this transcript: 1.70413184166 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:07:00 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), 'sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 14:07:00 ENST00000426431
+INFO:root:2018-08-15 14:07:00 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:07:00 transcript_dict already exists: loading
+INFO:root:2018-08-15 14:07:00 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 14:07:01 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 14:07:01 total time for this transcript: 0.0354990959167 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:07:11 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), 'sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 14:07:11 ENST00000426431
+INFO:root:2018-08-15 14:07:11 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:07:12 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:07:12 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53379739-53380738:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:07:14 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53379739-53380738:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:07:17 total time for this transcript: 2.38450694084 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:07:22 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), 'sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 14:07:22 ENST00000426431
+INFO:root:2018-08-15 14:07:22 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:07:22 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:07:22 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53379739-53380738:1?method=EPO;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:07:23 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53379739-53380738:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:07:26 total time for this transcript: 2.57919788361 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:07:37 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), 'sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 14:07:37 ENST00000426431
+INFO:root:2018-08-15 14:07:37 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:07:37 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:07:37 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53379739-53380738:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=primates
+INFO:root:2018-08-15 14:07:38 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53379739-53380738:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:07:42 total time for this transcript: 2.9323220253 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:07:53 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), 'sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 14:07:53 ENST00000380152
+INFO:root:2018-08-15 14:07:53 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 14:07:54 http://rest.ensembl.org/overlap/id/ENST00000380152?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:07:54 http://rest.ensembl.org/alignment/block/region/homo_sapiens/13:32314574-32315573:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:07:57 http://rest.ensembl.org/overlap/region/homo_sapiens/13:32314574-32315573:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:08:01 total time for this transcript: 2.70223498344 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:08:06 total time for 8 transcripts: 130.621082067 seconds
+
+
+INFO:root:2018-08-15 14:56:39 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 14:56:39 ENST00000426431
+INFO:root:2018-08-15 14:56:39 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:56:39 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:56:39 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53379739-53380738:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:56:50 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53379739-53380738:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:56:54 total time for this transcript: 3.14401602745 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 14:57:03 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 14:57:03 ENST00000426431
+INFO:root:2018-08-15 14:57:03 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:57:04 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:57:05 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53378639-53380738:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:57:07 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53378639-53380738:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:57:13 total time for this transcript: 4.85049414635 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:57:34 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 14:57:34 ENST00000426431
+INFO:root:2018-08-15 14:57:34 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:57:34 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:57:34 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53380039-53380538:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:57:36 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53380039-53380538:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:57:38 total time for this transcript: 1.41837882996 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:57:42 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 14:57:42 ENST00000426431
+INFO:root:2018-08-15 14:57:42 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:57:42 transcript_dict already exists: loading
+INFO:root:2018-08-15 14:57:42 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 14:57:42 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 14:57:42 total time for this transcript: 0.0383009910583 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:57:52 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 14:57:52 ENST00000426431
+INFO:root:2018-08-15 14:57:52 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:57:52 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:57:52 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53379739-53380738:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:57:55 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53379739-53380738:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:57:58 total time for this transcript: 2.19996094704 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:58:02 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 14:58:02 ENST00000426431
+INFO:root:2018-08-15 14:58:02 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:58:02 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:58:02 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53379739-53380738:1?method=EPO;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:58:03 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53379739-53380738:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:58:06 total time for this transcript: 2.43183779716 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:58:15 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 14:58:15 ENST00000426431
+INFO:root:2018-08-15 14:58:15 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 14:58:15 http://rest.ensembl.org/overlap/id/ENST00000426431?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:58:15 http://rest.ensembl.org/alignment/block/region/homo_sapiens/12:53379739-53380738:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=primates
+INFO:root:2018-08-15 14:58:17 http://rest.ensembl.org/overlap/region/homo_sapiens/12:53379739-53380738:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:58:19 total time for this transcript: 2.43865919113 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:58:29 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 14:58:29 ENST00000380152
+INFO:root:2018-08-15 14:58:29 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 14:58:29 http://rest.ensembl.org/overlap/id/ENST00000380152?feature=transcript;content-type=application/json
+INFO:root:2018-08-15 14:58:29 http://rest.ensembl.org/alignment/block/region/homo_sapiens/13:32314574-32315573:1?method=EPO_LOW_COVERAGE;compact=1;content-type=application/json;species_set_group=mammals
+INFO:root:2018-08-15 14:58:34 http://rest.ensembl.org/overlap/region/homo_sapiens/13:32314574-32315573:1?feature=regulatory;content-type=application/json
+INFO:root:2018-08-15 14:58:37 total time for this transcript: 2.21394300461 seconds
+INFO:root:
+
+INFO:root:2018-08-15 14:58:40 total time for 8 transcripts: 126.861972809 seconds
+
+
+INFO:root:2018-08-15 15:04:39 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:04:39 ENST00000426431
+INFO:root:2018-08-15 15:04:39 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:04:41 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:04:41 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:04:41 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:04:42 total time for this transcript: 0.702656030655 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 15:04:51 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 15:04:51 ENST00000426431
+INFO:root:2018-08-15 15:04:51 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:04:52 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:04:52 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:04:53 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:04:53 total time for this transcript: 0.0577421188354 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:05:14 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 15:05:14 ENST00000426431
+INFO:root:2018-08-15 15:05:14 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:05:14 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:05:14 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:05:14 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:05:14 total time for this transcript: 0.0197379589081 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:05:18 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:05:18 ENST00000426431
+INFO:root:2018-08-15 15:05:18 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:05:18 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:05:18 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:05:19 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:05:19 total time for this transcript: 0.0370678901672 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:05:28 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:05:28 ENST00000426431
+INFO:root:2018-08-15 15:05:28 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:05:28 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:05:28 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:05:29 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:05:29 total time for this transcript: 0.00502777099609 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:05:33 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:05:33 ENST00000426431
+INFO:root:2018-08-15 15:05:33 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:05:33 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:05:33 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:05:33 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:05:33 total time for this transcript: 0.0526020526886 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:05:43 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:05:43 ENST00000426431
+INFO:root:2018-08-15 15:05:43 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:05:43 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:05:43 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:05:43 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:05:43 total time for this transcript: 0.0347402095795 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:05:52 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:05:52 ENST00000380152
+INFO:root:2018-08-15 15:05:52 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 15:05:53 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:05:53 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:05:53 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:05:53 total time for this transcript: 0.00411105155945 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:05:57 total time for 8 transcripts: 83.0428278446 seconds
+
+
+INFO:root:2018-08-15 15:09:15 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:09:15 ENST00000426431
+INFO:root:2018-08-15 15:09:15 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:09:15 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:09:15 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:09:16 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:09:16 total time for this transcript: 0.696453094482 seconds
+INFO:root:2018-08-15 15:09:53 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:09:53 ENST00000426431
+INFO:root:2018-08-15 15:09:53 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:09:53 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:09:53 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:09:54 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:09:55 total time for this transcript: 0.699284076691 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 15:10:04 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 15:10:04 ENST00000426431
+INFO:root:2018-08-15 15:10:04 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:10:04 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:10:04 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:10:05 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:10:05 total time for this transcript: 0.0586798191071 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:10:26 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 15:10:26 ENST00000426431
+INFO:root:2018-08-15 15:10:26 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:10:26 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:10:26 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:10:26 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:10:26 total time for this transcript: 0.0205430984497 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:10:30 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:10:30 ENST00000426431
+INFO:root:2018-08-15 15:10:30 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:10:30 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:10:30 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:10:31 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:10:31 total time for this transcript: 0.0380308628082 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:10:40 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:10:40 ENST00000426431
+INFO:root:2018-08-15 15:10:40 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:10:40 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:10:40 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:10:40 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:10:40 total time for this transcript: 0.00503301620483 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:10:44 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:10:44 ENST00000426431
+INFO:root:2018-08-15 15:10:44 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:10:44 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:10:44 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:10:45 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:10:45 total time for this transcript: 0.0351281166077 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:10:54 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:10:54 ENST00000426431
+INFO:root:2018-08-15 15:10:54 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:10:55 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:10:55 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:10:55 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:10:55 total time for this transcript: 0.0330669879913 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:11:05 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:11:05 ENST00000380152
+INFO:root:2018-08-15 15:11:05 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 15:11:06 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:11:06 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:11:06 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:11:06 total time for this transcript: 0.00371789932251 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:11:09 total time for 8 transcripts: 81.7541120052 seconds
+
+
+INFO:root:2018-08-15 15:11:19 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:11:19 ENST00000426431
+INFO:root:2018-08-15 15:11:19 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:11:19 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:11:19 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:11:19 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:11:20 total time for this transcript: 0.70209813118 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 15:11:29 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 15:11:29 ENST00000426431
+INFO:root:2018-08-15 15:11:29 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:11:29 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:11:29 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:11:30 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:11:30 total time for this transcript: 0.0573880672455 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:11:51 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 15:11:51 ENST00000426431
+INFO:root:2018-08-15 15:11:51 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:11:51 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:11:51 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:11:51 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:11:51 total time for this transcript: 0.0199320316315 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:11:55 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:11:55 ENST00000426431
+INFO:root:2018-08-15 15:11:55 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:11:55 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:11:55 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:11:55 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:11:55 total time for this transcript: 0.0376880168915 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:12:05 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:12:05 ENST00000426431
+INFO:root:2018-08-15 15:12:05 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:12:06 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:12:06 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:12:07 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:12:07 total time for this transcript: 0.00515007972717 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:12:11 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:12:11 ENST00000426431
+INFO:root:2018-08-15 15:12:11 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:12:11 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:12:11 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:12:11 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:12:11 total time for this transcript: 0.0357739925385 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:12:20 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:12:20 ENST00000426431
+INFO:root:2018-08-15 15:12:20 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:12:20 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:12:20 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:12:20 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:12:20 total time for this transcript: 0.0355069637299 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:12:30 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:12:30 ENST00000380152
+INFO:root:2018-08-15 15:12:30 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 15:12:30 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:12:30 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:12:30 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:12:30 total time for this transcript: 0.0037829875946 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:12:33 total time for 8 transcripts: 80.4943950176 seconds
+
+
+INFO:root:2018-08-15 15:13:02 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:13:02 ENST00000426431
+INFO:root:2018-08-15 15:13:02 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:13:02 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:13:02 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:13:02 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:13:03 total time for this transcript: 0.706720113754 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 15:13:12 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 15:13:12 ENST00000426431
+INFO:root:2018-08-15 15:13:12 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:13:13 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:13:13 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:13:14 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:13:14 total time for this transcript: 0.0803210735321 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:13:36 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 15:13:36 ENST00000426431
+INFO:root:2018-08-15 15:13:36 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:13:36 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:13:36 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:13:37 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:13:37 total time for this transcript: 0.0198938846588 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:13:41 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:13:41 ENST00000426431
+INFO:root:2018-08-15 15:13:41 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:13:41 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:13:41 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:13:41 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:13:42 total time for this transcript: 0.0399701595306 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:13:51 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:13:51 ENST00000426431
+INFO:root:2018-08-15 15:13:51 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:13:51 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:13:51 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:13:51 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:13:51 total time for this transcript: 0.00503396987915 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:13:55 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:13:55 ENST00000426431
+INFO:root:2018-08-15 15:13:55 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:13:55 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:13:55 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:13:56 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:13:56 total time for this transcript: 0.03542304039 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:14:05 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:14:05 ENST00000426431
+INFO:root:2018-08-15 15:14:05 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:14:05 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:14:05 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:14:05 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:14:05 total time for this transcript: 0.0363600254059 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:14:14 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:14:14 ENST00000380152
+INFO:root:2018-08-15 15:14:14 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 15:14:16 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:14:16 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:14:16 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:14:16 total time for this transcript: 0.00434112548828 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:14:19 total time for 8 transcripts: 84.2214021683 seconds
+
+
+INFO:root:2018-08-15 15:51:49 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:51:49 ENST00000426431
+INFO:root:2018-08-15 15:51:49 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:51:49 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:51:49 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:51:49 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:51:50 total time for this transcript: 0.723384141922 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 15:52:01 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 15:52:01 ENST00000426431
+INFO:root:2018-08-15 15:52:01 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:52:03 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:52:03 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:52:04 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:52:04 total time for this transcript: 0.0565931797028 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:52:26 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 15:52:26 ENST00000426431
+INFO:root:2018-08-15 15:52:26 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:52:26 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:52:26 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:52:26 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:52:26 total time for this transcript: 0.020015001297 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:52:30 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:52:30 ENST00000426431
+INFO:root:2018-08-15 15:52:30 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:52:31 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:52:31 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:52:32 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:52:32 total time for this transcript: 0.04336810112 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:52:41 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:52:41 ENST00000426431
+INFO:root:2018-08-15 15:52:41 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:52:41 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:52:41 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:52:42 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:52:42 total time for this transcript: 0.00497603416443 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:52:46 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:52:46 ENST00000426431
+INFO:root:2018-08-15 15:52:46 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:52:47 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:52:47 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:52:47 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:52:47 total time for this transcript: 0.0343289375305 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:52:56 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:52:56 ENST00000426431
+INFO:root:2018-08-15 15:52:56 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:52:57 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:52:57 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:52:57 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:52:57 total time for this transcript: 0.0345659255981 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:53:06 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:53:06 ENST00000380152
+INFO:root:2018-08-15 15:53:06 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 15:53:07 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:53:07 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:53:08 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:53:08 total time for this transcript: 0.00413298606873 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:53:11 total time for 8 transcripts: 88.6755869389 seconds
+
+
+INFO:root:2018-08-15 15:54:13 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:54:13 ENST00000426431
+INFO:root:2018-08-15 15:54:13 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:54:14 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:54:14 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:54:15 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:54:15 total time for this transcript: 0.720529079437 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 15:54:25 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 15:54:25 ENST00000426431
+INFO:root:2018-08-15 15:54:25 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:54:25 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:54:25 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:54:26 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:54:26 total time for this transcript: 0.0639169216156 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:54:47 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 15:54:47 ENST00000426431
+INFO:root:2018-08-15 15:54:47 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:54:48 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:54:48 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:54:48 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:54:48 total time for this transcript: 0.0207571983337 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:54:52 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:54:52 ENST00000426431
+INFO:root:2018-08-15 15:54:52 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:54:54 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:54:54 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:54:54 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:54:54 total time for this transcript: 0.0357580184937 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:55:03 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:55:03 ENST00000426431
+INFO:root:2018-08-15 15:55:03 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:55:04 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:55:04 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:55:05 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:55:05 total time for this transcript: 0.0050950050354 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:55:09 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:55:09 ENST00000426431
+INFO:root:2018-08-15 15:55:09 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:55:09 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:55:09 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:55:09 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:55:09 total time for this transcript: 0.0359899997711 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:55:18 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:55:18 ENST00000426431
+INFO:root:2018-08-15 15:55:18 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:55:18 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:55:18 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:55:19 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:55:19 total time for this transcript: 0.0353910923004 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:55:28 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:55:28 ENST00000380152
+INFO:root:2018-08-15 15:55:28 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 15:55:28 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:55:28 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:55:29 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:55:29 total time for this transcript: 0.00429320335388 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:55:32 total time for 8 transcripts: 84.8770871162 seconds
+
+
+INFO:root:2018-08-15 15:56:49 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:56:49 ENST00000426431
+INFO:root:2018-08-15 15:56:49 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:56:49 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:56:49 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:56:49 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:56:50 total time for this transcript: 0.698327064514 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 15:56:59 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 15:56:59 ENST00000426431
+INFO:root:2018-08-15 15:56:59 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:56:59 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:56:59 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:57:00 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:57:00 total time for this transcript: 0.0591330528259 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:57:21 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 15:57:21 ENST00000426431
+INFO:root:2018-08-15 15:57:21 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:57:22 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:57:22 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:57:22 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:57:22 total time for this transcript: 0.0198419094086 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:57:26 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:57:26 ENST00000426431
+INFO:root:2018-08-15 15:57:26 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:57:26 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:57:26 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:57:26 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:57:26 total time for this transcript: 0.0353050231934 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:57:36 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:57:36 ENST00000426431
+INFO:root:2018-08-15 15:57:36 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:57:38 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:57:38 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:57:38 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:57:38 total time for this transcript: 0.00501608848572 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:57:42 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:57:42 ENST00000426431
+INFO:root:2018-08-15 15:57:42 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:57:42 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:57:42 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:57:42 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:57:42 total time for this transcript: 0.0355792045593 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:57:51 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:57:51 ENST00000426431
+INFO:root:2018-08-15 15:57:51 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:57:51 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:57:51 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:57:52 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:57:52 total time for this transcript: 0.0473740100861 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:58:02 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 15:58:02 ENST00000380152
+INFO:root:2018-08-15 15:58:02 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 15:58:02 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:58:02 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:58:02 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:58:02 total time for this transcript: 0.0040271282196 seconds
+INFO:root:
+
+INFO:root:2018-08-15 15:58:05 total time for 8 transcripts: 82.1530489922 seconds
+
+
+INFO:root:2018-08-15 15:59:28 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 15:59:28 ENST00000426431
+INFO:root:2018-08-15 15:59:28 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 15:59:28 transcript_dict already exists: loading
+INFO:root:2018-08-15 15:59:28 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 15:59:29 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 15:59:29 total time for this transcript: 0.711004018784 seconds
+INFO:root:2018-08-15 16:01:32 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:01:32 ENST00000426431
+INFO:root:2018-08-15 16:01:32 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:01:32 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:01:32 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:01:33 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:01:33 total time for this transcript: 0.710602998734 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 16:01:43 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 16:01:43 ENST00000426431
+INFO:root:2018-08-15 16:01:43 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:01:43 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:01:43 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:01:44 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:01:44 total time for this transcript: 0.0563230514526 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:02:06 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 16:02:06 ENST00000426431
+INFO:root:2018-08-15 16:02:06 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:02:06 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:02:06 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:02:06 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:02:06 total time for this transcript: 0.019523859024 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:02:10 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:02:10 ENST00000426431
+INFO:root:2018-08-15 16:02:10 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:02:10 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:02:10 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:02:10 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:02:11 total time for this transcript: 0.0360789299011 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:02:20 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 16:02:20 ENST00000426431
+INFO:root:2018-08-15 16:02:20 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:02:20 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:02:20 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:02:20 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:02:20 total time for this transcript: 0.00495314598083 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:02:24 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:02:24 ENST00000426431
+INFO:root:2018-08-15 16:02:24 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:02:25 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:02:25 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:02:26 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:02:26 total time for this transcript: 0.0393362045288 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:02:36 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:02:36 ENST00000426431
+INFO:root:2018-08-15 16:02:36 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:02:36 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:02:36 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:02:36 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:02:36 total time for this transcript: 0.0378839969635 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:02:45 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 16:02:45 ENST00000380152
+INFO:root:2018-08-15 16:02:45 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 16:02:46 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:02:46 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:02:46 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:02:46 total time for this transcript: 0.00478601455688 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:02:49 total time for 8 transcripts: 84.1627287865 seconds
+
+
+INFO:root:2018-08-15 16:04:21 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:04:21 ENST00000426431
+INFO:root:2018-08-15 16:04:21 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:04:21 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:04:21 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:04:22 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:04:22 total time for this transcript: 0.721868038177 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 16:04:32 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 16:04:32 ENST00000426431
+INFO:root:2018-08-15 16:04:32 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:04:33 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:04:33 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:04:34 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:04:34 total time for this transcript: 0.0623290538788 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:04:56 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 16:04:56 ENST00000426431
+INFO:root:2018-08-15 16:04:56 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:04:56 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:04:56 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:04:57 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:04:57 total time for this transcript: 0.0214071273804 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:05:01 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:05:01 ENST00000426431
+INFO:root:2018-08-15 16:05:01 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:05:01 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:05:01 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:05:01 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:05:01 total time for this transcript: 0.0365471839905 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:05:11 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 16:05:11 ENST00000426431
+INFO:root:2018-08-15 16:05:11 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:05:11 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:05:11 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:05:12 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:05:12 total time for this transcript: 0.00525498390198 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:05:16 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:05:16 ENST00000426431
+INFO:root:2018-08-15 16:05:16 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:05:17 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:05:17 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:05:17 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:05:17 total time for this transcript: 0.0380749702454 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:05:27 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:05:27 ENST00000426431
+INFO:root:2018-08-15 16:05:27 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:05:27 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:05:27 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:05:27 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:05:27 total time for this transcript: 0.0375959873199 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:05:37 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 16:05:37 ENST00000380152
+INFO:root:2018-08-15 16:05:37 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 16:05:38 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:05:38 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:05:38 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:05:38 total time for this transcript: 0.00495195388794 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:05:42 total time for 8 transcripts: 87.1730818748 seconds
+
+
+INFO:root:2018-08-15 16:10:36 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:10:36 ENST00000426431
+INFO:root:2018-08-15 16:10:36 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:10:36 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:10:36 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:10:37 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:10:38 total time for this transcript: 0.714481830597 seconds
+INFO:root:2018-08-15 16:11:59 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:11:59 ENST00000426431
+INFO:root:2018-08-15 16:11:59 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:12:00 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:12:00 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:12:00 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:12:01 total time for this transcript: 0.758941888809 seconds
+INFO:root:2018-08-15 16:13:04 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:13:04 ENST00000426431
+INFO:root:2018-08-15 16:13:04 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:13:04 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:13:04 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:13:05 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:13:05 total time for this transcript: 0.721213102341 seconds
+INFO:root:2018-08-15 16:14:11 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:14:11 ENST00000426431
+INFO:root:2018-08-15 16:14:11 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:14:12 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:14:12 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:14:12 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:14:13 total time for this transcript: 0.733726024628 seconds
+INFO:root:2018-08-15 16:17:07 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:17:07 ENST00000426431
+INFO:root:2018-08-15 16:17:07 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:17:07 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:17:07 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:17:08 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:17:09 total time for this transcript: 0.95019698143 seconds
+INFO:root:2018-08-15 16:17:50 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:17:50 ENST00000426431
+INFO:root:2018-08-15 16:17:50 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:17:50 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:17:50 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:17:50 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:17:51 total time for this transcript: 0.725140810013 seconds
+INFO:root:2018-08-15 16:18:30 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:18:30 ENST00000426431
+INFO:root:2018-08-15 16:18:30 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:18:30 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:18:30 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:18:31 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:18:32 total time for this transcript: 0.767597913742 seconds
+INFO:root:2018-08-15 16:19:58 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:19:58 ENST00000426431
+INFO:root:2018-08-15 16:19:58 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:19:58 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:19:58 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:19:59 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:19:59 total time for this transcript: 0.728849172592 seconds
+INFO:root:2018-08-15 16:21:33 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:21:33 ENST00000426431
+INFO:root:2018-08-15 16:21:33 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:21:34 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:21:34 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:21:34 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:21:35 total time for this transcript: 0.772596120834 seconds
+INFO:root:2018-08-15 16:22:11 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:22:11 ENST00000426431
+INFO:root:2018-08-15 16:22:11 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:22:11 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:22:11 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:22:11 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:22:12 total time for this transcript: 0.704595088959 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 16:22:22 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 16:22:22 ENST00000426431
+INFO:root:2018-08-15 16:22:22 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:22:22 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:22:22 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:22:23 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:22:23 total time for this transcript: 0.0718588829041 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:22:46 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 16:22:46 ENST00000426431
+INFO:root:2018-08-15 16:22:46 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:22:46 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:22:46 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:22:46 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:22:46 total time for this transcript: 0.0256760120392 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:22:50 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:22:50 ENST00000426431
+INFO:root:2018-08-15 16:22:50 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:22:51 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:22:51 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:22:51 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:22:51 total time for this transcript: 0.0407929420471 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:23:02 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 16:23:02 ENST00000426431
+INFO:root:2018-08-15 16:23:02 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:23:02 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:23:02 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:23:02 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:23:02 total time for this transcript: 0.0064160823822 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:23:06 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:23:06 ENST00000426431
+INFO:root:2018-08-15 16:23:06 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:23:06 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:23:06 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:23:07 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:23:07 total time for this transcript: 0.0469470024109 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:23:17 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:23:17 ENST00000426431
+INFO:root:2018-08-15 16:23:17 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:23:17 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:23:17 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:23:17 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:23:17 total time for this transcript: 0.0419008731842 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:23:27 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 16:23:27 ENST00000380152
+INFO:root:2018-08-15 16:23:27 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 16:23:28 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:23:28 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:23:29 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:23:29 total time for this transcript: 0.00535798072815 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:23:32 total time for 8 transcripts: 87.4635429382 seconds
+
+
+INFO:root:2018-08-15 16:45:07 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:45:07 ENST00000426431
+INFO:root:2018-08-15 16:45:07 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:45:07 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:45:07 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:45:07 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:45:08 total time for this transcript: 0.726323127747 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 16:45:17 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 16:45:17 ENST00000426431
+INFO:root:2018-08-15 16:45:17 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:45:17 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:45:17 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:45:18 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:45:18 total time for this transcript: 0.0574519634247 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:45:39 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 16:45:39 ENST00000426431
+INFO:root:2018-08-15 16:45:39 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:45:40 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:45:40 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:45:41 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:45:41 total time for this transcript: 0.0210108757019 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:45:45 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:45:45 ENST00000426431
+INFO:root:2018-08-15 16:45:45 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:45:46 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:45:46 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:45:46 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:45:46 total time for this transcript: 0.0385568141937 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:45:56 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 16:45:56 ENST00000426431
+INFO:root:2018-08-15 16:45:56 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:45:56 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:45:56 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:45:56 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:45:56 total time for this transcript: 0.00534200668335 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:46:00 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:46:00 ENST00000426431
+INFO:root:2018-08-15 16:46:00 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:46:00 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:46:00 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:46:00 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:46:00 total time for this transcript: 0.0405459403992 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:46:10 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:46:10 ENST00000426431
+INFO:root:2018-08-15 16:46:10 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:46:10 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:46:10 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:46:10 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:46:10 total time for this transcript: 0.0347151756287 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:46:20 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 16:46:20 ENST00000380152
+INFO:root:2018-08-15 16:46:20 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 16:46:20 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:46:20 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:46:20 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:46:20 total time for this transcript: 0.00397109985352 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:46:23 total time for 8 transcripts: 82.8866679668 seconds
+
+
+INFO:root:2018-08-15 16:47:38 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:47:38 ENST00000426431
+INFO:root:2018-08-15 16:47:38 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:47:38 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:47:38 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:47:39 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:47:39 total time for this transcript: 0.709707975388 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 16:47:48 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 16:47:48 ENST00000426431
+INFO:root:2018-08-15 16:47:48 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:47:48 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:47:48 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:47:49 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:47:49 total time for this transcript: 0.0572907924652 seconds
+INFO:root:2018-08-15 16:48:38 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:48:38 ENST00000426431
+INFO:root:2018-08-15 16:48:38 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:48:39 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:48:39 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:48:39 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:48:40 total time for this transcript: 0.693156003952 seconds
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=6.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans (u'/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:
+
+INFO:root:2018-08-15 16:48:49 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 2000, 100, 10, 0.01]
+INFO:root:2018-08-15 16:48:49 ENST00000426431
+INFO:root:2018-08-15 16:48:49 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:48:49 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:48:49 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:48:50 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:48:50 total time for this transcript: 0.0570330619812 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:49:10 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 600, -100, 10, 0.01]
+INFO:root:2018-08-15 16:49:10 ENST00000426431
+INFO:root:2018-08-15 16:49:10 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:49:10 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:49:10 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:49:11 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:49:11 total time for this transcript: 0.0197839736938 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:49:15 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:49:15 ENST00000426431
+INFO:root:2018-08-15 16:49:15 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:49:15 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:49:15 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:49:15 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:49:15 total time for this transcript: 0.0367181301117 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:49:25 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 16:49:25 ENST00000426431
+INFO:root:2018-08-15 16:49:25 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:49:25 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:49:25 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:49:26 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:49:26 total time for this transcript: 0.00514793395996 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:49:30 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'mammals', 'high', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:49:30 ENST00000426431
+INFO:root:2018-08-15 16:49:30 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:49:30 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:49:30 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:49:30 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:49:30 total time for this transcript: 0.0363781452179 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:49:39 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000426431', '', 'homo_sapiens', 'primates', 'low', 900, 100, 10, 0.01]
+INFO:root:2018-08-15 16:49:39 ENST00000426431
+INFO:root:2018-08-15 16:49:39 http://rest.ensembl.org/archive/id/ENST00000426431?content-type=application/json
+INFO:root:2018-08-15 16:49:39 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:49:39 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:49:40 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:49:40 total time for this transcript: 0.0351409912109 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:49:49 [Namespace(coverage='low', exp_data_update=False, promoter_after_tss=100, promoter_before_tss=900, pval=0.01, species_group='mammals', t_ids_file='./sample_analysis_list.csv', target_species='homo_sapiens', tf_ids_file=None, top_x_tfs=10), './sample_analysis_list.csv', 'ENST00000380152', '', 'homo_sapiens', 'mammals', 'low', 900, 100, 10, 0.001]
+INFO:root:2018-08-15 16:49:49 ENST00000380152
+INFO:root:2018-08-15 16:49:49 http://rest.ensembl.org/archive/id/ENST00000380152?content-type=application/json
+INFO:root:2018-08-15 16:49:49 transcript_dict already exists: loading
+INFO:root:2018-08-15 16:49:49 regulatory_decoded already exists: loading
+INFO:root:2018-08-15 16:49:50 tfbss_found_dict already exists: loading
+INFO:root:2018-08-15 16:49:50 total time for this transcript: 0.00385689735413 seconds
+INFO:root:
+
+INFO:root:2018-08-15 16:49:53 total time for 8 transcripts: 80.1859359741 seconds
+
+
