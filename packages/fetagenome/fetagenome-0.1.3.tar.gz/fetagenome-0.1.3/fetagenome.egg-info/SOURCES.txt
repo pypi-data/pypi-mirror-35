@@ -1,0 +1,9 @@
+README.md
+setup.py
+fetagenome/FetaGenome
+fetagenome/generate_config_file
+fetagenome.egg-info/PKG-INFO
+fetagenome.egg-info/SOURCES.txt
+fetagenome.egg-info/dependency_links.txt
+fetagenome.egg-info/requires.txt
+fetagenome.egg-info/top_level.txt
