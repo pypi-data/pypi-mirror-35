@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: jeteloss
+Version: 0.3
+Summary: Data-driven extraction of jet energy loss distributions in heavy-ion collisions
+Home-page: https://github.com/snowhitiger/jeteloss
+Author: Long-Gang Pang, Ya-Yun He and Xin-Nian Wang
+Author-email: lgpang@qq.com, heyayun@gmail.com, xnwang@lbl.gov
+License: MIT
+Keywords: Bayesian,MCMC,Jet energy loss extractor,RAA
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.14)
+Requires-Dist: pymc (>=2.3.6)
+Requires-Dist: h5py (>=2.8.0)
+Requires-Dist: matplotlib (>=2.2.0)
+Requires-Dist: scipy (>=1.1.0)
+
+# Data driven extraction of jet energy loss distributions in heavy ion collisions
+
+## Introduction
+
+
+## Installation
+
+### Method 1: using pip
+Step 1: 
+> pip install jeteloss
+
+Step 2:
+> git clone 
+
+Step 3:
+> cd jeteloss/examples
+> python example1.py
+
+### Method 2: install from local directory
+Step 1: download the code from github
+> git clone 
+
+> cd jeteloss
+
+> python setup.py install
+
+### Method 3: using anaconda
+
+Step 1: To create one clean python virtual environment 
+> conda create -n test_jeteloss python=3.6
+
+Step 2: To activate this environment, use:
+> source activate test_jeteloss
+
+Step 3: Install jeteloss module and its dependences
+> pip install jeteloss
+
+Step 4: Run the example code downloaded using:
+> git clone *
+
+> cd jeteloss/examples
+
+> python example1.py
+
+Step 5: To deactivate an active environment, use:
+> source deactivate
+
+Step 6: Clean up
+To see how many environments do you have, use:
+> conda env list
+
+To remove one environment, use:
+> conda remove --name myenv --all
+
+## Citation
+
+
+
