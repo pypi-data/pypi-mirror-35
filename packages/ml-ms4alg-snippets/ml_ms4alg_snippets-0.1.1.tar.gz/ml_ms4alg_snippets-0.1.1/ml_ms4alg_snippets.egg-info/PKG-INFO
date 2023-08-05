@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ml-ms4alg-snippets
+Version: 0.1.1
+Summary: Mountainsort v4 for MountainLab - Snippets Version
+Home-page: https://github.com/GeoffBarrett/ml_ms4alg_snippets
+Author: Geoffrey Barrett
+Author-email: gmbarrett313@gmail.com
+License: UNKNOWN
+Description: # ml_ms4alg_snippets
+        
+        Electrophysiology tools
+        MountainLab processor library
+        
+        * clone this repository into .mountainlab/packages/
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
