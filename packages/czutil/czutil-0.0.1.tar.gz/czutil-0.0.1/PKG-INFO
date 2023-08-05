@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: czutil
+Version: 0.0.1
+Summary: utils
+Home-page: http://www.leitingpro.top
+Author: zhengchengzi
+Author-email: zhangchangzeng163@gmail.com
+License: UNKNOWN
+Description: #czutil
+            utils
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
