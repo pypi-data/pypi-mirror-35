@@ -1,0 +1,11 @@
+nailgun/__init__.py,sha256=pk62TrkCquIRcTN_70sr_TkUQjVPZceTCAXlnsxxRgw,641
+nailgun/client.py,sha256=snJ_glNI7Kkli2cFYtOzFqJUdX9awsmjKQL3bCPutF0,7074
+nailgun/config.py,sha256=Bqg18ldLmMrMFNUYH8lyo-uEyUVqmTsa4XmBRTkAFAk,12198
+nailgun/entities.py,sha256=ma-jNw7NqD-RqbNWnCamwupJi3UNym6MxJbgoREiGW4,271389
+nailgun/entity_fields.py,sha256=Q0IMNQJ6yPJzVk2f79kh5zl4az2ofKvf5yzMLOg0FlA,8897
+nailgun/entity_mixins.py,sha256=v3889DI04gGgr64Mjb4td8JmryVPCZAHwUgbClm0v3U,56307
+nailgun/signals.py,sha256=WY-I_isPthCDr7Nd0_cIC4OWPxg7SKZnAtXtfUPm6ak,802
+nailgun-0.31.0.dist-info/METADATA,sha256=1TsetMDPqjx5xclAlMjWUt3Y_zhyrbxhNfuMNqQrYcs,1198
+nailgun-0.31.0.dist-info/RECORD,,
+nailgun-0.31.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+nailgun-0.31.0.dist-info/top_level.txt,sha256=p8z9ZB7Hp4uB9An1TlyA4JL4KT6MRn0ayPSWAWYe79k,8
