@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+firefighter/__init__.py
+firefighter/logging.py
+firefighter.egg-info/PKG-INFO
+firefighter.egg-info/SOURCES.txt
+firefighter.egg-info/dependency_links.txt
+firefighter.egg-info/requires.txt
+firefighter.egg-info/top_level.txt
