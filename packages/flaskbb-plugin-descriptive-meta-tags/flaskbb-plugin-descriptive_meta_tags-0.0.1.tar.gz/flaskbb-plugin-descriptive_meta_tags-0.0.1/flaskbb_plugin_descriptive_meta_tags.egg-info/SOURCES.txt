@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.cfg
+setup.py
+descriptive_meta_tags/__init__.py
+flaskbb_plugin_descriptive_meta_tags.egg-info/PKG-INFO
+flaskbb_plugin_descriptive_meta_tags.egg-info/SOURCES.txt
+flaskbb_plugin_descriptive_meta_tags.egg-info/dependency_links.txt
+flaskbb_plugin_descriptive_meta_tags.egg-info/entry_points.txt
+flaskbb_plugin_descriptive_meta_tags.egg-info/not-zip-safe
+flaskbb_plugin_descriptive_meta_tags.egg-info/requires.txt
+flaskbb_plugin_descriptive_meta_tags.egg-info/top_level.txt

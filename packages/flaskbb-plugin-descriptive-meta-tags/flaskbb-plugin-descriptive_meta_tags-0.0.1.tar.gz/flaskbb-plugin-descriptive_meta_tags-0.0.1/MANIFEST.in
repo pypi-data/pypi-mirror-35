@@ -1,0 +1,4 @@
+graft descriptive_meta_tags/templates
+graft descriptive_meta_tags/translations
+
+global-exclude *.pyc __pycache__ .keep
