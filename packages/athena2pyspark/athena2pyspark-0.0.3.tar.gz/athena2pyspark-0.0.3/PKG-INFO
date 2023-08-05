@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: athena2pyspark
+Version: 0.0.3
+Summary: consumir athena desde spark
+Home-page: UNKNOWN
+Author: Leonardo Jofre
+Author-email: ljofre2146@gmail.com
+License: UNKNOWN
+Description: description
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
