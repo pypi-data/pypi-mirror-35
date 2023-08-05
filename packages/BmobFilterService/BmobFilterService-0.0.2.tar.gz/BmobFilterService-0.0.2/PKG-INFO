@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: BmobFilterService
+Version: 0.0.2
+Summary: OneCubeSpider Filter
+Home-page: https://github.com/llketu
+Author: ketu
+Author-email: 302692949@qq.com
+License: UNKNOWN
+Description: # BmobFilterService
+        302692949@qq.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
