@@ -1,0 +1,9 @@
+xopen>=0.3.2
+
+[dev]
+Cython
+pytest
+pytest-timeout
+nose
+sphinx
+sphinx_issues
