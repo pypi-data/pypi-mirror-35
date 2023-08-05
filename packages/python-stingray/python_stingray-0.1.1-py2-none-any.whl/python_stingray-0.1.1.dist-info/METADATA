@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: python-stingray
+Version: 0.1.1
+Summary: Stingray Load Balancer REST API client module
+Home-page: https://github.com/Zuora-TechOps/python-stingray
+Author: Mark Troyer
+Author-email: disco@blackops.io
+License: Apache
+Keywords: stingray zeus steelapp vtm riverbed brocade api
+Platform: UNKNOWN
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Internet :: Proxy Servers
+Classifier: Topic :: System :: Networking
+Requires-Dist: python-dateutil (>=2.6.1)
+Requires-Dist: requests (>=2.18.1)
+Requires-Dist: urllib3 (>=1.22)
+
+Python module for interacting with the Stingray Load Balancer REST API.
+
+
