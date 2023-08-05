@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lineup-widget
+Version: 1.0.0a0
+Summary: Wrapper around the LineUp.js library for multi attribute rankings
+Home-page: https://github.com/datavisyn/lineup_widget
+Author: Samuel Gratzl
+Author-email: samuel-gratzl@gmx.at
+License: MIT
+Keywords: ipython,jupyter,widgets,lineup,ranking
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: ipywidgets (>=7.0.0)
+Requires-Dist: pandas (>=0.18.0)
+
+UNKNOWN
+
+
