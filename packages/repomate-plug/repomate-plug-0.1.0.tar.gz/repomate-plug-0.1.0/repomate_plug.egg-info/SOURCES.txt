@@ -1,0 +1,9 @@
+README.md
+setup.py
+repomate_plug/__init__.py
+repomate_plug/plug.py
+repomate_plug.egg-info/PKG-INFO
+repomate_plug.egg-info/SOURCES.txt
+repomate_plug.egg-info/dependency_links.txt
+repomate_plug.egg-info/requires.txt
+repomate_plug.egg-info/top_level.txt
