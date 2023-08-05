@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: dpl
+Version: 0.1.0
+Summary: A library for building readable and concise data pipelines
+Home-page: https://github.com/duytintruong/dpl
+Author: Duy Tin Truong
+Author-email: UNKNOWN
+License: UNKNOWN
+Download-URL: https://github.com/duytintruong/dpl/archive/0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: data,pipeline
+Platform: UNKNOWN
