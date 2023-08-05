@@ -1,0 +1,9 @@
+README.rst
+setup.py
+doo/__init__.py
+doo/doo.py
+doo.egg-info/PKG-INFO
+doo.egg-info/SOURCES.txt
+doo.egg-info/dependency_links.txt
+doo.egg-info/requires.txt
+doo.egg-info/top_level.txt
