@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: ZhihuVAPI
+Version: 1.0.0
+Summary: 优雅地调用知乎(zhihu.com)上的数据
+Home-page: https://github.com/CheezOne/ZhihuVAPI
+Author: CheezOne
+Author-email: mycheez2000@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: zhihu,network,http,crawler,JSON
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
