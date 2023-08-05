@@ -1,0 +1,6 @@
+pyparsing
+future
+
+[full]
+numpy
+ply
