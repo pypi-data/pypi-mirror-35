@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ickafka
+Version: 0.0.1
+Summary: Improved Color Kafka
+Home-page: https://github.com/davegallant/ickafka
+Author: Dave Gallant
+Author-email: davegallant@gmail.com
+License: Apache License, Version 2.0
+Description: # ickafka
+        
+        Improved Color Kafka Consumer
+        
+        ## Installation
+        
+        ```bash
+        pip install ickafka
+        ```
+        
+        ## Usage
+        
+        ```bash
+        ickafka [-h] [-s SERVER] [-g GROUP] -t TOPIC
+        ```
+        
+Keywords: kafka,pygments
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
