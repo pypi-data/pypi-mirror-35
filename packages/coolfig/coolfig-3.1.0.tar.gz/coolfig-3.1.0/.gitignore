@@ -1,0 +1,9 @@
+__pycache__
+*.pyc
+/.cache
+/.pytest_cache
+/.coverage
+/.tox
+/build
+/dist
+/docs/_build
