@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: glssm
+Version: 0.1
+Summary: Gaussian Latent State Space Models
+Home-page: https://github.ncsu.edu/yliu87/glssm
+Author: Ye Liu, Zekun Xu
+Author-email: yliu87@ncsu.edu
+License: Public Domain
+Keywords: Gaussian hidden Markov models; dynamic linear models
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: Cython
+Requires-Dist: NumPy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+UNKNOWN
+
+
