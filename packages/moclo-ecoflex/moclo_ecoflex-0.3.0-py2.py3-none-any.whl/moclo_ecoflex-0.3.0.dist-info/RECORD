@@ -1,0 +1,10 @@
+moclo/kits/__init__.py,sha256=xSQogfowtiMsjGiPPI2yAjwXLc0a4QoZ_jQ7Uh7Jlw0,156
+moclo/kits/ecoflex.py,sha256=b1R5Y0wMveRaL3RxJsKKxmxA7z6VUhW_8NHAtI9QMzs,5257
+moclo/kits/ecoflex.version,sha256=2RXMldbKj0euKXcT7UbU5cXZnd0p_Dxh4mO98wXytbA,6
+moclo/registry/ecoflex.json.bz2,sha256=zSDU4OYwgNEeFQKJ0Kiv1K5RDnBELQLhQCIuZPi6Nck,21899
+moclo_ecoflex-0.3.0.dist-info/LICENSE.txt,sha256=e9aZ_eBw-3HkolQMzdfX6kQbSkAopOlUYb73bbuBP2o,1072
+moclo_ecoflex-0.3.0.dist-info/METADATA,sha256=ohkoPs4BzB0wVFa9EZHHyhsRYC1l9lcoIB_oW5_QX6E,5141
+moclo_ecoflex-0.3.0.dist-info/RECORD,,
+moclo_ecoflex-0.3.0.dist-info/WHEEL,sha256=CTh2E6mCxEx9ZlqUOZVJtYBKxTlr7zOwLtikkFWqEZU,104
+moclo_ecoflex-0.3.0.dist-info/top_level.txt,sha256=p_p3Ul7z_9ywQlq2iS9N-W3hJOal2QRGTUhGW7rIzao,14
+moclo_ecoflex-0.3.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
