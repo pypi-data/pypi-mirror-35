@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: Flask-BasicAuth-LDAP
+Version: 0.0.0a1.dev2
+Summary: Flask extension that provides an easy way to protect certain views of an application with LDAP and HTTP basic access authentication.
+Home-page: https://github.com/ArtemAngelchev/flask-basicauth-ldap
+Author: Angelchev Artem
+Author-email: artangelchev@gmail.com
+License: MIT
+Keywords: ldap,flask,api,rest,auth,basicauth
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Requires-Dist: Flask (>=0.10)
+Requires-Dist: ldap3
+
+Flask-BasicAuth-LDAP
+====================
+
+Flask-BasicAuth-LDAP is a Flask extension that provides an easy way to protect
+certain views of an application with `LDAP`_ and HTTP `basic access authentication`_
+
+.. _LDAP: https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
+.. _basic access authentication: https://en.wikipedia.org/wiki/Basic_access_authentication
+
+Install
+-------
+
+::
+
+    pip install flask-basicauth-ldap
+
+Quickstart
+----------
+
+::
+
+    from flask import Flask, jsonify
+    from flask_basicauth_ldap import LDAPBasicAuth
+
+    app = Flask(__name__)
+    auth = LDAPBasicAuth(app)
+
+    app.config['LDAP_HOST'] = 'ldap://test_host'
+    app.config['LDAP_PORT'] = 'test_port'
+    app.config['LDAP_DOMAIN'] = 'test_domain'
+
+
+    @app.route('/secret', methods=['GET'])
+    @auth.required
+    def secret_view():
+       return jsonify({'status': 'secret'})
+
+If you want to change a response on the unauthorized access, just use
+`unauthorizedhandler` to register function that should return `Response` object
+
+::
+
+   @auth.unauthorizedhandler
+   def custom_unathorized_view():
+      return jsonify({'message': 'Athorize first'}), 401
+
+
