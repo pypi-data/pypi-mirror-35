@@ -1,0 +1,11 @@
+rudaux/__init__.py,sha256=CzjKMhDmInIb26--sL-Bz7iwQGlqs6FIffWtMXa4n8k,121
+rudaux/assignment.py,sha256=q2GlNljKIOT2biYJbEVxmqKwCZNQwqC4a4D4yCAKxXc,28481
+rudaux/command_line.py,sha256=FoBxcbJGHQ3vLM984Q97moNaDznAVWQburBrj4ziR8o,562
+rudaux/commands.py,sha256=XhMs6P0cqq-XRUt7vthQybXhqFJjVXVFQjsQHpD1FWE,4409
+rudaux/course.py,sha256=3XbSdZ5gT8p4WDx0egm5Pm8o4TQmFmBE38YxpLVbdq0,28016
+rudaux/utils.py,sha256=bNWdcQnMWYYZVVc0spEIzJyBEqz2Hf2FgA0HKcRXaxQ,9050
+rudaux-0.3.data/scripts/rudaux,sha256=Fh-oH8a_LDefK3qTDRdK4bcKFL6S4sstEOR7ZXY_Oc0,3590
+rudaux-0.3.dist-info/METADATA,sha256=z5fm2DyKbuDRThXZKmCRr1LHZMxMoGfp9ylt5_cCiUw,786
+rudaux-0.3.dist-info/RECORD,,
+rudaux-0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+rudaux-0.3.dist-info/top_level.txt,sha256=2gQHimqLx-wZV6dt_ZIw9oDcYaHU-2hmp3qgc-s5Kp8,7
