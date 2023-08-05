@@ -1,0 +1,10 @@
+scidb_py-18.1.4.dist-info/DESCRIPTION.rst,sha256=zI4en_7LqyMHnaUSHV4lewW8YKMJOCO66lkOQXONcfU,2539
+scidb_py-18.1.4.dist-info/METADATA,sha256=wqLN76YRzMt9l-QFg8XEgcKXM7EodmpX_oiRqGRKBDo,3541
+scidb_py-18.1.4.dist-info/RECORD,,
+scidb_py-18.1.4.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+scidb_py-18.1.4.dist-info/metadata.json,sha256=p3H-8uMDRkYZVPmnStkFybB5NWSPXt7umxkm2XAdC58,1046
+scidb_py-18.1.4.dist-info/top_level.txt,sha256=ytiZGgtqJz8qohmDlL9qL6hlHg6riMmYexzF7Ye2wJ4,8
+scidbpy/__init__.py,sha256=cbCVnFMkg9xqoJpNBnPdoSxqVa_nB0E48qNnctiFZBc,25460
+scidbpy/db.py,sha256=M_Zlqliu1X9-IzKSEF2McekOqhlEyXctRRQP5ESzCxA,30278
+scidbpy/meta.py,sha256=VT8iSLOzYcmTLN9nSOCe8nijMfHs5vbyhbe0eeWz0cY,2620
+scidbpy/schema.py,sha256=SwLw_ZBQN_jL0EVsra2MRcT2KCtSiMhuERglOX0nbMs,26730
