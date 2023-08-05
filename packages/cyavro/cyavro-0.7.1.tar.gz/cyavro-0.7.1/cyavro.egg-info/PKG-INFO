@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: cyavro
+Version: 0.7.1
+Summary: Wrapper to avro-c-1.7+
+Home-page: https://github.com/Valassis-Digital-Media/cyavro
+Author: Valassis Digital
+Author-email: marius.v.niekerk@gmail.com
+Maintainer: Valassis Digital
+Maintainer-email: marius.v.niekerk@gmail.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: pandas (>=0.12)
+Requires: numpy (>=1.7.0)
+Requires: cython (>=0.19.1)
+Requires: six
