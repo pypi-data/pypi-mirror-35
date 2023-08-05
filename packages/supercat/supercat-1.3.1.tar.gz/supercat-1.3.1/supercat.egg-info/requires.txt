@@ -1,0 +1,5 @@
+pygame
+
+[test]
+pytest
+flake8
