@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+pushman/__init__.py
+pushman/compat.py
+pushman/main.py
+pushman.egg-info/PKG-INFO
+pushman.egg-info/SOURCES.txt
+pushman.egg-info/dependency_links.txt
+pushman.egg-info/top_level.txt
