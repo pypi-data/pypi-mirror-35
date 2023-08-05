@@ -1,0 +1,9 @@
+README.md
+setup.py
+sgui/__init__.py
+sgui/sgui.py
+sgui.egg-info/PKG-INFO
+sgui.egg-info/SOURCES.txt
+sgui.egg-info/dependency_links.txt
+sgui.egg-info/not-zip-safe
+sgui.egg-info/top_level.txt
