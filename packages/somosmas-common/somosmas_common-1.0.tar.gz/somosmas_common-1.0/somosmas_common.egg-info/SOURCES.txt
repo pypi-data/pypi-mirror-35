@@ -1,0 +1,9 @@
+setup.py
+somosmas_common/__init__.py
+somosmas_common/authentication_backends.py
+somosmas_common.egg-info/PKG-INFO
+somosmas_common.egg-info/SOURCES.txt
+somosmas_common.egg-info/dependency_links.txt
+somosmas_common.egg-info/not-zip-safe
+somosmas_common.egg-info/requires.txt
+somosmas_common.egg-info/top_level.txt
