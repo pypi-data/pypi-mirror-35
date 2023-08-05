@@ -1,0 +1,3 @@
+kadmos>=0.8
+lxml
+numpy
