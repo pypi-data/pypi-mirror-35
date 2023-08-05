@@ -1,0 +1,8 @@
+scikit_posthocs/__init__.py,sha256=Kj7lTDI5UUcksxp3l94Y1peQ_hdn8IyMStKW74_pCdg,703
+scikit_posthocs/_outliers.py,sha256=5g5CdoCRCPcOF9Biw5Uorbq5E1yd4HK49IciIr7aWyQ,11212
+scikit_posthocs/_plotting.py,sha256=zNswrP7bToGaXjMzO2OKP2rhlAA3-1LVV24wIeTwmHs,7881
+scikit_posthocs/_posthocs.py,sha256=QR3rkixi661YKiearUr-sKOGb0Ga9PHh_6EfBNtvklM,87696
+scikit_posthocs-0.3.9.dist-info/METADATA,sha256=8pRYkOI9Iq69CNbUOyLVvZTwdyLkaf4U9oi0whIKUOI,5423
+scikit_posthocs-0.3.9.dist-info/RECORD,,
+scikit_posthocs-0.3.9.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+scikit_posthocs-0.3.9.dist-info/top_level.txt,sha256=ZSiuTKVscctpAd3uNItRt3rxnUMlF-0ILOz6cAvNOJc,16
