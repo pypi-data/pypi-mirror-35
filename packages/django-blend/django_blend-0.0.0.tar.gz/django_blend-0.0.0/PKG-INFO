@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: django_blend
+Version: 0.0.0
+Summary:  Provides convention-over-configuration for your Django projects
+Home-page: https://github.com/metanic/django-blend
+Author: Bailey "monokrome" Stoner
+Author-email: monokrome@monokro.me
+Maintainer: Bailey "monokrome" Stoner
+Maintainer-email: monokrome@monokro.me
+License: BSD 3-Clause License
+Description:  This project provides tooling to help with defining and discovering uses of conventions in projects, so that the usual approach of excessive configuration can be narrowed down where it makes sense in your Django projects.  
+Platform: UNKNOWN

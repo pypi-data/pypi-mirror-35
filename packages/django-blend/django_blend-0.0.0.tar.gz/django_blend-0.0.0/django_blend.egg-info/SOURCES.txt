@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+django_blend/__init__.py
+django_blend.egg-info/PKG-INFO
+django_blend.egg-info/SOURCES.txt
+django_blend.egg-info/dependency_links.txt
+django_blend.egg-info/top_level.txt
+django_blend.egg-info/zip-safe
