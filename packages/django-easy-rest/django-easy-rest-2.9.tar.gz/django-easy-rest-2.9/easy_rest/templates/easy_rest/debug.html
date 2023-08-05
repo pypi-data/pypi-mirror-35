@@ -1,0 +1,167 @@
+{% load easy_rest %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Debug</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        html {
+            font-size: 100% !important;
+        }
+    </style>
+    {% load_debug_scripts %}
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color: rgba(200, 200, 200, 0.5);">
+
+<div class="">
+
+
+    <h1>Debug view: (Traceback, debug info)</h1>
+    <p>an error occurred, this page is enabled because DEBUG=True, here you can view debug information about the
+        reqeust</p>
+    <p>to view debug data, click the show debug data button</p>
+    <p>to view request data, click the view request button</p>
+    <p>
+        <a class="btn btn-primary" onclick="go()" data-toggle="collapse" href="#debugData" role="button"
+           aria-expanded="false">
+            Show debug data
+        </a>
+    </p>
+
+    <div class="collapse" id="debugData">
+
+    <pre class="json"><code>
+#start of traceback information
+        <!--traceback should start with the line don't format this!-->
+{{traceback}}
+
+# start of debug information
+        <!--output should start with the line don't format this!-->
+{{output}}
+    </code></pre>
+
+
+    </div>
+    {% if api_input or api_code %}
+    <p>
+        <a class="btn btn-primary" onclick="go()" data-toggle="collapse" href="#jsonInput" role="button"
+           aria-expanded="false">
+            view request
+        </a>
+    </p>
+    {% endif %}
+    <hr>
+    <div class="collapse" id="jsonInput">
+        <div class="card card-body">
+            {% if api_input %}
+            <pre class="json"><code>
+{{api_input}}
+    </code></pre>
+            {% endif %}
+            {% if api_code%}
+
+            <pre class="javascript"><code>
+{{api_code}}
+    </code></pre>
+            {% endif %}
+        </div>
+    </div>
+
+
+</div>
+</body>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+
+    function go() {
+        setTimeout(function () {
+            window.scrollTo(0, 1200);
+
+        }, 200);
+
+    }
+</script>
+<style>
+        /* Tomorrow Night Theme */
+        /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+        /* Original theme - https://github.com/chriskempson/tomorrow-theme */
+        /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+        /* Tomorrow Comment */
+        .hljs-comment,
+        .hljs-quote {
+            color: #969896;
+        }
+
+        /* Tomorrow Red */
+        .hljs-variable,
+        .hljs-template-variable,
+        .hljs-tag,
+        .hljs-name,
+        .hljs-selector-id,
+        .hljs-selector-class,
+        .hljs-regexp,
+        .hljs-deletion {
+            color: #cc6666;
+        }
+
+        /* Tomorrow Orange */
+        .hljs-number,
+        .hljs-built_in,
+        .hljs-builtin-name,
+        .hljs-literal,
+        .hljs-type,
+        .hljs-params,
+        .hljs-meta,
+        .hljs-link {
+            color: #de935f;
+        }
+
+        /* Tomorrow Yellow */
+        .hljs-attribute {
+            color: #f0c674;
+        }
+
+        /* Tomorrow Green */
+        .hljs-string,
+        .hljs-symbol,
+        .hljs-bullet,
+        .hljs-addition {
+            color: #b5bd68;
+        }
+
+        /* Tomorrow Blue */
+        .hljs-title,
+        .hljs-section {
+            color: #81a2be;
+        }
+
+        /* Tomorrow Purple */
+        .hljs-keyword,
+        .hljs-selector-tag {
+            color: #b294bb;
+        }
+
+        .hljs {
+            display: block;
+            overflow-x: auto;
+            background: #1d1f21;
+            color: #c5c8c6;
+            padding: 0.5em;
+        }
+
+        .hljs-emphasis {
+            font-style: italic;
+        }
+
+        .hljs-strong {
+            font-weight: bold;
+        }
+
+    </style>
+</html>
