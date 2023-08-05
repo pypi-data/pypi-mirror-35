@@ -1,0 +1,10 @@
+_foo.cpython-37m-i386-linux-gnu.so,sha256=fTzKn2pcGQ-f63VYpcsv-NFDOWygNfU6fMljBhxch8M,4321
+python_openctm-1.0.7.dist-info/WHEEL,sha256=e1_WZKsoHV1IIaYJKFwXtC2sSoi0Dll6iY6tWNRvKIA,107
+python_openctm-1.0.7.dist-info/top_level.txt,sha256=pNfggtSNY-2NACmWTVNxidElsZhXOk_B825cWxxDN5s,13
+python_openctm-1.0.7.dist-info/METADATA,sha256=epdkqswAy2mfpGO8VLQX3iEvd8LRylZLltQpuWMgoPE,1545
+python_openctm-1.0.7.dist-info/RECORD,,
+openctm/__init__.py,sha256=Grke7nxZHwxUNhovQR2EqLdEw1IknbQRfBXOlbPPCaw,41
+openctm/version.py,sha256=GIukrVnl8Ykjex2rUbxdz2Ov1PRc_MomFmxwSzRJH9w,21
+openctm/openctm.py,sha256=Y2eAjgM9kr3GtyVK2TgMmMXa1xtELaUh7X_ofDVDSMQ,6648
+openctm/io.py,sha256=gy46GRWAlwwEY1Gtc1BlfpqTjvrek_Xx9QYDMCfpfi4,3080
+openctm/libs/libopenctm.so,sha256=Ouii64_tXenQF4Rtnhx6CqDi0klEQh9TjlYX38BNlI0,93480
