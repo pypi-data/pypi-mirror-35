@@ -1,0 +1,5 @@
+numpy
+pysal
+matplotlib
+geopandas
+matplotlib-label-lines
