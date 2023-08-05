@@ -1,0 +1,7 @@
+setup.py
+testupload/__init__.py
+testupload/test.py
+testupload.egg-info/PKG-INFO
+testupload.egg-info/SOURCES.txt
+testupload.egg-info/dependency_links.txt
+testupload.egg-info/top_level.txt
