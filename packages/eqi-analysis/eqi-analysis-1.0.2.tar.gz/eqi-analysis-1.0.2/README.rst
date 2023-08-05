@@ -1,0 +1,33 @@
+.. image:: https://github.ldn.swissbank.com/zhanjinp/eqi-static/blob/master/eqi_logo_full.png?raw=true
+    :width: 400
+
+EQI Factor Analysis Package
+===========================
+
+Features:
+---------
+
+-  EQIDF: EQI extension of Pandas Dataframe, which aims to simplify the Pandas Dataframe usage, providing a smoothier (though non-pythonic) syntax. EQIDF provides extended methods, as well as keeping all the existing Pandas methods available.
+-  EQI Refdata: fetch common refdata from our curated list, e.g. marketval
+-  EQI Analysis: Single Factor Analysis with UBS EQI Alphalens
+    -  EQI Factor: A formatted DataFrame containing a single column of alpha factor value, indexed by asset and date. You can upload your Factor to the database, and share with others
+    -  EQI Portfolio: A time series equity holdings weighted by an EQI Factory. You can analyze the portfolio performance based on UBS EQI Alphalens.
+
+How to install:
+===============
+
+-  Install this package using pip
+
+   .. code:: bash
+
+       pip install eqi-analysis
+
+Getting started:
+================
+
+-  Go to examples/single_factor_analysis_example.html, see how to use this package
+
+Known Issues:
+=============
+
+Please feel free to create a issue in case of any problems.
