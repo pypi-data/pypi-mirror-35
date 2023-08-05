@@ -1,0 +1,4 @@
+[console_scripts]
+readme-init = readme_utils:init
+readme-pdf = readme_utils:pdf
+
