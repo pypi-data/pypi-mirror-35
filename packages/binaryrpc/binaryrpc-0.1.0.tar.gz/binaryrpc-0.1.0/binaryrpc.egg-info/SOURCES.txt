@@ -1,0 +1,8 @@
+README.md
+binaryrpc.py
+setup.py
+binaryrpc.egg-info/PKG-INFO
+binaryrpc.egg-info/SOURCES.txt
+binaryrpc.egg-info/dependency_links.txt
+binaryrpc.egg-info/top_level.txt
+binaryrpc.egg-info/zip-safe
