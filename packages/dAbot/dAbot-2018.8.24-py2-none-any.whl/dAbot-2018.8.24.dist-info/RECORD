@@ -1,0 +1,11 @@
+dAbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dAbot/__main__.py,sha256=k6nNdFjzDkZA407ihyiy2Y-l-wudloeIaQk1Lx1y7Wc,58
+dAbot/console.py,sha256=OiJNZ_gdgl2VskLuk6bfZPc_I3mr_KvvD1FBhUcpL5A,2696
+dAbot/dAbot.py,sha256=n0wUXdzw9mYIdvAH8k3ubtsc13yD33CI-0bPY4QrZP0,34775
+dAbot-2018.8.24.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+dAbot-2018.8.24.dist-info/METADATA,sha256=m0FynMvA5q3Yyv6ltSovWP6AQB9Q0lABqqdi3rnvHY4,719
+dAbot-2018.8.24.dist-info/RECORD,,
+dAbot-2018.8.24.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+dAbot-2018.8.24.dist-info/entry_points.txt,sha256=QzZuFkE5cC2y5aLcaovRLGmWWCUIuERDycAHm0H02S4,44
+dAbot-2018.8.24.dist-info/metadata.json,sha256=xr6Ueez7AsTuV9wtV75EsUShFCy-c5_V1ep8kitM-eo,1013
+dAbot-2018.8.24.dist-info/top_level.txt,sha256=zCg6nUBQCdlmh-hFIgTP1N6I1-D-_u5Xhlya6yy388E,6
