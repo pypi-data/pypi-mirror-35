@@ -1,0 +1,8 @@
+README.md
+setup.py
+dbot/__init__.py
+dbot/__version__.py
+dbot.egg-info/PKG-INFO
+dbot.egg-info/SOURCES.txt
+dbot.egg-info/dependency_links.txt
+dbot.egg-info/top_level.txt
