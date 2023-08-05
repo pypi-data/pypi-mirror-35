@@ -1,0 +1,5 @@
+setup.py
+GATCWord.egg-info/PKG-INFO
+GATCWord.egg-info/SOURCES.txt
+GATCWord.egg-info/dependency_links.txt
+GATCWord.egg-info/top_level.txt
