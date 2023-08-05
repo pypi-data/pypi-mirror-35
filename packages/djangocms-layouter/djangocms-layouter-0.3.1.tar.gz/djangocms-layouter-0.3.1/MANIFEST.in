@@ -1,0 +1,6 @@
+include LICENSE.txt
+include README.rst
+# recursive-include layouter/locale *
+recursive-include layouter/static *
+recursive-include layouter/templates *
+recursive-include layouter/migrations *
