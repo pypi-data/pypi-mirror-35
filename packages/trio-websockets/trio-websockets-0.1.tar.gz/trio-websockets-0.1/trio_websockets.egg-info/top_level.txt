@@ -1,0 +1,3 @@
+trio_websockets
+trio_websockets/py35
+trio_websockets/py36
