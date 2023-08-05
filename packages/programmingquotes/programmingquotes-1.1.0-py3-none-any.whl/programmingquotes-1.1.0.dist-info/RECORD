@@ -1,0 +1,9 @@
+programmingquotes/__init__.py,sha256=Djq9gJvSa5-T2PBom0uv_0YmPAaOGSp2DMkYnynFETM,165
+programmingquotes/cli.py,sha256=jKr4OXiNheooNUCAsQGLQI9PawQSbQtfHqoh9wi-kD4,302
+programmingquotes/pq.py,sha256=i530CuSHU4opgWnuM0UdJrb0TJ4SR9KUJijCQhAPQjE,666
+programmingquotes/quotes.json,sha256=RpzxNqBqtUrpKdbgFNYPC_lrbOiCZKh2-zo2iUUdsys,1257
+programmingquotes-1.1.0.dist-info/METADATA,sha256=UNQPCs3WC5Q_3zL1u0McY6QydxDxhIOxjtacxFRFULc,1921
+programmingquotes-1.1.0.dist-info/RECORD,,
+programmingquotes-1.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+programmingquotes-1.1.0.dist-info/entry_points.txt,sha256=u9Pwr9cGhqZQldSu98v0eEAmk_dcjGH1Zl1vNWAPYBE,66
+programmingquotes-1.1.0.dist-info/top_level.txt,sha256=id4L2uvVdftTzYYRa4lcXm252RBpIEiXCyKnPkj6pLI,18
