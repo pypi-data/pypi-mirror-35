@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+dict_obj/__init__.py
+dict_obj/dict_obj.py
+dict_obj/setup.cfg
+dict_obj.egg-info/PKG-INFO
+dict_obj.egg-info/SOURCES.txt
+dict_obj.egg-info/dependency_links.txt
+dict_obj.egg-info/not-zip-safe
+dict_obj.egg-info/requires.txt
+dict_obj.egg-info/top_level.txt
