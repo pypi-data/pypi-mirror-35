@@ -1,0 +1,9 @@
+requests
+gpxpy>=1.2.0
+lxml
+
+[develop]
+coverage
+sphinx
+sphinx-autodoc-annotation
+pytest
