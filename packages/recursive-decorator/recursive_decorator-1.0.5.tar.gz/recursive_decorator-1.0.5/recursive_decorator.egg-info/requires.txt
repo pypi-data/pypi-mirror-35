@@ -1,0 +1,8 @@
+codetransformer
+cached-property
+
+[dev]
+mock
+flake8
+pytest
+pytest-cov
