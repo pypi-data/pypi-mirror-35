@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: enlightenme
+Version: 0.0.1
+Summary: LI for curating and reading news/updates.
+Home-page: https://github.com/singhgarima/enlightenme
+Author: Garima Singh
+Author-email: igarimasingh+enlightenme@gmail.com
+License: MIT License
+Description-Content-Type: text/markdown
+Description: # Enlighten Me
+        
+        [![Build Status](https://travis-ci.com/singhgarima/enlightenme.svg?branch=master)](https://travis-ci.com/singhgarima/enlightenme)
+        
+        A simple python CLI for curating and reading news/updates from your favorite
+        channels.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
