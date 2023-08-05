@@ -1,0 +1,6 @@
+micropython.py
+setup.py
+micropython_cpython_micropython.egg-info/PKG-INFO
+micropython_cpython_micropython.egg-info/SOURCES.txt
+micropython_cpython_micropython.egg-info/dependency_links.txt
+micropython_cpython_micropython.egg-info/top_level.txt
