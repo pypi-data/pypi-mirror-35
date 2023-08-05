@@ -1,0 +1,2 @@
+recursive-include sslurl/templates *
+recursive-include sslurl/static *
