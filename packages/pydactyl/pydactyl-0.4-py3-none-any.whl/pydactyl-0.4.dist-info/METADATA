@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pydactyl
+Version: 0.4
+Summary: Toolkit for piano fingering. Part of Didactyl project at the University of Illinois at Chicago.
+Home-page: http://github.com/dvdrndlph/pydactyl
+Author: David A. Randolph
+Author-email: drando2@uic.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: music21 (>=5.3)
+Requires-Dist: pymysql (>=0.8)
+Requires-Dist: networkx (>=2.1)
+Requires-Dist: TatSu
+
+# pydactyl
+Python framework for piano fingering models.
+
+
