@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+lemonsqueezer/__init__.py
+lemonsqueezer/lemonsqueezer.py
+lemonsqueezer/modules.py
+lemonsqueezer/util.py
+lemonsqueezer.egg-info/PKG-INFO
+lemonsqueezer.egg-info/SOURCES.txt
+lemonsqueezer.egg-info/dependency_links.txt
+lemonsqueezer.egg-info/top_level.txt
