@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+pykattis/__init__.py
+pykattis/solution_template.py
+pykattis.egg-info/PKG-INFO
+pykattis.egg-info/SOURCES.txt
+pykattis.egg-info/dependency_links.txt
+pykattis.egg-info/entry_points.txt
+pykattis.egg-info/requires.txt
+pykattis.egg-info/top_level.txt

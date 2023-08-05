@@ -1,0 +1,2 @@
+include README.md
+include pykattis/solution_template.py
