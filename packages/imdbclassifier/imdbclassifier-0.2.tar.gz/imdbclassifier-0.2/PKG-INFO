@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: imdbclassifier
+Version: 0.2
+Summary: Mlflow modules for binary classification in Keras
+Home-page: http://github.com/dmatrix/jsd-mflow-examples/keras/imdbclassifier
+Author: Jules S. Damji
+Author-email: jules@databricks.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
