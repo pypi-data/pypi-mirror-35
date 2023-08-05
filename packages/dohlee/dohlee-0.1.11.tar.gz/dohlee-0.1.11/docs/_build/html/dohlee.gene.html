@@ -1,0 +1,159 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>dohlee.gene module &#8212; dohlee 0.1.10 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="dohlee.hg38 module" href="dohlee.hg38.html" />
+    <link rel="prev" title="dohlee package" href="dohlee.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-dohlee.gene">
+<span id="dohlee-gene-module"></span><h1>dohlee.gene module<a class="headerlink" href="#module-dohlee.gene" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="dohlee.gene.get_first_item">
+<code class="descclassname">dohlee.gene.</code><code class="descname">get_first_item</code><span class="sig-paren">(</span><em>items</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/dohlee/gene.html#get_first_item"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#dohlee.gene.get_first_item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the first item of items. If ‘items’ is a single value, just return it.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>items</strong> (<em>list/value</em>) – A list of items or a single value.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The first item of items.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="dohlee.gene.ensg2symbol">
+<code class="descclassname">dohlee.gene.</code><code class="descname">ensg2symbol</code><span class="sig-paren">(</span><em>ensembl_ids</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/dohlee/gene.html#ensg2symbol"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#dohlee.gene.ensg2symbol" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert Ensembl gene ids into gene symbols.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>ensembl_ids</strong> (<em>list</em>) – A list of Ensembl IDs to be converted.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A list of HGNC symbols, which is the result of best conversion of given Ensembl IDs.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="dohlee.gene.symbol2ensg">
+<code class="descclassname">dohlee.gene.</code><code class="descname">symbol2ensg</code><span class="sig-paren">(</span><em>symbols=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/dohlee/gene.html#symbol2ensg"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#dohlee.gene.symbol2ensg" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert gene symbols into Ensembl gene ids.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>symbols</strong> (<em>list</em>) – A list of HGNC symbols to be converted.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A list of Ensembl gene symbols(ENSG symbols).</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">dohlee</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="dohlee.html">dohlee package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="dohlee.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">dohlee.gene module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dohlee.hg38.html">dohlee.hg38 module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dohlee.plot.html">dohlee.plot module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dohlee.thread.html">dohlee.thread module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="dohlee.html#module-dohlee">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="dohlee.html">dohlee package</a><ul>
+      <li>Previous: <a href="dohlee.html" title="previous chapter">dohlee package</a></li>
+      <li>Next: <a href="dohlee.hg38.html" title="next chapter">dohlee.hg38 module</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Dohoon Lee.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="_sources/dohlee.gene.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
