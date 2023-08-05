@@ -1,0 +1,13 @@
+README.md
+setup.py
+slimpoint/__init__.py
+slimpoint/exceptions.py
+slimpoint.egg-info/PKG-INFO
+slimpoint.egg-info/SOURCES.txt
+slimpoint.egg-info/dependency_links.txt
+slimpoint.egg-info/requires.txt
+slimpoint.egg-info/top_level.txt
+slimpoint/request/__init__.py
+slimpoint/request/validated_request.py
+slimpoint/service/__init__.py
+slimpoint/service/endpoint.py
