@@ -1,0 +1,1286 @@
+# Estonian translations for lino-noi.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the lino-noi project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lino-noi 0.0.2\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-07-20 08:46+0300\n"
+"PO-Revision-Date: 2017-03-21 15:58+0200\n"
+"Last-Translator: Luc Saffre <luc.saffre@gmail.com>\n"
+"Language: et\n"
+"Language-Team: et <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: lino_tera/lib/coachings/choicelists.py:13
+#: lino_tera/lib/tera/choicelists.py:67
+msgid "Client tariff"
+msgstr ""
+
+#: lino_tera/lib/coachings/choicelists.py:14
+#: lino_tera/lib/tera/choicelists.py:68
+msgid "Client tariffs"
+msgstr ""
+
+#: lino_tera/lib/coachings/choicelists.py:18
+msgid "Plain"
+msgstr ""
+
+#: lino_tera/lib/coachings/choicelists.py:19
+msgid "Reduced"
+msgstr ""
+
+#: lino_tera/lib/coachings/desktop.py:19 lino_tera/lib/contacts/models.py:51
+#: lino_tera/lib/contacts/models.py:144 lino_tera/lib/courses/desktop.py:129
+#: lino_tera/lib/households/models.py:41 lino_tera/lib/products/models.py:46
+#: lino_tera/lib/tera/models.py:207
+msgid "General"
+msgstr ""
+
+#: lino_tera/lib/coachings/desktop.py:24 lino_tera/lib/contacts/models.py:56
+#: lino_tera/lib/contacts/models.py:107 lino_tera/lib/contacts/models.py:149
+msgid "Address"
+msgstr ""
+
+#: lino_tera/lib/coachings/desktop.py:32 lino_tera/lib/contacts/models.py:80
+#: lino_tera/lib/contacts/models.py:113 lino_tera/lib/courses/desktop.py:154
+msgid "More"
+msgstr ""
+
+#: lino_tera/lib/coachings/fixtures/std.py:15
+msgid "Transfer to colleague"
+msgstr ""
+
+#: lino_tera/lib/coachings/fixtures/std.py:16
+msgid "Moved away"
+msgstr ""
+
+#: lino_tera/lib/coachings/fixtures/std.py:17
+msgid "Abandoned by client"
+msgstr ""
+
+#: lino_tera/lib/courses/__init__.py:22 lino_tera/lib/courses/models.py:134
+#: lino_tera/lib/tera/models.py:246
+msgid "Therapies"
+msgstr ""
+
+#: lino_tera/lib/courses/desktop.py:107
+msgid "Enrolments using this fee"
+msgstr ""
+
+#: lino_tera/lib/courses/desktop.py:136
+msgid "Appointments"
+msgstr ""
+
+#: lino_tera/lib/courses/desktop.py:141 lino_tera/lib/courses/desktop.py:315
+#: lino_tera/lib/courses/desktop.py:322
+msgid "Participants"
+msgstr ""
+
+#: lino_tera/lib/courses/desktop.py:148
+msgid "Notes"
+msgstr ""
+
+#: lino_tera/lib/courses/desktop.py:203
+#, python-format
+msgid "in %s"
+msgstr ""
+
+#: lino_tera/lib/courses/desktop.py:216
+msgid "Suggestions"
+msgstr ""
+
+#: lino_tera/lib/courses/desktop.py:357
+msgid "Therapies managed by me"
+msgstr ""
+
+#: lino_tera/lib/courses/desktop.py:361
+msgid "Therapies held by me"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:50
+msgid "Individual therapies"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:51
+msgid "Life groups"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:52
+msgid "Other groups"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:60
+msgid "Therapy type"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:61
+msgid "Therapy types"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:133
+msgid "Therapy"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:141
+msgid "Default attendance fee"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:255 lino_tera/lib/tera/models.py:67
+msgid "Patient"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:263
+msgid "Household"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:272
+msgid "Legacy file number"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:273 lino_tera/lib/tera/user_types.py:63
+msgid "Therapist"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:274
+msgid "Manager"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:380
+msgid "Invoiced"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:390
+msgid "Not invoiced"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:455 lino_tera/lib/tera/fixtures/demo.py:75
+msgid "Attendance"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:456
+msgid "Attendances"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:458
+msgid "Amount"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:466
+msgctxt "in an enrolment"
+msgid "Free events"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:468
+msgid "Number of events to add for first invoicing for this enrolment."
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:584
+msgid "{enrolment} to {course}"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:591
+msgid "[{number}] Renewal {title}"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:593
+msgid "[{number}] {title}"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:629
+msgid "Participant"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:647
+msgid "Phone: {0}"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:649
+msgid "GSM: {0}"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:652
+msgid "Invoicing info"
+msgstr ""
+
+#: lino_tera/lib/courses/models.py:657
+msgid "Payment info"
+msgstr ""
+
+#: lino_tera/lib/households/models.py:46
+msgid "Activities"
+msgstr ""
+
+#: lino_tera/lib/households/models.py:50 lino_tera/lib/tera/models.py:273
+msgid "Miscellaneous"
+msgstr ""
+
+#: lino_tera/lib/lists/models.py:20
+msgid "Therapeutical group"
+msgstr ""
+
+#: lino_tera/lib/lists/models.py:21
+msgid "Therapeutical groups"
+msgstr ""
+
+#: lino_tera/lib/lists/fixtures/demo.py:13
+msgid "Women's group {0}"
+msgstr ""
+
+#: lino_tera/lib/lists/fixtures/demo.py:14
+msgid "Men's group {0}"
+msgstr ""
+
+#: lino_tera/lib/lists/fixtures/demo.py:15
+msgid "Children's group {0}"
+msgstr ""
+
+#: lino_tera/lib/products/__init__.py:24 lino_tera/lib/products/models.py:26
+msgid "Tariffs"
+msgstr ""
+
+#: lino_tera/lib/products/models.py:16
+msgid "Tariff Category"
+msgstr ""
+
+#: lino_tera/lib/products/models.py:17
+msgid "Tariff Categories"
+msgstr ""
+
+#: lino_tera/lib/products/models.py:25
+msgid "Tariff"
+msgstr ""
+
+#: lino_tera/lib/products/models.py:29
+msgid "Number of events"
+msgstr ""
+
+#: lino_tera/lib/products/models.py:30
+msgid "Number of calendar events paid per invoicing."
+msgstr ""
+
+#: lino_tera/lib/products/models.py:33
+msgid "Invoice threshold"
+msgstr ""
+
+#: lino_tera/lib/products/models.py:34
+msgid "Minimum quantity to pay in advance."
+msgstr ""
+
+#: lino_tera/lib/products/models.py:51
+msgid "Enrolments"
+msgstr ""
+
+#: lino_tera/lib/products/models.py:55
+msgid "Sales"
+msgstr ""
+
+#: lino_tera/lib/sales/models.py:21
+msgid "Totals"
+msgstr ""
+
+#: lino_tera/lib/sales/models.py:29
+msgid "Product invoice item"
+msgstr ""
+
+#: lino_tera/lib/sales/models.py:30
+msgid "Product invoice items"
+msgstr ""
+
+#: lino_tera/lib/sales/models.py:46
+msgid "Our reference"
+msgstr ""
+
+#: lino_tera/lib/sales/models.py:48 lino_tera/lib/sales/models.py:50
+msgid "Total amount"
+msgstr ""
+
+#: lino_tera/lib/teams/__init__.py:24 lino_tera/lib/teams/models.py:19
+msgid "Departments"
+msgstr ""
+
+#: lino_tera/lib/teams/models.py:18
+msgid "Department"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:18
+msgid "Translator type"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:21
+msgid "SETIS"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:22 lino_tera/lib/tera/choicelists.py:45
+#: lino_tera/lib/tera/choicelists.py:61
+msgid "Other"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:23
+msgid "Private"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:29
+msgid "Starting reason"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:32
+msgid "Voluntarily"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:33
+msgid "Mandatory"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:37
+msgid "Ending reason"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:40
+msgid "Successfully ended"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:41
+msgid "Health problems"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:42
+msgid "Familiar reasons"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:43
+msgid "Missing motivation"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:44
+msgid "Return to home country"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:50
+msgid "Professional situation"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:53
+msgid "Independent"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:54
+msgid "Employed"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:55
+msgid "Student"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:56
+msgid "Homemaker"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:57
+msgid "Workless"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:58
+msgid "Invalid"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:59
+msgid "Social aid recipient"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:60
+msgid "Retired"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:62 lino_tera/lib/tera/choicelists.py:72
+msgid "Unknown"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:73 lino_tera/lib/working/choicelists.py:20
+msgid "Free"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:74
+msgid "Tariff 2"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:75
+msgid "Tariff 5"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:76
+msgid "Tariff 10"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:77
+msgid "Tariff 15"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:78
+msgid "Tariff 20"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:79
+msgid "Tariff 39,56"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:105 lino_tera/lib/tera/choicelists.py:131
+msgid "Active"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:106 lino_tera/lib/tera/choicelists.py:125
+#: lino_tera/lib/working/choicelists.py:32
+msgid "Closed"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:107 lino_tera/lib/tera/choicelists.py:126
+msgid "Closed automatically"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:108 lino_tera/lib/tera/choicelists.py:127
+msgid "Abandoned"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:109 lino_tera/lib/tera/choicelists.py:128
+msgid "Forwarded"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:110
+msgid "Newcomer"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:112
+msgid "00"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:113
+msgid "02"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:114 lino_tera/lib/tera/choicelists.py:132
+msgid "04"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:115 lino_tera/lib/tera/choicelists.py:133
+msgid "08"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:116
+msgid "10"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:117 lino_tera/lib/tera/choicelists.py:134
+msgid "11"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:118 lino_tera/lib/tera/choicelists.py:135
+msgid "99"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:124
+msgid "Confirmed"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:129
+msgid "Requested"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:130
+msgid "Trying"
+msgstr ""
+
+#: lino_tera/lib/tera/choicelists.py:140
+#: lino_tera/lib/working/choicelists.py:34
+msgid "Missed"
+msgstr ""
+
+#: lino_tera/lib/tera/help_texts.py:7
+msgid "The standard migrator for noi."
+msgstr ""
+
+#: lino_tera/lib/tera/help_texts.py:8
+msgid "Layout of User Detail in Lino Presto."
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:68
+msgid "Patients"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:85
+msgid "Obsoletes"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:99
+msgid "Unemployed since"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:100
+msgid "Since when the client has not been employed in any regular job."
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:103
+msgid "Seeking work since"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:104
+msgid "Since when the client is seeking for a job."
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:106
+msgid "suspended until"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:108
+msgid "Declared name"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:114
+msgid "Unavailable until"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:116
+msgid "reason"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:120
+msgid "Family situation"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:123
+msgid "Residential situation"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:126
+msgid "Health situation"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:129
+msgid "Financial situation"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:132
+msgid "Integration notes"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:135
+msgid "Availability"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:138
+msgid "Needed activity"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:150
+msgid "Language notes"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:155 lino_tera/lib/tera/models.py:310
+msgid "Nationality"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:165
+msgid "{} ({}) from {}"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:169
+msgid "Name"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:195
+msgid "Primary coach"
+msgstr ""
+
+#: lino_tera/lib/tera/models.py:227
+msgid "Contact"
+msgstr ""
+
+#: lino_tera/lib/tera/user_types.py:61
+msgid "Anonymous"
+msgstr ""
+
+#: lino_tera/lib/tera/user_types.py:62
+msgid "Secretary"
+msgstr ""
+
+#: lino_tera/lib/tera/user_types.py:64
+msgid "Administrator"
+msgstr ""
+
+#: lino_tera/lib/tera/fixtures/demo.py:73
+msgid "Attendee"
+msgstr ""
+
+#: lino_tera/lib/working/choicelists.py:15
+msgid "Payment mode"
+msgstr ""
+
+#: lino_tera/lib/working/choicelists.py:16
+msgid "Payment modes"
+msgstr ""
+
+#: lino_tera/lib/working/choicelists.py:21
+msgid "Cash"
+msgstr ""
+
+#: lino_tera/lib/working/choicelists.py:22
+msgid "Invoice"
+msgstr ""
+
+#: lino_tera/lib/working/choicelists.py:23
+msgid "Later"
+msgstr ""
+
+#: lino_tera/lib/working/choicelists.py:28
+msgid "invoiceable"
+msgstr ""
+
+#: lino_tera/lib/working/choicelists.py:31
+msgid "Draft"
+msgstr ""
+
+#: lino_tera/lib/working/choicelists.py:33
+msgid "Cancelled"
+msgstr ""
+
+#: lino_tera/lib/working/models.py:29
+msgid "Amount received"
+msgstr ""
+
+#~ msgid "See lino.core.plugin.Plugin."
+#~ msgstr ""
+
+#~ msgid "The model that is to be used as the \"workable\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Close this session, i.e. stop working on that ticket for this time."
+#~ msgstr ""
+
+#~ msgid "End your running session on this ticket."
+#~ msgstr ""
+
+#~ msgid "Start a session on this ticket."
+#~ msgstr ""
+
+#~ msgid "Print an activity report."
+#~ msgstr ""
+
+#~ msgid "Base class for things that workers can work on."
+#~ msgstr ""
+
+#~ msgid "The type of a Session."
+#~ msgstr ""
+
+#~ msgid "The date when you started to work."
+#~ msgstr ""
+
+#~ msgid "Leave this field blank if it is the same date as start_date."
+#~ msgstr ""
+
+#~ msgid "A user who is candidate for working on a ticket."
+#~ msgstr ""
+
+#~ msgid "The \"Sessions\" panel in the detail of a ticket."
+#~ msgstr ""
+
+#~ msgid "This panel shows:"
+#~ msgstr ""
+
+#~ msgid "alias of Ticket"
+#~ msgstr ""
+
+#~ msgid "alias of Session"
+#~ msgstr ""
+
+#~ msgid "alias of Milestone"
+#~ msgstr ""
+
+#~ msgid "Closed milestones are hidden in most lists."
+#~ msgstr ""
+
+#~ msgid "The milestone (and site) of this deployment."
+#~ msgstr ""
+
+#~ msgid "Base class for ticket actions."
+#~ msgstr ""
+
+#~ msgid "Mark this ticket as open."
+#~ msgstr ""
+
+#~ msgid "Mark this ticket as started."
+#~ msgstr ""
+
+#~ msgid "Mark this ticket as ready."
+#~ msgstr ""
+
+#~ msgid "Mark this ticket as closed."
+#~ msgstr ""
+
+#~ msgid "Mark this ticket as talk."
+#~ msgstr ""
+
+#~ msgid "Rate this vote and mark it as rated."
+#~ msgstr ""
+
+#~ msgid "How you rate this job."
+#~ msgstr ""
+
+#~ msgid "Your comment related to your rating."
+#~ msgstr ""
+
+#~ msgid "A user who can create new tickets."
+#~ msgstr ""
+
+#~ msgid "A user who can see all tickets."
+#~ msgstr ""
+
+#~ msgid "A user who is responsible for triaging new tickets."
+#~ msgstr ""
+
+#~ msgid "Can configure tickets functionality."
+#~ msgstr ""
+
+#~ msgid "Global list of all tickets."
+#~ msgstr ""
+
+#~ msgid "Select a site if you want to see only tickets for this site."
+#~ msgstr ""
+
+#~ msgid "Show only (or hide) tickets that are marked private."
+#~ msgstr ""
+
+#~ msgid "Show only (or hide) tickets which are assigned to somebody."
+#~ msgstr ""
+
+#~ msgid "Show only (or hide) tickets which have a project assigned."
+#~ msgstr ""
+
+#~ msgid "Show only tickets for which I am competent."
+#~ msgstr ""
+
+#~ msgid "Show all tickets that are in an active state."
+#~ msgstr ""
+
+#~ msgid "Show all active tickets reported by me."
+#~ msgstr ""
+
+#~ msgid "alias of User"
+#~ msgstr ""
+
+#~ msgid "Define your vote about this object."
+#~ msgstr ""
+
+#~ msgid "Edit your vote about this object."
+#~ msgstr ""
+
+#~ msgid "The state of a vote."
+#~ msgstr ""
+
+#~ msgid "Translatable text. How a vote is called when in this state."
+#~ msgstr ""
+
+#~ msgid "alias of VoteState"
+#~ msgstr ""
+
+#~ msgid "The ticket (or other votable) being voted."
+#~ msgstr ""
+
+#~ msgid "The user who is voting."
+#~ msgstr ""
+
+#~ msgid "The state of this vote.  Pointer to VoteStates."
+#~ msgstr ""
+
+#~ msgid "My personal priority for this ticket."
+#~ msgstr ""
+
+#~ msgid "How the ticket author rates my help on this ticket."
+#~ msgstr ""
+
+#~ msgid "Why I am interested in this ticket."
+#~ msgstr ""
+
+#~ msgid "My nickname for this ticket. Optional."
+#~ msgstr ""
+
+#~ msgid "Table parameters:"
+#~ msgstr ""
+
+#~ msgid "alias of Vote"
+#~ msgstr ""
+
+#~ msgid "Show your votes in all states"
+#~ msgstr ""
+
+#~ msgid "Show the tickets for which you are candidate"
+#~ msgstr ""
+
+#~ msgid "Show your votes in states assigned and done"
+#~ msgstr ""
+
+#~ msgid "Show your votes in states watching"
+#~ msgstr ""
+
+#~ msgid "Show the votes about this object."
+#~ msgstr ""
+
+#~ msgid "Defines and instantiates a demo version of Lino Noi."
+#~ msgstr ""
+
+#~ msgid "Defines and instantiates a demo version of Lino Care."
+#~ msgstr ""
+
+#~ msgid "A site administrator can do everything."
+#~ msgstr ""
+
+#~ msgid "A project is something on which several users work together."
+#~ msgstr ""
+
+#~ msgid "The type of a Project."
+#~ msgstr ""
+
+#~ msgid "The time (in hours) we plan to work on this project or ticket."
+#~ msgstr ""
+
+#~ msgid "The end user who is asking for help."
+#~ msgstr ""
+
+#~ msgid "No longer used. The user who is working on this ticket."
+#~ msgstr ""
+
+#~ msgid "The state of this ticket. See TicketStates"
+#~ msgstr ""
+
+#~ msgid "A pointer to the ticket which is the cause of this ticket."
+#~ msgstr ""
+
+#~ msgid "Specify that the ticket must be done for a given date."
+#~ msgstr ""
+
+#~ msgid "How the author rates this ticket."
+#~ msgstr ""
+
+#~ msgid "The possible values of a lino_xl.lib.tickets.Link."
+#~ msgstr ""
+
+#~ msgid "The parent ticket requires the child ticket."
+#~ msgstr ""
+
+#~ msgid "The parent ticket triggers the child ticket."
+#~ msgstr ""
+
+#~ msgid "The parent ticket is a deployment which deploys the child ticket."
+#~ msgstr ""
+
+#~ msgid "See also lino.core.plugin.Plugin"
+#~ msgstr ""
+
+#~ msgid "Watching"
+#~ msgstr ""
+
+#~ msgid "Revoke {voter}'s {vote}."
+#~ msgstr ""
+
+#~ msgid "Candidate"
+#~ msgstr ""
+
+#~ msgctxt "verb"
+#~ msgid "Assign"
+#~ msgstr ""
+
+#~ msgctxt "verb"
+#~ msgid "Cancel"
+#~ msgstr ""
+
+#~ msgid "Done"
+#~ msgstr ""
+
+#~ msgid "Connector"
+#~ msgstr ""
+
+#~ msgid "Solution"
+#~ msgstr ""
+
+#~ msgid "History"
+#~ msgstr ""
+
+#~ msgid "At home"
+#~ msgstr ""
+
+#~ msgid "Bugfix"
+#~ msgstr ""
+
+#~ msgid "Enhancement"
+#~ msgstr ""
+
+#~ msgid "Upgrade"
+#~ msgstr ""
+
+#~ msgid "Release note"
+#~ msgstr ""
+
+#~ msgid "Feature"
+#~ msgstr ""
+
+#~ msgid "Upgrade instruction"
+#~ msgstr ""
+
+#~ msgid "Analysis"
+#~ msgstr ""
+
+#~ msgid "Code changes"
+#~ msgstr ""
+
+#~ msgid "Documentation"
+#~ msgstr ""
+
+#~ msgid "Testing"
+#~ msgstr ""
+
+#~ msgid "Configuration"
+#~ msgstr ""
+
+#~ msgid "Optimization"
+#~ msgstr ""
+
+#~ msgid "Offer"
+#~ msgstr "Oskuse pakkumine"
+
+#~ msgid "Open session on new ticket"
+#~ msgstr ""
+
+#~ msgid "Service Report"
+#~ msgstr ""
+
+#~ msgid "Service Reports"
+#~ msgstr ""
+
+#~ msgid "Interesting for"
+#~ msgstr ""
+
+#~ msgid "Only tickets interesting for this partner."
+#~ msgstr ""
+
+#~ msgid "Only tickets in this state."
+#~ msgstr ""
+
+#~ msgid "Time"
+#~ msgstr ""
+
+#~ msgid "Description"
+#~ msgstr ""
+
+#~ msgid "Site"
+#~ msgstr ""
+
+#~ msgid "Author"
+#~ msgstr ""
+
+#~ msgid "Project"
+#~ msgstr ""
+
+#~ msgid "Topic"
+#~ msgstr ""
+
+#~ msgid "Worked hours"
+#~ msgstr "Töötunnid"
+
+#~ msgid "Total"
+#~ msgstr ""
+
+#~ msgid "Tickets"
+#~ msgstr "Piletid"
+
+#~ msgid "Events"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A service report is a document used in various discussions with\n"
+#~ "a stakeholder."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This can be empty and will then show the working time of all\n"
+#~ "users."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An end user is somebody who uses our software and may report\n"
+#~ "tickets, but won't work on them."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A consultant is somebody who may both report tickets and work\n"
+#~ "on them."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A developer is somebody who may both report tickets and work\n"
+#~ "on them."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A senior developer is a developer who is additionally\n"
+#~ "responsible for triaging tickets"
+#~ msgstr ""
+
+#~ msgid "Adds the lino_xl.lib.votes plugin."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Customized detail_lyout for Tickets.  Replaces waiting_for by\n"
+#~ "faculties"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The list of possible choices for the state field\n"
+#~ "of a User."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Activate this user. This requires that the user has confirmed their\n"
+#~ "verifcation code, and that a username and password are set."
+#~ msgstr ""
+
+#~ msgid "Layout of User Detail in Lino Noi."
+#~ msgstr ""
+
+#~ msgid "Fill a form in order to register as a new system user."
+#~ msgstr ""
+
+#~ msgid "List of new users to be confirmed by the system admin."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Like the standard lino.core.actions.SubmitInsert, but\n"
+#~ "checks certain things before accepting the new user."
+#~ msgstr ""
+
+#~ msgid "Enter your verification code."
+#~ msgstr ""
+
+#~ msgid "Whether other users can see my contact data."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A random string set for every new user. Used for\n"
+#~ "online_registration."
+#~ msgstr ""
+
+#~ msgid "The registration state of this user."
+#~ msgstr ""
+
+#~ msgid "Submit a ticket"
+#~ msgstr "Loo uus lipik"
+
+#~ msgid "Consultant"
+#~ msgstr ""
+
+#~ msgid "Hoster"
+#~ msgstr ""
+
+#~ msgid "Developer"
+#~ msgstr ""
+
+#~ msgid "Senior developer"
+#~ msgstr ""
+
+#~ msgid "Even more"
+#~ msgstr ""
+
+#~ msgid "Cannot {action} because {vote} is {state}."
+#~ msgstr ""
+
+#~ msgid "Cannot {action} because there is no vote marked as {states} ."
+#~ msgstr ""
+
+#~ msgctxt "verb"
+#~ msgid "Open"
+#~ msgstr ""
+
+#~ msgctxt "verb"
+#~ msgid "Start"
+#~ msgstr ""
+
+#~ msgid "Cannot start when nobody is assigned"
+#~ msgstr ""
+
+#~ msgctxt "verb"
+#~ msgid "Close"
+#~ msgstr ""
+
+#~ msgctxt "verb"
+#~ msgid "Talk"
+#~ msgstr ""
+
+#~ msgid "{voter} speaks for {ticket}."
+#~ msgstr ""
+
+#~ msgid "{voter} speaks against {ticket}."
+#~ msgstr ""
+
+#~ msgid "{user} candidates for {ticket}."
+#~ msgstr ""
+
+#~ msgid "Cannot assign while there are other candidates"
+#~ msgstr ""
+
+#~ msgid "Cancel {voter}'s {vote}."
+#~ msgstr ""
+
+#~ msgid "{user} confirmed {ticket} {state} by {voter}."
+#~ msgstr ""
+
+#~ msgid "Rate"
+#~ msgstr ""
+
+#~ msgid "Comment"
+#~ msgstr ""
+
+#~ msgid "User state"
+#~ msgstr ""
+
+#~ msgid "User states"
+#~ msgstr ""
+
+#~ msgid "New"
+#~ msgstr ""
+
+#~ msgid "Active"
+#~ msgstr ""
+
+#~ msgid "Inactive"
+#~ msgstr ""
+
+#~ msgid "Activate"
+#~ msgstr ""
+
+#~ msgid "Deactivate"
+#~ msgstr ""
+
+#~ msgid "Reset"
+#~ msgstr ""
+
+#~ msgid "Clocking"
+#~ msgstr "Tööaeg"
+
+#~ msgid "Register new user"
+#~ msgstr ""
+
+#~ msgid "New user applications"
+#~ msgstr ""
+
+#~ msgid "The username {} is taken. Please choose another one"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your request has been registered. An "
+#~ "email will shortly be sent to "
+#~ "{0}Please check your emails."
+#~ msgstr ""
+
+#~ msgid "Verify"
+#~ msgstr ""
+
+#~ msgid "e-mail address"
+#~ msgstr ""
+
+#~ msgid "Verification code"
+#~ msgstr ""
+
+#~ msgid "Invalid verification code"
+#~ msgstr ""
+
+#~ msgid "User {} is now verified."
+#~ msgstr ""
+
+#~ msgid "Others may contact me"
+#~ msgstr ""
+
+#~ msgid "About me"
+#~ msgstr ""
+
+#~ msgid "Contact"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An end user is somebody who uses our database, but won't work\n"
+#~ "on it."
+#~ msgstr ""
+
+#~ msgid "A collector is somebody who collects data into the database."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A project manager additionally sees tickets, projects, courses,\n"
+#~ "meetings, calendar..."
+#~ msgstr ""
+
+#~ msgid "Can do everything."
+#~ msgstr ""
+
+#~ msgid "My settings"
+#~ msgstr ""
+
+#~ msgid "User"
+#~ msgstr ""
+
+#~ msgid "Collector"
+#~ msgstr ""
+
+#~ msgid "Project manager"
+#~ msgstr ""
+
+#~ msgid "Staff"
+#~ msgstr ""
+
+#~ msgid "Activity type"
+#~ msgstr ""
+
+#~ msgid "Activity types"
+#~ msgstr ""
+
+#~ msgid "Activity"
+#~ msgstr ""
+
+#~ msgid "Client"
+#~ msgstr ""
+
+#~ msgid "Clients"
+#~ msgstr ""
+
+#~ msgid "Seeking"
+#~ msgstr ""
+
+#~ msgid "My therapies"
+#~ msgstr ""
+
+#~ msgid "Enrolment"
+#~ msgstr ""
+
+#~ msgid "Residence"
+#~ msgstr ""
+
+#~ msgid "Person"
+#~ msgstr ""
+
+#~ msgid "Family"
+#~ msgstr ""
+
+#~ msgid "Default participation fee"
+#~ msgstr ""
+
+#~ msgid "Participation"
+#~ msgstr ""
+
+#~ msgid "Participations"
+#~ msgstr ""
+
