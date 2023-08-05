@@ -1,0 +1,8 @@
+bidict
+h5py
+matplotlib
+numpy
+scikit-learn
+scipy
+shortuuid
+six
