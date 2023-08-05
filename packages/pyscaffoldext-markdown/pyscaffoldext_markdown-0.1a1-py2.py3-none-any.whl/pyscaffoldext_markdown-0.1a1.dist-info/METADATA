@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: pyscaffoldext-markdown
+Version: 0.1a1
+Summary: PyScaffold extension which replaces reStructuredText by Markdown
+Home-page: https://github.com/pyscaffold/pyscaffoldext-markdown
+Author: Florian Wilhelm
+Author-email: florian.wilhelm@inovex.de
+License: mit
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: testing
+Requires-Dist: pytest; extra == 'testing'
+Requires-Dist: pytest-cov; extra == 'testing'
+
+UNKNOWN
+
+
