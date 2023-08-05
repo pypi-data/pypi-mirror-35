@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: jupyterlab_autoversion
+Version: 0.0.2
+Summary: Automatically version notebooks from JupyterLab
+Home-page: https://github.com/timkpaine/jupyterlab_autoversion
+Author: Tim Paine
+Author-email: t.paine154@gmail.com
+License: Apache 2.0
+Download-URL: https://github.com/timkpaine/jupyterlab_autoversion/archive/v0.0.2.tar.gz
+Description: # jupyterlab_autoversion
+        Automatically version jupyter notebooks in JupyterLab
+        
+        
+        ## Save every notebook revision
+        Enhanced checkpoints, versioned and persistent between restarts on every save
+        
+        ![](https://raw.githubusercontent.com/timkpaine/jupyterlab_autoversion/master/docs/example.gif)
+        
+Keywords: jupyter jupyterlab
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
