@@ -1,0 +1,12 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_iris.py,sha256=CyuZKUBZudwIkbUG9i9fKvGchWHggPRmAu-PNGgN7OY,174
+tests/test_seed.py,sha256=asMnyYwWxE7635cnuZXcJ3pHVI7RQIsHpJLQ879v5D4,352
+tsne/__init__.py,sha256=6A267zo8ajWYXEZUHPwuenhsRkvVbnjzA4swnPRzdFA,2785
+tsne/_version.py,sha256=04SXt6h-MAyyKVjx2AOYk5Hy-2vZMYpq-N8-BOK5Lrk,499
+tsne/bh_sne.cpython-35m-darwin.so,sha256=2bt3APOKdQKGCfYDoURyKIbF8TR6oW9_f9cJp0AmBl8,309572
+tsne/bh_sne_3d.cpython-35m-darwin.so,sha256=0ysg9SJ25om9kpbwzmohAzvBEUbWthDjSZGW7smzws0,309692
+tsne_mp-0.1.10.data/scripts/bhtsne.py,sha256=PW0J96cQu4wpPfeScu7K3tkedAHQ1aXvVM03Xb3FtuQ,9769
+tsne_mp-0.1.10.dist-info/METADATA,sha256=SPTATu_PmlsO2WtHp8hmavc5AuwnBT5HzwpAARMzlQ8,3459
+tsne_mp-0.1.10.dist-info/RECORD,,
+tsne_mp-0.1.10.dist-info/WHEEL,sha256=lgsUfrdLj9hH6GJqDPYnuasbppr5-7YdYJX4LCjZNUk,109
+tsne_mp-0.1.10.dist-info/top_level.txt,sha256=h-aOzpYndEDcJ-v9y4sUAdF4zCVcf3Yuj-p9AJcLgcc,11
