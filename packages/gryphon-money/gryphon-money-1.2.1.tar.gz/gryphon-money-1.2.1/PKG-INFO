@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: gryphon-money
+Version: 1.2.1
+Summary: Python Money Class
+Home-page: https://github.com/TinkerWork/money
+Author: MacLeod & Robinson, Inc.
+Author-email: hello@tinkercoin.com
+License: UNKNOWN
+Description: 
+        A very slight fork of the Python Money class, https://github.com/carlospalol/money,
+        with different behaviour on arithmatic operations. This package is intended for use
+        with the Gryphon trading framework.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development :: Libraries
