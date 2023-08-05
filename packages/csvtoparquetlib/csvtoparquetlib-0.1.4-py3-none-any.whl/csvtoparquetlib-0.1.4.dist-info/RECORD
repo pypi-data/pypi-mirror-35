@@ -1,0 +1,14 @@
+csvtoparquet-lib/__init__.py,sha256=VbunCcKt-whAurs2fQK26xgo3aq7qyInlj-3zf57SoY,735
+csvtoparquet-lib/connect.py,sha256=uwDOvETzMfr1Sxuq-fRNk7Gus9Sa0lNZw6cV8FGUcbw,1262
+csvtoparquet-lib/convert_module.py,sha256=egmldSgcJtfffixYflxnLVTMT4szEFcMMicIJ7VS0ww,3673
+csvtoparquet-lib/helpers.py,sha256=nH361V6OWOlzGa2iYV8vyf1sAaiBjULiubOIlup0w_E,2146
+csvtoparquet-lib/object_module.py,sha256=jrE5H3sVClnF5Dp31tUfI7h29eFCA6JAtXcVL-9AIwQ,3082
+csvtoparquetlib/__init__.py,sha256=mGIirxHBomPe4y9VAL5zLeregIQU3GL8zWp8IWwXQbk,780
+csvtoparquetlib/connect.py,sha256=uwDOvETzMfr1Sxuq-fRNk7Gus9Sa0lNZw6cV8FGUcbw,1262
+csvtoparquetlib/convert_module.py,sha256=egmldSgcJtfffixYflxnLVTMT4szEFcMMicIJ7VS0ww,3673
+csvtoparquetlib/helpers.py,sha256=nH361V6OWOlzGa2iYV8vyf1sAaiBjULiubOIlup0w_E,2146
+csvtoparquetlib/object_module.py,sha256=jrE5H3sVClnF5Dp31tUfI7h29eFCA6JAtXcVL-9AIwQ,3082
+csvtoparquetlib-0.1.4.dist-info/METADATA,sha256=T8aHYmufTAiFB0TL_ivpDqsm2f95zmANKeljdk69OyE,990
+csvtoparquetlib-0.1.4.dist-info/RECORD,,
+csvtoparquetlib-0.1.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+csvtoparquetlib-0.1.4.dist-info/top_level.txt,sha256=9iCKGXNYQzSUF0wEnuY4EXZOEv2bmBKC5djaZBtLDO4,16
