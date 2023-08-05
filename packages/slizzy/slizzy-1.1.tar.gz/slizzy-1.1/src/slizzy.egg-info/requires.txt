@@ -1,0 +1,5 @@
+beautifulsoup
+colorama
+hsaudiotag3k
+fuzzywuzzy
+requests
