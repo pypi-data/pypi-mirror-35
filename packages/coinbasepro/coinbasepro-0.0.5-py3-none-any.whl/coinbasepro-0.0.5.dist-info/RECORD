@@ -1,0 +1,8 @@
+coinbasepro/__init__.py,sha256=XbGn6re66vNOVgDDBbX4A0IavS4CBAe3VzeTA7B3uvM,107
+coinbasepro/auth_client.py,sha256=R39VJtHZhBWJfHg2q3wnQGFZIzdEZ3Q7QxoveV1HVO4,31919
+coinbasepro/exceptions.py,sha256=aEwaYKfT2wy_0OR-HP1aG6dNrORbMBsLlhq_-5RT4hw,490
+coinbasepro/public_client.py,sha256=U9rvnkkqFZiQkTnn9W3V3Co79_p64KOZPZzjP_iQ1Dk,11883
+coinbasepro-0.0.5.dist-info/METADATA,sha256=JfQgzVj6kgWTIyrSdeP08EBW1bH6Ddrdv-sA7hj4tBY,2154
+coinbasepro-0.0.5.dist-info/RECORD,,
+coinbasepro-0.0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+coinbasepro-0.0.5.dist-info/top_level.txt,sha256=zpWvs4STyNaeNaq-pskh42ltZvxu8YyjamU3t9QjCrA,12
