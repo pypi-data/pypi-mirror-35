@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: geonode-force-default-lang
+Version: 0.1
+Summary: Overwrite browser HTTP_ACCEPT_LANGUAGE. Code taken from geonode docs.
+Home-page: http://docs.geonode.org/en/master/tutorials/admin/default_lang/
+Author: toni.schoenbuchner
+Author-email: toni.schoenbuchner@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

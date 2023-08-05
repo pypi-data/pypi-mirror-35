@@ -1,0 +1,7 @@
+setup.py
+geonode_force_default_lang/__init__.py
+geonode_force_default_lang.egg-info/PKG-INFO
+geonode_force_default_lang.egg-info/SOURCES.txt
+geonode_force_default_lang.egg-info/dependency_links.txt
+geonode_force_default_lang.egg-info/not-zip-safe
+geonode_force_default_lang.egg-info/top_level.txt
