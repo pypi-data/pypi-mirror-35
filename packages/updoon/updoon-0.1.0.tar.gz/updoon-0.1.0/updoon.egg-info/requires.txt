@@ -1,0 +1,5 @@
+numpy
+urllib3
+setuptools
+datetime
+nose
