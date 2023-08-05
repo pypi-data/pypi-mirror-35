@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: movielst
+Version: 2.2.0
+Summary: Everything about your movies within the command line.
+Home-page: https://github.com/Mozzo1000/movielst
+Author: Andreas Backström
+Author-email: andreas@simplymozzo.se
+License: MIT
+Description: UNKNOWN
+Keywords: movies,CLI,movies-within-CLI,python
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Version Control
