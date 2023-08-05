@@ -1,0 +1,8 @@
+README.md
+setup.py
+geizhals/__init__.py
+geizhals/geizhals.py
+geizhals.egg-info/PKG-INFO
+geizhals.egg-info/SOURCES.txt
+geizhals.egg-info/dependency_links.txt
+geizhals.egg-info/top_level.txt
