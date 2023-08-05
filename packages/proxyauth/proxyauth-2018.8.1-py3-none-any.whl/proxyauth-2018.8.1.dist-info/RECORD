@@ -1,0 +1,14 @@
+proxyauth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxyauth/auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxyauth/auth/auth.py,sha256=lfsKUCaYAhOlIBXfoQJy95Vt4Ta3yTPHq1HqlLukZ8w,3878
+proxyauth/auth/server.py,sha256=6rvjWsN5FIT7I1AoB2P-PVLIfpOVaYJiu9y_5qkYFXg,3059
+proxyauth/auth/user_store.py,sha256=OaD9KGupuUpolUyTCG3FOCnu4mMukA4d9OcOCJV6FWk,205
+proxyauth/auth/static/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxyauth/auth/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxyauth/auth/templates/signin.html,sha256=KXLXe3At5yTf7TMa4Wb-DCh5I5JiI9CXyvtp7L6oMPQ,2387
+proxyauth/auth/templates/signup.html,sha256=mBgNWTP0vFjo_jt9p8XyukUNJgfCch9s7B0wKwZrvWU,2579
+proxyauth/auth/templates/signuped.html,sha256=a4qBKrfWOoP8T7jAOsxPQLttz4qGW39FhQsvZ2D0abw,628
+proxyauth-2018.8.1.dist-info/METADATA,sha256=2gdWaRuDT-25QZ-b3AFIAsNKNL_pjqAMy4rkybPOfn0,1328
+proxyauth-2018.8.1.dist-info/RECORD,,
+proxyauth-2018.8.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+proxyauth-2018.8.1.dist-info/top_level.txt,sha256=-que8VKp87k7AtEL22bCQ8ztRO2_8k93IpLkT24dyAU,21

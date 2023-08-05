@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: proxyauth
+Version: 2018.8.1
+Summary: simple auth for python app
+Home-page: https://github.com/pingf/proxyauth.git
+Author: Jesse MENG
+Author-email: pingf0@gmail.com
+License: MIT
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: flask
+
+=============================
+proxy auth
+=============================
+
+proxy auth for python app
+
+**Note**: this package is still in beta. Use with caution !
+
+
+Quickstart
+----------
+
+Install proxyauth::
+
+    pip install proxyauth
+
+
+Use proxy:
+
+.. code-block:: python
+
+    app = Flask(__name__)
+
+    app.config['SECRET_KEY'] = 'helloworld'
+    app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=7)
+    # app.config['SESSION_COOKIE_HTTPONLY'] = True
+
+    @proxy_all(app=app, auth_url='http://127.0.0.1:7000')
+    def proxy(path):
+        return request.url.replace(':7001', ':7002')
+
+
+    @app.route('/error', methods=['GET'])
+    def cookie():
+        return 'error'
+
+    @app.route('/session', methods=['GET'])
+    def setup():
+        return session_setup()
+
+    if __name__ == '__main__':
+        app.run(port=7001)
+
+
+
