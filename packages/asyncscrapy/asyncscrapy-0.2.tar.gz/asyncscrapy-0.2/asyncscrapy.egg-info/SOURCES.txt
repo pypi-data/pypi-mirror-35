@@ -1,0 +1,13 @@
+setup.py
+asyncscrapy/__init__.py
+asyncscrapy/asyncdefer.py
+asyncscrapy/misc.py
+asyncscrapy/next_req.py
+asyncscrapy/offs.py
+asyncscrapy.egg-info/PKG-INFO
+asyncscrapy.egg-info/SOURCES.txt
+asyncscrapy.egg-info/dependency_links.txt
+asyncscrapy.egg-info/top_level.txt
+asyncscrapy/inline/__init__.py
+asyncscrapy/inline/generator.py
+asyncscrapy/inline/utils.py
