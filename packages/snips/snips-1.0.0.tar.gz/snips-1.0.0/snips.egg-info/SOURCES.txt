@@ -1,0 +1,10 @@
+README.md
+setup.py
+snips/__init__.py
+snips/snips.py
+snips.egg-info/PKG-INFO
+snips.egg-info/SOURCES.txt
+snips.egg-info/dependency_links.txt
+snips.egg-info/entry_points.txt
+snips.egg-info/requires.txt
+snips.egg-info/top_level.txt
