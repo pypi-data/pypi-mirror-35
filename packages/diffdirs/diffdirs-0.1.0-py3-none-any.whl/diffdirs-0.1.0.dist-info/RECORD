@@ -1,0 +1,10 @@
+diffdirs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diffdirs/__main__.py,sha256=6v2AP_YEKYtvqfPsG_DxfWoafDiz1kJ4xRT_1DAMMS0,38
+diffdirs/cli.py,sha256=NNAniGsZsj1JH6QghKVTaqf0LEXXczFYQpNWK5cEW7A,1249
+diffdirs/diffdirs.py,sha256=j1B0m05r-CZayng0uIIxCciPms6P42JSHPOAg5HRdnY,2905
+diffdirs-0.1.0.dist-info/METADATA,sha256=RGPeMwfs8NMQrkNEC_-EhveeJa7LdR8loIxs6ya9IiI,718
+diffdirs-0.1.0.dist-info/RECORD,,
+diffdirs-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+diffdirs-0.1.0.dist-info/entry_points.txt,sha256=TA8vwgV28SjqHc8x3i6AOqhi62fMU2LGQvK81j-sKtQ,48
+diffdirs-0.1.0.dist-info/pbr.json,sha256=vmq4hWuv0X_TywUubvl83S3i9vQcfR19mu8MaUzV1Kg,47
+diffdirs-0.1.0.dist-info/top_level.txt,sha256=xQYzafWNqQuR-HthaYvBL1IDnX2gBI7XbiVQNFvzLx0,9
