@@ -1,0 +1,9 @@
+openapi-spec-validator
+six
+lazy-object-proxy
+backports.functools-lru-cache
+backports.functools-partialmethod
+enum34
+
+[flask]
+werkzeug
