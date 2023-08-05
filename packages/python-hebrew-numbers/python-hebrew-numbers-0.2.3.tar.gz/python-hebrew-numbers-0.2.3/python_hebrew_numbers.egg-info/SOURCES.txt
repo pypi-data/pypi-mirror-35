@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+hebrew-special-numbers-default.yml
+setup.py
+hebrew_numbers/__init__.py
+hebrew_numbers/tests.py
+hebrew_numbers/../hebrew-special-numbers-default.yml
+python_hebrew_numbers.egg-info/PKG-INFO
+python_hebrew_numbers.egg-info/SOURCES.txt
+python_hebrew_numbers.egg-info/dependency_links.txt
+python_hebrew_numbers.egg-info/requires.txt
+python_hebrew_numbers.egg-info/top_level.txt
