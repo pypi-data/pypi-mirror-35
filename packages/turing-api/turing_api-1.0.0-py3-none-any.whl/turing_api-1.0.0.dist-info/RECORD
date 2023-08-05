@@ -1,0 +1,10 @@
+turing_api/__init__.py,sha256=1tMCPiRuPLT7sFiSmU1R_UDJYfFVGEitq3NBfluM1sQ,20
+turing_api/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turing_api/lib/turingAPIException.py,sha256=lmtsdk2gDIcV7zsDHarByWXjUbmK73E2kEBZngt6iMs,127
+turing_api/lib/visualAPI.py,sha256=5I_Lw8LUD7hcjST5P4N8jiq1g5IuJpk51aP9AbE7Cyw,3869
+turing_api/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turing_api/test/visualAPITest.py,sha256=g2lfYs8NL-QI132RWOAMSaxmZAAsGoOzL2cMJ83mU0I,1446
+turing_api-1.0.0.dist-info/METADATA,sha256=EE8YJhBcThX8Syzo6A6giksKGnVns__qLdcilpDkIqs,5081
+turing_api-1.0.0.dist-info/RECORD,,
+turing_api-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+turing_api-1.0.0.dist-info/top_level.txt,sha256=zw2UiPz9-iPvzJ4YdrvY27rP7O9Yxs0V_lqYHFvQTpU,11
