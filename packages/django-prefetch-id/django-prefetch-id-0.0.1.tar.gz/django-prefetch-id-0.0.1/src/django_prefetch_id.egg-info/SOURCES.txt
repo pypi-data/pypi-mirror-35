@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/api/__init__.py
+src/base/__init__.py
+src/core/__init__.py
+src/core/exception.py
+src/core/prefetch_id.py
+src/django_prefetch_id.egg-info/PKG-INFO
+src/django_prefetch_id.egg-info/SOURCES.txt
+src/django_prefetch_id.egg-info/dependency_links.txt
+src/django_prefetch_id.egg-info/requires.txt
+src/django_prefetch_id.egg-info/top_level.txt
+src/djangoprefetchid/__init__.py
