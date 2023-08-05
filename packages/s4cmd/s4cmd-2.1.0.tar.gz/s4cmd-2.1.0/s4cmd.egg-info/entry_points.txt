@@ -1,0 +1,3 @@
+[console_scripts]
+s4cmd = s4cmd:main
+
