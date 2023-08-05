@@ -1,0 +1,1 @@
+{"extensions": {"python.commands": {"wrap_console": {"dirstate": "dirstate.bin:run"}}, "python.details": {"document_names": {"description": "DESCRIPTION.rst"}}, "python.exports": {"console_scripts": {"dirstate": "dirstate.bin:run"}}}, "generator": "bdist_wheel (0.29.0)", "metadata_version": "2.0", "name": "dirstate", "summary": "UNKNOWN", "version": "1.0"}
