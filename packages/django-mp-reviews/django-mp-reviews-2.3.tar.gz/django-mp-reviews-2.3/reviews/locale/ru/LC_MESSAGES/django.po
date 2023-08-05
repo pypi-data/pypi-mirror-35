@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-18 01:30+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: __init__.py:8 models.py:33
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: lib.py:10
+#, python-format
+msgid "New review #{}"
+msgstr "Новый отзыв #{}"
+
+#: models.py:11
+msgid "Owner"
+msgstr "Автор"
+
+#: models.py:13
+msgid "Is active"
+msgstr "Активность"
+
+#: models.py:15 templates/reviews/new_review_notification.html:7
+msgid "Name"
+msgstr "Имя"
+
+#: models.py:17 templates/reviews/new_review_notification.html:10
+msgid "Email"
+msgstr "Эл. адрес"
+
+#: models.py:20 templates/reviews/new_review_notification.html:13
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: models.py:23
+msgid "Date created"
+msgstr "Дата создания"
+
+#: models.py:25 models.py:32
+msgid "Review"
+msgstr "Отзыв"
+
+#: templates/reviews/new_review_modal.html:14
+msgid "Новий відгук"
+msgstr "Новый отзыв"
+
+#: templates/reviews/new_review_modal.html:22
+msgid "Відмінити"
+msgstr "Отменить"
+
+#: templates/reviews/new_review_modal.html:25
+msgid "Надіслати відгук"
+msgstr "Отправить отзыв"
+
+#: templates/reviews/new_review_notification.html:5
+msgid "New review #"
+msgstr "Новый отзыв #"
+
+#: templates/reviews/new_review_notification.html:16
+msgid "Text"
+msgstr "Текст"
+
+#: templates/reviews/new_review_notification.html:19
+msgid "Show on site"
+msgstr "Показать на сайте"
+
+#: views.py:63
+msgid "Review was successfully sent"
+msgstr "Отзыв успешно отправлен"
+
+#~ msgid "Відгуки покупців"
+#~ msgstr "Отзывы покупателей"
+
+#~ msgid "Залишити відгук"
+#~ msgstr "Оставить отзыв"

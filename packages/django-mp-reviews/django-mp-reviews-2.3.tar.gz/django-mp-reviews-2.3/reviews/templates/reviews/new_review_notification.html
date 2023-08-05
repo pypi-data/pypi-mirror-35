@@ -1,0 +1,19 @@
+
+{% load i18n %}
+
+
+<h1>{% trans 'New review #' %} {{ review.id }}</h1> <br />
+
+<strong>{% trans 'Name' %}:</strong> <br />
+{{ review.name }} <br /><br />
+
+<strong>{% trans 'Email' %}:</strong> <br />
+{{ review.email }} <br /><br />
+
+<strong>{% trans 'Rating' %}:</strong> <br />
+{{ review.rating }} <br /><br />
+
+<strong>{% trans 'Text' %}:</strong> <br />
+{{ review.text }} <br /><br />
+
+<a href="http://{{ site.domain }}{% url 'admin:reviews_review_change' review.id %}">{% trans 'Show on site' %}</a>
