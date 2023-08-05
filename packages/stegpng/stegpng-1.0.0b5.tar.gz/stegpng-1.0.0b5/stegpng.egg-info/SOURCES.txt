@@ -1,0 +1,12 @@
+README.md
+setup.py
+stegpng/__init__.py
+stegpng/chunks.py
+stegpng/png.py
+stegpng/pngexceptions.py
+stegpng/utils.py
+stegpng.egg-info/PKG-INFO
+stegpng.egg-info/SOURCES.txt
+stegpng.egg-info/dependency_links.txt
+stegpng.egg-info/requires.txt
+stegpng.egg-info/top_level.txt
