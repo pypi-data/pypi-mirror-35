@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+microbarometer/__init__.py
+microbarometer/io.py
+microbarometer/plots.py
+microbarometer.egg-info/PKG-INFO
+microbarometer.egg-info/SOURCES.txt
+microbarometer.egg-info/dependency_links.txt
+microbarometer.egg-info/entry_points.txt
+microbarometer.egg-info/requires.txt
+microbarometer.egg-info/top_level.txt

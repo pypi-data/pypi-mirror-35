@@ -1,0 +1,15 @@
+pandas
+
+[io]
+obspy
+cartopy
+
+[plot]
+matplotlib
+
+[tests]
+pytest
+pytest-cov
+coveralls
+flake8
+mypy
