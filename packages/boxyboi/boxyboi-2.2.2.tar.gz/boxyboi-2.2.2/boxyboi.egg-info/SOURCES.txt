@@ -1,0 +1,8 @@
+README.md
+setup.py
+boxyboi/__init__.py
+boxyboi/box.py
+boxyboi.egg-info/PKG-INFO
+boxyboi.egg-info/SOURCES.txt
+boxyboi.egg-info/dependency_links.txt
+boxyboi.egg-info/top_level.txt
