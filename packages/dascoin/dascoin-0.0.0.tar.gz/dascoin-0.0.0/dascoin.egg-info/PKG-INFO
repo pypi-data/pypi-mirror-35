@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: dascoin
+Version: 0.0.0
+Summary: Python library for dascoin
+Home-page: UNKNOWN
+Author: Blockchain Projects B.V.
+Author-email: info@blockchainprojectsbv.com
+Maintainer: Fabian Schuh
+Maintainer-email: Fabian.Schuh@blockchainprojectsbv.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: dascoin,library,api,rpc
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers

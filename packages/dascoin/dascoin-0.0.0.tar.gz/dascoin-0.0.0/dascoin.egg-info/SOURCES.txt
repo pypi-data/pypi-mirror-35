@@ -1,0 +1,6 @@
+setup.py
+dascoin/__init__.py
+dascoin.egg-info/PKG-INFO
+dascoin.egg-info/SOURCES.txt
+dascoin.egg-info/dependency_links.txt
+dascoin.egg-info/top_level.txt
