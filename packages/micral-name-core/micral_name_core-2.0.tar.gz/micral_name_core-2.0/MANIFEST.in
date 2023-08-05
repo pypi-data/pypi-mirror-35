@@ -1,0 +1,3 @@
+include README.rst
+include micral_name_core/version.txt
+include micral_name_core/CrystNet2.1.hdf5

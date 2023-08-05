@@ -1,0 +1,4 @@
+opencv-python
+numpy
+keras
+micral_utils
