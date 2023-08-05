@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: ostree
+Version: 0.0.0
+Summary: Pulls containers and turns them into OS trees for systemd-nspawn.
+Home-page: http://github.com/seantis/ostree
+Author: Seantis GmbH
+Author-email: info@seantis.ch
+License: MIT
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Provides-Extra: test
+Requires-Dist: cached-property
+Requires-Dist: click
+Requires-Dist: pycurl
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: flake8; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+
+
+
+## Warning
+
+This is alpha-quality software. Things are intended to break.
+
+## Requirements
+
+* POSIX
+* Python 3.6+
+
+## Run the Tests
+
+```bash
+pip install -e '.[test]'
+py.test ostree
+```
+
+## Conventions
+
+Ostree follows [PEP8](https://www.python.org/dev/peps/pep-0008/) as closely as possible. To validate it run:
+
+```bash
+pip install -e '.[test]'
+flake8 ostree
+```
+
+Ostree uses [Semantic Versioning](http://semver.org/).
+
+## License
+
+Ostree is released under the MIT license
+
+# Changelog
+
+- Initial Release.
+  [href]
+
+

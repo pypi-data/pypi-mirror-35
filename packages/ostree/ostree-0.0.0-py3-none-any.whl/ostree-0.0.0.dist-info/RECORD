@@ -1,0 +1,16 @@
+ostree/.gitignore,sha256=IDKwAhPyBaqv1HYUcWpb-g7kE04Fv0AoDw375XgN7uw,675
+ostree/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ostree/cli.py,sha256=9YLswkST7FN1qANIrkPKmX3gT5PAeYdxRnUMZc3TUIw,1315
+ostree/http.py,sha256=jMdZpS8xr4ZO0Zl0m3OF9fdhWZpKapXUsflS3wXKXos,529
+ostree/local.py,sha256=1m06j8tHW95J3uwK7ICkwpP-2q3fEe3sSB3k3_ud5gI,696
+ostree/oci.py,sha256=ErtNaXpGvU1Ly3chJv9VzH0ru5E97p0besJ41sdOv5g,1653
+ostree/remote/__init__.py,sha256=-pzcMGQmiYtvz0D1suLNZzVnhDS7LHn2-LQoSoPGslE,162
+ostree/remote/base.py,sha256=X8GIk-Ys-TfLhTYoAQyAHPP54jZGKqCuHjx9eelgaCA,404
+ostree/remote/docker.py,sha256=1AbYAmlUH2kxzcBlD4uSY2CV2AmBT3cnS0lBWTFeRfs,1894
+ostree/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ostree-0.0.0.dist-info/METADATA,sha256=DLaxRtI0L_7arA-p-9hccwAqQYC2DzVSyBMhbuf7YMk,1261
+ostree-0.0.0.dist-info/RECORD,,
+ostree-0.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ostree-0.0.0.dist-info/entry_points.txt,sha256=emqpWDrzU82T5uZCR140i1XnhK6niGAorLxHhLo6VQg,41
+ostree-0.0.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ostree-0.0.0.dist-info/top_level.txt,sha256=7i0lTnMT9x0Rhr_YSLGwLsKDscreuPuCF3m1fOBFkJ8,7
