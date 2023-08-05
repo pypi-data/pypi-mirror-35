@@ -1,0 +1,10 @@
+lexlib/__init__.py,sha256=kZ6kJF77MOt-fa-tqkDXK-L5BkLU4OtaXLbvC7EHtEM,654
+lexlib/consonant_clusters.py,sha256=NT828zVwe10jyjZ0p2vvs0y_3qAPL063gc07GgmrhJI,3457
+lexlib/io.py,sha256=4Agf1pBGHl7OVs6bpvLERZKKaC5yk82NVlVocWoW1Tw,616
+lexlib/neighbors.py,sha256=DVrj0A3Fxvm3zSVcYq2f540zssFj6P1Odyw1lY7TuHQ,7622
+lexlib/syllables.py,sha256=mYNDc9CmDsUU1878EuVkSgbhHXnRp3BG1hTx_t7negE,2432
+lexlib/utilities.py,sha256=7VfF1kOs72WAPnYzquFvJENcUZVTDNhQM1G40vHKpD4,408
+lexlib-2.2.1.dist-info/METADATA,sha256=TSNYsdDOsNZuDty1Jhx-oZykDwO9gkFs7CGy_G3tg38,2857
+lexlib-2.2.1.dist-info/RECORD,,
+lexlib-2.2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+lexlib-2.2.1.dist-info/top_level.txt,sha256=6GabDWDLQVIGewfBnVUmL11-Dh7H6tOVgmkgvgp-lsA,7
