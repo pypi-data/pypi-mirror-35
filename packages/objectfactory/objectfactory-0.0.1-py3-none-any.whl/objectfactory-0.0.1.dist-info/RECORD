@@ -1,0 +1,10 @@
+object_factory/__init__.py,sha256=OmrihXiUWYUVyKadWtOUpYdTTyYAlbq_BKVboyVXE0E,117
+object_factory/serializable.py,sha256=miI72K0ee32FhBF_yln4oS9QDEv1aqNxHoLxkNXiK8g,6096
+objectfactory/__init__.py,sha256=gW8_CDWBAbIy4Qs2SfVTRKKlWnRgKL2FUOpaZ3ywF_U,139
+objectfactory/serializable.py,sha256=miI72K0ee32FhBF_yln4oS9QDEv1aqNxHoLxkNXiK8g,6096
+objectfactory-0.0.1.dist-info/METADATA,sha256=te7-_bM26KFVt-9X7UqtiV6O5aAcxjWfz0P-fQkw66Y,556
+objectfactory-0.0.1.dist-info/RECORD,,
+objectfactory-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+objectfactory-0.0.1.dist-info/top_level.txt,sha256=gEKh2sPKIQljkb7ls8OmOD747qXv6HhSlJclQQcsZJY,19
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_serializable.py,sha256=sR1MpK2QSexQbCHDXqQbfQYm6dhW_PkmZ57mRKZPB18,14016
