@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tei-reader-3.5-test33553355
+Version: 0.1.2
+Summary: TEI Reader
+Home-page: https://github.com/UUDigitalHumanitieslab/tei_reader
+Author: Sheean Spoel (Digital Humanities Lab, Utrecht University) modified by Nejc Mlakar (Intelligent Systems Lab, Jozef Stefan Institute)
+Author-email: s.j.j.spoel@uu.nl
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.5, <4
+
+UNKNOWN
+
+
