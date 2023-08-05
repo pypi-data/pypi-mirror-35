@@ -1,0 +1,23 @@
+{
+    "computeEnvironmentName": "clowdr-env",
+    "type": "MANAGED",
+    "state": "ENABLED",
+    "computeResources": {
+        "type": "EC2",
+        "minvCpus": 0,
+        "maxvCpus": 512,
+        "desiredvCpus": 2,
+        "instanceTypes": [
+            "m4.xlarge",
+            "r4.large",
+            "r4.xlarge"
+        ],
+        "subnets": [
+        ],
+        "securityGroupIds": [
+            "default"
+        ],
+        "instanceRole": ""
+    },
+    "serviceRole": ""
+}
