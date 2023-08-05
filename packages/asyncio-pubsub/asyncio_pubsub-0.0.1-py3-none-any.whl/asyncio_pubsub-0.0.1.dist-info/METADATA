@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: asyncio-pubsub
+Version: 0.0.1
+Summary: Simple implementation of a more asyncio friendly Google Pubsub client that can be used with aiohttp.
+Home-page: UNKNOWN
+Author: Eirik Tenold
+Author-email: eirik@relativt.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# asyncio_pubsub
+
+Simple implementation of a more asyncio friendly Google Pubsub client that can be used with aiohttp.
+
