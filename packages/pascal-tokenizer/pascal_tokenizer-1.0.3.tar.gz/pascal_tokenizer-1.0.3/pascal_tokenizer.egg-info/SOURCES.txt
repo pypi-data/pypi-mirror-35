@@ -1,0 +1,7 @@
+README.rst
+setup.py
+pascal_tokenizer/__init__.py
+pascal_tokenizer.egg-info/PKG-INFO
+pascal_tokenizer.egg-info/SOURCES.txt
+pascal_tokenizer.egg-info/dependency_links.txt
+pascal_tokenizer.egg-info/top_level.txt
