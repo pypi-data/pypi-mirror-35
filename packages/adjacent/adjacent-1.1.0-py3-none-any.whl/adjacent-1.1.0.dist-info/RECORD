@@ -1,0 +1,8 @@
+adjacent/__init__.py,sha256=HrDzjLnUKArwk5RSg1f_kvS3eFS1YkoQ2OsSnPyKLkU,88
+adjacent/client.py,sha256=MpOUd5ntk-7JNv9R401TWM_Yx0Rgg7_2Wii8GAaxY8k,1515
+adjacent/context_processors.py,sha256=Tn9ko-usBzn7GgaIiQZrkVrkXNjd91hnD3HPAx5HkEc,433
+adjacent/utils.py,sha256=oAD0sK2jqUSyzsQTPtDl2Alz1ng8fe6dZZjoZdJQB8A,861
+adjacent-1.1.0.dist-info/METADATA,sha256=d9M54wUKduRrGokOOLitpu6_Vx0OFE_iZxmfJeBIjFo,1022
+adjacent-1.1.0.dist-info/RECORD,,
+adjacent-1.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+adjacent-1.1.0.dist-info/top_level.txt,sha256=lfZNrUJSKbOCxyWCTQAPwMvYbbcoTIp4bI7yGn56WyE,9
