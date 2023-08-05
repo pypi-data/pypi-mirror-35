@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: sean
+Version: 0.8.0.2
+Summary: Sean is a JSON structure factory.
+Home-page: https://github.com/tuxxy/Sean
+Author: https://github.com/tuxxy/
+Author-email: me@johnpacific.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: faker
+
+UNKNOWN
+
+
