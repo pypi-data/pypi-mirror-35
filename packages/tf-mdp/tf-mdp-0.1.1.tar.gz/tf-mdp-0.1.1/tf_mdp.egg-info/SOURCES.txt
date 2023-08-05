@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+rddl/Reservoir.rddl
+scripts/tfmdp
+tests/__init__.py
+tests/test_optimizer.py
+tests/test_policy.py
+tf_mdp.egg-info/PKG-INFO
+tf_mdp.egg-info/SOURCES.txt
+tf_mdp.egg-info/dependency_links.txt
+tf_mdp.egg-info/not-zip-safe
+tf_mdp.egg-info/requires.txt
+tf_mdp.egg-info/top_level.txt
+tfmdp/__init__.py
