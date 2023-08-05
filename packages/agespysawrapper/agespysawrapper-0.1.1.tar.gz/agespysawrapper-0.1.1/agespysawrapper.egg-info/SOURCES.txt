@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+agespysawrapper/__init__.py
+agespysawrapper/agespysa.py
+agespysawrapper.egg-info/PKG-INFO
+agespysawrapper.egg-info/SOURCES.txt
+agespysawrapper.egg-info/dependency_links.txt
+agespysawrapper.egg-info/requires.txt
+agespysawrapper.egg-info/top_level.txt
