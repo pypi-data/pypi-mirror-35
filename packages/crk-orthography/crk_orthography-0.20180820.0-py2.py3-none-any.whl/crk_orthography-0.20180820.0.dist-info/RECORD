@@ -1,0 +1,12 @@
+crk_orthography/__init__.py,sha256=_9kE84jwlMclf0LGQH8lmtSsLGlCwarYHwPvPfxHLnA,855
+crk_orthography/__main__.py,sha256=AXy812EpwtKgU0819M-KXzj07kINfzQ25Knhy0WZIGU,4093
+crk_orthography/__version__.py,sha256=xgVAA0XJf-Js06Td42c4bKI3l9CEsQfVmLoPD1s1bLY,77
+crk_orthography/sro.py,sha256=sKLh6rpWigfqEAjUUJ4ci_l-WQUOtjG70jEHW4UAFD0,13433
+crk_orthography/sro2syllabics.py,sha256=aX4H3ObrvpP__-BRXRwD20U_rZxCtSV6GGZ8PAXNj28,5489
+crk_orthography/syllabics.py,sha256=dRcy6IelkHaOrf-yAnryPcgak4bKC2-7dJUHM_MlMfs,5658
+crk_orthography/syllabics2sro.py,sha256=n1nw9PUnpck-RREgvW7LpIOwbBX_-jHVRUGjQZkY3OA,1741
+crk_orthography-0.20180820.0.dist-info/METADATA,sha256=I3kK0T8e2iXHv6lqK7DpCivgFZGsc4O27j4HLwfTqBg,3950
+crk_orthography-0.20180820.0.dist-info/RECORD,,
+crk_orthography-0.20180820.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+crk_orthography-0.20180820.0.dist-info/entry_points.txt,sha256=IED6K5jQ4Vny_WkwJCuNcsVdQRjORNL2yPg1A-2feX8,137
+crk_orthography-0.20180820.0.dist-info/top_level.txt,sha256=xlqONCKjIyjtA3cS36tgRajrORCuKsfxXrdzu8iGJII,16
