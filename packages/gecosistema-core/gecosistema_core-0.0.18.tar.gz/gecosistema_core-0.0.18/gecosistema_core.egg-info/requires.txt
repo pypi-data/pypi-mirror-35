@@ -1,0 +1,10 @@
+jinja2
+future
+six
+argparse
+xmljson
+pyodbc
+openpyxl
+xlrd
+xlwt
+xlutils
