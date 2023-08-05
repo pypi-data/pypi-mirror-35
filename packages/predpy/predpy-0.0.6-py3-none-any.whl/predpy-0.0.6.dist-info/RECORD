@@ -1,0 +1,12 @@
+predpy/__init__.py,sha256=gUOLS6w_Ok_bmf7gj-isD0D3xnPGBco5Q3lpx8L0KwU,148
+predpy/autoregression.py,sha256=ILhr-M4cza1Pp8atQz73tFQbY-onLzGjQ47fGsOhveY,20330
+predpy/cleandata.py,sha256=tTPhAcNykLavioWasoz7qxnfgiEt-Zh2jUvYxyEliig,9177
+predpy/galgraphs.py,sha256=k8amQUT-kUgvvfUKn2LTDiFDJ69-Di1Rf1m3sCwb2zQ,27754
+predpy/predpy.py,sha256=ILhr-M4cza1Pp8atQz73tFQbY-onLzGjQ47fGsOhveY,20330
+predpy/ridge_regression.py,sha256=dO7Qj52uolSk9jzxPGmqT7YZsLqVBsm4s0nXZ5irptA,11085
+predpy/timeseries.py,sha256=PjljwA4mwWkkC9-GDbAl43MrhvqRnIdCX90kXr6c_Cs,10979
+predpy-0.0.6.dist-info/METADATA,sha256=59la91qn444OK-TPALInPLpwMDvGp7C9O5Fi_R58LQk,2989
+predpy-0.0.6.dist-info/RECORD,,
+predpy-0.0.6.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+predpy-0.0.6.dist-info/dependency_links.txt,sha256=iEt2E0sET82xF4hfJ2hsIcCbt-lmVBmL5B8SM_LRXmY,188
+predpy-0.0.6.dist-info/top_level.txt,sha256=3kzpNU-pTgOofLjaul7BDKtOyWDU6CfrmlYqU5jw_0w,7
