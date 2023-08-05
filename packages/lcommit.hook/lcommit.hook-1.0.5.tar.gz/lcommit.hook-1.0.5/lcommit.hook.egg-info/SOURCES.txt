@@ -1,0 +1,7 @@
+README.md
+setup.py
+lcommit.hook.egg-info/PKG-INFO
+lcommit.hook.egg-info/SOURCES.txt
+lcommit.hook.egg-info/dependency_links.txt
+lcommit.hook.egg-info/entry_points.txt
+lcommit.hook.egg-info/top_level.txt
