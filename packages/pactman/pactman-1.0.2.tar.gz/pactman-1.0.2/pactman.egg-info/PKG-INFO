@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pactman
+Version: 1.0.2
+Summary: Tools for creating and verifying consumer driven contracts using the Pact framework.
+Home-page: https://github.com/reecetech/pact-python
+Author: ReeceTech
+Author-email: richard.jones@reece.com.au
+License: MIT, Copyright (c) 2018 ReeceTech
+Description: UNKNOWN
+Platform: UNKNOWN
