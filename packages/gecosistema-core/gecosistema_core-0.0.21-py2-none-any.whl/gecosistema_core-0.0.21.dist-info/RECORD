@@ -1,0 +1,13 @@
+gecosistema_core/__init__.py,sha256=XW93NqMhrd8lxTsM-ySztZkn5FrFHaIoPQXyghVLr_8,1137
+gecosistema_core/excel.py,sha256=o3w9kS0Kv2xxw349XUKZ5j6DbJi5LRbEtyq6SZ-f2Bg,11164
+gecosistema_core/execution.py,sha256=jQCFiHl6u3f08r9HYZvrvcfLJF2i2wrRCfgOruSGC-8,4186
+gecosistema_core/filesystem.py,sha256=CBrtP4Szun5PeU9dLPGmA2QI_tJd07HuLD892cJGqzs,9547
+gecosistema_core/http.py,sha256=roYl3VGLS-lcVL3hWdYl-iru_e9ZoN8vTeiOiVqpgBc,5107
+gecosistema_core/platform.py,sha256=TJCKnIj5k-cV3MBS5KVUNeIuheJ0oOfcptmJA_lwaUg,2112
+gecosistema_core/stime.py,sha256=rN3bYV_l9GvzT22LZG219UBWVOqs_YtdhMAtna5ZFt0,1335
+gecosistema_core/strings.py,sha256=BnrdmHye39jH-n26xMzV40yUFpjtwo76fG5NSLcQjK4,9175
+gecosistema_core/xml_utils.py,sha256=_y6qu27hXfKlFc54FydEiHSethoTZgD6LPvn96IFYk8,3149
+gecosistema_core-0.0.21.dist-info/METADATA,sha256=Amyng2s9SP2E2xQ57Kd6gzRJQClby2jHp-sy3CGos7M,639
+gecosistema_core-0.0.21.dist-info/RECORD,,
+gecosistema_core-0.0.21.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+gecosistema_core-0.0.21.dist-info/top_level.txt,sha256=zEESpId6VAlHBnv5tbOvv9EBncGz8Lm-c8RYleKG01k,17
