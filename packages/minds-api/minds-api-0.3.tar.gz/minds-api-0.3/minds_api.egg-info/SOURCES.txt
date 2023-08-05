@@ -1,0 +1,8 @@
+setup.py
+minds-api/__init__.py
+minds-api/minds_api.py
+minds_api.egg-info/PKG-INFO
+minds_api.egg-info/SOURCES.txt
+minds_api.egg-info/dependency_links.txt
+minds_api.egg-info/not-zip-safe
+minds_api.egg-info/top_level.txt
