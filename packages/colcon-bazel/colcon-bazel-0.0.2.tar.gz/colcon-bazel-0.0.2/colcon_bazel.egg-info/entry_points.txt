@@ -1,0 +1,15 @@
+[colcon_argcomplete.argcomplete_completer]
+bazel_args = colcon_bazel.argcomplete_completer.bazel_args:BazelArgcompleteCompleter
+
+[colcon_core.environment_variable]
+bazel_command = colcon_bazel.task.bazel:BAZEL_COMMAND_ENVIRONMENT_VARIABLE
+
+[colcon_core.package_identification]
+bazel = colcon_bazel.package_identification.bazel:BazelPackageIdentification
+
+[colcon_core.task.build]
+bazel = colcon_bazel.task.bazel.build:BazelBuildTask
+
+[colcon_core.task.test]
+bazel = colcon_bazel.task.bazel.test:BazelTestTask
+
