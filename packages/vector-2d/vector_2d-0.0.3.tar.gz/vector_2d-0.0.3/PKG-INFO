@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: vector_2d
+Version: 0.0.3
+Summary: A module witch implements a two-dimensional vector, both in cartesian and polar coordinates.
+Home-page: https://github.com/betados/vector_2D
+Author: Álvaro Torres Ochaita
+Author-email: torrestal@gmail.com
+License: MIT
+Description: A module witch implements a two-dimensional vector, both in cartesian and polar coordinates.
+Keywords: vector
+Platform: UNKNOWN
