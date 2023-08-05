@@ -1,0 +1,7 @@
+adb_android/__init__.py,sha256=pqBOgCj2D3pypAyKgDBWOcf1hjuFsY3ToLJhgl37q-M,84
+adb_android/adb_android.py,sha256=x3yaN1aVWQqe4yjRysSOHjf6DcJdahtDaE8ozTTkfJ8,7045
+adb_android/var.py,sha256=ymxw6q6mSKh8DuQKRoDqkcRJ-0Ar-axn1BLkmvIuL-4,633
+adb_android-1.4.0.dist-info/METADATA,sha256=RRrt19p4iT2-LHEigl5-DzH0vQvr6x1EjOqDeLruSdE,669
+adb_android-1.4.0.dist-info/RECORD,,
+adb_android-1.4.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+adb_android-1.4.0.dist-info/top_level.txt,sha256=TiG4_zu95awMJyJIIfU4onljmg9DCChLK3ZbY29YJh4,12
