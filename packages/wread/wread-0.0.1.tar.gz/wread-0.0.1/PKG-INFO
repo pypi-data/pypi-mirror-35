@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wread
+Version: 0.0.1
+Summary: Stop writing code for simple read and write functions in Python.
+Home-page: https://github.com/npmontgomery/wread
+Author: npm
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: read write csv text
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
