@@ -1,0 +1,8 @@
+include __main__.py
+include *.md
+include report/*.html
+include logs/*.log
+include image/*/*.*
+include lib/*/*.*
+include requirements.txt
+prune dafeiauto.egg-info
