@@ -1,0 +1,17 @@
+clouduct/__init__.py,sha256=CQaPu-cTfV7C1elzJHPM1SMQjL93Djfq0nVnxDMVUfw,102
+clouduct/clouduct.py,sha256=1tPEsdjIQqHwSwPJ_F0u0ta9cWEbWy0uUl-CiTyaEeQ,1082
+clouduct/console/__init__.py,sha256=VBv8v0AXEBRpYMCoFypb9fJgDdx3VUHAfJcjNDzuAZw,65
+clouduct/console/clouductbootstrap.py,sha256=K-1pnlDfjwj-n37troJKCQFFKZbaX0xdKtlBRPhqZ3w,4419
+clouduct/cookicutter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clouduct/cookicutter/project-to-cookiecutter.py,sha256=fywL1D5D-AAq_PTRhKwETbdFFewqcHXy0bT6DCQnf2c,4176
+clouduct/reseed/__init__.py,sha256=Qg9tbTF4rj9CeWU0r4rkN-WkL4C8aSqGxHcxvGC3PI4,41
+clouduct/reseed/reseed.py,sha256=OxxtvS01i6sMmMe2ilX8Vqa_eIT5YJExMQ2va35_xeg,4944
+clouduct/reseed/reseed2.py,sha256=l5U_MvXaWzezyPaxXkqvSFnLjJjQfoDA6XApPWZ9IRI,4909
+clouduct/simplecache.py,sha256=WM8i_sBk8slQZ0SGqCbaYdy1AmmQ5yfSg563D7G1vPM,2276
+clouduct/tui.py,sha256=BfXxO-MEFIqEOnfzmPsdxLxEpK40Ce5MpMT6Dfxh4Hw,4827
+clouduct-bin/clouduct-tf,sha256=iaTdO_m5R9HdzOMmFuFNtvwwE0nsqZBRXbEtwyosNCU,5614
+clouduct-0.0.2.dist-info/entry_points.txt,sha256=6D5pmGA5BrwOl9T-T-2qoBjXnwl-NnwHH8SBDzWxDtA,60
+clouduct-0.0.2.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+clouduct-0.0.2.dist-info/WHEEL,sha256=tvK973RUi4LzQSHDxPwhdKmEBUziij3RaNrgndLIb3w,84
+clouduct-0.0.2.dist-info/METADATA,sha256=LivZdmiTCiDnB0bYPaLFQCdcx4-aLxBB_1VyYl9Zgbk,702
+clouduct-0.0.2.dist-info/RECORD,,

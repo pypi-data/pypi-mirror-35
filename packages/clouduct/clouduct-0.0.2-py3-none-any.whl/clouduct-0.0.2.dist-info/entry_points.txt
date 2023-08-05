@@ -1,0 +1,3 @@
+[console_scripts]
+clouduct-bootstrap=clouduct.console:main
+
