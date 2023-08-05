@@ -1,0 +1,16 @@
+colcon_bazel/__init__.py,sha256=9o99XtP4AN0z44QRrqLvd7Lyd9ZOKnfkl3GVZSwlPBg,106
+colcon_bazel/argcomplete_completer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_bazel/argcomplete_completer/bazel_args.py,sha256=zfOuu5ZHXl-nrbDpAgidUQf9Uk5CelhQDCkoqFWLJ6g,1303
+colcon_bazel/environment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_bazel/package_identification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_bazel/package_identification/bazel.py,sha256=9UBSXbzSwIdhR28IA5nkKUu1vaKP6iambYqQjipqeKE,4309
+colcon_bazel/task/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_bazel/task/bazel/__init__.py,sha256=aUsn0FquzTL5qfvkzzXdA1nPePhYU0XE0vfUTCjKkEM,5037
+colcon_bazel/task/bazel/build.py,sha256=CTENeIk2EVR6mhGoC-QnlJiy13lWIBKlSCTVQgiutgM,2822
+colcon_bazel/task/bazel/test.py,sha256=NuhBZBdqgFBAuVqxSKPjDwMXRdPR6-OyeAO5rTvjeSA,2581
+colcon_bazel-0.0.1.dist-info/METADATA,sha256=adlmMeZ_oS0ILq24z8VsOb5zx38yHphelrsTdc5MPJQ,1561
+colcon_bazel-0.0.1.dist-info/RECORD,,
+colcon_bazel-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+colcon_bazel-0.0.1.dist-info/entry_points.txt,sha256=cylUD6cIVcBDxLzjb4KMcAYmh1Xw_HM768YZEaB0SgQ,510
+colcon_bazel-0.0.1.dist-info/top_level.txt,sha256=k4iH_CcZokfGqC6kDR74PnkCHehjAkZbv--DjqBWm2c,13
+colcon_bazel-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
