@@ -1,0 +1,19 @@
+<sec.mgmt_globalauthorizedfiles>
+    <authfile>
+        <authorizedfile>c:\windows\system32\cmd.exe</authorizedfile>
+        <description/>
+        <process>notepad.exe</process>
+        <operation>rx</operation>
+        <learningmode>yes</learningmode>
+        <accesscontrol access_mode="or" zone_mode="or">
+            <access>
+                <type>global</type>
+            </access>
+        </accesscontrol>
+        <guid>{AAD1D436-D6EE-459D-9A28-6C6966049C89}</guid>
+        <updateguid>{409D1A47-5B5E-4310-BC27-B77E3F6E6D86}</updateguid>
+        <parentguid>{00000000-0000-0000-0000-000000000000}</parentguid>
+        <enabled>yes</enabled>
+        <objectdesc>c:\windows\system32\cmd.exe</objectdesc>
+    </authfile>
+</sec.mgmt_globalauthorizedfiles>

@@ -1,0 +1,19 @@
+<workspacecontainers>
+    <workspace>
+        <name>test</name>
+        <description/>
+        <selectablebyuser>Yes</selectablebyuser>
+        <includeallcomputers>yes</includeallcomputers>
+        <accesscontrol access_mode="or" zone_mode="or">
+            <access>
+                <type>user</type>
+                <object>ADYOLO\user1</object>
+                <sid>S-1-5-21-2332691847-2415751864-719897087-1105</sid>
+            </access>
+        </accesscontrol>
+        <guid>{313DFBE1-CEF4-46FB-A750-4C70042AB8B5}</guid>
+        <updateguid>{6A326064-F4DB-4C30-8A22-C5FE72415AF5}</updateguid>
+        <enabled>yes</enabled>
+        <objectdesc>test</objectdesc>
+    </workspace>
+</workspacecontainers>

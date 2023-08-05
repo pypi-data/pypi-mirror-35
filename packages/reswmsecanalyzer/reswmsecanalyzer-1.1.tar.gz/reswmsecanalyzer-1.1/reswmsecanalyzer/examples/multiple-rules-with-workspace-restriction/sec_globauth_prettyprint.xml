@@ -1,0 +1,53 @@
+<sec.mgmt_globalauthorizedfiles>
+    <authfile>
+        <authorizedfile>c:\windows\system32\cmd.exe</authorizedfile>
+        <description/>
+        <process>notepad.exe</process>
+        <operation>rx</operation>
+        <learningmode>yes</learningmode>
+        <accesscontrol access_mode="or" zone_mode="or">
+            <access>
+                <type>global</type>
+            </access>
+        </accesscontrol>
+        <guid>{AAD1D436-D6EE-459D-9A28-6C6966049C89}</guid>
+        <updateguid>{409D1A47-5B5E-4310-BC27-B77E3F6E6D86}</updateguid>
+        <parentguid>{00000000-0000-0000-0000-000000000000}</parentguid>
+        <enabled>yes</enabled>
+        <objectdesc>c:\windows\system32\cmd.exe</objectdesc>
+    </authfile>
+    <authfile>
+        <authorizedfile>C:\Windows\System32\cmd.exe</authorizedfile>
+        <description/>
+        <process>calc.exe</process>
+        <operation>rx</operation>
+        <learningmode>yes</learningmode>
+        <guid>{5724FA3E-CA66-4393-AAAC-FCB906FB2AAE}</guid>
+        <updateguid>{85D24CBC-86F0-4ABA-A0E5-E4CC2EC1F673}</updateguid>
+        <parentguid>{3A8A1B29-EE62-4BC0-A417-6AA5DB655378}</parentguid>
+        <enabled>yes</enabled>
+        <objectdesc>C:\Windows\System32\cmd.exe</objectdesc>
+    </authfile>
+    <authfile>
+        <authorizedfile>c:\windows\system32\mspaint.exe</authorizedfile>
+        <description/>
+        <process>*</process>
+        <operation>rx</operation>
+        <learningmode>no</learningmode>
+        <accesscontrol access_mode="or" zone_mode="or">
+            <access>
+                <type>user</type>
+                <object>ADYOLO\user1</object>
+                <sid>S-1-5-21-2332691847-2415751864-719897087-1105</sid>
+            </access>
+        </accesscontrol>
+        <workspacecontrol>
+            <workspace>{313DFBE1-CEF4-46FB-A750-4C70042AB8B5}</workspace>
+        </workspacecontrol>
+        <guid>{A42824F8-8203-4CE7-BAE4-7052AF7B3E76}</guid>
+        <updateguid>{683B9976-9501-4D20-A7B8-2C2E27A86758}</updateguid>
+        <parentguid>{00000000-0000-0000-0000-000000000000}</parentguid>
+        <enabled>yes</enabled>
+        <objectdesc>c:\windows\system32\mspaint.exe</objectdesc>
+    </authfile>
+</sec.mgmt_globalauthorizedfiles>
