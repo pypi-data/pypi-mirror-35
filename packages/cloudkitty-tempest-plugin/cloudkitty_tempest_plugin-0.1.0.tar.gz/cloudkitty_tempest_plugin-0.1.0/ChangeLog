@@ -1,0 +1,10 @@
+CHANGES
+=======
+
+* Re-enable tests disabled by #560082
+* Update client and tests for services endpoints
+* Add a devstack check job
+* Ignore "Method not allowed" errors in resource cleanup functions
+* Correct rating API uri
+* Committing initial work
+* Added .gitreview
