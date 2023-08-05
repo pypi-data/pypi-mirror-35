@@ -1,0 +1,5 @@
+[console_scripts]
+config_workflow_panoptes = panoptes_aggregation.scripts.config_workflow_panoptes:main
+extract_panoptes_csv = panoptes_aggregation.scripts.extract_panoptes_csv:main
+reduce_panoptes_csv = panoptes_aggregation.scripts.reduce_panoptes_csv:main
+
