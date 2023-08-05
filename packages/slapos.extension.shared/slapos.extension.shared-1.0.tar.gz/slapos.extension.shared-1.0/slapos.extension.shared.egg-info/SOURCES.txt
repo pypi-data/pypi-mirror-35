@@ -1,0 +1,15 @@
+CHANGELOG.rst
+MANIFEST.in
+README.rst
+setup.py
+slapos/__init__.py
+slapos.extension.shared.egg-info/PKG-INFO
+slapos.extension.shared.egg-info/SOURCES.txt
+slapos.extension.shared.egg-info/dependency_links.txt
+slapos.extension.shared.egg-info/entry_points.txt
+slapos.extension.shared.egg-info/namespace_packages.txt
+slapos.extension.shared.egg-info/not-zip-safe
+slapos.extension.shared.egg-info/requires.txt
+slapos.extension.shared.egg-info/top_level.txt
+slapos/extension/__init__.py
+slapos/extension/shared/__init__.py

@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: slapos.extension.shared
+Version: 1.0
+Summary: zc.buildout extension for SlapOS's shared feature.
+Home-page: https://lab.nexedi.com/nexedi/slapos.extension.shared
+Author: Yusei Tahara
+Author-email: yusei@nexedi.com
+License: GPLv3
+Description-Content-Type: UNKNOWN
+Description: Buildout Extension for SlapOS's shared feature
+        ================================================
+        
+        slapos.extension.shared is a buildout extension that creates .shared
+        file in a software release directory if shared-parts is defined in buildout
+        section. .shared file is used to know if a software release is made with
+        shared feature.
+        
+        Usage
+        -----
+        
+        Add ``slapos.extension.shared`` in ``[buildout]`` section's ``extensions`` option like :
+        
+        ::
+        
+          [buildout]
+          extensions = slapos.extension.shared
+        
+        
+        Changes
+        =======
+        
+        1.0 (2018-08-21)
+        ----------------
+        
+        * Initial release.
+        
+        Download
+        ***********************
+        
+Keywords: slapos shared
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
