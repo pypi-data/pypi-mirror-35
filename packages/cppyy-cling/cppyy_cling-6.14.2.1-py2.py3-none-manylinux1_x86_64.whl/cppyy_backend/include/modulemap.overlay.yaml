@@ -1,0 +1,19 @@
+{
+  'version': 0,
+  'roots': [
+    { 'name': '/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-CentOS-linux/4.8.2/../../../../include/c++/4.8.2', 'type': 'directory',
+      'contents': [
+        { 'name': 'module.modulemap', 'type': 'file',
+          'external-contents': '/root/cppyy-dev/cppyy-backend/cling/builddir/install/cppyy_backend/include/stl.modulemap'
+        }
+      ]
+    },
+    { 'name': '/usr/include/', 'type': 'directory',
+      'contents': [
+        { 'name': 'module.modulemap', 'type': 'file',
+          'external-contents': '/root/cppyy-dev/cppyy-backend/cling/builddir/install/cppyy_backend/include/libc.modulemap'
+        }
+      ]
+    }
+  ]
+}
