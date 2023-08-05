@@ -1,0 +1,7 @@
+py
+setup.cfg
+setup.py
+pyclitool.egg-info/PKG-INFO
+pyclitool.egg-info/SOURCES.txt
+pyclitool.egg-info/dependency_links.txt
+pyclitool.egg-info/top_level.txt
