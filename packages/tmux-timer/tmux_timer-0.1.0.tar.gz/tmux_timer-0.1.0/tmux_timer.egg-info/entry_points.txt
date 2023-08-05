@@ -1,0 +1,3 @@
+[console_scripts]
+tmux_timer = tmux_timer.command_line:main
+
