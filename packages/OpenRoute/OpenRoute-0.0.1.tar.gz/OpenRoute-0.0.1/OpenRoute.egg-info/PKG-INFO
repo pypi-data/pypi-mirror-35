@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: OpenRoute
+Version: 0.0.1
+Summary: An open source route optimization tool based on Google ortool.
+Home-page: UNKNOWN
+Author: ccwukong
+Author-email: ccwukong@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: routing optimization
+Platform: any
