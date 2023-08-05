@@ -1,0 +1,7 @@
+README.rst
+setup.cfg
+setup.py
+murano_tempest_plugin.egg-info/PKG-INFO
+murano_tempest_plugin.egg-info/SOURCES.txt
+murano_tempest_plugin.egg-info/dependency_links.txt
+murano_tempest_plugin.egg-info/top_level.txt
