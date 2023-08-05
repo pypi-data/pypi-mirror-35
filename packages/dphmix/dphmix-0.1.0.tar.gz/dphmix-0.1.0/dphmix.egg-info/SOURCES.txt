@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+dphmix/GibbsDPHM.py
+dphmix/VariationalDPHM.py
+dphmix/__init__.py
+dphmix/clusters.py
+dphmix/distributions.py
+dphmix/gibbsHelpers.py
+dphmix/mfviHelpers.py
+dphmix/utils.py
+dphmix.egg-info/PKG-INFO
+dphmix.egg-info/SOURCES.txt
+dphmix.egg-info/dependency_links.txt
+dphmix.egg-info/not-zip-safe
+dphmix.egg-info/requires.txt
+dphmix.egg-info/top_level.txt
