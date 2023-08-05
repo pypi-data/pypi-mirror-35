@@ -1,0 +1,70 @@
+﻿{
+  "bot_defaults":
+  {
+  	"bot_name":"Happy Worm",
+	"bot_code":"S2FARM1",
+       	"bot_professions":
+	[
+	{
+	"profession_name":"Corn Farmers",
+	"profession_code":"CORNFARM"
+	},
+	{
+	"profession_name":"Core",
+	"profession_code":"CORE"
+	}
+	]
+  }, 
+  "connections": [
+	      {
+      "server_type": "peak_30",
+      "server_ip": "35.202.63.188:8080",
+      "code": "000000",
+      "connection_active": "True"
+	      },
+      {
+      "server_type": "peak_62",
+      "server_ip": "",
+      "code": "",
+      "connection_active": "False"
+      }
+   ],
+  "databases": [
+    {
+      "database_name": "local_rman_lite",
+      "database_engine": "sqlite3",
+      "database_dir": "",
+      "database_filename": "sqlite_database.db",
+      "database_user": "",
+      "database_password": "",
+      "database_host": "",
+      "database_port": "",
+      "database_active": "True"
+    },
+    {
+      "database_name": "local_rman_mysql",
+      "database_engine": "MySql/MariaDB",
+      "database_dir": "",
+      "database_filename": "",
+      "database_user": "",
+      "database_password": "",
+      "database_host": "",
+      "database_port": "",
+      "database_active": "False"
+    }
+  ],
+  "speech_apis": [
+    {
+      "name": "Google Speech API",
+      "code": "GOOGL",
+      "credentials_path": "",
+      "active": "True"
+    },
+    {
+      "name": "Bing Speech API",
+      "code": "BING",
+      "credentials_path": "",
+      "active": "False"
+    }
+  ]
+}
