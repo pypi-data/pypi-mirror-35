@@ -1,0 +1,5 @@
+protobuf
+taoassets-taopy
+
+[rcp_provider]
+python-taorpc>=1.0
