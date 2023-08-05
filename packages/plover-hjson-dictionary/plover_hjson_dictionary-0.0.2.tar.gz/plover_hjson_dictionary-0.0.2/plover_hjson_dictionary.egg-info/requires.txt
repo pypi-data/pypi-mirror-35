@@ -1,0 +1,2 @@
+plover>=4.0.0.dev1
+hjson>=3.0.1

@@ -1,0 +1,3 @@
+[plover.dictionary]
+hjson = plover_hjson_dictionary:HjsonDictionary
+
