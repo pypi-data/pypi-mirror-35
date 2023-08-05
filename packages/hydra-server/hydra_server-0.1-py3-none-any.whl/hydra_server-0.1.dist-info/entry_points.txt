@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        hydra-server=run_server:start_cli
+        
