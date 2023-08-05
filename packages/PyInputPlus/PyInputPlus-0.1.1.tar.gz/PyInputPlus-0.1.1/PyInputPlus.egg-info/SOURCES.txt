@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+PyInputPlus.egg-info/PKG-INFO
+PyInputPlus.egg-info/SOURCES.txt
+PyInputPlus.egg-info/dependency_links.txt
+PyInputPlus.egg-info/requires.txt
+PyInputPlus.egg-info/top_level.txt
+docs/Makefile
+docs/conf.py
+docs/index.rst
+docs/make.bat
+pyinputplus/__init__.py
+pyinputplus/test1.py
+tests/test_pyinputplus.py
