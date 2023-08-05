@@ -1,0 +1,3 @@
+[console_scripts]
+hydra-server = hydra_server.commands:start_cli
+
