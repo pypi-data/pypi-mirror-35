@@ -1,0 +1,15 @@
+setup.py
+stats_comp/__init__.py
+stats_comp/analysis_c.py
+stats_comp/analysis_cc.py
+stats_comp/analysis_multi.py
+stats_comp/analysis_n.py
+stats_comp/analysis_nc.py
+stats_comp/analysis_nn.py
+stats_comp/lttb.py
+stats_comp/utilities.py
+stats_comp.egg-info/PKG-INFO
+stats_comp.egg-info/SOURCES.txt
+stats_comp.egg-info/dependency_links.txt
+stats_comp.egg-info/requires.txt
+stats_comp.egg-info/top_level.txt
