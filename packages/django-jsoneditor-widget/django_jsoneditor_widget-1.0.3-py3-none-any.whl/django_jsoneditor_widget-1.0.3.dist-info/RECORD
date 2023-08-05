@@ -1,0 +1,7 @@
+django_jsoneditor_widget-1.0.3.dist-info/METADATA,sha256=OMLIrtimykdgqhga1KTZDHyqdtEvSMCUKuPOsaRweo0,1397
+django_jsoneditor_widget-1.0.3.dist-info/RECORD,,
+django_jsoneditor_widget-1.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_jsoneditor_widget-1.0.3.dist-info/top_level.txt,sha256=OkxZRLczWd5YYViwxTpflI5z8wAHNy-nIf-87Jfb0nE,11
+jsoneditor/__init__.py,sha256=fxuUQ1hy9zAtiRN2Pa6TofCFOKLGzHjL9DyQICdGl4Y,20
+jsoneditor/admin.py,sha256=Axwo6aITjNGtswXYrdyOT9QbH1fWg3jcQqzMOy7FO4o,369
+jsoneditor/forms.py,sha256=9H1UAWiFK-zrxVuv3ciS-HQfdvs7Edmsv5NEPdnRd6k,323
