@@ -1,0 +1,3 @@
+yzconfig
+marshmallow
+aiohttp>=3.3
