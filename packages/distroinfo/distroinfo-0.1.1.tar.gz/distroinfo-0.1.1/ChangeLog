@@ -1,0 +1,17 @@
+CHANGES
+=======
+
+0.1.1
+-----
+
+* README: provide examples of basic usage
+* core: packages and releases inheritance
+* Allow unit test selection through tox
+* core: enable remote import of info files
+* README: update and add usage references
+* fetch: add RemoteInfoFetcher to get info from URL
+* CI: add in-repo zuul(v3) testing jobs
+* distroinfo core
+* Initial setup
+* ManageSF commit
+* Initial empty repository
