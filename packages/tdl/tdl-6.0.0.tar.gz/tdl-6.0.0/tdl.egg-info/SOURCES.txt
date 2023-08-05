@@ -1,0 +1,16 @@
+CHANGELOG.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+build_libtcod.py
+libtcodpy.py
+requirements.txt
+setup.cfg
+setup.py
+stdeb.cfg
+unittest.cfg
+tdl.egg-info/PKG-INFO
+tdl.egg-info/SOURCES.txt
+tdl.egg-info/dependency_links.txt
+tdl.egg-info/requires.txt
+tdl.egg-info/top_level.txt
