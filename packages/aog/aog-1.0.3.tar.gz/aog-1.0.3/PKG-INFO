@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: aog
+Version: 1.0.3
+Summary: Python client library for actions on google
+Home-page: https://github.com/DeveloperBibin/python-aog/blob/master/README.md
+Author: Bibin Benny
+Author-email: bibinbenny@icloud.com
+License: MIT
+Description: Visit https://github.com/DeveloperBibin/python-aog for documentation. 
+Keywords: actions on google python client
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
