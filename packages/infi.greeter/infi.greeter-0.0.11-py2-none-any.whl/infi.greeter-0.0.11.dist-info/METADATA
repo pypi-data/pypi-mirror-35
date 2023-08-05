@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: infi.greeter
+Version: 0.0.11
+Summary: Linux greeter to wrap around /bin/login
+Home-page: https://github.com/Infinidat/infi.greeter
+Author: Arnon Yaari
+Author-email: arnony@infinidat.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click
+Requires-Dist: infi.traceback
+Requires-Dist: npyscreen
+Requires-Dist: setuptools
+
+Linux greeter to wrap around /bin/login
+
+

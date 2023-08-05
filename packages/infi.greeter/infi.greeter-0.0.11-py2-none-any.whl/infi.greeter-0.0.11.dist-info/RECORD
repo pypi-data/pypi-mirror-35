@@ -1,0 +1,14 @@
+infi.greeter-0.0.11-py2.7-nspkg.pth,sha256=Puo8Dhy7BSgYsqSaXhYQWKH_Zr23iy05JZ2pxHOAtNc,529
+infi/greeter/__init__.py,sha256=eUXFlLwpaJ_2irxgQeJ1qdne2M8EUbn5wsjVqEF8BdQ,484
+infi/greeter/__version__.py,sha256=IUt4hoQBKB8GsV6XK_uW8ZWV_yR4N8IFlQZ611Oyn5w,467
+infi/greeter/greeter.py,sha256=JkIVD3Pmv0Iod8QVjPoRiRsJeTirrE9WhLWFHWed3VE,5383
+infi/greeter/install.py,sha256=coRgWh0VNMY-feRz8IVDfLF9KjOjsuohPQzB0OdHTEk,3470
+infi/greeter/scripts.py,sha256=Le9Uj7MY0jREGRnRFu7as0EZsxwzqFnRLVkpt0bnQrU,1882
+infi.greeter-0.0.11.dist-info/DESCRIPTION.rst,sha256=V3gpN6p4gig-boioPBVJc7T2jG1zXt39te1mdshrNn4,42
+infi.greeter-0.0.11.dist-info/METADATA,sha256=GQCRAo_APrIOZDXcYLJcyv_gIHqiA_LsOohr03s18AU,703
+infi.greeter-0.0.11.dist-info/RECORD,,
+infi.greeter-0.0.11.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+infi.greeter-0.0.11.dist-info/entry_points.txt,sha256=xoqVrL_uwp9ZLaKRGF9hIDHST8HWvYjCkTGuI0yc7Eg,119
+infi.greeter-0.0.11.dist-info/metadata.json,sha256=HBuU5hY3GPDxIlGp5WrRVD25hD66spSC7eIjbxP7Nzo,1109
+infi.greeter-0.0.11.dist-info/namespace_packages.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
+infi.greeter-0.0.11.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
