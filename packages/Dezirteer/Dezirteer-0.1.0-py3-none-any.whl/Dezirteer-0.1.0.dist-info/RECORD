@@ -1,0 +1,9 @@
+Dezirteer-0.1.0.dist-info/METADATA,sha256=Z-bk1AJjNy6C6mKH8n7FEi79opc96aYJ5c1I4mSP5CA,1392
+Dezirteer-0.1.0.dist-info/RECORD,,
+Dezirteer-0.1.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+Dezirteer-0.1.0.dist-info/top_level.txt,sha256=yGn5WrSzV3Y_60vENqtHAq5UqqMXL-WGAQPc-I528jA,10
+dezirteer/__init__.py,sha256=85T5wohxvip7Dr7sssDYvui2J6JlcNpB9VxwzlV0JYA,111
+dezirteer/const.py,sha256=k7B9Ku6FQVgsb5wD6igba2Dezn2tsMKYj1PREKu-oYQ,974
+dezirteer/gui_support.py,sha256=aMdCHiaLqoKwcIijgciA0t7mV0DTibgqZYUflLPqemw,15629
+dezirteer/main_gui.py,sha256=eSX2ug37MjLImhd1-8pROtwwL4LVa37yf2I-SuidG4U,70732
+dezirteer/math_module.py,sha256=i9LOxiuy-vZqFV6hTbaIbLaXH8wYRSWTz3p9OA_iL7c,29963
