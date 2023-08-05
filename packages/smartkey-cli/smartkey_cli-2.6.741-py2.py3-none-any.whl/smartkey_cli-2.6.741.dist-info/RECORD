@@ -1,0 +1,11 @@
+sdkms_cli/VERSION,sha256=bl_xy1RP4WYkxYs6nG7BvlRPdXe5XN_6T3tw6sVG45o,8
+sdkms_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdkms_cli/__main__.py,sha256=CIDzl2E6UOLO3UJoSF60OM0YjM26zeOhCy5R9YyaY9w,133480
+sdkms_cli/pycompatible.py,sha256=fGaskx7Il5b3dsH8jA4j9Rx5NAyT8ugygkgcWbqHX74,2211
+smartkey_cli-2.6.741.dist-info/DESCRIPTION.rst,sha256=spCtjp8VLmYJHH8YJD7PgWOGm-nT_MJZhnDlcC1EImw,199
+smartkey_cli-2.6.741.dist-info/METADATA,sha256=czgENUrtBxFx8qGttPWmO8bAGOPqRK9lhEKWhMekqKU,947
+smartkey_cli-2.6.741.dist-info/RECORD,,
+smartkey_cli-2.6.741.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+smartkey_cli-2.6.741.dist-info/entry_points.txt,sha256=c4KiIbaQaa7zWAr5RUYC8Yfzm6YeshbJO8zhf0udHOo,58
+smartkey_cli-2.6.741.dist-info/metadata.json,sha256=EruEAkdYOjrYjgX-vA6pgoPcROi0ecKgtMF-M7VV-7E,1070
+smartkey_cli-2.6.741.dist-info/top_level.txt,sha256=tAiXvbbvR_V6aCOV5lMzjBSRgQrcMbku1gFF5wFF4qk,10
