@@ -1,0 +1,9 @@
+README.md
+setup.py
+klangooclient/MagnetAPIClient.py
+klangooclient/MagnetAPIClientV2.py
+klangooclient/__init__.py
+klangooclient.egg-info/PKG-INFO
+klangooclient.egg-info/SOURCES.txt
+klangooclient.egg-info/dependency_links.txt
+klangooclient.egg-info/top_level.txt

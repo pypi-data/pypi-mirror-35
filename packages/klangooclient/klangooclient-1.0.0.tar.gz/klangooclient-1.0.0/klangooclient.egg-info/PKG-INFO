@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: klangooclient
+Version: 1.0.0
+Summary: Magnet API client driver for Python
+Home-page: https://github.com/Klangoo/MagnetApiClient.Python
+Author: Klangoo
+Author-email: support@klangoo.com
+License: MIT License
+Description: # Magney API Client for Python
+Keywords: Klangoo,Magnet,MagnetApiClient,Http Client
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Description-Content-Type: text/markdown

@@ -1,0 +1,1 @@
+# Magney API Client for Python
