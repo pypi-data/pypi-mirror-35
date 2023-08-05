@@ -1,0 +1,10 @@
+ti.me-0.3.1.dist-info/METADATA,sha256=bbqlCVwY5sTPuBCVYOHn-DWHdjcgfc8sJf-xiuzLbYs,854
+ti.me-0.3.1.dist-info/RECORD,,
+ti.me-0.3.1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+ti.me-0.3.1.dist-info/entry_points.txt,sha256=-l7NNKV_Fdo6DfTSCP_s7ywTmQGIAibhqelWHFArsN4,44
+ti.me-0.3.1.dist-info/top_level.txt,sha256=3AN23uQxzrQ-xp-_ax_g-dQGPblw21HvjSi9WrShxeg,8
+timecli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timelib/__init__.py,sha256=QrpnYfUG8FKXWjAd4s745U4ir3IS2g5DQaTt2Q_O0_c,1817
+timelib/exceptions.py,sha256=Alxiy37l03VH33rbiQ1v3MnIS0UONOByPgVDep1__vM,823
+timelib/logging.py,sha256=IFN8AwLda--dUu0ISDZmWGguxd3GdTDZ6eBQkufV1zU,643
+timelib/management.py,sha256=r8TK7fTIvLCNXNQM39rbFKb-0B7_atvO06OG9PfhuK0,24390
