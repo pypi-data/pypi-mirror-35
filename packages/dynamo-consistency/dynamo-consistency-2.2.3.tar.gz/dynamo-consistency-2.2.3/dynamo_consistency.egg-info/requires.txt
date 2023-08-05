@@ -1,0 +1,4 @@
+pyyaml
+docutils
+MySQL-python
+cmstoolbox>=0.9.8
