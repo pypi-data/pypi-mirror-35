@@ -1,0 +1,18 @@
+- project:
+    check:
+      jobs:
+        - watcher-tempest-functional:
+            voting: false
+        - watcher-tempest-dummy_optim:
+            voting: false
+        - watcher-tempest-actuator:
+            voting: false
+        - watcher-tempest-basic_optim:
+            voting: false
+        - watcher-tempest-workload_balancing:
+            voting: false
+
+    gate:
+      jobs:
+        - watcher-tempest-functional
+
