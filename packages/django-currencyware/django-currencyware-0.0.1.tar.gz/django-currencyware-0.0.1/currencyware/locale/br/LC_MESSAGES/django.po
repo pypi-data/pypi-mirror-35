@@ -1,0 +1,357 @@
+# Translation of ISO 4217 (currency names) to Breton
+# Copyright © various authors, see list below.
+# This file is distributed under the same license as the iso-codes package.
+#
+# Denis Arnaud <denisarnuad@yahoo.fr>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2009-04-19 09:45+0000\n"
+"Last-Translator: Denis <Unknown>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "Diram UAE"
+
+msgid "ISO_4217.AFN"
+msgstr "Afgani"
+
+msgid "ISO_4217.ALL"
+msgstr "Lek"
+
+msgid "ISO_4217.AMD"
+msgstr "Dram armeniek"
+
+msgid "ISO_4217.ANG"
+msgstr "Gilder an Antilhez an Nederland"
+
+msgid "ISO_4217.AOA"
+msgstr "Kwanza"
+
+msgid "ISO_4217.ARS"
+msgstr "Peso arc'hantinat"
+
+msgid "ISO_4217.AUD"
+msgstr "Dollar aostralian"
+
+msgid "ISO_4217.AWG"
+msgstr "Gilder Aruban"
+
+msgid "ISO_4217.AZN"
+msgstr "Manat azerbaidjanek"
+
+msgid "ISO_4217.BBD"
+msgstr "Dollar Barbados"
+
+msgid "ISO_4217.BDT"
+msgstr "Taka"
+
+msgid "ISO_4217.BGN"
+msgstr "Lev bulgarian"
+
+msgid "ISO_4217.BHD"
+msgstr "Dinar Bahrein"
+
+msgid "ISO_4217.BIF"
+msgstr "Lur burundiat"
+
+msgid "ISO_4217.BND"
+msgstr "Dollar Brunei"
+
+msgid "ISO_4217.BOB"
+msgstr "Boliviano"
+
+msgid "ISO_4217.BTN"
+msgstr "Ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "Pula"
+
+msgid "ISO_4217.BYR"
+msgstr "Roubl rusian"
+
+msgid "ISO_4217.BZD"
+msgstr "Dollar Belize"
+
+msgid "ISO_4217.CDF"
+msgstr "Lur komorian"
+
+msgid "ISO_4217.CHF"
+msgstr "Lur Suis"
+
+msgid "ISO_4217.CNY"
+msgstr "Yuan Renminbi"
+
+msgid "ISO_4217.CRC"
+msgstr "Kolon kostarikan"
+
+msgid "ISO_4217.CVE"
+msgstr "Escoudo ar C'hab Glaz"
+
+msgid "ISO_4217.CZK"
+msgstr "Kurunenn tchek"
+
+msgid "ISO_4217.DJF"
+msgstr "Lur Djibouti"
+
+msgid "ISO_4217.DKK"
+msgstr "Kurunenn dan"
+
+msgid "ISO_4217.DZD"
+msgstr "Dinar aljerian"
+
+msgid "ISO_4217.EGP"
+msgstr "Lur egiptat"
+
+msgid "ISO_4217.ETB"
+msgstr "Birr etiopat"
+
+msgid "ISO_4217.EUR"
+msgstr "Euro"
+
+msgid "ISO_4217.FJD"
+msgstr "Dollar fijian"
+
+msgid "ISO_4217.GHS"
+msgstr "Cedi Ghana"
+
+msgid "ISO_4217.GIP"
+msgstr "Lur Gibraltar"
+
+msgid "ISO_4217.GNF"
+msgstr "Lur Ginea"
+
+msgid "ISO_4217.GTQ"
+msgstr "Quetzal"
+
+msgid "ISO_4217.GYD"
+msgstr "Dollar Guyana"
+
+msgid "ISO_4217.HKD"
+msgstr "Dollar Hong Kong"
+
+msgid "ISO_4217.HNL"
+msgstr "Lempirra"
+
+msgid "ISO_4217.HTG"
+msgstr "Gourde"
+
+msgid "ISO_4217.INR"
+msgstr "Roupi indiat"
+
+msgid "ISO_4217.IQD"
+msgstr "Dinar irakat"
+
+msgid "ISO_4217.IRR"
+msgstr "Rial iranian"
+
+msgid "ISO_4217.ISK"
+msgstr "Kurunenn islandat"
+
+msgid "ISO_4217.JOD"
+msgstr "Dinar jordanian"
+
+msgid "ISO_4217.JPY"
+msgstr "Yen"
+
+msgid "ISO_4217.KES"
+msgstr "Shilling kenyan"
+
+msgid "ISO_4217.KGS"
+msgstr "Som"
+
+msgid "ISO_4217.KHR"
+msgstr "Riel"
+
+msgid "ISO_4217.KMF"
+msgstr "Lur komorian"
+
+msgid "ISO_4217.KPW"
+msgstr "Won korean an Norzh"
+
+msgid "ISO_4217.KRW"
+msgstr "Won"
+
+msgid "ISO_4217.KWD"
+msgstr "Dinar koweitat"
+
+msgid "ISO_4217.KYD"
+msgstr "Dollar Inizi Cayman"
+
+msgid "ISO_4217.KZT"
+msgstr "Tenge"
+
+msgid "ISO_4217.LAK"
+msgstr "Kip"
+
+msgid "ISO_4217.LBP"
+msgstr "Lur libanat"
+
+msgid "ISO_4217.LKR"
+msgstr "Roupi Sri lanka"
+
+msgid "ISO_4217.LRD"
+msgstr "Dollar liberian"
+
+msgid "ISO_4217.LSL"
+msgstr "Loti"
+
+msgid "ISO_4217.LYD"
+msgstr "Dinar libian"
+
+msgid "ISO_4217.MAD"
+msgstr "Diram marokan"
+
+msgid "ISO_4217.MKD"
+msgstr "Denar"
+
+msgid "ISO_4217.MMK"
+msgstr "Kyat"
+
+msgid "ISO_4217.MNT"
+msgstr "Tugrik"
+
+msgid "ISO_4217.MOP"
+msgstr "Pataka"
+
+msgid "ISO_4217.MRO"
+msgstr "Ouguiya"
+
+msgid "ISO_4217.MWK"
+msgstr "Kwacha"
+
+msgid "ISO_4217.MXN"
+msgstr "Peso mec'hikan"
+
+msgid "ISO_4217.MYR"
+msgstr "Ringgit malaysian"
+
+msgid "ISO_4217.NAD"
+msgstr "Dollar Namibia"
+
+msgid "ISO_4217.NGN"
+msgstr "Naira"
+
+msgid "ISO_4217.NPR"
+msgstr "Roupi nepalat"
+
+msgid "ISO_4217.NZD"
+msgstr "Dollar zelandneveziat"
+
+msgid "ISO_4217.OMR"
+msgstr "Rial Oman"
+
+msgid "ISO_4217.PEN"
+msgstr "Som"
+
+msgid "ISO_4217.PGK"
+msgstr "Kina"
+
+msgid "ISO_4217.PHP"
+msgstr "Peso filipinek"
+
+msgid "ISO_4217.PKR"
+msgstr "Roupi pakistanat"
+
+msgid "ISO_4217.PLN"
+msgstr "Zloty"
+
+msgid "ISO_4217.PYG"
+msgstr "Guarani"
+
+msgid "ISO_4217.QAR"
+msgstr "Rial qatarat"
+
+msgid "ISO_4217.RUB"
+msgstr "Roubl rusian"
+
+msgid "ISO_4217.RWF"
+msgstr "Lur rwandat"
+
+msgid "ISO_4217.SAR"
+msgstr "Riyal Saoudat"
+
+msgid "ISO_4217.SBD"
+msgstr "Dollar Enez Salomon"
+
+msgid "ISO_4217.SCR"
+msgstr "Roupi ar Seychelles"
+
+msgid "ISO_4217.SGD"
+msgstr "Dollar Singapour"
+
+msgid "ISO_4217.SOS"
+msgstr "Shilling somalian"
+
+msgid "ISO_4217.SRD"
+msgstr "Dollar Surinam"
+
+msgid "ISO_4217.SSP"
+msgstr "Lur libanat"
+
+msgid "ISO_4217.STD"
+msgstr "Dobra"
+
+msgid "ISO_4217.SYP"
+msgstr "Lur sirian"
+
+msgid "ISO_4217.SZL"
+msgstr "Lilangeni"
+
+msgid "ISO_4217.THB"
+msgstr "Bat"
+
+msgid "ISO_4217.TJS"
+msgstr "Somoni"
+
+msgid "ISO_4217.TOP"
+msgstr "Pa'anga"
+
+msgid "ISO_4217.TRY"
+msgstr "Lur turkek nevez"
+
+msgid "ISO_4217.TTD"
+msgstr "Dollar Trinidad ha Tobago"
+
+msgid "ISO_4217.TWD"
+msgstr "Dollar nevez taiwanat"
+
+msgid "ISO_4217.USD"
+msgstr "Dollar US"
+
+msgid "ISO_4217.VND"
+msgstr "Dong"
+
+msgid "ISO_4217.VUV"
+msgstr "Vatu"
+
+msgid "ISO_4217.WST"
+msgstr "Tala"
+
+msgid "ISO_4217.XAF"
+msgstr "Lur CFA BEAC"
+
+msgid "ISO_4217.XOF"
+msgstr "Lur CFA BCEAO"
+
+msgid "ISO_4217.XPF"
+msgstr "Lur CFP"
+
+msgid "ISO_4217.YER"
+msgstr "Rial yemenat"
+
+msgid "ISO_4217.ZAR"
+msgstr "Rand"
+
+msgid "ISO_4217.ZMW"
+msgstr "Kwacha"
+
+msgid "ISO_4217.ZWL"
+msgstr "Dollar Zimbabwe"

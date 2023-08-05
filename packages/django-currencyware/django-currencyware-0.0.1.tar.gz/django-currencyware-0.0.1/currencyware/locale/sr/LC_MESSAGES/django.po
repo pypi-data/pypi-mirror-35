@@ -1,0 +1,506 @@
+# Serbian translation of `iso_4217' package.
+# Copyright (C) 2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the iso-codes package.
+# Aleksandar Jelenak <aleksandar.jelenak@gmail.com>, 2012.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2015-12-26 22:07+0200\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <(nothing)>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "ISO_4217.AED"
+msgstr "УАЕ дирхам"
+
+msgid "ISO_4217.AFN"
+msgstr "авгани"
+
+msgid "ISO_4217.ALL"
+msgstr "лек"
+
+msgid "ISO_4217.AMD"
+msgstr "јерменски драм"
+
+msgid "ISO_4217.ANG"
+msgstr "гулден Холандских Антила"
+
+msgid "ISO_4217.AOA"
+msgstr "кванза"
+
+msgid "ISO_4217.ARS"
+msgstr "аргентински пезо"
+
+msgid "ISO_4217.AUD"
+msgstr "аустралијски долар"
+
+msgid "ISO_4217.AWG"
+msgstr "арубански гулден"
+
+msgid "ISO_4217.AZN"
+msgstr "азербејџански манат"
+
+msgid "ISO_4217.BAM"
+msgstr "конвертибилне марке"
+
+msgid "ISO_4217.BBD"
+msgstr "барбадоски долар"
+
+msgid "ISO_4217.BDT"
+msgstr "така"
+
+msgid "ISO_4217.BGN"
+msgstr "бугарски лев"
+
+msgid "ISO_4217.BHD"
+msgstr "бахреински динар"
+
+msgid "ISO_4217.BIF"
+msgstr "бурундски франак"
+
+msgid "ISO_4217.BMD"
+msgstr "бермудски долар"
+
+msgid "ISO_4217.BND"
+msgstr "брунејски долар"
+
+msgid "ISO_4217.BOB"
+msgstr "боливијано"
+
+msgid "ISO_4217.BRL"
+msgstr "бразилски реал"
+
+msgid "ISO_4217.BSD"
+msgstr "бахамски долар"
+
+msgid "ISO_4217.BTN"
+msgstr "гултрум"
+
+msgid "ISO_4217.BWP"
+msgstr "пула"
+
+msgid "ISO_4217.BYR"
+msgstr "белоруска рубља"
+
+msgid "ISO_4217.BZD"
+msgstr "белизеански долар"
+
+msgid "ISO_4217.CAD"
+msgstr "канадски долар"
+
+msgid "ISO_4217.CDF"
+msgstr "конгоански франак"
+
+msgid "ISO_4217.CHF"
+msgstr "швајцарски франак"
+
+msgid "ISO_4217.CLP"
+msgstr "чилеански пезо"
+
+msgid "ISO_4217.CNY"
+msgstr "јуан ренминби"
+
+msgid "ISO_4217.COP"
+msgstr "колумбијски пезо"
+
+msgid "ISO_4217.CRC"
+msgstr "костарикански колон"
+
+msgid "ISO_4217.CUC"
+msgstr "конвертибилне марке"
+
+msgid "ISO_4217.CUP"
+msgstr "кубански пезо"
+
+msgid "ISO_4217.CVE"
+msgstr "зеленортски ескудо"
+
+msgid "ISO_4217.CZK"
+msgstr "чешка круна"
+
+msgid "ISO_4217.DJF"
+msgstr "џибутански франак"
+
+msgid "ISO_4217.DKK"
+msgstr "данска круна"
+
+msgid "ISO_4217.DOP"
+msgstr "доминикански пезо"
+
+msgid "ISO_4217.DZD"
+msgstr "алжирски динар"
+
+msgid "ISO_4217.EGP"
+msgstr "египатска фунта"
+
+msgid "ISO_4217.ERN"
+msgstr "накфа"
+
+msgid "ISO_4217.ETB"
+msgstr "етиопљански бир"
+
+msgid "ISO_4217.EUR"
+msgstr "евро"
+
+msgid "ISO_4217.FJD"
+msgstr "фиџијански долар"
+
+msgid "ISO_4217.FKP"
+msgstr "фолкландска фунта"
+
+msgid "ISO_4217.GBP"
+msgstr "фунта стерлинг"
+
+msgid "ISO_4217.GEL"
+msgstr "лари"
+
+msgid "ISO_4217.GHS"
+msgstr "гана седи"
+
+msgid "ISO_4217.GIP"
+msgstr "гибралтарска фунта"
+
+msgid "ISO_4217.GMD"
+msgstr "даласи"
+
+msgid "ISO_4217.GNF"
+msgstr "гвинејски франак"
+
+msgid "ISO_4217.GTQ"
+msgstr "квецал"
+
+msgid "ISO_4217.GYD"
+msgstr "гвајански долар"
+
+msgid "ISO_4217.HKD"
+msgstr "хонгконшки долар"
+
+msgid "ISO_4217.HNL"
+msgstr "лемпира"
+
+msgid "ISO_4217.HTG"
+msgstr "гурд"
+
+msgid "ISO_4217.HUF"
+msgstr "форинта"
+
+msgid "ISO_4217.IDR"
+msgstr "рупија"
+
+msgid "ISO_4217.ILS"
+msgstr "нови израелски шекел"
+
+msgid "ISO_4217.INR"
+msgstr "индијски рупи"
+
+msgid "ISO_4217.IQD"
+msgstr "ирачки динар"
+
+msgid "ISO_4217.IRR"
+msgstr "ирански ријал"
+
+msgid "ISO_4217.ISK"
+msgstr "исландска круна"
+
+msgid "ISO_4217.JMD"
+msgstr "јамајкански долар"
+
+msgid "ISO_4217.JOD"
+msgstr "јордански динар"
+
+msgid "ISO_4217.JPY"
+msgstr "јен"
+
+msgid "ISO_4217.KES"
+msgstr "кенијски шилинг"
+
+msgid "ISO_4217.KGS"
+msgstr "сом"
+
+msgid "ISO_4217.KHR"
+msgstr "ријел"
+
+msgid "ISO_4217.KMF"
+msgstr "коморански франак"
+
+msgid "ISO_4217.KPW"
+msgstr "севернокорејски вон"
+
+msgid "ISO_4217.KRW"
+msgstr "вон"
+
+msgid "ISO_4217.KWD"
+msgstr "кувајтски динар"
+
+msgid "ISO_4217.KYD"
+msgstr "кајмански долар"
+
+msgid "ISO_4217.KZT"
+msgstr "тенге"
+
+msgid "ISO_4217.LAK"
+msgstr "кип"
+
+msgid "ISO_4217.LBP"
+msgstr "либанска фунта"
+
+msgid "ISO_4217.LKR"
+msgstr "шриланкански рупи"
+
+msgid "ISO_4217.LRD"
+msgstr "либеријски долар"
+
+msgid "ISO_4217.LSL"
+msgstr "лоти"
+
+msgid "ISO_4217.LYD"
+msgstr "либијски динар"
+
+msgid "ISO_4217.MAD"
+msgstr "марокански дирхам"
+
+msgid "ISO_4217.MDL"
+msgstr "молдовански леу"
+
+msgid "ISO_4217.MGA"
+msgstr "малагашки аријари"
+
+msgid "ISO_4217.MKD"
+msgstr "денар"
+
+msgid "ISO_4217.MMK"
+msgstr "кјат"
+
+msgid "ISO_4217.MNT"
+msgstr "тугрик"
+
+msgid "ISO_4217.MOP"
+msgstr "патака"
+
+msgid "ISO_4217.MRO"
+msgstr "огија"
+
+msgid "ISO_4217.MUR"
+msgstr "маурицијански рупи"
+
+msgid "ISO_4217.MVR"
+msgstr "руфија"
+
+msgid "ISO_4217.MWK"
+msgstr "замбијска квача"
+
+msgid "ISO_4217.MXN"
+msgstr "мексички пезо"
+
+msgid "ISO_4217.MYR"
+msgstr "малазијски рингит"
+
+msgid "ISO_4217.NAD"
+msgstr "намибија долар"
+
+msgid "ISO_4217.NGN"
+msgstr "наира"
+
+msgid "ISO_4217.NIO"
+msgstr "кордоба ого"
+
+msgid "ISO_4217.NOK"
+msgstr "норвешка круна"
+
+msgid "ISO_4217.NPR"
+msgstr "непалски рупи"
+
+msgid "ISO_4217.NZD"
+msgstr "новозеландски долар"
+
+msgid "ISO_4217.OMR"
+msgstr "омански ријал"
+
+msgid "ISO_4217.PAB"
+msgstr "балбоа"
+
+msgid "ISO_4217.PEN"
+msgstr "сом"
+
+msgid "ISO_4217.PGK"
+msgstr "кина"
+
+msgid "ISO_4217.PHP"
+msgstr "филипински пезо"
+
+msgid "ISO_4217.PKR"
+msgstr "пакистански рупи"
+
+msgid "ISO_4217.PLN"
+msgstr "злот"
+
+msgid "ISO_4217.PYG"
+msgstr "гуарани"
+
+msgid "ISO_4217.QAR"
+msgstr "катарски ријал"
+
+msgid "ISO_4217.RSD"
+msgstr "српски динар"
+
+msgid "ISO_4217.RUB"
+msgstr "руска рубља"
+
+msgid "ISO_4217.RWF"
+msgstr "руандски франак"
+
+msgid "ISO_4217.SAR"
+msgstr "саудијски ријал"
+
+msgid "ISO_4217.SBD"
+msgstr "соломонски долар"
+
+msgid "ISO_4217.SCR"
+msgstr "сејшелски рупи"
+
+msgid "ISO_4217.SDG"
+msgstr "суданска фунта"
+
+msgid "ISO_4217.SEK"
+msgstr "шведска круна"
+
+msgid "ISO_4217.SGD"
+msgstr "сингапурски долар"
+
+msgid "ISO_4217.SHP"
+msgstr "светохеленска фунта"
+
+msgid "ISO_4217.SLL"
+msgstr "леон"
+
+msgid "ISO_4217.SOS"
+msgstr "сомалијански шилинг"
+
+msgid "ISO_4217.SRD"
+msgstr "суринамски долар"
+
+msgid "ISO_4217.SSP"
+msgstr "суданска фунта"
+
+msgid "ISO_4217.STD"
+msgstr "добра"
+
+msgid "ISO_4217.SVC"
+msgstr "салвадорски колон"
+
+msgid "ISO_4217.SYP"
+msgstr "сиријска фунта"
+
+msgid "ISO_4217.SZL"
+msgstr "лилангени"
+
+msgid "ISO_4217.THB"
+msgstr "бахт"
+
+msgid "ISO_4217.TJS"
+msgstr "сомони"
+
+msgid "ISO_4217.TND"
+msgstr "тунижански динар"
+
+msgid "ISO_4217.TOP"
+msgstr "паанга"
+
+msgid "ISO_4217.TRY"
+msgstr "нова турска лира"
+
+msgid "ISO_4217.TTD"
+msgstr "тринидадски долар"
+
+msgid "ISO_4217.TWD"
+msgstr "новотајвански долар"
+
+msgid "ISO_4217.TZS"
+msgstr "танзанијски шилинг"
+
+msgid "ISO_4217.UAH"
+msgstr "хривња"
+
+msgid "ISO_4217.UGX"
+msgstr "уганда шилинг"
+
+msgid "ISO_4217.USD"
+msgstr "амерички долар"
+
+msgid "ISO_4217.UYU"
+msgstr "уругвајски пезо"
+
+msgid "ISO_4217.UZS"
+msgstr "узбекистански сум"
+
+msgid "ISO_4217.VND"
+msgstr "донг"
+
+msgid "ISO_4217.VUV"
+msgstr "вату"
+
+msgid "ISO_4217.WST"
+msgstr "тала"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA франак BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "сребро"
+
+msgid "ISO_4217.XAU"
+msgstr "злато"
+
+msgid "ISO_4217.XBA"
+msgstr "европска мешовита јединица (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "европска монетарна јединица (E.M.U.-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "европска обрачунска једниица 9 (E.U.A.-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "европска обрачунска једниица 17 (E.U.A.-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "источнокарипски долар"
+
+msgid "ISO_4217.XDR"
+msgstr "посебно вучење чекова"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA франак BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "паладијум"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP франак"
+
+msgid "ISO_4217.XPT"
+msgstr "платина"
+
+msgid "ISO_4217.XTS"
+msgstr "Кôд за тестирање"
+
+msgid "ISO_4217.YER"
+msgstr "јеменски ријал"
+
+msgid "ISO_4217.ZAR"
+msgstr "ранд"
+
+msgid "ISO_4217.ZMW"
+msgstr "замбијска квача"
+
+msgid "ISO_4217.ZWL"
+msgstr "зимбабвеански долар"

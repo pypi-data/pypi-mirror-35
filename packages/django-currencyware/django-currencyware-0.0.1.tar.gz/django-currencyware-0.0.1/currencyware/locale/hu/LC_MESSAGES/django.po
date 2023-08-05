@@ -1,0 +1,517 @@
+# translation of iso_4217-2.0.po to
+# Translation of ISO-4217 (currency names) to Hungarian
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C)
+#
+# http://www.unicode.org/cldr/data/diff/main/hu_HU.html
+#
+# Free Software Foundation, Inc., 2000, 2004, 2006.
+#   Emese Kovacs <emese@gnome.hu>, 2000.
+#   Andras TIMAR <timar@gnome.hu>, 2000.
+#   VERÓK István <vi@fsf.hu>, 2004.
+#   Gabor Kelemen <kelemeng@gnome.hu>, 2006.
+#   Kalman Kemenczy <kkemenczy@novell.com>, 2007, 2008, 2009.
+#   Kalman Kemenczy <kkemenczy@gmail.com>, 2010.
+#   Balázs Úr <urbalazs@gmail.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2015-08-31 20:34+0200\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgid "ISO_4217.AED"
+msgstr "egyesült arab emírségekbeli dirham"
+
+msgid "ISO_4217.AFN"
+msgstr "afgáni"
+
+msgid "ISO_4217.ALL"
+msgstr "lek"
+
+msgid "ISO_4217.AMD"
+msgstr "örmény dram"
+
+msgid "ISO_4217.ANG"
+msgstr "holland antilláki forint"
+
+msgid "ISO_4217.AOA"
+msgstr "kwanza"
+
+msgid "ISO_4217.ARS"
+msgstr "argentin peso"
+
+msgid "ISO_4217.AUD"
+msgstr "ausztrál dollár"
+
+msgid "ISO_4217.AWG"
+msgstr "arubai florin"
+
+msgid "ISO_4217.AZN"
+msgstr "azerbajdzsáni manat"
+
+msgid "ISO_4217.BAM"
+msgstr "konvertibilis márka"
+
+msgid "ISO_4217.BBD"
+msgstr "barbadosi dollár"
+
+msgid "ISO_4217.BDT"
+msgstr "taka"
+
+msgid "ISO_4217.BGN"
+msgstr "bolgár leva"
+
+msgid "ISO_4217.BHD"
+msgstr "bahreini dinár"
+
+msgid "ISO_4217.BIF"
+msgstr "burundi frank"
+
+msgid "ISO_4217.BMD"
+msgstr "bermudai dollár"
+
+msgid "ISO_4217.BND"
+msgstr "brunei dollár"
+
+msgid "ISO_4217.BOB"
+msgstr "bolíviai boliviano"
+
+msgid "ISO_4217.BRL"
+msgstr "brazil real"
+
+msgid "ISO_4217.BSD"
+msgstr "bahamai dollár"
+
+msgid "ISO_4217.BTN"
+msgstr "ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "pula"
+
+msgid "ISO_4217.BYR"
+msgstr "belarusz rubel"
+
+msgid "ISO_4217.BZD"
+msgstr "Belize-i dollár"
+
+msgid "ISO_4217.CAD"
+msgstr "kanadai dollár"
+
+msgid "ISO_4217.CDF"
+msgstr "kongói frank"
+
+msgid "ISO_4217.CHF"
+msgstr "svájci frank"
+
+msgid "ISO_4217.CLP"
+msgstr "chilei peso"
+
+msgid "ISO_4217.CNY"
+msgstr "renminbi jüan"
+
+msgid "ISO_4217.COP"
+msgstr "kolumbiai peso"
+
+msgid "ISO_4217.CRC"
+msgstr "Costa Rica-i colon"
+
+msgid "ISO_4217.CUC"
+msgstr "konvertibilis márka"
+
+msgid "ISO_4217.CUP"
+msgstr "kubai peso"
+
+msgid "ISO_4217.CVE"
+msgstr "zöld-foki-szigeteki escudo"
+
+msgid "ISO_4217.CZK"
+msgstr "cseh korona"
+
+msgid "ISO_4217.DJF"
+msgstr "dzsibuti frank"
+
+msgid "ISO_4217.DKK"
+msgstr "dán korona"
+
+msgid "ISO_4217.DOP"
+msgstr "dominikai peso"
+
+msgid "ISO_4217.DZD"
+msgstr "algériai dinár"
+
+msgid "ISO_4217.EGP"
+msgstr "egyiptomi font"
+
+msgid "ISO_4217.ERN"
+msgstr "nakfa"
+
+msgid "ISO_4217.ETB"
+msgstr "etióp birr"
+
+msgid "ISO_4217.EUR"
+msgstr "euró"
+
+msgid "ISO_4217.FJD"
+msgstr "fidzsi dollár"
+
+msgid "ISO_4217.FKP"
+msgstr "Falkland-szigeteki font"
+
+msgid "ISO_4217.GBP"
+msgstr "angol font sterling"
+
+msgid "ISO_4217.GEL"
+msgstr "lari"
+
+msgid "ISO_4217.GHS"
+msgstr "ghánai cedi"
+
+msgid "ISO_4217.GIP"
+msgstr "gibraltári font"
+
+msgid "ISO_4217.GMD"
+msgstr "dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "guineai frank"
+
+msgid "ISO_4217.GTQ"
+msgstr "quetzal"
+
+msgid "ISO_4217.GYD"
+msgstr "guyanai dollár"
+
+msgid "ISO_4217.HKD"
+msgstr "hongkongi dollár"
+
+msgid "ISO_4217.HNL"
+msgstr "lempira"
+
+msgid "ISO_4217.HTG"
+msgstr "gourde"
+
+msgid "ISO_4217.HUF"
+msgstr "forint"
+
+msgid "ISO_4217.IDR"
+msgstr "rúpia"
+
+msgid "ISO_4217.ILS"
+msgstr "izraeli új sékel"
+
+msgid "ISO_4217.INR"
+msgstr "indiai rúpia"
+
+msgid "ISO_4217.IQD"
+msgstr "iraki dinár"
+
+msgid "ISO_4217.IRR"
+msgstr "iráni riál"
+
+msgid "ISO_4217.ISK"
+msgstr "izlandi korona"
+
+msgid "ISO_4217.JMD"
+msgstr "jamaikai dollár"
+
+msgid "ISO_4217.JOD"
+msgstr "jordán dinár"
+
+msgid "ISO_4217.JPY"
+msgstr "jen"
+
+msgid "ISO_4217.KES"
+msgstr "kenyai shilling"
+
+msgid "ISO_4217.KGS"
+msgstr "szom"
+
+msgid "ISO_4217.KHR"
+msgstr "riel"
+
+msgid "ISO_4217.KMF"
+msgstr "komorei frank"
+
+msgid "ISO_4217.KPW"
+msgstr "észak-koreai won"
+
+msgid "ISO_4217.KRW"
+msgstr "von"
+
+msgid "ISO_4217.KWD"
+msgstr "kuvaiti dinár"
+
+msgid "ISO_4217.KYD"
+msgstr "kajmán-szigeteki dollár"
+
+msgid "ISO_4217.KZT"
+msgstr "tenge"
+
+msgid "ISO_4217.LAK"
+msgstr "kip"
+
+msgid "ISO_4217.LBP"
+msgstr "libanoni font"
+
+msgid "ISO_4217.LKR"
+msgstr "Srí Lanka-i rúpia"
+
+msgid "ISO_4217.LRD"
+msgstr "libériai dollár"
+
+msgid "ISO_4217.LSL"
+msgstr "loti"
+
+msgid "ISO_4217.LYD"
+msgstr "líbiai dinár"
+
+msgid "ISO_4217.MAD"
+msgstr "marokkói dirham"
+
+msgid "ISO_4217.MDL"
+msgstr "moldovai leu"
+
+msgid "ISO_4217.MGA"
+msgstr "madagaszkári ariary"
+
+msgid "ISO_4217.MKD"
+msgstr "dinár"
+
+msgid "ISO_4217.MMK"
+msgstr "kyat"
+
+msgid "ISO_4217.MNT"
+msgstr "tugrik"
+
+msgid "ISO_4217.MOP"
+msgstr "pataca"
+
+msgid "ISO_4217.MRO"
+msgstr "ouguiya"
+
+msgid "ISO_4217.MUR"
+msgstr "mauritiusi rúpia"
+
+msgid "ISO_4217.MVR"
+msgstr "rúfia"
+
+msgid "ISO_4217.MWK"
+msgstr "zambiai kwacha"
+
+msgid "ISO_4217.MXN"
+msgstr "mexikói peso"
+
+msgid "ISO_4217.MYR"
+msgstr "maláj ringgit"
+
+msgid "ISO_4217.NAD"
+msgstr "namíbiai dollár"
+
+msgid "ISO_4217.NGN"
+msgstr "naira"
+
+msgid "ISO_4217.NIO"
+msgstr "córdoba oro"
+
+msgid "ISO_4217.NOK"
+msgstr "norvég korona"
+
+msgid "ISO_4217.NPR"
+msgstr "nepáli rúpia"
+
+msgid "ISO_4217.NZD"
+msgstr "új-zélandi dollár"
+
+msgid "ISO_4217.OMR"
+msgstr "ománi rial"
+
+msgid "ISO_4217.PAB"
+msgstr "balboa"
+
+msgid "ISO_4217.PEN"
+msgstr "szom"
+
+msgid "ISO_4217.PGK"
+msgstr "kina"
+
+msgid "ISO_4217.PHP"
+msgstr "Fülöp-szigeteki peso"
+
+msgid "ISO_4217.PKR"
+msgstr "pakisztáni rúpia"
+
+msgid "ISO_4217.PLN"
+msgstr "zloty"
+
+msgid "ISO_4217.PYG"
+msgstr "guarani"
+
+msgid "ISO_4217.QAR"
+msgstr "katari riyál"
+
+msgid "ISO_4217.RSD"
+msgstr "Szerb dinár"
+
+msgid "ISO_4217.RUB"
+msgstr "orosz rubel"
+
+msgid "ISO_4217.RWF"
+msgstr "ruandai frank"
+
+msgid "ISO_4217.SAR"
+msgstr "Szaud-arábiai riyál"
+
+msgid "ISO_4217.SBD"
+msgstr "Salamon-szigeteki dollár"
+
+msgid "ISO_4217.SCR"
+msgstr "Seychelles-szigeteki rúpia"
+
+msgid "ISO_4217.SDG"
+msgstr "szudáni font"
+
+msgid "ISO_4217.SEK"
+msgstr "svéd korona"
+
+msgid "ISO_4217.SGD"
+msgstr "szingapúri dollár"
+
+msgid "ISO_4217.SHP"
+msgstr "Szent Ilona-i font"
+
+msgid "ISO_4217.SLL"
+msgstr "Sierra Leone-i leone"
+
+msgid "ISO_4217.SOS"
+msgstr "szomáliai shilling"
+
+msgid "ISO_4217.SRD"
+msgstr "Suriname-i dollár"
+
+msgid "ISO_4217.SSP"
+msgstr "szudáni font"
+
+msgid "ISO_4217.STD"
+msgstr "dobra"
+
+msgid "ISO_4217.SVC"
+msgstr "El Salvador-i colón"
+
+msgid "ISO_4217.SYP"
+msgstr "szír font"
+
+msgid "ISO_4217.SZL"
+msgstr "lilangeni"
+
+msgid "ISO_4217.THB"
+msgstr "baht"
+
+msgid "ISO_4217.TJS"
+msgstr "szomoni"
+
+msgid "ISO_4217.TND"
+msgstr "tunéziai dinár"
+
+msgid "ISO_4217.TOP"
+msgstr "pa'anga"
+
+msgid "ISO_4217.TRY"
+msgstr "új török líra"
+
+msgid "ISO_4217.TTD"
+msgstr "Trinidad és Tobago-i dollár"
+
+msgid "ISO_4217.TWD"
+msgstr "új tajvani dollár"
+
+msgid "ISO_4217.TZS"
+msgstr "tanzániai shilling"
+
+msgid "ISO_4217.UAH"
+msgstr "hrivnya"
+
+msgid "ISO_4217.UGX"
+msgstr "ugandai shilling"
+
+msgid "ISO_4217.USD"
+msgstr "USA dollár"
+
+msgid "ISO_4217.UYU"
+msgstr "uruguayi peso"
+
+msgid "ISO_4217.UZS"
+msgstr "üzbég szom"
+
+msgid "ISO_4217.VND"
+msgstr "dong"
+
+msgid "ISO_4217.VUV"
+msgstr "vatu"
+
+msgid "ISO_4217.WST"
+msgstr "tala"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA frank BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "ezüst"
+
+msgid "ISO_4217.XAU"
+msgstr "arany"
+
+msgid "ISO_4217.XBA"
+msgstr "európai összetett egység (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "európai pénzügyi egység (E.M.U-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "európai számlaegység 9 (E.U.A.-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "európai számlaegység 17 (E.U.A.-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "kelet-karib dollár"
+
+msgid "ISO_4217.XDR"
+msgstr "SDR (Special Drawing Rights)"
+
+msgid "ISO_4217.XOF"
+msgstr "Afrikai Valutaközösségi Frank CFA (BCEAO)"
+
+msgid "ISO_4217.XPD"
+msgstr "palládium"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP frank"
+
+msgid "ISO_4217.XPT"
+msgstr "platina"
+
+msgid "ISO_4217.XTS"
+msgstr "tesztcélokat szolgáló kód"
+
+msgid "ISO_4217.YER"
+msgstr "jemeni riál"
+
+msgid "ISO_4217.ZAR"
+msgstr "rand"
+
+msgid "ISO_4217.ZMW"
+msgstr "zambiai kwacha"
+
+msgid "ISO_4217.ZWL"
+msgstr "zimbabwei dollár"

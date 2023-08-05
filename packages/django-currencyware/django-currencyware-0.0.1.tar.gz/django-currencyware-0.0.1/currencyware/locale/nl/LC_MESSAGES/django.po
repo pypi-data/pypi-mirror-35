@@ -1,0 +1,510 @@
+# translation of iso_4217-3.17.nl.po to Dutch
+# Dutch translation of iso_4217.
+# Copyright (C) 2004, 2007, 2008, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the iso-codes package.
+#
+#
+# Elros Cyriatan <cyriatan@fastmail.fm>, 2004.
+# Luk Claes <luk.claes@ugent.be>, 2005.
+# Freek de Kruijf <f.de.kruijf@gmail.com>, 2007, 2008, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2010-06-15 01:04+0200\n"
+"Last-Translator: Freek de Kruijf <f.de.kruijf@gmail.com>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "ISO_4217.AED"
+msgstr "VAE-Dirham"
+
+msgid "ISO_4217.AFN"
+msgstr "Afghani"
+
+msgid "ISO_4217.ALL"
+msgstr "Lek"
+
+msgid "ISO_4217.AMD"
+msgstr "Armeense dram"
+
+msgid "ISO_4217.ANG"
+msgstr "Antilliaanse gulden"
+
+msgid "ISO_4217.AOA"
+msgstr "Angolese kwanza"
+
+msgid "ISO_4217.ARS"
+msgstr "Argentijnse peso"
+
+msgid "ISO_4217.AUD"
+msgstr "Australische dollar"
+
+msgid "ISO_4217.AWG"
+msgstr "Arubaanse gulden"
+
+msgid "ISO_4217.AZN"
+msgstr "Azerbeidzjaanse manat"
+
+msgid "ISO_4217.BAM"
+msgstr "converteerbare marken"
+
+msgid "ISO_4217.BBD"
+msgstr "Barbadiaanse dollar"
+
+msgid "ISO_4217.BDT"
+msgstr "Bengalese taka"
+
+msgid "ISO_4217.BGN"
+msgstr "Bulgaarse lev"
+
+msgid "ISO_4217.BHD"
+msgstr "Bahreinse dinar"
+
+msgid "ISO_4217.BIF"
+msgstr "Burundese frank"
+
+msgid "ISO_4217.BMD"
+msgstr "Bermuda-dollar"
+
+msgid "ISO_4217.BND"
+msgstr "Bruneise dollar"
+
+msgid "ISO_4217.BOB"
+msgstr "Boliviaanse boliviano"
+
+msgid "ISO_4217.BRL"
+msgstr "Braziliaanse real"
+
+msgid "ISO_4217.BSD"
+msgstr "Bahamaanse dollar"
+
+msgid "ISO_4217.BTN"
+msgstr "Bhutaanse ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "Botswaanse pula"
+
+msgid "ISO_4217.BYR"
+msgstr "Wit-Russische roebel"
+
+msgid "ISO_4217.BZD"
+msgstr "Belizaanse dollar"
+
+msgid "ISO_4217.CAD"
+msgstr "Canadese dollar"
+
+msgid "ISO_4217.CDF"
+msgstr "Kongolese franc"
+
+msgid "ISO_4217.CHF"
+msgstr "Zwitserse frank"
+
+msgid "ISO_4217.CLP"
+msgstr "Chileense peso"
+
+msgid "ISO_4217.CNY"
+msgstr "Chinese renminbi yuan"
+
+msgid "ISO_4217.COP"
+msgstr "Colombiaanse peso"
+
+msgid "ISO_4217.CRC"
+msgstr "Costaricaanse colón"
+
+msgid "ISO_4217.CUC"
+msgstr "converteerbare marken"
+
+msgid "ISO_4217.CUP"
+msgstr "Cubaanse peso"
+
+msgid "ISO_4217.CVE"
+msgstr "Kaapverdische escudo"
+
+msgid "ISO_4217.CZK"
+msgstr "Tsjechische kroon"
+
+msgid "ISO_4217.DJF"
+msgstr "Djiboutiaanse frank"
+
+msgid "ISO_4217.DKK"
+msgstr "Deense kroon"
+
+msgid "ISO_4217.DOP"
+msgstr "Dominicaanse peso"
+
+msgid "ISO_4217.DZD"
+msgstr "Algerijnse dinar"
+
+msgid "ISO_4217.EGP"
+msgstr "Egyptisch pond"
+
+msgid "ISO_4217.ERN"
+msgstr "Eritrese nakfa"
+
+msgid "ISO_4217.ETB"
+msgstr "Ethiopische birr"
+
+msgid "ISO_4217.EUR"
+msgstr "euro"
+
+msgid "ISO_4217.FJD"
+msgstr "Fiji-dollar"
+
+msgid "ISO_4217.FKP"
+msgstr "Falklandeilands pond"
+
+msgid "ISO_4217.GBP"
+msgstr "pond sterling"
+
+msgid "ISO_4217.GEL"
+msgstr "Georgische lari"
+
+msgid "ISO_4217.GHS"
+msgstr "Ghanese cedi"
+
+msgid "ISO_4217.GIP"
+msgstr "Gibraltarees pond"
+
+msgid "ISO_4217.GMD"
+msgstr "Gambiaanse dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "Guinese frank"
+
+msgid "ISO_4217.GTQ"
+msgstr "Guatemalaans quetzal"
+
+msgid "ISO_4217.GYD"
+msgstr "Guyaanse dollar"
+
+msgid "ISO_4217.HKD"
+msgstr "Hongkongse dollar"
+
+msgid "ISO_4217.HNL"
+msgstr "Hondurese lempira"
+
+msgid "ISO_4217.HTG"
+msgstr "Haïtiaanse gourde"
+
+msgid "ISO_4217.HUF"
+msgstr "Hongaarse forint"
+
+msgid "ISO_4217.IDR"
+msgstr "Indonesische rupiah"
+
+msgid "ISO_4217.ILS"
+msgstr "nieuwe Israëlische shekel"
+
+msgid "ISO_4217.INR"
+msgstr "Indiase rupee"
+
+msgid "ISO_4217.IQD"
+msgstr "Iraakse dinar"
+
+msgid "ISO_4217.IRR"
+msgstr "Iraanse rial"
+
+msgid "ISO_4217.ISK"
+msgstr "IJslandse kroon"
+
+msgid "ISO_4217.JMD"
+msgstr "Jamaicaanse dollar"
+
+msgid "ISO_4217.JOD"
+msgstr "Jordaanse dinar"
+
+msgid "ISO_4217.JPY"
+msgstr "Japanse yen"
+
+msgid "ISO_4217.KES"
+msgstr "Keniaanse shilling"
+
+msgid "ISO_4217.KGS"
+msgstr "Kirgizische som"
+
+msgid "ISO_4217.KHR"
+msgstr "Cambodjaanse riel"
+
+msgid "ISO_4217.KMF"
+msgstr "Comorese frank"
+
+msgid "ISO_4217.KPW"
+msgstr "Noord-Koreaanse won"
+
+msgid "ISO_4217.KRW"
+msgstr "Zuid-Koreaanse won"
+
+msgid "ISO_4217.KWD"
+msgstr "Koeweitse dinar"
+
+msgid "ISO_4217.KYD"
+msgstr "Kaaimaneilandse dollar"
+
+msgid "ISO_4217.KZT"
+msgstr "Kazachse tenge"
+
+msgid "ISO_4217.LAK"
+msgstr "Laotiaanse kip"
+
+msgid "ISO_4217.LBP"
+msgstr "Libanees pond"
+
+msgid "ISO_4217.LKR"
+msgstr "Srilankaanse rupee"
+
+msgid "ISO_4217.LRD"
+msgstr "Liberiaanse dollar"
+
+msgid "ISO_4217.LSL"
+msgstr "Lesotho loti"
+
+msgid "ISO_4217.LYD"
+msgstr "Libische dinar"
+
+msgid "ISO_4217.MAD"
+msgstr "Marokkaanse dirham"
+
+msgid "ISO_4217.MDL"
+msgstr "Moldavische leu"
+
+msgid "ISO_4217.MGA"
+msgstr "Malagasische ariary"
+
+msgid "ISO_4217.MKD"
+msgstr "Macedonische denar"
+
+msgid "ISO_4217.MMK"
+msgstr "Kyat"
+
+msgid "ISO_4217.MNT"
+msgstr "Mongoolse tugrik"
+
+msgid "ISO_4217.MOP"
+msgstr "Macause pataca"
+
+msgid "ISO_4217.MRO"
+msgstr "Mauritaanse quguiya"
+
+msgid "ISO_4217.MUR"
+msgstr "Mauritiaanse rupee"
+
+msgid "ISO_4217.MVR"
+msgstr "Maldivische rufiyaa"
+
+msgid "ISO_4217.MWK"
+msgstr "Zambiaanse kwacha"
+
+msgid "ISO_4217.MXN"
+msgstr "Mexicaanse peso"
+
+msgid "ISO_4217.MYR"
+msgstr "Maleisische ringgit"
+
+msgid "ISO_4217.NAD"
+msgstr "Namibische dollar"
+
+msgid "ISO_4217.NGN"
+msgstr "Nigeriaanse naire"
+
+msgid "ISO_4217.NIO"
+msgstr "Nicaraguaanse córdoba oro"
+
+msgid "ISO_4217.NOK"
+msgstr "Noorse kroon"
+
+msgid "ISO_4217.NPR"
+msgstr "Nepalese rupee"
+
+msgid "ISO_4217.NZD"
+msgstr "Nieuw-Zeelandse dollar"
+
+msgid "ISO_4217.OMR"
+msgstr "Omaanse rial"
+
+msgid "ISO_4217.PAB"
+msgstr "Panamaanse balboa"
+
+msgid "ISO_4217.PEN"
+msgstr "Kirgizische som"
+
+msgid "ISO_4217.PGK"
+msgstr "Papua Nieuw Guineaanse kina"
+
+msgid "ISO_4217.PHP"
+msgstr "Filipijnse peso"
+
+msgid "ISO_4217.PKR"
+msgstr "Pakistaanse rupee"
+
+msgid "ISO_4217.PLN"
+msgstr "Poolse zloty"
+
+msgid "ISO_4217.PYG"
+msgstr "Paraguaanse guarani"
+
+msgid "ISO_4217.QAR"
+msgstr "Qatarese rial"
+
+msgid "ISO_4217.RSD"
+msgstr "Servische dinar"
+
+msgid "ISO_4217.RUB"
+msgstr "Russische roebel"
+
+msgid "ISO_4217.RWF"
+msgstr "Rwandese frank"
+
+msgid "ISO_4217.SAR"
+msgstr "Saudische riyal"
+
+msgid "ISO_4217.SBD"
+msgstr "Salomon-dollar"
+
+msgid "ISO_4217.SCR"
+msgstr "Seychelse rupee"
+
+msgid "ISO_4217.SDG"
+msgstr "Sudanese pond"
+
+msgid "ISO_4217.SEK"
+msgstr "Zweedse kroon"
+
+msgid "ISO_4217.SGD"
+msgstr "Singaporese dollar"
+
+msgid "ISO_4217.SHP"
+msgstr "Sint-Heleens pond"
+
+msgid "ISO_4217.SLL"
+msgstr "Sierraleoonse leone"
+
+msgid "ISO_4217.SOS"
+msgstr "Somalische shilling"
+
+msgid "ISO_4217.SRD"
+msgstr "Surinamese dollar"
+
+msgid "ISO_4217.SSP"
+msgstr "Sudanese pond"
+
+msgid "ISO_4217.STD"
+msgstr "Sao Tomése dobra"
+
+msgid "ISO_4217.SVC"
+msgstr "Salvadoraanse colon"
+
+msgid "ISO_4217.SYP"
+msgstr "Syrisch pond"
+
+msgid "ISO_4217.SZL"
+msgstr "Swazische lilangeni"
+
+msgid "ISO_4217.THB"
+msgstr "Thaise baht"
+
+msgid "ISO_4217.TJS"
+msgstr "Tadzjiekse somoni"
+
+msgid "ISO_4217.TND"
+msgstr "Tunesische dinar"
+
+msgid "ISO_4217.TOP"
+msgstr "Tongaanse pa'anga"
+
+msgid "ISO_4217.TRY"
+msgstr "nieuwe Turkse lire"
+
+msgid "ISO_4217.TTD"
+msgstr "Trinidad en Tobago dollar"
+
+msgid "ISO_4217.TWD"
+msgstr "nieuwe Taiwanese dollar"
+
+msgid "ISO_4217.TZS"
+msgstr "Tanzaniaanse shilling"
+
+msgid "ISO_4217.UAH"
+msgstr "Oekraïense grivna"
+
+msgid "ISO_4217.UGX"
+msgstr "Ugandese shilling"
+
+msgid "ISO_4217.USD"
+msgstr "US-dollar"
+
+msgid "ISO_4217.UYU"
+msgstr "Uruguayaanse peso"
+
+msgid "ISO_4217.UZS"
+msgstr "Oezbeekse som"
+
+msgid "ISO_4217.VND"
+msgstr "Vietnamese dong"
+
+msgid "ISO_4217.VUV"
+msgstr "Vanuatu vatu"
+
+msgid "ISO_4217.WST"
+msgstr "Samoa tala"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA-frank BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "1 Troy ounce zilver"
+
+msgid "ISO_4217.XAU"
+msgstr "1 Troy ounce goud"
+
+msgid "ISO_4217.XBA"
+msgstr "Europese samengestelde eenheid (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "Europese monetaire eenheid (E.M.U.-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Europese rekeningeneenheid 9  (E.U.A.-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Europese rekeningeneenheid 17 (E.U.A.-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "Oost-Caribische dollar"
+
+msgid "ISO_4217.XDR"
+msgstr "Speciale trekkingsrechten"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA-frank BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "1 Troy ounce palladium"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP-frank"
+
+msgid "ISO_4217.XPT"
+msgstr "1 Troy ounce platina"
+
+msgid "ISO_4217.XTS"
+msgstr "Code voor testdoeleinden"
+
+msgid "ISO_4217.YER"
+msgstr "Jemenitische rial"
+
+msgid "ISO_4217.ZAR"
+msgstr "Zuid-Afrikaanse Rand"
+
+msgid "ISO_4217.ZMW"
+msgstr "Zambiaanse kwacha"
+
+msgid "ISO_4217.ZWL"
+msgstr "Zimbabwaanse dollar"

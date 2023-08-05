@@ -1,0 +1,509 @@
+# translation of iso_4217-3.60.is.po to Icelandic
+# Translation of ISO 4217 (currency names) to Icelandic
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright © Free Software Foundation
+#
+# Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2015-08-22 16:01+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "ISO_4217.AED"
+msgstr "SAF-dirham"
+
+msgid "ISO_4217.AFN"
+msgstr "Afghani"
+
+msgid "ISO_4217.ALL"
+msgstr "Lek"
+
+msgid "ISO_4217.AMD"
+msgstr "Armenskt dram"
+
+msgid "ISO_4217.ANG"
+msgstr "Hollenskt Antillu-gyllini"
+
+msgid "ISO_4217.AOA"
+msgstr "Kwanza"
+
+msgid "ISO_4217.ARS"
+msgstr "Argentínskur pesó"
+
+msgid "ISO_4217.AUD"
+msgstr "Ástralskur dollari"
+
+msgid "ISO_4217.AWG"
+msgstr "Arúbínskt gyllini"
+
+msgid "ISO_4217.AZN"
+msgstr "Aserbaídsjanskt manat"
+
+msgid "ISO_4217.BAM"
+msgstr "Umbreytanleg mörk"
+
+msgid "ISO_4217.BBD"
+msgstr "Barbados-dollari"
+
+msgid "ISO_4217.BDT"
+msgstr "Taka"
+
+msgid "ISO_4217.BGN"
+msgstr "Búlgarskt lev"
+
+msgid "ISO_4217.BHD"
+msgstr "Bareinskur dínar"
+
+msgid "ISO_4217.BIF"
+msgstr "Búrúndískur franki"
+
+msgid "ISO_4217.BMD"
+msgstr "Bermúdadollari"
+
+msgid "ISO_4217.BND"
+msgstr "Brúnei dollari"
+
+msgid "ISO_4217.BOB"
+msgstr "Boliviano"
+
+msgid "ISO_4217.BRL"
+msgstr "Brasilískur real"
+
+msgid "ISO_4217.BSD"
+msgstr "Bahama dollari"
+
+msgid "ISO_4217.BTN"
+msgstr "Ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "Pula"
+
+msgid "ISO_4217.BYR"
+msgstr "Hvítrússnesk rúbla"
+
+msgid "ISO_4217.BZD"
+msgstr "Belísdollari"
+
+msgid "ISO_4217.CAD"
+msgstr "Kanadískur dollari"
+
+msgid "ISO_4217.CDF"
+msgstr "Kongóskur franki"
+
+msgid "ISO_4217.CHF"
+msgstr "Svissneskur franki"
+
+msgid "ISO_4217.CLP"
+msgstr "Chíleanskur pesó"
+
+msgid "ISO_4217.CNY"
+msgstr "Júanskt Renminbi"
+
+msgid "ISO_4217.COP"
+msgstr "Kólumbískur pesó"
+
+msgid "ISO_4217.CRC"
+msgstr "Kostaríkanskur kólon"
+
+msgid "ISO_4217.CUC"
+msgstr "Umbreytanleg mörk"
+
+msgid "ISO_4217.CUP"
+msgstr "Kúbanskur pesó"
+
+msgid "ISO_4217.CVE"
+msgstr "Grænhöfðaeyskur eskúdó"
+
+msgid "ISO_4217.CZK"
+msgstr "Tékknesk korúna"
+
+msgid "ISO_4217.DJF"
+msgstr "Djíbútí franki"
+
+msgid "ISO_4217.DKK"
+msgstr "Dönsk króna"
+
+msgid "ISO_4217.DOP"
+msgstr "Dóminíkanskur pesó"
+
+msgid "ISO_4217.DZD"
+msgstr "Alsírskur dínar"
+
+msgid "ISO_4217.EGP"
+msgstr "Egypskt pund"
+
+msgid "ISO_4217.ERN"
+msgstr "Nakfa"
+
+msgid "ISO_4217.ETB"
+msgstr "Eþíópískt birr"
+
+msgid "ISO_4217.EUR"
+msgstr "Evra"
+
+msgid "ISO_4217.FJD"
+msgstr "Fidjí-dollari"
+
+msgid "ISO_4217.FKP"
+msgstr "Falklandseyjapund"
+
+msgid "ISO_4217.GBP"
+msgstr "Sterlingspund"
+
+msgid "ISO_4217.GEL"
+msgstr "Lari"
+
+msgid "ISO_4217.GHS"
+msgstr "Ganaískt cedí"
+
+msgid "ISO_4217.GIP"
+msgstr "Gíbraltarpund"
+
+msgid "ISO_4217.GMD"
+msgstr "Dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "Gíneanskur franki"
+
+msgid "ISO_4217.GTQ"
+msgstr "Quetzal"
+
+msgid "ISO_4217.GYD"
+msgstr "Gvæanskur dollari"
+
+msgid "ISO_4217.HKD"
+msgstr "Hong-kong dollari"
+
+msgid "ISO_4217.HNL"
+msgstr "Lempira"
+
+msgid "ISO_4217.HTG"
+msgstr "Gourde"
+
+msgid "ISO_4217.HUF"
+msgstr "Forint"
+
+msgid "ISO_4217.IDR"
+msgstr "Rúpía"
+
+msgid "ISO_4217.ILS"
+msgstr "Nýtt ísraelskt sheqel"
+
+msgid "ISO_4217.INR"
+msgstr "Indversk rúpía"
+
+msgid "ISO_4217.IQD"
+msgstr "Íraskur dínar"
+
+msgid "ISO_4217.IRR"
+msgstr "Íranskur ríal"
+
+msgid "ISO_4217.ISK"
+msgstr "Íslensk króna"
+
+msgid "ISO_4217.JMD"
+msgstr "Jamaíkudollari"
+
+msgid "ISO_4217.JOD"
+msgstr "Jórdanskur dínar"
+
+msgid "ISO_4217.JPY"
+msgstr "Yen"
+
+msgid "ISO_4217.KES"
+msgstr "Kenískur skildingur"
+
+msgid "ISO_4217.KGS"
+msgstr "Som"
+
+msgid "ISO_4217.KHR"
+msgstr "Riel"
+
+msgid "ISO_4217.KMF"
+msgstr "Kómorra franki"
+
+msgid "ISO_4217.KPW"
+msgstr "Norður-Kóreskt won"
+
+msgid "ISO_4217.KRW"
+msgstr "Won"
+
+msgid "ISO_4217.KWD"
+msgstr "Kúveitskur dínar"
+
+msgid "ISO_4217.KYD"
+msgstr "Caymaneyjadollari"
+
+msgid "ISO_4217.KZT"
+msgstr "Tenge"
+
+msgid "ISO_4217.LAK"
+msgstr "Kip"
+
+msgid "ISO_4217.LBP"
+msgstr "Líbanskt pund"
+
+msgid "ISO_4217.LKR"
+msgstr "Srí Lanka rúpía"
+
+msgid "ISO_4217.LRD"
+msgstr "Líberíudollari"
+
+msgid "ISO_4217.LSL"
+msgstr "Loti"
+
+msgid "ISO_4217.LYD"
+msgstr "Líbískur dínar"
+
+msgid "ISO_4217.MAD"
+msgstr "Marokkanskur dirham"
+
+msgid "ISO_4217.MDL"
+msgstr "Moldóvanskt leu"
+
+msgid "ISO_4217.MGA"
+msgstr "Malagaskur ariarí"
+
+msgid "ISO_4217.MKD"
+msgstr "Denar"
+
+msgid "ISO_4217.MMK"
+msgstr "Kyat"
+
+msgid "ISO_4217.MNT"
+msgstr "Tugrik"
+
+msgid "ISO_4217.MOP"
+msgstr "Pataca"
+
+msgid "ISO_4217.MRO"
+msgstr "Ouguiya"
+
+msgid "ISO_4217.MUR"
+msgstr "Máritíus-rúpía"
+
+msgid "ISO_4217.MVR"
+msgstr "Rufiyaa"
+
+msgid "ISO_4217.MWK"
+msgstr "Sambískt kwacha"
+
+msgid "ISO_4217.MXN"
+msgstr "Mexíkanskur pesó"
+
+msgid "ISO_4217.MYR"
+msgstr "Malasísk ringgit"
+
+msgid "ISO_4217.NAD"
+msgstr "Namibíudollari"
+
+msgid "ISO_4217.NGN"
+msgstr "Naira"
+
+msgid "ISO_4217.NIO"
+msgstr "Cordoba Oro"
+
+msgid "ISO_4217.NOK"
+msgstr "Norsk króna"
+
+msgid "ISO_4217.NPR"
+msgstr "Nepölsk rúpía"
+
+msgid "ISO_4217.NZD"
+msgstr "Nýsjálenskur dollari"
+
+msgid "ISO_4217.OMR"
+msgstr "Ómanskur ríal"
+
+msgid "ISO_4217.PAB"
+msgstr "Balboa"
+
+msgid "ISO_4217.PEN"
+msgstr "Som"
+
+msgid "ISO_4217.PGK"
+msgstr "Kina"
+
+msgid "ISO_4217.PHP"
+msgstr "Filippínskur pesó"
+
+msgid "ISO_4217.PKR"
+msgstr "Pakistönsk rúpía"
+
+msgid "ISO_4217.PLN"
+msgstr "Zloty"
+
+msgid "ISO_4217.PYG"
+msgstr "Guarani"
+
+msgid "ISO_4217.QAR"
+msgstr "Katarskur ríal"
+
+msgid "ISO_4217.RSD"
+msgstr "Serbneskur dínar"
+
+msgid "ISO_4217.RUB"
+msgstr "Rússnesk rúbla"
+
+msgid "ISO_4217.RWF"
+msgstr "Rúandafranki"
+
+msgid "ISO_4217.SAR"
+msgstr "Sádi-Arabískur ríal"
+
+msgid "ISO_4217.SBD"
+msgstr "Salómonseyjadollari"
+
+msgid "ISO_4217.SCR"
+msgstr "Seychelles-eyja rúpía"
+
+msgid "ISO_4217.SDG"
+msgstr "Súdanskt pund"
+
+msgid "ISO_4217.SEK"
+msgstr "Sænsk króna"
+
+msgid "ISO_4217.SGD"
+msgstr "Singapúrskur dollari"
+
+msgid "ISO_4217.SHP"
+msgstr "Sankti Helenu pund"
+
+msgid "ISO_4217.SLL"
+msgstr "Leone"
+
+msgid "ISO_4217.SOS"
+msgstr "Sómalskur skildingur"
+
+msgid "ISO_4217.SRD"
+msgstr "Súrínamdollari"
+
+msgid "ISO_4217.SSP"
+msgstr "Súdanskt pund"
+
+msgid "ISO_4217.STD"
+msgstr "Dobra"
+
+msgid "ISO_4217.SVC"
+msgstr "Salvadorskur kólon"
+
+msgid "ISO_4217.SYP"
+msgstr "Sýrlenskt pund"
+
+msgid "ISO_4217.SZL"
+msgstr "Lilangeni"
+
+msgid "ISO_4217.THB"
+msgstr "Baht"
+
+msgid "ISO_4217.TJS"
+msgstr "Somoni"
+
+msgid "ISO_4217.TND"
+msgstr "Túnískur dínar"
+
+msgid "ISO_4217.TOP"
+msgstr "Pa'anga"
+
+msgid "ISO_4217.TRY"
+msgstr "Ný tyrknesk líra"
+
+msgid "ISO_4217.TTD"
+msgstr "Trínidad og Tóbagódollar"
+
+msgid "ISO_4217.TWD"
+msgstr "Nýr tævanskur dollari"
+
+msgid "ISO_4217.TZS"
+msgstr "Tansanískur skildingur"
+
+msgid "ISO_4217.UAH"
+msgstr "Hryvnia"
+
+msgid "ISO_4217.UGX"
+msgstr "Úgandískur skildingur"
+
+msgid "ISO_4217.USD"
+msgstr "Bandarískur dollari"
+
+msgid "ISO_4217.UYU"
+msgstr "Úrúgvæskur pesó"
+
+msgid "ISO_4217.UZS"
+msgstr "Úsbekistanskt sum"
+
+msgid "ISO_4217.VND"
+msgstr "Dong"
+
+msgid "ISO_4217.VUV"
+msgstr "Vatu"
+
+msgid "ISO_4217.WST"
+msgstr "Tala"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA franki BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "Silfur"
+
+msgid "ISO_4217.XAU"
+msgstr "Gull"
+
+msgid "ISO_4217.XBA"
+msgstr "Evrópsk samsett eining (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "Evrópsk mynteining (E.M.U.-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Evrópsk eining fyrir reikning 9 (E.U.A.-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Evrópsk eining fyrir reikning 17 (E.U.A.-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "Austur-karíbahafsdollari"
+
+msgid "ISO_4217.XDR"
+msgstr "Sérstök yfirdráttarréttindi"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA franki BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "Palladín"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP franki"
+
+msgid "ISO_4217.XPT"
+msgstr "Platína"
+
+msgid "ISO_4217.XTS"
+msgstr "Kóði til prófunar"
+
+msgid "ISO_4217.YER"
+msgstr "Jemenskur ríal"
+
+msgid "ISO_4217.ZAR"
+msgstr "Rand"
+
+msgid "ISO_4217.ZMW"
+msgstr "Sambískt kwacha"
+
+msgid "ISO_4217.ZWL"
+msgstr "Simbabve dollari"

@@ -1,0 +1,498 @@
+# Romanian translation for iso-codes
+# This file is distributed under the same license as the iso-codes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2010-08-17 02:56+0300\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+"X-Launchpad-Export-Date: 2010-08-16 11:02+0000\n"
+
+msgid "ISO_4217.AED"
+msgstr "Dirham Emiratele arabe unite"
+
+msgid "ISO_4217.AFN"
+msgstr "Afgani"
+
+msgid "ISO_4217.ALL"
+msgstr "Lek"
+
+msgid "ISO_4217.AMD"
+msgstr "Dram armean"
+
+msgid "ISO_4217.ANG"
+msgstr "Gulden antilian din Ţările de jos"
+
+msgid "ISO_4217.AOA"
+msgstr "Kwanza"
+
+msgid "ISO_4217.ARS"
+msgstr "Peso argentinian"
+
+msgid "ISO_4217.AUD"
+msgstr "Dolar australian"
+
+msgid "ISO_4217.AWG"
+msgstr "Gulden aruban"
+
+msgid "ISO_4217.AZN"
+msgstr "Manat Azerbaijanian"
+
+msgid "ISO_4217.BAM"
+msgstr "Mărci convertibile"
+
+msgid "ISO_4217.BBD"
+msgstr "Dolar Barbados"
+
+msgid "ISO_4217.BDT"
+msgstr "Taka"
+
+msgid "ISO_4217.BGN"
+msgstr "Levă bulgară"
+
+msgid "ISO_4217.BHD"
+msgstr "Dinar bahraini"
+
+msgid "ISO_4217.BIF"
+msgstr "Franc burundic"
+
+msgid "ISO_4217.BMD"
+msgstr "Dolar bermudian"
+
+msgid "ISO_4217.BND"
+msgstr "Dolar Brunei"
+
+msgid "ISO_4217.BOB"
+msgstr "Boliviano"
+
+msgid "ISO_4217.BRL"
+msgstr "Real brazilian"
+
+msgid "ISO_4217.BSD"
+msgstr "Dolar bahamian"
+
+msgid "ISO_4217.BTN"
+msgstr "Ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "Pula"
+
+msgid "ISO_4217.BYR"
+msgstr "Rublă bielorusă"
+
+msgid "ISO_4217.BZD"
+msgstr "Dolar belize"
+
+msgid "ISO_4217.CAD"
+msgstr "Dolar canadian"
+
+msgid "ISO_4217.CDF"
+msgstr "Franc congolezi"
+
+msgid "ISO_4217.CHF"
+msgstr "Franc elveţian"
+
+msgid "ISO_4217.CLP"
+msgstr "Peso chilian"
+
+msgid "ISO_4217.CNY"
+msgstr "Yuan Renminbi"
+
+msgid "ISO_4217.COP"
+msgstr "Peso columbian"
+
+msgid "ISO_4217.CRC"
+msgstr "Colon costarican"
+
+msgid "ISO_4217.CUC"
+msgstr "Mărci convertibile"
+
+msgid "ISO_4217.CUP"
+msgstr "Peso cubanez"
+
+msgid "ISO_4217.CVE"
+msgstr "Escudo Capul Verde"
+
+msgid "ISO_4217.CZK"
+msgstr "Coroană cehă"
+
+msgid "ISO_4217.DJF"
+msgstr "Franc djibouti"
+
+msgid "ISO_4217.DKK"
+msgstr "Coroană daneză"
+
+msgid "ISO_4217.DOP"
+msgstr "Peso dominican"
+
+msgid "ISO_4217.DZD"
+msgstr "Dinar algerian"
+
+msgid "ISO_4217.EGP"
+msgstr "Liră egipteană"
+
+msgid "ISO_4217.ERN"
+msgstr "Nakfa"
+
+msgid "ISO_4217.ETB"
+msgstr "Birr etiopian"
+
+msgid "ISO_4217.EUR"
+msgstr "Euro"
+
+msgid "ISO_4217.FJD"
+msgstr "Dolar Fiji"
+
+msgid "ISO_4217.FKP"
+msgstr "Liră Insulele Falkland"
+
+msgid "ISO_4217.GBP"
+msgstr "Liră sterlină"
+
+msgid "ISO_4217.GEL"
+msgstr "Lari"
+
+msgid "ISO_4217.GHS"
+msgstr "Cedi Ghana"
+
+msgid "ISO_4217.GIP"
+msgstr "Liră Gibraltar"
+
+msgid "ISO_4217.GMD"
+msgstr "Dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "Franc Guineea"
+
+msgid "ISO_4217.GTQ"
+msgstr "Quetzal"
+
+msgid "ISO_4217.GYD"
+msgstr "Dolar Guyana"
+
+msgid "ISO_4217.HKD"
+msgstr "Dolar Hong Kong"
+
+msgid "ISO_4217.HNL"
+msgstr "Lempira"
+
+msgid "ISO_4217.HTG"
+msgstr "Gourde"
+
+msgid "ISO_4217.HUF"
+msgstr "Forint"
+
+msgid "ISO_4217.IDR"
+msgstr "Rupie"
+
+msgid "ISO_4217.ILS"
+msgstr "Shekel nou israelian"
+
+msgid "ISO_4217.INR"
+msgstr "Rupie indiană"
+
+msgid "ISO_4217.IQD"
+msgstr "Dinar irakian"
+
+msgid "ISO_4217.IRR"
+msgstr "Rial iranian"
+
+msgid "ISO_4217.ISK"
+msgstr "Coroană islandeză"
+
+msgid "ISO_4217.JMD"
+msgstr "Dolar jamaican"
+
+msgid "ISO_4217.JOD"
+msgstr "Dinar iordanian"
+
+msgid "ISO_4217.JPY"
+msgstr "Yen"
+
+msgid "ISO_4217.KES"
+msgstr "Șiling kenyan"
+
+msgid "ISO_4217.KGS"
+msgstr "Som"
+
+msgid "ISO_4217.KHR"
+msgstr "Riel"
+
+msgid "ISO_4217.KMF"
+msgstr "Franc Comoro"
+
+msgid "ISO_4217.KPW"
+msgstr "Won nord-coreean"
+
+msgid "ISO_4217.KRW"
+msgstr "Won"
+
+msgid "ISO_4217.KWD"
+msgstr "Dinar kuweitian"
+
+msgid "ISO_4217.KYD"
+msgstr "Dolar Insulele Cayman"
+
+msgid "ISO_4217.KZT"
+msgstr "Tenge"
+
+msgid "ISO_4217.LAK"
+msgstr "Kip"
+
+msgid "ISO_4217.LBP"
+msgstr "Liră libaneză"
+
+msgid "ISO_4217.LKR"
+msgstr "Rupie Sri Lanka"
+
+msgid "ISO_4217.LRD"
+msgstr "Dolar liberiană"
+
+msgid "ISO_4217.LSL"
+msgstr "Loti"
+
+msgid "ISO_4217.LYD"
+msgstr "Dinar libian"
+
+msgid "ISO_4217.MAD"
+msgstr "Dirham marocan"
+
+msgid "ISO_4217.MDL"
+msgstr "Leu moldovenesc"
+
+msgid "ISO_4217.MGA"
+msgstr "Ariary Malagasy"
+
+msgid "ISO_4217.MKD"
+msgstr "Dinar"
+
+msgid "ISO_4217.MMK"
+msgstr "Kyat"
+
+msgid "ISO_4217.MNT"
+msgstr "Tugrik"
+
+msgid "ISO_4217.MOP"
+msgstr "Pataca"
+
+msgid "ISO_4217.MRO"
+msgstr "Ouguiya"
+
+msgid "ISO_4217.MUR"
+msgstr "Rupie Maurițius"
+
+msgid "ISO_4217.MVR"
+msgstr "Rufiyaa"
+
+msgid "ISO_4217.MWK"
+msgstr "Kwacha Zambia"
+
+msgid "ISO_4217.MXN"
+msgstr "Peso mexican"
+
+msgid "ISO_4217.MYR"
+msgstr "Ringgit malaezian"
+
+msgid "ISO_4217.NAD"
+msgstr "Dolar Namibia"
+
+msgid "ISO_4217.NGN"
+msgstr "Naira"
+
+msgid "ISO_4217.NIO"
+msgstr "Cordoba Oro"
+
+msgid "ISO_4217.NOK"
+msgstr "Coroană norvegiană"
+
+msgid "ISO_4217.NPR"
+msgstr "Rupie nepaleză"
+
+msgid "ISO_4217.NZD"
+msgstr "Dolar nou zeelandez"
+
+msgid "ISO_4217.OMR"
+msgstr "Rial Omani"
+
+msgid "ISO_4217.PAB"
+msgstr "Balboa"
+
+msgid "ISO_4217.PEN"
+msgstr "Som"
+
+msgid "ISO_4217.PGK"
+msgstr "Kina"
+
+msgid "ISO_4217.PHP"
+msgstr "Peso filipinez"
+
+msgid "ISO_4217.PKR"
+msgstr "Rupie Pakistan"
+
+msgid "ISO_4217.PLN"
+msgstr "Zlot"
+
+msgid "ISO_4217.PYG"
+msgstr "Guarani"
+
+msgid "ISO_4217.QAR"
+msgstr "Rial Qatar"
+
+msgid "ISO_4217.RSD"
+msgstr "Dinar sârbesc"
+
+msgid "ISO_4217.RUB"
+msgstr "Rublă rusească"
+
+msgid "ISO_4217.RWF"
+msgstr "Franc Rwanda"
+
+msgid "ISO_4217.SAR"
+msgstr "Riyal saudit"
+
+msgid "ISO_4217.SBD"
+msgstr "Dolar Insulele Solomon"
+
+msgid "ISO_4217.SCR"
+msgstr "Rupie Seychelles"
+
+msgid "ISO_4217.SDG"
+msgstr "Liră sudaneză"
+
+msgid "ISO_4217.SEK"
+msgstr "Coroană suedeză"
+
+msgid "ISO_4217.SGD"
+msgstr "Dolar Singapore"
+
+msgid "ISO_4217.SHP"
+msgstr "Liră Sfânta Elena"
+
+msgid "ISO_4217.SLL"
+msgstr "Leone"
+
+msgid "ISO_4217.SOS"
+msgstr "Șiling somalez"
+
+msgid "ISO_4217.SRD"
+msgstr "Dolar Surinam"
+
+msgid "ISO_4217.SSP"
+msgstr "Liră sudaneză"
+
+msgid "ISO_4217.STD"
+msgstr "Dobra"
+
+msgid "ISO_4217.SVC"
+msgstr "Colon El Salvador"
+
+msgid "ISO_4217.SYP"
+msgstr "Liră siriană"
+
+msgid "ISO_4217.SZL"
+msgstr "Lilangeni"
+
+msgid "ISO_4217.THB"
+msgstr "Baht"
+
+msgid "ISO_4217.TJS"
+msgstr "Somoni"
+
+msgid "ISO_4217.TND"
+msgstr "Dinar tunisian"
+
+msgid "ISO_4217.TOP"
+msgstr "Pa'anga"
+
+msgid "ISO_4217.TRY"
+msgstr "Liră turcească nouă"
+
+msgid "ISO_4217.TTD"
+msgstr "Dolar Trinidad și Tobago"
+
+msgid "ISO_4217.TWD"
+msgstr "Dolar nou taiwanez"
+
+msgid "ISO_4217.TZS"
+msgstr "Șiling tanzanian"
+
+msgid "ISO_4217.UAH"
+msgstr "Grivnă ucraineană"
+
+msgid "ISO_4217.UGX"
+msgstr "Șiling Uganda"
+
+msgid "ISO_4217.USD"
+msgstr "Dolar SUA"
+
+msgid "ISO_4217.UYU"
+msgstr "Peso Uruguay"
+
+msgid "ISO_4217.UZS"
+msgstr "Sum Uzbec"
+
+msgid "ISO_4217.VND"
+msgstr "Dong"
+
+msgid "ISO_4217.VUV"
+msgstr "Vatu"
+
+msgid "ISO_4217.WST"
+msgstr "Tala"
+
+msgid "ISO_4217.XAG"
+msgstr "Argint"
+
+msgid "ISO_4217.XAU"
+msgstr "Aur"
+
+msgid "ISO_4217.XBB"
+msgstr "Unitatea monetară europeană (E.M.U.-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Unitatea de cont europeană 9 (E.U.A.-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Unitatea de cont europeană 17 (E.U.A.-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "Dolar est caraibean"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA Franc BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "Paladiu"
+
+msgid "ISO_4217.XPF"
+msgstr "Franc CFP"
+
+msgid "ISO_4217.XPT"
+msgstr "Platină"
+
+msgid "ISO_4217.XTS"
+msgstr "Cod în scop de testare"
+
+msgid "ISO_4217.YER"
+msgstr "Rial yemen"
+
+msgid "ISO_4217.ZAR"
+msgstr "Rand"
+
+msgid "ISO_4217.ZMW"
+msgstr "Kwacha Zambia"
+
+msgid "ISO_4217.ZWL"
+msgstr "Dolar Zimbabwe"

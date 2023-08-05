@@ -1,0 +1,5 @@
+currencyware
+currencyware/management
+currencyware/management/commands
+currencyware/migrations
+currencyware/tests
