@@ -1,0 +1,4 @@
+termcolor
+tinydb
+keyring
+pyotp

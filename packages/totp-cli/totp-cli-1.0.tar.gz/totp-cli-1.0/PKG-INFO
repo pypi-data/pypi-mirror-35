@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: totp-cli
+Version: 1.0
+Summary: A CLI tool to generate Time-Based One Time Passwords (TOTP)
+Home-page: https://github.com/candh/totp-cli
+Author: Haider Ali Khichi
+Author-email: khichihaider@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: totp otp 2fa cli tools two factor authentication google authenticator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
