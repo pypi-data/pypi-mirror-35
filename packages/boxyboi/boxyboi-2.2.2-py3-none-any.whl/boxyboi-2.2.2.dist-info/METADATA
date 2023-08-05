@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: boxyboi
+Version: 2.2.2
+Summary: Boxing primitives in python
+Home-page: https://github.com/farizrahman4u/box
+Author: Fariz Rahman
+Author-email: farizrahman4u@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+UNKNOWN
+
+
