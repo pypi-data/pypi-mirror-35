@@ -1,0 +1,6 @@
+{% extends "fakenews/web-react.html" %}
+
+{% block api %}
+{{ block.super }}
+<meta name="ARTICLE_ID" content="{{ ARTICLE_ID }}">
+{% endblock %}
