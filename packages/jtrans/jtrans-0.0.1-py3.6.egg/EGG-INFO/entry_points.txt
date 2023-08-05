@@ -1,0 +1,3 @@
+[console_scripts]
+jtrans-cli = src.console:main
+
