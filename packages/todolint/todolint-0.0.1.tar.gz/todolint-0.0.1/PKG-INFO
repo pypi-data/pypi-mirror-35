@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: todolint
+Version: 0.0.1
+Summary: todolint
+Home-page: UNKNOWN
+Author: Alister Cordiner
+Author-email: alister@cordiner.net
+License: Restricted
+Description: todolint
+Platform: Any
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Operating System :: OS Independent
