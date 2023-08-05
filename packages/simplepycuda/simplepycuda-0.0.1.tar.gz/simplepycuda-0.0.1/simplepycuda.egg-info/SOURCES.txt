@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+simplepycuda/__init__.py
+simplepycuda/cudapp.cu
+simplepycuda/cudapp.h
+simplepycuda/simplepycuda.py
+simplepycuda.egg-info/PKG-INFO
+simplepycuda.egg-info/SOURCES.txt
+simplepycuda.egg-info/dependency_links.txt
+simplepycuda.egg-info/top_level.txt
