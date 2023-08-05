@@ -1,0 +1,3 @@
+[console_scripts]
+cigar_coordinates = cigar_coordinates.cigar_coordinates:main
+

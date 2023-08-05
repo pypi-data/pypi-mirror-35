@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cigar_coordinates/__init__.py
+cigar_coordinates/cigar_coordinates.py
+cigar_coordinates.egg-info/PKG-INFO
+cigar_coordinates.egg-info/SOURCES.txt
+cigar_coordinates.egg-info/dependency_links.txt
+cigar_coordinates.egg-info/entry_points.txt
+cigar_coordinates.egg-info/top_level.txt
