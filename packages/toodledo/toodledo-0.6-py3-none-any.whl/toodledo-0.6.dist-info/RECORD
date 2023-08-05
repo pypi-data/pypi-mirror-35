@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=sbB1DXis6v6K5G9voS9CRj2p6QWYbh1eMM334dEGkwI,105
+tests/test_read.py,sha256=TYlqTGn_WgPgnwDLqh7XGiLDkWMwaDrLhFmpCaO3Ln4,534
+tests/test_read_and_write.py,sha256=X5KwKoeWc9oh9RYn-1Q9foF1QuD3MVyhrYpt1TPe1sM,5380
+toodledo/__init__.py,sha256=aTbkJYI8LBuHPBnyQLKcG_tk84aQsBIPF_vIhPdUgK4,257
+toodledo/toodledo.py,sha256=gVS30gCm24881nmFVwhH-1sSYr93wW1l2cz1_kbYSRs,12234
+toodledo-0.6.dist-info/METADATA,sha256=ORleLxO4w_6byHfjSwz1gT4XE7R-1vvlttlS7wIDgCY,1156
+toodledo-0.6.dist-info/RECORD,,
+toodledo-0.6.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+toodledo-0.6.dist-info/top_level.txt,sha256=9erSuajiKtTWpC6sCRk0kGjys7rnVV4dh2Siay-s0ok,15
