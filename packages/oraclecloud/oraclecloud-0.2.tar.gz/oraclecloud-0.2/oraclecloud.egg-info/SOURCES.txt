@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+oraclecloud/__init__.py
+oraclecloud/iot.py
+oraclecloud/storage.py
+oraclecloud.egg-info/PKG-INFO
+oraclecloud.egg-info/SOURCES.txt
+oraclecloud.egg-info/dependency_links.txt
+oraclecloud.egg-info/not-zip-safe
+oraclecloud.egg-info/requires.txt
+oraclecloud.egg-info/top_level.txt
