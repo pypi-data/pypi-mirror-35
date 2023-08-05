@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tensorforce
+Version: 0.4.3
+Summary: Reinforcement learning for TensorFlow
+Home-page: http://github.com/reinforceio/tensorforce
+Author: reinforce.io
+Author-email: contact@reinforce.io
+License: Apache 2.0
+Download-URL: https://github.com/reinforceio/tensorforce/archive/0.4.3.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tf_gpu
+Provides-Extra: gym
+Provides-Extra: ue4
+Provides-Extra: universe
+Provides-Extra: mazeexp
+Provides-Extra: tf
