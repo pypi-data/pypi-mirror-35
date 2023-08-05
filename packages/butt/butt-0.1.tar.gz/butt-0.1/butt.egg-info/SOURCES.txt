@@ -1,0 +1,8 @@
+README.rst
+setup.py
+butt/__init__.py
+butt.egg-info/PKG-INFO
+butt.egg-info/SOURCES.txt
+butt.egg-info/dependency_links.txt
+butt.egg-info/requires.txt
+butt.egg-info/top_level.txt
