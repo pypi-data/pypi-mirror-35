@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: stura-voting-utils
+Version: 0.1.4
+Summary: Utils for Schulze and Median voting as used by the student council Freiburg
+Home-page: https://github.com/FabianWe/stura_voting_utils
+Author: Fabian Wenzelmann
+Author-email: fabianwen@posteo.eu
+License: MIT
+Keywords: voting schulze median
+Platform: UNKNOWN
+Requires-Dist: pytest
+
+UNKNOWN
+
+
