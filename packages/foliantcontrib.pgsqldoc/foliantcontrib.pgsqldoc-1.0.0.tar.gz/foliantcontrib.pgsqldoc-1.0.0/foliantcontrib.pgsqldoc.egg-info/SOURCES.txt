@@ -1,0 +1,8 @@
+README.md
+setup.py
+foliant/preprocessors/pgsqldoc.py
+foliantcontrib.pgsqldoc.egg-info/PKG-INFO
+foliantcontrib.pgsqldoc.egg-info/SOURCES.txt
+foliantcontrib.pgsqldoc.egg-info/dependency_links.txt
+foliantcontrib.pgsqldoc.egg-info/requires.txt
+foliantcontrib.pgsqldoc.egg-info/top_level.txt
