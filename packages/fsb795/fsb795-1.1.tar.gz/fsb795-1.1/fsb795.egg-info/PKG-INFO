@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: fsb795
+Version: 1.1
+Summary: Obtaining the attributes of a qualified certificate, defined by the Order of the FSB 795
+Home-page: UNKNOWN
+Author: Vladimir Orlov
+Author-email: vorlov@lissi.ru
+License: GNU General Public License
+Description: Obtaining the attributes of a qualified certificate, 
+        	defined by the Order of the Federal Security Service 
+        	of the Russian Federation of December 27, 2011 No. 795
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
