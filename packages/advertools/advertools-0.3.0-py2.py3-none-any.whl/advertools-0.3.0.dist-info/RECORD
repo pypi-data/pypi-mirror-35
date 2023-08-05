@@ -1,0 +1,13 @@
+advertools/__init__.py,sha256=8JUDchmPc0yoUZpn9mLGltI-d3kUQv-Y9-6DpubNjec,514
+advertools/ad_create.py,sha256=cVcT7jsaHn6rN0Lrqd766fX-cSUI-IjXqgcokNnuScs,1425
+advertools/ad_from_string.py,sha256=NXbmSNNw6UcQRyalOo-alT7-ol0PqvTfcJmGPo9SLHQ,1633
+advertools/emoji_dict.py,sha256=5fhDKX1W0OjAPr9F8qjMJW8ahHZTGTCdesybRhaWD_o,147436
+advertools/extract.py,sha256=GdNxFr5TB46Ec3q19B1Uut41cZX-bVS8rLOI892W1Kk,7858
+advertools/kw_generate.py,sha256=9HueJakZ1AI2BTPB0ifGZcEXA-kYNLWxh_f7gj_9cwE,6184
+advertools/stopwords.py,sha256=foZ1uAjLEJwM8hZ9WuqjK9cB6UMdY1Pl-KkhT68-2eE,75618
+advertools/url_builders.py,sha256=cdio8-T3WGVjINWbkWiRhMLQvkpo0XXw4FNdOFq0KOQ,1214
+advertools/word_frequency.py,sha256=ue8SZ8u3q2qQ0Qkpe9ECy9h69UoDsob-NGlO2L_mnfg,5341
+advertools-0.3.0.dist-info/METADATA,sha256=VkBsm6CLYzawj_VC0ZeB07gvriCQ7v0DaFD8tGx0pok,8107
+advertools-0.3.0.dist-info/RECORD,,
+advertools-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+advertools-0.3.0.dist-info/top_level.txt,sha256=wcsLDCIa4s8R4S6zukr3NwU280jNIQN8fdQSFXOgl04,11
