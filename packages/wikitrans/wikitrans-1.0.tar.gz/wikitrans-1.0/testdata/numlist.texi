@@ -1,0 +1,19 @@
+
+@enumerate
+@item @i{Numbered lists} are:
+@enumerate
+@item Very organized
+
+@item Easy to follow
+
+@end enumerate
+
+@end enumerate
+
+A newline marks the end of the list.
+
+@enumerate
+@item New numbering starts with 1.
+
+@end enumerate
+

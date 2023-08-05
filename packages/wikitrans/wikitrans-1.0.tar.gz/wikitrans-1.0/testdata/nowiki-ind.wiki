@@ -1,0 +1,9 @@
+Para
+
+<nowiki>
+ a
+ b
+ c
+</nowiki>
+
+para

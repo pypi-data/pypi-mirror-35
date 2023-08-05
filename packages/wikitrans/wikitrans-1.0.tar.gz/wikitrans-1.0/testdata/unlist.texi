@@ -1,0 +1,26 @@
+
+@itemize @bullet
+@item @i{Unordered lists} are easy to do:
+@itemize @bullet
+@item Start every line with a star.
+@itemize @bullet
+@item More stars indicate a deeper level.
+
+@end itemize
+Previous item continues.
+
+@item A newline
+
+@end itemize
+
+@item in a list  
+
+@end itemize
+
+marks the end of the list.
+
+@itemize @bullet
+@item Of course you can start again.
+
+@end itemize
+
