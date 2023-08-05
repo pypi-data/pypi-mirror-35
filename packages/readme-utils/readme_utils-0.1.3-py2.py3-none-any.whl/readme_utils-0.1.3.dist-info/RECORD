@@ -1,0 +1,13 @@
+readme_utils/__init__.py,sha256=Blg_fLiB-6o4vzfFmkVftZveYXZBGWOO5-yG0i1P--M,28
+readme_utils/__version__.py,sha256=M6dMAS429CXU-o30ZdnoAPOygQU_yE-NQGP4jCjbB40,63
+readme_utils/core.py,sha256=0BRSFAZ0gDunUswtgPa-8zDAxLO35rIuV6now4eUInc,4220
+readme_utils/data/bibliography.bib,sha256=L2fLmSsn4BQklsRSMCwb4DEU5k8yFEscsC5o6hN0lrY,114
+readme_utils/data/format.yaml,sha256=yQqDNPtriLsD7aHvQXy3GrEYFy0flvcQl2i2ANM1cZs,208
+readme_utils/data/header.tex,sha256=qpX0KBEctDhcdLVM9G2Cmrc5TlV3fpE4XjAVSxLBCDI,176
+readme_utils/data/readme.md,sha256=Gr9ba-oKt5ijCGu6Y-Oh0XoRVJaB-yfuoPcnFHkxDD8,105
+readme_utils/data/readme_settings.json,sha256=draId3mjzRfGtQFbWWMVCAW4XPGLDXhpR63aMgjZApI,139
+readme_utils-0.1.3.dist-info/METADATA,sha256=bwS1PdGb14u4HPVRC03UgED6tGwalyddpxeie-VtnsE,873
+readme_utils-0.1.3.dist-info/RECORD,,
+readme_utils-0.1.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+readme_utils-0.1.3.dist-info/entry_points.txt,sha256=DJQgUSa-vbjpS3MGAJcFRzNyp44TyWYlnw_oBzlk7m8,105
+readme_utils-0.1.3.dist-info/top_level.txt,sha256=KR3R2yCFdxOp7fm3O6PgF5OYNEFAFinAeL4p86cJ00Y,13
