@@ -1,0 +1,8 @@
+grimoire-elk>=0.30.33
+kidash>=0.4.4
+manuscripts>=0.2.7
+sortinghat>=0.6.2
+PyMySQL
+pyyaml
+redis
+kingarthur>=0.1.7
