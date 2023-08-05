@@ -1,0 +1,16 @@
+pip
+wheel
+setuptools
+six
+
+[:python_version < "2.7"]
+importlib
+
+[:python_version >= "3.7"]
+modutil
+
+[tests]
+pytest-timeout
+pytest>=3.6.0
+pytest-xdist
+pytest-cov
