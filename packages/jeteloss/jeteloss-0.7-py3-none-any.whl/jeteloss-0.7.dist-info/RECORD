@@ -1,0 +1,10 @@
+jeteloss/__init__.py,sha256=XzhCRKWG2a18iGe-rkDTmz-U0AlJ12q-jMza9kfREYY,63
+jeteloss/jeteloss.py,sha256=5uB0WcHZClW8disqXLNLzaDJPhSdkBRHX2N_k9AooB8,18935
+jeteloss/data/RAA_2760.txt,sha256=dqAZ6xXl6wqVCmOJejOha5hMcdGzZWaIUIJFYxkuvDs,935
+jeteloss/data/pp_200.txt,sha256=ZNU9KUfK6QJl5t6Vfry9CBQSSju-5qQH_lOTEFArzTQ,2927
+jeteloss/data/pp_2760.txt,sha256=Fyh6XyUxbxMqKfI9vpJLuOmm7ml36JLHhFFjKL3_X7A,12740
+jeteloss/data/pp_5020.txt,sha256=RWnz1rjh5YkfbSLCNeQXhblIBJTwpkLR3AfgrVuELQY,44778
+jeteloss-0.7.dist-info/METADATA,sha256=J8tbJqPDkV44HB-4jF4QYRmmKEldiy_0Wea4H7dAao0,3351
+jeteloss-0.7.dist-info/RECORD,,
+jeteloss-0.7.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+jeteloss-0.7.dist-info/top_level.txt,sha256=34Wv4tl6EdxdYjF7B862OdlA2QDiykpF8r2A-o7X2fk,9
