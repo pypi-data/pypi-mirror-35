@@ -1,0 +1,190 @@
+interactions:
+  - request:
+      body: |-
+        {"name": "f771619d-4e20-4738-8734-151531b45732", "description": "04dc66a9-2de9-4740-b51b-a314d2d5e8c7", "responseTemplatePatterns": {"responseTemplatePattern": [{"name": "dc8def3d-07c3-42df-9e03-bb03bc0f8ca5", "textPrompt": "YES", "voicePrompt": "1", "spokenVoicePrompt": "to select YES", "pattern": "startswith", "colour": "#00947d"}]}}
+      headers:
+        Accept:
+          - application/vnd.whispir.responserule-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '337'
+        Content-Type:
+          - application/vnd.whispir.responserule-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: POST
+      uri: https://api.us.whispir.com/responserules
+    response:
+      body:
+        string: |-
+          {
+            "id" : "8A4A92EEDC595082",
+            "name" : "f771619d-4e20-4738-8734-151531b45732",
+            "description" : "04dc66a9-2de9-4740-b51b-a314d2d5e8c7",
+            "responseTemplatePatterns" : {
+              "responseTemplatePattern" : [ {
+                "name" : "dc8def3d-07c3-42df-9e03-bb03bc0f8ca5",
+                "textPrompt" : "YES",
+                "voicePrompt" : "1",
+                "spokenVoicePrompt" : "to select YES",
+                "pattern" : "startswith",
+                "colour" : "#00947d"
+              } ]
+            },
+            "link" : [ {
+              "uri" : "https://api.whispir.com/responserules/8A4A92EEDC595082",
+              "rel" : "self",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/responserules/8A4A92EEDC595082",
+              "rel" : "updateResponseRule",
+              "method" : "PUT",
+              "type" : "application/vnd.whispir.responserule-v1+xml,application/vnd.whispir.responserule-v1+json"
+            }, {
+              "uri" : "https://api.whispir.com/responserules/8A4A92EEDC595082",
+              "rel" : "deleteResponseRule",
+              "method" : "DELETE"
+            } ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+          - no-cache="set-cookie"
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.responserule-v1+json
+        Date:
+          - Tue, 14 Aug 2018 16:11:30 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:11:30 GMT
+        Location:
+          - https://api.whispir.com/responserules/8A4A92EEDC595082
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '941'
+        x-amz-apigw-id:
+          - LnzP1E2-SK4FnOg=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Content-Length:
+          - '419'
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:11:30 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - b453c35b-9fdc-11e8-9bf6-75a3d4c8a2b0
+      status:
+        code: 201
+        message: Created
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.responserule-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '0'
+        Content-Type:
+          - application/vnd.whispir.responserule-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: DELETE
+      uri: https://api.us.whispir.com/responserules/8A4A92EEDC595082
+    response:
+      body:
+        string: ''
+      headers:
+        Cache-Control:
+          - max-age=0
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/json
+        Date:
+          - Tue, 14 Aug 2018 16:11:30 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:11:30 GMT
+        content-length:
+          - '0'
+        x-amz-apigw-id:
+          - LnzP3FhfSK4Fmrw=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:11:30 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - b471f9cb-9fdc-11e8-a199-4d4b3139b41b
+      status:
+        code: 204
+        message: No Content
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.responserule-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.responserule-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: GET
+      uri: https://api.us.whispir.com/responserules/8A4A92EEDC595082
+    response:
+      body:
+        string: |-
+          {
+            "errorSummary" : "The resource that you have requested does not exist. Please check the identifier and try again ",
+            "errorText" : "Not Found",
+            "link" : [ ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.responserule-v1+json
+        Date:
+          - Tue, 14 Aug 2018 16:11:30 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:11:30 GMT
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '165'
+        x-amz-apigw-id:
+          - LnzP5HSryK4FS5g=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Content-Length:
+          - '153'
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:11:30 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - b48f6cc0-9fdc-11e8-ab19-07e69564559d
+      status:
+        code: 404
+        message: Not Found
+version: 1

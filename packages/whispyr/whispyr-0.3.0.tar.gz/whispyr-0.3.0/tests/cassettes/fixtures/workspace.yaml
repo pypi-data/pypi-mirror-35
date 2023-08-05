@@ -1,0 +1,110 @@
+interactions:
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.workspace-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.workspace-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: GET
+      uri: https://api.us.whispir.com/workspaces
+    response:
+      body:
+        string: |-
+          {
+            "workspaces" : [ {
+              "id" : "8080DE5434485ED4",
+              "projectName" : "api test",
+              "projectNumber" : "42",
+              "status" : "A",
+              "link" : [ {
+                "uri" : "https://api.whispir.com/workspaces/8080DE5434485ED4",
+                "rel" : "self",
+                "method" : "GET"
+              } ]
+            }, {
+              "id" : "82C9C5DF11C63AED",
+              "projectName" : "Master",
+              "projectNumber" : "",
+              "status" : "A",
+              "billingcostcentre" : "na",
+              "link" : [ {
+                "uri" : "https://api.whispir.com/workspaces/82C9C5DF11C63AED",
+                "rel" : "self",
+                "method" : "GET"
+              } ]
+            }, {
+              "id" : "C3A1B60DEED39BB3",
+              "projectName" : "Sandbox",
+              "projectNumber" : "",
+              "status" : "A",
+              "billingcostcentre" : "na",
+              "link" : [ {
+                "uri" : "https://api.whispir.com/workspaces/C3A1B60DEED39BB3",
+                "rel" : "self",
+                "method" : "GET"
+              } ]
+            }, {
+              "id" : "C7E1D64BD3F17B45",
+              "projectName" : "Training",
+              "projectNumber" : "",
+              "status" : "A",
+              "billingcostcentre" : "na",
+              "link" : [ {
+                "uri" : "https://api.whispir.com/workspaces/C7E1D64BD3F17B45",
+                "rel" : "self",
+                "method" : "GET"
+              } ]
+            }, {
+              "id" : "B6302F7C7B9A8982",
+              "projectName" : "whispyr tests",
+              "status" : "A",
+              "link" : [ {
+                "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982",
+                "rel" : "self",
+                "method" : "GET"
+              } ]
+            } ],
+            "status" : "1 to 5 of 5    ",
+            "link" : [ ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+          - no-cache="set-cookie"
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.workspace-v1+json
+        Date:
+          - Tue, 14 Aug 2018 13:53:17 GMT
+        Expires:
+          - Tue, 14 Aug 2018 13:53:17 GMT
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '1420'
+        x-amz-apigw-id:
+          - LnfADElpyK4FpnQ=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Content-Length:
+          - '354'
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 13:53:17 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - 65501539-9fc9-11e8-ae77-79ffaa289fcb
+      status:
+        code: 200
+        message: OK
+version: 1

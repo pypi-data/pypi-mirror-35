@@ -1,0 +1,127 @@
+interactions:
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.message-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: GET
+      uri: https://api.us.whispir.com/messages?limit=20&offset=0
+    response:
+      body:
+        string: |-
+          {
+            "messages" : [ {
+              "subject" : "whispyr test",
+              "repetitionCount" : 0,
+              "repeatDays" : 0,
+              "repeatHrs" : 0,
+              "repeatMin" : 0,
+              "from" : "Grigory Starinkin",
+              "direction" : "OUTGOING",
+              "responseCount" : "0",
+              "createdTime" : 1534263029000,
+              "link" : [ {
+                "uri" : "https://api.whispir.com/messages/4E659C17F290583C?limit=20&offset=0",
+                "rel" : "self",
+                "method" : "GET"
+              } ]
+            } ],
+            "status" : "",
+            "link" : [ ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+          - no-cache="set-cookie"
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        Date:
+          - Tue, 14 Aug 2018 16:10:38 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:10:38 GMT
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '465'
+        x-amz-apigw-id:
+          - LnzHvFcgyK4FRXA=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Content-Length:
+          - '291'
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:10:38 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - 95678153-9fdc-11e8-a4f0-f1c6c32c5a55
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.message-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: GET
+      uri: https://api.us.whispir.com/messages?limit=20&offset=20
+    response:
+      body:
+        string: |-
+          {
+            "status" : "No records found",
+            "link" : [ ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        Date:
+          - Tue, 14 Aug 2018 16:10:38 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:10:38 GMT
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '51'
+        x-amz-apigw-id:
+          - LnzHxFsFyK4FigQ=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Content-Length:
+          - '73'
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:10:38 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - 958f54c1-9fdc-11e8-8655-3b328a01601b
+      status:
+        code: 200
+        message: OK
+version: 1

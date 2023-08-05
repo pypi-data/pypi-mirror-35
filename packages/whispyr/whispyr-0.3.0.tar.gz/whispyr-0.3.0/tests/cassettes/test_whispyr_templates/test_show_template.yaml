@@ -1,0 +1,240 @@
+interactions:
+  - request:
+      body: |-
+        {"messageTemplateName": "Whispyr test template", "messageTemplateDescription": "Create templates test", "subject": "test template", "body": "This is the body of my test SMS message", "email": {}, "voice": {}, "web": {}}
+      headers:
+        Accept:
+          - application/vnd.whispir.template-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '219'
+        Content-Type:
+          - application/vnd.whispir.template-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: POST
+      uri: https://api.us.whispir.com/workspaces/B6302F7C7B9A8982/templates
+    response:
+      body:
+        string: |-
+          {
+            "messageTemplateName" : "Whispyr test template",
+            "messageTemplateDescription" : "Create templates test",
+            "subject" : "test template",
+            "tags" : "",
+            "dlr" : {
+              "period" : "",
+              "rule" : "",
+              "type" : "",
+              "publishToWeb" : false,
+              "expiryDay" : 0,
+              "expiryHour" : 0,
+              "expiryMin" : 0,
+              "feedIds" : "",
+              "bool" : false
+            },
+            "body" : "This is the body of my test SMS message",
+            "type" : "default",
+            "email" : {
+              "type" : "",
+              "body" : "",
+              "footer" : ""
+            },
+            "web" : {
+              "type" : "",
+              "body" : ""
+            },
+            "voice" : { },
+            "responseTemplateId" : "7D9A8AAA54747711",
+            "id" : "1D6B3109B8FE38EA",
+            "link" : [ {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/templates/1D6B3109B8FE38EA",
+              "rel" : "self",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/templates/1D6B3109B8FE38EA",
+              "rel" : "updateTemplate",
+              "method" : "PUT"
+            }, {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/templates/1D6B3109B8FE38EA",
+              "rel" : "deleteTemplate",
+              "method" : "DELETE"
+            } ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+          - no-cache="set-cookie"
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.template-v1+json
+        Date:
+          - Tue, 14 Aug 2018 16:12:30 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:12:30 GMT
+        Location:
+          - https://api.whispir.com/workspaces/B6302F7C7B9A8982/templates/1D6B3109B8FE38EA
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '1110'
+        x-amz-apigw-id:
+          - LnzZOF9NyK4FnvQ=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:12:30 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - d8253a35-9fdc-11e8-9102-2de23f44c780
+      status:
+        code: 201
+        message: Created
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.template-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.template-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: GET
+      uri: https://api.us.whispir.com/workspaces/B6302F7C7B9A8982/templates/1D6B3109B8FE38EA
+    response:
+      body:
+        string: |-
+          {
+            "messageTemplateName" : "Whispyr test template",
+            "messageTemplateDescription" : "Create templates test",
+            "subject" : "test template",
+            "tags" : "",
+            "dlr" : {
+              "period" : "",
+              "rule" : "",
+              "type" : "",
+              "publishToWeb" : false,
+              "expiryDay" : 0,
+              "expiryHour" : 0,
+              "expiryMin" : 0,
+              "feedIds" : "",
+              "bool" : false
+            },
+            "body" : "This is the body of my test SMS message",
+            "type" : "default",
+            "email" : {
+              "type" : "",
+              "body" : "",
+              "footer" : ""
+            },
+            "web" : {
+              "type" : "",
+              "body" : ""
+            },
+            "voice" : { },
+            "responseTemplateId" : "7D9A8AAA54747711",
+            "id" : "1D6B3109B8FE38EA",
+            "link" : [ {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/templates/1D6B3109B8FE38EA",
+              "rel" : "self",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/templates/1D6B3109B8FE38EA",
+              "rel" : "deleteTemplate",
+              "method" : "DELETE"
+            }, {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/templates/1D6B3109B8FE38EA",
+              "rel" : "updateTemplate",
+              "method" : "PUT"
+            } ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.template-v1+json
+        Date:
+          - Tue, 14 Aug 2018 16:12:30 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:12:30 GMT
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '1110'
+        x-amz-apigw-id:
+          - LnzZQGA5SK4FgyQ=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:12:30 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - d84656bf-9fdc-11e8-88bb-51fd9ade6749
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.template-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '0'
+        Content-Type:
+          - application/vnd.whispir.template-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: DELETE
+      uri: https://api.us.whispir.com/workspaces/B6302F7C7B9A8982/templates/1D6B3109B8FE38EA
+    response:
+      body:
+        string: ''
+      headers:
+        Cache-Control:
+          - max-age=0
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/json
+        Date:
+          - Tue, 14 Aug 2018 16:12:30 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:12:30 GMT
+        content-length:
+          - '0'
+        x-amz-apigw-id:
+          - LnzZSEMISK4FQng=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:12:30 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - d8652983-9fdc-11e8-867b-17fc35912d1b
+      status:
+        code: 204
+        message: No Content
+version: 1

@@ -1,0 +1,200 @@
+interactions:
+  - request:
+      body: |-
+        {"name": "d5dc13bafbdb1b6a2507be2ae0cb96bc", "description": "App (d5dc13bafbdb1b6a2507be2ae0cb96bc) to test whispyr apps CRUD works", "bundleId": "1", "options": {"workspaces": "B6302F7C7B9A8982", "deviceLimit": 3, "apiKey": "411f09f8-fabf-43e1-ad26-9c93b95af72e", "clientSecret": "3ae7f8ec-451c-41ed-b146-be1c9b2837eb"}, "gcm": {"gcmProjectId": "foobar-204e3", "gcmProjectNumber": 383181709987, "gcmApiKey": "9OO9l3ClouDm355491n94P1K3y"}, "registrationTypes": ["INVITE"]}
+      headers:
+        Accept:
+          - application/vnd.whispir.app-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '472'
+        Content-Type:
+          - application/vnd.whispir.app-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: POST
+      uri: https://api.us.whispir.com/apps
+    response:
+      body:
+        string: |-
+          {
+            "id" : "195B9FC3468C59CB",
+            "name" : "d5dc13bafbdb1b6a2507be2ae0cb96bc",
+            "description" : "App (d5dc13bafbdb1b6a2507be2ae0cb96bc) to test whispyr apps CRUD works",
+            "bundleId" : "1",
+            "options" : {
+              "apiKey" : "411f09f8-fabf-43e1-ad26-9c93b95af72e",
+              "deviceLimit" : "3",
+              "workspaces" : "B6302F7C7B9A8982"
+            },
+            "gcm" : {
+              "gcmProjectId" : "foobar-204e3",
+              "gcmProjectNumber" : 383181709987,
+              "gcmApiKey" : "9OO9l3ClouDm355491n94P1K3y"
+            },
+            "apns" : {
+              "certificateDate" : "2018-08-14T15:52:33.015Z"
+            },
+            "apnsSandbox" : {
+              "certificateDate" : "2018-08-14T15:52:33.015Z"
+            },
+            "registrationTypes" : [ "INVITE" ],
+            "managedBySystem" : false,
+            "defaultWorkspaceEnabled" : true,
+            "link" : [ {
+              "uri" : "https://api.whispir.com/apps/195B9FC3468C59CB",
+              "rel" : "self",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/apps/195B9FC3468C59CB",
+              "rel" : "updateAPP",
+              "method" : "PUT",
+              "type" : "application/vnd.whispir.app-v1+xml,application/vnd.whispir.app-v1+json"
+            }, {
+              "uri" : "https://api.whispir.com/apps/195B9FC3468C59CB",
+              "rel" : "deleteAPP",
+              "method" : "DELETE"
+            } ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+          - no-cache="set-cookie"
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.app-v1+json
+        Date:
+          - Tue, 14 Aug 2018 15:52:34 GMT
+        Expires:
+          - Tue, 14 Aug 2018 15:52:33 GMT
+        Location:
+          - https://api.whispir.com/apps/195B9FC3468C59CB
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '1159'
+        x-amz-apigw-id:
+          - LnweJExOyK4FtxQ=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Content-Length:
+          - '564'
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 15:52:33 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - 0e82f389-9fda-11e8-9f42-7f0a8773eae0
+      status:
+        code: 201
+        message: Created
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.app-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '0'
+        Content-Type:
+          - application/vnd.whispir.app-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: DELETE
+      uri: https://api.us.whispir.com/apps/195B9FC3468C59CB
+    response:
+      body:
+        string: ''
+      headers:
+        Cache-Control:
+          - max-age=0
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/json
+        Date:
+          - Tue, 14 Aug 2018 15:52:37 GMT
+        Expires:
+          - Tue, 14 Aug 2018 15:52:34 GMT
+        content-length:
+          - '0'
+        x-amz-apigw-id:
+          - LnweWFbqSK4FrJg=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 15:52:34 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - 0f3af923-9fda-11e8-a134-6139ef0761e3
+      status:
+        code: 204
+        message: No Content
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.app-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.app-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: GET
+      uri: https://api.us.whispir.com/apps/195B9FC3468C59CB
+    response:
+      body:
+        string: |-
+          {
+            "errorSummary" : "The resource that you have requested does not exist. Please check the identifier and try again ",
+            "errorText" : "Not Found",
+            "link" : [ ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.app-v1+json
+        Date:
+          - Tue, 14 Aug 2018 15:52:38 GMT
+        Expires:
+          - Tue, 14 Aug 2018 15:52:37 GMT
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '165'
+        x-amz-apigw-id:
+          - Lnwe7GxdyK4FdYg=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Content-Length:
+          - '153'
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 15:52:37 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - 117901bb-9fda-11e8-8973-217fcb88b644
+      status:
+        code: 404
+        message: Not Found
+version: 1

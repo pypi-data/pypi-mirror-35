@@ -1,0 +1,197 @@
+interactions:
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.message-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: GET
+      uri: https://api.us.whispir.com/workspaces/B6302F7C7B9A8982/messages?limit=20&offset=0
+    response:
+      body:
+        string: |-
+          {
+            "messages" : [ {
+              "subject" : "whispyr test",
+              "repetitionCount" : 0,
+              "repeatDays" : 0,
+              "repeatHrs" : 0,
+              "repeatMin" : 0,
+              "from" : "Grigory Starinkin",
+              "direction" : "OUTGOING",
+              "responseCount" : "0",
+              "createdTime" : 1534263029000,
+              "link" : [ {
+                "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/messages/F8D6BC6646BF32B2?limit=20&offset=0",
+                "rel" : "self",
+                "method" : "GET"
+              } ]
+            }, {
+              "subject" : "whispyr test",
+              "repetitionCount" : 0,
+              "repeatDays" : 0,
+              "repeatHrs" : 0,
+              "repeatMin" : 0,
+              "from" : "Grigory Starinkin",
+              "direction" : "OUTGOING",
+              "responseCount" : "0",
+              "createdTime" : 1534263028000,
+              "link" : [ {
+                "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/messages/92529CCDC80ADA72?limit=20&offset=0",
+                "rel" : "self",
+                "method" : "GET"
+              } ]
+            } ],
+            "status" : "",
+            "link" : [ ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+          - no-cache="set-cookie"
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        Date:
+          - Tue, 14 Aug 2018 16:10:31 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:10:31 GMT
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '932'
+        x-amz-apigw-id:
+          - LnzGmHVuSK4FQng=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:10:31 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - 911c91a9-9fdc-11e8-867b-17fc35912d1b
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.message-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: GET
+      uri: https://api.us.whispir.com/workspaces/B6302F7C7B9A8982/messages/F8D6BC6646BF32B2
+    response:
+      body:
+        string: |-
+          {
+            "to" : "success@simulator.amazonses.com",
+            "subject" : "whispyr test",
+            "body" : "test message, please disregard",
+            "label" : "",
+            "type" : "default",
+            "repetitionCount" : 0,
+            "dlr" : {
+              "period" : "",
+              "rule" : "",
+              "type" : "",
+              "publishToWeb" : false,
+              "expiryDay" : 0,
+              "expiryHour" : 0,
+              "expiryMin" : 0,
+              "feedIds" : "",
+              "bool" : false
+            },
+            "repeatDays" : 0,
+            "repeatHrs" : 0,
+            "repeatMin" : 0,
+            "voice" : { },
+            "from" : "U53RN4M3@User.us.whispir.com",
+            "direction" : "OUTGOING",
+            "responseCount" : "0",
+            "social" : {
+              "social" : [ {
+                "id" : "social"
+              }, {
+                "id" : "social_long"
+              } ]
+            },
+            "createdTime" : 1534263029000,
+            "link" : [ {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/messages/F8D6BC6646BF32B2",
+              "rel" : "self",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/messages/F8D6BC6646BF32B2/messagestatus?view=summary",
+              "rel" : "summaryStatus",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/messages/F8D6BC6646BF32B2/messagestatus?view=detailed",
+              "rel" : "detailedStatus",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/messages/F8D6BC6646BF32B2/messageresponses?view=summary&filter=default",
+              "rel" : "summaryResponses",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/messages/F8D6BC6646BF32B2/messageresponses?view=detailed&filter=default",
+              "rel" : "detailedResponses",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/messages/F8D6BC6646BF32B2/messageresponses?view=summary&filter=responserule",
+              "rel" : "summaryResponsesWithResponseRule",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/workspaces/B6302F7C7B9A8982/messages/F8D6BC6646BF32B2/messageresponses?view=detailed&filter=responserule",
+              "rel" : "detailedResponsesWithResponseRule",
+              "method" : "GET"
+            } ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        Date:
+          - Tue, 14 Aug 2018 16:10:31 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:10:31 GMT
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '2044'
+        x-amz-apigw-id:
+          - LnzGpF1CyK4FpnQ=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:10:31 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - 9144b30b-9fdc-11e8-ae77-79ffaa289fcb
+      status:
+        code: 200
+        message: OK
+version: 1

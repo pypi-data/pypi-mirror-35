@@ -1,0 +1,186 @@
+interactions:
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.message-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: GET
+      uri: https://api.us.whispir.com/messages?limit=20&offset=0
+    response:
+      body:
+        string: |-
+          {
+            "messages" : [ {
+              "subject" : "whispyr test",
+              "repetitionCount" : 0,
+              "repeatDays" : 0,
+              "repeatHrs" : 0,
+              "repeatMin" : 0,
+              "from" : "Grigory Starinkin",
+              "direction" : "OUTGOING",
+              "responseCount" : "0",
+              "createdTime" : 1534263029000,
+              "link" : [ {
+                "uri" : "https://api.whispir.com/messages/4E659C17F290583C?limit=20&offset=0",
+                "rel" : "self",
+                "method" : "GET"
+              } ]
+            } ],
+            "status" : "",
+            "link" : [ ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+          - no-cache="set-cookie"
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        Date:
+          - Tue, 14 Aug 2018 16:10:32 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:10:32 GMT
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '465'
+        x-amz-apigw-id:
+          - LnzGyFa8SK4Fsog=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Content-Length:
+          - '291'
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:10:32 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - 91c49162-9fdc-11e8-8014-37224ddb08dc
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: null
+      headers:
+        Accept:
+          - application/vnd.whispir.message-v1+json
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        authorization:
+          - Basic VTUzUk40TTM6UDRaWlcwUkQ=
+        x-api-key:
+          - V4L1D4P1K3Y
+      method: GET
+      uri: https://api.us.whispir.com/messages/4E659C17F290583C
+    response:
+      body:
+        string: |-
+          {
+            "to" : "success@simulator.amazonses.com",
+            "subject" : "whispyr test",
+            "body" : "test message, please disregard",
+            "label" : "",
+            "type" : "default",
+            "repetitionCount" : 0,
+            "dlr" : {
+              "period" : "",
+              "rule" : "",
+              "type" : "",
+              "publishToWeb" : false,
+              "expiryDay" : 0,
+              "expiryHour" : 0,
+              "expiryMin" : 0,
+              "feedIds" : "",
+              "bool" : false
+            },
+            "repeatDays" : 0,
+            "repeatHrs" : 0,
+            "repeatMin" : 0,
+            "voice" : { },
+            "from" : "U53RN4M3@User.us.whispir.com",
+            "direction" : "OUTGOING",
+            "responseCount" : "0",
+            "social" : {
+              "social" : [ {
+                "id" : "social"
+              }, {
+                "id" : "social_long"
+              } ]
+            },
+            "createdTime" : 1534263029000,
+            "link" : [ {
+              "uri" : "https://api.whispir.com/messages/4E659C17F290583C",
+              "rel" : "self",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/messages/4E659C17F290583C/messagestatus?view=summary",
+              "rel" : "summaryStatus",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/messages/4E659C17F290583C/messagestatus?view=detailed",
+              "rel" : "detailedStatus",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/messages/4E659C17F290583C/messageresponses?view=summary&filter=default",
+              "rel" : "summaryResponses",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/messages/4E659C17F290583C/messageresponses?view=detailed&filter=default",
+              "rel" : "detailedResponses",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/messages/4E659C17F290583C/messageresponses?view=summary&filter=responserule",
+              "rel" : "summaryResponsesWithResponseRule",
+              "method" : "GET"
+            }, {
+              "uri" : "https://api.whispir.com/messages/4E659C17F290583C/messageresponses?view=detailed&filter=responserule",
+              "rel" : "detailedResponsesWithResponseRule",
+              "method" : "GET"
+            } ]
+          }
+      headers:
+        Cache-Control:
+          - max-age=0
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/vnd.whispir.message-v1+json
+        Date:
+          - Tue, 14 Aug 2018 16:10:32 GMT
+        Expires:
+          - Tue, 14 Aug 2018 16:10:32 GMT
+        Vary:
+          - Accept-Encoding
+        content-length:
+          - '1848'
+        x-amz-apigw-id:
+          - LnzG1HXJyK4FfXQ=
+        x-amzn-Remapped-Connection:
+          - keep-alive
+        x-amzn-Remapped-Content-Length:
+          - '538'
+        x-amzn-Remapped-Date:
+          - Tue, 14 Aug 2018 16:10:32 GMT
+        x-amzn-Remapped-Server:
+          - Apache
+        x-amzn-RequestId:
+          - 91fda1e1-9fdc-11e8-83f5-d968b0a9ef20
+      status:
+        code: 200
+        message: OK
+version: 1
