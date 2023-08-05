@@ -1,0 +1,13 @@
+.DS_Store,sha256=Dg0usx4GhPIoIyatniJ_wJJlYezSx3fD8rhqAqDL3O0,6148
+classy_django_datatables-1.0.6.dist-info/METADATA,sha256=flJg76E9supSL0AwY3M3vN1oZyNxPQh7HwgQuQpc70w,8109
+classy_django_datatables-1.0.6.dist-info/RECORD,,
+classy_django_datatables-1.0.6.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+classy_django_datatables-1.0.6.dist-info/top_level.txt,sha256=ry3uXL0Tcu_EHYGxCN63DfOCxLlvZAXFT4sWUR5MmK4,18
+django_datatables/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_datatables/column.py,sha256=5KU7BTtyvc8kxWmLVVPzjNjqKrdBmC1Ja_CnK_4-bnA,4695
+django_datatables/datatable.py,sha256=7mNazntJV845ctg6YxQWPviibpu7t4bDR1HJAu9MmH8,10658
+django_datatables/datatable_meta.py,sha256=6m3xd8dgxx16BV6lj-U3ievvNXT_1wSQZqLHcbprPRc,2876
+django_datatables/excel.py,sha256=eeMlcNU6_vQi-ZpoJE14QxsWNSyzGzkokAj7XUjVmUA,4988
+django_datatables/mixins.py,sha256=rrBm2kbuiWcqrajnxT_Y37Dp2Ng6cUpyAendrD535EQ,2266
+django_datatables/urls.py,sha256=NWCNggDbeZMMSURH9AngW3hC5KETtXew6p_vtmQADKk,225
+django_datatables/views.py,sha256=uRsucHddfKlCtGnj9Aiq0NO3hnkboRfd3OYv0V76nM0,467
