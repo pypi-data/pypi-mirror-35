@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: mxnet-donkeycar
+Version: 1.0
+Summary: An Mxnet Implementation of DonkeyCar, adjusted from the original repo: https://github.com/wroscoe/donkey
+Home-page: https://github.com/vlamai/donkey
+Author: Vincent Lam
+Author-email: vincentthanhlam@gmail.com
+License: MIT
+Download-URL: https://github.com/vlamai/donkey/archive/2.1.5.tar.gz
+Keywords: selfdriving cars donkeycar diyrobocars
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tf_gpu
+Provides-Extra: tf
+Provides-Extra: ci
+Provides-Extra: pi
+Provides-Extra: dev
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: docopt
+Requires-Dist: tornado (==4.5.3)
+Requires-Dist: requests
+Requires-Dist: h5py
+Requires-Dist: python-socketio
+Requires-Dist: flask
+Requires-Dist: eventlet
+Requires-Dist: moviepy
+Requires-Dist: pandas
+Requires-Dist: mxnet
+Provides-Extra: ci
+Requires-Dist: codecov; extra == 'ci'
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: responses; extra == 'dev'
+Provides-Extra: pi
+Requires-Dist: picamera; extra == 'pi'
+Requires-Dist: Adafruit-PCA9685; extra == 'pi'
+Provides-Extra: tf
+Requires-Dist: tensorflow (>=1.7.0); extra == 'tf'
+Provides-Extra: tf_gpu
+Requires-Dist: tensorflow-gpu (>=1.7.0); extra == 'tf_gpu'
+
+A Mxnet Implementation for the DonkerCar repo @ https://github.com/wroscoe/donkey/
+
+
+#### Quick Links
+* [Donkeycar Updates & Examples](http://donkeycar.com)
+* [Build instructions and Software documentation](http://docs.donkeycar.com)
+* [Slack / Chat](https://donkey-slackin.herokuapp.com/)
+
+
