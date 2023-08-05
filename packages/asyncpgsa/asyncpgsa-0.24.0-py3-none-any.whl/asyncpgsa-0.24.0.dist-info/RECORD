@@ -1,0 +1,17 @@
+asyncpgsa/__init__.py,sha256=ojhRkuTS_Yvyb-gwnRiD0Fbk82HH8c_lrsmFryeSajE,235
+asyncpgsa/connection.py,sha256=HYQkw5GGkOokECO4KuhUHUcr9BGruJ9htoxFTv77HQM,3374
+asyncpgsa/log.py,sha256=8IkGfbDzrbP77V3wBIc2-gzZ-vj9DKFqN_dmsGr7VxE,68
+asyncpgsa/pgsingleton.py,sha256=JQ6eWgh87PRwGqGhxxRxDjcTYU-52HKRHG-LWa3yyZQ,5877
+asyncpgsa/pool.py,sha256=Aep-hMQLEaCd2-SRMcIx0HQ_g2vNwiQZhzWx9LnGA3A,1049
+asyncpgsa/transactionmanager.py,sha256=HJSeHYHSUYEFNm5fKIM_pzu6oGS56O7W5ASavntdN9I,1417
+asyncpgsa/version.py,sha256=lbgaUA9yL_X3wnFgvRc5nIlmJ4gFm6Ala6TbPHN-5aY,23
+asyncpgsa/testing/__init__.py,sha256=zR4nxDUHMPBbXAZuk02WFX0lHU9xOVCBjvas-sJ06_o,203
+asyncpgsa/testing/mockconnection.py,sha256=jfxlElYnMAkXZDZmCoLvxwGtIeUPLZqyoosdxYw49vY,1337
+asyncpgsa/testing/mockpgsingleton.py,sha256=EWKZEUtO7D1xl5yEwPXsVklHfOY_I42Yno-iatpFuX0,1767
+asyncpgsa/testing/mockpool.py,sha256=Cgz9Y2G1lBOmLnwNfOnMU_0sU_qWx47bxBq_DpZJfNE,1626
+asyncpgsa/testing/mockpreparedstmt.py,sha256=ZPbTBwi-0zHWmYkKDC9xGG0FYjwFA15mHe9uKx8hCTk,727
+asyncpgsa/testing/mocktransactionmanager.py,sha256=3ONqZI--lkAybMAgzpFJGb9ZuU9qxE_WSOK_uVb1lqw,433
+asyncpgsa-0.24.0.dist-info/METADATA,sha256=OyHemrhL1CfnL3oOOQ5YIg84Xc2iIsdfSCSjE97USPY,300
+asyncpgsa-0.24.0.dist-info/RECORD,,
+asyncpgsa-0.24.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+asyncpgsa-0.24.0.dist-info/top_level.txt,sha256=p6gtDSeTiola2hVSy-FLe24El3O3lTNv6rYeK3b6JmI,10
