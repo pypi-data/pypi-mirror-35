@@ -1,0 +1,14 @@
+omniconverter/__init__.py,sha256=wX1klWCMfqDc36YYPbDHAw6LSP99S6Rz5aSvdmVVc9M,199
+omniconverter/cli.py,sha256=-rOQYfF4UmpAOdi-ithNk_fQQiFrbg_krNXTDN5uSH0,431
+omniconverter/omniconverter.py,sha256=_wGQE07Nj55N_O8USsfAjTqJn4L2liXCNE6weI5M7T0,3051
+omniconverter/read_stata.py,sha256=QKtkghUaAt0diCn1hWlgUUKQslaWE9P4cMigj52b5kk,3042
+omniconverter/read_tdp.py,sha256=6-sgdnLKSS0zjqVD1PUtQT5Sko3T-9JPFJ0fZ0ip-tA,572
+omniconverter/stata_to_statistics.py,sha256=_OnEY2N7u6eDPh1Wc9PogunUktHwsH6vumQKFaVp6qE,1360
+omniconverter/write_stata.py,sha256=HOQ91VGLnWQXPo5UdfTnU2kKOe1W4ekW1kd_WFq7QKA,1184
+omniconverter/write_stats.py,sha256=vkAN4jq4p8ZmF-gopHf_2gUXVJapxTSbLrqlPNokL1I,16894
+omniconverter/write_tdp.py,sha256=_rOO1Ikizbc-GIXCJ5rguf-gZCHbSl7hAAbLUqqtsx0,396
+omniconverter-0.1.7.dist-info/METADATA,sha256=67Aff5YR8f9PHknzop5k47-Q-kGBacJQh5Lbd8oReno,1986
+omniconverter-0.1.7.dist-info/RECORD,,
+omniconverter-0.1.7.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+omniconverter-0.1.7.dist-info/entry_points.txt,sha256=PgbJ6eIXTzqMFA6LYn803JQJeMQY3Kat0--jKHxMuTE,58
+omniconverter-0.1.7.dist-info/top_level.txt,sha256=cHdUfZ8HH-BNRNGUfkERrQQgYBEzFzluc4p6lm3uFrE,14
