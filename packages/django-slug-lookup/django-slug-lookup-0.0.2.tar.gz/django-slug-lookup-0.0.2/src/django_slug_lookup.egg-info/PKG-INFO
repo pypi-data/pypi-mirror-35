@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: django-slug-lookup
+Version: 0.0.2
+Summary: Django model string field lookup by automatically(internally) treating string as a slug.
+Home-page: https://github.com/toransahu/django-slug-lookup
+Author: Toran Sahu
+Author-email: toran.sahu@yahoo.com
+License: Distributed under terms of the AGPL license.
+Description: # django-slug-lookup
+        Django model string field lookup by automatically(internally) treating string as a slug
+        
+Keywords: django model database field lookup slug string
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Archiving :: Packaging
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Topic :: Database
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Natural Language :: English
+Requires-Python: >=3.*
+Description-Content-Type: text/markdown
