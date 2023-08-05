@@ -1,0 +1,11 @@
+bopomo/__init__.py,sha256=Qaa2lnvrE-8Y9mlzZxx5cAw9CZZIGiturXimrVy39b0,27
+bopomo/bopomo.py,sha256=cG9DAODXVc0oqoQ3Isic6Lfb0rzPnig752T4DD4hkqw,3109
+bopomo/data/bopomo_seg_words.csv,sha256=ERhjoxr3AOepSOdxAl1wCmnp0EewT4f7FcO55rS8gBo,809943
+bopomo/data/bopomo_word.csv,sha256=MRUqN2coxjiNzCALbplqcp6D2Xi_i7Nrsyc7LHXhl-4,168734
+bopomo/data/bopomo_words.csv,sha256=P1HRF7f9nPE33AqF2u6TdXQ1TyJdKeLNNHlmTUTQtRg,5459427
+bopomo/data/words_list.txt,sha256=_7BViD8mXGiXAWc_3pIphcGFt4JJvNesCsEq1q2KwQ8,2153969
+bopomo/model/bopomo.crfsuite,sha256=4y2U6eAWqyv1PlRwwb-em6Fw0aZVOJcUxV1FkkUwlpw,1716164
+bopomo-0.0.8.dist-info/METADATA,sha256=n7LNnE2M1K9TuobG8c9RAurm6BAHkc4RCH9KbXPaJ_c,1583
+bopomo-0.0.8.dist-info/RECORD,,
+bopomo-0.0.8.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+bopomo-0.0.8.dist-info/top_level.txt,sha256=PRIxs77G9BrHKzzu9Sn8eERey0LdOIUXSkA5017jS_c,7
