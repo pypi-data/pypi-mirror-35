@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: slogging
+Version: 1.2.1
+Summary: Stats System for OpenStack Swift
+Home-page: UNKNOWN
+Author: OpenStack
+Author-email: openstack-dev@lists.openstack.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: pbr (!=2.1.0)
+Requires-Dist: pytz
+Requires-Dist: netaddr
+
+====================
+Welcome to slogging!
+====================
+
+slogging is a stats and logging tools for OpenStack Swift.
+
+* License: Apache license
+* Source: https://git.openstack.org/cgit/openstack/slogging
+* Bugs: https://bugs.launchpad.net/slogging
+
+
+
