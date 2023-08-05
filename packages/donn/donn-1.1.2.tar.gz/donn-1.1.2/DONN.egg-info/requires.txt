@@ -1,0 +1,16 @@
+keras>=2.2.0
+numpy>=1.9.1
+scipy>=0.14
+six>=1.9.0
+pyyaml
+h5py
+itertools
+gc
+pickle
+scikit-learn>=0.19.0
+time
+string
+random
+
+[tests]
+pytest
