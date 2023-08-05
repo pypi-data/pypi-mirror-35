@@ -1,0 +1,11 @@
+odoo10_addon_l10n_us_account_profile-10.0.0.0.2-py2.7-nspkg.pth,sha256=BRP8mvEvEhIFmA57wbSTfAVbaAesjZh6WbtWMKUVv1c,1118
+odoo/addons/l10n_us_account_profile/README.rst,sha256=QgCjeTp_n3ztpx-01mtof6aeynemz8aMCRytgbiK__M,1996
+odoo/addons/l10n_us_account_profile/__init__.py,sha256=BQG15jjs8hrmkl3meJa-gCYd8RNS0tmo4BTf5t1Vw6E,164
+odoo/addons/l10n_us_account_profile/__manifest__.py,sha256=J29zMRrfG1SIMlVQH4fRY4nAFhisd9nqZDXPinQfF04,827
+odoo/addons/l10n_us_account_profile/i18n/l10n_us_account_profile.pot,sha256=tYuE3-MLMMQJE5mpVzIg_IKWcTGkn4R0qtWo-2n_0q0,344
+odoo/addons/l10n_us_account_profile/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo10_addon_l10n_us_account_profile-10.0.0.0.2.dist-info/METADATA,sha256=d6K-5Ui9FxYSLx3CobwIDeIPJVjFZfTfIsq5Ox7bAaA,2934
+odoo10_addon_l10n_us_account_profile-10.0.0.0.2.dist-info/RECORD,,
+odoo10_addon_l10n_us_account_profile-10.0.0.0.2.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+odoo10_addon_l10n_us_account_profile-10.0.0.0.2.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_l10n_us_account_profile-10.0.0.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
