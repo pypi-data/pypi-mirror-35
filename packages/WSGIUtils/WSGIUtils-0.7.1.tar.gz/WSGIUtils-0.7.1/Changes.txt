@@ -1,0 +1,80 @@
+WSGI Utils (Version 0.7.1)
+--------------------------
+
+Version 0.7.1
+-------------
+Changes contributed by David Fraser.
+
+Packaging changes:
+ - Added more packaging info for pypi
+ - Refer to new github repository
+ - Ensure LICENSE.txt is distributed in all formats
+ - Ensure source distribution contains all source files
+
+Version 0.7
+-----------
+
+New features:
+ - Added minimal support for SetupTools.
+
+Bug fixes:
+ - Changed "error.timeout" to "socket.timeout".
+ - Changed package name from "WSGI Utils" to "WSGIUtils" for greater compatibility with other tools.
+
+Verison 0.6
+-----------
+New features:
+ - Common network errors (e.g. "Software caused connection abort") are now logged and
+   suppressed.
+
+Version 0.5
+-----------
+Changes contributed by Ian Bicking.
+
+New features:
+ - Application exceptions are now logged on the server side.
+
+Bug fixes:
+ - Application iteration objects should be closed after each request.
+
+Version 0.4
+-----------
+More API cleanups and some bug fixes.
+
+New features:
+ - Request object provides ability to redirect (303) to another page.
+ - Removed client IP address from session management.
+ 
+Bug fixes:
+ - Port number should be provided as number rather than string in SERVER_PORT.
+
+Version 0.3
+-----------
+The API for wsgiAdaptor has been cleaned up and extended in this release - 
+please refer to the API documentation for details.
+
+New features:
+ - Serving of files can be disabled by passing in serveFiles=0 to the 
+   wsgiServer constructor.
+ - wsgiAdaptor API cleanup.
+ 
+Bug fixes:
+ - Applications registering for a particular URL now receive all requests for 
+   that URL's children paths.
+ 
+Version 0.2
+-----------
+New features:
+ - Added some unit tests
+
+Bug fixes:
+ - Use a time stamp rather than the client IP as the second part of the session
+   ID so that it works for WSGI implementations that don't provide the client 
+   IP.
+ - Session last access time wasn't updated when it needed to be (sessions 
+   timed out).
+ - Moved session server logging configuration to daemon.
+
+Version 0.1
+-----------
+Initial release.
