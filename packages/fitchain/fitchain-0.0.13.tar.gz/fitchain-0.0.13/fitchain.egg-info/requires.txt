@@ -1,0 +1,9 @@
+pandas
+numpy
+faker
+requests
+pyyaml
+joblib
+python-magic
+pprint
+keras
