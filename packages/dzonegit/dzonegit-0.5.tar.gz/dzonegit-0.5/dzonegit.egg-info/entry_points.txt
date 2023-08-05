@@ -1,0 +1,6 @@
+[console_scripts]
+dzonegit-post-receive = dzonegit:post_receive
+dzonegit-pre-commit = dzonegit:pre_commit
+dzonegit-pre-receive = dzonegit:pre_receive
+dzonegit-update = dzonegit:update
+
