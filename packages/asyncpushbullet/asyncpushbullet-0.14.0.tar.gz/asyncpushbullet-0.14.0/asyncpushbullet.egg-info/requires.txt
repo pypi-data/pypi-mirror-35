@@ -1,0 +1,5 @@
+requests>=1.0.0
+python-magic
+aiohttp
+tqdm
+pillow
