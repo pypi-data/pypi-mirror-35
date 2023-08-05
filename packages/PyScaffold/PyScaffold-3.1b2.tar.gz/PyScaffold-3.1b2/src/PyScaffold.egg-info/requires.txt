@@ -1,0 +1,14 @@
+setuptools>=31
+
+[all]
+django
+cookiecutter
+pyscaffoldext-pyproject
+
+[testing]
+sphinx
+flake8
+pytest
+pytest-cov
+pytest-virtualenv
+pytest-xdist
