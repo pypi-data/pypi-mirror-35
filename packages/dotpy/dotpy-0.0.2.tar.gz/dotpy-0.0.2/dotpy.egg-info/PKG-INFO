@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dotpy
+Version: 0.0.2
+Summary: Python .dot parser specific for MONA dfa output
+Home-page: https://github.com/Francesco17/dotpy
+Author: Francesco Fuggitti
+Author-email: francesco.fuggitti@gmail.com
+License: MIT license
+Description: ## DotPy
+        DotPy is a simple Python library able to parse and modify only specific .dot (Graphviz) files. In particular, the library is useful for those .dot files
+        which are output of MONA Brics.
+Keywords: dotpy
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
