@@ -1,0 +1,13 @@
+appdirs
+daiquiri
+pygithub
+colored
+pluggy
+
+[TEST]
+appdirs
+daiquiri
+pytest>=3.1.1
+pytest-cov>=2.5.1
+pytest-mock
+codecov
