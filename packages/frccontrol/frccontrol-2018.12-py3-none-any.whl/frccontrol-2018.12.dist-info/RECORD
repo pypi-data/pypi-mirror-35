@@ -1,0 +1,14 @@
+frccontrol/__init__.py,sha256=ARFvjE_cQifIqq6iTzXdXmi9ueXkHRMXRvgsx6mjGj4,243
+frccontrol/ctrlutil.py,sha256=UODLgsWVqPOfr9lZsvUKSHEU3dAsYeU74M9gTHBEVzs,1677
+frccontrol/dlqr.py,sha256=t-yfpHB7Nac7aH4nvQE9PVB4NxzEXYhNqQdfxVXRHI4,780
+frccontrol/kalmd.py,sha256=_kBpu123SpaA18XryDZGfG77WTCjBpmDQVdkR7j58xk,910
+frccontrol/models.py,sha256=tYFgpoAVAx4bySHjj0RNvzadKr-TsVv3ia77JhSp4rs,6030
+frccontrol/system.py,sha256=KjXp7VhUWdB2Ybfv8As8GC5Pbscy_bcL2n8AvxWJn20,11165
+frccontrol/system_writer.py,sha256=F-EayeGlyVQ1q8Sg7cV7GrnpU-BPaUmF6SSCZp5xAtQ,9078
+frccontrol/version.py,sha256=1qex4HUWEtZ3lksaiopdp5jqhi8BlyIAw48-RUaBnLs,51
+frccontrol-2018.12.dist-info/METADATA,sha256=_ZktIIEiW4irn2r7BJqHPSLt2_BUvJ3zYAW4wwmUMj0,1147
+frccontrol-2018.12.dist-info/RECORD,,
+frccontrol-2018.12.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+frccontrol-2018.12.dist-info/top_level.txt,sha256=7XQ2hTRfbbZZLvN4nFNqlzLwke5Ajn7faWDKrkSWDx8,16
+frccontrol-2018.12.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+test/__init__.py,sha256=oj_mYYchUsJwE_OFlM9fN_qU0a6KJgumLHFcu5yrKak,63
