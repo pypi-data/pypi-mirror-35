@@ -1,0 +1,3 @@
+[console_scripts]
+fifty_docker = fifty_docker.main:render_template
+
