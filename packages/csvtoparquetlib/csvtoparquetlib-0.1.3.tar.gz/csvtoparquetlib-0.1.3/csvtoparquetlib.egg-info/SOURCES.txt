@@ -1,0 +1,11 @@
+README.md
+setup.py
+csvtoparquetlib/__init__.py
+csvtoparquetlib/connect.py
+csvtoparquetlib/convert_module.py
+csvtoparquetlib/helpers.py
+csvtoparquetlib/object_module.py
+csvtoparquetlib.egg-info/PKG-INFO
+csvtoparquetlib.egg-info/SOURCES.txt
+csvtoparquetlib.egg-info/dependency_links.txt
+csvtoparquetlib.egg-info/top_level.txt
