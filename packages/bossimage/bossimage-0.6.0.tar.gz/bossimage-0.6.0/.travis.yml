@@ -1,0 +1,18 @@
+language: python
+python:
+  - '2.7'
+addons:
+  apt:
+    packages:
+      - pandoc
+install: pip install -r requirements-dev.txt
+script: python setup.py test
+deploy:
+  - provider: pypi
+    user: rjosephwright
+    password:
+      secure: FQjcAh7Q4sUFhSSj2+ucARhJ7KPloCyKa02giLIxpWkxr50c+BCgaccWm5niSzXAIV17TiCXinZhiReh6MVPrbPphoDCbb3JuB1XnuGOKXAzz5FPmYd+oxkvQfILGSYnXMcayR6s3Xy6DT1ThcN7d5HAIDNombyHBr7e+uAExRHkcpHsn5hmU9wQNGom5GXv2yCRDhhAfriZ847VjgbQsJ/zXjqev/kO0t3h1IKle0VdIRclGCLKllw7mIZ20NYSekGyvs2xMr3POrZlRXSrn6l4fD+95SFFwkrxoSxpNV1oTEmGyMZlqokkF4ixr7c28vOkGZgHPm7qcj7Hqz5kp2l38R2F7BRff8mnQNvVrE1NHn29MOKN8JPf0W9+Kd1jZ1FHLbG4Kx1wI+jD3sTWVXUeJaX0qAL5F+emdUkubbaXon03n66WVsA+YQJgMWsDut0rtjSg0CjXSdnrgCrrRMVp5Bu390Zkg/3aK3nx4uRLFsMUYbmOLM165WyiCfJ8pdhZCHYMSvys77Xw82dBI52LM99VXsoj9DwDo3a5XJ4JyrsY96X6vcil7lShMgncsAqyx5As5kAc36FfFSwXA85EJ6FcYiDgKj8n84OxouHbyKZGO51/ItdvShbZLAM3hT6UslNDHkT8OiiMmmA5n2imSLeoP2ut5aE79MkA94I=
+    on:
+      tags: true
+    distributions: sdist bdist_wheel
+    repo: cloudboss/bossimage
