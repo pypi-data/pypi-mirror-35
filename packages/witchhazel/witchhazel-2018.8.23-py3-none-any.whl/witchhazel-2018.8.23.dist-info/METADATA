@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: witchhazel
+Version: 2018.8.23
+Summary: A dark & feminine color scheme for Pygments
+Home-page: https://witchhazel.thea.codes
+Author: Alethea Katherine Flowers
+Author-email: me@thea.codes
+License: Apache Software License
+Project-URL: Documentation, https://witchhazel.thea.codes
+Project-URL: Source Code, https://github.com/theacodes/witchhazel
+Project-URL: Bug Tracker, https://github.com/theacodes/witchhazel/issues
+Keywords: pygments color
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+# Witch Hazel Theme
+
+TODO
+
+
