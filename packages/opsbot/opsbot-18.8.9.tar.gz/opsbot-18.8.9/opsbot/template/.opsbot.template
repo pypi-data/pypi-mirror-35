@@ -1,0 +1,25 @@
+[setting]
+target_os=ubuntu
+target_os_version=18.04
+password_length=18
+
+[env]
+common
+lamp
+https
+#mongodb
+#node
+#scrapy
+#composer
+
+[user]
+firstusr --mysql --database-prefix=frst_
+secondusr --mysql --mongodb --database-prefix=scnd_
+
+[site]
+example.com firstusr --public-directory=public
+example2.com secondusr --include-domain=example.gov.vn,example.edu.vn
+example3.com firstusr
+
+[tool]
+allow_normal_user_certbot
