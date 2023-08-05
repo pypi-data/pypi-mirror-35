@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: keras-tpu
+Version: 0.0.2
+Summary: Transition package to add Keras support to TPUs.
+Home-page: https://github.com/pypa/sampleproject
+Author: Russell Power et. al.
+Author-email: power@google.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## Keras TPU Support
+
+This package provides experimental support for using Keras models directly with
+Cloud TPUs.
+
+
