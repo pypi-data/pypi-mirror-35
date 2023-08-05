@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: scvelo
+Version: 0.1.1
+Summary: Stochastic RNA velocity for inferring single cell dynamics
+Home-page: https://github.com/VolkerBergen/scvelo
+Author: Volker Bergen
+Author-email: volker.bergen@helmholtz-muenchen.de
+License: BSD
+Download-URL: https://github.com/VolkerBergen/scvelo
+Keywords: RNAseq,singlecell,stochastic,velocity,transcriptomics
+Platform: UNKNOWN
+Requires-Dist: anndata (>=0.6.9)
+Requires-Dist: matplotlib (>=2.2)
+Requires-Dist: pandas (>=0.21)
+Requires-Dist: scanpy (>=1.2.2)
+Requires-Dist: scikit-learn (>=0.19.1)
+Requires-Dist: h5py
+Requires-Dist: joblib
+Requires-Dist: loompy
+Requires-Dist: natsort
+Requires-Dist: networkx
+Requires-Dist: numba
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: statsmodels
+Requires-Dist: tables
+
+UNKNOWN
+
+
