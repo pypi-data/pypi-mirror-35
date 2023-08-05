@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ews-cli
+Version: 0.1.0.6
+Summary: Filter email via EWS endpoint
+Home-page: https://github.com/KebinuChiousu/ews_cli
+Author: Kevin Meredith
+Author-email: kevin@meredithkm.info
+License: MIT
+Download-URL: https://github.com/KebinuChiousu/ews_cli/archive/v0.1.0.6.tar.gz
+Description: UNKNOWN
+Keywords: owa ews filter
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Communications :: Email
