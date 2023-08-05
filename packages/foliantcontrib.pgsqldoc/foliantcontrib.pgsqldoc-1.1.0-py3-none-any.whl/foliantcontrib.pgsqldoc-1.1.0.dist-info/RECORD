@@ -1,0 +1,9 @@
+foliant/preprocessors/pgsqldoc.py,sha256=MHcuH8f1ezYdA3Q28PXxThM75dHLMrDiNXDJJXekrNI,11168
+foliant/preprocessors/pgsqldoc/__init__.py,sha256=5pUcPaN-Ge-rLqGuCkA74iH2TOucpWR5iGUwDfGUmZ4,34
+foliant/preprocessors/pgsqldoc/pgsqldoc.py,sha256=Z70RaGIuWXucFZaQ9Mb8zsRWNR0VDECEBJfi6-laDIg,10992
+foliant/preprocessors/pgsqldoc/templates/pgsqldoc.j2,sha256=qkSoBHOD9BhSli7Yj6xt2RVeY9tzPiwr1rTAERJiFzM,4011
+foliant/preprocessors/pgsqldoc/templates/scheme.j2,sha256=xrTUMe9qUxY0KaDoNLbPQUXXVF-pUdtpgtnSsZY-M7c,2273
+foliantcontrib.pgsqldoc-1.1.0.dist-info/METADATA,sha256=vJKYJ2LtwJOycMoytr0ycVQSEJ317Ujtf1y3N67akRI,4680
+foliantcontrib.pgsqldoc-1.1.0.dist-info/RECORD,,
+foliantcontrib.pgsqldoc-1.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+foliantcontrib.pgsqldoc-1.1.0.dist-info/top_level.txt,sha256=5uvI8ZIgBWKY09Z8Xs4ESLGD7yAEGbiLvIrdHdaC9mE,8
