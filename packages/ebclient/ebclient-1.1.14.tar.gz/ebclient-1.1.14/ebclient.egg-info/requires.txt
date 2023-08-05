@@ -1,0 +1,17 @@
+pycrypto>=2.6
+requests
+setuptools>=1.0
+six
+Crypto
+future
+mock
+
+[dev]
+nose
+pep8
+tox
+
+[docs]
+Sphinx>=1.0
+sphinx_rtd_theme
+sphinxcontrib-programoutput
