@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: runable_tempfile
+Version: 1.0
+Summary: Temporary file that can be opened in external app and deleted afterward
+Home-page: https://gitlab.com/pazdror/runable_tempfile
+Author: Dror Paz
+Author-email: pazdror@gmail.com
+License: UNKNOWN
+Description: 
+            This class creates a temporary file which can be be opened in external program and be deleted only after the
+            external program closes.
+            A separate python instance will remain active in memory until no program uses the file (searched by filename),
+            than deletes the file and closes.
+            
+Keywords: tempfile temporary file launch NamedTemporaryFile
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
