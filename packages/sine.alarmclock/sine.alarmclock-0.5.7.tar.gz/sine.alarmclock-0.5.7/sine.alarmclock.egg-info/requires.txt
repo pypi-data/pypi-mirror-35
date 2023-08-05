@@ -1,0 +1,5 @@
+plone.synchronize
+sine.threads
+sine.path
+sine.flashWindow>=0.2.0
+sine.properties
