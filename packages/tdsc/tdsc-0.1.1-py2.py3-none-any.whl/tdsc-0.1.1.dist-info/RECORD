@@ -1,0 +1,9 @@
+tdsc/__init__.py,sha256=CJ3yKfQ-22G_IAdlRbQdpbrkl77jKLjWTBlPVbKpyEs,125
+tdsc/context.py,sha256=LXDQnRD62wEVf9bz7o9Z2LcvGjLldY7i5LB1D_p_h2E,587
+tdsc/state.py,sha256=PB1AYAh7BPF5WPYyED3PWAOCEmotoXHwgyRSuCoYlRs,1460
+tdsc/strategy.py,sha256=ZxnGr-6jJOAFiZqrjWO49D2Sk8RX9zoqiIifq9RIAMM,468
+tdsc/utils/__init__.py,sha256=pqIpmdqfclYvF9VG5jLQBb815Ju3AonOShQp8ocjfUU,40
+tdsc/utils/git.py,sha256=EILUG896F1_9vgha5FP1mjm8rh6GgOtVIFRI0EE49UE,553
+tdsc-0.1.1.dist-info/WHEEL,sha256=iHNYzPUVYRtgtTQ6cDC8dDHik6tPtlP28oe-A5gfgbQ,88
+tdsc-0.1.1.dist-info/METADATA,sha256=sepDip9g6Lsmu97XTrJuT7rFy6_2wRGwB5JSmHTKvlA,1140
+tdsc-0.1.1.dist-info/RECORD,,
