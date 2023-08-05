@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+bulkrename/__init__.py
+bulkrename/argpar.py
+bulkrename/bulkrename.py
+bulkrename/question.py
+bulkrename.egg-info/PKG-INFO
+bulkrename.egg-info/SOURCES.txt
+bulkrename.egg-info/dependency_links.txt
+bulkrename.egg-info/entry_points.txt
+bulkrename.egg-info/top_level.txt
