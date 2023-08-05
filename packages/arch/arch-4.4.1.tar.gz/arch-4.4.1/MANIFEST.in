@@ -1,0 +1,6 @@
+include README.rst
+include README.md
+include arch/bootstrap/_samplers.pyx
+include arch/univariate/recursions.pyx
+include versioneer.py
+include arch/_version.py
