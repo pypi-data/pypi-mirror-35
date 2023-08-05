@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: algolia-places-python
+Version: 0.1
+Summary: Algolia Places Python (unofficial)
+Home-page: https://github.com/m-vdb/algolia-places-python
+Author: Maxime Vdb
+Author-email: me@maxvdb.com
+License: MIT
+Download-URL: https://github.com/m-vdb/algolia-places-python/archive/v0.1.tar.gz
+Project-URL: Source Code, https://github.com/m-vdb/algolia-places-python
+Description: UNKNOWN
+Keywords: algolia places python api sdk
+Platform: UNKNOWN
