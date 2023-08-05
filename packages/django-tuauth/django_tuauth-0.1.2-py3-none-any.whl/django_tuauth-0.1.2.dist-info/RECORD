@@ -1,0 +1,6 @@
+django_tuauth-0.1.2.dist-info/METADATA,sha256=ZY8VyrAnF9EPssxReakE16vmSxStL-1bBvpu_JIJFE0,2743
+django_tuauth-0.1.2.dist-info/RECORD,,
+django_tuauth-0.1.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_tuauth-0.1.2.dist-info/top_level.txt,sha256=utYipFQqF-Ej2SSSFt-XPgjgadNm-nldt9ldKeVhySQ,7
+tuauth/__init__.py,sha256=FoOP4GWK-pQemX72mwPsAly2YQbk9VdgMnNykzM_Xmk,162
+tuauth/backend.py,sha256=SEVKrZ5iES4_-NJIysGPUGDs2OyrNtZ4nbNCWhwgYO0,1338
