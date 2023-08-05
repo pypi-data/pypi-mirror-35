@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+pycamhd/__init__.py
+pycamhd/pycamhd.py
+pycamhd.egg-info/PKG-INFO
+pycamhd.egg-info/SOURCES.txt
+pycamhd.egg-info/dependency_links.txt
+pycamhd.egg-info/requires.txt
+pycamhd.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pycamhd
+Version: 0.7.0
+Summary: Module for interacting with OOI CamHD video data
+Home-page: https://github.com/tjcrone/pycamhd
+Author: Timothy Crone
+Author-email: tjcrone@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: README.rst
+Platform: UNKNOWN
