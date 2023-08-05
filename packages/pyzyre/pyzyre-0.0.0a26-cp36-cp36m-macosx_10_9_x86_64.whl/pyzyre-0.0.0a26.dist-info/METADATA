@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyzyre
+Version: 0.0.0a26
+Summary: higher level bundled pythonic bindings for Zyre
+Home-page: https://github.com/wesyoung/pyzyre
+Author: Wes Young
+Author-email: wes@barely3am.com
+License: MPL2
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Requires-Dist: netifaces
+Requires-Dist: netaddr
+Requires-Dist: cython (>=0.20)
+Requires-Dist: names
+Requires-Dist: tornado
+Requires-Dist: pyzmq
+Requires-Dist: dnspython (>=1.15)
+
+UNKNOWN
+
+
