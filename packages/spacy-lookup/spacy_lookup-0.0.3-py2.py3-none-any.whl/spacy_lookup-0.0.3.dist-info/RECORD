@@ -1,0 +1,10 @@
+spacy_lookup/__init__.py,sha256=GguNUAh5p84YYyu1jTkDbrshhQTclJgz6NF3JEaZC80,3134
+spacy_lookup/about.py,sha256=9Qz3QpzIftpQE3XLuNqT58MpD9j_RjS_-CcoIJpXu2Q,271
+spacy_lookup-0.0.3.dist-info/DESCRIPTION.rst,sha256=CyMnPdbFXegC_7c9tD_7l9Z8jZC5LSEmONYuZ4OHbfc,3719
+spacy_lookup-0.0.3.dist-info/METADATA,sha256=-D_YBzrLtWm6EJjwbjad9ehIUTAGV96XAp7_WMm4MW0,4100
+spacy_lookup-0.0.3.dist-info/RECORD,,
+spacy_lookup-0.0.3.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+spacy_lookup-0.0.3.dist-info/metadata.json,sha256=gZNLtKohSSLwPBsNuzULU1wiRvfyPidiTkcVTrwSsl4,641
+spacy_lookup-0.0.3.dist-info/top_level.txt,sha256=5lTPgaE1cn-k0J-Bq4siIXufiFEq3wrEsn2IQ7MF6XU,19
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_entities.py,sha256=CEZljPN8s_t-hk_QJthDT8YzTlk545Ccj2KNe15Vb40,3827
