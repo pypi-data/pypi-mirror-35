@@ -1,0 +1,6 @@
+numpy
+Pillow
+tqdm
+
+[:python_version < "3"]
+pathlib2

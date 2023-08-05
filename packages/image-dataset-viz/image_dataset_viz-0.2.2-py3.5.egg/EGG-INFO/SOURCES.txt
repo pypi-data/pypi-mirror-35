@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+image_dataset_viz/__init__.py
+image_dataset_viz/dataset_exporter.py
+image_dataset_viz.egg-info/PKG-INFO
+image_dataset_viz.egg-info/SOURCES.txt
+image_dataset_viz.egg-info/dependency_links.txt
+image_dataset_viz.egg-info/requires.txt
+image_dataset_viz.egg-info/top_level.txt
+image_dataset_viz/fonts/DejaVuSans.ttf
