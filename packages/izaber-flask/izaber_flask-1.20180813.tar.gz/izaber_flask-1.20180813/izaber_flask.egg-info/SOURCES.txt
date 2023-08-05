@@ -1,0 +1,9 @@
+README
+setup.py
+izaber_flask/__init__.py
+izaber_flask.egg-info/PKG-INFO
+izaber_flask.egg-info/SOURCES.txt
+izaber_flask.egg-info/dependency_links.txt
+izaber_flask.egg-info/not-zip-safe
+izaber_flask.egg-info/requires.txt
+izaber_flask.egg-info/top_level.txt
