@@ -1,0 +1,70 @@
+# Spanish translations for PACKAGE package
+# Traducciones al español para el paquete PACKAGE.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# root <turulomio@yahoo.es>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: TooManyFiles\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-19 09:44+0200\n"
+"PO-Revision-Date: 2015-03-22 18:51+0100\n"
+"Last-Translator: root <turulomio@yahoo.es>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "DESCRIPTION"
+msgstr "DESCRIPCIÓN"
+
+msgid "Remove innecesary files or directories with a date and time pattern in the current directory."
+msgstr "Borra ficheros o directorios innecesarios, que tengan un patrón de fecha y hora en el directorio actual."
+
+msgid "This app has the following mandatory parameters:"
+msgstr "Esta aplicación tiene los siguientes parámetros obligatorios"
+
+msgid "Create two directories called 'example' and 'example_directories' in the current working directory and fill it with example files with date and time patterns."
+msgstr "Crea dos directorios de nombre 'example' y 'example_directories' en el directorio actual y los llena con ficheros de ejemplo que tengan patrónes de fecha y hora."
+
+msgid "Create an animated gif/video from the output of the program passed as parameter"
+msgstr "Crea un gif animado/video de la salida del programa pasado como parámetro"
+
+msgid "Developed by Mariano Muñoz 2018-{} under GNU General Public License 3.0"
+msgstr "Desarrollado por Mariano Muñoz 2018-{} bajo la licencia GNU GPL-3.0"
+
+msgid "Path to program"
+msgstr "Ruta al programa"
+
+msgid "Ttyrec output path"
+msgstr "Ruta de salida de Ttyrec"
+
+msgid "Makes a simulation and doesn't remove files"
+msgstr "Realiza una simulación y no borra los ficheros"
+
+msgid "Operating system environment variable LC_ALL to force translation"
+msgstr "Variable LC_ALL del entorno del sistema operativo para forzar la traducción"
+
+msgid "This funcionality doen't work on {}. Please move to Linux."
+msgstr "Esta funcionalidad no funciona en {}. Por favor usa Linux."
+
+msgid "This is a video to show how to use 'ttyrecgenerator' command"
+msgstr "Esto es un video para mostrar como usar el comando 'ttyrecgenerator'"
+
+msgid "First we have to create a unix command. This file in doc/ttyrec directory is an example. We display it:"
+msgstr "Primero tenemos que crear un comando unix. Este fichero en el directorio doc/ttyrec es un ejemplo. Lo mostramos:"
+
+msgid "Now we are going to execute it with:"
+msgstr "Ahora vamos a ejecutarlo con:"
+
+msgid "A file called ttyrecgenerator_howto_es.gif is generated"
+msgstr "Un fichero llamado ttyrecgenerator_howto_es.gif se ha generado"
+
+msgid "If you want to generate a video use --video parameter"
+msgstr "Si quieres generar un video usa el parámetro --video"
+
+msgid "If your script support several languages, change --lc_all to change to your desired LC_ALL environment"
+msgstr "Si tu script soporta varios idiomas, cambia --lc_all para cambiar a la variable de entorno LC_ALL deseada"
