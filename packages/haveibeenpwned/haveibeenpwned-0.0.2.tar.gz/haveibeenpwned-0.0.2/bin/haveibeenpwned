@@ -1,0 +1,78 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os, sys, argparse, json
+from haveibeenpwned.status import pwned, pwned_full
+from haveibeenpwned import __version__, __summary__
+
+
+record_types = (
+    'Title',
+    'Name',
+    'Domain',
+    'BreachDate',
+    'AddedDate',
+    'ModifiedDate',
+    'PwnCount'
+    # Description
+)
+
+
+class Style:
+    BOLD = '\033[1m'
+    OK = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    LINK = '\033[94m'
+    END = '\033[0m'
+
+
+def _no_problems_msg():
+    print('%s%sNo problems here! :-)%s' % (Style.BOLD, Style.OK, Style.END))
+
+
+def _copyright():
+    print('More detailed data on: %shttps://haveibeenpwned.com/%s' % (Style.LINK, Style.END))
+
+
+def _display_status(email):
+    if pwned(email):
+        print('%s%sThis email address has been pwned! :-(%s' % (Style.BOLD, Style.FAIL, Style.END))
+    else:
+        _no_problems_msg()
+
+
+def _display_status_with_data(email):
+    response = pwned_full(email)
+    if not response:
+        _no_problems_msg()
+    else:
+        filtered_response = ''.join([chr(i) for i in response if i <= 128])
+        response_obj = json.loads(filtered_response)
+        for record in response_obj:
+            for type in record_types:
+                print('{}{}: {}{}'.format(Style.WARNING, type, Style.END, record.get(type)))
+            print('--')
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__summary__)
+    parser.add_argument('email', metavar='email', help='Email address to check against')
+    parser.add_argument('-v', '--version', action='store_true', help='currently installed version')
+    parser.add_argument('-f', '--full', action='store_true', help='response will full data not just boolean, if any exists')
+    args = parser.parse_args()
+
+    if args.version:
+        print(__version__)
+        sys.exit(1)
+
+    email = args.email
+    if args.full:
+        _display_status_with_data(email)
+    else:
+        _display_status(email)
+    _copyright()
+
+
+if __name__ == '__main__':
+    main()
