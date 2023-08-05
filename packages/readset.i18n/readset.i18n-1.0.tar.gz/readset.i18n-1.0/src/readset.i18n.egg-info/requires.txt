@@ -1,0 +1,12 @@
+setuptools
+zope.interface
+zope.component
+zope.publisher
+plone.i18n
+python-slugify
+
+[test]
+zope.component[zcml]
+zope.configuration
+zope.browserresource
+plone.testing
