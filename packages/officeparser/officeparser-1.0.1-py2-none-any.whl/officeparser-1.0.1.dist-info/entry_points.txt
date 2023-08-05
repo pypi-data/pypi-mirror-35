@@ -1,0 +1,3 @@
+[console_scripts]
+officeparser = officeparser:_main
+
