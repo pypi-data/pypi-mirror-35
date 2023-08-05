@@ -1,0 +1,9 @@
+algnuth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algnuth/ideals.py,sha256=-XIgyLZw4QR4rOhBDLQ-_DuyFKJscUzavW1t3xLPQwU,1279
+algnuth/jacobi.py,sha256=9MZ8Egx2nf-WN_5MgBce6ryjjHTuafjlqPCx_cdOLoY,2959
+algnuth/polynom.py,sha256=mS4nX5pq9fSvwnnVQOEU7SrnKNzIzPts_eZyI6vcQtc,11532
+algnuth/quadratic.py,sha256=AizRdl6oH9eHjWTy1kyIdDrCTFxUiw9iQ6UBSp4XwZg,2686
+algnuth-0.0.3.dist-info/METADATA,sha256=krpomE-6Vf5YeKG6dUficI08U4_RtRNNyE_RR99-vK4,3122
+algnuth-0.0.3.dist-info/RECORD,,
+algnuth-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+algnuth-0.0.3.dist-info/top_level.txt,sha256=PMhVPW8qV_nBEVCOEFPXG7AVlm58tiHfJNjAvH_ejqg,8
