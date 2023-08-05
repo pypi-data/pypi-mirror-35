@@ -1,0 +1,375 @@
+===========
+subunit2sql
+===========
+
+.. _subunit2sql_1.10.0:
+
+1.10.0
+======
+
+.. _subunit2sql_1.10.0_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/add-delete-by-uuid-6266652db1c8bb98.yaml @ 08222d7a2b09250ed0048f3d7e767c55191fcc20
+
+- New db api function delete_run_by_uuid, which allows for the deletion of a run specified by a given uuid.
+
+.. releasenotes/notes/add-delete-by-uuid-6266652db1c8bb98.yaml @ 08222d7a2b09250ed0048f3d7e767c55191fcc20
+
+- New db api function delete_test_runs_by_uuid, which allows for the deletion of all test runs associated with a given run uuid.
+
+.. releasenotes/notes/dpi-cli-flag-64552fd0e10e5d91.yaml @ 6e9dae785f1e0b6e4cd00757f46fa98413c5c306
+
+- Add a new CLI flag, --dpi, for subunit2sql-graph to adjust the output image DPI for the generated graphs.
+
+.. releasenotes/notes/get-vars-from-kwargs-57cb5fab5fe8f2e2.yaml @ 08222d7a2b09250ed0048f3d7e767c55191fcc20
+
+- add the ability to pass in the arguments 'run_at', 'artifacts', 'run_id', 'run_meta', and 'test_attr_prefix' to the shell module's process_results() function via a direct function call, rather than from conf, or via cli flags.
+
+
+.. _subunit2sql_1.9.0:
+
+1.9.0
+=====
+
+.. _subunit2sql_1.9.0_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/add-batch-tests-by-test_ids-api-5f2542d214f9968f.yaml @ 5a883b8273fb5488105e2b33b121a2631b60d61f
+
+- Add a new DB API function, get_tests_by_test_ids, to return a list of Test model objects give an list of test_ids
+
+.. releasenotes/notes/add-get_run_count-api-43daafc592b929ef.yaml @ b0b5d2c51726aeb107906af498c7ecc8ca426185
+
+- Add a new DB API function get_runs_count() which returns the total number of runs in the DB
+
+.. releasenotes/notes/add-graph-time-for-test-run-time-variance-6e61e0d9b4bb0cf9.yaml @ 7f87b412bccc5d216340011da2d527623b975118
+
+- A new subunit2sql-graph type, `test_run_time`, is added. This will graph the
+  run time variance for the specified tests as box and wiskers plots.
+
+.. releasenotes/notes/add-graph-time-for-test-run-time-variance-6e61e0d9b4bb0cf9.yaml @ 7f87b412bccc5d216340011da2d527623b975118
+
+- A new DB API function, get_run_times_all_test_runs(), was added. This will
+  return a all the individual durations for sucessful executions for tests.
+
+.. releasenotes/notes/add_non_subunit_name_option-9f898507bfadce16.yaml @ fed81d0901a5783d34aaf8302392782bd390a604
+
+- A new option is added to the subunit2sql CLI command, --non_subunit_name, that is used to allow subunit files with mixed content. The default is to raise an error containing the non-subunit byte after it has been read from the stream. By using this new option, the error will not be raised.
+
+
+.. _subunit2sql_1.8.0:
+
+1.8.0
+=====
+
+.. _subunit2sql_1.8.0_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/add_key_value_metadata_filter_to_get_run_times-04af21788275df24.yaml @ d1672a2a56b6a7903c9e0dc83657fb54dbea1012
+
+- A new set of options, *match_key* and *match_value* to filter the results to a key value runs with a particular key value metadata pair was added to the DB API function get_run_times_grouped_by_run_metadata_key().
+
+.. releasenotes/notes/add_run_wall_time_option-299ddc24b78f9166.yaml @ 08da4131ed6131e414cd7f49516c840354b3f3cc
+
+- A new option is added to the subunit2sql CLI command, --use_run_wall_time/-w, that is used to populate the run_time column with the wall time of the run instead of the default behavior which uses the sum of the individual test execution times
+
+.. releasenotes/notes/new_db_api_function_get_run_times_times_series-36bca8c069633859.yaml @ e6b5cab438a8e8f102c8b56429cfceb69f5aafea
+
+- A new DB API function, get_run_times_time_series_grouped_by_run_metadata_key(), similar to the existing get_run_times_grouped_by_run_metadata_key() function except that the output is a time series dict.
+
+.. releasenotes/notes/remove-test-attr-prefix-dff9d378a5e940ab.yaml @ 04893053c7e1d3539bdace3a30735bf69742bb0a
+
+- A new CLI / configuration option remove_test_attr_prefix is available to remove the test attribute prefix from test attributes before they are added to the test metadata. The CLI option defaults to False, so that the current behavior is preserved. It is only applicable when used in combination with test_attr_prefix.
+
+
+.. _subunit2sql_1.8.0_Upgrade Notes:
+
+Upgrade Notes
+-------------
+
+.. releasenotes/notes/remove-test-attr-prefix-dff9d378a5e940ab.yaml @ 04893053c7e1d3539bdace3a30735bf69742bb0a
+
+- The test attribute prefix is removed from the test attributes before they are injected into the DB, when using the remove_test_attr_prefix config/CLI option. If metadata was injected before, enabling remove_test_attr_prefix may lead to test metadata duplication, with and without prefix.
+
+
+.. _subunit2sql_1.7.0:
+
+1.7.0
+=====
+
+.. _subunit2sql_1.7.0_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/add-date-sort-opt-get_test_runs_by_test_test_id-ba65e97d27fb7dd8.yaml @ 5f4003b31d97bc0b60855f2b294e9ff271e5a73f
+
+- A new option get_test_runs_by_test_test_id, most_recent_first, which ensures the response list is ordered by date in descending order.
+
+.. releasenotes/notes/add-recent-successful-runs-by-meta-560c35bcd21ac98e.yaml @ 5d254e2bda50d821a8554535a5d5c7a832bf6a76
+
+- A new DB API function, get_recent_successful_runs_by_run_metadata, was added. This enabled returning a list of recent successful runs with a key value run_metadata pair.
+
+.. releasenotes/notes/add_get_runs_by_ids-ffdfc2f86d60c799.yaml @ 474983a7536fe8826b30ce05bdd9f9368484224f
+
+- A new DB API function, get_runs_by_ids(), was added. This function returns a list of Run objects from a list of run ids.
+
+
+.. _subunit2sql_1.6.0:
+
+1.6.0
+=====
+
+.. _subunit2sql_1.6.0_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/add-run-uuid-opt-to-get_test_runs_by_status_for_run_ids-c763ca4d90f8f0ae.yaml @ d73db9057dec3c68fc23f163c295cdf988309d9d
+
+- A new option on get_test_runs_by_status_for_run_ids(), include_run_id, to include the run uuid in the run dicts returned
+
+.. releasenotes/notes/add-start-time-to-recent-list-commands-146b22b742c7a94a.yaml @ 4516b368df646b84977b15febb4f5308bf9f1033
+
+- An optional `start_date` parameter was added to all DB API functions that returned a recent runs list. This includes get_recent_successful_runs(), get_recent_failed_runs(), and get_recent_runs_by_key_value_metadata(). This is to set a starting point for the list of recent runs returned by these methods.
+
+
+.. _subunit2sql_1.6.0_Deprecation Notes:
+
+Deprecation Notes
+-----------------
+
+.. releasenotes/notes/deprecate-str-dates-on-get_test_counts_in_date_range-b16d285cab135d52.yaml @ 419e44b178cfa0f1af64769ffbd7dfa73f19a85b
+
+- Passing in the date as a string in the format "%b %d %Y" to the function get_test_counts_in_date_rage() in the DB API. Instead pass the date in as a datetime object.
+
+
+.. _subunit2sql_1.6.0_Bug Fixes:
+
+Bug Fixes
+---------
+
+.. releasenotes/notes/deprecate-str-dates-on-get_test_counts_in_date_range-b16d285cab135d52.yaml @ 419e44b178cfa0f1af64769ffbd7dfa73f19a85b
+
+- Setting the date as an ISO8601, as indicated by the docs and --help, for the subunit2sql-graph command agg_count will now work correctly. It would previously stack trace. (Story 2000581)
+
+.. releasenotes/notes/fix-get_ids_for_all_tests-typo-and-update-the-docstring-552735ca593c4613.yaml @ 0479c1abeceb982ea6d88f3e8d22e95e4573eb4c
+
+- Fix the get_ids_for_all_tests API typo and update the docstring. (Story 2000580)
+
+
+.. _subunit2sql_1.5.0:
+
+1.5.0
+=====
+
+.. _subunit2sql_1.5.0_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/add-get-recent-failed-runs-by-run-meta-f36c5197f3fe869f.yaml @ a26a6f0cfb9da455bf692df3ec2be49a04748d1e
+
+- Adds a new DB API method get_recent_failed_runs_by_run_metadata() that will return a list of models.Run objects for recent failures on runs with a specified run_metadata key value pair
+
+
+.. _subunit2sql_1.5.0_Bug Fixes:
+
+Bug Fixes
+---------
+
+.. releasenotes/notes/fix-get_test_metadata-to-use-test_id-48217d4c7a22b9aa.yaml @ daf7eedd79a2dab00a452adcf88aa59373e776a4
+
+- Fix get_test_metadata DB API using test_id to get all metadata.
+
+
+.. _subunit2sql_1.3.0:
+
+1.3.0
+=====
+
+.. _subunit2sql_1.3.0_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/1.3.0-missing-notes-0e12c815ad6f3232.yaml @ d6b966a4e5955621c7095b112355ff805907a675
+
+- A new DB API method, get_test_runs_by_status_for_run_ids(), to get tests by status from a list runs
+
+.. releasenotes/notes/1.3.0-missing-notes-0e12c815ad6f3232.yaml @ d6b966a4e5955621c7095b112355ff805907a675
+
+- A set of optional paramaters on get_test_runs_by_test_test_id() to filter the result set by a run_metadata key value pair
+
+.. releasenotes/notes/1.3.0-missing-notes-0e12c815ad6f3232.yaml @ d6b966a4e5955621c7095b112355ff805907a675
+
+- A new DB API method, get_run_failure_rate_by_key_value_metadata(), to get the failure rate as a percentage for runs with a particular run_metadata key value pair
+
+
+.. _subunit2sql_1.2.0:
+
+1.2.0
+=====
+
+.. _subunit2sql_1.2.0_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/1.2.0-missing-notes-d0ec5023f7d9328a.yaml @ 215e466a5b19441e4b9fc2a6018c58132edcf958
+
+- A new DB API method to get a list of recent runs with a set of run_metadata
+
+.. releasenotes/notes/1.2.0-missing-notes-d0ec5023f7d9328a.yaml @ 215e466a5b19441e4b9fc2a6018c58132edcf958
+
+- A new subunit2sql-graph type run_time_meta
+
+
+.. _subunit2sql_1.2.0_Upgrade Notes:
+
+Upgrade Notes
+-------------
+
+.. releasenotes/notes/1.2.0-missing-notes-d0ec5023f7d9328a.yaml @ 215e466a5b19441e4b9fc2a6018c58132edcf958
+
+- Min versions are set for the graph extras requirements
+
+
+.. _subunit2sql_1.2.0_Bug Fixes:
+
+Bug Fixes
+---------
+
+.. releasenotes/notes/1.2.0-missing-notes-d0ec5023f7d9328a.yaml @ 215e466a5b19441e4b9fc2a6018c58132edcf958
+
+- A hard coded filter used in get_test_run_series() is removed
+
+.. releasenotes/notes/1.2.0-missing-notes-d0ec5023f7d9328a.yaml @ 215e466a5b19441e4b9fc2a6018c58132edcf958
+
+- write_subunit will now handle test_runs without any metadata
+
+
+.. _subunit2sql_1.2.0_Other Notes:
+
+Other Notes
+-----------
+
+.. releasenotes/notes/1.2.0-missing-notes-d0ec5023f7d9328a.yaml @ 215e466a5b19441e4b9fc2a6018c58132edcf958
+
+- DB API tests now run against all supported backends
+
+.. releasenotes/notes/1.2.0-missing-notes-d0ec5023f7d9328a.yaml @ 215e466a5b19441e4b9fc2a6018c58132edcf958
+
+- New tests are added to ensure sqlalchemy models and migrations are in sync
+
+
+.. _subunit2sql_1.1.1:
+
+1.1.1
+=====
+
+.. _subunit2sql_1.1.1_Upgrade Notes:
+
+Upgrade Notes
+-------------
+
+.. releasenotes/notes/add-metadata-unique-constraints-dbee79c2ffedc365.yaml @ 5a22609d186c626108519e43ef0e3c4711f94cc5
+
+- A new migration is added to add unique constraints on the metadata tables.
+
+
+.. _subunit2sql_1.1.0:
+
+1.1.0
+=====
+
+.. _subunit2sql_1.1.0_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/subunit2sql_run_at_cli_opt-ab65e3b69b29e0b0.yaml @ dee1f2c18ab62b7cb66e0ba275de0f5a2ed80b66
+
+- A new CLI option, "run_at" is available on the subunit2sql CLI. This enables setting a specific date and time to use for the run_at column of the run being created. If one is not specified the previous default behavior of using the current time is still used.
+
+
+.. _subunit2sql_1.0.2:
+
+1.0.2
+=====
+
+.. _subunit2sql_1.0.2_Upgrade Notes:
+
+Upgrade Notes
+-------------
+
+.. releasenotes/notes/add-missing-metadata-id-indexes-dec66ab17c5c76c9.yaml @ 03bf76f28aa6ebcb65502f200a6eb2edc5487158
+
+- Contains a DB schema migration to add indexes that were incorrectly dropped as part of 2822a408bdd0
+
+
+.. _subunit2sql_1.0.2_Bug Fixes:
+
+Bug Fixes
+---------
+
+.. releasenotes/notes/add-missing-metadata-id-indexes-dec66ab17c5c76c9.yaml @ 03bf76f28aa6ebcb65502f200a6eb2edc5487158
+
+- Fixes performance issue on queries involving the metadata tables by re-adding indexes that were accidently dropped
+
+
+.. _subunit2sql_1.0.0:
+
+1.0.0
+=====
+
+.. _subunit2sql_1.0.0_Prelude:
+
+Prelude
+-------
+
+.. releasenotes/notes/uuid-to-integers-01055701452e6a62.yaml @ 9b0e9d2068db79cda2dc356957f8e27041cef947
+
+subunit2sql is moving from using a UUID string as the primary key (aka the id column) on all tables to using an integer.
+
+
+.. _subunit2sql_1.0.0_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/uuid-to-integers-01055701452e6a62.yaml @ 9b0e9d2068db79cda2dc356957f8e27041cef947
+
+- Significant performance improvement especially on the test_runs table which can get very slow depending on the amount of data
+
+
+.. _subunit2sql_1.0.0_Upgrade Notes:
+
+Upgrade Notes
+-------------
+
+.. releasenotes/notes/uuid-to-integers-01055701452e6a62.yaml @ 9b0e9d2068db79cda2dc356957f8e27041cef947
+
+- This migration, 2822a408bdd0, is partially an offline upgrade. It is not safe to write new data to the database while it is running.
+
+.. releasenotes/notes/uuid-to-integers-01055701452e6a62.yaml @ 9b0e9d2068db79cda2dc356957f8e27041cef947
+
+- This migration is quite lengthy in operation it can take several days to run and consumes quite a bit of space, especially with very large databases.
+
+
+.. _subunit2sql_1.0.0_Critical Issues:
+
+Critical Issues
+---------------
+
+.. releasenotes/notes/uuid-to-integers-01055701452e6a62.yaml @ 9b0e9d2068db79cda2dc356957f8e27041cef947
+
+- The subunit2sql-graph commands which were previously using a tests.id column to identify a test are changed to use the tests_id column. This is because the switch from UUID to int will break the old mechanism anyway and doing this conversion will protect against future internal changes
+
