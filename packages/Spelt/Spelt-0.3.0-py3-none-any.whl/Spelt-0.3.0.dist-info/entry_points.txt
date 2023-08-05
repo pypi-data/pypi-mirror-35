@@ -1,0 +1,3 @@
+[console_scripts]
+spelt = spelt.__init__:run_app
+
