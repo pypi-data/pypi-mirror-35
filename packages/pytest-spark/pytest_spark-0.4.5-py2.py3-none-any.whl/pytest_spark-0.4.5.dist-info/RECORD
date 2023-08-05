@@ -1,0 +1,6 @@
+pytest_spark/__init__.py,sha256=816iqWji2m4GqscadGBAPMSKxwugOYNB7ZZLVaDeXwU,3982
+pytest_spark-0.4.5.dist-info/METADATA,sha256=A73YvPc4XoSNhrv4ooOjBBgh14FguaBtCRqDyU_hSyQ,2980
+pytest_spark-0.4.5.dist-info/RECORD,,
+pytest_spark-0.4.5.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pytest_spark-0.4.5.dist-info/entry_points.txt,sha256=VPBwmZR7f4sA76GKtOaB_ZPSZgGw5jvXy3JwypcoLuM,33
+pytest_spark-0.4.5.dist-info/top_level.txt,sha256=Rmg2EoAFAg8kwxg_jnre2NTr6IVkCHxjEiDLowTZlJ4,13
