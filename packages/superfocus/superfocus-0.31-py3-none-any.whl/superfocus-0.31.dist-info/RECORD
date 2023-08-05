@@ -1,0 +1,17 @@
+superfocus-0.31.dist-info/METADATA,sha256=u6A_DeYSBRRMF6Yo9Ry1LMIOB_hwIFvBkPd2wJr-Vek,647
+superfocus-0.31.dist-info/RECORD,,
+superfocus-0.31.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+superfocus-0.31.dist-info/entry_points.txt,sha256=rEAy492SRCbtRj22oggGuBUULFIyprRivdJhqY2ykWM,129
+superfocus-0.31.dist-info/top_level.txt,sha256=QrvpNxFIoaK4mTL5VmAT85Nn8ETv0wgjvU_vYStkpiM,15
+superfocus_app/do_alignment.py,sha256=gpPO7GfcpdZG3_nm3KocOAVRNkjcDA-ZSqxwAosBoJc,6584
+superfocus_app/superfocus.py,sha256=BisSSQVmEnwgX95tcJUGoeMbgs5ReZLV54O-4VjHTvY,13083
+superfocus_app/superfocus_downloadDB.py,sha256=Rg-DPoMuGvOewwsfHTXemy2_mg2CQWJ3q6wplhFdZQM,5133
+superfocus_app/db/database_PKs.txt,sha256=NDqOlqyfHSuw0ZMqYY4dRKGN8AN7m_fuoT8hasR4wAI,107882
+superfocus_app/db/organisms2subsystem.txt,sha256=5-t_fyxLSQeXFnbr4m3D-U7UmaHGXuw8DK7JzcZalJs,1737524
+superfocus_app/db/focus_reduction/blast/.gitignore,sha256=cdjKhYhi-1WFuTGmpN4dH_94VgUBQFw82S3trzlCFPg,71
+superfocus_app/db/focus_reduction/diamond/.gitignore,sha256=cdjKhYhi-1WFuTGmpN4dH_94VgUBQFw82S3trzlCFPg,71
+superfocus_app/db/focus_reduction/rapsearch2/.gitignore,sha256=cdjKhYhi-1WFuTGmpN4dH_94VgUBQFw82S3trzlCFPg,71
+superfocus_app/db/static/blast/.gitignore,sha256=cdjKhYhi-1WFuTGmpN4dH_94VgUBQFw82S3trzlCFPg,71
+superfocus_app/db/static/diamond/.gitignore,sha256=cdjKhYhi-1WFuTGmpN4dH_94VgUBQFw82S3trzlCFPg,71
+superfocus_app/db/static/rapsearch2/.gitignore,sha256=cdjKhYhi-1WFuTGmpN4dH_94VgUBQFw82S3trzlCFPg,71
+superfocus_app/db/tmp/.gitignore,sha256=cdjKhYhi-1WFuTGmpN4dH_94VgUBQFw82S3trzlCFPg,71
