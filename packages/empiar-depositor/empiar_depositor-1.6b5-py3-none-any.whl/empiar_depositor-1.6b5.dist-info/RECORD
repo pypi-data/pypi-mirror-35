@@ -1,0 +1,14 @@
+empiar_depositor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+empiar_depositor/empiar_depositor.py,sha256=Jfsj63KrkiLgNZ19Lio2dQHlEiMj1OUmK66B0UJIgc4,16795
+empiar_depositor-1.6b5.dist-info/METADATA,sha256=Pyiz6H_VAJGpWK4GOrnzymSZ8DlvzAGSMQ9UEkuIxIo,3819
+empiar_depositor-1.6b5.dist-info/RECORD,,
+empiar_depositor-1.6b5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+empiar_depositor-1.6b5.dist-info/entry_points.txt,sha256=XIsOzjnNCx-RANRWL35Dv6zkq-44ig17KwsnDsBFRbc,77
+empiar_depositor-1.6b5.dist-info/top_level.txt,sha256=lQ7qu0RQOZ773_oW8vtYeME1TQV7g3Dluc6h46DRcfs,23
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_aspera_upload.py,sha256=UvaP6TNLXFBvTA0PaGphRpIa7qt_35dAR-z0s-T3ZP0,725
+tests/test_create_new_deposition.py,sha256=8J7Lk3oOXFc1GTyTbIIK7wPq7KBl5yzgE-0tSYfIolA,2443
+tests/test_redeposit.py,sha256=-gtF7HwM6s3Z4wl2jxTluu57LaPE6iOHC8irqgPDLDQ,3106
+tests/test_requests.py,sha256=X9v17clMAUWXxKL39G8i4yodEy0ABAyPy-BkNhoFrPw,1007
+tests/test_submit_deposition.py,sha256=8y15RYzmv3N_1fgfgSkeUeTCAJSMkrkGr-C5V7j9w98,1800
+tests/test_thumbnail_upload.py,sha256=YQZH0DsylqoQkwtLrzpS5C3ZKpUSrb9D6ZcEl6cMeOw,2033
