@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sciencebeam-utils
+Version: 0.0.1
+Summary: ScienceBeam Utils
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: backports.tempfile (>=1.0)
+Requires-Dist: lxml (>=4.2.0)
+Requires-Dist: numpy (>=1.14.2)
+Requires-Dist: six (>=1.11.0)
+
+UNKNOWN
+
+
