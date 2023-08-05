@@ -1,0 +1,4 @@
+    ct      ct_0    ct_1    ct_2    val     tag     seq     
+    3       1       2       0       0.012   CTG     ACCAT
+    2       2       0       0      -4.52    CTA     ACCAT
+    1       0       0       1       0.000   CCA     TCAGG
