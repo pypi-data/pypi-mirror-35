@@ -1,0 +1,13 @@
+shiv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shiv/builder.py,sha256=CFQLIPRevfj6bCr8jHErUWto5wLjoktFN-fmoYOcOcs,2799
+shiv/cli.py,sha256=0nWRTWeGiacviViOFnpPOK3YrKanPYNWaRIksXC_KZw,4784
+shiv/constants.py,sha256=QLLdjhd1iSIm9Astk9Rn0Jfv0NQFtfrjumVy4zJRJ0o,1146
+shiv/pip.py,sha256=8aTOW1hDfTR7_5-DeHsOucAHDbNXZi10XNORyAFngzY,2347
+shiv/bootstrap/__init__.py,sha256=xLa2wWavDzv9dPe5k1g1oIJ5fE1-dH-Zc9jm7xHZMnI,4280
+shiv/bootstrap/environment.py,sha256=3xilv7MWujaK56ghcfGHaculk5ogi4yba756uduhQ0k,1478
+shiv/bootstrap/interpreter.py,sha256=FY1P9zS2jVkSCQ9LIN69vv0EI5fhHYSmGtbaLeJhqKI,1547
+shiv-0.0.29.dist-info/METADATA,sha256=LptmCXhldCbW6vWFn5WncPYabAelMS24n2QgzbBst0s,3856
+shiv-0.0.29.dist-info/RECORD,,
+shiv-0.0.29.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+shiv-0.0.29.dist-info/entry_points.txt,sha256=wo_Y5vAUksXGvEROnPen5WFoRnX-OanDASzQ5s8Kmo8,40
+shiv-0.0.29.dist-info/top_level.txt,sha256=qsLSPSXqxW2zpe6arVEmAhxgbNClbNfuVZ7FcJW92U4,5
