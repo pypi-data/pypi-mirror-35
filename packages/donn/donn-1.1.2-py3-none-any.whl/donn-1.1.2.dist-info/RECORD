@@ -1,0 +1,9 @@
+donn/__init__.py,sha256=BCxmBw0RnLTZJA5AYnFIk3gnrtEknb4cvUeqGSM9FiY,169
+donn/base_model.py,sha256=16FxmS9MXoas0DwQHvdflilWc239JJPfR32Z3gHjTIQ,2964
+donn/donn_tools.py,sha256=4aLiUqqyzD-VjOMFAK5u6oZ5EsmWnSp7z3cdb4D-zBc,4474
+donn/layers.py,sha256=h12Q6ct5tPpgx_6LgTM1b_GHHyppzeFn4s_AuDeoILs,4185
+donn/main.py,sha256=9FouY6iWO3poMBtjn8PhAO5rlt0afJV6ayq0VKndF9g,46679
+donn-1.1.2.dist-info/METADATA,sha256=dRcHoowmN3d2AHBbdBghQs-KE0SZOkBzAJ1C4bQS7QY,1324
+donn-1.1.2.dist-info/RECORD,,
+donn-1.1.2.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+donn-1.1.2.dist-info/top_level.txt,sha256=pfOfrKFm5dziJFKxELvhuJSl-9XQPIFaJagveYewBBk,5
