@@ -1,0 +1,12 @@
+mlshed/__init__.py,sha256=GA0DxNAQIyi3t5yCTrBVUJWF_OfsASLLhps_okXHDmc,132
+mlshed/_version.py,sha256=XE762gheMeYY8QDyCd-TP6ZHGbDOZbyiZazsHXcpOFM,497
+mlshed/azure.py,sha256=TGPdPPvnFfaXeEg6fTKlzlLMF_SODNvMGUww8FV0seo,5824
+mlshed/cfg.py,sha256=EaPIAxUzau9hWRpFNu0sBtZ1WUcrhDSb5lef4O4onbY,4379
+mlshed/exceptions.py,sha256=mpHtltzOTEJ6Zi9Ka0ILwlhnSYbQ5At8V0aQuUPPQ9s,141
+mlshed/model.py,sha256=MW_7MaVL1tAHmuo62cRaUASmG1kS8xl60rCw-C_Am8Q,12007
+mlshed-0.0.4.dist-info/METADATA,sha256=2UqDrrOstiIyh2TeZKYdsjy7c39hHeKMeFbzwifRl_Y,4007
+mlshed-0.0.4.dist-info/RECORD,,
+mlshed-0.0.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+mlshed-0.0.4.dist-info/top_level.txt,sha256=95XqwVPxL4B23WjTREPk7B6x2aNXc0Wj7ZLEZasW_fk,13
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_basics.py,sha256=1inDNgmm11RzwIaZ-8kRsrFpFuiQF-aYrbAI2gNg63I,333
