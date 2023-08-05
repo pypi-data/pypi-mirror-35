@@ -1,0 +1,8 @@
+kaldi-adapt-lm
+setup.py
+kaldi_adapt_lm.egg-info/PKG-INFO
+kaldi_adapt_lm.egg-info/SOURCES.txt
+kaldi_adapt_lm.egg-info/dependency_links.txt
+kaldi_adapt_lm.egg-info/requires.txt
+kaldi_adapt_lm.egg-info/top_level.txt
+kaldiadaptlm/__init__.py
