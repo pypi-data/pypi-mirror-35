@@ -1,0 +1,10 @@
+SparseArray/__init__.py,sha256=J9gWwlBjKNPwxb-1XC42mX-L9eBsNi8ZPUzWtBW-xlM,669
+SparseArray/sparse_array.c,sha256=8O6XqoqYv9RHWxSoRmwXYjGga4iZB3ul80IWKaLxBGc,1262697
+SparseArray/sparse_array.cpython-36m-darwin.so,sha256=fjvAeIrVYsdNqmx3iPvok3ZAkl_54PAE6rZx5EVYca8,479296
+SparseArray/sparse_array.pxd,sha256=q30a7Szqn-IvfIKKfLrgYhGiA10SAdmdM3XfRCNcfvs,5505
+SparseArray/sparse_array.pyx,sha256=qGyeYVjUzHoLgdbC57cZgBQDJhkcA_lY0jy2CrhydKQ,27303
+SparseArray/tests/test_sparse_array.py,sha256=9jxSwVOyj19-e0-v6HfnI39VZ5gVKbwWyDbnoy9qi_E,22251
+SparseArray-0.8.15.dist-info/METADATA,sha256=U8hFyn2Mtrd3AemjsSqTeu7IjNpCW6l60K1HXNBNmgk,726
+SparseArray-0.8.15.dist-info/RECORD,,
+SparseArray-0.8.15.dist-info/WHEEL,sha256=eXhezAGFSydxXsP-w3mB3uCqyg1QWS2cPWJdPcd3KUY,110
+SparseArray-0.8.15.dist-info/top_level.txt,sha256=3Z2tDv7E4hgJX5PP9UZiVZj4QHIquW5z3s3UEE2TAkc,30
