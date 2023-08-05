@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        prmspy=prms_python.scripts.prmspy:prmspy
+    
