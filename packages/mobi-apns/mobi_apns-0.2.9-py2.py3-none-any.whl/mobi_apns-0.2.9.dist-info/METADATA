@@ -1,0 +1,173 @@
+Metadata-Version: 2.1
+Name: mobi-apns
+Version: 0.2.9
+Summary: A library for interacting with APNs using HTTP/2 and token-based authentication.
+Home-page: https://bitbucket.org/mobivention/mobi-apns/
+Author: Sören Busch, Gene Sluder
+Author-email: sbusch@mobivention.com
+License: MIT license
+Download-URL: https://bitbucket.org/mobivention/mobi-apns/get/0.2.9.zip
+Project-URL: Bug Reports, https://bitbucket.org/mobivention/mobi-apns/issues
+Project-URL: Source, https://bitbucket.org/mobivention/mobi-apns/
+Project-URL: Company Home, https://www.mobivention.com
+Keywords: apns,push notifications
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+Requires-Dist: cryptography
+Requires-Dist: hyper
+Requires-Dist: pyjwt
+
+mobi-apns
+=========
+
+A library for interacting with APNs using HTTP/2 and token based
+authentication.
+
+Forked from Gene Sluder’s gobiko.apns
+(https://github.com/genesluder/python-apns)
+
+Installation
+------------
+
+``pip install mobi-apns``
+
+Requirements
+------------
+
+-  Python 3.5+
+-  hyper
+-  pyjwt
+-  cryptography
+
+Usage
+-----
+
+Create a client::
+
+        from mobi.apns import APNsClient, APNsMessage
+
+        client = APNsClient(
+            team_id=TEAM_ID, 
+            bundle_id=BUNDLE_ID, 
+            auth_key_id=APNS_KEY_ID, 
+            auth_key_filepath=APNS_KEY_FILEPATH, 
+            use_sandbox=True
+        )
+
+Alternatively, you can create a client with the contents of the auth key
+file directly::
+
+        client = APNsClient(
+            team_id=TEAM_ID, 
+            bundle_id=BUNDLE_ID, 
+            auth_key_id=APNS_KEY_ID, 
+            auth_key=APNS_KEY, 
+            use_sandbox=True
+        )
+
+If you run into any problems deserializing the key, try wrapping it to
+64 lines::
+
+        client = APNsClient(
+            team_id=TEAM_ID,
+            bundle_id=BUNDLE_ID,
+            auth_key_id=APNS_KEY_ID,
+            auth_key=APNS_KEY,
+            use_sandbox=True,
+            wrap_key=True
+        )
+
+Construct a message::
+
+        message = APNsMessage('TEST',
+                   badge=1,
+                   sound='default',
+                   loc_key='This is a %@',
+                   loc_args=['Test'])
+
+Now you can send a message to a device by specifying its registration
+ID::
+
+    client.send_message(
+        registration_id, 
+        message
+    )
+
+Or you can send bulk messages to a list of devices::
+
+    client.send_bulk_message(
+        [registration_id_1, registration_id_2], 
+        message
+    )
+
+Payload
+-------
+
+Additional APNs payload values can be passed into the message
+construction
+
+::
+
+        message = APNsMessage(
+            "All your base are belong to us.",
+            badge=None, 
+            sound=None, 
+            category=None, 
+            content_available=False,
+            action_loc_key=None, 
+            loc_key=None, 
+            loc_args=[], 
+            extra={}, 
+            identifier=None, 
+            expiration=None, 
+            priority=10, 
+            topic=None
+        )
+
+Pruning
+-------
+
+The legacy binary interface APNs provided an endpoint to check whether a
+registration ID had become inactive. Now the service returns a
+BadDeviceToken error when you attempt to deliver an alert to an inactive
+registration ID. If you need to prune inactive IDs from a database you
+can handle the BadDeviceToken exception to do so::
+
+::
+
+    from mobi.apns.exceptions import BadDeviceToken
+
+    try:
+        client.send_message(OLD_REGISTRATION_ID, "Message to an invalid registration ID.")
+    except BadDeviceToken:
+        # Handle invalid ID here
+        pass
+
+Same approach if sending by bulk::
+
+::
+
+    from mobi.apns.exceptions import PartialBulkMessage
+
+    try:
+        client.send_bulk_message([registration_id1, registration_id2], "Message")
+    except PartialBulkMessage as e:
+        # Handle list of invalid IDs using e.bad_registration_ids
+        pass
+
+Documentation
+-------------
+
+-  More information on APNs and an explanation of the above can be found
+   ``in this blog post <http://gobiko.com/blog/token-based-authentication-http2-example-apns/>``\ \_.
+
+-  Apple documentation for APNs can be found
+   ``here <https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1>``\ \_.
+
+Credits
+-------
+
+-  Gene Sluder
+
+
