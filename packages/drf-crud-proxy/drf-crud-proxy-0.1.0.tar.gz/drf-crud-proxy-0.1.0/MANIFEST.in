@@ -1,0 +1,5 @@
+exclude LICENSE
+exclude CHANGELOG.md
+exclude README.md
+recursive-exclude example_app/ *
+recursive-exclude test_utils/ *
