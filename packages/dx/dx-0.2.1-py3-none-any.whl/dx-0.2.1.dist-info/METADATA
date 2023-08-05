@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dx
+Version: 0.2.1
+Summary: data explorer
+Home-page: https://github.com/nteract/dx
+Author: nteract contributors
+Author-email: jupyter@googlegroups.com
+License: BSD
+Keywords: data,exploration
+Platform: UNKNOWN
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: all
+Requires-Dist: pytest; extra == 'all'
+Provides-Extra: tests
+Requires-Dist: pytest; extra == 'tests'
+
+UNKNOWN
+
+
