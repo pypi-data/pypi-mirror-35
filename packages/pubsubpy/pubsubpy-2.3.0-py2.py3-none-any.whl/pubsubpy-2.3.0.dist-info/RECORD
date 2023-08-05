@@ -1,0 +1,10 @@
+pubsub/__init__.py,sha256=NkGAMSMA7zBRD6w5siNK4k4AXLZP6HEbcJs-r_Kq0ZA,7568
+pubsub/pub.py,sha256=sXCVycWkQcW6ZAd-JZ5cjPMTKJrbfkU6ChdEqwTokWQ,1271
+pubsub/sub.py,sha256=0-paamPxas4bk0pQ7PdhQ3bFIJToubH10m7XKb0V3a4,2846
+pubsubpy-2.3.0.dist-info/METADATA,sha256=2F1PZVDidMCIcYdDwVrIs_JChw1dGXrUNlcss5W3FNM,5125
+pubsubpy-2.3.0.dist-info/RECORD,,
+pubsubpy-2.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pubsubpy-2.3.0.dist-info/top_level.txt,sha256=4NkvwASjYNQFUI9VtJSuehWSOyQYfaWTRITA_mGHLJw,13
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/kombu_mock.py,sha256=baPidsfb_M5N226P2pfRwJvxng6ng-YnlROoP3bzCbs,1937
+tests/pubsub.py,sha256=Klvm9IAhtlpv-LiAzQ-VY_JQ6mtioZUGAcdhQe2Ut24,3042
