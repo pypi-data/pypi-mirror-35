@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: seswatcher
+Version: 0.1
+Summary: A small tool to prevent AWS SES from blocked by exceeding Bounces Rate or Complaints Rate
+Home-page: https://github.com/khanhicetea/seswatcher
+Author: KhanhIceTea
+Author-email: khanhicetea@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: ses,aws
+Platform: UNKNOWN
