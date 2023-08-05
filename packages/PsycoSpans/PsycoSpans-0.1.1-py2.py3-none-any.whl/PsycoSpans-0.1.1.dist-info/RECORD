@@ -1,0 +1,7 @@
+PsycoSpans-0.1.1.dist-info/METADATA,sha256=S95YlsINtB_avwKgyJ-OECs9Qu3SmfYymsfZlsmPsNI,2962
+PsycoSpans-0.1.1.dist-info/RECORD,,
+PsycoSpans-0.1.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+PsycoSpans-0.1.1.dist-info/top_level.txt,sha256=SdbLEi_U5bsS0klMh9ZnJ13h-JSLZFT-rGJCDKdVq4Q,11
+psycospans/__init__.py,sha256=9a1ob1kRqL7cqvKb5UmiNWmYeOzQW53ZAg9svxVjfwM,2271
+psycospans/_utils.py,sha256=4eksl3E0pzOccnhVnlNU51_kgEgsTgL-etTFSpSB2ZM,5035
+psycospans/tests.py,sha256=snWUYbpU5Ro8DpZZFAcIrdN4qcGJcxmZzsFYRzecG30,6565
