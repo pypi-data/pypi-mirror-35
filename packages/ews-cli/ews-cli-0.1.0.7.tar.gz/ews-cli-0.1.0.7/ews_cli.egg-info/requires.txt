@@ -1,0 +1,4 @@
+PyYAML>=3.12
+SecretStorage==3.0.1
+exchangelib==1.11.4
+keyring==13.0.0

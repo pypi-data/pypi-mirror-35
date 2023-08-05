@@ -1,0 +1,5 @@
+[console_scripts]
+ews-cli = ews_cli.cli:main
+ews-filter = ews_cli.cli:main
+owa-filter = ews_cli.cli:main
+
