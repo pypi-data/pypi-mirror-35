@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: fl33t
+Version: 0.3.2
+Summary: Fl33t API Client
+Home-page: https://github.com/fictivekin/fl33t-client
+Author: Fictive Kin LLC
+Author-email: hello@fictivekin.com
+Maintainer: Fictive Kin LLC
+Maintainer-email: systems@fictivekin.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
