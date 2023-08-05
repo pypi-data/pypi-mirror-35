@@ -1,0 +1,8 @@
+setup.py
+PyGsheetAPI/__init__.py
+PyGsheetAPI.egg-info/PKG-INFO
+PyGsheetAPI.egg-info/SOURCES.txt
+PyGsheetAPI.egg-info/dependency_links.txt
+PyGsheetAPI.egg-info/not-zip-safe
+PyGsheetAPI.egg-info/requires.txt
+PyGsheetAPI.egg-info/top_level.txt
