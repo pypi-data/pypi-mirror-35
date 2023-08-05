@@ -1,0 +1,5 @@
+django>=2.0
+inflect==0.3.1
+orm-choices==1.0.0
+grpcio==1.13.0
+grpcio-tools==1.13.0
