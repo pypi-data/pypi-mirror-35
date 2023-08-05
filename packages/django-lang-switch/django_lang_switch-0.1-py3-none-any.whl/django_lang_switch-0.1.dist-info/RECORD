@@ -1,0 +1,13 @@
+django_lang_switch/__init__.py,sha256=UDJ_I313NT6z0uYkzzlt1o1OlMhwlVNqtWaPJS24Z7k,126
+django_lang_switch/apps.py,sha256=uHofU8f9MOeX8oWOO96bS06jjuyCGiK8L5P3qI9ztH8,237
+django_lang_switch/urls.py,sha256=QdqykZCmYjCU_Sv8kdJ8TCLYvoNSRXmhxoY4yGLQfHU,302
+django_lang_switch/templatetags/__init__.py,sha256=4YNiDNoAz9Y8iSqNQQcjk4HSpJeRTngV3Gi2-XPoQlk,27
+django_lang_switch/templatetags/lang_switch.py,sha256=sJvDWBaE4wfHMm3AIb8hDXjOGtDzDOsG_B2H36nUvFY,449
+django_lang_switch/tests/__init__.py,sha256=guydM15p_AKfKpC3KbEVN2bksC9pkxpjOW8YDZhc07E,20
+django_lang_switch/tests/settings.py,sha256=KUUnCGUqCOUS7PUxKUYl9B0SyB1L69nXZnXJ_oS5Y2Y,307
+django_lang_switch/tests/test_templatetags.py,sha256=smDj--XnvAxDBpRXigTZyjwMmGdqeT4AmIVcmLFccu4,1558
+django_lang_switch/tests/urls.py,sha256=9cRzU_WQPKuR-wG-EmhxSEKDpNZvOPOCu2aQ4Xq_ckM,154
+django_lang_switch-0.1.dist-info/METADATA,sha256=dUL6gGqyi_kORmQqdyL3GOUib-8D25JzPPU4jHwling,3782
+django_lang_switch-0.1.dist-info/RECORD,,
+django_lang_switch-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_lang_switch-0.1.dist-info/top_level.txt,sha256=4Qy1mv-yE-mfW9kg1Kd9_f6TtY65Qp3so23HfbpwcPY,19
