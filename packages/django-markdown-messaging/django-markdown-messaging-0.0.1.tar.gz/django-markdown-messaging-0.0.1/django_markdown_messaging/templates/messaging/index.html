@@ -1,0 +1,50 @@
+{% extends 'messaging/base.html' %}
+
+{% block content %}
+
+<div>
+    <h1>Private messaging service</h1>
+</div>
+
+{% if added_slug %}
+
+<!-- Alert if we just add a new message -->
+<div class="alert">
+    <p>
+        Message correctly saved:
+        <a href="{% url 'messaging:message' added_slug %}">
+            {{ request.META.HTTP_HOST }}{% url 'messaging:message' added_slug %}
+        </a>
+    </p>
+    <p>
+        Don't forget to save this link in order to share it! :-)
+    </p>
+</div>
+
+{% endif %}
+
+{% if unknown_slug %}
+
+<!-- Alert if we just try to access an inexistent message -->
+<div class="alert">
+    <p>
+        Message <b>{{ unknown_slug }}</b> does not exist.
+    </p>
+</div>
+
+{% endif %}
+
+<div>
+    <form method="post" class="form-inline">
+        {% csrf_token %}
+        <input id="txtSlug" name="slug" type="text" maxlength="5" placeholder="enter message code here">
+        <button type="submit">Go</button>
+    </form>
+
+    <p>
+        You can also create a
+        <a href="{% url 'messaging:new-message' %}"><em>new message</em></a>.
+    </p>
+</div>
+
+{% endblock %}

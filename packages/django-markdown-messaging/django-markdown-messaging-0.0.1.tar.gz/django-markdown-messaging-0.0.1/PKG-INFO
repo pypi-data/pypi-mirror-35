@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-markdown-messaging
+Version: 0.0.1
+Summary: Django application to create messaging based on markdown
+Home-page: https://gitlab.com/aloha68/django-markdown-messaging
+Author: Aloha68
+Author-email: dev@aloha.im
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Communications
+Requires-Dist: django (==2.0.6)
+Requires-Dist: markdown (>=2.6,<3.0)

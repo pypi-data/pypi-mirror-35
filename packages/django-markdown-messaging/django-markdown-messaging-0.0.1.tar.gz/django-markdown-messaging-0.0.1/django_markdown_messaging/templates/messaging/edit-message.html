@@ -1,0 +1,39 @@
+{% extends 'messaging/base.html' %}
+
+{% block content %}
+
+<h1>
+    {% if message %}
+    Message <small>- {{ message.slug }}</small>
+    {% else %}
+    New message
+    {% endif %}
+</h1>
+
+<a href="{% url 'messaging:index' %}" class="btn btn-default">Back</a>
+
+<form method="post" action="{{ request.path | urlencode }}">
+    {% csrf_token %}
+
+    <textarea id="txt-message" name="txtMessage" rows="10">{% if message %}{{ message.message }}{% endif %}</textarea>
+
+    {% if not message %}
+    <div>
+        <label>
+            <input type="checkbox" name="chkIsEditable">
+            Allow edit
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="chkIsDeletable">
+            Allow delete
+        </label>
+    </div>
+    {% endif %}
+
+    <button type="submit">Save</button>
+
+</form>
+
+{% endblock %}

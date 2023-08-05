@@ -1,0 +1,23 @@
+{% extends 'messaging/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<h1>
+    Message <small>- {{ message.slug }}</small>
+</h1>
+
+<a href="{% url 'messaging:index' %}" class="btn btn-default">Back</a>
+
+<div class="message">
+    {{ message.markdown|safe }}
+</div>
+
+{% if message.is_editable %}
+<a href="{% url 'messaging:edit-message' message.slug %}">Edit</a>
+{% endif %}
+{% if message.is_deletable %}
+<a href="{% url 'messaging:delete-message' message.slug %}">Delete</a>
+{% endif %}
+
+{% endblock %}
