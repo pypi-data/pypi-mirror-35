@@ -1,0 +1,10 @@
+README.md
+setup.py
+chromatic/__init__.py
+chromatic/chromatic.py
+chromatic.egg-info/PKG-INFO
+chromatic.egg-info/SOURCES.txt
+chromatic.egg-info/dependency_links.txt
+chromatic.egg-info/entry_points.txt
+chromatic.egg-info/requires.txt
+chromatic.egg-info/top_level.txt
