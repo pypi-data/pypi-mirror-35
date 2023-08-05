@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: find-conflicting-branches
+Version: 1.0.1
+Summary: An easy way to find those annoying conflicting branches
+Home-page: https://github.com/mihneadb/find-conflicting-branches
+Author: Mihnea Dobrescu-Balaur
+Author-email: mihnea@linux.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: fire (==0.1.3)
+Requires-Dist: GitPython (==2.1.11)
+
+UNKNOWN
+
+
