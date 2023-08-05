@@ -1,0 +1,8 @@
+README.md
+setup.py
+crc64iso/__init__.py
+crc64iso/crc64iso.py
+crc64iso.egg-info/PKG-INFO
+crc64iso.egg-info/SOURCES.txt
+crc64iso.egg-info/dependency_links.txt
+crc64iso.egg-info/top_level.txt
