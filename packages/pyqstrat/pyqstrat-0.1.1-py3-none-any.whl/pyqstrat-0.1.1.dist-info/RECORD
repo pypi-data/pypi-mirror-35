@@ -1,0 +1,16 @@
+pyqstrat/__init__.py,sha256=WLQjyavAGYBoF28ckI9ZlLXYY4YmG1W9McO8PXitzQU,223
+pyqstrat/evaluator.py,sha256=GQrWgMQ_6gjRPv-UEVMrdujXa6IgLtJRg4i1jin_mY8,20377
+pyqstrat/marketdata.py,sha256=pWN1aT_w83MC-jEFnxhmgd3NBfyCV3E75IbxGCdeTZU,17725
+pyqstrat/optimize.py,sha256=qIjtjLYB_xRfnsMb9pTNpvRuYcboOQwhafu5DLYX5WA,12947
+pyqstrat/orders.py,sha256=4hVT0go0VIzpdBlgsO9xaxMwbt7oCmR7XSp6Gtgry2M,6392
+pyqstrat/plot.py,sha256=FujmmmaAlUH1eyto8uPdS7_jb6aQw9APxwjBDcijztY,35910
+pyqstrat/pq_utils.py,sha256=3sdLToK1TbmrY1eN8tV6fvSzjugWS2buACCgBlSQwx0,9777
+pyqstrat/py_bt.py,sha256=y3ppg0I_MS5jUKEh33yO0wYgtBXXgTFVtR4ZZvoiCls,39711
+pyqstrat/pybt_utils.py,sha256=0TsERMTc4Np8Zsv5jIpnhdPNuJ6Zsbqr-8llXqTddeo,4000
+pyqstrat/strategy.py,sha256=yXfvxqRjNPZ-eFc8TliBMrC7yG3JKOtvrJv71DkQPG8,50318
+pyqstrat/test_pyqstrat.py,sha256=HyYOYoIPlVYuXYhEkHVS3vaXCJSCK-FtfEKH7oJUb18,22
+pyqstrat/version.py,sha256=gTe3wL-HYWdR3-ISB3hmaMYLe9pIn9AVEBqHEoLcJOg,86
+pyqstrat-0.1.1.dist-info/METADATA,sha256=sSxlZCup0F8MnaLMjPBtDz7AUbbktdfZIoCBlA7pC64,5467
+pyqstrat-0.1.1.dist-info/RECORD,,
+pyqstrat-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pyqstrat-0.1.1.dist-info/top_level.txt,sha256=4e8HZaW8VoRWb34qOQWQmGcsKSkYh2k8h1BHoFgrj-w,9
