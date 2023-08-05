@@ -1,0 +1,12 @@
+cloudauthz/__init__.py,sha256=oHdtR8BGExvuU7op8c38bmqw73C224VFg4bx6GayfHs,1407
+cloudauthz/exceptions.py,sha256=1-aT9OupHbmrie7KUztOkbg0c2kj1azlDkz8mP6nxlM,1707
+cloudauthz/interfaces/__init__.py,sha256=vrWQin4xWsvNM_U1DjwBXr7EgiVGWyCFpI1Ez4DPwMg,53
+cloudauthz/interfaces/providers.py,sha256=eYyNBTI7sVA-W1_iGGRArsOyf69kGbWIdoRZRicIuNE,951
+cloudauthz/providers/__init__.py,sha256=j7B8l2kFVlPOMWc_GbnJ_ZHh0a-vs5np5FwAK0xSTFU,68
+cloudauthz/providers/aws.py,sha256=FLW3ijPgJMz3mQORhE6btBRLwJ9vD_xEF9Ad5uxJ0lM,3303
+cloudauthz/providers/azure.py,sha256=Lx5iP-Y4Q_ETxuc_G_jx5ZRQ8a1GjYh40Pc4HoW5-Hs,994
+cloudauthz-0.1.0.dist-info/METADATA,sha256=aIEqmwv75u5gVb9u1aRbWkE8aF2-XFO1xvkz2IdOxLk,1219
+cloudauthz-0.1.0.dist-info/RECORD,,
+cloudauthz-0.1.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+cloudauthz-0.1.0.dist-info/top_level.txt,sha256=TERjOeKAYH-FCkiEGUgBQBzd627h5T2-Q12DfZ49OM8,28
+cloudauthz_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
