@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: xmlrpccomp
+Version: 1.0.0
+Summary: xmlrpc comp (python2 and 3)
+Home-page: https://github.com/bjtj/xmlrpccomp
+Author: tj
+Author-email: bjtj10@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# xmlrpc comp
+
+xmlrpc python2 and python3
+
+## Usage
+
+server
+
+```
+from xmlrpccomp import RpcServer
+>>> def hello():
+...     return 'hello'
+... 
+>>> server = RpcServer(('localhost', 5000))
+>>> server.register_function(hello, 'hello')
+>>> server.serve_forever()
+```
+
+client
+
+```
+>>> from xmlrpccomp import RpcClient
+>>> client = RpcClient('http://localhost:5000')
+>>> client.hello()
+'hello'
+```
+
+
