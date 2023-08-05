@@ -1,0 +1,10 @@
+janitor/__init__.py,sha256=a8G9ScmXugxTx57DW1OtNt6NkKgPeRsr8_MGwfcU4GY,196
+janitor/dataframe.py,sha256=VjMckjpLfdNxfHXqqmMCddMtlDqOZpdqnCYCNBwTQ_0,1946
+janitor/errors.py,sha256=ddDcWEh6F6AbgLyDkIVwCn5OATZytF_p4wcZoXC-ZAE,40
+janitor/functions.py,sha256=h5z92UAAuLgK4EV4Dev2qHx8RyeEkC2AYrOOogktDic,21085
+pyjanitor-0.4.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pyjanitor-0.4.0.dist-info/METADATA,sha256=-cy9FsaKdP8n3haNy53Ti9IGs60L7FEZ6O5C1fVf-LU,605
+pyjanitor-0.4.0.dist-info/RECORD,,
+pyjanitor-0.4.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pyjanitor-0.4.0.dist-info/metadata.json,sha256=R2DGz_VHrfSSm1qzLctQSp1udDtwz7KiII99X4cdWGQ,704
+pyjanitor-0.4.0.dist-info/top_level.txt,sha256=-ykHlVMKmtwoXsdpEizx9Ym500Her3NfsdtCvRhJpCA,8
