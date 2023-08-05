@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: openbci-py101
+Version: 1.0.0
+Summary: A lib for controlling OpenBCI Devices
+Home-page: https://github.com/tushar-c/openbci-fixed
+Author: Tushar Chaturvedi
+Author-email: tushar.chat192@gmail.com
+License: MIT
+Download-URL: https://github.com/tushar-c/openbci-fixed/blob/master/OpenBCI_Python-1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: device,control,eeg,emg,ekg,ads1299,openbci,ganglion,cyton,wifi
+Platform: UNKNOWN
