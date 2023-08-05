@@ -1,0 +1,8 @@
+stura_voting_utils/__init__.py,sha256=vZeciRESbW4EynYzDA5CnIRsKpDNp-u11uKqiH-o1f4,288
+stura_voting_utils/parser.py,sha256=63KjLPm-zlnjfTWXv3cjBLhcQvHm5h-cIQBCUFpSjIc,12848
+stura_voting_utils/utils.py,sha256=gwUxik_t7UJIazkAeP2s9gcOvnC77Gne6dZYIxwldsw,3349
+stura_voting_utils/voting.py,sha256=MSNlBMxoK5jQCWH8TZsiMyCyxweZVi3MKrkEgBuSv_4,3086
+stura_voting_utils-0.1.1.dist-info/METADATA,sha256=4-GZuav9jkl9cPahyBV0YxXiYHjEai3_SZ-Auqne1jo,361
+stura_voting_utils-0.1.1.dist-info/RECORD,,
+stura_voting_utils-0.1.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+stura_voting_utils-0.1.1.dist-info/top_level.txt,sha256=_D6fX_gYUVMXsqMEPLY_fBpyZ9LZnYDxyo11oeNmfW8,19
