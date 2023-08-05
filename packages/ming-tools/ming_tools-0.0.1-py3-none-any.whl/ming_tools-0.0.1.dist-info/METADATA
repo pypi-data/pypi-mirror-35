@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ming-tools
+Version: 0.0.1
+Summary: some useful and interesting tools
+Home-page: https://github.com/pypa/sampleproject
+Author: chenming
+Author-email: mingch94@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# ming-tools Package
+
+This is a useful and interesting tool package.
+
