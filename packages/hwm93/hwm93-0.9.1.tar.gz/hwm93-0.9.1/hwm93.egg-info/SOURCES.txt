@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+hwm93/__init__.py
+hwm93/plots.py
+hwm93.egg-info/PKG-INFO
+hwm93.egg-info/SOURCES.txt
+hwm93.egg-info/dependency_links.txt
+hwm93.egg-info/entry_points.txt
+hwm93.egg-info/requires.txt
+hwm93.egg-info/top_level.txt
+src/hwm93_sub.f

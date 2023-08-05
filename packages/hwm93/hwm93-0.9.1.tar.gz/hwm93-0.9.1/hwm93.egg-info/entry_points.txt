@@ -1,0 +1,3 @@
+[console_scripts]
+RunHWM93 = RunHWM93:main
+

@@ -1,0 +1,15 @@
+python-dateutil
+numpy
+xarray
+sciencedates
+
+[plot]
+matplotlib
+seaborn
+
+[tests]
+pytest
+pytest-cov
+coveralls
+flake8
+mypy
