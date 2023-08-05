@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: logmill
+Version: 0.0.1
+Summary: Simple, straightforward logging and event tracking.
+Home-page: https://github.com/Taevoid/logmill
+Author: Nick Badger
+Author-email: badg@nickbadger.com
+License: MIT
+Description: Logmill is an alternative logging and event tracking library for newer versions of Python.
+Keywords: logging,async,event,tracking
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Framework :: Trio

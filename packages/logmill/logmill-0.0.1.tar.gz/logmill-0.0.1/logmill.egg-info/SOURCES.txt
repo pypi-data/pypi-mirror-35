@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+logmill/__init__.py
+logmill/__meta__.py
+logmill/bootstrap.py
+logmill/logmill.py
+logmill/logpunch.py
+logmill/stdlib_fallback.py
+logmill/stdlib_patch.py
+logmill.egg-info/PKG-INFO
+logmill.egg-info/SOURCES.txt
+logmill.egg-info/dependency_links.txt
+logmill.egg-info/requires.txt
+logmill.egg-info/top_level.txt
+logmill/consumers/__init__.py
