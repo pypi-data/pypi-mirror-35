@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: django-ping-me
+Version: 0.0.3
+Summary: Django application to create availability statistics of web servers
+Home-page: https://gitlab.com/aloha68/django-ping-me
+License: WTFPL
+Keywords: django
+Author: Aloha68
+Author-email: dev@aloha.im
+Requires-Python: >=3.4,<4.0
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Communications
+Requires-Dist: aloha-utils (>=0.0.3,<0.0.4)
+Requires-Dist: django (==2.0.6)
+Requires-Dist: django-cron (==0.5.1)
+Requires-Dist: markdown (>=2.6,<3.0)
+Description-Content-Type: text/markdown
+
+# Django ping-me application
+ 
+This app has to be integrated into an existing django website.
+
+The purpose of this application is to establish an HTTP connection with a web server list in order to make availability statistics.
+
+## Quick start
+
+1. Add "ping-me" to your INSTALLED_APPS setting like this:
+```
+INSTALLED_APPS = [  
+    ...  
+    'django_ping_me',
+]
+```
+
+2. Include the ping-me URLconf in your project urls.py like this:
+```
+path('ping-me/', include(('django_ping_me.urls', 'ping_me'))),
+```
+
+3. Run `python manage.py migrate` to create models.
+
+4. Start the development server and visit http://127.0.0.1:8000/ping-me to check if everything is ok.
+
+## Override those ugly templates
+
+You can add a *templates/ping_me* folder in your base application to override default templates.
+
+Have a look on [default templates](https://gitlab.com/aloha68/django-ping-me/tree/master/django_ping_me/templates/ping_me) to see how to override them.
+Keep in mind that some features (like edit or delete a server) use *bootstrap* popups and AJAX calls.
+
