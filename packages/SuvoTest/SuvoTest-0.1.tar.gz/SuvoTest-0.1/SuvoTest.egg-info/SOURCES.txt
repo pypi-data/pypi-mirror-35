@@ -1,0 +1,8 @@
+README.md
+setup.py
+SuvoTest/__init__.py
+SuvoTest.egg-info/PKG-INFO
+SuvoTest.egg-info/SOURCES.txt
+SuvoTest.egg-info/dependency_links.txt
+SuvoTest.egg-info/not-zip-safe
+SuvoTest.egg-info/top_level.txt
