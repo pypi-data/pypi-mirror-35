@@ -1,0 +1,508 @@
+# Translation of ISO 4217 (currency names) to Latvian
+# This file is distributed under the same license as the iso-codes package.
+# Copyright (C) Free Software Foundation, Inc..
+#
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2011-09-01 23:56+0300\n"
+"Last-Translator: Rihards Priedītis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+msgid "ISO_4217.AED"
+msgstr "AAE dirhēms"
+
+msgid "ISO_4217.AFN"
+msgstr "Afgāns"
+
+msgid "ISO_4217.ALL"
+msgstr "Leks"
+
+msgid "ISO_4217.AMD"
+msgstr "Armēņu drams"
+
+msgid "ISO_4217.ANG"
+msgstr "Nīderlandes Antiļu guldenis"
+
+msgid "ISO_4217.AOA"
+msgstr "Kvanza"
+
+msgid "ISO_4217.ARS"
+msgstr "Argentīnas peso"
+
+msgid "ISO_4217.AUD"
+msgstr "Austrālijas dolārs"
+
+msgid "ISO_4217.AWG"
+msgstr "Arubas guldenis"
+
+msgid "ISO_4217.AZN"
+msgstr "Azerbaidžānas manats"
+
+msgid "ISO_4217.BAM"
+msgstr "Konvertējamā marka"
+
+msgid "ISO_4217.BBD"
+msgstr "Barbadosas dolārs"
+
+msgid "ISO_4217.BDT"
+msgstr "Taka"
+
+msgid "ISO_4217.BGN"
+msgstr "Bulgārijas leva"
+
+msgid "ISO_4217.BHD"
+msgstr "Bahreinas dinārs"
+
+msgid "ISO_4217.BIF"
+msgstr "Burundi franks"
+
+msgid "ISO_4217.BMD"
+msgstr "Bermudu salu dolārs"
+
+msgid "ISO_4217.BND"
+msgstr "Brunejas dolārs"
+
+msgid "ISO_4217.BOB"
+msgstr "Boliviano"
+
+msgid "ISO_4217.BRL"
+msgstr "Brazīlijas reāls"
+
+msgid "ISO_4217.BSD"
+msgstr "Bahamu dolārs"
+
+msgid "ISO_4217.BTN"
+msgstr "Ngultrums"
+
+msgid "ISO_4217.BWP"
+msgstr "Pula"
+
+msgid "ISO_4217.BYR"
+msgstr "Baltkrievijas rubelis"
+
+msgid "ISO_4217.BZD"
+msgstr "Belizas dolārs"
+
+msgid "ISO_4217.CAD"
+msgstr "Kanādas dolārs"
+
+msgid "ISO_4217.CDF"
+msgstr "KDR franks"
+
+msgid "ISO_4217.CHF"
+msgstr "Šveices franks"
+
+msgid "ISO_4217.CLP"
+msgstr "Čīles peso"
+
+msgid "ISO_4217.CNY"
+msgstr "Juana"
+
+msgid "ISO_4217.COP"
+msgstr "Kolumbijas peso"
+
+msgid "ISO_4217.CRC"
+msgstr "Kostarikas kolons"
+
+msgid "ISO_4217.CUC"
+msgstr "Konvertējamā marka"
+
+msgid "ISO_4217.CUP"
+msgstr "Kubas peso"
+
+msgid "ISO_4217.CVE"
+msgstr "Kaboverdes eskudo"
+
+msgid "ISO_4217.CZK"
+msgstr "Čehijas krona"
+
+msgid "ISO_4217.DJF"
+msgstr "Džibutijas franks"
+
+msgid "ISO_4217.DKK"
+msgstr "Dānijas krona"
+
+msgid "ISO_4217.DOP"
+msgstr "Dominikanas peso"
+
+msgid "ISO_4217.DZD"
+msgstr "Alžīrijas dinārs"
+
+msgid "ISO_4217.EGP"
+msgstr "Ēģiptes mārciņa"
+
+msgid "ISO_4217.ERN"
+msgstr "Nakfa"
+
+msgid "ISO_4217.ETB"
+msgstr "Etiopijas birs"
+
+msgid "ISO_4217.EUR"
+msgstr "Eiro"
+
+msgid "ISO_4217.FJD"
+msgstr "Fidži dolārs"
+
+msgid "ISO_4217.FKP"
+msgstr "Folklenda salu mārciņa"
+
+msgid "ISO_4217.GBP"
+msgstr "Sterliņu mārciņa"
+
+msgid "ISO_4217.GEL"
+msgstr "Lari"
+
+msgid "ISO_4217.GHS"
+msgstr "Ganas sedi"
+
+msgid "ISO_4217.GIP"
+msgstr "Gibraltāra mārciņa"
+
+msgid "ISO_4217.GMD"
+msgstr "Dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "Gvinejas franks"
+
+msgid "ISO_4217.GTQ"
+msgstr "Ketsals"
+
+msgid "ISO_4217.GYD"
+msgstr "Gajānas dolārs"
+
+msgid "ISO_4217.HKD"
+msgstr "Honkongas dolārs"
+
+msgid "ISO_4217.HNL"
+msgstr "Lempīra"
+
+msgid "ISO_4217.HTG"
+msgstr "Gurds"
+
+msgid "ISO_4217.HUF"
+msgstr "Forints"
+
+msgid "ISO_4217.IDR"
+msgstr "Indonēzijas rūpija"
+
+msgid "ISO_4217.ILS"
+msgstr "Jaunais Izraēlas šekels"
+
+msgid "ISO_4217.INR"
+msgstr "Indijas rūpija"
+
+msgid "ISO_4217.IQD"
+msgstr "Irākas dinārs"
+
+msgid "ISO_4217.IRR"
+msgstr "Irānas riāls"
+
+msgid "ISO_4217.ISK"
+msgstr "Islandes krona"
+
+msgid "ISO_4217.JMD"
+msgstr "Jamaikas dolārs"
+
+msgid "ISO_4217.JOD"
+msgstr "Jordānijas dinārs"
+
+msgid "ISO_4217.JPY"
+msgstr "Jena"
+
+msgid "ISO_4217.KES"
+msgstr "Kenijas šiliņš"
+
+msgid "ISO_4217.KGS"
+msgstr "Soms"
+
+msgid "ISO_4217.KHR"
+msgstr "Riels"
+
+msgid "ISO_4217.KMF"
+msgstr "Komoru franks"
+
+msgid "ISO_4217.KPW"
+msgstr "Ziemeļkorejas vona"
+
+msgid "ISO_4217.KRW"
+msgstr "Dienvidkorejas vona"
+
+msgid "ISO_4217.KWD"
+msgstr "Kuveitas dinārs"
+
+msgid "ISO_4217.KYD"
+msgstr "Kaimanu dolārs"
+
+msgid "ISO_4217.KZT"
+msgstr "Tenge"
+
+msgid "ISO_4217.LAK"
+msgstr "Kips"
+
+msgid "ISO_4217.LBP"
+msgstr "Libānas mārciņa"
+
+msgid "ISO_4217.LKR"
+msgstr "Šrilankas rūpija"
+
+msgid "ISO_4217.LRD"
+msgstr "Libērijas dolārs"
+
+msgid "ISO_4217.LSL"
+msgstr "Loti"
+
+msgid "ISO_4217.LYD"
+msgstr "Lībijas dinārs"
+
+msgid "ISO_4217.MAD"
+msgstr "Marokas dirhēms"
+
+msgid "ISO_4217.MDL"
+msgstr "Moldovas leja"
+
+msgid "ISO_4217.MGA"
+msgstr "Malgašu ariari"
+
+msgid "ISO_4217.MKD"
+msgstr "Denārs"
+
+msgid "ISO_4217.MMK"
+msgstr "Kjats"
+
+msgid "ISO_4217.MNT"
+msgstr "Tugriks"
+
+msgid "ISO_4217.MOP"
+msgstr "Pataka"
+
+msgid "ISO_4217.MRO"
+msgstr "Ugija"
+
+msgid "ISO_4217.MUR"
+msgstr "Maurīcijas rūpija"
+
+msgid "ISO_4217.MVR"
+msgstr "Rūfija"
+
+msgid "ISO_4217.MWK"
+msgstr "Zambijas kvača"
+
+msgid "ISO_4217.MXN"
+msgstr "Meksikas peso"
+
+msgid "ISO_4217.MYR"
+msgstr "Malaizijas ringits"
+
+msgid "ISO_4217.NAD"
+msgstr "Namībijas dolārs"
+
+msgid "ISO_4217.NGN"
+msgstr "Naira"
+
+msgid "ISO_4217.NIO"
+msgstr "Kordovas oro"
+
+msgid "ISO_4217.NOK"
+msgstr "Norvēģijas krona"
+
+msgid "ISO_4217.NPR"
+msgstr "Nepālas rūpija"
+
+msgid "ISO_4217.NZD"
+msgstr "Jaunzēlandes dolārs"
+
+msgid "ISO_4217.OMR"
+msgstr "Omānas riāls"
+
+msgid "ISO_4217.PAB"
+msgstr "Balboa"
+
+msgid "ISO_4217.PEN"
+msgstr "Soms"
+
+msgid "ISO_4217.PGK"
+msgstr "Kina"
+
+msgid "ISO_4217.PHP"
+msgstr "Filipīnu peso"
+
+msgid "ISO_4217.PKR"
+msgstr "Pakistānas rūpija"
+
+msgid "ISO_4217.PLN"
+msgstr "Zlots"
+
+msgid "ISO_4217.PYG"
+msgstr "Gvarani"
+
+msgid "ISO_4217.QAR"
+msgstr "Kataras riāls"
+
+msgid "ISO_4217.RSD"
+msgstr "Serbijas dinārs"
+
+msgid "ISO_4217.RUB"
+msgstr "Krievijas rublis"
+
+msgid "ISO_4217.RWF"
+msgstr "Ruandas franks"
+
+msgid "ISO_4217.SAR"
+msgstr "Saūda riāls"
+
+msgid "ISO_4217.SBD"
+msgstr "Zālamana salu dolārs"
+
+msgid "ISO_4217.SCR"
+msgstr "Seišelu salu rūpija"
+
+msgid "ISO_4217.SDG"
+msgstr "Sudānas mārciņa"
+
+msgid "ISO_4217.SEK"
+msgstr "Zviedrijas krona"
+
+msgid "ISO_4217.SGD"
+msgstr "Singapūras dolārs"
+
+msgid "ISO_4217.SHP"
+msgstr "Svētās Helēnas salas mārciņa"
+
+msgid "ISO_4217.SLL"
+msgstr "Leone"
+
+msgid "ISO_4217.SOS"
+msgstr "Somālijas šiliņš"
+
+msgid "ISO_4217.SRD"
+msgstr "Surinamas dolārs"
+
+msgid "ISO_4217.SSP"
+msgstr "Sudānas mārciņa"
+
+msgid "ISO_4217.STD"
+msgstr "Dobra"
+
+msgid "ISO_4217.SVC"
+msgstr "Salvadoras kolons"
+
+msgid "ISO_4217.SYP"
+msgstr "Sīrijas mārciņa"
+
+msgid "ISO_4217.SZL"
+msgstr "Lilangeni"
+
+msgid "ISO_4217.THB"
+msgstr "Bāts"
+
+msgid "ISO_4217.TJS"
+msgstr "Somons"
+
+msgid "ISO_4217.TND"
+msgstr "Tunisijas dinārs"
+
+msgid "ISO_4217.TOP"
+msgstr "Paanga"
+
+msgid "ISO_4217.TRY"
+msgstr "Jaunā Turcijas lira"
+
+msgid "ISO_4217.TTD"
+msgstr "Trinidādas un Tobāgas dolārs"
+
+msgid "ISO_4217.TWD"
+msgstr "Jaunais Taivānas dolārs"
+
+msgid "ISO_4217.TZS"
+msgstr "Tanzānijas šiliņš"
+
+msgid "ISO_4217.UAH"
+msgstr "Grivna"
+
+msgid "ISO_4217.UGX"
+msgstr "Ugandas šiliņš"
+
+msgid "ISO_4217.USD"
+msgstr "ASV dolārs"
+
+msgid "ISO_4217.UYU"
+msgstr "Urugvajas peso"
+
+msgid "ISO_4217.UZS"
+msgstr "Uzbekistānas sums"
+
+msgid "ISO_4217.VND"
+msgstr "Dongi"
+
+msgid "ISO_4217.VUV"
+msgstr "Vatu"
+
+msgid "ISO_4217.WST"
+msgstr "Tala"
+
+msgid "ISO_4217.XAF"
+msgstr "Centrālāfrikas CFA franks"
+
+msgid "ISO_4217.XAG"
+msgstr "Sudrabs"
+
+msgid "ISO_4217.XAU"
+msgstr "Zelts"
+
+msgid "ISO_4217.XBA"
+msgstr "Eiropas saliktā vienība (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "Eiropas naudas vienība (E.M.U.-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Eiropas konta vienība 9 (E.U.A.-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Eiropas konta vienība 17 (E.U.A.-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "Austrumkarību dolārs"
+
+msgid "ISO_4217.XDR"
+msgstr "Speciālās aizņēmuma tiesības"
+
+msgid "ISO_4217.XOF"
+msgstr "Rietumāfrikas CFA franks"
+
+msgid "ISO_4217.XPD"
+msgstr "Pallādijs"
+
+msgid "ISO_4217.XPF"
+msgstr "Polinēzijas franks"
+
+msgid "ISO_4217.XPT"
+msgstr "Platīns"
+
+msgid "ISO_4217.XTS"
+msgstr "Kods testēšanas nolūkam"
+
+msgid "ISO_4217.YER"
+msgstr "Jemenas riāls"
+
+msgid "ISO_4217.ZAR"
+msgstr "Rands"
+
+msgid "ISO_4217.ZMW"
+msgstr "Zambijas kvača"
+
+msgid "ISO_4217.ZWL"
+msgstr "Zimbabves dolārs"

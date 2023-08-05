@@ -1,0 +1,529 @@
+# Translation of ISO 4217 to LANGUAGE
+# Codes for the representation of currencies
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright ©
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "ԱՄԷ Dirham"
+
+msgid "ISO_4217.AFN"
+msgstr "Աֆղաներեն"
+
+msgid "ISO_4217.ALL"
+msgstr "Լեկ"
+
+msgid "ISO_4217.AMD"
+msgstr "Հայկական դրամ"
+
+msgid "ISO_4217.ANG"
+msgstr "Նիդերլանդներ Անտիլյան Գուիդեր"
+
+msgid "ISO_4217.AOA"
+msgstr "Կվանզա"
+
+msgid "ISO_4217.ARS"
+msgstr "Արգենտինայի պեսո"
+
+msgid "ISO_4217.AUD"
+msgstr "Ավստրալիական դոլար"
+
+msgid "ISO_4217.AWG"
+msgstr "Արուբան Ֆլորին"
+
+msgid "ISO_4217.AZN"
+msgstr "Ադրբեջանական մանաթ"
+
+msgid "ISO_4217.BAM"
+msgstr "Convertible Mark- ը"
+
+msgid "ISO_4217.BBD"
+msgstr "Բարբադոս դոլար"
+
+msgid "ISO_4217.BDT"
+msgstr "Տակա"
+
+msgid "ISO_4217.BGN"
+msgstr "Բուլղարիա Լեւ"
+
+msgid "ISO_4217.BHD"
+msgstr "Բահրեյնի դինար"
+
+msgid "ISO_4217.BIF"
+msgstr "Բուրունդի Ֆրանկ"
+
+msgid "ISO_4217.BMD"
+msgstr "Բերմուդյան դոլարը"
+
+msgid "ISO_4217.BND"
+msgstr "Բրունեյի դոլար"
+
+msgid "ISO_4217.BOB"
+msgstr "Բոլիվիանոն"
+
+msgid "ISO_4217.BRL"
+msgstr "Բրազիլական իրական"
+
+msgid "ISO_4217.BSD"
+msgstr "Բահամյան դոլարը"
+
+msgid "ISO_4217.BTN"
+msgstr "Ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "Պուլա"
+
+msgid "ISO_4217.BYR"
+msgstr "Բելառուսական ռուբլով"
+
+msgid "ISO_4217.BZD"
+msgstr "Բելիզ դոլարը"
+
+msgid "ISO_4217.CAD"
+msgstr "Կանադական դոլար"
+
+msgid "ISO_4217.CDF"
+msgstr "Կոնգո ֆրանկ"
+
+msgid "ISO_4217.CHF"
+msgstr "Շվեյցարիա"
+
+msgid "ISO_4217.CLP"
+msgstr "Չիլիի պեսո"
+
+msgid "ISO_4217.CNY"
+msgstr "Յուան Ռենմինի"
+
+msgid "ISO_4217.COP"
+msgstr "Կոլումբիական պեսո"
+
+msgid "ISO_4217.CRC"
+msgstr "Կոստա Ռիկոն կոլոն"
+
+msgid "ISO_4217.CUC"
+msgstr "Peso փոխարկելի"
+
+msgid "ISO_4217.CUP"
+msgstr "Կուբայի պեսո"
+
+msgid "ISO_4217.CVE"
+msgstr "Կաբո Վերդի Էսդուկո"
+
+msgid "ISO_4217.CZK"
+msgstr "Չեխական Կորունա"
+
+msgid "ISO_4217.DJF"
+msgstr "Ջիբութի Ֆրանկ"
+
+msgid "ISO_4217.DKK"
+msgstr "Դանիական Կրոնե"
+
+msgid "ISO_4217.DOP"
+msgstr "Դոմինիկյան պեսո"
+
+msgid "ISO_4217.DZD"
+msgstr "Ալժիրյան դինար"
+
+msgid "ISO_4217.EGP"
+msgstr "Եգիպտական ​​ֆունտ"
+
+msgid "ISO_4217.ERN"
+msgstr "Nakfa"
+
+msgid "ISO_4217.ETB"
+msgstr "Եթովպյան Բիր"
+
+msgid "ISO_4217.EUR"
+msgstr "Եվրո"
+
+msgid "ISO_4217.FJD"
+msgstr "Ֆիջի դոլար"
+
+msgid "ISO_4217.FKP"
+msgstr "Ֆոլկլենդյան կղզիներ ֆունտ"
+
+msgid "ISO_4217.GBP"
+msgstr "Ֆունտ ստերլինգ"
+
+msgid "ISO_4217.GEL"
+msgstr "Լարի"
+
+msgid "ISO_4217.GHS"
+msgstr "Գանա Cedi"
+
+msgid "ISO_4217.GIP"
+msgstr "Գիբրալթար ֆունտ"
+
+msgid "ISO_4217.GMD"
+msgstr "Դալասի"
+
+msgid "ISO_4217.GNF"
+msgstr "Գվինեա Ֆրանկ"
+
+msgid "ISO_4217.GTQ"
+msgstr "Քյետզալ"
+
+msgid "ISO_4217.GYD"
+msgstr "Գայանա դոլարը"
+
+msgid "ISO_4217.HKD"
+msgstr "Հոնկոնգյան դոլար"
+
+msgid "ISO_4217.HNL"
+msgstr "Լեմպիրա"
+
+msgid "ISO_4217.HRK"
+msgstr "Կունա"
+
+msgid "ISO_4217.HTG"
+msgstr "Գուրդե"
+
+msgid "ISO_4217.HUF"
+msgstr "Forint"
+
+msgid "ISO_4217.IDR"
+msgstr "Rupiah"
+
+msgid "ISO_4217.ILS"
+msgstr "Նոր իսրայելական շեղելը"
+
+msgid "ISO_4217.INR"
+msgstr "Հնդկական ռուպին"
+
+msgid "ISO_4217.IQD"
+msgstr "Իրաքյան Դինար"
+
+msgid "ISO_4217.IRR"
+msgstr "Իրանի ռիալը"
+
+msgid "ISO_4217.ISK"
+msgstr "Իսլանդիա Կրոնա"
+
+msgid "ISO_4217.JMD"
+msgstr "Ջամայկա դոլարը"
+
+msgid "ISO_4217.JOD"
+msgstr "Հորդանանի դինար"
+
+msgid "ISO_4217.JPY"
+msgstr "Են"
+
+msgid "ISO_4217.KES"
+msgstr "Քենիայի շիլլինգ"
+
+msgid "ISO_4217.KGS"
+msgstr "Սոմ"
+
+msgid "ISO_4217.KHR"
+msgstr "Ռիել"
+
+msgid "ISO_4217.KMF"
+msgstr "Կոմորյան ֆրանկ"
+
+msgid "ISO_4217.KPW"
+msgstr "Հյուսիսային Կորեայի Won"
+
+msgid "ISO_4217.KRW"
+msgstr "Հաղթանակ"
+
+msgid "ISO_4217.KWD"
+msgstr "Քուվեյթ Դինար"
+
+msgid "ISO_4217.KYD"
+msgstr "Կիմյան կղզիներ դոլար"
+
+msgid "ISO_4217.KZT"
+msgstr "Տենդ"
+
+msgid "ISO_4217.LAK"
+msgstr "Kip"
+
+msgid "ISO_4217.LBP"
+msgstr "Լիբանանի ֆունտ"
+
+msgid "ISO_4217.LKR"
+msgstr "Շրի Լանկա ռուպ"
+
+msgid "ISO_4217.LRD"
+msgstr "Լիբերիայի դոլար"
+
+msgid "ISO_4217.LSL"
+msgstr "Լոթի"
+
+msgid "ISO_4217.LYD"
+msgstr "Լիբիական դինար"
+
+msgid "ISO_4217.MAD"
+msgstr "Մարոկկո Dirham"
+
+msgid "ISO_4217.MDL"
+msgstr "Մոլդովական Leu"
+
+msgid "ISO_4217.MGA"
+msgstr "Մալագասյան Արիարի"
+
+msgid "ISO_4217.MKD"
+msgstr "Դենար"
+
+msgid "ISO_4217.MMK"
+msgstr "Կիատ"
+
+msgid "ISO_4217.MNT"
+msgstr "Tugrik"
+
+msgid "ISO_4217.MOP"
+msgstr "Pataca"
+
+msgid "ISO_4217.MRO"
+msgstr "Ouguiya"
+
+msgid "ISO_4217.MUR"
+msgstr "Մավրիկիոս Ռուպեյ"
+
+msgid "ISO_4217.MVR"
+msgstr "Ռուֆիյա"
+
+msgid "ISO_4217.MWK"
+msgstr "Մալավի Կուչա"
+
+msgid "ISO_4217.MXN"
+msgstr "Մեքսիկական պեսո"
+
+msgid "ISO_4217.MYR"
+msgstr "Մալայզիայի ռինգգիտ"
+
+msgid "ISO_4217.MZN"
+msgstr "Մոզամբիկ մետալիկ"
+
+msgid "ISO_4217.NAD"
+msgstr "Նամիբիա դոլար"
+
+msgid "ISO_4217.NGN"
+msgstr "Նաիրա"
+
+msgid "ISO_4217.NIO"
+msgstr "Կորդոբա Oro"
+
+msgid "ISO_4217.NOK"
+msgstr "Նորվեգական Կրոնե"
+
+msgid "ISO_4217.NPR"
+msgstr "Նեպալյան ռուպին"
+
+msgid "ISO_4217.NZD"
+msgstr "Նոր Զելանդիայի դոլար"
+
+msgid "ISO_4217.OMR"
+msgstr "ՌԻԱԼ Օմանի"
+
+msgid "ISO_4217.PAB"
+msgstr "Բալբո"
+
+msgid "ISO_4217.PEN"
+msgstr "Սոլ"
+
+msgid "ISO_4217.PGK"
+msgstr "Քինա"
+
+msgid "ISO_4217.PHP"
+msgstr "Ֆիլիպինյան Պեսոն"
+
+msgid "ISO_4217.PKR"
+msgstr "Պակիստանի Ռուպեյ"
+
+msgid "ISO_4217.PLN"
+msgstr "Zloty"
+
+msgid "ISO_4217.PYG"
+msgstr "Գուարանի"
+
+msgid "ISO_4217.QAR"
+msgstr "Քաթարի Ռիալ"
+
+msgid "ISO_4217.RON"
+msgstr "Ռումինիայի Leu"
+
+msgid "ISO_4217.RSD"
+msgstr "Սերբերեն դինար"
+
+msgid "ISO_4217.RUB"
+msgstr "Ռուսական ռուբլի"
+
+msgid "ISO_4217.RWF"
+msgstr "Ռուանդա Ֆրանկ"
+
+msgid "ISO_4217.SAR"
+msgstr "Սաուդյան Ռիալ"
+
+msgid "ISO_4217.SBD"
+msgstr "Սողոմոնյան կղզիներ դոլար"
+
+msgid "ISO_4217.SCR"
+msgstr "Սեյշելյան կղզիներ"
+
+msgid "ISO_4217.SDG"
+msgstr "Սուդանի ֆունտ"
+
+msgid "ISO_4217.SEK"
+msgstr "Շվեդական Կրոնա"
+
+msgid "ISO_4217.SGD"
+msgstr "Սինգապուրի դոլար"
+
+msgid "ISO_4217.SHP"
+msgstr "Սուրբ Հելենի կղզին"
+
+msgid "ISO_4217.SLL"
+msgstr "Լեոնե"
+
+msgid "ISO_4217.SOS"
+msgstr "Սոմալիի շիլլինգ"
+
+msgid "ISO_4217.SRD"
+msgstr "Սուրինամյան դոլար"
+
+msgid "ISO_4217.SSP"
+msgstr "Հարավային Սուդանի ֆունտ"
+
+msgid "ISO_4217.STD"
+msgstr "Դոբրան"
+
+msgid "ISO_4217.SVC"
+msgstr "Սալվադոր Կոլոն"
+
+msgid "ISO_4217.SYP"
+msgstr "Սիրիական ֆունտ"
+
+msgid "ISO_4217.SZL"
+msgstr "Լիլանգենի"
+
+msgid "ISO_4217.THB"
+msgstr "Բարթ"
+
+msgid "ISO_4217.TJS"
+msgstr "Սոմոնին"
+
+msgid "ISO_4217.TMT"
+msgstr "Թուրքմենստանի նոր մանատը"
+
+msgid "ISO_4217.TND"
+msgstr "Թունիսյան դինար"
+
+msgid "ISO_4217.TOP"
+msgstr "Պաանգան"
+
+msgid "ISO_4217.TRY"
+msgstr "Թուրքական լիրա"
+
+msgid "ISO_4217.TTD"
+msgstr "Տրինիդադ եւ Տոբագո Դոլար"
+
+msgid "ISO_4217.TWD"
+msgstr "Նոր Թայվանի դոլար"
+
+msgid "ISO_4217.TZS"
+msgstr "Տանզանիայի շիլլինգ"
+
+msgid "ISO_4217.UAH"
+msgstr "Գրիվան"
+
+msgid "ISO_4217.UGX"
+msgstr "Ուգանդայի շիլլինգ"
+
+msgid "ISO_4217.USD"
+msgstr "ԱՄՆ դոլար"
+
+msgid "ISO_4217.UYU"
+msgstr "Պեսո Ուրուգվայա"
+
+msgid "ISO_4217.UZS"
+msgstr "Ուզբեկստանի Սում"
+
+msgid "ISO_4217.VEF"
+msgstr "Բոլիվար"
+
+msgid "ISO_4217.VND"
+msgstr "Դոնգ"
+
+msgid "ISO_4217.VUV"
+msgstr "Vatu"
+
+msgid "ISO_4217.WST"
+msgstr "Թալա"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA Franc BEAC- ն"
+
+msgid "ISO_4217.XAG"
+msgstr "Արծաթե"
+
+msgid "ISO_4217.XAU"
+msgstr "Ոսկի"
+
+msgid "ISO_4217.XBA"
+msgstr "Բոնդային շուկաների բաժին Եվրոպական միացյալ միավոր (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "Բոնդային շուկաների բաժին Եվրոպական դրամական միավոր (EMU-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Պարտատոմսերի շուկաների բաժին Եվրոպական հաշվի միավոր 9 (EUA-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Պարտատոմսերի շուկաների բաժին Հաշվարկի եվրոպական միավոր 17 (EUA-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "Արեւելյան Կարիբյան դոլարը"
+
+msgid "ISO_4217.XDR"
+msgstr "SDR (Հատուկ Drawing Right)"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA Franc BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "Պալադիում"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP Ֆրանկ"
+
+msgid "ISO_4217.XPT"
+msgstr "Platinum"
+
+msgid "ISO_4217.XSU"
+msgstr "Սուրcre"
+
+msgid "ISO_4217.XTS"
+msgstr "Թեստավորման նպատակով հատուկ պաշտպանված կոդերը"
+
+msgid "ISO_4217.XUA"
+msgstr "ԱԶԲ հաշվապահական հաշվառման բաժին"
+
+msgid "ISO_4217.XXX"
+msgstr "Գործարքների համար նախատեսված ծածկագրերը, որտեղ չկա արժույթ"
+
+msgid "ISO_4217.YER"
+msgstr "Յեմենի Ռիալ"
+
+msgid "ISO_4217.ZAR"
+msgstr "Rand"
+
+msgid "ISO_4217.ZMW"
+msgstr "Զամբիան Քուչա"
+
+msgid "ISO_4217.ZWL"
+msgstr "Զիմբաբվեյան դոլար"

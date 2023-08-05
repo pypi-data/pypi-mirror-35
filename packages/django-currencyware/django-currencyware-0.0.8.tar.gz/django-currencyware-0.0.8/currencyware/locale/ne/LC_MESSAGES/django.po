@@ -1,0 +1,529 @@
+# Translation of ISO 4217 to LANGUAGE
+# Codes for the representation of currencies
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright ©
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "संयुक्त अरब अमीरात दिर्हाम"
+
+msgid "ISO_4217.AFN"
+msgstr "अफगानिस्तान"
+
+msgid "ISO_4217.ALL"
+msgstr "Lek"
+
+msgid "ISO_4217.AMD"
+msgstr "अर्मेनियाई ड्राम"
+
+msgid "ISO_4217.ANG"
+msgstr "नेदरल्यान्ड्स एटिलेन गिल्डर"
+
+msgid "ISO_4217.AOA"
+msgstr "Kwanza"
+
+msgid "ISO_4217.ARS"
+msgstr "अर्जेण्टीना पीसो"
+
+msgid "ISO_4217.AUD"
+msgstr "अस्ट्रेलियन डलर"
+
+msgid "ISO_4217.AWG"
+msgstr "Aruban Florin"
+
+msgid "ISO_4217.AZN"
+msgstr "अजरबैजानियन म्यान्ट"
+
+msgid "ISO_4217.BAM"
+msgstr "परिवर्तनीय मार्क"
+
+msgid "ISO_4217.BBD"
+msgstr "बार्बाडोस डलर"
+
+msgid "ISO_4217.BDT"
+msgstr "टाका"
+
+msgid "ISO_4217.BGN"
+msgstr "बल्गेरियाई लेभ"
+
+msgid "ISO_4217.BHD"
+msgstr "बहरीन दिनार"
+
+msgid "ISO_4217.BIF"
+msgstr "बुरुंडी फ्रान्सेली"
+
+msgid "ISO_4217.BMD"
+msgstr "Bermudian डलर"
+
+msgid "ISO_4217.BND"
+msgstr "ब्रुनेई डलर"
+
+msgid "ISO_4217.BOB"
+msgstr "बोलिभियानो"
+
+msgid "ISO_4217.BRL"
+msgstr "ब्राजिलियन रियल"
+
+msgid "ISO_4217.BSD"
+msgstr "Bahamian डलर"
+
+msgid "ISO_4217.BTN"
+msgstr "Ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "पुला"
+
+msgid "ISO_4217.BYR"
+msgstr "बेलारुसी रूबल"
+
+msgid "ISO_4217.BZD"
+msgstr "बेलिज डलर"
+
+msgid "ISO_4217.CAD"
+msgstr "क्यानाडा डलर"
+
+msgid "ISO_4217.CDF"
+msgstr "कङ्गोली फ्रान्सेली"
+
+msgid "ISO_4217.CHF"
+msgstr "स्विस फ्रैंक"
+
+msgid "ISO_4217.CLP"
+msgstr "चिली पीसो"
+
+msgid "ISO_4217.CNY"
+msgstr "युआन रेन्मिन्बी"
+
+msgid "ISO_4217.COP"
+msgstr "कोलम्बियाई पीसो"
+
+msgid "ISO_4217.CRC"
+msgstr "कोस्टा रिकन कलोन"
+
+msgid "ISO_4217.CUC"
+msgstr "पीसो परिवर्तनीय"
+
+msgid "ISO_4217.CUP"
+msgstr "क्यूबा पीसो"
+
+msgid "ISO_4217.CVE"
+msgstr "क्याबो वर्डे Escudo"
+
+msgid "ISO_4217.CZK"
+msgstr "चेक कोरुना"
+
+msgid "ISO_4217.DJF"
+msgstr "Djibouti फ्रैंक"
+
+msgid "ISO_4217.DKK"
+msgstr "डैनिश क्रोन"
+
+msgid "ISO_4217.DOP"
+msgstr "डोमिनिकन पीसो"
+
+msgid "ISO_4217.DZD"
+msgstr "अल्जीरीयाई दिनार"
+
+msgid "ISO_4217.EGP"
+msgstr "मिस्र पाउण्ड"
+
+msgid "ISO_4217.ERN"
+msgstr "नाका"
+
+msgid "ISO_4217.ETB"
+msgstr "इथियोपियन Birr"
+
+msgid "ISO_4217.EUR"
+msgstr "यूरो"
+
+msgid "ISO_4217.FJD"
+msgstr "फिजी डलर"
+
+msgid "ISO_4217.FKP"
+msgstr "फकल्याण्ड द्वीप पौंड"
+
+msgid "ISO_4217.GBP"
+msgstr "पाउन्ड स्टर्लिंग"
+
+msgid "ISO_4217.GEL"
+msgstr "लारी"
+
+msgid "ISO_4217.GHS"
+msgstr "घाना सिडी"
+
+msgid "ISO_4217.GIP"
+msgstr "जिब्राल्टर पौंड"
+
+msgid "ISO_4217.GMD"
+msgstr "Dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "गिनी फ्रान्सेली"
+
+msgid "ISO_4217.GTQ"
+msgstr "Quetzal"
+
+msgid "ISO_4217.GYD"
+msgstr "गुयाना डलर"
+
+msgid "ISO_4217.HKD"
+msgstr "हङकङ डलर"
+
+msgid "ISO_4217.HNL"
+msgstr "लेम्पा"
+
+msgid "ISO_4217.HRK"
+msgstr "कुना"
+
+msgid "ISO_4217.HTG"
+msgstr "Gourde"
+
+msgid "ISO_4217.HUF"
+msgstr "फोरिन्ट"
+
+msgid "ISO_4217.IDR"
+msgstr "रुपिया"
+
+msgid "ISO_4217.ILS"
+msgstr "नयाँ इजरायली शेक्लेल"
+
+msgid "ISO_4217.INR"
+msgstr "भारतीय रुपैयाँ"
+
+msgid "ISO_4217.IQD"
+msgstr "इराकी दिनार"
+
+msgid "ISO_4217.IRR"
+msgstr "ईरानी रियाल"
+
+msgid "ISO_4217.ISK"
+msgstr "आइसल्याण्ड क्रोना"
+
+msgid "ISO_4217.JMD"
+msgstr "जमैकन डलर"
+
+msgid "ISO_4217.JOD"
+msgstr "जोर्डन दिनार"
+
+msgid "ISO_4217.JPY"
+msgstr "येन"
+
+msgid "ISO_4217.KES"
+msgstr "केन्याई शिलिंग"
+
+msgid "ISO_4217.KGS"
+msgstr "सोम"
+
+msgid "ISO_4217.KHR"
+msgstr "Riel"
+
+msgid "ISO_4217.KMF"
+msgstr "कोमोरो फ्रान्सेली"
+
+msgid "ISO_4217.KPW"
+msgstr "उत्तर कोरियाली वोन"
+
+msgid "ISO_4217.KRW"
+msgstr "वोन"
+
+msgid "ISO_4217.KWD"
+msgstr "कुवैती दिनार"
+
+msgid "ISO_4217.KYD"
+msgstr "केमैन टापु डलर"
+
+msgid "ISO_4217.KZT"
+msgstr "Tenge"
+
+msgid "ISO_4217.LAK"
+msgstr "किट"
+
+msgid "ISO_4217.LBP"
+msgstr "लेबनान पाउन्ड"
+
+msgid "ISO_4217.LKR"
+msgstr "श्रीलंका रुपैयाँ"
+
+msgid "ISO_4217.LRD"
+msgstr "लाइबेरियन डलर"
+
+msgid "ISO_4217.LSL"
+msgstr "Loti"
+
+msgid "ISO_4217.LYD"
+msgstr "लिबियाई दिनार"
+
+msgid "ISO_4217.MAD"
+msgstr "मोरक्को दिर्हाम"
+
+msgid "ISO_4217.MDL"
+msgstr "Moldovan लियू"
+
+msgid "ISO_4217.MGA"
+msgstr "मालागासी एरीरी"
+
+msgid "ISO_4217.MKD"
+msgstr "डेनार"
+
+msgid "ISO_4217.MMK"
+msgstr "क्याट"
+
+msgid "ISO_4217.MNT"
+msgstr "Tugrik"
+
+msgid "ISO_4217.MOP"
+msgstr "Pataca"
+
+msgid "ISO_4217.MRO"
+msgstr "Ouguiya"
+
+msgid "ISO_4217.MUR"
+msgstr "Mauritius Rupee"
+
+msgid "ISO_4217.MVR"
+msgstr "Rufiyaa"
+
+msgid "ISO_4217.MWK"
+msgstr "मलावी Kwacha"
+
+msgid "ISO_4217.MXN"
+msgstr "मेक्सिकन पीसो"
+
+msgid "ISO_4217.MYR"
+msgstr "मलेशियन रिंगित"
+
+msgid "ISO_4217.MZN"
+msgstr "मोजाम्बिक मेटिकल"
+
+msgid "ISO_4217.NAD"
+msgstr "नामिबिया डलर"
+
+msgid "ISO_4217.NGN"
+msgstr "Naira"
+
+msgid "ISO_4217.NIO"
+msgstr "कोर्डोबा Oro"
+
+msgid "ISO_4217.NOK"
+msgstr "नार्वेजियन क्रोन"
+
+msgid "ISO_4217.NPR"
+msgstr "नेपाली रुपैयाँ"
+
+msgid "ISO_4217.NZD"
+msgstr "न्यूजील्याण्ड डलर"
+
+msgid "ISO_4217.OMR"
+msgstr "रियाल ओमानी"
+
+msgid "ISO_4217.PAB"
+msgstr "बालबोबा"
+
+msgid "ISO_4217.PEN"
+msgstr "सोल"
+
+msgid "ISO_4217.PGK"
+msgstr "Kina"
+
+msgid "ISO_4217.PHP"
+msgstr "फिलिपीन पीसो"
+
+msgid "ISO_4217.PKR"
+msgstr "पाकिस्तान रुपैयाँ"
+
+msgid "ISO_4217.PLN"
+msgstr "Zloty"
+
+msgid "ISO_4217.PYG"
+msgstr "गुरानियन"
+
+msgid "ISO_4217.QAR"
+msgstr "कतरी रियाल"
+
+msgid "ISO_4217.RON"
+msgstr "रोमानिया लियो"
+
+msgid "ISO_4217.RSD"
+msgstr "सर्बियाई दिनार"
+
+msgid "ISO_4217.RUB"
+msgstr "रूसी रुबल"
+
+msgid "ISO_4217.RWF"
+msgstr "रुवान्डा फ्रैंक"
+
+msgid "ISO_4217.SAR"
+msgstr "सऊदी रियाल"
+
+msgid "ISO_4217.SBD"
+msgstr "सोलोमन द्वीप डलर"
+
+msgid "ISO_4217.SCR"
+msgstr "सेशल्स रुपैयाँ"
+
+msgid "ISO_4217.SDG"
+msgstr "सुडानी पाउण्ड"
+
+msgid "ISO_4217.SEK"
+msgstr "स्वीडिश क्रोना"
+
+msgid "ISO_4217.SGD"
+msgstr "सिंगापुर डलर"
+
+msgid "ISO_4217.SHP"
+msgstr "सेन्ट हेलेना पौंड"
+
+msgid "ISO_4217.SLL"
+msgstr "लियोन"
+
+msgid "ISO_4217.SOS"
+msgstr "सोमाली शिलिंग"
+
+msgid "ISO_4217.SRD"
+msgstr "सूरीम डलर"
+
+msgid "ISO_4217.SSP"
+msgstr "दक्षिण सुडान पाउन्ड"
+
+msgid "ISO_4217.STD"
+msgstr "डबरा"
+
+msgid "ISO_4217.SVC"
+msgstr "अल साल्भाडोर कलोन"
+
+msgid "ISO_4217.SYP"
+msgstr "सीरिया पाउंड"
+
+msgid "ISO_4217.SZL"
+msgstr "Lilangeni"
+
+msgid "ISO_4217.THB"
+msgstr "कुरा"
+
+msgid "ISO_4217.TJS"
+msgstr "Somoni"
+
+msgid "ISO_4217.TMT"
+msgstr "तुर्कमेनिस्तान न्यू म्यान्ट"
+
+msgid "ISO_4217.TND"
+msgstr "Tunisian दिनार"
+
+msgid "ISO_4217.TOP"
+msgstr "Pa&#39;anga"
+
+msgid "ISO_4217.TRY"
+msgstr "टर्की लिरा"
+
+msgid "ISO_4217.TTD"
+msgstr "त्रिनिदाद र टोबैगो डलर"
+
+msgid "ISO_4217.TWD"
+msgstr "नयाँ ताइवान डलर"
+
+msgid "ISO_4217.TZS"
+msgstr "तान्जानियन शिलिंग"
+
+msgid "ISO_4217.UAH"
+msgstr "रिव्निया"
+
+msgid "ISO_4217.UGX"
+msgstr "युगांडा शिलिङ"
+
+msgid "ISO_4217.USD"
+msgstr "युएस डलर"
+
+msgid "ISO_4217.UYU"
+msgstr "पीसो उरुग्वे"
+
+msgid "ISO_4217.UZS"
+msgstr "उजबेकिस्तान एसएम"
+
+msgid "ISO_4217.VEF"
+msgstr "बोलिभर"
+
+msgid "ISO_4217.VND"
+msgstr "दाङ"
+
+msgid "ISO_4217.VUV"
+msgstr "Vatu"
+
+msgid "ISO_4217.WST"
+msgstr "टाला"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA फ्रैंक BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "चांदी"
+
+msgid "ISO_4217.XAU"
+msgstr "सुन"
+
+msgid "ISO_4217.XBA"
+msgstr "बन्ड बजार इकाई यूरोपीय समग्र एकाइ (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "बन्ड बजार इकाई यूरोपीय मौद्रिक एकाइ (ईएमयू -6)"
+
+msgid "ISO_4217.XBC"
+msgstr "बन्ड बजार इकाई खाता 9 को यूरोपीय एकाइ (ईयू-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "बण्ड बजार इकाई खाता 17 को यूरोपीय एकाइ (ईयूए -17)"
+
+msgid "ISO_4217.XCD"
+msgstr "पूर्वी क्यारिबियन डलर"
+
+msgid "ISO_4217.XDR"
+msgstr "एसडीआर (विशेष आरेखण दाँया)"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA फ्रैंक BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "प्यालाडियम"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP फ्रैंक"
+
+msgid "ISO_4217.XPT"
+msgstr "प्लेटिनम"
+
+msgid "ISO_4217.XSU"
+msgstr "Sucre"
+
+msgid "ISO_4217.XTS"
+msgstr "परीक्षण उद्देश्यका लागि विशेष रूपमा राखिएको कोडहरू"
+
+msgid "ISO_4217.XUA"
+msgstr "खाताको एडीबी एकाइ"
+
+msgid "ISO_4217.XXX"
+msgstr "लेनदेनको लागि तोकिएका कोडहरू जहाँ कुनै मुद्रा समावेश छैन"
+
+msgid "ISO_4217.YER"
+msgstr "येमेनी रियाल"
+
+msgid "ISO_4217.ZAR"
+msgstr "रेंड"
+
+msgid "ISO_4217.ZMW"
+msgstr "जाम्बियन Kwacha"
+
+msgid "ISO_4217.ZWL"
+msgstr "जिम्बाब्वे डलर"
