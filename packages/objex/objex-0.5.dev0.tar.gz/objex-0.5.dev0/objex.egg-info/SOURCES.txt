@@ -1,0 +1,7 @@
+setup.py
+objex/__init__.py
+objex/core.py
+objex.egg-info/PKG-INFO
+objex.egg-info/SOURCES.txt
+objex.egg-info/dependency_links.txt
+objex.egg-info/top_level.txt
