@@ -1,0 +1,214 @@
+Metadata-Version: 2.1
+Name: braulio
+Version: 0.3.0b0
+Summary: A command line tool to handle changelogs using Git commit messages
+Home-page: https://github.com/mbarakaja/braulio
+Author: José María Domínguez Moreno
+Author-email: miso.0b11@gmail.com
+License: MIT license
+Keywords: braulio
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: Click
+
+braulio
+=======
+
+
+.. image:: https://img.shields.io/pypi/v/braulio.svg
+        :target: https://pypi.python.org/pypi/braulio
+
+.. image:: https://img.shields.io/travis/mbarakaja/braulio.svg
+        :target: https://travis-ci.org/mbarakaja/braulio
+
+.. image:: https://readthedocs.org/projects/braulio/badge/?version=latest
+        :target: https://braulio.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+Simplify software release by handling version bump and updating changelog file.
+
+Braulio inspects each commit message and determines the next version to be
+released based on a couple of conventions. Each commit message must have a label
+with metadata information about the action and optionally the scope of the code
+being introduced.
+
+
+Commit message convention
+-------------------------
+Braulio looks for commits that follow a given convention. The convention is
+defined by setting up the options ``label_pattern`` and ``label_position``, which
+are available through the CLI tool also.
+
+``label_position =``
+  The posible values are **header** or **footer** (default). This option tell to
+  Braulio where to look for metatada information.
+
+``label_pattern =``
+  This is not a regular expression, but instead is a pattern using placeholders,
+  where each placeholder represents a metadata information that should be
+  extracted from the commit message. The available placeholders are **{action}**,
+  **{scope}** and **{subject}**. ``{action}`` are always required, ``{scope}`` is
+  optional and  ``{subject}`` is required only if **label_position** is set to
+  ``header``. Everything else is treated in a literal way.
+
+
+Examples
+~~~~~~~~
+Given the next setup.cfg file:
+
+.. code-block:: ini
+
+    [braulio]
+    label_position = header
+    label_pattern = [{action}] {subject}
+
+The config above defines that the label must be localed in the header of the
+commit message and must meet the pattern ``[{action}] {subject}``. The next
+commit message header must match the pattern:
+
+.. code-block:: bash
+
+    [feat] Add music please
+
+    Ok, I am going to change it
+
+The commit matches the message convention and the extracted information is:
+
+.. code-block:: python
+
+    {
+        'action': 'feat',
+        'scope': None,
+        'subject': 'Add music please'
+    }
+
+If the label is located in the footer, ``{subject}`` must be ommited since the
+entire header will be used as the subject value.
+
+
+Custom Git tag names
+--------------------
+
++-----------------------+--------------------+-------------------------------+
+|          CLI          |      Config File   |              Default          |
++-----------------------+--------------------+-------------------------------+
+|   ``--tag--patern``   |    tag_pattern     |            v{version}         |
++-----------------------+--------------------+-------------------------------+
+
+Pattern used to get and add release git tags. This is not a regular expression,
+Instead it must have the placehold field ``version`` surrounded by curly braces.
+The placeholder determines where a version string is located in a given tag
+name. Anything that is not contained in braces is considered literal text.
+
+Example
+~~~~~~~
+
+In order to match the tag ``release-1.0.0``, ``release-3`` and ``release-35.2``,
+the pattern must be ``release-{version}``. As stated above, any time a new
+version is released, the same pattern will be used as template to generate the
+new Git tag name. The new version string will fill the ``{version}`` placeholder.
+
+
+Custom release commit message
+-----------------------------
+If the release commit is enabled, this is used for the message.
+
++---------------+-------------+-------------------------------+
+| CLI           | Config File | Default                       |
++===============+=============+===============================+
+| ``--message`` | message     | Release version {new_version} |
++---------------+-------------+-------------------------------+
+
+This is a template string containing replacement fields. The available fields
+are **{new_version**} and **{current_version}**. ``{new_version}`` is always
+mandatory, while ``{current_version}``
+
+
+Installing
+----------
+
+Install and update using pip:
+
+.. code-block:: bash
+
+    $ pip install -U braulio
+
+
+Usage
+-----
+
+.. code-block:: bash
+
+    $ brau --help
+
+
+
+* Free software: MIT license
+
+
+History
+=======
+
+0.3.0b0 (2018-08-14)
+--------------------
+
+Bug Fixes
+~~~~~~~~~
+
+* release
+
+  - Abort when a lower version is passed to --bump
+  - Stop aborting when user inputs No to confirmation prompt
+  - Ensure --bump works with versions without minor and patch parts.
+  - Validate tag_pattern value
+* git - Fix Tag's __repr__ and __str__ methods
+
+Features
+~~~~~~~~
+
+* release
+
+  - Support pre-release versions
+  - Add option to customize the commit message
+  - Add option to specify the current version
+  - Add support to custom git tag names
+  - Add support to custom commit message conventions
+* cli - Add --version option to output current version
+
+0.2.0 (2018-07-25)
+------------------
+
+Bug Fixes
+~~~~~~~~~
+
+* changelog - Fix release markup being inserted in the wrong place
+
+Features
+~~~~~~~~
+
+* release
+
+  - Show useful info while running release subcommand
+  - Add support to custom change log file names
+  - Support version string update on selected files
+* init - Add interactive config and changelog files creation
+
+0.1.0 (2018-07-13)
+------------------
+
+Features
+~~~~~~~~
+
+* release
+
+  - Add --no-commit and --no-tag options
+  - Add options for manual version bump
+
+
+
