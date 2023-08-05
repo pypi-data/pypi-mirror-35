@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: logconf
+Version: 0.1.0
+Summary: convenient python stdlib logging configuration
+Home-page: None
+Author: Andreas Lutro
+Author-email: anlutro@gmail.com
+Requires-Python: >=3.4,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
