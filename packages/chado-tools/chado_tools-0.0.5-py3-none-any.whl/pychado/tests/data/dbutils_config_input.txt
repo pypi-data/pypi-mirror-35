@@ -1,0 +1,5 @@
+myhost
+5555
+mydb
+myuser
+mypw

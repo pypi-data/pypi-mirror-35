@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: chado-tools
+Version: 0.0.5
+Summary: Tools to access CHADO databases
+Home-page: https://github.com/sanger-pathogens/chado-tools/
+Author: Christoph Puethe
+Author-email: path-help@sanger.ac.uk
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Dist: psycopg2
+Requires-Dist: pyyaml
+
+Tools to access CHADO databases. For a detailed description please visit the GitHub repository.
+
+
