@@ -1,0 +1,7 @@
+README.md
+setup.py
+requestsdefaulter/__init__.py
+requestsdefaulter.egg-info/PKG-INFO
+requestsdefaulter.egg-info/SOURCES.txt
+requestsdefaulter.egg-info/dependency_links.txt
+requestsdefaulter.egg-info/top_level.txt
