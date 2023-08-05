@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pquality/PartitionQuality.py
+pquality/__init__.py
+pquality.egg-info/PKG-INFO
+pquality.egg-info/SOURCES.txt
+pquality.egg-info/dependency_links.txt
+pquality.egg-info/requires.txt
+pquality.egg-info/top_level.txt
