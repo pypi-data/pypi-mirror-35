@@ -1,0 +1,8 @@
+django>=1.8
+
+[test]
+pytest-cov
+pytest-django
+
+[test:python_version < "3"]
+mock
