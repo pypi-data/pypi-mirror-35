@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: example-pkg-yanama
+Version: 0.0.4
+Summary: Testing the setup file to include files
+Home-page: UNKNOWN
+Author: Virtustream
+Author-email: anjaneyulu.yanamala@emc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+
+UNKNOWN
+
+
