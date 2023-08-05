@@ -1,0 +1,16 @@
+pytexit/__init__.py,sha256=fNwAfuvfsndyyrb1Ic6To_rYbHyeV6TtVXDE9DxDwdI,441
+pytexit/__version__.txt,sha256=giXQHGeBBStERbperahWKQwkLBGaPw1l2AuhZu25msw,5
+pytexit/pytexit.py,sha256=f6nSfoDoz3Uq89c8_FHiI6mscH0bqpTl3x2GZRcqDEw,5633
+pytexit/core/__init__.py,sha256=Tekns9pckRX52U34bNFykv5v8548Qa0pQt75A_Mo9uM,154
+pytexit/core/core.py,sha256=srrhm3Ya5flvOlf9A1u870DPIX5Vpehm7dyx590hToo,23484
+pytexit/core/docx.py,sha256=yLFZHubyt1t4FdygFKYIT-0Gn0XDRxlqiHM4t3UghsY,1528
+pytexit/core/fortran.py,sha256=lby6WDfbOvsyd4S4kbOw7hLd90qNdZ-LhMx4oxYfIiQ,852
+pytexit/test/__init__.py,sha256=9Mp_z5TrBhQfJrimCpQfRUvL3jpEKD3EnZaoNBja-7M,88
+pytexit/test/test_docx.py,sha256=Y4rVnafQWmQW3Uol-DGSlu0y5qyBD6WytsMFR6iJQpc,1302
+pytexit/test/test_fortran.py,sha256=80cs_rd4slvTzhFRHrqbfcREl-b5WmBegzI1ri2gGm0,907
+pytexit/test/test_functions.py,sha256=PtVelW-DfxctgAtQnFzrWsNZmWieUb1ZMMSo1FyHcQM,7168
+pytexit-0.3.2.data/scripts/py2tex,sha256=gq02FQw4hkcEDrWmbeZHJxzfP9VFzlIWKspg656x-Pg,271
+pytexit-0.3.2.dist-info/METADATA,sha256=kEG40m_V52kZIdZIQoDzdxkRQIfX-NJ_aRYizEfPWUQ,1972
+pytexit-0.3.2.dist-info/RECORD,,
+pytexit-0.3.2.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+pytexit-0.3.2.dist-info/top_level.txt,sha256=OrVKOQAaakzPzxdiyW2elMeiI5AgbdugtrDF3Mco0NU,8
