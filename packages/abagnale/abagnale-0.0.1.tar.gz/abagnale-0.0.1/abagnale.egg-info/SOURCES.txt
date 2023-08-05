@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+abagnale/__init__.py
+abagnale/__version__.py
+abagnale.egg-info/PKG-INFO
+abagnale.egg-info/SOURCES.txt
+abagnale.egg-info/dependency_links.txt
+abagnale.egg-info/requires.txt
+abagnale.egg-info/top_level.txt
