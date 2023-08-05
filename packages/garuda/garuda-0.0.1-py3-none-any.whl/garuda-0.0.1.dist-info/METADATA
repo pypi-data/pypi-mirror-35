@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: garuda
+Version: 0.0.1
+Summary: Automagically Exposing Djagno ORM over gRPC for microservices written in any other languages
+Home-page: https://github.com/dhilipsiva/garuda
+Author: dhilipsiva
+Author-email: dhilipsiva@gmail.com
+License: MIT
+Keywords: django orm grpc protobuf microservice database rpc garuda
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: django (>=2.0)
+Requires-Dist: inflect (==0.3.1)
+Requires-Dist: orm-choices (==1.0.0)
+Requires-Dist: grpcio (==1.13.0)
+Requires-Dist: grpcio-tools (==1.13.0)
+
+
+Microservices are fun. But what would make them even more fun to work with,
+ is if we can avoid duplicating the data layer across your micro-services.
+ Django ORM is amazing. Let's share the joy of Django ORM with other languages.
+ I have written a tool to automatically expose Django ORM to other languages
+ and which can also generate respective client libraries in other languages.
+ I heavily rely on Protobuf and gRPC and a lot of AST parsing.
+
+
