@@ -1,0 +1,7 @@
+README.md
+setup.py
+os_ken/__init__.py
+os_ken.egg-info/PKG-INFO
+os_ken.egg-info/SOURCES.txt
+os_ken.egg-info/dependency_links.txt
+os_ken.egg-info/top_level.txt
