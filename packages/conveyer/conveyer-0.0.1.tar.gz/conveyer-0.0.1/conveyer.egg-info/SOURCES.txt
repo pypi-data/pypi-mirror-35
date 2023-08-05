@@ -1,0 +1,8 @@
+README.md
+setup.py
+conveyer/__init__.py
+conveyer.egg-info/PKG-INFO
+conveyer.egg-info/SOURCES.txt
+conveyer.egg-info/dependency_links.txt
+conveyer.egg-info/requires.txt
+conveyer.egg-info/top_level.txt
