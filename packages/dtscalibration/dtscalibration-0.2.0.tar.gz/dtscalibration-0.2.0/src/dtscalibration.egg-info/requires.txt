@@ -1,0 +1,9 @@
+numpy
+xarray
+pyyaml
+xmltodict
+scipy
+statsmodels
+nbsphinx
+dask
+toolz
