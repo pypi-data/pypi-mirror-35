@@ -1,0 +1,4 @@
+calmjs>=3.3.1
+
+[dev]
+calmjs.dev<3,>=2.2.2
