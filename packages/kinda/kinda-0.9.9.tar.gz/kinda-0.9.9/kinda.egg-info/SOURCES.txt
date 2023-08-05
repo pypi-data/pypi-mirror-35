@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+kinda/__init__.py
+kinda/kinda.py
+kinda/shim.py
+kinda.egg-info/PKG-INFO
+kinda.egg-info/SOURCES.txt
+kinda.egg-info/dependency_links.txt
+kinda.egg-info/top_level.txt
