@@ -1,0 +1,201 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% if contains_gpx %}
+{% block css_files %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
+{% endblock %}
+{% block js_files %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script>
+    <script type="text/javascript">
+function get_duration_string(duration) {
+  var s = '';
+
+  if (duration >= _DAY_IN_MILLIS) {
+    s += Math.floor(duration / _DAY_IN_MILLIS) + ' jours';
+  }
+
+  if (duration >= _HOUR_IN_MILLIS) {
+    s += Math.floor(duration / _HOUR_IN_MILLIS) + 'h';
+    duration = duration % _HOUR_IN_MILLIS
+  }
+
+  var mins = Math.floor(duration / _MINUTE_IN_MILLIS);
+  duration = duration % _MINUTE_IN_MILLIS;
+  if (mins < 10) s+= '0';
+  s += mins + 'm';
+
+  var secs = Math.floor(duration / _SECOND_IN_MILLIS);
+  if (secs < 10) s += '0';
+  s += secs + 's';
+
+  return s;
+}
+
+function display_gpx(elt) {
+  if (!elt) return;
+
+  var url = elt.getAttribute('data-gpx-source');
+  var mapid = elt.getAttribute('data-map-target');
+  if (!url || !mapid) return;
+
+  function _t(t) { return elt.getElementsByTagName(t)[0]; }
+  function _c(c) { return elt.getElementsByClassName(c)[0]; }
+
+  var map = L.map(mapid);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://www.osm.org">OpenStreetMap</a>'
+  }).addTo(map);
+
+  var startIcon = L.icon({
+    iconUrl: '{% static 'icons/flag_flyaway_green.png' %}',
+    iconSize:     [32, 32],
+    iconAnchor:   [5, 31]
+  });
+
+  var endIcon = L.icon({
+    iconUrl: '{% static 'icons/flag_finish.png' %}',
+    iconSize:     [32, 32],
+    iconAnchor:   [5, 31]
+  });
+
+  var wptIcon = L.icon({
+    iconUrl: '{% static 'icons/flag_flyaway_pointed.png' %}',
+    iconSize:     [32, 32],
+    iconAnchor:   [5, 31]
+  });
+
+  new L.GPX(url, {
+    async: true,
+    marker_options: {
+      startIconUrl: '',
+      endIconUrl: '',
+      shadowUrl: ''
+    },
+  }).on('loaded', function(e) {
+    var gpx = e.target;
+    map.fitBounds(gpx.getBounds());
+
+    _t('h3').textContent = gpx.get_name();
+    _c('start').textContent = gpx.get_start_time().toLocaleString();
+    _c('distance').textContent = gpx.m_to_km(gpx.get_distance()).toFixed(2);
+    _c('duration').textContent = get_duration_string(gpx.get_moving_time());
+    _c('average-speed').textContent = gpx.get_moving_speed().toFixed(0);
+    _c('elevation-gain').textContent = gpx.get_elevation_gain().toFixed(0);
+    _c('elevation-loss').textContent = gpx.get_elevation_loss().toFixed(0);
+    _c('elevation-net').textContent  = (gpx.get_elevation_gain() - gpx.get_elevation_loss()).toFixed(0);
+    var stop_time = gpx.get_total_time() - gpx.get_moving_time();
+    _c('stop-duration').textContent = get_duration_string(gpx.get_total_time() - gpx.get_moving_time());
+  }).addTo(map);
+}
+    </script>
+{% endblock %}
+{% endif %}
+
+{% block title %}
+{% if breadcrumb %}
+<div class="container-fluid my-4">
+    <nav aria-labelledby="" role="navigation">
+        <ol class="breadcrumb">
+            {% for bc in breadcrumb %}
+            <li class="breadcrumb-item">
+                <a href="{% url 'blog:content' bc.url %}">
+                {{ bc.title }}
+                </a>
+            </li>
+            {% endfor %}
+            <li class="breadcrumb-item active" aria-current="page">
+                {{ content.title }}
+            </li>
+        </ol>
+    </nav>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+{% if content %}
+
+<div class="card blog">
+
+    <div class="card-header blog-header">
+        <h1>{{ content.title }}</h1>
+
+        {% if not content.children %}
+        <small>
+            {{ content.date|date:"d M Y"|lower }}
+        </small>
+        {% endif %}
+    </div>
+
+    <div class="card-body">
+
+        {% if content.content %}
+        <div class="card-text blog-content">
+            {{ content.content|safe }}
+        </div>
+        {% endif %}
+
+        {% if content.children %}
+
+        <ul class="list-group">
+            {% for child in content.children %}
+
+            <li class="list-group-item">
+                <a href="{% url 'blog:content' child.url %}">
+                    <div class="d-flex justify-content-between align-items-center">
+
+                        <span>
+                            {% if child.icon %}
+                            {% with 'icons/'|add:child.icon|add:'.png' as icon %}
+                            <img src="{% static icon %}" alt="icon" class="icone-16">
+                            {% endwith %}
+                            {% endif %}
+
+                            <strong>
+                                {{ child.title }}
+                            </strong>
+                        </span>
+                        <span class="badge badge-info">
+                            {{ child.date|date:" d/m/Y" }}
+                        </span>
+                    </div>
+                </a>
+            </li>
+
+            {% endfor %}
+        </ul>
+
+        {% endif %}
+
+    </div>
+
+    {% if previous_content or next_content %}
+    <div class="card-footer">
+        <div class="row justify-content-between">
+
+        <div class="col">
+            {% if previous_content %}
+            <a href="{% url 'blog:content' previous_content.url %}">
+                {{ previous_content.title }}
+            </a>
+            {% endif %}
+        </div>
+
+        <div class="col text-right">
+            {% if next_content %}
+            <a href="{% url 'blog:content' next_content.url %}">
+            {{ next_content.title }}
+            </a>
+            {% endif %}
+        </div>
+
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+
+{% endif %}
+{% endblock %}

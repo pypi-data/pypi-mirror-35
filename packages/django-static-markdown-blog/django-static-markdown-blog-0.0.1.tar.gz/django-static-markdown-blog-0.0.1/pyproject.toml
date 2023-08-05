@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-static-markdown-blog"
+version = "0.0.1"
+description = "Django application to create a blog based on local Markdown files"
+authors = ["Aloha68 <dev@aloha.im>"]
+license = "ISC"
+
+[tool.poetry.dependencies]
+python = "^3.4"
+django = "2.0.6"
+libaloha = "^0"
+markdown = "^2.6"
+beautifulsoup4 = "^4.6"
+redis = "^2.10"
+
+[tool.poetry.dev-dependencies]
