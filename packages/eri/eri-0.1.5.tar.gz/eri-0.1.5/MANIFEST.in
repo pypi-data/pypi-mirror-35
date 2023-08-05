@@ -1,0 +1,11 @@
+# Include the license file
+include LICENSE.txt
+
+# Include the config files
+recursive-include eri/config/ *
+
+# include the logging config file
+include eri/logging/default.yaml
+
+# include the corona png file
+include img/corona_small_51x62_transparent.png
