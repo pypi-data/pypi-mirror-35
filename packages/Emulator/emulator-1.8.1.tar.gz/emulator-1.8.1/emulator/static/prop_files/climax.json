@@ -1,0 +1,439 @@
+{
+	"val": {
+		"product_name": "Climax - Smoke Detector - SDCO - 1 battery , secure",
+		"power_source": "battery",
+		"prop_set": {
+			"nif_0": {
+				"zw_supported_cc": [
+					32,
+					94,
+					85,
+					159,
+					104,
+					35,
+					134,
+					133,
+					92,
+					142,
+					89,
+					114,
+					90,
+					115,
+					128,
+					113,
+					49,
+					43,
+					108,
+					122
+				],
+				"zw_installer_icon": "0",
+				"zw_node_type": "0",
+				"zw_role_type": "7",
+				"zw_plus_version": "1",
+				"zw_generic_dev_class": "7",
+				"zw_specific_dev_class": "1"
+			}
+		},
+		"tech_specific_props": {
+			"zw_product_id": "19",
+			"zw_sleep_capable": "0",
+			"zw_protocol_ver": "1537",
+			"zw_lib_type": "3",
+			"zw_product_type": "3"
+		},
+		"comm_tech": "zw",
+		"services": [{
+				"groups": [
+					"ch_0"
+				],
+				"enabled": true,
+				"name": "basic",
+				"location": "",
+				"prop_set_ref": "nif_0",
+				"address": "/rt:dev/rn:zw/ad:1/sv:basic/ad:50_0",
+				"interfaces": [{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "int",
+						"msg_t": "evt.lvl.report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "int",
+						"msg_t": "cmd.lvl.set"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "null",
+						"msg_t": "cmd.lvl.get_report"
+					}
+				],
+				"props": {
+					"is_secure": true,
+					"is_unsecure": true
+				}
+			},
+			{
+				"groups": [
+					"ch_0"
+				],
+				"enabled": "true",
+				"name": "dev_sys",
+				"location": "",
+				"prop_set_ref": "nif_0",
+				"address": "/rt:dev/rn:zw/ad:1/sv:dev_sys/ad:50_0",
+				"interfaces": [{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "object",
+						"msg_t": "evt.group.members_report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "object",
+						"msg_t": "cmd.group.add_members"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "object",
+						"msg_t": "cmd.group.delete_members"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "string",
+						"msg_t": "cmd.group.get_members"
+					},
+					{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "str_map",
+						"msg_t": "evt.ping.report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "string",
+						"msg_t": "cmd.ping.send"
+					}
+				],
+				"props": {
+					"is_secure": true,
+					"is_unsecure": false
+				}
+			},
+			{
+				"groups": [
+					"ch_0"
+				],
+				"enabled": true,
+				"name": "battery",
+				"location": "",
+				"prop_ref_set": "nif_0",
+				"address": "/rt:dev/rn:zw/ad:1/sv:battery/ad:50_0",
+				"interfaces": [{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "int",
+						"msg_t": "evt.lvl.report"
+					},
+					{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "str_map",
+						"msg_t": "evt.alarm.report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "null",
+						"msg_t": "cmd.lvl.get_report"
+					}
+				],
+				"props": {
+					"is_secure": true,
+					"is_unsecure": false
+				}
+			},
+			{
+				"groups": [
+					"ch_0"
+				],
+				"enabled": true,
+				"name": "alarm_fire",
+				"location": "",
+				"prop_ref_set": "nif_0",
+				"address": "/rt:dev/rn:zw/ad:1/sv:alarm_fire/ad:50_0",
+				"interfaces": [{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "str_map",
+						"msg_t": "evt.alarm.report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "string",
+						"msg_t": "cmd.alarm.get_report"
+					}
+				],
+				"props": {
+					"is_secure": true,
+					"sup_events": [
+						"smoke",
+						"smoke_test"
+					],
+					"is_unsecure": false
+				}
+			},
+			{
+				"groups": [
+					"ch_0"
+				],
+				"enabled": true,
+				"name": "alarm_gas",
+				"location": "",
+				"prop_ref_set": "nif_0",
+				"address": "/rt:dev/rn:zw/ad:1/sv:alarm_gas/ad:50_0",
+				"interfaces": [{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "str_map",
+						"msg_t": "evt.alarm.report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "string",
+						"msg_t": "cmd.alarm.get_report"
+					}
+				],
+				"props": {
+					"is_secure": true,
+					"sup_events": [
+						"CO"
+					],
+					"is_unsecure": false
+				}
+			},
+			{
+				"groups": [
+					"ch_0"
+				],
+				"enabled": true,
+				"name": "alarm_heat",
+				"location": "",
+				"prop_ref_set": "nif_0",
+				"address": "/rt:dev/rn:zw/ad:1/sv:alarm_heat/ad:50_0",
+				"interfaces": [{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "str_map",
+						"msg_t": "evt.alarm.report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "string",
+						"msg_t": "cmd.alarm.get_report"
+					}
+				],
+				"props": {
+					"is_secure": true,
+					"sup_events": [
+						"overheat"
+					],
+					"is_unsecure": false
+				}
+			},
+			{
+				"groups": [
+					"ch_0"
+				],
+				"enabled": true,
+				"name": "alarm_burglar",
+				"location": "",
+				"prop_ref_set": "nif_0",
+				"address": "/rt:dev/rn:zw/ad:1/sv:alarm_burglar/ad:50_0",
+				"interfaces": [{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "str_map",
+						"msg_t": "evt.alarm.report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "string",
+						"msg_t": "cmd.alarm.get_report"
+					}
+				],
+				"props": {
+					"is_secure": true,
+					"sup_events": [
+						"temper_removed_cover"
+					],
+					"is_unsecure": false
+				}
+			},
+			{
+				"groups": [
+					"ch_0"
+				],
+				"enabled": true,
+				"name": "scene_ctrl",
+				"location": "",
+				"prop_ref_set": "nif_0",
+				"address": "/rt:dev/rn:zw/ad:1/sv:scene_ctrl/ad:50_0",
+				"interfaces": [{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "string",
+						"msg_t": "evt.scene.report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "null",
+						"msg_t": "cmd.scene.get_report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "string",
+						"msg_t": "cmd.scene.set"
+					}
+				],
+				"props": {
+					"is_secure": true,
+					"sup_scenes": null,
+					"is_unsecure": false
+				}
+			},
+			{
+				"groups": [
+					"ch_0"
+				],
+				"enabled": true,
+				"name": "sensor_temp",
+				"location": "",
+				"address": "/rt:dev/rn:zw/ad:1/sv:sensor_temp/ad:50_0",
+				"interfaces": [{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "float",
+						"msg_t": "evt.sensor.report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "string",
+						"msg_t": "cmd.sensor.get_report"
+					}
+				],
+				"props": {
+					"is_secure": true,
+					"sup_units": [
+						"C"
+					],
+					"is_unsecure": false
+				}
+			},
+			{
+				"groups": [
+					"ch_0"
+				],
+				"enabled": true,
+				"name": "sensor_humid",
+				"location": "",
+				"address": "/rt:dev/rn:zw/ad:1/sv:sensor_humid/ad:50_0",
+				"interfaces": [{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "float",
+						"msg_t": "evt.sensor.report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "string",
+						"msg_t": "cmd.sensor.get_report"
+					}
+				],
+				"props": {
+					"is_secure": true,
+					"sup_units": [
+						"%"
+					],
+					"is_unsecure": false
+				}
+			},
+			{
+				"groups": [
+					"ch_1"
+				],
+				"enabled": true,
+				"name": "siren_ctrl",
+				"location": "",
+				"address": "/rt:dev/rn:zw/ad:1/sv:siren_ctrl/ad:50_0",
+				"interfaces": [{
+						"intf_t": "out",
+						"ver": "1",
+						"val_t": "bool",
+						"msg_t": "evt.mode.report"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "string",
+						"msg_t": "cmd.mode.set"
+					},
+					{
+						"intf_t": "in",
+						"ver": "1",
+						"val_t": "null",
+						"msg_t": "cmd.mode.get_report"
+					}
+				],
+				"props": {
+					"is_secure": true,
+					"sup_modes": [
+						"on",
+						"off",
+						"heat",
+						"smoke",
+						"co"
+					],
+					"is_unsecure": false
+				}
+			}
+		],
+		"category": "UNKNOWN ",
+		"address": "50",
+		"groups": [
+			"ch_0"
+		],
+		"product_hash": "zw_398_3_19",
+		"sw_ver": "1025",
+		"hw_ver": "1",
+		"security": "secure_S2",
+		"manufacturer_id": "398",
+		"device_id": "2550000000",
+		"is_sensor": "1",
+		"product_id": "3_19",
+		"wakeup_interval": "-1"
+	},
+	"serv": "zwave-ad",
+	"ctime": "0001-01-01T00:00:00Z",
+	"tags": null,
+	"ver": "",
+	"type": "evt.thing.inclusion_report",
+	"uid": "",
+	"corid": "",
+	"val_t": "object",
+	"props": {}
+}

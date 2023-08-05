@@ -1,0 +1,5 @@
+include emulator/static/prop_files/*.json
+include emulator/templates/*.html
+include emulator/static/*.js
+include emulator/static/*.css
+include emulator/static/images/*.png
