@@ -1,0 +1,7 @@
+aioh2>=0.2.1
+aiohttp>=2.3.0
+dnspython
+aiohttp_remotes>=0.1.2
+
+[integration_tests]
+colour-runner
