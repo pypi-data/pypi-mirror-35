@@ -1,0 +1,1 @@
+{"name": "VL53L1X", "metadata_version": "2.0", "generator": "bdist_wheel (0.24.0)", "summary": "vl53l1x distance sensor driver for Raspberry Pi", "version": "0.0.2", "extensions": {"python.details": {"project_urls": {"Home": "https://github.com/pimoroni/vl53l1x-python"}, "document_names": {"description": "DESCRIPTION.rst"}}}, "requires": "smbus2"}
