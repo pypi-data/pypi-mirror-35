@@ -1,0 +1,13 @@
+sidecar/__init__.py,sha256=8hU3kC8RWt1IV0me5_mN3-iLV60OO7eYCpKzczH4YWY,209
+sidecar/_version.py,sha256=J0TcK2SrLXf9XQw4W2GsapXCkWMw9UIwdy6Xr7_qN-8,484
+sidecar/sidecar.py,sha256=EZ-5LY59BuBwWYLNxQd6PGdmhbThi7zS0qXJnIXseGI,769
+sidecar/labextension/jupyter-widgets-jupyterlab-sidecar-0.3.0.tgz,sha256=nq_5OiVB4bTVu-4VqkfGJ5kf6tCRnEk_aFk2afJnAtU,6519270
+sidecar/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sidecar/tests/conftest.py,sha256=W4QWzxAU5E3pKUHBaINEelXK8njzURyy3SDTNXel51g,1413
+sidecar/tests/test_example.py,sha256=reCxjBdHSVGhOUB78EkBMysItWeaVEDskW0Ebhv2hbs,280
+sidecar-0.2.0.data/data/share/jupyter/lab/extensions/jupyter-widgets-jupyterlab-sidecar-0.3.0.tgz,sha256=nq_5OiVB4bTVu-4VqkfGJ5kf6tCRnEk_aFk2afJnAtU,6519270
+sidecar-0.2.0.dist-info/LICENSE.txt,sha256=tAOz8H86H857PO6d36YkJDoMrKkDWTFJ1txzrc-zRC8,1515
+sidecar-0.2.0.dist-info/METADATA,sha256=8HPN28-FGKHh69Sl1BlbBpSCSpM7gI6BAKu9vkI8neI,1422
+sidecar-0.2.0.dist-info/RECORD,,
+sidecar-0.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+sidecar-0.2.0.dist-info/top_level.txt,sha256=UeSpF04SG1AMNIl7-0aa3Zq_fEcx8_LQ8_Z9mgUwU1A,8
