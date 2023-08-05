@@ -1,0 +1,13 @@
+logwrap-5.0.1.dist-info/WHEEL,sha256=5uJgXrzESlz5BEVUtG_qT5iZkFr_xW73vqby14S5SqE,107
+logwrap-5.0.1.dist-info/top_level.txt,sha256=7q47MQq8ZedycLFMKaloOJ1NjkeTpxqwcdtYqVXduwM,8
+logwrap-5.0.1.dist-info/METADATA,sha256=Y6V108E50gg1F7fNvcy7dQIzDY_GJXqZWFU-O3HA25Y,10142
+logwrap-5.0.1.dist-info/RECORD,,
+logwrap/_repr_utils.cpython-35m-i386-linux-gnu.so,sha256=Blnnd1Tr4TedbTpbVL1Sx529hfVKByZpCfbwWRMGbGk,927705
+logwrap/__init__.py,sha256=RWaJV1UnWaTQSi-cWx39HMqLJdfxo4fbHnEFHSIubLg,1709
+logwrap/_log_wrap.py,sha256=NUKPnCDbVHuhZXedw7RLEe5veN3nijAd6hQy1JYsSkI,26860
+logwrap/__init__.cpython-35m-i386-linux-gnu.so,sha256=lf6qLJPsxsJbT2Ny2Xtgn6I5KpKzN1q7kEKd_NL3TCk,54505
+logwrap/_log_wrap.cpython-35m-i386-linux-gnu.so,sha256=UqF0AQ7qvuA6w3UPsmSGduS14iA5v4IVqunXUxhsx7c,1020027
+logwrap/_class_decorator.py,sha256=5gOMh7SnnUg7Uop4vThsdvMLVLsq2bUzWuBdER-k-lo,3987
+logwrap/_repr_utils.py,sha256=9mEFrH0FkVVg6cRuU7hfC0qtxZQaXA_zTAEF_y2iooA,22659
+logwrap/_class_decorator.cpython-35m-i386-linux-gnu.so,sha256=TNiB1LqAy9-JH4n6b5hnpHtcaZPWMr5S8az8TuXqkGo,197063
+logwrap/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
