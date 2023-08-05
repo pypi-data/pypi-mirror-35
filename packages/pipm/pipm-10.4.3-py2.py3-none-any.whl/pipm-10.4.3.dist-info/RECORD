@@ -1,0 +1,11 @@
+pipm/__init__.py,sha256=k2z9hDS-G6hsWH5myqjwPgHQye-DNX_Q1JfdXKEBD64,829
+pipm/__main__.py,sha256=BQxH4whb56C_Vv33xE1A150dl2Vl8BY98iaEg-KZGa8,125
+pipm/commands.py,sha256=PEOvYWWKwfrWVvqxX549JvbzsPXeciO1VndbUN7I-1Y,6791
+pipm/file.py,sha256=o4tvBrz1dviPXI4Fq1s2V0SCiAzCdlSDPbCxoU50Kj0,7999
+pipm/operations.py,sha256=NUdDgFCwImbLYvICj-r4f7gbLr2v7Ges3l-IlbLXO3Y,2401
+pipm/setup_cfg.py,sha256=KGBGLMsDAplsF9xLzzobYWz7V5kIeI-DbcyhLeoI3s0,2690
+pipm-10.4.3.dist-info/entry_points.txt,sha256=w3AjnEs0XuMyxnoVM-DaVpD-yiOYaPBgR0ak53hEgWY,34
+pipm-10.4.3.dist-info/LICENSE,sha256=giof9pKe9nASEKng13ANaRRLRV5zGHvxhWcAEKNPJyI,1096
+pipm-10.4.3.dist-info/WHEEL,sha256=iHNYzPUVYRtgtTQ6cDC8dDHik6tPtlP28oe-A5gfgbQ,88
+pipm-10.4.3.dist-info/METADATA,sha256=BPHEBX2VINwjWNAoOd1LbYS5ndwZXHzAoOMe6TiTAUA,5750
+pipm-10.4.3.dist-info/RECORD,,
