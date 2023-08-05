@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: emailcli
+Version: 0.1
+Summary: A email client in terminal
+Home-page: https://github.com/gucci/emailcli
+Author: GUCCI
+Author-email: guqi1986@126.com
+License: BSD License
+Description: UNKNOWN
+Platform: all

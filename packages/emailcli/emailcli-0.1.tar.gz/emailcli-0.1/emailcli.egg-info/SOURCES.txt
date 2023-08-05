@@ -1,0 +1,8 @@
+README.rst
+setup.py
+emailcli.egg-info/PKG-INFO
+emailcli.egg-info/SOURCES.txt
+emailcli.egg-info/dependency_links.txt
+emailcli.egg-info/entry_points.txt
+emailcli.egg-info/requires.txt
+emailcli.egg-info/top_level.txt
