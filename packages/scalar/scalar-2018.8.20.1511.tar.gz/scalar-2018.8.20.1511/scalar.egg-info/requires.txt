@@ -1,0 +1,3 @@
+docopt
+matrix_client
+technicolor

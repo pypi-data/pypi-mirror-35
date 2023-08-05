@@ -1,0 +1,59 @@
+Metadata-Version: 1.2
+Name: scalar
+Version: 2018.8.20.1511
+Summary: Python Matrix library
+Home-page: https://github.com/wdbm/scalar
+Author: Will Breaden Madden
+Author-email: wbm@protonmail.ch
+License: GPLv3
+Description: scalar
+        ======
+        
+        Python Matrix library
+        
+        setup
+        =====
+        
+        .. code:: bash
+        
+            pip install scalar
+        
+        Create a configuration.
+        
+        .. code:: bash
+        
+            mkdir -p ~/.config/scalar
+            touch ~/.config/scalar/config.yaml
+        
+        The configuration file contents should be like the following:
+        
+        .. code:: yaml
+        
+            {
+                "homeserver": "https://matrix.example.pro:8448",
+                "username"  : "scriptwire",
+                "passcode"  : "qo3i4tbc35wgtt4gbwikgvtib3ctgt7bgi3rgw",
+                "room_alias": "!cgOnMzaBWCLjBnhGiB:matrix.example.org"
+            }
+        
+        The room must be one to which the account has been invited.
+        
+        alert
+        =====
+        
+        An alert message can be sent on the terminal, in a way like the
+        following:
+        
+        .. code:: bash
+        
+            scalar_alert --message="This is an alert message."
+        
+        An alert message can be send in Python, in a way like the following:
+        
+        .. code:: python
+        
+            import scalar
+            scalar.alert(message="alert")
+        
+Platform: UNKNOWN
+Requires-Python: >=3
