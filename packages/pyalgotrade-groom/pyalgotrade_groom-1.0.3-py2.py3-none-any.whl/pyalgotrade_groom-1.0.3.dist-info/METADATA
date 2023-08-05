@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyalgotrade-groom
+Version: 1.0.3
+Summary: pyalgotrade for python3
+Home-page: https://github.com/groom-zhang/pyalgotrade-groom
+Author: Groom
+Author-email: earthworm6@163.com
+License: MIT Licence
+Keywords: pip,pyalgotrade-groom,pyalgotrade,python3
+Platform: any
+Requires-Dist: numpy
+
+pyalgotrade Modfiy for python3
+
+
