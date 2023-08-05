@@ -1,0 +1,3 @@
+[console_scripts]
+dirstate = dirstate.bin:run
+

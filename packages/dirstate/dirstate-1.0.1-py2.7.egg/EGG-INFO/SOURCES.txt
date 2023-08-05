@@ -1,0 +1,12 @@
+README.md
+setup.py
+dirstate/__init__.py
+dirstate/bin.py
+dirstate/constants.py
+dirstate/state.py
+dirstate/utils.py
+dirstate.egg-info/PKG-INFO
+dirstate.egg-info/SOURCES.txt
+dirstate.egg-info/dependency_links.txt
+dirstate.egg-info/entry_points.txt
+dirstate.egg-info/top_level.txt
