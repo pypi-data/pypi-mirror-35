@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: robotframework-excellentlibrary
+Version: 0.8.4
+Summary: A really useful Robot Framework library for working with Excel 2010 (and above) files.
+Home-page: https://github.com/bartkl/robotframework-excellentlibrary
+Author: Bart Kleijngeld
+Author-email: bartkl@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=2.7
