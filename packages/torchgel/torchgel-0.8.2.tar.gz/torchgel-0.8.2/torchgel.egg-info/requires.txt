@@ -1,0 +1,13 @@
+tqdm>=4.0
+
+[dev]
+black
+pylint
+isort
+twine
+wheel
+
+[test]
+numpy
+cvxpy<1.0,>=0.4
+cvxopt
