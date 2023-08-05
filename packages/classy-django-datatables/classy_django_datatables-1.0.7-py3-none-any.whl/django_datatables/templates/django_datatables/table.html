@@ -1,0 +1,47 @@
+<script>
+// jQueryless
+document.addEventListener("DOMContentLoaded", function(event) {
+    dt_config = {{datatable.datatable_config}};
+    dt_config["ajax"] = {
+        "url": '{% url 'django_datatables:datatable_manager' %}?module={{module}}&name={{name}}',
+        "data": function(data){
+            for (var i = 0, len = data.columns.length; i < len; i++) {
+                if (! data.columns[i].search.value) delete data.columns[i].search;
+                if (data.columns[i].searchable === true) delete data.columns[i].searchable;
+                if (data.columns[i].orderable === true) delete data.columns[i].orderable;
+                if (data.columns[i].data === data.columns[i].name) delete data.columns[i].name;
+              }
+              delete data.search.regex;
+
+            data.additional_data = $("form.datatable-form").serialize();
+        }
+    }
+    datatable = $('.datatable').DataTable(
+        dt_config
+    );
+    $(".datatable-form input[type=checkbox]").attr('value', 1)
+    $("form.datatable-form").submit(function(){
+        datatable.ajax.reload();
+        return false;
+
+    })
+
+});
+</script>
+
+{% if can_export_to_excel %}
+    <p class='text-right'>
+    <a href="{% url 'django_datatables:datatable_manager' %}?module={{module}}&name={{name}}&export=excel"><i class="fa fa-file-excel-o"></i> Excel</a>
+    </p>
+{% endif %}
+
+
+<table class="table table-striped datatable" style="border-collapse: collapse !important; width:100%;"
+    data-server-side='true'
+    >
+    <thead>
+    {% for column_title in datatable.get_column_titles %}
+        <th>{{column_title}}</th>
+    {% endfor %}
+    </thead>
+</table>
