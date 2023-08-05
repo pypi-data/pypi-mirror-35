@@ -1,0 +1,26 @@
+Metadata-Version: 1.0
+Name: timetravel10_hash
+Version: 1.0.1
+Summary: Bindings for proof of work used by timetravel10
+Home-page: https://github.com/kimkkikki/timetravel10_hash
+Author: kimkkikki
+Author-email: kimkkikki1@gmail.com
+License: UNKNOWN
+Description: # timetravel10_hash
+        Python module for the timetravel10 hash function
+        
+        ## Prerequisites
+        
+        ```
+        sudo apt-get install python-dev
+        ```
+        
+        ## Installation
+        
+        To install this module, clone this repository and run:
+        
+        ```
+        python setup.py install
+        ```
+        
+Platform: UNKNOWN
