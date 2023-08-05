@@ -1,0 +1,4 @@
+---
+# https://serverfault.com/questions/881517/why-disable-swap-on-kubernetes
+- name: Disable swap
+  command: swapoff -a
