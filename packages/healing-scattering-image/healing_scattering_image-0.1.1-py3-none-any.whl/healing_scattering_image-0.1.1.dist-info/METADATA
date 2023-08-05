@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: healing-scattering-image
+Version: 0.1.1
+Summary: judge the structrual symmetry and heal the defects  within scattering image
+Home-page: https://github.com/ligerliu/healing_scattering_image
+Author: jiliang
+Author-email: ligerliu@gmail.com
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Requires-Dist: matplotlib
+
+===============================
+healing_scattering_image
+===============================
+
+.. image:: https://img.shields.io/travis/ligerliu/healing_scattering_image.svg
+        :target: https://travis-ci.org/ligerliu/healing_scattering_image
+
+.. image:: https://img.shields.io/pypi/v/healing_scattering_image.svg
+        :target: https://pypi.python.org/pypi/healing_scattering_image
+
+
+judge the structrual symmetry and heal the defects  within scattering image
+
+* Free software: 3-clause BSD license
+* Documentation: (COMING SOON!) https://ligerliu.github.io/healing_scattering_image.
+
+Features
+--------
+
+* TODO
+
+
