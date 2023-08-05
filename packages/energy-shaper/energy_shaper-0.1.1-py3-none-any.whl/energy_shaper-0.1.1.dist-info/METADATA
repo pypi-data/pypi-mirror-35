@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: energy-shaper
+Version: 0.1.1
+Summary: Split and group energy billing data to analyse usage and aplpy load profiles
+Home-page: https://github.com/aguinane/EnergyShaper
+Author: aguinane
+Author-email: alexguinane@gmail.com
+License: MIT
+
+# EnergyShaper
+
+

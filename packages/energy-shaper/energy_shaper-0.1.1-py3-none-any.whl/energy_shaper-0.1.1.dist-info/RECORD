@@ -1,0 +1,10 @@
+energy_shaper/__init__.py,sha256=THe06sLmJ7shkt9IkmyF4TRBNSK1BjP-HSSg96a-0Zc,871
+energy_shaper/demand_periods.py,sha256=iXmVBneaG-PWpY1vWH09HIBZ8n1oNOeULgixPlJZVWI,2490
+energy_shaper/grouper.py,sha256=pfCrZGVJRQbywHVitQCRwYVIZan03oYvSQChJS37Pp8,5645
+energy_shaper/models.py,sha256=-M6GC3wFy6hVk24XtlqJIA5wvSfmMIHGagqPzsDlCF4,698
+energy_shaper/splitter.py,sha256=ZeWoSeuj8NE8eFIxwE7h1sHI8JreYLyuj20zGE7lMxU,5674
+energy_shaper-0.1.1.dist-info/LICENSE.txt,sha256=qOIbe8UIzxtGJgUFIQNEf5HAFVKKBXE7HZvQToDpt7U,1090
+energy_shaper-0.1.1.dist-info/METADATA,sha256=yM32GjUDWLSsijR6HY2Rda6Un5LOiKUui_2MHwmm4fg,279
+energy_shaper-0.1.1.dist-info/RECORD,,
+energy_shaper-0.1.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+energy_shaper-0.1.1.dist-info/top_level.txt,sha256=z4wTUd6fLe16Ikp7sjHkH5vATscWtGrpNR4aRBTsUJU,14
