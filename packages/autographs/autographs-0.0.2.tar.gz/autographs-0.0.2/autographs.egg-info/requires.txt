@@ -1,0 +1,4 @@
+numpy
+pysal
+matplotlib
+geopandas
