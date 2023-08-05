@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: optimuspyspark
+Version: 2.0.0
+Summary: Optimus is the missing framework for cleaning and pre-processing data in a distributed fashion with pyspark.
+Home-page: https://github.com/ironmussa/Optimus/
+Author: Favio Vazquez amd Argenis Leon
+Author-email: favio.vazquez@ironmussa.com
+License: APACHE
+Download-URL: https://github.com/ironmussa/Optimus/archive/2.0.0.tar.gz
+Description: Optimus is the missing framework to profile, clean, process and do ML in a distributed fashion using Apache Spark (PySpark).
+        
+        - Requirements:
+        
+        * Apache Spark>=2.3.0
+        * Python>=3.6
+        
+        - Installation:
+        
+        In your terminal just type:
+        
+        $ pip install optimuspyspark
+        
+        - Contributors:
+        
+        * Core Team: Argenis León and Favio Vázquez.
+        
+        - License:
+        
+        Apache 2.0 © Iron
+Keywords: datacleaner,apachespark,spark,pyspark,data-wrangling,data-cleansing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: test
+Provides-Extra: all
+Provides-Extra: lint
+Provides-Extra: docs
