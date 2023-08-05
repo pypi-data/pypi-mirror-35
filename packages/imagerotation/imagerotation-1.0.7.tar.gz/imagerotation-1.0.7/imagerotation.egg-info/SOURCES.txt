@@ -1,0 +1,5 @@
+setup.py
+imagerotation.egg-info/PKG-INFO
+imagerotation.egg-info/SOURCES.txt
+imagerotation.egg-info/dependency_links.txt
+imagerotation.egg-info/top_level.txt
