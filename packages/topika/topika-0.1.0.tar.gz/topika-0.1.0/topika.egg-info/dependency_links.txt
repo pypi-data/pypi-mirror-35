@@ -1,0 +1,1 @@
+https://github.com/pika/pika/archive/c00648bf40635c8e8032814f30d2488df44961ec.zip#egg=pika-1.0.0b1

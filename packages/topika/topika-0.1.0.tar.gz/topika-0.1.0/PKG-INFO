@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: topika
+Version: 0.1.0
+Summary: A python remote communications library
+Home-page: https://github.com/muhrin/topika.git
+Author: Martin Uhrin
+Author-email: martin.uhrin@gmail.com
+License: Apache v2, see LICENSE file
+Description: 
+        
+        topika
+        ======
+        
+        
+        Installation
+        ------------
+        
+        .. code-block:: shell
+        
+            pip install topika
+        
+        
+        
+Keywords: communication messaging rpc broadcast
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Provides-Extra: dev
