@@ -1,0 +1,3 @@
+[console_scripts]
+bpl-cli = bpl_client.__main__:main
+
