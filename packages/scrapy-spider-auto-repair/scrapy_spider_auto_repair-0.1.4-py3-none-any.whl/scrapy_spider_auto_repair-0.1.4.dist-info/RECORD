@@ -1,0 +1,9 @@
+scrapy_spider_auto_repair-0.1.4.dist-info/METADATA,sha256=fMYvWQ742lB9SZQP2-enp_kFtBTOiVz0_Oq0xKFLP88,1289
+scrapy_spider_auto_repair-0.1.4.dist-info/RECORD,,
+scrapy_spider_auto_repair-0.1.4.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+scrapy_spider_auto_repair-0.1.4.dist-info/top_level.txt,sha256=AobsH6YaeieD6BL2ycrWySUSyeSsFGQGKy-qo3Zj4mc,19
+spider_auto_repair/Data Extractor.py,sha256=ZT_A2sb55BuJTU8ivttknF34ETsV4euGXx8lzjScylA,3156
+spider_auto_repair/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spider_auto_repair/auto_repair_api.py,sha256=UsmfbALgELA5SqXynJZw0DQWIj1oceKIdQl9LBgNyC0,2880
+spider_auto_repair/auto_repair_code.py,sha256=vgVBvi4199FpZEooBka-HXWc_ykGcJE5BJ11zGu71FY,64141
+spider_auto_repair/data_extractor_scrapy.py,sha256=xCoeByU36oue9oIokUr5U175uika9Z2bqw_N8UOJOs8,2087
