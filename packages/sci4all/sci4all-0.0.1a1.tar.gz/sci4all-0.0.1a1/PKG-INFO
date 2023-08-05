@@ -1,0 +1,87 @@
+Metadata-Version: 1.1
+Name: sci4all
+Version: 0.0.1a1
+Summary: Sci4All - scientific toolbox for high school and higher education
+Home-page: https://www.sci4all.org/
+Author: Tore Skaug
+Author-email: contact@sci4all.org
+License: GNU Lesser General Public License v3 or later (LGPLv3+)
+Description: # Sci4All -- scientific toolbox for high school and higher education
+        
+        Sci4All is a scientific toolbox for high school and higher education.
+        
+        Sci4All builds on scipy with the aim to deliver simple, expressive and
+        intuitive interfaces for various operations, intended to be appropriate for
+        interactive use in tools such as Jupyter Notebook. The library aims to offer
+        interfaces that are effective and powerful, yet simple to use.
+        
+        Key objectives of Sci4All are:
+        
+        - It should be easy to use with a natural and intuitive API, in
+          a way that makes it suitable for non-programmers at the high school level.
+        
+        - It should prepare students for using scientific tools in higher education.
+          Interfaces should be kept simple, but not at the expense of over-simplifying
+          or "dumbing down" the tools.
+        
+        - It should build on and provide access to strong lower level scientific
+          tools, methodologies and algorithmic programming, within an environment that
+          is suitable for continued use by students in further higher education studies
+          and academic work
+        
+        - Though the main target audience for the toolbox is high school students,
+          when possible it should aim to design interfaces that are also appropriate
+          for use in research and higher education, offering more convenient, intuitive
+          or terse access to functionality in libraries that Sci4All builds on.
+        
+        Sci4All provides friendly, expressive and intuitive interfaces to some
+        capabilities of modules such as SciPy and Matplotlib, thus making certain
+        scientific functionality of those modules accessible to non-programmers.
+        However, the full power of those modules as well as the Python programming are
+        still available, allowing students to gradually adopt more advanced use of
+        those libraries and as their skills grow.
+        
+        By offering Sci4All for scientific work at the high school level, our hope
+        is that students will have access to a set of tools that are not only
+        appropriate for their current educational level, but also provide experience
+        with a proper modern programming language (python), enable methodologies and
+        work habits appropriate for higher level scientific work, and offer hands-on
+        experience with an ecosystem of open source tools that can also serve their
+        future needs.
+        
+        # Sci4All license
+        
+        Sci4All is released under the [GNU Lesser General Public License
+        v3.0](https://www.gnu.org/licenses/lgpl-3.0-standalone.html) or later. License
+        details are included with the library source code.
+        
+        # Installing
+        
+        Once released, the library with source code can be installed from
+        [PyPI](https://pypi.org/), and can also be downloaded from the
+        [Sci4All website](https://www.sci4all.org).
+        
+        # Getting information about Sci4All
+        
+        Information will be available at the
+        [Sci4All website](https://www.sci4all.org).
+        
+        # Project status
+        
+        The project is in early development and will be released as a pre-alpha
+        in near future. Stay tuned ...
+        
+Keywords: sci4all
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides: sci4all
