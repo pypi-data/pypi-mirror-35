@@ -1,0 +1,7 @@
+README.md
+setup.py
+arabic_pronunciation.egg-info/PKG-INFO
+arabic_pronunciation.egg-info/SOURCES.txt
+arabic_pronunciation.egg-info/dependency_links.txt
+arabic_pronunciation.egg-info/not-zip-safe
+arabic_pronunciation.egg-info/top_level.txt
