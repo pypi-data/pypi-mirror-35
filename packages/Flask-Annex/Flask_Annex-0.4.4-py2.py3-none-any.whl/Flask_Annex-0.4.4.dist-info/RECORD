@@ -1,0 +1,12 @@
+Flask_Annex-0.4.4.dist-info/DESCRIPTION.rst,sha256=4Ot55VrJbC2P8edjT-yMkgmAhOuj7rv9z_7vH58b__I,633
+Flask_Annex-0.4.4.dist-info/METADATA,sha256=Dy9qQEjUxIsNkdJJaTYp2g-wGa3BoLMS0SxBiHsjYKQ,1522
+Flask_Annex-0.4.4.dist-info/RECORD,,
+Flask_Annex-0.4.4.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+Flask_Annex-0.4.4.dist-info/metadata.json,sha256=fozpS5ZY4dT7MUCQIUngD3ZOci-VQREEDjKCiw3q40o,1024
+Flask_Annex-0.4.4.dist-info/top_level.txt,sha256=ppa2bk8KrAxwY3cMDgOKxwA3f8kbMvckKiSZzC63FfU,12
+flask_annex/__init__.py,sha256=eZ03-HThFFxBjxr8bug5XCu8wWLY9werE37bH5Pn0VE,1172
+flask_annex/base.py,sha256=smsKNsNuhH67jzSzsM7wl4q0pk54Y9FO8AlKalpIqeg,734
+flask_annex/compat.py,sha256=fT_jSw-sXh24dHsuAy3DNftNMMrPq38WX-4pMtU7atU,821
+flask_annex/file.py,sha256=LKGASD7eMl_Zar0I0_FKvUgPAtImjkfcaehKCm2jhxw,3027
+flask_annex/s3.py,sha256=k7hppTnx7_00ua2GzhLM_UwrFhWHXDHvuQeltFSftgE,4332
+flask_annex/utils.py,sha256=madKyXM6ncrRAnsSMJJ0fA85cYs27W-X3OSwYj7U97E,306
