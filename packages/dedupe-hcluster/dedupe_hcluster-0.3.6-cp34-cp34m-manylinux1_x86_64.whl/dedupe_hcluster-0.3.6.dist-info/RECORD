@@ -1,0 +1,9 @@
+hcluster/_hierarchy.cpython-34m.so,sha256=yMXybFbjzeYYAuRj76-avQhfog2KWdTQ9pj8j6asOwI,1396812
+hcluster/_distance_wrap.cpython-34m.so,sha256=Zwf6wD3UteC1fAyFjTJ3Yw-MGUT8rlJR-Aa3OAk0v0c,185019
+hcluster/__init__.py,sha256=FuA0kLeeVgQ1_LN01Hazz-1opOUSwZTaT4OmHHP_MyM,49
+hcluster/distance.py,sha256=EcIPcpZTJTzI95_opbq7k-F8HQRf6o8BrlfTMVScJic,73022
+hcluster/hierarchy.py,sha256=izHW3GyezXPq3qy9wfiRjTmKFdNOF2KuFpEn7sbPvXE,93610
+dedupe_hcluster-0.3.6.dist-info/WHEEL,sha256=x7uUT1DITuOWfNQ5Z5nxxiCgay-5C46SfoISIjrweYE,109
+dedupe_hcluster-0.3.6.dist-info/top_level.txt,sha256=Inz6_YsyroIuO_nNL62-HsAv7OSAZydOdUcqtZmwRUU,9
+dedupe_hcluster-0.3.6.dist-info/METADATA,sha256=ygxwrc6OmnB6wBJbVOmtNwC4J1HKZJOCVKxgRcv3tvg,1542
+dedupe_hcluster-0.3.6.dist-info/RECORD,,
