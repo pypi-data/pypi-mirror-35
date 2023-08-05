@@ -1,0 +1,9 @@
+pago46/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pago46/client.py,sha256=WQbgluVIc3rEOEurEN4BoZJm4bQ8ldL_trM1rBokirw,5270
+pago46/utils.py,sha256=uHE4azffimRTHXolp968YHWBxjet4r-pgEfxdA_tQiw,959
+pago46/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pago46/tests/test.py,sha256=525j8xuYsQISMriJAANg7Zc6iZL6rFsWlfwgsmQgWf4,5956
+pago46-0.0.1.dist-info/METADATA,sha256=trVyv1BkOKi5YXhN2JY_IB668dhZSo8oaEE_KLTJN_A,3205
+pago46-0.0.1.dist-info/RECORD,,
+pago46-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pago46-0.0.1.dist-info/top_level.txt,sha256=7kRvoUcWhSRwGgKfBRbpp03eaOV7cdxtxZRdpjQtVKY,7
