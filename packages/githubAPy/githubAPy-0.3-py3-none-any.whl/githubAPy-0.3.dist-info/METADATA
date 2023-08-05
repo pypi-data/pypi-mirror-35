@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: githubAPy
+Version: 0.3
+Summary: Python wrapper to easily communicate with the GitHub API
+Home-page: https://github.com/techytushar/githubAPy
+Author: Tushar Mittal
+Author-email: chiragmittal.mittal@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Keywords: github api python wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+Python wrapper to easily communicate with the GitHub API. It includes most of the features included in the GitHub API as well as some extra ones.
+
+
