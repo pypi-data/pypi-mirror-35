@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ddl
+Version: 0.0.2
+Summary: Destructive deep learning estimators and functions. Estimators are compatible with scikit-learn.
+Home-page: https://github.com/davidinouye/destructive-deep-learning
+Author: David I. Inouye
+Author-email: dinouye@cs.cmu.edu
+License: BSD 3-clause
+Description: UNKNOWN
+Platform: UNKNOWN
