@@ -1,0 +1,8 @@
+setup.py
+foster_lab/get_offsets.py
+foster_lab.egg-info/PKG-INFO
+foster_lab.egg-info/SOURCES.txt
+foster_lab.egg-info/dependency_links.txt
+foster_lab.egg-info/entry_points.txt
+foster_lab.egg-info/pbr.json
+foster_lab.egg-info/top_level.txt
