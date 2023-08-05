@@ -1,0 +1,30 @@
+dist: trusty
+sudo: false
+
+language: python
+
+matrix:
+  include:
+    - python: '2.7'
+    - python: 'pypy'
+    - python: '3.3'
+    - python: '3.4'
+    - python: '3.5'
+    - python: '3.6'
+    - python: 'pypy3'
+    - python: 'nightly'
+  allow_failures:
+    - python: 'nightly'
+
+install:
+  - pip install -r requirements-dev.txt
+  - pip install coveralls
+  - pip install -e .
+
+script: py.test --flake8 --cov
+
+after_success:
+  coveralls
+
+cache:
+  - pip
