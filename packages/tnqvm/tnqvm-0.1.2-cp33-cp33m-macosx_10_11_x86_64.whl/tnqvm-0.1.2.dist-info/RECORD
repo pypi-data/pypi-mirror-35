@@ -1,0 +1,9 @@
+tnqvm-0.1.2.dist-info/DESCRIPTION.rst,sha256=7ulLiEcT8Ls8mQxCspFiIh0uigBjngzvJTaIFPpMDPc,114
+tnqvm-0.1.2.dist-info/METADATA,sha256=WibI8LvMTa5lfKCnDMzWn9nWgNroKcgr6fCBxBnPFv0,324
+tnqvm-0.1.2.dist-info/RECORD,,
+tnqvm-0.1.2.dist-info/WHEEL,sha256=_nYP_pW1uVgO0afOdB3qVNj8XvEy8a_IyzopRKFKQbE,111
+tnqvm-0.1.2.dist-info/metadata.json,sha256=NW4NYycLv0JsjHye0eJz86yHW3C4I7M9n5Yg3GRWoNU,337
+tnqvm-0.1.2.dist-info/top_level.txt,sha256=bl117aouIAjdEyif0eO5CO5ZMUVyZiOyZlzybulzcjA,8
+xacc/pytnqvm.so,sha256=UPfUxi5PfXlFDVAupyHry30azPmYz4IsOnfPjYw0tGs,110244
+xacc/plugins/libtnqvm-itensor.dylib,sha256=LOZ-ks13bbYQOs-37emzT9e8QLEDpLmQ4TTG7HqM6pw,29456724
+xacc/plugins/libtnqvm.dylib,sha256=w2OHsgZENSolHGVoT3KhmEhLZMbOEi3em69Ea9gIUig,196504
