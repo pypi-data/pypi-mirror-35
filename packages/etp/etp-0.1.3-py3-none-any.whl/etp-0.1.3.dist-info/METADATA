@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: etp
+Version: 0.1.3
+Summary: A ThreadPool extension
+Home-page: https://github.com/dobbleg1000/enhanced_threadpool
+Author: DobbleG1000
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+
+# Enhanced ThreadPool
+
+A ThreadPool extension
+
+
