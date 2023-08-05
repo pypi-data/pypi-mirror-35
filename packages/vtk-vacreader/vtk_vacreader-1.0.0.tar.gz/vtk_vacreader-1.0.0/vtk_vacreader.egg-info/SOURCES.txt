@@ -1,0 +1,9 @@
+setup.py
+vtk_vacreader/__init__.py
+vtk_vacreader/datasorter.py
+vtk_vacreader/disk_dataholder.py
+vtk_vacreader.egg-info/PKG-INFO
+vtk_vacreader.egg-info/SOURCES.txt
+vtk_vacreader.egg-info/dependency_links.txt
+vtk_vacreader.egg-info/requires.txt
+vtk_vacreader.egg-info/top_level.txt

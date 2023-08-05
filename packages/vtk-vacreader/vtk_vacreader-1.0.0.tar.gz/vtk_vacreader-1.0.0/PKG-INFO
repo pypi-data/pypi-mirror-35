@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: vtk_vacreader
+Version: 1.0.0
+Summary: Read vtu files from non-amr simulations with amrvac
+Home-page: https://gitlab.oca.eu/crobert/vtk_vacreader-project
+Author: Clément Robert
+Author-email: clement.robert@oca.eu
+License: GNU
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
