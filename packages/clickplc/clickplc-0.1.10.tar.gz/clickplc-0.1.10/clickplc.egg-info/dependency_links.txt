@@ -1,0 +1,1 @@
+https://github.com/riptideio/pymodbus/tarball/dev#egg=pymodbus-2.0.0rc2
