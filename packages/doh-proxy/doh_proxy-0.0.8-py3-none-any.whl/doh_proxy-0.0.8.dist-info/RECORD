@@ -1,0 +1,16 @@
+doh_proxy-0.0.8.dist-info/METADATA,sha256=4oYNM1sq0_U2sNE5i3RB8BEAVE1WokZfqA740Mibz90,5913
+doh_proxy-0.0.8.dist-info/RECORD,,
+doh_proxy-0.0.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+doh_proxy-0.0.8.dist-info/entry_points.txt,sha256=D49rgqIn7zxK2iTk5ubnacQceX4fQ_0BFN1Z2YS40P0,155
+doh_proxy-0.0.8.dist-info/top_level.txt,sha256=sdFAaXWIspBGyGZ5MYzaHvJXt9mc_FWaal7OxxbjwzY,9
+dohproxy/__init__.py,sha256=C9npw_p6TNMihq9gZvgu7xHmGL1gicI2sUM7iVQOh8o,250
+dohproxy/client.py,sha256=3L6WzvMCer_Qm0eLhyJ6N6C8ggO_UF1YpbAGJlGWnjc,1525
+dohproxy/client_protocol.py,sha256=mlWdmi-61c56FvKZl5XO11PLmR76iKzigm1CQQq_cik,5018
+dohproxy/constants.py,sha256=8z-twwHpYbtGEO4ulioWkigraI-GoJlchFf5SqfCR-A,375
+dohproxy/httpproxy.py,sha256=m7e7Mm1blk5G5Mf4TQSKddqSfwkOsDcYoNWVQjUPLI4,5077
+dohproxy/integration.py,sha256=5tj3KffGNvw-MU_aVHGBex_mpTwK_r_w7RHIL4KdZAo,10004
+dohproxy/protocol.py,sha256=Y3Xi47BhzSum3eSnRtOpUh9HVQvau8RnJ4u9ctzme74,5876
+dohproxy/proxy.py,sha256=lzggzUtnLqva2FGlyPoIuDO4PFZ8tnJPxENW16BAZvA,9982
+dohproxy/server_protocol.py,sha256=C_eHOsFCBN_NO813whLuxJWmC1P9rPp9SwPknd-F_EA,5164
+dohproxy/stub.py,sha256=n-QGmyNpvD7wGENGry8-VUuo0REKcePEQuGHHGn6I70,1376
+dohproxy/utils.py,sha256=NJA6qxy15S0Kaf15lfkZQYo5Saurk55t7J3kEI5B7OA,10344
