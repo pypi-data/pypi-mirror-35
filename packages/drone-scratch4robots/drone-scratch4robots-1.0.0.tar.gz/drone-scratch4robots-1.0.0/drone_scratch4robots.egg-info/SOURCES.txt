@@ -1,0 +1,9 @@
+README.md
+setup.py
+drone/__init__.py
+drone/drone.py
+drone_scratch4robots.egg-info/PKG-INFO
+drone_scratch4robots.egg-info/SOURCES.txt
+drone_scratch4robots.egg-info/dependency_links.txt
+drone_scratch4robots.egg-info/requires.txt
+drone_scratch4robots.egg-info/top_level.txt
