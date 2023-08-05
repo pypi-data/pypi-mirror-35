@@ -1,0 +1,14 @@
+README.md
+setup.py
+bopomo/__init__.py
+bopomo/bopomo.py
+bopomo.egg-info/PKG-INFO
+bopomo.egg-info/SOURCES.txt
+bopomo.egg-info/dependency_links.txt
+bopomo.egg-info/requires.txt
+bopomo.egg-info/top_level.txt
+bopomo/data/bopomo_seg_words.csv
+bopomo/data/bopomo_word.csv
+bopomo/data/bopomo_words.csv
+bopomo/data/words_list.txt
+bopomo/model/bopomo.crfsuite
