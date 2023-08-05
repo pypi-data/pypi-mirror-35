@@ -1,0 +1,4 @@
+numpy>=1.11.2
+
+[:python_version >= "3.5"]
+numba>=0.38.0
