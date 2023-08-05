@@ -1,0 +1,8 @@
+README.rst
+setup.py
+src/matching/__init__.py
+src/matching/algorithms.py
+src/matching.egg-info/PKG-INFO
+src/matching.egg-info/SOURCES.txt
+src/matching.egg-info/dependency_links.txt
+src/matching.egg-info/top_level.txt
