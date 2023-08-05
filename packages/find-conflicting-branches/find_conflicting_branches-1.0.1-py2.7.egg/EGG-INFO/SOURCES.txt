@@ -1,0 +1,11 @@
+README.md
+find_conflicting_branches
+setup.py
+bin/find_conflicting_branches
+find_conflicting_branches/__init__.py
+find_conflicting_branches/lib.py
+find_conflicting_branches.egg-info/PKG-INFO
+find_conflicting_branches.egg-info/SOURCES.txt
+find_conflicting_branches.egg-info/dependency_links.txt
+find_conflicting_branches.egg-info/requires.txt
+find_conflicting_branches.egg-info/top_level.txt
