@@ -1,0 +1,74 @@
+from setuptools import setup, find_packages
+import vindta_reCAlk
+import os
+
+
+def read(fname):
+    print(fname)
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+
+
+def walker(base, *paths):
+    file_list = set([])
+    cur_dir = os.path.abspath(os.curdir)
+
+    os.chdir(base)
+    try:
+        for path in paths:
+            for dname, dirs, files in os.walk(path):
+                for f in files:
+                    file_list.add(os.path.join(dname, f))
+    finally:
+        os.chdir(cur_dir)
+
+    return list(file_list)
+
+
+setup(
+    # Application name:
+    name="vindta_reCAlk",
+
+    # Version number (initial):
+    version="0.1.4",
+
+    # Application author details:
+    author="Luke Gregor",
+    author_email="lukegre@gmail.com",
+
+    # Packages
+    packages=find_packages(),
+
+    package_data={
+        vindta_reCAlk.__name__: walker(
+            os.path.dirname(vindta_reCAlk.__file__),
+            'templates', 'static'
+        ),
+    },
+    # Include additional files into the package
+    include_package_data=True,
+
+    # this creates a command line thingy
+    entry_points={
+        'console_scripts': ['vindta_reCAlk = vindta_reCAlk.__main__:main']
+    },
+    # scripts=["vindta_reCAlk/__main__.py"],
+
+    # Details
+    url="http://luke-gregor.github.io",
+
+    license="MIT License",
+    description="Recalculate VINDTA 3C TA and DIC from CRMs",
+
+    long_description=read("README.md"),
+
+    # Dependent packages (distributions)
+    install_requires=[
+        "Flask",
+        "requires",
+        "numpy",
+        "scipy",
+        "pandas",
+        "openpyxl",
+        "xlrd",
+    ],
+)
