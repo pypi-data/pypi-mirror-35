@@ -1,0 +1,11 @@
+simple_portfolio/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+simple_portfolio/calculate.py,sha256=NJI42RB9dv1zQsOKpDUFROUYyQbL_rQPVoo0jFDGD5A,3588
+simple_portfolio/cli.py,sha256=MyFjeWcZZxTmQnflvUmI677KpI8cU5jV7IcCW33xrUQ,2468
+simple_portfolio/export.py,sha256=6dGSeghlGFqUGUjUQN_-qzI-b0YH0jSrbUm-n--spsM,4089
+simple_portfolio/fetch.py,sha256=2R_dWBO4niw5tFE5BFcTPJPtG2-n_IFBCUaykgeHJx4,2034
+simple_portfolio/util.py,sha256=Wb9uyKEwA1q6LAphvaunngm8dd6KZKHJHyhv633jV8c,145
+simple_portfolio-0.1.8.dist-info/METADATA,sha256=IvJ4UDuJTbaQmfIATgLXtFfMEokml1W6yLfEE3We6P8,1548
+simple_portfolio-0.1.8.dist-info/RECORD,,
+simple_portfolio-0.1.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+simple_portfolio-0.1.8.dist-info/entry_points.txt,sha256=V1wUVAkMkOlJdyzDJ9ucwD-qcTzUZEKbR7g6yA8a670,67
+simple_portfolio-0.1.8.dist-info/top_level.txt,sha256=C_SRspDWiCZYkclDeVvzkLOPAVXBbfoAi1yvHq6_Da4,17
