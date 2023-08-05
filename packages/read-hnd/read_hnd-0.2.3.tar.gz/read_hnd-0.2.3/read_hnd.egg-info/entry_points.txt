@@ -1,0 +1,3 @@
+[console_scripts]
+read_hnd = read_hnd.command_line:main
+
