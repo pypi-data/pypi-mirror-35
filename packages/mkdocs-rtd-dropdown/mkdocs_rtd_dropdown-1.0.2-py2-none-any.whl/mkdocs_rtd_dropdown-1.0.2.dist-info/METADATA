@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mkdocs-rtd-dropdown
+Version: 1.0.2
+Summary: Clone of ReadTheDocs
+Home-page: https://github.com/cjsheets/mkdocs-rtd-dropdown
+Author: Chad Sheets
+Author-email: chad@sheets.ch
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: mkdocs
+
+UNKNOWN
+
+
