@@ -1,0 +1,3 @@
+[console_scripts]
+lstorage = cli.lstorage:main
+
