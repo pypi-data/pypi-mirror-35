@@ -1,0 +1,9 @@
+README.md
+setup.py
+tellter/TNS.py
+tellter/__init__.py
+tellter/safechat.py
+tellter.egg-info/PKG-INFO
+tellter.egg-info/SOURCES.txt
+tellter.egg-info/dependency_links.txt
+tellter.egg-info/top_level.txt
