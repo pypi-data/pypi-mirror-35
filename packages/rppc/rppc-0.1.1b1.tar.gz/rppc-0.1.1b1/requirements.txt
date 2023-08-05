@@ -1,0 +1,7 @@
+requests
+versioneer
+munch
+sphinx
+nbsphinx
+pyyaml
+doctr
