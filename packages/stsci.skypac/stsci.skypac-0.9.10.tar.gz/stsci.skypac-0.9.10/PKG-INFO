@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: stsci.skypac
+Version: 0.9.10
+Summary: Sky matching on image mosaic
+Home-page: http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python
+Author: Mihai Cara, Warren Hack, Pey Lian Lim
+Author-email: help@stsci.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
