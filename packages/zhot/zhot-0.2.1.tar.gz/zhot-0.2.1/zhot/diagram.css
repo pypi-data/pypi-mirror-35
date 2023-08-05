@@ -1,0 +1,22 @@
+g#decorative rect {
+	stroke-width: 5px;
+	stroke: darkGrey;
+	fill: silver;
+}
+circle {
+	stroke: none;
+	fill: url(#radgrad);
+}
+g#moves text {
+	font-size: $TEXTSIZEpx;
+}
+g#moves g line, g#moves g path {
+	stroke-width: 6px;
+	stroke-linecap: round;
+	stroke: black;
+	marker-end: url(#head);
+	filter: drop-shadow(-3px -3px 3px grey);
+}
+marker polygon {
+	fill: #500;
+}
