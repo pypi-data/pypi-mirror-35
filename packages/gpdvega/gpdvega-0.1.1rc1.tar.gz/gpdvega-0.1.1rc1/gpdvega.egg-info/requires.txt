@@ -1,0 +1,16 @@
+altair
+geopandas
+
+[dev]
+flake8
+pytest
+pytest-cov
+jinja2
+sphinx
+coveralls
+
+[dev:python_version < "3"]
+ipython<6
+
+[dev:python_version >= "3"]
+ipython
