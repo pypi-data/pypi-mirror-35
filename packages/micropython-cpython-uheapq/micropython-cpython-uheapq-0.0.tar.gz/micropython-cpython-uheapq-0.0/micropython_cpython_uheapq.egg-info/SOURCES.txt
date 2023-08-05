@@ -1,0 +1,5 @@
+setup.py
+micropython_cpython_uheapq.egg-info/PKG-INFO
+micropython_cpython_uheapq.egg-info/SOURCES.txt
+micropython_cpython_uheapq.egg-info/dependency_links.txt
+micropython_cpython_uheapq.egg-info/top_level.txt
