@@ -1,0 +1,15 @@
+- project:
+    check:
+      jobs:
+        - openstack-tox-py36:
+            voting: false
+        - horizon-openstack-tox-python3-django111
+        - openstack-tox-lower-constraints:
+            required-projects:
+              openstack/horizon
+    gate:
+      jobs:
+        - horizon-openstack-tox-python3-django111
+        - openstack-tox-lower-constraints:
+            required-projects:
+              openstack/horizon
