@@ -1,0 +1,14 @@
+arrow
+cached-property
+six
+enum34
+more-itertools
+vk
+
+[captcha-handlers]
+requests
+Pillow
+
+[tests]
+tox
+pytest
