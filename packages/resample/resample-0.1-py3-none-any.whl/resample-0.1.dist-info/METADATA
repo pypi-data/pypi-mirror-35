@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: resample
+Version: 0.1
+Summary: Tools for randomization-based inference in Python.
+Home-page: http://github.com/dsaxton/resample
+Author: Daniel Saxton
+Author-email: daniel.saxton@gmail.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.14.0)
+Requires-Dist: scipy (>=1.1.0)
+
+UNKNOWN
+
+

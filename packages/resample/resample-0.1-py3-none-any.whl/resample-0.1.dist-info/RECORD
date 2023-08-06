@@ -1,0 +1,8 @@
+resample/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resample/bootstrap.py,sha256=rAPXs02oHuxGJigndJ7rARUts6oMM39ep2_6iStndM4,5482
+resample/permutation.py,sha256=x6jYGQejYpUn0H126r92UbPoxKg0pcC3aEEAAUl5AZE,7641
+resample/utils.py,sha256=olrbL6Q9Za0M5bALG7_MXt2X7Lxie_xzvUQv2qsdVbE,3268
+resample-0.1.dist-info/METADATA,sha256=3Rn_jKgOcMQZ-Zg6hrMRY18MCPVtt9lIXa3j2WFr4rg,330
+resample-0.1.dist-info/RECORD,,
+resample-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+resample-0.1.dist-info/top_level.txt,sha256=n1-VZ3P3eKznecXhgXeQfQVXb5Yo4-mHcx9KHGWgTIg,9
