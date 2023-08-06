@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: tibl-cli
+Version: 0.0.2
+Summary: Command Line Interface for tibl, a tiny blog engine.
+Home-page: https://ujj.space/tibl/
+License: MIT
+Keywords: cli,blog,engine
+Author: uj
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: blindspin (>=2.0,<3.0)
+Requires-Dist: click (>=6.7,<7.0)
+Requires-Dist: crayons (>=0.1.2,<0.2.0)
+Requires-Dist: gitpython (>=2.1,<3.0)
+Description-Content-Type: text/markdown
+
+# 🗿 tibl-cli
+
+[tibl](https://github.com/Uinelj/tibl) python command line interface.
+
+
+## Features 
+
+```
+Usage: tibl [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  create  Create a new tibl site
+  items   list posts and pages
+  new     Create a new post/page
+  serve   serve your website locally
+```
+
+## Installing
+
+tibl-cli is  available in PyPI.
+
+```bash
+pip install tibl-cli
+```
+

@@ -1,0 +1,3 @@
+[console_scripts]
+tibl=tibl_cli:ui.cli
+
