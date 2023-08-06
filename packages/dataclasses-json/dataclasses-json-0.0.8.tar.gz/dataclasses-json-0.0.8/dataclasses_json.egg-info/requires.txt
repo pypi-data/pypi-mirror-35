@@ -1,0 +1,6 @@
+
+[dev]
+pytest
+ipython
+mypy
+hypothesis
