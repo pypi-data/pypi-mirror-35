@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: appset
+Version: 0.2.6
+Summary: A simple CLI made for use with external modules
+Home-page: https://github.com/apptension/appset
+Author: mkubaczyk@apptension.com, mmlodzikowski@apptension.com
+Author-email: mkubaczyk@apptension.com, mmlodzikowski@apptension.com
+License: UNKNOWN
+Download-URL: https://github.com/apptension/appset/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: cli,setup,modules
+Platform: UNKNOWN

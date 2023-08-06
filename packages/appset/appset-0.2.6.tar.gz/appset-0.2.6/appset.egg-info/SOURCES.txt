@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+appset/__init__.py
+appset/cli.py
+appset.egg-info/PKG-INFO
+appset.egg-info/SOURCES.txt
+appset.egg-info/dependency_links.txt
+appset.egg-info/top_level.txt
+bin/appset
