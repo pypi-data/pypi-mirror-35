@@ -1,0 +1,16 @@
+slack_cleaner2/__init__.py,sha256=8Antg8WgekVXNG3LUq-SBSbl3d6ovIGB8YG8Xk3l7f0,596
+slack_cleaner2/__main__.py,sha256=GbXN5HOPs4hF_cPZzED-5nGQoAroMwWTUDexwWnxrno,124
+slack_cleaner2/_info.py,sha256=js6h1i7kB1Btnxk1Uo98F5KNzDOwfFg5hMMeq_SPF-8,143
+slack_cleaner2/cli.py,sha256=pnPIFRRZ8II5bnxeWU8UHTvUSTOftgM44dE2SwZuUbc,6783
+slack_cleaner2/logger.py,sha256=BLdKPgIzl9xlExrIczhFTMn_eXzpiwnZ723DLW_-QFM,2821
+slack_cleaner2/model.py,sha256=s7-nVfl4ncOiyFz2MSWbhFkobhwpjVLCAlfRejcUtBw,12377
+slack_cleaner2/predicates.py,sha256=e8NbAaXiIbAzl8LUrVVigA4x4tVwKwdjyVeSLFb8bUc,4782
+slack_cleaner2/slack_cleaner2.py,sha256=8J8FOk-dQBT_41kD5pbtBAHzqkawvzoSJCkF-zabWbg,5242
+slack_cleaner2/util.py,sha256=Xnkyn_NBWNdF_UiCxeWGnETEkgvtSWvwnfqIbZpZ4TI,659
+slack_cleaner2-1.0.1.dist-info/DESCRIPTION.rst,sha256=nixKTnpv7QARxUEBEw1YRWUSX9ptOCq49wPGIJ4VtQI,1222
+slack_cleaner2-1.0.1.dist-info/METADATA,sha256=VFOps2nmb7ONLA3LMpJPB5NpQTDFiRX9bTFoJ2jv79U,2137
+slack_cleaner2-1.0.1.dist-info/RECORD,,
+slack_cleaner2-1.0.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+slack_cleaner2-1.0.1.dist-info/entry_points.txt,sha256=NR_pdi_T7t5IvG6iIkUJrTvX5qk82kb2hMDylHcBkLE,59
+slack_cleaner2-1.0.1.dist-info/metadata.json,sha256=xW0TRCW6CUK_5LddKwuhWLILglUxg9ly35ZuRs-sb8I,1260
+slack_cleaner2-1.0.1.dist-info/top_level.txt,sha256=xjPt8VDWY2mtRaztu2wrU5pb_YbPDkv0pE8nl4qnK1A,15
