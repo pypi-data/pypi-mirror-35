@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+ipyLogger/__init__.py
+ipyLogger/__meta__.py
+ipyLogger/logger.py
+ipyLogger/logging_buffer.py
+ipyLogger.egg-info/PKG-INFO
+ipyLogger.egg-info/SOURCES.txt
+ipyLogger.egg-info/dependency_links.txt
+ipyLogger.egg-info/not-zip-safe
+ipyLogger.egg-info/requires.txt
+ipyLogger.egg-info/top_level.txt

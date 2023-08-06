@@ -1,0 +1,13 @@
+# necessary to push to PyPI
+# cf. https://tom-christie.github.io/articles/pypi/
+# cf. https://packaging.python.org/tutorials/distributing-packages/
+
+# example files
+include ipyLogger/*
+
+
+
+# Misc
+global-exclude *.py[cod]
+include LICENSE
+include requirements.txt
