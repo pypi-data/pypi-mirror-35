@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: Mini-Exchange
+Version: 0.0.2
+Summary: Time based strategy back testing system
+Home-page: UNKNOWN
+Author: Yili Peng
+Author-email: yili_peng@outlook.com
+License: UNKNOWN
+Keywords: quant
+Platform: UNKNOWN
+Requires-Dist: plotly
+
+锘縏ime based trading strategy framework
+=====================================
+
+dependent package
+-----------------
+- python 3.5
+- pandas 0.23.0
+- spyder 3.2.8
+- plotly 2.7.0
+
+
