@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: travis-tester
+Version: 0.0.11
+Summary: Testing git and deployment stuff
+Home-page: https://github.com/MatthewGilbert/testing
+Author: Matthew Gilbert
+Author-email: matthew.gilbert12@gmail.com
+License: MIT
+Description: Nothing
+Platform: any
