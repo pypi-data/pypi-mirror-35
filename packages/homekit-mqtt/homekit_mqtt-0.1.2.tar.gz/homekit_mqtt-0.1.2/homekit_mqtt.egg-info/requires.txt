@@ -1,0 +1,5 @@
+Click
+HAP-python
+base36
+pyqrcode
+paho-mqtt
