@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: twitter-variation
+Version: 1.0.2
+Summary: A package to convert twitter variations into english letters
+Home-page: https://github.com/shubhanshu786/twitter_variation
+Author: Shubhanshu Sharma
+Author-email: dec31.shubh@gmail.com
+License: UNKNOWN
+Description: # Twitter Variations
+        
+        This is a package to convert twitter variation into english letters. People usually use different characters to represent their words. This package will help machines understand the meaning of words by bringing them back to normal english characters.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
