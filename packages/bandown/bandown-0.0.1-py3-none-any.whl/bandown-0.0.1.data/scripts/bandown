@@ -1,0 +1,8 @@
+#!python
+
+import sys
+
+from bandown import __main__
+
+if __name__ == '__main__':
+    sys.exit(__main__.main())

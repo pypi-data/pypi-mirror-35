@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bandown
+Version: 0.0.1
+Summary: A Bandcamp downloader
+Home-page: UNKNOWN
+Author: Owen Trigueros Sánchez
+Author-email: owentrigueros@gmail.com
+License: UNKNOWN
+Keywords: bandcamp downloader
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
+

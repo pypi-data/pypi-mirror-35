@@ -1,0 +1,9 @@
+bandown/Bandown.py,sha256=vZyCoOK_7Z8HxNv3xXF_79UOH5jzspKxiaHnhRbxZKI,3705
+bandown/__init__.py,sha256=iDnLpT2pbcYC9iW8BckMSYBe1w2ZV_Ybc2wOVnp4gq4,17
+bandown/__main__.py,sha256=Lv6DGTI6ftRABbL2x4qj6lj0yat-hSnsm8hByfB32MU,187
+bandown/options.py,sha256=LLQQ4uYNron4k6zZ5Y1DFwkhVujD2FTh6UiHzoSq3pI,443
+bandown-0.0.1.data/scripts/bandown,sha256=XMxySqaFonHs0zZjszcTOtYhtWDroywYMstb2I4__Lo,109
+bandown-0.0.1.dist-info/METADATA,sha256=z6kyuhl5JYPR1yiREP-BhOS-2wWAffwuTqI0TJK4h6w,301
+bandown-0.0.1.dist-info/RECORD,,
+bandown-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+bandown-0.0.1.dist-info/top_level.txt,sha256=_L1cD1E6oarguwk8yHRX8ktBoHuJHMb1lY9Aw-Txey0,8
