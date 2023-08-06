@@ -1,0 +1,13 @@
+clapton/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clapton/app.py,sha256=1fxxwB5HkSigTP6Nrf6CR4EF_6TD7gIP6ZWD0SEAem8,691
+clapton/base.py,sha256=UHGcoV3S2px1WM6RVnwz6JpkWQ-U2I6mQmJYODX-Qu0,2157
+clapton/cli.py,sha256=8ZNUQ3w9Qd65uxQB7H798m7tBjZQXjj1N-LpsTFyMUU,5660
+clapton/models.py,sha256=F_CLRLbj_dYh9chngE2iBJ-ZhVOmCf2MfEFrAAevh00,535
+clapton/predictions.py,sha256=a02y3njiIa-1EIUC9MBqiA2_B8BVXWOSdxuDI737CmQ,357
+clapton/templates.py,sha256=EOdMcKWM28FlcYr6BdDxCQNeGfG0OncqXECvZ_yuKqo,913
+clapton/transforms.py,sha256=x9LktcuWbYBD2RrT3PA_gBV10z7_58u-xgO7yQ0l5O8,549
+clapton-0.1.dist-info/METADATA,sha256=01EIIn4ErBTyJHtvM0PKmEBWmTFBUqUivrMoED4hFlg,667
+clapton-0.1.dist-info/RECORD,,
+clapton-0.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+clapton-0.1.dist-info/entry_points.txt,sha256=bfqJRdhRdYIacFWHThkGIjb7Brn-_UjgGErvxEhXZOE,48
+clapton-0.1.dist-info/top_level.txt,sha256=g6pMWcA2X5niDRDfvtlQt3QQjnBqJmkPyUYuKbzFfZE,8

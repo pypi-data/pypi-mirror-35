@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: clapton
+Version: 0.1
+Summary: Clapton manages your machine learning setup for easy Zappa deployments
+Home-page: https://github.com/maxpumperla/clapton
+Author: Max Pumperla
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pyyaml (==3.12)
+Requires-Dist: zappa
+Requires-Dist: connexion
+Requires-Dist: boto
+Requires-Dist: awscli
+
+UNKNOWN
+
+
