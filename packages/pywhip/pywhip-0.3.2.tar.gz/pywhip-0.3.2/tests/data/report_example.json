@@ -1,0 +1,450 @@
+{
+    "errors": [],
+    "executed_at": "2018-08-22 21:32",
+    "results": {
+        "failed_rows": 5,
+        "passed_row_ids": [],
+        "passed_rows": 0,
+        "specified_fields": {
+            "basisOfRecord": {
+                "allowed": {
+                    "constraint": "HumanObservation, PreservedSpecimen, Occurrence",
+                    "failed_rows": 1,
+                    "passed_rows": 4,
+                    "samples": {
+                        "Human Observation": {
+                            "failed_rows": 1,
+                            "first_row": 3,
+                            "message": "unallowed value Human Observation"
+                        }
+                    }
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                }
+            },
+            "datasetID": {
+                "allowed": {
+                    "constraint": "http://doi.org/10.15468/njgbmh",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                }
+            },
+            "decimalLatitude": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "max": {
+                    "constraint": "51.51",
+                    "failed_rows": 1,
+                    "passed_rows": 4,
+                    "samples": {
+                        "58.11234": {
+                            "failed_rows": 1,
+                            "first_row": 4,
+                            "message": "max value is 51.51"
+                        }
+                    }
+                },
+                "min": {
+                    "constraint": "50.68",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "numberformat": {
+                    "constraint": ".5",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                }
+            },
+            "decimalLongitude": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "max": {
+                    "constraint": "5.92",
+                    "failed_rows": 1,
+                    "passed_rows": 4,
+                    "samples": {
+                        "58.0": {
+                            "failed_rows": 1,
+                            "first_row": 4,
+                            "message": "max value is 5.92"
+                        }
+                    }
+                },
+                "min": {
+                    "constraint": "2.54",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "numberformat": {
+                    "constraint": ".5",
+                    "failed_rows": 1,
+                    "passed_rows": 4,
+                    "samples": {
+                        "58.0": {
+                            "failed_rows": 1,
+                            "first_row": 4,
+                            "message": "numberformat of value '58.0' not in agreement with '.5'"
+                        }
+                    }
+                }
+            },
+            "eventDate": {
+                "dateformat": {
+                    "constraint": "%Y-%m-%d, %Y-%m, %Y",
+                    "failed_rows": 2,
+                    "passed_rows": 3,
+                    "samples": {
+                        "07241981": {
+                            "failed_rows": 1,
+                            "first_row": 2,
+                            "message": "string format of value '07241981' not compliant with '['%Y-%m-%d', '%Y-%m', '%Y']'"
+                        },
+                        "1984-07-24/2000-01-03": {
+                            "failed_rows": 1,
+                            "first_row": 1,
+                            "message": "string format of value '1984-07-24/2000-01-03' not compliant with '['%Y-%m-%d', '%Y-%m', '%Y']'"
+                        }
+                    }
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "maxdate": {
+                    "constraint": "2014-12-31",
+                    "failed_rows": 1,
+                    "passed_rows": 4,
+                    "samples": {
+                        "07241981": {
+                            "failed_rows": 1,
+                            "first_row": 2,
+                            "message": "value '07241981' could not be interpreted as date or datetime"
+                        }
+                    }
+                },
+                "mindate": {
+                    "constraint": "1830-01-01",
+                    "failed_rows": 1,
+                    "passed_rows": 4,
+                    "samples": {
+                        "07241981": {
+                            "failed_rows": 1,
+                            "first_row": 2,
+                            "message": "value '07241981' could not be interpreted as date or datetime"
+                        }
+                    }
+                }
+            },
+            "individualCount": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "max": {
+                    "constraint": "200",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "min": {
+                    "constraint": "1",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "numberformat": {
+                    "constraint": "x",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                }
+            },
+            "language": {
+                "allowed_if_1": {
+                    "constraint": "nl",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                }
+            },
+            "license": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "stringformat": {
+                    "constraint": "url",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                }
+            },
+            "nonExistingColumn": {
+                "allowed": {
+                    "constraint": "anything",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                }
+            },
+            "occurrenceID": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 1,
+                    "passed_rows": 4,
+                    "samples": {
+                        "": {
+                            "failed_rows": 1,
+                            "first_row": 5,
+                            "message": "empty values not allowed"
+                        }
+                    }
+                }
+            },
+            "recordedBy": {
+                "delimitedvalues": {
+                    "constraint": "",
+                    "failed_rows": 1,
+                    "passed_rows": 4,
+                    "samples": {
+                        "observerID:JNHRLPPPP | observerID:JNHRLPPPP": {
+                            "failed_rows": 1,
+                            "first_row": 3,
+                            "message": "duplicate values in delimitedvalues"
+                        }
+                    }
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "maxlength": {
+                    "constraint": "25",
+                    "failed_rows": 3,
+                    "passed_rows": 2,
+                    "samples": {
+                        "observerID:JNHRLP ; observerID:JNHRLC": {
+                            "failed_rows": 1,
+                            "first_row": 2,
+                            "message": "max length is 25"
+                        },
+                        "observerID:JNHRLPAAA | observerID:JNHRLCTGH": {
+                            "failed_rows": 1,
+                            "first_row": 1,
+                            "message": "max length is 25"
+                        },
+                        "observerID:JNHRLPPPP | observerID:JNHRLPPPP": {
+                            "failed_rows": 1,
+                            "first_row": 3,
+                            "message": "max length is 25"
+                        }
+                    }
+                },
+                "maxlength_delimitedvalue": {
+                    "constraint": "17",
+                    "failed_rows": 2,
+                    "passed_rows": 3,
+                    "samples": {
+                        "observerID:JNHRLCTGH": {
+                            "failed_rows": 1,
+                            "first_row": 1,
+                            "message": "max length is 17"
+                        },
+                        "observerID:JNHRLP ; observerID:JNHRLC": {
+                            "failed_rows": 1,
+                            "first_row": 2,
+                            "message": "max length is 17"
+                        },
+                        "observerID:JNHRLPAAA": {
+                            "failed_rows": 1,
+                            "first_row": 1,
+                            "message": "max length is 17"
+                        }
+                    }
+                },
+                "regex_delimitedvalue": {
+                    "constraint": "observerID:.+",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                }
+            },
+            "type": {
+                "allowed": {
+                    "constraint": "Event, PhysicalObject, Text",
+                    "failed_rows": 1,
+                    "passed_rows": 4,
+                    "samples": {
+                        "Evet": {
+                            "failed_rows": 1,
+                            "first_row": 4,
+                            "message": "unallowed value Evet"
+                        }
+                    }
+                },
+                "allowed_if_1": {
+                    "constraint": "Event",
+                    "failed_rows": 2,
+                    "passed_rows": 3,
+                    "samples": {
+                        "Evet": {
+                            "failed_rows": 1,
+                            "first_row": 4,
+                            "message": "unallowed value Evet"
+                        },
+                        "PhysicalObject": {
+                            "failed_rows": 1,
+                            "first_row": 5,
+                            "message": "unallowed value PhysicalObject"
+                        }
+                    }
+                },
+                "allowed_if_2": {
+                    "constraint": "PhysicalObject",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "allowed_if_3": {
+                    "constraint": "Text",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "empty_if_2": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "empty_if_3": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 5,
+                    "samples": {}
+                },
+                "minlength_if_1": {
+                    "constraint": "10",
+                    "failed_rows": 3,
+                    "passed_rows": 2,
+                    "samples": {
+                        "Event": {
+                            "failed_rows": 2,
+                            "first_row": 1,
+                            "message": "min length is 10"
+                        },
+                        "Evet": {
+                            "failed_rows": 1,
+                            "first_row": 4,
+                            "message": "min length is 10"
+                        }
+                    }
+                }
+            }
+        },
+        "total_rows": 5,
+        "unknown_fields": [
+            "nonExistingColumn"
+        ],
+        "unspecified_fields": [
+            "taxonRank",
+            "datasetName",
+            "continent",
+            "lifeStage",
+            "coordinateUncertaintyInMeters",
+            "stateProvince",
+            "scientificName",
+            "verbatimSRS",
+            "sex",
+            "institutionCode",
+            "vernacularName",
+            "countryCode",
+            "geodeticDatum",
+            "scientificNameAuthorship",
+            "informationWithheld",
+            "nomenclaturalCode",
+            "phylum",
+            "georeferenceRemarks",
+            "ownerInstitutionCode",
+            "id",
+            "associatedReferences",
+            "order",
+            "verbatimLocality",
+            "kingdom",
+            "accessRights",
+            "verbatimCoordinates",
+            "class",
+            "municipality",
+            "verbatimCoordinateSystem",
+            "samplingEffort",
+            "identificationVerificationStatus",
+            "rightsHolder",
+            "dataGeneralizations",
+            "samplingProtocol",
+            "verbatimEventDate"
+        ],
+        "warnings": [
+            "Following fields mentioned inside if specifications do not exist inside the document: 'anotherNonExistigColumn'"
+        ]
+    }
+}

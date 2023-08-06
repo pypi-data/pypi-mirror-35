@@ -1,0 +1,1273 @@
+{
+    "errors": [],
+    "executed_at": "2018-08-20 09:43",
+    "results": {
+        "failed_rows": 46834,
+        "passed_row_ids": [],
+        "passed_rows": 0,
+        "specified_fields": {
+            "accessRights": {
+                "allowed": {
+                    "constraint": "http://www.inbo.be/en/norms-for-data-use",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "basisOfRecord": {
+                "allowed": {
+                    "constraint": "HumanObservation, PreservedSpecimen",
+                    "failed_rows": 44700,
+                    "passed_rows": 2134,
+                    "samples": {
+                        "humanObservation": {
+                            "failed_rows": 34675,
+                            "first_row": 4,
+                            "message": "unallowed value humanObservation"
+                        },
+                        "preservedSpecimen": {
+                            "failed_rows": 10025,
+                            "first_row": 1,
+                            "message": "unallowed value preservedSpecimen"
+                        }
+                    }
+                },
+                "allowed_if_1": {
+                    "constraint": "PreservedSpecimen",
+                    "failed_rows": 9028,
+                    "passed_rows": 37806,
+                    "samples": {
+                        "humanObservation": {
+                            "failed_rows": 273,
+                            "first_row": 4,
+                            "message": "unallowed value humanObservation"
+                        },
+                        "preservedSpecimen": {
+                            "failed_rows": 8755,
+                            "first_row": 1,
+                            "message": "unallowed value preservedSpecimen"
+                        }
+                    }
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "behavior": {
+                "allowed": {
+                    "constraint": "stridulation post",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "class": {
+                "allowed": {
+                    "constraint": "Insecta",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "collectionCode": {
+                "allowed": {
+                    "constraint": "Boosten, Carpentier, COL. SLABBAERT HOGE VENEN, collectie Stijn Vanacker, Decleer Kris, Devriese Rik, FSAG, Haghebaert, Hofmans Kurt, Inst. V. Beneden, KBIN, Keppens, Lebrun M., Mal, Université de Liège, Université de Mons, Universiteit Gent, V.V.E., W",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "continent": {
+                "allowed": {
+                    "constraint": "Europe",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "coordinateUncertaintyInMeters": {
+                "allowed_if_1": {
+                    "constraint": "707",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "allowed_if_2": {
+                    "constraint": "3536",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "allowed_if_3": {
+                    "constraint": "30",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "allowed_if_4": {
+                    "constraint": "",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_2": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_3": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_4": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "numberformat_if_1": {
+                    "constraint": "x",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "numberformat_if_2": {
+                    "constraint": "x",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "numberformat_if_3": {
+                    "constraint": "x",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "countryCode": {
+                "allowed": {
+                    "constraint": "BE",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "datasetID": {
+                "allowed": {
+                    "constraint": "https://doi.org/10.15468/1rcpsq",
+                    "failed_rows": 46834,
+                    "passed_rows": 0,
+                    "samples": {
+                        "http://dataset.inbo.be/saltabel-occurrences": {
+                            "failed_rows": 46834,
+                            "first_row": 1,
+                            "message": "unallowed value http://dataset.inbo.be/saltabel-occurrences"
+                        }
+                    }
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "datasetName": {
+                "allowed": {
+                    "constraint": "Saltabel - Orthoptera in Belgium",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "decimalLatitude": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "max": {
+                    "constraint": "51.51",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "min": {
+                    "constraint": "49.49",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "numberformat": {
+                    "constraint": ".5",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "decimalLongitude": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "max": {
+                    "constraint": "6.41",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "min": {
+                    "constraint": "2.53",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "numberformat": {
+                    "constraint": ".5",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "eventDate": {
+                "dateformat": {
+                    "constraint": "%Y-%m-%d, %Y-%m, %Y",
+                    "failed_rows": 3,
+                    "passed_rows": 46831,
+                    "samples": {
+                        "Unknown": {
+                            "failed_rows": 3,
+                            "first_row": 24238,
+                            "message": "string format of value 'Unknown' not compliant with '['%Y-%m-%d', '%Y-%m', '%Y']'"
+                        }
+                    }
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "maxdate": {
+                    "constraint": "2013-06-18",
+                    "failed_rows": 3,
+                    "passed_rows": 46831,
+                    "samples": {
+                        "Unknown": {
+                            "failed_rows": 3,
+                            "first_row": 24238,
+                            "message": "value 'Unknown' could not be interpreted as date or datetime"
+                        }
+                    }
+                },
+                "mindate": {
+                    "constraint": "1800-01-01",
+                    "failed_rows": 3,
+                    "passed_rows": 46831,
+                    "samples": {
+                        "Unknown": {
+                            "failed_rows": 3,
+                            "first_row": 24238,
+                            "message": "value 'Unknown' could not be interpreted as date or datetime"
+                        }
+                    }
+                }
+            },
+            "eventID": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "geodeticDatum": {
+                "allowed": {
+                    "constraint": "WGS84",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "georeferenceRemarks": {
+                "allowed_if_1": {
+                    "constraint": "coordinates are centroid of used grid square",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "allowed_if_2": {
+                    "constraint": "",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_2": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "identifiedBy": {
+                "delimitedvalues": {
+                    "constraint": "",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "individualCount": {
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "max": {
+                    "constraint": "15000",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "min": {
+                    "constraint": "1",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "numberformat": {
+                    "constraint": "x",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "institutionCode": {
+                "allowed": {
+                    "constraint": "INBO",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "kingdom": {
+                "allowed": {
+                    "constraint": "Animalia",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "language": {
+                "allowed": {
+                    "constraint": "en",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "license": {
+                "allowed": {
+                    "constraint": "http://creativecommons.org/publicdomain/zero/1.0/",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "lifeStage": {
+                "allowed_delimitedvalue": {
+                    "constraint": "adult, juvenile",
+                    "failed_rows": 1375,
+                    "passed_rows": 45459,
+                    "samples": {
+                        "Zangpost: 1": {
+                            "failed_rows": 50,
+                            "first_row": 2475,
+                            "message": "unallowed value Zangpost: 1"
+                        },
+                        "Zangpost: 10": {
+                            "failed_rows": 15,
+                            "first_row": 10909,
+                            "message": "unallowed value Zangpost: 10"
+                        },
+                        "Zangpost: 3": {
+                            "failed_rows": 15,
+                            "first_row": 7321,
+                            "message": "unallowed value Zangpost: 3"
+                        },
+                        "Zangpost: 5": {
+                            "failed_rows": 24,
+                            "first_row": 7486,
+                            "message": "unallowed value Zangpost: 5"
+                        },
+                        "juvenile: 1": {
+                            "failed_rows": 894,
+                            "first_row": 22,
+                            "message": "unallowed value juvenile: 1"
+                        },
+                        "juvenile: 2": {
+                            "failed_rows": 145,
+                            "first_row": 170,
+                            "message": "unallowed value juvenile: 2"
+                        },
+                        "juvenile: 3": {
+                            "failed_rows": 55,
+                            "first_row": 27,
+                            "message": "unallowed value juvenile: 3"
+                        },
+                        "juvenile: 4": {
+                            "failed_rows": 31,
+                            "first_row": 380,
+                            "message": "unallowed value juvenile: 4"
+                        },
+                        "juvenile: 5": {
+                            "failed_rows": 29,
+                            "first_row": 926,
+                            "message": "unallowed value juvenile: 5"
+                        },
+                        "juvenile: 6": {
+                            "failed_rows": 13,
+                            "first_row": 940,
+                            "message": "unallowed value juvenile: 6"
+                        }
+                    }
+                },
+                "allowed_if_1": {
+                    "constraint": "adult, adult | juvenile",
+                    "failed_rows": 263,
+                    "passed_rows": 46571,
+                    "samples": {
+                        "Zangpost: 1": {
+                            "failed_rows": 19,
+                            "first_row": 2475,
+                            "message": "unallowed value Zangpost: 1"
+                        },
+                        "Zangpost: 3": {
+                            "failed_rows": 5,
+                            "first_row": 7321,
+                            "message": "unallowed value Zangpost: 3"
+                        },
+                        "juvenile: 1": {
+                            "failed_rows": 112,
+                            "first_row": 64,
+                            "message": "unallowed value juvenile: 1"
+                        },
+                        "juvenile: 12": {
+                            "failed_rows": 3,
+                            "first_row": 6063,
+                            "message": "unallowed value juvenile: 12"
+                        },
+                        "juvenile: 2": {
+                            "failed_rows": 37,
+                            "first_row": 3748,
+                            "message": "unallowed value juvenile: 2"
+                        },
+                        "juvenile: 3": {
+                            "failed_rows": 22,
+                            "first_row": 1078,
+                            "message": "unallowed value juvenile: 3"
+                        },
+                        "juvenile: 4": {
+                            "failed_rows": 9,
+                            "first_row": 4889,
+                            "message": "unallowed value juvenile: 4"
+                        },
+                        "juvenile: 5": {
+                            "failed_rows": 13,
+                            "first_row": 2559,
+                            "message": "unallowed value juvenile: 5"
+                        },
+                        "juvenile: 6": {
+                            "failed_rows": 4,
+                            "first_row": 940,
+                            "message": "unallowed value juvenile: 6"
+                        },
+                        "juvenile: 8": {
+                            "failed_rows": 8,
+                            "first_row": 5594,
+                            "message": "unallowed value juvenile: 8"
+                        }
+                    }
+                },
+                "delimitedvalues": {
+                    "constraint": "",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 9647,
+                    "passed_rows": 37187,
+                    "samples": {
+                        "": {
+                            "failed_rows": 9647,
+                            "first_row": 18,
+                            "message": "empty values not allowed"
+                        }
+                    }
+                }
+            },
+            "municipality": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "nomenclaturalCode": {
+                "allowed": {
+                    "constraint": "ICZN",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "occurrenceID": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "regex": {
+                    "constraint": "INBO:NBN:[A-Z0-9]+",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "occurrenceRemarks": {
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "stringformat": {
+                    "constraint": "json",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "order": {
+                "allowed": {
+                    "constraint": "Orthoptera",
+                    "failed_rows": 46834,
+                    "passed_rows": 0,
+                    "samples": {
+                        "Ortopthera": {
+                            "failed_rows": 46834,
+                            "first_row": 1,
+                            "message": "unallowed value Ortopthera"
+                        }
+                    }
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "organismQuantity": {
+                "allowed": {
+                    "constraint": "abundant, numerous, scarce",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "organismQuantityType": {
+                "allowed": {
+                    "constraint": "abundance",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "phylum": {
+                "allowed": {
+                    "constraint": "Arthropoda",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "recordedBy": {
+                "delimitedvalues": {
+                    "constraint": "",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "rightsHolder": {
+                "allowed": {
+                    "constraint": "INBO",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "scientificName": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "scientificNameAuthorship": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "sex": {
+                "allowed_delimitedvalue": {
+                    "constraint": "male, female",
+                    "failed_rows": 9910,
+                    "passed_rows": 36924,
+                    "samples": {
+                        "female: 1": {
+                            "failed_rows": 4126,
+                            "first_row": 21,
+                            "message": "unallowed value female: 1"
+                        },
+                        "female: 2": {
+                            "failed_rows": 575,
+                            "first_row": 19,
+                            "message": "unallowed value female: 2"
+                        },
+                        "female: 3": {
+                            "failed_rows": 207,
+                            "first_row": 18,
+                            "message": "unallowed value female: 3"
+                        },
+                        "female: 4": {
+                            "failed_rows": 122,
+                            "first_row": 28,
+                            "message": "unallowed value female: 4"
+                        },
+                        "male: 1": {
+                            "failed_rows": 3601,
+                            "first_row": 19,
+                            "message": "unallowed value male: 1"
+                        },
+                        "male: 10": {
+                            "failed_rows": 158,
+                            "first_row": 1100,
+                            "message": "unallowed value male: 10"
+                        },
+                        "male: 2": {
+                            "failed_rows": 767,
+                            "first_row": 43,
+                            "message": "unallowed value male: 2"
+                        },
+                        "male: 3": {
+                            "failed_rows": 392,
+                            "first_row": 1084,
+                            "message": "unallowed value male: 3"
+                        },
+                        "male: 4": {
+                            "failed_rows": 151,
+                            "first_row": 1102,
+                            "message": "unallowed value male: 4"
+                        },
+                        "male: 5": {
+                            "failed_rows": 274,
+                            "first_row": 1083,
+                            "message": "unallowed value male: 5"
+                        }
+                    }
+                },
+                "delimitedvalues": {
+                    "constraint": "",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "stateProvince": {
+                "allowed": {
+                    "constraint": "Antwerp, East Flanders, Flemish Brabant, Limburg, West Flanders",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "taxonRank": {
+                "allowed": {
+                    "constraint": "species",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "type": {
+                "allowed": {
+                    "constraint": "Event, PhysicalObject, Sound, StillImage, Text",
+                    "failed_rows": 46834,
+                    "passed_rows": 0,
+                    "samples": {
+                        "event": {
+                            "failed_rows": 32484,
+                            "first_row": 4,
+                            "message": "unallowed value event"
+                        },
+                        "physicalObject": {
+                            "failed_rows": 10025,
+                            "first_row": 1,
+                            "message": "unallowed value physicalObject"
+                        },
+                        "sound": {
+                            "failed_rows": 2195,
+                            "first_row": 681,
+                            "message": "unallowed value sound"
+                        },
+                        "stillImage": {
+                            "failed_rows": 3,
+                            "first_row": 26085,
+                            "message": "unallowed value stillImage"
+                        },
+                        "text": {
+                            "failed_rows": 2127,
+                            "first_row": 524,
+                            "message": "unallowed value text"
+                        }
+                    }
+                },
+                "allowed_if_1": {
+                    "constraint": "Event, Sound, StillImage, Text",
+                    "failed_rows": 2134,
+                    "passed_rows": 44700,
+                    "samples": {
+                        "event": {
+                            "failed_rows": 3,
+                            "first_row": 35029,
+                            "message": "unallowed value event"
+                        },
+                        "sound": {
+                            "failed_rows": 4,
+                            "first_row": 4145,
+                            "message": "unallowed value sound"
+                        },
+                        "text": {
+                            "failed_rows": 2127,
+                            "first_row": 524,
+                            "message": "unallowed value text"
+                        }
+                    }
+                },
+                "allowed_if_2": {
+                    "constraint": "PhysicalObject",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_2": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "verbatimCoordinateSystem": {
+                "allowed": {
+                    "constraint": "UTM 1km, UTM 5km, Belgian Lambert 72",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "verbatimCoordinates": {
+                "allowed_if_3": {
+                    "constraint": "",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_2": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_3": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "regex_if_1": {
+                    "constraint": "31U[D-G][S-T]\\d\\d\\d\\d",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "regex_if_2": {
+                    "constraint": "31U[D-G][S-T]\\d\\d[A-D]",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "verbatimEventDate": {
+                "dateformat": {
+                    "constraint": "%Y-%m-%d/%Y-%m-%d, %Y-%m/%Y-%m, %Y/%Y",
+                    "failed_rows": 44754,
+                    "passed_rows": 2080,
+                    "samples": {
+                        "1984-08": {
+                            "failed_rows": 222,
+                            "first_row": 3801,
+                            "message": "string format of value '1984-08' not compliant with '['%Y-%m-%d/%Y-%m-%d', '%Y-%m/%Y-%m', '%Y/%Y']'"
+                        },
+                        "1985": {
+                            "failed_rows": 575,
+                            "first_row": 3808,
+                            "message": "string format of value '1985' not compliant with '['%Y-%m-%d/%Y-%m-%d', '%Y-%m/%Y-%m', '%Y/%Y']'"
+                        },
+                        "1999": {
+                            "failed_rows": 482,
+                            "first_row": 3077,
+                            "message": "string format of value '1999' not compliant with '['%Y-%m-%d/%Y-%m-%d', '%Y-%m/%Y-%m', '%Y/%Y']'"
+                        },
+                        "2005-08": {
+                            "failed_rows": 207,
+                            "first_row": 460,
+                            "message": "string format of value '2005-08' not compliant with '['%Y-%m-%d/%Y-%m-%d', '%Y-%m/%Y-%m', '%Y/%Y']'"
+                        },
+                        "2005-08-08": {
+                            "failed_rows": 300,
+                            "first_row": 2701,
+                            "message": "string format of value '2005-08-08' not compliant with '['%Y-%m-%d/%Y-%m-%d', '%Y-%m/%Y-%m', '%Y/%Y']'"
+                        },
+                        "2005-08-09": {
+                            "failed_rows": 372,
+                            "first_row": 704,
+                            "message": "string format of value '2005-08-09' not compliant with '['%Y-%m-%d/%Y-%m-%d', '%Y-%m/%Y-%m', '%Y/%Y']'"
+                        },
+                        "2005-08-10": {
+                            "failed_rows": 287,
+                            "first_row": 724,
+                            "message": "string format of value '2005-08-10' not compliant with '['%Y-%m-%d/%Y-%m-%d', '%Y-%m/%Y-%m', '%Y/%Y']'"
+                        },
+                        "2005-08-13": {
+                            "failed_rows": 294,
+                            "first_row": 2693,
+                            "message": "string format of value '2005-08-13' not compliant with '['%Y-%m-%d/%Y-%m-%d', '%Y-%m/%Y-%m', '%Y/%Y']'"
+                        },
+                        "2006-08": {
+                            "failed_rows": 210,
+                            "first_row": 1279,
+                            "message": "string format of value '2006-08' not compliant with '['%Y-%m-%d/%Y-%m-%d', '%Y-%m/%Y-%m', '%Y/%Y']'"
+                        },
+                        "2006-09-05": {
+                            "failed_rows": 205,
+                            "first_row": 2245,
+                            "message": "string format of value '2006-09-05' not compliant with '['%Y-%m-%d/%Y-%m-%d', '%Y-%m/%Y-%m', '%Y/%Y']'"
+                        }
+                    }
+                },
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "verbatimLatitude": {
+                "allowed_if_2": {
+                    "constraint": "",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_2": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "max_if_1": {
+                    "constraint": "246072",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "min_if_1": {
+                    "constraint": "21829",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "numberformat_if_1": {
+                    "constraint": "x",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "verbatimLongitude": {
+                "allowed_if_2": {
+                    "constraint": "",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_2": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "max_if_1": {
+                    "constraint": "297889",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "min_if_1": {
+                    "constraint": "22344",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "numberformat_if_1": {
+                    "constraint": "x",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "verbatimSRS": {
+                "allowed_if_1": {
+                    "constraint": "ED50",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "allowed_if_2": {
+                    "constraint": "Belgian Datum 1972",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "allowed_if_3": {
+                    "constraint": "",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_1": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_2": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                },
+                "empty_if_3": {
+                    "constraint": "True",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            },
+            "vernacularName": {
+                "empty": {
+                    "constraint": "False",
+                    "failed_rows": 0,
+                    "passed_rows": 46834,
+                    "samples": {}
+                }
+            }
+        },
+        "total_rows": 46834,
+        "unknown_fields": [
+            "verbatimCoordinates",
+            "eventID",
+            "vernacularName",
+            "occurrenceRemarks",
+            "verbatimLongitude",
+            "organismQuantityType",
+            "stateProvince",
+            "verbatimLatitude",
+            "behavior",
+            "georeferenceRemarks",
+            "license",
+            "verbatimSRS",
+            "verbatimCoordinateSystem",
+            "organismQuantity"
+        ],
+        "unspecified_fields": [
+            "catalogNumber",
+            "ownerInstitutionCode",
+            "dataGeneralizations",
+            "modified"
+        ],
+        "warnings": [
+            "Following fields mentioned inside if specifications do not exist inside the document: 'organismQuantityType, verbatimCoordinateSystem, organismQuantity'"
+        ]
+    }
+}
