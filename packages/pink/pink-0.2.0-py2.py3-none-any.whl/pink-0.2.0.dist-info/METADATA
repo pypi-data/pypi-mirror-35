@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pink
+Version: 0.2.0
+Summary: reformatted code via the command line.
+Home-page: https://github.com/chenjiandongx/pink
+Author: chenjiandongx
+Author-email: chenjiandongx@qq.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: black
+Requires-Dist: glob2
+
+UNKNOWN
+
+
