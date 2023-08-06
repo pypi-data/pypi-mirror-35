@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dpaycli/__init__.py
+dpaycli/__main__.py
+dpaycli/ui.py
+dpaycli.egg-info/PKG-INFO
+dpaycli.egg-info/SOURCES.txt
+dpaycli.egg-info/dependency_links.txt
+dpaycli.egg-info/entry_points.txt
+dpaycli.egg-info/not-zip-safe
+dpaycli.egg-info/requires.txt
+dpaycli.egg-info/top_level.txt
