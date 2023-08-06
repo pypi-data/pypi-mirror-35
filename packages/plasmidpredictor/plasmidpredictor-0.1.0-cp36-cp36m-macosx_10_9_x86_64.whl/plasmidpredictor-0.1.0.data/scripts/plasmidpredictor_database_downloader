@@ -1,0 +1,30 @@
+#!python
+
+import argparse
+import sys
+import os
+import pkg_resources
+sys.path.append('../')
+sys.path.append('./')
+from plasmidpredictor.PlasmidPredictorDatabaseDownloader import PlasmidPredictorDatabaseDownloader
+from plasmidpredictor.InputTypes import InputTypes
+
+version = ''
+try:
+	version = pkg_resources.get_distribution("plasmidpredictor").version
+except pkg_resources.DistributionNotFound:
+	version = 'x.y.z'
+
+parser = argparse.ArgumentParser(
+	description = 'Download PlasmidFinder database',
+	usage = 'plasmidpredictor_database_downloader [options] output_prefix',
+	formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+
+parser.add_argument('output_prefix', help='Output prefix')
+parser.add_argument('--verbose', '-v', action='store_true', help='Turn on debugging')
+parser.add_argument('--version', action='version', version=str(version))
+
+options = parser.parse_args()
+
+plasmidpredictor = PlasmidPredictorDatabaseDownloader(options)
+plasmidpredictor.run()
