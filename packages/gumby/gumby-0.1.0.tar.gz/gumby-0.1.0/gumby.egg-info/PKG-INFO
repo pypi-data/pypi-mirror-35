@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: gumby
+Version: 0.1.0
+Summary: Stretch polygonal meshes in segments along an axis
+Home-page: https://github.com/metabolize/gumby
+Author: Metabolize
+Author-email: github@paulmelnikow.com
+License: The MIT License (MIT)
+Copyright (c) 2018 Paul Melnikow
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Description: gumby
+        =====
+        
+        Stretch polygonal meshes in segments along an axis.
+        
+        Installation
+        ------------
+        
+        Requires Python 2.7.
+        
+        ```sh
+        pip install gumby
+        ```
+        
+        Contribute
+        ----------
+        
+        - Issue Tracker: https://github.com/metabolize/gumby/issues
+        - Source Code: https://github.com/metabolize/gumby
+        
+        Pull requests welcome!
+        
+        Support
+        -------
+        
+        If you are having issues, please let me know.
+        
+        
+        License
+        -------
+        
+        The project is licensed under the MIT license.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Description-Content-Type: text/markdown
