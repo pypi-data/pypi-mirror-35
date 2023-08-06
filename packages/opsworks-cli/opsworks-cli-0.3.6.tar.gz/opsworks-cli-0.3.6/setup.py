@@ -1,0 +1,25 @@
+from setuptools import setup, find_packages
+from codecs import open
+from os import path
+from io import open
+
+setup(
+    name='opsworks-cli',
+    description='A simple python module to work with aws opsworks',
+    url='https://github.com/chaturanga50/opsworks-cli',
+    author='Chathuranga Abeyrathna',
+    author_email='chaturanga50@gmail.com',
+    include_package_data=True,
+    version='0.3.6',
+    scripts=['opsworks-cli'],
+    data_files=[('modules',
+                 [
+                     'modules/__init__.py',
+                     'modules/common_functions.py',
+                     'modules/common_help.py',
+                     'modules/execute_recipes.py',
+                     'modules/setup.py',
+                     'modules/update_custom_cookbooks.py'
+                 ]
+                 )],
+)
