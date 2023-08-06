@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: gentool
+Version: 1.0.0
+Summary: 
+A simple  cli for interacting with the file system.
+
+Home-page: https://github.com/EricSekyere/gtools
+Author: Eric Sekyere
+Author-email: ericsekyere1@gmail.com
+License: MIT
+Description: gtools is a simple python general tool cli to interact with the file systems
+        in windows/linux
+        
+        The tool can perform operations like unnziping files in folders recursively
+Keywords: command line interface cli python filesystem
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
