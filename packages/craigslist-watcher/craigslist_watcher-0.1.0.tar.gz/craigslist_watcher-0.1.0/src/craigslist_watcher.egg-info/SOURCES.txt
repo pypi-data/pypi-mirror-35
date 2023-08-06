@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/craigslist_watcher/__init__.py
+src/craigslist_watcher/cli.py
+src/craigslist_watcher/watcher.py
+src/craigslist_watcher.egg-info/PKG-INFO
+src/craigslist_watcher.egg-info/SOURCES.txt
+src/craigslist_watcher.egg-info/dependency_links.txt
+src/craigslist_watcher.egg-info/entry_points.txt
+src/craigslist_watcher.egg-info/not-zip-safe
+src/craigslist_watcher.egg-info/requires.txt
+src/craigslist_watcher.egg-info/top_level.txt
