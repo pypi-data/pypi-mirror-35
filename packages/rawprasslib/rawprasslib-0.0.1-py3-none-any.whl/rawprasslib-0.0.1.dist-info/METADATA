@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rawprasslib
+Version: 0.0.1
+Summary: Thermo/Finnigan .raw file format reader
+Home-page: https://gitlab.science.ru.nl/jzelenka/rawprasslib
+Author: Erik Andris, Jan Zelenka
+Author-email: 3yanyanyan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires: numpy
+
+UNKNOWN
+
+
