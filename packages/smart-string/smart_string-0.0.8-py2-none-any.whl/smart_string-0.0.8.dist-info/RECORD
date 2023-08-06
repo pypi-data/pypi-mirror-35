@@ -1,0 +1,15 @@
+smart_str/__init__.py,sha256=bFju3byThrwlD6e-r7u_PSH58FV9414wXgVuLmqjuWM,219
+smart_str/code_point.py,sha256=6e_yK8jzQBGe1M_U1d-6bqGCpmGL-WZHyKUYI7F4PLg,11822
+smart_str/smart_char.py,sha256=joBC50rONNdnvmSRONF8zTKh6AVeFsa-2tYC-Mf4Y0M,3122
+smart_str/smart_str.py,sha256=xx2l187N0UPPxVP6HKaUOTEb-wv3T7lINb2H_kYcA4c,14443
+smart_str/smart_str_constants.py,sha256=GZHfQCwyqdx9AhxtLvXo-PgOpFA0p-8z4dT-v3H0g1s,178
+smart_str/example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smart_str/example/smart_str_example.py,sha256=SIP31SBeoKPMmr2ZC21vDSksDL8hafgck4yDMf4A2o4,7876
+smart_str/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smart_str/tests/test_code_point.py,sha256=oRkK7f4qrlMWaWLuymWKAT0NgvOsl6NJS9ifcKO3T8U,7799
+smart_str/tests/test_smart_char.py,sha256=EBdTYNK7sW9i2ZCxpmgRxVmQSieD6goLBqRHCUQrC1c,3684
+smart_str/tests/test_smart_str.py,sha256=X7zzFPFYYy_eXeIzc7Bc9C9BNJGPYRON4IpcdwlYD7c,7256
+smart_string-0.0.8.dist-info/METADATA,sha256=TLVxDIikDnwkol5db1WcRy8YPsK8wkxQI1emOjURRYI,2202
+smart_string-0.0.8.dist-info/RECORD,,
+smart_string-0.0.8.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+smart_string-0.0.8.dist-info/top_level.txt,sha256=onla-2SGsnoPXL-pa4x9Bw-Y81cu0ZokXqiA_y-kPpc,10
