@@ -1,0 +1,9 @@
+README.md
+setup.py
+create-subject/__init__.py
+create-subject/app.py
+create-subject/example.py
+create_subject.egg-info/PKG-INFO
+create_subject.egg-info/SOURCES.txt
+create_subject.egg-info/dependency_links.txt
+create_subject.egg-info/top_level.txt
