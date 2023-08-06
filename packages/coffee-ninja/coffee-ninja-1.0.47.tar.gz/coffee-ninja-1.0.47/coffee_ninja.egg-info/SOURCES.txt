@@ -1,0 +1,7 @@
+README.md
+setup.py
+coffee-ninja/__init__.py
+coffee_ninja.egg-info/PKG-INFO
+coffee_ninja.egg-info/SOURCES.txt
+coffee_ninja.egg-info/dependency_links.txt
+coffee_ninja.egg-info/top_level.txt
