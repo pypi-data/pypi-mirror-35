@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: yann
+Version: 0.0.8
+Summary: yet another neural network library
+Home-page: https://github.com/michalwols/yann
+Author: Michal Wolski
+Author-email: michal@bite.ai
+License: MIT
+Description: 
+        # yann - Yet Another Neural Network Library
+        
+        
+Platform: UNKNOWN
