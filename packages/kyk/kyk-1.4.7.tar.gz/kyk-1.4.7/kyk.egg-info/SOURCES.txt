@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+kyk/__init__.py
+kyk/kyk
+kyk/kyk.py
+kyk.egg-info/PKG-INFO
+kyk.egg-info/SOURCES.txt
+kyk.egg-info/dependency_links.txt
+kyk.egg-info/requires.txt
+kyk.egg-info/top_level.txt
