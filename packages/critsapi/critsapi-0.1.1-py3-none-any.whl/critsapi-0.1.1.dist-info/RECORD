@@ -1,0 +1,9 @@
+critsapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+critsapi/critsapi.py,sha256=7V0031gBl5pwO1ZpAYY-cT8BBI1NSltStLULQpBcXhk,29711
+critsapi/critsdbapi.py,sha256=P00FfYg6hIQJt5PXa-zgByxE9-DzjqOwKxiWS0zfjmM,7433
+critsapi/exceptions.py,sha256=ih5gdNNI-gu1Hdc8-S3fpL4lg1u-fZsl8rGX8lvTdIQ,192
+critsapi/vocabulary.py,sha256=--WCIvHeq0O6BnKcJ4ZBpVxeMlYLzQpCxOMOD2y-HV8,5429
+critsapi-0.1.1.dist-info/METADATA,sha256=EqGX_R4AGs_zmh9hnAD4TjanXrm0QwbcY7tnTCNYyxg,1030
+critsapi-0.1.1.dist-info/RECORD,,
+critsapi-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+critsapi-0.1.1.dist-info/top_level.txt,sha256=QvQSFUtAN_U99Exii2BEOBs1ihD37LpUz2D0qjt4V2o,9
