@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: xmasclock
+Version: 0.0.1
+Summary: Countdown until Christmas executable
+Home-page: https://github.com/SirJakesalot/xmasclock.git
+Author: Jacob Armentrout
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+# Xmas Clock: Christmas countdown timer :santa: :thumbsup:
+
+## Sample Usage :christmas_tree:
+```bash
+$ xmasclock.py days
+days until xmas: 114
+$
+$ xmasclock.py seconds
+seconds until xmas: 9869129
+```
+
+## Installation
+```bash
+# easy peasy, pip3 can be used as well
+$ pip install xmasclock
+```
+
+
