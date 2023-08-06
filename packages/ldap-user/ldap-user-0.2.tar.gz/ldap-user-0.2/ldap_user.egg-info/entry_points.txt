@@ -1,0 +1,3 @@
+[console_scripts]
+jy-ldap-config = ldap_user.cli:create_config
+
