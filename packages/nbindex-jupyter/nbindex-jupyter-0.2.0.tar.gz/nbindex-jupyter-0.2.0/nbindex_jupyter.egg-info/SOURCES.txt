@@ -1,0 +1,11 @@
+README.md
+setup.py
+nbindex/__init__.py
+nbindex/floating.py
+nbindex/inline.py
+nbindex/numbered.py
+nbindex/utils.py
+nbindex_jupyter.egg-info/PKG-INFO
+nbindex_jupyter.egg-info/SOURCES.txt
+nbindex_jupyter.egg-info/dependency_links.txt
+nbindex_jupyter.egg-info/top_level.txt
