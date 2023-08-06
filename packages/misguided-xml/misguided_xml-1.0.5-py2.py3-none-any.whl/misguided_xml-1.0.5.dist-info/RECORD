@@ -1,0 +1,9 @@
+misguided_xml/__init__.py,sha256=l7MbYJMjX6WvWcL3md2OQFjoaV4lp7nK7qPB1uatoqA,585
+misguided_xml/xml.py,sha256=Ahs-gH1JAlcIXLGyp84ffJVuYqkaaVFb0PVGKVz7Usk,40693
+misguided_xml/old_unit_tests/__init__.py,sha256=4eGbvYNO6GxFwUmuaDViUonDF716JdsrJFJcE2y59mw,302
+misguided_xml/old_unit_tests/xml__test.py,sha256=_I20Z4ne29L6nyNenoIxvkAXG_4Pl9Uzj_YkGebXMXQ,22168
+misguided_xml-1.0.5.dist-info/METADATA,sha256=rGmp2KRLNEtzj5fnX-cDzwuxJg3NR1aUlIrEE5IpGZE,17879
+misguided_xml-1.0.5.dist-info/RECORD,,
+misguided_xml-1.0.5.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+misguided_xml-1.0.5.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+misguided_xml-1.0.5.dist-info/top_level.txt,sha256=sjdM5VnSvDr7ChEXtO-jCRQNUj3d591D3Ty--sjsk08,14
