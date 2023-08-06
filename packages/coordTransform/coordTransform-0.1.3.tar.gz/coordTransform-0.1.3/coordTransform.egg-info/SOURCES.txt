@@ -1,0 +1,7 @@
+README.md
+README.rst
+setup.py
+coordTransform.egg-info/PKG-INFO
+coordTransform.egg-info/SOURCES.txt
+coordTransform.egg-info/dependency_links.txt
+coordTransform.egg-info/top_level.txt
