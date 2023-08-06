@@ -1,0 +1,74 @@
+Metadata-Version: 1.1
+Name: scihub
+Version: 0.0.1
+Summary: Unofficial scihub API
+Home-page: https://github.com/alejandrogallo/python-scihub
+Author: Alejandro Gallo
+Author-email: aamsgallo@gmail.com
+License: GPLv3
+Description: SciHub |Python| |Build Status| |Pypi|
+        ======
+        
+        ``scihub`` is an unofficial API for sci-hub.cc. scihub.py can download
+        papers from ``sci-hub``.
+        
+        If you believe in open access to scientific papers, please donate to
+        Sci-Hub.
+        
+        Setup
+        -----
+        
+        ::
+        
+            pip install scihub
+        
+        Usage
+        -----
+        
+        fetch
+        ~~~~~
+        
+        .. code:: python
+        
+            from scihub import SciHub
+        
+            sh = SciHub()
+        
+            # fetch specific article (don't download to disk)
+            # this will return a dictionary in the form 
+            # {'pdf': PDF_DATA,
+            #  'url': SOURCE_URL
+            # }
+            result = sh.fetch('http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1648853')
+        
+            with open('output.pdf', 'wb+') as fd:
+                fd.write(result['pdf'])
+        
+        License
+        -------
+        
+        MIT
+        
+        .. |Python| image:: https://img.shields.io/badge/Python-3%2B-blue.svg
+           :target: https://www.python.org
+        .. |Build Status| image:: https://travis-ci.org/alejandrogallo/python-scihub.svg?branch=master
+           :target: https://travis-ci.org/alejandrogallo/python-scihub
+        .. |Pypi| image:: https://badge.fury.io/py/scihub.svg
+           :target: https://badge.fury.io/py/scihub
+        
+Keywords: bibtex,scihub,api,sci-hub,management,cli,biliography
+Platform: linux
+Platform: osx
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities

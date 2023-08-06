@@ -1,0 +1,8 @@
+README.rst
+setup.py
+scihub/__init__.py
+scihub.egg-info/PKG-INFO
+scihub.egg-info/SOURCES.txt
+scihub.egg-info/dependency_links.txt
+scihub.egg-info/requires.txt
+scihub.egg-info/top_level.txt
