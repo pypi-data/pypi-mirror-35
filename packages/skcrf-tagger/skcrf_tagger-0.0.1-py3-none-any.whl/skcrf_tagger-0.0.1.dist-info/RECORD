@@ -1,0 +1,12 @@
+skcrf_tagger/__init__.py,sha256=l4cjh9M4lcGka-bFRDGhjoa4mZ0d5uSZxS4-VWDOzxM,40
+skcrf_tagger/tagger.py,sha256=oE-qOXFNxa6CJ1KmY2L-qBq8HgqmAvRel-sA6sT7tlM,3621
+skcrf_tagger/utils.py,sha256=JAF16U7XFOxIBS5GRO7FIBz0vruSTLTtoNgTadzVOms,3732
+skcrf_tagger-0.0.1.dist-info/DESCRIPTION.rst,sha256=Kfeiv9rBxeorh3f2jgZENv_8LSiDIk6AB2t4RfyKcPU,21
+skcrf_tagger-0.0.1.dist-info/METADATA,sha256=VAutoN-EeQ4-O8f6VTPpdlBdGwVk4bu50oa7F7mM3Mo,435
+skcrf_tagger-0.0.1.dist-info/RECORD,,
+skcrf_tagger-0.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+skcrf_tagger-0.0.1.dist-info/metadata.json,sha256=34xmOMc64FTAht_SoEFO1vxs81YCqOj1xbeu3ybl93Y,633
+skcrf_tagger-0.0.1.dist-info/top_level.txt,sha256=a9-f1S9RC635ewvnfjWkG81D8NMJKth1Rlqt2EZYaFA,19
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__main__.py,sha256=fDWQq6DeEPmVVMPK5CDDI0IvO8RA47XMsdmmSKqLVCE,1322
+tests/test_ner.py,sha256=vmFppLBnjUqSssAZ_XERl4jSBl4m4Fsi-WuRmsetiS0,1155
