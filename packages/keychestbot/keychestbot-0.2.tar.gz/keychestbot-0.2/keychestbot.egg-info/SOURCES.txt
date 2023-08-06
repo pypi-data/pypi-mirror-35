@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+keychestbot/__init__.py
+keychestbot/__main__.py
+keychestbot/bot.py
+keychestbot/setup.cfg
+keychestbot.egg-info/PKG-INFO
+keychestbot.egg-info/SOURCES.txt
+keychestbot.egg-info/dependency_links.txt
+keychestbot.egg-info/entry_points.txt
+keychestbot.egg-info/requires.txt
+keychestbot.egg-info/top_level.txt

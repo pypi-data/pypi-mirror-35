@@ -1,0 +1,4 @@
+include LICENSE
+include keychestbot/*
+include *.sh
+include *.md
