@@ -1,0 +1,8 @@
+sitemap_builder/__init__.py,sha256=KM5DjUj28LwbO5nWPoZuiRanUHv9s675KSdwCl07Tws,26
+sitemap_builder/sitemap.py,sha256=HyiQ-qn40pz_E4UT9PyILddW3FqOWdS7g0cLyU-gXCU,3274
+sitemap_builder/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sitemap_builder/tests/test_basic.py,sha256=K3-TL3gFyovrn02fs-oKz1t47ly2fMx-aFCVEkjWAFM,575
+sitemap_builder-0.0.1.dist-info/METADATA,sha256=MFQrxPyXLgiLvelH9a_h_S5snqoQ0ivxZdU9tN_rhVI,1267
+sitemap_builder-0.0.1.dist-info/RECORD,,
+sitemap_builder-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sitemap_builder-0.0.1.dist-info/top_level.txt,sha256=gXh7KKnl3zchkT-sGm7_5SEPZWPDTvHCQm9IpLJStXQ,16
