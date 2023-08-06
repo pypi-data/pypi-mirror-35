@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tradeoftimes
+Version: 0.1.5
+Summary: Trade of Times: an experimental, demonstrative single & multiplayer RPG game, based on top of Peertable.
+Home-page: UNKNOWN
+Author: Gustavo6046
+Author-email: gugurehermann@gmail.com
+License: MIT
+Description: # Trade of Times
+        
+        **WARNING: Currently in test stage! EXPECT errors.**
+        
+        Trade of Times is an experimental, demonstrative RPG game,
+        which supports both singleplayer and multiplayer modes. Its
+        multiplayer (primary focus and demonstration) is peer-to-peer,
+        and based on Peertable; while its GUI is based on wxPython.
+Keywords: p2p peer-to-peer peer network infrastructure game test experimental protocol demo rpg multiplayer
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
