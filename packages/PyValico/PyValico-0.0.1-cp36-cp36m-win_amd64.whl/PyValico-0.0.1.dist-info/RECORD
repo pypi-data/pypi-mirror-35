@@ -1,0 +1,7 @@
+PyValico-0.0.1.dist-info/METADATA,sha256=HTVYJXreL4zP0ojsdjs2jY_tc4n9ckBluIZ0fFXLJyM,1003
+PyValico-0.0.1.dist-info/RECORD,,
+PyValico-0.0.1.dist-info/WHEEL,sha256=xq3J6sB2oJqjv0tDC7tGUGvne1fOugw1JUmk86QA7UM,106
+PyValico-0.0.1.dist-info/top_level.txt,sha256=4rWly7JBL2mi-I6sw1Brvl9CSiA6pJEgSVTTnPxN7Wg,7
+valico/__init__.py,sha256=kQePuBSEyY5OMHCtap981mVkxJ_RaJGcPpx9Sp1yT0w,22
+valico/valico.cp36-win_amd64.pyd,sha256=71Bg8TPZmignJ4nOX4MBQmjq2cUOP_u8FVtrJTzHXaA,7120838
+valico/valico.cpython-36m-x86_64-linux-gnu.so,sha256=xtw2e1hdnM-n1eYDqKWf-Lk16QtAFsMKrRM8sTfQaF4,4436048
