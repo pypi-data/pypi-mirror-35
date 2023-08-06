@@ -1,0 +1,12 @@
+jupyter_micropython_remote-1.1.dist-info/METADATA,sha256=kYIorcQwE3XSCrhQScpsCJYe9k9RzJn6kfQtzL9BSXg,5991
+jupyter_micropython_remote-1.1.dist-info/RECORD,,
+jupyter_micropython_remote-1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+jupyter_micropython_remote-1.1.dist-info/top_level.txt,sha256=e20K2I6V_u0Q-uPUOhkbT513gJpj3LuogCcLsSPbWwU,11
+mpy_kernel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mpy_kernel/__main__.py,sha256=bSQ1hMLYd9DZ5L_sz-b8yK98zLEBDC3wVmuFNcWW5mQ,212
+mpy_kernel/install.py,sha256=zReNYyPYdxnn0tL0ENGHnukNqYvGLvk-iEZX7S5-tQs,2290
+mpy_kernel/kernel.py,sha256=veBe-f7pEAk2OyAIsGbuRPsP7s7ds7xbTdU7gYaLfhw,24117
+mpy_kernel/mprepl.py,sha256=noZfC4nNdZwTyel0FAFpxTOcFMZTgjBzOa8p9gtmPxA,15963
+mpy_kernel/mprepl_hook.py,sha256=9_K3AUvcFXYpREk6ChRYYkzv2lqlbJRbWfiYX0-CYUg,6622
+mpy_kernel/mprepl_utils.py,sha256=Hpau8ASfec10eSSV5cX3gK1Czvojdb-uWE7WKDd-Yro,5339
+mpy_kernel/pyboard.py,sha256=UledLxTO3N9mSwWvdF6ecdyn2dN91D2LY_EFgDpNMnw,16384
