@@ -1,0 +1,8 @@
+NWShell.py
+ShellCommands.py
+nwshell
+setup.py
+NWShell.egg-info/PKG-INFO
+NWShell.egg-info/SOURCES.txt
+NWShell.egg-info/dependency_links.txt
+NWShell.egg-info/top_level.txt

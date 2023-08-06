@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+from NWShell import *
+
+attributes = parseArguments()
+missed = False
+for attr in attributes:
+  if(attributes[attr] == None):
+    print("[ERROR] Missing command line argument " + attr + ".")
+    missed = True
+
+if(not missed):
+  sh = NWShell(attributes["ip"],
+               attributes["port"],
+               attributes["client"],
+               attributes["initial"],
+               attributes["recvbuff"],
+               attributes["interactive"],
+               attributes["lpersist"],
+               attributes["execRecv"],
+               attributes["execVar"])
