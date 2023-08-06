@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: becca-viz
+Version: 0.10.0
+Summary: Visualization tools for Becca
+Home-page: http://github.com/brohrer/becca_viz
+Author: Brandon Rohrer
+Author-email: brohrer@gmail.com
+License: MIT
+Download-URL: https://github.com/brohrer/becca_viz/archive/master.zip
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
