@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: machinae
+Version: 1.4.4
+Summary: Machinae Security Intelligence Collector
+Home-page: http://hurricanelabs.github.io/machinae/
+Author: Steve McMaster
+Author-email: mcmaster@hurricanelabs.com
+License: UNKNOWN
+Description: Machinae is a tool for collecting intelligence from public sites/feeds about various security-related pieces of data: IP addresses, domain names, URLs, email addresses, file hashes and SSL fingerprints.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 5 - Production/Stable
