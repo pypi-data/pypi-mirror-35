@@ -1,0 +1,7 @@
+aioldap/__init__.py,sha256=tW-Ccqh2HEyb4AuWK4nbEv3zB7HpH1TrhfwAhZs5WDQ,110
+aioldap/connection.py,sha256=NbT3axtQ9XYHuOSug3wIfdL-_2SDx77JRDjrqXhk97I,25875
+aioldap/exceptions.py,sha256=OKBu-2Opnds_W1toRp46eumqthQXUb4ljZ7RxdTo5EM,413
+aioldap-0.4.2.dist-info/METADATA,sha256=YAHBbQX-ll2bp3CC0vWOwm2EsvdbiPaEXzrW5ObI8pU,3407
+aioldap-0.4.2.dist-info/RECORD,,
+aioldap-0.4.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+aioldap-0.4.2.dist-info/top_level.txt,sha256=wLADMmovoWQXBHd7N4kzdri4HFn4SV9RmJSM5hlL7DI,8
