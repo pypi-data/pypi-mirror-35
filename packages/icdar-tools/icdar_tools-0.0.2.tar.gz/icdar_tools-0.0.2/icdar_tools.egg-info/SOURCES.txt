@@ -1,0 +1,11 @@
+README.rst
+setup.py
+icdar_tools/__init__.py
+icdar_tools/data_util.py
+icdar_tools/icd_util.py
+icdar_tools/icdar.py
+icdar_tools/locality_aware_nms.py
+icdar_tools.egg-info/PKG-INFO
+icdar_tools.egg-info/SOURCES.txt
+icdar_tools.egg-info/dependency_links.txt
+icdar_tools.egg-info/top_level.txt
