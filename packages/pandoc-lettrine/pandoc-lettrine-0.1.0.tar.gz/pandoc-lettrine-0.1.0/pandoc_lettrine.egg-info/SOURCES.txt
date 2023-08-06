@@ -1,0 +1,14 @@
+AUTHORS
+ChangeLog
+LICENSE
+MANIFEST.in
+README.md
+ez_setup.py
+lettrine.py
+setup.py
+pandoc_lettrine.egg-info/PKG-INFO
+pandoc_lettrine.egg-info/SOURCES.txt
+pandoc_lettrine.egg-info/dependency_links.txt
+pandoc_lettrine.egg-info/entry_points.txt
+pandoc_lettrine.egg-info/requires.txt
+pandoc_lettrine.egg-info/top_level.txt
