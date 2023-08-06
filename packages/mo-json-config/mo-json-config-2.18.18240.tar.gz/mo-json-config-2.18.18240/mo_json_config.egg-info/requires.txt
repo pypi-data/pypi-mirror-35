@@ -1,0 +1,6 @@
+mo-dots>=2.18.18240
+mo-files>=2.18.18240
+mo-future>=2.18.18240
+mo-json>=2.18.18240
+mo-logs>=2.18.18240
+requests
