@@ -1,0 +1,7 @@
+include CHANGES LICENSE README.rst requirements.txt
+recursive-include tests *
+recursive-include docs *
+prune docs/_build
+recursive-include flask_boot/project *
+global-exclude *.pyc
+global-exclude .DS_Store
