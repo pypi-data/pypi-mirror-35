@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: is_domain_free
+Version: 0.0.1
+Summary: Simple package to check if 1 or more domain names are available.
+Home-page: https://github.com/mogosselin/is_domain_free
+Author: Marc-Olivier Gosselin
+Author-email: mogosselin@gmail.com
+License: UNKNOWN
+Description: Simple package to check if a domain name is available or not.
+        
+        The program uses the `whois` system command, which works by default on Mac and Linux.
+        
+        For Windows, you need to install the command from here: https://docs.microsoft.com/en-ca/sysinternals/downloads/whois
+        
+        The program mostly interpret the WHOIS command's results (which is a string) to see if the domain is available or not.
+        
+        *Note:* The results from the WHOIS command are different for different TLDs, so the support for TLDs is limited (io, net, com), but can be extended easily.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
