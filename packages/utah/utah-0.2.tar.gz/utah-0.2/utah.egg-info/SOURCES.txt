@@ -1,0 +1,8 @@
+README.md
+setup.py
+utah/__init__.py
+utah.egg-info/PKG-INFO
+utah.egg-info/SOURCES.txt
+utah.egg-info/dependency_links.txt
+utah.egg-info/not-zip-safe
+utah.egg-info/top_level.txt
