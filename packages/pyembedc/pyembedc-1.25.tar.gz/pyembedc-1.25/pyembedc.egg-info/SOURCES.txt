@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyembedc/__init__.py
+pyembedc.egg-info/PKG-INFO
+pyembedc.egg-info/SOURCES.txt
+pyembedc.egg-info/dependency_links.txt
+pyembedc.egg-info/top_level.txt
+test/test.py
