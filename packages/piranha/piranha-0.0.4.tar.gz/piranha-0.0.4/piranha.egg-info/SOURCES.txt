@@ -1,0 +1,10 @@
+README.md
+setup.py
+piranha/__init__.py
+piranha/__version__.py
+piranha/client.py
+piranha/s3.py
+piranha.egg-info/PKG-INFO
+piranha.egg-info/SOURCES.txt
+piranha.egg-info/dependency_links.txt
+piranha.egg-info/top_level.txt
