@@ -1,0 +1,34 @@
+Metadata-Version: 2.0
+Name: importreqs
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/gstianfu/importreqs
+Author: gstianfu
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Requires-Dist: pip
+
+importreqs
+==========
+
+A simple Python lib for extracting reqs.txt from currently imported libs
+in the context.
+
+Usage
+-----
+
+::
+
+    # import your own projects
+    # for example "import app"
+
+    import importreqs
+
+    print(importreqs.generate_reqs())
+
+
