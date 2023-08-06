@@ -1,0 +1,5 @@
+setup.py
+example_kanchan.egg-info/PKG-INFO
+example_kanchan.egg-info/SOURCES.txt
+example_kanchan.egg-info/dependency_links.txt
+example_kanchan.egg-info/top_level.txt
