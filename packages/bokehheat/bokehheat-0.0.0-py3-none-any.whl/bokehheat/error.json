@@ -1,0 +1,7 @@
+{
+    "root_unknown": "unknown s_root {}.\nknown are left, right, top, bottom.",
+    "y_axis_unique": "df_matrix dataframe index labels are not unique.\n{}",
+    "x_axis_unique": "df_matrix dataframe column labels are not unique.\n{}",
+    "axis_annot_invalid": "corrupted tt_axis_annot axis annotation tuple.\n{}",
+    "the_last_of_us": "nop"
+}
