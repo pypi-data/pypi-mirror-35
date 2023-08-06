@@ -1,0 +1,10 @@
+setup.py
+weebhooks/__init__.py
+weebhooks/embed.py
+weebhooks/errors.py
+weebhooks/weebhooks.py
+weebhooks.egg-info/PKG-INFO
+weebhooks.egg-info/SOURCES.txt
+weebhooks.egg-info/dependency_links.txt
+weebhooks.egg-info/requires.txt
+weebhooks.egg-info/top_level.txt
