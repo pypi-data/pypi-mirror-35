@@ -1,0 +1,14 @@
+README.md
+setup.py
+q2_SCNIC/_SCNIC_methods.py
+q2_SCNIC/__init__.py
+q2_SCNIC/_format.py
+q2_SCNIC/_transformer.py
+q2_SCNIC/_type.py
+q2_SCNIC/citations.bib
+q2_SCNIC/plugin_setup.py
+q2_SCNIC.egg-info/PKG-INFO
+q2_SCNIC.egg-info/SOURCES.txt
+q2_SCNIC.egg-info/dependency_links.txt
+q2_SCNIC.egg-info/entry_points.txt
+q2_SCNIC.egg-info/top_level.txt

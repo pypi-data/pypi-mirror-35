@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: q2-SCNIC
+Version: 2018.6.1
+Summary: QIIME2 plugin for using SCNIC.
+Home-page: https://github.com/shafferm/q2-SCNIC
+Author: Michael Shaffer
+Author-email: michael.shaffer@ucdenver.edu
+License: BSD-3-Clause
+Description: UNKNOWN
+Platform: UNKNOWN
