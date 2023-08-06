@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-contactus
+Version: 0.0.1
+Summary: A simple django contact us application
+Home-page: https://github.com/ibrahimkonuk/django-easycomments
+Author: Ibrahim Konuk
+Author-email: konuk-ibrahim@hotmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
