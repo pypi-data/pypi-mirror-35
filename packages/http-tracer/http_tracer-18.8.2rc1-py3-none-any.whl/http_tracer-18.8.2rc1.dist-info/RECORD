@@ -1,0 +1,9 @@
+http_tracer-18.8.2rc1.dist-info/METADATA,sha256=wLVN38CvI7_rL2_lQ6o7tNjzvexI80SVGAzQm_weD7I,858
+http_tracer-18.8.2rc1.dist-info/RECORD,,
+http_tracer-18.8.2rc1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+http_tracer-18.8.2rc1.dist-info/entry_points.txt,sha256=5QCgw-keDAQSG09qWWjcxhHBPA55UIFBqeWFUyLh_5o,50
+http_tracer-18.8.2rc1.dist-info/top_level.txt,sha256=ZojtXvaeAbuFKtkV-gRgBsLUGQLA40NLVOJLzC2ZUCU,7
+httptracer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+httptracer/tracer.py,sha256=gCqYCWvFE44YPcv24kqWDe9Qlp5_3DDAbzKXQCr3rKI,9876
+tracer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracer/main.py,sha256=CQmshkUYzx9HO3c1UPOW9ja0IelwrXwl4qQk5zOCyF0,9852
