@@ -1,0 +1,9 @@
+gpxplotter/__init__.py,sha256=z9xTsQr3HQUYVIPDuwb-wQnRF07987ctQfAdCcUp2bg,1436
+gpxplotter/common.py,sha256=LL2qin3M-9lqh9JFv5VLPmBKr_LxoEHHYW1toTqoD3I,1476
+gpxplotter/gpxread.py,sha256=qx6Yl1gAtnXj7Zo6sasRL5u4X-Qhr5SV34b1Vgw8SOU,8847
+gpxplotter/mplplotting.py,sha256=tvuEmjtto9BZfyGYazZ3mx4E-3CrFEwRIPEzbu_wOr8,13906
+gpxplotter/version.py,sha256=u3Xr-pPU6G648rFKa76rPTZ0Syqa09ld_2I0NPF2AVY,437
+gpxplotter-0.0.2.dist-info/METADATA,sha256=ovbVBEaOMetpWCws373S4VYl88R8ATOCm0JucCN3568,2894
+gpxplotter-0.0.2.dist-info/RECORD,,
+gpxplotter-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+gpxplotter-0.0.2.dist-info/top_level.txt,sha256=AuGBR8-GbmDTT4KPb10hXuQAvnezSL35UBnS0vQgWSs,11
