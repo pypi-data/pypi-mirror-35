@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: KDEpy
+Version: 0.5.6
+Summary: Kernel Density Estimation in Python.
+Home-page: https://github.com/tommyod/KDEpy
+Author: tommyod
+Author-email: tod001@uib.no
+License: GNU GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: numpy (>=1.14.2)
+Requires-Dist: scipy (>=1.0.1)
+Requires-Dist: setuptools (>=39.2.0)
+
+Kernel Density Estimation in Python.
+
+
