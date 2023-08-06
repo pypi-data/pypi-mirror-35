@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "CampaignID": {
+      "type": "string"
+    },
+    "EmailAddress": {
+      "type": "string"
+    },
+    "ListID": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
