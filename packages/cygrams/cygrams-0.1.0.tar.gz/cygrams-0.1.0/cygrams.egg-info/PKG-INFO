@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: cygrams
+Version: 0.1.0
+Summary: Fast ngrams vocabulary building and BOW/CBOW encoding for machine learning applications
+Home-page: https://github.com/ei-grad/cygrams
+Author: Andrew Grigorev
+Author-email: andrew@ei-grad.ru
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ei-grad/cygrams/issues
+Description: Cygrams
+        =======
+        
+        Calculate top n-grams fast.
+        
+        
+Keywords: ngrams
+sklearn
+machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Cython
