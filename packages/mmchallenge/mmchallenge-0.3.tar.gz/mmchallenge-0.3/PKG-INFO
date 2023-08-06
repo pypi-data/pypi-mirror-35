@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: mmchallenge
+Version: 0.3
+Summary: Challenge package for MagicMakers Python
+Home-page: UNKNOWN
+Author: Team_Conception
+Author-email: guillaume.dupuy@magicmakers.fr
+License: MagicMakers
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7

@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mmchallenge/__init__.py
+mmchallenge/espion.png
+mmchallenge.egg-info/PKG-INFO
+mmchallenge.egg-info/SOURCES.txt
+mmchallenge.egg-info/dependency_links.txt
+mmchallenge.egg-info/not-zip-safe
+mmchallenge.egg-info/requires.txt
+mmchallenge.egg-info/top_level.txt
