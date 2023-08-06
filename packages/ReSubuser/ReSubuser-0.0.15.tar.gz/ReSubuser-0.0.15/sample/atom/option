@@ -1,0 +1,10 @@
+{
+	"rights": {
+		"display": true,
+		"ssh": true,
+		"home": true,
+		"daemon": false,
+		"pwd": true 
+	},
+	"cmd": "/usr/bin/atom -w || /bin/bash"
+}

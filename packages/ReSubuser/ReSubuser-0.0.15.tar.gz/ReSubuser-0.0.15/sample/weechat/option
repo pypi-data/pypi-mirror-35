@@ -1,0 +1,11 @@
+{
+
+"rights": {
+	"display":false,
+	"home":true,
+	"ssh":false,
+	"pwd":false
+},
+
+"cmd":"weechat"
+}
