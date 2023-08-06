@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: funpy
+Version: 0.5.0
+Summary: Functional and Pythonic stdlib
+Home-page: https://git.fmind.me/fmind/funpy
+Author: Médéric Hurier
+Author-email: dev@fmind.me
+License: EUPL-1.2
+Keywords: operator function iterator parallel io
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dist
+Provides-Extra: repl
+Provides-Extra: test
+Provides-Extra: dist
+Requires-Dist: pip; extra == 'dist'
+Requires-Dist: setuptools; extra == 'dist'
+Requires-Dist: twine; extra == 'dist'
+Requires-Dist: wheel; extra == 'dist'
+Provides-Extra: repl
+Requires-Dist: ipython; extra == 'repl'
+Requires-Dist: jedi; extra == 'repl'
+Requires-Dist: ptpdb; extra == 'repl'
+Requires-Dist: ptpython; extra == 'repl'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-black; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-flakes; extra == 'test'
+Requires-Dist: pytest-mypy; extra == 'test'
+
+# funpy
+
+[![pypi](https://img.shields.io/pypi/v/funpy.svg)](https://pypi.python.org/pypi/funpy)
+[![python](https://img.shields.io/pypi/pyversions/funpy.svg)](https://pypi.python.org/pypi/funpy)
+[![license](https://img.shields.io/pypi/l/funpy.svg)](https://pypi.python.org/pypi/funpy)
+
+## Installation
+
+```bash
+pip install funpy
+```
+
+## Documentation
+
+```bash
+pydoc funpy
+```
+
+## Initialization
+
+```bash
+make init
+```
+
+
