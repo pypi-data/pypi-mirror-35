@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+anonymizeip/__init__.py
+anonymizeip/__version__.py
+anonymizeip/anonymize_ip.py
+anonymizeip.egg-info/PKG-INFO
+anonymizeip.egg-info/SOURCES.txt
+anonymizeip.egg-info/dependency_links.txt
+anonymizeip.egg-info/top_level.txt
