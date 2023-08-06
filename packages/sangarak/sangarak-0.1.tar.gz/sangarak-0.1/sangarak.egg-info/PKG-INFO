@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: sangarak
+Version: 0.1
+Summary: Python library for reading matrices from many files and generating a single numpy matrix
+Home-page: https://github.com/rioyokotalab/sangarak
+Author: Sameer Deshmukh
+Author-email: sameer.desmukh93@gmail.com
+License: BSD 3-clause
+Description: # sangarak
+        Python module for collecting distributed matrices from files and creating a single matrix.
+        
+        # Usage
+        
+        Method list:
+        
+        * `read_matrix` - Read the matrix by specifying process IDs and file names.
+        * `read_file` - Read the matrix with lesser arguments by just specifying the file name.
+        
+        # Installation
+        
+        cd into the directory and run `pip install .`.
+        
+        # Testing
+        
+        cd into the root directory of the project and run `python setup.py test`.
+        
+Keywords: numpy,mpi,matrix
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
