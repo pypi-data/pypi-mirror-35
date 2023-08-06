@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: specviz
+Version: 0.5.0
+Summary: An interactive astronomical analysis tool
+Home-page: https://specviz.readthedocs.io
+Author: JDADF Developers
+Author-email: nearl@stsci.edu
+License: BSD 3-Clause
+Platform: UNKNOWN
+Provides-Extra: docs
+Requires-Dist: six
+Requires-Dist: pyyaml
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: astropy
+Requires-Dist: specutils (==0.2.2)
+Requires-Dist: pyqtgraph
+Requires-Dist: qtpy
+Requires-Dist: py-expression-eval
+Requires-Dist: docopt
+Requires-Dist: spectral-cube
+Provides-Extra: docs
+Requires-Dist: sphinx-automodapi; extra == 'docs'
+
+SpecViz is a tool for 1-D spectral visualization and analysis of astronomical data
+
+
