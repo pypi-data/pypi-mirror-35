@@ -1,0 +1,9 @@
+aws_role_creator/RoleCreator.py,sha256=W7zT_dYOZYZyDXXOzTDTBmsjbcAHdrDgTJc9_CRdo3Q,45613
+aws_role_creator/__init__.py,sha256=mkne92Trl2TvkxcNMBmRGxKKce7k3UEwk91TJf1pSvE,356
+aws_role_creator/command.py,sha256=DSEWakxG0BD4m9XWWy7epZGPSpTlZxZuf32CSnHGoFE,9050
+aws_role_creator-0.0.10.dist-info/METADATA,sha256=iFEfMZZf8J2TRQLI5TL58zAbCqDgfDEUc3VcC8Ejph8,19381
+aws_role_creator-0.0.10.dist-info/RECORD,,
+aws_role_creator-0.0.10.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+aws_role_creator-0.0.10.dist-info/entry_points.txt,sha256=u9Zd0IukDb6zfdrGrxbdgOVXXx5P2UncICVhnBShFrA,81
+aws_role_creator-0.0.10.dist-info/top_level.txt,sha256=iFhDeYeULS5nfPLO0i3nZ5gZ015kWpsdadTV4Sr4z1g,22
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
