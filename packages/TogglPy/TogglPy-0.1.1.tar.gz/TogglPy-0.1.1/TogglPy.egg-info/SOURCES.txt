@@ -1,0 +1,11 @@
+README.md
+setup.py
+TogglPy.egg-info/PKG-INFO
+TogglPy.egg-info/SOURCES.txt
+TogglPy.egg-info/dependency_links.txt
+TogglPy.egg-info/not-zip-safe
+TogglPy.egg-info/top_level.txt
+toggl/TogglPy.py
+toggl/__init__.py
+toggl/tests.py
+toggl/toggl2gsuite.py
