@@ -1,0 +1,5 @@
+tqdm
+numpy
+pandas
+plotly
+matplotlib==2.0.2
