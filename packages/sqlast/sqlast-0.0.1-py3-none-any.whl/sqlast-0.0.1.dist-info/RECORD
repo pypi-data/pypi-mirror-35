@@ -1,0 +1,14 @@
+sqlast/App.py,sha256=gZcqwGT7TceM5pYX_TWv5OrajrqbVFIkpMasr9Cnb-8,230
+sqlast/Cli.py,sha256=xxC9JBprLKh6XOkbMintZKSV7FZcpNluL2TH27wFN04,251
+sqlast/Grammar.py,sha256=qhBOJWFtR8oc2rxeemRGAsURZjuEUHfE8-7u9MpEDHU,170
+sqlast/Indenter.py,sha256=retVgFj8ih9DuP9mGWhVaTdKZResidSYBDlb7ro7kRg,238
+sqlast/Parser.py,sha256=zfWJ1grb7qlPn6e6ljhVF53KJ4LAsMjWzN8xhO9pce0,869
+sqlast/Transformer.py,sha256=6Uh8yD0hywk1kXfhn8dD_OQVg5nsv1Toj92AbAomTuo,236
+sqlast/Tree.py,sha256=dqFnuuA9I-1sEoN6kz-sILyEKU-jDJrvk-0xWd-UfKI,1158
+sqlast/Version.py,sha256=-wWUAwJWpR-jRa0xxFoLPSS0pbMaIzakzGZd2aD3XqY,42
+sqlast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlast-0.0.1.dist-info/METADATA,sha256=deNV7Ep_WsCmM1ronfENzqHOgzpPoqNOh4ZEk96YTIs,915
+sqlast-0.0.1.dist-info/RECORD,,
+sqlast-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sqlast-0.0.1.dist-info/entry_points.txt,sha256=VhZxRANblh84oSktWwlrcgus-BMFyI59MCiVf99kqJo,48
+sqlast-0.0.1.dist-info/top_level.txt,sha256=9x32kb-AexgkVNbpGyE__6hOD1Y1sONOuSdZSPzKvHc,7
