@@ -1,0 +1,7 @@
+setup.py
+owasp.egg-info/PKG-INFO
+owasp.egg-info/SOURCES.txt
+owasp.egg-info/dependency_links.txt
+owasp.egg-info/not-zip-safe
+owasp.egg-info/top_level.txt
+slashdot/__init__.py
