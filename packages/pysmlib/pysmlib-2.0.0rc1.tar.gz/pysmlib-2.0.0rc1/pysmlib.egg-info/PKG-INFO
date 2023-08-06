@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pysmlib
+Version: 2.0.0rc1
+Summary: A library to create event driven finite state machines for EPICS, running as daemons and sharing resources
+Home-page: https://baltig.infn.it/epicscs/pysmlib
+Author: Damiano Bortolato - Davide Marcato
+Author-email: davide.marcato@lnl.infn.it
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
