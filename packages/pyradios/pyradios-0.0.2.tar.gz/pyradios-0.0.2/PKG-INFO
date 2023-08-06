@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyradios
+Version: 0.0.2
+Summary: A Python wrapper for the http://www.radio-browser.info/webservice
+Home-page: https://github.com/andreztz/pyradios
+Author: André P. Santos
+Author-email: andreztz@gmail.com
+License: MIT
+Description: # A Python wrapper for the [Radio Browser](http://www.radio-browser.info/webservice)
+        
+        [pyradios](https://github.com/andreztz/python-radios)
+        
+Keywords: pyradios wrapper radios api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
