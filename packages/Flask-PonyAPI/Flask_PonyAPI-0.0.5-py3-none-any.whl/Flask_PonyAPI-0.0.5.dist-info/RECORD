@@ -1,0 +1,8 @@
+Flask_PonyAPI-0.0.5.dist-info/METADATA,sha256=J1Ia_iDQV-TuPaHYurHe1ZAZHw7ObQML2mEehBUihCM,816
+Flask_PonyAPI-0.0.5.dist-info/RECORD,,
+Flask_PonyAPI-0.0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+Flask_PonyAPI-0.0.5.dist-info/top_level.txt,sha256=l5nCnmNI8RuOx4pTd4wpaFntO-RduArNn2OmqjaddoY,14
+flask_ponyapi/__init__.py,sha256=DUm54IgibgKzsI5EuypAkYZlzmcUMhnI8-C-_Gw1NcQ,638
+flask_ponyapi/exceptions.py,sha256=DxRQF7ClQnCinteb53lDazWK5NfFiOSHOP4vYzyAS_g,136
+flask_ponyapi/manager.py,sha256=80wZ_c0vuP-hHqGNflT80MHetdJ15amLXyc8nKGOdD4,8341
+flask_ponyapi/responses.py,sha256=nz--BEkG6as1rSpDTs1uNQZtTrlo8-mDE1uVl8UJ8dA,3701
