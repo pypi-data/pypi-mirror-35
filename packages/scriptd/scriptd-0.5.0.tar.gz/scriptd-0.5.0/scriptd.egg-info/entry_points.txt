@@ -1,0 +1,4 @@
+[console_scripts]
+scriptc = scriptd.cli.client:main
+scriptd = scriptd.cli.server:main
+
