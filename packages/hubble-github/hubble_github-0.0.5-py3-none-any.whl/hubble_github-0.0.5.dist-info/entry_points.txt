@@ -1,0 +1,3 @@
+[console_scripts]
+hubble = hubble_github.__main__:main
+
