@@ -1,0 +1,8 @@
+tinode_grpc/GIT_VERSION,sha256=4fDnX7xy10gdcr8-QS0MCg-rf6P2-jlNDhgdIa4OBLQ,6
+tinode_grpc/__init__.py,sha256=ZBqS97oRA69f_8RsNoFcIlh-9ZXI5XPr735jTOackQ0,66
+tinode_grpc/model_pb2.py,sha256=RBmW-2VgjwyJzl0IgKN_QeIfh0F1XtPqM-3myHpWo_8,120007
+tinode_grpc/model_pb2_grpc.py,sha256=Nnu-9SF9-fIf7BRu3YaCeuOTg1ps7nj78d-U_qVIx18,6679
+tinode_grpc-0.15.5.dist-info/METADATA,sha256=6Sunc6D5s1Ku6Pa1JB0mVuINQEt9naqiFUCsOlyxGzw,2009
+tinode_grpc-0.15.5.dist-info/RECORD,,
+tinode_grpc-0.15.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tinode_grpc-0.15.5.dist-info/top_level.txt,sha256=lmKKUsnXq7brtthXFOYa1AZrgVqenqLBu-Vw1R9E5Rw,12
