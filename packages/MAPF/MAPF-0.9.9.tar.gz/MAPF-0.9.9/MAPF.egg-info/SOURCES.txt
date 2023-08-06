@@ -1,0 +1,8 @@
+README.txt
+setup.py
+MAPF/MAPF.py
+MAPF.egg-info/PKG-INFO
+MAPF.egg-info/SOURCES.txt
+MAPF.egg-info/dependency_links.txt
+MAPF.egg-info/requires.txt
+MAPF.egg-info/top_level.txt
