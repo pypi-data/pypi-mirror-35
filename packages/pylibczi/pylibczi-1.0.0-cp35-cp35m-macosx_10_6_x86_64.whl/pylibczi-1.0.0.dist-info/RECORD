@@ -1,0 +1,11 @@
+_pylibczi.cpython-35m-darwin.so,sha256=cKOUwKBoZFeg8LNtE1XzOIQN0u3QV8AFtqPCpEMGTwQ,1158324
+pylibczi/CziFile.py,sha256=BtwHkCB5k-LDinVonnWzhd2HkArg_AfLVWZFzcM8bgo,6456
+pylibczi/CziScene.py,sha256=Z7QbVKVaoeIy7LD_IclhxR5tGx6dHXyns2JQWcmfZRE,24107
+pylibczi/__init__.py,sha256=NcXdMyD9a_UUgbFWhZQHGLK1WJdN9DwzrwMbKmJB2ig,866
+pylibczi/_version.py,sha256=kIak4bIdAGPbhUwmxFdMfX7lJXZbD-RfzuYNenB5Bjo,865
+pylibczi-1.0.0.dist-info/DESCRIPTION.rst,sha256=FMrQuMf-OBqYafmcUlYwfwlUx5uCh6MP4Df9rw-Cbqo,103
+pylibczi-1.0.0.dist-info/METADATA,sha256=j28wFxjw_ZFPtQR5b3_Jb_c51lPbUvsVqS5l4cfN1Aw,363
+pylibczi-1.0.0.dist-info/RECORD,,
+pylibczi-1.0.0.dist-info/WHEEL,sha256=LuthrgahGY81WHarekQ_dngvbHodr-Pe3ZGAyVbF11I,110
+pylibczi-1.0.0.dist-info/metadata.json,sha256=aoea-KBWAbojQ-18ioFKy8hLcAmERxqYE9V3yTOF91Q,424
+pylibczi-1.0.0.dist-info/top_level.txt,sha256=P2Kd69d1bH997QHFvWUF_qZGjlV32fDPGcxYYh-GERs,19
