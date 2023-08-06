@@ -1,0 +1,17 @@
+MatrixPy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MatrixPy/gen_matrix.py,sha256=mPKFJUnYzDzFkqc1xvigAJhz1wKNy2lFmURNjLKdnXU,1535
+MatrixPy/matrix.py,sha256=ByHGbUkjujppLrVhUoacpUpEyso9veAjEE7mGAT9vug,20573
+MatrixPy/print_matrix.py,sha256=sNcxEV6jc8wY-xDA39lw9R_qx16XtM_S_DSfxZJyfZE,412
+MatrixPy/operations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MatrixPy/operations/add.py,sha256=o19mj9jk7jA0HA5kvWBlaICTV8cSXaSa5-C_eheesx0,1384
+MatrixPy/operations/det.py,sha256=fNCmmIZUwAolh-N79xbdobeN_Ij_yGVZfuEw0AFrZRw,2684
+MatrixPy/operations/eqs_system.py,sha256=VfKASiELJi0VESO2nu38-4rHzOi3f2GOC9aMvpxO-Wk,3940
+MatrixPy/operations/inv.py,sha256=tWJFWFt9XHSkPukF6nKyp68f2kVIJdeSLSG0hcXFjOM,5433
+MatrixPy/operations/mult.py,sha256=wB2znyITbtNNVo07acaMphOp1o2VnHHzlCBGvJLEVc0,1495
+MatrixPy/operations/sub.py,sha256=-8391aBVgcHandjlNndeVaWCs37xxyfU1D2w049_5Nw,1405
+MatrixPy/operations/transpose.py,sha256=kt8KhklSJ5jvO0GmESQFQ8-CxEOC2AGOa9BIjuKqaNU,853
+MatrixPy-1.2.3b3.dist-info/LICENSE.txt,sha256=kpUMMejqx1buHi5w0xlzVPyPPHeagpjrb4fgSB2CyXk,11542
+MatrixPy-1.2.3b3.dist-info/METADATA,sha256=mGXO2B9hV6251Jv56wyo3tcRzupjCkE75bQs0EEVG3Q,15067
+MatrixPy-1.2.3b3.dist-info/RECORD,,
+MatrixPy-1.2.3b3.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+MatrixPy-1.2.3b3.dist-info/top_level.txt,sha256=QsppBMm-nVWpmg3FJrIWeFEj9VQENzGm0ZTJILGrT_k,9
