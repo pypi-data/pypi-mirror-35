@@ -1,0 +1,9 @@
+kulc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kulc/__version__.py,sha256=ieoVQh2QKVr4VHQ_oRuCtmI8HGf0_nH30kQbS9ldDag,64
+kulc/attention.py,sha256=2IjHKpfM7kxd2mLDJOh6FwyUDjaqNQYtkIcuTt7XCbk,34641
+kulc/image.py,sha256=3CEPz-Lx0C_5IMkPFJFXkkiqQCcsz2JtObi5GD16swg,7088
+kulc/layer_normalization.py,sha256=HaHCLft1yTrbRG65vUBRBTZe8L8UNsXNCgF88j78cbo,2863
+kulc-0.0.7.dist-info/METADATA,sha256=5sfYq_pYdIpm_BuLd6_v94DlRCDMMCmkIByeXzjmExk,3454
+kulc-0.0.7.dist-info/RECORD,,
+kulc-0.0.7.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+kulc-0.0.7.dist-info/top_level.txt,sha256=GhVUK7jrM8WW-7kTfok6I4tJ1FzgVz3zIQf8bEPyT48,5
