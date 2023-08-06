@@ -1,0 +1,656 @@
+import datetime
+import typing
+import boto3
+import autoboto
+from . import shapes
+
+
+class Client:
+    def __init__(self, *args, **kwargs):
+        self._boto_client = boto3.client("medialive", *args, **kwargs)
+
+    def batch_update_schedule(
+        self,
+        _request: shapes.BatchUpdateScheduleRequest = None,
+        *,
+        channel_id: str,
+        creates: shapes.BatchScheduleActionCreateRequest = autoboto.ShapeBase.
+        NOT_SET,
+        deletes: shapes.BatchScheduleActionDeleteRequest = autoboto.ShapeBase.
+        NOT_SET,
+    ) -> shapes.BatchUpdateScheduleResponse:
+        """
+        Update a channel schedule
+        """
+        if _request is None:
+            _params = {}
+            if channel_id is not autoboto.ShapeBase.NOT_SET:
+                _params['channel_id'] = channel_id
+            if creates is not autoboto.ShapeBase.NOT_SET:
+                _params['creates'] = creates
+            if deletes is not autoboto.ShapeBase.NOT_SET:
+                _params['deletes'] = deletes
+            _request = shapes.BatchUpdateScheduleRequest(**_params)
+        response = self._boto_client.batch_update_schedule(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.BatchUpdateScheduleResponse.from_boto_dict(response)
+
+    def create_channel(
+        self,
+        _request: shapes.CreateChannelRequest = None,
+        *,
+        destinations: typing.List[shapes.OutputDestination
+                                 ] = autoboto.ShapeBase.NOT_SET,
+        encoder_settings: shapes.EncoderSettings = autoboto.ShapeBase.NOT_SET,
+        input_attachments: typing.List[shapes.InputAttachment
+                                      ] = autoboto.ShapeBase.NOT_SET,
+        input_specification: shapes.InputSpecification = autoboto.ShapeBase.
+        NOT_SET,
+        log_level: shapes.LogLevel = autoboto.ShapeBase.NOT_SET,
+        name: str = autoboto.ShapeBase.NOT_SET,
+        request_id: str = autoboto.ShapeBase.NOT_SET,
+        reserved: str = autoboto.ShapeBase.NOT_SET,
+        role_arn: str = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.CreateChannelResponse:
+        """
+        Creates a new channel
+        """
+        if _request is None:
+            _params = {}
+            if destinations is not autoboto.ShapeBase.NOT_SET:
+                _params['destinations'] = destinations
+            if encoder_settings is not autoboto.ShapeBase.NOT_SET:
+                _params['encoder_settings'] = encoder_settings
+            if input_attachments is not autoboto.ShapeBase.NOT_SET:
+                _params['input_attachments'] = input_attachments
+            if input_specification is not autoboto.ShapeBase.NOT_SET:
+                _params['input_specification'] = input_specification
+            if log_level is not autoboto.ShapeBase.NOT_SET:
+                _params['log_level'] = log_level
+            if name is not autoboto.ShapeBase.NOT_SET:
+                _params['name'] = name
+            if request_id is not autoboto.ShapeBase.NOT_SET:
+                _params['request_id'] = request_id
+            if reserved is not autoboto.ShapeBase.NOT_SET:
+                _params['reserved'] = reserved
+            if role_arn is not autoboto.ShapeBase.NOT_SET:
+                _params['role_arn'] = role_arn
+            _request = shapes.CreateChannelRequest(**_params)
+        response = self._boto_client.create_channel(**_request.to_boto_dict())
+
+        return shapes.CreateChannelResponse.from_boto_dict(response)
+
+    def create_input(
+        self,
+        _request: shapes.CreateInputRequest = None,
+        *,
+        destinations: typing.List[shapes.InputDestinationRequest
+                                 ] = autoboto.ShapeBase.NOT_SET,
+        input_security_groups: typing.List[str] = autoboto.ShapeBase.NOT_SET,
+        name: str = autoboto.ShapeBase.NOT_SET,
+        request_id: str = autoboto.ShapeBase.NOT_SET,
+        sources: typing.List[shapes.InputSourceRequest
+                            ] = autoboto.ShapeBase.NOT_SET,
+        type: shapes.InputType = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.CreateInputResponse:
+        """
+        Create an input
+        """
+        if _request is None:
+            _params = {}
+            if destinations is not autoboto.ShapeBase.NOT_SET:
+                _params['destinations'] = destinations
+            if input_security_groups is not autoboto.ShapeBase.NOT_SET:
+                _params['input_security_groups'] = input_security_groups
+            if name is not autoboto.ShapeBase.NOT_SET:
+                _params['name'] = name
+            if request_id is not autoboto.ShapeBase.NOT_SET:
+                _params['request_id'] = request_id
+            if sources is not autoboto.ShapeBase.NOT_SET:
+                _params['sources'] = sources
+            if type is not autoboto.ShapeBase.NOT_SET:
+                _params['type'] = type
+            _request = shapes.CreateInputRequest(**_params)
+        response = self._boto_client.create_input(**_request.to_boto_dict())
+
+        return shapes.CreateInputResponse.from_boto_dict(response)
+
+    def create_input_security_group(
+        self,
+        _request: shapes.CreateInputSecurityGroupRequest = None,
+        *,
+        whitelist_rules: typing.List[shapes.InputWhitelistRuleCidr
+                                    ] = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.CreateInputSecurityGroupResponse:
+        """
+        Creates a Input Security Group
+        """
+        if _request is None:
+            _params = {}
+            if whitelist_rules is not autoboto.ShapeBase.NOT_SET:
+                _params['whitelist_rules'] = whitelist_rules
+            _request = shapes.CreateInputSecurityGroupRequest(**_params)
+        response = self._boto_client.create_input_security_group(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.CreateInputSecurityGroupResponse.from_boto_dict(response)
+
+    def delete_channel(
+        self,
+        _request: shapes.DeleteChannelRequest = None,
+        *,
+        channel_id: str,
+    ) -> shapes.DeleteChannelResponse:
+        """
+        Starts deletion of channel. The associated outputs are also deleted.
+        """
+        if _request is None:
+            _params = {}
+            if channel_id is not autoboto.ShapeBase.NOT_SET:
+                _params['channel_id'] = channel_id
+            _request = shapes.DeleteChannelRequest(**_params)
+        response = self._boto_client.delete_channel(**_request.to_boto_dict())
+
+        return shapes.DeleteChannelResponse.from_boto_dict(response)
+
+    def delete_input(
+        self,
+        _request: shapes.DeleteInputRequest = None,
+        *,
+        input_id: str,
+    ) -> shapes.DeleteInputResponse:
+        """
+        Deletes the input end point
+        """
+        if _request is None:
+            _params = {}
+            if input_id is not autoboto.ShapeBase.NOT_SET:
+                _params['input_id'] = input_id
+            _request = shapes.DeleteInputRequest(**_params)
+        response = self._boto_client.delete_input(**_request.to_boto_dict())
+
+        return shapes.DeleteInputResponse.from_boto_dict(response)
+
+    def delete_input_security_group(
+        self,
+        _request: shapes.DeleteInputSecurityGroupRequest = None,
+        *,
+        input_security_group_id: str,
+    ) -> shapes.DeleteInputSecurityGroupResponse:
+        """
+        Deletes an Input Security Group
+        """
+        if _request is None:
+            _params = {}
+            if input_security_group_id is not autoboto.ShapeBase.NOT_SET:
+                _params['input_security_group_id'] = input_security_group_id
+            _request = shapes.DeleteInputSecurityGroupRequest(**_params)
+        response = self._boto_client.delete_input_security_group(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.DeleteInputSecurityGroupResponse.from_boto_dict(response)
+
+    def delete_reservation(
+        self,
+        _request: shapes.DeleteReservationRequest = None,
+        *,
+        reservation_id: str,
+    ) -> shapes.DeleteReservationResponse:
+        """
+        Delete an expired reservation.
+        """
+        if _request is None:
+            _params = {}
+            if reservation_id is not autoboto.ShapeBase.NOT_SET:
+                _params['reservation_id'] = reservation_id
+            _request = shapes.DeleteReservationRequest(**_params)
+        response = self._boto_client.delete_reservation(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.DeleteReservationResponse.from_boto_dict(response)
+
+    def describe_channel(
+        self,
+        _request: shapes.DescribeChannelRequest = None,
+        *,
+        channel_id: str,
+    ) -> shapes.DescribeChannelResponse:
+        """
+        Gets details about a channel
+        """
+        if _request is None:
+            _params = {}
+            if channel_id is not autoboto.ShapeBase.NOT_SET:
+                _params['channel_id'] = channel_id
+            _request = shapes.DescribeChannelRequest(**_params)
+        response = self._boto_client.describe_channel(**_request.to_boto_dict())
+
+        return shapes.DescribeChannelResponse.from_boto_dict(response)
+
+    def describe_input(
+        self,
+        _request: shapes.DescribeInputRequest = None,
+        *,
+        input_id: str,
+    ) -> shapes.DescribeInputResponse:
+        """
+        Produces details about an input
+        """
+        if _request is None:
+            _params = {}
+            if input_id is not autoboto.ShapeBase.NOT_SET:
+                _params['input_id'] = input_id
+            _request = shapes.DescribeInputRequest(**_params)
+        response = self._boto_client.describe_input(**_request.to_boto_dict())
+
+        return shapes.DescribeInputResponse.from_boto_dict(response)
+
+    def describe_input_security_group(
+        self,
+        _request: shapes.DescribeInputSecurityGroupRequest = None,
+        *,
+        input_security_group_id: str,
+    ) -> shapes.DescribeInputSecurityGroupResponse:
+        """
+        Produces a summary of an Input Security Group
+        """
+        if _request is None:
+            _params = {}
+            if input_security_group_id is not autoboto.ShapeBase.NOT_SET:
+                _params['input_security_group_id'] = input_security_group_id
+            _request = shapes.DescribeInputSecurityGroupRequest(**_params)
+        response = self._boto_client.describe_input_security_group(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.DescribeInputSecurityGroupResponse.from_boto_dict(
+            response
+        )
+
+    def describe_offering(
+        self,
+        _request: shapes.DescribeOfferingRequest = None,
+        *,
+        offering_id: str,
+    ) -> shapes.DescribeOfferingResponse:
+        """
+        Get details for an offering.
+        """
+        if _request is None:
+            _params = {}
+            if offering_id is not autoboto.ShapeBase.NOT_SET:
+                _params['offering_id'] = offering_id
+            _request = shapes.DescribeOfferingRequest(**_params)
+        response = self._boto_client.describe_offering(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.DescribeOfferingResponse.from_boto_dict(response)
+
+    def describe_reservation(
+        self,
+        _request: shapes.DescribeReservationRequest = None,
+        *,
+        reservation_id: str,
+    ) -> shapes.DescribeReservationResponse:
+        """
+        Get details for a reservation.
+        """
+        if _request is None:
+            _params = {}
+            if reservation_id is not autoboto.ShapeBase.NOT_SET:
+                _params['reservation_id'] = reservation_id
+            _request = shapes.DescribeReservationRequest(**_params)
+        response = self._boto_client.describe_reservation(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.DescribeReservationResponse.from_boto_dict(response)
+
+    def describe_schedule(
+        self,
+        _request: shapes.DescribeScheduleRequest = None,
+        *,
+        channel_id: str,
+        max_results: int = autoboto.ShapeBase.NOT_SET,
+        next_token: str = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.DescribeScheduleResponse:
+        """
+        Get a channel schedule
+        """
+        if _request is None:
+            _params = {}
+            if channel_id is not autoboto.ShapeBase.NOT_SET:
+                _params['channel_id'] = channel_id
+            if max_results is not autoboto.ShapeBase.NOT_SET:
+                _params['max_results'] = max_results
+            if next_token is not autoboto.ShapeBase.NOT_SET:
+                _params['next_token'] = next_token
+            _request = shapes.DescribeScheduleRequest(**_params)
+        response = self._boto_client.describe_schedule(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.DescribeScheduleResponse.from_boto_dict(response)
+
+    def list_channels(
+        self,
+        _request: shapes.ListChannelsRequest = None,
+        *,
+        max_results: int = autoboto.ShapeBase.NOT_SET,
+        next_token: str = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.ListChannelsResponse:
+        """
+        Produces list of channels that have been created
+        """
+        if _request is None:
+            _params = {}
+            if max_results is not autoboto.ShapeBase.NOT_SET:
+                _params['max_results'] = max_results
+            if next_token is not autoboto.ShapeBase.NOT_SET:
+                _params['next_token'] = next_token
+            _request = shapes.ListChannelsRequest(**_params)
+        response = self._boto_client.list_channels(**_request.to_boto_dict())
+
+        return shapes.ListChannelsResponse.from_boto_dict(response)
+
+    def list_input_security_groups(
+        self,
+        _request: shapes.ListInputSecurityGroupsRequest = None,
+        *,
+        max_results: int = autoboto.ShapeBase.NOT_SET,
+        next_token: str = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.ListInputSecurityGroupsResponse:
+        """
+        Produces a list of Input Security Groups for an account
+        """
+        if _request is None:
+            _params = {}
+            if max_results is not autoboto.ShapeBase.NOT_SET:
+                _params['max_results'] = max_results
+            if next_token is not autoboto.ShapeBase.NOT_SET:
+                _params['next_token'] = next_token
+            _request = shapes.ListInputSecurityGroupsRequest(**_params)
+        response = self._boto_client.list_input_security_groups(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.ListInputSecurityGroupsResponse.from_boto_dict(response)
+
+    def list_inputs(
+        self,
+        _request: shapes.ListInputsRequest = None,
+        *,
+        max_results: int = autoboto.ShapeBase.NOT_SET,
+        next_token: str = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.ListInputsResponse:
+        """
+        Produces list of inputs that have been created
+        """
+        if _request is None:
+            _params = {}
+            if max_results is not autoboto.ShapeBase.NOT_SET:
+                _params['max_results'] = max_results
+            if next_token is not autoboto.ShapeBase.NOT_SET:
+                _params['next_token'] = next_token
+            _request = shapes.ListInputsRequest(**_params)
+        response = self._boto_client.list_inputs(**_request.to_boto_dict())
+
+        return shapes.ListInputsResponse.from_boto_dict(response)
+
+    def list_offerings(
+        self,
+        _request: shapes.ListOfferingsRequest = None,
+        *,
+        channel_configuration: str = autoboto.ShapeBase.NOT_SET,
+        codec: str = autoboto.ShapeBase.NOT_SET,
+        max_results: int = autoboto.ShapeBase.NOT_SET,
+        maximum_bitrate: str = autoboto.ShapeBase.NOT_SET,
+        maximum_framerate: str = autoboto.ShapeBase.NOT_SET,
+        next_token: str = autoboto.ShapeBase.NOT_SET,
+        resolution: str = autoboto.ShapeBase.NOT_SET,
+        resource_type: str = autoboto.ShapeBase.NOT_SET,
+        special_feature: str = autoboto.ShapeBase.NOT_SET,
+        video_quality: str = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.ListOfferingsResponse:
+        """
+        List offerings available for purchase.
+        """
+        if _request is None:
+            _params = {}
+            if channel_configuration is not autoboto.ShapeBase.NOT_SET:
+                _params['channel_configuration'] = channel_configuration
+            if codec is not autoboto.ShapeBase.NOT_SET:
+                _params['codec'] = codec
+            if max_results is not autoboto.ShapeBase.NOT_SET:
+                _params['max_results'] = max_results
+            if maximum_bitrate is not autoboto.ShapeBase.NOT_SET:
+                _params['maximum_bitrate'] = maximum_bitrate
+            if maximum_framerate is not autoboto.ShapeBase.NOT_SET:
+                _params['maximum_framerate'] = maximum_framerate
+            if next_token is not autoboto.ShapeBase.NOT_SET:
+                _params['next_token'] = next_token
+            if resolution is not autoboto.ShapeBase.NOT_SET:
+                _params['resolution'] = resolution
+            if resource_type is not autoboto.ShapeBase.NOT_SET:
+                _params['resource_type'] = resource_type
+            if special_feature is not autoboto.ShapeBase.NOT_SET:
+                _params['special_feature'] = special_feature
+            if video_quality is not autoboto.ShapeBase.NOT_SET:
+                _params['video_quality'] = video_quality
+            _request = shapes.ListOfferingsRequest(**_params)
+        response = self._boto_client.list_offerings(**_request.to_boto_dict())
+
+        return shapes.ListOfferingsResponse.from_boto_dict(response)
+
+    def list_reservations(
+        self,
+        _request: shapes.ListReservationsRequest = None,
+        *,
+        codec: str = autoboto.ShapeBase.NOT_SET,
+        max_results: int = autoboto.ShapeBase.NOT_SET,
+        maximum_bitrate: str = autoboto.ShapeBase.NOT_SET,
+        maximum_framerate: str = autoboto.ShapeBase.NOT_SET,
+        next_token: str = autoboto.ShapeBase.NOT_SET,
+        resolution: str = autoboto.ShapeBase.NOT_SET,
+        resource_type: str = autoboto.ShapeBase.NOT_SET,
+        special_feature: str = autoboto.ShapeBase.NOT_SET,
+        video_quality: str = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.ListReservationsResponse:
+        """
+        List purchased reservations.
+        """
+        if _request is None:
+            _params = {}
+            if codec is not autoboto.ShapeBase.NOT_SET:
+                _params['codec'] = codec
+            if max_results is not autoboto.ShapeBase.NOT_SET:
+                _params['max_results'] = max_results
+            if maximum_bitrate is not autoboto.ShapeBase.NOT_SET:
+                _params['maximum_bitrate'] = maximum_bitrate
+            if maximum_framerate is not autoboto.ShapeBase.NOT_SET:
+                _params['maximum_framerate'] = maximum_framerate
+            if next_token is not autoboto.ShapeBase.NOT_SET:
+                _params['next_token'] = next_token
+            if resolution is not autoboto.ShapeBase.NOT_SET:
+                _params['resolution'] = resolution
+            if resource_type is not autoboto.ShapeBase.NOT_SET:
+                _params['resource_type'] = resource_type
+            if special_feature is not autoboto.ShapeBase.NOT_SET:
+                _params['special_feature'] = special_feature
+            if video_quality is not autoboto.ShapeBase.NOT_SET:
+                _params['video_quality'] = video_quality
+            _request = shapes.ListReservationsRequest(**_params)
+        response = self._boto_client.list_reservations(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.ListReservationsResponse.from_boto_dict(response)
+
+    def purchase_offering(
+        self,
+        _request: shapes.PurchaseOfferingRequest = None,
+        *,
+        offering_id: str,
+        count: int = autoboto.ShapeBase.NOT_SET,
+        name: str = autoboto.ShapeBase.NOT_SET,
+        request_id: str = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.PurchaseOfferingResponse:
+        """
+        Purchase an offering and create a reservation.
+        """
+        if _request is None:
+            _params = {}
+            if offering_id is not autoboto.ShapeBase.NOT_SET:
+                _params['offering_id'] = offering_id
+            if count is not autoboto.ShapeBase.NOT_SET:
+                _params['count'] = count
+            if name is not autoboto.ShapeBase.NOT_SET:
+                _params['name'] = name
+            if request_id is not autoboto.ShapeBase.NOT_SET:
+                _params['request_id'] = request_id
+            _request = shapes.PurchaseOfferingRequest(**_params)
+        response = self._boto_client.purchase_offering(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.PurchaseOfferingResponse.from_boto_dict(response)
+
+    def start_channel(
+        self,
+        _request: shapes.StartChannelRequest = None,
+        *,
+        channel_id: str,
+    ) -> shapes.StartChannelResponse:
+        """
+        Starts an existing channel
+        """
+        if _request is None:
+            _params = {}
+            if channel_id is not autoboto.ShapeBase.NOT_SET:
+                _params['channel_id'] = channel_id
+            _request = shapes.StartChannelRequest(**_params)
+        response = self._boto_client.start_channel(**_request.to_boto_dict())
+
+        return shapes.StartChannelResponse.from_boto_dict(response)
+
+    def stop_channel(
+        self,
+        _request: shapes.StopChannelRequest = None,
+        *,
+        channel_id: str,
+    ) -> shapes.StopChannelResponse:
+        """
+        Stops a running channel
+        """
+        if _request is None:
+            _params = {}
+            if channel_id is not autoboto.ShapeBase.NOT_SET:
+                _params['channel_id'] = channel_id
+            _request = shapes.StopChannelRequest(**_params)
+        response = self._boto_client.stop_channel(**_request.to_boto_dict())
+
+        return shapes.StopChannelResponse.from_boto_dict(response)
+
+    def update_channel(
+        self,
+        _request: shapes.UpdateChannelRequest = None,
+        *,
+        channel_id: str,
+        destinations: typing.List[shapes.OutputDestination
+                                 ] = autoboto.ShapeBase.NOT_SET,
+        encoder_settings: shapes.EncoderSettings = autoboto.ShapeBase.NOT_SET,
+        input_attachments: typing.List[shapes.InputAttachment
+                                      ] = autoboto.ShapeBase.NOT_SET,
+        input_specification: shapes.InputSpecification = autoboto.ShapeBase.
+        NOT_SET,
+        log_level: shapes.LogLevel = autoboto.ShapeBase.NOT_SET,
+        name: str = autoboto.ShapeBase.NOT_SET,
+        role_arn: str = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.UpdateChannelResponse:
+        """
+        Updates a channel.
+        """
+        if _request is None:
+            _params = {}
+            if channel_id is not autoboto.ShapeBase.NOT_SET:
+                _params['channel_id'] = channel_id
+            if destinations is not autoboto.ShapeBase.NOT_SET:
+                _params['destinations'] = destinations
+            if encoder_settings is not autoboto.ShapeBase.NOT_SET:
+                _params['encoder_settings'] = encoder_settings
+            if input_attachments is not autoboto.ShapeBase.NOT_SET:
+                _params['input_attachments'] = input_attachments
+            if input_specification is not autoboto.ShapeBase.NOT_SET:
+                _params['input_specification'] = input_specification
+            if log_level is not autoboto.ShapeBase.NOT_SET:
+                _params['log_level'] = log_level
+            if name is not autoboto.ShapeBase.NOT_SET:
+                _params['name'] = name
+            if role_arn is not autoboto.ShapeBase.NOT_SET:
+                _params['role_arn'] = role_arn
+            _request = shapes.UpdateChannelRequest(**_params)
+        response = self._boto_client.update_channel(**_request.to_boto_dict())
+
+        return shapes.UpdateChannelResponse.from_boto_dict(response)
+
+    def update_input(
+        self,
+        _request: shapes.UpdateInputRequest = None,
+        *,
+        input_id: str,
+        destinations: typing.List[shapes.InputDestinationRequest
+                                 ] = autoboto.ShapeBase.NOT_SET,
+        input_security_groups: typing.List[str] = autoboto.ShapeBase.NOT_SET,
+        name: str = autoboto.ShapeBase.NOT_SET,
+        sources: typing.List[shapes.InputSourceRequest
+                            ] = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.UpdateInputResponse:
+        """
+        Updates an input.
+        """
+        if _request is None:
+            _params = {}
+            if input_id is not autoboto.ShapeBase.NOT_SET:
+                _params['input_id'] = input_id
+            if destinations is not autoboto.ShapeBase.NOT_SET:
+                _params['destinations'] = destinations
+            if input_security_groups is not autoboto.ShapeBase.NOT_SET:
+                _params['input_security_groups'] = input_security_groups
+            if name is not autoboto.ShapeBase.NOT_SET:
+                _params['name'] = name
+            if sources is not autoboto.ShapeBase.NOT_SET:
+                _params['sources'] = sources
+            _request = shapes.UpdateInputRequest(**_params)
+        response = self._boto_client.update_input(**_request.to_boto_dict())
+
+        return shapes.UpdateInputResponse.from_boto_dict(response)
+
+    def update_input_security_group(
+        self,
+        _request: shapes.UpdateInputSecurityGroupRequest = None,
+        *,
+        input_security_group_id: str,
+        whitelist_rules: typing.List[shapes.InputWhitelistRuleCidr
+                                    ] = autoboto.ShapeBase.NOT_SET,
+    ) -> shapes.UpdateInputSecurityGroupResponse:
+        """
+        Update an Input Security Group's Whilelists.
+        """
+        if _request is None:
+            _params = {}
+            if input_security_group_id is not autoboto.ShapeBase.NOT_SET:
+                _params['input_security_group_id'] = input_security_group_id
+            if whitelist_rules is not autoboto.ShapeBase.NOT_SET:
+                _params['whitelist_rules'] = whitelist_rules
+            _request = shapes.UpdateInputSecurityGroupRequest(**_params)
+        response = self._boto_client.update_input_security_group(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.UpdateInputSecurityGroupResponse.from_boto_dict(response)
