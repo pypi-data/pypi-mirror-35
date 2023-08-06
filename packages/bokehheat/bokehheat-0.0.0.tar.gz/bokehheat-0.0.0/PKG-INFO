@@ -1,0 +1,218 @@
+Metadata-Version: 1.2
+Name: bokehheat
+Version: 0.0.0
+Summary: A python3 bokeh based categorical dendrogram and heatmap plotting library.
+Home-page: https://gitlab.com/biotransistor/bokehheat
+Author: Elmar Bucher
+Author-email: ulmusfagus@zoho.com
+License: GPL>=3
+Project-URL: Bug Reports, https://gitlab.com/biotransistor/bokehheat/issues
+Project-URL: Funding, https://donate.doctorswithoutborders.org
+Project-URL: Source, https://gitlab.com/biotransistor/bokehheat/
+Description: # BokehHeat
+        
+        ## Abstract
+        
+        Bokehheat provides a python3, bokeh based, interactive
+        categorical dendrogram and heatmap plotting implementation.
+        
+        + Minimal requirement: python 3.6
+        + Dependencies: bokeh, pandas, scipy
+        + Programmer: bue, jenny
+        + Date origin: 2018-08
+        + License: >= GPLv3
+        + User manual: this README file
+        + Result example: [clustermap](theclustermap.html) plot
+        + Source code: [https://gitlab.com/biotransistor/bokehheat](https://gitlab.com/biotransistor/bokehheat)
+        
+        Available bokehheat plots are:
+        + heat.cdendro: a interactive categorical dendrogram plot implementation.
+        + heat.cabar: an interactive categorical bar plot implementation.
+        + heat.qabar: an interactive quantitative bar plot implementation.
+        + heat.heatmap: an interactive heatmap implementation.
+        + heat.clustermap: an interactive cluster heatmap implementation which combines
+              heat.cdendro, heat.cabar, heat.qabar and heat.heatmap under the hood.
+        
+        
+        ## HowTo Guide
+        
+        How to install bokehheat?
+        ```
+        pip install bokehheat
+        ```
+        
+        How to load the bokehheat library?
+        ```
+        from bokehheat import heat
+        ```
+        
+        Howto get reference information about how to use each bokehheat module?
+        ```
+        from bokehheat import heat
+        
+        help(heat.cdendro)
+        help(heat.cabar)
+        help(heat.qabar)
+        help(heat.heatmap)
+        help(heat.clustermap)
+        ```
+        
+        ## Tutorial
+        This tutorial guides you through a cluster heatmap generation process.
+        
+        1. Load libraries needed for this tutorial:
+            ```
+            # library
+            from bokehheat import heat
+            from bokeh.palettes import Reds9, YlGn8, Colorblind8
+            import numpy as np
+            import pandas as pd
+            ```
+        
+        1. Prepare data:
+            ```
+            # generate test data
+            ls_sample = ['sampleA','sampleB','sampleC','sampleD','sampleE','sampleF','sampleG','sampleH']
+            ls_variable = ['geneA','geneB','geneC','geneD','geneE','geneF','geneG','geneH', 'geneI']
+            ar_z = np.random.rand(8,9)
+            df_matrix = pd.DataFrame(ar_z)
+            df_matrix.index = ls_sample
+            df_matrix.columns = ls_variable
+            df_matrix.index.name = 'y'
+            df_matrix.columns.name = 'x'
+        
+            # generate some sample annotation
+            df_sample = pd.DataFrame({
+                'y': ls_sample,
+                'age_year': list(np.random.randint(0,101, 8)),
+                'sampletype': ['LumA','LumA','LumA','LumB','LumB','Basal','Basal','Basal'],
+                'sampletype_color': ['Cyan','Cyan','Cyan','Blue','Blue','Red','Red','Red'],
+            })
+            df_sample.index = df_sample.y
+        
+            # generate some gene annotation
+            df_variable = pd.DataFrame({
+                'x': ls_variable,
+                'genereal': list(np.random.random(9) * 2 - 1),
+                'genetype': ['Lig','Lig','Lig','Lig','Lig','Lig','Rec','Rec','Rec'],
+                'genetype_color': ['Yellow','Yellow','Yellow','Yellow','Yellow','Yellow','Brown','Brown','Brown'],
+            })
+            df_variable.index = df_variable.x
+            ```
+        
+        1. Generate categorical and quantitative sample and gene
+            annotation tuple of tuples:
+            ```
+            t_ycat = (df_sample, ['sampletype'], ['sampletype_color'])
+            t_yquant = (df_sample, ['age_year'], [0], [128], [YlGn8])
+            t_xcat = (df_variable, ['genetype'], ['genetype_color'])
+            t_xquant = (df_variable, ['genereal'], [-1], [1], [Colorblind8])
+            tt_catquant = (t_ycat, t_yquant, t_xquant, t_xcat)
+            ```
+        
+        1. Generate the cluster heatmap:
+            ```
+            s_file = "theclustermap.html"
+            o_clustermap, ls_xaxis, ls_yaxis = clustermap(
+                df_matrix = df_matrix,
+                ls_color_palette = Reds9,
+                r_low = 0,
+                r_high = 1,
+                s_z = "log2",
+                tt_axis_annot = tt_catquant,
+                b_ydendo = True,
+                b_xdendo = True,
+                #s_method='single',
+                #s_metric='euclidean',
+                #b_optimal_ordering=True,
+                #i_px = 80,
+                s_filename=s_file,
+                s_filetitel="the Clustermap",
+            )
+            ```
+        
+        1. Display the result:
+            ```
+            print(f"check out: {s_file}")
+            print(f"y axis is: {ls_yaxis}")
+            print(f"x axis is: {ls_xaxis}")
+        
+            show(o_clustermap)
+            ```
+        The resulting clustermap should look something like [this](theclustermap.html).
+        <!--
+        bue 2018-08-29: would be good to have a png from the result in the readme markdown document
+        ![heat.clustermap result](theclustermap.pdf "heat.clustermap result")
+        ![heat.clustermap result](theclustermap.html "heat.clustermap result")
+        -->
+        
+        ## Discussion
+        
+        In bioinformatics a clustered heatmap is a common plot to present gene expression data 
+        form many patient samples.
+        There are well established open source clusteing software kits like
+        [Cluster and TreeView](http://bonsai.hgc.jp/%7Emdehoon/software/cluster/index.html)
+        for producing and investigating such heatmaps.
+        
+        There exist a wealth of 
+        [R](https://cran.r-project.org/) and R/[bioconductor](https://www.bioconductor.org/) 
+        packages who do this (e.g. heatmap.2), each one with his own pros and cons.
+        
+        In Python the cluster heatmap landscape looks much more deserted.
+        There are some ancient [mathplotlib](https://matplotlib.org/) based implementations
+        like this [active state recipe](https://code.activestate.com/recipes/578175-hierarchical-clustering-heatmap-python/)
+        or the [heatmapcluster](https://github.com/WarrenWeckesser/heatmapcluster) library.
+        
+        There is the [seaborn clustermap](https://seaborn.pydata.org/generated/seaborn.clustermap.html) implementation,
+        which looks good but might need hours of tweaking to get a static plot with all the needed information out.
+        So it is not really a tool for exploring data.
+        
+        There are R based interactive heatmaps like d3heatmap and
+        R/plotly based implementations like ggplot2 and heatmaply.
+        But I have not found any python based interactive clustermap library.
+        Neither Python/[plottly](https://plot.ly/) nor Python/[bokeh](https://bokeh.pydata.org/en/latest/) based.
+        The only Python/bokeh based implementation I found was this
+        [listing](https://russodanielp.github.io/plotting-a-heatmap-with-a-dendrogram-using-bokeh.html)
+        from Daniel Russo.
+        
+        All in all, all of this implementations were not really what I was looking for.
+        That is why I rolled my own.
+        Bokehheat is a Python/[bokeh](https://bokeh.pydata.org/en/latest/) based interactive cluster heatmap library.
+        
+        The challenges this implementation tried to solve are, 
+        the library should be:
+        + easy to use with [pandas](https://pandas.pydata.org/) datafarmes.
+        + interactive, this means the results should be hover and zoomable plots.
+        + output should be in computer platform independent and easy accessible format like java script spiced up html file, 
+          which can be opened in any webbrowser. 
+        + possibility to add as many categorical and quantitative annotation bars on y and x axis as wished.
+        + possibility to cluster y and/or x axis.
+        + snappy interactivity, even with big datasets with thousands of samples and genes.
+        
+        
+        #### Future directions
+        
+        An [altair](https://altair-viz.github.io/) based cluster heatmap implementation.
+        I think that this will be the future. Check out Jake VanderPlas talk
+        [Python Visualization Landscape](https://www.youtube.com/watch?v=FytuB8nFHPQ)
+        from the PyCon 2017 in Portland Oregon (USA).
+        
+        
+        ## Contributions
+        
+        + Implementation: Elmar Bucher
+        + Documentation: Jennifer Eng, Elmar Bucher
+        + Helpfull discussion: Mark Dane, Daniel Derrick, Hongmei Zhang,
+            Annette Kolodize, Jim Korkola, Laura Heiser
+        
+Keywords: visualization bokeh dendrogram cladogram heatmap
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
