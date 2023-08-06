@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: xontrib-aliastips
+Version: 0.5.0
+Summary: Suggest alias tips after a command is executed
+Home-page: https://git.fmind.me/fmind/xontrib-aliastips
+Author: Médéric Hurier
+Author-email: dev@fmind.me
+License: EUPL-1.2
+Keywords: xontrib suggest alias tips
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dist
+Requires-Dist: xonsh
+Provides-Extra: dist
+Requires-Dist: setuptools; extra == 'dist'
+Requires-Dist: twine; extra == 'dist'
+Requires-Dist: wheel; extra == 'dist'
+
+# aliastips
+
+## Motivation
+
+Suggest alias tips after a command is executed.
+
+## Installation
+
+```bash
+pip install xontrib-aliastips
+```
+
+## Initialization
+
+```bash
+make init
+```
+
+
