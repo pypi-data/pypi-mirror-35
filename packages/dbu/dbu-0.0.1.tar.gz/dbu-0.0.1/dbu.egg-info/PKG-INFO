@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dbu
+Version: 0.0.1
+Summary: DB Utils
+Home-page: https://github.com/leonmaks/dbu
+Author: Le Ma
+Author-email: le_ma_@mail.ru
+License: UNKNOWN
+Description: =====
+        DB Utils
+        =====
+        
+        DB Utils .
+        
+        Quick start
+        -----------
+        
+        1. ...
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
