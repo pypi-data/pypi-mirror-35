@@ -1,0 +1,368 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>INDRA Database REST Client (indra.sources.indra_db_rest) &mdash; INDRA 1.8.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../../genindex.html"/>
+        <link rel="search" title="Search" href="../../../search.html"/>
+    <link rel="top" title="INDRA 1.8.0 documentation" href="../../../index.html"/>
+        <link rel="up" title="Processors for knowledge input (indra.sources)" href="../index.html"/>
+        <link rel="next" title="Database clients (indra.databases)" href="../../databases/index.html"/>
+        <link rel="prev" title="NDEx CX API (indra.sources.ndex_cx_api)" href="../ndex_cx/index.html"/> 
+
+  
+  <script src="../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> INDRA
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.8
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../license.html">License and funding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started.html">Getting started with INDRA</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">INDRA modules reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../statements.html">INDRA Statements (<code class="docutils literal notranslate"><span class="pre">indra.statements</span></code>)</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Processors for knowledge input (<code class="docutils literal notranslate"><span class="pre">indra.sources</span></code>)</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../reach/index.html">REACH (<code class="docutils literal notranslate"><span class="pre">indra.sources.reach</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../trips/index.html">TRIPS (<code class="docutils literal notranslate"><span class="pre">indra.sources.trips</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sparser/index.html">Sparser (<code class="docutils literal notranslate"><span class="pre">indra.sources.sparser</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../isi/index.html">ISI (<code class="docutils literal notranslate"><span class="pre">indra.sources.isi</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../medscan/index.html">MedScan (<code class="docutils literal notranslate"><span class="pre">indra.sources.medscan</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../geneways/index.html">Geneways (<code class="docutils literal notranslate"><span class="pre">indra.sources.geneways</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../tees/index.html">TEES (<code class="docutils literal notranslate"><span class="pre">indra.sources.tees</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../eidos/index.html">Eidos (<code class="docutils literal notranslate"><span class="pre">indra.sources.eidos</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../cwms/index.html">CWMS (<code class="docutils literal notranslate"><span class="pre">indra.sources.cwms</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sofia/index.html">Sofia (<code class="docutils literal notranslate"><span class="pre">indra.sources.sofia</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../hume/index.html">Hume (<code class="docutils literal notranslate"><span class="pre">indra.sources.hume</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../bel/index.html">BEL (<code class="docutils literal notranslate"><span class="pre">indra.sources.bel</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../biopax/index.html">Biopax (<code class="docutils literal notranslate"><span class="pre">indra.sources.biopax</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../signor/index.html">SIGNOR (<code class="docutils literal notranslate"><span class="pre">indra.sources.signor</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../biogrid/index.html">BioGrid (<code class="docutils literal notranslate"><span class="pre">indra.sources.biogrid</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../ndex_cx/index.html">NDEx CX API (<code class="docutils literal notranslate"><span class="pre">indra.sources.ndex_cx_api</span></code>)</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">INDRA Database REST Client (<code class="docutils literal notranslate"><span class="pre">indra.sources.indra_db_rest</span></code>)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#module-indra.sources.indra_db_rest.client_api">Client API (<code class="docutils literal notranslate"><span class="pre">indra.sources.indra_db_rest.client_api</span></code>)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../databases/index.html">Database clients (<code class="docutils literal notranslate"><span class="pre">indra.databases</span></code>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../literature/index.html">Literature clients (<code class="docutils literal notranslate"><span class="pre">indra.literature</span></code>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../preassembler/index.html">Preassembly (<code class="docutils literal notranslate"><span class="pre">indra.preassembler</span></code>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../belief/index.html">Belief Engine (<code class="docutils literal notranslate"><span class="pre">indra.belief</span></code>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../mechlinker/index.html">Mechanism Linker (<code class="docutils literal notranslate"><span class="pre">indra.mechlinker</span></code>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assemblers/index.html">Assemblers of model output (<code class="docutils literal notranslate"><span class="pre">indra.assemblers</span></code>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/index.html">Explanation (<code class="docutils literal notranslate"><span class="pre">indra.explanation</span></code>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tools/index.html">Tools (<code class="docutils literal notranslate"><span class="pre">indra.tools</span></code>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../db/index.html">INDRA Database tools (<code class="docutils literal notranslate"><span class="pre">indra.db</span></code>)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tutorials/index.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../rest_api.html">REST API</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">INDRA</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">INDRA modules reference</a> &raquo;</li>
+        
+          <li><a href="../index.html">Processors for knowledge input (<code class="docutils literal notranslate"><span class="pre">indra.sources</span></code>)</a> &raquo;</li>
+        
+      <li>INDRA Database REST Client (<code class="docutils literal notranslate"><span class="pre">indra.sources.indra_db_rest</span></code>)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../_sources/modules/sources/indra_db_rest/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-indra.sources.indra_db_rest">
+<span id="indra-database-rest-client-indra-sources-indra-db-rest"></span><h1>INDRA Database REST Client (<a class="reference internal" href="#module-indra.sources.indra_db_rest" title="indra.sources.indra_db_rest"><code class="xref py py-mod docutils literal notranslate"><span class="pre">indra.sources.indra_db_rest</span></code></a>)<a class="headerlink" href="#module-indra.sources.indra_db_rest" title="Permalink to this headline">¶</a></h1>
+<p>The INDRA database client allows querying a web service that serves
+content from a database of INDRA Statements collected and pre-assembled
+from various sources.</p>
+<p>Access to the webservice requires a URL (<cite>INDRA_DB_REST_URL</cite>) and
+possibly an API key (<cite>INDRA_DB_REST_API_KEY</cite>), both of which may be placed in
+your config file or as environment variables. If you do not have these
+but would like to access the database REST API, you may contact the developers
+to request a URL and API key.</p>
+<div class="section" id="module-indra.sources.indra_db_rest.client_api">
+<span id="client-api-indra-sources-indra-db-rest-client-api"></span><h2>Client API (<a class="reference internal" href="#module-indra.sources.indra_db_rest.client_api" title="indra.sources.indra_db_rest.client_api"><code class="xref py py-mod docutils literal notranslate"><span class="pre">indra.sources.indra_db_rest.client_api</span></code></a>)<a class="headerlink" href="#module-indra.sources.indra_db_rest.client_api" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="indra.sources.indra_db_rest.client_api.get_statements">
+<code class="descclassname">indra.sources.indra_db_rest.client_api.</code><code class="descname">get_statements</code><span class="sig-paren">(</span><em>subject=None</em>, <em>object=None</em>, <em>agents=None</em>, <em>stmt_type=None</em>, <em>use_exact_type=False</em>, <em>on_limit='sample'</em><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/indra/sources/indra_db_rest/client_api.html#get_statements"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#indra.sources.indra_db_rest.client_api.get_statements" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get statements from INDRA’s database using the web api.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>subject/object</strong> (<em>str</em>) – Optionally specify the subject and/or object of the statements in
+you wish to get from the database. By default, the namespace is assumed
+to be HGNC gene names, however you may specify another namespace by
+including <cite>&#64;&lt;namespace&gt;</cite> at the end of the name string. For example, if
+you want to specify an agent by chebi, you could use <cite>CHEBI:6801&#64;CHEBI</cite>,
+or if you wanted to use the HGNC id, you could use <cite>6871&#64;HGNC</cite>.</li>
+<li><strong>agents</strong> (<em>list</em><em>[</em><em>str</em><em>]</em>) – A list of agents, specified in the same manner as subject and object,
+but without specifying their grammatical position.</li>
+<li><strong>stmt_type</strong> (<em>str</em>) – Specify the types of interactions you are interested in, as indicated
+by the sub-classes of INDRA’s Statements. This argument is <em>not</em> case
+sensitive. If the statement class given has sub-classes
+(e.g. RegulateAmount has IncreaseAmount and DecreaseAmount), then both
+the class itself, and its subclasses, will be queried, by default. If
+you do not want this behavior, set use_exact_type=True.</li>
+<li><strong>use_exact_type</strong> (<em>bool</em>) – If stmt_type is given, and you only want to search for that specific
+statement type, set this to True. Default is False.</li>
+<li><strong>on_limit</strong> (<em>str</em>) – There are four options for handling a query that is too large:
+<cite>sample</cite> - (default) take a sample of statements from the result,
+<cite>truncate</cite> - simply return the first 10,000 statements of the result,
+<cite>error</cite> - raise an error if the query is too large, or
+<cite>persist</cite> - perform as many queries as needed to get all the statements.
+Note that this last option generally takes much much longer to execute.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>stmts</strong> – A list of INDRA Statement instances. Note that if a supporting or
+supported Statement was not included in your query, it will simply be
+instantiated as an <cite>Unresolved</cite> statement, with <cite>uuid</cite> of the statement.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">list[<a class="reference internal" href="../../statements.html#indra.statements.Statement" title="indra.statements.Statement"><code class="xref py py-class docutils literal notranslate"><span class="pre">indra.statements.Statement</span></code></a>]</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="indra.sources.indra_db_rest.client_api.get_statements_for_paper">
+<code class="descclassname">indra.sources.indra_db_rest.client_api.</code><code class="descname">get_statements_for_paper</code><span class="sig-paren">(</span><em>id_val</em>, <em>id_type='pmid'</em><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/indra/sources/indra_db_rest/client_api.html#get_statements_for_paper"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#indra.sources.indra_db_rest.client_api.get_statements_for_paper" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the set of raw Statements extracted from a paper given by the id.</p>
+<p>Note that in the future this will draw upon preassembled Statements.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>id_val</strong> (<em>str</em><em> or </em><em>int</em>) – The value of the id of the paper of interest.</li>
+<li><strong>id_type</strong> (<em>str</em>) – This may be one of ‘pmid’, ‘pmcid’, ‘doi’, ‘pii’, ‘manuscript id’, or
+‘trid’, which is the primary key id of the text references in the
+database. The default is ‘pmid’.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>stmts</strong> – A list of INDRA Statement instances.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">list[<a class="reference internal" href="../../statements.html#indra.statements.Statement" title="indra.statements.Statement"><code class="xref py py-class docutils literal notranslate"><span class="pre">indra.statements.Statement</span></code></a>]</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="exception">
+<dt id="indra.sources.indra_db_rest.client_api.IndraDBRestError">
+<em class="property">exception </em><code class="descclassname">indra.sources.indra_db_rest.client_api.</code><code class="descname">IndraDBRestError</code><span class="sig-paren">(</span><em>resp</em><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/indra/sources/indra_db_rest/client_api.html#IndraDBRestError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#indra.sources.indra_db_rest.client_api.IndraDBRestError" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../databases/index.html" class="btn btn-neutral float-right" title="Database clients (indra.databases)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../ndex_cx/index.html" class="btn btn-neutral" title="NDEx CX API (indra.sources.ndex_cx_api)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, B. M. Gyori, J. A. Bachman.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../',
+            VERSION:'1.8.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

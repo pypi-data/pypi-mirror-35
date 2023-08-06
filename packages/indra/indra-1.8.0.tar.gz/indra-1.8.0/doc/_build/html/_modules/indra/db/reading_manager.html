@@ -1,0 +1,548 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>indra.db.reading_manager &mdash; INDRA 1.8.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../../genindex.html"/>
+        <link rel="search" title="Search" href="../../../search.html"/>
+    <link rel="top" title="INDRA 1.8.0 documentation" href="../../../index.html"/>
+        <link rel="up" title="Module code" href="../../index.html"/> 
+
+  
+  <script src="../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> INDRA
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.8
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../license.html">License and funding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started.html">Getting started with INDRA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules/index.html">INDRA modules reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tutorials/index.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../rest_api.html">REST API</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">INDRA</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>indra.db.reading_manager</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for indra.db.reading_manager</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">absolute_import</span><span class="p">,</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">unicode_literals</span>
+<span class="kn">from</span> <span class="nn">builtins</span> <span class="k">import</span> <span class="nb">dict</span><span class="p">,</span> <span class="nb">str</span><span class="p">,</span> <span class="nb">int</span>
+
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">from</span> <span class="nn">os</span> <span class="k">import</span> <span class="n">path</span>
+<span class="kn">from</span> <span class="nn">functools</span> <span class="k">import</span> <span class="n">wraps</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="k">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
+<span class="kn">from</span> <span class="nn">indra.db.util</span> <span class="k">import</span> <span class="n">get_primary_db</span><span class="p">,</span> <span class="n">get_test_db</span><span class="p">,</span> <span class="n">get_db</span>
+<span class="kn">from</span> <span class="nn">indra.tools.reading.submit_reading_pipeline</span> <span class="k">import</span> <span class="n">submit_db_reading</span><span class="p">,</span>\
+    <span class="n">wait_for_complete</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="c1"># NOTE: PEP8 will complain about this, however having the args parsed up</span>
+    <span class="c1"># here prevents a long wait just to fined out you entered a command wrong.</span>
+    <span class="kn">from</span> <span class="nn">argparse</span> <span class="k">import</span> <span class="n">ArgumentParser</span><span class="p">,</span> <span class="n">ArgumentDefaultsHelpFormatter</span>
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">ArgumentParser</span><span class="p">(</span>
+        <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Manage content on INDRA</span><span class="se">\&#39;</span><span class="s1">s database.&#39;</span>
+        <span class="p">)</span>
+    <span class="n">parent_read_parser</span> <span class="o">=</span> <span class="n">ArgumentParser</span><span class="p">(</span><span class="n">add_help</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">parent_read_parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="n">choices</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;read_all&#39;</span><span class="p">,</span> <span class="s1">&#39;read_new&#39;</span><span class="p">],</span>
+        <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;task&#39;</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Choose whether you want to read/reread everything, or only &#39;</span>
+              <span class="s1">&#39;read the content added since the last update. Note that &#39;</span>
+              <span class="s1">&#39;content from one day before the latests update will also be &#39;</span>
+              <span class="s1">&#39;checked, to avoid content update overlap errors.&#39;</span><span class="p">)</span>
+        <span class="p">)</span>
+    <span class="n">parent_read_parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s1">&#39;-t&#39;</span><span class="p">,</span> <span class="s1">&#39;--test&#39;</span><span class="p">,</span>
+        <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Run tests using one of the designated test databases.&#39;</span>
+        <span class="p">)</span>
+    <span class="n">parent_read_parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s1">&#39;-b&#39;</span><span class="p">,</span> <span class="s1">&#39;--buffer&#39;</span><span class="p">,</span>
+        <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span>
+        <span class="n">default</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Set the number number of buffer days read prior to the most &#39;</span>
+              <span class="s1">&#39;recent update. The default is 1 day.&#39;</span><span class="p">)</span>
+        <span class="p">)</span>
+    <span class="n">local_read_parser</span> <span class="o">=</span> <span class="n">ArgumentParser</span><span class="p">(</span><span class="n">add_help</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">local_read_parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s1">&#39;-n&#39;</span><span class="p">,</span> <span class="s1">&#39;--num_procs&#39;</span><span class="p">,</span>
+        <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;num_procs&#39;</span><span class="p">,</span>
+        <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span>
+        <span class="n">default</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Select the number of processors to use during this operation. &#39;</span>
+              <span class="s1">&#39;Default is 1.&#39;</span><span class="p">)</span>
+        <span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s1">&#39;--use_batch&#39;</span><span class="p">,</span>
+        <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Choose to run the update on amazon batch. Note that this &#39;</span>
+              <span class="s1">&#39;option will cause the -n/--num_procs option to be ignored.&#39;</span><span class="p">)</span>
+        <span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s1">&#39;--database&#39;</span><span class="p">,</span>
+        <span class="n">default</span><span class="o">=</span><span class="s1">&#39;primary&#39;</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Select a database from the names given in the config or &#39;</span>
+              <span class="s1">&#39;environment, for example primary is INDRA_DB_PRIMAY in the &#39;</span>
+              <span class="s1">&#39;config file and INDRADBPRIMARY in the environment. The default &#39;</span>
+              <span class="s1">&#39;is </span><span class="se">\&#39;</span><span class="s1">primary</span><span class="se">\&#39;</span><span class="s1">. Note that this is overwridden by use of the &#39;</span>
+              <span class="s1">&#39;--test flag if </span><span class="se">\&#39;</span><span class="s1">test</span><span class="se">\&#39;</span><span class="s1"> is not a part of the name given.&#39;</span><span class="p">)</span>
+        <span class="p">)</span>
+    <span class="n">aws_read_parser</span> <span class="o">=</span> <span class="n">ArgumentParser</span><span class="p">(</span><span class="n">add_help</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">aws_read_parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s1">&#39;--project_name&#39;</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;For use with --use_batch. Set the name of the project for &#39;</span>
+              <span class="s1">&#39;which this reading is being done. This is used to label jobs &#39;</span>
+              <span class="s1">&#39;on aws batch for monitoring and accoutning purposes.&#39;</span><span class="p">)</span>
+        <span class="p">)</span>
+    <span class="n">subparsers</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">add_subparsers</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">&#39;Method&#39;</span><span class="p">)</span>
+    <span class="n">subparsers</span><span class="o">.</span><span class="n">required</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="n">subparsers</span><span class="o">.</span><span class="n">dest</span> <span class="o">=</span> <span class="s1">&#39;method&#39;</span>
+
+    <span class="n">local_desc</span> <span class="o">=</span> <span class="s1">&#39;Run the reading for the update locally.&#39;</span>
+    <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span>
+        <span class="s1">&#39;local&#39;</span><span class="p">,</span>
+        <span class="n">parents</span><span class="o">=</span><span class="p">[</span><span class="n">parent_read_parser</span><span class="p">,</span> <span class="n">local_read_parser</span><span class="p">],</span>
+        <span class="n">help</span><span class="o">=</span><span class="n">local_desc</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="n">local_desc</span><span class="p">,</span>
+        <span class="n">formatter_class</span><span class="o">=</span><span class="n">ArgumentDefaultsHelpFormatter</span>
+        <span class="p">)</span>
+    <span class="n">aws_desc</span> <span class="o">=</span> <span class="s1">&#39;Run the reading for the update on amazon batch.&#39;</span>
+    <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span>
+        <span class="s1">&#39;aws&#39;</span><span class="p">,</span>
+        <span class="n">parents</span><span class="o">=</span><span class="p">[</span><span class="n">parent_read_parser</span><span class="p">,</span> <span class="n">aws_read_parser</span><span class="p">],</span>
+        <span class="n">help</span><span class="o">=</span><span class="n">local_desc</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="n">local_desc</span><span class="p">,</span>
+        <span class="n">formatter_class</span><span class="o">=</span><span class="n">ArgumentDefaultsHelpFormatter</span>
+        <span class="p">)</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+
+<span class="kn">from</span> <span class="nn">indra.tools.reading.db_reading</span> <span class="k">import</span> <span class="n">read_db</span> <span class="k">as</span> <span class="n">rdb</span>
+<span class="kn">from</span> <span class="nn">indra.tools.reading.readers</span> <span class="k">import</span> <span class="n">get_reader_class</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s1">&#39;reading_manager&#39;</span><span class="p">)</span>
+<span class="n">THIS_DIR</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="ReadingUpdateError"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.reading_manager.ReadingUpdateError">[docs]</a><span class="k">class</span> <span class="nc">ReadingUpdateError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span></div>
+    <span class="k">pass</span>
+
+
+<div class="viewcode-block" id="ReadingManager"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.reading_manager.ReadingManager">[docs]</a><span class="k">class</span> <span class="nc">ReadingManager</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Abstract class for managing the readings of the database.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    reader_name : str</span>
+<span class="sd">        The name of the reader to be used in a given run of reading.</span>
+<span class="sd">    buffer_days : int</span>
+<span class="sd">        The number of days before the previous update/initial upload to look for</span>
+<span class="sd">        &quot;new&quot; content to be read. This prevents any issues with overlaps between</span>
+<span class="sd">        the content upload pipeline and the reading pipeline.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">reader_name</span><span class="p">,</span> <span class="n">buffer_days</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">reader</span> <span class="o">=</span> <span class="n">get_reader_class</span><span class="p">(</span><span class="n">reader_name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">reader</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">ReadingUpdateError</span><span class="p">(</span><span class="s1">&#39;Name of reader was not matched to an &#39;</span>
+                                     <span class="s1">&#39;available reader.&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">buffer</span> <span class="o">=</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="n">buffer_days</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">reader_version</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">reader</span><span class="o">.</span><span class="n">get_version</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">run_datetime</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">begin_datetime</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">end_datetime</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">return</span>
+
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">_handle_update_table</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">func</span><span class="p">):</span>
+        <span class="nd">@wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+        <span class="k">def</span> <span class="nf">run_and_record_update</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">run_datetime</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">utcnow</span><span class="p">()</span>
+            <span class="n">completed</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">completed</span><span class="p">:</span>
+                <span class="n">is_complete_read</span> <span class="o">=</span> <span class="p">(</span><span class="n">func</span><span class="o">.</span><span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;read_all&#39;</span><span class="p">)</span>
+                <span class="n">db</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="s1">&#39;reading_updates&#39;</span><span class="p">,</span> <span class="n">complete_read</span><span class="o">=</span><span class="n">is_complete_read</span><span class="p">,</span>
+                          <span class="n">reader</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">reader</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>
+                          <span class="n">reader_version</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">reader_version</span><span class="p">,</span>
+                          <span class="n">run_datetime</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">run_datetime</span><span class="p">,</span>
+                          <span class="n">earliest_datetime</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">begin_datetime</span><span class="p">,</span>
+                          <span class="n">latest_datetime</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">end_datetime</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">completed</span>
+        <span class="k">return</span> <span class="n">run_and_record_update</span>
+
+    <span class="k">def</span> <span class="nf">_get_latest_updatetime</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Get the date of the latest update.&quot;&quot;&quot;</span>
+        <span class="n">update_list</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">select_all</span><span class="p">(</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">ReadingUpdates</span><span class="p">,</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">ReadingUpdates</span><span class="o">.</span><span class="n">reader</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">reader</span><span class="o">.</span><span class="n">name</span>
+            <span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">update_list</span><span class="p">):</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;The database has not had an initial upload, or &quot;</span>
+                           <span class="s2">&quot;else the updates table has not been populated.&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">None</span>
+
+        <span class="k">return</span> <span class="nb">max</span><span class="p">([</span><span class="n">u</span><span class="o">.</span><span class="n">latest_datetime</span> <span class="k">for</span> <span class="n">u</span> <span class="ow">in</span> <span class="n">update_list</span><span class="p">])</span>
+
+<div class="viewcode-block" id="ReadingManager.read_all"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.reading_manager.ReadingManager.read_all">[docs]</a>    <span class="k">def</span> <span class="nf">read_all</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Perform an initial reading all content in the database (populate).</span>
+
+<span class="sd">        This must be defined in a child class.</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+
+<div class="viewcode-block" id="ReadingManager.read_new"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.reading_manager.ReadingManager.read_new">[docs]</a>    <span class="k">def</span> <span class="nf">read_new</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Read only new content (update).</span>
+
+<span class="sd">        This must be defined in a child class.</span>
+<span class="sd">        &quot;&quot;&quot;</span></div></div>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+
+
+<div class="viewcode-block" id="BulkReadingManager"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.reading_manager.BulkReadingManager">[docs]</a><span class="k">class</span> <span class="nc">BulkReadingManager</span><span class="p">(</span><span class="n">ReadingManager</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;An abstract class which defines methods required for reading in bulk.</span>
+
+<span class="sd">    This takes exactly the parameters used by :py:class:`ReadingManager`.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">_run_reading</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db</span><span class="p">,</span> <span class="n">trids</span><span class="p">,</span> <span class="n">max_refs</span><span class="o">=</span><span class="mi">5000</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">(</span><span class="s2">&quot;_run_reading must be defined in child.&quot;</span><span class="p">)</span>
+
+<div class="viewcode-block" id="BulkReadingManager.read_all"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.reading_manager.BulkReadingManager.read_all">[docs]</a>    <span class="nd">@ReadingManager</span><span class="o">.</span><span class="n">_handle_update_table</span>
+    <span class="k">def</span> <span class="nf">read_all</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Read everything available on the database.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">end_datetime</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">run_datetime</span>
+        <span class="n">trids</span> <span class="o">=</span> <span class="p">{</span><span class="n">trid</span> <span class="k">for</span> <span class="n">trid</span><span class="p">,</span> <span class="ow">in</span> <span class="n">db</span><span class="o">.</span><span class="n">select_all</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">TextContent</span><span class="o">.</span><span class="n">text_ref_id</span><span class="p">)}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_run_reading</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">trids</span><span class="p">)</span></div>
+        <span class="k">return</span> <span class="kc">True</span>
+
+<div class="viewcode-block" id="BulkReadingManager.read_new"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.reading_manager.BulkReadingManager.read_new">[docs]</a>    <span class="nd">@ReadingManager</span><span class="o">.</span><span class="n">_handle_update_table</span>
+    <span class="k">def</span> <span class="nf">read_new</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Update the readings and raw statements in the database.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">end_datetime</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">run_datetime</span>
+        <span class="n">latest_updatetime</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_latest_updatetime</span><span class="p">(</span><span class="n">db</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">latest_updatetime</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">begin_datetime</span> <span class="o">=</span> <span class="n">latest_updatetime</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">buffer</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">ReadingUpdateError</span><span class="p">(</span><span class="s2">&quot;There are no previous updates. &quot;</span>
+                                     <span class="s2">&quot;Please run_all.&quot;</span><span class="p">)</span>
+        <span class="n">trid_q</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">filter_query</span><span class="p">(</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">TextContent</span><span class="o">.</span><span class="n">text_ref_id</span><span class="p">,</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">TextContent</span><span class="o">.</span><span class="n">insert_date</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">begin_datetime</span>
+            <span class="p">)</span>
+        <span class="n">trids</span> <span class="o">=</span> <span class="p">{</span><span class="n">trid</span> <span class="k">for</span> <span class="n">trid</span><span class="p">,</span> <span class="ow">in</span> <span class="n">trid_q</span><span class="o">.</span><span class="n">all</span><span class="p">()}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_run_reading</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">trids</span><span class="p">)</span></div></div>
+        <span class="k">return</span> <span class="kc">True</span>
+
+
+<div class="viewcode-block" id="BulkAwsReadingManager"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.reading_manager.BulkAwsReadingManager">[docs]</a><span class="k">class</span> <span class="nc">BulkAwsReadingManager</span><span class="p">(</span><span class="n">BulkReadingManager</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;This is the reading manager when updating using AWS Batch.</span>
+
+<span class="sd">    This takes all the parameters used by :py:class:`BulkReadingManager`, and</span>
+<span class="sd">    in addition:</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    project_name : str</span>
+<span class="sd">        You can select a name for the project for which this reading is being</span>
+<span class="sd">        run. This name has a default value set in your config file. The batch</span>
+<span class="sd">        jobs used in reading will be tagged with this project name, for</span>
+<span class="sd">        accounting purposes.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">project_name</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;project_name&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">BulkAwsReadingManager</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">return</span>
+
+    <span class="k">def</span> <span class="nf">_run_reading</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db</span><span class="p">,</span> <span class="n">trids</span><span class="p">,</span> <span class="n">max_refs</span><span class="o">=</span><span class="mi">5000</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">trids</span><span class="p">)</span><span class="o">/</span><span class="n">max_refs</span> <span class="o">&gt;=</span> <span class="mi">1000</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">ReadingUpdateError</span><span class="p">(</span><span class="s2">&quot;Too many id&#39;s for one submission. &quot;</span>
+                                     <span class="s2">&quot;Break it up and do it manually.&quot;</span><span class="p">)</span>
+
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Producing readings on aws for </span><span class="si">%d</span><span class="s2"> text refs with new &quot;</span>
+                    <span class="s2">&quot;content not read by </span><span class="si">%s</span><span class="s2">.&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">trids</span><span class="p">),</span> <span class="bp">self</span><span class="o">.</span><span class="n">reader</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+        <span class="n">job_prefix</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1">_reading_</span><span class="si">%s</span><span class="s1">&#39;</span>
+                      <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">reader</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">(),</span>
+                         <span class="bp">self</span><span class="o">.</span><span class="n">run_datetime</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y%m</span><span class="si">%d</span><span class="s1">_%H%M%S&#39;</span><span class="p">)))</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">job_prefix</span> <span class="o">+</span> <span class="s1">&#39;.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s1">&#39;trid:</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">trid</span> <span class="k">for</span> <span class="n">trid</span> <span class="ow">in</span> <span class="n">trids</span><span class="p">]))</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Submitting jobs...&quot;</span><span class="p">)</span>
+        <span class="n">job_ids</span> <span class="o">=</span> <span class="n">submit_db_reading</span><span class="p">(</span><span class="n">job_prefix</span><span class="p">,</span> <span class="n">job_prefix</span> <span class="o">+</span> <span class="s1">&#39;.txt&#39;</span><span class="p">,</span>
+                                    <span class="n">readers</span><span class="o">=</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">reader</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">()],</span>
+                                    <span class="n">start_ix</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">end_ix</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                                    <span class="n">pmids_per_job</span><span class="o">=</span><span class="n">max_refs</span><span class="p">,</span> <span class="n">num_tries</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+                                    <span class="n">force_read</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">force_fulltext</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                    <span class="n">read_all_fulltext</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                    <span class="n">project_name</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">project_name</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Waiting for complete...&quot;</span><span class="p">)</span>
+        <span class="n">wait_for_complete</span><span class="p">(</span><span class="s1">&#39;run_db_reading_queue&#39;</span><span class="p">,</span> <span class="n">job_list</span><span class="o">=</span><span class="n">job_ids</span><span class="p">,</span>
+                          <span class="n">job_name_prefix</span><span class="o">=</span><span class="n">job_prefix</span><span class="p">,</span>
+                          <span class="n">idle_log_timeout</span><span class="o">=</span><span class="mi">1200</span><span class="p">,</span>
+                          <span class="n">kill_on_log_timeout</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                          <span class="n">stash_log_method</span><span class="o">=</span><span class="s1">&#39;s3&#39;</span><span class="p">)</span></div>
+        <span class="k">return</span>
+
+
+<div class="viewcode-block" id="BulkLocalReadingManager"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.reading_manager.BulkLocalReadingManager">[docs]</a><span class="k">class</span> <span class="nc">BulkLocalReadingManager</span><span class="p">(</span><span class="n">BulkReadingManager</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;This is the reading manager to be used when running reading locally.</span>
+
+<span class="sd">    This takes all the parameters used by :py:class:`BulkReadingManager`, and</span>
+<span class="sd">    in addition:</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    n_proc : int</span>
+<span class="sd">        The number of processed to dedicate to reading. Note the some of the</span>
+<span class="sd">        readers (e.g. REACH) do not always obey these restrictions.</span>
+<span class="sd">    verbose : bool</span>
+<span class="sd">        If True, more detailed logs will be printed. Default is False.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">n_proc</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;n_proc&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;verbose&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">BulkLocalReadingManager</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">return</span>
+
+    <span class="k">def</span> <span class="nf">_run_reading</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db</span><span class="p">,</span> <span class="n">trids</span><span class="p">,</span> <span class="n">max_refs</span><span class="o">=</span><span class="mi">5000</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">trids</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">max_refs</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">ReadingUpdateError</span><span class="p">(</span><span class="s2">&quot;Too many id&#39;s to run locally. Try &quot;</span>
+                                     <span class="s2">&quot;running on batch (use_batch).&quot;</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Producing readings locally for </span><span class="si">%d</span><span class="s2"> new text refs.&quot;</span>
+                    <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">trids</span><span class="p">))</span>
+        <span class="n">base_dir</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">THIS_DIR</span><span class="p">,</span> <span class="s1">&#39;read_all_</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">reader</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="n">reader_inst</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">base_dir</span><span class="o">=</span><span class="n">base_dir</span><span class="p">,</span> <span class="n">n_proc</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">n_proc</span><span class="p">)</span>
+
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Making readings...&quot;</span><span class="p">)</span>
+        <span class="n">outputs</span> <span class="o">=</span> <span class="n">rdb</span><span class="o">.</span><span class="n">produce_readings</span><span class="p">({</span><span class="s1">&#39;trid&#39;</span><span class="p">:</span> <span class="n">trids</span><span class="p">},</span> <span class="p">[</span><span class="n">reader_inst</span><span class="p">],</span>
+                                       <span class="n">read_mode</span><span class="o">=</span><span class="s1">&#39;unread_unread&#39;</span><span class="p">,</span> <span class="n">db</span><span class="o">=</span><span class="n">db</span><span class="p">,</span>
+                                       <span class="n">prioritize</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">verbose</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Made </span><span class="si">%d</span><span class="s2"> readings.&quot;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">outputs</span><span class="p">))</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Making statements...&quot;</span><span class="p">)</span>
+        <span class="n">rdb</span><span class="o">.</span><span class="n">produce_statements</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">n_proc</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">n_proc</span><span class="p">,</span> <span class="n">db</span><span class="o">=</span><span class="n">db</span><span class="p">)</span></div>
+        <span class="k">return</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">test</span><span class="p">:</span>
+        <span class="k">if</span> <span class="s1">&#39;test&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">args</span><span class="o">.</span><span class="n">database</span><span class="p">:</span>
+            <span class="n">db</span> <span class="o">=</span> <span class="n">get_test_db</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">db</span> <span class="o">=</span> <span class="n">get_db</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">database</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">args</span><span class="o">.</span><span class="n">database</span> <span class="o">==</span> <span class="s1">&#39;primary&#39;</span><span class="p">:</span>
+        <span class="n">db</span> <span class="o">=</span> <span class="n">get_primary_db</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">db</span> <span class="o">=</span> <span class="n">get_db</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">database</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">&#39;local&#39;</span><span class="p">:</span>
+        <span class="n">bulk_managers</span> <span class="o">=</span> <span class="p">[</span><span class="n">BulkLocalReadingManager</span><span class="p">(</span><span class="n">reader_name</span><span class="p">,</span>
+                                                 <span class="n">buffer_days</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">buffer</span><span class="p">,</span>
+                                                 <span class="n">n_proc</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">num_procs</span><span class="p">)</span>
+                         <span class="k">for</span> <span class="n">reader_name</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;SPARSER&#39;</span><span class="p">,</span> <span class="s1">&#39;REACH&#39;</span><span class="p">]]</span>
+    <span class="k">elif</span> <span class="n">args</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">&#39;aws&#39;</span><span class="p">:</span>
+        <span class="n">bulk_managers</span> <span class="o">=</span> <span class="p">[</span><span class="n">BulkAwsReadingManager</span><span class="p">(</span><span class="n">reader_name</span><span class="p">,</span>
+                                               <span class="n">buffer_days</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">buffer</span><span class="p">,</span>
+                                               <span class="n">project_name</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">project_name</span><span class="p">)</span>
+                         <span class="k">for</span> <span class="n">reader_name</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;SPARSER&#39;</span><span class="p">,</span> <span class="s1">&#39;REACH&#39;</span><span class="p">]]</span>
+
+    <span class="k">for</span> <span class="n">bulk_manager</span> <span class="ow">in</span> <span class="n">bulk_managers</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">task</span> <span class="o">==</span> <span class="s1">&#39;read_all&#39;</span><span class="p">:</span>
+            <span class="n">bulk_manager</span><span class="o">.</span><span class="n">read_all</span><span class="p">(</span><span class="n">db</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">args</span><span class="o">.</span><span class="n">task</span> <span class="o">==</span> <span class="s1">&#39;read_new&#39;</span><span class="p">:</span>
+            <span class="n">bulk_manager</span><span class="o">.</span><span class="n">read_new</span><span class="p">(</span><span class="n">db</span><span class="p">)</span>
+</pre></div>
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, B. M. Gyori, J. A. Bachman.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../',
+            VERSION:'1.8.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,1061 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>indra.db.util &mdash; INDRA 1.8.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../../genindex.html"/>
+        <link rel="search" title="Search" href="../../../search.html"/>
+    <link rel="top" title="INDRA 1.8.0 documentation" href="../../../index.html"/>
+        <link rel="up" title="Module code" href="../../index.html"/> 
+
+  
+  <script src="../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> INDRA
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.8
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../license.html">License and funding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started.html">Getting started with INDRA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules/index.html">INDRA modules reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tutorials/index.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../rest_api.html">REST API</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">INDRA</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>indra.db.util</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for indra.db.util</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">absolute_import</span><span class="p">,</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">unicode_literals</span>
+<span class="kn">from</span> <span class="nn">builtins</span> <span class="k">import</span> <span class="nb">dict</span><span class="p">,</span> <span class="nb">str</span>
+
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;get_defaults&#39;</span><span class="p">,</span> <span class="s1">&#39;get_primary_db&#39;</span><span class="p">,</span> <span class="s1">&#39;get_db&#39;</span><span class="p">,</span> <span class="s1">&#39;insert_agents&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;insert_pa_stmts&#39;</span><span class="p">,</span> <span class="s1">&#39;insert_db_stmts&#39;</span><span class="p">,</span> <span class="s1">&#39;get_raw_stmts_frm_db_list&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;distill_stmts&#39;</span><span class="p">]</span>
+
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">zlib</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="k">import</span> <span class="n">datetime</span>
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="k">import</span> <span class="n">groupby</span>
+<span class="kn">from</span> <span class="nn">functools</span> <span class="k">import</span> <span class="n">partial</span><span class="p">,</span> <span class="n">wraps</span>
+<span class="kn">from</span> <span class="nn">multiprocessing.pool</span> <span class="k">import</span> <span class="n">Pool</span>
+
+<span class="kn">from</span> <span class="nn">indra.util</span> <span class="k">import</span> <span class="n">batch_iter</span>
+<span class="kn">from</span> <span class="nn">indra.util.nested_dict</span> <span class="k">import</span> <span class="n">NestedDict</span>
+<span class="kn">from</span> <span class="nn">indra.util.get_version</span> <span class="k">import</span> <span class="n">get_version</span>
+<span class="kn">from</span> <span class="nn">indra.util</span> <span class="k">import</span> <span class="n">batch_iter</span>
+<span class="kn">from</span> <span class="nn">indra.statements</span> <span class="k">import</span> <span class="n">Complex</span><span class="p">,</span> <span class="n">SelfModification</span><span class="p">,</span> <span class="n">ActiveForm</span><span class="p">,</span>\
+    <span class="n">stmts_from_json</span><span class="p">,</span> <span class="n">Conversion</span><span class="p">,</span> <span class="n">Translocation</span><span class="p">,</span> <span class="n">Statement</span>
+
+<span class="kn">from</span> <span class="nn">.database_manager</span> <span class="k">import</span> <span class="n">DatabaseManager</span><span class="p">,</span> <span class="n">IndraDatabaseError</span>
+<span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="n">get_databases</span> <span class="k">as</span> <span class="n">get_defaults</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s1">&#39;db_util&#39;</span><span class="p">)</span>
+
+
+<span class="n">__PRIMARY_DB</span> <span class="o">=</span> <span class="kc">None</span>
+
+
+<span class="k">def</span> <span class="nf">_clockit</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+    <span class="nd">@wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">timed_func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">start</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+        <span class="n">ret</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="n">end</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+        <span class="c1"># print(u&#39;\033[0;35;40m%s \033[1;36;40m%-30s\033[0;35;40m %s %s \033[0m&#39;</span>
+        <span class="c1">#       % (&#39;~&#39;*5, func.__name__, end-start, &#39;~&#39;*5))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1"> </span><span class="si">%-30s</span><span class="s1"> </span><span class="si">%s</span><span class="s1"> </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="s1">&#39;~&#39;</span><span class="o">*</span><span class="mi">5</span><span class="p">,</span> <span class="n">func</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="n">end</span><span class="o">-</span><span class="n">start</span><span class="p">,</span> <span class="s1">&#39;~&#39;</span><span class="o">*</span><span class="mi">5</span><span class="p">))</span>
+        <span class="c1">#fname = &#39;%s-%s_times.log&#39; % (abspath(__file__), func.__name__)</span>
+        <span class="c1">#with open(fname, &#39;a&#39;) as f:</span>
+        <span class="c1">#    f.write(&#39;%s: %s\n&#39; % (start, end-start))</span>
+        <span class="k">return</span> <span class="n">ret</span>
+    <span class="k">return</span> <span class="n">timed_func</span>
+
+
+<div class="viewcode-block" id="get_primary_db"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.util.get_primary_db">[docs]</a><span class="k">def</span> <span class="nf">get_primary_db</span><span class="p">(</span><span class="n">force_new</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Get a DatabaseManager instance for the primary database host.</span>
+
+<span class="sd">    The primary database host is defined in the defaults.txt file, or in a file</span>
+<span class="sd">    given by the environment variable DEFAULTS_FILE. Alternatively, it may be</span>
+<span class="sd">    defined by the INDRADBPRIMARY environment variable. If none of the above</span>
+<span class="sd">    are specified, this function will raise an exception.</span>
+
+<span class="sd">    Note: by default, calling this function twice will return the same</span>
+<span class="sd">    `DatabaseManager` instance. In other words::</span>
+
+<span class="sd">        db1 = get_primary_db()</span>
+<span class="sd">        db2 = get_primary_db()</span>
+<span class="sd">        db1 is db2</span>
+
+<span class="sd">    This means also that, for example `db1.select_one(db2.TextRef)` will work,</span>
+<span class="sd">    in the above context.</span>
+
+<span class="sd">    It is still recommended that when creating a script or function, or other</span>
+<span class="sd">    general application, you should not rely on this feature to get your access</span>
+<span class="sd">    to the database, as it can make substituting a different database host both</span>
+<span class="sd">    complicated and messy. Rather, a database instance should be explicitly</span>
+<span class="sd">    passed between different users as is done in `get_statements_by_gene_role_type`</span>
+<span class="sd">    function&#39;s call to `get_statements` in `indra.db.query_db_stmts`.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    force_new : bool</span>
+<span class="sd">        If true, a new instance will be created and returned, regardless of</span>
+<span class="sd">        whether there is an existing instance or not. Default is False, so that</span>
+<span class="sd">        if this function has been called before within the global scope, a the</span>
+<span class="sd">        instance that was first created will be returned.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    primary_db : :py:class:`DatabaseManager`</span>
+<span class="sd">        An instance of the database manager that is attached to the primary</span>
+<span class="sd">        database.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">defaults</span> <span class="o">=</span> <span class="n">get_defaults</span><span class="p">()</span>
+    <span class="k">if</span> <span class="s1">&#39;primary&#39;</span> <span class="ow">in</span> <span class="n">defaults</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="n">primary_host</span> <span class="o">=</span> <span class="n">defaults</span><span class="p">[</span><span class="s1">&#39;primary&#39;</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="n">IndraDatabaseError</span><span class="p">(</span><span class="s2">&quot;No primary host available in defaults file.&quot;</span><span class="p">)</span>
+
+    <span class="k">global</span> <span class="n">__PRIMARY_DB</span>
+    <span class="k">if</span> <span class="n">__PRIMARY_DB</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">force_new</span><span class="p">:</span>
+        <span class="n">__PRIMARY_DB</span> <span class="o">=</span> <span class="n">DatabaseManager</span><span class="p">(</span><span class="n">primary_host</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;primary&#39;</span><span class="p">)</span>
+        <span class="n">__PRIMARY_DB</span><span class="o">.</span><span class="n">grab_session</span><span class="p">()</span></div>
+    <span class="k">return</span> <span class="n">__PRIMARY_DB</span>
+
+
+<span class="k">def</span> <span class="nf">get_test_db</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Get a DatabaseManager for the test database.&quot;&quot;&quot;</span>
+    <span class="n">defaults</span> <span class="o">=</span> <span class="n">get_defaults</span><span class="p">()</span>
+    <span class="n">test_defaults</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">defaults</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="s1">&#39;test&#39;</span> <span class="ow">in</span> <span class="n">k</span><span class="p">}</span>
+    <span class="n">key_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">test_defaults</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+    <span class="n">key_list</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+    <span class="n">db</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">key_list</span><span class="p">:</span>
+        <span class="n">test_name</span> <span class="o">=</span> <span class="n">test_defaults</span><span class="p">[</span><span class="n">k</span><span class="p">]</span>
+        <span class="n">m</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s1">&#39;(\w+)://.*?/([\w.]+)&#39;</span><span class="p">,</span> <span class="n">test_name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">m</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Poorly formed db name: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">test_name</span><span class="p">)</span>
+            <span class="k">continue</span>
+        <span class="n">sqltype</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">groups</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">db</span> <span class="o">=</span> <span class="n">DatabaseManager</span><span class="p">(</span><span class="n">test_name</span><span class="p">,</span> <span class="n">sqltype</span><span class="o">=</span><span class="n">sqltype</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">k</span><span class="p">)</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">grab_session</span><span class="p">()</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> didn&#39;t work&quot;</span> <span class="o">%</span> <span class="n">test_name</span><span class="p">)</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">exception</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+            <span class="k">continue</span>  <span class="c1"># Clearly this test database won&#39;t work.</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Using test database </span><span class="si">%s</span><span class="s2">.&quot;</span> <span class="o">%</span> <span class="n">k</span><span class="p">)</span>
+        <span class="k">break</span>
+    <span class="k">if</span> <span class="n">db</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Could not find any test database names.&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">db</span>
+
+
+<div class="viewcode-block" id="get_db"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.util.get_db">[docs]</a><span class="k">def</span> <span class="nf">get_db</span><span class="p">(</span><span class="n">db_label</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Get a db instance base on it&#39;s name in the config or env.&quot;&quot;&quot;</span>
+    <span class="n">defaults</span> <span class="o">=</span> <span class="n">get_defaults</span><span class="p">()</span>
+    <span class="n">db_name</span> <span class="o">=</span> <span class="n">defaults</span><span class="p">[</span><span class="n">db_label</span><span class="p">]</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s1">&#39;(\w+)://.*?/([\w.]+)&#39;</span><span class="p">,</span> <span class="n">db_name</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">m</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Poorly formed db name: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">db_name</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="n">sqltype</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">groups</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span></div>
+    <span class="k">return</span> <span class="n">DatabaseManager</span><span class="p">(</span><span class="n">db_name</span><span class="p">,</span> <span class="n">sqltype</span><span class="o">=</span><span class="n">sqltype</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">db_label</span><span class="p">)</span>
+
+
+<span class="nd">@_clockit</span>
+<span class="k">def</span> <span class="nf">get_statements_without_agents</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">prefix</span><span class="p">,</span> <span class="o">*</span><span class="n">other_stmt_clauses</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Get a generator for db orm statement objects which do not have agents.&quot;&quot;&quot;</span>
+    <span class="n">num_per_yield</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;num_per_yield&#39;</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+    <span class="n">verbose</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;verbose&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+
+    <span class="c1"># Get the objects for either raw or pa statements.</span>
+    <span class="n">stmt_tbl_obj</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">tables</span><span class="p">[</span><span class="n">prefix</span> <span class="o">+</span> <span class="s1">&#39;_statements&#39;</span><span class="p">]</span>
+    <span class="n">agent_tbl_obj</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">tables</span><span class="p">[</span><span class="n">prefix</span> <span class="o">+</span> <span class="s1">&#39;_agents&#39;</span><span class="p">]</span>
+
+    <span class="c1"># Build a dict mapping stmt UUIDs to statement IDs</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Getting </span><span class="si">%s</span><span class="s2"> that lack </span><span class="si">%s</span><span class="s2"> in the database.&quot;</span>
+                <span class="o">%</span> <span class="p">(</span><span class="n">stmt_tbl_obj</span><span class="o">.</span><span class="n">__tablename__</span><span class="p">,</span> <span class="n">agent_tbl_obj</span><span class="o">.</span><span class="n">__tablename__</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">prefix</span> <span class="o">==</span> <span class="s1">&#39;pa&#39;</span><span class="p">:</span>
+        <span class="n">stmts_w_agents_q</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">filter_query</span><span class="p">(</span>
+            <span class="n">stmt_tbl_obj</span><span class="p">,</span>
+            <span class="n">stmt_tbl_obj</span><span class="o">.</span><span class="n">mk_hash</span> <span class="o">==</span> <span class="n">agent_tbl_obj</span><span class="o">.</span><span class="n">stmt_mk_hash</span>
+        <span class="p">)</span>
+    <span class="k">elif</span> <span class="n">prefix</span> <span class="o">==</span> <span class="s1">&#39;raw&#39;</span><span class="p">:</span>
+        <span class="n">stmts_w_agents_q</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">filter_query</span><span class="p">(</span>
+            <span class="n">stmt_tbl_obj</span><span class="p">,</span>
+            <span class="n">stmt_tbl_obj</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="n">agent_tbl_obj</span><span class="o">.</span><span class="n">stmt_id</span>
+        <span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="n">IndraDatabaseError</span><span class="p">(</span><span class="s2">&quot;Unrecognized prefix: </span><span class="si">%s</span><span class="s2">.&quot;</span> <span class="o">%</span> <span class="n">prefix</span><span class="p">)</span>
+    <span class="n">stmts_wo_agents_q</span> <span class="o">=</span> <span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">filter_query</span><span class="p">(</span><span class="n">stmt_tbl_obj</span><span class="p">,</span> <span class="o">*</span><span class="n">other_stmt_clauses</span><span class="p">)</span>
+                         <span class="o">.</span><span class="n">except_</span><span class="p">(</span><span class="n">stmts_w_agents_q</span><span class="p">))</span>
+
+    <span class="c1"># Start printing some data</span>
+    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+        <span class="n">num_stmts</span> <span class="o">=</span> <span class="n">stmts_wo_agents_q</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Adding agents for </span><span class="si">%d</span><span class="s2"> statements.&quot;</span> <span class="o">%</span> <span class="n">num_stmts</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">num_stmts</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="c1"># Get the iterator</span>
+    <span class="k">return</span> <span class="n">stmts_wo_agents_q</span><span class="o">.</span><span class="n">yield_per</span><span class="p">(</span><span class="n">num_per_yield</span><span class="p">),</span> <span class="n">num_stmts</span>
+
+
+<div class="viewcode-block" id="insert_agents"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.util.insert_agents">[docs]</a><span class="nd">@_clockit</span>
+<span class="k">def</span> <span class="nf">insert_agents</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">prefix</span><span class="p">,</span> <span class="n">stmts_wo_agents</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Insert agents for statements that don&#39;t have any agents.</span>
+
+<span class="sd">    Note: This method currently works for both Statements and PAStatements and</span>
+<span class="sd">    their corresponding agents (Agents and PAAgents). However, if you already</span>
+<span class="sd">    have preassembled INDRA Statement objects that you know don&#39;t have agents in</span>
+<span class="sd">    the database, you can use `insert_pa_agents_directly` to insert the agents</span>
+<span class="sd">    much faster.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    db : :py:class:`DatabaseManager`</span>
+<span class="sd">        The manager for the database into which you are adding agents.</span>
+<span class="sd">    prefix : str</span>
+<span class="sd">        Select which stage of statements for which you wish to insert agents.</span>
+<span class="sd">        The choices are &#39;pa&#39; for preassembled statements or &#39;raw&#39; for raw</span>
+<span class="sd">        statements.</span>
+<span class="sd">    *other_stmt_clauses : sqlalchemy clauses</span>
+<span class="sd">        Further arguments, such as `db.Statements.db_ref == 1&#39; are used to</span>
+<span class="sd">        restrict the scope of statements whose agents may be added.</span>
+<span class="sd">    verbose : bool</span>
+<span class="sd">        If True, print extra information and a status bar while compiling</span>
+<span class="sd">        agents for insert from statements. Default False.</span>
+<span class="sd">    num_per_yield : int</span>
+<span class="sd">        To conserve memory, statements are loaded in batches of `num_per_yeild`</span>
+<span class="sd">        using the `yeild_per` feature of sqlalchemy queries.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">verbose</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;verbose&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="n">IndraDatabaseError</span><span class="p">(</span><span class="s2">&quot;Unrecognized keyword argument(s): </span><span class="si">%s</span><span class="s2">.&quot;</span>
+                                 <span class="o">%</span> <span class="n">kwargs</span><span class="p">)</span>
+
+    <span class="n">agent_tbl_obj</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">tables</span><span class="p">[</span><span class="n">prefix</span> <span class="o">+</span> <span class="s1">&#39;_agents&#39;</span><span class="p">]</span>
+
+    <span class="k">if</span> <span class="n">stmts_wo_agents</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">stmts_wo_agents</span><span class="p">,</span> <span class="n">num_stmts</span> <span class="o">=</span> \
+            <span class="n">get_statements_without_agents</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">prefix</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">num_stmts</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">num_stmts</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">num_stmts</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">stmts_wo_agents</span><span class="p">)</span>
+            <span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Could not get length from type: </span><span class="si">%s</span><span class="s2">. Turning off &quot;</span>
+                            <span class="s2">&quot;verbose messaging.&quot;</span> <span class="o">%</span> <span class="nb">type</span><span class="p">(</span><span class="n">stmts_wo_agents</span><span class="p">))</span>
+                <span class="n">verbose</span> <span class="o">=</span> <span class="kc">False</span>
+
+    <span class="c1"># Construct the agent records</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Building agent data for insert...&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Loading:&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">agent_data</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">db_stmt</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">stmts_wo_agents</span><span class="p">):</span>
+        <span class="c1"># Convert the database statement entry object into an indra statement.</span>
+        <span class="n">stmt</span> <span class="o">=</span> <span class="n">stmts_from_json</span><span class="p">([</span><span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">db_stmt</span><span class="o">.</span><span class="n">json</span><span class="o">.</span><span class="n">decode</span><span class="p">())])[</span><span class="mi">0</span><span class="p">]</span>
+
+        <span class="k">if</span> <span class="n">prefix</span> <span class="o">==</span> <span class="s1">&#39;pa&#39;</span><span class="p">:</span>
+            <span class="n">stmt_id</span> <span class="o">=</span> <span class="n">db_stmt</span><span class="o">.</span><span class="n">mk_hash</span>
+        <span class="k">else</span><span class="p">:</span>  <span class="c1"># prefix == &#39;raw&#39;</span>
+            <span class="n">stmt_id</span> <span class="o">=</span> <span class="n">db_stmt</span><span class="o">.</span><span class="n">id</span>
+
+        <span class="n">agent_data</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">_get_agent_tuples</span><span class="p">(</span><span class="n">stmt</span><span class="p">,</span> <span class="n">stmt_id</span><span class="p">))</span>
+
+        <span class="c1"># Optionally print another tick on the progress bar.</span>
+        <span class="k">if</span> <span class="n">verbose</span> <span class="ow">and</span> <span class="n">num_stmts</span> <span class="o">&gt;</span> <span class="mi">25</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">%</span> <span class="p">(</span><span class="n">num_stmts</span><span class="o">//</span><span class="mi">25</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;|&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">verbose</span> <span class="ow">and</span> <span class="n">num_stmts</span> <span class="o">&gt;</span> <span class="mi">25</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="n">prefix</span> <span class="o">==</span> <span class="s1">&#39;pa&#39;</span><span class="p">:</span>
+        <span class="n">cols</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;stmt_mk_hash&#39;</span><span class="p">,</span> <span class="s1">&#39;db_name&#39;</span><span class="p">,</span> <span class="s1">&#39;db_id&#39;</span><span class="p">,</span> <span class="s1">&#39;role&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>  <span class="c1"># prefix == &#39;raw&#39;</span>
+        <span class="n">cols</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;stmt_id&#39;</span><span class="p">,</span> <span class="s1">&#39;db_name&#39;</span><span class="p">,</span> <span class="s1">&#39;db_id&#39;</span><span class="p">,</span> <span class="s1">&#39;role&#39;</span><span class="p">)</span>
+    <span class="n">db</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">agent_tbl_obj</span><span class="o">.</span><span class="n">__tablename__</span><span class="p">,</span> <span class="n">agent_data</span><span class="p">,</span> <span class="n">cols</span><span class="p">)</span></div>
+    <span class="k">return</span>
+
+
+<span class="nd">@_clockit</span>
+<span class="k">def</span> <span class="nf">insert_pa_agents_directly</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">stmts</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Insert agents for preasembled statements.</span>
+
+<span class="sd">    Unlike raw statements, preassembled statements are indexed by a hash,</span>
+<span class="sd">    allowing for bulk import without a lookup beforehand, and allowing for a</span>
+<span class="sd">    much simpler API.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    db : :py:class:`DatabaseManager`</span>
+<span class="sd">        The manager for the database into which you are adding agents.</span>
+<span class="sd">    stmts : list[:py:class:`Statement`]</span>
+<span class="sd">        A list of statements for which statements should be inserted.</span>
+<span class="sd">    verbose : bool</span>
+<span class="sd">        If True, print extra information and a status bar while compiling</span>
+<span class="sd">        agents for insert from statements. Default False.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+        <span class="n">num_stmts</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">stmts</span><span class="p">)</span>
+
+    <span class="c1"># Construct the agent records</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Building agent data for insert...&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Loading:&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">agent_data</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">stmt</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">stmts</span><span class="p">):</span>
+        <span class="n">agent_data</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">_get_agent_tuples</span><span class="p">(</span><span class="n">stmt</span><span class="p">,</span> <span class="n">stmt</span><span class="o">.</span><span class="n">get_hash</span><span class="p">(</span><span class="n">shallow</span><span class="o">=</span><span class="kc">True</span><span class="p">)))</span>
+
+        <span class="c1"># Optionally print another tick on the progress bar.</span>
+        <span class="k">if</span> <span class="n">verbose</span> <span class="ow">and</span> <span class="n">num_stmts</span> <span class="o">&gt;</span> <span class="mi">25</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">%</span> <span class="p">(</span><span class="n">num_stmts</span><span class="o">//</span><span class="mi">25</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;|&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">verbose</span> <span class="ow">and</span> <span class="n">num_stmts</span> <span class="o">&gt;</span> <span class="mi">25</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">()</span>
+
+    <span class="n">cols</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;stmt_mk_hash&#39;</span><span class="p">,</span> <span class="s1">&#39;db_name&#39;</span><span class="p">,</span> <span class="s1">&#39;db_id&#39;</span><span class="p">,</span> <span class="s1">&#39;role&#39;</span><span class="p">)</span>
+    <span class="n">db</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="s1">&#39;pa_agents&#39;</span><span class="p">,</span> <span class="n">agent_data</span><span class="p">,</span> <span class="n">cols</span><span class="p">)</span>
+    <span class="k">return</span>
+
+
+<span class="k">def</span> <span class="nf">_get_agent_tuples</span><span class="p">(</span><span class="n">stmt</span><span class="p">,</span> <span class="n">stmt_id</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Create the tuples for copying agents into the database.&quot;&quot;&quot;</span>
+    <span class="c1"># Figure out how the agents are structured and assign roles.</span>
+    <span class="n">ag_list</span> <span class="o">=</span> <span class="n">stmt</span><span class="o">.</span><span class="n">agent_list</span><span class="p">()</span>
+    <span class="n">nary_stmt_types</span> <span class="o">=</span> <span class="p">[</span><span class="n">Complex</span><span class="p">,</span> <span class="n">SelfModification</span><span class="p">,</span> <span class="n">ActiveForm</span><span class="p">,</span> <span class="n">Conversion</span><span class="p">,</span>
+                       <span class="n">Translocation</span><span class="p">]</span>
+    <span class="k">if</span> <span class="nb">any</span><span class="p">([</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">stmt</span><span class="p">,</span> <span class="n">tp</span><span class="p">)</span> <span class="k">for</span> <span class="n">tp</span> <span class="ow">in</span> <span class="n">nary_stmt_types</span><span class="p">]):</span>
+        <span class="n">agents</span> <span class="o">=</span> <span class="p">{(</span><span class="s1">&#39;OTHER&#39;</span><span class="p">,</span> <span class="n">ag</span><span class="p">)</span> <span class="k">for</span> <span class="n">ag</span> <span class="ow">in</span> <span class="n">ag_list</span><span class="p">}</span>
+    <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">ag_list</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="n">agents</span> <span class="o">=</span> <span class="p">{(</span><span class="s1">&#39;SUBJECT&#39;</span><span class="p">,</span> <span class="n">ag_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="p">(</span><span class="s1">&#39;OBJECT&#39;</span><span class="p">,</span> <span class="n">ag_list</span><span class="p">[</span><span class="mi">1</span><span class="p">])}</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="n">IndraDatabaseError</span><span class="p">(</span><span class="s2">&quot;Unhandled agent structure for stmt </span><span class="si">%s</span><span class="s2"> &quot;</span>
+                                 <span class="s2">&quot;with agents: </span><span class="si">%s</span><span class="s2">.&quot;</span>
+                                 <span class="o">%</span> <span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">stmt</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">stmt</span><span class="o">.</span><span class="n">agent_list</span><span class="p">())))</span>
+
+    <span class="c1"># Prep the agents for copy into the database.</span>
+    <span class="n">agent_data</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">role</span><span class="p">,</span> <span class="n">ag</span> <span class="ow">in</span> <span class="n">agents</span><span class="p">:</span>
+        <span class="c1"># If no agent, or no db_refs for the agent, skip the insert</span>
+        <span class="c1"># that follows.</span>
+        <span class="k">if</span> <span class="n">ag</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">ag</span><span class="o">.</span><span class="n">db_refs</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="k">for</span> <span class="n">ns</span><span class="p">,</span> <span class="n">ag_id</span> <span class="ow">in</span> <span class="n">ag</span><span class="o">.</span><span class="n">db_refs</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ag_id</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span>
+                <span class="k">for</span> <span class="n">sub_id</span> <span class="ow">in</span> <span class="n">ag_id</span><span class="p">:</span>
+                    <span class="n">agent_data</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">stmt_id</span><span class="p">,</span> <span class="n">ns</span><span class="p">,</span> <span class="n">sub_id</span><span class="p">,</span> <span class="n">role</span><span class="p">))</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">agent_data</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">stmt_id</span><span class="p">,</span> <span class="n">ns</span><span class="p">,</span> <span class="n">ag_id</span><span class="p">,</span> <span class="n">role</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">agent_data</span>
+
+
+<div class="viewcode-block" id="insert_db_stmts"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.util.insert_db_stmts">[docs]</a><span class="k">def</span> <span class="nf">insert_db_stmts</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">stmts</span><span class="p">,</span> <span class="n">db_ref_id</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Insert statement, their database, and any affiliated agents.</span>
+
+<span class="sd">    Note that this method is for uploading statements that came from a</span>
+<span class="sd">    database to our databse, not for inserting any statements to the database.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    db : :py:class:`DatabaseManager`</span>
+<span class="sd">        The manager for the database into which you are loading statements.</span>
+<span class="sd">    stmts : list [:py:class:`indra.statements.Statement`]</span>
+<span class="sd">        A list of un-assembled indra statements to be uploaded to the datbase.</span>
+<span class="sd">    db_ref_id : int</span>
+<span class="sd">        The id to the db_ref entry corresponding to these statements.</span>
+<span class="sd">    verbose : bool</span>
+<span class="sd">        If True, print extra information and a status bar while compiling</span>
+<span class="sd">        statements for insert. Default False.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Preparing the statements for copying</span>
+    <span class="n">stmt_data</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">cols</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;uuid&#39;</span><span class="p">,</span> <span class="s1">&#39;mk_hash&#39;</span><span class="p">,</span> <span class="s1">&#39;db_info_id&#39;</span><span class="p">,</span> <span class="s1">&#39;type&#39;</span><span class="p">,</span> <span class="s1">&#39;json&#39;</span><span class="p">,</span> <span class="s1">&#39;indra_version&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Loading:&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">stmt</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">stmts</span><span class="p">):</span>
+        <span class="c1"># Only one evidence is allowed for each statement.</span>
+        <span class="k">for</span> <span class="n">ev</span> <span class="ow">in</span> <span class="n">stmt</span><span class="o">.</span><span class="n">evidence</span><span class="p">:</span>
+            <span class="n">new_stmt</span> <span class="o">=</span> <span class="n">stmt</span><span class="o">.</span><span class="n">make_generic_copy</span><span class="p">()</span>
+            <span class="n">new_stmt</span><span class="o">.</span><span class="n">evidence</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ev</span><span class="p">)</span>
+            <span class="n">stmt_rec</span> <span class="o">=</span> <span class="p">(</span>
+                <span class="n">new_stmt</span><span class="o">.</span><span class="n">uuid</span><span class="p">,</span>
+                <span class="n">new_stmt</span><span class="o">.</span><span class="n">get_hash</span><span class="p">(),</span>
+                <span class="n">db_ref_id</span><span class="p">,</span>
+                <span class="n">new_stmt</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span>
+                <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">new_stmt</span><span class="o">.</span><span class="n">to_json</span><span class="p">())</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">),</span>
+                <span class="n">get_version</span><span class="p">()</span>
+            <span class="p">)</span>
+            <span class="n">stmt_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">stmt_rec</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">verbose</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">%</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stmts</span><span class="p">)</span><span class="o">//</span><span class="mi">25</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;|&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; Done loading </span><span class="si">%d</span><span class="s2"> statements.&quot;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">stmts</span><span class="p">))</span>
+    <span class="n">db</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="s1">&#39;raw_statements&#39;</span><span class="p">,</span> <span class="n">stmt_data</span><span class="p">,</span> <span class="n">cols</span><span class="p">)</span>
+    <span class="n">stmts_to_add_agents</span><span class="p">,</span> <span class="n">num_stmts</span> <span class="o">=</span> \
+        <span class="n">get_statements_without_agents</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="s1">&#39;raw&#39;</span><span class="p">,</span>
+                                      <span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="o">.</span><span class="n">db_info_id</span> <span class="o">==</span> <span class="n">db_ref_id</span><span class="p">)</span>
+    <span class="n">insert_agents</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="s1">&#39;raw&#39;</span><span class="p">,</span> <span class="n">stmts_to_add_agents</span><span class="p">)</span></div>
+    <span class="k">return</span>
+
+
+<div class="viewcode-block" id="insert_pa_stmts"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.util.insert_pa_stmts">[docs]</a><span class="k">def</span> <span class="nf">insert_pa_stmts</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">stmts</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">do_copy</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                    <span class="n">direct_agent_load</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Insert pre-assembled statements, and any affiliated agents.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    db : :py:class:`DatabaseManager`</span>
+<span class="sd">        The manager for the database into which you are loading pre-assembled</span>
+<span class="sd">        statements.</span>
+<span class="sd">    stmts : iterable [:py:class:`indra.statements.Statement`]</span>
+<span class="sd">        A list of pre-assembled indra statements to be uploaded to the datbase.</span>
+<span class="sd">    verbose : bool</span>
+<span class="sd">        If True, print extra information and a status bar while compiling</span>
+<span class="sd">        statements for insert. Default False.</span>
+<span class="sd">    direct_agent_load : bool</span>
+<span class="sd">        If True (default), use the Statement get_hash method to get the id&#39;s of</span>
+<span class="sd">        the Statements for insert, instead of looking up the ids of Statements</span>
+<span class="sd">        from the database.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Beginning to insert pre-assembled statements.&quot;</span><span class="p">)</span>
+    <span class="n">stmt_data</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">indra_version</span> <span class="o">=</span> <span class="n">get_version</span><span class="p">()</span>
+    <span class="n">cols</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;uuid&#39;</span><span class="p">,</span> <span class="s1">&#39;matches_key&#39;</span><span class="p">,</span> <span class="s1">&#39;mk_hash&#39;</span><span class="p">,</span> <span class="s1">&#39;type&#39;</span><span class="p">,</span> <span class="s1">&#39;json&#39;</span><span class="p">,</span> <span class="s1">&#39;indra_version&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Loading:&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">stmt</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">stmts</span><span class="p">):</span>
+        <span class="n">stmt_rec</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="n">stmt</span><span class="o">.</span><span class="n">uuid</span><span class="p">,</span>
+            <span class="n">stmt</span><span class="o">.</span><span class="n">matches_key</span><span class="p">(),</span>
+            <span class="n">stmt</span><span class="o">.</span><span class="n">get_hash</span><span class="p">(</span><span class="n">shallow</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span>
+            <span class="n">stmt</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span>
+            <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">stmt</span><span class="o">.</span><span class="n">to_json</span><span class="p">())</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">),</span>
+            <span class="n">indra_version</span>
+        <span class="p">)</span>
+        <span class="n">stmt_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">stmt_rec</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">verbose</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">%</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stmts</span><span class="p">)</span><span class="o">//</span><span class="mi">25</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;|&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; Done loading </span><span class="si">%d</span><span class="s2"> statements.&quot;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">stmts</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">do_copy</span><span class="p">:</span>
+        <span class="n">db</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="s1">&#39;pa_statements&#39;</span><span class="p">,</span> <span class="n">stmt_data</span><span class="p">,</span> <span class="n">cols</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">db</span><span class="o">.</span><span class="n">insert_many</span><span class="p">(</span><span class="s1">&#39;pa_statements&#39;</span><span class="p">,</span> <span class="n">stmt_data</span><span class="p">,</span> <span class="n">cols</span><span class="o">=</span><span class="n">cols</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">insert_pa_agents_directly</span><span class="p">:</span>
+        <span class="n">insert_pa_agents_directly</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">stmts</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">insert_agents</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="s1">&#39;pa&#39;</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">)</span></div>
+    <span class="k">return</span>
+
+
+<span class="c1">#==============================================================================</span>
+<span class="c1"># Below are some functions that are useful for getting raw statements from the</span>
+<span class="c1"># database at various levels of abstraction.</span>
+<span class="c1">#==============================================================================</span>
+
+<span class="k">def</span> <span class="nf">_get_statement_object</span><span class="p">(</span><span class="n">db_stmt</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Get an INDRA Statement object from a db_stmt.&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">Statement</span><span class="o">.</span><span class="n">_from_json</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">db_stmt</span><span class="o">.</span><span class="n">json</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)))</span>
+
+
+<span class="k">def</span> <span class="nf">_set_evidence_text_ref</span><span class="p">(</span><span class="n">stmt</span><span class="p">,</span> <span class="n">tr</span><span class="p">):</span>
+    <span class="c1"># This is a separate function because it is likely to change, and this is a</span>
+    <span class="c1"># critical process that is executed in multiple places.</span>
+    <span class="k">for</span> <span class="n">ev</span> <span class="ow">in</span> <span class="n">stmt</span><span class="o">.</span><span class="n">evidence</span><span class="p">:</span>
+        <span class="n">ev</span><span class="o">.</span><span class="n">pmid</span> <span class="o">=</span> <span class="n">tr</span><span class="o">.</span><span class="n">pmid</span>
+
+
+<span class="nd">@_clockit</span>
+<span class="k">def</span> <span class="nf">_fix_evidence_refs</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">rid_stmt_trios</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Get proper id data for a raw statement from the database.</span>
+
+<span class="sd">    Alterations are made to the Statement objects &quot;in-place&quot;, so this function</span>
+<span class="sd">    itself returns None.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">rid_set</span> <span class="o">=</span> <span class="p">{</span><span class="n">rid</span> <span class="k">for</span> <span class="n">rid</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">rid_stmt_trios</span> <span class="k">if</span> <span class="n">rid</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">}</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Getting text refs for </span><span class="si">%d</span><span class="s2"> readings.&quot;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">rid_set</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">rid_set</span><span class="p">:</span>
+        <span class="n">rid_tr_pairs</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">select_all</span><span class="p">([</span><span class="n">db</span><span class="o">.</span><span class="n">Reading</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="n">db</span><span class="o">.</span><span class="n">TextRef</span><span class="p">],</span>
+                                     <span class="n">db</span><span class="o">.</span><span class="n">Reading</span><span class="o">.</span><span class="n">id</span><span class="o">.</span><span class="n">in_</span><span class="p">(</span><span class="n">rid_set</span><span class="p">),</span>
+                                     <span class="o">*</span><span class="n">db</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">TextRef</span><span class="p">,</span> <span class="n">db</span><span class="o">.</span><span class="n">Reading</span><span class="p">))</span>
+        <span class="n">rid_tr_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">rid</span><span class="p">:</span> <span class="n">tr</span> <span class="k">for</span> <span class="n">rid</span><span class="p">,</span> <span class="n">tr</span> <span class="ow">in</span> <span class="n">rid_tr_pairs</span><span class="p">}</span>
+        <span class="k">for</span> <span class="n">rid</span><span class="p">,</span> <span class="n">sid</span><span class="p">,</span> <span class="n">stmt</span> <span class="ow">in</span> <span class="n">rid_stmt_trios</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">rid</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="c1"># This means this statement came from a database, not reading.</span>
+                <span class="k">continue</span>
+            <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">stmt</span><span class="o">.</span><span class="n">evidence</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">,</span> \
+                <span class="s2">&quot;Only raw statements can have their refs fixed.&quot;</span>
+            <span class="n">_set_evidence_text_ref</span><span class="p">(</span><span class="n">stmt</span><span class="p">,</span> <span class="n">rid_tr_dict</span><span class="p">[</span><span class="n">rid</span><span class="p">])</span>
+    <span class="k">return</span>
+
+
+<div class="viewcode-block" id="get_raw_stmts_frm_db_list"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.util.get_raw_stmts_frm_db_list">[docs]</a><span class="nd">@_clockit</span>
+<span class="k">def</span> <span class="nf">get_raw_stmts_frm_db_list</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">db_stmt_objs</span><span class="p">,</span> <span class="n">fix_refs</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">with_sids</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Convert table objects of raw statements into INDRA Statement objects.&quot;&quot;&quot;</span>
+    <span class="n">rid_stmt_sid_trios</span> <span class="o">=</span> <span class="p">[(</span><span class="n">db_stmt</span><span class="o">.</span><span class="n">reading_id</span><span class="p">,</span> <span class="n">db_stmt</span><span class="o">.</span><span class="n">id</span><span class="p">,</span>
+                          <span class="n">_get_statement_object</span><span class="p">(</span><span class="n">db_stmt</span><span class="p">))</span>
+                          <span class="k">for</span> <span class="n">db_stmt</span> <span class="ow">in</span> <span class="n">db_stmt_objs</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">fix_refs</span><span class="p">:</span>
+        <span class="n">_fix_evidence_refs</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">rid_stmt_sid_trios</span><span class="p">)</span>
+    <span class="c1"># Note: it is important that order is maintained here (hence not a set or</span>
+    <span class="c1"># dict).</span>
+    <span class="k">if</span> <span class="n">with_sids</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[(</span><span class="n">sid</span><span class="p">,</span> <span class="n">stmt</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">sid</span><span class="p">,</span> <span class="n">stmt</span> <span class="ow">in</span> <span class="n">rid_stmt_sid_trios</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span></div>
+        <span class="k">return</span> <span class="p">[</span><span class="n">stmt</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">stmt</span> <span class="ow">in</span> <span class="n">rid_stmt_sid_trios</span><span class="p">]</span>
+
+
+<span class="k">def</span> <span class="nf">_get_reading_statement_dict</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">clauses</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">get_full_stmts</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Get a nested dict of statements, keyed by ref, content, and reading.&quot;&quot;&quot;</span>
+    <span class="c1"># Construct the query for metadata from the database.</span>
+    <span class="n">q</span> <span class="o">=</span> <span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">TextRef</span><span class="p">,</span> <span class="n">db</span><span class="o">.</span><span class="n">TextContent</span><span class="o">.</span><span class="n">id</span><span class="p">,</span>
+                          <span class="n">db</span><span class="o">.</span><span class="n">TextContent</span><span class="o">.</span><span class="n">source</span><span class="p">,</span> <span class="n">db</span><span class="o">.</span><span class="n">Reading</span><span class="o">.</span><span class="n">id</span><span class="p">,</span>
+                          <span class="n">db</span><span class="o">.</span><span class="n">Reading</span><span class="o">.</span><span class="n">reader_version</span><span class="p">,</span> <span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="o">.</span><span class="n">id</span><span class="p">,</span>
+                          <span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="o">.</span><span class="n">json</span><span class="p">)</span>
+         <span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="o">*</span><span class="n">db</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="p">,</span> <span class="n">db</span><span class="o">.</span><span class="n">TextRef</span><span class="p">)))</span>
+    <span class="k">if</span> <span class="n">clauses</span><span class="p">:</span>
+        <span class="n">q</span> <span class="o">=</span> <span class="n">q</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="o">*</span><span class="n">clauses</span><span class="p">)</span>
+
+    <span class="c1"># Prime some counters.</span>
+    <span class="n">num_duplicate_evidence</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">num_unique_evidence</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="c1"># Populate a dict with all the data.</span>
+    <span class="n">stmt_nd</span> <span class="o">=</span> <span class="n">NestedDict</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">tr</span><span class="p">,</span> <span class="n">tcid</span><span class="p">,</span> <span class="n">src</span><span class="p">,</span> <span class="n">rid</span><span class="p">,</span> <span class="n">rv</span><span class="p">,</span> <span class="n">sid</span><span class="p">,</span> <span class="n">sjson</span> <span class="ow">in</span> <span class="n">q</span><span class="o">.</span><span class="n">yield_per</span><span class="p">(</span><span class="mi">1000</span><span class="p">):</span>
+        <span class="c1"># Back out the reader name.</span>
+        <span class="k">for</span> <span class="n">reader</span><span class="p">,</span> <span class="n">rv_list</span> <span class="ow">in</span> <span class="n">reader_versions</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">rv</span> <span class="ow">in</span> <span class="n">rv_list</span><span class="p">:</span>
+                <span class="k">break</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;rv </span><span class="si">%s</span><span class="s2"> not recognized.&quot;</span> <span class="o">%</span> <span class="n">rv</span><span class="p">)</span>
+
+        <span class="c1"># Get the json for comparison and/or storage</span>
+        <span class="n">stmt_json</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">sjson</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">))</span>
+        <span class="n">stmt</span> <span class="o">=</span> <span class="n">Statement</span><span class="o">.</span><span class="n">_from_json</span><span class="p">(</span><span class="n">stmt_json</span><span class="p">)</span>
+        <span class="n">_set_evidence_text_ref</span><span class="p">(</span><span class="n">stmt</span><span class="p">,</span> <span class="n">tr</span><span class="p">)</span>
+
+        <span class="c1"># Hash the compbined stmt and evidence matches key.</span>
+        <span class="n">stmt_hash</span> <span class="o">=</span> <span class="n">stmt</span><span class="o">.</span><span class="n">get_hash</span><span class="p">()</span>
+
+        <span class="c1"># For convenience get the endpoint statement dict</span>
+        <span class="n">s_dict</span> <span class="o">=</span> <span class="n">stmt_nd</span><span class="p">[</span><span class="n">tr</span><span class="o">.</span><span class="n">id</span><span class="p">][</span><span class="n">src</span><span class="p">][</span><span class="n">tcid</span><span class="p">][</span><span class="n">reader</span><span class="p">][</span><span class="n">rv</span><span class="p">][</span><span class="n">rid</span><span class="p">]</span>
+
+        <span class="c1"># Initialize the value to a set, and count duplicates</span>
+        <span class="k">if</span> <span class="n">stmt_hash</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">s_dict</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="n">s_dict</span><span class="p">[</span><span class="n">stmt_hash</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+            <span class="n">num_unique_evidence</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">num_duplicate_evidence</span> <span class="o">+=</span> <span class="mi">1</span>
+
+        <span class="c1"># Either store the statement, or the statement id.</span>
+        <span class="k">if</span> <span class="n">get_full_stmts</span><span class="p">:</span>
+            <span class="n">s_dict</span><span class="p">[</span><span class="n">stmt_hash</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">((</span><span class="n">sid</span><span class="p">,</span> <span class="n">stmt</span><span class="p">))</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">s_dict</span><span class="p">[</span><span class="n">stmt_hash</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">((</span><span class="n">sid</span><span class="p">,</span> <span class="kc">None</span><span class="p">))</span>
+
+    <span class="c1"># Report on the results.</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Found </span><span class="si">%d</span><span class="s2"> relevant text refs with statements.&quot;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">stmt_nd</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;number of statement exact duplicates: </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">num_duplicate_evidence</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;number of unique statements: </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">num_unique_evidence</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">stmt_nd</span>
+
+
+<span class="c1"># Specify versions of readers, and preference. Later in the list is better.</span>
+<span class="n">reader_versions</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;sparser&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;sept14-linux</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;sept14-linux&#39;</span><span class="p">,</span> <span class="s1">&#39;June2018-linux&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;reach&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;61059a-biores-e9ee36&#39;</span><span class="p">,</span> <span class="s1">&#39;1.3.3-61059a-biores-&#39;</span><span class="p">]</span>
+    <span class="p">}</span>
+
+<span class="c1"># Specify sources of fulltext content, and order priorities.</span>
+<span class="n">text_content_sources</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;pubmed&#39;</span><span class="p">,</span> <span class="s1">&#39;elsevier&#39;</span><span class="p">,</span> <span class="s1">&#39;manuscripts&#39;</span><span class="p">,</span> <span class="s1">&#39;pmc_oa&#39;</span><span class="p">]</span>
+
+
+<span class="k">def</span> <span class="nf">_get_filtered_rdg_statements</span><span class="p">(</span><span class="n">stmt_nd</span><span class="p">,</span> <span class="n">get_full_stmts</span><span class="p">,</span> <span class="n">linked_sids</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                                 <span class="n">ignore_duplicates</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Get the set of statements/ids from readings minus exact duplicates.&quot;&quot;&quot;</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Filtering the statements from reading.&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">linked_sids</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">linked_sids</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">def</span> <span class="nf">better_func</span><span class="p">(</span><span class="n">element</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">text_content_sources</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+
+    <span class="c1"># Now we filter and get the set of statements/statement ids.</span>
+    <span class="n">stmt_tpls</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="n">duplicate_sids</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>  <span class="c1"># Statements that are exact duplicates.</span>
+    <span class="n">bettered_duplicate_sids</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>  <span class="c1"># Statements with &quot;better&quot; alternatives</span>
+    <span class="k">for</span> <span class="n">trid</span><span class="p">,</span> <span class="n">src_dict</span> <span class="ow">in</span> <span class="n">stmt_nd</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">some_bettered_duplicate_tpls</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="c1"># Filter out unneeded fulltext.</span>
+        <span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">src_dict</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">worst_src</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">src_dict</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">better_func</span><span class="p">)</span>
+                <span class="n">some_bettered_duplicate_tpls</span> <span class="o">|=</span> <span class="n">src_dict</span><span class="p">[</span><span class="n">worst_src</span><span class="p">]</span><span class="o">.</span><span class="n">get_leaves</span><span class="p">()</span>
+                <span class="k">del</span> <span class="n">src_dict</span><span class="p">[</span><span class="n">worst_src</span><span class="p">]</span>
+            <span class="k">except</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">src_dict</span><span class="p">)</span>
+                <span class="k">raise</span>
+
+        <span class="c1"># Filter out the older reader versions</span>
+        <span class="k">for</span> <span class="n">reader</span><span class="p">,</span> <span class="n">rv_list</span> <span class="ow">in</span> <span class="n">reader_versions</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">for</span> <span class="n">rv_dict</span> <span class="ow">in</span> <span class="n">src_dict</span><span class="o">.</span><span class="n">gets</span><span class="p">(</span><span class="n">reader</span><span class="p">):</span>
+                <span class="n">best_rv</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">rv_dict</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">rv_list</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+
+                <span class="c1"># Record the rest of the statement uuids.</span>
+                <span class="k">for</span> <span class="n">rv</span><span class="p">,</span> <span class="n">r_dict</span> <span class="ow">in</span> <span class="n">rv_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                    <span class="k">if</span> <span class="n">rv</span> <span class="o">!=</span> <span class="n">best_rv</span><span class="p">:</span>
+                        <span class="n">some_bettered_duplicate_tpls</span> <span class="o">|=</span> <span class="n">r_dict</span><span class="o">.</span><span class="n">get_leaves</span><span class="p">()</span>
+
+                <span class="c1"># Take any one of the duplicates. Statements/Statement ids are</span>
+                <span class="c1"># already grouped into sets of duplicates keyed by the</span>
+                <span class="c1"># Statement and Evidence matches key hashes. We only want one</span>
+                <span class="c1"># of each.</span>
+                <span class="n">stmt_set_itr</span> <span class="o">=</span> <span class="p">(</span><span class="n">stmt_set</span> <span class="k">for</span> <span class="n">r_dict</span> <span class="ow">in</span> <span class="n">rv_dict</span><span class="p">[</span><span class="n">best_rv</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">()</span>
+                                <span class="k">for</span> <span class="n">stmt_set</span> <span class="ow">in</span> <span class="n">r_dict</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+                <span class="k">if</span> <span class="n">ignore_duplicates</span><span class="p">:</span>
+                    <span class="n">some_stmt_tpls</span> <span class="o">=</span> <span class="p">{</span><span class="n">stmt_tpl</span> <span class="k">for</span> <span class="n">stmt_set</span> <span class="ow">in</span> <span class="n">stmt_set_itr</span>
+                                      <span class="k">for</span> <span class="n">stmt_tpl</span> <span class="ow">in</span> <span class="n">stmt_set</span><span class="p">}</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">some_stmt_tpls</span><span class="p">,</span> <span class="n">some_duplicate_tpls</span> <span class="o">=</span> \
+                        <span class="n">_detect_exact_duplicates</span><span class="p">(</span><span class="n">stmt_set_itr</span><span class="p">,</span> <span class="n">linked_sids</span><span class="p">)</span>
+
+                    <span class="c1"># Get the sids for the statements.</span>
+                    <span class="n">duplicate_sids</span> <span class="o">|=</span> <span class="p">{</span><span class="n">sid</span> <span class="k">for</span> <span class="n">sid</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">some_duplicate_tpls</span><span class="p">}</span>
+
+                <span class="n">stmt_tpls</span> <span class="o">|=</span> <span class="n">some_stmt_tpls</span>
+
+        <span class="c1"># Add the bettered duplicates found in this round.</span>
+        <span class="n">bettered_duplicate_sids</span> <span class="o">|=</span> \
+            <span class="p">{</span><span class="n">sid</span> <span class="k">for</span> <span class="n">sid</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">some_bettered_duplicate_tpls</span><span class="p">}</span>
+
+    <span class="k">if</span> <span class="n">get_full_stmts</span><span class="p">:</span>
+        <span class="n">stmts</span> <span class="o">=</span> <span class="p">{</span><span class="n">stmt</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">stmt</span> <span class="ow">in</span> <span class="n">stmt_tpls</span> <span class="k">if</span> <span class="n">stmt</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">}</span>
+        <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">stmts</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">stmt_tpls</span><span class="p">),</span>\
+            <span class="p">(</span><span class="s2">&quot;Some statements were None! The interaction between &quot;</span>
+             <span class="s2">&quot;_get_reading_statement_dict and _filter_rdg_statements was &quot;</span>
+             <span class="s2">&quot;probably mishandled.&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">stmts</span> <span class="o">=</span> <span class="p">{</span><span class="n">sid</span> <span class="k">for</span> <span class="n">sid</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">stmt_tpls</span><span class="p">}</span>
+
+    <span class="k">return</span> <span class="n">stmts</span><span class="p">,</span> <span class="n">duplicate_sids</span><span class="p">,</span> <span class="n">bettered_duplicate_sids</span>
+
+
+<span class="k">def</span> <span class="nf">_detect_exact_duplicates</span><span class="p">(</span><span class="n">stmt_set_itr</span><span class="p">,</span> <span class="n">linked_sids</span><span class="p">):</span>
+    <span class="c1"># Pick one among any exact duplicates. Unlike with bettered</span>
+    <span class="c1"># duplicates, these choices are arbitrary, and such duplicates</span>
+    <span class="c1"># can be deleted.</span>
+    <span class="n">stmt_tpls</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="n">some_duplicate_tpls</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">stmt_tpl_set</span> <span class="ow">in</span> <span class="n">stmt_set_itr</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">stmt_tpl_set</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">stmt_tpl_set</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="c1"># There isn&#39;t really a choice here.</span>
+            <span class="n">stmt_tpls</span> <span class="o">|=</span> <span class="n">stmt_tpl_set</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">prefed_tpls</span> <span class="o">=</span> <span class="p">{</span><span class="n">tpl</span> <span class="k">for</span> <span class="n">tpl</span> <span class="ow">in</span> <span class="n">stmt_tpl_set</span>
+                           <span class="k">if</span> <span class="n">tpl</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">in</span> <span class="n">linked_sids</span><span class="p">}</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">prefed_tpls</span><span class="p">:</span>
+                <span class="c1"># Pick the first one to pop, record the rest as</span>
+                <span class="c1"># duplicates.</span>
+                <span class="n">stmt_tpls</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">stmt_tpl_set</span><span class="o">.</span><span class="n">pop</span><span class="p">())</span>
+                <span class="n">some_duplicate_tpls</span> <span class="o">|=</span> <span class="n">stmt_tpl_set</span>
+            <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">prefed_tpls</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="c1"># There is now no choice: just take the preferred</span>
+                <span class="c1"># statement.</span>
+                <span class="n">stmt_tpls</span> <span class="o">|=</span> <span class="n">prefed_tpls</span>
+                <span class="n">some_duplicate_tpls</span> <span class="o">|=</span> <span class="p">(</span><span class="n">stmt_tpl_set</span> <span class="o">-</span> <span class="n">prefed_tpls</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># This shouldn&#39;t happen, so an early run of this</span>
+                <span class="c1"># function must have failed somehow, or else there</span>
+                <span class="c1"># was some kind of misuse. Flag it, pick just one of</span>
+                <span class="c1"># the preferred statements, and delete any deletable</span>
+                <span class="c1"># statements.</span>
+                <span class="k">assert</span> <span class="kc">False</span><span class="p">,</span> \
+                    <span class="p">(</span><span class="s2">&quot;Duplicate deduplicated statements found: </span><span class="si">%s</span><span class="s2">&quot;</span>
+                     <span class="o">%</span> <span class="nb">str</span><span class="p">(</span><span class="n">prefed_tpls</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">stmt_tpls</span><span class="p">,</span> <span class="n">some_duplicate_tpls</span>
+
+
+<span class="k">def</span> <span class="nf">_choose_unique</span><span class="p">(</span><span class="n">not_duplicates</span><span class="p">,</span> <span class="n">get_full_stmts</span><span class="p">,</span> <span class="n">stmt_tpl_grp</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Choose one of the statements from a redundant set.&quot;&quot;&quot;</span>
+    <span class="k">assert</span> <span class="n">stmt_tpl_grp</span><span class="p">,</span> <span class="s2">&quot;This cannot be empty.&quot;</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">stmt_tpl_grp</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">s_tpl</span> <span class="o">=</span> <span class="n">stmt_tpl_grp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">duplicate_ids</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">stmt_tpl_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">stmt_tpl_grp</span><span class="p">)</span>
+        <span class="n">preferred_tpls</span> <span class="o">=</span> <span class="p">{</span><span class="n">tpl</span> <span class="k">for</span> <span class="n">tpl</span> <span class="ow">in</span> <span class="n">stmt_tpl_set</span>
+                          <span class="k">if</span> <span class="n">tpl</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span> <span class="n">not_duplicates</span><span class="p">}</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">preferred_tpls</span><span class="p">:</span>
+            <span class="n">s_tpl</span> <span class="o">=</span> <span class="n">stmt_tpl_set</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">preferred_tpls</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">s_tpl</span> <span class="o">=</span> <span class="n">preferred_tpls</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>  <span class="c1"># len(preferred_stmts) &gt; 1</span>
+            <span class="k">assert</span> <span class="kc">False</span><span class="p">,</span> \
+                <span class="p">(</span><span class="s2">&quot;Duplicate deduplicated statements found: </span><span class="si">%s</span><span class="s2">&quot;</span>
+                 <span class="o">%</span> <span class="nb">str</span><span class="p">(</span><span class="n">preferred_tpls</span><span class="p">))</span>
+        <span class="n">duplicate_ids</span> <span class="o">=</span> <span class="p">{</span><span class="n">tpl</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">tpl</span> <span class="ow">in</span> <span class="n">stmt_tpl_set</span>
+                         <span class="k">if</span> <span class="n">tpl</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">not_duplicates</span><span class="p">}</span>
+
+    <span class="k">if</span> <span class="n">get_full_stmts</span><span class="p">:</span>
+        <span class="n">stmt_json</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">s_tpl</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">))</span>
+        <span class="n">ret_stmt</span> <span class="o">=</span> <span class="n">Statement</span><span class="o">.</span><span class="n">_from_json</span><span class="p">(</span><span class="n">stmt_json</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">ret_stmt</span> <span class="o">=</span> <span class="n">s_tpl</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">ret_stmt</span><span class="p">,</span> <span class="n">duplicate_ids</span>
+
+
+<span class="k">def</span> <span class="nf">_get_filtered_db_statements</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">get_full_stmts</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">clauses</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                                <span class="n">not_duplicates</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_procs</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Get the set of statements/ids from databases minus exact duplicates.&quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">not_duplicates</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">not_duplicates</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+
+    <span class="c1"># Only get the json if it&#39;s going to be used. Note that if the use of the</span>
+    <span class="c1"># get_full_stmts parameter is inconsistent in _choose_unique, this will</span>
+    <span class="c1"># cause some problems.</span>
+    <span class="k">if</span> <span class="n">get_full_stmts</span><span class="p">:</span>
+        <span class="n">tbl_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="o">.</span><span class="n">mk_hash</span><span class="p">,</span> <span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="o">.</span><span class="n">id</span><span class="p">,</span>
+                    <span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="o">.</span><span class="n">json</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">tbl_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="o">.</span><span class="n">mk_hash</span><span class="p">,</span> <span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="o">.</span><span class="n">id</span><span class="p">]</span>
+
+    <span class="n">db_s_q</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">filter_query</span><span class="p">(</span><span class="n">tbl_list</span><span class="p">,</span> <span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="o">.</span><span class="n">db_info_id</span><span class="o">.</span><span class="n">isnot</span><span class="p">(</span><span class="kc">None</span><span class="p">))</span>
+
+    <span class="c1"># Add any other criterion specified at higher levels.</span>
+    <span class="k">if</span> <span class="n">clauses</span><span class="p">:</span>
+        <span class="n">db_s_q</span> <span class="o">=</span> <span class="n">db_s_q</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="o">*</span><span class="n">clauses</span><span class="p">)</span>
+
+    <span class="c1"># Produce a generator of statement groups.</span>
+    <span class="n">db_stmt_data</span> <span class="o">=</span> <span class="n">db_s_q</span><span class="o">.</span><span class="n">order_by</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="o">.</span><span class="n">mk_hash</span><span class="p">)</span><span class="o">.</span><span class="n">yield_per</span><span class="p">(</span><span class="mi">10000</span><span class="p">)</span>
+    <span class="n">choose_unique_stmt</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">_choose_unique</span><span class="p">,</span> <span class="n">not_duplicates</span><span class="p">,</span> <span class="n">get_full_stmts</span><span class="p">)</span>
+    <span class="n">stmt_groups</span> <span class="o">=</span> <span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">grp</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">grp</span>
+                   <span class="ow">in</span> <span class="n">groupby</span><span class="p">(</span><span class="n">db_stmt_data</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+
+    <span class="c1"># Actually do the comparison.</span>
+    <span class="k">if</span> <span class="n">num_procs</span> <span class="ow">is</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">stmts</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="n">duplicate_ids</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">stmt_list</span> <span class="ow">in</span> <span class="n">stmt_groups</span><span class="p">:</span>
+            <span class="n">stmt</span><span class="p">,</span> <span class="n">some_duplicates</span> <span class="o">=</span> <span class="n">choose_unique_stmt</span><span class="p">(</span><span class="n">stmt_list</span><span class="p">)</span>
+            <span class="n">stmts</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">stmt</span><span class="p">)</span>
+            <span class="n">duplicate_ids</span> <span class="o">|=</span> <span class="n">some_duplicates</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">pool</span> <span class="o">=</span> <span class="n">Pool</span><span class="p">(</span><span class="n">num_procs</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Filtering db statements in </span><span class="si">%d</span><span class="s2"> processess.&quot;</span> <span class="o">%</span> <span class="n">num_procs</span><span class="p">)</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">pool</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">choose_unique_stmt</span><span class="p">,</span> <span class="n">stmt_groups</span><span class="p">)</span>
+        <span class="n">pool</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="n">pool</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+        <span class="n">stmt_list</span><span class="p">,</span> <span class="n">duplicate_sets</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">res</span><span class="p">)</span>
+        <span class="n">stmts</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">stmt_list</span><span class="p">)</span>
+        <span class="n">duplicate_ids</span> <span class="o">=</span> <span class="p">{</span><span class="n">uuid</span> <span class="k">for</span> <span class="n">dup_set</span> <span class="ow">in</span> <span class="n">duplicate_sets</span> <span class="k">for</span> <span class="n">uuid</span> <span class="ow">in</span> <span class="n">dup_set</span><span class="p">}</span>
+
+    <span class="k">return</span> <span class="n">stmts</span><span class="p">,</span> <span class="n">duplicate_ids</span>
+
+
+<div class="viewcode-block" id="distill_stmts"><a class="viewcode-back" href="../../../modules/db/index.html#indra.db.util.distill_stmts">[docs]</a><span class="nd">@_clockit</span>
+<span class="k">def</span> <span class="nf">distill_stmts</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">get_full_stmts</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">clauses</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_procs</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                  <span class="n">delete_duplicates</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">weed_evidence</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">1000</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Get a corpus of statements from clauses and filters duplicate evidence.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    db : :py:class:`DatabaseManager`</span>
+<span class="sd">        A database manager instance to access the database.</span>
+<span class="sd">    get_full_stmts : bool</span>
+<span class="sd">        By default (False), only Statement ids (the primary index of Statements</span>
+<span class="sd">        on the database) are returned. However, if set to True, serialized</span>
+<span class="sd">        INDRA Statements will be returned. Note that this will in general be</span>
+<span class="sd">        VERY large in memory, and therefore should be used with caution.</span>
+<span class="sd">    clauses : None or list of sqlalchemy clauses</span>
+<span class="sd">        By default None. Specify sqlalchemy clauses to reduce the scope of</span>
+<span class="sd">        statements, e.g. `clauses=[db.Statements.type == &#39;Phosphorylation&#39;]` or</span>
+<span class="sd">        `clauses=[db.Statements.uuid.in_([&lt;uuids&gt;])]`.</span>
+<span class="sd">    num_procs : int</span>
+<span class="sd">        Select the number of process that can be used.</span>
+<span class="sd">    delete_duplicates : bool</span>
+<span class="sd">        Choose whether you want to delete the statements that are found to be</span>
+<span class="sd">        duplicates.</span>
+<span class="sd">    weed_evidence : bool</span>
+<span class="sd">        If True, evidence links that exist for raw statements that now have</span>
+<span class="sd">        better alternatives will be removed. If False, such links will remain,</span>
+<span class="sd">        which may cause problems in incremental pre-assembly.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    stmt_ret : set</span>
+<span class="sd">        A set of either statement ids or serialized statements, depending on</span>
+<span class="sd">        `get_full_stmts`.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">delete_duplicates</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Looking for ids from existing links...&quot;</span><span class="p">)</span>
+        <span class="n">linked_sids</span> <span class="o">=</span> <span class="p">{</span><span class="n">sid</span> <span class="k">for</span> <span class="n">sid</span><span class="p">,</span>
+                        <span class="ow">in</span> <span class="n">db</span><span class="o">.</span><span class="n">select_all</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">RawUniqueLinks</span><span class="o">.</span><span class="n">raw_stmt_id</span><span class="p">)}</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">linked_sids</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+
+    <span class="c1"># Get de-duplicated Statements, and duplicate uuids, as well as uuid of</span>
+    <span class="c1"># Statements that have been improved upon...</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Sorting reading statements...&quot;</span><span class="p">)</span>
+    <span class="n">stmt_nd</span> <span class="o">=</span> <span class="n">_get_reading_statement_dict</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">clauses</span><span class="p">,</span> <span class="n">get_full_stmts</span><span class="p">)</span>
+
+    <span class="n">stmts</span><span class="p">,</span> <span class="n">duplicate_sids</span><span class="p">,</span> <span class="n">bettered_duplicate_sids</span> <span class="o">=</span> \
+        <span class="n">_get_filtered_rdg_statements</span><span class="p">(</span><span class="n">stmt_nd</span><span class="p">,</span> <span class="n">get_full_stmts</span><span class="p">,</span> <span class="n">linked_sids</span><span class="p">)</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;After filtering reading: </span><span class="si">%d</span><span class="s2"> unique statements, </span><span class="si">%d</span><span class="s2"> exact &quot;</span>
+                <span class="s2">&quot;duplicates, </span><span class="si">%d</span><span class="s2"> with results from better resources available.&quot;</span>
+                <span class="o">%</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stmts</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">duplicate_sids</span><span class="p">),</span>
+                   <span class="nb">len</span><span class="p">(</span><span class="n">bettered_duplicate_sids</span><span class="p">)))</span>
+    <span class="k">assert</span> <span class="ow">not</span> <span class="n">linked_sids</span> <span class="o">&amp;</span> <span class="n">duplicate_sids</span><span class="p">,</span> <span class="n">linked_sids</span> <span class="o">&amp;</span> <span class="n">duplicate_sids</span>
+    <span class="k">del</span> <span class="n">stmt_nd</span>  <span class="c1"># This takes up a lot of memory, and is done being used.</span>
+
+    <span class="n">db_stmts</span><span class="p">,</span> <span class="n">db_duplicates</span> <span class="o">=</span> \
+        <span class="n">_get_filtered_db_statements</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">get_full_stmts</span><span class="p">,</span> <span class="n">clauses</span><span class="p">,</span> <span class="n">linked_sids</span><span class="p">,</span>
+                                    <span class="n">num_procs</span><span class="p">)</span>
+    <span class="n">stmts</span> <span class="o">|=</span> <span class="n">db_stmts</span>
+    <span class="n">duplicate_sids</span> <span class="o">|=</span> <span class="n">db_duplicates</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;After filtering database statements: </span><span class="si">%d</span><span class="s2"> unique, </span><span class="si">%d</span><span class="s2"> duplicates.&quot;</span>
+                <span class="o">%</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stmts</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">duplicate_sids</span><span class="p">)))</span>
+    <span class="k">assert</span> <span class="ow">not</span> <span class="n">linked_sids</span> <span class="o">&amp;</span> <span class="n">duplicate_sids</span><span class="p">,</span> <span class="n">linked_sids</span> <span class="o">&amp;</span> <span class="n">duplicate_sids</span>
+
+    <span class="c1"># Remove support links for statements that have better versions available.</span>
+    <span class="n">bad_link_sids</span> <span class="o">=</span> <span class="n">bettered_duplicate_sids</span> <span class="o">&amp;</span> <span class="n">linked_sids</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">bad_link_sids</span><span class="p">)</span> <span class="ow">and</span> <span class="n">weed_evidence</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Removing bettered evidence links...&quot;</span><span class="p">)</span>
+        <span class="n">rm_links</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">select_all</span><span class="p">(</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">RawUniqueLinks</span><span class="p">,</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">RawUniqueLinks</span><span class="o">.</span><span class="n">raw_stmt_id</span><span class="o">.</span><span class="n">in_</span><span class="p">(</span><span class="n">bad_link_sids</span><span class="p">)</span>
+            <span class="p">)</span>
+        <span class="n">db</span><span class="o">.</span><span class="n">delete_all</span><span class="p">(</span><span class="n">rm_links</span><span class="p">)</span>
+
+    <span class="c1"># Delete exact duplicates</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">duplicate_sids</span><span class="p">)</span> <span class="ow">and</span> <span class="n">delete_duplicates</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Deleting duplicates...&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">dup_id_batch</span> <span class="ow">in</span> <span class="n">batch_iter</span><span class="p">(</span><span class="n">duplicate_sids</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="nb">set</span><span class="p">):</span>
+            <span class="n">bad_stmts</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">select_all</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="p">,</span>
+                                      <span class="n">db</span><span class="o">.</span><span class="n">RawStatements</span><span class="o">.</span><span class="n">id</span><span class="o">.</span><span class="n">in_</span><span class="p">(</span><span class="n">dup_id_batch</span><span class="p">))</span>
+            <span class="n">bad_sid_set</span> <span class="o">=</span> <span class="p">{</span><span class="n">s</span><span class="o">.</span><span class="n">id</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">bad_stmts</span><span class="p">}</span>
+            <span class="n">bad_agents</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">select_all</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">RawAgents</span><span class="p">,</span>
+                                       <span class="n">db</span><span class="o">.</span><span class="n">RawAgents</span><span class="o">.</span><span class="n">stmt_id</span><span class="o">.</span><span class="n">in_</span><span class="p">(</span><span class="n">bad_sid_set</span><span class="p">))</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Deleting </span><span class="si">%d</span><span class="s2"> agents associated with redundant raw &quot;</span>
+                        <span class="s2">&quot;statements.&quot;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">bad_agents</span><span class="p">))</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">delete_all</span><span class="p">(</span><span class="n">bad_agents</span><span class="p">)</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Deleting </span><span class="si">%d</span><span class="s2"> redundant raw statements.&quot;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">bad_stmts</span><span class="p">))</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">delete_all</span><span class="p">(</span><span class="n">bad_stmts</span><span class="p">)</span>
+</div>
+    <span class="k">return</span> <span class="n">stmts</span>
+
+
+<span class="k">def</span> <span class="nf">unpack</span><span class="p">(</span><span class="n">bts</span><span class="p">,</span> <span class="n">decode</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="n">ret</span> <span class="o">=</span> <span class="n">zlib</span><span class="o">.</span><span class="n">decompress</span><span class="p">(</span><span class="n">bts</span><span class="p">,</span> <span class="n">zlib</span><span class="o">.</span><span class="n">MAX_WBITS</span><span class="o">+</span><span class="mi">16</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">decode</span><span class="p">:</span>
+        <span class="n">ret</span> <span class="o">=</span> <span class="n">ret</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">ret</span>
+</pre></div>
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, B. M. Gyori, J. A. Bachman.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../',
+            VERSION:'1.8.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

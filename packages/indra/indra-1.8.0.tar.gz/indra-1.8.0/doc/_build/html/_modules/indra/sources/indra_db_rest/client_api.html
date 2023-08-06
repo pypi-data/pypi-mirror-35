@@ -1,0 +1,405 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>indra.sources.indra_db_rest.client_api &mdash; INDRA 1.8.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../../../genindex.html"/>
+        <link rel="search" title="Search" href="../../../../search.html"/>
+    <link rel="top" title="INDRA 1.8.0 documentation" href="../../../../index.html"/>
+        <link rel="up" title="Module code" href="../../../index.html"/> 
+
+  
+  <script src="../../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> INDRA
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.8
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../license.html">License and funding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../getting_started.html">Getting started with INDRA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../modules/index.html">INDRA modules reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../tutorials/index.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../rest_api.html">REST API</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">INDRA</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../../index.html">Module code</a> &raquo;</li>
+        
+      <li>indra.sources.indra_db_rest.client_api</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for indra.sources.indra_db_rest.client_api</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">absolute_import</span><span class="p">,</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">unicode_literals</span>
+<span class="kn">from</span> <span class="nn">builtins</span> <span class="k">import</span> <span class="nb">dict</span><span class="p">,</span> <span class="nb">str</span>
+
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;get_statements&#39;</span><span class="p">,</span> <span class="s1">&#39;get_statements_for_paper&#39;</span><span class="p">,</span> <span class="s1">&#39;IndraDBRestError&#39;</span><span class="p">]</span>
+
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="kn">from</span> <span class="nn">indra</span> <span class="k">import</span> <span class="n">get_config</span>
+<span class="kn">from</span> <span class="nn">indra.statements</span> <span class="k">import</span> <span class="n">stmts_from_json</span><span class="p">,</span> <span class="n">get_statement_by_name</span><span class="p">,</span> \
+    <span class="n">get_all_descendants</span>
+
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s1">&#39;db_rest_client&#39;</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="IndraDBRestError"><a class="viewcode-back" href="../../../../modules/sources/indra_db_rest/index.html#indra.sources.indra_db_rest.client_api.IndraDBRestError">[docs]</a><span class="k">class</span> <span class="nc">IndraDBRestError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">resp</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">status_code</span> <span class="o">=</span> <span class="n">resp</span><span class="o">.</span><span class="n">status_code</span>
+        <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">resp</span><span class="p">,</span> <span class="s1">&#39;text&#39;</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">reason</span> <span class="o">=</span> <span class="n">resp</span><span class="o">.</span><span class="n">text</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">reason</span> <span class="o">=</span> <span class="n">resp</span><span class="o">.</span><span class="n">reason</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">resp</span> <span class="o">=</span> <span class="n">resp</span>
+        <span class="ne">Exception</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="p">(</span><span class="s1">&#39;Got bad return code </span><span class="si">%d</span><span class="s1">: </span><span class="si">%s</span><span class="s1">&#39;</span>
+                                  <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">status_code</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reason</span><span class="p">)))</span></div>
+        <span class="k">return</span>
+
+
+<span class="k">def</span> <span class="nf">_make_stmts_query</span><span class="p">(</span><span class="n">agent_strs</span><span class="p">,</span> <span class="n">params</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Slightly lower level function to get statements from the REST API.&quot;&quot;&quot;</span>
+    <span class="n">on_limit</span> <span class="o">=</span> <span class="n">params</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;on_limit&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">on_limit</span> <span class="o">==</span> <span class="s1">&#39;persist&#39;</span><span class="p">:</span>
+        <span class="n">params</span><span class="p">[</span><span class="s1">&#39;on_limit&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;error&#39;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">resp</span> <span class="o">=</span> <span class="n">_submit_request</span><span class="p">(</span><span class="s1">&#39;statements&#39;</span><span class="p">,</span> <span class="o">*</span><span class="n">agent_strs</span><span class="p">,</span> <span class="o">**</span><span class="n">params</span><span class="p">)</span>
+    <span class="k">except</span> <span class="n">IndraDBRestError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">e</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">413</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">on_limit</span> <span class="o">==</span> <span class="s1">&#39;error&#39;</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="n">e</span>
+            <span class="k">elif</span> <span class="n">on_limit</span> <span class="o">==</span> <span class="s1">&#39;persist&#39;</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Original query was too big, breaking up by &quot;</span>
+                            <span class="s2">&quot;stmt_type.&quot;</span><span class="p">)</span>
+                <span class="n">stmt_types</span> <span class="o">=</span> <span class="n">e</span><span class="o">.</span><span class="n">resp</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s1">&#39;statements&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+                <span class="n">params</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;type&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+                <span class="k">return</span> <span class="n">_query_stmt_types</span><span class="p">(</span><span class="n">agent_strs</span><span class="p">,</span> <span class="n">params</span><span class="p">,</span> <span class="n">stmt_types</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Unrecognized behavior! Got </span><span class="si">%s</span><span class="s2"> but on_limit was &quot;</span>
+                             <span class="s2">&quot;\</span><span class="si">%s</span><span class="s2">.&quot;</span> <span class="o">%</span> <span class="n">on_limit</span><span class="p">)</span>
+                <span class="k">raise</span> <span class="n">e</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">e</span>
+    <span class="k">if</span> <span class="n">on_limit</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;truncate&#39;</span><span class="p">,</span> <span class="s1">&#39;sample&#39;</span><span class="p">]</span> <span class="ow">and</span> <span class="n">resp</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s1">&#39;limited&#39;</span><span class="p">]:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Your query was too big, and a </span><span class="si">%s</span><span class="s2">d result will be &quot;</span>
+                       <span class="s2">&quot;returned. To get all statements, make the same query &quot;</span>
+                       <span class="s2">&quot;with `on_limit=&#39;persist&#39;`&quot;</span> <span class="o">%</span> <span class="n">on_limit</span><span class="p">)</span>
+    <span class="n">stmts_json</span> <span class="o">=</span> <span class="n">resp</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s1">&#39;statements&#39;</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">stmts_from_json</span><span class="p">(</span><span class="n">stmts_json</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">_query_stmt_types</span><span class="p">(</span><span class="n">agent_strs</span><span class="p">,</span> <span class="n">params</span><span class="p">,</span> <span class="n">stmt_types</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Low-level function to query multiple different statement types.&quot;&quot;&quot;</span>
+    <span class="n">stmts</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">stmt_type</span> <span class="ow">in</span> <span class="n">stmt_types</span><span class="p">:</span>
+        <span class="n">params</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">stmt_type</span>
+        <span class="n">params</span><span class="p">[</span><span class="s1">&#39;on_limit&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;error&#39;</span>  <span class="c1"># This really shouldn&#39;t be an issue.</span>
+        <span class="n">new_stmts</span> <span class="o">=</span> <span class="n">_make_stmts_query</span><span class="p">(</span><span class="n">agent_strs</span><span class="p">,</span> <span class="n">params</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Found </span><span class="si">%d</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> statements.&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">new_stmts</span><span class="p">),</span> <span class="n">stmt_type</span><span class="p">))</span>
+        <span class="n">stmts</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">new_stmts</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">stmts</span>
+
+
+<div class="viewcode-block" id="get_statements"><a class="viewcode-back" href="../../../../modules/sources/indra_db_rest/index.html#indra.sources.indra_db_rest.client_api.get_statements">[docs]</a><span class="k">def</span> <span class="nf">get_statements</span><span class="p">(</span><span class="n">subject</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="nb">object</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">agents</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">stmt_type</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                   <span class="n">use_exact_type</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">on_limit</span><span class="o">=</span><span class="s1">&#39;sample&#39;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Get statements from INDRA&#39;s database using the web api.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    subject/object : str</span>
+<span class="sd">        Optionally specify the subject and/or object of the statements in</span>
+<span class="sd">        you wish to get from the database. By default, the namespace is assumed</span>
+<span class="sd">        to be HGNC gene names, however you may specify another namespace by</span>
+<span class="sd">        including `@&lt;namespace&gt;` at the end of the name string. For example, if</span>
+<span class="sd">        you want to specify an agent by chebi, you could use `CHEBI:6801@CHEBI`,</span>
+<span class="sd">        or if you wanted to use the HGNC id, you could use `6871@HGNC`.</span>
+<span class="sd">    agents : list[str]</span>
+<span class="sd">        A list of agents, specified in the same manner as subject and object,</span>
+<span class="sd">        but without specifying their grammatical position.</span>
+<span class="sd">    stmt_type : str</span>
+<span class="sd">        Specify the types of interactions you are interested in, as indicated</span>
+<span class="sd">        by the sub-classes of INDRA&#39;s Statements. This argument is *not* case</span>
+<span class="sd">        sensitive. If the statement class given has sub-classes</span>
+<span class="sd">        (e.g. RegulateAmount has IncreaseAmount and DecreaseAmount), then both</span>
+<span class="sd">        the class itself, and its subclasses, will be queried, by default. If</span>
+<span class="sd">        you do not want this behavior, set use_exact_type=True.</span>
+<span class="sd">    use_exact_type : bool</span>
+<span class="sd">        If stmt_type is given, and you only want to search for that specific</span>
+<span class="sd">        statement type, set this to True. Default is False.</span>
+<span class="sd">    on_limit : str</span>
+<span class="sd">        There are four options for handling a query that is too large:</span>
+<span class="sd">        `sample` - (default) take a sample of statements from the result,</span>
+<span class="sd">        `truncate` - simply return the first 10,000 statements of the result,</span>
+<span class="sd">        `error` - raise an error if the query is too large, or</span>
+<span class="sd">        `persist` - perform as many queries as needed to get all the statements.</span>
+<span class="sd">        Note that this last option generally takes much much longer to execute.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    stmts : list[:py:class:`indra.statements.Statement`]</span>
+<span class="sd">        A list of INDRA Statement instances. Note that if a supporting or</span>
+<span class="sd">        supported Statement was not included in your query, it will simply be</span>
+<span class="sd">        instantiated as an `Unresolved` statement, with `uuid` of the statement.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Make sure we got at least SOME agents (the remote API will error if we</span>
+    <span class="c1"># we proceed with no arguments.</span>
+    <span class="k">if</span> <span class="n">subject</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="nb">object</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">agents</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;At least one agent must be specified, or else &quot;</span>
+                         <span class="s2">&quot;the scope will be too large.&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Formulate inputs for the agents..</span>
+    <span class="n">agent_strs</span> <span class="o">=</span> <span class="p">[]</span> <span class="k">if</span> <span class="n">agents</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="p">[</span><span class="s1">&#39;agent=</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">ag</span> <span class="k">for</span> <span class="n">ag</span> <span class="ow">in</span> <span class="n">agents</span><span class="p">]</span>
+    <span class="n">key_val_list</span> <span class="o">=</span> <span class="p">[(</span><span class="s1">&#39;subject&#39;</span><span class="p">,</span> <span class="n">subject</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;object&#39;</span><span class="p">,</span> <span class="nb">object</span><span class="p">)]</span>
+    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="n">param_key</span><span class="p">:</span> <span class="n">param_val</span> <span class="k">for</span> <span class="n">param_key</span><span class="p">,</span> <span class="n">param_val</span> <span class="ow">in</span> <span class="n">key_val_list</span>
+              <span class="k">if</span> <span class="n">param_val</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">}</span>
+    <span class="n">params</span><span class="p">[</span><span class="s1">&#39;on_limit&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">on_limit</span>
+
+    <span class="c1"># Handle the type(s).</span>
+    <span class="k">if</span> <span class="n">stmt_type</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">use_exact_type</span><span class="p">:</span>
+            <span class="n">params</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">stmt_type</span>
+            <span class="n">stmts</span> <span class="o">=</span> <span class="n">_make_stmts_query</span><span class="p">(</span><span class="n">agent_strs</span><span class="p">,</span> <span class="n">params</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">stmt_class</span> <span class="o">=</span> <span class="n">get_statement_by_name</span><span class="p">(</span><span class="n">stmt_type</span><span class="p">)</span>
+            <span class="n">descendant_classes</span> <span class="o">=</span> <span class="n">get_all_descendants</span><span class="p">(</span><span class="n">stmt_class</span><span class="p">)</span>
+            <span class="n">stmt_types</span> <span class="o">=</span> <span class="p">[</span><span class="bp">cls</span><span class="o">.</span><span class="vm">__name__</span> <span class="k">for</span> <span class="bp">cls</span> <span class="ow">in</span> <span class="n">descendant_classes</span><span class="p">]</span> \
+                <span class="o">+</span> <span class="p">[</span><span class="n">stmt_type</span><span class="p">]</span>
+            <span class="n">stmts</span> <span class="o">=</span> <span class="n">_query_stmt_types</span><span class="p">(</span><span class="n">agent_strs</span><span class="p">,</span> <span class="n">params</span><span class="p">,</span> <span class="n">stmt_types</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">stmts</span> <span class="o">=</span> <span class="n">_make_stmts_query</span><span class="p">(</span><span class="n">agent_strs</span><span class="p">,</span> <span class="n">params</span><span class="p">)</span></div>
+    <span class="k">return</span> <span class="n">stmts</span>
+
+
+<div class="viewcode-block" id="get_statements_for_paper"><a class="viewcode-back" href="../../../../modules/sources/indra_db_rest/index.html#indra.sources.indra_db_rest.client_api.get_statements_for_paper">[docs]</a><span class="k">def</span> <span class="nf">get_statements_for_paper</span><span class="p">(</span><span class="n">id_val</span><span class="p">,</span> <span class="n">id_type</span><span class="o">=</span><span class="s1">&#39;pmid&#39;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Get the set of raw Statements extracted from a paper given by the id.</span>
+
+<span class="sd">    Note that in the future this will draw upon preassembled Statements.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    id_val : str or int</span>
+<span class="sd">        The value of the id of the paper of interest.</span>
+<span class="sd">    id_type : str</span>
+<span class="sd">        This may be one of &#39;pmid&#39;, &#39;pmcid&#39;, &#39;doi&#39;, &#39;pii&#39;, &#39;manuscript id&#39;, or</span>
+<span class="sd">        &#39;trid&#39;, which is the primary key id of the text references in the</span>
+<span class="sd">        database. The default is &#39;pmid&#39;.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    stmts : list[:py:class:`indra.statements.Statement`]</span>
+<span class="sd">        A list of INDRA Statement instances.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">resp</span> <span class="o">=</span> <span class="n">_submit_request</span><span class="p">(</span><span class="s1">&#39;papers&#39;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="n">id_val</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="n">id_type</span><span class="p">)</span>
+    <span class="n">stmts_json</span> <span class="o">=</span> <span class="n">resp</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s1">&#39;statements&#39;</span><span class="p">]</span></div>
+    <span class="k">return</span> <span class="n">stmts_from_json</span><span class="p">(</span><span class="n">stmts_json</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">_submit_request</span><span class="p">(</span><span class="n">end_point</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Low level function to make the request to the rest API.&quot;&quot;&quot;</span>
+    <span class="n">query_str</span> <span class="o">=</span> <span class="s1">&#39;?&#39;</span> <span class="o">+</span> <span class="s1">&#39;&amp;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1">=</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">items</span><span class="p">()]</span>
+                               <span class="o">+</span> <span class="nb">list</span><span class="p">(</span><span class="n">args</span><span class="p">))</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">get_config</span><span class="p">(</span><span class="s1">&#39;INDRA_DB_REST_URL&#39;</span><span class="p">,</span> <span class="n">failure_ok</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">api_key</span> <span class="o">=</span> <span class="n">get_config</span><span class="p">(</span><span class="s1">&#39;INDRA_DB_REST_API_KEY&#39;</span><span class="p">,</span> <span class="n">failure_ok</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">resp</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span> <span class="o">+</span> <span class="p">(</span><span class="s1">&#39;/</span><span class="si">%s</span><span class="s1">/&#39;</span> <span class="o">%</span> <span class="n">end_point</span><span class="p">)</span> <span class="o">+</span> <span class="n">query_str</span><span class="p">,</span>
+                        <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;x-api-key&#39;</span><span class="p">:</span> <span class="n">api_key</span><span class="p">})</span>
+    <span class="k">if</span> <span class="n">resp</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">resp</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="n">IndraDBRestError</span><span class="p">(</span><span class="n">resp</span><span class="p">)</span>
+</pre></div>
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, B. M. Gyori, J. A. Bachman.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../../',
+            VERSION:'1.8.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
