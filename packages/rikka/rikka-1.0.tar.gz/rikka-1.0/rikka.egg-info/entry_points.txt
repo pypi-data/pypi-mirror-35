@@ -1,0 +1,5 @@
+
+    [console_scripts]
+    rklocal=rikka.local:main
+    rkserver=rikka.server:main
+    
