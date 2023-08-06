@@ -1,0 +1,12 @@
+cli/ltext.py,sha256=vCD6M0ApKMIolqpXYK5yQ3yI9UAe9JV7XTPi05DgzG4,2855
+lztools/Ansi.py,sha256=d4mA55WXwFbM9ttvOItMQMzkr5Uli3HytYaY7KWZBw4,1605
+lztools/BlockWriter.py,sha256=bxeT9xqFS-qKEiK_bd8RHXDnKi7xpWa0XUfLYZSm64A,2041
+lztools/ColumnWriter.py,sha256=nEm3t1KSUGUzrgn1nV2Kc0t3alPTjgqWRqkYC47LaGA,3075
+lztools/MatchType.py,sha256=yaU9LxB1ESiOflZpf2F9hF7AYWM8pCCFouNA3A65Mqo,210
+lztools/text.py,sha256=Vn0vTREyJSGpTvFAtZBHNDyibE0Zz6htkMjvsBD5L0E,6224
+lztools.text-1.0.18.dist-info/LICENSE.txt,sha256=E_yDys1RSBo746hImGFgDR2AZlWG28T8FxPE7zPrOhY,1080
+lztools.text-1.0.18.dist-info/METADATA,sha256=tU-JCLASgPus8cY_GiJoeVukWX2zv1nzraJuGagVB0M,485
+lztools.text-1.0.18.dist-info/RECORD,,
+lztools.text-1.0.18.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+lztools.text-1.0.18.dist-info/entry_points.txt,sha256=hNTWPfk_J3fG8iAbOSqtv_pGzAyy0QGSCyS2uzfCwWk,42
+lztools.text-1.0.18.dist-info/top_level.txt,sha256=bJbLP6KpDln_lNxL6fu0D6YqAoecHE-BI9TpltrPb4M,12
