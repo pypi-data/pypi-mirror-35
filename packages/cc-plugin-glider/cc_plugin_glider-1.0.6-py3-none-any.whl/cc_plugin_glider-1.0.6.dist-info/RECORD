@@ -1,0 +1,13 @@
+cc_plugin_glider/__init__.py,sha256=PiUSiFLCm0YX5rbHS4xOLGdqdPDC8j3etV3nmEaelzI,92
+cc_plugin_glider/_version.py,sha256=TZBCrGFsHoHsE1hcEApr6W4Ey42JJImLQ4f3oF1bUDU,497
+cc_plugin_glider/glider_dac.py,sha256=gD3vz6__i_Lpyo3I3BrLlwjheHP8C8XBfavxbDO4sc8,34201
+cc_plugin_glider/util.py,sha256=hn3sJbErJQopkXLwnYt3Iyf5ZWsj_tXn6Qf7EmTAEWc,630
+cc_plugin_glider/data/seanames.csv,sha256=cbG7uO4FwJAWR_RX_8hckRPeiKWc9oJMzXqPgeMIogs,3956
+cc_plugin_glider/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cc_plugin_glider/tests/resources.py,sha256=2Tpt9S-Jr2PnajpyBSAX9gtU69U8VEMCruC-AXvzYA8,998
+cc_plugin_glider/tests/test_glidercheck.py,sha256=FYzOo6jnnJbLravEo0ncys9hhY_aLDFP8qbCRbL-t0k,7407
+cc_plugin_glider-1.0.6.dist-info/METADATA,sha256=dDBuAebu4AYS-Xm3p-n08HBeJgxqQ14dZjphsQHmIO0,1905
+cc_plugin_glider-1.0.6.dist-info/RECORD,,
+cc_plugin_glider-1.0.6.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+cc_plugin_glider-1.0.6.dist-info/entry_points.txt,sha256=KGSymSTVfv42VX69_pg9m9AKfHV6B5GmM1_zh5US7eE,81
+cc_plugin_glider-1.0.6.dist-info/top_level.txt,sha256=QA1WXFmRG8dkzliOsLR69dlMl86kV7u4eFSQUHvHzxQ,17
