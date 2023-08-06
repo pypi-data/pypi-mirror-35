@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: passa
+Version: 0.2.0
+Summary: A resolver implementation for generating and interacting with Pipenv-compatible Lockfiles.
+Home-page: https://github.com/sarugaku/passa
+Author: Dan Ryan
+Author-email: dan@danryan.co
+License: ISC License
+Description: ===================================
+        Passa: Toolset for Pipfile projects
+        ===================================
+        
+        .. image:: https://img.shields.io/pypi/v/passa.svg
+            :target: https://pypi.org/project/passa
+        
+        .. image:: https://img.shields.io/pypi/l/passa.svg
+            :target: https://pypi.org/project/passa
+        
+        .. image:: https://api.travis-ci.com/sarugaku/passa.svg?branch=master
+            :target: https://travis-ci.com/sarugaku/passa
+        
+        .. image:: https://img.shields.io/pypi/pyversions/passa.svg
+            :target: https://pypi.org/project/passa
+        
+        .. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
+            :target: https://saythanks.io/to/techalchemy
+        
+        .. image:: https://readthedocs.org/projects/passa/badge/?version=master
+            :target: http://passa.readthedocs.io/en/master/?badge=master
+            :alt: Documentation Status
+        
+        
+        Installation
+        ============
+        
+        Install from PyPI_::
+        
+            $ pipenv install passa
+        
+        Install from GitHub_::
+        
+            $ pipenv install -e git+https://github.com/sarugaku/passa.git#egg=passa
+        
+        
+        .. _PyPI: https://pypi.org/project/passa
+        .. _GitHub: https://github.com/sarugaku/passa
+        
+        
+        Summary
+        =======
+        
+        Passa is a toolset for performing tasks in a Pipfile project, designed to be
+        used as a backing component of Pipenv_. It contains several components:
+        
+        * A resolver designed for performing dependency resolution using a stateful
+          look-forward algorithm to resolve dependencies (backed by ResolveLib_).
+        * Interface to interact with individual requirement specifications inside
+          Pipfile and Pipfile.lock (backed by RequirementsLib_).
+        * A command line interface to invoke the above operations.
+        
+        .. _Pipenv: https://github.com/pypa/pipenv
+        .. _ResolveLib: https://github.com/sarugaku/resolvelib
+        .. _RequirementsLib: https://github.com/sarugaku/requirementslib
+        
+        
+        `Read the documentation <https://passa.readthedocs.io/>`__.
+        
+Keywords: dependency resolver,package management,package resolver,resolver,pip,pipenv,requirementslib,pipfile,dependencies,dependency management
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7,!=3.0,!=3.1,!=3.2,!=3.3
+Provides-Extra: tests
