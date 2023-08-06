@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyalexa-lambda
+Version: 1.0.3
+Summary: Alexa API support for Python on AWS lambda
+Home-page: https://github.com/SiLeader/pyalexa
+Author: SiLeader
+License: Apache-2.0
+Description: PyAlexa AWS lambda
+        ==================
+        
+        &copy; 2018 SiLeader.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
