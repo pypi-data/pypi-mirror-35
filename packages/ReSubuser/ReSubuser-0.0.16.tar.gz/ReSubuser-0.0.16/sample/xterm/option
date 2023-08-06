@@ -1,0 +1,1 @@
+{"cmd": "xterm", "rights": {"ssh": false, "display": true, "pwd": true, "home": false, "sound": true, "daemon": true}}

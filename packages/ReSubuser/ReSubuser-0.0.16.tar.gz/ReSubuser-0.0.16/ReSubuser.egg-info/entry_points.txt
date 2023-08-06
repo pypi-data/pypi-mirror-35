@@ -1,0 +1,3 @@
+[console_scripts]
+ReSub = ReSubuser.__main__:cli
+
