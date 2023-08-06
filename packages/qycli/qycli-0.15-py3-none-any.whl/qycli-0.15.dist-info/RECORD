@@ -1,0 +1,13 @@
+qycli/__init__.py,sha256=uW9XrLK1KoBiAjD6Cm47JnrmuIKIDz62xGYZY9EpPUg,338
+qycli/command.py,sha256=w7SmAov7nK09hy4rI0oJf7dA5RGDfUgloZP6AQE2enA,6960
+qycli/globals.py,sha256=kefjddazhV1JbV1R71qIyrOy1ESti9eLdT7cF37lGEA,401
+qycli/httpcli.py,sha256=Gvo61-_GPyZEPGMciPJCMtoufxvXeNAlzuUxxTsAEt0,742
+qycli/main.py,sha256=Atnk6GRhX2h0-ruo18hkbiLXD5Oz7BYhygA-F3A80dY,893
+qycli/parser.py,sha256=NpqXqUqF1bsJKmiStVnsQkkCXe0W7m49qZZpkTJRsyg,3276
+qycli-0.15.dist-info/METADATA,sha256=baXGmI3Q4P7f20duIcTKJ6b2DvoxK345hPGcy8K3s9s,382
+qycli-0.15.dist-info/RECORD,,
+qycli-0.15.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+qycli-0.15.dist-info/entry_points.txt,sha256=2NP4NcyyOO69meDWjiAao1tZrTQObh40wr2iAtPxzeE,43
+qycli-0.15.dist-info/top_level.txt,sha256=ugdqKAP7XJmChmxiDMbTqwcvtBtabN_ALkuRjo-WTbg,11
+test/__init__.py,sha256=5yvGpRkWyWdxv_lBZ5HUZz9K-c4FTB0zctW-fNB9r04,32
+test/main.py,sha256=tFptJC-G5Kcn3WfSxApA10Cf3IlFtBBTxmUADSuvui4,105
