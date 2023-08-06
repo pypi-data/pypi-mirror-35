@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: just-ship-it
+Version: 0.0.3
+Summary: For when you just need to ship your Python code.
+Home-page: https://github.com/gstaff/just-ship-it
+Author: Grant Stafford
+License: UNKNOWN
+Keywords: demo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: flask-ngrok
+Requires-Dist: flask-restplus
+
+# just-ship-it ðŸš€
+For when you just need to ship your Python code.
+
+## Compatability
+Python 3.6+ is required.
+
+## Installation
+
+```bash
+pip install just-ship-it
+```
+### Inside Jupyter / Colab Notebooks
+Notebooks have [an issue](https://stackoverflow.com/questions/51180917/python-flask-unsupportedoperation-not-writable) with newer versions of Flask, so force an older version if working in these environments.
+```bash
+!pip install flask==0.12.2
+```
+
+## Quickstart
+Just `from just_ship_it import ship_it` and `ship_it()`!
+```python
+# just_ship_it_example.py
+def greet(name):
+    """Greets you by name!"""
+    return 'Hello {name}!'.format(name=name)
+
+def hello():
+    return {'hello': 'world'}
+
+if __name__ == '__main__':
+    from just_ship_it import ship_it
+    ship_it()
+```
+```bash
+python just_ship_it_example.py
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Running on http://<random-address>.ngrok.io
+ * Traffic stats available on http://127.0.0.1:4040 
+```
+Your code is now shipped!
+
+![alt text](./examples/example_result.png "Example result")
+
+
