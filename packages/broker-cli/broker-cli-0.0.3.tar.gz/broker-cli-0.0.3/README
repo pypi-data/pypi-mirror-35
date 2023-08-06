@@ -1,0 +1,26 @@
+© [BLACKTREES](http://blacktre.es)
+
+# Broker
+
+Executing remote scripts on a remote broker-shell.
+
+
+## Install
+
+    pip install broker-cli
+
+
+## Usage
+
+Connect to server and list aviable commands.
+
+    broker my.server.tld
+
+Run remote script.
+
+    broker my.server.tld script_name
+
+Add some options.
+
+    broker my.server.tld script_name --optname value --otheropt value
+

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: broker-cli
+Version: 0.0.3
+Summary: Executing scripts on a remote broker-shell
+Home-page: http://blacktre.es
+Author: Johannes Daniel Nuemm
+Author-email: daniel.nuemm@blacktre.es
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
