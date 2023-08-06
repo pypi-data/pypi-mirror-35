@@ -1,0 +1,7 @@
+README.md
+setup.py
+embtest/__init__.py
+embtest.egg-info/PKG-INFO
+embtest.egg-info/SOURCES.txt
+embtest.egg-info/dependency_links.txt
+embtest.egg-info/top_level.txt
