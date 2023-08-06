@@ -1,0 +1,37 @@
+0.1.0
+- GTDB-Tk is now using archived (.gz) fna files
+- summary.tsv file is now the main output file.
+- fastani.tsv file is now combined with summary.tsv.
+- red_value.tsv file has been removed.
+- Each Pplacer placement on a species branch is now verify by FastANI and the ANI is compared with all other species in the same genus to check Pplacer accuracy.
+- New functionality: "trim_msa" allows to trim an untrimmed MSA (41155AA for bac120 and 32675AA for ar122) based on GTDB-Tk masks
+0.0.8b4
+- bug fixing 
+0.0.8b3
+- bug fixing 
+0.0.8b2
+- bug fixing 
+0.0.8b1
+- Using .fna.gz reference genome for FastANI
+- Pplacer placement are verified by FastANI  
+0.0.7
+0.0.6
+- Migration to R83 and integration of UBA genomes
+- add "debug" flag to classify options
+- error handling improvement
+0.0.5
+- stable version for pip 
+0.0.4b3
+- fastANI dependency fix
+0.0.4b2
+- fastANI dependency fix
+0.0.4b1
+- FastAni comparison bug fixing 
+0.0.4-beta
+- Code cleaning
+0.0.3
+- FastAni multithreaded.
+0.0.2
+- modified align command to automatically determine domain of each genome and process accordingly
+0.0.1
+- initial release
