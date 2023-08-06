@@ -1,0 +1,10 @@
+mkdocs_safe_text_plugin-1.1.1.dist-info/METADATA,sha256=jHvNnrvMdVjtxKYl77M9zlGpEj8oSgqWwgdtNNw095Q,5226
+mkdocs_safe_text_plugin-1.1.1.dist-info/RECORD,,
+mkdocs_safe_text_plugin-1.1.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+mkdocs_safe_text_plugin-1.1.1.dist-info/entry_points.txt,sha256=kn6neIlUX-XZRMMAU6peE4eC7INjdvy0j9GRuLdHalU,74
+mkdocs_safe_text_plugin-1.1.1.dist-info/top_level.txt,sha256=jV0TV_Q-96-P6Fz5mSshtXwVBjErfnr3Dc2eeM1pvYk,15
+mkdocssafetext/__init__.py,sha256=OaF7wXrWF8b1yo3ka84Qc-S8CrV-yx3JQVdcErm3VtQ,1607
+mkdocssafetext/config.py,sha256=Bnp4vqdGYSyfAf-Xq0Qyd6TkFZZ8t9_7hfRcOYJ3V24,3144
+mkdocssafetext/plugin.py,sha256=GFGt3ZYlrpvDbT6nl4EP_M62ClghtxT-tZTzsI5BnPw,2103
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_config.py,sha256=G8ZmnD2ZAMz1oIZuFTB3BKJSephfBZ9-dmABMG7Fxn8,3058
