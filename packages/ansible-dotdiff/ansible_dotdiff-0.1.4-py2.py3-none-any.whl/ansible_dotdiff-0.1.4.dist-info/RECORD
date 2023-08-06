@@ -1,0 +1,5 @@
+ansible/module_utils/dotdiff.py,sha256=KkBw0imcDRfFeEF4vKKpax71IN4TsZnJJOnKif0OJuI,4815
+ansible_dotdiff-0.1.4.dist-info/METADATA,sha256=NQEKAEojqsmjKq1are76yGe6pM7xB_9wRvuU32v1Vsw,2058
+ansible_dotdiff-0.1.4.dist-info/RECORD,,
+ansible_dotdiff-0.1.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+ansible_dotdiff-0.1.4.dist-info/top_level.txt,sha256=82PF2MhvpWJo10goiOI97-wrxsoMr9WO7LYY_vVMn9Q,29
