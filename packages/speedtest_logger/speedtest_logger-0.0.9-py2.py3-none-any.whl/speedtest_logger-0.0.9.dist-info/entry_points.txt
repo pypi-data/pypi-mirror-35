@@ -1,0 +1,3 @@
+[console_scripts]
+speedtest-logger=speedtest_logger:main
+

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: speedtest_logger
+Version: 0.0.9
+Summary: A package to log broadband speed test results
+Home-page: http://owencampbell.me.uk
+License: UNKNOWN
+Author: Owen Campbell
+Author-email: owen.campbell@tanti.org.uk
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: click
+Requires-Dist: daiquiri
+Requires-Dist: speedtest-cli
