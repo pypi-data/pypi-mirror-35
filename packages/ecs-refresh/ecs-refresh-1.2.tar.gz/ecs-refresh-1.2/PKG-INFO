@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ecs-refresh
+Version: 1.2
+Summary: Small tool to kick off ECS blue/green deployments
+Home-page: http://github.com/PlethoraOfHate/ecs-refresh
+Author: Stephen Mercier
+Author-email: stephen.mercier@gmail.com
+License: Apache License 2.0
+Download-URL: https://github.com/PlethoraOfHate/ecs-refrech/archive/0.9.tar.gz
+Description: UNKNOWN
+Keywords: ECS,AWS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: System :: Systems Administration
