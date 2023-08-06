@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyinspector/__init__.py
+pyinspector/__main__.py
+pyinspector.egg-info/PKG-INFO
+pyinspector.egg-info/SOURCES.txt
+pyinspector.egg-info/dependency_links.txt
+pyinspector.egg-info/entry_points.txt
+pyinspector.egg-info/requires.txt
+pyinspector.egg-info/top_level.txt
