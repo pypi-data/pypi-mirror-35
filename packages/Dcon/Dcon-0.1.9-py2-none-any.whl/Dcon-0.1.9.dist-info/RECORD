@@ -1,0 +1,15 @@
+psyco_full.py,sha256=X1sP6GzXaGVEfNs7dT6bycK_dGKx9UnWIKe5qb9cbDI,194
+Dcon-0.1.9.data/scripts/Dcon.py,sha256=09ZeeZyLO5BawaZb7FbApm5M4hWzaL6ABcGDSGFLKWs,11002
+Dcon-0.1.9.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+Dcon-0.1.9.dist-info/METADATA,sha256=00QZ92CdnpCHU_OzgMch4B1SkLC2yu9nzrApNYBd8hs,941
+Dcon-0.1.9.dist-info/RECORD,,
+Dcon-0.1.9.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+Dcon-0.1.9.dist-info/metadata.json,sha256=uHS4rk3WmMbrGzXZ-EO2t5I660-iEtWMC6xSv27m8DY,1082
+Dcon-0.1.9.dist-info/top_level.txt,sha256=97R3DNgTaC-bf0lOG9QOzKhSnIF1m7WmoO6XVpe3kOE,22
+DconModule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DconModule/bam_cigar.py,sha256=XI-W9DtkLukW8lwbZIjzXBQUuTVeaAg55FZur5dNOno,4748
+DconModule/bgmm.py,sha256=9hnDNwLjl80DsWCmFZTj9yU0Q9AW2mC1f69PatOWetk,3526
+DconModule/ireader.py,sha256=vwVUP49muIFoQnr2qiKXYG4InAcC5Fz2uz9tB2lhoYw,679
+DconModule/iupac.py,sha256=o4vBjv-wZ7cpJGVLz7Bx-pPFW82CzsISR9dUG77Tj38,1187
+DconModule/mystat.py,sha256=hd9NFjLysF-ayh5c5Ii2Z6NiTkOTg2ctmGjwzEV7TTE,6311
+DconModule/utils.py,sha256=2ejc84fWHIR7F1sGtcgXEp_NvhqxIh4n4MOMHrdHjMM,8183
