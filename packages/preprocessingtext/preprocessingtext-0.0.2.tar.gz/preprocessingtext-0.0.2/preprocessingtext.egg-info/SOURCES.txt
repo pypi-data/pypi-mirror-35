@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+preprocessingtext/__init__.py
+preprocessingtext.egg-info/PKG-INFO
+preprocessingtext.egg-info/SOURCES.txt
+preprocessingtext.egg-info/dependency_links.txt
+preprocessingtext.egg-info/requires.txt
+preprocessingtext.egg-info/top_level.txt
