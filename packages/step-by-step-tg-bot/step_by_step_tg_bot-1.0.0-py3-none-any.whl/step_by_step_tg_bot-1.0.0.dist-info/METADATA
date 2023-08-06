@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: step-by-step-tg-bot
+Version: 1.0.0
+Summary: pyTelegramApiBot module for step by step conversation
+Home-page: https://github.com/prohi8bitme/step_by_step_tg_bot.git
+Author: prohibitme
+Author-email: prohibitme@ya.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pyTelegramBotAPI
+
+# Python3 module for pyTelegramAPIbot to make step by step conversation 
+
+# Installation
+
+ pip install step_by_step_tg_bot
+
+# How to use in your project
+
+
