@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: eth-log
+Version: 0.2.0
+Summary: Eth-log - python tools to collect and process ethereum smart contracts' event logs 
+Home-page: https://github.com/ramtinms/ethereum-log
+Author: Ramtin Seraj
+Author-email: mehdizadeh.ramtin@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/ramtinms/ethereum-log/tarball/0.1
+Keywords: ethereum,blockchain,smart contract,eth,event log
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Dist: pandas
+Requires-Dist: pysha3
+Requires-Dist: requests
+
+UNKNOWN
+
+
