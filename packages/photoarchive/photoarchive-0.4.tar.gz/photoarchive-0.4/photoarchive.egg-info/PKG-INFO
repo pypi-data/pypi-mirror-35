@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: photoarchive
+Version: 0.4
+Summary: A simple tool to archive photos
+Home-page: https://github.com/roseeng/photoarchive
+Author: Göran Roseen
+Author-email: goran@roseen.se
+License: MIT
+Description: # photoarchive
+        A simple tool to copy all unique photos to an archive
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
