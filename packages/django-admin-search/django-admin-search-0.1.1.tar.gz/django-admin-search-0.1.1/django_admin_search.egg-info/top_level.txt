@@ -1,0 +1,4 @@
+django_admin_search
+django_admin_search/locale
+django_admin_search/static
+django_admin_search/templates
