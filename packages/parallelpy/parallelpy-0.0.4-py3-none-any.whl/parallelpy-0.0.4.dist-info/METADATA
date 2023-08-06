@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: parallelpy
+Version: 0.0.4
+Summary: A minimal multiprocessing module for data science
+Home-page: https://github.com/krober/parallelpy
+Author: Kyle
+Author-email: todo@todo.com
+License: MIT License
+Keywords: multiprocessing data science
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+<p align="center">
+    <a href="https://pypi.org/project/parallelpy/">
+        <img src="https://img.shields.io/badge/PyPI-0.0.4-brightgreen.svg?longCache=true&style=flat-square"/>
+    </a>
+</p>  
+
+# parallelpy  
+
+A minimal parallel processing module for data science applications  
+
++ pip install parallelpy  
+
+```python
+from parallelpy import Parallelizer
+
+parallelizer = Parallelizer(
+    target=print,
+    args=[i for i in range(100)],
+    enable_results=False,
+    auto_proc_count=True,
+    max_proc_count=8
+)
+
+parallelizer.run()
+```
+
+
