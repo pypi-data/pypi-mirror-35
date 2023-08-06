@@ -1,0 +1,4 @@
+apistar
+numpy
+tensorflow
+nose
