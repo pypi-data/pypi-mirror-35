@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: ramlpy
+Version: 0.0.16
+Summary:  RAML parsing library 
+Home-page: UNKNOWN
+Author: Alexander Vasin <hi@alvass.in>
+Author-email: hi@alvass.in
+License: MIT
+Description: RAML parsing library for python
+        ===============================
+        
+        .. image:: https://coveralls.io/repos/github/alvassin/ramlpy/badge.svg?branch=master
+            :target: https://coveralls.io/github/alvassin/ramlpy
+            :alt: Coveralls
+        
+        .. image:: https://travis-ci.org/alvassin/ramlpy.svg
+            :target: https://travis-ci.org/alvassin/ramlpy
+            :alt: Travis CI
+        
+        .. image:: https://img.shields.io/pypi/v/ramlpy.svg
+            :target: https://pypi.python.org/pypi/ramlpy/
+            :alt: Latest Version
+        
+        .. image:: https://img.shields.io/pypi/wheel/ramlpy.svg
+            :target: https://pypi.python.org/pypi/ramlpy/
+        
+        .. image:: https://img.shields.io/pypi/pyversions/ramlpy.svg
+            :target: https://pypi.python.org/pypi/ramlpy/
+        
+        .. image:: https://img.shields.io/pypi/l/ramlpy.svg
+            :target: https://pypi.python.org/pypi/ramlpy/
+        
+        Versioning
+        ==========
+        
+        This software follows `Semantic Versioning`_
+        
+        
+        .. _Semantic Versioning: http://semver.org/
+        
+Platform: all
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Provides-Extra: develop
