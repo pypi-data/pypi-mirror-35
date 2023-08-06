@@ -1,0 +1,9 @@
+ensembl_rest/__init__.py,sha256=GLZEwPvTv4iajxIXN7nEbUaH63R4uuHAMDSIL0XURpM,64
+ensembl_rest/ensemblclients.py,sha256=SjcW4WsLjo7qRq9-7x1RR_n96k3dmMtQhnGraZ-5W6E,981
+ensembl_rest/data/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+ensembl_rest-0.0.1.dist-info/DESCRIPTION.rst,sha256=f26MO83IPekPJciwLz2p4F1Bxt68dYKs3C6fjnmvl1Y,4455
+ensembl_rest-0.0.1.dist-info/METADATA,sha256=5I0jlEqQm5Mx-W-ToMgLw5YK4vuJl0bGdlTfZRPCy-E,5722
+ensembl_rest-0.0.1.dist-info/RECORD,,
+ensembl_rest-0.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+ensembl_rest-0.0.1.dist-info/metadata.json,sha256=Iix9Au7K-uCvyYXKm02_kzI5JcEakWGXtgsHrapCeZ8,1227
+ensembl_rest-0.0.1.dist-info/top_level.txt,sha256=aUpYT98mIp7XorL1-ikrpNsEnhQhMVP8uZEkW48uj-A,13
