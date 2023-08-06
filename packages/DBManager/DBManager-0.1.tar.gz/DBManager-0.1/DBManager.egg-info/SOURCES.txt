@@ -1,0 +1,10 @@
+README.md
+setup.py
+DBManager/DBManager.py
+DBManager/__init__.py
+DBManager.egg-info/PKG-INFO
+DBManager.egg-info/SOURCES.txt
+DBManager.egg-info/dependency_links.txt
+DBManager.egg-info/top_level.txt
+dbmanager/DBManager.py
+dbmanager/__init__.py
