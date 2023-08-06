@@ -1,0 +1,3 @@
+URLObject
+requests
+setuptools
