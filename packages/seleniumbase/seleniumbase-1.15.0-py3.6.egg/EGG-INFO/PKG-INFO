@@ -1,0 +1,29 @@
+Metadata-Version: 1.2
+Name: seleniumbase
+Version: 1.15.0
+Summary: All-In-One Test Automation Framework
+Home-page: https://github.com/seleniumbase/SeleniumBase
+Author: Michael Mintz
+Author-email: mdmintz@gmail.com
+Maintainer: Michael Mintz
+License: MIT
+Description: Web Automation, Testing, and User-Onboarding Framework
+Platform: Windows
+Platform: Linux
+Platform: Unix
+Platform: Mac OS-X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
