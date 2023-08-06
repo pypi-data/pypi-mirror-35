@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: pygraph7
+Version: 0.0.2a2
+Summary: A simple format for storing different types of graphs in the ASCII-string
+Home-page: https://github.com/va-dudnikov/pygraph7
+Author: Vladik Dudnikov
+Author-email: dudnikov.vladislav@gmail.com
+License: MIT
+Description: 
+        Package graph7 is designed to store a large number of graphs (adjacency matrices) with two states with a minimum of memory.
+        However, for convenience, you can store adjacent matrices with any element values (int, float), just for this you need more memory.
+        
+Keywords: graphs,storage method
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3
