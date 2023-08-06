@@ -1,0 +1,7 @@
+setup.py
+krankenx.egg-info/PKG-INFO
+krankenx.egg-info/SOURCES.txt
+krankenx.egg-info/dependency_links.txt
+krankenx.egg-info/not-zip-safe
+krankenx.egg-info/top_level.txt
+slashdot/__init__.py
