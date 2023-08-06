@@ -1,0 +1,6 @@
+README.md
+setup.py
+outbreak.egg-info/PKG-INFO
+outbreak.egg-info/SOURCES.txt
+outbreak.egg-info/dependency_links.txt
+outbreak.egg-info/top_level.txt
