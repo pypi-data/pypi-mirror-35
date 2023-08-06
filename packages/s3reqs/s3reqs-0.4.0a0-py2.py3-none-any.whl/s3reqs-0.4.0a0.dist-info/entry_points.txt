@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        s3reqs=s3reqs.cli:s3reqs
+        
