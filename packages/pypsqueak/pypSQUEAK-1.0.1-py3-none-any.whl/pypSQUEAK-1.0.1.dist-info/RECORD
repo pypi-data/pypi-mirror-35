@@ -1,0 +1,10 @@
+pypSQUEAK-1.0.1.dist-info/METADATA,sha256=i-gifmVP8KBCMiQp8ryFj7qoYnOguRaV_Bd520d93vs,706
+pypSQUEAK-1.0.1.dist-info/RECORD,,
+pypSQUEAK-1.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pypSQUEAK-1.0.1.dist-info/top_level.txt,sha256=2hYOncd53rONC7AwQ9bCGlTw0_an5dvhDGKxTRi-Vow,10
+pypsqueak/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypsqueak/api.py,sha256=vHC7--nxoeXk6VM_8gedpd9X1WJdwyXjlq8l3v2dFao,41069
+pypsqueak/errors.py,sha256=qgG_sqBvnXBM1q-_s671hDML9EZmFR4F3Dr7whx2ZK4,653
+pypsqueak/gates.py,sha256=ReNAVZw5TRc2UqllrDtk0uvT4j4sdwVNTw17ny4o62w,4268
+pypsqueak/noise.py,sha256=CIoIvFMMYfOBYn98KDQHDEAFTRM6xCn6UB64V8nVr8c,2321
+pypsqueak/squeakcore.py,sha256=ZChs_U6uT5apjjiOStHuvqDU49taVjpjKNnOHSbwtHE,8440
