@@ -1,0 +1,16 @@
+version: '2'
+services:
+  python2:
+    build: notebooks/python27
+    working_dir: /redpanda/notebooks/python27
+    ports:
+      - "2700:2700"
+    volumes:
+      - ".:/redpanda"
+  python3:
+    build: notebooks/python35
+    working_dir: /redpanda/notebooks/python35
+    ports:
+      - "3500:3500"
+    volumes:
+      - ".:/redpanda"
