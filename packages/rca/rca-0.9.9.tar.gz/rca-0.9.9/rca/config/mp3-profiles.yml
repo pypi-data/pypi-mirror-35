@@ -1,0 +1,48 @@
+application: lame
+version_arg: --version
+inout_args: --quiet -T -q0 -b4 "{infile}" "{outfile}"
+
+extension: mp3
+default: mixed, complex, stereo
+
+combinations:
+
+  # Speech
+  speech, simple, mono:      -V8.0 --lowpass 13000 -mm
+  speech, moderate, mono:    -V7.5 --lowpass 14000 -mm
+  speech, complex, mono:     -V7.3 --lowpass 15000 -mm
+  speech, simple, stereo:    -V7.0 --lowpass 13000
+  speech, moderate, stereo:  -V6.7 --lowpass 15000
+  speech, complex, stereo:   -V6.5 --lowpass 16000
+
+  # Music
+  music, simple, mono:       -V7.0 -mm
+  music, moderate, mono:     -V6.5 -mm
+  music, complex, mono:      -V6.0 -mm
+  music, simple, stereo:     -V5.5
+  music, moderate, stereo:   -V4.5
+  music, complex, stereo:    -V3.5
+
+  # Mixed
+  mixed, simple, mono:       -V7.2 -mm
+  mixed, moderate, mono:     -V6.7 -mm
+  mixed, complex, mono:      -V6.3 -mm
+  mixed, simple, stereo:     -V6.0
+  mixed, moderate, stereo:   -V5.3
+  mixed, complex, stereo:    -V4.5
+
+  # Effects
+  effects, simple, mono:     -V7.2 -mm
+  effects, moderate, mono:   -V7.0 -mm
+  effects, complex, mono:    -V6.7 -mm
+  effects, simple, stereo:   -V6.5
+  effects, moderate, stereo: -V6.0
+  effects, complex, stereo:  -V5.0
+
+  # Filler
+  filler, simple, mono:      -mm
+  filler, moderate, mono:    -mm
+  filler, complex, mono:     -mm
+  filler, simple, stereo:    -mm
+  filler, moderate, stereo:  -mm
+  filler, complex, stereo:   -mm
