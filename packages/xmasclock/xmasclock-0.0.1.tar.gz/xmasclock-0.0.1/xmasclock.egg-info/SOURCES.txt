@@ -1,0 +1,7 @@
+README.md
+setup.py
+xmasclock/xmasclock.py
+xmasclock.egg-info/PKG-INFO
+xmasclock.egg-info/SOURCES.txt
+xmasclock.egg-info/dependency_links.txt
+xmasclock.egg-info/top_level.txt
