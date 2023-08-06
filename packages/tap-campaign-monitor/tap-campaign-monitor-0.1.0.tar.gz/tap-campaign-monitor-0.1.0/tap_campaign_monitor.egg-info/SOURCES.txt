@@ -1,0 +1,11 @@
+setup.py
+tap_campaign_monitor/__init__.py
+tap_campaign_monitor/client.py
+tap_campaign_monitor/config.py
+tap_campaign_monitor/state.py
+tap_campaign_monitor.egg-info/PKG-INFO
+tap_campaign_monitor.egg-info/SOURCES.txt
+tap_campaign_monitor.egg-info/dependency_links.txt
+tap_campaign_monitor.egg-info/entry_points.txt
+tap_campaign_monitor.egg-info/requires.txt
+tap_campaign_monitor.egg-info/top_level.txt
