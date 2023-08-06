@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+czifile.py
+setup.py
+zisraw/__init__.py
+zisraw/czi2tif.py
+zisraw/czifile.py
+zisraw.egg-info/PKG-INFO
+zisraw.egg-info/SOURCES.txt
+zisraw.egg-info/dependency_links.txt
+zisraw.egg-info/entry_points.txt
+zisraw.egg-info/requires.txt
+zisraw.egg-info/top_level.txt
