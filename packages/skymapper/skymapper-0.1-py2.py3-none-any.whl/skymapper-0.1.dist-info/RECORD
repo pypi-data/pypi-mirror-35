@@ -1,0 +1,13 @@
+skymapper/__init__.py,sha256=LU30OZqoP6hezp4gX1c1ZSBSb8U6HjXFPLuU8fwdnRY,72
+skymapper/aea_projection.py,sha256=CM_alRtEqhTEO3A383wfFxn_7KZ9WtVINYcYOsc35JQ,35127
+skymapper/skymapper.py,sha256=avvGwYor63L1doRss8H-3mN8AQs5kMn04jI4IE8utTc,35979
+skymapper/surveys/__init__.py,sha256=pd3ubc4_N8a3spEkDufJRMz542XurA9xc2f7jve0gJk,434
+skymapper/surveys/des-round13-poly.txt,sha256=lrXakFfo9WKfv_DLsxSkfFu0AtShXFOXs13_qE67nNo,13833
+skymapper/surveys/des-round17-poly.txt,sha256=eoUHgxqTE0m9cpzwecBO3Jjblmsrkeo-dAw8znXLfnc,13981
+skymapper/surveys/round17-poly.txt,sha256=eoUHgxqTE0m9cpzwecBO3Jjblmsrkeo-dAw8znXLfnc,13981
+skymapper-0.1.dist-info/DESCRIPTION.rst,sha256=W89116iRExA05KYt9-9oyNtaUjSDQ-Enf6zJBDCziY4,58
+skymapper-0.1.dist-info/METADATA,sha256=GZNw40GJAnF5OFri0ya_ObKGfVofqo5BMecIQXdRID0,357
+skymapper-0.1.dist-info/RECORD,,
+skymapper-0.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+skymapper-0.1.dist-info/metadata.json,sha256=ZezLTJ3zv3DNcKh4-Zx5QHbwvKI0bwsuIfr3fyeA3pE,474
+skymapper-0.1.dist-info/top_level.txt,sha256=de2y8X520Uq7sgIJl7wDC8azYFYLzbnR5wTH5LJheNw,10
