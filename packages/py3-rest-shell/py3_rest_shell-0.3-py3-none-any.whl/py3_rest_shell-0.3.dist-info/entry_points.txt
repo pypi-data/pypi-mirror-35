@@ -1,0 +1,3 @@
+[console_scripts]
+rest-shell = rest_shell:main
+
