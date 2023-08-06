@@ -1,0 +1,10 @@
+yuriko/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yuriko/main.py,sha256=3MoqMTSp5nCqaj8mtOmjBEds1hkguTRAOx262TnUfJQ,1306
+yuriko/manager.py,sha256=uyhl_gza7Zyz3HgA7HeFuKaX4loUWqwxugjVQnald1U,3943
+yuriko/settings.py,sha256=If45y8iOIV2j24FLZhbvTnOIEk48HZ8d2RncONtPrqU,126
+yuriko/tests.py,sha256=cJ9xDn-vmnORezKeyMrGCrsbhCuvCeWgePvfu8l5940,996
+yuriko-0.0.3.dist-info/METADATA,sha256=TWRljZT8cSY6Td2064qOGR8bGRCPVNIz4fkdqfSWohs,1148
+yuriko-0.0.3.dist-info/RECORD,,
+yuriko-0.0.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+yuriko-0.0.3.dist-info/entry_points.txt,sha256=9RUypcGsHXvvEHehCtIRSIrcWNlDXQAVei0QzrMpz7k,45
+yuriko-0.0.3.dist-info/top_level.txt,sha256=sQYkAkEg8JnveUkNZy9YhsfHcYwSslYXAXQHaDtuAa8,7
