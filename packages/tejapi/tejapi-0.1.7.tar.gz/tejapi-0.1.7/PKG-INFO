@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: tejapi
+Version: 0.1.7
+Summary: Package for access tej database from REST API. For more information, please access https://api.tej.com.tw .
+Home-page: https://api.tej.com.tw
+Author: tej
+Author-email: api@tej.com
+Maintainer: tej api Development Team
+Maintainer-email: connect@tej.com
+License: MIT
+Description: A Python library for TEJ RESTful API.
+Keywords: tej,API,data,financial,economic
+Platform: UNKNOWN
