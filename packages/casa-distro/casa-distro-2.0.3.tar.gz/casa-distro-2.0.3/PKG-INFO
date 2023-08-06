@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: casa-distro
+Version: 2.0.3
+Summary: Framework to compile BrainVISA distributions via a Singularity container.
+Home-page: UNKNOWN
+Author: BrainVISA team
+Author-email: contact@brainvisa.info
+License: CeCILL-B
+Description: 
+        ===========
+        casa-distro
+        ===========
+        
+        Casa-distro package is the user component of a BrainVISA project allowing to
+        distribute containers containing standard compilation environements for
+        various BrainVISA distributions.
+        
+Platform: UNKNOWN
