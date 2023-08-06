@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: gumby
+Version: 0.2.0
+Summary: Stretch polygonal meshes in segments along an axis
+Home-page: https://github.com/metabolize/gumby
+Author: Metabolize
+Author-email: github@paulmelnikow.com
+License: UNKNOWN
+Description: gumby
+        =====
+        
+        [![version](https://img.shields.io/pypi/v/gumby.svg?style=flat-square)][pypi]
+        
+        [pypi]: https://pypi.org/project/gumby/
+        
+        Stretch polygonal meshes in segments along an axis.
+        
+        Installation
+        ------------
+        
+        Requires Python 2.7.
+        
+        ```sh
+        pip install gumby
+        ```
+        
+        Contribute
+        ----------
+        
+        - Issue Tracker: https://github.com/metabolize/gumby/issues
+        - Source Code: https://github.com/metabolize/gumby
+        
+        Pull requests welcome!
+        
+        Support
+        -------
+        
+        If you are having issues, please let me know.
+        
+        
+        License
+        -------
+        
+        The project is licensed under the MIT license.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Description-Content-Type: text/markdown
