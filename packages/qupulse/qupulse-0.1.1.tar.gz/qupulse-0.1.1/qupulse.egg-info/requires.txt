@@ -1,0 +1,20 @@
+sympy>=1.1.1
+numpy
+cached_property
+gmpy2
+
+[VISA]
+pyvisa
+
+[faster expressions]
+numexpr
+
+[plotting]
+matplotlib
+
+[tabor instruments]
+pytabor>=1.0.1
+teawg
+
+[testing]
+pytest
