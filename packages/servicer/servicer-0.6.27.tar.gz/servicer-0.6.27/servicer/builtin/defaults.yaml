@@ -1,0 +1,26 @@
+environment:
+  mappings:
+    - branch: master
+      environment: production
+    - branch: develop
+    - branch: env-*
+
+git:
+  enabled: false
+  config:
+    user.email: servicer@aol.com
+    user.name: servicer
+  default-branch: null
+  diff-defaults-to-latest-tag: true
+  diff-tagging-enabled: true
+  fetch-tags: true
+  ignore-unchanged: true
+  ignore-servicer-commits: false
+  no-verify: false
+
+steps:
+  - name: build
+  - name: test
+  - name: deploy
+    config:
+      requires_service_environment: true
