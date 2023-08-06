@@ -1,0 +1,17 @@
+nexaas_id_client/__init__.py,sha256=q3KpIj9VlHMppDz2_7fEs0rIEdESbkdyEbNs8sSLAhE,138
+nexaas_id_client/api_client.py,sha256=ZRVI8vkFEG80WMOIKRFsYShdrk0pOarEqfY00tn5RHc,6292
+nexaas_id_client/exceptions.py,sha256=UpYZ5Dt7bjg71iwuipFAHuX6d2fSoI3hXOhTL8uVEl4,634
+nexaas_id_client/oauth_client.py,sha256=qp9xGbtKj7U8JnJlLjrZwiNgMg4FqwkWJ6gKgPio4jE,2293
+nexaas_id_client/oauth_token.py,sha256=bLOjG9SW9cj4xwtqqPtbY_igzc8AbTl2Hfm0_W2yB_g,2289
+nexaas_id_client/support/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nexaas_id_client/support/flask.py,sha256=wwJY8roeOc6r1ZLYhc5yus-ccKl66XLVaiqaKlTl850,2599
+nexaas_id_client/support/django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nexaas_id_client/support/django/decorators.py,sha256=NWb982TRwxForxhUwvBhHv8B_NW1sHPzZ7LiWwMF8nw,1323
+nexaas_id_client/support/django/helpers.py,sha256=9XyNaoYzM4b2h7gHXU_jwVosrCtFpy2AobrWkgq_uiA,542
+nexaas_id_client/support/django/model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nexaas_id_client/support/django/urls.py,sha256=Y1jzr8c87GMKgy9qPxRgm3HBkIAuFzWYVjkFwI1DAxA,287
+nexaas_id_client/support/django/views.py,sha256=d5T9SVEfzA0hwb7H8-S1aO6bxkxIEkceeragzdur6Mo,1502
+nexaas_id_client-1.0.1.dist-info/METADATA,sha256=txLvRNr_IMVT8MxsgiZNk2MVno_haHw8RvnEq9O6ibw,5265
+nexaas_id_client-1.0.1.dist-info/RECORD,,
+nexaas_id_client-1.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+nexaas_id_client-1.0.1.dist-info/top_level.txt,sha256=_Iha37pOhIzbFBChssdD8t69NwdAp4iyiv91lP4GQtA,17
