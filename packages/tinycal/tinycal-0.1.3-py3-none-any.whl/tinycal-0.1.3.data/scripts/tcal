@@ -1,0 +1,5 @@
+#!python
+
+from tinycal import tcal
+
+tcal.main()
