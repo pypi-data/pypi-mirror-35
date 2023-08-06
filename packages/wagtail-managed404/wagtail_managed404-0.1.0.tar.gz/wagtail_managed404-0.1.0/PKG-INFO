@@ -1,0 +1,62 @@
+Metadata-Version: 1.1
+Name: wagtail_managed404
+Version: 0.1.0
+Summary: Easily manage 404s from the wagtail admin
+Home-page: https://github.com/mwesterhof/wagtail_managed404
+Author: Marco Westerhof
+Author-email: m.westerhof@lukkien.com
+License: MIT license
+Description: ==================
+        wagtail_managed404
+        ==================
+        
+        .. image:: https://img.shields.io/pypi/v/wagtail_managed404.svg
+                :target: https://pypi.python.org/pypi/wagtail_managed404
+        
+        .. image:: https://img.shields.io/travis/mwesterhof/wagtail_managed404.svg
+                :target: https://travis-ci.org/mwesterhof/wagtail_managed404
+        
+        .. image:: https://readthedocs.org/projects/wagtail-managed404/badge/?version=latest
+                :target: https://wagtail-managed404.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        Easily manage 404s from the wagtail admin
+        
+        
+        * Free software: MIT license
+        * Documentation: https://wagtail-managed404.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * Monitor 404 responses served by your wagtail project
+        * Add permanent or non-permanent redirects, as needed
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2018-08-27)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: wagtail_managed404
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
