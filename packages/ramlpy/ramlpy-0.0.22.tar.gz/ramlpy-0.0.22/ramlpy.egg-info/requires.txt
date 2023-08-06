@@ -1,0 +1,8 @@
+pyyaml~=3.12
+yarl~=1.2
+
+[develop]
+pylama
+pytest
+pytest-cov
+tox
