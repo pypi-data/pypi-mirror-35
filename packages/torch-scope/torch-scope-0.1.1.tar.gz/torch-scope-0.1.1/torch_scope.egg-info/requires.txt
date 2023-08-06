@@ -1,0 +1,4 @@
+numpy
+tensorboardX
+gitpython
+torch
