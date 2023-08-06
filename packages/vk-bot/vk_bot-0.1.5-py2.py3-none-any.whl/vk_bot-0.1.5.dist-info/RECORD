@@ -1,0 +1,9 @@
+vk_bot/__about__.py,sha256=r7byoaNC4ELrAs7usAVT0Et-1m_GpG2qK-1OSHSBjj4,215
+vk_bot/__init__.py,sha256=unzsCrYAMipxOBSmKfDOzquCMOiylo771VjvjA2qYZ4,23
+vk_bot/bot.py,sha256=iqU6RLNG5WlkOQVG855mfuAXIZZUEsrBWUF9BZidz5w,1037
+vk_bot/config.py,sha256=y5m1_QPZQVptptQl6Ff8rbe5ROjMyz9CNuiARdTbeH4,204
+vk_bot/workers.py,sha256=EzbnGpRb-xJ5Ozpx00monW8cyBwpVTLyj-vqmOrcyXY,560
+vk_bot-0.1.5.dist-info/METADATA,sha256=a-H-pnO6JpC9wq999Vn0-UpmGvTyuhj2ZULlpcWmGwQ,286
+vk_bot-0.1.5.dist-info/RECORD,,
+vk_bot-0.1.5.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+vk_bot-0.1.5.dist-info/top_level.txt,sha256=dCzdPWjuK_MKZv1nRrNcewR4KxUa-rLktvqff90xXBA,7
