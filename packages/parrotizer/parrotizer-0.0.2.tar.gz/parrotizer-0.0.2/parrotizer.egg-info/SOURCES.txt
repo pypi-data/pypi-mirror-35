@@ -1,0 +1,11 @@
+README.md
+setup.py
+parrotizer/__init__.py
+parrotizer/__version__.py
+parrotizer.egg-info/PKG-INFO
+parrotizer.egg-info/SOURCES.txt
+parrotizer.egg-info/dependency_links.txt
+parrotizer.egg-info/entry_points.txt
+parrotizer.egg-info/not-zip-safe
+parrotizer.egg-info/requires.txt
+parrotizer.egg-info/top_level.txt
