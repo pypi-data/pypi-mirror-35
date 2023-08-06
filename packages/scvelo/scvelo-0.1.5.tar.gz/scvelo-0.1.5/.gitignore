@@ -1,0 +1,28 @@
+archive/
+cache/
+data/
+figs/
+scripts/
+write/
+
+scvelo.egg-info/
+
+# always-ignore notebooks
+*.ipynb
+
+# OS or Editor files and folders
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+.directory
+/.idea/
+
+# Docs build
+docs/build
+docs/source/api/scvelo.*
+
+# always-ignore directories
+/build/
+/dist/
+
+.coverage
