@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nnlib
+Version: 0.2
+Summary: numpy only neural network library
+Home-page: https://github.com/felix990302/nnlib
+Author: Felix Zhou
+Author-email: felix990302@yahoo.ca
+License: Apache2
+Description: # nnlib
+        
+        A light weight, numpy only library for neural networks
+        
+Keywords: machine learning neural network
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
