@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: optommp
+Version: 0.1
+Summary: Python toolkit for Opto 22 memory-mapped devices
+Home-page: http://github.com/OPTO-torchard/optommp
+Author: Opto 22
+Author-email: torchard@opto22.com
+License: mit
+Download-URL: https://github.com/OPTO-torchard/optommp/archive/v0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
