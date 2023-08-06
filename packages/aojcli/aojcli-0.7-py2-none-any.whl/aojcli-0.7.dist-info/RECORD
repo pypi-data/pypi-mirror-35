@@ -1,0 +1,11 @@
+aojcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aojcli/aojcli.py,sha256=NRVt8rjcKqxBjlUzU1rOi8lxfMjUTv0yqXL5HKzTOQc,3354
+aojcli/aojcli_cmd.py,sha256=2WqsTiIKpO7vEDkmQnjoUYQaf8QNuCFfC_kSn_Qeek0,3366
+aojcli/libaoj.py,sha256=YY7ap0OJeHLpYCjAU7S34l0KUPlmJjxfQKPiDazxUxo,2960
+aojcli-0.7.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+aojcli-0.7.dist-info/METADATA,sha256=9DufDuW_ZNDBSNaBxu2-03Ya5fnIWl-dHUfOdWsdrB0,377
+aojcli-0.7.dist-info/RECORD,,
+aojcli-0.7.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+aojcli-0.7.dist-info/entry_points.txt,sha256=hhtsFil4NpwoxndZpuanPlpM4RkM_le4C_0nl0enPCs,47
+aojcli-0.7.dist-info/metadata.json,sha256=L9mk1GDnC2p55o2pN8gGn2VeKw_u1vj0p1B4UnIKye8,734
+aojcli-0.7.dist-info/top_level.txt,sha256=kDTUqwtmDAJF3cXlDe40orZIZnfKTuhztsav1wZhgZI,7
