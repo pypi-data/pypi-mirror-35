@@ -1,0 +1,17 @@
+floe/__init__.py,sha256=HHLmuO5zyFvoAmDIpFqbijfCs7k0NKy7UOrPvs454gI,174
+floe/connector.py,sha256=Fof-B0sIzDhfGQAp-22_ZJid1kGK9Jyrramz8q2yt5c,2690
+floe/exceptions.py,sha256=4LMhJn6p54LdeV2eydHPQD2_ZT44BotQWTI_vUmxXPY,671
+floe/fileapi.py,sha256=XPe3X1Yze4N9dy7Oqcz-d1NWBaEyo0YMMpLogwlyzbE,4066
+floe/helpers.py,sha256=cW28JZNTWSIHHngWFdIb52XBgoajzBpJyRgAoPKBxoY,418
+floe/instrumentation.py,sha256=lwx3rP5CcRnUrUnJNlmMI1GSWMXnq2BW20QH4t-V-FI,239
+floe/mysqlapi.py,sha256=M6OtLSHWIMhDxCbiJu7C2HGJCZapoWgby3vQjIeHSF4,8378
+floe/newrelic_instrumentation.py,sha256=D5tVouD8Y5sXPnGWY9TDZ69j5f0kaCkIJ9dHkk2vujs,1501
+floe/restapi.py,sha256=MLnoNB_XQP3Xk_sNy-9PhhUMoAb9mletkUeoUOKhMKE,4145
+floe/restserver.py,sha256=_J8nv8wXxQiJnrAuNTNfzJDMn7yhOf6RBNVL6fmVhFo,3997
+floe/version.py,sha256=YQY-i8MemQTvHljd9BqOGgeJEu3FrzurE3TEKDwAax4,22
+floe-0.0.8.dist-info/DESCRIPTION.rst,sha256=otf8gYM_yI-wHrafNZYJx1g8RP-84N4lRkFh3dIffpA,991
+floe-0.0.8.dist-info/METADATA,sha256=OXSzOIm2bUH2yRzaVcqjFKx0KAWqofUUKorP61YOl0w,1886
+floe-0.0.8.dist-info/RECORD,,
+floe-0.0.8.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+floe-0.0.8.dist-info/metadata.json,sha256=iKpoq-hvYv24SolneNXZbBlrPlmq1PWh6wOFP4hH6eM,1008
+floe-0.0.8.dist-info/top_level.txt,sha256=qyjHwW_HQjU37EKwC_D7i52vN2SZfhOjihcU_hxe8J8,5
