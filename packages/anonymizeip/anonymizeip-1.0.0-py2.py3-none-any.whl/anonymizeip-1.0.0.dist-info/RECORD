@@ -1,0 +1,7 @@
+anonymizeip/__init__.py,sha256=jQtInKo1CZJWvJQfd8K5ZQek4v7tHKZ6xXFb9rd4anI,65
+anonymizeip/__version__.py,sha256=RPjQ5Y0AiaPLfWvQ71qrhQNq1NbU9aCHLb9B242Whhg,63
+anonymizeip/anonymize_ip.py,sha256=1Cfwhi5uAA8rzpYZ0Rg1lfo1pvaWudKdfPLYny22pe8,3770
+anonymizeip-1.0.0.dist-info/METADATA,sha256=SHWLXTToG7pFDiYY-82Lg-0ESZRhEPxF5K8FY6BR36Q,1939
+anonymizeip-1.0.0.dist-info/RECORD,,
+anonymizeip-1.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+anonymizeip-1.0.0.dist-info/top_level.txt,sha256=gGxVVQeXGNjOOInGOr6gaQSz0gTR_0pcItpGYXKu5I4,12
