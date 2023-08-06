@@ -1,0 +1,15 @@
+numpy>=1.14
+gym[atari]>=0.10
+absl-py>=0.2
+tensorboardX>=1.2
+cloudpickle>=0.5
+opencv-python>=3.4
+
+[mpi]
+mpi4py>=3.0
+
+[profiler]
+pyinstrument>=2.0
+
+[sc2]
+pysc2>=2.0
