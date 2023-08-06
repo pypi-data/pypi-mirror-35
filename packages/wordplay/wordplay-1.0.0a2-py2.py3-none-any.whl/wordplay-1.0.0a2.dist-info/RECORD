@@ -1,0 +1,11 @@
+wordplay/__init__.py,sha256=e-JnlSjKXLsu13ahH9e6HcXegCfiK3yH12w9QLJHm_Q,25
+wordplay/criteria.py,sha256=roZwpnOS3brkILFL8_KLsvXIqRS_OtaoiQtayXKszFU,7071
+wordplay/dictionary.py,sha256=e_relYDceK0NxczBx-66S-oEpp5S67m1VRfhVlvroyI,7969
+wordplay/utils.py,sha256=2lB9BddNS02pzpkDBqscqykjHoE8kh4KLdG5QPIHL8o,5259
+wordplay/data/sample_wordlist.dat,sha256=aQbkzRS7IOOvwFq3w6TLOXfPYQ1PDgaFNfbngA-hjBY,4234866
+wordplay/data/scrabble_wordlist.dat,sha256=JSW-X6lJvaOWjSGsQ4sW-hJD49edmzUjLDNVO8P4KbI,3070048
+wordplay-1.0.0a2.dist-info/LICENSE.txt,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+wordplay-1.0.0a2.dist-info/METADATA,sha256=YAHT0gqDoVQeF_wH0BY8cGxB4-lr1SksULTteihHNxM,4635
+wordplay-1.0.0a2.dist-info/RECORD,,
+wordplay-1.0.0a2.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+wordplay-1.0.0a2.dist-info/top_level.txt,sha256=63s7mEWDRbn4pOkbGvgM9oEQVoYOA4ue9OavmrlQRQg,9
