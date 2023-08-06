@@ -1,0 +1,8 @@
+README.md
+setup.py
+spankins/__init__.py
+spankins.egg-info/PKG-INFO
+spankins.egg-info/SOURCES.txt
+spankins.egg-info/dependency_links.txt
+spankins.egg-info/entry_points.txt
+spankins.egg-info/top_level.txt
