@@ -1,0 +1,16 @@
+kama/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kama/acl.py,sha256=TsbnDj0fsI0qW5SmnzYmIsAHm7FtbqVv0xX_566Q16k,796
+kama/client.py,sha256=rC9rHnOFLDipfb5kaZnw_dg-2H_t_5w3CqSuiTI2jec,16952
+kama/context.py,sha256=x79v2SY0NpK_YtBPLgnEhCeFKxrpETEyc12Q-rtZsVk,649
+kama/database.py,sha256=ACh9dl3UcqNkfcVJK2ieOPX8Nr5OzNGEk4KC_D838nU,22705
+kama/env.py,sha256=5Mj4h3yOz8kp_bq3pxfpFYB7daWfQEAAtYbknBylrxc,169
+kama/kama_pb2.py,sha256=SlFfCYEdlpJTRp9H2jZX-UnyyW5UgfTZ6Wz2rekLZAk,16768
+kama/kama_pb2_grpc.py,sha256=baPw6bn9pu6rkS6AIru-_Fw_EM9jUD5QRV0AOM4FH7U,9256
+kama/log.py,sha256=9c95CMFCWFQoIN63GAPnEd_n8m162H530tjRXo55JyY,671
+kama/server.py,sha256=FLeev6GMihUi6nB-hgbNxeF4UPP-ql2lSNDEIpIK3nI,10287
+kama/shell.py,sha256=OWcNArvnLdv8W8pQ9-TpClQrDjtnKlZC0h8zh4h7XFE,295
+kama-1.3.1.dist-info/METADATA,sha256=PnZzthQ34XP-xDLjQa95rufOOPXWAoWCzWI5-zy5NMY,346
+kama-1.3.1.dist-info/RECORD,,
+kama-1.3.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+kama-1.3.1.dist-info/entry_points.txt,sha256=RYBBnO9f7aYEL6Eg-7HkXW4Hut2TRNlD32-Ula49L08,103
+kama-1.3.1.dist-info/top_level.txt,sha256=p8hXQkvPPbZM1EamNtbezcMNpPjwNqdbPG56j4x9S_o,5
