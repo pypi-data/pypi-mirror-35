@@ -1,0 +1,6 @@
+custom_remote_user/__init__.py,sha256=d4GswjGhwqKWciGDHH4N06KlraSE9bR7mWMXrU0fRhw,35
+custom_remote_user/backends.py,sha256=OjCG8lr58oocNAgYG9WBk2wWOZx9nO_QBMn-QasWFI4,449
+django_custom_remote_user-0.3.dist-info/METADATA,sha256=9Sv_ChAQzx6QP_6qz_o8ZxHu2v37xEnk_kUWpQwNnOw,2103
+django_custom_remote_user-0.3.dist-info/RECORD,,
+django_custom_remote_user-0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_custom_remote_user-0.3.dist-info/top_level.txt,sha256=C5NDrglrFg45UUxMou0Ti4q5TTK5kYFFEwEuf4dlhw8,19
