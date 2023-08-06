@@ -1,0 +1,3 @@
+[console_scripts]
+dpaypy = dpaycli.__main__:main
+
