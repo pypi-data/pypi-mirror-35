@@ -1,0 +1,7 @@
+README.rst
+dpcontracts.py
+setup.py
+dpcontracts.egg-info/PKG-INFO
+dpcontracts.egg-info/SOURCES.txt
+dpcontracts.egg-info/dependency_links.txt
+dpcontracts.egg-info/top_level.txt
