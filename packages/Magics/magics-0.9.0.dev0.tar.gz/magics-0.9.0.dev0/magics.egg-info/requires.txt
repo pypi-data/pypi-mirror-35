@@ -1,0 +1,4 @@
+attrs
+future
+numpy
+typing
