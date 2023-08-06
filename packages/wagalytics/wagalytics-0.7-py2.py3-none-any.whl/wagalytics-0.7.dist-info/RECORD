@@ -1,0 +1,11 @@
+wagalytics/__init__.py,sha256=4Pmv3T11bvLiIG8bLbUNqedn6TR70yWeNqRljWuDofQ,20
+wagalytics/urls.py,sha256=rDyj5quGm9gHsld1nXqvCH-yh6TU3AvqQZ_lWLbm9r8,275
+wagalytics/views.py,sha256=XBBdr_3eACM45bo98umxfUdK9XHIC1Z0vG8HuaWpqmE,1175
+wagalytics/wagtail_hooks.py,sha256=SF9zeO9uG-L_BV_3X6UV9KPHKv42ioQ0Su4Vll0g5E0,2999
+wagalytics/templates/wagalytics/dashboard.html,sha256=wKv9wqrJc5XW-8TC8Onz4oIE9SZWMA8Q8Duj_nu8xA8,3564
+wagalytics-0.7.dist-info/DESCRIPTION.rst,sha256=FB9NQCDjMqh-q9t7B4dcmHeGEmJEUWaJWCfSYaWjvnk,57
+wagalytics-0.7.dist-info/METADATA,sha256=oYHf3aR93gxnurFgKssk36x39ZmJhL0dCCbmWcXr_Fw,823
+wagalytics-0.7.dist-info/RECORD,,
+wagalytics-0.7.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+wagalytics-0.7.dist-info/metadata.json,sha256=NIpr80DGC23u2TprGxaS4EMThK8kXplqF8mDzGE6NOQ,901
+wagalytics-0.7.dist-info/top_level.txt,sha256=ozZSyaE9R9HqXWYv-dh69Tvv52AbW-aXZU1ciqb0H54,11
