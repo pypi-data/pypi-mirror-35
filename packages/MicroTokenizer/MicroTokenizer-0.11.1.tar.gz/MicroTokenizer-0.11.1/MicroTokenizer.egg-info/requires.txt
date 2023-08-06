@@ -1,0 +1,10 @@
+Click>=6.0
+networkx>=2.1
+tqdm
+matplotlib
+MicroHMM
+plac
+python-crfsuite
+
+[:python_version < "3.4"]
+pathlib
