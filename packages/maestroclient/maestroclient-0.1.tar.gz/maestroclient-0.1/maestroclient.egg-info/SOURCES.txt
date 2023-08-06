@@ -1,0 +1,8 @@
+README.txt
+setup.py
+maestroclient/__init__.py
+maestroclient.egg-info/PKG-INFO
+maestroclient.egg-info/SOURCES.txt
+maestroclient.egg-info/dependency_links.txt
+maestroclient.egg-info/not-zip-safe
+maestroclient.egg-info/top_level.txt
