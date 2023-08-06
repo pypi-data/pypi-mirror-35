@@ -1,0 +1,8 @@
+/var/log/sosbackups/*.log {
+	missingok
+	sharedscripts
+	compress
+	postrotate
+		/usr/syno/sbin/synoservice --reload syslog-ng || true
+	endscript
+}
