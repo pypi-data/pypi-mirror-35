@@ -1,0 +1,13 @@
+requests<3.0.0,>=2.19.1
+boto3>=1.4.6
+Jinja2<3.0.0,>=2.7.2
+pyboto3<2.0.0,>=1.4.4
+python-dateutil<3.0.0,>=2.1
+pytz>=2018.3
+six>=1.11.0
+PyYAML<4.0,==3.12
+python-string-utils==0.6.0
+dpath==1.4.2
+prompt-toolkit==2.0.3
+Pygments==2.2.0
+ansible==2.4.0.0
