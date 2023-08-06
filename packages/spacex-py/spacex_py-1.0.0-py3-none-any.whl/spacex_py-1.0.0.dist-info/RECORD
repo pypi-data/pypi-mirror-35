@@ -1,0 +1,13 @@
+spacex_py/__init__.py,sha256=BmBgIj1xFyU2vJThIt3Au00PMRZOL_29QYGEzzxwsGo,18
+spacex_py/capsules.py,sha256=DRz3qpD6LSrm_gbRLMJWo5fdCxNC0EFWnVU5WM2Q2Oc,186
+spacex_py/cores.py,sha256=FJGRpdTNmhyMAfZmFbABVipAU0TXQ-t2NDmauGxyrJw,113
+spacex_py/info.py,sha256=CBqZE3UgPXMdk9wF-bcUWV-LNptYPpOpuQ4cMu5AD14,204
+spacex_py/launches.py,sha256=I6WuNd9xCNaUX47Q5Wo6cEKt9Wk3jAou65XN2pRR4Ao,1758
+spacex_py/launchpads.py,sha256=aLjlMMotmSL_1l6Avk_mN2HfVNFMnT5yOzfees7xp0E,101
+spacex_py/rockets.py,sha256=DNSU0WZagecVnanBO4x2UdwGJk2VEDEOniIa04oXDEM,95
+spacex_py/_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacex_py/_helpers/_api.py,sha256=H2dlNA5HWNwUJR7jBrHIzmMky6yGFEfHZbjXU1pYpGQ,813
+spacex_py-1.0.0.dist-info/METADATA,sha256=a2McJcWI3hV-sQRgsqtAD-ENx-qpItPOq6QWPbbq8ZM,1743
+spacex_py-1.0.0.dist-info/RECORD,,
+spacex_py-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+spacex_py-1.0.0.dist-info/top_level.txt,sha256=Rfvh5Jw8JIEz25hoCEX3BEec7EV2umeODMSYTaby_AM,10
