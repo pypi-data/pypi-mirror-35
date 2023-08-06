@@ -1,0 +1,11 @@
+padar_parallel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+padar_parallel/groupby.py,sha256=PBZGZxW_rndI9aJ374ZWwdkYv2Vu8RUcCCNXtHDIpAg,8947
+padar_parallel/grouper.py,sha256=HSkWowqyfkgC375NKGxm-tNq556u788jb8UQRlg2XyA,2239
+padar_parallel/windowing.py,sha256=cImA4gt9Bdbk494tmhQjf5-P_owevVza_p2xh-MDrTE,4673
+padar_parallel/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+padar_parallel/tests/test_groupby.py,sha256=MQGLTWPrcjikFjlCI25_8LA-vbdokQ2YSOfRxi8c4ug,3290
+padar_parallel/tests/test_grouper.py,sha256=FLKRQDATO0UBJbtqt9pUfPemFiIr9dmmNB7048p-qpk,2348
+padar_parallel-0.2.2.dist-info/METADATA,sha256=sg9T6RnSVckSFTP6b3aJGqmeAl72gn6Be8Pxf9O10P4,315
+padar_parallel-0.2.2.dist-info/RECORD,,
+padar_parallel-0.2.2.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+padar_parallel-0.2.2.dist-info/top_level.txt,sha256=xeFB4xH-FweR-AH_i4xv7C9mpR0I98f7_QKKRCw7rKE,15
