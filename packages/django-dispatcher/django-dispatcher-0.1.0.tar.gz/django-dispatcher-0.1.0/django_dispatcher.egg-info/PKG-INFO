@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: django-dispatcher
+Version: 0.1.0
+Summary: Python client for the G Adventures REST API
+Home-page: https://github.com/gadventures/django-dispatcher
+Author: G Adventures
+Author-email: software@gadventures.com
+License: MIT
+Description: # django-dispatcher
+        Logic engine for determining order of things to execute
+        
+        
+        
+Keywords: dispatcher
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
