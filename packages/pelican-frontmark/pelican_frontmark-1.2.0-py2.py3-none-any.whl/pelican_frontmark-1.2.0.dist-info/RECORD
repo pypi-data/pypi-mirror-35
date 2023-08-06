@@ -1,0 +1,8 @@
+frontmark/__about__.py,sha256=FAHpD_NR8GZ6aZxJRrRs9yPMz2GpjgeQHQvdwqDqBgM,84
+frontmark/__init__.py,sha256=6-2AdyO2BsxY5XRZo4ZWLD0cqYfYVZ0GIK7yM1dEslA,186
+frontmark/reader.py,sha256=pJUKUkqYQbvS15-MVJ-zsqp3VH_uk1WggaYxuR_XR3g,7351
+frontmark/signals.py,sha256=LHH89vB7w3Wb4a7CFmPIpzsgO0CAFoko5XHiMN8Ezh0,169
+pelican_frontmark-1.2.0.dist-info/METADATA,sha256=0e9YrFWVYTY28tUOBb4obP8ehGODR3hv0YOvpusuKnY,6547
+pelican_frontmark-1.2.0.dist-info/RECORD,,
+pelican_frontmark-1.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pelican_frontmark-1.2.0.dist-info/top_level.txt,sha256=6W7QSEzjeAUltswFQYGeiHsjK892o2gEGir4LROBwJY,10
