@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: timeseriescv
+Version: 0.1
+Summary: Scikit-learn style cross-validation classes for time series data
+Home-page: UNKNOWN
+Author: Samuel Monnier
+Author-email: samuel.monnier@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: timeseriescv
+        ------------
+        
+        Package implementing two cross-validation algorithms suitable to evaluate machine learning models based on time series
+        datasets.
+        
+        Installation
+        ~~~~~~~~~~~~
+        
+        timeseriescv can be installed using pip:
+            >>> pip install timeseriescv
+        
+        Content
+        ~~~~~~~
+        
+        For now the package contains two main classes handling cross-validation:
+        
+        * ``PurgedWalkForwardCV``: Walk-forward cross-validation with purging.
+        * ``CombPurgedKFoldCV``: Combinatorial cross-validation with purging and embargoing.
+        
+        Check their respective docstrings for more information.
+        
+        
+        
+        
+Keywords: machine-learning cross-validation scikit-learn time-series
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering

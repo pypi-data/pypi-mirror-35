@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+timeseriescv/__init__.py
+timeseriescv/cross_validation.py
+timeseriescv.egg-info/PKG-INFO
+timeseriescv.egg-info/SOURCES.txt
+timeseriescv.egg-info/dependency_links.txt
+timeseriescv.egg-info/not-zip-safe
+timeseriescv.egg-info/requires.txt
+timeseriescv.egg-info/top_level.txt
