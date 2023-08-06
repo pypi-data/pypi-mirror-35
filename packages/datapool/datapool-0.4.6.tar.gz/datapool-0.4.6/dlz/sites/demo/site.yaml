@@ -1,0 +1,16 @@
+name: demo
+description: sadf
+street: sadf
+postcode: sadf
+city: adfs
+coordinates:
+    x: 0
+    y: 0
+    z: 0
+
+pictures:
+    -
+       path: images/DELETE_ME.png
+       description: description
+       # timestamp is optional:
+       timestamp: 2018/01/31 12:34:56

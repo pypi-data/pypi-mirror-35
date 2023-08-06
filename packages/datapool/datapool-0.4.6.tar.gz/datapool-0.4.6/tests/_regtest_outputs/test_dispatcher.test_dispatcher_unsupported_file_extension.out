@@ -1,0 +1,2 @@
+INFO     eawag.datapool  connected to db sqlite+pysqlite:///<tmpdir_from_fixture>/datapool.db
+INFO     eawag.datapool  message: ignore file new_file.txt
