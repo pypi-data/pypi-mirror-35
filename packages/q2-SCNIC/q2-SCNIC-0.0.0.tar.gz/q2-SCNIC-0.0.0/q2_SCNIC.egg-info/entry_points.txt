@@ -1,0 +1,3 @@
+[qiime2.plugins]
+q2-SCNIC = q2_SCNIC.plugin_setup:plugin
+
