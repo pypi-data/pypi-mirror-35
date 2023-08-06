@@ -1,0 +1,24 @@
+@import url("alabaster.css");
+
+div.sphinxience-skip-big {
+    height: .5rem;
+    margin: 1rem 0rem;
+}
+
+div.sphinxience-skip-xxlarge {
+    height: 50rem;
+
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+div.sphinxience-skip-xxlarge:before, div.sphinxience-skip-xxlarge::after {
+    content: "- space intentionally left blank -";
+    color: #888;
+    font-variant: small-caps;
+    margin: 2rem 0;
+    text-align: center;
+}
