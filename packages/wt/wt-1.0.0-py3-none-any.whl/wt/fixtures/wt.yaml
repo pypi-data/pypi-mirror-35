@@ -1,0 +1,45 @@
+---
+title: Title
+subtitle: Subtitle
+url: https://www.example.com
+author: John Smith
+
+feed:
+    domain: example.com
+
+verify:
+    links: true
+
+build:
+    output: output/
+    static: true
+    feed: true
+
+paginate:
+    by: 10
+    orphans: 2
+    mainpage: true
+    url: /page{page_number}.html
+
+templates:
+    mainpage: mainpage.html
+    post: content.html
+    page: content.html
+    feed: atom.xml
+
+directories:
+    static: static/
+
+jinja:
+    extensions:
+      - jinja2.ext.i18n
+      - jinja2.ext.do
+      - jinja2.ext.loopcontrols
+      - jinja2.ext.with_
+      - jinja2.ext.autoescape
+
+    markdown_extensions:
+        - markdown.extensions.extra
+        - markdown.extensions.toc
+
+...
