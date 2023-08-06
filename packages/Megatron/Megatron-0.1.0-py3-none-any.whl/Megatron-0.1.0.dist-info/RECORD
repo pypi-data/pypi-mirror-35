@@ -1,0 +1,12 @@
+Megatron-0.1.0.dist-info/METADATA,sha256=gpJJtF1OC-HgyhLkD-zrCwHqq5IjSy3QwQhc97TuCNw,1222
+Megatron-0.1.0.dist-info/RECORD,,
+Megatron-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+Megatron-0.1.0.dist-info/top_level.txt,sha256=OEOs4V4xHotpQFOUHkfPkLmqcuKfSffSlV17EmZVBjg,9
+megatron/__init__.py,sha256=D2uGD28EpJAYGMvzdMs4xCjEBIq0xqjBSCc6JmsueBs,100
+megatron/core.py,sha256=mtO2OvttrY4ukzdFcvVZMufY_sGaMNXq5p5e7RmAamI,14864
+megatron/utils.py,sha256=ciIMxAY3w_bRqdNMXqYV9ngXWAHbIa0VV0zuI9aMqrA,2330
+megatron/transforms/__init__.py,sha256=9Djq2IZqMGHd-VV21o6266Vz-NqQtjyB4QlSV9s0bm8,168
+megatron/transforms/common.py,sha256=dmrsHn52aspLApIyQUdVumfNrWQkugD8Vb_dRBa7PXM,858
+megatron/transforms/image.py,sha256=vvt7TphidH7q7BmeT3id4blX2UegPIAgXAijrm0Zqzs,2091
+megatron/transforms/numeric.py,sha256=ehgASJjZaPRSwfTcTDjStmIuHTbWeArUlnEwpiLI9vg,2287
+megatron/transforms/text.py,sha256=1PjkM_ej9cxz8WUvdajRMYGQBVUkI1f0aHL8ktI16TQ,792
