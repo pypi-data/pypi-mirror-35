@@ -1,0 +1,11 @@
+hugo/__init__.py,sha256=gh8HTLlzHNsu1Vc8n_mMhG3c_B1bbAFqY80ZvKgdG4s,1143
+hugo/client.py,sha256=5To05WJs6vZtSPjVL_oaZYkiyv1AAC5m7d7hSfwOX9Y,2580
+hugo/constants.py,sha256=2B8wRmCP7ki4-A6c1XK-pfOz2UxCIPKAkJnaTMOT9D0,3222
+hugo/context.py,sha256=EFTNeHUoh9qb7RrfJWT9xNYDQR454Jjbtrv2gCmABRs,1401
+hugo/exceptions.py,sha256=_kUeu4XYQJbdzeB2WoS3DneWuP8zW9i8HAhABCJkd9c,1216
+hugo/handler.py,sha256=Qc4Kk0KR-Uxa_ruKVCB0W0YQy7pzYh_cX_Riv9i0tJM,8684
+hugo/middleware.py,sha256=zWotjOgSRUdQZVrJQkvZpiDQbFQqSnX2MMo5rKXB0pE,11380
+hugo-0.5.0.dist-info/LICENSE,sha256=Rdt3eI140SNq2P9t3jzmLqhNNI8HAai-jyng8RqsRrE,1099
+hugo-0.5.0.dist-info/WHEEL,sha256=tvK973RUi4LzQSHDxPwhdKmEBUziij3RaNrgndLIb3w,84
+hugo-0.5.0.dist-info/METADATA,sha256=70G8SI2uFqTJb8Cz4GzqRBlR5GKeoyKicebJzqeEluE,817
+hugo-0.5.0.dist-info/RECORD,,
