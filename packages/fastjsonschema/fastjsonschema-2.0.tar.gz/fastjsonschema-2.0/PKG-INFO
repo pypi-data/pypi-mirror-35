@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: fastjsonschema
+Version: 2.0
+Summary: Fastest Python implementation of JSON schema
+Home-page: https://github.com/seznam/python-fastjsonschema
+Author: Michal Horejsek
+Author-email: horejsekmichal@gmail.com
+License: BSD
+Description: ===========================
+        Fast JSON schema for Python
+        ===========================
+        
+        |PyPI| |Pythons|
+        
+        .. |PyPI| image:: https://img.shields.io/pypi/v/fastjsonschema.svg
+           :alt: PyPI version
+           :target: https://pypi.python.org/pypi/fastjsonschema
+        
+        .. |Pythons| image:: https://img.shields.io/pypi/pyversions/fastjsonschema.svg
+           :alt: Supported Python versions
+           :target: https://pypi.python.org/pypi/fastjsonschema
+        
+        This project was made to come up with fast JSON validations. It is at
+        least an order of magnitude faster than other Python implemantaions.
+        See `documentation <https://horejsek.github.io/python-fastjsonschema/>`_ for
+        performance test details.
+        
+        This library follows and implements `JSON schema draft-04, draft-06 and draft-07
+        <http://json-schema.org>`_. Note that there are some differences compared to JSON
+        schema standard:
+        
+         * Regular expressions are full Python ones, not only what JSON schema allows. It's easier
+           to allow everything and also it's faster to compile without limits. So keep in mind that when
+           you will use more advanced regular expression, it may not work with other library or in
+           other language.
+         * JSON schema says you can use keyword ``default`` for providing default values. This implementation
+           uses that and always returns transformed input data.
+        
+        Install
+        -------
+        
+        .. code-block:: bash
+        
+            pip install fastjsonschema
+        
+        Support only for Python 3.3 and higher.
+        
+        Documentation
+        -------------
+        
+        Documentation: `https://horejsek.github.io/python-fastjsonschema<https://horejsek.github.io/python-fastjsonschema>`_
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: devel
