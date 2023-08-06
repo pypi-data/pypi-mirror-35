@@ -1,0 +1,7 @@
+setup.py
+manthan/__init__.py
+manthan.egg-info/PKG-INFO
+manthan.egg-info/SOURCES.txt
+manthan.egg-info/dependency_links.txt
+manthan.egg-info/not-zip-safe
+manthan.egg-info/top_level.txt
