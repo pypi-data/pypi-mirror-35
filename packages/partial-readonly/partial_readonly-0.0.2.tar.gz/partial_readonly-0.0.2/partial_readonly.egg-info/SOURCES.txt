@@ -1,0 +1,6 @@
+README.md
+setup.py
+partial_readonly.egg-info/PKG-INFO
+partial_readonly.egg-info/SOURCES.txt
+partial_readonly.egg-info/dependency_links.txt
+partial_readonly.egg-info/top_level.txt
