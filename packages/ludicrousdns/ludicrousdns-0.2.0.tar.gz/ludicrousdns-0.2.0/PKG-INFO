@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ludicrousdns
+Version: 0.2.0
+Summary: A ludicrously speedy DNS resolver
+Home-page: https://gitlab.com/sheddow/ludicrousdns
+Author: Sigurd Kolltveit
+Author-email: sigurd.kolltveit@gmx.com
+License: MIT
+Description: # ludicrousdns
+        `ludicrousdns` aims to be ludicrously speedy and ridicously reliable.
+        
+        ## Installation
+        ```
+        pip install ludicrousdns
+        ```
+        
+        ## TODO
+        - Detect wildcard DNS
+        - Add per resolver rate-limiting
+        - Limit simultaneous connections (for example through number of coroutines)
+        - Add benchmark to measure CPU- and network usage
+        - Add timeout to connections, for example with [https://github.com/aio-libs/async-timeout](async_timeout)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
