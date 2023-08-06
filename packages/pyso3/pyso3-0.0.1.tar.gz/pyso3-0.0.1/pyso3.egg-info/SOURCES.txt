@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+pyso3/__init__.py
+pyso3/check.py
+pyso3/generate.py
+pyso3/quaternion.py
+pyso3/rodriguez.py
+pyso3.egg-info/PKG-INFO
+pyso3.egg-info/SOURCES.txt
+pyso3.egg-info/dependency_links.txt
+pyso3.egg-info/top_level.txt
+test/__init__.py
+test/test_generate.py
+test/test_quaternion.py
+test/test_rodriguez.py
