@@ -1,0 +1,7 @@
+README.md
+setup.py
+fnatools/__init__.py
+fnatools.egg-info/PKG-INFO
+fnatools.egg-info/SOURCES.txt
+fnatools.egg-info/dependency_links.txt
+fnatools.egg-info/top_level.txt

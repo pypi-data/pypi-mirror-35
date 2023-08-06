@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fnatools
+Version: 0.0.1
+Summary: General toolbox for FNA
+Home-page: https://github.com/Physics-of-Nanostructures/Physics_of_Nanostructures
+Author: Physics-of-Nanostructures
+Author-email: c.f.schippers@tue.nl
+License: UNKNOWN
+Description: # Physics of Nanostructures 
+        ## Python tools
+        A Python package that contains a collection of tools used within the group.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
