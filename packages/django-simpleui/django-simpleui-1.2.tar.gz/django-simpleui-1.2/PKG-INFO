@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: django-simpleui
+Version: 1.2
+Summary: django admin 后台模板
+Home-page: https://github.com/newpanjing/simpleui
+Author: panjing
+Author-email: newpanjing@icloud.com
+License: Apache License 2.0
+Description: django admin simpleui
+        -----
+        > 美化django admin 默认ui
+        
+Platform: UNKNOWN
