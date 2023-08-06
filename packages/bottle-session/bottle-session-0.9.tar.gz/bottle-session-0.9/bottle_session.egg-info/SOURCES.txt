@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+bottle_session.py
+setup.py
+bottle_session.egg-info/PKG-INFO
+bottle_session.egg-info/SOURCES.txt
+bottle_session.egg-info/dependency_links.txt
+bottle_session.egg-info/requires.txt
+bottle_session.egg-info/top_level.txt
