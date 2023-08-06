@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: ndtamr
+Version: 0.2
+Summary: N-dimensional adaptive mesh refinement tree structure in Python.
+Home-page: https://github.com/adamdempsey90/NDTAMR
+Author: Adam M. Dempsey
+Author-email: adamdemps@gmail.com
+License: MIT
+Keywords: AMR tree refinement data science
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+N-dimensional adaptive mesh refinement tree structure in Python.
+
+
