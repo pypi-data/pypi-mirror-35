@@ -1,0 +1,7 @@
+README.md
+setup.py
+python_tia/__init__.py
+python_tia.egg-info/PKG-INFO
+python_tia.egg-info/SOURCES.txt
+python_tia.egg-info/dependency_links.txt
+python_tia.egg-info/top_level.txt
