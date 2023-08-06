@@ -1,0 +1,9 @@
+README.md
+setup.py
+py_sourcemap/__init__.py
+py_sourcemap.egg-info/PKG-INFO
+py_sourcemap.egg-info/SOURCES.txt
+py_sourcemap.egg-info/dependency_links.txt
+py_sourcemap.egg-info/not-zip-safe
+py_sourcemap.egg-info/requires.txt
+py_sourcemap.egg-info/top_level.txt
