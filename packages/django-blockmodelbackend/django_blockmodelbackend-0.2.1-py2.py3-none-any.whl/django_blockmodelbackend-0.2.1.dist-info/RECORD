@@ -1,0 +1,8 @@
+blockmodelbackend/__init__.py,sha256=PmcQ2PI2oP8irnLtJLJby2YfW6sBvLAmL-VpABzTqwc,22
+blockmodelbackend/apps.py,sha256=ptBZsTweaydCqXqmuOHdBrRgN-uFbzL7F9N4Kn96b88,174
+blockmodelbackend/modelbackend.py,sha256=LY-yoN205_iHJCAvfg2Q954itkEZEmQYKPmTJmEky3Q,2098
+blockmodelbackend/models.py,sha256=0NF0haU8y4KQRHcF8mVNYaFn1I7f5bO2y2mA4XcxP7M,2158
+django_blockmodelbackend-0.2.1.dist-info/METADATA,sha256=5ZC8Exs28Zhk8y73HKwxg1nz1zKsua4CWMFvpmjmKUI,2278
+django_blockmodelbackend-0.2.1.dist-info/RECORD,,
+django_blockmodelbackend-0.2.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_blockmodelbackend-0.2.1.dist-info/top_level.txt,sha256=grvd4cjj51uMyBVlvhE7dleUiFCpD9P09sZwDQCU9rA,18
