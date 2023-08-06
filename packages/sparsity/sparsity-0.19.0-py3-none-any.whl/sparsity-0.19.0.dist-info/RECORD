@@ -1,0 +1,16 @@
+sparsity/__init__.py,sha256=42TaPEaqhkbRKGhjs7V08vzuFB5J98pYnoD-2KJfb7I,154
+sparsity/_version.py,sha256=j9JOxRwSO_h_NsHS6XHQzVPctHJi7wM14UjkhGUVgwA,498
+sparsity/indexing.py,sha256=byjnpq1CfjVPxLCilFkxrNOFv5_-yIOmu28f9XJKM9U,707
+sparsity/io.py,sha256=IbXm9XXliKnG1jL0guR45sBNPWQRrKGPjf4T4AIzomk,4523
+sparsity/sparse_frame.py,sha256=ytoD8hevnuBzD2xHgIbouDewRSw_443SKMgfUH-s1KI,41325
+sparsity/dask/__init__.py,sha256=8AxX7KeOgTJfiKOm0yNNbVmvQU8yt12WropzKmEVSF8,585
+sparsity/dask/core.py,sha256=8JEOo1dTUqPOwJ0tVyC1CCSRWEveS7xowXIlfxvQ4w0,31258
+sparsity/dask/indexing.py,sha256=OTtTQg9wqJrH2V2CGOTMJnk7oidE-5xe72QFxe9oab4,74
+sparsity/dask/io.py,sha256=HkebulwZNzUHzcQnSY-9SL2gHB4igUN5Soadh6KTKzo,5921
+sparsity/dask/multi.py,sha256=wbrL1gypZLkFoSfpVfLswukNi0tjM9fq9UleN6n056U,3906
+sparsity/dask/reshape.py,sha256=sSBPK_Knf_36IXtvb7_S9GElQeM73I_lIraQB3tpuT4,4141
+sparsity/dask/shuffle.py,sha256=kE1iE3ZjlkTnfC1IKSXTrFRdDJu7aWN9YNY8AAD8H08,8557
+sparsity-0.19.0.dist-info/METADATA,sha256=gxuVY7OEGIQnaEl-D3r9qYvrFBrRwes9JmQjiNi2zF4,1253
+sparsity-0.19.0.dist-info/RECORD,,
+sparsity-0.19.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sparsity-0.19.0.dist-info/top_level.txt,sha256=cR7px_mM2mhQvyRuR-vEcyjlngWtMc6q9Ni_fDTRoZg,9
