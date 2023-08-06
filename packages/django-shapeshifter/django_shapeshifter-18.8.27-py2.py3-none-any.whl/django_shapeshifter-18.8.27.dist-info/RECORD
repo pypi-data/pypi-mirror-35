@@ -1,0 +1,16 @@
+django_shapeshifter-18.8.27.dist-info/LICENSE.txt,sha256=fYhvPWN1a7Y2SAYDR89A6RlpcbdPYUeViRlHzENdTCc,11560
+django_shapeshifter-18.8.27.dist-info/METADATA,sha256=3HCnA87K1KXrCBuGo8vvmmiUpmvtrRc7RhtBqlYkVl4,8551
+django_shapeshifter-18.8.27.dist-info/RECORD,,
+django_shapeshifter-18.8.27.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+django_shapeshifter-18.8.27.dist-info/top_level.txt,sha256=0cPF1QmJeigteLSHKV8iVHFQ7vWdo5poErfZgnjQmKk,13
+shapeshifter/__init__.py,sha256=kmWmUkDy8_pKVkOLde1l07wHQo2Y0JntlX5cUGOWVv4,23
+shapeshifter/views.py,sha256=mwjsNusiQ78q1-y0R5SBdUOD4yrMXG2uFkZdipPlvdI,2981
+shapeshifter/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shapeshifter/tests/conftest.py,sha256=mX7o-2cIKwPwB3rlyIfMzDL9-eDw1xBF3Xb9amnCPDw,102
+shapeshifter/tests/test_multi_form_view.py,sha256=w0zrX4izqtfdFSxs11hlCzNZEOm35Mhr8wmDYSSRk8U,2655
+shapeshifter/tests/test_multi_model_form_view.py,sha256=PY2NDUCOtGwSqNF4zWdycNi66PcX7yeiwmzWhTgHrLA,2551
+shapeshifter/tests/testapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shapeshifter/tests/testapp/forms.py,sha256=knc8Rhsxar0MDBWzA1oR9RdN5mPxroUwLuAhLsrEib0,818
+shapeshifter/tests/testapp/urls.py,sha256=mKy2pq-TEDxNe3YpUIh7DcS-xrh-aMsLg1IFM-Qgt-w,194
+shapeshifter/tests/testapp/views.py,sha256=F4kpB4j2zLjxq7kq8pvhnuAXwAvs-0-auOnvsiVZ9yA,494
+shapeshifter/tests/testapp/templates/testapp/forms.html,sha256=YNPkMlsFsGhUKy2QAJHCxTH3Uv47fEg-5rabnTvG9P8,129
