@@ -1,0 +1,12 @@
+README.md
+setup.py
+pypwsafev3/PWSafeV3Headers.py
+pypwsafev3/PWSafeV3Records.py
+pypwsafev3/__init__.py
+pypwsafev3/consts.py
+pypwsafev3/errors.py
+pypwsafev3.egg-info/PKG-INFO
+pypwsafev3.egg-info/SOURCES.txt
+pypwsafev3.egg-info/dependency_links.txt
+pypwsafev3.egg-info/requires.txt
+pypwsafev3.egg-info/top_level.txt
