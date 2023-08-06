@@ -1,0 +1,9 @@
+evalcache/__init__.py,sha256=3TIPt0r_sJSpVrprQPeXCFGKv0TAXtCJ5LNgLDBBftM,161
+evalcache/dircache.py,sha256=zswp8YgJ9zPIHHE6640edL9ChznyVNH7Y0ee-DuN2Qo,804
+evalcache/lazy.py,sha256=64DOs4gFFGmVuXiHvBf3DkmTtUCgrAX-w98sGy7B9EI,13997
+evalcache-0.3.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+evalcache-0.3.0.dist-info/METADATA,sha256=tFqRHmGs0TFughB5jC7vxXfXkdSX5iXsIK5AALCHlv8,259
+evalcache-0.3.0.dist-info/RECORD,,
+evalcache-0.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+evalcache-0.3.0.dist-info/metadata.json,sha256=sEYTIbH_1piAJk04HzaXJOKeoZDXxEkeRQq2mC48rNY,445
+evalcache-0.3.0.dist-info/top_level.txt,sha256=KnkH7_TFp0aIabrRgcovCWli-eYTVp-z9zeBUb_BhT8,10
