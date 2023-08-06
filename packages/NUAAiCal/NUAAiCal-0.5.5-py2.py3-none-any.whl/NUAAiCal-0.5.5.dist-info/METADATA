@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: NUAAiCal
+Version: 0.5.5
+Summary: Generate NUAA curriculum to iCalendar file.
+Home-page: https://github.com/Triple-Z/NUAA-iCal-Python
+Author: TripleZ
+Author-email: me@triplez.cn
+License: MIT
+Description-Content-Type: UNKNOWN
+Keywords: NUAA iCalendar ics curriculum iCal schedule calendar
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: six
+Requires-Dist: lxml
+Requires-Dist: pytz
+Requires-Dist: zeep (==2.5.0)
+Requires-Dist: icalendar (==4.0.1)
+Requires-Dist: future; python_version < "3"
+
+UNKNOWN
+
+
