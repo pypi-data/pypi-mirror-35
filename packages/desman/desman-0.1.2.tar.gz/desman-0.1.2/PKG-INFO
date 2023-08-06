@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: desman
+Version: 0.1.2
+Summary: Console HTTP API tool
+Home-page: https://github.com/kirillsulim/desman
+Author: Kirill Sulim
+Author-email: kirillsulim@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Operating System :: OS Independent
