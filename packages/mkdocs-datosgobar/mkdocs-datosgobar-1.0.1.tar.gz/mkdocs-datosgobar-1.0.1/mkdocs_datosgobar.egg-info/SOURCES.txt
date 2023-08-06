@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+mkdocs_datosgobar/__init__.py
+mkdocs_datosgobar.egg-info/PKG-INFO
+mkdocs_datosgobar.egg-info/SOURCES.txt
+mkdocs_datosgobar.egg-info/dependency_links.txt
+mkdocs_datosgobar.egg-info/entry_points.txt
+mkdocs_datosgobar.egg-info/not-zip-safe
+mkdocs_datosgobar.egg-info/requires.txt
+mkdocs_datosgobar.egg-info/top_level.txt
+mkdocs_datosgobar/datosgobar_docs/__init__.py
