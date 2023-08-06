@@ -1,0 +1,9 @@
+README.md
+setup.py
+plainchart/__init__.py
+plainchart/plainchart.py
+plainchart/styles.py
+plainchart.egg-info/PKG-INFO
+plainchart.egg-info/SOURCES.txt
+plainchart.egg-info/dependency_links.txt
+plainchart.egg-info/top_level.txt
