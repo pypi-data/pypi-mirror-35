@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mydocument>
+  <nest>one dos line&#xd;
+two dos line&#xd;
+three dos line&#xd;</nest>
+</mydocument>
