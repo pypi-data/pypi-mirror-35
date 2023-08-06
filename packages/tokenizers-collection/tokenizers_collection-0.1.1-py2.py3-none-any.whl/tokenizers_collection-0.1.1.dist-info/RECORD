@@ -1,0 +1,14 @@
+tokenizers_collection/__init__.py,sha256=gZHXGicB3kfWMaUluzHyVXkUicrSY7zFOUVljxta2m0,254
+tokenizers_collection/chinese_tokenizer_iterator.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+tokenizers_collection/cli.py,sha256=AP610-xhMixkkq0JfMq1o2WdW70jFozCNQFyG6yjnyA,455
+tokenizers_collection/config.py,sha256=INlef7H6lqXZaZ1gfHBddDvl69lmrQgPZdakZGp-aNg,274
+tokenizers_collection/download_then_unzip.py,sha256=EDAas5X_pzN9Qa3fEv6po0LwN9PWjb2Df6HpPCF3_Zg,473
+tokenizers_collection/helper.py,sha256=uHj8ya21TK6KnEFmjN_uwlD3tkQmlUt3XfgyesfjG5g,929
+tokenizers_collection/tokenizers.py,sha256=3mCnHksmwtFiwpo84cVaq_J_x7RP_xSUY26Fw2gbHG8,1831
+tokenizers_collection-0.1.1.dist-info/DESCRIPTION.rst,sha256=drO24mkJCOIjs1oRiPf3cdoMgxNy9eyhUkY6ugE86Vk,1851
+tokenizers_collection-0.1.1.dist-info/METADATA,sha256=-V65EJQFTpfL5JNc0aOEuSccjnCtqZk57kuXnmHFlMg,2843
+tokenizers_collection-0.1.1.dist-info/RECORD,,
+tokenizers_collection-0.1.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+tokenizers_collection-0.1.1.dist-info/entry_points.txt,sha256=rRxUswQ0uqZl0TofNy5aKxQyqn0HSjNA4Dys59Jhgag,74
+tokenizers_collection-0.1.1.dist-info/metadata.json,sha256=FGf5BZTg7Kluy3RKg-o652Gt0fJ9E18TRVu9kTWIHdU,1314
+tokenizers_collection-0.1.1.dist-info/top_level.txt,sha256=ij0kMUXY1j2556fn-4aW6QaMOdCRCJUH6ewpPkG93L8,22

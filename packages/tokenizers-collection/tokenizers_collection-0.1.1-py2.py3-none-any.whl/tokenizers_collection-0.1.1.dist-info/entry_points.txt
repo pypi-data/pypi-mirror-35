@@ -1,0 +1,3 @@
+[console_scripts]
+tokenizers_collection = tokenizers_collection.cli:main
+
