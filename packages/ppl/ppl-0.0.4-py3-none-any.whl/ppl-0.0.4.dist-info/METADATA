@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ppl
+Version: 0.0.4
+Summary: A pretty progressbar library
+Home-page: https://github.com/meain/ppl
+Author: Abin Simon
+Author-email: abinsimon10@gmail.com
+License: UNKNOWN
+Keywords: progressbar,spinner,loader
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+
+UNKNOWN
+
+
