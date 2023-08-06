@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: torndb-for-python3
+Version: 0.2.3
+Summary: A lightweight wrapper around pymsql ,it used in the same way as torndb
+Home-page: https://baike.baidu.com/item/%E9%82%93%E4%B8%BD%E5%90%9B/27007?fr=aladdin
+Author: bfzs
+Author-email: 909686719@qq.com
+Maintainer: ydf
+Maintainer-email: 909686719@qq.com
+License: BSD License
+Description: 
+        # how to use this:
+        
+        from torndb_for_python3 import Connection
+        It is used in the same way as torndb packets
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
