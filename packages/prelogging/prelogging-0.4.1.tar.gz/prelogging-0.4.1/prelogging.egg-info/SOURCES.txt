@@ -1,0 +1,329 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+_execfile.py
+run_all.py
+run_examples.py
+run_tests.py
+setup.cfg
+setup.py
+docs/LCDict-features-and-usage.rst
+docs/LCDictBasic-organization-basic_usage.rst
+docs/LCDictBuilderABC.rst
+docs/Makefile
+docs/_global.rst
+docs/arrowO.png
+docs/arrsup.png
+docs/arruse.png
+docs/class-reference.rst
+docs/conf.py
+docs/configuration.rst
+docs/configuring-loggers.rst
+docs/formatter-presets.rst
+docs/genindex.rst
+docs/guide-to-examples.rst
+docs/index.rst
+docs/intro-setup-testing-examples.rst
+docs/lcdict.rst
+docs/lcdictbasic.rst
+docs/locking_handlers.rst
+docs/logging_classes_v2.graphml
+docs/logging_classes_v2.png
+docs/mproc_locking_handlers_paradigm.graphml
+docs/mproc_queue_paradigm.graphml
+docs/mproc_queue_paradigm.png
+docs/overview-of-logging.rst
+docs/prelogging_classes-v4d.graphml
+docs/prelogging_classes-v4d.png
+docs/topics-recipes.rst
+docs/source/_static/custom.css
+docs/source/_templates/footer.html
+docs/source/_templates/layout.html
+examples/NOTE.txt
+examples/SMTP_handler_just_one.py
+examples/SMTP_handler_two.py
+examples/__init__.py
+examples/_get_locking_pref.py
+examples/_smtp_credentials.py
+examples/check_for_NUL.py
+examples/child_logger2_main.py
+examples/child_logger2_sub_noprop.py
+examples/child_logger2_sub_prop.py
+examples/child_logger_main.py
+examples/child_logger_sub_noprop.py
+examples/child_logger_sub_prop.py
+examples/dateformat.py
+examples/filter-adding-fields--custom-formatter-keywords-for-fields.py
+examples/filter-callable-extra-static-data.py
+examples/filter-class-extra-static-data.py
+examples/mproc.py
+examples/mproc2.py
+examples/mproc_approach__locking_handlers.py
+examples/mproc_approach__queue_handler_logging_thread.py
+examples/mproc_deco.py
+examples/mproc_deco_rot_fh.py
+examples/mproc_deco_syslog.py
+examples/queue_handler_listener.py
+examples/requirements.txt
+examples/root_logger.py
+examples/syslog.py
+examples/use_library.py
+examples/_log saved/_log--2.7-runs/child_loggers/child_loggers.log
+examples/_log saved/_log--2.7-runs/child_loggers2/child_loggers2.log
+examples/_log saved/_log--2.7-runs/mproc/check_for_NUL_bytes.py
+examples/_log saved/_log--2.7-runs/mproc/mproc_LOCKING.log
+examples/_log saved/_log--2.7-runs/mproc/mproc_NOLOCKING.log
+examples/_log saved/_log--2.7-runs/mproc2/check_for_NUL_bytes.py
+examples/_log saved/_log--2.7-runs/mproc2/mproc2_LOCKING.log
+examples/_log saved/_log--2.7-runs/mproc2/mproc2_NOLOCKING.log
+examples/_log saved/_log--2.7-runs/mproc_deco/logfile (LOCKING).log
+examples/_log saved/_log--2.7-runs/mproc_deco/logfile (NOLOCKING).log
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/_DELETE
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/rot_fh.log
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/rot_fh.log.1
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/rot_fh.log.10
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/rot_fh.log.2
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/rot_fh.log.3
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/rot_fh.log.4
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/rot_fh.log.5
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/rot_fh.log.6
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/rot_fh.log.7
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/rot_fh.log.8
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/LOCKING/rot_fh.log.9
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/NOLOCKING/_DELETE
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/NOLOCKING/rot_fh.log
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.1
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.2
+examples/_log saved/_log--2.7-runs/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.3
+examples/_log saved/_log--2.7-runs/root_logger/logfile.log
+examples/_log saved/_log--2.7-runs/rot_fh/_DEL
+examples/_log saved/_log--2.7-runs/rot_fh/rot_fh.log
+examples/_log saved/_log--2.7-runs/rot_fh/rot_fh.log.1
+examples/_log saved/_log--2.7-runs/rot_fh/rot_fh.log.2
+examples/_log saved/_log--2.7-runs/rot_fh/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (I)/child_loggers/OLD child_loggers_stderr.txt
+examples/_log saved/_log--3.x-runs (I)/child_loggers/child_loggers.log
+examples/_log saved/_log--3.x-runs (I)/child_loggers2/OLD child_loggers2_stderr.txt
+examples/_log saved/_log--3.x-runs (I)/child_loggers2/child_loggers2.log
+examples/_log saved/_log--3.x-runs (I)/mproc/NOLOCKING-has-NULbytes.txt
+examples/_log saved/_log--3.x-runs (I)/mproc/check_for_NUL_bytes.py~HEAD
+examples/_log saved/_log--3.x-runs (I)/mproc/check_for_NUL_bytes.py~develop
+examples/_log saved/_log--3.x-runs (I)/mproc/mproc_LOCKING.log
+examples/_log saved/_log--3.x-runs (I)/mproc/mproc_NOLOCKING.log
+examples/_log saved/_log--3.x-runs (I)/mproc2/check_for_NUL_bytes.py~HEAD
+examples/_log saved/_log--3.x-runs (I)/mproc2/check_for_NUL_bytes.py~develop
+examples/_log saved/_log--3.x-runs (I)/mproc2/mproc2-NOLOCKING-has-NULbytes.txt
+examples/_log saved/_log--3.x-runs (I)/mproc2/mproc2_LOCKING.log
+examples/_log saved/_log--3.x-runs (I)/mproc2/mproc2_NOLOCKING.log
+examples/_log saved/_log--3.x-runs (I)/mproc2/stderr-output-LOCKING_NOLOCKING.txt
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/_temp
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/rot_fh.log
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/rot_fh.log.10
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/rot_fh.log.4
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/rot_fh.log.5
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/rot_fh.log.6
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/rot_fh.log.7
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/rot_fh.log.8
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING/rot_fh.log.9
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.4
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.5
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.6
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/stderr out (LOCKING).txt
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.4
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.5
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.6
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/stderr out (LOCKING).txt
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log.4
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log.5
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/stderr out (LOCKING).txt
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/NOLOCKING/rot_fh.log
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log.4
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log.5
+examples/_log saved/_log--3.x-runs (I)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/stderr out (NOLOCKING).txt
+examples/_log saved/_log--3.x-runs (I)/root_logger/logfile.log~HEAD
+examples/_log saved/_log--3.x-runs (I)/root_logger/logfile.log~develop
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.10
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.2~HEAD
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.2~develop
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.3~HEAD
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.3~develop
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.4~HEAD
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.4~develop
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.5~HEAD
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.5~develop
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.6~HEAD
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.6~develop
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.7~HEAD
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.7~develop
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.8~HEAD
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.8~develop
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.9~HEAD
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log.9~develop
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log~HEAD
+examples/_log saved/_log--3.x-runs (I)/rot_fh/rot_fh.log~develop
+examples/_log saved/_log--3.x-runs (II)/child_loggers/child_loggers.log
+examples/_log saved/_log--3.x-runs (II)/child_loggers2/child_loggers2.log
+examples/_log saved/_log--3.x-runs (II)/mproc/check_for_NUL_bytes.py
+examples/_log saved/_log--3.x-runs (II)/mproc/mproc_LOCKING.log
+examples/_log saved/_log--3.x-runs (II)/mproc/mproc_NOLOCKING.log
+examples/_log saved/_log--3.x-runs (II)/mproc2/check_for_NUL_bytes.py
+examples/_log saved/_log--3.x-runs (II)/mproc2/mproc2_LOCKING.log
+examples/_log saved/_log--3.x-runs (II)/mproc2/mproc2_NOLOCKING.log
+examples/_log saved/_log--3.x-runs (II)/mproc_deco/logfile (LOCKING).log
+examples/_log saved/_log--3.x-runs (II)/mproc_deco/logfile (NOLOCKING).log
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING/rot_fh.log
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING/rot_fh.log.10
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING/rot_fh.log.4
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING/rot_fh.log.5
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING/rot_fh.log.6
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING/rot_fh.log.7
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING/rot_fh.log.8
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING/rot_fh.log.9
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.4
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.5
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/rot_fh.log.6
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'-close--GOOD/stderr out (LOCKING).txt
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.4
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.5
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/rot_fh.log.6
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'a'or'w'-close--GOOD/stderr out (LOCKING).txt
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log.4
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/rot_fh.log.5
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/LOCKING-3processes-1024maxbytes-10backup-'w'-no_close--BAD/stderr out (LOCKING).txt
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/NOLOCKING/rot_fh.log
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log.3
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log.4
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/rot_fh.log.5
+examples/_log saved/_log--3.x-runs (II)/mproc_deco_rot_fh/NOLOCKING-no_close-doesnt_even_work/stderr out (NOLOCKING).txt
+examples/_log saved/_log--3.x-runs (II)/root_logger/logfile.log
+examples/_log saved/_log--3.x-runs (II)/rot_fh/rot_fh.log
+examples/_log saved/_log--3.x-runs (II)/rot_fh/rot_fh.log.1
+examples/_log saved/_log--3.x-runs (II)/rot_fh/rot_fh.log.2
+examples/_log saved/_log--3.x-runs (II)/rot_fh/rot_fh.log.3
+examples/_log/child_loggers/child_loggers.log
+examples/_log/child_loggers2/child_loggers2.log
+examples/_log/mproc/check_for_NUL_bytes.py
+examples/_log/mproc/mproc_LOCKING.log
+examples/_log/mproc/mproc_NOLOCKING.log
+examples/_log/mproc2/check_for_NUL_bytes.py
+examples/_log/mproc2/mproc2_LOCKING.log
+examples/_log/mproc2/mproc2_NOLOCKING.log
+examples/_log/mproc_LH/mplog-errors.log
+examples/_log/mproc_LH/mplog-foo.log
+examples/_log/mproc_LH/mplog.log
+examples/_log/mproc_QHLT/mplog-errors.log
+examples/_log/mproc_QHLT/mplog-foo.log
+examples/_log/mproc_QHLT/mplog.log
+examples/_log/mproc_deco/logfile (LOCKING).log
+examples/_log/mproc_deco/logfile (NOLOCKING).log
+examples/_log/mproc_deco_rot_fh/LOCKING/rot_fh.log
+examples/_log/mproc_deco_rot_fh/LOCKING/rot_fh.log.1
+examples/_log/mproc_deco_rot_fh/LOCKING/rot_fh.log.10
+examples/_log/mproc_deco_rot_fh/LOCKING/rot_fh.log.2
+examples/_log/mproc_deco_rot_fh/LOCKING/rot_fh.log.3
+examples/_log/mproc_deco_rot_fh/LOCKING/rot_fh.log.4
+examples/_log/mproc_deco_rot_fh/LOCKING/rot_fh.log.5
+examples/_log/mproc_deco_rot_fh/LOCKING/rot_fh.log.6
+examples/_log/mproc_deco_rot_fh/LOCKING/rot_fh.log.7
+examples/_log/mproc_deco_rot_fh/LOCKING/rot_fh.log.8
+examples/_log/mproc_deco_rot_fh/LOCKING/rot_fh.log.9
+examples/_log/mproc_deco_rot_fh/NOLOCKING/rot_fh.log
+examples/_log/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.1
+examples/_log/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.10
+examples/_log/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.2
+examples/_log/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.3
+examples/_log/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.4
+examples/_log/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.5
+examples/_log/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.6
+examples/_log/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.7
+examples/_log/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.8
+examples/_log/mproc_deco_rot_fh/NOLOCKING/rot_fh.log.9
+examples/_log/root_logger/logfile.log
+examples/library/__init__.py
+examples/library/module.py
+prelogging/__init__.py
+prelogging/_version.py
+prelogging/formatter_presets.py
+prelogging/lcdict.py
+prelogging/lcdict_builder_abc.py
+prelogging/lcdictbasic.py
+prelogging/locking_handlers.py
+prelogging/six.py
+prelogging.egg-info/PKG-INFO
+prelogging.egg-info/SOURCES.txt
+prelogging.egg-info/dependency_links.txt
+prelogging.egg-info/top_level.txt
+tests/__init__.py
+tests/blather.log
+tests/formatter_presets_badfile.txt
+tests/test_LCDict.py
+tests/test_LCDictBasic.py
+tests/test_add_xxx_filter.py
+tests/test_fh_delay.py
+tests/test_formatter_presets.py
+tests/test_formatter_style.py
+tests/test_lcdict_builder.py
+tests/test_lcdict_builder_SubA.py
+tests/test_lcdict_builder_SubB.py
+tests/test_lcdict_builders_top.py
+tests/test_root_logger.py
+tests/test_rot_fh.py
+tests/_testlogs/logfile.log
+tests/_testlogs/logfile_delay.log
+tests/_testlogs/builder/subA.log
+tests/_testlogs/builder/subB.log
+tests/_testlogs/rot_fh/test_rot_fh.log
+tests/_testlogs/rot_fh/test_rot_fh.log.1
+tests/_testlogs/rot_fh/test_rot_fh.log.10
+tests/_testlogs/rot_fh/test_rot_fh.log.2
+tests/_testlogs/rot_fh/test_rot_fh.log.3
+tests/_testlogs/rot_fh/test_rot_fh.log.4
+tests/_testlogs/rot_fh/test_rot_fh.log.5
+tests/_testlogs/rot_fh/test_rot_fh.log.6
+tests/_testlogs/rot_fh/test_rot_fh.log.7
+tests/_testlogs/rot_fh/test_rot_fh.log.8
+tests/_testlogs/rot_fh/test_rot_fh.log.9

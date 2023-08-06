@@ -1,0 +1,7 @@
+2018-08-30 17:46:08,147 foo.bar         INFO     worker 3   Message no. 4
+2018-08-30 17:46:08,255 foo             DEBUG    worker 8   Message no. 7
+2018-08-30 17:46:08,507 foo.bar.baz     CRITICAL worker 2   Message no. 9
+2018-08-30 17:46:08,531 foo.bar         DEBUG    worker 2   Message no. 102018-08-30 17:46:08,642 foo.bar.baz     CRITICAL worker 4   Message no. 9
+2018-08-30 17:46:08,742 foo.bar.baz     INFO     worker 4   Message no. 10
+018-08-30 17:46:08,475 foo.bar.baz     CRITICAL worker 7   Message no. 102018-08-30 17:46:08,492 foo.bar.baz     CRITICAL worker 6   Message no. 9
+2018-08-30 17:46:08,536 foo.bar         INFO     worker 6   Message no. 10

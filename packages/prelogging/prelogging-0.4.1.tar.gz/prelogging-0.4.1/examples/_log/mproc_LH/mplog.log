@@ -1,0 +1,10 @@
+2018-08-30 17:46:07,953 foo.bar         ERROR    worker 8   Message no. 1
+2018-08-30 17:46:08,064 foo.bar         CRITICAL worker 1   Message no. 2
+2018-08-30 17:46:08,180 foo.bar         DEBUG    worker 1   Message no. 3
+2018-08-30 17:46:08,217 foo.bar         ERROR    worker 1   Message no. 4
+2018-08-30 17:46:08,264 foo.bar         INFO     worker 1   Message no. 5
+2018-08-30 17:46:08,333 foo.bar.baz     CRITICAL worker 4   Message no. 6
+2018-08-30 17:46:08,410 spam.ham.eggs   INFO     worker 4   Message no. 7
+2018-08-30 17:46:08,523 foo.bar         DEBUG    worker 4   Message no. 8
+2018-08-30 17:46:08,642 foo.bar.baz     CRITICAL worker 4   Message no. 9
+2018-08-30 17:46:08,742 foo.bar.baz     INFO     worker 4   Message no. 10

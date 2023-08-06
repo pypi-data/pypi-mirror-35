@@ -1,0 +1,179 @@
+MainProcess : examples.mproc: INFO    :  2018-08-30 17:46:00,942: Processing 80 documents using 8 processes.
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:00,987: >>>>>> Hi from process-1; processing docs 0 - 9
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:00,988: 1:  0
+	and again 1:  0
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:00,988: >>>>>> Hi from process-2; processing docs 10 - 19
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:00,990: 2: 10
+	and again 2: 10
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:00,990: >>>>>> Hi from process-3; processing docs 20 - 29
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:00,991: 3: 20
+	and again 3: 20
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:00,990: >>>>>> Hi from process-4; processing docs 30 - 39
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:00,992: 4: 30
+	and again 4: 30
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:00,992: >>>>>> Hi from process-5; processing docs 40 - 49
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:00,993: 5: 40
+	and again 5: 40
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:00,993: >>>>>> Hi from process-6; processing docs 50 - 59
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:00,994: 6: 50
+	and again 6: 50
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:00,995: >>>>>> Hi from process-7; processing docs 60 - 69
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:00,996: 7: 60
+	and again 7: 60
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:00,997: >>>>>> Hi from process-8; processing docs 70 - 79
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:00,997: 8: 70
+	and again 8: 70
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:01,039: 1:  1
+	and again 1:  1
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:01,039: 1:  2
+	and again 1:  2
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:01,042: 3: 21
+	and again 3: 21
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:01,043: 3: 22
+	and again 3: 22
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:01,044: 5: 41
+	and again 5: 41
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:01,045: 5: 42
+	and again 5: 42
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:01,047: 7: 61
+	and again 7: 61
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:01,047: 7: 62
+	and again 7: 62
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:01,090: 1:  3
+	and again 1:  3
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:01,091: 1:  4
+	and again 1:  4
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:01,091: 2: 11
+	and again 2: 11
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:01,091: 2: 12
+	and again 2: 12
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:01,093: 3: 23
+	and again 3: 23
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:01,093: 4: 31
+	and again 4: 31
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:01,094: 3: 24
+	and again 3: 24
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:01,094: 4: 32
+	and again 4: 32
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:01,096: 6: 51
+	and again 6: 51
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:01,096: 5: 43
+	and again 5: 43
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:01,096: 6: 52
+	and again 6: 52
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:01,096: 5: 44
+	and again 5: 44
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:01,099: 7: 63
+	and again 7: 63
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:01,099: 8: 71
+	and again 8: 71
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:01,099: 7: 64
+	and again 7: 64
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:01,099: 8: 72
+	and again 8: 72
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:01,142: 1:  5
+	and again 1:  5
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:01,142: 1:  6
+	and again 1:  6
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:01,145: 3: 25
+	and again 3: 25
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:01,146: 3: 26
+	and again 3: 26
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:01,148: 5: 45
+	and again 5: 45
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:01,148: 5: 46
+	and again 5: 46
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:01,150: 7: 65
+	and again 7: 65
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:01,151: 7: 66
+	and again 7: 66
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:01,193: 1:  7
+	and again 1:  7
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:01,193: 2: 13
+	and again 2: 13
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:01,193: 1:  8
+	and again 1:  8
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:01,194: 2: 14
+	and again 2: 14
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:01,195: 4: 33
+	and again 4: 33
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:01,196: 4: 34
+	and again 4: 34
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:01,197: 6: 53
+	and again 6: 53
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:01,197: 3: 27
+	and again 3: 27
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:01,197: 6: 54
+	and again 6: 54
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:01,198: 3: 28
+	and again 3: 28
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:01,199: 5: 47
+	and again 5: 47
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:01,200: 8: 73
+	and again 8: 73
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:01,200: 5: 48
+	and again 5: 48
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:01,200: 8: 74
+	and again 8: 74
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:01,202: 7: 67
+	and again 7: 67
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:01,203: 7: 68
+	and again 7: 68
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:01,245: 1:  9
+	and again 1:  9
+Process-1   : examples.mproc: INFO    :  2018-08-30 17:46:01,245: >>>>>> Bye from process-1
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:01,249: 3: 29
+	and again 3: 29
+Process-3   : examples.mproc: INFO    :  2018-08-30 17:46:01,250: >>>>>> Bye from process-3
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:01,251: 5: 49
+	and again 5: 49
+Process-5   : examples.mproc: INFO    :  2018-08-30 17:46:01,252: >>>>>> Bye from process-5
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:01,254: 7: 69
+	and again 7: 69
+Process-7   : examples.mproc: INFO    :  2018-08-30 17:46:01,254: >>>>>> Bye from process-7
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:01,294: 2: 15
+	and again 2: 15
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:01,295: 2: 16
+	and again 2: 16
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:01,297: 4: 35
+	and again 4: 35
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:01,297: 4: 36
+	and again 4: 36
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:01,299: 6: 55
+	and again 6: 55
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:01,299: 6: 56
+	and again 6: 56
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:01,301: 8: 75
+	and again 8: 75
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:01,302: 8: 76
+	and again 8: 76
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:01,396: 2: 17
+	and again 2: 17
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:01,396: 2: 18
+	and again 2: 18
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:01,398: 4: 37
+	and again 4: 37
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:01,398: 4: 38
+	and again 4: 38
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:01,400: 6: 57
+	and again 6: 57
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:01,401: 6: 58
+	and again 6: 58
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:01,402: 8: 77
+	and again 8: 77
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:01,403: 8: 78
+	and again 8: 78
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:01,497: 2: 19
+	and again 2: 19
+Process-2   : examples.mproc: INFO    :  2018-08-30 17:46:01,498: >>>>>> Bye from process-2
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:01,499: 4: 39
+	and again 4: 39
+Process-4   : examples.mproc: INFO    :  2018-08-30 17:46:01,500: >>>>>> Bye from process-4
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:01,502: 6: 59
+	and again 6: 59
+Process-6   : examples.mproc: INFO    :  2018-08-30 17:46:01,502: >>>>>> Bye from process-6
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:01,503: 8: 79
+	and again 8: 79
+Process-8   : examples.mproc: INFO    :  2018-08-30 17:46:01,503: >>>>>> Bye from process-8
+MainProcess : examples.mproc: INFO    :  2018-08-30 17:46:01,506: NUM_DOCS_TOTAL: 80, len(total_results): 80
+MainProcess : examples.mproc: INFO    :  2018-08-30 17:46:01,507: [(3, 20), (3, 21), (3, 22), (3, 23), (3, 24), (3, 25), (3, 26), (3, 27), (3, 28), (3, 29), (1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (1, 7), (1, 8), (1, 9), (7, 60), (7, 61), (7, 62), (7, 63), (7, 64), (7, 65), (7, 66), (7, 67), (7, 68), (7, 69), (5, 40), (5, 41), (5, 42), (5, 43), (5, 44), (5, 45), (5, 46), (5, 47), (5, 48), (5, 49), (2, 10), (2, 11), (2, 12), (2, 13), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (4, 30), (4, 31), (4, 32), (4, 33), (4, 34), (4, 35), (4, 36), (4, 37), (4, 38), (4, 39), (6, 50), (6, 51), (6, 52), (6, 53), (6, 54), (6, 55), (6, 56), (6, 57), (6, 58), (6, 59), (8, 70), (8, 71), (8, 72), (8, 73), (8, 74), (8, 75), (8, 76), (8, 77), (8, 78), (8, 79)]
