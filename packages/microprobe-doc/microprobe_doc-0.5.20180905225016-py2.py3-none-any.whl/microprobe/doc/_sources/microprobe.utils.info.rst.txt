@@ -1,0 +1,73 @@
+=====================
+microprobe.utils.info
+=====================
+
+.. automodule:: microprobe.utils.info
+   :no-members:
+   :no-show-inheritance:
+   :no-inherited-members:
+   :no-undoc-members:
+   :no-special-members:
+   :no-private-members:
+   
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Module data
+   .. autosummary::
+   
+      AUTHOR
+      CLASSIFIERS
+      COPYRIGHT
+      EMAIL
+      KEYWORDS
+      LICENSE
+      MAINTAINER
+      PACKAGEURL
+      REVISION
+      STATUS
+      VERSION
+      WEBSITE
+   
+   
+
+   
+   .. raw:: html
+      
+      <br>
+      <hr width="75%">  
+      <br>
+
+   
+
+   
+   -----------
+   Module data
+   -----------
+   
+   .. autodata:: AUTHOR
+   .. autodata:: CLASSIFIERS
+   .. autodata:: COPYRIGHT
+   .. autodata:: EMAIL
+   .. autodata:: KEYWORDS
+   .. autodata:: LICENSE
+   .. autodata:: MAINTAINER
+   .. autodata:: PACKAGEURL
+   .. autodata:: REVISION
+   .. autodata:: STATUS
+   .. autodata:: VERSION
+   .. autodata:: WEBSITE
+   
+
+   
