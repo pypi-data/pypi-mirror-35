@@ -1,0 +1,4 @@
+[console_scripts]
+ardiss = ardiss:ardiss_console
+ardiss-transform = ardiss:ardiss_transform_console
+
