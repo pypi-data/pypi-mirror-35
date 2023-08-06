@@ -1,0 +1,13 @@
+bb_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bb_utils/crypto.py,sha256=R4GqgCNOIoDQq9Nt9GM79pqTpT7l_b7PpvoEQMVzFgk,1127
+bb_utils/env.py,sha256=e7ubBgGlkdr1643G5VAHsdffQ4QjvWpbHyMWE2QOqrs,1548
+bb_utils/migrations.py,sha256=c3W6rXWa3_b6VKkGzOPp8eOXEmXSICk3Bi3XZyijwxI,1122
+bb_utils/aiohttp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bb_utils/aiohttp/headers.py,sha256=J5W_RMWNlI3V1iKf9X_7xU2swHaw3EIMG8DDRpK7VUE,2339
+bb_utils/apispec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bb_utils/apispec/paginator.py,sha256=d66lEf8HIFNH3SiK7ONE3s9smnm3OB1jFBjkRTer78Y,7703
+bb_utils/apispec/responses.py,sha256=XK_LWqws9mOBpDc3k8EIB7W9oLQ0RL3fFQcu0qL3T1U,3653
+bb_utils-0.0.10.dist-info/METADATA,sha256=Z264KnerGANi0qrjPA0XeIqLh42VuGaFbT2cU4m6geI,747
+bb_utils-0.0.10.dist-info/RECORD,,
+bb_utils-0.0.10.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+bb_utils-0.0.10.dist-info/top_level.txt,sha256=5LMB6y6OUjLJNgW870wCdRph-JmUomZvpwQ2RO8U1Z0,9

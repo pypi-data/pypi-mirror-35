@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bb-utils
+Version: 0.0.10
+Summary: Bit Breakers Utilities
+Home-page: https://gitlab.com/bitbreakers/python-libs/bb_utils
+Author: Sebastian Dămian
+Author-email: owner@damiancs.ro
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: yoyo-migrations
+
+## BitBreakers Utilities
+
+### Packages
+
+* env: utilities for using the OS environment
+
