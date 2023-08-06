@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: homectl
+Version: 0.1.1
+Summary: Command line smart device control
+Home-page: https://github.com/cmccandless/homectl
+Author: Corey McCandless
+Author-email: crm1994@gmail.com
+License: UNKNOWN
+Description: [![Build Status](https://travis-ci.com/cmccandless/homectl.svg?branch=master)](https://travis-ci.com/cmccandless/homectl)[![PyPI](https://img.shields.io/pypi/v/nine.svg)](https://pypi.org/project/homectl/)
+        
+        # homectl
+        Command line smart device control
+        
+        ## Installation
+        ```bash
+        pip install homectl
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
