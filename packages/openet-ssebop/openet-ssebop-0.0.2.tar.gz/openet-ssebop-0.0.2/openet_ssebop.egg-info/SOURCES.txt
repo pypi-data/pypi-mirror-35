@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+openet/__init__.py
+openet/__pycache__/__init__.cpython-36.pyc
+openet/ssebop/__init__.py
+openet/ssebop/model.py
+openet/ssebop/__pycache__/__init__.cpython-36.pyc
+openet/ssebop/__pycache__/model.cpython-36.pyc
+openet_ssebop.egg-info/PKG-INFO
+openet_ssebop.egg-info/SOURCES.txt
+openet_ssebop.egg-info/dependency_links.txt
+openet_ssebop.egg-info/not-zip-safe
+openet_ssebop.egg-info/requires.txt
+openet_ssebop.egg-info/top_level.txt
