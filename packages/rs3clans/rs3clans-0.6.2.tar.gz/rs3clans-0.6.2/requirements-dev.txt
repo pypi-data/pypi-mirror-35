@@ -1,0 +1,7 @@
+requests==2.19.1
+setuptools==39.0.1
+requests==2.19.1
+recommonmark==0.4.0
+setuptools==39.0.1
+sphinx_rtd_theme>=0.3.1
+numpydoc>=0.8.0
