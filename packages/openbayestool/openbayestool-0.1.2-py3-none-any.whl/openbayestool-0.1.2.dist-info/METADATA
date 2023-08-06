@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: openbayestool
+Version: 0.1.2
+Summary: Openbayes Service Tool
+Home-page: https://openbayes.com
+Author: Openbayes
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: ml ai openbayes
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: requests (>=2.17.3)
+
+UNKNOWN
+
+
