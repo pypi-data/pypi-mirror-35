@@ -1,0 +1,14 @@
+prestring/__init__.py,sha256=cyaG1-Jz89IFs6fw2yE9TueTOm94T-vqCseTDfhsoFg,7949
+prestring/compat.py,sha256=n6Ex6N_zfMniok7v-O5JbvqN16nafjZbRwnskTmJ61E,1229
+prestring/go.py,sha256=nCKTZYIcV4eBIR7crphiov7RcB7A0WdlyadpWPjyOnA,6659
+prestring/naming.py,sha256=ExBWuO8p3Qd0dgzhZfNULTdL6nyjbszlThoSn2JuUR0,861
+prestring/output.py,sha256=ZiDBe8OyNa9dPgMHZOaHon_D7i0SObBmN4vj28TTDxs,1624
+prestring/utils.py,sha256=1K_1X8CE-qKalFOhganEwYF7qaVyzZjp03KyGuIseCI,5845
+prestring/python/__init__.py,sha256=8Fn5osXa9jM6GrhJaBMoqL-RXMsRVa8PLzybJjY1tn0,9179
+prestring/python/parse.py,sha256=zgfLIwuFu2SQXAHdIXBzfHxs6SKVR24qW0lMogIZJHo,3976
+prestring/python/transform.py,sha256=8JZFz7b0Vk5jF4AT5xiGYA3rnkv3H20W_6lbQH0UHHw,14266
+prestring-0.5.2.dist-info/METADATA,sha256=lFzpPwk_vbi2UXZUW48B1JoX68UoAJZd1Ayskg97TeM,2731
+prestring-0.5.2.dist-info/RECORD,,
+prestring-0.5.2.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+prestring-0.5.2.dist-info/entry_points.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+prestring-0.5.2.dist-info/top_level.txt,sha256=cEgR1GZXvEgz-tdeTipTTXvKJAsac5L62pYM5-oZxsg,10
