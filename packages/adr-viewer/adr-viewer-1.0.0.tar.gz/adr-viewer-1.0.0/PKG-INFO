@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: adr-viewer
+Version: 1.0.0
+Summary: A visualisation tool for Architecture Decision Records
+Home-page: https://github.com/mrwilson/adr-viewer
+Author: Alex Wilson
+Author-email: a.wilson@alumni.warwick.ac.uk
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Documentation
