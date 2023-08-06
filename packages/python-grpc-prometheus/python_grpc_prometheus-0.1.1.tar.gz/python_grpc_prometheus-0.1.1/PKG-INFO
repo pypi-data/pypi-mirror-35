@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: python_grpc_prometheus
+Version: 0.1.1
+Summary: Python gRPC Prometheus Interceptors
+Home-page: https://github.com/zhyon404/python-grpc-prometheus
+Author: Zhang Yong
+Author-email: yongzhang1@foxmail.com
+License: MIT
+Description: # python-grpc-prometheus
+        
+        
+        ## ChangeLog
+        
+        
+        ## TODO
+        
+        - add stream support
+        - add client metrics
+        - add test
+        - add example
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
