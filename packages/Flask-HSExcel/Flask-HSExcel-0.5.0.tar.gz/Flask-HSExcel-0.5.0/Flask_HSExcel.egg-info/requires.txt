@@ -1,0 +1,10 @@
+Flask
+Flask-SQLAlchemy
+SQLAlchemy
+celery
+flask-DouWa
+marshmallow
+openpyxl
+xlrd
+xlutils
+xlwt
