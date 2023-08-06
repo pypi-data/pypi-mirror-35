@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: redash-api-client
+Version: 0.0.1
+Summary: Redash API Client
+Home-page: https://github.com/damnee562/redash-api-client
+Author: Damien Zeng
+Author-email: damnee562@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Redash-API-Client
+Redash API Client written in Python.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
