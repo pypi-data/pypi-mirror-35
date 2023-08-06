@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+nitpicker/__init__.py
+nitpicker/__main__.py
+nitpicker/helpers.py
+nitpicker/nitpicker.py
+nitpicker.egg-info/PKG-INFO
+nitpicker.egg-info/SOURCES.txt
+nitpicker.egg-info/dependency_links.txt
+nitpicker.egg-info/requires.txt
+nitpicker.egg-info/top_level.txt
+nitpicker/report_generator/__init__.py
+nitpicker/report_generator/generator.py
