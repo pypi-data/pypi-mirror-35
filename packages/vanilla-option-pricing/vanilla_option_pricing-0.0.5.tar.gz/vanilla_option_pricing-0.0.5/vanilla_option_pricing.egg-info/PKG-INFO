@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: vanilla-option-pricing
+Version: 0.0.5
+Summary: A very simple library to calibrate mean-reverting stochastic models and compute their variance. Includes vanilla option pricing functionalities.
+Home-page: UNKNOWN
+Author: Emanuele Fabbiani
+Author-email: emanuele.fabbiani@xtreamers.io
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
