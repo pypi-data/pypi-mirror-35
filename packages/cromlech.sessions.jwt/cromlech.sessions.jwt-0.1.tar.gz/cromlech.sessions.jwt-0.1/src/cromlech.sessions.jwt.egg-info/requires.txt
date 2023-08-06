@@ -1,0 +1,6 @@
+setuptools
+cromlech.jwt
+biscuits
+
+[test]
+WebTest

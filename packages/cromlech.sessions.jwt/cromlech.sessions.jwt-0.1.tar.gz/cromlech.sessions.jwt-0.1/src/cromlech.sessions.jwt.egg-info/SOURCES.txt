@@ -1,0 +1,16 @@
+MANIFEST.in
+README.txt
+setup.py
+docs/HISTORY.txt
+src/cromlech/__init__.py
+src/cromlech.sessions.jwt.egg-info/PKG-INFO
+src/cromlech.sessions.jwt.egg-info/SOURCES.txt
+src/cromlech.sessions.jwt.egg-info/dependency_links.txt
+src/cromlech.sessions.jwt.egg-info/namespace_packages.txt
+src/cromlech.sessions.jwt.egg-info/not-zip-safe
+src/cromlech.sessions.jwt.egg-info/requires.txt
+src/cromlech.sessions.jwt.egg-info/top_level.txt
+src/cromlech/sessions/__init__.py
+src/cromlech/sessions/jwt/__init__.py
+src/cromlech/sessions/jwt/test_session.txt
+src/cromlech/sessions/jwt/test_utils.txt
