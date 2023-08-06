@@ -1,0 +1,10 @@
+README.rst
+setup.py
+scripts/tcal
+tinycal/__init__.py
+tinycal/__main__.py
+tinycal/tcal.py
+tinycal.egg-info/PKG-INFO
+tinycal.egg-info/SOURCES.txt
+tinycal.egg-info/dependency_links.txt
+tinycal.egg-info/top_level.txt
