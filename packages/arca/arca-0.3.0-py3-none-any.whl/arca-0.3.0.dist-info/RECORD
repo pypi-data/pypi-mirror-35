@@ -1,0 +1,17 @@
+arca/__init__.py,sha256=Q88tU2ItcuLKPSrdEr7lAhqq4lltHgIgHsiYWynR-b4,344
+arca/_arca.py,sha256=vaj5zTi6gggCpju67HyqMr65h9SJK0AWrpcAR8OFi8w,19395
+arca/_runner.py,sha256=qXe468Woh2q41tQ0P-zysc8aKcESpDReqFet-mMx_Pk,2330
+arca/exceptions.py,sha256=_EdsV99rr9It45hIFj3_Vys80uUWaQ4puv3wFa2dkNM,2533
+arca/result.py,sha256=EQ-Q0h6MD3s8juoEfw5ez2tMG1dUJuq8Jd9gWXbU7L8,1605
+arca/task.py,sha256=pY167i2Gc2bBURwZ8TzdjSO6Bo7YUaFb3xa_85f1VK8,3377
+arca/utils.py,sha256=ApQ8tzo_w2NGJdFH-opt-dWE9sgkASsFBy5ytMtvY3I,4981
+arca/backend/__init__.py,sha256=iDLeyt9h2unGjP1I1bLHrNr84njFolEMr63nLOQzbPM,296
+arca/backend/base.py,sha256=B9UU3LfqXQveeLnUJ8hkC1GeSmAZXLI19dK9VeE2xmc,8812
+arca/backend/current_environment.py,sha256=_xbQ5WH97atez15uCxWyVNoFpeOdhs8zhoFl-Inoj4w,549
+arca/backend/docker.py,sha256=CCY1yumUB-OsSt5vhYkQghkyjGN_XQOXywQnur8pHKU,33800
+arca/backend/vagrant.py,sha256=COAhhhpK74RYwibgUEpnoEbP3LfioIcps-abD5bw4to,12591
+arca/backend/venv.py,sha256=IgeBUv8S2N8i8K4XuSPkwUputyUvSrYPou9tWegTcy8,5113
+arca-0.3.0.dist-info/METADATA,sha256=r18K92_0mK-TzDZNK4oKqvBJ0sjz0uSz9kOT_f--9o4,8241
+arca-0.3.0.dist-info/RECORD,,
+arca-0.3.0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+arca-0.3.0.dist-info/top_level.txt,sha256=K3D_XcMCJXNUW8TxJlDb9f-nvHhswshF15AXOjVUBmI,5
