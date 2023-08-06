@@ -1,0 +1,9 @@
+Deprecated-1.2.2.dist-info/DESCRIPTION.rst,sha256=DX5CgPipdpz3guJNDIZmyk4tWF2xrVv2Jr88m0ZynNw,3452
+Deprecated-1.2.2.dist-info/METADATA,sha256=0-0OrCOfwddKG--EVV4rPQUl4prw3cqst5nw7nJb5Bw,4811
+Deprecated-1.2.2.dist-info/RECORD,,
+Deprecated-1.2.2.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+Deprecated-1.2.2.dist-info/metadata.json,sha256=Q7606nEAECq8-uDRUS0xdu-Hudu9PccwJAqtsoDo1Kg,1388
+Deprecated-1.2.2.dist-info/top_level.txt,sha256=nHbOYawKPQQE5lQl-toUB1JBRJjUyn_m_Mb8RVJ0RjA,11
+deprecated/__init__.py,sha256=kSYAn10aSuFjIUDrknhSXTfG1ofE3YJFznFaTGRsvHQ,312
+deprecated/classic.py,sha256=HbHgnhPmPRo6E0nKhLu9IlYqT8eLRC4UlEkigefa6XE,5921
+deprecated/sphinx.py,sha256=dN_fVb4tMr1an-3lsdOniFxwnOBtGnt6AHZUTJHYYxA,5856
