@@ -1,0 +1,3 @@
+trio
+async_generator>=1.9
+pytest>=3.6
