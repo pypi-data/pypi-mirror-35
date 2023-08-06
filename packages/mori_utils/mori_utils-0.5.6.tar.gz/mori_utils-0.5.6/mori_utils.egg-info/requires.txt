@@ -1,0 +1,6 @@
+pymongo
+pymysql
+pyodps
+kazoo
+pyyaml
+redis
