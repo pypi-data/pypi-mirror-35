@@ -1,0 +1,5 @@
+google-api-python-client
+tweepy==3.6.0
+twitter==1.18.0
+moment
+pymysql
