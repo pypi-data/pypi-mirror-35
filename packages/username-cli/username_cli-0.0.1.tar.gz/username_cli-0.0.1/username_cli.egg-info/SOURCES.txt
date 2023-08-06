@@ -1,0 +1,11 @@
+README.md
+setup.py
+username_cli/__init__.py
+username_cli/__main__.py
+username_cli/username_cli.py
+username_cli.egg-info/PKG-INFO
+username_cli.egg-info/SOURCES.txt
+username_cli.egg-info/dependency_links.txt
+username_cli.egg-info/entry_points.txt
+username_cli.egg-info/requires.txt
+username_cli.egg-info/top_level.txt
