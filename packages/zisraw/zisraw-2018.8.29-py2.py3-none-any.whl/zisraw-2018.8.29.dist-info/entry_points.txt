@@ -1,0 +1,3 @@
+[console_scripts]
+czi2tif = zisraw.czi2tif:main
+

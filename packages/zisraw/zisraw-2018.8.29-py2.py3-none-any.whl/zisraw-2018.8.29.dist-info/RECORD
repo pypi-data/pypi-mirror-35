@@ -1,0 +1,9 @@
+czifile.py,sha256=c5s_FbpM2-1IY14-1PzNbd1-1mpe7jeQFnmmNh9mX-Q,250
+zisraw/__init__.py,sha256=cxgX0EFse1Z2wOXj4KRwWzfbXmPsIIBagdUK3HavEY0,141
+zisraw/czi2tif.py,sha256=8nfbFHbs8S3UNbc6vaVWwsrF5Kl8UU_KZu4T0-DVf80,727
+zisraw/czifile.py,sha256=i5y0VA27RGdBkUlQQiWcqPdLMSoZO85LyK4g3Fw-bNY,43006
+zisraw-2018.8.29.dist-info/METADATA,sha256=oGuaPaHSmIi031OcNg6mHHWhBiKHQWeLPEVpnQ6LFbs,4011
+zisraw-2018.8.29.dist-info/RECORD,,
+zisraw-2018.8.29.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+zisraw-2018.8.29.dist-info/entry_points.txt,sha256=597234XsHFNBxVkjNo8vLlha0G-G1HxP03WFu1uYmTE,49
+zisraw-2018.8.29.dist-info/top_level.txt,sha256=1ZKV5eYSC6X8Erici6jrLgsFSkgKCFOlOq9Cx_U_WZ4,15
