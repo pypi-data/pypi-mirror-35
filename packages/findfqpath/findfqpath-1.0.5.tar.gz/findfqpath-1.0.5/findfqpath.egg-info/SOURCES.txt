@@ -1,0 +1,7 @@
+README.md
+findfqpath.py
+setup.py
+findfqpath.egg-info/PKG-INFO
+findfqpath.egg-info/SOURCES.txt
+findfqpath.egg-info/dependency_links.txt
+findfqpath.egg-info/top_level.txt
