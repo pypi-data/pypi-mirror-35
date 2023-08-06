@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: alphatools
+Version: 0.1
+Summary: Quant finance resarch tools
+Home-page: UNKNOWN
+Author: Jonathan Larkin
+Author-email: jonathan.r.larkin@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: zipline
+
+UNKNOWN
+
+
