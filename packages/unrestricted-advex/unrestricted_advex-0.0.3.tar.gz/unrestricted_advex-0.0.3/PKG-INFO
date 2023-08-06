@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: unrestricted_advex
+Version: 0.0.3
+Summary: Evaluation code and mnist_baselines for the warmup to the unrestricted adversarial examples contest
+Home-page: https://github.com/google/unrestricted-advex
+Author: Tom Brown
+Author-email: tombrown@google.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
