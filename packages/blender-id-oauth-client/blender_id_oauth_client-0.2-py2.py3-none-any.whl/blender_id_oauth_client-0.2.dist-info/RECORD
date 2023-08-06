@@ -1,0 +1,17 @@
+blender_id_oauth_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blender_id_oauth_client/admin.py,sha256=aYWaqzW4ONGUmgTigkhNMSFqlAvXuKlOHFSeO-DUuXs,262
+blender_id_oauth_client/apps.py,sha256=WaIFh3YOB_X3GOvewkMLontsZ93UAo9eZ9YAwejDHPQ,137
+blender_id_oauth_client/models.py,sha256=jmf6arRVqPMbfG9RU_sh3W6Zja27F1Ws1vRIzF2ua4A,829
+blender_id_oauth_client/urls.py,sha256=W2dwBJuM8WUejq6LWfhxQo7uBvbPtUnAFngNSQuHpT8,255
+blender_id_oauth_client/views.py,sha256=eQL0SPNa1ITW5W8j7APmK19MUfdIQQnVQeYQmnR_jIM,4011
+blender_id_oauth_client/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blender_id_oauth_client/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blender_id_oauth_client/management/commands/makesuperuser.py,sha256=kilg8fvSJAss05ZP8vIZAf1UDlkHzxoTXmiTTnfsric,843
+blender_id_oauth_client/migrations/0001_initial.py,sha256=mKRaeIIk2sWEnkAIbAQ6qcxlJPEs7er0aKWt6Xlj3ME,1183
+blender_id_oauth_client/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blender_id_oauth_client-0.2.dist-info/LICENSE.txt,sha256=wDzqAntLQORAL6vQhVdzZyfsPVvFStZKtkct5DIZjK0,18047
+blender_id_oauth_client-0.2.dist-info/METADATA,sha256=O2Rb8PLqpGZM4DJcM8dDcqci_14LIqsQk3YuLTCyY2s,2045
+blender_id_oauth_client-0.2.dist-info/RECORD,,
+blender_id_oauth_client-0.2.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+blender_id_oauth_client-0.2.dist-info/top_level.txt,sha256=Nhrn-Nrj60uK_39Bb5eQi3Z8z_XwHZu2_ui-XJlRS2A,24
+blender_id_oauth_client-0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
