@@ -1,0 +1,574 @@
+#!/usr/bin/env python
+###############################################################################
+# Intelligence Web Services (IWS)
+# Endpoint Agent
+###############################################################################
+
+import argparse
+import json
+import re
+import os
+import stat
+import sys
+import ctypes
+import platform
+import site
+
+from shutil import copyfile, rmtree
+from subprocess import call
+
+
+CONFIG_FILE = '/etc/evolve-agent/config.json'
+PID_FILE = '/var/run/evolve-agent.pid'
+
+
+def check_python27():
+    """
+    Check that we are running under Python 2.7
+    """
+    if sys.version_info < (2, 7, 0) or sys.version_info > (3, 0, 0):
+        print >> sys.stderr, "IWS Agent requires Python 2.7, exiting."
+        exit(1)
+
+
+def check_config():
+    """
+    Check the IWS configuration is present and valid.
+
+    We check that a configuratin file is present for the agent and
+    that it contians the minimum requried attributes.
+
+    If not then we return false, allowing a "registration required"
+    message to be presented to the user.
+    """
+    if os.path.isfile(CONFIG_FILE):
+        try:
+            with open(CONFIG_FILE, 'r') as f:
+                try:
+                    cfg = json.loads(f.read())
+                    if 'Agent' in cfg:
+                        return True
+                    else:
+                        return False
+                except ValueError:
+                    return False
+        except IOError:
+            return False
+    else:
+        return False
+
+
+def configure(args):
+    """
+    Configure evolve-agent
+    """
+    config = {"Agent": {}}
+
+    if not is_admin():
+        print >> sys.stderr, "Configuration needs admin rights."
+        exit(1)
+
+    if check_config():
+        with open(CONFIG_FILE) as f:
+            config = json.loads(f.read())
+
+    if args.interactive:
+        region = configure_region()
+        polling_unit = configure_polling_unit()
+        polling_frequency = configure_polling_frequency()
+        agent_id = configure_agent_id()
+        agent_key = configure_agent_key()
+        proxy_server, proxy_username, proxy_password = configure_proxy()
+    elif args.agent_id and args.agent_key:
+        region = args.region
+        polling_frequency = args.polling_frequency
+        polling_unit = args.polling_unit
+        agent_id = args.agent_id
+        agent_key = args.agent_key
+        proxy_server = args.proxy_server
+        proxy_username = args.proxy_username
+        proxy_password = args.proxy_password
+    else:
+        print >> sys.stderr, "error: configure interactively (--interactive)" \
+                             " or pass arguments with (--agent-id AGENT_ID "  \
+                             "--agent-key AGENT_KEY) to configure the agent"
+        exit(1)
+
+    config["Agent"]["Id"] = agent_id
+    config["Agent"]["Key"] = agent_key
+    config["Agent"]["PollingFrequency"] = polling_frequency
+    config["Agent"]["TimeUnit"] = polling_unit
+    config["Proxy"] = proxy_server
+    config["ProxyUser"] = proxy_username
+    config["ProxyPass"] = proxy_password
+    config["region"] = region
+
+    config_dir = os.path.abspath(os.path.dirname(CONFIG_FILE))
+    if not os.path.isdir(config_dir):
+        os.mkdir(config_dir)
+
+    with open(CONFIG_FILE, 'w') as outfile:
+        json.dump(config, outfile, sort_keys=True, indent=4)
+
+
+def configure_region():
+    """
+    Configure Region interactively
+    """
+    polling_unit = raw_input('Enter Agent Region (US, AU, UK): ')
+
+    while polling_unit not in ('US', 'AU', 'UK'):
+        print('Invalid Region!')
+        polling_unit = raw_input('Please, enter a valid Region '
+                                 '(US, AU, UK): ')
+
+    return polling_unit
+
+def configure_polling_unit():
+    """
+    Configure Polling Unit interactively
+    """
+    polling_unit = raw_input('Enter Agent Polling Unit (minutes, hours, days,'
+                             ' weeks): ')
+
+    while polling_unit not in ('minutes', 'hours', 'days', 'weeks'):
+        print('Invalid Pooling Unit!')
+        polling_unit = raw_input('Please, enter a valid Polling Unit '
+                                 '(minutes, hours, days, weeks): ')
+
+    return polling_unit
+
+
+def configure_polling_frequency():
+    """
+    Configure Polling Frequency interactively
+    """
+    polling_frequency = raw_input('Enter Agent Polling Frequency: ')
+
+    while not (polling_frequency and re.match(r'^\d+$', polling_frequency)):
+        print('Invalid Pooling Frequency!')
+        polling_frequency = raw_input('Please, enter a valid Polling Frequency'
+                                      ' (int value): ')
+
+    return polling_frequency
+
+
+def configure_agent_id():
+    """
+    Configure Agent ID interactively
+    """
+    id_regex = r'^a-[0-9a-f]{17}$'
+    agent_id = raw_input('Enter Agent ID: ')
+
+    while not (agent_id and re.match(id_regex, agent_id)):
+        print('Invalid Agent ID!')
+        agent_id = raw_input('Please, enter a valid Agent ID: ')
+
+    return agent_id
+
+
+def configure_agent_key():
+    """
+    Configure Agent Key interactively
+    """
+    key_regex = r'^[0-9a-f]{17}$'
+    agent_key = raw_input('Enter Agent Key: ')
+
+    while not (agent_key and re.match(key_regex, agent_key)):
+        print('Invalid Agent Key!')
+        agent_key = raw_input('Please, enter a valid Agent Key: ')
+
+    return agent_key
+
+
+def configure_proxy():
+    """
+    Configure Proxy interactively
+    """
+    proxy_regex = r'^[a-zA-Z0-9\-_\.]+:\d+$'
+    proxy_server = raw_input('Enter Proxy Server: ')
+
+    while proxy_server and not re.match(proxy_regex, proxy_server):
+        print('Invalid Proxy!')
+        proxy_server = raw_input('Please, enter a valid Proxy Server '
+                                 '(host:port): ')
+
+    if not proxy_server:
+        return None, None, None
+
+    proxy_username = raw_input('Proxy Username: ')
+
+    if not proxy_username:
+        return proxy_server, None, None
+
+    proxy_password = raw_input('Proxy Password: ')
+
+    return proxy_server, proxy_username, proxy_password
+
+
+def site_package():
+    """
+    Return site package
+    """
+    site_packages = site.getsitepackages() + [site.getusersitepackages()]
+
+    for site_package in site_packages:
+        if os.path.isdir(os.path.join(site_package, 'etc/evolve-agent')):
+            return site_package
+
+    return None
+
+
+def install():
+    """
+    Install Evolve Agent service.
+    """
+    system = platform.system()
+    site_path = site_package()
+
+    if system not in ('Linux'):
+        print >> sys.stderr, "Unsupported '{}' OS detected.".format(distro)
+        exit(1)
+
+    if not is_admin():
+        print >> sys.stderr, "Installation needs admin rights."
+        exit(1)
+
+    if not site_path:
+        print >> sys.stderr, "Installation files not found."
+        exit(1)
+
+    try:
+        if not os.path.isfile('/usr/bin/evolve-agent'):
+            os.symlink('/usr/local/bin/evolve-agent',
+                       '/usr/bin/evolve-agent')
+    except OSError:
+        print('Symlink already created for evolve-agent.')
+
+    if os.path.isfile('/lib/systemd/systemd') and \
+            os.path.isdir('/etc/systemd/system'):
+        install_systemd_service(site_path)
+    elif os.path.isfile('/sbin/initctl') and \
+            os.path.isdir('/etc/init'):
+        install_upstart_service(site_path)
+    elif os.path.isfile('/sbin/init') and \
+            os.path.isdir('/etc/init.d'):
+        install_systemv_service(site_path)
+    else:
+        print >> sys.stderr, 'Unsupported OS detected: System initialization' \
+                             ' is not supported.'
+        exit(1)
+
+
+def install_systemd_service(site_path):
+    """
+    Install evolve-agent service on systemd.
+    """
+    print('Installing systemd service...')
+    svc_file = 'evolve-agent.service'
+    src_path = os.path.join(site_path, 'etc/evolve-agent/systemd')
+    dst_path = '/etc/systemd/system'
+    src = os.path.join(src_path, svc_file)
+    dst = os.path.join(dst_path, svc_file)
+
+    copyfile(src, dst)
+    st = os.stat(dst)
+    os.chmod(dst, st.st_mode | stat.S_IEXEC)
+
+    ret = call(["systemctl", "enable", "evolve-agent"])
+    if ret != 0:
+        print >> sys.stderr, "Error to enabling the service."
+        exit(1)
+
+    ret = call(["systemctl", "daemon-reload"])
+    if ret != 0:
+        print >> sys.stderr, "Error to reload systemd daemon."
+        exit(1)
+
+    print('Service installed.\n')
+    print('Usage:')
+    print('\tsudo systemctl start|stop|restart|status evolve-agent\n')
+
+
+def install_upstart_service(site_path):
+    """
+    Install evolve-agent service on upstart.
+    """
+    print('Installing upstart service...')
+    svc_file = 'evolve-agent.conf'
+    src_path = os.path.join(site_path, 'etc/evolve-agent/upstart')
+    dst_path = '/etc/init'
+    src = os.path.join(src_path, svc_file)
+    dst = os.path.join(dst_path, svc_file)
+
+    copyfile(src, dst)
+    st = os.stat(dst)
+    os.chmod(dst, st.st_mode | stat.S_IEXEC)
+
+    print('Service installed.\n')
+    print('Usage:')
+    print('\tsudo start|stop|restart|status evolve-agent\n')
+
+
+def install_systemv_service(site_path):
+    """
+    Install evolve-agent service on systemv.
+    """
+    print('Installing systemv service...')
+    svc_file = 'evolve-agent'
+    src_path = os.path.join(site_path, 'etc/evolve-agent/sysvinit')
+    dst_path = '/etc/init.d'
+    src = os.path.join(src_path, svc_file)
+    dst = os.path.join(dst_path, svc_file)
+
+    copyfile(src, dst)
+    st = os.stat(dst)
+    os.chmod(dst, st.st_mode | stat.S_IEXEC)
+
+    for i in (2, 3, 4, 5):
+        try:
+            os.symlink(dst, '/etc/rc{}.d/S80{}'.format(i, svc_file))
+        except OSError:
+            continue
+
+    for i in (0, 1, 6):
+        try:
+            os.symlink(dst, '/etc/rc{}.d/K02{}'.format(i, svc_file))
+        except OSError:
+            continue
+
+    print('Service installed.\n')
+    print('Usage:')
+    print('\tsudo /etc/init.d/evolve-agent start|stop|restart|status\n')
+
+
+def uninstall():
+    """
+    Uninstall Evolve Agent service.
+    """
+    distro = platform.dist()[0]
+
+    if distro not in ('Ubuntu', 'debian', 'Kali'):
+        print >> sys.stderr, "Unsupported '{}' OS detected.".format(distro)
+        exit(1)
+
+    if not is_admin():
+        print >> sys.stderr, "Uninstaller needs admin rights."
+        exit(1)
+
+    if not os.path.islink('/usr/bin/evolve-agent'):
+        os.remove('/usr/bin/evolve-agent')
+
+    if os.path.isfile('/lib/systemd/systemd') and \
+            os.path.isdir('/etc/systemd/system'):
+        uninstall_systemd_service()
+    elif os.path.isfile('/sbin/initctl') and \
+            os.path.isdir('/etc/init'):
+        uninstall_upstart_service()
+    elif os.path.isfile('/sbin/init') and \
+            os.path.isdir('/etc/init.d'):
+        uninstall_systemv_service()
+    else:
+        print >> sys.stderr, 'Unsupported OS detected: System initialization' \
+                             ' is not supported.'
+        exit(1)
+
+    uninstall_agent_config()
+
+
+def uninstall_systemd_service():
+    """
+    Uninstall evolve-agent service on systemd.
+    """
+    print('Uninstalling systemd service...')
+    svc = '/etc/systemd/system/evolve-agent.service'
+
+    if os.path.exists(svc):
+        call(["systemctl", "stop", "evolve-agent"])
+        call(["systemctl", "disable", "evolve-agent"])
+        call(["systemctl", "daemon-reload"])
+        os.remove(svc)
+
+    print('Service removed.')
+
+
+def uninstall_upstart_service():
+    """
+    Uninstall evolve-agent service on upstart.
+    """
+    print('Uninstalling upstart service...')
+    svc = '/etc/init/evolve-agent.conf'
+
+    if os.path.exists(svc):
+        call(["stop", "evolve-agent"])
+        os.remove(svc)
+
+    print('Service removed.')
+
+
+def uninstall_systemv_service():
+    """
+    Uninstall evolve-agent service on systemv.
+    """
+    print('Uninstalling systemv service...')
+    svc_file = 'evolve-agent'
+    svc = '/etc/init.d/{}'.format(svc_file)
+
+    if os.path.exists(svc):
+        call(["/etc/init.d/evolve-agent", "stop"])
+        os.remove(svc)
+
+    for i in (2, 3, 4, 5):
+        try:
+            os.remove('/etc/rc{}.d/S80{}'.format(i, svc_file))
+        except OSError:
+            continue
+
+    for i in (0, 1, 6):
+        try:
+            os.remove('/etc/rc{}.d/K02{}'.format(i, svc_file))
+        except OSError:
+            continue
+
+    print('Service removed.')
+
+
+def uninstall_agent_config():
+    """
+    Deletes the evolve-agent configuration file and directory.
+    """
+    if os.path.isfile(CONFIG_FILE):
+        question = 'Do you want remove the config file ' \
+                '{}? (Y/n): '.format(CONFIG_FILE)
+        response = raw_input(question)
+
+        while response.lower() not in ('', 'y', 'n'):
+            print('Invalid response!')
+            response = raw_input(question)
+
+        if response.lower() in ('', 'y'):
+            os.remove(CONFIG_FILE)
+
+
+def is_admin():
+    """
+    Check admin rights.
+
+    Check admin rights for POSIX (Linux, OSX, etc) and Windows NT.
+    """
+    is_admin = None
+
+    try:
+        is_admin = os.getuid() == 0
+    except AttributeError:
+        is_admin = ctypes.windll.shell32.IsUserAnAdmin() != 0
+
+    return is_admin
+
+
+def daemon(args):
+    """
+    Start the IWS Agent Service.
+
+    We currently support POSIX (Linux, OSX, etc) and Windows NT.
+    """
+
+    # posix OS so we start a daemon
+    if os.name == 'posix':
+        # TODO: check for admin rights before service started
+        from evolveagent.iws.agent.service import PosixService
+        service = PosixService(pidfile=args.pidfile)
+        service.start()
+
+    # windows NT OS so we start a service
+    elif os.name == 'nt':
+        # TODO: check for admin rights before service started
+        from evolveagent.iws.agent.service import WindowsService
+        service = WindowsService()
+
+    # other unsupported OS so we exit
+    else:
+        print >> sys.stderr, "Unsupported OS detected, IWS Agent requires POSIX or Windows NT, exiting."
+        exit(1)
+
+
+if __name__ == '__main__':
+    """
+    Entry Point
+    """
+    check_python27()  # check we are running under python 2.7
+
+    parser = argparse.ArgumentParser(description='Intelligence Web Services Endpoint Agent')
+    parser.add_argument(
+        '-d', '--daemon',
+        action='store_true',
+        help='Start Evolve Agent as Daemon')
+    parser.add_argument(
+        '-p', '--pidfile',
+        default=PID_FILE,
+        help='Path of pidfile for Evolve Agent Daemon (require -d/--daemon)')
+    parser.add_argument(
+        '--install',
+        help='Install Evolve Agent service',
+        action='store_true'
+    )
+    parser.add_argument(
+        '--uninstall',
+        help='Install Evolve Agent service',
+        action='store_true'
+    )
+    parser.add_argument(
+        '--configure',
+        help='Configure Evolve Agent',
+        action='store_true')
+    parser.add_argument(
+        '--interactive',
+        help='Configure Evolve Agent interactively (require --configure)',
+        action='store_true')
+    parser.add_argument(
+        '--region',
+        help='Region (require --configure)',
+        choices=['US', 'AU', 'UK'])
+    parser.add_argument(
+        '--agent-id',
+        help='Agent ID (require --configure)')
+    parser.add_argument(
+        '--agent-key',
+        help='Agent Key (require --configure)')
+    parser.add_argument(
+        '--polling-frequency',
+        help='Configure polling frequency [Default: 5] (require --configure)',
+        type=int,
+        default=5,
+        action='store')
+    parser.add_argument(
+        '--polling-unit',
+        help='Polling unit [Default: minutes] (require --configure)',
+        choices=['minutes', 'hours', 'days', 'weeks'],
+        default='minutes')
+    parser.add_argument(
+        '--proxy-server',
+        help='Proxy server (require --configure)')
+    parser.add_argument(
+        '--proxy-username',
+        help='Proxy username (require --configure)')
+    parser.add_argument(
+        '--proxy-password',
+        help='Proxy password (require --configure)')
+    args = parser.parse_args()
+
+    if args.configure:
+        configure(args)
+    elif args.install:
+        install()
+    elif args.uninstall:
+        uninstall()
+    elif args.daemon and os.path.isfile(CONFIG_FILE):
+        daemon(args)
+    elif os.path.isfile(CONFIG_FILE):
+        from evolveagent.iws.agent import IWSAgent
+        agent = IWSAgent()
+        agent.start()
+    else:
+        print >> sys.stderr, "error: configuration file not found in %s" % CONFIG_FILE
+        exit(1)
