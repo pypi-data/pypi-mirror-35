@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+torndb_for_python3.egg-info/PKG-INFO
+torndb_for_python3.egg-info/SOURCES.txt
+torndb_for_python3.egg-info/dependency_links.txt
+torndb_for_python3.egg-info/requires.txt
+torndb_for_python3.egg-info/top_level.txt
