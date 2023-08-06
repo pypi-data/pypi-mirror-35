@@ -1,0 +1,14 @@
+README.rst
+setup.py
+qycli/__init__.py
+qycli/command.py
+qycli/globals.py
+qycli/httpcli.py
+qycli/main.py
+qycli/parser.py
+qycli.egg-info/PKG-INFO
+qycli.egg-info/SOURCES.txt
+qycli.egg-info/dependency_links.txt
+qycli.egg-info/entry_points.txt
+qycli.egg-info/requires.txt
+qycli.egg-info/top_level.txt

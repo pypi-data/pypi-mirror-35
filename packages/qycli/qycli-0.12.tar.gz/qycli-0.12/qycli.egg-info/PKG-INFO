@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: qycli
+Version: 0.12
+Summary: qycli command line
+Home-page: http://blog.csdn.net/naralv/
+Author: lijun
+Author-email: naralv@126.com
+License: MIT
+Description: qycli command line
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
