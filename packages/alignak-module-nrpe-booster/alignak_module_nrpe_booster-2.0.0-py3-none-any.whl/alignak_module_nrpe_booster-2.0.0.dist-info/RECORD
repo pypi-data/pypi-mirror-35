@@ -1,0 +1,16 @@
+alignak_module_nrpe_booster/__init__.py,sha256=WHWaU7BEDFHdKniUZTZc2hyqptJOkJ6__0CH-A1-PIM,999
+alignak_module_nrpe_booster/nrpe_booster.py,sha256=jYJfMOwJW55vfZA-O6xQBoqhOTUp5aKQ8ZMpLPSHG1Q,26381
+alignak_module_nrpe_booster/etc/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+alignak_module_nrpe_booster/etc/alignak.d/alignak-module-nrpe-booster.ini,sha256=vYMrD_aF4WuOt13GbQkNRtQl3aKzFlyy6EBJKYbH1tA,311
+alignak_module_nrpe_booster/etc/arbiter/modules/mod-nrpe-booster.cfg,sha256=IsWLG8ed6mUpUHjbkBCdiWQ2SAfQm_chTNA4o6Hpdh8,255
+alignak_module_nrpe_booster-2.0.0.data/data/share/alignak/etc/alignak.d/alignak-module-nrpe-booster.ini,sha256=vYMrD_aF4WuOt13GbQkNRtQl3aKzFlyy6EBJKYbH1tA,311
+alignak_module_nrpe_booster-2.0.0.data/data/share/alignak/etc/arbiter/modules/mod-nrpe-booster.cfg,sha256=IsWLG8ed6mUpUHjbkBCdiWQ2SAfQm_chTNA4o6Hpdh8,255
+alignak_module_nrpe_booster-2.0.0.dist-info/METADATA,sha256=Ycp6LzNcO9KZersiCMm1yWS0GO20mGaWcLOG9fWRsqU,4672
+alignak_module_nrpe_booster-2.0.0.dist-info/RECORD,,
+alignak_module_nrpe_booster-2.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+alignak_module_nrpe_booster-2.0.0.dist-info/top_level.txt,sha256=0J3Ysu3uF2lMR0Uz9FWa4oKi0jQvDeMMMD-Gp__p2BY,33
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/alignak_test.py,sha256=YUMmCwkmzcwR1M9_-ZSYqwDK96kc36HokilcvxGb3d8,77934
+test/test_errors.py,sha256=xYnH29B791YwRk6ce-ZFhJhOaKg4I7r3nLAhtn2iAP8,13201
+test/test_module.py,sha256=OraTFs5AJVMDQR1jadsy6OfxPZD27g1hKum8Ud42Y0A,7049
+test/test_simple.py,sha256=lz9ocqI7pPThA3y0bSga7GCbGwqjly5UtxLQiflqR0o,3788
