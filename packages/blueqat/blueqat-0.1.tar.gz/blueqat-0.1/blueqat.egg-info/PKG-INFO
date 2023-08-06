@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: blueqat
+Version: 0.1
+Summary: Quantum gate simulator
+Home-page: https://github.com/mdrft/blueqat
+Author: MDR Inc.
+Author-email: kato@mdrft.com
+License: Apache 2
+Description: # A quantum gate simulator.
+        
+        ## Install
+        ```bash
+        git clone https://github.com/mdrft/blueqat
+        cd blueqat
+        pip3 install -e .
+        ```
+        
+        ## Example: 2-qubit Grover
+        
+        ```python
+        from blueqat import Circuit
+        c = Circuit().h[:2].cz[0,1].h[:].x[:].cz[0,1].x[:].h[:].m[:]
+        c.run()
+        print(c.last_result()) # => (1, 1)
+        ```
+        
+        ## Example: Maxcut QAOA
+        
+        ```bash
+        python examples/examples_maxcut_qaoa.py
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
