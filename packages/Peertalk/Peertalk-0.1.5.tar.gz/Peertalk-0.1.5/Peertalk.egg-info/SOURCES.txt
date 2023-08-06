@@ -1,0 +1,9 @@
+README.md
+setup.py
+Peertalk.egg-info/PKG-INFO
+Peertalk.egg-info/SOURCES.txt
+Peertalk.egg-info/dependency_links.txt
+Peertalk.egg-info/requires.txt
+Peertalk.egg-info/top_level.txt
+peertalk/__init__.py
+peertalk/__main__.py
