@@ -1,0 +1,326 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Aglyph 3.0.0 testing summary &#8212; Aglyph 3.0.0.post1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Aglyph 2.1.1 testing summary" href="testing-2_1_1.html" />
+    <link rel="prev" title="Aglyph 3.0.0.post1 testing summary" href="testing.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="aglyph-3-0-0-testing-summary">
+<h1>Aglyph 3.0.0 testing summary<a class="headerlink" href="#aglyph-3-0-0-testing-summary" title="Permalink to this headline">¶</a></h1>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<div class="versionchanged">
+<p><span class="versionmodified">Changed in version 3.0.0.post1.</span></p>
+</div>
+<p class="last">The testing results below are <strong>superceded by</strong> <a class="reference internal" href="testing.html"><span class="doc">Aglyph 3.0.0.post1 testing summary</span></a>.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<div class="versionchanged">
+<p><span class="versionmodified">Changed in version 3.0.0.</span></p>
+</div>
+<p class="last">The <a class="reference external" href="https://www.python.org/dev/peps/pep-0398/#lifespan">Python 3.3 lifespan</a> has ended; the Aglyph test suite is no longer
+executed under this version.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Prior to each Aglyph release being committed, tagged, and packaged, its test
+suite is executed on several Python implementations, versions, and
+platforms.</p>
+<p class="last">When a Python <em>version</em> reaches end-of-life, the Aglyph test suite is no
+longer “officially” executed against that version. This does not necessarily
+imply that Aglyph unit tests <em>fail</em> under that Python version; it simply
+means that I no longer publish or withhold a release based on the test suite
+results from that particular Python version.</p>
+</div>
+<div class="section" id="id1">
+<h2><a class="reference external" href="https://www.python.org/">CPython</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="7%" />
+<col width="93%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Version</th>
+<th class="head">Platform</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>3.7.0b2</td>
+<td>[GCC 7.3.1 20180130 (Red Hat 7.3.1-2)] on Linux-4.15.8-300.fc27.x86_64-x86_64-with-fedora-27-Twenty_Seven</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>[Clang 6.0 (clang-600.0.57)] on Darwin-17.4.0-x86_64-i386-64bit (Mac OS 10.13.3)</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>[MSC v.1912 64 bit (AMD64)] on Windows-10-10.0.16299-SP0</td>
+</tr>
+<tr class="row-odd"><td>3.6.4</td>
+<td>[GCC 7.3.1 20180130 (Red Hat 7.3.1-2)] on Linux-4.15.8-300.fc27.x86_64-x86_64-with-fedora-27-Twenty_Seven</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.38)] on Darwin-17.4.0-x86_64-i386-64bit (Mac OS X 10.13.3)</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>[MSC v.1900 64 bit (AMD64)] on Windows-10-10.0.16299-SP0</td>
+</tr>
+<tr class="row-even"><td>3.5.5</td>
+<td>[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on Darwin-17.4.0-x86_64-i386-64bit (Mac OS X 10.13.3)</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>[MSC v.1900 64 bit (AMD64)] on Windows-10-10.0.16299-SP0</td>
+</tr>
+<tr class="row-even"><td>3.5.4</td>
+<td>[GCC 7.2.1 20170915 (Red Hat 7.2.1-2)] on Linux-4.15.8-300.fc27.x86_64-x86_64-with-fedora-27-Twenty_Seven</td>
+</tr>
+<tr class="row-odd"><td>3.4.8</td>
+<td>[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on Darwin-17.4.0-x86_64-i386-64bit (Mac OS X 10.13.3)</td>
+</tr>
+<tr class="row-even"><td>3.4.7</td>
+<td>[GCC 7.2.1 20170915 (Red Hat 7.2.1-2)] on Linux-4.15.8-300.fc27.x86_64-x86_64-with-fedora-27-Twenty_Seven</td>
+</tr>
+<tr class="row-odd"><td>3.4.4</td>
+<td>[MSC v.1600 64 bit (AMD64)] on Windows-10-10.0.16299</td>
+</tr>
+<tr class="row-even"><td>2.7.14</td>
+<td>[GCC 7.3.1 20180130 (Red Hat 7.3.1-2)] on Linux-4.15.8-300.fc27.x86_64-x86_64-with-fedora-27-Twenty_Seven</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>[MSC v.1500 64 bit (AMD64)] on Windows-10-10.0.16299</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.37)] on Darwin-17.4.0-x86_64-i386-64bit (Mac OS X 10.13.3)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id2">
+<h2><a class="reference external" href="http://pypy.org/">PyPy</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="6%" />
+<col width="94%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Version</th>
+<th class="head">Platform</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>3.5.3</td>
+<td>[PyPy 5.10.1 with GCC 7.2.0] on Linux-4.15.8-300.fc27.x86_64-x86_64-with-fedora-27-Twenty_Seven</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>[PyPy 5.10.1 with MSC v.1500 32 bit] on Windows-8-6.2.9200-SP0</td>
+</tr>
+<tr class="row-even"><td>2.7.13</td>
+<td>[PyPy 5.10.0 with GCC 7.2.0] on Linux-4.15.8-300.fc27.x86_64-x86_64-with-fedora-27-Twenty_Seven</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>[PyPy 5.10.0 with GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on Darwin-17.4.0-x86_64-i386-64bit (Mac OS X 10.13.3)</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>[PyPy 5.9.0 with MSC v.1500 32 bit] on Windows-10-10.0.16299</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id3">
+<h2><a class="reference external" href="https://github.com/stackless-dev/stackless/wiki">Stackless Python</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="6%" />
+<col width="94%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Version</th>
+<th class="head">Platform</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>3.6.4</td>
+<td>Stackless 3.1b3 [GCC 6.4.1 20170727 (Red Hat 6.4.1-1)] on Linux-4.15.8-300.fc27.x86_64-x86_64-with-fedora-27-Twenty_Seven</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>Stackless 3.1b3 [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on Darwin-17.4.0-x86_64-i386-64bit (Mac OS X 10.13.3)</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>Stackless 3.1b3 [MSC v.1900 64 bit (AMD64)] on Windows-10-10.0.16299-SP0</td>
+</tr>
+<tr class="row-odd"><td>3.5.4</td>
+<td>Stackless 3.1b3 [MSC v.1900 64 bit (AMD64)] on Windows-10-10.0.16299-SP0</td>
+</tr>
+<tr class="row-even"><td>2.7.14</td>
+<td>Stackless 3.1b3 [GCC 6.4.1 20170727 (Red Hat 6.4.1-1)] on Linux-4.15.8-300.fc27.x86_64-x86_64-with-fedora-27-Twenty_Seven</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>Stackless 3.1b3 [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on Darwin-17.4.0-x86_64-i386-64bit (Mac OS X 10.13.3)</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>Stackless 3.1b3 [MSC v.1500 64 bit (AMD64)] on Windows-10-10.0.16299</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id4">
+<h2><a class="reference external" href="http://www.jython.org/">Jython</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="5%" />
+<col width="95%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Version</th>
+<th class="head">Platform</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>2.7.1</td>
+<td>[OpenJDK 64-Bit Server VM (Oracle Corporation)] on Java-9.0.4-OpenJDK_64-Bit_Server_VM,_9.0.4+11,_Oracle_Corporation-on-Linux-4.15.8-300.fc27.x86_64-amd64</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>[Java HotSpot(TM) 64-Bit Server VM (Oracle Corporation)] on java9.0.4 ( ==darwin for targets ) (Mac OS X 10.13.3)</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>[Java HotSpot(TM) 64-Bit Server VM (Oracle Corporation)] on java1.8.0_162 ( ==darwin for targets ) (Mac OS X 10.13.3)</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>[Java HotSpot(TM) 64-Bit Server VM (Oracle Corporation)] on Java-9.0.4-Java_HotSpot-TM-_64-Bit_Server_VM,_9.0.4+11,_Oracle_Corporation-on-Windows_10-10.0-amd64</td>
+</tr>
+<tr class="row-even"><td>2.7.0</td>
+<td>[OpenJDK 64-Bit Server VM (Oracle Corporation)] on Java-1.8.0_161-OpenJDK_64-Bit_Server_VM,_25.161-b14,_Oracle_Corporation-on-Linux-4.15.8-300.fc27.x86_64-amd64</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id5">
+<h2><a class="reference external" href="http://ironpython.net/">IronPython</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="6%" />
+<col width="94%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Version</th>
+<th class="head">Platform</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>2.7.7</td>
+<td>cli-10-AMD64-Intel64_Family_6_Model_94_Stepping_3,_GenuineIntel-64bit [.NET 4.0.30319.42000 (64-bit)] on Windows 10 Home v1709 build 16299.251</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>cli-10-AMD64-Intel64_Family_6_Model_94_Stepping_3,_GenuineIntel-32bit [.NET 4.0.30319.42000 (32-bit)] on Windows 10 Home v1709 build 16299.251</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Aglyph</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="whats-new.html">What’s new in release 3.0.0.post1?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get-started.html">Getting started with Aglyph</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cookbook.html">Aglyph cookbook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-ref.html">Aglyph API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="context-fluent-api.html">The Aglyph Context fluent API</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="testing.html">Aglyph 3.0.0.post1 testing summary</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="testing.html#id1">CPython</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#id2">PyPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#id3">Stackless Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#id4">Jython</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#id5">IronPython</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="testing.html#previous-releases-of-aglyph">Previous releases of Aglyph</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="roadmap.html">Roadmap for future releases</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="testing.html">Aglyph 3.0.0.post1 testing summary</a><ul>
+      <li>Previous: <a href="testing.html" title="previous chapter">Aglyph 3.0.0.post1 testing summary</a></li>
+      <li>Next: <a href="testing-2_1_1.html" title="next chapter">Aglyph 2.1.1 testing summary</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2006, 2011, 2013-2018 Matthew Zipay.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="_sources/testing-3_0_0.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

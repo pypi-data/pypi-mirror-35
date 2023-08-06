@@ -1,0 +1,221 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Aglyph — Dependency Injection for Python &#8212; Aglyph 3.0.0.post1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="What’s new in release 3.0.0.post1?" href="whats-new.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="aglyph-dependency-injection-for-python">
+<h1>Aglyph — Dependency Injection for Python<a class="headerlink" href="#aglyph-dependency-injection-for-python" title="Permalink to this headline">¶</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Release:</th><td class="field-body">3.0.0.post1</td>
+</tr>
+</tbody>
+</table>
+<a class="reference external image-reference" href="https://pypi.python.org/pypi/Aglyph"><img alt="Aglyph PyPI version" src="https://img.shields.io/pypi/v/Aglyph.svg" /></a>
+<a class="reference external image-reference" href="https://www.python.org/downloads/"><img alt="Aglyph supported Python version" src="https://img.shields.io/pypi/pyversions/Aglyph.svg" /></a>
+<a class="reference external image-reference" href="http://docs.python-guide.org/en/latest/starting/which-python/#implementations"><img alt="Aglyph supported Python implementation" src="https://img.shields.io/pypi/implementation/Aglyph.svg" /></a>
+<a class="reference external image-reference" href="https://github.com/mzipay/Aglyph/blob/master/LICENSE.txt"><img alt="Aglyph License" src="https://img.shields.io/pypi/l/Aglyph.svg" /></a>
+<a class="reference external image-reference" href="https://pypi.python.org/pypi/Aglyph"><img alt="Aglyph Wheel availability" src="https://img.shields.io/pypi/wheel/Aglyph.svg" /></a>
+<p>Aglyph is a Dependency Injection framework for Python, supporting type 2
+(setter) and type 3 (constructor) injection.</p>
+<p>Aglyph runs on <a class="reference external" href="https://www.python.org/">CPython</a> 2.7 and 3.4+, and on recent versions of the <a class="reference external" href="http://pypy.org/">PyPy</a>,
+<a class="reference external" href="http://www.jython.org/">Jython</a>, <a class="reference external" href="http://ironpython.net/">IronPython</a>, and <a class="reference external" href="https://github.com/stackless-dev/stackless/wiki">Stackless Python</a> variants. See <a class="reference internal" href="testing.html"><span class="doc">Aglyph 3.0.0.post1 testing summary</span></a>
+for a complete list of the Python versions and variants on which Aglyph has
+been tested.</p>
+<p>Aglyph can assemble <em>prototype</em> components (a new instance is created every
+time), <em>singleton</em> components (the same instance is returned every time),
+<em>borg</em> components (a new instance is created every time, but all instances of
+the same class share the same internal state), and <em>weakref</em> components (the
+same instance is returned as long as there is at least one “live” reference to
+that instance in the application).</p>
+<p>Aglyph can be configured using a declarative XML syntax, or programmatically in
+pure Python.</p>
+<div class="section" id="table-of-contents">
+<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="whats-new.html">What’s new in release 3.0.0.post1?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="whats-new.html#previous-releases-of-aglyph">Previous releases of Aglyph</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="get-started.html">Getting started with Aglyph</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="get-started.html#download-and-install-aglyph">1. Download and install Aglyph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get-started.html#download-extract-and-run-the-movielisterapp-application">2. Download, extract, and run the <em>movielisterapp</em> application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get-started.html#a-very-brief-introduction-to-dependency-injection">3. A <em>(very)</em> brief introduction to Dependency Injection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get-started.html#make-some-general-improvements-to-the-movielisterapp-application">4. Make some general improvements to the <em>movielisterapp</em> application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get-started.html#add-dependency-injection-support-to-the-movielisterapp-application">5. Add Dependency Injection support to the <em>movielisterapp</em> application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get-started.html#make-changes-to-the-movielisterapp-application">6. Make changes to the <em>movielisterapp</em> application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get-started.html#suggested-next-steps">Suggested next steps</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cookbook.html">Aglyph cookbook</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cookbook-understanding.html">Understand the general features of Aglyph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cookbook-configuration.html">Choose a configuration approach for Aglyph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cookbook-common.html">Common usage scenarios</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cookbook-templating.html">Component inheritance using templates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cookbook-notable.html">Other notable usage scenarios</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cookbook-integration.html">Integrating Aglyph</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api-ref.html">Aglyph API reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="aglyph.html"><code class="docutils literal notranslate"><span class="pre">aglyph</span></code> — Dependency Injection for Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aglyph.assembler.html"><code class="docutils literal notranslate"><span class="pre">aglyph.assembler</span></code> — The Aglyph component assembler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aglyph.component.html"><code class="docutils literal notranslate"><span class="pre">aglyph.component</span></code> — Defining components and their dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aglyph.context.html"><code class="docutils literal notranslate"><span class="pre">aglyph.context</span></code> — Defining component contexts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aglyph.integration.cherrypy.html"><code class="docutils literal notranslate"><span class="pre">aglyph.integration.cherrypy</span></code> — Integrating Aglyph with CherryPy</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="context-fluent-api.html">The Aglyph Context fluent API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="context-fluent-api.html#introduction-to-the-context-fluent-api">Introduction to the Context fluent API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="context-fluent-api.html#using-component-references-with-the-context-fluent-api">Using component references with the Context fluent API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="context-fluent-api.html#using-the-context-fluent-api-to-define-templates">Using the Context fluent API to define templates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="context-fluent-api.html#letting-aglyph-introspect-dotted-names">Letting Aglyph introspect dotted names</a></li>
+<li class="toctree-l2"><a class="reference internal" href="context-fluent-api.html#overview-of-the-context-fluent-api-methods">Overview of the Context fluent API methods</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Aglyph 3.0.0.post1 testing summary</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#id1">CPython</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#id2">PyPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#id3">Stackless Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#id4">Jython</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#id5">IronPython</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#previous-releases-of-aglyph">Previous releases of Aglyph</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="roadmap.html">Roadmap for future releases</a></li>
+</ul>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt><a class="reference external" href="https://martinfowler.com/articles/injection.html">Inversion of Control Containers and the Dependency Injection pattern</a></dt>
+<dd>The definitive introduction to Dependency Injection</dd>
+<dt><a class="reference external" href="http://www.aleax.it/yt_pydi.pdf">Python Dependency Injection [PDF]</a></dt>
+<dd>Alex Martelli’s introduction to Dependency Injection (and alternatives)
+in Python</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="aglyph-versioning">
+<h2>Aglyph versioning<a class="headerlink" href="#aglyph-versioning" title="Permalink to this headline">¶</a></h2>
+<p>Aglyph follows <span class="target" id="index-0"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0440"><strong>PEP 440</strong></a> for versioning and maintains
+<a class="reference external" href="https://semver.org/">Semantic Versioning (SemVer)</a> compatibility.</p>
+<p>The Aglyph version is always defined as the <code class="docutils literal notranslate"><span class="pre">__version__</span></code> member of the
+<code class="docutils literal notranslate"><span class="pre">aglyph/__init__.py</span></code> module:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">aglyph</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">aglyph</span><span class="o">.</span><span class="n">__version__</span>
+<span class="go">&#39;3.0.0.post1&#39;</span>
+</pre></div>
+</div>
+<p>The <a class="reference download internal" href="_downloads/aglyph-context.dtd" download=""><code class="xref download docutils literal notranslate"><span class="pre">Aglyph</span> <span class="pre">context</span> <span class="pre">DTD</span></code></a>
+includes the Aglyph version in the filename and in a header comment.</p>
+</div>
+<div class="section" id="indices-and-tables">
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">Aglyph</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="whats-new.html">What’s new in release 3.0.0.post1?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get-started.html">Getting started with Aglyph</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cookbook.html">Aglyph cookbook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-ref.html">Aglyph API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="context-fluent-api.html">The Aglyph Context fluent API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Aglyph 3.0.0.post1 testing summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="roadmap.html">Roadmap for future releases</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="whats-new.html" title="next chapter">What’s new in release 3.0.0.post1?</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2006, 2011, 2013-2018 Matthew Zipay.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,156 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>What’s new in release 3.0.0.post1? &#8212; Aglyph 3.0.0.post1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="What’s new in release 3.0.0?" href="whats-new-3_0_0.html" />
+    <link rel="prev" title="Aglyph — Dependency Injection for Python" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="what-s-new-in-release-3-0-0-post1">
+<h1>What’s new in release 3.0.0.post1?<a class="headerlink" href="#what-s-new-in-release-3-0-0-post1" title="Permalink to this headline">¶</a></h1>
+<p>This is just a small “housekeeping” (post-)release.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>There is no immediate reason to upgrade from <strong>3.0.0</strong>, as no core
+functionality has changed.</p>
+<p class="last">The updates to <a class="reference internal" href="testing.html"><span class="doc">Aglyph 3.0.0.post1 testing summary</span></a> are valid for release <strong>3.0.0</strong> as well as
+this post-release.</p>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="https://docs.python.org/3.7/whatsnew/3.7.html">Python 3.7</a> is now officially supported.
+(Cumulatively, Python 2.7, 3.4, 3.5, 3.6 and 3.7 are officially supported.)</li>
+<li><a class="reference internal" href="testing.html"><span class="doc">Aglyph 3.0.0.post1 testing summary</span></a> has been updated with recent Python versions, variants and
+platforms to match the officially supported versions.</li>
+<li>A small change in the <code class="docutils literal notranslate"><span class="pre">aglyph._compat</span></code> module related to <a class="reference external" href="http://ironpython.net/">IronPython</a>
+detection (the purpose of which is to keep detection logic the same
+between Aglyph and <a class="reference external" href="http://ninthtest.info/python-autologging/">Autologging</a>).</li>
+<li>Some documentation-related  updates:<ul>
+<li>upgraded the <a class="reference external" href="http://www.sphinx-doc.org/">Sphinx</a> version (and therefore the documentation
+<em>Makefile</em>) used to generate the HTML docs</li>
+<li>switch to using the (default) <a class="reference external" href="https://alabaster.readthedocs.io/">Alabaster</a> <a class="reference external" href="http://www.sphinx-doc.org/">Sphinx</a> theme</li>
+<li>added a warning in <a class="reference internal" href="context-fluent-api.html"><span class="doc">The Aglyph Context fluent API</span></a> regarding the absence of
+<code class="docutils literal notranslate"><span class="pre">__qualname__</span></code> in Python versions &lt; 3.3</li>
+</ul>
+</li>
+<li><a class="reference external" href="https://pypi.org/">PyPI</a>/<a class="reference external" href="https://setuptools.readthedocs.io/">Setuptools</a> changes:<ul>
+<li>use <a class="reference external" href="https://dustingram.com/articles/2018/03/16/markdown-descriptions-on-pypi">Markdown Descriptions on PyPI</a></li>
+<li>locked the <a class="reference external" href="http://ninthtest.info/python-autologging/">Autologging</a> version to <code class="docutils literal notranslate"><span class="pre">1.2.0</span></code> (see <em>requirements.txt</em>)</li>
+</ul>
+</li>
+<li>One deprecation: the <code class="docutils literal notranslate"><span class="pre">aglyph.version_info</span></code> module attribute (which should
+not have been public in the first place)</li>
+</ul>
+<div class="section" id="previous-releases-of-aglyph">
+<h2>Previous releases of Aglyph<a class="headerlink" href="#previous-releases-of-aglyph" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="whats-new-3_0_0.html">What’s new in release 3.0.0?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="whats-new-2_1_1.html">What’s new in release 2.1.1?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="whats-new-2_1_0.html">What’s new in release 2.1.0?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="whats-new-2_0_0.html">What’s new in release 2.0.0?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="whats-new-1_1_1.html">What’s new in release 1.1.1?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="whats-new-1_1_0.html">What’s new in release 1.1.0?</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Aglyph</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">What’s new in release 3.0.0.post1?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#previous-releases-of-aglyph">Previous releases of Aglyph</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="get-started.html">Getting started with Aglyph</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cookbook.html">Aglyph cookbook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-ref.html">Aglyph API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="context-fluent-api.html">The Aglyph Context fluent API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Aglyph 3.0.0.post1 testing summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="roadmap.html">Roadmap for future releases</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Aglyph — Dependency Injection for Python</a></li>
+      <li>Next: <a href="whats-new-3_0_0.html" title="next chapter">What’s new in release 3.0.0?</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2006, 2011, 2013-2018 Matthew Zipay.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="_sources/whats-new.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

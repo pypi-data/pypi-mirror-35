@@ -1,0 +1,352 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>aglyph &#8212; Aglyph 3.0.0.post1 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for aglyph</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: UTF-8 -*-</span>
+
+<span class="c1"># Copyright (c) 2006, 2011, 2013-2018 Matthew Zipay.</span>
+<span class="c1">#</span>
+<span class="c1"># Permission is hereby granted, free of charge, to any person</span>
+<span class="c1"># obtaining a copy of this software and associated documentation</span>
+<span class="c1"># files (the &quot;Software&quot;), to deal in the Software without</span>
+<span class="c1"># restriction, including without limitation the rights to use,</span>
+<span class="c1"># copy, modify, merge, publish, distribute, sublicense, and/or sell</span>
+<span class="c1"># copies of the Software, and to permit persons to whom the</span>
+<span class="c1"># Software is furnished to do so, subject to the following</span>
+<span class="c1"># conditions:</span>
+<span class="c1">#</span>
+<span class="c1"># The above copyright notice and this permission notice shall be</span>
+<span class="c1"># included in all copies or substantial portions of the Software.</span>
+<span class="c1">#</span>
+<span class="c1"># THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,</span>
+<span class="c1"># EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES</span>
+<span class="c1"># OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND</span>
+<span class="c1"># NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT</span>
+<span class="c1"># HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,</span>
+<span class="c1"># WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING</span>
+<span class="c1"># FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR</span>
+<span class="c1"># OTHER DEALINGS IN THE SOFTWARE.</span>
+
+<span class="sd">&quot;&quot;&quot;This module defines a custom error type and several utility functions</span>
+<span class="sd">used by Aglyph.</span>
+
+<span class="sd">.. note::</span>
+<span class="sd">   Aglyph uses the standard :mod:`logging` module, but by default</span>
+<span class="sd">   registers a :class:`logging.NullHandler` to suppress messages.</span>
+
+<span class="sd">   To enable Aglyph logging, configure a logger and handler for the</span>
+<span class="sd">   *&quot;aglyph&quot;* log channel (see :mod:`logging.config`).</span>
+
+<span class="sd">.. note::</span>
+<span class="sd">   .. versionadded:: 3.0.0</span>
+
+<span class="sd">   Aglyph framework functions and methods are fully traced using</span>
+<span class="sd">   `Autologging &lt;http://ninthtest.info/python-autologging/&gt;`_. However,</span>
+<span class="sd">   all tracing is **deactivated** by default.</span>
+
+<span class="sd">   To activate tracing:</span>
+
+<span class="sd">   1. Configure a logger and handler for the *&quot;aglyph&quot;* log channel and</span>
+<span class="sd">      set the logging level to :attr:`autologging.TRACE`.</span>
+<span class="sd">   2. Run Aglyph with the *AGLYPH_TRACED* environment variable set to a</span>
+<span class="sd">      **non-empty** value.</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">namedtuple</span>
+
+<span class="c1">#: .. deprecated:: 3.0.0.post1</span>
+<span class="c1">#:    Reference :attr:`__version__` **only** as the canonical public</span>
+<span class="c1">#:    version identifier.</span>
+<span class="n">version_info</span> <span class="o">=</span> <span class="n">namedtuple</span><span class="p">(</span>
+    <span class="s2">&quot;version_info&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;major&quot;</span><span class="p">,</span> <span class="s2">&quot;minor&quot;</span><span class="p">,</span> <span class="s2">&quot;patch&quot;</span><span class="p">,</span> <span class="s2">&quot;pre_release&quot;</span><span class="p">,</span> <span class="s2">&quot;metadata&quot;</span><span class="p">])(</span>
+        <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;.post1&quot;</span><span class="p">)</span>
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s2">&quot;Matthew Zipay &lt;mattz@ninthtest.info&gt;&quot;</span>
+<span class="c1"># PEP 440 canonical public version identifier:</span>
+<span class="c1">#         &quot;[N!]N(.N)*[{a|b|rc}N][.postN][.devN]&quot;</span>
+<span class="c1"># (see https://www.python.org/dev/peps/pep-0440/, specifically section #id48,</span>
+<span class="c1"># and https://semver.org/)</span>
+<span class="n">__version__</span> <span class="o">=</span> <span class="s2">&quot;3.0.0.post1&quot;</span>
+
+<span class="kn">from</span> <span class="nn">inspect</span> <span class="k">import</span> <span class="n">ismodule</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="kn">import</span> <span class="nn">autologging</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;AGLYPH_TRACED&quot;</span><span class="p">):</span>
+    <span class="n">autologging</span><span class="o">.</span><span class="n">install_traced_noop</span><span class="p">()</span>
+
+<span class="kn">from</span> <span class="nn">autologging</span> <span class="k">import</span> <span class="n">traced</span>
+
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;AglyphError&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;format_dotted_name&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;resolve_dotted_name&quot;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="c1"># configure a logging for the &quot;aglyph&quot; channel to see log output</span>
+<span class="n">_log</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+<span class="c1"># prevent messages to the console when there&#39;s no logging configuration</span>
+<span class="c1"># (see https://docs.python.org/3/howto/logging.html#library-config)</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">_log</span><span class="o">.</span><span class="n">handlers</span><span class="p">:</span>
+    <span class="n">_log</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">logging</span><span class="o">.</span><span class="n">NullHandler</span><span class="p">())</span>
+
+<span class="c1"># log the Aglyph and Python versions, the platform, and compatibility details</span>
+<span class="kn">from</span> <span class="nn">aglyph._compat</span> <span class="k">import</span> <span class="n">is_string</span><span class="p">,</span> <span class="n">name_of</span><span class="p">,</span> <span class="n">platform_detail</span>
+<span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Aglyph </span><span class="si">%s</span><span class="s2"> on </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">__version__</span><span class="p">,</span> <span class="n">platform_detail</span><span class="p">)</span>
+
+
+<span class="k">class</span> <span class="nc">AglyphDeprecationWarning</span><span class="p">(</span><span class="ne">DeprecationWarning</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Issued when deprecated Aglyph functions, classes, or methods are</span>
+<span class="sd">    used.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">replacement</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        :arg str name:</span>
+<span class="sd">           the name of the deprecated function, class, or method</span>
+<span class="sd">        :keyword str replacement:</span>
+<span class="sd">           the name of the replacement function, class, or method</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> is deprecated and will be removed in release </span><span class="si">%d</span><span class="s2">.0.0.&quot;</span> <span class="o">%</span>
+                <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">MAJOR</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">replacement</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> Use </span><span class="si">%s</span><span class="s2"> instead.&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">replacement</span><span class="p">)</span>
+        <span class="c1">#PYVER: arguments to super() are implicit under Python 3</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">AglyphDeprecationWarning</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="AglyphError"><a class="viewcode-back" href="../aglyph.html#aglyph.AglyphError">[docs]</a><span class="k">class</span> <span class="nc">AglyphError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Raised when Aglyph operations fail with a condition that is not</span>
+<span class="sd">    sufficiently described by a built-in exception.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">cause</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="c1">#PYVER: arguments to super() are implicit under Python 3</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">AglyphError</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cause</span> <span class="o">=</span> <span class="n">cause</span></div>
+
+
+<div class="viewcode-block" id="format_dotted_name"><a class="viewcode-back" href="../aglyph.html#aglyph.format_dotted_name">[docs]</a><span class="nd">@traced</span>
+<span class="k">def</span> <span class="nf">format_dotted_name</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return the importable dotted-name string for *obj*.</span>
+
+<span class="sd">    :param obj:</span>
+<span class="sd">       an **importable** class, function, or module</span>
+<span class="sd">    :return:</span>
+<span class="sd">       a dotted name representing *obj*</span>
+<span class="sd">    :rtype:</span>
+<span class="sd">       :obj:`str`</span>
+<span class="sd">    :raise AglyphError:</span>
+<span class="sd">       if *obj* does not have a resolvable (importable) dotted name</span>
+
+<span class="sd">    The dotted name returned by this function is a *&quot;dotted_name.NAME&quot;*</span>
+<span class="sd">    or *&quot;dotted_name&quot;* string for *obj* that represents a valid absolute</span>
+<span class="sd">    import statement according to the following productions:</span>
+
+<span class="sd">    .. productionlist::</span>
+<span class="sd">       absolute_import_stmt: &quot;from&quot; dotted_name &quot;import&quot; NAME</span>
+<span class="sd">                           : | &quot;import&quot; dotted_name</span>
+<span class="sd">       dotted_name: NAME (&#39;.&#39; NAME)*</span>
+
+<span class="sd">    .. note::</span>
+<span class="sd">       This function is the inverse of :func:`resolve_dotted_name`.</span>
+
+<span class="sd">    .. warning::</span>
+<span class="sd">       This function will attempt to use the ``__qualname__`` attribute,</span>
+<span class="sd">       which is only available in Python 3.3+. When ``__qualname__`` is</span>
+<span class="sd">       **not** available, ``__name__`` is used instead.</span>
+
+<span class="sd">       .. seealso:: :pep:`3155`, :func:`aglyph._compat.name_of`</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">_importable</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="n">AglyphError</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%r</span><span class="s2"> does not have an importable dotted name&quot;</span> <span class="o">%</span> <span class="n">obj</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">ismodule</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">.</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">obj</span><span class="o">.</span><span class="vm">__module__</span><span class="p">,</span> <span class="n">name_of</span><span class="p">(</span><span class="n">obj</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">obj</span><span class="o">.</span><span class="vm">__name__</span></div>
+
+
+<span class="nd">@traced</span>
+<span class="k">def</span> <span class="nf">_importable</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Tell whether or not *obj* is directly importable.</span>
+
+<span class="sd">    :arg obj:</span>
+<span class="sd">       any object</span>
+<span class="sd">    :rtype:</span>
+<span class="sd">       :obj:`bool`</span>
+
+<span class="sd">    If *obj* is importable, then:</span>
+
+<span class="sd">    &gt;&gt;&gt; resolve_dotted_name(format_dotted_name(obj)) is obj</span>
+<span class="sd">    True</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">ismodule</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">elif</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="s2">&quot;__module__&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="s2">&quot;__name__&quot;</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">obj</span><span class="o">.</span><span class="vm">__name__</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">modules</span><span class="p">[</span><span class="n">obj</span><span class="o">.</span><span class="vm">__module__</span><span class="p">]</span><span class="o">.</span><span class="vm">__dict__</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+
+
+<div class="viewcode-block" id="resolve_dotted_name"><a class="viewcode-back" href="../aglyph.html#aglyph.resolve_dotted_name">[docs]</a><span class="nd">@traced</span>
+<span class="k">def</span> <span class="nf">resolve_dotted_name</span><span class="p">(</span><span class="n">dotted_name</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return the class, function, or module identified by</span>
+<span class="sd">    *dotted_name*.</span>
+
+<span class="sd">    :param str dotted_name:</span>
+<span class="sd">       a string representing an **importable** class, function, or</span>
+<span class="sd">       module</span>
+<span class="sd">    :return:</span>
+<span class="sd">       a class, function, or module</span>
+
+<span class="sd">    *dotted_name* must be a &quot;dotted_name.NAME&quot; or &quot;dotted_name&quot;</span>
+<span class="sd">    string that represents a valid absolute import statement according</span>
+<span class="sd">    to the following productions:</span>
+
+<span class="sd">    .. productionlist::</span>
+<span class="sd">       absolute_import_stmt: &quot;from&quot; dotted_name &quot;import&quot; NAME</span>
+<span class="sd">                           : | &quot;import&quot; dotted_name</span>
+<span class="sd">       dotted_name: NAME (&#39;.&#39; NAME)*</span>
+
+<span class="sd">    .. note::</span>
+<span class="sd">       This function is the inverse of :func:`format_dotted_name`.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="s1">&#39;.&#39;</span> <span class="ow">in</span> <span class="n">dotted_name</span><span class="p">:</span>
+        <span class="p">(</span><span class="n">module_name</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span> <span class="o">=</span> <span class="n">dotted_name</span><span class="o">.</span><span class="n">rsplit</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">module</span> <span class="o">=</span> <span class="nb">__import__</span><span class="p">(</span><span class="n">module_name</span><span class="p">,</span> <span class="n">fromlist</span><span class="o">=</span><span class="p">[</span><span class="n">name</span><span class="p">],</span> <span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="n">obj</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">module</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">obj</span> <span class="o">=</span> <span class="nb">__import__</span><span class="p">(</span><span class="n">dotted_name</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">obj</span></div>
+
+
+<span class="nd">@traced</span>
+<span class="k">def</span> <span class="nf">_identify</span><span class="p">(</span><span class="n">spec</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Determine the unique ID for *spec*.</span>
+
+<span class="sd">    :arg spec:</span>
+<span class="sd">       an **importable** class, function, or module; or a :obj:`str`</span>
+<span class="sd">    :return:</span>
+<span class="sd">       *spec* unchanged (if it is a :obj:`str`), else *spec*&#39;s</span>
+<span class="sd">       importable dotted name</span>
+<span class="sd">    :rtype:</span>
+<span class="sd">       :obj:`str`</span>
+
+<span class="sd">    If *spec* is a string, it is assumed to already represent a unique</span>
+<span class="sd">    ID and is returned unchanged. Otherwise, *spec* is assumed to be an</span>
+<span class="sd">    **importable** class, function, or module, and its dotted name is</span>
+<span class="sd">    returned (see :func:`format_dotted_name`).</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">spec</span> <span class="k">if</span> <span class="n">is_string</span><span class="p">(</span><span class="n">spec</span><span class="p">)</span> <span class="k">else</span> <span class="n">format_dotted_name</span><span class="p">(</span><span class="n">spec</span><span class="p">)</span>
+
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Aglyph</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../whats-new.html">What’s new in release 3.0.0.post1?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../get-started.html">Getting started with Aglyph</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cookbook.html">Aglyph cookbook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api-ref.html">Aglyph API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../context-fluent-api.html">The Aglyph Context fluent API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../testing.html">Aglyph 3.0.0.post1 testing summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roadmap.html">Roadmap for future releases</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2006, 2011, 2013-2018 Matthew Zipay.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,178 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Understand the general features of Aglyph &#8212; Aglyph 3.0.0.post1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Choose a configuration approach for Aglyph" href="cookbook-configuration.html" />
+    <link rel="prev" title="Aglyph cookbook" href="cookbook.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="understand-the-general-features-of-aglyph">
+<h1>Understand the general features of Aglyph<a class="headerlink" href="#understand-the-general-features-of-aglyph" title="Permalink to this headline">¶</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Release:</th><td class="field-body">3.0.0.post1</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="aglyph-supports-python-2-and-3-cpython-pypy-stackless-ironpython-and-jython">
+<span id="version-impl-support"></span><h2>Aglyph supports Python 2 and 3 (CPython), PyPy, Stackless, IronPython, and Jython<a class="headerlink" href="#aglyph-supports-python-2-and-3-cpython-pypy-stackless-ironpython-and-jython" title="Permalink to this headline">¶</a></h2>
+<p>The single Aglyph distribution and API is 100% compatible across Python
+language versions 2.7 and 3.4+, and the implementations listed below:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.python.org/">CPython</a></li>
+<li><a class="reference external" href="http://pypy.org/">PyPy</a></li>
+<li><a class="reference external" href="http://www.jython.org/">Jython</a></li>
+<li><a class="reference external" href="http://ironpython.net/">IronPython</a></li>
+<li><a class="reference external" href="https://github.com/stackless-dev/stackless/wiki">Stackless Python</a></li>
+</ul>
+<p>The <a class="reference internal" href="testing.html"><span class="doc">Aglyph 3.0.0.post1 testing summary</span></a> provides detailed information for the Python implementation
+releases and platforms under which the Aglyph unit test suite is executed.</p>
+</div>
+<div class="section" id="aglyph-does-not-require-framework-specific-changes-to-your-application-code">
+<span id="no-aglyph-code-in-app-code"></span><h2>Aglyph does not require framework-specific changes to your application code<a class="headerlink" href="#aglyph-does-not-require-framework-specific-changes-to-your-application-code" title="Permalink to this headline">¶</a></h2>
+<p>Adding Aglyph Dependency Injection support to a new <em>or existing</em> application
+is easy, because Aglyph doesn’t require any framework-specific code to reside
+in your application’s business logic code.</p>
+<p>Conceptually, Aglyph acts like a layer or proxy that sits <em>between</em> your
+business logic code and the scaffolding/controlling code that uses it. Put
+another way: Aglyph knows about your application components, but your
+application components don’t know about Aglyph.</p>
+</div>
+<div class="section" id="any-object-application-specific-python-standard-library-or-3rd-party-can-be-an-aglyph-component">
+<span id="any-object-is-a-component"></span><h2><strong>Any</strong> object (application-specific, Python standard library, or 3rd-party) can be an Aglyph component<a class="headerlink" href="#any-object-application-specific-python-standard-library-or-3rd-party-can-be-an-aglyph-component" title="Permalink to this headline">¶</a></h2>
+<p>Because Aglyph doesn’t require that component source code be modified, either
+to be injected with dependencies or to serve <em>as</em> a dependency (or both!),
+<strong>any</strong> object can serve as a component in your application.</p>
+<p>Aglyph will happily assemble any object that is reachable from an absolute
+importable dotted name and, optionally, attribute access on that object (via
+<a class="reference internal" href="aglyph.component.html#aglyph.component.Component.factory_name" title="aglyph.component.Component.factory_name"><code class="xref py py-attr docutils literal notranslate"><span class="pre">aglyph.component.Component.factory_name</span></code></a> or
+<a class="reference internal" href="aglyph.component.html#aglyph.component.Component.member_name" title="aglyph.component.Component.member_name"><code class="xref py py-attr docutils literal notranslate"><span class="pre">aglyph.component.Component.member_name</span></code></a>).</p>
+<p>The only requirements for a component are that:</p>
+<ol class="arabic simple">
+<li><code class="xref py py-attr docutils literal notranslate"><span class="pre">aglyph.component.Component.component_id</span></code> must be unique within an
+<a class="reference internal" href="aglyph.context.html#aglyph.context.Context" title="aglyph.context.Context"><code class="xref py py-class docutils literal notranslate"><span class="pre">aglyph.context.Context</span></code></a>.</li>
+<li><a class="reference internal" href="aglyph.component.html#aglyph.component.Component.dotted_name" title="aglyph.component.Component.dotted_name"><code class="xref py py-attr docutils literal notranslate"><span class="pre">aglyph.component.Component.dotted_name</span></code></a> must be a “dotted_name.NAME”
+or “dotted_name” string that represents a valid absolute import statement
+according to the productions listed below.</li>
+</ol>
+<pre>
+<strong id="grammar-token-absolute_import_stmt">absolute_import_stmt</strong> ::=  &quot;from&quot; dotted_name &quot;import&quot; NAME
+                          | &quot;import&quot; dotted_name
+<strong id="grammar-token-dotted_name">dotted_name         </strong> ::=  NAME ('.' NAME)*
+</pre>
+<p>Whether you want to describe a component as an object from your own
+application, from the Python standard library, from a 3rd-party library, or
+even from an implementation-specific library  (e.g. a .NET class in IronPython,
+a Java class in Jython), Aglyph is up to the task. No adapter code, no
+monkey-patching, no fuss.</p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Aglyph</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="whats-new.html">What’s new in release 3.0.0.post1?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get-started.html">Getting started with Aglyph</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="cookbook.html">Aglyph cookbook</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Understand the general features of Aglyph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cookbook-configuration.html">Choose a configuration approach for Aglyph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cookbook-common.html">Common usage scenarios</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cookbook-templating.html">Component inheritance using templates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cookbook-notable.html">Other notable usage scenarios</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cookbook-integration.html">Integrating Aglyph</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api-ref.html">Aglyph API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="context-fluent-api.html">The Aglyph Context fluent API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Aglyph 3.0.0.post1 testing summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="roadmap.html">Roadmap for future releases</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="cookbook.html">Aglyph cookbook</a><ul>
+      <li>Previous: <a href="cookbook.html" title="previous chapter">Aglyph cookbook</a></li>
+      <li>Next: <a href="cookbook-configuration.html" title="next chapter">Choose a configuration approach for Aglyph</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2006, 2011, 2013-2018 Matthew Zipay.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="_sources/cookbook-understanding.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

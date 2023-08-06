@@ -1,0 +1,466 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>aglyph.context — Defining component contexts &#8212; Aglyph 3.0.0.post1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="aglyph.integration.cherrypy — Integrating Aglyph with CherryPy" href="aglyph.integration.cherrypy.html" />
+    <link rel="prev" title="aglyph.component — Defining components and their dependencies" href="aglyph.component.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="aglyph-context-defining-component-contexts">
+<h1><a class="reference internal" href="#module-aglyph.context" title="aglyph.context"><code class="xref py py-mod docutils literal notranslate"><span class="pre">aglyph.context</span></code></a> — Defining component contexts<a class="headerlink" href="#aglyph-context-defining-component-contexts" title="Permalink to this headline">¶</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Release:</th><td class="field-body">3.0.0.post1</td>
+</tr>
+</tbody>
+</table>
+<span class="target" id="module-aglyph.context"></span><p>The classes in this module are used to define collections
+(“contexts”) of related components and templates.</p>
+<p>A context can be created in pure Python using the following API classes:</p>
+<ul class="simple">
+<li><a class="reference internal" href="aglyph.component.html#aglyph.component.Template" title="aglyph.component.Template"><code class="xref py py-class docutils literal notranslate"><span class="pre">aglyph.component.Template</span></code></a></li>
+<li><a class="reference internal" href="aglyph.component.html#aglyph.component.Component" title="aglyph.component.Component"><code class="xref py py-class docutils literal notranslate"><span class="pre">aglyph.component.Component</span></code></a></li>
+<li><a class="reference internal" href="aglyph.component.html#aglyph.component.Reference" title="aglyph.component.Reference"><code class="xref py py-class docutils literal notranslate"><span class="pre">aglyph.component.Reference</span></code></a> (used to indicate that one
+component depends on another component)</li>
+<li><a class="reference internal" href="aglyph.component.html#aglyph.component.Evaluator" title="aglyph.component.Evaluator"><code class="xref py py-class docutils literal notranslate"><span class="pre">aglyph.component.Evaluator</span></code></a> (used like a partial function to
+lazily evaluate component initialization arguments and attributes)</li>
+<li><a class="reference internal" href="#aglyph.context.Context" title="aglyph.context.Context"><code class="xref py py-class docutils literal notranslate"><span class="pre">aglyph.context.Context</span></code></a> or a subclass</li>
+</ul>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.0: </span>For easier programmatic configuration, refer to
+<a class="reference internal" href="context-fluent-api.html"><span class="doc">The Aglyph Context fluent API</span></a>.</p>
+</div>
+<p>Alternatively, a context can be defined using a declarative XML syntax
+that conforms to the <a class="reference download internal" href="_downloads/aglyph-context.dtd" download=""><code class="xref download docutils literal notranslate"><span class="pre">Aglyph</span> <span class="pre">context</span> <span class="pre">DTD</span></code></a> (included in the <em>resources/</em>
+directory of the distribution). This approach requires only the
+<a class="reference internal" href="#aglyph.context.XMLContext" title="aglyph.context.XMLContext"><code class="xref py py-class docutils literal notranslate"><span class="pre">aglyph.context.XMLContext</span></code></a> class, which parses the XML document
+and then uses the API classes mentioned above to populate the context.</p>
+<dl class="class">
+<dt id="aglyph.context.Context">
+<em class="property">class </em><code class="descclassname">aglyph.context.</code><code class="descname">Context</code><span class="sig-paren">(</span><em>context_id</em>, <em>after_inject=None</em>, <em>before_clear=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aglyph/context.html#Context"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#aglyph.context.Context" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">aglyph.context._ContextBuilder</span></code></p>
+<p>A mapping of unique IDs to <code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> and
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Template</span></code> objects.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>context_id</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – an identifier for this context</li>
+<li><strong>after_inject</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – specifies the name of the method that will be called (if it
+exists) on <strong>all</strong> component objects after all of their
+dependencies have been injected</li>
+<li><strong>before_clear</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – specifies the name of the method that will be called (if it
+exists) on <strong>all</strong> singleton, borg, and weakref objects
+immediately before they are cleared from cache</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="aglyph.context.Context.register">
+<code class="descname">register</code><span class="sig-paren">(</span><em>definition</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aglyph/context.html#Context.register"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#aglyph.context.Context.register" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a component or template <em>definition</em> to this context.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>definition</strong> – a <code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> or <code class="xref py py-class docutils literal notranslate"><span class="pre">Template</span></code> object</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference internal" href="aglyph.html#aglyph.AglyphError" title="aglyph.AglyphError"><strong>AglyphError</strong></a> – if a component or template with the same unique ID is already
+registered in this context</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">To <strong>replace</strong> an already-registered component or template
+with the same unique ID, use <code class="xref py py-meth docutils literal notranslate"><span class="pre">dict.__setitem__()</span></code>
+directly.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="aglyph.context.Context.get_component">
+<code class="descname">get_component</code><span class="sig-paren">(</span><em>component_id</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aglyph/context.html#Context.get_component"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#aglyph.context.Context.get_component" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the <code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> identified by <em>component_id</em>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>component_id</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – a unique ID that identifies a <code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the <code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> identified by <em>component_id</em></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> if <em>component_id</em> is mapped, else <code class="docutils literal notranslate"><span class="pre">None</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="aglyph.context.Context.iter_components">
+<code class="descname">iter_components</code><span class="sig-paren">(</span><em>strategy=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aglyph/context.html#Context.iter_components"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#aglyph.context.Context.iter_components" title="Permalink to this definition">¶</a></dt>
+<dd><p>Yield all definitions in this context that are instances of
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code>, optionally filtered by <em>strategy</em>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>strategy</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – only yield component definitions that use this assembly
+strategy (by default, <strong>all</strong> component definitions are
+yielded)</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> generator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="aglyph.context.Context.borg">
+<code class="descname">borg</code><span class="sig-paren">(</span><em>component_id_spec</em>, <em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#aglyph.context.Context.borg" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a <a class="reference internal" href="aglyph.component.html#aglyph.component.Strategy" title="aglyph.component.Strategy"><code class="xref py py-data docutils literal notranslate"><span class="pre">borg</span></code></a>
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> builder for a component identified by
+<em>component_id_spec</em>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>component_id_spec</strong> – a context-unique identifier for this component; or the object
+whose dotted name will identify this component</li>
+<li><strong>parent</strong> – the context-unique identifier for this component’s parent
+template or component definition; or the object whose dotted
+name identifies this component’s parent definition</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.0: </span>This method is an entry point into <a class="reference internal" href="context-fluent-api.html"><span class="doc">The Aglyph Context fluent API</span></a>.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="aglyph.context.Context.component">
+<code class="descname">component</code><span class="sig-paren">(</span><em>component_id_spec</em>, <em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#aglyph.context.Context.component" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a fluent <code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> builder for
+<em>component_id_spec</em>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>component_id_spec</strong> – a context-unique identifier for this component; or the object
+whose dotted name will identify this component</li>
+<li><strong>parent</strong> – the context-unique identifier for this component’s parent
+template or component definition; or the object whose dotted
+name identifies this component’s parent definition</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.0: </span>This method is an entry point into <a class="reference internal" href="context-fluent-api.html"><span class="doc">The Aglyph Context fluent API</span></a>.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="aglyph.context.Context.prototype">
+<code class="descname">prototype</code><span class="sig-paren">(</span><em>component_id_spec</em>, <em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#aglyph.context.Context.prototype" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a <a class="reference internal" href="aglyph.component.html#aglyph.component.Strategy" title="aglyph.component.Strategy"><code class="xref py py-data docutils literal notranslate"><span class="pre">prototype</span></code></a>
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> builder for a component identified by
+<em>component_id_spec</em>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>component_id_spec</strong> – a context-unique identifier for this component; or the object
+whose dotted name will identify this component</li>
+<li><strong>parent</strong> – the context-unique identifier for this component’s parent
+template or component definition; or the object whose dotted
+name identifies this component’s parent definition</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.0: </span>This method is an entry point into <a class="reference internal" href="context-fluent-api.html"><span class="doc">The Aglyph Context fluent API</span></a>.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="aglyph.context.Context.singleton">
+<code class="descname">singleton</code><span class="sig-paren">(</span><em>component_id_spec</em>, <em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#aglyph.context.Context.singleton" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a <a class="reference internal" href="aglyph.component.html#aglyph.component.Strategy" title="aglyph.component.Strategy"><code class="xref py py-data docutils literal notranslate"><span class="pre">singleton</span></code></a>
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> builder for a component identified by
+<em>component_id_spec</em>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>component_id_spec</strong> – a context-unique identifier for this component; or the object
+whose dotted name will identify this component</li>
+<li><strong>parent</strong> – the context-unique identifier for this component’s parent
+template or component definition; or the object whose dotted
+name identifies this component’s parent definition</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.0: </span>This method is an entry point into <a class="reference internal" href="context-fluent-api.html"><span class="doc">The Aglyph Context fluent API</span></a>.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="aglyph.context.Context.template">
+<code class="descname">template</code><span class="sig-paren">(</span><em>template_id_spec</em>, <em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#aglyph.context.Context.template" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a <code class="xref py py-class docutils literal notranslate"><span class="pre">Template</span></code> builder for a template identified
+by <em>template_spec</em>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>template_id_spec</strong> – a context-unique identifier for this template; or the object
+whose dotted name will identify this template</li>
+<li><strong>parent</strong> – the context-unique identifier for this template’s parent
+template or component definition; or the object whose dotted
+name identifies this template’s parent definition</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.0: </span>This method is an entry point into <a class="reference internal" href="context-fluent-api.html"><span class="doc">The Aglyph Context fluent API</span></a>.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="aglyph.context.Context.weakref">
+<code class="descname">weakref</code><span class="sig-paren">(</span><em>component_id_spec</em>, <em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#aglyph.context.Context.weakref" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a <a class="reference internal" href="aglyph.component.html#aglyph.component.Strategy" title="aglyph.component.Strategy"><code class="xref py py-data docutils literal notranslate"><span class="pre">weakref</span></code></a>
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> builder for a component identified by
+<em>component_id_spec</em>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>component_id_spec</strong> – a context-unique identifier for this component; or the object
+whose dotted name will identify this component</li>
+<li><strong>parent</strong> – the context-unique identifier for this component’s parent
+template or component definition; or the object whose dotted
+name identifies this component’s parent definition</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.0: </span>This method is an entry point into <a class="reference internal" href="context-fluent-api.html"><span class="doc">The Aglyph Context fluent API</span></a>.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="aglyph.context.XMLContext">
+<em class="property">class </em><code class="descclassname">aglyph.context.</code><code class="descname">XMLContext</code><span class="sig-paren">(</span><em>source</em>, <em>parser=None</em>, <em>default_encoding='utf-8'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aglyph/context.html#XMLContext"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#aglyph.context.XMLContext" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#aglyph.context.Context" title="aglyph.context.Context"><code class="xref py py-class docutils literal notranslate"><span class="pre">aglyph.context.Context</span></code></a></p>
+<p>A mapping of unique IDs to <code class="xref py py-class docutils literal notranslate"><span class="pre">Component</span></code> and
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Template</span></code> objects.</p>
+<p>Components and templates are declared in an XML document that
+conforms to the <a class="reference download internal" href="_downloads/aglyph-context.dtd" download=""><code class="xref download docutils literal notranslate"><span class="pre">Aglyph</span> <span class="pre">context</span> <span class="pre">DTD</span></code></a> (included in the <em>resources/</em>
+directory of the distribution).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>source</strong> – a filename or stream from which XML data is read</li>
+<li><strong>parser</strong> (<a class="reference external" href="https://docs.python.org/3/library/xml.etree.elementtree.html#xml.etree.ElementTree.XMLParser" title="(in Python v3.7)"><em>xml.etree.ElementTree.XMLParser</em></a>) – the ElementTree parser to use (instead of Aglyph’s default)</li>
+<li><strong>default_encoding</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – the default character set used to encode certain element
+content</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first last"><a class="reference internal" href="aglyph.html#aglyph.AglyphError" title="aglyph.AglyphError"><strong>AglyphError</strong></a> – if unexpected elements are encountered, or if expected
+elements are <em>not</em> encountered, in the document structure</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>In most cases, <em>parser</em> should be left unspecified. Aglyph’s
+default parser will be sufficient for all but extreme edge
+cases.</p>
+<p><em>default_encoding</em> is the character set used to encode
+<code class="docutils literal notranslate"><span class="pre">&lt;bytes&gt;</span></code> (or <code class="docutils literal notranslate"><span class="pre">&lt;str&gt;</span></code> under Python 2) element content when
+an <strong>&#64;encoding</strong> attribute is <em>not</em> specified on those elements.
+It defaults to the system-dependent value of
+<a class="reference external" href="https://docs.python.org/3/library/sys.html#sys.getdefaultencoding" title="(in Python v3.7)"><code class="xref py py-func docutils literal notranslate"><span class="pre">sys.getdefaultencoding()</span></code></a>. <strong>This is not related to the
+document encoding!</strong></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Aglyph uses a non-validating XML parser by default, so DTD
+conformance is <strong>not</strong> enforced at runtime. It is recommended
+that XML contexts be validated at least once (manually)
+during testing.</p>
+<p class="last">An <code class="xref py py-class docutils literal notranslate"><span class="pre">AglyphError</span></code> <em>will</em> be raised under certain
+conditions (an unexpected element is encounted, or an
+expected element is <em>not</em> encountered), but Aglyph does not
+“reinvent the wheel” by implementing strict validation in
+the parsing logic.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p>Although Aglyph contexts are <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></a> types,
+<code class="docutils literal notranslate"><span class="pre">XMLContext</span></code> does not permit the same unique ID to be
+(re-)mapped multiple times.</p>
+<p>Attempting to define more than one <code class="docutils literal notranslate"><span class="pre">&lt;component&gt;</span></code> or
+<code class="docutils literal notranslate"><span class="pre">&lt;template&gt;</span></code> with the same ID will raise
+<code class="xref py py-class docutils literal notranslate"><span class="pre">AglyphError</span></code> when the document is parsed.</p>
+<p><strong>After</strong> an Aglyph <code class="docutils literal notranslate"><span class="pre">&lt;context&gt;</span></code> document has been
+successfully parsed, a unique component or template ID can be
+re-mapped using standard <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></a> protocols.</p>
+<div class="last admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt>Validity constraint: ID</dt>
+<dd><a class="reference external" href="https://www.w3.org/TR/REC-xml/#id">https://www.w3.org/TR/REC-xml/#id</a></dd>
+</dl>
+</div>
+</div>
+<dl class="attribute">
+<dt id="aglyph.context.XMLContext.default_encoding">
+<code class="descname">default_encoding</code><a class="headerlink" href="#aglyph.context.XMLContext.default_encoding" title="Permalink to this definition">¶</a></dt>
+<dd><p>The default encoding of <code class="docutils literal notranslate"><span class="pre">&lt;bytes&gt;</span></code> (or <code class="docutils literal notranslate"><span class="pre">&lt;str&gt;</span></code> under
+Python 2) element content when an <strong>&#64;encoding</strong> attribute is
+<em>not</em> specified.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This is <strong>unrelated</strong> to the document encoding!</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Aglyph</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="whats-new.html">What’s new in release 3.0.0.post1?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get-started.html">Getting started with Aglyph</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cookbook.html">Aglyph cookbook</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="api-ref.html">Aglyph API reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="aglyph.html"><code class="docutils literal notranslate"><span class="pre">aglyph</span></code> — Dependency Injection for Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aglyph.assembler.html"><code class="docutils literal notranslate"><span class="pre">aglyph.assembler</span></code> — The Aglyph component assembler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aglyph.component.html"><code class="docutils literal notranslate"><span class="pre">aglyph.component</span></code> — Defining components and their dependencies</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">aglyph.context</span></code> — Defining component contexts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aglyph.integration.cherrypy.html"><code class="docutils literal notranslate"><span class="pre">aglyph.integration.cherrypy</span></code> — Integrating Aglyph with CherryPy</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="context-fluent-api.html">The Aglyph Context fluent API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Aglyph 3.0.0.post1 testing summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="roadmap.html">Roadmap for future releases</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="api-ref.html">Aglyph API reference</a><ul>
+      <li>Previous: <a href="aglyph.component.html" title="previous chapter"><code class="docutils literal notranslate"><span class="pre">aglyph.component</span></code> — Defining components and their dependencies</a></li>
+      <li>Next: <a href="aglyph.integration.cherrypy.html" title="next chapter"><code class="docutils literal notranslate"><span class="pre">aglyph.integration.cherrypy</span></code> — Integrating Aglyph with CherryPy</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2006, 2011, 2013-2018 Matthew Zipay.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="_sources/aglyph.context.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
