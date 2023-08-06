@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: qporcupine
+Version: 0.0.3
+Summary: Grammar error detection and feedback
+Home-page: https://github.com/empirical-org/Quill-NLP-Tools-and-Datasets
+Author: Quill.org
+Author-email: max@quill.org
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: allennlp (==0.5.1)
+Requires-Dist: en-core-web-lg (==2.0.0)
+Requires-Dist: flask (==0.12.2)
+Requires-Dist: gunicorn (==19.7.1)
+Requires-Dist: nltk (==3.2.5)
+Requires-Dist: numpy (==1.14.2)
+Requires-Dist: pandas (==0.19.2)
+Requires-Dist: pathlib (==1.0.1)
+Requires-Dist: pattern (==3.0beta)
+Requires-Dist: requests (==2.18.4)
+Requires-Dist: spacy (==2.0.12)
+Requires-Dist: sqlalchemy (==1.2.6)
+Requires-Dist: tensorflow (==1.5.1)
+Requires-Dist: textacy (==0.6.2)
+Requires-Dist: tflearn (==0.3.2)
+
+# QPorcupine
+
+A library from Quill.org to provide feedback on common grammar errors. Errors detected include spelling errors, fragments, and subject-verb agreement errors.
+
+
+**Note:** This library is currently unstable; please be aware
+that updates could include breaking changes.
+
+
+## Usage
+
+As a module:
+```py
+from qporcupine import check
+
+feedback  = check('Until she leapt into the air and kissed him.')
+print(feedback.human_readable)
+```
+
+Expected output:
+```
+This looks like a subordinating conjunction fragment.
+Try removing the subordinating conjunction or adding a main clause.
+```
+
+## Installation
+
+#### 1. Install languagetool
+
+qporcupine relies on LanguageTool to function. LanguageTool is an open-source
+grammar and spell-checker written in Java. In order to maximize performance, we
+will run a languagetool server that qporcupine will be able to connect to.
+
+Change to the opt directory. If you don't have one, create one with `$ sudo mkdir /opt`.
+```bash
+$ cd /opt
+```
+
+Download and unzip languagetool.
+```bash
+$ sudo curl -O "https://languagetool.org/download/LanguageTool-4.1.zip"
+$ sudo unzip LanguageTool-4.1.zip
+$ sudo rm LanguageTool-4.1.zip
+```
+
+Add the follwing lines to your .bash_profile or system equivalent. Do not
+include a trailing slash for the LT_URI.
+```bash
+alias ltserver='nohup java -cp /opt/LanguageTool-4.1/languagetool-server.jar org.languagetool.server.HTTPServer --port 8081 </dev/null >/dev/null 2>&1 &'
+export LT_URI=http://localhost:8081
+```
+
+Start the server
+```bash
+$ ltserver
+```
+
+LanguageTool is now running on port 8081. To test that it works try hitting
+http://localhost:8081/v2/check?language=en-US&text=my+text in your browser.
+
+
+#### 2. Download the AllenNLP Constituency Parser
+
+qporcupine uses the [AllenNLP](https://allennlp.org/) library, a suite of open-source
+natural-language processing tools developed by the Allen Institute for Artificial
+Intelligence. Specifically, qporcupine uses the [constituency parse](http://demo.allennlp.org/constituency-parsing)
+model from AllenNLP.
+
+We store the AllenNLP model in `/var/lib/allennlp`. To configure this folder and download the model for use, run:
+
+```bash
+$ sudo mkdir /var/lib/allennlp
+$ cd /var/lib/allennlp && { sudo curl -O https://s3-us-west-2.amazonaws.com/allennlp/models/elmo-constituency-parser-2018.03.14.tar.gz; cd -;}
+```
+
+#### 3. Install qporcupine
+
+One of qporcupine's dependencies is a development branch of the [Pattern.en](https://www.clips.uantwerpen.be/pattern) library, which is not available through PyPi. Consequently, qporcupine must be installed with the `--process-dependency-links` flag, which will install the necessary dependency.
+
+In some cases, there may be conflicts between this installation of the Pattern library and existing installations of Pattern on your local machine. If so, we suggest uninstalling Pattern and attempting to install qporcupine again. You may also need the `--no-cache-dir` flag for `pip install`.
+
+```bash
+pip install --process-dependency-links qporcupine
+```
+
+#### 4. Configure Spacy Language Model (Optional)
+
+qporcupine uses the `en_core_web_lg` Spacy model by default. If you wish to download and configure another model, do so with
+
+```bash
+python -m spacy download <SPACY MODEL NAME>
+```
+
+and set
+
+```bash
+export QUILL_SPACY_MODEL=<SPACY_MODEL_NAME>
+```
+
+## Tests
+
+QPorcupine uses `nose` to run tests. To run tests from the root directory of qporcupine:
+
+```bash
+$ pip install nose
+$ nosetests
+```
+
+### Version Support
+
+Please note that QPorcupine does not currently support Python 3.7. We suggest using Python 3.6.x .
+
+
