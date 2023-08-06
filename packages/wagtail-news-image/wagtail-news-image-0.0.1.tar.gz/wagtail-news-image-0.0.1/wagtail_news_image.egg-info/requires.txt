@@ -1,0 +1,5 @@
+wagtail>=2
+djangorestframework>=3
+
+[test]
+pytest>=3.5
