@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mutations/__init__.py
+mutations/core.py
+mutations/error.py
+mutations/fields.py
+mutations/metadata.py
+mutations/util.py
+mutations/validators.py
+mutations.egg-info/PKG-INFO
+mutations.egg-info/SOURCES.txt
+mutations.egg-info/dependency_links.txt
+mutations.egg-info/requires.txt
+mutations.egg-info/top_level.txt
