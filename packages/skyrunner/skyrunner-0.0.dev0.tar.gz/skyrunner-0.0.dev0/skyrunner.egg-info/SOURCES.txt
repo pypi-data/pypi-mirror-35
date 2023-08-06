@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+skyrunner/__init__.py
+skyrunner.egg-info/PKG-INFO
+skyrunner.egg-info/SOURCES.txt
+skyrunner.egg-info/dependency_links.txt
+skyrunner.egg-info/entry_points.txt
+skyrunner.egg-info/requires.txt
+skyrunner.egg-info/top_level.txt
