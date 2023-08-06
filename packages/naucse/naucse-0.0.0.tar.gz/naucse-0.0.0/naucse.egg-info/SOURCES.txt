@@ -1,0 +1,7 @@
+README.md
+setup.py
+naucse.egg-info/PKG-INFO
+naucse.egg-info/SOURCES.txt
+naucse.egg-info/dependency_links.txt
+naucse.egg-info/not-zip-safe
+naucse.egg-info/top_level.txt
