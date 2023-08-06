@@ -1,0 +1,31 @@
+Metadata-Version: 1.0
+Name: fidetournament
+Version: 0.1.dev0
+Summary: FIDE Tournament Report File (Krause format) parser and creator
+Home-page: https://github.com/erral/fidetournament
+Author: Mikel Larreategi
+Author-email: larreategi@eibar.org
+License: GPL
+Description: fidetournament
+        ==============
+        
+        FIDE Tournament Report File (Krause format) parser and creator
+        
+        
+        Ref: http://ruby-doc.org/gems/docs/i/icu_tournament-1.6.8/ICU/Tournament/Krause.html
+        
+        Format:
+            Explanation: http://ratings.fide.com/download/fidexchg.txt
+            Example file: http://ratings.fide.com/download/example1.txt
+        Changelog
+        ===========
+        
+        0.1 (2018-09-05)
+        ----------------
+        
+        - Initial release
+          [erral]
+        
+        
+Keywords: chess fide parser
+Platform: UNKNOWN
