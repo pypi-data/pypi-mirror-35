@@ -1,0 +1,15 @@
+sanic_swagger/__init__.py,sha256=Gsg4ItB9Wi4UsPPVLsXNWKcdCrj8cnP63_wDD4iO1XI,180
+sanic_swagger/doc.py,sha256=YCEZdzLWg_Dqawv-BvnGgK_EmhMzLDjJ8SEd3JLDFJw,6109
+sanic_swagger/openapi.py,sha256=gGtsgX8OzEdil69g6AwztdMqwdJ1SIoxKHxFGlshKMg,8809
+sanic_swagger/options.py,sha256=3GuLqdVKrRM4hyq9Y_HlrIrookf1HWoFQGtURw5_cvk,401
+sanic_swagger/serializer.py,sha256=vg-rNbu_OAOWKIc0wM3Ni8UodgUGtD41csKe_l79jHU,5864
+sanic_swagger/swagger.py,sha256=2zczna9GQ7xAZLB9QpEbTVLE1bjsJgEAbEowovyyF5Q,344
+sanic_swagger/validators.py,sha256=7i53vMzIbNSI-smeTQbcsAqIWgIFckFIxkFQPJ1DE8E,822
+sanic_swagger/ui/favicon-16x16.png,sha256=DGh8ZzdHZ4BRD19HToM75FR4prqdCYTULZ32EyXQg40,445
+sanic_swagger/ui/favicon-32x32.png,sha256=FgWKZWKDJOzbPbmelCCJi1NuJQ8ViUpKftBbrxapV7o,1141
+sanic_swagger/ui/index.html,sha256=oJKTNttO7OrQ98ydGwrWO2b73xiSLUEv0B9m8OENj04,3695
+sanic_swagger/ui/oauth2-redirect.html,sha256=F73IOsAC3Z2BICMkHoCMsx_mEqil2wkaSQf7M87z7_A,2522
+sanic_swagger-0.0.1.dist-info/METADATA,sha256=2-GwFFiomN6VURL5j-CvRKkRjZuZqOnMh718CGgJa5Y,1788
+sanic_swagger-0.0.1.dist-info/RECORD,,
+sanic_swagger-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sanic_swagger-0.0.1.dist-info/top_level.txt,sha256=Wzr3Qkp9ojwovU6FVLVm04z5ZR0fvKRwP5Ye6PofD70,14

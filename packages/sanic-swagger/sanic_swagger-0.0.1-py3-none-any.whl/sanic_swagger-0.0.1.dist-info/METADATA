@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: sanic-swagger
+Version: 0.0.1
+Summary: OpenAPI / Swagger support for Sanic using attrs
+Home-page: http://github.com/abatilo/sanic-swagger/
+Author: Aaron Batilo
+Author-email: aaronbatilo@gmail.com
+Maintainer: Aaron Batilo
+Maintainer-email: aaronbatilo@gmail.com
+License: MIT
+Keywords: sanic swagger openapi attrs cattrs
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: sanic (>=0.7.0)
+Requires-Dist: attrs (>=18.0.0)
+
+# sanic-swagger
+
+[![CircleCI](https://circleci.com/gh/abatilo/sanic-swagger.svg?style=svg)](https://circleci.com/gh/abatilo/sanic-swagger)
+[![codecov](https://codecov.io/gh/abatilo/sanic-swagger/branch/master/graph/badge.svg)](https://codecov.io/gh/abatilo/sanic-swagger)
+
+Annotate your [Sanic](https://github.com/channelcat/sanic) endpoints, and
+automatically generate a
+[Swagger](https://swagger.io/)/[OpenAPI](https://swagger.io/resources/open-api/)
+compatible JSON spec file.
+
+This project is a fork of both
+[sanic-openapi](https://github.com/channelcat/sanic-openapi) and
+[sanic-attrs](https://github.com/vltr/sanic-attrs).
+
+As such, you can write all of your models as
+[attrs](https://github.com/python-attrs/attrs) which gives you the handy
+ability to use [cattrs](https://github.com/Tinche/cattrs) for dealing with your
+serialization and deserialization of your models to and from JSON.
+
+
