@@ -1,0 +1,59 @@
+# AWS Lambda Event Handler
+
+This package provides a decorator for Python Lambda functions handling individual records in the `event` payload of the AWS Lambda function.
+
+## Usage
+
+This package provides two event decorators:
+
+- **sns** - used to handle invokations that origin from a SNS Topic.
+- **dynamodb** - used to handle invokations that origin from a DynamoDB Stream.
+
+## Defining the Handler
+
+The following demonstrates how to create a handler object that will be used as the entrypoint for various event sources that trigger a AWS Lambda invokation:
+
+```python
+from lambda_handler import LambdaHandler
+handler = LambdaHandler() #pylint: disable=C0103
+```
+
+The handler object can then be used as a decorator for various Lambda Event Sources:
+
+```python
+from lambda_handler import SNSMessage
+
+@handler.sns
+def sns(message: SNSMessage, context) -> None:
+    """
+    Handle SNS Message
+    """
+    print(message)
+
+@handler.dynamodb
+def dynamodb(record: dict, context) -> None:
+    """
+    Handle DynamoDB record
+    """
+    print(record)
+```
+
+## Models
+
+### SNSMessage
+
+The `SNSMessage` model makes it easier to interact with the data in the records and does some of the heavy lifting of pulling payload and attributes from the event letting you focus on your business logic.
+
+## Installation
+
+```bash
+pip install aws-lambda-event-handler
+```
+
+## Requirements
+
+None
+
+## Authors
+
+- [Joris Conijn](https://github.com/Nr18)
