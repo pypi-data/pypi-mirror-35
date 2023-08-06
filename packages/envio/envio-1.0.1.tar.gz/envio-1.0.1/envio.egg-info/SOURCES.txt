@@ -1,0 +1,8 @@
+README.md
+setup.py
+envio/__init__.py
+envio/tests.py
+envio.egg-info/PKG-INFO
+envio.egg-info/SOURCES.txt
+envio.egg-info/dependency_links.txt
+envio.egg-info/top_level.txt
