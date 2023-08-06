@@ -1,0 +1,8 @@
+TogglPy-0.1.0.dist-info/METADATA,sha256=T_xjki-c5FGn2CQL_NfLvCO-lHDrSpUu6uLGSR1kr2Q,5724
+TogglPy-0.1.0.dist-info/RECORD,,
+TogglPy-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+TogglPy-0.1.0.dist-info/top_level.txt,sha256=yZ8ok5Pw-PiuO-y0yy-ODKqIsXePhyGYG1gj6e54E9Q,6
+toggl/TogglPy.py,sha256=oJLnebf41q_2JaDfnUeKTGd4vJTCAVlRmmqvGDt4UaM,15663
+toggl/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+toggl/tests.py,sha256=3doBYNpbtq4TvxpdJfpVS6crxRMw5hzJl9v1Y7TjC4Y,3212
+toggl/toggl2gsuite.py,sha256=UoUlTkl22wQuhqZ--9tMtCrhK1WNW1nm0IH4qf6eJFo,2692
