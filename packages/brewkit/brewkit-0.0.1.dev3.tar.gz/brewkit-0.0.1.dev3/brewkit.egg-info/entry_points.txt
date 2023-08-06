@@ -1,0 +1,5 @@
+[console_scripts]
+grain = grain:main
+hops = hops:main
+yeast = yeast:main
+

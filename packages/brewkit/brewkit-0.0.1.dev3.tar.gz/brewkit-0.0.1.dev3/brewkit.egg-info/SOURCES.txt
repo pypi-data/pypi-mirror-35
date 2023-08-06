@@ -1,0 +1,18 @@
+AUTHORS
+ChangeLog
+readme.md
+setup.cfg
+setup.py
+.vscode/settings.json
+brewkit/__init__.py
+brewkit.egg-info/PKG-INFO
+brewkit.egg-info/SOURCES.txt
+brewkit.egg-info/dependency_links.txt
+brewkit.egg-info/entry_points.txt
+brewkit.egg-info/not-zip-safe
+brewkit.egg-info/pbr.json
+brewkit.egg-info/top_level.txt
+docs/Brewkit Project Plan v1.pdf
+grain/__init__.py
+hops/__init__.py
+yeast/__init__.py
