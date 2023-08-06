@@ -1,0 +1,8 @@
+build/
+dist/
+MANIFEST
+*.egg-info/
+.coverage
+.pytest_cache/
+docs/build/
+.tox
