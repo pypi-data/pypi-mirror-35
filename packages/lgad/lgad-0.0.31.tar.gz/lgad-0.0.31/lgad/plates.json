@@ -1,0 +1,32 @@
+[
+    {
+	"resolution": 0.0051826,
+	"radlen": 0.00076,
+	"position": 0
+    },
+    {
+	"resolution": 0.00471,
+	"radlen": 0.00076,
+	"position": 153
+    },
+    {
+	"resolution": 0.00471,
+	"radlen": 0.00076,
+	"position": 305
+    },
+    {
+	"resolution": 0.00471,
+	"radlen": 0.00076,
+	"position": 635
+    },
+    {
+	"resolution": 0.00471,
+	"radlen": 0.00076,
+	"position": 787
+    },
+    {
+	"resolution": 0.00471,
+	"radlen": 0.00076,
+	"position": 939
+    }
+]
