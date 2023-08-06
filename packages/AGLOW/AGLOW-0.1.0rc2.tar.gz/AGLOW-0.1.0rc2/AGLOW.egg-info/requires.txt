@@ -1,0 +1,6 @@
+sshtunnel
+snakebite
+tzlocal==1.5.1
+apache-airflow
+GRID_LRT>=0.4.3.1
+six
