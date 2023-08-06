@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: nexaas-id-client
+Version: 1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Rodrigo Cacilhas
+Author-email: rodrigo.cacilhas@nexaas.com
+License: Proprietary License
+Keywords: nexaas-id oauth
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Requires-Dist: python-dateutil (>=2.7.0)
+Requires-Dist: requests (>=2.19.0)
+
+UNKNOWN
+
+
