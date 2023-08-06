@@ -1,0 +1,8 @@
+acdh_django_sirad-0.1.0.dist-info/METADATA,sha256=ymMAstztRqVDv4Bg0Xr3XujOHh3rV4YzjHKPK7YbUbk,1177
+acdh_django_sirad-0.1.0.dist-info/RECORD,,
+acdh_django_sirad-0.1.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+acdh_django_sirad-0.1.0.dist-info/top_level.txt,sha256=5j6Uxa_9CR3gEUp6yXwfioKYbns77C4AlcpzKCtUeCk,6
+sirad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sirad/apps.py,sha256=baaUt3gp4sgk8wlJMSN8ePsNxySDD8fmYYm6MdGnD4M,90
+sirad/code_templates.py,sha256=Wralfvisrm6j8Fv8CNHwbMc2HzBhQuERTTLGGwBFRXA,9182
+sirad/sirad.py,sha256=T9kCAMBevT65y9uJyBo0f7R38NvtUA0JtooueQXRtck,10183
