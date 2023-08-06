@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+appdirs = "*"
+requests = "*"
+urwid = "*"
+setuptools = "*"
+setuptools-scm = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+pytest-runner = "*"
+pylint = "*"
+pudb = "*"
