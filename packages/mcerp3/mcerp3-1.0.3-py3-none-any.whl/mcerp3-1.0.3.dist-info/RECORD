@@ -1,0 +1,9 @@
+mcerp3/__init__.py,sha256=jPEOqleHuajdkq5xg6-GALMYDbqCNlD6hm0M1H45uuY,46719
+mcerp3/correlate.py,sha256=jb2jfjYhe9cJHIEAXRbrrFGQYc1MNSKj8h15iRTJ7kk,7639
+mcerp3/lhd.py,sha256=3VTuPnQ3qr5GPXR1XWcIbag85Xm375qal0A_qRTWRVo,11664
+mcerp3/stats.py,sha256=6b45ouKYlKtr_63Cp6kKR_pB_obaYMe4_jrbbnvO7e4,2891
+mcerp3/umath.py,sha256=nCJrnVi5F_NS4m1AmDeiWGm9C7L0Z235S4QA7BsKNgw,6303
+mcerp3-1.0.3.dist-info/METADATA,sha256=1nOvLFZO-daVZjzLJmRbCzvsHjQsKN9RDHojB4hoOXQ,6830
+mcerp3-1.0.3.dist-info/RECORD,,
+mcerp3-1.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+mcerp3-1.0.3.dist-info/top_level.txt,sha256=k3e1xZE8cFB3ziGtfl_DJdJg5YYt_mms3hVSGjSzvLU,7
