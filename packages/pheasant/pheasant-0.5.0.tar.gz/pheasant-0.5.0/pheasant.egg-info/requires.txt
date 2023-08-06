@@ -1,0 +1,6 @@
+click
+jupyter
+markdown
+pillow
+pygments
+inflection
