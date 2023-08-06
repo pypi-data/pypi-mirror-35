@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: log-storage
+Version: 0.4.0
+Summary: Log handler to store messages with a database record and optional file storage.
+Home-page: https://github.com/virtualstock/log_storage/
+Author: Virtualstock
+Author-email: development.team@virtualstock.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
