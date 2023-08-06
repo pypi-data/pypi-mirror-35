@@ -1,0 +1,9 @@
+README.md
+setup.py
+zeel_publisher/__init__.py
+zeel_publisher/event_publisher.py
+zeel_publisher.egg-info/PKG-INFO
+zeel_publisher.egg-info/SOURCES.txt
+zeel_publisher.egg-info/dependency_links.txt
+zeel_publisher.egg-info/requires.txt
+zeel_publisher.egg-info/top_level.txt
