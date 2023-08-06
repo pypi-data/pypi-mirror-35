@@ -1,0 +1,8 @@
+README.txt
+setup.py
+pipeish/__init__.py
+pipeish/commands.py
+pipeish.egg-info/PKG-INFO
+pipeish.egg-info/SOURCES.txt
+pipeish.egg-info/dependency_links.txt
+pipeish.egg-info/top_level.txt
