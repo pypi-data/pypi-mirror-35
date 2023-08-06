@@ -1,0 +1,204 @@
+Metadata-Version: 2.1
+Name: ensae-teaching-cs
+Version: 0.8.2511
+Summary: Materials for teachings, notebooks, helpers...
+Home-page: http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/index.html
+Author: Xavier Dupré
+Author-email: xavier.dupre@gmail.com
+License: MIT
+Download-URL: https://github.com/sdpython/ensae_teaching_cs/
+Keywords: ensae_teaching_cs,ENSAE,sqllite,database,teachings
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Dist: pyquickhelper (>=1.8)
+Requires-Dist: pyensae
+Requires-Dist: pymyinstall
+Requires-Dist: pymmails
+Requires-Dist: scikit-learn
+Requires-Dist: pyrsslocal
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pyenbc
+Requires-Dist: matplotlib
+Requires-Dist: jupyter
+Requires-Dist: mlstatpy
+Requires-Dist: manydataapi
+
+
+.. _l-README:
+
+README
+======
+
+.. image:: https://travis-ci.org/sdpython/ensae_teaching_cs.svg?branch=master
+    :target: https://travis-ci.org/sdpython/ensae_teaching_cs
+    :alt: Build status
+
+.. image:: https://ci.appveyor.com/api/projects/status/ko5g064idp5srm74?svg=true
+    :target: https://ci.appveyor.com/project/sdpython/ensae-teaching-cs
+    :alt: Build Status Windows
+
+.. image:: https://circleci.com/gh/sdpython/ensae_teaching_cs/tree/master.svg?style=svg
+    :target: https://circleci.com/gh/sdpython/ensae_teaching_cs/tree/master
+
+.. image:: https://badge.fury.io/py/ensae_teaching_cs.svg
+    :target: http://badge.fury.io/py/ensae_teaching_cs
+
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+    :alt: MIT License
+    :target: http://opensource.org/licenses/MIT
+
+.. image:: https://codecov.io/github/sdpython/ensae_teaching_cs/coverage.svg?branch=master
+    :target: https://codecov.io/github/sdpython/ensae_teaching_cs?branch=master
+
+.. image:: http://img.shields.io/github/issues/sdpython/ensae_teaching_cs.png
+    :alt: GitHub Issues
+    :target: https://github.com/sdpython/ensae_teaching_cs/issues
+
+.. image:: https://badge.waffle.io/sdpython/ensae_teaching_cs.png?label=ready&title=Ready
+    :alt: Waffle
+    :target: https://waffle.io/sdpython/ensae_teaching_cs
+
+.. image:: https://api.codacy.com/project/badge/Grade/80a874c0eafd4ea68f3493d73b43f0c5
+    :target: https://www.codacy.com/app/sdpython/ensae_teaching_cs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sdpython/ensae_teaching_cs&amp;utm_campaign=Badge_Grade
+    :alt: Codacy Badge
+
+.. image:: http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/_images/nbcov.png
+    :target: http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/all_notebooks_coverage.html
+    :alt: Notebook Coverage
+
+This page gives access to the content of practical sessions I give at the
+`ENSAE <http://www.ensae.fr/>`_. They are based on Python. The project
+is hosted on GitHub can be modified by sending me pull requests:
+
+* `GitHub/ensae_teaching_cs <https://github.com/sdpython/ensae_teaching_cs/>`_
+* `documentation <http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx3/index.html>`_
+* `Blog <http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/blog/main_0000.html#ap-main-0>`_
+
+Contributions
+-------------
+
+Started in 2014/04. **Contributors:** `Xavier Dupré <http://www.xavierdupre.fr/>`_,
+Anne Muller, Elodie Royant, Matthieu Bizien,
+Nicolas Rousset, Jérémie Jakubowicz, Gilles Drigout (streaming),
+Gaël Varoquaux, ENSAE's students.
+
+Setup
+-----
+
+`7zip <http://www.7-zip.org/>`_,
+`Anaconda <https://www.continuum.io/downloads>`_,
+2 and 3 (to be installed on the same hard drive than the Jenkins build folder),
+`Chrome <https://www.google.fr/chrome/browser/desktop/>`_,
+`CMake <https://cmake.org/>`_ (to build XGBoost),
+`Graphviz <http://www.graphviz.org/>`_,
+`Git <https://git-scm.com/>`_,
+`GitHub <https://desktop.github.com/>`_,
+`Java 64 bit <https://www.java.com/fr/download/manual.jsp>`_ (for Spark),
+`Jenkins <https://jenkins.io/>`_ (CI),
+`Miktex Basic Installer 64 bit <https://miktex.org/download>`_ (formula in the documentation)
+(check the option to silently install new packages),
+`Pandoc <http://pandoc.org/>`_ (documentation),
+`Python <https://www.python.org/>`_ 3.6, 64 bit
+(do not add the interpreter on the default PATH),
+`R 3.2.2 <https://cran.r-project.org/bin/windows/base/old/3.2.2/>`_,
+`Scite <http://www.scintilla.org/SciTE.html>`_,
+`mingw-w64 <https://mingw-w64.org/doku.php>`_,
+`Visual Studio 2015 Community Edition <https://www.visualstudio.com/fr/vs/community/>`_
+(check C++, C#, Python, CLang) (Cython).
+
+You can install the necessary modules with
+`pymyinstall <https://pypi.python.org/pypi/pymyinstall/>`_
+and type ``pymy_install`` and then remove the modules
+being tested (such as this one).
+*Jenkins* requires a few extensions:
+`Last Console Output <https://wiki.jenkins.io/display/JENKINS/Display+Console+Output+Plugin>`_,
+`Next Executions <https://wiki.jenkins.io/display/JENKINS/Next+Executions>`_,
+`Text File <https://wiki.jenkins-ci.org/display/JENKINS/Text+File+Operations+Plugin>`_.
+For `Jupyter <http://jupyter.org/>`_:
+
+::
+
+    pip install widgetsnbextension
+    jupyter nbextension enable --py --sys-prefix widgetsnbextension
+
+A local PyPi server needs to be installed:
+
+::
+
+    pypi-server.exe -u -p 8067 --disable-fallback ..\..\local_pypi\local_pypi_server
+
+If some Python scripts use
+`keyring <https://pypi.python.org/pypi/keyring>`_
+to retrieve passwords,
+the Jenkins service needs to authentify.
+On *Windows*, it goes through ``services.msc``.
+
+.. _l-HISTORY:
+
+=======
+History
+=======
+
+current - 2018-07-29 - 0.00Mb
+=============================
+
+* `60`: remove dependency on fastcluster (2018-07-29)
+* `40`: ajouter geopandas (2018-07-27)
+* `38`: replace basemap by cartopy (2018-07-27)
+* `42`: split deep learning, make it a separate package (2018-07-02)
+* `59`: fix images on page Tests unitaires, setup et ingéniérie logiciel (correction) (2018-06-08)
+* `58`: remove function based on ffmpeg.zip (2018-05-27)
+* `57`: fix notebook with pytorch (2018-05-27)
+
+0.8.2426 - 2018-05-24 - 6.30Mb
+==============================
+
+* `56`: remove ggplot (2018-05-24)
+* `55`: remove old presentations (2018-05-23)
+* `54`: replaces griddata by matplotlib.tri.Triangulation (2018-05-23)
+* `53`: remove natgrid (2018-05-23)
+* `51`: drops theano (2018-05-22)
+* `50`: split magics commands into two files, one with C#, the other one without (2018-05-22)
+* `49`: extracts the csharp part in a separate module: csharpy (2018-05-22)
+* `48`: remove the custom version of pythonnet and use the official one (2018-05-13)
+* `47`: move CategorytoIntegers into mlinsights (2018-05-08)
+* `44`: replace open_html_form with ipywidgets (2018-04-19)
+* `26`: add content about distributed algorithms (2018-04-17)
+* `37`: move notebooks on spark in a new package (2018-04-14)
+* `45`: fix version of chromedriver in TD2A_Eco_Web_Scraping (2018-04-01)
+* `35`: ajouter quelques notes sur la notion de cout (2018-04-01)
+* `22`: add direct link wherever pyensae download data is used (2018-04-01)
+* `41`: remove skbase..., moved in papierstat, same for cheat sheets (2018-03-09)
+* `36`: iterator correction proposal (RM) (2017-10-03)
+* `33`: add notebook on streaming algorithms (2017-08-29)
+* `28`: aborder d'autres librairies (2017-08-29)
+* `23`: add summary to each notebook for the gallery (2017-08-29)
+* `24`: ajouter des algorithmes numériques (2017-08-21)
+* `34`: lien vers le bon repo pour l'anonymisation (2017-08-06)
+* `31`: rédiger un ou deux notebook sur le traitement du langage (2017-05-05)
+* `29`: techniques de webscrapping (2017-05-05)
+
+0.8.1824 - 2017-04-06 - 6.63Mb
+==============================
+
+* `15`: fix seance_5_intro_et_json.html (formatting + json) (2017-02-11)
+* `18`: add unit test for notebook eco sql, matplotlib (2016-12-27)
+* `12`: intégrer Python pour un économiste (2016-12-27)
+* `8`: insister plus sur les algorithmes numériques pour les 1A écos (2016-12-27)
+* `21`: Add correct definition for dist array in cython 1a tutorial (2016-10-10)
+* `20`: Notebook ac modèles logistiques pour compétition codelab (2016-10-09)
+* `17`: seance 2 eco (2016-10-03)
+* `14`: Td sql (2016-09-25)
+* `11`: @FAQ --> ..faqref (2016-08-04)
+* `7`: complete page on industrial processes (2016-08-03)
+* `10`: changer le style des zones bloc (2016-08-01)
+* `9`: exposé finance, fixer le problème avec les tables d'indicateurs (2016-08-01)
+* `6`: parler des annotations (2016-05-01)
+
+
