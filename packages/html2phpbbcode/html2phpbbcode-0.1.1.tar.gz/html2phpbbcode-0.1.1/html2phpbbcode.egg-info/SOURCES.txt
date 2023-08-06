@@ -1,0 +1,11 @@
+README.md
+setup.py
+html2phpbbcode/__init__.py
+html2phpbbcode/parser.py
+html2phpbbcode/validators.py
+html2phpbbcode.egg-info/PKG-INFO
+html2phpbbcode.egg-info/SOURCES.txt
+html2phpbbcode.egg-info/dependency_links.txt
+html2phpbbcode.egg-info/requires.txt
+html2phpbbcode.egg-info/top_level.txt
+html2phpbbcode/data/defaults.conf
