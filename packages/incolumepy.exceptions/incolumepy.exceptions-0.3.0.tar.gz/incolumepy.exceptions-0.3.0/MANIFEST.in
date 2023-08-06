@@ -1,0 +1,5 @@
+recursive-exclude build *
+recursive-exclude dist *
+recursive-exclude py37 *
+recursive-exclude venv *
+include docs/*.rst
