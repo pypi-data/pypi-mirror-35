@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: jinja2-dev-server
+Version: 0.0.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Eamonn Nugent
+Author-email: eamonn.nugent@demilletech.net
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+
+
+# Flask Dev Server
+
