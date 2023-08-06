@@ -1,0 +1,17 @@
+                new ApiResource
+                {
+                    Name = "{{resource:name}}",
+                    DisplayName = "{{resource:displayname}}",
+                    ApiSecrets =
+                    {
+                        {{resource:secrets}}                        
+                    },
+                    UserClaims =
+                    {
+                        {{resource:userclaims}}
+                    },
+                    Scopes =
+                    {
+                        {{resource:scopes}}
+                    }
+                }
