@@ -1,0 +1,38 @@
+Metadata-Version: 1.0
+Name: python-sentinel
+Version: 2018.8.29.1300
+Summary: motion detection and alerts
+Home-page: https://github.com/wdbm/sentinel
+Author: Will Breaden Madden
+Author-email: wbm@protonmail.ch
+License: GPLv3
+Description: sentinel
+        ========
+        
+        This program is a security monitoring program that uses video to detect
+        motion, that records motion video, can express speech alerts, can
+        express alarms and attempts to communicate alerts as configured.
+        
+        .. figure:: https://raw.githubusercontent.com/wdbm/sentinel/master/media/motion_detection.gif
+           :alt: 
+        
+        setup
+        =====
+        
+        .. code:: bash
+        
+            sudo apt install libopencv-dev python-opencv
+            sudo pip install python_sentinel
+        
+        Install OpenCV 2.4.9.1.
+        
+        Set up scalar, as described `here <https://github.com/wdbm/scalar>`__.
+        
+        usage
+        =====
+        
+        .. code:: bash
+        
+            sentinel --help
+        
+Platform: UNKNOWN
