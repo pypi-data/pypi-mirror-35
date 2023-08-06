@@ -1,0 +1,9 @@
+{% extends "base.html" %} 
+{% block meta_title %}{{ flatpage.flatpageextended.meta_title }}{% endblock %}
+{% block meta_keywords %}{{ flatpage.flatpageextended.meta_keywords }}{% endblock %}
+{% block meta_description %}{{ flatpage.flatpageextended.meta_description }}{% endblock %}
+
+{% block content %}
+	<h1>{{ flatpage.title }}</h1>
+	{{flatpage.content}}
+{% endblock %}
