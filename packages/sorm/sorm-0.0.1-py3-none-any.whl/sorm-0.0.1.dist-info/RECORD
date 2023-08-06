@@ -1,0 +1,11 @@
+sorm/__init__.py,sha256=KEercIq1Wzz-nVZ9i3dQBDBvVi90kC5_E-mk9hoLYU4,270
+sorm/engine.py,sha256=owG1bBW4GFHQCzr5i7CEINnrmpWNiel77p2He_YRlAo,3526
+sorm/errors.py,sha256=Len_BeB2Ilkv1jSo-tX7E6IJhARb7ZvgbSye2MVDzq4,796
+sorm/objects.py,sha256=0UFvhAAErn8QCU38mrZwZ4ZPhfJp3lSu-oKV6RCEmF0,6126
+sorm/orm.py,sha256=OeG6P_I5A8sEYCMzrbIdVDajpLqBnGCzNRTRc8RJvks,11702
+sorm/types.py,sha256=eeHH777h48KfGK5DpPu4p1NngVKxt2a0MRadnNj1V-c,3258
+sorm/utils.py,sha256=0k5pOMma37nWRkSCea4eIcYlCYYpryo6qQrHT_tikP4,368
+sorm-0.0.1.dist-info/METADATA,sha256=Jl4OCHdrsJ4-ZcagV98wdJU9tzE3t7pBDMtlx7UiuFI,3497
+sorm-0.0.1.dist-info/RECORD,,
+sorm-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sorm-0.0.1.dist-info/top_level.txt,sha256=lFTd9KnTmrzXdfqt9wurvDBK4yk6o7MNd9H4vKJo5yk,5
