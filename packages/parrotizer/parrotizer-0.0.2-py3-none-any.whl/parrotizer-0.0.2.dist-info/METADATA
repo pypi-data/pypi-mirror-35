@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: parrotizer
+Version: 0.0.2
+Summary: Turn text into a slackmoji-parrotized text
+Home-page: https://github.com/bradsbrown/parrotizer
+Author: Brad Brown
+Author-email: brad@bradsbrown.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pyperclip
+
+# Parrotizer #
+
+A simple package to turn your text
+into "parrotized" slack emoji.
+
+This is mostly a fun thing
+for my particular work Slack group,
+wherein we have slackmoji ready for
+each individual letter of the alphabet.
+
+

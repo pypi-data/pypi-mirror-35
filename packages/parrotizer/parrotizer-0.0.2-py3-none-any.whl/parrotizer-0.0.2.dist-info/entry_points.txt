@@ -1,0 +1,3 @@
+[console_scripts]
+parrotize = parrotizer:cli_print
+
