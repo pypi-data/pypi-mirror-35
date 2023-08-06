@@ -1,0 +1,14 @@
+README.md
+setup.py
+webhooks_git_automata/__init__.py
+webhooks_git_automata/automata.py
+webhooks_git_automata/providers.py
+webhooks_git_automata/settings.py
+webhooks_git_automata/webhooks.py
+webhooks_git_automata/worker.py
+webhooks_git_automata.egg-info/PKG-INFO
+webhooks_git_automata.egg-info/SOURCES.txt
+webhooks_git_automata.egg-info/dependency_links.txt
+webhooks_git_automata.egg-info/entry_points.txt
+webhooks_git_automata.egg-info/requires.txt
+webhooks_git_automata.egg-info/top_level.txt
