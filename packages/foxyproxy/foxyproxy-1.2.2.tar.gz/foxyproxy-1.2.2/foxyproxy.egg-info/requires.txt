@@ -1,0 +1,4 @@
+cryptography>=1.5.2
+requests>=2.11.1
+coloredlogs>=9.0
+setuptools>=39.0

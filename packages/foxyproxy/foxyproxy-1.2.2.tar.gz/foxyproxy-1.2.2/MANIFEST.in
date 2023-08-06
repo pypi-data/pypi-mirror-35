@@ -1,0 +1,4 @@
+include LICENSE
+include foxyproxy/*
+include *.sh
+include *.md
