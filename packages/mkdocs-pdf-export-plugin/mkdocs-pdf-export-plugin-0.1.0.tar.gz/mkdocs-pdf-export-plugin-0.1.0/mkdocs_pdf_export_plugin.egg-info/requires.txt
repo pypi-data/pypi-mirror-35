@@ -1,0 +1,2 @@
+mkdocs>=0.17
+weasyprint>=0.42
