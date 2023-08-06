@@ -1,0 +1,8 @@
+nameko_stripe/__init__.py,sha256=lRX3cO-DmFkYq93ShAYrgu-nJk7qG9mKk5XF_3sw4DY,31
+nameko_stripe/stripe_dep.py,sha256=rdqPcP5CT_RxeSxHP3w_BhHKsDBl0hwDxZd7kF1WrXg,856
+nameko_stripe/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nameko_stripe/tests/test_nameko_stripe.py,sha256=zsvAM48vT5RK94zYi-9uToZ8wXlo80y99KcGP4NYeas,1671
+nameko_stripe-0.1.3.dist-info/METADATA,sha256=zuK7IPWoe86wZNjAnJM1Dyhvkp15opA4AgoTKtUxl6w,1791
+nameko_stripe-0.1.3.dist-info/RECORD,,
+nameko_stripe-0.1.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+nameko_stripe-0.1.3.dist-info/top_level.txt,sha256=8q6vTnea748d5Kb9TpV2GLm0B3sABjo8i0gKbLZafcU,14
