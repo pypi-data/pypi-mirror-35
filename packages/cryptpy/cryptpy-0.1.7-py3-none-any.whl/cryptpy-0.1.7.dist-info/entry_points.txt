@@ -1,0 +1,3 @@
+[console_scripts]
+cryptpy = __main__:main
+
