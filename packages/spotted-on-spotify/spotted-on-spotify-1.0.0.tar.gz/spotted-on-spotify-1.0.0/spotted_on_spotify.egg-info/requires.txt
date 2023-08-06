@@ -1,0 +1,6 @@
+ffmpeg-normalize
+youtube_dl
+pyacoustid
+spotipy
+clint
+audioread
