@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fhirbase/__init__.py
+fhirbase.egg-info/PKG-INFO
+fhirbase.egg-info/SOURCES.txt
+fhirbase.egg-info/dependency_links.txt
+fhirbase.egg-info/not-zip-safe
+fhirbase.egg-info/requires.txt
+fhirbase.egg-info/top_level.txt
