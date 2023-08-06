@@ -1,0 +1,8 @@
+README.md
+setup.py
+pythontail/__init__.py
+pythontail/pythontail.py
+pythontail.egg-info/PKG-INFO
+pythontail.egg-info/SOURCES.txt
+pythontail.egg-info/dependency_links.txt
+pythontail.egg-info/top_level.txt
