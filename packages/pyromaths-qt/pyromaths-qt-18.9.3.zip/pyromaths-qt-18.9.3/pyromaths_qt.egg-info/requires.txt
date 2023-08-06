@@ -1,0 +1,3 @@
+lxml>=4.2.1
+pyromaths>=18.7
+PyQt5>=5.10

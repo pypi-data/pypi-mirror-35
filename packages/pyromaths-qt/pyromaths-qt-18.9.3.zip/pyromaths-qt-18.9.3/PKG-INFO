@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pyromaths-qt
+Version: 18.9.3
+Summary: Create maths exercises in LaTeX and PDF format -- QT client
+Home-page: http://www.pyromaths.org
+Author: Jérôme Ortais
+Author-email: jerome.ortais@pyromaths.org
+License: GPLv2
+Download-URL: http://www.pyromaths.org/telecharger/
+Project-URL: Documentation, http://pyromaths.readthedocs.org
+Project-URL: Download, https://www.pyromaths.org/telecharger/
+Project-URL: Forum, https://forum.pyromaths.org
+Project-URL: Sources, https://framagit.org/pyromaths/pyromaths
+Project-URL: Tickets, https://framagit.org/pyromaths/pyromaths/issues
+Project-URL: Version en ligne, http://enligne.pyromaths.org/
+Description: [Pyromaths](http://pyromaths.org/) est un programme qui a pour but de créer des exercices type de mathématiques niveau collège et lycée ainsi que leur corrigé. C'est ce qu'on appelle parfois un exerciseur. Contrairement à de nombreux autres projets, Pyromaths a pour objectif de proposer une correction véritablement détaillée des exercices proposés et pas seulement une solution.
+        
+        Il permet par exemple de proposer des devoirs maison aux élèves et de leur distribuer ensuite la correction. Il peut aussi servir à des familles afin qu'un élève puisse travailler un point du programme et se corriger ensuite.
+        
+        Si vous voulez participer à la traduction, consultez [cette page](https://framagit.org/pyromaths/pyromaths-qt/blob/develop/pyromaths/data/locale/TRADUIRE.md).
+        
+        # Installation pour Linux/Windows/Mac
+        
+        Voir [la documentation](https://www.pyromaths.org/installer/)
+        
+        # Installation depuis Pypi
+        
+        Dans un terminal (de préférence dans un *virtualenv*) :
+        
+            pip install pyromaths-qt
+        
+Keywords: exercices math latex school
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Text Processing :: Markup :: LaTeX
+Description-Content-Type: text/markdown
