@@ -1,0 +1,7 @@
+README.md
+setup.py
+mini_patch/__init__.py
+mini_patch.egg-info/PKG-INFO
+mini_patch.egg-info/SOURCES.txt
+mini_patch.egg-info/dependency_links.txt
+mini_patch.egg-info/top_level.txt
