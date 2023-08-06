@@ -1,0 +1,8 @@
+README.md
+setup.py
+payload_wtf/__init__.py
+payload_wtf/pwtf.py
+payload_wtf.egg-info/PKG-INFO
+payload_wtf.egg-info/SOURCES.txt
+payload_wtf.egg-info/dependency_links.txt
+payload_wtf.egg-info/top_level.txt
