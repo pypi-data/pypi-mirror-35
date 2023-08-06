@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+acidoseq/__init__.py
+acidoseq/acidoseq.py
+acidoseq.egg-info/PKG-INFO
+acidoseq.egg-info/SOURCES.txt
+acidoseq.egg-info/dependency_links.txt
+acidoseq.egg-info/entry_points.txt
+acidoseq.egg-info/not-zip-safe
+acidoseq.egg-info/top_level.txt
+map/__init__.py
+map/map.py
