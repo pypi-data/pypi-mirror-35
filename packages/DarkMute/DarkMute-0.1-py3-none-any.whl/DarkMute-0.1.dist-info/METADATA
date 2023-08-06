@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: DarkMute
+Version: 0.1
+Summary: Mute snapcast client playing on raspi3
+Home-page: https://git.xhost.io/jess/Dark-Mute
+Author: Jessica Ward
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Hardware
+Description-Content-Type: text/markdown
+Requires-Dist: RPi.GPIO (==0.6.3)
+Requires-Dist: snapcast (==2.0.8)
+
+# Dark Mute
+
+Dark Mute is python script that mutes snapcast client volume 
+when it senses lights are off in the room.
+
+It's written in Python 3 and requires a  photoresistor-capacitor circuit 
+connected to a Raspberry Pi running Snapcast.
+
+# Setup
+
+* Create and activate Python 3 virtual env
+* `pip install -e .` to install dependencies
+* Build the circuit, connected to GPIO Pin 7 
+* add user to gpio group [/dev/gpiomem] (https://raspberrypi.stackexchange.com/a/40106)  
+
+
