@@ -1,0 +1,15 @@
+altair_recipes/__init__.py,sha256=C46ZDXT32RnthwlMHjZcm5bb8PpMByeERtAefZ2Asko,688
+altair_recipes/autocorrelation.py,sha256=JWrs-AKtjlqHeiSE7oP1TLISwnZGEDvxcJ_n92X066o,1025
+altair_recipes/boxplot.py,sha256=_DQCnh9gauVPx9JxbqYV-rllhodbH57VxSLl1YZV0vY,1169
+altair_recipes/common.py,sha256=Ebn9qHm-abscr7MT2---r9-98MVuv6dySA4U9Tt10eo,4530
+altair_recipes/docstrings.py,sha256=3p1WdeSkRifvYJNpbtG9MhKFhmeeHVeVtXCTBhyHIuc,2013
+altair_recipes/heatmap.py,sha256=vkG8K_qKkz3ERNYXXl_8GpdQaU3OoL7dOFpK7atDB_o,1606
+altair_recipes/histogram.py,sha256=_N-f6nNd_aPEExyr--TtUY14moYejNR9GsE4djwRFGQ,1121
+altair_recipes/qqplot.py,sha256=RlX3X-sm3Q-alfbidSnOPgeWZWt6T3Wm6ibSsIyk93c,474
+altair_recipes/scatter.py,sha256=ZJ7cr6f_eoeX3d7udozr0Tiwe-_9zF3Ba32VCE70veA,1703
+altair_recipes/signatures.py,sha256=50WnxXpHoYgVzyRsOHZhUP3pvM4EyE1wApnx_9lKhD4,1104
+altair_recipes/smoother.py,sha256=ITpkdPs18oBCzpUhwGw4bPOc-WfkYWZxINNjQRADGZY,1338
+altair_recipes-0.2.3.dist-info/METADATA,sha256=GzO__0m0CXnYtrC8AHAtcWIOzXZ0OMtcONFOAK6b7wU,3004
+altair_recipes-0.2.3.dist-info/RECORD,,
+altair_recipes-0.2.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+altair_recipes-0.2.3.dist-info/top_level.txt,sha256=-WJZqzEqtZYBShvOiLGbKYCWB4lvDorlIb6Yr-Lw_Sw,15
