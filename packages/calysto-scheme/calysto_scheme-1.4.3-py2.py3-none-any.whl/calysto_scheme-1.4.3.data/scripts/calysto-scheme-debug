@@ -1,0 +1,5 @@
+#!python
+
+import calysto_scheme
+
+calysto_scheme.scheme.main()
