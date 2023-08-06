@@ -1,0 +1,8 @@
+README.md
+setup.py
+cometml_api/__init__.py
+cometml_api/api.py
+cometml_api.egg-info/PKG-INFO
+cometml_api.egg-info/SOURCES.txt
+cometml_api.egg-info/dependency_links.txt
+cometml_api.egg-info/top_level.txt
