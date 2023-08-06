@@ -1,0 +1,11 @@
+README.md
+setup.py
+tuimoji/__init__.py
+tuimoji/emojis.json
+tuimoji/tuimoji.py
+tuimoji.egg-info/PKG-INFO
+tuimoji.egg-info/SOURCES.txt
+tuimoji.egg-info/dependency_links.txt
+tuimoji.egg-info/entry_points.txt
+tuimoji.egg-info/requires.txt
+tuimoji.egg-info/top_level.txt

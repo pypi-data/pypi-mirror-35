@@ -1,0 +1,3 @@
+[console_scripts]
+tuimoji = tuimoji.tuimoji:main
+
