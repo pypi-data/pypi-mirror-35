@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: objex
+Version: 0.15.dev0
+Summary: object structure exporter
+Home-page: https://github.com/kurtbrose/objex
+Author: Kurt Rose
+Author-email: kurt@kurtrose.com
+License: BSD
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: boltons
+
+*objex: the object structure exporter*
+
+objex allows exporting object structure without
+object data to a sqlite database that can be
+transferred to another machine and debugged
+
+this allows memory leaks to be debugged in
+an offline fashion without exposing customer data
+
+
