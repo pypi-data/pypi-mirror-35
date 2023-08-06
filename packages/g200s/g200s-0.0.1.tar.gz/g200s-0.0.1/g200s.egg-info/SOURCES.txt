@@ -1,0 +1,10 @@
+README.md
+setup.py
+g200s/__init__.py
+g200s/exceptions.py
+g200s/teapot.py
+g200s.egg-info/PKG-INFO
+g200s.egg-info/SOURCES.txt
+g200s.egg-info/dependency_links.txt
+g200s.egg-info/requires.txt
+g200s.egg-info/top_level.txt
