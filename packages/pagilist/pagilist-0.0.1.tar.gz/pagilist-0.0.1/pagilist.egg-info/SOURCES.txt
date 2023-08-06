@@ -1,0 +1,7 @@
+README.md
+setup.py
+pagilist/__init__.py
+pagilist.egg-info/PKG-INFO
+pagilist.egg-info/SOURCES.txt
+pagilist.egg-info/dependency_links.txt
+pagilist.egg-info/top_level.txt

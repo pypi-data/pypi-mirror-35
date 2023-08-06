@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pagilist
+Version: 0.0.1
+Summary: List pagination by page or limit,offset
+Home-page: https://github.com/pypa/sampleproject
+Author: jersobh
+Author-email: jersobh@gmail.com
+License: UNKNOWN
+Description: # Pagilist
+        
+        Simple module to paginate lists using page or limit/offset. Source code available at
+        [Github](https://github.com/jersobh/pagilist).
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
