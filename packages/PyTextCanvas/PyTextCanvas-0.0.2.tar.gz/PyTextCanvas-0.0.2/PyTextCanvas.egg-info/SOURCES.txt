@@ -1,0 +1,9 @@
+README.md
+README.rst
+setup.py
+PyTextCanvas.egg-info/PKG-INFO
+PyTextCanvas.egg-info/SOURCES.txt
+PyTextCanvas.egg-info/dependency_links.txt
+PyTextCanvas.egg-info/requires.txt
+PyTextCanvas.egg-info/top_level.txt
+pytextcanvas/__init__.py
