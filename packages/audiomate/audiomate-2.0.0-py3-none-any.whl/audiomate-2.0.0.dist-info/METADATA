@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: audiomate
+Version: 2.0.0
+Summary: Audiomate is a library for working with audio datasets.
+Home-page: https://github.com/ynop/audiomate
+Author: Matthias Buechi, Andreas Ahlenstorf
+Author-email: buec@zhaw.ch
+License: MIT
+Download-URL: https://github.com/ynop/audiomate/releases
+Keywords: audio music sound corpus dataset
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Provides-Extra: ci
+Provides-Extra: dev
+Requires-Dist: audioread (>=2.1.0)
+Requires-Dist: numpy (>=1.14.0)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: librosa (>=0.6.0)
+Requires-Dist: h5py (>=2.7.1)
+Requires-Dist: networkx (>=2.0)
+Requires-Dist: beautifulsoup4 (>=4.6.0)
+Requires-Dist: lxml (>=4.1.1)
+Requires-Dist: requests (>=2.18.4)
+Provides-Extra: ci
+Requires-Dist: flake8 (==3.5.0); extra == 'ci'
+Requires-Dist: flake8-quotes (==0.12.1); extra == 'ci'
+Provides-Extra: dev
+Requires-Dist: click (==6.7); extra == 'dev'
+Requires-Dist: pytest (==3.3.0); extra == 'dev'
+Requires-Dist: pytest-runner (==3.0); extra == 'dev'
+Requires-Dist: pytest-cov (==2.5.1); extra == 'dev'
+Requires-Dist: requests-mock (==1.4.0); extra == 'dev'
+Requires-Dist: Sphinx (==1.6.5); extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (==0.2.5b1); extra == 'dev'
+
+Audiomate is a library for easy access to audio datasets. It provides the datastructures for accessing/loading different datasets in a generic way. This should ease the use of audio datasets for example for machine learning tasks.
+
+
