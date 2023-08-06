@@ -1,0 +1,10 @@
+alie/VERSION,sha256=6d2FB_S_DG9CRY5BrqgzrQvT9hJycjNe7pv01YVB7Wc,6
+alie/__init__.py,sha256=vDuLo1qbQDGxU1rTHKYvyI3pEXXeHt8C9hYmdz_X9SA,269
+alie/__main__.py,sha256=bM1sWX4wgIgCFFAi9402GTjMZDGfVV-xTP4CCKsK8HE,339
+alie/cli.py,sha256=C4QBZ22qM37HmUO0KlIyMa6GLhgoODCrX1DjD7gYSxA,3527
+alie/data/README.md,sha256=eMBsTHJbN6BGTFzVWNxpAro3k7FIvdIZMWECvqIhJcE,315
+alie-0.1.0.dist-info/METADATA,sha256=KXGFUi68PjiI2vvpqQ-4QGweNg77Sj9X6rUpziNDyGM,1075
+alie-0.1.0.dist-info/RECORD,,
+alie-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+alie-0.1.0.dist-info/entry_points.txt,sha256=b8lLIjOp_wN5gvGGTvTo6xvjxwCaLdPa9X1mbBIXBM0,41
+alie-0.1.0.dist-info/top_level.txt,sha256=GI_0jvDoeaFzkj7jOixOBzEoJJEuEUbK7ydI8zsDNhM,5
