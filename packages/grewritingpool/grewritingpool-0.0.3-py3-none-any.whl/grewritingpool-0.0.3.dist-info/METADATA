@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: grewritingpool
+Version: 0.0.3
+Summary: Python Web Sidper for GRE Writing Pool
+Home-page: https://github.com/patrick330602/grewritingpool
+Author: callmepk
+Author-email: wotingwu@live.com
+License: MIT
+Keywords: gre,writing
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: lxml
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+# Python Web Sidper for GRE Writing Pool
+
+Because why not?
+
+## Usage
+
+```python3
+grewritingpool.py [all|issue|argument]
+```
+
+## License
+
+MIT because I am lazy.
+
