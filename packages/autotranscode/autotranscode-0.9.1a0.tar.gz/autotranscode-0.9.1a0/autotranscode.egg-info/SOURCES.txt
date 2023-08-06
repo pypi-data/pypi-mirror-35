@@ -1,0 +1,9 @@
+README.md
+setup.py
+autotranscode/__init__.py
+autotranscode.egg-info/PKG-INFO
+autotranscode.egg-info/SOURCES.txt
+autotranscode.egg-info/dependency_links.txt
+autotranscode.egg-info/requires.txt
+autotranscode.egg-info/top_level.txt
+bin/autotranscode
