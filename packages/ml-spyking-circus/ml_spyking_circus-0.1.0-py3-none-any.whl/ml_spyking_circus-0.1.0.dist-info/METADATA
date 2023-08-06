@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ml-spyking-circus
+Version: 0.1.0
+Summary: MountainLab wrapper for spyking circus
+Home-page: https://github.com/magland/ml_spyking_circus
+Author: Jeremy Magland
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: mountainlab-pytools
+Requires-Dist: numpydoc
+Requires-Dist: h5py
+
+# ml_spyking_circus
+
+MountainLab wrapper for SpyKING Circus
+
+Conda installation:
+
+```
+conda install -c spyking_circus spyking_circus
+conda install -c flatiron ml_spyking_circus
+```
+
+
+
