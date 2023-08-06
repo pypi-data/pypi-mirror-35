@@ -1,0 +1,11 @@
+README.md
+setup.py
+s3reqs/__init__.py
+s3reqs/cli.py
+s3reqs/utils.py
+s3reqs.egg-info/PKG-INFO
+s3reqs.egg-info/SOURCES.txt
+s3reqs.egg-info/dependency_links.txt
+s3reqs.egg-info/entry_points.txt
+s3reqs.egg-info/requires.txt
+s3reqs.egg-info/top_level.txt
