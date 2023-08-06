@@ -1,0 +1,8 @@
+README.md
+setup.py
+drizzle-deploy/__init__.py
+drizzle_deploy.egg-info/PKG-INFO
+drizzle_deploy.egg-info/SOURCES.txt
+drizzle_deploy.egg-info/dependency_links.txt
+drizzle_deploy.egg-info/not-zip-safe
+drizzle_deploy.egg-info/top_level.txt
