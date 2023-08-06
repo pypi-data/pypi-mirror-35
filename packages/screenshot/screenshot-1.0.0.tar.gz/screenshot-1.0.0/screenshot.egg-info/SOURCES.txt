@@ -1,0 +1,12 @@
+README.md
+setup.py
+screenshot/__init__.py
+screenshot/get_window_id.py
+screenshot/screencapture.py
+screenshot.egg-info/PKG-INFO
+screenshot.egg-info/SOURCES.txt
+screenshot.egg-info/dependency_links.txt
+screenshot.egg-info/entry_points.txt
+screenshot.egg-info/requires.txt
+screenshot.egg-info/top_level.txt
+screenshot.egg-info/zip-safe
