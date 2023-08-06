@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: indented
+Version: 0.9.0
+Summary: Tools for generating Python code and other indented text.
+Home-page: UNKNOWN
+Author: J Uryga
+Author-email: lolzatu2@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/lubieowoce/indented
+Description: # `indented`
+        A library for generating Python code (and other indented text).
+        
+        Made for cases where the `ast` module is too fine-grained
+        and gluing lines with newlines and tabs becomes too tedious.
+        
+        Currently, the documentation resides in the docstrings of `indented.text` and `indented.codegen`.
+        Check them out on [github](https://github.com/lubieowoce/indented).
+        
+        
+Keywords: codegen code generation indented macro
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
