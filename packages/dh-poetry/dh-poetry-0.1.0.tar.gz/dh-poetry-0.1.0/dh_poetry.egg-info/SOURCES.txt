@@ -1,0 +1,10 @@
+README.md
+setup.py
+dh_poetry/__init__.py
+dh_poetry/command_line.py
+dh_poetry.egg-info/PKG-INFO
+dh_poetry.egg-info/SOURCES.txt
+dh_poetry.egg-info/dependency_links.txt
+dh_poetry.egg-info/entry_points.txt
+dh_poetry.egg-info/not-zip-safe
+dh_poetry.egg-info/top_level.txt
