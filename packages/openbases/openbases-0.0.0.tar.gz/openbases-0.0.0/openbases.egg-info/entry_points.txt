@@ -1,0 +1,3 @@
+[console_scripts]
+ob-paper = openbases.cli.paper:main
+
