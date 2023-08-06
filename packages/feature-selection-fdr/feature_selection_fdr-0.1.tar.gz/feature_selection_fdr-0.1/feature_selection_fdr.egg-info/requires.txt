@@ -1,0 +1,9 @@
+numpy
+matplotlib
+cvxopt
+sklearn
+multiprocessing
+statsmodels
+pandas
+glmnet
+scipy
