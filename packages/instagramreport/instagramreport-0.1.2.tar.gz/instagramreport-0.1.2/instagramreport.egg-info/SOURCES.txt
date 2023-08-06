@@ -1,0 +1,10 @@
+README.md
+setup.py
+instagramreport/__init__.py
+instagramreport/reportmaker.py
+instagramreport.egg-info/PKG-INFO
+instagramreport.egg-info/SOURCES.txt
+instagramreport.egg-info/dependency_links.txt
+instagramreport.egg-info/entry_points.txt
+instagramreport.egg-info/requires.txt
+instagramreport.egg-info/top_level.txt
