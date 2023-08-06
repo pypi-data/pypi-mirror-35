@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pzm
+Version: 0.0.3
+Summary: test pip module
+Home-page: https://nosoyyo.github.io
+Author: nosoyyo
+Author-email: oyyoson@gmail.com
+License: WTFPL
+Description: Splice the movie screen captures with subtitle into an     elegant long picture.
+Keywords: splice,movie,subtitle
+Platform: any
