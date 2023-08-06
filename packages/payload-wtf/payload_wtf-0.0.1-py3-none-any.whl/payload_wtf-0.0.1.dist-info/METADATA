@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: payload-wtf
+Version: 0.0.1
+Summary: simple payload with an easy format for building Python APIs (like Django).
+Home-page: https://github.com/yanwarsolah/payload-wtf
+Author: Yanwar Solahudin
+Author-email: yanwarsolah@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Payload WTF
+
+simple payload with an easy format for building Python APIs (like Django).
+As an alternative that frees you to render responses without DRF or something
+that is full of rules.
+
+## Quick Example
+You can use this package is easy:
+
+```python
+payload = PayloadWTF()
+payload.set_state(setter=PayloadWTF.SET_RESULT, data={"data": "Yes this is data from queryset"})
+payload.set_state(setter=PayloadWTF.SET_LINKS, next="http://.../?page=1")
+payload.set_state(setter=PayloadWTF.SET_META, data={'user_activated': {'username': 'yanzen'}})
+print(payload.tojson()) # Or payload.todata() result is dictionary
+```
+
+Result:
+```
+{
+    "results": {"data": "Yes this is data from queryset"},
+    "meta": {"user_activated": {"username": "yanzen"}},
+    "links": {"next": "http://.../?page=1", "prev": ""}
+}
+```
+
+
+
