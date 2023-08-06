@@ -1,0 +1,8 @@
+mlprocessors/__init__.py,sha256=88CRnuPHA8jfCahEtFaNmwDJD4YA28vqsi-zbK7omUQ,363
+mlprocessors/core.py,sha256=dGg042JOofZ0neyKKDc85Zq0VEOGfuksI6r_ps8IyGU,13990
+mlprocessors/registry.py,sha256=K1KHe3N8yQyBwxVJ1i78jM0qvIsXhnye0mmvRJSaQZk,3865
+mlprocessors/validators.py,sha256=HBfEmKQbWIAzyTED8pTJ2jBIZtNXwac_eY8jV0wQAVI,1902
+mlprocessors-0.1.dist-info/METADATA,sha256=hmZIPwvekM34eNiZhYApRK5ilavHnI-wH1AjYe9UeQE,467
+mlprocessors-0.1.dist-info/RECORD,,
+mlprocessors-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+mlprocessors-0.1.dist-info/top_level.txt,sha256=rV1z4EoF4YtfOQIfIOPpUZnMtT40O7SqvT7Em9d2Ue0,13
