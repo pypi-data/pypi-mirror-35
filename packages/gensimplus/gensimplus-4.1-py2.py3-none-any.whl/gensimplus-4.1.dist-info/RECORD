@@ -1,0 +1,15 @@
+gensimplus-4.1.dist-info/DESCRIPTION.rst,sha256=-xpG1X4WZ8sRLxlDG16BRvOTvHcWTNGZIRcsB8WuCCQ,440
+gensimplus-4.1.dist-info/METADATA,sha256=YNBJhRrqi0T4MXbsDAEcENqjiwXOVmkx84TNPS_PReo,1330
+gensimplus-4.1.dist-info/RECORD,,
+gensimplus-4.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+gensimplus-4.1.dist-info/metadata.json,sha256=Cm39KIsXN8LoXkJdNbyrPFjWqhqz7pyKJ-s0AZkCbbw,1041
+gensimplus-4.1.dist-info/top_level.txt,sha256=uLsDT5tjvQJU-8fBV8rnRsdYU_RkPWzqhE3EjdtX9SI,7
+source/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+source/base_interface.py,sha256=9JvYUtf4GbzuAgagmtVbV8-2w88FGHc07ScripnVmnQ,2205
+source/conf.py,sha256=3mV8jpKCter4nBK3RYRqbnRrF8TT5EPsWmSflTahiF4,9197
+source/dictionary_helper.py,sha256=XSug89EqLxTMKcbz51qT4CqnrGoDCC-_HJCdiDBuTj0,2252
+source/gensim_plus_config.py,sha256=Nf21q_3YL0V03Jo58VVBhqpthc9lbi3g8BOoJPF2VXI,1257
+source/model_save_load_helper.py,sha256=WzfRP7_Cu709No6fC-rfiuV9f62Ul853JkNtGQSFvR0,1100
+source/reghelper.py,sha256=U7Erf-bO02rfR1MqiuV0geKftEEXz9Axc7aqdmcswMo,34018
+source/tfidf_helper.py,sha256=mJJkHzyH305D81RG_1Oz1gLkARb5ZPHtJc85s4BZrPk,2875
+source/word2vec_helper.py,sha256=thI3ej8B9c9Rcz7c3i5biA64dg7NPdTBgfJcD68qiDg,6094
