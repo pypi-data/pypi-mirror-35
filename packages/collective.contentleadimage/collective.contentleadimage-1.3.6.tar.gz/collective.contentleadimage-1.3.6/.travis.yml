@@ -1,0 +1,12 @@
+language: python
+python:
+  - 2.7
+env:
+  - PLONE=4.2
+  - PLONE=4.3
+install:
+  - mkdir -p buildout-cache/downloads
+  - python bootstrap.py --version=2.5.3 -c travis-$PLONE.x.cfg
+  - bin/buildout -N -t 5 -c travis-$PLONE.x.cfg
+script: bin/test
+
