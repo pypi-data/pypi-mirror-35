@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+becca_toolbox/LICENSE
+becca_toolbox/__init__.py
+becca_toolbox/feature_tools.py
+becca_toolbox/ffmpeg_tools.py
+becca_toolbox.egg-info/PKG-INFO
+becca_toolbox.egg-info/SOURCES.txt
+becca_toolbox.egg-info/dependency_links.txt
+becca_toolbox.egg-info/not-zip-safe
+becca_toolbox.egg-info/top_level.txt
