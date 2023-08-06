@@ -1,0 +1,15 @@
+python_songpal-0.0.8.dist-info/DESCRIPTION.rst,sha256=spnNozaGgFqXFI-g5nxcxt5nO6S2g5xIHNbPuC-x3pI,6797
+python_songpal-0.0.8.dist-info/METADATA,sha256=Qnheot-QHWw_HBKvCvkoS7tFzUowV4hSehY-bbjGkvE,7454
+python_songpal-0.0.8.dist-info/RECORD,,
+python_songpal-0.0.8.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+python_songpal-0.0.8.dist-info/entry_points.txt,sha256=v8uIDtk6Ga6-onH9iXMlOQpP5Jjj85m0DzFHoIAqvmQ,46
+python_songpal-0.0.8.dist-info/metadata.json,sha256=DhlOrqIS1sqmh20VWJpNSBA9dh2v5xqG72ZNLjKygzg,989
+python_songpal-0.0.8.dist-info/top_level.txt,sha256=33zRxgtDTK2TgtG8TE-y4fgVXy08QBR_bAWWQF7qugY,8
+songpal/__init__.py,sha256=jyS90TWStZzTiaHlYqvWYMmePOg21zO9K63GTTzO9t0,281
+songpal/common.py,sha256=eBqCdA3VJDO8THLkkzWBlH1YlaYk4svjQ5Si2xb-OEA,642
+songpal/containers.py,sha256=7QsBG0DOWy5qM21zRhlhrJCTiF5fwgcA5WZ6TdKPybw,11642
+songpal/device.py,sha256=Ds_Z7kGcfW_2lShBlTA8dfsYlRI1B2Tvev_zqP2yL-w,14568
+songpal/main.py,sha256=n8u2e5ANQkecTgoxx6ggdx-1hJ-bw5fXk2J9NW8LCLM,17652
+songpal/method.py,sha256=-nkuq7VToQPBbGfTgGEAxH0PcLYor9ptsS0bBx7GN6M,8778
+songpal/notification.py,sha256=uCkVZCooNQUQxQLlkrrOvqBj3-Pd8x4FepDXtICIRHE,1319
+songpal/service.py,sha256=PBUlk0JhHu-g8MVfxxsSR1iRMmuuZopzfjHvwliFKoE,6148
