@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: py-change-code
+Version: 0.1.0
+Summary: Convert between simple and traditional Chinese
+Home-page: https://github.com/weaming/py_change_code
+Author: weaming
+Author-email: garden.yuen@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/weaming/py_change_code
+Project-URL: Bug Reports, https://github.com/weaming/py_change_code
+Keywords: language
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# py_change_code
+繁体简体的转换：繁转简 （繁体转简体）、 简转繁体（简体转繁体）
+
+## 本代码遵循的开源协议是：MIT License
+
+
