@@ -1,0 +1,8 @@
+django<1.12,>=1.11
+h5py>=2.2.1
+numpy>=1.6.0
+pillow
+psutil>=2.1.1
+pymodbus>=1.2
+python-daemon>=2.0.0
+pytz
