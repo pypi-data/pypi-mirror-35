@@ -1,0 +1,4 @@
+docker
+robotframework==3.0.4
+requests==2.19.1
+requests-toolbelt==0.8.0
