@@ -1,0 +1,10 @@
+onnx_plaidml/__init__.py,sha256=vBgvFDBu_1WaKhB8e7Jx8Ap7KOmUwh30jcjs9bty-yg,1661
+onnx_plaidml/backend.py,sha256=XIVIAJ5anQVdi0PoswwYSdBltd8AkpcpVnPACEbwMg8,11128
+onnx_plaidml/conversion.py,sha256=eiMidve3p3VUl2-7VsdQmMkdia-tQl8ruHm8fBrju44,661
+onnx_plaidml/opset_onnx.py,sha256=gstw5AWUMWQWE-7X_m_z2DA1YGmyx0g5MpBzseqrXWY,37898
+onnx_plaidml/opset_util.py,sha256=m6RsAf3EW6SriW50zE6FUK8uv26HenrxinL5I6EPNBw,5118
+onnx_plaidml-0.3.5.dist-info/METADATA,sha256=103Ru4SKru3x1q93_d6RzzCAYz9zuBD2xMMI-wiH1bc,1060
+onnx_plaidml-0.3.5.dist-info/RECORD,,
+onnx_plaidml-0.3.5.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+onnx_plaidml-0.3.5.dist-info/entry_points.txt,sha256=kj2b0BAtvdaE7jC-RemIQRpsrHsi0LLC1r-qqrSK3hc,79
+onnx_plaidml-0.3.5.dist-info/top_level.txt,sha256=jzMEAOsIhbj3qjLdoo7HarNfHdFIlJOAyFzNYvF1i3A,13
