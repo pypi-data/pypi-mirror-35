@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+orderedbunch/__init__.py
+orderedbunch/_version.py
+orderedbunch/bunch.py
+orderedbunch/test.py
+orderedbunch.egg-info/PKG-INFO
+orderedbunch.egg-info/SOURCES.txt
+orderedbunch.egg-info/dependency_links.txt
+orderedbunch.egg-info/top_level.txt
