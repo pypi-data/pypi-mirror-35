@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+cli/__lztools_resources.py
+cli/lvault.py
+lztools/ResourceManager.py
+lztools.resources.egg-info/PKG-INFO
+lztools.resources.egg-info/SOURCES.txt
+lztools.resources.egg-info/dependency_links.txt
+lztools.resources.egg-info/entry_points.txt
+lztools.resources.egg-info/not-zip-safe
+lztools.resources.egg-info/requires.txt
+lztools.resources.egg-info/top_level.txt
+lztools/shared_resources/repos.py
+lztools/shared_resources/strings.py
