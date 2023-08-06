@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyxtermjs
+Version: 0.1.0
+Summary: interactive terminal in the browser
+Home-page: https://github.com/cs01/pyxterm.js
+Author: Chad Smith
+Author-email: cs01@users.noreply.github.com
+Keywords: xterm,javascript,terminal-emulators,browser,tty,pty,console,terminal
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: flask-socketio (>=3.0,<4.0)
