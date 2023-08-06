@@ -1,0 +1,7 @@
+README.md
+setup.py
+hurst/__init__.py
+hurst.egg-info/PKG-INFO
+hurst.egg-info/SOURCES.txt
+hurst.egg-info/dependency_links.txt
+hurst.egg-info/top_level.txt
