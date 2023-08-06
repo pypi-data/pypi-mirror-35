@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "shell_utils"
+version = "2.2.1"
+readme = 'readme.md'
+repository = 'https://github.com/knowsuchagency/shell-utils'
+description = "Shell automation tools, like Make on steroids."
+authors = ["Stephan Fitzpatrick <knowsuchagency@gmail.com>"]
+license = "BSD-4-Clause"
+
+[tool.poetry.scripts]
+notify = 'shell_utils.notify:notify_command'
+shell_utils = 'shell_utils.cli:cli'
+run = 'shell_utils.cli:invoke_runner'
+
+[tool.poetry.dependencies]
+python = "*"
+click = "^6.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.6"
+mypy = "^0.620.0"
+poetry = "^0.11.4"
