@@ -1,0 +1,10 @@
+aiohttp_security/__init__.py,sha256=dUvfockbpJFa7g6V7UREK58xRivLIG4F0N3d4xA7NBw,791
+aiohttp_security/abc.py,sha256=uYzI6xjMwXI3BsOmv5Bv6HATTEpgfgSAPiDh3kDjj5M,1489
+aiohttp_security/api.py,sha256=_rf6s_MjEH2SRdU6-EYfaNezbK8hJywZjj0MFr2INFc,5830
+aiohttp_security/cookies_identity.py,sha256=kjxNCbCUr5xZmRFnitt6LEioQfiF000SBRfY3_c0HtQ,887
+aiohttp_security/jwt_identity.py,sha256=uYvdBi9dViGVA4lS4jbFzR77NuSBlQrmakK_yjDsRnY,1205
+aiohttp_security/session_identity.py,sha256=leLjTKWdQRS3m_A9MxOSvfVJBZPjByOHlZTBWmtdmPo,1113
+aiohttp_security-0.3.0.dist-info/METADATA,sha256=Al4RweQ9AWS3_n9tg37LwKVvmeQolz3wezyVAYSi87s,2668
+aiohttp_security-0.3.0.dist-info/RECORD,,
+aiohttp_security-0.3.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+aiohttp_security-0.3.0.dist-info/top_level.txt,sha256=U02yYV4r75ie0c-Qd7YbyI78JOaKo_bw6ms3H5qoBf4,17
