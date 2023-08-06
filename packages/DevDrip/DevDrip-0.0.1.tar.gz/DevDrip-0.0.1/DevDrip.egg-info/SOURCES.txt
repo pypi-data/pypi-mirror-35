@@ -1,0 +1,7 @@
+setup.py
+DevDrip.egg-info/PKG-INFO
+DevDrip.egg-info/SOURCES.txt
+DevDrip.egg-info/dependency_links.txt
+DevDrip.egg-info/top_level.txt
+devdrip/__init__.py
+devdrip/client.py
