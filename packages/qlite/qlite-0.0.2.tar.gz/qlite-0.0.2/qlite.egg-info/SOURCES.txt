@@ -1,0 +1,7 @@
+MANIFEST.in
+README.rst
+setup.py
+qlite.egg-info/PKG-INFO
+qlite.egg-info/SOURCES.txt
+qlite.egg-info/dependency_links.txt
+qlite.egg-info/top_level.txt
