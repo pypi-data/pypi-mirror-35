@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: fullList
+Version: 1.0.2
+Summary: A simple printer of nested lists
+Home-page: https://parustrans.ru
+Author: bereska
+Author-email: bereska@hotmail.com
+License: UNKNOWN
+Description: This is a test module for printing nested lists with each list object on new line with a set number of tab-stops or without the latter by default
+Platform: UNKNOWN
