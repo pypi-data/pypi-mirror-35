@@ -1,0 +1,8 @@
+README.md
+setup.py
+pycodechef/__init__.py
+pycodechef/client.py
+pycodechef.egg-info/PKG-INFO
+pycodechef.egg-info/SOURCES.txt
+pycodechef.egg-info/dependency_links.txt
+pycodechef.egg-info/top_level.txt
