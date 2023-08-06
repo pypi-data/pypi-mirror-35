@@ -1,0 +1,2 @@
+duckietown-shell
+PyYAML
