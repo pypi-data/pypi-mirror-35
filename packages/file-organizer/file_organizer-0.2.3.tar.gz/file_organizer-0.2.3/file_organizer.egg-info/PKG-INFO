@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: file-organizer
+Version: 0.2.3
+Summary: A file organizer based on file suffixes and user chosen file extensions
+Home-page: https://github.com/xlbruce/file-organizer
+Author: Gilson de Paula
+Author-email: gilsonsvieira93@gmail.com
+License: MIT
+Description: # File organizer
+        
+        ## Description
+        A Python file organizer based on optional user defined file extensions.
+        
+        ## Installation
+        
+        Just run `pip install file-organizer`.
+        
+        > Python 3.7+ required
+        
+        ## Command line synopsys
+        
+        ```
+        Usage: organize [OPTIONS] SRC DEST
+        
+        Options:
+          --extensions TEXT       List of extensions to move separated by comma
+          --delete / --no-delete  Whether source files must be deleted after they're
+                                  organized
+          -v, --verbose
+          --help                  Show this message and exit.
+        ```
+        
+        ## Basic usage example
+        ``` $ organize ~/Downloads ~/Organized```
+        
+        Executing the above command, will __move__ all files inside `~/Downloads` into separate folders inside `~/Organized` based each file extension.
+        To __copy__ instead, you can pass the `--no-delete` flag.
+        
+        
+        
+        ### Pull requests are welcome
+        
+        ## TODO
+        
+        - [ ] Add a dry-run option
+        - [ ] Improve code
+        
+Keywords: file,organizer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: POSIX
+Description-Content-Type: text/markdown
