@@ -1,0 +1,7 @@
+README.md
+lwksprefs.py
+setup.py
+lwksprefs.egg-info/PKG-INFO
+lwksprefs.egg-info/SOURCES.txt
+lwksprefs.egg-info/dependency_links.txt
+lwksprefs.egg-info/top_level.txt

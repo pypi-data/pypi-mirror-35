@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: lwksprefs
+Version: 0.1
+Summary: Lightworks NLE preferences reader
+Home-page: https://gitlab.com/marcinjn/lwksprefs
+Author: Marcin Nowak
+Author-email: marcin.j.nowak@gmail.com
+License: UNKNOWN
+Description: # Lightworks NLE preferences reader
+        
+        `lwksprefs` is a little Python module developed
+        for parsing Lightworks preferences.
+        
+        
+        ## Usage
+        
+        ```python
+        import lwksprefs
+        p1 = lwksprefs.parse_user_settings()
+        p2 = lwksprefs.parse('path-to-prefs-file.prefs')
+        ```
+        
+        Currently only key mapping is read. Commands mapped to keyboard
+        shortcuts are availabe as `commands` property:
+        
+        ```
+        print(p1.commands)
+        ```
+        
+        
+        ## Note
+        
+        Lightworks is a professional NLE (non linear editor) developed by
+        EditShare and available natively on Linux platform.
+        
+        For more information please visit: https://www.lwks.com/
+        
+Keywords: lwks lightworks parser
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
