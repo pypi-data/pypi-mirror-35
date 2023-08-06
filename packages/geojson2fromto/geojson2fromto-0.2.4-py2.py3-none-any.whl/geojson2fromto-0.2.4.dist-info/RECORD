@@ -1,0 +1,9 @@
+geojson2fromto/__init__.py,sha256=ZltU1B_--gf5WsKTwoNSDVqFN2dQs2Mlzgn3lgpXBbw,116
+geojson2fromto/__main__.py,sha256=cHGt7T5lUpW42NVjGvLLk1CUZ94LbtK9qKiHS80-DCM,164
+geojson2fromto/library/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geojson2fromto/library/geojson2fromto.py,sha256=Bui0gvedzJuCz3aVlIhI441MsLsdb_n7VCtmSaN7YSY,2530
+geojson2fromto-0.2.4.dist-info/entry_points.txt,sha256=nLOFs44GikIHJY-zv4dSKkUoP45u0Ek5I8L6lSwnE7A,77
+geojson2fromto-0.2.4.dist-info/LICENSE,sha256=Ct6mGZKwA467y2dMA0SvREsTthZcKb9Fb5cSMhc6wtk,1069
+geojson2fromto-0.2.4.dist-info/WHEEL,sha256=Vo0wJseQG1LtHLhQ0LQaU1IXVkM1bdYC-cmyDvS9n3M,97
+geojson2fromto-0.2.4.dist-info/METADATA,sha256=up_dwH2qHon7A9YCMbJI7xLBRK6S6DfwpDsT_tsqAio,387
+geojson2fromto-0.2.4.dist-info/RECORD,,
