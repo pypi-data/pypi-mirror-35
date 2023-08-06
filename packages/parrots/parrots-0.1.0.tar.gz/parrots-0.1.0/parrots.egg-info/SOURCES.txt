@@ -1,0 +1,11 @@
+README.md
+setup.py
+parrots/__init__.py
+parrots/add_speech_word.py
+parrots/num_util.py
+parrots/tts.py
+parrots.egg-info/PKG-INFO
+parrots.egg-info/SOURCES.txt
+parrots.egg-info/dependency_links.txt
+parrots.egg-info/requires.txt
+parrots.egg-info/top_level.txt
