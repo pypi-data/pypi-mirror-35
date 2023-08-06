@@ -1,0 +1,13 @@
+google_documents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google_documents/settings.py,sha256=UnqGfSdgLL1fgvhKTGbSFRng7LHqnFS6YCWrSiA6ht4,280
+google_documents/entities/__init__.py,sha256=sdM7KnrmEbz9P0KA1b6z4KiYd3sEXCx_bL2t8yMCAM0,124
+google_documents/entities/api_service_mixin.py,sha256=ZdxOADcjCDzj0mohWNkdf14pp0lLrfgOK3FVNJs8Teo,547
+google_documents/entities/file.py,sha256=orY1xy1T44dJGLGoZJdvaFyKAE9-V8gjZOyJ0DBjmAA,6231
+google_documents/entities/from_itemable.py,sha256=DqkCCwuETRTDIqDhZK_itGwf69_YOnKiOfunC7Gfq1I,105
+google_documents/entities/manager.py,sha256=uGjwPrEi6oDjzZ_hR2OF3cHExdVdHYTHijWKhxO6DhM,3023
+google_documents/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google_documents/utils/pandas.py,sha256=s84MYX7ARpgKlbxvwy3woTdh4zTMZVJ8dBXd3KVM1_0,3670
+google_documents-0.0.3.dist-info/METADATA,sha256=iwUAfBoiqtlmcm2IO-5o-ewNpIORO5QZwAvF5ZRB-TE,1283
+google_documents-0.0.3.dist-info/RECORD,,
+google_documents-0.0.3.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+google_documents-0.0.3.dist-info/top_level.txt,sha256=spr-Ktwi3fyW1i-QN5rMlWFyushM7XjjYx9qF_AeWLo,17
