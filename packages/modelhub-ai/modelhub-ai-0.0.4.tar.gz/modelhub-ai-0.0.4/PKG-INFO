@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: modelhub-ai
+Version: 0.0.4
+Summary: Crowdsourced through contributions by the research community, modelhub.ai is a repository of deep learning models for various data types.
+Home-page: https://github.com/modelhub-ai
+Author: modelhub
+Author-email: info@modelhub.ai
+License: UNKNOWN
+Description: # modelhub
+        
+        Crowdsourced through contributions by the research community, modelhub.ai is a repository of deep learning models for various data types.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
