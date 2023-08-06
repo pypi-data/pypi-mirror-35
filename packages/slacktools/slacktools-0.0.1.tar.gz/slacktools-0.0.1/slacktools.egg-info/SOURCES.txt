@@ -1,0 +1,10 @@
+README.md
+setup.py
+slacktools/__init__.py
+slacktools/slack.py
+slacktools/verify.py
+slacktools/version.py
+slacktools.egg-info/PKG-INFO
+slacktools.egg-info/SOURCES.txt
+slacktools.egg-info/dependency_links.txt
+slacktools.egg-info/top_level.txt
