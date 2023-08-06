@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyupnptools
+Version: 1.0.0
+Summary: python upnp tools
+Home-page: https://github.com/bjtj/python-upnp-tools
+Author: tj
+Author-email: bjtj10@gmail.com
+License: UNKNOWN
+Description: # python upnp tools
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
