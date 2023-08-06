@@ -1,0 +1,11 @@
+django_scientific-0.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+django_scientific-0.0.1.dist-info/METADATA,sha256=xS1KZ-ikj2GSR7Cw2JjLoj6kIeouHaRh_jUuJ7RgSUg,474
+django_scientific-0.0.1.dist-info/RECORD,,
+django_scientific-0.0.1.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+django_scientific-0.0.1.dist-info/metadata.json,sha256=PeUrr1LM03A14BreGu1frGQPSULcSxiwbD0xmLJnv3w,618
+django_scientific-0.0.1.dist-info/top_level.txt,sha256=c0EkbnT06lp-oxquf5cBCUtRtYrTmiHG3nHwfHzw9CU,6
+djsci/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djsci/drf_fields.py,sha256=W1VM1MA0NR6lseE5Kjl8zDCiRUvk95mcuBkrJgwWcZI,1429
+djsci/fields.py,sha256=wauy1t18ZMRzcxnhn7yQnLJW-yRB7blalffgW0vUvT4,377
+djsci/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djsci/tests/test_fields.py,sha256=dH2Y_P-r4_3dVKZWJTfhby-W80WtSZ4fcitd2iBqXVs,1017
