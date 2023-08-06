@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: BeaconTau
+Version: 0.1.1
+Summary: A package for interacting with BEACON data in python
+Home-page: https://github.com/beaconTau/BeaconTau
+Author: Ben Strutt
+Author-email: strutt@physics.ucla.edu
+License: GPL3
+Description: # BeaconTau
+        
+        A BEACON data analysis package for python3.
+        
+        This package uses [pybind11](https://github.com/pybind/pybind11) to get the raw c-structs from [the BEACON fork of libnuphase](https://github.com/beaconTau/libnuphase) into python.
+        From there all the standard python loveliness is available.
+        
+        ## Flame (Facility for Live Action Monitoring of Events)
+        
+        A prototype online browser based event on BeaconTau and bokeh.
+        
+        ## Version history
+        
+        I'm aiming to keep [libnuphase](https://github.com/beaconTau/libnuphase) version tags in sync with BeaconTau version tags.
+        
+        | Version | Notes                                               |
+        |---------|-----------------------------------------------------|
+        | 0.1.1   | Working local implementation of BeaconTau and Flame |
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX

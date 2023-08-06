@@ -1,0 +1,13 @@
+BeaconTau.cpp
+MANIFEST.in
+README.md
+setup.py
+BeaconTau/BeaconTau.py
+BeaconTau/__init__.py
+BeaconTau.egg-info/PKG-INFO
+BeaconTau.egg-info/SOURCES.txt
+BeaconTau.egg-info/dependency_links.txt
+BeaconTau.egg-info/requires.txt
+BeaconTau.egg-info/top_level.txt
+BeaconTau/Flame/Flame.py
+BeaconTau/Flame/__init__.py
