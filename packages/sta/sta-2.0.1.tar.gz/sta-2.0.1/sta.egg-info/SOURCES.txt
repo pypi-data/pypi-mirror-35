@@ -1,0 +1,7 @@
+README.md
+setup.py
+sta/__init__.py
+sta.egg-info/PKG-INFO
+sta.egg-info/SOURCES.txt
+sta.egg-info/dependency_links.txt
+sta.egg-info/top_level.txt
