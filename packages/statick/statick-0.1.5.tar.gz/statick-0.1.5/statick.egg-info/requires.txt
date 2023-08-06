@@ -1,0 +1,7 @@
+bandit
+cmakelint
+lizard
+pep257
+pep8
+pyflakes
+yamllint
