@@ -1,0 +1,8 @@
+README.md
+setup.py
+sql_mojo_parser/__init__.py
+sql_mojo_parser.egg-info/PKG-INFO
+sql_mojo_parser.egg-info/SOURCES.txt
+sql_mojo_parser.egg-info/dependency_links.txt
+sql_mojo_parser.egg-info/requires.txt
+sql_mojo_parser.egg-info/top_level.txt

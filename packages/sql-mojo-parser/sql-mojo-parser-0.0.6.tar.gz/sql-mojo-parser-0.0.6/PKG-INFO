@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: sql-mojo-parser
+Version: 0.0.6
+Summary: A lax parser for sql-like statements
+Home-page: https://github.com/L3viathan/sql-mojo-parser
+Author: L3viathan
+Author-email: git@l3vi.de
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
