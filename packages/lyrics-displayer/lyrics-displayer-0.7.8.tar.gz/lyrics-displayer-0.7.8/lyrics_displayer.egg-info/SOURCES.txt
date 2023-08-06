@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+bin/sing-along
+lyrics_displayer/__init__.py
+lyrics_displayer/utils.py
+lyrics_displayer.egg-info/PKG-INFO
+lyrics_displayer.egg-info/SOURCES.txt
+lyrics_displayer.egg-info/dependency_links.txt
+lyrics_displayer.egg-info/not-zip-safe
+lyrics_displayer.egg-info/requires.txt
+lyrics_displayer.egg-info/top_level.txt
+lyrics_displayer/players/__init__.py
+lyrics_displayer/players/main.py
+lyrics_displayer/players/sonos.py

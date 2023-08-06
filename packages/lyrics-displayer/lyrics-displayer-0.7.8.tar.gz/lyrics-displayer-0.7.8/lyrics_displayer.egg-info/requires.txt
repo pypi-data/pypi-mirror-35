@@ -1,0 +1,3 @@
+soco
+lyricfetch
+python-magic-bin
