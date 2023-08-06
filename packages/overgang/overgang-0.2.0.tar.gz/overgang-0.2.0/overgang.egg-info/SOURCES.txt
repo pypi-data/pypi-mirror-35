@@ -1,0 +1,16 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+overgang/__init__.py
+overgang/ctmc_fit.py
+overgang/ctmc_fit2.py
+overgang/table_transform.py
+overgang.egg-info/PKG-INFO
+overgang.egg-info/SOURCES.txt
+overgang.egg-info/dependency_links.txt
+overgang.egg-info/not-zip-safe
+overgang.egg-info/requires.txt
+overgang.egg-info/top_level.txt

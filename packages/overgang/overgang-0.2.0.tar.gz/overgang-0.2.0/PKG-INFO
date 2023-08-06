@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: overgang
+Version: 0.2.0
+Summary: transition matrix estimation
+Home-page: http://github.com/kmedian/overgang
+Author: Ulf Hamster
+Author-email: 554c46@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
