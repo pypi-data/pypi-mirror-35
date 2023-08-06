@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: mmchallenge
+Version: 0.5
+Summary: Challenge package for MagicMakers Python
+Home-page: UNKNOWN
+Author: Team_Conception
+Author-email: guillaume.dupuy@magicmakers.fr
+License: MagicMakers
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: birdy
+Requires-Dist: colorama
+Requires-Dist: cryptography
+Requires-Dist: ffmpeg-python
+Requires-Dist: flask
+Requires-Dist: foxdot
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+Requires-Dist: requests
+Requires-Dist: spotipy
+Requires-Dist: termcolor
+
+UNKNOWN
+
+
