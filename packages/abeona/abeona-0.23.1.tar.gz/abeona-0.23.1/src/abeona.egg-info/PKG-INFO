@@ -1,0 +1,52 @@
+Metadata-Version: 1.2
+Name: abeona
+Version: 0.23.1
+Summary: UNKNOWN
+Home-page: https://github.com/winni2k/abeona
+Author: Warren W. Kretzschmar
+Author-email: warrenk@kth.se
+Maintainer: Warren W. Kretzschmar
+Maintainer-email: warrenk@kth.se
+License: Apache-2.0
+Description: abeona
+        ======
+        
+        abeona v0.23.1
+        
+        A simple transcriptome assembler based on kallisto and Cortex graphs.
+        
+        Installation
+        ------------
+        
+        The easiest way to install abeona is into a `conda <https://conda.io/miniconda.html>`_ environment.
+        
+        After activating the conda environment, run:
+        
+        .. code-block:: bash
+        
+            conda install abeona -c conda-forge -c bioconda -c wkretzsch
+        
+        Running
+        -------
+        
+        The principal command is `abeona assemble`. This command assembles transcripts from cleaned
+        short-read RNA-seq reads in FASTA or FASTQ format. For more information, see:
+        
+        .. code-block:: bash
+        
+            abeona assemble --help
+        
+        License
+        -------
+        
+        abeona is distributed under the terms of the
+        `Apache License, Version 2.0 <https://choosealicense.com/licenses/apache-2.0>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
