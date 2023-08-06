@@ -1,0 +1,7 @@
+sql-mojo-parser
+elasticsearch
+click
+python-Levenshtein
+pygments
+prompt_toolkit>=2.0.0
+tabulate

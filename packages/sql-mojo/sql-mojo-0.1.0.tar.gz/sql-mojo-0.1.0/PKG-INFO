@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: sql-mojo
+Version: 0.1.0
+Summary: SQL _all_ the things!
+Home-page: https://github.com/L3viathan/sql-mojo
+Author: The sql-mojo team
+Author-email: git@l3vi.de
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers

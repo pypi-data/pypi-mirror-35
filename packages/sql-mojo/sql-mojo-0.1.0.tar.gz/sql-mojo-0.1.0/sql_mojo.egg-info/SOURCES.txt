@@ -1,0 +1,14 @@
+README.md
+setup.py
+sql_mojo/__init__.py
+sql_mojo/pager.py
+sql_mojo/sql.py
+sql_mojo.egg-info/PKG-INFO
+sql_mojo.egg-info/SOURCES.txt
+sql_mojo.egg-info/dependency_links.txt
+sql_mojo.egg-info/entry_points.txt
+sql_mojo.egg-info/requires.txt
+sql_mojo.egg-info/top_level.txt
+sql_mojo/backends/__init__.py
+sql_mojo/backends/elasticsearch.py
+sql_mojo/backends/filesystem.py

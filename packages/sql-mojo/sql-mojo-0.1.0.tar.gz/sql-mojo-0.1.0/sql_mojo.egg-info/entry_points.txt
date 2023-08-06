@@ -1,0 +1,3 @@
+[console_scripts]
+sql-mojo = sql_mojo:main
+
