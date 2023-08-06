@@ -1,0 +1,10 @@
+iam_profile_faker/__init__.py,sha256=O2bb_D4JXhnCGED1NL-Z0ylA7D_5RvxUkZZNw-NDgWM,201
+iam_profile_faker/cli.py,sha256=bT0RTtDbmtu9KMcf_JiJd-Bo05ZchsXwXmOY9EvRHzQ,1642
+iam_profile_faker/factory.py,sha256=4Ex94FiM4xfCderWtHm3yXZR4rgPbTEOk04OwcT6JjM,11675
+iam_profile_faker/schema.py,sha256=7SXZCWp_exeN-76qNpQ_BmlQS3WVhSiRNzmbay4e2uM,11633
+iam_profile_faker/v2_api.py,sha256=XuIT6Tu-S1rtY9hZb-hzafXOVk4y3xi2wn6V1FUwXRM,1876
+iam_profile_faker-0.3.1.dist-info/METADATA,sha256=wohn-y8Y5shLAY7oFQi_aAN4v4duQrOOZLE3a3K1gK4,2827
+iam_profile_faker-0.3.1.dist-info/RECORD,,
+iam_profile_faker-0.3.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+iam_profile_faker-0.3.1.dist-info/entry_points.txt,sha256=jUDMjefvsaMycgzxslwLKvxpnnUwv85b0otzjUUaxp0,120
+iam_profile_faker-0.3.1.dist-info/top_level.txt,sha256=OkDdMffSdm3NFDZySgTJb8xxqYE6UoDA6quVKKNak0c,18
