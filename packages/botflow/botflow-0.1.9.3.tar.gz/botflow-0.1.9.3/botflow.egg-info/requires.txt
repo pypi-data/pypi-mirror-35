@@ -1,0 +1,4 @@
+aiohttp>=3.3.0
+graphviz
+beautifulsoup4
+lxml
