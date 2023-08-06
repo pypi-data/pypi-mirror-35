@@ -1,0 +1,16 @@
+README.md
+setup.py
+hapdab/Allele.py
+hapdab/Exceptions.py
+hapdab/HapDab.py
+hapdab/RawFile.py
+hapdab/Variant.py
+hapdab/__init__.py
+hapdab.egg-info/PKG-INFO
+hapdab.egg-info/SOURCES.txt
+hapdab.egg-info/dependency_links.txt
+hapdab.egg-info/entry_points.txt
+hapdab.egg-info/requires.txt
+hapdab.egg-info/top_level.txt
+hapdab/cli/__init__.py
+hapdab/cli/hapdab.py
