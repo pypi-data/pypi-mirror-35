@@ -1,0 +1,13 @@
+_wsgi_lineprof.so,sha256=G0zpM7ppzmw1ZGFjkTvsZcVCtlG33v6JHALGvy-Enxs,327638
+wsgi_lineprof-0.5.0.dist-info/RECORD,,
+wsgi_lineprof-0.5.0.dist-info/top_level.txt,sha256=M1K33iC7gLxI0ZFiHxjiZUb77jQ-qT23lLTrmqNWl6A,29
+wsgi_lineprof-0.5.0.dist-info/METADATA,sha256=k9QNa4yIG-X2rTy5nRFobDP1h9mwQWySCRJ-Pr0RAfg,6771
+wsgi_lineprof-0.5.0.dist-info/WHEEL,sha256=M5Ujap42zjfAFnpJOoFU72TFHuBKh-JF0Rqu5vZhkVE,110
+wsgi_lineprof/filters.py,sha256=JgA5sLMlvjb3OCYzczdNIAndWstQojHGbiZ2BQZhYlQ,1833
+wsgi_lineprof/middleware.py,sha256=I8G7jfbou7Unk2r3ch5AiQcZigp21BcaNgt0Uy3F6pw,1638
+wsgi_lineprof/profiler.py,sha256=K7DuCWJcdAHxY1LUilIcYUzNfHOcKaPzur0YqLFzEU4,511
+wsgi_lineprof/types.py,sha256=jZH9Uoabb4soT0-xSjJghXLkQKqZ8C77uEdQAOqQ8Uw,63
+wsgi_lineprof/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wsgi_lineprof/writers.py,sha256=-u3rpazTFkP4CjQoeOgknB1KSt9Bc73uFbWmbZS4TUE,1533
+wsgi_lineprof/stats.py,sha256=ETMfo3oOTwBNMu-_aWl3W2Z3JyGgpEYdcQ9C-o5PfGk,3071
+wsgi_lineprof/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
