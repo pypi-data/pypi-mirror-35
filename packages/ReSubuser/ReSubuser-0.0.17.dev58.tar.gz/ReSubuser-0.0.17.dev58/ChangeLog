@@ -1,0 +1,59 @@
+CHANGES
+=======
+
+* Development modified
+* check or parse
+* Minor modification
+* Add comments + clean code
+* Remove comments
+* Update version for pip package
+* New classe
+* Tune Makefile
+* minor update
+* Update Python file for automatic setup
+* Update Python file for automatic setup
+* update version for unpack
+* Version
+* Add term variable Add directory creation Upgrade version
+* Help message
+* Clean unwanted
+* Tweak cmdline
+* Remove verbose
+* quick fix to run app
+* cmdline
+* split config
+* Gitignore and build process
+* gitignore
+* gitignore
+* License file
+* Migrate to python module
+* Move Sample
+* Help description
+* Add help description
+* Readme from other branch
+* Readme
+* Docker api + clean code
+* Readme plse
+* Add docker Api to build/check container
+* Clean / Check
+* V3
+* copy element
+* Create home folder
+* Adding dynamic uid with pulseaudio
+* Test PulseAudio
+* Autobuild if Dockerfile is available
+* Add Gid/Uid into docker Generation | if needed in dockerfile
+* Atom
+*  minor changes
+* YakYak
+* Add terminal override
+* Add terminal override
+* Documentation
+* Documentation
+* TorBrowser
+* Clean variables
+* Reorder options
+* Adding -c override cmd
+* Clean unneeded files
+* Clean v2
+* Initial

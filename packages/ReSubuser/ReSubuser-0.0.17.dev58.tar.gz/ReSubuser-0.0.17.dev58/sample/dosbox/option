@@ -1,0 +1,11 @@
+{
+	"rights": {
+		"display": true,
+		"ssh": false,
+		"home": true,
+		"daemon": false,
+		"pwd": true,
+		"sound":true
+	},
+	"cmd": "dosbox"
+}
