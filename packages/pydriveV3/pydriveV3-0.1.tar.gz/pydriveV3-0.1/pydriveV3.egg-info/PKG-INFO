@@ -1,0 +1,41 @@
+Metadata-Version: 1.0
+Name: pydriveV3
+Version: 0.1
+Summary: A package that wrap over the google drive v3 apis
+Home-page: https://github.com/Afsalms/pydrive3
+Author: AfsalSalim
+Author-email: afsalms93.mec@gmail.com
+License: UNKNOWN
+Description: # pydrive3
+        ## this app is in development stage. Please test properly before deploy in production
+        
+        Python wrapper for google drive (v3). 
+        
+        ## Installation
+        
+        ### Requirements
+        * Python 
+        * Developer Account in google
+        
+        `$ pip install pydriveV3`
+        
+        ## Usage
+        
+        ```python
+        from pydriveV3 import Client
+        
+        client = Client('service_crendetil.json') #path to credential from google
+        files = client.get_all_files() #list the file shared or owned by the service account
+        ```
+        
+        ## Development
+        ```
+        $ virtualenv foobar
+        $ . foobar/bin/activate
+        $ pip install -e .
+        ```
+        
+        ## Contributing
+        Pull requests are welcome.
+        
+Platform: UNKNOWN
