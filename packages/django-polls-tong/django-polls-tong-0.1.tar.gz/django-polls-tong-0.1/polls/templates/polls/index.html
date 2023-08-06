@@ -1,0 +1,33 @@
+{#在你的 polls 目录下创建一个名为 static 的目录。Django 将在该目录下查找静态文件，#}
+{#这种方式和 Diango 在 polls/templates/ 目录下查找 template 的方式类似。#}
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+{#虽然我们可以像管理模板文件一样，把static文件直接放入polls/static ——而不是创建另一个名为 polls 的子文件夹，#}
+{#不过这实际上是一个很蠢的做法。Django 只会使用第一个找到的静态文件。如果你在其它应用中有一个相同名字的静态文件，#}
+{#jango 将无法区分它们。#}
+
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+{# 使用url内配置的name来对应路由,这样修改url不用改模板文件 #}
+{# 使用app命名空间区分不同app的同名url #}
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+
+
+{#虽然我们现在可以将模板文件直接放在 polls/templates 文件夹中#}
+{#（而不是再建立一个 polls 子文件夹），但是这样做不太好。Django #}
+{#将会选择第一个匹配的模板文件，如果你有一个模板文件正好和另一个应用中的某个模板文件重名，#}
+{#Django 没有办法 区分 它们。我们需要帮助 Django 选择正确的模板，#}
+{#最简单的方法就是把他们放入各自的 命名空间 中，也就是把这些模板放入一个和 #}
+{#自身 应用重名的子文件夹里。#}
+
+
+{#你项目的 TEMPLATES 配置项描述了 Django 如何载入和渲染模板。#}
+{#默认的设置文件设置了 DjangoTemplates 后端，并将 APP_DIRS 设置成了 True。#}
+{#这一选项将会让 DjangoTemplates 在每个 INSTALLED_APPS 文件夹中寻找 "templates" 子目录#}

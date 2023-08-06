@@ -1,0 +1,17 @@
+li a {
+    color: green;
+}
+
+body {
+    background: white url("images/background.gif") no-repeat;
+}
+
+/*接着，我们会创建一个用于存在图像的目录。在 polls/static/polls 目录下创建一个名为 images 的子目录。*/
+/*在这个目录中，放一张名为 background.gif 的图片。*/
+/*换言之，在目录 polls/static/polls/images/background.gif 中放一张图片。*/
+
+/*Warning*/
+/*当然，{% static %} 模板标签在静态文件（例如样式表）中是不可用的， */
+/*因为它们不是由 Django 生成的。你仍需要使用 相对路径 */
+/*的方式在你的静态文件之间互相引用。这样之后，*/
+/*你就可以任意改变 STATIC_URL`（由 :ttag:`static 模板标签用于生成 URL），而无需修改大量的静态文件。*/
