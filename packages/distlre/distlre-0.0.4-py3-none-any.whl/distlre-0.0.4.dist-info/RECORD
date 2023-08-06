@@ -1,0 +1,8 @@
+distlre/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+distlre/distlre.py,sha256=gIAM6AdOUYtetcN3V_4BrFMEXLsVAgHaJnf1BfIebNQ,1944
+distlre/localexecutor.py,sha256=pvbsozsFUcAEMWuXb4lltturRam1QFIxNjfzJCf65FM,1487
+distlre/remoteexecutor.py,sha256=Bsot1m5A-2emmiNflxym1QPrQOAA-tAA7iw9dekmGCM,2004
+distlre-0.0.4.dist-info/METADATA,sha256=GBMCOx7Thp8CKKloYCFSnS6kqzPF4dbxZCW-u7-4WTo,1330
+distlre-0.0.4.dist-info/RECORD,,
+distlre-0.0.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+distlre-0.0.4.dist-info/top_level.txt,sha256=W9dLpzvCHB3U0CQOIJLaQ0UX3TCR0CkKoIosgp7CS28,8
