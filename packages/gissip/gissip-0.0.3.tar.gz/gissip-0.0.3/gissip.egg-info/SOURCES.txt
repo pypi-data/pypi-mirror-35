@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gissip/__init__.py
+gissip/main.py
+gissip.egg-info/PKG-INFO
+gissip.egg-info/SOURCES.txt
+gissip.egg-info/dependency_links.txt
+gissip.egg-info/entry_points.txt
+gissip.egg-info/requires.txt
+gissip.egg-info/top_level.txt
+requirements/requirements.txt
+requirements/test_requirements.txt
