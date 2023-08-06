@@ -1,0 +1,7 @@
+setup.py
+CloudShip.egg-info/PKG-INFO
+CloudShip.egg-info/SOURCES.txt
+CloudShip.egg-info/dependency_links.txt
+CloudShip.egg-info/entry_points.txt
+CloudShip.egg-info/requires.txt
+CloudShip.egg-info/top_level.txt
