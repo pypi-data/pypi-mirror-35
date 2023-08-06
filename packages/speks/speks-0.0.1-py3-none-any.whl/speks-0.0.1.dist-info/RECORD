@@ -1,0 +1,12 @@
+speks/__init__.py,sha256=7Z2IPI9t_M7Cm3Sscw7HlrppprpLMsk7We-E0JeTr0U,171
+speks/_version.py,sha256=Q3xRV0pAs4XJUTcNPmd-Co7-b_QMSayXqQmU3Ik-sEo,497
+speks/gender_lex.py,sha256=goNlco91fn3pqYUk5_vrmkAeuGu9P_PpmDF3k0k2YO8,208079
+speks/gender_predictor.py,sha256=hoBFaNTP8ILqWzpSfPgIKpiiSFEHaqRfnNeW9rf8L3M,1290
+speks/tokenization.py,sha256=3N_JSTSJiF6m6ON6T72ZQkOxtLmlGSkvNtpMX11G81c,6060
+speks-0.0.1.dist-info/METADATA,sha256=gZB2RXVce9Z63dJE5W5wVFe69UTZ67qemlEOp6E9hiE,5534
+speks-0.0.1.dist-info/RECORD,,
+speks-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+speks-0.0.1.dist-info/top_level.txt,sha256=wyuTSGGjlnD3JBTD5FqLLVqhgKWG3ZIN021YtyRz3kk,12
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_prediction.py,sha256=LP6c_PA61ekqRPn61UYVHEQwgS1FBizUQTNfZhPyrww,593
+tests/test_tokenization.py,sha256=iRtiV30pAbJpulvQQUDTr2hlkQZKJAnKlrZcxWHc4EI,1122
