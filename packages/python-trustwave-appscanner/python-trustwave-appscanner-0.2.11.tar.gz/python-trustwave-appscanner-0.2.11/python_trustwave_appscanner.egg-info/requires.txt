@@ -1,0 +1,2 @@
+tapioca-trustwave-appscanner==0.7
+lxml==4.2.1
