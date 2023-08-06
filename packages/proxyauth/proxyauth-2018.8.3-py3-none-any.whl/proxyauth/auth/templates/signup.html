@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</head>
+<body>
+
+
+<section class="hero is-primary is-fullheight">
+    <div class="hero-body is-primary">
+        <form action="/signup" method="POST" style="width: 100%">
+            <div class="container has-text-centered">
+                <div class="column is-one-third is-offset-one-third">
+                    <h3 class="title has-text-grey">注册</h3>
+                    <p class="subtitle has-text-grey">是不是有些迫(ji)不(ke)及(nan)待(nai)了呢？</p>
+                    <div class="box">
+                        <form>
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-large {% if 'username' in errors %} is-danger {% endif %}" type="text" placeholder="{% if 'username' in errors %}这一行出错啦{% else %}用户名{% endif %}" autofocus="" name="username">
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-large {% if 'password' in errors %} is-danger {% endif %}" type="password" placeholder="{% if 'password' in errors %}这一行出错啦{% else %}密码{% endif %}" name="password">
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-large {% if 'repassword' in errors %} is-danger {% endif %}" type="repassword" placeholder="{% if 'repassword' in errors %}这一行出错啦{% else %}再次输入密码{% endif %}" name="repassword">
+                                </div>
+                            </div>
+                            <button class="button is-block is-info is-large is-fullwidth">注册</button>
+                        </form>
+                    </div>
+                    <p class="has-text-grey">
+                        <a href="/signin">登录</a> &nbsp;·&nbsp;
+                        <a href="/help">帮助</a>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
