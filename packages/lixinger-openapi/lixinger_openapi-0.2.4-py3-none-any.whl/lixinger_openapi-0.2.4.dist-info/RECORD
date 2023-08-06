@@ -1,0 +1,9 @@
+lixinger_openapi/__init__.py,sha256=0JKPLXGVUJv_3yG0WKm-rcr7wxPT3mCZsTZussQ8q40,260
+lixinger_openapi/baseapi.py,sha256=qsYAUSGuaOwdjun5DYbJFKR2lE4UFiEdeHWFmsF2GZU,2087
+lixinger_openapi/data.py,sha256=2mP45h-m_ULjRXbQcoKEAM3z4CUEeaIkUIHAtxYKxJI,1934
+lixinger_openapi/json.py,sha256=JRAQaQgdrEilIyxoJkPsZJNQPf3iNTGTv6qu5plzwYQ,1869
+lixinger_openapi/token.py,sha256=OYYAEzP-UjEoZm5IvR2PnAAm4jPZfnMWBvNhcrYiq0M,237
+lixinger_openapi-0.2.4.dist-info/METADATA,sha256=XX5D9sRYjUO3fGAwoGSWutJ4xzBfjBR6qvlENw7eT6I,2844
+lixinger_openapi-0.2.4.dist-info/RECORD,,
+lixinger_openapi-0.2.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+lixinger_openapi-0.2.4.dist-info/top_level.txt,sha256=hOU678Mkw0xyph_wQP0KEZGxgA0Z3IGN3sF2kfH6ukg,17
