@@ -1,0 +1,7 @@
+README.md
+rupdater.py
+setup.py
+rupdater.egg-info/PKG-INFO
+rupdater.egg-info/SOURCES.txt
+rupdater.egg-info/dependency_links.txt
+rupdater.egg-info/top_level.txt
