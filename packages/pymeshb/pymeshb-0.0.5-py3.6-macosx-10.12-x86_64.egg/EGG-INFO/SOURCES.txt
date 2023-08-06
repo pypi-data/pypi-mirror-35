@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+libmeshb_wrap.c
+setup.py
+libmeshb/sources/libmeshb7.c
+libmeshb/sources/libmeshb7.h
+pymeshb.egg-info/PKG-INFO
+pymeshb.egg-info/SOURCES.txt
+pymeshb.egg-info/dependency_links.txt
+pymeshb.egg-info/requires.txt
+pymeshb.egg-info/top_level.txt
