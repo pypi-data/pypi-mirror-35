@@ -1,0 +1,8 @@
+boto3
+dataclasses
+
+[botogen]
+botocore
+html2text==2018.1.9
+wr_profiles<5.0,>=4.0.0
+yapf==0.23.0

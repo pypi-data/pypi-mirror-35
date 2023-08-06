@@ -1,0 +1,3 @@
+autoboto
+botogen
+tests
