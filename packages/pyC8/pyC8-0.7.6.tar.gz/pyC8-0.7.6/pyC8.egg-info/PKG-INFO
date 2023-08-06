@@ -1,0 +1,191 @@
+Metadata-Version: 1.1
+Name: pyC8
+Version: 0.7.6
+Summary: Python Driver for Macrometa Digital Edge Fabric
+Home-page: https://www.macrometa.io
+Author: Macrometa
+Author-email: info@macrometa.co
+License: UNKNOWN
+Description: # PyC8
+        
+        Welcome to the GitHub page for **pyC8**, a Python driver for the Digital Edge Fabric.
+        
+        ## Features
+        
+        
+        - Clean Pythonic interface.
+        - Lightweight.
+        
+        ## Compatibility
+        
+        - Python versions 3.4, 3.5 and 3.6 are supported.
+        
+        ## Build & Install
+        
+        To build,
+        
+        ```bash
+         $ python setup.py build
+        ```
+        To install locally,
+        
+        ```bash
+         $ python setup.py build
+        ```
+        
+        ## Package and Make available through pip
+        
+        Requirements,
+        
+        ```bash
+         $ python3 -m pip install --user --upgrade setuptools wheel
+         $ python3 -m pip install --user --upgrade twine
+        ```
+        
+        Run following command from directory where setup.py is present.
+        
+        ```base
+         $ python3 setup.py sdist bdist_wheel
+        ```
+        
+        Upload the Distribution Archives to pip.org. This step will prompt you for username and password.
+        
+        * username: `macrometaco`
+        * password: `poweruser!@#`
+        
+        ```bash
+         $ twine upload dist/*
+        ```
+        
+        You may need to use `sudo` depending on your environment.
+        
+        ## Getting Started
+        
+        Here is a simple usage example:
+        
+        ```python
+        
+            from c8 import C8Client
+        
+            # Initialize the client for C8DB.
+            client = C8Client(protocol='http', host='localhost', port=8529)
+        
+            # Connect to "_system" database as root user.
+            sys_db = client.db('_system', username='root', password='passwd')
+        
+            # Create a new database named "test".
+            sys_db.create_database('test')
+        
+            # Connect to "test" database as root user.
+            db = client.db('test', username='root', password='passwd')
+        
+            # Create a new collection named "students".
+            students = db.create_collection('students')
+        
+            # Add a hash index to the collection.
+            students.add_hash_index(fields=['name'], unique=True)
+        
+            # Insert new documents into the collection.
+            students.insert({'name': 'jane', 'age': 39})
+            students.insert({'name': 'josh', 'age': 18})
+            students.insert({'name': 'judy', 'age': 21})
+        
+            # Execute an C8QL query and iterate through the result cursor.
+            cursor = db.c8ql.execute('FOR doc IN students RETURN doc')
+            student_names = [document['name'] for document in cursor]
+        
+        ```
+        
+        Here is a multi-tenancy example:
+        
+        ```python
+        
+            from c8 import C8Client
+        
+            # Initialize the client for C8DB.
+            client = C8Client(protocol='http', host='localhost', port=8529)
+        
+            # Connect to "_system" database as root user in tenant "_mm".
+            sys_tenant = client.tenant(name='_mm', dbname='_system', username='root', password='poweruser')
+        
+            # List all the tenants and DC list
+            sys_tenant.tenants()
+            sys_tenant.dclist()
+            sys_tenant.dclist_local() # Get local tenant DC list
+        
+            # Create a new database named 'firefly'.
+            sys_tenant.create_tenant('firefly')
+        
+            # Use newly created tenant 'firefly'.
+            tennt = client.tenant(name='firefly', dbname='_system', username='root', password='')
+        
+            # Add new tenant user "captain_mal".
+            tennt.create_user(username="captain_mal", password='', active=True)
+        
+        ```
+        
+        Here is another example with graphs:
+        
+        ```python
+        
+            from c8 import C8Client
+        
+            # Initialize the client for C8DB.
+            client = C8Client(protocol='http', host='localhost', port=8529)
+        
+            # Connect to "test" database as root user.
+            db = client.db('test', username='root', password='passwd')
+        
+            # Create a new graph named "school".
+            graph = db.create_graph('school')
+        
+            # Create vertex collections for the graph.
+            students = graph.create_vertex_collection('students')
+            lectures = graph.create_vertex_collection('lectures')
+        
+            # Create an edge definition (relation) for the graph.
+            register = graph.create_edge_definition(
+                edge_collection='register',
+                from_vertex_collections=['students'],
+                to_vertex_collections=['lectures']
+            )
+        
+            # Insert vertex documents into "students" (from) vertex collection.
+            students.insert({'_key': '01', 'full_name': 'Anna Smith'})
+            students.insert({'_key': '02', 'full_name': 'Jake Clark'})
+            students.insert({'_key': '03', 'full_name': 'Lisa Jones'})
+        
+            # Insert vertex documents into "lectures" (to) vertex collection.
+            lectures.insert({'_key': 'MAT101', 'title': 'Calculus'})
+            lectures.insert({'_key': 'STA101', 'title': 'Statistics'})
+            lectures.insert({'_key': 'CSC101', 'title': 'Algorithms'})
+        
+            # Insert edge documents into "register" edge collection.
+            register.insert({'_from': 'students/01', '_to': 'lectures/MAT101'})
+            register.insert({'_from': 'students/01', '_to': 'lectures/STA101'})
+            register.insert({'_from': 'students/01', '_to': 'lectures/CSC101'})
+            register.insert({'_from': 'students/02', '_to': 'lectures/MAT101'})
+            register.insert({'_from': 'students/02', '_to': 'lectures/STA101'})
+            register.insert({'_from': 'students/03', '_to': 'lectures/CSC101'})
+        
+            # Traverse the graph in outbound direction, breadth-first.
+            result = graph.traverse(
+                start_vertex='students/01',
+                direction='outbound',
+                strategy='breadthfirst'
+            )
+        ```
+        
+        Check out the `docs` subdirectory for more information.
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Documentation :: Sphinx
