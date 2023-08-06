@@ -1,0 +1,34 @@
+---
+allocations_file_path: >-
+    {{ '/'.join([(playbook_dir | dirname), 'allocations.yml']) }}
+
+# node_types is a dict that defines different sets of node specifications,
+# keyed by a 'node type name' to associate with each set of specifications. An
+# example of the format of this variable is below:
+#
+# node_types:
+#   # The type name.
+#   type0:
+#     # The amount of RAM, in mebibytes.
+#     memory_mb: 1024
+#     # The number of virtual CPUs.
+#     vcpus: 2
+#     # A list of volumes, each with a capacity.
+#     volumes:
+#       - capacity: 2GB
+#     # A list of physical network names to connect to. These physical network
+#     # names should be keyed in `physnet_mappings` in each hypervisor's host
+#     # vars.
+#     physical_networks:
+#       - physnet1
+node_types: {}
+
+# specs is a dict that maps different node type names (define in `node_types`
+# above) to the number of nodes of that type that are to be created. Only node
+# types which you want to create nodes from need be keyed here. For example:
+#
+# specs:
+#   # Create four nodes with the specifications defined in `node_types` by
+#   # 'type0'.
+#   type0: 4
+specs: {}

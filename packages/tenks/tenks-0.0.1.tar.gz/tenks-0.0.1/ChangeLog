@@ -1,0 +1,55 @@
+CHANGES
+=======
+
+0.0.1
+-----
+
+* Use loop rather than with\_items
+* Install package dependencies for virtualbmc daemon
+* Use become=true for OVS bridge creation
+* Fix OVS detection
+* Fix path to playbook in README
+* Move VBMCD service name into vars file
+* Set up VBMCD with Libvirt host setup
+* Check IPMI port count before creating VMs
+* Split Virtual BMC role into two
+* Refer to nodes, rather than VMs
+* Check existence of node types referenced in specs
+* Fix typo in scheduling plugin
+* Extract Virtual BMC tasks into a role
+* Move Python package vars together
+* Gather hypervisor facts in parallel pre-scheduling
+* Fix veth-pair role README typos
+* Use a separate requirements file for venv packages
+* Use Ansible variables for relative paths
+* Configure Virtual BMC
+* Use Ansible variables for relative paths
+* Remove unused variable
+* Remove defaults for specs and vm\_types
+* Remove unnecessary Pip dependency
+* Perform Libvirt host setup after Tenks host setup
+* fix Python doc typo
+* Fix Ansible lint errors
+* Fix PEP8 import errors
+* Add basic package structure
+* Rename flavours to VM types
+* Add downloaded Galaxy roles to .gitignore
+* Add header to Python files
+* Use base log directory
+* Remove 'controllers' group in favour of localhost
+* Add dependency installation to README
+* Add basis for README
+* Formatting fixes
+* Update Libvirt interfaces plugin for veth naming
+* Use more logical names for playbooks
+* Fix veth suffix naming scheme
+* Use contextfilter decorator to simplify plugin
+* WIP: Libvirt VM creation
+* Clean up scheduling code
+* Add libvirt\_vm\_config.py filter plugins
+* Add veth-pair role
+* WIP: Create Libvirt VMs
+* Add basis for VM scheduling to hypervisors
+* Split out group\_vars
+* Add initial host setup
+* Initial commit
