@@ -1,0 +1,42 @@
+Metadata-Version: 1.2
+Name: hubble-github
+Version: 0.0.5
+Summary: The command-line search tool for GitHub.
+Home-page: https://github.com/jos-b/hubble
+Author: Joseph Banks
+Author-email: joseph@josephbanks.me
+License: MIT
+Description: ======
+        Hubble
+        ======
+        
+        Hubble is the command-line search tool for GitHub.
+        
+        Installation
+        ============
+        
+        .. code-block:: bash
+        
+            $ pip install hubble-github
+            ...
+            $ hubble [search terms]
+        
+        Screenshots
+        ===========
+        
+        User search
+        -----------
+        
+        .. image:: https://raw.githubusercontent.com/jos-b/hubble/master/screenshots/torvalds.png
+        
+        Repository search
+        -----------------
+        
+        .. image:: https://raw.githubusercontent.com/jos-b/hubble/master/screenshots/webhook-discord.png
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Requires-Python: >=3.5
