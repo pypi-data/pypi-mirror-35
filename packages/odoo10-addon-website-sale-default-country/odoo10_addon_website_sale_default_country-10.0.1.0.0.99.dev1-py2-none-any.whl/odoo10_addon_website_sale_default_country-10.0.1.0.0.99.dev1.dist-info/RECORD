@@ -1,0 +1,13 @@
+odoo10_addon_website_sale_default_country-10.0.1.0.0.99.dev1-py2.7-nspkg.pth,sha256=BRP8mvEvEhIFmA57wbSTfAVbaAesjZh6WbtWMKUVv1c,1118
+odoo/addons/website_sale_default_country/README.rst,sha256=eEzNLb5cIXYNhNkjBIxA5DU-HaWB_fiYK8HWOXPmc7k,1898
+odoo/addons/website_sale_default_country/__init__.py,sha256=udUDZ6avpY5GYssik7uw7yhj4nCi7wGnqJLJm9ohh7E,185
+odoo/addons/website_sale_default_country/__manifest__.py,sha256=wxxE08cQMHoAHYEPWrsl9E3FMR7wVcxFmmxnY8p7il4,551
+odoo/addons/website_sale_default_country/controllers/__init__.py,sha256=8pJcjAl2CV5aBP7GQOJSPY-j2TbbqYedBBu1vfs3q1Y,178
+odoo/addons/website_sale_default_country/controllers/main.py,sha256=FGDUU-liEjbClTd1yChLJI5Qp4TGow-uoh0FNH8SMk4,559
+odoo/addons/website_sale_default_country/i18n/website_sale_default_country.pot,sha256=tYuE3-MLMMQJE5mpVzIg_IKWcTGkn4R0qtWo-2n_0q0,344
+odoo/addons/website_sale_default_country/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo10_addon_website_sale_default_country-10.0.1.0.0.99.dev1.dist-info/METADATA,sha256=E0XsC_rWY3pgKtvD_E0YQrwa1GTZjxbyI4MzbG-j8q8,2436
+odoo10_addon_website_sale_default_country-10.0.1.0.0.99.dev1.dist-info/RECORD,,
+odoo10_addon_website_sale_default_country-10.0.1.0.0.99.dev1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+odoo10_addon_website_sale_default_country-10.0.1.0.0.99.dev1.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_website_sale_default_country-10.0.1.0.0.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
