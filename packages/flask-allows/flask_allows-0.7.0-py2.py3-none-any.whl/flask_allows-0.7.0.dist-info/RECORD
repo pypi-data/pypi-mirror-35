@@ -1,0 +1,11 @@
+flask_allows/__init__.py,sha256=uFOUBPfyCdBriXk1ZOB764YLCT3a1CSbpYM66XMn0LM,854
+flask_allows/additional.py,sha256=ggo8xksin1XHweFCznH6rcP71GW2my5aQJa4-c_RUsQ,5469
+flask_allows/allows.py,sha256=CowLP9_yOw-0cLeQfijFIM029HgRS1JyLeglauQZZaU,8337
+flask_allows/overrides.py,sha256=mOzjPKhOuvMptzSBBvC2G51ZJMD_8GWfY3CkuIiUIGs,5367
+flask_allows/permission.py,sha256=duy8dApjMhvGezS7Rd1KYmX5KG-kBJvJ-5dAX1Wxogw,2240
+flask_allows/requirements.py,sha256=hDJiJQVspOiRvJZSBDbwnQp8eCftd9RKnpum5SD4O3Q,6378
+flask_allows/views.py,sha256=-PLZZaoeSTvyhD_Q94MtIyj2ypg-nVo35ELHVoSUNh0,5753
+flask_allows-0.7.0.dist-info/METADATA,sha256=ZXatY3Uta4tspvjfz3P4pNu3-wfdfInYuxbyhOml3ec,4862
+flask_allows-0.7.0.dist-info/RECORD,,
+flask_allows-0.7.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+flask_allows-0.7.0.dist-info/top_level.txt,sha256=SiTeA_GGun9MRjuzyKcICsFiTTG8cXIcsSX57DLm23c,13
