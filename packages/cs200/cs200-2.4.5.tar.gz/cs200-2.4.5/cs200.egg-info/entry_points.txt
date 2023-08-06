@@ -1,0 +1,4 @@
+[console_scripts]
+cs200 = cs200.bin:main
+cs200-install = cs200.bin:install
+
