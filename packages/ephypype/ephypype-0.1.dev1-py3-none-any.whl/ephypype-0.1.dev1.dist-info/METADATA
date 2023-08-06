@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ephypype
+Version: 0.1.dev1
+Summary: Definition of functions used                     as Node for electrophy (EEG/MEG)                     pipelines within nipype framework
+Home-page: UNKNOWN
+Author: ['David Meunier', 'Annalisa Pascarella', 'Dmitrii Altukhov']
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: mne (>=0.16)
+Requires-Dist: nipype
+Requires-Dist: configparser
+Requires-Dist: h5py
+
+UNKNOWN
+
+
