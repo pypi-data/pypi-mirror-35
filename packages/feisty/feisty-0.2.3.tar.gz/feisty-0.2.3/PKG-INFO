@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: feisty
+Version: 0.2.3
+Summary: Give your Falcon some Swagger
+Home-page: None
+Author: Adam Gray
+Author-email: acgray@me.com
+Requires-Python: >=3.0.0,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: apispec (>=0.39.0,<0.40.0)
+Requires-Dist: falcon (>=1.4,<2.0)
+Requires-Dist: marshmallow (>=2.15,<3.0)
