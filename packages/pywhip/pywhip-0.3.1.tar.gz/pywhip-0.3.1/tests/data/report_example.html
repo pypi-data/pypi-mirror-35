@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Whip validator report</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <style>
+            body {
+                position: relative;
+            }
+
+            h1, h2, h3, h4 {
+                margin-top: 1rem;
+            }
+
+            main {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .theme-sidebar {
+                position: sticky;
+                top: 2rem;
+                height: calc(100vh - 2rem);
+                overflow-y: auto;
+                }                     
+                .theme-sidebar .nav-link.active {
+                    background: #007bff;
+                    color: white;
+                }
+            
+            footer {
+                background-color: #f5f5f5;
+                border-top: 1px solid #dee2e6;
+                padding: 30px 0;
+            }
+        </style>
+    </head>
+
+    <body data-spy="scroll" data-target="#theme-sidebar-nav">
+        <main class="container">
+            <h1>Whip validator report</h1>
+            <p>Date: 2018-08-22 21:32</p>
+
+            <h2>Summary</h2>
+            
+            <p>Total rows: 5</p>
+
+            
+            <section>
+                <h4>Unknown fields</h4>
+                <p>These fields are described in the whip specifications, but are missing in the data:</p>
+                
+                    <span class="badge badge-secondary">nonExistingColumn</span>
+                
+            </section>
+            
+
+            
+            <section>
+                <h4>Unspecified fields</h4>
+                <p>These fields exist in data, but have no whip specification:</p>
+                
+                    <span class="badge badge-secondary">accessRights</span>
+                
+                    <span class="badge badge-secondary">associatedReferences</span>
+                
+                    <span class="badge badge-secondary">class</span>
+                
+                    <span class="badge badge-secondary">continent</span>
+                
+                    <span class="badge badge-secondary">coordinateUncertaintyInMeters</span>
+                
+                    <span class="badge badge-secondary">countryCode</span>
+                
+                    <span class="badge badge-secondary">dataGeneralizations</span>
+                
+                    <span class="badge badge-secondary">datasetName</span>
+                
+                    <span class="badge badge-secondary">geodeticDatum</span>
+                
+                    <span class="badge badge-secondary">georeferenceRemarks</span>
+                
+                    <span class="badge badge-secondary">id</span>
+                
+                    <span class="badge badge-secondary">identificationVerificationStatus</span>
+                
+                    <span class="badge badge-secondary">informationWithheld</span>
+                
+                    <span class="badge badge-secondary">institutionCode</span>
+                
+                    <span class="badge badge-secondary">kingdom</span>
+                
+                    <span class="badge badge-secondary">lifeStage</span>
+                
+                    <span class="badge badge-secondary">municipality</span>
+                
+                    <span class="badge badge-secondary">nomenclaturalCode</span>
+                
+                    <span class="badge badge-secondary">order</span>
+                
+                    <span class="badge badge-secondary">ownerInstitutionCode</span>
+                
+                    <span class="badge badge-secondary">phylum</span>
+                
+                    <span class="badge badge-secondary">rightsHolder</span>
+                
+                    <span class="badge badge-secondary">samplingEffort</span>
+                
+                    <span class="badge badge-secondary">samplingProtocol</span>
+                
+                    <span class="badge badge-secondary">scientificName</span>
+                
+                    <span class="badge badge-secondary">scientificNameAuthorship</span>
+                
+                    <span class="badge badge-secondary">sex</span>
+                
+                    <span class="badge badge-secondary">stateProvince</span>
+                
+                    <span class="badge badge-secondary">taxonRank</span>
+                
+                    <span class="badge badge-secondary">verbatimCoordinates</span>
+                
+                    <span class="badge badge-secondary">verbatimCoordinateSystem</span>
+                
+                    <span class="badge badge-secondary">verbatimEventDate</span>
+                
+                    <span class="badge badge-secondary">verbatimLocality</span>
+                
+                    <span class="badge badge-secondary">verbatimSRS</span>
+                
+                    <span class="badge badge-secondary">vernacularName</span>
+                
+            </section>
+            
+
+            
+            <section>
+                <h4>General warnings</h4>
+                
+                    <p class="small">Following fields mentioned inside if specifications do not exist inside the document: 'anotherNonExistigColumn'</p>
+                
+            </section>
+            
+
+            <hr>
+
+            <h2>Specifications</h2>
+
+            <div class="row">
+                <div class="col-12 col-md-3 order-md-2 d-none d-md-block theme-sidebar">
+                    <nav id="theme-sidebar-nav">
+                        <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#basisOfRecord">basisOfRecord</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#datasetID">datasetID</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#decimalLatitude">decimalLatitude</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#decimalLongitude">decimalLongitude</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#eventDate">eventDate</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#individualCount">individualCount</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#language">language</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#license">license</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#nonExistingColumn">nonExistingColumn</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#occurrenceID">occurrenceID</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#recordedBy">recordedBy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#type">type</a>
+                            </li>
+                        
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-12 col-md-9 order-md-1">
+                
+                    <h4 id="basisOfRecord">basisOfRecord</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">allowed</div>
+                            <div class="p-2 mr-auto">
+                                <code>HumanObservation, PreservedSpecimen, Occurrence</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;">4</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#basisOfRecord_allowed_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="basisOfRecord_allowed_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>Human Observation</code></td>
+                                            <td>unallowed value Human Observation</td>
+                                            <td>1</td>
+                                            <td>3</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#basisOfRecord_empty_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                    </div>
+                
+                    <h4 id="datasetID">datasetID</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">allowed</div>
+                            <div class="p-2 mr-auto">
+                                <code>http://doi.org/10.15468/njgbmh</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#datasetID_allowed_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#datasetID_empty_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                    </div>
+                
+                    <h4 id="decimalLatitude">decimalLatitude</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#decimalLatitude_empty_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">max</div>
+                            <div class="p-2 mr-auto">
+                                <code>51.51</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;">4</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#decimalLatitude_max_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="decimalLatitude_max_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>58.11234</code></td>
+                                            <td>max value is 51.51</td>
+                                            <td>1</td>
+                                            <td>4</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">min</div>
+                            <div class="p-2 mr-auto">
+                                <code>50.68</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#decimalLatitude_min_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">numberformat</div>
+                            <div class="p-2 mr-auto">
+                                <code>.5</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#decimalLatitude_numberformat_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                    </div>
+                
+                    <h4 id="decimalLongitude">decimalLongitude</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#decimalLongitude_empty_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">max</div>
+                            <div class="p-2 mr-auto">
+                                <code>5.92</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;">4</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#decimalLongitude_max_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="decimalLongitude_max_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>58.0</code></td>
+                                            <td>max value is 5.92</td>
+                                            <td>1</td>
+                                            <td>4</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">min</div>
+                            <div class="p-2 mr-auto">
+                                <code>2.54</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#decimalLongitude_min_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">numberformat</div>
+                            <div class="p-2 mr-auto">
+                                <code>.5</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;">4</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#decimalLongitude_numberformat_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="decimalLongitude_numberformat_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>58.0</code></td>
+                                            <td>numberformat of value '58.0' not in agreement with '.5'</td>
+                                            <td>1</td>
+                                            <td>4</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                    </div>
+                
+                    <h4 id="eventDate">eventDate</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">dateformat</div>
+                            <div class="p-2 mr-auto">
+                                <code>%Y-%m-%d, %Y-%m, %Y</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 60.0%;">3</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#eventDate_dateformat_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="eventDate_dateformat_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>07241981</code></td>
+                                            <td>string format of value '07241981' not compliant with '['%Y-%m-%d', '%Y-%m', '%Y']'</td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>2</td>
+                                            <td><code>1984-07-24/2000-01-03</code></td>
+                                            <td>string format of value '1984-07-24/2000-01-03' not compliant with '['%Y-%m-%d', '%Y-%m', '%Y']'</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#eventDate_empty_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">maxdate</div>
+                            <div class="p-2 mr-auto">
+                                <code>2014-12-31</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;">4</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#eventDate_maxdate_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="eventDate_maxdate_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>07241981</code></td>
+                                            <td>value '07241981' could not be interpreted as date or datetime</td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">mindate</div>
+                            <div class="p-2 mr-auto">
+                                <code>1830-01-01</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;">4</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#eventDate_mindate_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="eventDate_mindate_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>07241981</code></td>
+                                            <td>value '07241981' could not be interpreted as date or datetime</td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                    </div>
+                
+                    <h4 id="individualCount">individualCount</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#individualCount_empty_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">max</div>
+                            <div class="p-2 mr-auto">
+                                <code>200</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#individualCount_max_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">min</div>
+                            <div class="p-2 mr-auto">
+                                <code>1</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#individualCount_min_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">numberformat</div>
+                            <div class="p-2 mr-auto">
+                                <code>x</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#individualCount_numberformat_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                    </div>
+                
+                    <h4 id="language">language</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">allowed_if_1</div>
+                            <div class="p-2 mr-auto">
+                                <code>nl</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#language_allowed_if_1_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>True</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#language_empty_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty_if_1</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#language_empty_if_1_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                    </div>
+                
+                    <h4 id="license">license</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#license_empty_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">stringformat</div>
+                            <div class="p-2 mr-auto">
+                                <code>url</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#license_stringformat_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                    </div>
+                
+                    <h4 id="nonExistingColumn">nonExistingColumn</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">allowed</div>
+                            <div class="p-2 mr-auto">
+                                <code>anything</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#nonExistingColumn_allowed_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#nonExistingColumn_empty_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                    </div>
+                
+                    <h4 id="occurrenceID">occurrenceID</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;">4</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#occurrenceID_empty_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="occurrenceID_empty_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code></code></td>
+                                            <td>empty values not allowed</td>
+                                            <td>1</td>
+                                            <td>5</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                    </div>
+                
+                    <h4 id="recordedBy">recordedBy</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">delimitedvalues</div>
+                            <div class="p-2 mr-auto">
+                                <code></code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;">4</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#recordedBy_delimitedvalues_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="recordedBy_delimitedvalues_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>observerID:JNHRLPPPP | observerID:JNHRLPPPP</code></td>
+                                            <td>duplicate values in delimitedvalues</td>
+                                            <td>1</td>
+                                            <td>3</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#recordedBy_empty_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">maxlength</div>
+                            <div class="p-2 mr-auto">
+                                <code>25</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 40.0%;">2</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#recordedBy_maxlength_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="recordedBy_maxlength_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>observerID:JNHRLPAAA | observerID:JNHRLCTGH</code></td>
+                                            <td>max length is 25</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>2</td>
+                                            <td><code>observerID:JNHRLPPPP | observerID:JNHRLPPPP</code></td>
+                                            <td>max length is 25</td>
+                                            <td>1</td>
+                                            <td>3</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>3</td>
+                                            <td><code>observerID:JNHRLP ; observerID:JNHRLC</code></td>
+                                            <td>max length is 25</td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">maxlength_delimitedvalue</div>
+                            <div class="p-2 mr-auto">
+                                <code>17</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 60.0%;">3</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#recordedBy_maxlength_delimitedvalue_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="recordedBy_maxlength_delimitedvalue_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>observerID:JNHRLP ; observerID:JNHRLC</code></td>
+                                            <td>max length is 17</td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>2</td>
+                                            <td><code>observerID:JNHRLPAAA</code></td>
+                                            <td>max length is 17</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>3</td>
+                                            <td><code>observerID:JNHRLCTGH</code></td>
+                                            <td>max length is 17</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">regex_delimitedvalue</div>
+                            <div class="p-2 mr-auto">
+                                <code>observerID:.+</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#recordedBy_regex_delimitedvalue_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                    </div>
+                
+                    <h4 id="type">type</h4>
+
+                    <div class="d-flex flex-column">
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">allowed</div>
+                            <div class="p-2 mr-auto">
+                                <code>Event, PhysicalObject, Text</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 80.0%;">4</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#type_allowed_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="type_allowed_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>Evet</code></td>
+                                            <td>unallowed value Evet</td>
+                                            <td>1</td>
+                                            <td>4</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">allowed_if_1</div>
+                            <div class="p-2 mr-auto">
+                                <code>Event</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 60.0%;">3</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#type_allowed_if_1_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="type_allowed_if_1_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>PhysicalObject</code></td>
+                                            <td>unallowed value PhysicalObject</td>
+                                            <td>1</td>
+                                            <td>5</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>2</td>
+                                            <td><code>Evet</code></td>
+                                            <td>unallowed value Evet</td>
+                                            <td>1</td>
+                                            <td>4</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">allowed_if_2</div>
+                            <div class="p-2 mr-auto">
+                                <code>PhysicalObject</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#type_allowed_if_2_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">allowed_if_3</div>
+                            <div class="p-2 mr-auto">
+                                <code>Text</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#type_allowed_if_3_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#type_empty_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty_if_1</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#type_empty_if_1_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty_if_2</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#type_empty_if_2_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">empty_if_3</div>
+                            <div class="p-2 mr-auto">
+                                <code>False</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-success" role="progressbar" style="width: 100.0%;">5</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#type_empty_if_3_examples">
+                            
+                            </div>
+                        </div>
+
+                        
+                    
+                        <div class="d-flex flex-row">
+                            <div class="p-2" style="min-width: 25%;">minlength_if_1</div>
+                            <div class="p-2 mr-auto">
+                                <code>10</code>
+                            </div>
+                            <div class="p-2" style="width: 15%;">
+                                <div class="progress">
+                                
+                                   <div class="progress-bar bg-warning" role="progressbar" style="width: 40.0%;">2</div>
+                                
+                                </div>
+                            </div>
+                            <div class="p-2" style="width: 5%;" data-toggle="collapse" data-target="#type_minlength_if_1_examples">
+                            
+                                <i class="fas fa-fw fa-chevron-down"></i>
+                            
+                            </div>
+                        </div>
+
+                        
+                            <div class="collapse" id="type_minlength_if_1_examples">
+                                <table class="table table-striped table-sm mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Data value</th>
+                                            <th>Message</th>
+                                            <th>Failed rows</th>
+                                            <th>First row</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td>1</td>
+                                            <td><code>Event</code></td>
+                                            <td>min length is 10</td>
+                                            <td>2</td>
+                                            <td>1</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>2</td>
+                                            <td><code>Evet</code></td>
+                                            <td>min length is 10</td>
+                                            <td>1</td>
+                                            <td>4</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    
+                    </div>
+                
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-9">
+                        Whip validation executed by <a href="https://inbo.github.io/pywhip/">pywhip</a> using the <a href="https://github.com/inbo/whip">whip</a> syntax, a human and machine-readable syntax to express specifications for data.
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <a href="https://twitter.com/lifewatchinbo"><i class="fab fa-lg fa-twitter"></i></a>
+                        <a href="https://github.com/inbo/whip"><i class="fab fa-lg fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
