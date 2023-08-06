@@ -1,0 +1,3 @@
+[console_scripts]
+corella = corella.cli:main
+
