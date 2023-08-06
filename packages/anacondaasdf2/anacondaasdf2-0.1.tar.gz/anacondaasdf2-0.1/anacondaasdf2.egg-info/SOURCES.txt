@@ -1,0 +1,7 @@
+setup.py
+anacondaasdf2.egg-info/PKG-INFO
+anacondaasdf2.egg-info/SOURCES.txt
+anacondaasdf2.egg-info/dependency_links.txt
+anacondaasdf2.egg-info/not-zip-safe
+anacondaasdf2.egg-info/top_level.txt
+slashdot/__init__.py
