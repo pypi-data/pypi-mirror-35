@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: prvd
+Version: 0.0.1
+Summary: Provide python client
+Home-page: https://github.com/provideservices/provide-python
+Author: Kyle Thomas
+Author-email: kyle@provide.services
+License: UNKNOWN
+Description: # provide-python
+        
+        Provide python client library.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
