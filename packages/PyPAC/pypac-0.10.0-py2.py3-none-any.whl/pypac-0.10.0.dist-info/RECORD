@@ -1,0 +1,15 @@
+pypac/__init__.py,sha256=IDfKRHFCKWAU6VCPHZd-mjTq_BLeTL3cORdc2cdYT3o,884
+pypac/api.py,sha256=d0RbmaMkTLVWmffgwyQ_-OVffZCxLWv9U_1wtvawzXE,14969
+pypac/os_settings.py,sha256=uVNgL8SDvAItWmVtSjSJRHNNMuAwcAYO_KSsIVyvbMU,3560
+pypac/parser.py,sha256=--JsCdLDIDVoBdshLqIk0ZCnJpHh-CGS3c0L1WVkYRQ,5599
+pypac/parser_functions.py,sha256=zsOzAa2I19_m9_7T3y0xvVBwEV4TrJgjmNEm8s00k6g,11936
+pypac/resolver.py,sha256=fZTrEBhWmZ0Rjxbh3RQkBWNp8slDYoGN3iAlizFLqK4,5435
+pypac/windows.py,sha256=xpBAkOZKDa51LOZ3eMN344LnMamtEla4aCJZ2lx7W_4,2191
+pypac/wpad.py,sha256=PunUBQiB33UrJawN-RbfnIaLvmeG85qovxYjmW5kgSE,2324
+pypac-0.10.0.dist-info/DESCRIPTION.rst,sha256=r6pBGhd2N-Ali-5zwd3qpYTBRhc6a92PH0P3kHlGgXw,5300
+pypac-0.10.0.dist-info/LICENSE.txt,sha256=6z17VIVGasvYHytJb1latjfSeS4mggayfZnnk722dUk,10351
+pypac-0.10.0.dist-info/METADATA,sha256=-VEwXe6ovmzSeyaQfa-x6x9kwPvDyPZhPy90bLwi5q0,6562
+pypac-0.10.0.dist-info/RECORD,,
+pypac-0.10.0.dist-info/WHEEL,sha256=BTHHj6QhsHpWhRUrxioIvCAgjx81u-a8gkPTO6bi_A0,116
+pypac-0.10.0.dist-info/metadata.json,sha256=xoYY15CME59l2wy8dR2y_blHNwcAkFjGnoQlMwGfw-E,1453
+pypac-0.10.0.dist-info/top_level.txt,sha256=liK6n-OZGMV19y76LwP9mbAQnd6U8vQT2J-0L56z7wI,6
