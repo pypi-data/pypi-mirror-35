@@ -1,0 +1,13 @@
+slacktools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slacktools/arguments.py,sha256=ELlOF-GfPYJxnswu5E2rdaIqpt6C66iZnS9uGKV4XSA,556
+slacktools/authorization.py,sha256=eP5znK2TzUcKZbar7UhpGAzszgJcpN5XR82BERRy87k,1860
+slacktools/chat.py,sha256=ebdiuCxRcdiKGJGtu5gg9p9il6jnr6avT7HpInN3CWs,1644
+slacktools/message.py,sha256=gLRTt91Jvm4JWx9kvvt_rYCx7PV9C_q15KDmCp_Q_3U,3001
+slacktools/slack.py,sha256=i-kniUI6YCGiD1FG9X-L5k_A2JRFzbgEAAXuQlRIvxM,1989
+slacktools/util.py,sha256=7se3joZZ8oSRe5ByS5W3KDyTqGWFB0X-svlJxFoE2RE,342
+slacktools/verify.py,sha256=gB_g7-r_nlfcbznGgTd-iCnb_hR_3MtE0blnohOVYC4,1289
+slacktools/version.py,sha256=uJgYp5lesohl2BC8iMkIBqqMgs0K9COblq4rHcfgk0c,100
+slacktools-0.0.4.dist-info/METADATA,sha256=rPqWYfep15GqTa-KjuJJvg1uqZQ2x2MPrYS2eebCfG4,3362
+slacktools-0.0.4.dist-info/RECORD,,
+slacktools-0.0.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+slacktools-0.0.4.dist-info/top_level.txt,sha256=I2PVVFAxYmh6mSeOCbV6cmfDbiGWiKRLFkLVfZZBTxE,11
