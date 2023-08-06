@@ -1,0 +1,10 @@
+weplot/__init__.py,sha256=G3s6QO0OHBMmjqiYCj9nT2aXDWXwMlHXWU2ZMe6FaVg,318
+weplot/figure.py,sha256=t-WzUKXlSW_jaTSk33P5u5j97Crg7hmt6LsOYSJTano,4661
+weplot/layout.py,sha256=jhXHCsgS9bVVhzTiJLVW1J2TjUBpkg8N6jKA8H7zSjI,2400
+weplot/plot.py,sha256=KygepgjxXS15uIr9WEEevTIPIATbNG93Yc7S5woQBiM,2620
+weplot/subplot.py,sha256=EhNhpuaxLPI9tBqWWI2dF4zPl_6Z12GrgPAgppwB7Ok,1704
+weplot/version.py,sha256=YQY-i8MemQTvHljd9BqOGgeJEu3FrzurE3TEKDwAax4,22
+weplot-0.0.8.dist-info/METADATA,sha256=mkWK44uZ8PRJndLFqCkeVBFVZIKqlUnNJgaNkknxgnM,646
+weplot-0.0.8.dist-info/RECORD,,
+weplot-0.0.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+weplot-0.0.8.dist-info/top_level.txt,sha256=eiNkr_Scl_5V4KHUWZBQl28RMXEI7Xocw5xY85j3tuw,7
