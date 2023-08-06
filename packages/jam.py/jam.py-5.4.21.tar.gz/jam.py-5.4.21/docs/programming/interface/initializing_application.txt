@@ -1,0 +1,43 @@
+========================
+Initializing application
+========================
+
+The
+:doc:`on_page_loaded </refs/client/task/on_page_loaded>`
+event is the first event triggered by an application on the client.
+
+Write this event handler to initialize the application.
+
+The 
+:doc:`Demo project </intro/demo_project>`
+uses 
+:doc:`on_page_loaded </refs/client/task/on_page_loaded>`
+event handler to dynamically build the application's main menu and attach the
+on click event handler to menu items using JQuery.
+
+.. code-block:: js
+
+  function on_page_loaded(task) {
+      $("title").text(task.item_caption);
+      $("#title").text(task.item_caption);
+       
+      if (task.safe_mode) {
+          $("#user-info").text(task.user_info.role_name + ' ' + task.user_info.user_name);
+          $('#log-out')
+          .show() 
+          .click(function(e) {
+              e.preventDefault();
+              task.logout();
+          }); 
+      }
+      
+      task.set_forms_container($("#content"));
+      
+      if (task.full_width) {
+          $('#container').removeClass('container').addClass('container-fluid');
+      }
+  
+      $('#container').show();
+      task.create_menu($("#menu"), {view_first: true});
+  } 
+

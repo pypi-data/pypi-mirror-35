@@ -1,0 +1,99 @@
+===================
+Field Editor Dialog
+===================
+
+Use the **Field Editor Dialog** to create a new or modify an existing field.
+
+It has two tabs **Field**, **Lookup** and **Interface**.
+
+Field tab
+=========
+
+.. image:: /admin/_images/fields_editr_field.png
+	:align: center
+	:alt: fields_editr_field.png
+
+The **Field** tab have the following fields:
+
+* **Caption** - the field name that appears to users.
+
+* **Name** - the name of the field that will be used in programming code to 
+  get access to the field object. It should be a valid python identifier.
+
+* **Type** - type of the field — one of the following values: 
+
+  * **TEXT**
+  * **INTEGER**
+  * **FLOAT**
+  * **CURRENCY**
+  * **DATE**
+  * **DATETIME**
+  * **BOOLEAN**
+  * **LONGTEXT**
+
+* **Size** - the size of the field for text fields.
+
+* **Default value** - the default value of the field, for boolean fields use 
+  0 or 1
+
+* **Required** - if this checkbox is checked, the post method will raise an 
+  exception if this field is empty. See 
+  :doc:`Modifying datasets </programming/data/modifying_datasets>`. 
+
+* **Read only** - this checkbox is checked, the field value can not be changed 
+  in the interface controls created by the
+  :doc:`create_inputs </refs/client/item/m_create_inputs>`
+  method on the client.
+
+Lookup tab
+==========
+
+.. image:: /admin/_images/fields_editr_lookup.png
+	:align: center
+	:alt: fields_editr_lookup.png
+
+
+* **Lookup item** - the lookup item for 
+  :doc:`Lookup fields </programming/data/lookup_fields>`
+
+* **Lookup field** - the lookup field for 
+  :doc:`Lookup fields </programming/data/lookup_fields>`
+
+* **Lookup field 2** - the lookup field 2 for 
+  :doc:`Lookup fields </programming/data/lookup_fields>`
+
+* **Lookup field 3** - the lookup field 3 for 
+  :doc:`Lookup fields </programming/data/lookup_fields>`
+
+* **Master field** - the master field for 
+  :doc:`Lookup fields </programming/data/lookup_fields>`
+
+* **Typeahead** - if this checkbox is checked, typeahead is enabled for the
+  lookup field
+
+* **Lookup value list** - use it to specify a
+  :doc:`lookup list </admin/lookup_lists>`
+  for an integer field
+
+
+Interface tab
+=============
+
+.. image:: /admin/_images/fields_editr_interface.png
+	:align: center
+	:alt: fields_editr_interface.png
+
+
+* **Alignment** - determines the alignment of text in the controls that display 
+  this field.
+
+* **Placeholder** - use this attribute to specify the placeholder that will be
+  displayed by the field input.
+
+* **Help** - if any text / html-message is specified, a question mark will be 
+  displayed to the right of the input, so when the user moves the mouse pointer 
+  over this mark, a pop-up window appears displaying this message.
+
+
+  
+  
