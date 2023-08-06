@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: animals_math
+Version: 0.0.5
+Summary: A package for animals and their math
+Home-page: https://github.com/thunder-B
+Author: thunderB
+Author-email: thunderB@protonmail.com
+License: MIT
+Description: # animals_math package
+        
+        This is a sandbox to learn how to build packages
+        
+Platform: UNKNOWN

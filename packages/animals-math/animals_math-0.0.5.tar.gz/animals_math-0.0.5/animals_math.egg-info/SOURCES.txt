@@ -1,0 +1,11 @@
+README.md
+setup.py
+animals/__init__.py
+animals/animalMath.py
+animals/anims/Animal.py
+animals/anims/Owl.py
+animals/anims/__init__.py
+animals_math.egg-info/PKG-INFO
+animals_math.egg-info/SOURCES.txt
+animals_math.egg-info/dependency_links.txt
+animals_math.egg-info/top_level.txt
