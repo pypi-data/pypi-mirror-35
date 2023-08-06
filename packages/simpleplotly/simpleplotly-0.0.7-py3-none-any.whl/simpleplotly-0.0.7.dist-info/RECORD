@@ -1,0 +1,10 @@
+simpleplotly/__init__.py,sha256=5NeRcrwHcbiJ75SkXQ3lWVcpiRENiuLaFVPWYkXNLOc,343
+simpleplotly/figure.py,sha256=el0-hN30JGFfFXlKjFqaxZo4N35VnX8P2TIjaKIoGgg,4686
+simpleplotly/layout.py,sha256=tdrB2xCHXwXigdalp1RptgxoS9GrK5rAjyzToURGq_A,2425
+simpleplotly/plot.py,sha256=h7wcB_8TDNgIeDsBxrcv33nqydK2dxIsP9cnOUZmMY0,2645
+simpleplotly/subplot.py,sha256=Q0iY1RsJdwhO5IKsB7gkdBmZ0VuWk4E6jGq6ccwztP4,1729
+simpleplotly/version.py,sha256=mYBppkGduH9_TxJ2x6edmfvN-B14uI8ZL4mVdTCUs_Y,47
+simpleplotly-0.0.7.dist-info/METADATA,sha256=kISdL0Q7tWjxGskJZB1CySeLeGFLaCqRpmVjpTNwGTM,664
+simpleplotly-0.0.7.dist-info/RECORD,,
+simpleplotly-0.0.7.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+simpleplotly-0.0.7.dist-info/top_level.txt,sha256=Qu5y1d0VwV4-wp4r2Pcz-Vqq0Qyj0GNPrdwNh2xFUM4,13
