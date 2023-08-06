@@ -1,0 +1,9 @@
+README.md
+setup.py
+edp_redy/__init__.py
+edp_redy/session.py
+edp_redy.egg-info/PKG-INFO
+edp_redy.egg-info/SOURCES.txt
+edp_redy.egg-info/dependency_links.txt
+edp_redy.egg-info/requires.txt
+edp_redy.egg-info/top_level.txt
