@@ -1,0 +1,11 @@
+verifai_sdk/__init__.py,sha256=FSoeh_UTx6N2UawtT_kvSWThDIsvT7YvqwbSMPSmtl8,238
+verifai_sdk/document.py,sha256=Pii1pQoRMGL36KZAZcFvo42cZadiyYbGA82spUnfCSM,17765
+verifai_sdk/id_model.py,sha256=fF4zvAC-2KgT6ncTsyiJzm4b4VJphHnO2nPsYpXTrfY,1492
+verifai_sdk/pdf_support.py,sha256=-fDFRodd6RegfZ8ZiM6nsxJpxXTpX6r219Ezsz1d1CE,2843
+verifai_sdk/service.py,sha256=XalvlHtmMs-RLqNIy7bkJOBPlBKaAgqk8ztK3KOgUJI,9075
+verifai_sdk/version.py,sha256=-nPYne6czH7aT0mXg8nhD8W2H1LlATdR7vZDYE8ffsA,17
+verifai_sdk-1.1.0.dist-info/LICENSE.txt,sha256=4Nmhl3fW9XQZUeuqeAzv_rj0vnIMplm6ZNxIJn4NNi8,11341
+verifai_sdk-1.1.0.dist-info/METADATA,sha256=xZsunCjejpGwR5kD64qyqPJmH0EIh0Xj80YBynKZ-10,2323
+verifai_sdk-1.1.0.dist-info/RECORD,,
+verifai_sdk-1.1.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+verifai_sdk-1.1.0.dist-info/top_level.txt,sha256=cKEFTGqNUE3-oVN-uulxwo4VHD4gOwTQM6g0qXjSjQQ,12
