@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: becca
+Version: 0.10.0
+Summary: A general learning algorithm
+Home-page: http://github.com/brohrer/becca
+Author: Brandon Rohrer
+Author-email: brohrer@gmail.com
+License: MIT
+Download-URL: https://github.com/brohrer/becca/archive/master.zip
+Platform: UNKNOWN
+Requires-Dist: becca-test
+Requires-Dist: becca-toolbox
+Requires-Dist: becca-viz
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
