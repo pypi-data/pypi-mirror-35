@@ -1,0 +1,10 @@
+phonenumbers
+pillow==5.0.0
+django<2.2,>=1.11
+django-oscar>=1.6
+django-phonenumber-field<2.1,>=2.0
+
+[test]
+pytest>=3.6.0
+pytest-django
+django-webtest==1.9.3
