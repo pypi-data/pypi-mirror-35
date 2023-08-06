@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kyk
+Version: 1.4.7
+Summary: sass, css, js minifier watchscript
+Home-page: https://github.com/atrautsch/kyk
+Author: atrautsch
+Author-email: atrautsch@cs.uni-goettingen.de
+License: UNKNOWN
+Keywords: minifier watchscript
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: csscompressor
+Requires-Dist: colorama
+Requires-Dist: jsmin
+Requires-Dist: libsass
+Requires-Dist: pyinotify
+Requires-Dist: pyaml
+
+UNKNOWN
+
+
