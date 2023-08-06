@@ -1,0 +1,6 @@
+opsworks-cli
+setup.py
+opsworks_cli.egg-info/PKG-INFO
+opsworks_cli.egg-info/SOURCES.txt
+opsworks_cli.egg-info/dependency_links.txt
+opsworks_cli.egg-info/top_level.txt
