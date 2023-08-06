@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: machinae
+Version: 1.4.1
+Summary: Machinae Security Intelligence Collector
+Home-page: http://hurricanelabs.github.io/machinae/
+Author: Steve McMaster
+Author-email: mcmaster@hurricanelabs.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 5 - Production/Stable
