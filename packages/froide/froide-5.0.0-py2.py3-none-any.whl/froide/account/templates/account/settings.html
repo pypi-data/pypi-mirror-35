@@ -1,0 +1,109 @@
+{% extends 'account/base.html' %}
+
+{% load i18n %}
+{% load form_helper %}
+
+{% block title %}{% trans "Account Settings" %}{% endblock %}
+
+{% block app_body %}
+
+<div class="row">
+  <div class="col-lg-8">
+    <h2>{% trans "Account Settings" %}</h2>
+  </div>
+  <div class="col-lg-4">
+    <a href="{% url 'account-show' %}" class="btn btn-secondary pull-right">
+      {% trans "back to your account" %}
+    </a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+    <dl>
+      <dt>
+        {% blocktrans %}Your name:{% endblocktrans %}
+      </dt>
+      <dd>{{ user.get_full_name }}</dd>
+      {% if user.organisation %}
+      <dt>
+        {% blocktrans %}Your Organisation:{% endblocktrans %}
+      </dt>
+      <dd>
+        {{ user.organisation }}
+      </dd>
+      {% endif %}
+      <dt>
+        {% trans "Account Privacy:" %}
+      </dt>
+      <dd>
+      {% if user.private %}
+        <i class="fa fa-lock"></i>
+        {% blocktrans %}Your name is hidden on the web (this page is only visible to you).{% endblocktrans %}
+      {% else %}
+        {% blocktrans %}Your name is visible.{% endblocktrans %}
+      {% endif %}
+      </dd>
+    </dl>
+
+    <div id="change-user-now" class="card mb-3">
+      <h5 class="card-header">
+        {% trans "Change details" %}
+      </h5>
+      <div class="card-body">
+        <form action="{% url 'account-change_user' %}" method="post" id="change-address">
+          {% csrf_token %}
+          {% if change_form %}
+            {% render_form change_form %}
+          {% else %}
+            {% render_form user.get_change_form %}
+          {% endif %}
+          <button type="submit" class="btn btn-secondary">
+            {% blocktrans %}Save changes{% endblocktrans %}
+          </button>
+        </form>
+      </div>
+    </div>
+
+    {% include "account/includes/change_password_form.html" %}
+
+    {% block post_password %}{% endblock %}
+
+    <hr/>
+
+    <div id="delete-account-section" class="card">
+      <h5 class="card-header">
+        {% blocktrans %}Delete your account{% endblocktrans %}
+      </h5>
+      <div class="card-body">
+        <div class="alert alert-error">
+          <h4>
+            <i class="fa fa-fire"></i>
+            {% trans "Danger: deleting your account cannot be undone." %}
+            <i class="fa fa-fire"></i>
+          </h4>
+          <form action="{% url 'account-delete_account' %}" method="post">
+            {% csrf_token %}
+            {% render_form user_delete_form %}
+            <p>
+              {% blocktrans %}Your FOI requests will not be removed. Only your personal information connected with your account will be removed.{% endblocktrans %}
+            </p>
+            <button type="submit" class="btn btn-danger">
+              <i class="fa fa-warning" aria-hidden="true"></i>
+              {% blocktrans %}Delete account{% endblocktrans %}
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    {% if froide.api_activated %}
+      <div class="text-muted text-right mt-3">
+        <a class="btn btn-sm btn-light" href="{% url 'oauth2_provider:list' %}">
+          {% trans "Your OAuth Applications" %}
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,93 @@
+{% extends 'foirequest/base.html' %}
+
+{% load i18n %}
+{% load static %}
+{% load markup %}
+{% load foirequest_tags %}
+{% load block_helper %}
+
+
+{% block title %}{{ object.title }}{% endblock %}
+
+{% block metadescription %}{{ object.description }}{% endblock %}
+
+{% block extra_head %}
+  {% if not object.private %}
+    <meta name="robots" content="noindex"/>
+  {% endif %}
+
+  <link rel="self" type="text/html" href="{% url 'foirequest-project' slug=object.slug %}"/>
+  <link rel="canonical" href="{% url 'foirequest-project' slug=object.slug %}"/>
+
+  {% if user.is_staff %}
+    {% with object.get_set_tags_form as set_tags_form %}
+      {{ set_tags_form.media.css }}
+    {% endwith %}
+  {% endif %}
+{% endblock %}
+
+{% block app_body %}
+  <h1>
+    {{ object.title }}
+  </h1>
+
+  <p>
+    {% blocktrans with date=object.created|date:"SHORT_DATE_FORMAT" num=object.request_count %}
+    Created on {{ date }} with currently {{ num }} requests.
+    {% endblocktrans %}
+    {% if object.public %}
+      {% trans "This project and all its requests are <strong>public</strong>." %}
+    {% else %}
+      {% trans "This project and all its requests are <strong>not public</strong>." %}
+    {% endif %}
+  </p>
+
+  <table class="table table-hover table-sm">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">
+          {% trans "status" %}
+        </th>
+        <th scope="col">
+          {% trans "last message" %}
+        </th>
+        <th scope="col">
+          {% trans "public body" %}
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for req in object.foirequest_set.all %}
+      <tr>
+        <td>
+          {{ req.project_order }}
+        </td>
+        <td>
+          <a href="{{ req.get_absolute_url }}">
+            {{ req.get_status_display }}
+          </a>
+        </td>
+        <td>
+          <a href="{{ req.get_absolute_url }}">
+            {{ req.last_message|date:"SHORT_DATE_FORMAT" }}
+          </a>
+        </td>
+        <td>
+          <a href="{{ req.public_body.get_absolute_url }}">
+            {{ req.public_body.name }}
+          </a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% if team_form %}
+    {% trans "Assign team to project" as legend %}
+    {% trans "Set team for project" as submit_button %}
+    {% url 'foirequest-project_set_team' slug=object.slug as submit_url %}
+    {% include "team/_assign_team_form.html" with object=object form=team_form submit_url=submit_url legend=legend submit_button=submit_button %}
+  {% endif %}
+
+{% endblock %}

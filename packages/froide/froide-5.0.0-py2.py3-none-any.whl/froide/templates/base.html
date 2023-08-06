@@ -1,0 +1,57 @@
+{% extends "scaffold.html" %}
+
+{% load i18n %}
+{% load static %}
+
+{% load block_helper %}
+
+{% block css %}
+  {% addtoblock "css" %}<link href="{% static 'css/main.css' %}" rel="stylesheet">{% endaddtoblock %}
+  {{ block.super }}
+{% endblock %}
+
+
+{% block body_tag %}
+  {% block top_block %}
+  {% endblock %}
+
+  {% block navbar %}
+    {% include "header.html" %}
+  {% endblock %}
+
+  {% block body_wrapper %}
+  <main class="main">
+
+    {% block index_banner %}{% endblock %}
+    {% block foisite_advice %}{% endblock %}
+
+    {% block dryrun_notice %}
+      {% if froide.dryrun %}
+        <div class="alert alert-danger">
+          {% blocktrans %}This site is currently in dry run mode. All Public Body mail will go to this mail server:{% endblocktrans %} {{ froide.dryrun_domain }}
+        </div>
+      {% endif %}
+    {% endblock %}
+
+    {% block messages %}
+      {% include "snippets/messages.html" %}
+    {% endblock messages %}
+
+    {% block body %}
+      <div class="container mb-5 mt-3">
+        {% block app_body %}{% endblock %}
+      </div>
+    {% endblock %}
+  </main>
+  {% endblock %}
+
+{% block footer_container %}
+  {% include "footer.html" %}
+{% endblock %}
+
+{% endblock body_tag %}
+
+{% block scripts %}
+  {% addtoblock "js" %}<script async src="{% static "js/main.js" %}"></script>{% endaddtoblock %}
+  {{ block.super }}
+{% endblock %}
