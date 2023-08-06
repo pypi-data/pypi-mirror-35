@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sixfab-cellulariot
+Version: 1.0
+Summary: sixfab cellular iot linux library
+Home-page: https://github.com/sixfab/Sixfab_RPi_CellularIoT_Library
+Author: Yasin Kaya
+Author-email: yasinkaya.121@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Adafruit-GPIO (>=0.9.3)
+Requires-Dist: pyserial
+Requires-Dist: adafruit-ads1x15
+
+UNKNOWN
+
+
