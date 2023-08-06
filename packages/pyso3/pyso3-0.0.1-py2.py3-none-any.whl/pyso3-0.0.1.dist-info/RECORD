@@ -1,0 +1,14 @@
+pyso3/__init__.py,sha256=A_E10gdbWo9h2OIqOopEYRYn2RSl33TUwByE3-mAq0U,168
+pyso3/check.py,sha256=ckY_mgbmLuEJREBMbhqO2oSp2pwYC6Um7q22YzoSRyk,312
+pyso3/generate.py,sha256=Ongl01rFwF29idlxXzcQQUKTpRmrpD2x58P0QWH6m3g,232
+pyso3/quaternion.py,sha256=3KH1E2DO_ogwzMvw4_EXCNpvUgB1biKHPeiZzAfCdws,941
+pyso3/rodriguez.py,sha256=kcZ88v1xxDv8ShKgrk8GjYKsyuqqEQO23-wRvT6DqyQ,1644
+pyso3-0.0.1.dist-info/LICENSE.txt,sha256=YaNvFCJf3baqFf_1xoRFBQjj4R3H6jKMkU__yNn_Zss,1079
+pyso3-0.0.1.dist-info/METADATA,sha256=QBoTZ9BLJ1CufcfDmz-Mdr46LzMHPKys0b7zkqzEVfQ,525
+pyso3-0.0.1.dist-info/RECORD,,
+pyso3-0.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pyso3-0.0.1.dist-info/top_level.txt,sha256=mxYqtWXjw4SGzMgq4RtxObX61ZR33yuLO6w-R5LROdg,11
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_generate.py,sha256=QEU0aTaGAAlrCCIRuBEz3fdzWzNYFOPlgZwKFfIEYwM,283
+test/test_quaternion.py,sha256=PYmzMXqIj8stC8ezRLZYOQRf_Wb_8qsbPXGJmV8gBd0,749
+test/test_rodriguez.py,sha256=0f1U9_Asrv6KjHcRGmM4ENwLrrD77ayWT-NWHcLSHr0,1733

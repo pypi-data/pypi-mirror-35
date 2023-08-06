@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyso3
+Version: 0.0.1
+Summary: A minimal package for dealing with rotation matrices
+Home-page: https://github.com/hoj201/pyso3
+Author: Henry Jacobs
+Author-email: hoj201@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+## Description
+This is a work in progress.  My first project to post to pypi.
+
+## Testing
+Run
+```
+$ python -m unittest discover -v
+```
+
+
