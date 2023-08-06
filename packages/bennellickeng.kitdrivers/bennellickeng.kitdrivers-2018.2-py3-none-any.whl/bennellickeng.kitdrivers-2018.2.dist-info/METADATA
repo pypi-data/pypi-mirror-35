@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: bennellickeng.kitdrivers
+Version: 2018.2
+Summary: Bennellick Engineering Kit Drivers
+Home-page: https://bitbucket.org/bennellickeng/kit-drivers/
+Author: Bennellick Engineering Limited
+Author-email: info@bennellick.com
+License: BSD 3-clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: boltons (>=17.0.0)
+Requires-Dist: numpy
+Requires-Dist: scikit-rf (>=0.14.0)
+Requires-Dist: matplotlib
+
+# Bennellick Engineering Limited Kit Drivers
+
+This python package consists of various driver classes used by BEL to control pieces of test equipment.
+
+## Machine-wide install for development
+
+~~~
+#!bash
+pip install -U --user -e .
+~~~
+
+This will install the package in 'editable' mode (`-e`), which means any changes made in this repository will be available immediately to all scripts importing the package. The above command only needs to be re-run if changes are made to `setup.py`.
+
+## Usage
+
+Once installed, the package `bennellickeng` can be imported and used. See the [examples](examples) directory for examples of usage.
+
+As well as installing a python package some command line utilities are also installed:
+
+### `bel-scopegrab`
+
+Grab screenshot of a scope over USB:
+
+~~~
+#!bash
+bel-scopegrab foobar
+# foobar.png will have been created
+~~~
+
+## Releasing
+
+This project uses zest.releaser to manage packaging and releases. Simply run 'fullrelease' from within the pipenv.
+
+
