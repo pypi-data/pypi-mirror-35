@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dlgo
+Version: 0.2
+Summary: Deep Learning and the Game of Go
+Home-page: http://github.com/maxpumperla/deep_learning_and_the_game_of_go
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy (<=1.14.5)
+Requires-Dist: tensorflow (==1.10.1)
+Requires-Dist: keras (==2.2.2)
+Requires-Dist: gomill
+Requires-Dist: Flask (>=0.10.1)
+Requires-Dist: Flask-Cors
+Requires-Dist: future
+Requires-Dist: h5py
+Requires-Dist: six
+
+UNKNOWN
+
+
