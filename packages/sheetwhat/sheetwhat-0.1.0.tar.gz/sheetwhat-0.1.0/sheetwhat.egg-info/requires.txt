@@ -1,0 +1,2 @@
+protowhat>=1.1.2
+glom>=18.3.1
