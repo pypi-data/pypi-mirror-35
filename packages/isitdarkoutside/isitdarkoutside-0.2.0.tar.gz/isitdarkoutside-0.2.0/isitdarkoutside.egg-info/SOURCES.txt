@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+isitdarkoutside/__init__.py
+isitdarkoutside/command_line.py
+isitdarkoutside/isitdarkoutside.py
+isitdarkoutside.egg-info/PKG-INFO
+isitdarkoutside.egg-info/SOURCES.txt
+isitdarkoutside.egg-info/dependency_links.txt
+isitdarkoutside.egg-info/entry_points.txt
+isitdarkoutside.egg-info/not-zip-safe
+isitdarkoutside.egg-info/requires.txt
+isitdarkoutside.egg-info/top_level.txt
