@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: passa
+Version: 0.1.0
+Summary: A resolver implementation for generating and interacting with Pipenv-compatible Lockfiles.
+Home-page: https://github.com/sarugaku/passa
+Author: Dan Ryan
+Author-email: dan@danryan.co
+License: ISC License
+Keywords: dependency resolver,package management,package resolver,resolver,pip,pipenv,requirementslib,pipfile,dependencies,dependency management
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7,!=3.0,!=3.1,!=3.2,!=3.3
+Provides-Extra: tests
+Requires-Dist: appdirs
+Requires-Dist: distlib
+Requires-Dist: packaging
+Requires-Dist: pip-shims (>=0.1.2)
+Requires-Dist: plette[validation] (>=0.1.1)
+Requires-Dist: requests
+Requires-Dist: resolvelib (!=1.0.0.dev0,>=0.2.1)
+Requires-Dist: requirementslib (>=1.1.1)
+Requires-Dist: six
+Requires-Dist: vistir (>=0.1.4)
+Provides-Extra: tests
+Requires-Dist: pytest-xdist; extra == 'tests'
+Requires-Dist: pytest-timeout; extra == 'tests'
+Requires-Dist: pytest-cov; extra == 'tests'
+Requires-Dist: pytest; extra == 'tests'
+
+===================================================
+Passa: Resolver implementation for Pipfile projects
+===================================================
+
+.. image:: https://img.shields.io/pypi/v/passa.svg
+    :target: https://pypi.python.org/pypi/passa
+
+.. image:: https://img.shields.io/pypi/l/passa.svg
+    :target: https://pypi.python.org/pypi/passa
+
+.. image:: https://api.travis-ci.com/sarugaku/passa.svg?branch=master
+    :target: https://travis-ci.com/sarugaku/passa
+
+.. image:: https://img.shields.io/pypi/pyversions/passa.svg
+    :target: https://pypi.python.org/pypi/passa
+
+.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
+    :target: https://saythanks.io/to/techalchemy
+
+.. image:: https://readthedocs.org/projects/passa/badge/?version=master
+    :target: http://passa.readthedocs.io/en/master/?badge=master
+    :alt: Documentation Status
+
+
+Installation
+============
+
+Install from PyPI_::
+
+    $ pipenv install --pre passa
+
+Install from GitHub_::
+
+    $ pipenv install -e git+https://github.com/sarugaku/passa.git#egg=passa
+
+
+.. _PyPI: https://www.pypi.org/project/passa
+.. _GitHub: https://github.com/sarugaku/passa
+
+
+
+.. _Summary:
+
+Summary
+=======
+
+**Passa** is a resolver layer which is designed for performing dependency
+resolution using a stateful backtracking algorithm to resolve dependency
+conflicts gracefully and with minimal intervention.  It is implemented using
+the directed acyclic graph built in resolvelib_. **Passa** is intended to
+operate on a Pipfile_ in order to produce a Lockfile in a valid state.  It
+was designed to be used as the backing resolver for Pipenv_ and is built on
+top of elements from requirementslib_, the current interface layer between Pipenv's requirements and its internals.
+
+.. _Pipenv: https://github.com/pypa/pipenv
+.. _pipfile: https://github.com/sarugaku/pipfile
+.. _resolvelib: https://github.com/sarugaku/resolvelib
+.. _requirementslib: https://github.com/sarugaku/requirementslib
+
+
+
+.. _Usage:
+
+Usage
+=====
+
+Loading a *Pipfile*
+-------------------
+
+You can use Passa to import your **Pipfile** project, and resolve its
+dependencies::
+
+    pipenv run python -m passa path/to/project
+
+Pass the `--output` flag to control how the lock file is outputed. Possible
+values are `print` (the default, prints to stdout), `write` (write to
+Pipfile.lock in the project root), and `none` (suppress the output).
+
+
