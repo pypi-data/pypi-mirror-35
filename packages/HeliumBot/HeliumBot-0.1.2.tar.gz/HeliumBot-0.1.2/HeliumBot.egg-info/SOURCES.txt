@@ -1,0 +1,8 @@
+README.md
+setup.py
+HeliumBot.egg-info/PKG-INFO
+HeliumBot.egg-info/SOURCES.txt
+HeliumBot.egg-info/dependency_links.txt
+HeliumBot.egg-info/requires.txt
+HeliumBot.egg-info/top_level.txt
+heliumbot/plugins/pyworld.py
