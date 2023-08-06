@@ -1,0 +1,16 @@
+tensorflowonspark/TFCluster.py,sha256=EJ_tJuO2377JnAaNip4ckK76E38PO12JlVRKz4Rnjac,15262
+tensorflowonspark/TFManager.py,sha256=dWNTP2AipDvXuyYal4AiSmptbA7MTLEtjJZxDrSHV50,2236
+tensorflowonspark/TFNode.py,sha256=4ZxSvlQ-RxnWze-fJp1T0C21-7aA6mEZsf8QfYAshBI,11502
+tensorflowonspark/TFSparkNode.py,sha256=xIl45gXgVkawXe7x5P4wkoLabspv6DbwnD3TVD_gdOs,21465
+tensorflowonspark/__init__.py,sha256=wPapdvMwaBFy30taIbCzNP3CfBYmq6eJEIPY1ZRmMPs,133
+tensorflowonspark/dfutil.py,sha256=VW7vYpPWfIEZp3UPNLAoms35y7-gMw2-Av8itHSYwPc,8205
+tensorflowonspark/gpu_info.py,sha256=HLBkiTPPb7EMrFEL56AQZTyE8VC2h4827-D5JNSMLt8,5925
+tensorflowonspark/marker.py,sha256=0uMb14zYEamYMi06swKUjbsEXf111Yx1TqO_TgEIoRs,480
+tensorflowonspark/pipeline.py,sha256=64sska_ht4EAwSGdMG59w9TZvZI2QJ58Hq-P2FDsR04,24353
+tensorflowonspark/reservation.py,sha256=8WpkdDpSQr5JFibGAY_Sttf6sAY4mrYmZRuX054C_2o,7502
+tensorflowonspark/reservation_client.py,sha256=BvmrXlvU9vf7umIPkCfc_-CYRLNOqsI665d2qMeddcc,524
+tensorflowonspark/util.py,sha256=RIQtDwkzLCJFHFwRTMiUU0-jVE8GD8c19Am0xlAv7Vw,1372
+tensorflowonspark-1.3.3.dist-info/METADATA,sha256=KVV3qGZmXpPFSclSqxT5BGnVtT-zJIFyw0rZSGvZxeI,865
+tensorflowonspark-1.3.3.dist-info/RECORD,,
+tensorflowonspark-1.3.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+tensorflowonspark-1.3.3.dist-info/top_level.txt,sha256=D4aBZ7KTYjIO9bUP1MyQefkr79u2ZElXpKX5x__KUOs,18
