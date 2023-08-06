@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nbconvert-utils
+Version: 0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.6.0
+Requires-Dist: nbconvert
+
+UNKNOWN
+
+
