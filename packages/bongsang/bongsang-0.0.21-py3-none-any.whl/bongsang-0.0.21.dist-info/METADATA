@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bongsang
+Version: 0.0.21
+Summary: Bongsang PID
+Home-page: https://github.com/bongsang/bongsang
+Author: Bongsang Kim
+Author-email: UNKNOWN
+License: MIT
+Keywords: PID Reinforcement Learning RL Control
+Platform: UNKNOWN
+Requires-Dist: zeep
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# Bongsang PID
+## Global Impact
+
+
