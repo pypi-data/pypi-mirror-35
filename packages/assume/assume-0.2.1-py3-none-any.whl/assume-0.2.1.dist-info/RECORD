@@ -1,0 +1,8 @@
+assume-0.2.1.dist-info/METADATA,sha256=emohjYJ-D22XyOOV0jJXoQMiG5FqjXIijHhITwIU03k,3161
+assume-0.2.1.dist-info/RECORD,,
+assume-0.2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+assume-0.2.1.dist-info/entry_points.txt,sha256=H2fPOqkaa_Xfj-itJUaBqxoGBKvyrVUyIgjnqIyEfDE,65
+assume-0.2.1.dist-info/top_level.txt,sha256=80izRtmQec0_s2u1tUG2_ZPmQ6_5c7lfFgKdzF4MZTc,23
+aws_assume_role_helper/__init__.py,sha256=J2OjyYf8eRB5doz_AmdxVcDqpDoDqf-cF65Npr6k18Q,38
+aws_assume_role_helper/__main__.py,sha256=9ou4dHVVMcgTfOZzOb5ZzohQdXskVbr8zjVcghuXfCU,2092
+aws_assume_role_helper/commands.py,sha256=fw4xm__NHdnSBceKelUq3x_PVsEgXM5a9p99YXQ2w_c,4233
