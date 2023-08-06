@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: aql
+Version: 0.0.0
+Summary: asyncio query generator
+Home-page: https://github.com/jreese/aql
+Author: John Reese
+Author-email: john@noswap.com
+License: MIT
+Description: aql
+        ===
+        
+        asyncio query generator
+        
+        [![build status](https://travis-ci.org/jreese/aql.svg?branch=master)](https://travis-ci.org/jreese/aql)
+        [![version](https://img.shields.io/pypi/v/aql.svg)](https://pypi.org/project/aql)
+        [![license](https://img.shields.io/pypi/l/aql.svg)](https://github.com/jreese/aql/blob/master/LICENSE)
+        [![code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+        
+        
+        License
+        -------
+        
+        aql is copyright [John Reese](https://jreese.sh), and licensed under
+        the MIT license.  I am providing code in this repository to you under an open
+        source license.  This is my personal repository; the license you receive to
+        my code is from me and not from my employer. See the `LICENSE` file for details.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
