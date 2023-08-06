@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: parpydtk2
+Version: 1.0.0
+Summary: Python Wrapper for Parallel DTK2+MOAB
+Home-page: https://github.com/chiao45/parpydtk2
+Author: Qiao Chen
+Author-email: benechiao@gmail.com
+License: MIT
+Description: Parallel Solution Transfer Service with DTK2 and MOAB
+        =====================================================
+        
+        .. image:: https://travis-ci.org/chiao45/parpydtk2.svg?branch=parallel
+            :target: https://travis-ci.org/chiao45/parpydtk2
+        .. image:: https://img.shields.io/pypi/v/parpydtk2.svg?branch=parallel
+            :target: https://pypi.org/project/parpydtk2/
+        .. image:: https://img.shields.io/pypi/l/parpydtk2.svg?branch=parallel
+            :target: https://pypi.org/project/parpydtk2/
+        
+        This package provides a Python3 interface of using
+        `DTK2 <http://ornl-cees.github.io/DataTransferKit/>`_ and
+        `MOAB <http://sigma.mcs.anl.gov/moab-library/>`_ in parallel with MPI for
+        multi-physics coupling problems.
+        
+        Documentation
+        -------------
+        
+        .. image:: https://img.shields.io/badge/doc-ready-blue.svg
+            :target: https://chiao45.github.io/parpydtk2-doc/
+        
+        Installation
+        ------------
+        
+        .. image:: https://img.shields.io/badge/install-ready-yellow.svg
+            :target: https://chiao45.github.io/parpydtk2-doc/install.html
+        
+        License
+        -------
+        
+        MIT License
+        
+        Copyright (c) 2018 Qiao Chen
+        
+Keywords: Math
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: C++
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
