@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: zcfd-validate
+Version: 2018.7.60.post4
+Summary: Validation tools for validating a zCFD input file
+Home-page: https://zcfd.zenotech.com
+Author: Zenotech
+Author-email: support@zenotech.com
+License: BSD 3-Clause License
+Description: This package provides a cli to check that a zCFD input dictionary correctly validates against the schema provided for the latest version of zCFD (https://zcfd.zenotech.com/)
+Keywords: zCFD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2.7

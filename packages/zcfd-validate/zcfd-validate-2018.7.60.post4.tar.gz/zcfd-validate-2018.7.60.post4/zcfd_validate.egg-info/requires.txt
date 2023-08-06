@@ -1,0 +1,6 @@
+voluptuous
+colorama
+click
+h5py
+numpy
+setuptools>30.3.0
