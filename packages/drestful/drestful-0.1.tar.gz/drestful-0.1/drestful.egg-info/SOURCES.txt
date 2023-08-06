@@ -1,0 +1,8 @@
+README.md
+setup.py
+drestful/__init__.py
+drestful/api.py
+drestful.egg-info/PKG-INFO
+drestful.egg-info/SOURCES.txt
+drestful.egg-info/dependency_links.txt
+drestful.egg-info/top_level.txt
