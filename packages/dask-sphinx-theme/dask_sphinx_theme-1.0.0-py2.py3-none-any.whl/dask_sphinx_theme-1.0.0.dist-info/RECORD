@@ -1,0 +1,11 @@
+dask_sphinx_theme/__init__.py,sha256=Q6YO3lPLYHdW217C5LZMY71u2tE0eqbZOIOL9UEWe0Q,395
+dask_sphinx_theme/layout.html,sha256=nKdazuoMIzcxJZ-cEqx8tvulGIj_1JIPJd-Zv8krvco,2564
+dask_sphinx_theme/theme.conf,sha256=Pm2uXOgVzq9jLx4ANCS7py1yQsNjpCVXq32-CwPnMTE,62
+dask_sphinx_theme/static/css/explore.css,sha256=b6IkolnFAc5hmrphiK6kbrrk1l2DWSts9VuRnUrWRY4,1548
+dask_sphinx_theme/static/css/style.css,sha256=wo6ZqGeq18-1C2OS272hX0U2yCCv7Uj0pUAn3Fon9UQ,1485
+dask_sphinx_theme/static/images/dask-horizontal-white.svg,sha256=y0kpbMEoTe2zQ2HfjfkCWQeJzWhminJLREUm-C9KaBw,3100
+dask_sphinx_theme-1.0.0.dist-info/METADATA,sha256=9jExlopI_MJkqjJz_c9t-gX4E6Q70R1ayJHf3MxJey0,751
+dask_sphinx_theme-1.0.0.dist-info/RECORD,,
+dask_sphinx_theme-1.0.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+dask_sphinx_theme-1.0.0.dist-info/entry_points.txt,sha256=mxXe6lwVnHpDvtBM-XbgIDibY57Ds4Yzsy_cAI5EAaE,60
+dask_sphinx_theme-1.0.0.dist-info/top_level.txt,sha256=N_LnBscrrFPkbzZJUzzrH76wCkINUfC8vW1VE6MAeas,18
