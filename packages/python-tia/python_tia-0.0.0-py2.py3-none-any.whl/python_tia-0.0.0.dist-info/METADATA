@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: python-tia
+Version: 0.0.0
+Summary: tia: The generic Test Impact Analysis (TIA) preprocessor for test tools.
+Home-page: http://github.com/fkromer/python-tia
+Author: Florian Kromer
+Author-email: florian.kromer@mailbox.org
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Pre-processors
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Topic :: Software Development :: Testing :: BDD
+Classifier: Topic :: Software Development :: Testing :: Unit
+Classifier: Topic :: Software Development :: Version Control :: Git
+Requires-Python: >=3.4.0
+
+UNKNOWN
+
+
