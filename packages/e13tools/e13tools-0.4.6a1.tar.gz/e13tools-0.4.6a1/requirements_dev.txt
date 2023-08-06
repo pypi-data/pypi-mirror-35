@@ -1,0 +1,7 @@
+-r requirements.txt
+check-manifest
+readme_renderer
+coverage
+coveralls
+codecov
+python-coveralls
