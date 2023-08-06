@@ -1,0 +1,172 @@
+Metadata-Version: 2.1
+Name: Flamoon
+Version: 0.1.1
+Summary: Надстройка над Flask, для быстрой и удобной web-разработки.
+Home-page: https://github.com/volitilov/flamoon
+Author: volitilov
+Author-email: volitilov@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Russian
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: Flask (==1.0.2)
+Requires-Dist: Flask-Login (==0.4.1)
+Requires-Dist: Flask-Mail (==0.9.1)
+Requires-Dist: python-dotenv (==0.8.2)
+Requires-Dist: Flask-SQLAlchemy (==2.3.2)
+Requires-Dist: Flask-Migrate (==2.1.1)
+Requires-Dist: psycopg2 (==2.7.4)
+Requires-Dist: psycopg2-binary (==2.7.5)
+
+Flamoon
+=====
+
+Надстройка над Flask, для быстрой и удобной web-разработки. При инициализации
+формирует уже готовый набор данных необходиммых для старта web-разработки на
+Flask.
+Вот дерево коталогов и файлов после комманды инициализации `flamoon init`:
+
+
+.. code-block:: text
+
+    .
+    ├── app
+    │   ├── email.py
+    │   ├── ex
+    │   │   ├── data.py
+    │   │   ├── forms.py
+    │   │   ├── __init__.py
+    │   │   ├── templates
+    │   │   │   └── ex.html
+    │   │   └── views.py
+    │   ├── extensions.py
+    │   ├── __init__.py
+    │   ├── models
+    │   │   └── user.py
+    │   ├── static
+    │   │   └── img
+    │   │       └── favicon.ico
+    │   └── templates
+    │       └── base.html
+    ├── config.py
+    ├── manage.py
+    └── tests
+        ├── app
+        │   └── test_app.py
+        └── client
+            └── test_client.py
+
+
+Technical requirements
+----------------
+
+По умолчанию конфигурация настроена на работу с PostgreSQL, поэтому удачного
+старта можно добится только после установки и добавления своих авторизационных
+данных в файл `.env`.
+
+
+Install
+------------
+
+
+.. code-block:: text
+    $ pip install flamoon
+
+
+Create new project
+------------
+
+
+.. code-block:: text
+    $ flamoon init
+
+
+
+Run project
+------------
+
+
+.. code-block:: text
+    $ export $FLASK_APP=manage.py
+    $ flask db init
+    $ flask db migrate -m 'initial commit'
+    $ flask run
+
+
+
+Run tests
+------------
+
+
+.. code-block:: text
+    $ flask test all
+    $ flask test client
+    $ flask test app
+
+
+
+Run shell
+------------
+
+
+.. code-block:: text
+    $ flask shell
+
+
+
+Run coverage
+------------
+
+
+.. code-block:: text
+    $ flask test_cov
+
+
+
+Run profiling
+------------
+
+
+.. code-block:: text
+    $ flask profile
+
+
+
+Work with database
+------------
+
+
+.. code-block:: text
+    $ flask db migrate -m 'message'
+    $ flask db upgrade
+
+
+Donate
+------
+
+Я разрабатываю и поддерживаю Flamoon. Чтобы развить сообщество пользователей и позволить 
+сопровождающим уделять больше времени проекту, пожалуйста, `пожертвуйте`_.
+
+.. _donate: http://donatepay.ru/widgets/page/65c7d0fed574c049f36ec01891046772780862e52d60651dc3ebb2884cc6201c?widget_id=356617
+
+
+Links
+-----
+
+* License: `MIT <https://github.com/volitilov/flamoon/blob/master/LICENSE>`_
+* Releases: https://pypi.org/project/flamoon/
+* Code: https://github.com/volitilov/flamoon
+* Issue tracker: https://github.com/volitilov/flamoon/issues
+* Test status:
+
+  * Linux: https://travis-ci.org/volitilov/flamoon
+
+* Test coverage: https://codecov.io/gh/pallets/flask
+
+
