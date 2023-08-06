@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mixer-shortcode
+Version: 1.0.0
+Summary: Mixer OAuth shortcode client
+Home-page: https://github.com/mixer/shortcode-oauth
+Author: Connor Peet
+Author-email: connor@xbox.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: aiohttp (>=3.4.1)
+
+UNKNOWN
+
+
