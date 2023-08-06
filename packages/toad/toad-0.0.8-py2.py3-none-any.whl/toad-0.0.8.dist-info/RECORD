@@ -1,0 +1,9 @@
+toad/__init__.py,sha256=LvPDtXePgUjl_e3rgyx81LvUzurVDZW4G8ofL07HN1E,190
+toad/detector.py,sha256=UqCK4DPWqJ6YVylGfhvAVY3-N3cq-dqmoimwSbdKm6c,4114
+toad/merge.py,sha256=IaNAabSQPJ6i614fF6MAHy4YjcXDYtwqp56HUA4T__A,4952
+toad/stats.py,sha256=6xRnnY4pj0Dnxk97L7P_69JgOrR8NyEC7XSOdMQmhps,6509
+toad/utils.py,sha256=2_i4rM4wWgrj30e3w7rPiYhV2gQ8gsmJPJFrLM2HMko,4600
+toad-0.0.8.dist-info/METADATA,sha256=a5xpA_Yk6uZl9kcWAq1dwBdQ-7H-FKbhgxkEA8Ghdoo,1519
+toad-0.0.8.dist-info/RECORD,,
+toad-0.0.8.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+toad-0.0.8.dist-info/top_level.txt,sha256=9K8YWnYbjxSnRVWtXAhxWzYlfmM1qbOrNQvAobxIDG4,5
