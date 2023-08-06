@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: handybelt
+Version: 0.0.1
+Summary: A collection of functions I've found useful over the years.
+Home-page: https://github.com/charleskawczynski/handybelt
+Author: Charles Kawczynski
+Author-email: kawczynski.charles@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# handybelt
+A collection of python functions that I've found useful over the years.
+
+
