@@ -1,0 +1,166 @@
+Metadata-Version: 2.1
+Name: autotranscode
+Version: 0.9.2a0
+Summary: A simple, fast and reliable music library transcoder
+Home-page: http://gitlab.litbird.de/Thane_DE/AutoTranscode
+Author: Thane
+Author-email: thane@gitlab.litbird.de
+License: GNU GPL v3
+Description: # AutoTranscode
+        
+        A simple, fast and reliable music library transcoder
+        
+        # Overview
+        
+        AutoTranscode is a Python script that can convert your losless (or mixed) music library into a lossy format, ideal for mobile devices with little space. It can encode to both MP3 and Opus, using ffmpeg as its encoder. You can also choose to track changes between runs - AutoTranscode uses a simple SQLite database to enable this. Finally, AutoTranscode runs its encoding jobs in paralell, meaning it can take full advantage of modern __Multi-Core CPUS__.
+        
+        Below is a simple graphical representation of how AutoTranscode works:
+        
+        ```
+        - /your/music/library
+            - songa.flac
+            - subdir
+                - songb.flac
+                - songc.mp3
+            - songd.wav
+            - coverart.jpg
+                |
+                V
+            AutoTranscode <-----> database.db
+                |
+                V
+            fmpeg + cp
+                |
+                V
+        - /you/music/mirror
+            - songa.mp3
+            - subdir
+                - songb.mp3
+                - songc.mp3
+            - songd.mp3
+            coverart.jpg
+        ```
+        
+        # Installation
+        
+        ## Requirements
+        
+        AutoTranscode should run on any modern Linux distribution (Ubuntu 16.04+, Fedora, CentOS, etc.) that meets the requirements below. __MacOS, BSD and Windows__ should theoretically work, but __are not tested at all__. Let me know if you have any sucess on those platforms.
+        
+        Requirements:
+        - Python 3.5 or later with [tqdm](https://github.com/tqdm/tqdm) installed
+        - ffmpeg installed and in $PATH
+        - Codecs for ffmpeg MP3 encoding installed (if you want to encode to MP3)
+        
+        ### ffmpeg
+        
+        See your distros documentation on how to install ffmpeg. Quick summaries for the most popular distros can be found below
+        
+        #### Ubuntu LTS 12.04 and newer, Debian 7 and newer, Linux Mint 18 and newer:
+        
+        ```sudo apt-get install ffmpeg libavcodec-extra```
+        
+        Note that Ubuntu 14.04 and Debian 8 use libav-tools, a fork of ffmpeg which is not supported. Symlinking avconv to ffmpeg should work, but is not supported
+        
+        #### Fedora 26 and newer:
+        
+        ```sudo dnf install ffmpeg```
+        
+        Older versions of fedora may not ship with MP3 support. If you want to encode to MP3, you might have to use extra repositories like [RPMFusion](https://rpmfusion.org/Configuration).
+        
+        #### RHEL/CentOS 6 and newer:
+        
+        You will need to install both the [EPEL](https://fedoraproject.org/wiki/EPEL) and [RPMFusion](https://rpmfusion.org/Configuration) repositories. Once they are enabled, you can install ffmpeg with:
+        
+        ```sudo yum install ffmpeg```
+        
+        #### Arch Linux/Manjaro:
+        
+        ```sudo pacman -S ffmpeg```
+        
+        ## Easy Install
+        
+        One ffmpeg is installed, the easiest way to install AutoTranscode is through pip. Simply run
+        
+        ```$ pip install --user autotranscode```
+        
+        to install AutoTranscode for your current user. Note that installing pip packages as sudo is [discouraged](https://askubuntu.com/questions/802544/is-sudo-pip-install-still-a-broken-practice)
+        
+        ### Manual install
+        
+        You can also clone this repository and install the dependencies manually. Simply install 
+        [tqdm](https://github.com/tqdm/tqdm), then run bin/autotranscode from anywhere you want
+        
+        ### Pipenv Install
+        
+        If you really want to contribute to AutoTranscode for some reason, you can easily replicate the dev envoriment using [pipenv](https://github.com/pypa/pipenv) (and [pyenv](https://github.com/pyenv/pyenv). 
+        Once both are installed, simply cd into the cloned repository and run `pipenv install` to install all normal package dependencies or run `pipenv install --dev` to install the development packages as well
+        
+        # Quick Start
+        
+        #### One-time encode:
+        
+        ```$ autotranscode /path/to/library /path/to/target -C```
+        
+        #### Regular encode with tracking:
+        
+        ```$ autotranscode /path/to/library /path/to/target -C -D /path/to/db.db -R```
+        
+        Note: Remove `-C` if you don't want to copy non-losless files to the target directory. For more information on these flags, see the [Command-line parameters](## Command-line parameters) section
+        
+        ## Command-line parameters
+        
+        To get an brief explanation of all options, use the `-h --help` flag. The following options are currently available:
+        
+        #### General Options:
+        
+        - `-C --copy-files` - Copy all non-lossless files in your library path to your destination path. This includes all other files, includig lossy music files such as MP3s
+        
+        - `-D --database path/to/db` - Track the library in a given databse. This prevents unnedded encode jobs on repeated runs and allows tracking of file deletions with `-R --remove`. The databse will be created and managed by AutoTranscode
+        
+        - `-R --remove` (requires --database) - Track the deletion of files, using the database. This means that if you remove a file in the library, its encoded version in the mirror will be removed as well.
+        
+        #### Encoding Options:
+        
+        - `-O --output` - Set output file format. Currently supported: "mp3" (default), "opus"
+        
+        - `-Q --quality` - Set VBR output quality (bitrate). Values range from 0 (~256 kbit/s, default) to 9 (~64 kbit/s).
+        
+        #### Logging Options:
+        
+        - `-l --loglevel` - Set the ammount of information printed to the console. Values: "CRITICAL", "ERROR", "WARNING" (default), "INFO", "DEBUG"
+        
+        - `--no-progressbar` - Disable the fancy progressbar
+        
+        #### Miscellaneous Options:
+        
+        - `-t --threads` - Set the ammount of CPU thredas to use for encoding tasks. Default is the systems number of logical cores
+        
+        - `--version` - Print the version number, then exit
+        
+        # FAQ
+        
+        ### Q: My Opus files don't have all of their tags/are missing ther album art!
+        
+        This issue is related to how ffmpeg handles FLAC to Opus/OGG conversion and is not something that I can currently fix, unfortunatley
+        
+        # Changelog
+        
+        #### 0.9.2
+        
+        - Release to PyPi
+        
+        #### 0.9.1
+        
+        - Minor bugfixes
+        
+        #### 0.9.0
+        
+        - Initial Release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
+Description-Content-Type: text/markdown
