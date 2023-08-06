@@ -1,0 +1,7 @@
+setup.py
+forkdelta.egg-info/PKG-INFO
+forkdelta.egg-info/SOURCES.txt
+forkdelta.egg-info/dependency_links.txt
+forkdelta.egg-info/not-zip-safe
+forkdelta.egg-info/top_level.txt
+slashdot/__init__.py
