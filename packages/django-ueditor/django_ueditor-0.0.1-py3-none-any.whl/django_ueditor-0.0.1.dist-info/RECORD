@@ -1,0 +1,10 @@
+django_ueditor-0.0.1.dist-info/METADATA,sha256=_JJ1TAB2riPQl1qdBzeeXZrJC_PC1tVud1-0ypkK9X8,1917
+django_ueditor-0.0.1.dist-info/RECORD,,
+django_ueditor-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_ueditor-0.0.1.dist-info/top_level.txt,sha256=PL5sHghpxsryfBZvz2LpmCPSyJ21Zj1N8vCE9sqx-1I,8
+ueditor/__init__.py,sha256=7zIS3mLHVWRi7rFvhz2S0W_2yeLdmxUcgSAFx8_X0ek,81
+ueditor/controller.py,sha256=n68505wvfJzkEfAGUTYM5kGH7FcFPcOMCWSpyv_DU1Q,10255
+ueditor/models.py,sha256=0Fn2eNEp69r-vzzxp95Q60CCl49Dn6wpJOVrftoPPN0,1168
+ueditor/settings.py,sha256=PsOn0Bh-pHrLO_pSq5a2RTIVOdTNkCMMDou0rzIDn8U,469
+ueditor/urls.py,sha256=MC3MsfuR84WFdekNPHFH8LwaoM9PT8i0TlGeQ6HfnGI,314
+ueditor/widgets.py,sha256=AJH_r-P9ZFQuoVPdGINB2wYc4EE7pbSq1aacF0N72ug,7231
