@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: MAPF
+Version: 0.9.9
+Summary: An experimental image format written in Python.
+Home-page: https://github.com/olokelo/MAPF
+Author: olokelo
+Author-email: olokelo@gmail.com
+License: MIT
+Keywords: MAPF
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: System :: Archiving :: Compression
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: bitstruct
+
+UNKNOWN
+
+
