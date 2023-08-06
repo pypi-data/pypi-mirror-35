@@ -1,0 +1,11 @@
+README.md
+setup.py
+django_scientific.egg-info/PKG-INFO
+django_scientific.egg-info/SOURCES.txt
+django_scientific.egg-info/dependency_links.txt
+django_scientific.egg-info/top_level.txt
+djsci/__init__.py
+djsci/drf_fields.py
+djsci/fields.py
+djsci/tests/__init__.py
+djsci/tests/test_fields.py

@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: django-scientific
+Version: 0.0.1
+Summary: Scientific extension for Django, e.g. Numpy/Pandas fields, etc.
+Home-page: https://github.com/claydodo/django-scientific
+Author: claydodo and his little friends (xiao huo ban)
+Author-email: claydodo@foxmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7 
+Classifier: Programming Language :: Python :: 3 
+Classifier: Operating System :: OS Independent
