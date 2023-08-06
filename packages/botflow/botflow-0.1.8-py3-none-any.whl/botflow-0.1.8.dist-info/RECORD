@@ -1,0 +1,17 @@
+botflow-0.1.8.dist-info/METADATA,sha256=3eViP7_0sI4BZ_YY1pWkpupWC7yAJYd8V1sRmVnHjes,5513
+botflow-0.1.8.dist-info/RECORD,,
+botflow-0.1.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+botflow-0.1.8.dist-info/top_level.txt,sha256=Ra_jRyeGCHMOHE05LPCjTQHMddC2W-tJOAK_vAk2YOY,8
+databot/__init__.py,sha256=wdUKGRSwJ0G-6o_q4BAeazRZpKu718DQXkPjEYims6c,540
+databot/bdata.py,sha256=Su70uhRD1689HayGhpa4fAcWP51Lp1dh4sCqwhzCpJg,4864
+databot/bot.py,sha256=PUBTy31foxsEujc2umHZf0FUGC317zQTTeDglBYu8Sk,501
+databot/botframe.py,sha256=z_obsHDV-zuwfUgQAJ5AncwKYHJCCS2MLrHTK-5l6Ks,13568
+databot/config.py,sha256=8t_4OCaMm1cXvrUnUoe3qSWaEBwPyxXG3-buM9_i8C0,412
+databot/flow.py,sha256=3SYmgWHAQFBlz5ellWrOGHs-bvQxQljVu-VR3IbWYFQ,15221
+databot/node.py,sha256=lzvy4OpbMG9fcxmaFxNUMtZN1b7lYQIPiq5YHAHnXMQ,1406
+databot/queue.py,sha256=XXK1rR6d6zMaSdK4LUveMi_TMJCPVcYxU6oIJQoMn9c,2727
+databot/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databot/db/aiofile.py,sha256=AgACeX15blv_WWs4O-z10mXFha9Dt5zepgu-QohYoKI,844
+databot/db/mysql.py,sha256=cBAUOAXUqItZjZPBQ_Tp2KqUpT-DuXW_kyOC-euRQkI,2343
+databot/http/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databot/http/http.py,sha256=AqiNGYbI-4oLGqebvKafKfY0XbdpuOICT8VTF76ejDQ,6342
