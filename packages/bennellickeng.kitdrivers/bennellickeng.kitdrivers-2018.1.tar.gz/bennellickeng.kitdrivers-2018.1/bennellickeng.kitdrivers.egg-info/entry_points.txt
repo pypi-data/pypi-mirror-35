@@ -1,0 +1,5 @@
+[console_scripts]
+bel-randsvnagrab = bennellickeng.kitdrivers.rands.vna:grab_CLI
+bel-scopegrab = bennellickeng.kitdrivers.usbtmc.scope:grab_CLI
+bel-vnagrab = bennellickeng.kitdrivers.prologix.vna:grab_CLI
+
