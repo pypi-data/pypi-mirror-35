@@ -1,0 +1,9 @@
+README.md
+setup.py
+spndarray/__init__.py
+spndarray/spndarray.py
+spndarray.egg-info/PKG-INFO
+spndarray.egg-info/SOURCES.txt
+spndarray.egg-info/dependency_links.txt
+spndarray.egg-info/requires.txt
+spndarray.egg-info/top_level.txt
