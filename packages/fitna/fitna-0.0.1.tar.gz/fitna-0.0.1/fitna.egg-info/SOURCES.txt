@@ -1,0 +1,13 @@
+README.md
+setup.py
+fitna/__init__.py
+fitna/data.py
+fitna/em.py
+fitna/plotly.py
+fitna.egg-info/PKG-INFO
+fitna.egg-info/SOURCES.txt
+fitna.egg-info/dependency_links.txt
+fitna.egg-info/top_level.txt
+test/test_animation.py
+test/test_em.py
+test/test_normal.py
