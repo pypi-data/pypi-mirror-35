@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: ostree
+Version: 0.1.0
+Summary: Pulls containers and turns them into OS trees for systemd-nspawn.
+Home-page: http://github.com/seantis/ostree
+Author: Seantis GmbH
+Author-email: info@seantis.ch
+License: MIT
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: cached-property
+Requires-Dist: click
+Requires-Dist: google-auth
+Requires-Dist: requests
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: flake8; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+
+
+
+You can pull a Docker container:
+```bash
+pip install ostree
+ostree pull python:3.7-alpine ./alpine
+```
+
+And run it with systemd-nspawn:
+```bash
+sudo systemd-nspawn --directory ./alpine python
+
+Spawning container alpine on /home/denis/alpine.
+Press ^] three times within 1s to kill container.
+Timezone UTC does not exist in container, not updating container timezone.
+Python 3.7.0 (default, Aug 22 2018, 20:39:59)
+[GCC 6.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+## Warning
+
+This is alpha-quality software. Things are intended to break.
+
+## Supported Registries
+
+The following registries are currently supported:
+
+* Docker (public registry only)
+* Google Container Registry (public, private with service account and json keyfile)
+
+## Requirements
+
+* POSIX
+* Python 3.6+
+
+## Run the Tests
+
+```bash
+pip install -e '.[test]'
+py.test ostree
+```
+
+## Conventions
+
+Ostree follows [PEP8](https://www.python.org/dev/peps/pep-0008/) as closely as possible. To validate it run:
+
+```bash
+pip install -e '.[test]'
+flake8 ostree
+```
+
+Ostree uses [Semantic Versioning](http://semver.org/).
+
+## License
+
+Ostree is released under the MIT license
+
+Changelog
+=========
+
+0.1.0 (2018-09-06)
+------------------
+
+- Adds support for Google Container Registry.
+  [href]
+
+- Implements cache purging.
+  [href]
+
+- Shows an error if no protocol is given.
+  [href]
+
+- Changes the cache path to `~/.cache/seantis/ostree` for non-root users.
+  [href]
+
+0.0.0 (2018-08-24)
+------------------
+
+- Initial Release.
+  [href]
+
+
