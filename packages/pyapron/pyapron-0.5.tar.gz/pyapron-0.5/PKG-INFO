@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyapron
+Version: 0.5
+Summary: Python API for numerical abstract domains manipulation
+Home-page: https://github.com/rjb32/pyapron
+Author: Remy Boutonnet
+License: LGPL
+Description: # pyApron: a Python API for Apron
+        
+        [![Build Status](https://travis-ci.org/pyapron/pyapron.svg?branch=master)](https://travis-ci.org/pyapron/pyapron)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Operating System :: Unix
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
