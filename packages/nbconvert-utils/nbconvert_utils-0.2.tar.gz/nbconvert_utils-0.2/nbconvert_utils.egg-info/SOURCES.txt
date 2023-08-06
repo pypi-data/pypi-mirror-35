@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+nbconvert_utils/__init__.py
+nbconvert_utils/_version.py
+nbconvert_utils.egg-info/PKG-INFO
+nbconvert_utils.egg-info/SOURCES.txt
+nbconvert_utils.egg-info/dependency_links.txt
+nbconvert_utils.egg-info/requires.txt
+nbconvert_utils.egg-info/top_level.txt
