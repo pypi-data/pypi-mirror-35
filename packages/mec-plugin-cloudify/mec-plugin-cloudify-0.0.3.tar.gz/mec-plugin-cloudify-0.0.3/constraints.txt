@@ -1,0 +1,1 @@
+cloudify-mec-plugin===0.0.2

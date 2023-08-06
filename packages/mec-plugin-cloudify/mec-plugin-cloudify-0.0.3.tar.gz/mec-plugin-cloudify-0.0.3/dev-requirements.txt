@@ -1,0 +1,3 @@
+git+https://github.com/cloudify-cosmo/cloudify-common@master#egg=cloudify-common==4.4
+
+nose

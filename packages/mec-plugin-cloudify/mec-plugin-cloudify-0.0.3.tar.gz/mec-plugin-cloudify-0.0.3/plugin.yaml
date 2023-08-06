@@ -1,0 +1,96 @@
+plugins:
+    mec-plugin-cloudify:
+        executor: central_deployment_agent
+        install: false
+        source: https://github.com/tomahkvt/mec-plugin-cloudify/raw/master/mec-plugin-cloudify.zip
+        package_name: mec-plugin-cloudify
+        package_version: '0.0.2'
+
+node_types:
+  cloudify.mec.rules.redirect_by_name:
+    derived_from: cloudify.nodes.Root
+    properties:
+      command:
+        required: true
+        type: string
+        default: ''
+        description: >
+          Command to create rule redirect by name
+      registrar_host:
+        required: true
+        type: string
+        default: ''
+        description: >
+          IP address of MEC Gateway
+      registrar_port:
+        required: true
+        type: string
+        default: ''
+        description: >
+          Port of MEC Gateway REST API Interface
+      registrar_service_catalogue_url:
+        required: true
+        type: string
+        default: ''
+        description: >
+          Url of MEC Gateway REST API Interface
+    interfaces:
+      cloudify.interfaces.lifecycle:
+        start:
+          implementation: mec.plugin.tasks.redirect_by_name
+          inputs:
+            start_retry_interval:
+              description: Polling interval until the server is active in seconds
+              type: integer
+              default: 30
+        stop:
+          implementation: mec.plugin.tasks.delete_redirect_by_name
+          inputs:
+            start_retry_interval:
+              description: Polling interval until the server is active in seconds
+              type: integer
+              default: 30
+
+  cloudify.mec.rules.redirect_by_traffic:
+    derived_from: cloudify.nodes.Root
+    properties:
+      command:
+        required: false
+        type: string
+        default: ''
+        description: >
+          Command to create rule redirect by name
+      registrar_host:
+        required: false
+        type: string
+        default: ''
+        description: >
+          IP address of MEC Gateway
+      registrar_port:
+        required: false
+        type: string
+        default: ''
+        description: >
+          Port of MEC Gateway REST API Interface
+      registrar_service_catalogue_url:
+        required: false
+        type: string
+        default: ''
+        description: >
+          Url of MEC Gateway REST API Interface
+    interfaces:
+      cloudify.interfaces.lifecycle:
+        start:
+          implementation: mec.plugin.tasks.redirect_by_traffic
+          inputs:
+            start_retry_interval:
+              description: Polling interval until the server is active in seconds
+              type: integer
+              default: 30
+        stop:
+          implementation: mec.plugin.tasks.delete_redirect_by_traffic
+          inputs:
+            start_retry_interval:
+              description: Polling interval until the server is active in seconds
+              type: integer
+              default: 30
