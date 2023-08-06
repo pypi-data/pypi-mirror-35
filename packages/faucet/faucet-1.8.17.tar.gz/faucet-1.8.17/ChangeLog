@@ -1,0 +1,192 @@
+CHANGES
+=======
+
+1.8.17
+------
+
+* copy canonical table config
+* flow is most likely a packet out so check that first
+* global\_routing
+* Make \_stateful\_gw() cheaper
+* Only log ND/ARP activity if causes a state change
+* Simplify icmpv6 checks
+* Simplify CPN checks
+* Reuse of gw advertisement
+* Protocol independant VIP response handler
+* Reuse resolve\_gw\_on\_vlan/port
+* Add support for pip versions >= 10
+* move part of valve.\_inc\_var() to faucet\_metrics.inc\_var()
+* rename valve.\_port\_labels() valve.port\_labels()
+* More use of ip\_pkt()
+* Re-use \_ip\_pkt()
+* Add dp & port metrics for failure/logoff/success. Add handlers for failure/logoff. Add partial test for logoff
+* Catch problem with resolver not trying to resolve a gateway from coldstart
+* Redo avoid double lookups
+* Should check that cache entry is placeholder when resolving
+* Revert "Avoid double lookup."
+* Fix versions to match requirements.txt
+* Add packaging test for comparing versions
+* Test mirror port resolution
+* use hex to remind me that this is a dictionary not a list
+* validate valid mac validation
+* Add test\_override\_port object validation
+* Avoid double lookup
+* Provoke default route add
+* Mark 8021X test software only
+* Remove notify event for 8021X
+* 8021X test cleanup
+* pylint
+* Yakkety and zesty are EOL
+* Recursively include requirements.txt in test-requirements.txt
+* add a 1x success/failure counter
+* distlib, packaging et al still fail
+* Force deterministic python version for pytype
+* Bump version for release
+* pytype
+* pylint
+* Don't skip test\_packaging.py (works fine when -V3.5 is specified)
+* Update sphinx from 1.7.6 to 1.7.7
+* pytype
+* Remove resolve request from pending list if we received a response recently
+* Unnecessary condition for nexthop sorter
+* Make nexthop refresh check cheaper
+* More efficient nexthop fresh
+* Use "instant" for grafana table
+* Reduce calls to dedupe\_ofmsgs()
+* Missing unresolved\_gateways
+* Packet outs are always output in random order
+* list/list()
+* Minimum version for ZodiacGX
+* Use no-op packet in to clear resolver queue
+* Keep unresolved gateway list in VLAN
+* Revert "Use no-op packet in as opportunity to clear resolver queue."
+* Use no-op packet in as opportunity to clear resolver queue
+* Shuffle nexthop retries always no matter how many retries
+* pylint
+* Import cleanup
+* Need to preserve DP status across reloads
+* DPID variables incorrectly set to 0 on config reload
+* add \_get\_dps\_as\_dict and tests for stack config
+* Verify DP, Port and Vlan objects with basic config
+* List ZodiacGX in vendor documentation
+* wildcard\_table used by multiple conf objects
+* check eapol host receives success/failure message
+* remove no longer used methods/classes from dp.py
+* increase tcpdump timeout to 30s, and removed print tcpdump
+* remove sleep from test
+* Initial ZodiacGX docs
+* Another ignore of stale descriptor
+* Don't worry about OSError on socket when cleaning up
+* Move config failure tests to the end of config tests
+* NoviFlow Valve must use barriers
+* Preversion 1.8.17
+* Reduce repetition; add timing for tests
+* Run IPv6 test\_fuzz\_controller() as long as we can
+
+1.8.16
+------
+
+* Set locale to keep python read() happy
+* Verify ICMPv6 payload type
+* Add missing dependencies
+* ipaddress only required for python2 which we don't support
+* Fix case
+* Add unit test for testing packaging
+* Don't check test\_packaging:
+* Handle attempt to dump a binary log file
+* Version bump
+* Now python3, so need to force UTF-8 locale
+* Don't need to check route manager active
+* host route expiry/re-resolution can run much less often
+* host\_fib()
+* ofa\_match
+* is\_host\_fib\_route()
+* Move is\_host\_fib\_route() to vlan
+* Don't lookup faucet\_vip when resolving until needed
+* Disable ofa\_match for route test as not supported all hardware
+* add test for 802.1x that fails (wrong password)
+* unit test for chewie+faucet. Added new variable for setting a hosts 'inNamespace'
+* Alternate drop rule verifier
+* Revert "Avoid even trying to apply mask to arp\_tpa."
+* Avoid even trying to apply mask to arp\_tpa
+* Remove match\_exact verifier, not used
+* Fix hardware test selector
+* Revert "Revert "Remove group\_table\_routing (which was incomplete - did not handle removal of nexthops in particular - and has no advantage of the existing exact-match eth\_dst).""
+* Revert "Remove group\_table\_routing (which was incomplete - did not handle removal of nexthops in particular - and has no advantage of the existing exact-match eth\_dst)."
+* Expand global router test to 64 VLANs
+* pylint
+* stateful gateway for V4
+* \_stateful\_gw for IPv4
+* More checks packet source/dest is a valid stateful gateyway
+* Remove group\_table\_routing (which was incomplete - did not handle removal of nexthops in particular - and has no advantage of the existing exact-match eth\_dst)
+* FaucetUntaggedNSLoopTest
+* Migrate mininet-based integration tests to python 3
+* pytype
+* Add workaround to disable ofamatch for port mask matches
+* Fix FaucetTaggedICMPv6ACLTest
+* IP tuple test matches
+* FaucetConfigReloadTest matches
+* ACL tests need OFA required fields
+* Now that we use OFA based matching, must specify proto
+* pytype
+* ofctl implements table/match pre-filtering
+* Allow passing table\_id to ofctl
+* Avoid more json conversion
+* yaml safe\_load
+* Avoid json dumps/loads
+* Unnecessary reparse\_ip()
+* Avoid unnecessary ARP field reparsing
+* Move link\_and\_other\_vips to vlan
+* More use of is\_link\_local
+* Use ipaddress is\_link\_local
+* Move global VLAN encoder/decoders to valve\_packet
+* Reduce number of times packet complete needs to be checked
+* pylint
+* Add profiling helper
+* Preversion 1.8.16
+
+1.8.15
+------
+
+* Remove proactive\_learn which is now the default
+* Update PyCharm docs to support newer versions
+* Bump version
+* Redundant call to parse VLAN header
+* Avoid reparsing packet headers on packet in
+* Increase GlobalRouter test to 32 VLANs
+* Allow per-Valve GROUPS flag
+* Allow configuration of minimum and maximum wildcard table sizes
+* Better scale minimums for L2/L3 nexthops
+* Better table scale tests
+* Better estimation of table sizes for TFM
+* Fix note
+* TFM pipeline loader doesn't need to be a class
+* Split faucet and gauge unit tests
+* miss\_table\_name
+* flowmod()
+* miss\_goto
+* Miss rules configured from pipeline definition
+* Updated NoviFlow documentation to use GenericTFM starting from NW400.5.4
+* A stack edge, receiving a non-broadcast packet from the root, can assume the root has learned it
+* Log age of last LLDP received
+* Don't run unit tests twice in sanity shard
+* Remove out of data faucet\_bgp tests (already tested by test\_valve.py)
+* Update unittests to be more robust on internal data type changes
+* Remove config unittests
+* Add main methods to all unittest files
+* Refactor ACL validation so it is performed by ACL object
+* pylint fixes to work on new test base image
+* Make pip cache usage less confusing
+* Update test instructions when using a cache
+* missing import
+* lint
+* verify types before accessing values in ACL init
+* Preversion 1.8.15
+* Fix doc header
+
+1.8.14
+------
+
+* Global routing test includes down nexthops
+* Bidirectional checks in global router test
+* Don't provision non-global VIP FIB entries, when global routing enabled
