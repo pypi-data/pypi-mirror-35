@@ -1,0 +1,6357 @@
+import datetime
+import typing
+import autoboto
+from enum import Enum
+import botocore.response
+import dataclasses
+
+
+@dataclasses.dataclass
+class AccessDeniedFault(autoboto.ShapeBase):
+    """
+    AWS DMS was denied access to the endpoint.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class AccountQuota(autoboto.ShapeBase):
+    """
+    Describes a quota for an AWS account, for example, the number of replication
+    instances allowed.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "account_quota_name",
+                "AccountQuotaName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "used",
+                "Used",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "max",
+                "Max",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The name of the AWS DMS quota for this AWS account.
+    account_quota_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The amount currently used toward the quota maximum.
+    used: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The maximum allowed value for the quota.
+    max: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class AddTagsToResourceMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "resource_arn",
+                "ResourceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "tags",
+                "Tags",
+                autoboto.TypeInfo(typing.List[Tag]),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the AWS DMS resource the tag is to be
+    # added to. AWS DMS resources include a replication instance, endpoint, and a
+    # replication task.
+    resource_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The tag to be assigned to the DMS resource.
+    tags: typing.List["Tag"] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class AddTagsToResourceResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+class AuthMechanismValue(Enum):
+    default = "default"
+    mongodb_cr = "mongodb_cr"
+    scram_sha_1 = "scram_sha_1"
+
+
+class AuthTypeValue(Enum):
+    no = "no"
+    password = "password"
+
+
+@dataclasses.dataclass
+class AvailabilityZone(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The name of the availability zone.
+    name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class Certificate(autoboto.ShapeBase):
+    """
+    The SSL certificate that can be used to encrypt connections between the
+    endpoints and the replication instance.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "certificate_identifier",
+                "CertificateIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "certificate_creation_date",
+                "CertificateCreationDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "certificate_pem",
+                "CertificatePem",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "certificate_wallet",
+                "CertificateWallet",
+                autoboto.TypeInfo(typing.Any),
+            ),
+            (
+                "certificate_arn",
+                "CertificateArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "certificate_owner",
+                "CertificateOwner",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "valid_from_date",
+                "ValidFromDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "valid_to_date",
+                "ValidToDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "signing_algorithm",
+                "SigningAlgorithm",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "key_length",
+                "KeyLength",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The customer-assigned name of the certificate. Valid characters are A-z and
+    # 0-9.
+    certificate_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The date that the certificate was created.
+    certificate_creation_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The contents of the .pem X.509 certificate file for the certificate.
+    certificate_pem: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The location of the imported Oracle Wallet certificate for use with SSL.
+    certificate_wallet: typing.Any = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) for the certificate.
+    certificate_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The owner of the certificate.
+    certificate_owner: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The beginning date that the certificate is valid.
+    valid_from_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The final date that the certificate is valid.
+    valid_to_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The signing algorithm for the certificate.
+    signing_algorithm: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The key length of the cryptographic algorithm being used.
+    key_length: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+class CertificateWallet(botocore.response.StreamingBody):
+    pass
+
+
+class CompressionTypeValue(Enum):
+    none = "none"
+    gzip = "gzip"
+
+
+@dataclasses.dataclass
+class Connection(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "endpoint_arn",
+                "EndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "status",
+                "Status",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "last_failure_message",
+                "LastFailureMessage",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "endpoint_identifier",
+                "EndpointIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_identifier",
+                "ReplicationInstanceIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication instance.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    endpoint_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The connection status.
+    status: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The error message when the connection last failed.
+    last_failure_message: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The identifier of the endpoint. Identifiers must begin with a letter; must
+    # contain only ASCII letters, digits, and hyphens; and must not end with a
+    # hyphen or contain two consecutive hyphens.
+    endpoint_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The replication instance identifier. This parameter is stored as a
+    # lowercase string.
+    replication_instance_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class CreateEndpointMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "endpoint_identifier",
+                "EndpointIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "endpoint_type",
+                "EndpointType",
+                autoboto.TypeInfo(ReplicationEndpointTypeValue),
+            ),
+            (
+                "engine_name",
+                "EngineName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "username",
+                "Username",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "password",
+                "Password",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "server_name",
+                "ServerName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "port",
+                "Port",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "database_name",
+                "DatabaseName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "extra_connection_attributes",
+                "ExtraConnectionAttributes",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "kms_key_id",
+                "KmsKeyId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "tags",
+                "Tags",
+                autoboto.TypeInfo(typing.List[Tag]),
+            ),
+            (
+                "certificate_arn",
+                "CertificateArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "ssl_mode",
+                "SslMode",
+                autoboto.TypeInfo(DmsSslModeValue),
+            ),
+            (
+                "service_access_role_arn",
+                "ServiceAccessRoleArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "external_table_definition",
+                "ExternalTableDefinition",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "dynamo_db_settings",
+                "DynamoDbSettings",
+                autoboto.TypeInfo(DynamoDbSettings),
+            ),
+            (
+                "s3_settings",
+                "S3Settings",
+                autoboto.TypeInfo(S3Settings),
+            ),
+            (
+                "dms_transfer_settings",
+                "DmsTransferSettings",
+                autoboto.TypeInfo(DmsTransferSettings),
+            ),
+            (
+                "mongo_db_settings",
+                "MongoDbSettings",
+                autoboto.TypeInfo(MongoDbSettings),
+            ),
+        ]
+
+    # The database endpoint identifier. Identifiers must begin with a letter;
+    # must contain only ASCII letters, digits, and hyphens; and must not end with
+    # a hyphen or contain two consecutive hyphens.
+    endpoint_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of endpoint.
+    endpoint_type: "ReplicationEndpointTypeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of engine for the endpoint. Valid values, depending on the
+    # EndPointType, include mysql, oracle, postgres, mariadb, aurora, aurora-
+    # postgresql, redshift, s3, db2, azuredb, sybase, dynamodb, mongodb, and
+    # sqlserver.
+    engine_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The user name to be used to login to the endpoint database.
+    username: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The password to be used to login to the endpoint database.
+    password: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The name of the server where the endpoint database resides.
+    server_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The port used by the endpoint database.
+    port: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The name of the endpoint database.
+    database_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Additional attributes associated with the connection.
+    extra_connection_attributes: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The KMS key identifier that will be used to encrypt the connection
+    # parameters. If you do not specify a value for the KmsKeyId parameter, then
+    # AWS DMS will use your default encryption key. AWS KMS creates the default
+    # encryption key for your AWS account. Your AWS account has a different
+    # default encryption key for each AWS region.
+    kms_key_id: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # Tags to be added to the endpoint.
+    tags: typing.List["Tag"] = dataclasses.field(default_factory=list, )
+
+    # The Amazon Resource Name (ARN) for the certificate.
+    certificate_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The SSL mode to use for the SSL connection.
+
+    # SSL mode can be one of four values: none, require, verify-ca, verify-full.
+
+    # The default value is none.
+    ssl_mode: "DmsSslModeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) for the service access role you want to use
+    # to create the endpoint.
+    service_access_role_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The external table definition.
+    external_table_definition: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Settings in JSON format for the target Amazon DynamoDB endpoint. For more
+    # information about the available settings, see the **Using Object Mapping to
+    # Migrate Data to DynamoDB** section at [ Using an Amazon DynamoDB Database
+    # as a Target for AWS Database Migration
+    # Service](http://docs.aws.amazon.com/dms/latest/userguide/CHAP_Target.DynamoDB.html).
+    dynamo_db_settings: "DynamoDbSettings" = dataclasses.field(
+        default_factory=dict,
+    )
+
+    # Settings in JSON format for the target Amazon S3 endpoint. For more
+    # information about the available settings, see the **Extra Connection
+    # Attributes** section at [ Using Amazon S3 as a Target for AWS Database
+    # Migration
+    # Service](http://docs.aws.amazon.com/dms/latest/userguide/CHAP_Target.S3.html).
+    s3_settings: "S3Settings" = dataclasses.field(default_factory=dict, )
+
+    # The settings in JSON format for the DMS Transfer type source endpoint.
+
+    # Attributes include:
+
+    #   * serviceAccessRoleArn - The IAM role that has permission to access the Amazon S3 bucket.
+
+    #   * bucketName - The name of the S3 bucket to use.
+
+    #   * compressionType - An optional parameter to use GZIP to compress the target files. Set to NONE (the default) or do not use to leave the files uncompressed.
+
+    # Shorthand syntax: ServiceAccessRoleArn=string
+    # ,BucketName=string,CompressionType=string
+
+    # JSON syntax:
+
+    # { "ServiceAccessRoleArn": "string", "BucketName": "string",
+    # "CompressionType": "none"|"gzip" }
+    dms_transfer_settings: "DmsTransferSettings" = dataclasses.field(
+        default_factory=dict,
+    )
+
+    # Settings in JSON format for the source MongoDB endpoint. For more
+    # information about the available settings, see the **Configuration
+    # Properties When Using MongoDB as a Source for AWS Database Migration
+    # Service** section at [ Using MongoDB as a Target for AWS Database Migration
+    # Service](http://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.MongoDB.html).
+    mongo_db_settings: "MongoDbSettings" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class CreateEndpointResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "endpoint",
+                "Endpoint",
+                autoboto.TypeInfo(Endpoint),
+            ),
+        ]
+
+    # The endpoint that was created.
+    endpoint: "Endpoint" = dataclasses.field(default_factory=dict, )
+
+
+@dataclasses.dataclass
+class CreateEventSubscriptionMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "subscription_name",
+                "SubscriptionName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "sns_topic_arn",
+                "SnsTopicArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "source_type",
+                "SourceType",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "event_categories",
+                "EventCategories",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "source_ids",
+                "SourceIds",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "enabled",
+                "Enabled",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "tags",
+                "Tags",
+                autoboto.TypeInfo(typing.List[Tag]),
+            ),
+        ]
+
+    # The name of the AWS DMS event notification subscription.
+
+    # Constraints: The name must be less than 255 characters.
+    subscription_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) of the Amazon SNS topic created for event
+    # notification. The ARN is created by Amazon SNS when you create a topic and
+    # subscribe to it.
+    sns_topic_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of AWS DMS resource that generates the events. For example, if you
+    # want to be notified of events generated by a replication instance, you set
+    # this parameter to `replication-instance`. If this value is not specified,
+    # all events are returned.
+
+    # Valid values: replication-instance | migration-task
+    source_type: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # A list of event categories for a source type that you want to subscribe to.
+    # You can see a list of the categories for a given source type by calling the
+    # **DescribeEventCategories** action or in the topic [ Working with Events
+    # and
+    # Notifications](http://docs.aws.amazon.com/dms/latest/userguide/CHAP_Events.html)
+    # in the AWS Database Migration Service User Guide.
+    event_categories: typing.List[str] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # The list of identifiers of the event sources for which events will be
+    # returned. If not specified, then all sources are included in the response.
+    # An identifier must begin with a letter and must contain only ASCII letters,
+    # digits, and hyphens; it cannot end with a hyphen or contain two consecutive
+    # hyphens.
+    source_ids: typing.List[str] = dataclasses.field(default_factory=list, )
+
+    # A Boolean value; set to **true** to activate the subscription, or set to
+    # **false** to create the subscription but not activate it.
+    enabled: bool = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # A tag to be attached to the event subscription.
+    tags: typing.List["Tag"] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class CreateEventSubscriptionResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "event_subscription",
+                "EventSubscription",
+                autoboto.TypeInfo(EventSubscription),
+            ),
+        ]
+
+    # The event subscription that was created.
+    event_subscription: "EventSubscription" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class CreateReplicationInstanceMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance_identifier",
+                "ReplicationInstanceIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_class",
+                "ReplicationInstanceClass",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "allocated_storage",
+                "AllocatedStorage",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "vpc_security_group_ids",
+                "VpcSecurityGroupIds",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "availability_zone",
+                "AvailabilityZone",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_subnet_group_identifier",
+                "ReplicationSubnetGroupIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "preferred_maintenance_window",
+                "PreferredMaintenanceWindow",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "multi_az",
+                "MultiAZ",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "engine_version",
+                "EngineVersion",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "auto_minor_version_upgrade",
+                "AutoMinorVersionUpgrade",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "tags",
+                "Tags",
+                autoboto.TypeInfo(typing.List[Tag]),
+            ),
+            (
+                "kms_key_id",
+                "KmsKeyId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "publicly_accessible",
+                "PubliclyAccessible",
+                autoboto.TypeInfo(bool),
+            ),
+        ]
+
+    # The replication instance identifier. This parameter is stored as a
+    # lowercase string.
+
+    # Constraints:
+
+    #   * Must contain from 1 to 63 alphanumeric characters or hyphens.
+
+    #   * First character must be a letter.
+
+    #   * Cannot end with a hyphen or contain two consecutive hyphens.
+
+    # Example: `myrepinstance`
+    replication_instance_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The compute and memory capacity of the replication instance as specified by
+    # the replication instance class.
+
+    # Valid Values: `dms.t2.micro | dms.t2.small | dms.t2.medium | dms.t2.large |
+    # dms.c4.large | dms.c4.xlarge | dms.c4.2xlarge | dms.c4.4xlarge `
+    replication_instance_class: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The amount of storage (in gigabytes) to be initially allocated for the
+    # replication instance.
+    allocated_storage: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Specifies the VPC security group to be used with the replication instance.
+    # The VPC security group must work with the VPC containing the replication
+    # instance.
+    vpc_security_group_ids: typing.List[str] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # The EC2 Availability Zone that the replication instance will be created in.
+
+    # Default: A random, system-chosen Availability Zone in the endpoint's
+    # region.
+
+    # Example: `us-east-1d`
+    availability_zone: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # A subnet group to associate with the replication instance.
+    replication_subnet_group_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The weekly time range during which system maintenance can occur, in
+    # Universal Coordinated Time (UTC).
+
+    # Format: `ddd:hh24:mi-ddd:hh24:mi`
+
+    # Default: A 30-minute window selected at random from an 8-hour block of time
+    # per region, occurring on a random day of the week.
+
+    # Valid Days: Mon, Tue, Wed, Thu, Fri, Sat, Sun
+
+    # Constraints: Minimum 30-minute window.
+    preferred_maintenance_window: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Specifies if the replication instance is a Multi-AZ deployment. You cannot
+    # set the `AvailabilityZone` parameter if the Multi-AZ parameter is set to
+    # `true`.
+    multi_az: bool = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The engine version number of the replication instance.
+    engine_version: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates that minor engine upgrades will be applied automatically to the
+    # replication instance during the maintenance window.
+
+    # Default: `true`
+    auto_minor_version_upgrade: bool = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Tags to be associated with the replication instance.
+    tags: typing.List["Tag"] = dataclasses.field(default_factory=list, )
+
+    # The KMS key identifier that will be used to encrypt the content on the
+    # replication instance. If you do not specify a value for the KmsKeyId
+    # parameter, then AWS DMS will use your default encryption key. AWS KMS
+    # creates the default encryption key for your AWS account. Your AWS account
+    # has a different default encryption key for each AWS region.
+    kms_key_id: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # Specifies the accessibility options for the replication instance. A value
+    # of `true` represents an instance with a public IP address. A value of
+    # `false` represents an instance with a private IP address. The default value
+    # is `true`.
+    publicly_accessible: bool = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class CreateReplicationInstanceResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance",
+                "ReplicationInstance",
+                autoboto.TypeInfo(ReplicationInstance),
+            ),
+        ]
+
+    # The replication instance that was created.
+    replication_instance: "ReplicationInstance" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class CreateReplicationSubnetGroupMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_subnet_group_identifier",
+                "ReplicationSubnetGroupIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_subnet_group_description",
+                "ReplicationSubnetGroupDescription",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "subnet_ids",
+                "SubnetIds",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "tags",
+                "Tags",
+                autoboto.TypeInfo(typing.List[Tag]),
+            ),
+        ]
+
+    # The name for the replication subnet group. This value is stored as a
+    # lowercase string.
+
+    # Constraints: Must contain no more than 255 alphanumeric characters,
+    # periods, spaces, underscores, or hyphens. Must not be "default".
+
+    # Example: `mySubnetgroup`
+    replication_subnet_group_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The description for the subnet group.
+    replication_subnet_group_description: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The EC2 subnet IDs for the subnet group.
+    subnet_ids: typing.List[str] = dataclasses.field(default_factory=list, )
+
+    # The tag to be assigned to the subnet group.
+    tags: typing.List["Tag"] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class CreateReplicationSubnetGroupResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_subnet_group",
+                "ReplicationSubnetGroup",
+                autoboto.TypeInfo(ReplicationSubnetGroup),
+            ),
+        ]
+
+    # The replication subnet group that was created.
+    replication_subnet_group: "ReplicationSubnetGroup" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class CreateReplicationTaskMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_identifier",
+                "ReplicationTaskIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "source_endpoint_arn",
+                "SourceEndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "target_endpoint_arn",
+                "TargetEndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "migration_type",
+                "MigrationType",
+                autoboto.TypeInfo(MigrationTypeValue),
+            ),
+            (
+                "table_mappings",
+                "TableMappings",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_task_settings",
+                "ReplicationTaskSettings",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "cdc_start_time",
+                "CdcStartTime",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "cdc_start_position",
+                "CdcStartPosition",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "cdc_stop_position",
+                "CdcStopPosition",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "tags",
+                "Tags",
+                autoboto.TypeInfo(typing.List[Tag]),
+            ),
+        ]
+
+    # The replication task identifier.
+
+    # Constraints:
+
+    #   * Must contain from 1 to 255 alphanumeric characters or hyphens.
+
+    #   * First character must be a letter.
+
+    #   * Cannot end with a hyphen or contain two consecutive hyphens.
+    replication_task_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    source_endpoint_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    target_endpoint_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) of the replication instance.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The migration type.
+    migration_type: "MigrationTypeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # When using the AWS CLI or boto3, provide the path of the JSON file that
+    # contains the table mappings. Precede the path with "file://". When working
+    # with the DMS API, provide the JSON as the parameter value.
+
+    # For example, --table-mappings file://mappingfile.json
+    table_mappings: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Settings for the task, such as target metadata settings. For a complete
+    # list of task settings, see [Task Settings for AWS Database Migration
+    # Service
+    # Tasks](http://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TaskSettings.html).
+    replication_task_settings: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates the start time for a change data capture (CDC) operation. Use
+    # either CdcStartTime or CdcStartPosition to specify when you want a CDC
+    # operation to start. Specifying both values results in an error.
+
+    # Timestamp Example: --cdc-start-time “2018-03-08T12:12:12”
+    cdc_start_time: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates when you want a change data capture (CDC) operation to start. Use
+    # either CdcStartPosition or CdcStartTime to specify when you want a CDC
+    # operation to start. Specifying both values results in an error.
+
+    # The value can be in date, checkpoint, or LSN/SCN format.
+
+    # Date Example: --cdc-start-position “2018-03-08T12:12:12”
+
+    # Checkpoint Example: --cdc-start-position "checkpoint:V1#27#mysql-bin-
+    # changelog.157832:1975:-1:2002:677883278264080:mysql-bin-
+    # changelog.157832:1876#0#0#*#0#93"
+
+    # LSN Example: --cdc-start-position “mysql-bin-changelog.000024:373”
+    cdc_start_position: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates when you want a change data capture (CDC) operation to stop. The
+    # value can be either server time or commit time.
+
+    # Server time example: --cdc-stop-position “server_time:3018-02-09T12:12:12”
+
+    # Commit time example: --cdc-stop-position “commit_time: 3018-02-09T12:12:12
+    # “
+    cdc_stop_position: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Tags to be added to the replication instance.
+    tags: typing.List["Tag"] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class CreateReplicationTaskResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task",
+                "ReplicationTask",
+                autoboto.TypeInfo(ReplicationTask),
+            ),
+        ]
+
+    # The replication task that was created.
+    replication_task: "ReplicationTask" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class DeleteCertificateMessage(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "certificate_arn",
+                "CertificateArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the deleted certificate.
+    certificate_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class DeleteCertificateResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "certificate",
+                "Certificate",
+                autoboto.TypeInfo(Certificate),
+            ),
+        ]
+
+    # The Secure Sockets Layer (SSL) certificate.
+    certificate: "Certificate" = dataclasses.field(default_factory=dict, )
+
+
+@dataclasses.dataclass
+class DeleteEndpointMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "endpoint_arn",
+                "EndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    endpoint_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DeleteEndpointResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "endpoint",
+                "Endpoint",
+                autoboto.TypeInfo(Endpoint),
+            ),
+        ]
+
+    # The endpoint that was deleted.
+    endpoint: "Endpoint" = dataclasses.field(default_factory=dict, )
+
+
+@dataclasses.dataclass
+class DeleteEventSubscriptionMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "subscription_name",
+                "SubscriptionName",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The name of the DMS event notification subscription to be deleted.
+    subscription_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class DeleteEventSubscriptionResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "event_subscription",
+                "EventSubscription",
+                autoboto.TypeInfo(EventSubscription),
+            ),
+        ]
+
+    # The event subscription that was deleted.
+    event_subscription: "EventSubscription" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class DeleteReplicationInstanceMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication instance to be deleted.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class DeleteReplicationInstanceResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance",
+                "ReplicationInstance",
+                autoboto.TypeInfo(ReplicationInstance),
+            ),
+        ]
+
+    # The replication instance that was deleted.
+    replication_instance: "ReplicationInstance" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class DeleteReplicationSubnetGroupMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_subnet_group_identifier",
+                "ReplicationSubnetGroupIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The subnet group name of the replication instance.
+    replication_subnet_group_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class DeleteReplicationSubnetGroupResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class DeleteReplicationTaskMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication task to be deleted.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class DeleteReplicationTaskResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task",
+                "ReplicationTask",
+                autoboto.TypeInfo(ReplicationTask),
+            ),
+        ]
+
+    # The deleted replication task.
+    replication_task: "ReplicationTask" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class DescribeAccountAttributesMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class DescribeAccountAttributesResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "account_quotas",
+                "AccountQuotas",
+                autoboto.TypeInfo(typing.List[AccountQuota]),
+            ),
+        ]
+
+    # Account quota information.
+    account_quotas: typing.List["AccountQuota"] = dataclasses.field(
+        default_factory=list,
+    )
+
+
+@dataclasses.dataclass
+class DescribeCertificatesMessage(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "filters",
+                "Filters",
+                autoboto.TypeInfo(typing.List[Filter]),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # Filters applied to the certificate described in the form of key-value
+    # pairs.
+    filters: typing.List["Filter"] = dataclasses.field(default_factory=list, )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 10
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeCertificatesResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "certificates",
+                "Certificates",
+                autoboto.TypeInfo(typing.List[Certificate]),
+            ),
+        ]
+
+    # The pagination token.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The Secure Sockets Layer (SSL) certificates associated with the replication
+    # instance.
+    certificates: typing.List["Certificate"] = dataclasses.field(
+        default_factory=list,
+    )
+
+
+@dataclasses.dataclass
+class DescribeConnectionsMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "filters",
+                "Filters",
+                autoboto.TypeInfo(typing.List[Filter]),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The filters applied to the connection.
+
+    # Valid filter names: endpoint-arn | replication-instance-arn
+    filters: typing.List["Filter"] = dataclasses.field(default_factory=list, )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeConnectionsResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "connections",
+                "Connections",
+                autoboto.TypeInfo(typing.List[Connection]),
+            ),
+        ]
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # A description of the connections.
+    connections: typing.List["Connection"] = dataclasses.field(
+        default_factory=list,
+    )
+
+
+@dataclasses.dataclass
+class DescribeEndpointTypesMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "filters",
+                "Filters",
+                autoboto.TypeInfo(typing.List[Filter]),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # Filters applied to the describe action.
+
+    # Valid filter names: engine-name | endpoint-type
+    filters: typing.List["Filter"] = dataclasses.field(default_factory=list, )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeEndpointTypesResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "supported_endpoint_types",
+                "SupportedEndpointTypes",
+                autoboto.TypeInfo(typing.List[SupportedEndpointType]),
+            ),
+        ]
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The type of endpoints that are supported.
+    supported_endpoint_types: typing.List["SupportedEndpointType"
+                                         ] = dataclasses.field(
+                                             default_factory=list,
+                                         )
+
+
+@dataclasses.dataclass
+class DescribeEndpointsMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "filters",
+                "Filters",
+                autoboto.TypeInfo(typing.List[Filter]),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # Filters applied to the describe action.
+
+    # Valid filter names: endpoint-arn | endpoint-type | endpoint-id | engine-
+    # name
+    filters: typing.List["Filter"] = dataclasses.field(default_factory=list, )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeEndpointsResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "endpoints",
+                "Endpoints",
+                autoboto.TypeInfo(typing.List[Endpoint]),
+            ),
+        ]
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # Endpoint description.
+    endpoints: typing.List["Endpoint"] = dataclasses.field(
+        default_factory=list,
+    )
+
+
+@dataclasses.dataclass
+class DescribeEventCategoriesMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "source_type",
+                "SourceType",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "filters",
+                "Filters",
+                autoboto.TypeInfo(typing.List[Filter]),
+            ),
+        ]
+
+    # The type of AWS DMS resource that generates events.
+
+    # Valid values: replication-instance | migration-task
+    source_type: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # Filters applied to the action.
+    filters: typing.List["Filter"] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class DescribeEventCategoriesResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "event_category_group_list",
+                "EventCategoryGroupList",
+                autoboto.TypeInfo(typing.List[EventCategoryGroup]),
+            ),
+        ]
+
+    # A list of event categories.
+    event_category_group_list: typing.List["EventCategoryGroup"
+                                          ] = dataclasses.field(
+                                              default_factory=list,
+                                          )
+
+
+@dataclasses.dataclass
+class DescribeEventSubscriptionsMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "subscription_name",
+                "SubscriptionName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "filters",
+                "Filters",
+                autoboto.TypeInfo(typing.List[Filter]),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The name of the AWS DMS event subscription to be described.
+    subscription_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Filters applied to the action.
+    filters: typing.List["Filter"] = dataclasses.field(default_factory=list, )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeEventSubscriptionsResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "event_subscriptions_list",
+                "EventSubscriptionsList",
+                autoboto.TypeInfo(typing.List[EventSubscription]),
+            ),
+        ]
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # A list of event subscriptions.
+    event_subscriptions_list: typing.List["EventSubscription"
+                                         ] = dataclasses.field(
+                                             default_factory=list,
+                                         )
+
+
+@dataclasses.dataclass
+class DescribeEventsMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "source_identifier",
+                "SourceIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "source_type",
+                "SourceType",
+                autoboto.TypeInfo(SourceType),
+            ),
+            (
+                "start_time",
+                "StartTime",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "end_time",
+                "EndTime",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "duration",
+                "Duration",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "event_categories",
+                "EventCategories",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "filters",
+                "Filters",
+                autoboto.TypeInfo(typing.List[Filter]),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier of the event source. An identifier must begin with a letter
+    # and must contain only ASCII letters, digits, and hyphens. It cannot end
+    # with a hyphen or contain two consecutive hyphens.
+    source_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of AWS DMS resource that generates events.
+
+    # Valid values: replication-instance | migration-task
+    source_type: "SourceType" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The start time for the events to be listed.
+    start_time: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The end time for the events to be listed.
+    end_time: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The duration of the events to be listed.
+    duration: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # A list of event categories for a source type that you want to subscribe to.
+    event_categories: typing.List[str] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # Filters applied to the action.
+    filters: typing.List["Filter"] = dataclasses.field(default_factory=list, )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeEventsResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "events",
+                "Events",
+                autoboto.TypeInfo(typing.List[Event]),
+            ),
+        ]
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The events described.
+    events: typing.List["Event"] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class DescribeOrderableReplicationInstancesMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeOrderableReplicationInstancesResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "orderable_replication_instances",
+                "OrderableReplicationInstances",
+                autoboto.TypeInfo(typing.List[OrderableReplicationInstance]),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The order-able replication instances available.
+    orderable_replication_instances: typing.List["OrderableReplicationInstance"
+                                                ] = dataclasses.field(
+                                                    default_factory=list,
+                                                )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeRefreshSchemasStatusMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "endpoint_arn",
+                "EndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    endpoint_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeRefreshSchemasStatusResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "refresh_schemas_status",
+                "RefreshSchemasStatus",
+                autoboto.TypeInfo(RefreshSchemasStatus),
+            ),
+        ]
+
+    # The status of the schema.
+    refresh_schemas_status: "RefreshSchemasStatus" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class DescribeReplicationInstanceTaskLogsMessage(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication instance.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeReplicationInstanceTaskLogsResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_task_logs",
+                "ReplicationInstanceTaskLogs",
+                autoboto.TypeInfo(typing.List[ReplicationInstanceTaskLog]),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication instance.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # An array of replication task log metadata. Each member of the array
+    # contains the replication task name, ARN, and task log size (in bytes).
+    replication_instance_task_logs: typing.List["ReplicationInstanceTaskLog"
+                                               ] = dataclasses.field(
+                                                   default_factory=list,
+                                               )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeReplicationInstancesMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "filters",
+                "Filters",
+                autoboto.TypeInfo(typing.List[Filter]),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # Filters applied to the describe action.
+
+    # Valid filter names: replication-instance-arn | replication-instance-id |
+    # replication-instance-class | engine-version
+    filters: typing.List["Filter"] = dataclasses.field(default_factory=list, )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeReplicationInstancesResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instances",
+                "ReplicationInstances",
+                autoboto.TypeInfo(typing.List[ReplicationInstance]),
+            ),
+        ]
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The replication instances described.
+    replication_instances: typing.List["ReplicationInstance"
+                                      ] = dataclasses.field(
+                                          default_factory=list,
+                                      )
+
+
+@dataclasses.dataclass
+class DescribeReplicationSubnetGroupsMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "filters",
+                "Filters",
+                autoboto.TypeInfo(typing.List[Filter]),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # Filters applied to the describe action.
+    filters: typing.List["Filter"] = dataclasses.field(default_factory=list, )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeReplicationSubnetGroupsResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_subnet_groups",
+                "ReplicationSubnetGroups",
+                autoboto.TypeInfo(typing.List[ReplicationSubnetGroup]),
+            ),
+        ]
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # A description of the replication subnet groups.
+    replication_subnet_groups: typing.List["ReplicationSubnetGroup"
+                                          ] = dataclasses.field(
+                                              default_factory=list,
+                                          )
+
+
+@dataclasses.dataclass
+class DescribeReplicationTaskAssessmentResultsMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # \- The Amazon Resource Name (ARN) string that uniquely identifies the task.
+    # When this input parameter is specified the API will return only one result
+    # and ignore the values of the max-records and marker parameters.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeReplicationTaskAssessmentResultsResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "bucket_name",
+                "BucketName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_task_assessment_results",
+                "ReplicationTaskAssessmentResults",
+                autoboto.TypeInfo(typing.List[ReplicationTaskAssessmentResult]),
+            ),
+        ]
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # \- The Amazon S3 bucket where the task assessment report is located.
+    bucket_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The task assessment report.
+    replication_task_assessment_results: typing.List[
+        "ReplicationTaskAssessmentResult"
+    ] = dataclasses.field(
+        default_factory=list,
+    )
+
+
+@dataclasses.dataclass
+class DescribeReplicationTasksMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "filters",
+                "Filters",
+                autoboto.TypeInfo(typing.List[Filter]),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # Filters applied to the describe action.
+
+    # Valid filter names: replication-task-arn | replication-task-id | migration-
+    # type | endpoint-arn | replication-instance-arn
+    filters: typing.List["Filter"] = dataclasses.field(default_factory=list, )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeReplicationTasksResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_tasks",
+                "ReplicationTasks",
+                autoboto.TypeInfo(typing.List[ReplicationTask]),
+            ),
+        ]
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # A description of the replication tasks.
+    replication_tasks: typing.List["ReplicationTask"] = dataclasses.field(
+        default_factory=list,
+    )
+
+
+@dataclasses.dataclass
+class DescribeSchemasMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "endpoint_arn",
+                "EndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    endpoint_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 100.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeSchemasResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "schemas",
+                "Schemas",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+        ]
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The described schema.
+    schemas: typing.List[str] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class DescribeTableStatisticsMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_records",
+                "MaxRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "filters",
+                "Filters",
+                autoboto.TypeInfo(typing.List[Filter]),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication task.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The maximum number of records to include in the response. If more records
+    # exist than the specified `MaxRecords` value, a pagination token called a
+    # marker is included in the response so that the remaining results can be
+    # retrieved.
+
+    # Default: 100
+
+    # Constraints: Minimum 20, maximum 500.
+    max_records: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # Filters applied to the describe table statistics action.
+
+    # Valid filter names: schema-name | table-name | table-state
+
+    # A combination of filters creates an AND condition where each record matches
+    # all specified filters.
+    filters: typing.List["Filter"] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class DescribeTableStatisticsResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "table_statistics",
+                "TableStatistics",
+                autoboto.TypeInfo(typing.List[TableStatistics]),
+            ),
+            (
+                "marker",
+                "Marker",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication task.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The table statistics.
+    table_statistics: typing.List["TableStatistics"] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # An optional pagination token provided by a previous request. If this
+    # parameter is specified, the response includes only records beyond the
+    # marker, up to the value specified by `MaxRecords`.
+    marker: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+class DmsSslModeValue(Enum):
+    none = "none"
+    require = "require"
+    verify_ca = "verify-ca"
+    verify_full = "verify-full"
+
+
+@dataclasses.dataclass
+class DmsTransferSettings(autoboto.ShapeBase):
+    """
+    The settings in JSON format for the DMS Transfer type source endpoint.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "service_access_role_arn",
+                "ServiceAccessRoleArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "bucket_name",
+                "BucketName",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The IAM role that has permission to access the Amazon S3 bucket.
+    service_access_role_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The name of the S3 bucket to use.
+    bucket_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class DynamoDbSettings(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "service_access_role_arn",
+                "ServiceAccessRoleArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) used by the service access IAM role.
+    service_access_role_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class Endpoint(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "endpoint_identifier",
+                "EndpointIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "endpoint_type",
+                "EndpointType",
+                autoboto.TypeInfo(ReplicationEndpointTypeValue),
+            ),
+            (
+                "engine_name",
+                "EngineName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "engine_display_name",
+                "EngineDisplayName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "username",
+                "Username",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "server_name",
+                "ServerName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "port",
+                "Port",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "database_name",
+                "DatabaseName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "extra_connection_attributes",
+                "ExtraConnectionAttributes",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "status",
+                "Status",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "kms_key_id",
+                "KmsKeyId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "endpoint_arn",
+                "EndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "certificate_arn",
+                "CertificateArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "ssl_mode",
+                "SslMode",
+                autoboto.TypeInfo(DmsSslModeValue),
+            ),
+            (
+                "service_access_role_arn",
+                "ServiceAccessRoleArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "external_table_definition",
+                "ExternalTableDefinition",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "external_id",
+                "ExternalId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "dynamo_db_settings",
+                "DynamoDbSettings",
+                autoboto.TypeInfo(DynamoDbSettings),
+            ),
+            (
+                "s3_settings",
+                "S3Settings",
+                autoboto.TypeInfo(S3Settings),
+            ),
+            (
+                "dms_transfer_settings",
+                "DmsTransferSettings",
+                autoboto.TypeInfo(DmsTransferSettings),
+            ),
+            (
+                "mongo_db_settings",
+                "MongoDbSettings",
+                autoboto.TypeInfo(MongoDbSettings),
+            ),
+        ]
+
+    # The database endpoint identifier. Identifiers must begin with a letter;
+    # must contain only ASCII letters, digits, and hyphens; and must not end with
+    # a hyphen or contain two consecutive hyphens.
+    endpoint_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of endpoint.
+    endpoint_type: "ReplicationEndpointTypeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The database engine name. Valid values, depending on the EndPointType,
+    # include mysql, oracle, postgres, mariadb, aurora, aurora-postgresql,
+    # redshift, s3, db2, azuredb, sybase, sybase, dynamodb, mongodb, and
+    # sqlserver.
+    engine_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The expanded name for the engine name. For example, if the `EngineName`
+    # parameter is "aurora," this value would be "Amazon Aurora MySQL."
+    engine_display_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The user name used to connect to the endpoint.
+    username: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The name of the server at the endpoint.
+    server_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The port value used to access the endpoint.
+    port: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The name of the database at the endpoint.
+    database_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Additional connection attributes used to connect to the endpoint.
+    extra_connection_attributes: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The status of the endpoint.
+    status: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The KMS key identifier that will be used to encrypt the connection
+    # parameters. If you do not specify a value for the KmsKeyId parameter, then
+    # AWS DMS will use your default encryption key. AWS KMS creates the default
+    # encryption key for your AWS account. Your AWS account has a different
+    # default encryption key for each AWS region.
+    kms_key_id: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    endpoint_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The Amazon Resource Name (ARN) used for SSL connection to the endpoint.
+    certificate_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The SSL mode used to connect to the endpoint.
+
+    # SSL mode can be one of four values: none, require, verify-ca, verify-full.
+
+    # The default value is none.
+    ssl_mode: "DmsSslModeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) used by the service access IAM role.
+    service_access_role_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The external table definition.
+    external_table_definition: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Value returned by a call to CreateEndpoint that can be used for cross-
+    # account validation. Use it on a subsequent call to CreateEndpoint to create
+    # the endpoint with a cross-account.
+    external_id: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The settings for the target DynamoDB database. For more information, see
+    # the `DynamoDBSettings` structure.
+    dynamo_db_settings: "DynamoDbSettings" = dataclasses.field(
+        default_factory=dict,
+    )
+
+    # The settings for the S3 target endpoint. For more information, see the
+    # `S3Settings` structure.
+    s3_settings: "S3Settings" = dataclasses.field(default_factory=dict, )
+
+    # The settings in JSON format for the DMS Transfer type source endpoint.
+
+    # Attributes include:
+
+    #   * serviceAccessRoleArn - The IAM role that has permission to access the Amazon S3 bucket.
+
+    #   * bucketName - The name of the S3 bucket to use.
+
+    #   * compressionType - An optional parameter to use GZIP to compress the target files. Set to NONE (the default) or do not use to leave the files uncompressed.
+
+    # Shorthand syntax: ServiceAccessRoleArn=string
+    # ,BucketName=string,CompressionType=string
+
+    # JSON syntax:
+
+    # { "ServiceAccessRoleArn": "string", "BucketName": "string",
+    # "CompressionType": "none"|"gzip" }
+    dms_transfer_settings: "DmsTransferSettings" = dataclasses.field(
+        default_factory=dict,
+    )
+
+    # The settings for the MongoDB source endpoint. For more information, see the
+    # `MongoDbSettings` structure.
+    mongo_db_settings: "MongoDbSettings" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class Event(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "source_identifier",
+                "SourceIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "source_type",
+                "SourceType",
+                autoboto.TypeInfo(SourceType),
+            ),
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "event_categories",
+                "EventCategories",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "date",
+                "Date",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+        ]
+
+    # The identifier of the event source. An identifier must begin with a letter
+    # and must contain only ASCII letters, digits, and hyphens; it cannot end
+    # with a hyphen or contain two consecutive hyphens.
+
+    # Constraints:replication instance, endpoint, migration task
+    source_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of AWS DMS resource that generates events.
+
+    # Valid values: replication-instance | endpoint | migration-task
+    source_type: "SourceType" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The event message.
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The event categories available for the specified source type.
+    event_categories: typing.List[str] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # The date of the event.
+    date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class EventCategoryGroup(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "source_type",
+                "SourceType",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "event_categories",
+                "EventCategories",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+        ]
+
+    # The type of AWS DMS resource that generates events.
+
+    # Valid values: replication-instance | replication-server | security-group |
+    # migration-task
+    source_type: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # A list of event categories for a `SourceType` that you want to subscribe
+    # to.
+    event_categories: typing.List[str] = dataclasses.field(
+        default_factory=list,
+    )
+
+
+@dataclasses.dataclass
+class EventSubscription(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "customer_aws_id",
+                "CustomerAwsId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "cust_subscription_id",
+                "CustSubscriptionId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "sns_topic_arn",
+                "SnsTopicArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "status",
+                "Status",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "subscription_creation_time",
+                "SubscriptionCreationTime",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "source_type",
+                "SourceType",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "source_ids_list",
+                "SourceIdsList",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "event_categories_list",
+                "EventCategoriesList",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "enabled",
+                "Enabled",
+                autoboto.TypeInfo(bool),
+            ),
+        ]
+
+    # The AWS customer account associated with the AWS DMS event notification
+    # subscription.
+    customer_aws_id: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The AWS DMS event notification subscription Id.
+    cust_subscription_id: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The topic ARN of the AWS DMS event notification subscription.
+    sns_topic_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The status of the AWS DMS event notification subscription.
+
+    # Constraints:
+
+    # Can be one of the following: creating | modifying | deleting | active | no-
+    # permission | topic-not-exist
+
+    # The status "no-permission" indicates that AWS DMS no longer has permission
+    # to post to the SNS topic. The status "topic-not-exist" indicates that the
+    # topic was deleted after the subscription was created.
+    status: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The time the RDS event notification subscription was created.
+    subscription_creation_time: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of AWS DMS resource that generates events.
+
+    # Valid values: replication-instance | replication-server | security-group |
+    # migration-task
+    source_type: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # A list of source Ids for the event subscription.
+    source_ids_list: typing.List[str] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # A lists of event categories.
+    event_categories_list: typing.List[str] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # Boolean value that indicates if the event subscription is enabled.
+    enabled: bool = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class Filter(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "values",
+                "Values",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+        ]
+
+    # The name of the filter.
+    name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The filter value.
+    values: typing.List[str] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class ImportCertificateMessage(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "certificate_identifier",
+                "CertificateIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "certificate_pem",
+                "CertificatePem",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "certificate_wallet",
+                "CertificateWallet",
+                autoboto.TypeInfo(typing.Any),
+            ),
+            (
+                "tags",
+                "Tags",
+                autoboto.TypeInfo(typing.List[Tag]),
+            ),
+        ]
+
+    # The customer-assigned name of the certificate. Valid characters are A-z and
+    # 0-9.
+    certificate_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The contents of the .pem X.509 certificate file for the certificate.
+    certificate_pem: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The location of the imported Oracle Wallet certificate for use with SSL.
+    certificate_wallet: typing.Any = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The tags associated with the certificate.
+    tags: typing.List["Tag"] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class ImportCertificateResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "certificate",
+                "Certificate",
+                autoboto.TypeInfo(Certificate),
+            ),
+        ]
+
+    # The certificate to be uploaded.
+    certificate: "Certificate" = dataclasses.field(default_factory=dict, )
+
+
+@dataclasses.dataclass
+class InsufficientResourceCapacityFault(autoboto.ShapeBase):
+    """
+    There are not enough resources allocated to the database migration.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class InvalidCertificateFault(autoboto.ShapeBase):
+    """
+    The certificate was not valid.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class InvalidResourceStateFault(autoboto.ShapeBase):
+    """
+    The resource is in a state that prevents it from being used for database
+    migration.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class InvalidSubnet(autoboto.ShapeBase):
+    """
+    The subnet provided is invalid.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class KMSKeyNotAccessibleFault(autoboto.ShapeBase):
+    """
+    AWS DMS cannot access the KMS key.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListTagsForResourceMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "resource_arn",
+                "ResourceArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the AWS DMS
+    # resource.
+    resource_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListTagsForResourceResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "tag_list",
+                "TagList",
+                autoboto.TypeInfo(typing.List[Tag]),
+            ),
+        ]
+
+    # A list of tags for the resource.
+    tag_list: typing.List["Tag"] = dataclasses.field(default_factory=list, )
+
+
+class MigrationTypeValue(Enum):
+    full_load = "full-load"
+    cdc = "cdc"
+    full_load_and_cdc = "full-load-and-cdc"
+
+
+@dataclasses.dataclass
+class ModifyEndpointMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "endpoint_arn",
+                "EndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "endpoint_identifier",
+                "EndpointIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "endpoint_type",
+                "EndpointType",
+                autoboto.TypeInfo(ReplicationEndpointTypeValue),
+            ),
+            (
+                "engine_name",
+                "EngineName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "username",
+                "Username",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "password",
+                "Password",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "server_name",
+                "ServerName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "port",
+                "Port",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "database_name",
+                "DatabaseName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "extra_connection_attributes",
+                "ExtraConnectionAttributes",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "certificate_arn",
+                "CertificateArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "ssl_mode",
+                "SslMode",
+                autoboto.TypeInfo(DmsSslModeValue),
+            ),
+            (
+                "service_access_role_arn",
+                "ServiceAccessRoleArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "external_table_definition",
+                "ExternalTableDefinition",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "dynamo_db_settings",
+                "DynamoDbSettings",
+                autoboto.TypeInfo(DynamoDbSettings),
+            ),
+            (
+                "s3_settings",
+                "S3Settings",
+                autoboto.TypeInfo(S3Settings),
+            ),
+            (
+                "dms_transfer_settings",
+                "DmsTransferSettings",
+                autoboto.TypeInfo(DmsTransferSettings),
+            ),
+            (
+                "mongo_db_settings",
+                "MongoDbSettings",
+                autoboto.TypeInfo(MongoDbSettings),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    endpoint_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The database endpoint identifier. Identifiers must begin with a letter;
+    # must contain only ASCII letters, digits, and hyphens; and must not end with
+    # a hyphen or contain two consecutive hyphens.
+    endpoint_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of endpoint.
+    endpoint_type: "ReplicationEndpointTypeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of engine for the endpoint. Valid values, depending on the
+    # EndPointType, include mysql, oracle, postgres, mariadb, aurora, aurora-
+    # postgresql, redshift, s3, db2, azuredb, sybase, sybase, dynamodb, mongodb,
+    # and sqlserver.
+    engine_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The user name to be used to login to the endpoint database.
+    username: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The password to be used to login to the endpoint database.
+    password: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The name of the server where the endpoint database resides.
+    server_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The port used by the endpoint database.
+    port: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The name of the endpoint database.
+    database_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Additional attributes associated with the connection. To reset this
+    # parameter, pass the empty string ("") as an argument.
+    extra_connection_attributes: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) of the certificate used for SSL connection.
+    certificate_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The SSL mode to be used.
+
+    # SSL mode can be one of four values: none, require, verify-ca, verify-full.
+
+    # The default value is none.
+    ssl_mode: "DmsSslModeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) for the service access role you want to use
+    # to modify the endpoint.
+    service_access_role_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The external table definition.
+    external_table_definition: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Settings in JSON format for the target Amazon DynamoDB endpoint. For more
+    # information about the available settings, see the **Using Object Mapping to
+    # Migrate Data to DynamoDB** section at [ Using an Amazon DynamoDB Database
+    # as a Target for AWS Database Migration
+    # Service](http://docs.aws.amazon.com/dms/latest/userguide/CHAP_Target.DynamoDB.html).
+    dynamo_db_settings: "DynamoDbSettings" = dataclasses.field(
+        default_factory=dict,
+    )
+
+    # Settings in JSON format for the target S3 endpoint. For more information
+    # about the available settings, see the **Extra Connection Attributes**
+    # section at [ Using Amazon S3 as a Target for AWS Database Migration
+    # Service](http://docs.aws.amazon.com/dms/latest/userguide/CHAP_Target.S3.html).
+    s3_settings: "S3Settings" = dataclasses.field(default_factory=dict, )
+
+    # The settings in JSON format for the DMS Transfer type source endpoint.
+
+    # Attributes include:
+
+    #   * serviceAccessRoleArn - The IAM role that has permission to access the Amazon S3 bucket.
+
+    #   * BucketName - The name of the S3 bucket to use.
+
+    #   * compressionType - An optional parameter to use GZIP to compress the target files. Set to NONE (the default) or do not use to leave the files uncompressed.
+
+    # Shorthand syntax: ServiceAccessRoleArn=string
+    # ,BucketName=string,CompressionType=string
+
+    # JSON syntax:
+
+    # { "ServiceAccessRoleArn": "string", "BucketName": "string",
+    # "CompressionType": "none"|"gzip" }
+    dms_transfer_settings: "DmsTransferSettings" = dataclasses.field(
+        default_factory=dict,
+    )
+
+    # Settings in JSON format for the source MongoDB endpoint. For more
+    # information about the available settings, see the **Configuration
+    # Properties When Using MongoDB as a Source for AWS Database Migration
+    # Service** section at [ Using Amazon S3 as a Target for AWS Database
+    # Migration
+    # Service](http://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.MongoDB.html).
+    mongo_db_settings: "MongoDbSettings" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class ModifyEndpointResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "endpoint",
+                "Endpoint",
+                autoboto.TypeInfo(Endpoint),
+            ),
+        ]
+
+    # The modified endpoint.
+    endpoint: "Endpoint" = dataclasses.field(default_factory=dict, )
+
+
+@dataclasses.dataclass
+class ModifyEventSubscriptionMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "subscription_name",
+                "SubscriptionName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "sns_topic_arn",
+                "SnsTopicArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "source_type",
+                "SourceType",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "event_categories",
+                "EventCategories",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "enabled",
+                "Enabled",
+                autoboto.TypeInfo(bool),
+            ),
+        ]
+
+    # The name of the AWS DMS event notification subscription to be modified.
+    subscription_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) of the Amazon SNS topic created for event
+    # notification. The ARN is created by Amazon SNS when you create a topic and
+    # subscribe to it.
+    sns_topic_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of AWS DMS resource that generates the events you want to
+    # subscribe to.
+
+    # Valid values: replication-instance | migration-task
+    source_type: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # A list of event categories for a source type that you want to subscribe to.
+    # Use the `DescribeEventCategories` action to see a list of event categories.
+    event_categories: typing.List[str] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # A Boolean value; set to **true** to activate the subscription.
+    enabled: bool = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class ModifyEventSubscriptionResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "event_subscription",
+                "EventSubscription",
+                autoboto.TypeInfo(EventSubscription),
+            ),
+        ]
+
+    # The modified event subscription.
+    event_subscription: "EventSubscription" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class ModifyReplicationInstanceMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "allocated_storage",
+                "AllocatedStorage",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "apply_immediately",
+                "ApplyImmediately",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "replication_instance_class",
+                "ReplicationInstanceClass",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "vpc_security_group_ids",
+                "VpcSecurityGroupIds",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "preferred_maintenance_window",
+                "PreferredMaintenanceWindow",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "multi_az",
+                "MultiAZ",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "engine_version",
+                "EngineVersion",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "allow_major_version_upgrade",
+                "AllowMajorVersionUpgrade",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "auto_minor_version_upgrade",
+                "AutoMinorVersionUpgrade",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "replication_instance_identifier",
+                "ReplicationInstanceIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication instance.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The amount of storage (in gigabytes) to be allocated for the replication
+    # instance.
+    allocated_storage: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates whether the changes should be applied immediately or during the
+    # next maintenance window.
+    apply_immediately: bool = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The compute and memory capacity of the replication instance.
+
+    # Valid Values: `dms.t2.micro | dms.t2.small | dms.t2.medium | dms.t2.large |
+    # dms.c4.large | dms.c4.xlarge | dms.c4.2xlarge | dms.c4.4xlarge `
+    replication_instance_class: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Specifies the VPC security group to be used with the replication instance.
+    # The VPC security group must work with the VPC containing the replication
+    # instance.
+    vpc_security_group_ids: typing.List[str] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # The weekly time range (in UTC) during which system maintenance can occur,
+    # which might result in an outage. Changing this parameter does not result in
+    # an outage, except in the following situation, and the change is
+    # asynchronously applied as soon as possible. If moving this window to the
+    # current time, there must be at least 30 minutes between the current time
+    # and end of the window to ensure pending changes are applied.
+
+    # Default: Uses existing setting
+
+    # Format: ddd:hh24:mi-ddd:hh24:mi
+
+    # Valid Days: Mon | Tue | Wed | Thu | Fri | Sat | Sun
+
+    # Constraints: Must be at least 30 minutes
+    preferred_maintenance_window: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Specifies if the replication instance is a Multi-AZ deployment. You cannot
+    # set the `AvailabilityZone` parameter if the Multi-AZ parameter is set to
+    # `true`.
+    multi_az: bool = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The engine version number of the replication instance.
+    engine_version: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates that major version upgrades are allowed. Changing this parameter
+    # does not result in an outage and the change is asynchronously applied as
+    # soon as possible.
+
+    # Constraints: This parameter must be set to true when specifying a value for
+    # the `EngineVersion` parameter that is a different major version than the
+    # replication instance's current version.
+    allow_major_version_upgrade: bool = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates that minor version upgrades will be applied automatically to the
+    # replication instance during the maintenance window. Changing this parameter
+    # does not result in an outage except in the following case and the change is
+    # asynchronously applied as soon as possible. An outage will result if this
+    # parameter is set to `true` during the maintenance window, and a newer minor
+    # version is available, and AWS DMS has enabled auto patching for that engine
+    # version.
+    auto_minor_version_upgrade: bool = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The replication instance identifier. This parameter is stored as a
+    # lowercase string.
+    replication_instance_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class ModifyReplicationInstanceResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance",
+                "ReplicationInstance",
+                autoboto.TypeInfo(ReplicationInstance),
+            ),
+        ]
+
+    # The modified replication instance.
+    replication_instance: "ReplicationInstance" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class ModifyReplicationSubnetGroupMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_subnet_group_identifier",
+                "ReplicationSubnetGroupIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "subnet_ids",
+                "SubnetIds",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "replication_subnet_group_description",
+                "ReplicationSubnetGroupDescription",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The name of the replication instance subnet group.
+    replication_subnet_group_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # A list of subnet IDs.
+    subnet_ids: typing.List[str] = dataclasses.field(default_factory=list, )
+
+    # The description of the replication instance subnet group.
+    replication_subnet_group_description: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class ModifyReplicationSubnetGroupResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_subnet_group",
+                "ReplicationSubnetGroup",
+                autoboto.TypeInfo(ReplicationSubnetGroup),
+            ),
+        ]
+
+    # The modified replication subnet group.
+    replication_subnet_group: "ReplicationSubnetGroup" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class ModifyReplicationTaskMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_task_identifier",
+                "ReplicationTaskIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "migration_type",
+                "MigrationType",
+                autoboto.TypeInfo(MigrationTypeValue),
+            ),
+            (
+                "table_mappings",
+                "TableMappings",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_task_settings",
+                "ReplicationTaskSettings",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "cdc_start_time",
+                "CdcStartTime",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "cdc_start_position",
+                "CdcStartPosition",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "cdc_stop_position",
+                "CdcStopPosition",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication task.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The replication task identifier.
+
+    # Constraints:
+
+    #   * Must contain from 1 to 255 alphanumeric characters or hyphens.
+
+    #   * First character must be a letter.
+
+    #   * Cannot end with a hyphen or contain two consecutive hyphens.
+    replication_task_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The migration type.
+
+    # Valid values: full-load | cdc | full-load-and-cdc
+    migration_type: "MigrationTypeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # When using the AWS CLI or boto3, provide the path of the JSON file that
+    # contains the table mappings. Precede the path with "file://". When working
+    # with the DMS API, provide the JSON as the parameter value.
+
+    # For example, --table-mappings file://mappingfile.json
+    table_mappings: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # JSON file that contains settings for the task, such as target metadata
+    # settings.
+    replication_task_settings: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates the start time for a change data capture (CDC) operation. Use
+    # either CdcStartTime or CdcStartPosition to specify when you want a CDC
+    # operation to start. Specifying both values results in an error.
+
+    # Timestamp Example: --cdc-start-time “2018-03-08T12:12:12”
+    cdc_start_time: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates when you want a change data capture (CDC) operation to start. Use
+    # either CdcStartPosition or CdcStartTime to specify when you want a CDC
+    # operation to start. Specifying both values results in an error.
+
+    # The value can be in date, checkpoint, or LSN/SCN format.
+
+    # Date Example: --cdc-start-position “2018-03-08T12:12:12”
+
+    # Checkpoint Example: --cdc-start-position "checkpoint:V1#27#mysql-bin-
+    # changelog.157832:1975:-1:2002:677883278264080:mysql-bin-
+    # changelog.157832:1876#0#0#*#0#93"
+
+    # LSN Example: --cdc-start-position “mysql-bin-changelog.000024:373”
+    cdc_start_position: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates when you want a change data capture (CDC) operation to stop. The
+    # value can be either server time or commit time.
+
+    # Server time example: --cdc-stop-position “server_time:3018-02-09T12:12:12”
+
+    # Commit time example: --cdc-stop-position “commit_time: 3018-02-09T12:12:12
+    # “
+    cdc_stop_position: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class ModifyReplicationTaskResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task",
+                "ReplicationTask",
+                autoboto.TypeInfo(ReplicationTask),
+            ),
+        ]
+
+    # The replication task that was modified.
+    replication_task: "ReplicationTask" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class MongoDbSettings(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "username",
+                "Username",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "password",
+                "Password",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "server_name",
+                "ServerName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "port",
+                "Port",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "database_name",
+                "DatabaseName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "auth_type",
+                "AuthType",
+                autoboto.TypeInfo(AuthTypeValue),
+            ),
+            (
+                "auth_mechanism",
+                "AuthMechanism",
+                autoboto.TypeInfo(AuthMechanismValue),
+            ),
+            (
+                "nesting_level",
+                "NestingLevel",
+                autoboto.TypeInfo(NestingLevelValue),
+            ),
+            (
+                "extract_doc_id",
+                "ExtractDocId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "docs_to_investigate",
+                "DocsToInvestigate",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "auth_source",
+                "AuthSource",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "kms_key_id",
+                "KmsKeyId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The user name you use to access the MongoDB source endpoint.
+    username: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The password for the user account you use to access the MongoDB source
+    # endpoint.
+    password: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The name of the server on the MongoDB source endpoint.
+    server_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The port value for the MongoDB source endpoint.
+    port: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The database name on the MongoDB source endpoint.
+    database_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The authentication type you use to access the MongoDB source endpoint.
+
+    # Valid values: NO, PASSWORD
+
+    # When NO is selected, user name and password parameters are not used and can
+    # be empty.
+    auth_type: "AuthTypeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The authentication mechanism you use to access the MongoDB source endpoint.
+
+    # Valid values: DEFAULT, MONGODB_CR, SCRAM_SHA_1
+
+    # DEFAULT – For MongoDB version 2.x, use MONGODB_CR. For MongoDB version 3.x,
+    # use SCRAM_SHA_1. This attribute is not used when authType=No.
+    auth_mechanism: "AuthMechanismValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Specifies either document or table mode.
+
+    # Valid values: NONE, ONE
+
+    # Default value is NONE. Specify NONE to use document mode. Specify ONE to
+    # use table mode.
+    nesting_level: "NestingLevelValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Specifies the document ID. Use this attribute when `NestingLevel` is set to
+    # NONE.
+
+    # Default value is false.
+    extract_doc_id: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates the number of documents to preview to determine the document
+    # organization. Use this attribute when `NestingLevel` is set to ONE.
+
+    # Must be a positive value greater than 0. Default value is 1000.
+    docs_to_investigate: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The MongoDB database name. This attribute is not used when `authType=NO`.
+
+    # The default is admin.
+    auth_source: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The KMS key identifier that will be used to encrypt the connection
+    # parameters. If you do not specify a value for the KmsKeyId parameter, then
+    # AWS DMS will use your default encryption key. AWS KMS creates the default
+    # encryption key for your AWS account. Your AWS account has a different
+    # default encryption key for each AWS region.
+    kms_key_id: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+class NestingLevelValue(Enum):
+    none = "none"
+    one = "one"
+
+
+@dataclasses.dataclass
+class OrderableReplicationInstance(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "engine_version",
+                "EngineVersion",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_class",
+                "ReplicationInstanceClass",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "storage_type",
+                "StorageType",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "min_allocated_storage",
+                "MinAllocatedStorage",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "max_allocated_storage",
+                "MaxAllocatedStorage",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "default_allocated_storage",
+                "DefaultAllocatedStorage",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "included_allocated_storage",
+                "IncludedAllocatedStorage",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The version of the replication engine.
+    engine_version: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The compute and memory capacity of the replication instance.
+
+    # Valid Values: `dms.t2.micro | dms.t2.small | dms.t2.medium | dms.t2.large |
+    # dms.c4.large | dms.c4.xlarge | dms.c4.2xlarge | dms.c4.4xlarge `
+    replication_instance_class: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of storage used by the replication instance.
+    storage_type: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The minimum amount of storage (in gigabytes) that can be allocated for the
+    # replication instance.
+    min_allocated_storage: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The minimum amount of storage (in gigabytes) that can be allocated for the
+    # replication instance.
+    max_allocated_storage: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The default amount of storage (in gigabytes) that is allocated for the
+    # replication instance.
+    default_allocated_storage: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The amount of storage (in gigabytes) that is allocated for the replication
+    # instance.
+    included_allocated_storage: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class RebootReplicationInstanceMessage(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "force_failover",
+                "ForceFailover",
+                autoboto.TypeInfo(bool),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication instance.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # If this parameter is `true`, the reboot is conducted through a Multi-AZ
+    # failover. (If the instance isn't configured for Multi-AZ, then you can't
+    # specify `true`.)
+    force_failover: bool = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class RebootReplicationInstanceResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance",
+                "ReplicationInstance",
+                autoboto.TypeInfo(ReplicationInstance),
+            ),
+        ]
+
+    # The replication instance that is being rebooted.
+    replication_instance: "ReplicationInstance" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class RefreshSchemasMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "endpoint_arn",
+                "EndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    endpoint_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The Amazon Resource Name (ARN) of the replication instance.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class RefreshSchemasResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "refresh_schemas_status",
+                "RefreshSchemasStatus",
+                autoboto.TypeInfo(RefreshSchemasStatus),
+            ),
+        ]
+
+    # The status of the refreshed schema.
+    refresh_schemas_status: "RefreshSchemasStatus" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class RefreshSchemasStatus(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "endpoint_arn",
+                "EndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "status",
+                "Status",
+                autoboto.TypeInfo(RefreshSchemasStatusTypeValue),
+            ),
+            (
+                "last_refresh_date",
+                "LastRefreshDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "last_failure_message",
+                "LastFailureMessage",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    endpoint_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The Amazon Resource Name (ARN) of the replication instance.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The status of the schema.
+    status: "RefreshSchemasStatusTypeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The date the schema was last refreshed.
+    last_refresh_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The last failure message for the schema.
+    last_failure_message: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+class RefreshSchemasStatusTypeValue(Enum):
+    successful = "successful"
+    failed = "failed"
+    refreshing = "refreshing"
+
+
+class ReloadOptionValue(Enum):
+    data_reload = "data-reload"
+    validate_only = "validate-only"
+
+
+@dataclasses.dataclass
+class ReloadTablesMessage(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "tables_to_reload",
+                "TablesToReload",
+                autoboto.TypeInfo(typing.List[TableToReload]),
+            ),
+            (
+                "reload_option",
+                "ReloadOption",
+                autoboto.TypeInfo(ReloadOptionValue),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication task.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The name and schema of the table to be reloaded.
+    tables_to_reload: typing.List["TableToReload"] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # Options for reload. Specify `data-reload` to reload the data and re-
+    # validate it if validation is enabled. Specify `validate-only` to re-
+    # validate the table. This option applies only when validation is enabled for
+    # the task.
+
+    # Valid values: data-reload, validate-only
+
+    # Default value is data-reload.
+    reload_option: "ReloadOptionValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class ReloadTablesResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication task.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class RemoveTagsFromResourceMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "resource_arn",
+                "ResourceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "tag_keys",
+                "TagKeys",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+        ]
+
+    # >The Amazon Resource Name (ARN) of the AWS DMS resource the tag is to be
+    # removed from.
+    resource_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The tag key (name) of the tag to be removed.
+    tag_keys: typing.List[str] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class RemoveTagsFromResourceResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+class ReplicationEndpointTypeValue(Enum):
+    source = "source"
+    target = "target"
+
+
+@dataclasses.dataclass
+class ReplicationInstance(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance_identifier",
+                "ReplicationInstanceIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_class",
+                "ReplicationInstanceClass",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_status",
+                "ReplicationInstanceStatus",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "allocated_storage",
+                "AllocatedStorage",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "instance_create_time",
+                "InstanceCreateTime",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "vpc_security_groups",
+                "VpcSecurityGroups",
+                autoboto.TypeInfo(typing.List[VpcSecurityGroupMembership]),
+            ),
+            (
+                "availability_zone",
+                "AvailabilityZone",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_subnet_group",
+                "ReplicationSubnetGroup",
+                autoboto.TypeInfo(ReplicationSubnetGroup),
+            ),
+            (
+                "preferred_maintenance_window",
+                "PreferredMaintenanceWindow",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "pending_modified_values",
+                "PendingModifiedValues",
+                autoboto.TypeInfo(ReplicationPendingModifiedValues),
+            ),
+            (
+                "multi_az",
+                "MultiAZ",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "engine_version",
+                "EngineVersion",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "auto_minor_version_upgrade",
+                "AutoMinorVersionUpgrade",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "kms_key_id",
+                "KmsKeyId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_public_ip_address",
+                "ReplicationInstancePublicIpAddress",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_private_ip_address",
+                "ReplicationInstancePrivateIpAddress",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_public_ip_addresses",
+                "ReplicationInstancePublicIpAddresses",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "replication_instance_private_ip_addresses",
+                "ReplicationInstancePrivateIpAddresses",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "publicly_accessible",
+                "PubliclyAccessible",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "secondary_availability_zone",
+                "SecondaryAvailabilityZone",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "free_until",
+                "FreeUntil",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+        ]
+
+    # The replication instance identifier. This parameter is stored as a
+    # lowercase string.
+
+    # Constraints:
+
+    #   * Must contain from 1 to 63 alphanumeric characters or hyphens.
+
+    #   * First character must be a letter.
+
+    #   * Cannot end with a hyphen or contain two consecutive hyphens.
+
+    # Example: `myrepinstance`
+    replication_instance_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The compute and memory capacity of the replication instance.
+
+    # Valid Values: `dms.t2.micro | dms.t2.small | dms.t2.medium | dms.t2.large |
+    # dms.c4.large | dms.c4.xlarge | dms.c4.2xlarge | dms.c4.4xlarge `
+    replication_instance_class: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The status of the replication instance.
+    replication_instance_status: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The amount of storage (in gigabytes) that is allocated for the replication
+    # instance.
+    allocated_storage: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The time the replication instance was created.
+    instance_create_time: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The VPC security group for the instance.
+    vpc_security_groups: typing.List["VpcSecurityGroupMembership"
+                                    ] = dataclasses.field(
+                                        default_factory=list,
+                                    )
+
+    # The Availability Zone for the instance.
+    availability_zone: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The subnet group for the replication instance.
+    replication_subnet_group: "ReplicationSubnetGroup" = dataclasses.field(
+        default_factory=dict,
+    )
+
+    # The maintenance window times for the replication instance.
+    preferred_maintenance_window: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The pending modification values.
+    pending_modified_values: "ReplicationPendingModifiedValues" = dataclasses.field(
+        default_factory=dict,
+    )
+
+    # Specifies if the replication instance is a Multi-AZ deployment. You cannot
+    # set the `AvailabilityZone` parameter if the Multi-AZ parameter is set to
+    # `true`.
+    multi_az: bool = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The engine version number of the replication instance.
+    engine_version: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Boolean value indicating if minor version upgrades will be automatically
+    # applied to the instance.
+    auto_minor_version_upgrade: bool = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The KMS key identifier that is used to encrypt the content on the
+    # replication instance. If you do not specify a value for the KmsKeyId
+    # parameter, then AWS DMS will use your default encryption key. AWS KMS
+    # creates the default encryption key for your AWS account. Your AWS account
+    # has a different default encryption key for each AWS region.
+    kms_key_id: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The Amazon Resource Name (ARN) of the replication instance.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The public IP address of the replication instance.
+    replication_instance_public_ip_address: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The private IP address of the replication instance.
+    replication_instance_private_ip_address: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The public IP address of the replication instance.
+    replication_instance_public_ip_addresses: typing.List[
+        str
+    ] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # The private IP address of the replication instance.
+    replication_instance_private_ip_addresses: typing.List[
+        str
+    ] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # Specifies the accessibility options for the replication instance. A value
+    # of `true` represents an instance with a public IP address. A value of
+    # `false` represents an instance with a private IP address. The default value
+    # is `true`.
+    publicly_accessible: bool = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The availability zone of the standby replication instance in a Multi-AZ
+    # deployment.
+    secondary_availability_zone: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The expiration date of the free replication instance that is part of the
+    # Free DMS program.
+    free_until: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class ReplicationInstanceTaskLog(autoboto.ShapeBase):
+    """
+    Contains metadata for a replication instance task log.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_name",
+                "ReplicationTaskName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_task_log_size",
+                "ReplicationInstanceTaskLogSize",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The name of the replication task.
+    replication_task_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) of the replication task.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The size, in bytes, of the replication task log.
+    replication_instance_task_log_size: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class ReplicationPendingModifiedValues(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance_class",
+                "ReplicationInstanceClass",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "allocated_storage",
+                "AllocatedStorage",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "multi_az",
+                "MultiAZ",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "engine_version",
+                "EngineVersion",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The compute and memory capacity of the replication instance.
+
+    # Valid Values: `dms.t2.micro | dms.t2.small | dms.t2.medium | dms.t2.large |
+    # dms.c4.large | dms.c4.xlarge | dms.c4.2xlarge | dms.c4.4xlarge `
+    replication_instance_class: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The amount of storage (in gigabytes) that is allocated for the replication
+    # instance.
+    allocated_storage: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Specifies if the replication instance is a Multi-AZ deployment. You cannot
+    # set the `AvailabilityZone` parameter if the Multi-AZ parameter is set to
+    # `true`.
+    multi_az: bool = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The engine version number of the replication instance.
+    engine_version: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class ReplicationSubnetGroup(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_subnet_group_identifier",
+                "ReplicationSubnetGroupIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_subnet_group_description",
+                "ReplicationSubnetGroupDescription",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "vpc_id",
+                "VpcId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "subnet_group_status",
+                "SubnetGroupStatus",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "subnets",
+                "Subnets",
+                autoboto.TypeInfo(typing.List[Subnet]),
+            ),
+        ]
+
+    # The identifier of the replication instance subnet group.
+    replication_subnet_group_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The description of the replication subnet group.
+    replication_subnet_group_description: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The ID of the VPC.
+    vpc_id: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The status of the subnet group.
+    subnet_group_status: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The subnets that are in the subnet group.
+    subnets: typing.List["Subnet"] = dataclasses.field(default_factory=list, )
+
+
+@dataclasses.dataclass
+class ReplicationSubnetGroupDoesNotCoverEnoughAZs(autoboto.ShapeBase):
+    """
+    The replication subnet group does not cover enough Availability Zones (AZs).
+    Edit the replication subnet group and add more AZs.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class ReplicationTask(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_identifier",
+                "ReplicationTaskIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "source_endpoint_arn",
+                "SourceEndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "target_endpoint_arn",
+                "TargetEndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "migration_type",
+                "MigrationType",
+                autoboto.TypeInfo(MigrationTypeValue),
+            ),
+            (
+                "table_mappings",
+                "TableMappings",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_task_settings",
+                "ReplicationTaskSettings",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "status",
+                "Status",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "last_failure_message",
+                "LastFailureMessage",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "stop_reason",
+                "StopReason",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_task_creation_date",
+                "ReplicationTaskCreationDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "replication_task_start_date",
+                "ReplicationTaskStartDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "cdc_start_position",
+                "CdcStartPosition",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "cdc_stop_position",
+                "CdcStopPosition",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "recovery_checkpoint",
+                "RecoveryCheckpoint",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_task_stats",
+                "ReplicationTaskStats",
+                autoboto.TypeInfo(ReplicationTaskStats),
+            ),
+        ]
+
+    # The user-assigned replication task identifier or name.
+
+    # Constraints:
+
+    #   * Must contain from 1 to 255 alphanumeric characters or hyphens.
+
+    #   * First character must be a letter.
+
+    #   * Cannot end with a hyphen or contain two consecutive hyphens.
+    replication_task_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    source_endpoint_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    target_endpoint_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) of the replication instance.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of migration.
+    migration_type: "MigrationTypeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Table mappings specified in the task.
+    table_mappings: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The settings for the replication task.
+    replication_task_settings: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The status of the replication task.
+    status: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The last error (failure) message generated for the replication instance.
+    last_failure_message: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The reason the replication task was stopped.
+    stop_reason: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The date the replication task was created.
+    replication_task_creation_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The date the replication task is scheduled to start.
+    replication_task_start_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates when you want a change data capture (CDC) operation to start. Use
+    # either CdcStartPosition or CdcStartTime to specify when you want a CDC
+    # operation to start. Specifying both values results in an error.
+
+    # The value can be in date, checkpoint, or LSN/SCN format.
+
+    # Date Example: --cdc-start-position “2018-03-08T12:12:12”
+
+    # Checkpoint Example: --cdc-start-position "checkpoint:V1#27#mysql-bin-
+    # changelog.157832:1975:-1:2002:677883278264080:mysql-bin-
+    # changelog.157832:1876#0#0#*#0#93"
+
+    # LSN Example: --cdc-start-position “mysql-bin-changelog.000024:373”
+    cdc_start_position: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates when you want a change data capture (CDC) operation to stop. The
+    # value can be either server time or commit time.
+
+    # Server time example: --cdc-stop-position “server_time:3018-02-09T12:12:12”
+
+    # Commit time example: --cdc-stop-position “commit_time: 3018-02-09T12:12:12
+    # “
+    cdc_stop_position: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates the last checkpoint that occurred during a change data capture
+    # (CDC) operation. You can provide this value to the `CdcStartPosition`
+    # parameter to start a CDC operation that begins at that checkpoint.
+    recovery_checkpoint: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) of the replication task.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The statistics for the task, including elapsed time, tables loaded, and
+    # table errors.
+    replication_task_stats: "ReplicationTaskStats" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class ReplicationTaskAssessmentResult(autoboto.ShapeBase):
+    """
+    The task assessment report in JSON format.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_identifier",
+                "ReplicationTaskIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "replication_task_last_assessment_date",
+                "ReplicationTaskLastAssessmentDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "assessment_status",
+                "AssessmentStatus",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "assessment_results_file",
+                "AssessmentResultsFile",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "assessment_results",
+                "AssessmentResults",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "s3_object_url",
+                "S3ObjectUrl",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The replication task identifier of the task on which the task assessment
+    # was run.
+    replication_task_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) of the replication task.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The date the task assessment was completed.
+    replication_task_last_assessment_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The status of the task assessment.
+    assessment_status: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The file containing the results of the task assessment.
+    assessment_results_file: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The task assessment results in JSON format.
+    assessment_results: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The URL of the S3 object containing the task assessment results.
+    s3_object_url: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class ReplicationTaskStats(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "full_load_progress_percent",
+                "FullLoadProgressPercent",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "elapsed_time_millis",
+                "ElapsedTimeMillis",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "tables_loaded",
+                "TablesLoaded",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "tables_loading",
+                "TablesLoading",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "tables_queued",
+                "TablesQueued",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "tables_errored",
+                "TablesErrored",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The percent complete for the full load migration task.
+    full_load_progress_percent: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The elapsed time of the task, in milliseconds.
+    elapsed_time_millis: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The number of tables loaded for this task.
+    tables_loaded: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The number of tables currently loading for this task.
+    tables_loading: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The number of tables queued for this task.
+    tables_queued: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The number of errors that have occurred during this task.
+    tables_errored: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class ResourceAlreadyExistsFault(autoboto.ShapeBase):
+    """
+    The resource you are attempting to create already exists.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class ResourceNotFoundFault(autoboto.ShapeBase):
+    """
+    The resource could not be found.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class ResourceQuotaExceededFault(autoboto.ShapeBase):
+    """
+    The quota for this resource quota has been exceeded.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class S3Settings(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "service_access_role_arn",
+                "ServiceAccessRoleArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "external_table_definition",
+                "ExternalTableDefinition",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "csv_row_delimiter",
+                "CsvRowDelimiter",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "csv_delimiter",
+                "CsvDelimiter",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "bucket_folder",
+                "BucketFolder",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "bucket_name",
+                "BucketName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "compression_type",
+                "CompressionType",
+                autoboto.TypeInfo(CompressionTypeValue),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) used by the service access IAM role.
+    service_access_role_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The external table definition.
+    external_table_definition: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The delimiter used to separate rows in the source files. The default is a
+    # carriage return (\n).
+    csv_row_delimiter: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The delimiter used to separate columns in the source files. The default is
+    # a comma.
+    csv_delimiter: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # An optional parameter to set a folder name in the S3 bucket. If provided,
+    # tables are created in the path <bucketFolder>/<schema_name>/<table_name>/.
+    # If this parameter is not specified, then the path used is
+    # <schema_name>/<table_name>/.
+    bucket_folder: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The name of the S3 bucket.
+    bucket_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # An optional parameter to use GZIP to compress the target files. Set to GZIP
+    # to compress the target files. Set to NONE (the default) or do not use to
+    # leave the files uncompressed.
+    compression_type: "CompressionTypeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class SNSInvalidTopicFault(autoboto.ShapeBase):
+    """
+    The SNS topic is invalid.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class SNSNoAuthorizationFault(autoboto.ShapeBase):
+    """
+    You are not authorized for the SNS subscription.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+class SourceType(Enum):
+    replication_instance = "replication-instance"
+
+
+@dataclasses.dataclass
+class StartReplicationTaskAssessmentMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication task.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class StartReplicationTaskAssessmentResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task",
+                "ReplicationTask",
+                autoboto.TypeInfo(ReplicationTask),
+            ),
+        ]
+
+    # The assessed replication task.
+    replication_task: "ReplicationTask" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class StartReplicationTaskMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "start_replication_task_type",
+                "StartReplicationTaskType",
+                autoboto.TypeInfo(StartReplicationTaskTypeValue),
+            ),
+            (
+                "cdc_start_time",
+                "CdcStartTime",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "cdc_start_position",
+                "CdcStartPosition",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "cdc_stop_position",
+                "CdcStopPosition",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication task to be started.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of replication task.
+    start_replication_task_type: "StartReplicationTaskTypeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates the start time for a change data capture (CDC) operation. Use
+    # either CdcStartTime or CdcStartPosition to specify when you want a CDC
+    # operation to start. Specifying both values results in an error.
+
+    # Timestamp Example: --cdc-start-time “2018-03-08T12:12:12”
+    cdc_start_time: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates when you want a change data capture (CDC) operation to start. Use
+    # either CdcStartPosition or CdcStartTime to specify when you want a CDC
+    # operation to start. Specifying both values results in an error.
+
+    # The value can be in date, checkpoint, or LSN/SCN format.
+
+    # Date Example: --cdc-start-position “2018-03-08T12:12:12”
+
+    # Checkpoint Example: --cdc-start-position "checkpoint:V1#27#mysql-bin-
+    # changelog.157832:1975:-1:2002:677883278264080:mysql-bin-
+    # changelog.157832:1876#0#0#*#0#93"
+
+    # LSN Example: --cdc-start-position “mysql-bin-changelog.000024:373”
+    cdc_start_position: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Indicates when you want a change data capture (CDC) operation to stop. The
+    # value can be either server time or commit time.
+
+    # Server time example: --cdc-stop-position “server_time:3018-02-09T12:12:12”
+
+    # Commit time example: --cdc-stop-position “commit_time: 3018-02-09T12:12:12
+    # “
+    cdc_stop_position: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class StartReplicationTaskResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task",
+                "ReplicationTask",
+                autoboto.TypeInfo(ReplicationTask),
+            ),
+        ]
+
+    # The replication task started.
+    replication_task: "ReplicationTask" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+class StartReplicationTaskTypeValue(Enum):
+    start_replication = "start-replication"
+    resume_processing = "resume-processing"
+    reload_target = "reload-target"
+
+
+@dataclasses.dataclass
+class StopReplicationTaskMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task_arn",
+                "ReplicationTaskArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name(ARN) of the replication task to be stopped.
+    replication_task_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class StopReplicationTaskResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_task",
+                "ReplicationTask",
+                autoboto.TypeInfo(ReplicationTask),
+            ),
+        ]
+
+    # The replication task stopped.
+    replication_task: "ReplicationTask" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class StorageQuotaExceededFault(autoboto.ShapeBase):
+    """
+    The storage quota has been exceeded.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class Subnet(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "subnet_identifier",
+                "SubnetIdentifier",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "subnet_availability_zone",
+                "SubnetAvailabilityZone",
+                autoboto.TypeInfo(AvailabilityZone),
+            ),
+            (
+                "subnet_status",
+                "SubnetStatus",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The subnet identifier.
+    subnet_identifier: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Availability Zone of the subnet.
+    subnet_availability_zone: "AvailabilityZone" = dataclasses.field(
+        default_factory=dict,
+    )
+
+    # The status of the subnet.
+    subnet_status: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class SubnetAlreadyInUse(autoboto.ShapeBase):
+    """
+    The specified subnet is already in use.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class SupportedEndpointType(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "engine_name",
+                "EngineName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "supports_cdc",
+                "SupportsCDC",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "endpoint_type",
+                "EndpointType",
+                autoboto.TypeInfo(ReplicationEndpointTypeValue),
+            ),
+            (
+                "engine_display_name",
+                "EngineDisplayName",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The database engine name. Valid values, depending on the EndPointType,
+    # include mysql, oracle, postgres, mariadb, aurora, aurora-postgresql,
+    # redshift, s3, db2, azuredb, sybase, sybase, dynamodb, mongodb, and
+    # sqlserver.
+    engine_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # Indicates if Change Data Capture (CDC) is supported.
+    supports_cdc: bool = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The type of endpoint.
+    endpoint_type: "ReplicationEndpointTypeValue" = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The expanded name for the engine name. For example, if the `EngineName`
+    # parameter is "aurora," this value would be "Amazon Aurora MySQL."
+    engine_display_name: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class TableStatistics(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "schema_name",
+                "SchemaName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "table_name",
+                "TableName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "inserts",
+                "Inserts",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "deletes",
+                "Deletes",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "updates",
+                "Updates",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "ddls",
+                "Ddls",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "full_load_rows",
+                "FullLoadRows",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "full_load_condtnl_chk_failed_rows",
+                "FullLoadCondtnlChkFailedRows",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "full_load_error_rows",
+                "FullLoadErrorRows",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "last_update_time",
+                "LastUpdateTime",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "table_state",
+                "TableState",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "validation_pending_records",
+                "ValidationPendingRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "validation_failed_records",
+                "ValidationFailedRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "validation_suspended_records",
+                "ValidationSuspendedRecords",
+                autoboto.TypeInfo(int),
+            ),
+            (
+                "validation_state",
+                "ValidationState",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "validation_state_details",
+                "ValidationStateDetails",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The schema name.
+    schema_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The name of the table.
+    table_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The number of insert actions performed on a table.
+    inserts: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The number of delete actions performed on a table.
+    deletes: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The number of update actions performed on a table.
+    updates: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The Data Definition Language (DDL) used to build and modify the structure
+    # of your tables.
+    ddls: int = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The number of rows added during the Full Load operation.
+    full_load_rows: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The number of rows that failed conditional checks during the Full Load
+    # operation (valid only for DynamoDB as a target migrations).
+    full_load_condtnl_chk_failed_rows: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The number of rows that failed to load during the Full Load operation
+    # (valid only for DynamoDB as a target migrations).
+    full_load_error_rows: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The last time the table was updated.
+    last_update_time: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The state of the tables described.
+
+    # Valid states: Table does not exist | Before load | Full load | Table
+    # completed | Table cancelled | Table error | Table all | Table updates |
+    # Table is being reloaded
+    table_state: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The number of records that have yet to be validated.
+    validation_pending_records: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The number of records that failed validation.
+    validation_failed_records: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The number of records that could not be validated.
+    validation_suspended_records: int = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The validation state of the table.
+
+    # The parameter can have the following values
+
+    #   * Not enabled—Validation is not enabled for the table in the migration task.
+
+    #   * Pending records—Some records in the table are waiting for validation.
+
+    #   * Mismatched records—Some records in the table do not match between the source and target.
+
+    #   * Suspended records—Some records in the table could not be validated.
+
+    #   * No primary key—The table could not be validated because it had no primary key.
+
+    #   * Table error—The table was not validated because it was in an error state and some data was not migrated.
+
+    #   * Validated—All rows in the table were validated. If the table is updated, the status can change from Validated.
+
+    #   * Error—The table could not be validated because of an unexpected error.
+    validation_state: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # Additional details about the state of validation.
+    validation_state_details: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class TableToReload(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "schema_name",
+                "SchemaName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "table_name",
+                "TableName",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The schema name of the table to be reloaded.
+    schema_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # The table name of the table to be reloaded.
+    table_name: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class Tag(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "key",
+                "Key",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "value",
+                "Value",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # A key is the required name of the tag. The string value can be from 1 to
+    # 128 Unicode characters in length and cannot be prefixed with "aws:" or
+    # "dms:". The string can only contain only the set of Unicode letters,
+    # digits, white-space, '_', '.', '/', '=', '+', '-' (Java regex:
+    # "^([\\\p{L}\\\p{Z}\\\p{N}_.:/=+\\\\-]*)$").
+    key: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+    # A value is the optional value of the tag. The string value can be from 1 to
+    # 256 Unicode characters in length and cannot be prefixed with "aws:" or
+    # "dms:". The string can only contain only the set of Unicode letters,
+    # digits, white-space, '_', '.', '/', '=', '+', '-' (Java regex:
+    # "^([\\\p{L}\\\p{Z}\\\p{N}_.:/=+\\\\-]*)$").
+    value: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class TestConnectionMessage(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "replication_instance_arn",
+                "ReplicationInstanceArn",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "endpoint_arn",
+                "EndpointArn",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The Amazon Resource Name (ARN) of the replication instance.
+    replication_instance_arn: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The Amazon Resource Name (ARN) string that uniquely identifies the
+    # endpoint.
+    endpoint_arn: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class TestConnectionResponse(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "connection",
+                "Connection",
+                autoboto.TypeInfo(Connection),
+            ),
+        ]
+
+    # The connection tested.
+    connection: "Connection" = dataclasses.field(default_factory=dict, )
+
+
+@dataclasses.dataclass
+class UpgradeDependencyFailureFault(autoboto.ShapeBase):
+    """
+    An upgrade dependency is preventing the database migration.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
+
+
+@dataclasses.dataclass
+class VpcSecurityGroupMembership(autoboto.ShapeBase):
+    """
+
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "vpc_security_group_id",
+                "VpcSecurityGroupId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "status",
+                "Status",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The VPC security group Id.
+    vpc_security_group_id: str = dataclasses.field(
+        default=autoboto.ShapeBase._NOT_SET,
+    )
+
+    # The status of the VPC security group.
+    status: str = dataclasses.field(default=autoboto.ShapeBase._NOT_SET, )
