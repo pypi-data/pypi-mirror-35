@@ -1,0 +1,3 @@
+[console_scripts]
+f2e = feed_to_exporter.__main__:main
+
