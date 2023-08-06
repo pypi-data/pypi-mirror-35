@@ -1,0 +1,14 @@
+progressive_overload/__init__.py,sha256=NXv-1Ns89zATxlHgzPSF6R0lKx9hMIyccIjkBzacSh0,116
+progressive_overload/__main__.py,sha256=schE67JzeF4uYozHtlKcYr0M1jCJWk6gBqdC4FvH-A8,62
+progressive_overload/cli.py,sha256=EF9kF6JL0ypAe8hoZC7v2iHztlXJIfMPSPGP4NJFf2g,753
+progressive_overload/guessing.py,sha256=rdNjpJBX1dM0G8XDLgHfcYwP9g6sN4XkhQCuIKnDnXc,871
+progressive_overload/progressive_overload.py,sha256=Pe7iWtIFr_Ymdt4TM74hMMFDC81o-K_SXzMx9jZTwdo,3138
+progressive_overload-0.2.1.dist-info/METADATA,sha256=hepMfSenz8ClFX05Uk1o6q9ztYdgl8AfVsoK3V_1RRg,1281
+progressive_overload-0.2.1.dist-info/RECORD,,
+progressive_overload-0.2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+progressive_overload-0.2.1.dist-info/entry_points.txt,sha256=CBTMjnK0Q0_D5WGaXlBMCJx8v3K4erGTAJ44qSMvTTA,72
+progressive_overload-0.2.1.dist-info/top_level.txt,sha256=Zh54rQoNt7O5E2uxQ2LmMAQjXqp8xvcHFoQPVrDT4fs,27
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_examples.py,sha256=Eye72HN5qUB8sEv4wnu0Nrl41Em8dqxu0am-G-NRisI,1246
+tests/test_guessing.py,sha256=jidxz-8PD6rzSvUj2uQ75wWvQsYEfm9K06Blqvr9u-0,830
+tests/test_invalid.py,sha256=WW0UvkcZY4_-JyX82zVPKBnSVnD1LcR3UB3B19ck1to,234
