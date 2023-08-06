@@ -1,0 +1,16 @@
+ncluster/__init__.py,sha256=bWmZDuik4XHu3AiPA3376t7ChaAA_-JdfCrxFzXGoDc,444
+ncluster/aws_backend.py,sha256=76ZsPWYu6AfoQIHJXXLOuMyzykJwggDJXoMMiAlldw0,15393
+ncluster/aws_create_resources.py,sha256=ID8adhBI0VIDZJP0To2g-WcAwIW9pA_P0JtAJW-m4rI,11184
+ncluster/aws_delete_resources.py,sha256=wspAfGSydlU9KXr1dy5p01sg6vxs2SZZc_lq5tmZKNA,5836
+ncluster/aws_util.py,sha256=ou_FuREXEX5IBJFQ1r5HDw-PYNxb2Z350X45cVzNSWQ,18392
+ncluster/backend.py,sha256=oe6WxtMnuInwnrGC6MFLNugxx_SJUAiSgZdwFOs3Y9E,9624
+ncluster/local_backend.py,sha256=Gyt1dvI8_HCprLvIMBcIgYH06Gmb6k69yzrIx1kQKx4,7031
+ncluster/ncluster.py,sha256=TC6PP2rcEk_PqTCQIaAkEDNc7JxQ3xRsIakUGN5DYxs,1140
+ncluster/old_util.py,sha256=W7BC7bm2L20hVYvuavJI6g6civpDnc_eulcrOpTdRkw,30716
+ncluster/tmux_backend.py,sha256=EXxve8zKYAC5wxYUL3q1wqnxfaMaHBTZKBqMsQpSQeQ,8252
+ncluster/util.py,sha256=KMCOxI7Y-wc3eq7SK0hxMi122zllH46UVIsRM4EKO9Q,1038
+ncluster-0.1.4.dist-info/LICENSE.txt,sha256=KY91SJ2SklKZxhhU-enpBPzAoQWVvvhmyut2lXxMRYw,1076
+ncluster-0.1.4.dist-info/METADATA,sha256=MJ0o35LNZm9sUVxEzsK6-DSnL9Ib9hjRUADaM-DfnOQ,545
+ncluster-0.1.4.dist-info/RECORD,,
+ncluster-0.1.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ncluster-0.1.4.dist-info/top_level.txt,sha256=3LozyfzL6T7FeycX6e7lzo18Cz8xmRebXLz7pX6W3Rw,9

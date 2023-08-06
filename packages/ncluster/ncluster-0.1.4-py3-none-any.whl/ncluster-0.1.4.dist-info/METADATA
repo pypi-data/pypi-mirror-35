@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ncluster
+Version: 0.1.4
+Summary: Lightweight interface to launching jobs in the cloud
+Home-page: https://github.com/diux-dev/ncluster
+Author: Yaroslav Bulatov
+Author-email: yaroslavvb@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
+
+# ncluster
+
+## Usage
+
+pip install -r requirements.txt
+pip install ncluster
+
+
