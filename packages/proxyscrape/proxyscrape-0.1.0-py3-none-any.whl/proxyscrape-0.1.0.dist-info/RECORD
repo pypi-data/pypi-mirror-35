@@ -1,0 +1,10 @@
+proxyscrape/__init__.py,sha256=00Yw05QUjse7q294yT9Jo1FnZgc1mAbCvyzi6ve-fR4,2320
+proxyscrape/errors.py,sha256=hM0z0DfCmi8_jFcIPcBOzrsi_E5pAKi0fY3T8iwdfL8,2130
+proxyscrape/proxyscrape.py,sha256=yeiL1bX08u6ltF_5uASx0iSQkxUoI32eCtRpjKSkk2E,17189
+proxyscrape/scrapers.py,sha256=De2Pmpy1E2H4dgPEMf8SejkidheFb6ioWrXFv2WGzWE,11526
+proxyscrape/stores.py,sha256=kjspYLKL7vR6E5DT3uEhPAAzuxVhxA1FqpKHFgqHCOM,4351
+proxyscrape-0.1.0.dist-info/LICENSE.txt,sha256=cRbksENU5gpASGUvjgbefVbnLNO1_ozgrTu9tDk-0ug,1071
+proxyscrape-0.1.0.dist-info/METADATA,sha256=p-juhEfSa_Rw7UWQfsRwU-cFPSWGrFMYH5uW8Y-BSJE,11188
+proxyscrape-0.1.0.dist-info/RECORD,,
+proxyscrape-0.1.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+proxyscrape-0.1.0.dist-info/top_level.txt,sha256=PUPBHK-VWoupGBbiVvt-Am9PONu8_6R84gmb1fpWJtA,12
