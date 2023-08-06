@@ -1,0 +1,15 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/ffmpeg.py,sha256=xOXt_EimcwyKE2xlnKdwAONYbk77awL-7hf0PNYRf8E,625
+src/video2chars.py,sha256=9mxrjLlNeEyO2T940L12rmPkjqYg84RJarTAnaeZUas,6355
+video2chars/DroidSansMono.ttf,sha256=ErVS3nZdwSZdZPn1VmZJkw3eTboH2gJR2fkoAecKEEc,119380
+video2chars/__init__.py,sha256=WkqgTVqsiIDCdprnsQayNd1NRTL7-6JW_5UaOUspO7s,1048
+video2chars/__main__.py,sha256=ivmetmFjMlxRzMte-IdThn693vyxkoJBzpbcyyole3k,799
+video2chars/converter.py,sha256=Obo3SCNwNVChEgE124TmoyH8xFkml2w3WivqP3If0_I,6364
+video2chars/convertor.py,sha256=9mxrjLlNeEyO2T940L12rmPkjqYg84RJarTAnaeZUas,6355
+video2chars/ffmpeg.py,sha256=8A8END1lo1rV0WEiIHqwYhdrYgW229qg2t9CzcPOEms,683
+video2chars/video2chars.py,sha256=9mxrjLlNeEyO2T940L12rmPkjqYg84RJarTAnaeZUas,6355
+video2chars-0.5.1.dist-info/METADATA,sha256=-MVdSaUanZMAKI8tn7dQ8AqnPUHrsB7Syjdxk6GM1Yk,1262
+video2chars-0.5.1.dist-info/RECORD,,
+video2chars-0.5.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+video2chars-0.5.1.dist-info/entry_points.txt,sha256=b7dXzTOEcZleDGuo-RLTP36HT11aY3PHB8itqcgX3kg,53
+video2chars-0.5.1.dist-info/top_level.txt,sha256=8YrJ8IFiR9KuTmggUuHyiKS-J2419cMaiopzNKkwvk4,12
