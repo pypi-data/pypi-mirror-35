@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: ipython_blocking
+Version: 0.1.1
+Summary: ipython_blocking offers a context manager and IPython magic to capture cell execution.
+Home-page: https://github.com/kafonek/ipython_blocking
+Author: Matt Kafonek
+Author-email: kafonek@gmail.com
