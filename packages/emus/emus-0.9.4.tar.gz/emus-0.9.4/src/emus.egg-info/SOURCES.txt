@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+scripts/wemus.py
+src/emus/__init__.py
+src/emus/_defaults.py
+src/emus/autocorrelation.py
+src/emus/avar.py
+src/emus/emus.py
+src/emus/linalg.py
+src/emus/usutils.py
+src/emus.egg-info/PKG-INFO
+src/emus.egg-info/SOURCES.txt
+src/emus.egg-info/dependency_links.txt
+src/emus.egg-info/requires.txt
+src/emus.egg-info/top_level.txt

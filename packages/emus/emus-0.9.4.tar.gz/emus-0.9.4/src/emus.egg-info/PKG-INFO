@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: emus
+Version: 0.9.4
+Summary: Tools and Methods associated with the Eigenvector Method for Umbrella Sampling (EMUS)
+Home-page: https://github.com/ehthiede/EMUS
+Author: Erik Henning Thiede
+Author-email: UNKNOWN
+License: LGPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
