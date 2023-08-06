@@ -1,0 +1,7 @@
+dataclasses_json/__init__.py,sha256=7y4_5eYZ1S7XcF8gqJo1kNgfj3Vpr0hBRm2bPXcITpA,100
+dataclasses_json/api.py,sha256=wOI_0ZohpeNSGo4XImXcePFOKSZ5e3E1c7_5ra3K6vI,3754
+dataclasses_json/core.py,sha256=eGQmERQbn3G-10zIfbrztVVQ1NEzbtD6MxkIbtSyXiE,5395
+dataclasses_json-0.0.15.dist-info/METADATA,sha256=tQOFKcb9OIHqvV3WvvI2tppuSwhyIXbnKIACdE5DfYw,4945
+dataclasses_json-0.0.15.dist-info/RECORD,,
+dataclasses_json-0.0.15.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+dataclasses_json-0.0.15.dist-info/top_level.txt,sha256=QoF93y_aLufWfyYCMXLVutqG4xhC4Srqq-p39FwBL6I,17
