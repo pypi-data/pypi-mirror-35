@@ -1,0 +1,7 @@
+SimpleITK-1.1.0.dist-info/top_level.txt,sha256=B1KR4Uq5HwDUTeXLYhuUE_Ryfnp5j8Tik9KptJj7Wr8,10
+SimpleITK-1.1.0.dist-info/WHEEL,sha256=e1_WZKsoHV1IIaYJKFwXtC2sSoi0Dll6iY6tWNRvKIA,107
+SimpleITK-1.1.0.dist-info/RECORD,,
+SimpleITK-1.1.0.dist-info/METADATA,sha256=EZNQIK0sDNvGDty3WsgpUk_65giHw2Y_IoTAyy9Wun0,1441
+SimpleITK/__init__.py,sha256=gc1079cbFl5PHnEQ1Ra-VfceElNEk4WYoJKQ48pxQyQ,25
+SimpleITK/SimpleITK.py,sha256=hHZTKPJMWhKy2HF90v0EMjc6A-LVty09737Y1FmZF0k,2070362
+SimpleITK/_SimpleITK.cpython-37m-i386-linux-gnu.so,sha256=V8u3VabBKgqPxdiBO7XnBuxe_LBAwceaBnwo9oBrCM8,183966373
