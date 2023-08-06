@@ -1,0 +1,7 @@
+pandas
+numpy
+scipy
+dask[complete]
+bokeh
+padar_parrallel
+padar_converter
