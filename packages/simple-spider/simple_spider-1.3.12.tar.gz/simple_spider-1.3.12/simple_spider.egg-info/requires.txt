@@ -1,0 +1,7 @@
+requests[socks]
+pymongo
+pyquery
+redis
+simplejson
+tomd
+markdown

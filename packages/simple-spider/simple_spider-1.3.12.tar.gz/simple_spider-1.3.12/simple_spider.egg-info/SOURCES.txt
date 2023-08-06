@@ -1,0 +1,12 @@
+README.md
+setup.py
+simple_spider/__init__.py
+simple_spider/base_spider.py
+simple_spider/fetcher.py
+simple_spider/proxy.py
+simple_spider/utils.py
+simple_spider.egg-info/PKG-INFO
+simple_spider.egg-info/SOURCES.txt
+simple_spider.egg-info/dependency_links.txt
+simple_spider.egg-info/requires.txt
+simple_spider.egg-info/top_level.txt
