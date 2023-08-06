@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pjon_cython
+Version: 11.1.1
+Summary: Call the PJON C++ library directly from Python
+Home-page: https://github.com/xlfe/PJON-cython
+Author: xlfe
+Author-email: UNKNOWN
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
