@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+libnfldap.py
+setup.cfg
+setup.py
+libnfldap.egg-info/PKG-INFO
+libnfldap.egg-info/SOURCES.txt
+libnfldap.egg-info/dependency_links.txt
+libnfldap.egg-info/requires.txt
+libnfldap.egg-info/top_level.txt
