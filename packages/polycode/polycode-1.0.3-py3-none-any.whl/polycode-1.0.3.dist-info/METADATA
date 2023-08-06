@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: polycode
+Version: 1.0.3
+Summary: Translate your code to a different spoken language
+Home-page: https://github.com/froothacks/polycode
+Author: David Gu
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+Polycode
+
+
