@@ -1,0 +1,12 @@
+README.md
+setup.py
+dove/__init__.py
+dove/dove.py
+dove/tests/__init__.py
+dove/tests/test_dove.py
+droplet_dove.egg-info/PKG-INFO
+droplet_dove.egg-info/SOURCES.txt
+droplet_dove.egg-info/dependency_links.txt
+droplet_dove.egg-info/entry_points.txt
+droplet_dove.egg-info/requires.txt
+droplet_dove.egg-info/top_level.txt
