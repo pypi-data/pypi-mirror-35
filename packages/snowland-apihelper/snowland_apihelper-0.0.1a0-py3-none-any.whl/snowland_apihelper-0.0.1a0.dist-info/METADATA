@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: snowland-apihelper
+Version: 0.0.1a0
+Summary: API helper, a framework based on tornado
+Home-page: https://gitee.com/snowlandltd/snowland-api
+Author: A.Star
+Author-email: astar@snowland.ltd
+Maintainer: A.Star
+Maintainer-email: astar@snowland.ltd
+License: GPL-3.0 License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: tornado (>=5.0.2)
+
+# snowland-api
+snowland-api tornado API鎺ュ彛
+
+## 浣跨敤
+
+``` python
+
+
+```
+
+
