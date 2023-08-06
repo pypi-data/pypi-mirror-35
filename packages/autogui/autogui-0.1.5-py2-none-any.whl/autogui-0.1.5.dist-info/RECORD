@@ -1,0 +1,10 @@
+autogui/__init__.py,sha256=zO7ZdneZGZ_TYBFT-CazwYUStKsDOwhy2bv8rRHYgck,1129
+autogui/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogui/src/GUILibrary/bin/Release/GUILibrary.dll,sha256=U5DSqW0jSQichGSkQMoaQ5V8NGBOsA_02ggmitifcrY,16896
+autogui/src/GUILibrary/bin/Release/Interop.UIAutomationClient.dll,sha256=cWpni6WTb3ZKXZcx7RGgnbsrF8bYhQrxAv-3mcztmCo,89808
+autogui/src/GUILibrary/bin/Release/TestApiCore.dll,sha256=eWpHUHptHkiKt-chCk05BpgKY8IA4f8Sxr_oPamO_yk,306176
+autogui/src/GUILibrary/bin/Release/UIAComWrapper.dll,sha256=OGSw0EfsbTxcDZ9oB8Kcjz2Faxg2r41e87ius5z86LE,171184
+autogui-0.1.5.dist-info/METADATA,sha256=oDTe3CplVPZ6IZB07-kL7Cl8-Jo9il704kaxBp0kZ6Q,2898
+autogui-0.1.5.dist-info/RECORD,,
+autogui-0.1.5.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+autogui-0.1.5.dist-info/top_level.txt,sha256=8_y5qMM8Sxpm1t71YfNURsFMhLbKcnkca7pI6IhhevM,8
