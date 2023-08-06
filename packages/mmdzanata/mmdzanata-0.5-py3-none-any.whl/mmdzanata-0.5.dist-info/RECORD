@@ -1,0 +1,9 @@
+mmdzanata/__init__.py,sha256=Vbxi0p44AFl9GNb3whRt4bjAXrgDGXPeQtFRs08vePQ,11915
+mmdzanata/cli.py,sha256=C_2YGiYnMKgsWsqNCiNmI_gIDh5eI60HIOFP-N6Z0QE,7477
+mmdzanata/fedora.py,sha256=N2jJIWwrW3Y9cf0E4-EHHc4T091gY3NjcVdjxXNo8dE,1539
+mmdzanata/fedora/__init__.py,sha256=TMy3h35de9et7Pkr66Qn5nsdDDm9V8RawVRtnM_61kA,1734
+mmdzanata-0.5.dist-info/METADATA,sha256=OxWIQSJJAhdsT_pxq_uC38tLjbkavGojr9xWqQU3Drg,2722
+mmdzanata-0.5.dist-info/RECORD,,
+mmdzanata-0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+mmdzanata-0.5.dist-info/entry_points.txt,sha256=T5oekawiQLQlB3SxDEIXOENLYppjUWXygvzlR8nWp2U,49
+mmdzanata-0.5.dist-info/top_level.txt,sha256=NKGUT2l7ZvFzwLmXeMCspBkmCtzTBvNcIEuQhukqsaY,10
