@@ -1,0 +1,8 @@
+gtts
+html2text
+lxml
+requests
+
+[release]
+wheel[signatures]
+zest.releaser
