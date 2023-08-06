@@ -1,0 +1,5 @@
+pycrypto>=2.6.1
+motor==1.2.1
+python-dateutil>=2.4.2
+tornado>=4.3
+momoko>=2.2.2
