@@ -1,0 +1,12 @@
+curlnagios/VERSION,sha256=jzR6dTEkRUvsIdgn9MBhKkIGmoYjaaprAVbpJfXsk1w,5
+curlnagios/__init__.py,sha256=Apg6xmkpJ7hqcRvG-MMo9iioc1bEitZH7mw7UNj4tBw,163
+curlnagios/__main__.py,sha256=XE1naD-WVlX2QMo0GTfdZMDCDErLvMFwh6h9a0gymYc,3173
+curlnagios/plugin_check.py,sha256=4rGNK7OMrC0weo8gwFmydYuIdDowT_k8GUs30ZwjoCI,1868
+curlnagios-0.5.1.data/data/VERSION/VERSION,sha256=jzR6dTEkRUvsIdgn9MBhKkIGmoYjaaprAVbpJfXsk1w,5
+curlnagios-0.5.1.dist-info/DESCRIPTION.rst,sha256=-y9z4vYbIBG_RAy5GJ7mU5iwQHWGEUI7ruMf_pP3rIA,2895
+curlnagios-0.5.1.dist-info/METADATA,sha256=axPlF1pERVqJm-XvnH1u9clJB-NTJaVyU9pDa8Qdusg,3462
+curlnagios-0.5.1.dist-info/RECORD,,
+curlnagios-0.5.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+curlnagios-0.5.1.dist-info/entry_points.txt,sha256=GRF0RrlIIehlXptB7XWqWXoQHrDaS0H6am5ujhaSVIo,57
+curlnagios-0.5.1.dist-info/metadata.json,sha256=kA3qdV1xS09W0CSlepI2JYH-D3PiebXU3jT7N73UWx0,916
+curlnagios-0.5.1.dist-info/top_level.txt,sha256=D4nJwcCBcH-jGP2Z0r48FtDUxYgLrqRt-Zc6T3rnGbY,11
