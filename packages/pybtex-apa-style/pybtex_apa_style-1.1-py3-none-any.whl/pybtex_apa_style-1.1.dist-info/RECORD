@@ -1,0 +1,11 @@
+formatting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formatting/apa.py,sha256=od-DmgyW7eqO9ByqrcKVCCfQDYg51DC6RgEQGY-822c,15721
+labels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labels/apa.py,sha256=g4ATmGB0-12lhElhokiswr6e_Sp-_vNTvRTgTIC68Nc,2121
+names/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+names/firstlast.py,sha256=IUvviWZ2V2bnHOMY55lND_dmsOym2DyGKNTcUTiU_2E,1568
+pybtex_apa_style-1.1.dist-info/METADATA,sha256=h0QGXkv0PLh4CwnJB6K1hbWolDF-KlrURNQ4pBdimIU,597
+pybtex_apa_style-1.1.dist-info/RECORD,,
+pybtex_apa_style-1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pybtex_apa_style-1.1.dist-info/entry_points.txt,sha256=SVfa4wJfsDDDys_K2_1kWwwcluwJyUXrrZ91k4pURRc,168
+pybtex_apa_style-1.1.dist-info/top_level.txt,sha256=lpl_TNqK97PXH4BEL3sQtLcvTpuy3ePfOMa65eZtrXE,24
