@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "nonrepeat"
+version = "0.1.0"
+description = "Generate non-repeat filenames, ids and strings"
+authors = ["Pacharapol Withayasakpunt <patarapolw@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "*"
+
+[tool.poetry.dev-dependencies]
