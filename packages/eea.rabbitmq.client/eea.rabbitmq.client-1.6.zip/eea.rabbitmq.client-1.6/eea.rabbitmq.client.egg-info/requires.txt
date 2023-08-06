@@ -1,0 +1,6 @@
+plone.api
+setuptools
+pika
+
+[test]
+plone.app.testing
