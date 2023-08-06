@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.rst
+pytest.ini
+setup.py
+tests.py
+examples/awaitsignal_qt.py
+examples/benchmark.py
+examples/oversimplified_qt.py
+examples/qt_network.py
+src/asynker/__init__.py
+src/asynker.egg-info/PKG-INFO
+src/asynker.egg-info/SOURCES.txt
+src/asynker.egg-info/dependency_links.txt
+src/asynker.egg-info/requires.txt
+src/asynker.egg-info/top_level.txt
