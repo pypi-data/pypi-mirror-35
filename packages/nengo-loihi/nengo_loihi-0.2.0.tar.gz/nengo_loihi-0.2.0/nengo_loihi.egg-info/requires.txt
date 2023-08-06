@@ -1,0 +1,2 @@
+jinja2
+nengo>=2.8.0
