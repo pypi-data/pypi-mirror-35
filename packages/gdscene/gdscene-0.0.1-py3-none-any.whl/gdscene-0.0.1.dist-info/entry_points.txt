@@ -1,0 +1,3 @@
+[console_scripts]
+tilemap = gdscene.__main__:tilemap
+

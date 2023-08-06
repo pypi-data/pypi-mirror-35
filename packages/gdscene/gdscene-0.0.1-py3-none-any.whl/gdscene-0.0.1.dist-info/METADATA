@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: gdscene
+Version: 0.0.1
+Summary: Simple library to make it easier to generate Godot scene files programmatically
+Home-page: https://github.com/Taywee/gdscene
+Author: Taylor C. Richberger <taywee@gmx.com>
+Author-email: taywee@gmx.com
+License: GPL3
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+
+UNKNOWN
+
+
