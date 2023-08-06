@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: asa-hmi-api
+Version: 0.1.4
+Summary: UNKNOWN
+Home-page: https://gitlab.com/mickey9910326/hmi-api-py
+Author: mickey9910326
+Author-email: mickey9910326@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: setuptools
+Requires-Dist: pyserial
+Requires-Dist: numpy
+
+UNKNOWN
+
+
