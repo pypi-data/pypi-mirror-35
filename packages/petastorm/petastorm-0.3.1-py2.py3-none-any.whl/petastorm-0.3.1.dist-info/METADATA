@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: petastorm
+Version: 0.3.1
+Summary: petastorm library TODO: more info
+Home-page: UNKNOWN
+License: Apache 2.0
+Platform: UNKNOWN
+Provides-Extra: test
+Provides-Extra: tf_gpu
+Provides-Extra: opencv
+Provides-Extra: tf
+Requires-Dist: diskcache (>=3.0.0)
+Requires-Dist: numpy (>=1.13.3)
+Requires-Dist: pandas (>=0.19.0)
+Requires-Dist: pyspark (>=2.1.0)
+Requires-Dist: pyzmq (>=14.0.0)
+Requires-Dist: pyarrow (>=0.10)
+Requires-Dist: six (>=1.5.0)
+Provides-Extra: opencv
+Requires-Dist: opencv-python (>=3.2.0.6); extra == 'opencv'
+Provides-Extra: test
+Requires-Dist: opencv-python (>=3.2.0.6); extra == 'test'
+Requires-Dist: pytest (>=3.0.0); extra == 'test'
+Requires-Dist: pytest-cov (>=2.5.1); extra == 'test'
+Requires-Dist: Pillow (>=3.0); extra == 'test'
+Requires-Dist: pylint (>=1.9); extra == 'test'
+Requires-Dist: codecov (>=2.0.15); extra == 'test'
+Provides-Extra: tf
+Requires-Dist: tensorflow (>=1.4.0); extra == 'tf'
+Provides-Extra: tf_gpu
+Requires-Dist: tensorflow-gpu (>=1.4.0); extra == 'tf_gpu'
+
+UNKNOWN
+
+
