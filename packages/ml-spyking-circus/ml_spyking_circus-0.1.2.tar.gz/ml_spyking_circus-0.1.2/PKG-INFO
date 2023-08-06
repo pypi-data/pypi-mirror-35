@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ml_spyking_circus
+Version: 0.1.2
+Summary: MountainLab wrapper for spyking circus
+Home-page: https://github.com/magland/ml_spyking_circus
+Author: Jeremy Magland
+Author-email: 
+License: UNKNOWN
+Description: # ml_spyking_circus
+        
+        MountainLab processor package that wraps the [SpyKING Circus](https://spyking-circus.readthedocs.io/en/latest/) spike sorting algorithm
+        
+        
+        ## Conda installation
+        
+        You need to have have previously installed [mountainlab using conda](https://github.com/flatironinstitute/mountainlab-js).
+        
+        ```
+        conda install -c spyking_circus spyking_circus
+        conda install -c flatiron ml_spyking_circus
+        ```
+        
+        ## Installation without conda
+        
+        It is also possible to install this software without using conda. See the [MountainLab documentation](https://github.com/flatironinstitute/mountainlab-js).
+        
+        ## Singularity usage
+        
+        This repository corresponds to a Singularity container. Therefore it is possible to run these processors without any installation and/or from a shared jupyter notebook.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
