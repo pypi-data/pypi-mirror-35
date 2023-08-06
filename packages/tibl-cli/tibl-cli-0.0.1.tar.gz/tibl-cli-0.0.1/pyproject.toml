@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tibl-cli"
+version = "0.0.1"
+description = "Command Line Interface for tibl, a tiny blog engine."
+authors = ["uj"]
+license = "MIT"
+homepage = "https://ujj.space/tibl-cli"
+repository = "https://github.com/Uinelj/tibl-cli"
+keywords = ["cli", "blog", "engine"]
+
+[tool.poetry.dependencies]
+python = "3.5"
+gitpython = "^2.1"
+blindspin = "^2.0"
+crayons = "^0.1.2"
+click = "^6.7"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+tibl = 'tibl_cli:ui.cli'
