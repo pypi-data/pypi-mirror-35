@@ -1,0 +1,12 @@
+dojo_referee/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dojo_referee/__main__.py,sha256=bDJTSpGMUecAR1t7sytY88QPsteRdriz2dc3sWmlNGQ,5303
+dojo_referee/logging.conf,sha256=D1V9cwaBXBRs7EqrB1yGZAfXf1oOUogADEmf8KnDYrw,447
+dojo_referee/settings.py,sha256=OSubRvWJ6Ms7WMcX0MjipoSoKTzGd5za7MNC1P1drfw,1295
+dojo_referee/sound.py,sha256=fOQAA35YcWuEtorwoNUoWMwQ8roTYiPb69heNKjIvJY,1296
+dojo_referee/assets/begin.wav,sha256=mwOjKM2Uab2NAH70T1NjS9Gw43KM_cw9TscihVY51Kk,344166
+dojo_referee/assets/finish.wav,sha256=ZtS0SFzEJUr7CeW8Ai-98AmGfF4tmpQ1trfVsF-eRU4,771324
+dojo_referee-0.1.0.dist-info/METADATA,sha256=4KFPNtWu01nbIXSaz35IbM5eRAPbuL5Bng-tVHDnOCU,1297
+dojo_referee-0.1.0.dist-info/RECORD,,
+dojo_referee-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+dojo_referee-0.1.0.dist-info/entry_points.txt,sha256=0qIQkeKvmdF6Xk8kS887TRj1Xfqc5aJ7i1HmTwFImfI,61
+dojo_referee-0.1.0.dist-info/top_level.txt,sha256=MqCzbq8l19vTiztSz6gFRrdJxA-9U0K2IrYpEzr1YJ8,13
