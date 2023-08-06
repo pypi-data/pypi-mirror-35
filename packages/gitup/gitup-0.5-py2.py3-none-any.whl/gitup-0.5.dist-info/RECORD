@@ -1,0 +1,11 @@
+gitup/__init__.py,sha256=FqtbGePWQzMzkvmS2g1Lek5WE5Uow9TPAJYyGbUMNOc,375
+gitup/__main__.py,sha256=QUo0KrZsDVL4Zke0_yAphzGCNaVeWALiDSIQ9eqdblY,226
+gitup/config.py,sha256=YcqZOL2IghbSaEYVoL2qJHZjzKJPg9J2dh_r96jOZto,4586
+gitup/migrate.py,sha256=ZJRx8moGLdFF6d7g8c8kvEn7B0o7HXlDEAjRbNxhCd0,1917
+gitup/script.py,sha256=DO5zjOmm7Bj0nwXr9h-DEFOeyASmE6Rm-gkIHcDC3GU,5779
+gitup/update.py,sha256=NcAW7cB0O73OJwIswqwSIc5zHAEZMvwPeC2yN9cMtas,10927
+gitup-0.5.dist-info/METADATA,sha256=4BHsPHxWxvLBYk6Zy6a-_5sHQtnpaVvoWp2tBR2QeL0,4598
+gitup-0.5.dist-info/RECORD,,
+gitup-0.5.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+gitup-0.5.dist-info/entry_points.txt,sha256=m1FjAvcFRQNQtHxXbvDeduA6fGGK9BNQ4SrAdo7VgEQ,44
+gitup-0.5.dist-info/top_level.txt,sha256=iaJvvjWiT7iKGbACBMDJcsGQAl-C9lL4thDT6bF3IYg,6
