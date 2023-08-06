@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dataclasses-json
+Version: 0.0.7
+Summary: Easily serialize dataclasses to and from JSON
+Home-page: https://github.com/lidatong/dataclasses-json
+Author: lidatong
+Author-email: charles.dt.li@gmail.com
+License: Unlicense
+Keywords: dataclasses json
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: dev
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: ipython; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+
+UNKNOWN
+
+
