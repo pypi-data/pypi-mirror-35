@@ -1,0 +1,2 @@
+commonconf>=1.0
+uw-restclients-core<2.0,>1.0
