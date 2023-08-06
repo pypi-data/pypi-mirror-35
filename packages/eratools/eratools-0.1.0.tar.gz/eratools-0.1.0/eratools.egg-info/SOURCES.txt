@@ -1,0 +1,13 @@
+README.md
+setup.py
+eratools/__init__.py
+eratools/_version.py
+eratools/accessor.py
+eratools/geopotential.py
+eratools/modeldefs.py
+eratools.egg-info/PKG-INFO
+eratools.egg-info/SOURCES.txt
+eratools.egg-info/dependency_links.txt
+eratools.egg-info/top_level.txt
+eratools/utils/__init__.py
+eratools/utils/fetchERA.py
