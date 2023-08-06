@@ -1,0 +1,15 @@
+pycopyql/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pycopyql/args.py,sha256=sDpXGlggB_4PTt5gE9NDwI-gesv6o2qYj1ZdyL40q94,924
+pycopyql/cli.py,sha256=v9BdBfToPTJ73phMB4f-6quSikA1uVVoGQLHZapwchU,735
+pycopyql/config.py,sha256=DwAdlV6sl7wcfj-pJi5qk9hWAoRZYkowhpXMec2POuA,2703
+pycopyql/export.py,sha256=t0n-9scDd7rPd9Xj9p9rRvArIBqdBgXiApv1Kt5PqzA,3070
+pycopyql/query.py,sha256=gtZfa_yrF4bj2AT_xPr2aY46RAQIo3i8zlFyFZLk0ig,2874
+pycopyql/resolver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycopyql/resolver/foreign_key.py,sha256=Xu53zJOvWTgoFc71NLSYBjJkDnn_uDI5tFPfxMD2cfA,3061
+pycopyql/resolver/inflector.py,sha256=ZXmveJPt2UsqV5CQg497JmMaOtSdYjhvxZmPox9DAf0,2905
+pycopyql/resolver/static.py,sha256=SbF7N1FN9zwVVv-S56JzSPgvQJ2hcRzzJzRNYPSJFs4,512
+pycopyql-0.4.0.dist-info/METADATA,sha256=IJSvCiO4CKfexvvaRrrssRwXOI0YhW3OYFIG1MhiFmQ,10092
+pycopyql-0.4.0.dist-info/RECORD,,
+pycopyql-0.4.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pycopyql-0.4.0.dist-info/entry_points.txt,sha256=jvG030_iNX_CAua3BxHhDzThLg2UwaraiJabsIfrI5U,48
+pycopyql-0.4.0.dist-info/top_level.txt,sha256=xQ_pvyGGXbKbtbdz-e4aKr0oKwGWceCn8ItiLklx11E,9
