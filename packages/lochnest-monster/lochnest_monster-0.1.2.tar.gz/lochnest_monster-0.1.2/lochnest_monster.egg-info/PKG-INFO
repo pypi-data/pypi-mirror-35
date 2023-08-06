@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: lochnest-monster
+Version: 0.1.2
+Summary: An ancient and mysterious nested sampling algorithm
+Home-page: https://github.com/ACCarnall/lochnest_monster
+Author: Adam Carnall
+Author-email: adamc@roe.ac.uk
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/ACCarnall/lochnest_monster
+Description: The Loch Nest Monster
+        =====================
+        
+        An ancient and mysterious nested sampling algorithm.
+        
+        A package I'm writing to learn more about nested sampling.
+        
+        Works well on basic problems!
+Platform: UNKNOWN
