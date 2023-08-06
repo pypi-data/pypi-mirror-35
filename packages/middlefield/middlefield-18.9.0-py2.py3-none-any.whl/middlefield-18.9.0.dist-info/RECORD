@@ -1,0 +1,13 @@
+middlefield/__init__.py,sha256=1LXnKjmVQRqlitIZjTizvf9B3907RLLVKfjj6-1QFNc,252
+middlefield/__main__.py,sha256=Yw-LWS0jNTu-Vl3eEYKUWokkuLQMx-EHXGzjWcX7xPs,291
+middlefield/_api.py,sha256=KLJ6U2Mzyynov1EA4kn_pQmiIaHPw2soP5usKisxcjA,2757
+middlefield/_main.py,sha256=-5lzpJRdMzWOHUcBoON-M0ue5QwHfzvEzqH7Uf8Xw4Y,452
+middlefield/_version.py,sha256=HdSAdP-eZ1exlOtm0zUrpViSKVPbapwbuAuPs0a1rfE,272
+middlefield/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+middlefield/test/test_api.py,sha256=njYBbEruye0o7MM9RQbWhmVX6o84F2E_yKeQ567gKmQ,6099
+middlefield/test/test_main.py,sha256=hpwevbdpMRnrFIY3uL1l5fNNSvalQo7OkCbgqtW_Yv0,371
+middlefield-18.9.0.dist-info/METADATA,sha256=rYHerMgVViwc5Ye4GyCGt9UjWl-6NnIb9aWWxF1Wzls,424
+middlefield-18.9.0.dist-info/RECORD,,
+middlefield-18.9.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+middlefield-18.9.0.dist-info/entry_points.txt,sha256=sz1BkgJj2x0G7ovklRr6FUQ0U-tdmKBf397PgtHnKZU,84
+middlefield-18.9.0.dist-info/top_level.txt,sha256=clW6GqhPFwov9lIjsb5O8OpjbimKHg3deJx_aDtnUtU,12

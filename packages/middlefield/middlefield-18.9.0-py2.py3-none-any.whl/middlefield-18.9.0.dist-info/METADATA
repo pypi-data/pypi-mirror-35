@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: middlefield
+Version: 18.9.0
+Summary: Middlefield: A multifunctional tool.
+Home-page: UNKNOWN
+Author: Moshe Zadka
+Author-email: zadka.moshe@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: elcaminoreal (>=18.8.0)
+Requires-Dist: incremental
+Requires-Dist: caparg
+Requires-Dist: seashore
+Requires-Dist: pex
+Requires-Dist: toolz
+
+Middlefield
+-----------
+
+This page intentionally left blank.
+
+
