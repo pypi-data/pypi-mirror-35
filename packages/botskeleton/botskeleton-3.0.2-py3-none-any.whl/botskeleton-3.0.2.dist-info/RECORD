@@ -1,0 +1,12 @@
+botskeleton/__init__.py,sha256=8OquwQODcMcSHbqicX-eywjvJQssOSGB5WSpTX6K41c,132
+botskeleton/botskeleton.py,sha256=9joPrU9b8YuIACHCs2sJpMgKcES_2XpNWFgWHZDOPb4,7910
+botskeleton/outputs/__init__.py,sha256=4faUaSld_ab7NDZ4M9thgnyX1eGc6qhXYrCu8-97yKc,81
+botskeleton/outputs/output_birdsite.py,sha256=RaMT82d05lsH0VWlz7WlpfqVeddQ4qNQaTl3wLwbne4,5697
+botskeleton/outputs/output_mastodon.py,sha256=24h8AuSvPfN5AqA4lgy63hkhErWb9DGIyKy9l-ura18,4437
+botskeleton/outputs/output_utils.py,sha256=XQ81e_fNUlYNFCAK3VGTRrPsmsTjsaVPUMvVp38Mk8I,1468
+botskeleton-3.0.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+botskeleton-3.0.2.dist-info/METADATA,sha256=tJnXITQ2FqFUVfTqAvx8vEcN3ALoB3TjRZ4s71jmCF8,907
+botskeleton-3.0.2.dist-info/RECORD,,
+botskeleton-3.0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+botskeleton-3.0.2.dist-info/metadata.json,sha256=KEFrQhKYfOHOH89SGnpBSpqWMKWccPdu3vm2Xzdw2RM,1015
+botskeleton-3.0.2.dist-info/top_level.txt,sha256=j9rKITZco_leYInux8Ey23FE_sK0HXliuKM1aAKyjMk,12
