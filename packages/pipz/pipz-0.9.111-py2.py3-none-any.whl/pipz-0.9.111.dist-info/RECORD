@@ -1,0 +1,9 @@
+pipz/__init__.py,sha256=tglFp2q7f4LKv3t3JTBuJa0RqdXcdEYRj0rdCEYUkkQ,212
+pipz/pipz.py,sha256=bc_P0XEDY4y5ZmpVOFZhBbNBwqwo5i7v49a8rT-bPQA,3427
+pipz/pipzcli.py,sha256=oE4AJZFCuI1pfhVLWbyzMpvws1bW5c_k3OJv9SwV5Fg,5793
+pipz/pipzlib.py,sha256=thippE4JJgSLJi3cBJMBZkQmfADX1iNSu72FKXi9mck,4528
+pipz-0.9.111.dist-info/METADATA,sha256=Dx7tNnp6PYHeje4BBfFF4B5AP7IoMUmc8MV3dlOtIFA,335
+pipz-0.9.111.dist-info/RECORD,,
+pipz-0.9.111.dist-info/WHEEL,sha256=saUSQBLOUjf5ACZdNkhQ0lB6XrHU-l4vpzxq_W1n_AY,116
+pipz-0.9.111.dist-info/entry_points.txt,sha256=mdfK627TJ-jo3XT-sMJs6yiibRc4zO2w81KEMDNrGU0,43
+pipz-0.9.111.dist-info/top_level.txt,sha256=W9eRoGdg1hjZ3RejdvsFYWKJBu-uVK2dWGWjOOxrrDs,5
