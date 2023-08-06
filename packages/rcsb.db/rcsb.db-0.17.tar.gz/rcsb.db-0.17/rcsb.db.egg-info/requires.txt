@@ -1,0 +1,20 @@
+future
+six
+python-dateutil
+pytz
+rcsb.utils.io
+rcsb.utils.config
+rcsb.utils.multiproc
+
+[:python_version < "3.0"]
+scandir
+configparser
+
+[:python_version >= "0.19"]
+mmcif
+
+[dev]
+check-manifest
+
+[test]
+coverage
