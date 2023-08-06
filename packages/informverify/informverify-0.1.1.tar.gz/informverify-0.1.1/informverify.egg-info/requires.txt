@@ -1,0 +1,2 @@
+pythologist>=0.1.7
+Pillow>=2.2.1
