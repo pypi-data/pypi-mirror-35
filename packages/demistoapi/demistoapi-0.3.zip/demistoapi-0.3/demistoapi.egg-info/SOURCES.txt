@@ -1,0 +1,10 @@
+setup.py
+demistoapi/__init__.py
+demistoapi/client.py
+demistoapi/resource.py
+demistoapi.egg-info/PKG-INFO
+demistoapi.egg-info/SOURCES.txt
+demistoapi.egg-info/dependency_links.txt
+demistoapi.egg-info/not-zip-safe
+demistoapi.egg-info/requires.txt
+demistoapi.egg-info/top_level.txt
