@@ -1,0 +1,12 @@
+README.md
+setup.py
+mypackage/__init__.py
+mypackage/_version.py
+mypackage/myfuns.py
+mypackage/tests/__init__.py
+mypackage/tests/test_myfuns.py
+travis_tester.egg-info/PKG-INFO
+travis_tester.egg-info/SOURCES.txt
+travis_tester.egg-info/dependency_links.txt
+travis_tester.egg-info/not-zip-safe
+travis_tester.egg-info/top_level.txt
