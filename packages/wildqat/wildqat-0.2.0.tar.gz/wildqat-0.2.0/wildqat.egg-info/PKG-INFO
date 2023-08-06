@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: wildqat
+Version: 0.2.0
+Summary: Python Framework for Ising Model
+Home-page: https://github.com/mdrft/wildqat
+Author: mdrft
+Author-email: info@mdrft.com
+License: Apache Software License
+Download-URL: https://github.com/mdrft/wildqat_qdk/tarball/0.2.0
+Description: Wildqat Python SDK
+        --------
+        Python Framework for Ising Model
+        
+        Install
+        --------------------
+        
+            $ git clone https://github.com/mdrft/wildcat.git
+            $ python setup.py install
+        
+        Example
+        -------
+        
+        ```python
+        import wildqat as wq
+        a = wq.anneal()
+        a.J = wq.q2i([[4,-4,-4],[0,4,-4],[0,0,4]])
+        a.sa() #=> array([1, 1, 1])
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
