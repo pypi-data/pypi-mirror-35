@@ -1,0 +1,7 @@
+qupy/__init__.py,sha256=8ff_C81RhhILcC-rFsmQh-qtuZy3QLMh8d5a0FgE1AI,29
+qupy/operator.py,sha256=5irkhopVW-qq0hs7Ewfri5K6M_9Cz2C4rCTKiExUTmE,1467
+qupy/qubit.py,sha256=Mrb-wzTb6wD7L2Q0VftKNCgl49GiEMsDZPQ16s4_0oY,5555
+qupy-0.1.5.dist-info/METADATA,sha256=lbrcbb2OLHHwR--EbJCbN3qeOERVZCxpNBcLol6sUoI,4873
+qupy-0.1.5.dist-info/RECORD,,
+qupy-0.1.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+qupy-0.1.5.dist-info/top_level.txt,sha256=dDzkvWE7z6n8CRqdkDl01O_AhXmQP1I9_dH_098p3c8,5
