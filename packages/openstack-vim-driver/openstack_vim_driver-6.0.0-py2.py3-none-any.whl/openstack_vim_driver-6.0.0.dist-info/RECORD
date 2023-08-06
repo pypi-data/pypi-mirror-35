@@ -1,0 +1,8 @@
+openstack_vim_driver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openstack_vim_driver/openstack_vim_driver.py,sha256=pGqzZB3_Zwrvr0xM27wZv4Jlm7tACYeC5K5F5cI-rfE,39325
+openstack_vim_driver/etc/configuration.ini,sha256=P6XOjLJN1qwzqDTF0No0jhnTDTWNU0K9i26uF7T1w4Y,1276
+openstack_vim_driver-6.0.0.data/scripts/openstack-vim-driver,sha256=ZfHIonvgYXTMSRZKzcugirg5H0N-Ztmt4WQfNdgmz7I,108
+openstack_vim_driver-6.0.0.dist-info/METADATA,sha256=HdcVOKjVHiRt3qz5PYAqBoefH1T3FFNHPMO0j1o0zPw,6017
+openstack_vim_driver-6.0.0.dist-info/RECORD,,
+openstack_vim_driver-6.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+openstack_vim_driver-6.0.0.dist-info/top_level.txt,sha256=LD4piePc6AgykmuDH876icA8e5gcbX6pB-aqtPM3UEw,21
