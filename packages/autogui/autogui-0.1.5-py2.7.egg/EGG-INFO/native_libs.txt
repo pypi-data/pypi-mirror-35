@@ -1,0 +1,4 @@
+autogui/src/GUILibrary/bin/Release/GUILibrary.dll
+autogui/src/GUILibrary/bin/Release/Interop.UIAutomationClient.dll
+autogui/src/GUILibrary/bin/Release/TestApiCore.dll
+autogui/src/GUILibrary/bin/Release/UIAComWrapper.dll
