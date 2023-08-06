@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: qaviton
+Version: 0.0.1
+Summary: python implementation of qaviton
+Home-page: https://qaviton.com/
+Author: Yehonadav Bar Elan
+Author-email: yehonadav@Qaviton.com
+License: Apache 2.0
+Description: UNKNOWN
+Keywords: qaviton
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
