@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+jenkenv/__init__.py
+jenkenv.egg-info/PKG-INFO
+jenkenv.egg-info/SOURCES.txt
+jenkenv.egg-info/dependency_links.txt
+jenkenv.egg-info/entry_points.txt
+jenkenv.egg-info/requires.txt
+jenkenv.egg-info/top_level.txt
