@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: hexrec
+Version: 0.0.2
+Summary: Library to handle hexadecimal record files
+Home-page: https://github.com/TexZK/hexrec
+Author: Andrea Zoppi
+Author-email: texzk@email.it
+License: BSD 2-Clause License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Utilities
+Requires-Dist: six
+Requires-Dist: click
+Requires-Dist: enum34
+Requires-Dist: pathlib
+
+========
+Overview
+========
+
+
+
+Library to handle hexadecimal record files
+
+* Free software: BSD 2-Clause License
+
+
+Installation
+============
+
+From PIP::
+
+    pip install hexrec
+
+From source::
+
+    python setup.py install
+
+
+Documentation
+=============
+
+https://hexrec.readthedocs.io/
+
+
+Development
+===========
+
+To run the all tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.1 (2018-06-27)
+------------------
+
+* First release on PyPI.
+
+
