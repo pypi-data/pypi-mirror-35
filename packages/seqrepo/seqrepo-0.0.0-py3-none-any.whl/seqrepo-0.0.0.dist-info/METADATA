@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: seqrepo
+Version: 0.0.0
+Summary: alias for the biocommons.seqrepo package
+Home-page: https://github.com/biocommons/biocommons.seqrepo
+Author: Reece Hart
+Author-email: biocommons-dev@googlegroups.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: biocommons.seqrepo
+
+UNKNOWN
+
+
