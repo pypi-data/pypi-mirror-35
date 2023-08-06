@@ -1,0 +1,11 @@
+strudel.utils-0.2.dist-info/LICENSE.txt,sha256=FYRm-HtEiYx9nsAeK-A3nk0txDo_KOzBcsnGTQDljIA,35158
+strudel.utils-0.2.dist-info/METADATA,sha256=ekWEznayie_lxmHqsr1mW9vOioaIREOCPOm-l3XH--4,993
+strudel.utils-0.2.dist-info/RECORD,,
+strudel.utils-0.2.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+strudel.utils-0.2.dist-info/top_level.txt,sha256=nbLvay_ch_5WbXv61QsQX93NUgxWr44kRZ0NyTtoK5s,8
+stutils/__init__.py,sha256=tJqJW_RISL2lgWKrk6oO7YRUnz3t6ZC_kF12ZWVxqNk,1329
+stutils/decorators.py,sha256=SSFxen3wGeWnNVga1SvmG3i7_4I_wjantAaty_FuUCc,6214
+stutils/email_utils.py,sha256=wRZZ-mly3mYLRbqisruz0LfZbUjjlg7cAXMz3eqnAJ4,9352
+stutils/mapreduce.py,sha256=G-LleNDH2dbjvw6ImaNbhrof34DrU5jU4UUClzgNSXE,7968
+stutils/sysutils.py,sha256=aMYU4oWppNaSXNkJ7QplThWV64FKd9TmNRiRRqgNOhc,2275
+stutils/versions.py,sha256=JY5dk93jX7NurNJVcV65bfS0fz_EPnaqNCb1QjjC-74,1909
