@@ -1,0 +1,12 @@
+no---pysodium/__init__.py,sha256=2JprAjLzvDtBBDAFlDSbMzn-qNXy43E5c10UUWprxt8,31471
+simple_asym/__init__.py,sha256=nJRaamJ9St15UR2lqla7-5JKzM5YeClRiWXaR06EuFo,59
+simple_asym/asymmetric_encryption.py,sha256=lq6EQx5WXQtKaqYLPfbR7qr91IbojCmP4-UdPlwlfGw,4379
+simple_asym/crypto.py,sha256=HU9QRNzfZ_caFLVZceex_pZvJ1VwhBWSmYkHASGVta0,4988
+simple_asym/exceptions.py,sha256=4Pvbln2H2wwBalEOdVKGbaENvzGWsfDAl3M09GzmJk8,349
+simple_asym/test.py,sha256=Wgr_0QVxSQeUFs_aEbGBohdcMbfTBVoUtNnUD51Mtsg,8370
+simple_asymmetric-0.6.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+simple_asymmetric-0.6.1.dist-info/METADATA,sha256=AeMHIo27V5SlYZl2gWr1mFMohBKVJh67gfpp8u7P3JA,565
+simple_asymmetric-0.6.1.dist-info/RECORD,,
+simple_asymmetric-0.6.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+simple_asymmetric-0.6.1.dist-info/metadata.json,sha256=UV__aLX9xTYFPvwcay4CbkD9cMvJYqfMISD6Z_PsMAw,765
+simple_asymmetric-0.6.1.dist-info/top_level.txt,sha256=OEB4fjuRhyx2FeKAPFsa-NVUpsoljVyjhuT-12qQ_ek,26
