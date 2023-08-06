@@ -1,0 +1,9 @@
+README.md
+setup.py
+redditmirror/__init__.py
+redditmirror/__main__.py
+redditmirror.egg-info/PKG-INFO
+redditmirror.egg-info/SOURCES.txt
+redditmirror.egg-info/dependency_links.txt
+redditmirror.egg-info/requires.txt
+redditmirror.egg-info/top_level.txt
