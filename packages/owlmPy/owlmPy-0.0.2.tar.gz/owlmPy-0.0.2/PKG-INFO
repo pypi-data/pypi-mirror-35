@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: owlmPy
+Version: 0.0.2
+Summary: A python package for simulation of optics in anisotropic media
+Home-page: https://github.com/oscarmunoz20/owlmPy
+Author: Oscar Munoz, Nivolas Avilan, Cesar Herreno
+Author-email: oscar.munozs@utadeo.edu.co
+License: UNKNOWN
+Description: Package home at PyPI: http://pypi.python.org/pypi/owlmPy
+        
+        Package home at Github: https://github.com/oscarmunoz20/owlmPy
+        
+        # About owlmPy
+        owlmPy is a python package designed for the simulation of electromagnetic waves in layered media that takes into account materials anisotropies
+        
+        ## Documentation
+        This package is a result of a paper pubilished at  (Link de la tesis)
+        
+        ## Installation
+        It can be installed using pip:
+        
+            pip install owlmPy
+        
+        And inported in python code:
+        
+            import owlmPy as ow
+        
+        See the following notebook to get an example. 
+        
+        ## Required Dependencies
+        - numpy
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
