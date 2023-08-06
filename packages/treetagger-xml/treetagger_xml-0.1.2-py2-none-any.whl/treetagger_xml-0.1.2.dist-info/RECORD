@@ -1,0 +1,11 @@
+treetagger_xml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+treetagger_xml/process.py,sha256=vLWt8hLNavYHOU3JMY4lOmCTrlIlDRcx10BLdEoSESw,1004
+treetagger_xml/txt.py,sha256=KA9slcZLSOP1efzOKnCCMaV0rBKkWxnpgi3enU7vCqI,722
+treetagger_xml/utils.py,sha256=hzRxh1MeIN7S4O_owQLU_7haUHrd66j4swl9zUMYG0w,376
+treetagger_xml/xml.py,sha256=Rf8k3FOY3T7K_F4F9ezJBJjR0uv1JYBnTlbHk4gGkUA,5216
+treetagger_xml-0.1.2.dist-info/DESCRIPTION.rst,sha256=rfiHbv3FEQV1FYFhIkOuK3EgusY67S_7hoQA-MYZ9Fk,1755
+treetagger_xml-0.1.2.dist-info/METADATA,sha256=rf0mh_Hw7SHMKq99iJkA2rIWvTY3DMYi7P1FGzy0lcY,2231
+treetagger_xml-0.1.2.dist-info/RECORD,,
+treetagger_xml-0.1.2.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+treetagger_xml-0.1.2.dist-info/metadata.json,sha256=4jl77Og457ktznqU5jU68vNQwCY-U18y1Lqn540k-1U,624
+treetagger_xml-0.1.2.dist-info/top_level.txt,sha256=swCTfbm3DDnUs1KjHAjYKs4nxyxCCR5N1xphQxKrGKw,15
