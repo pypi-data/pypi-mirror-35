@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: py-sourcemap
+Version: 0.1.9
+Summary: A tiny source-map-mappings bindings for python using PyO3
+Home-page: https://github.com/LeetCode-OpenSource/py-sourcemap
+License: UNKNOWN
+Description: # py-sourcemap
+        A tiny [source-map-mappings](https://github.com/fitzgen/source-map-mappings) bindings for python using [PyO3](https://github.com/PyO3/pyo3)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Description-Content-Type: text/markdown
