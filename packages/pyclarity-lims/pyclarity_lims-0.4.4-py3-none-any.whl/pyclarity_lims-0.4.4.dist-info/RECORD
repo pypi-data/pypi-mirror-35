@@ -1,0 +1,14 @@
+genologics/__init__.py,sha256=U79PYMoLn3CJtzDERiXcMwb6vcYImouhdUH2Rofpx_c,68
+genologics/entities.py,sha256=hBAU_KOjGAz9jk4xvb5b1BCjotzXV9WWIzShLD86Acs,38
+genologics/lims.py,sha256=jr8h3M8wZ0KRQzJP0S1XY0obK-dYFbOpO1x7k8NwndI,34
+pyclarity_lims/__init__.py,sha256=XVh2A89KORZ_4A7oCV6_vPScOmzE7t6UQwkQsUYcDjU,166
+pyclarity_lims/constants.py,sha256=V3iwJPhJzZQGESCa9Obk3592RKDJq8-SedOxw2sgCVs,2142
+pyclarity_lims/descriptors.py,sha256=pXa7odbjq46S0AyreOjhSIZX2WPjnMJNNTeS7ni-ghU,37606
+pyclarity_lims/entities.py,sha256=4lf5yMOglaTlKPwN3Z3RtLhUUyCIbcblTiCS66jsaAY,47395
+pyclarity_lims/lims.py,sha256=ikKb_oZ_snoTcreTzX2-09M3LoHki64EqxZ8uGsv-5w,35532
+pyclarity_lims-0.4.4.dist-info/DESCRIPTION.rst,sha256=ZbbjLUnB7vsyXjRPFsV_OVTmqei0f7uxmOoyxQv3U2s,209
+pyclarity_lims-0.4.4.dist-info/METADATA,sha256=m32b_ooF_9VEDwxmLBqwRr8u48isVrtMNXmhx29TnrA,1319
+pyclarity_lims-0.4.4.dist-info/RECORD,,
+pyclarity_lims-0.4.4.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pyclarity_lims-0.4.4.dist-info/metadata.json,sha256=7M7GfOjL80JvbZD2p3N39dpEWFdhhiloOupMBPls_fw,1241
+pyclarity_lims-0.4.4.dist-info/top_level.txt,sha256=1eowiCVf2Bi6LVgU15IF11pScN5i0rosgTM2-WRFmBI,26
