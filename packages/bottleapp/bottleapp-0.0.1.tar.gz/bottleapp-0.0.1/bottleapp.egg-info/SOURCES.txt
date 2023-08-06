@@ -1,0 +1,8 @@
+README.md
+bottleapp.py
+setup.py
+bottleapp.egg-info/PKG-INFO
+bottleapp.egg-info/SOURCES.txt
+bottleapp.egg-info/dependency_links.txt
+bottleapp.egg-info/requires.txt
+bottleapp.egg-info/top_level.txt
