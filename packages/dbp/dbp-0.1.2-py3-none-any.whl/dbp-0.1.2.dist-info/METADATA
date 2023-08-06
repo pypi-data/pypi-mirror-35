@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dbp
+Version: 0.1.2
+Summary: Simple program to manage gbp-docker container lifecycle.
+Home-page: https://openswitch.net
+License: UNKNOWN
+Author: Dell inc.
+Author-email: opx-infra@openswitch.net
+Requires-Python: >=3.3,<4
+Classifier: License :: OSI Approved :: MIT License
