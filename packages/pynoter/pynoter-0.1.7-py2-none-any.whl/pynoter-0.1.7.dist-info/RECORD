@@ -1,0 +1,11 @@
+pynoter/__init__.py,sha256=sZva2FpqT_ZuqIck-ERWR2cEVXXnblqLSrz7n5O_J6s,683
+pynoter/fcn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynoter/fcn/conv_raw.py,sha256=4TQGjdx0WLGOdVgZHXQs6Lmbqk4uDGBMwaVO4Y3Pjxg,3085
+pynoter/tests/markup.json,sha256=ASPvAtXFDTY57XvU5jxoW5s0IHVrE2vVQzQKhS8cvvg,581
+pynoter-0.1.7.data/scripts/py-noter,sha256=hmURMPoQEizH8aD2YUCQ5IZxxfJuYG9SuMvGYPGkGvc,40
+pynoter-0.1.7.dist-info/DESCRIPTION.rst,sha256=S641LJfhZujNt4ATmYiZGsuFCVEZSDDvX4V7dxS1pgw,98
+pynoter-0.1.7.dist-info/METADATA,sha256=TQTCuBimTW3S7713irec4GLOnNZnug7bpXvun3YWFHM,485
+pynoter-0.1.7.dist-info/RECORD,,
+pynoter-0.1.7.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+pynoter-0.1.7.dist-info/metadata.json,sha256=EaRjmGh12HDGOZNCV94ekAKUCY59thTskSQpi1p-lXM,651
+pynoter-0.1.7.dist-info/top_level.txt,sha256=S21kn2vTgq_TkSNLaB9RcnFnR2HtgCxWWpZPlX-YCBM,8
