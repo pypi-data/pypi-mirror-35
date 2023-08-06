@@ -1,0 +1,8 @@
+README.md
+full_width_to_half_width.py
+setup.py
+full_width_to_half_width.egg-info/PKG-INFO
+full_width_to_half_width.egg-info/SOURCES.txt
+full_width_to_half_width.egg-info/dependency_links.txt
+full_width_to_half_width.egg-info/entry_points.txt
+full_width_to_half_width.egg-info/top_level.txt

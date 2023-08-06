@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: full_width_to_half_width
+Version: 0.0.1
+Summary: Convert full width UTF-8 characters to half width
+Home-page: https://github.com/SF-Zhou/full_width_to_half_width
+Author: SF-Zhou
+Author-email: sfzhou.scut@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: full width half utf-8
+Platform: UNKNOWN
