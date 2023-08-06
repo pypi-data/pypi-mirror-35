@@ -1,0 +1,14 @@
+fpdf/__init__.py,sha256=MQWPQB5tJgpZD9M_PtIQau9yejPDe2IFrkbEEvRTYLQ,415
+fpdf/fonts.py,sha256=zldged9bndZMJZkg9sXb1nF6vv8i7KhMBrpJMOcKDec,26573
+fpdf/fpdf.py,sha256=XMI_UbpXVAZXNdpR4yMxlmpQtUsoOyOsF0thMnurqws,79686
+fpdf/html.py,sha256=uKX7bs-MMbvvmnl8v1zMDEEAKCV1QelMZP72Hj0L0AE,14740
+fpdf/php.py,sha256=fkW5bZiwbc_AhKtNN-nSc0p3mGw-QXEBxp9TB1fFU9k,1335
+fpdf/py3k.py,sha256=k75RbqXHX_mLTdqayxRLEI6qqydpkpi1gHhgJDOnstc,1787
+fpdf/template.py,sha256=MGKR-Zppy50cyRGBS_yDVvy4KOQxT43sWoCCiEjUInU,9389
+fpdf/ttfonts.py,sha256=IstlU5KoxTaWF6VnS9ztgIFXibkTTmjQZkAnC2ETyGs,42158
+reportbro_fpdf-1.7.6.dist-info/DESCRIPTION.rst,sha256=rHeJWiH_-IUKwzMh6LopJkmLjDf-UKsOo7wU-g094UI,1563
+reportbro_fpdf-1.7.6.dist-info/METADATA,sha256=13JMGNwLKRafLz0-09Vn1-N2Dxsi8g1kjEUzSMfQrA4,2562
+reportbro_fpdf-1.7.6.dist-info/RECORD,,
+reportbro_fpdf-1.7.6.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+reportbro_fpdf-1.7.6.dist-info/metadata.json,sha256=8zjlhg_Z9SvrQL1K7AnFZUFxYPe4YIzKgn-RvWII3cw,1163
+reportbro_fpdf-1.7.6.dist-info/top_level.txt,sha256=5LInphvlslEpMUNNFUFlIxUmargkp4k1WqQnoDBAF-w,5
