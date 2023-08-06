@@ -1,0 +1,9 @@
+pytest_rpc/__init__.py,sha256=h2w7v9h66mB1dODCRIJYqhiWSUOTej9ftMG9xSyGTpI,51
+pytest_rpc/helpers.py,sha256=lkbisWfpkXRDDQ51eGRvqoyQpuaxqqFgJY4oJBUUVac,19738
+pytest_rpc-0.13.0rc0.dist-info/DESCRIPTION.rst,sha256=avXyZRIrYJDeUV7r8DtGtOmDkJwwKnAdGcA7ydr0HAA,1620
+pytest_rpc-0.13.0rc0.dist-info/METADATA,sha256=WAFLgbseonq1sxgDrGwMkKsxbTpGEl7nXsGa5BsPPNo,2649
+pytest_rpc-0.13.0rc0.dist-info/RECORD,,
+pytest_rpc-0.13.0rc0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+pytest_rpc-0.13.0rc0.dist-info/entry_points.txt,sha256=wx3ClxJch2unin3kqw7fZOJK0vfMmJ47mFwvKYZM9lY,29
+pytest_rpc-0.13.0rc0.dist-info/metadata.json,sha256=lwqQKzYomCMLLIJivwOxU3zhTTF028_s-AXccyGYS-Q,1195
+pytest_rpc-0.13.0rc0.dist-info/top_level.txt,sha256=ibff9j5-TpD4Sb_pslAydHvcPl00muhlJGi6PbTHVJk,11
