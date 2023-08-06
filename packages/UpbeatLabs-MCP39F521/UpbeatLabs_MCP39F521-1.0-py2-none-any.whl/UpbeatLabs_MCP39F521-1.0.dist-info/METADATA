@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: UpbeatLabs-MCP39F521
+Version: 1.0
+Summary: Python Distribution Utilities
+Home-page: https://github.com/upbeatlabs/wattson
+Author: Sridhar Rajagopal
+Author-email: sridhar@upbeatlabs.com
+License: BSD License
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Hardware
+Requires-Dist: smbus2
+
+UNKNOWN
+
+
