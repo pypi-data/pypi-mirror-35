@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: ramlpy
+Version: 0.0.23
+Summary: RAML parsing library 
+Home-page: UNKNOWN
+Author: Alexander Vasin <hi@alvass.in>
+Author-email: hi@alvass.in
+License: MIT
+Platform: all
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Provides-Extra: develop
+Requires-Dist: pyyaml (~=3.12)
+Requires-Dist: yarl (~=1.2)
+Provides-Extra: develop
+Requires-Dist: pylama; extra == 'develop'
+Requires-Dist: pytest; extra == 'develop'
+Requires-Dist: pytest-cov; extra == 'develop'
+Requires-Dist: tox; extra == 'develop'
+
+RAML parsing library for python
+===============================
+
+.. image:: https://coveralls.io/repos/github/alvassin/ramlpy/badge.svg?branch=master
+    :target: https://coveralls.io/github/alvassin/ramlpy
+    :alt: Coveralls
+
+.. image:: https://travis-ci.org/alvassin/ramlpy.svg
+    :target: https://travis-ci.org/alvassin/ramlpy
+    :alt: Travis CI
+
+.. image:: https://img.shields.io/pypi/v/ramlpy.svg
+    :target: https://pypi.python.org/pypi/ramlpy/
+    :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/wheel/ramlpy.svg
+    :target: https://pypi.python.org/pypi/ramlpy/
+
+.. image:: https://img.shields.io/pypi/pyversions/ramlpy.svg
+    :target: https://pypi.python.org/pypi/ramlpy/
+
+.. image:: https://img.shields.io/pypi/l/ramlpy.svg
+    :target: https://pypi.python.org/pypi/ramlpy/
+
+*Library in very active development stage, is not recommended for use in production.*
+
+**Supports only RAML 1.0 and Python 3.**
+
+The main goal of this library:
+ - Fast incoming HTTP requests validation (Resource URI, HTTP method, body)
+ - Outgoing HTTP responses validation (when running test with CI)
+ - Usable tool to use RAML Data types for validating any data structures (e.g. Rabbitmq queues, any other stuff your API is working with)
+
+I also working on aiohttp middleware for super-easy integration, i plan to share it a little bit later.
+
+Versioning
+==========
+
+This software follows `Semantic Versioning`_
+
+
+.. _Semantic Versioning: http://semver.org/
+
+
