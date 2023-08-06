@@ -1,0 +1,4 @@
+pytablewriter>=0.31.1
+pytest
+responses
+tox
