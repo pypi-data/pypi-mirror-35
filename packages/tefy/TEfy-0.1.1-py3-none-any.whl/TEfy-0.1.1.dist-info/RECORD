@@ -1,0 +1,8 @@
+TEfy/TEfy.py,sha256=95TuYNlDZDwRozNovqXqpX7GA7qB7uioN8SdzCpzRUU,3065
+TEfy/__init__.py,sha256=vUI0UOOpgXRImKxk47sQjfqlQfqYiJM5jDVHAnsARyc,27
+TEfy-0.1.1.dist-info/METADATA,sha256=MUKyWl9MhA5gjznEGMmfpSVmO_Ktaz8RbduLScKwOn4,959
+TEfy-0.1.1.dist-info/RECORD,,
+TEfy-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+TEfy-0.1.1.dist-info/top_level.txt,sha256=LQ_1UO8EazaZTWeWKymADQ0wVw4Ka_77ov0rfa4RJnE,11
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_TEfy.py,sha256=A-cFW5dv8wTdNLRnGhFpJ-4YIZJF7DKAxuC2Aekww7k,5485
