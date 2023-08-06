@@ -1,0 +1,8 @@
+red_connector_xnat/__init__.py,sha256=6e--A1Kiq_WBwmULBjlh4rWWzZXQ3LHUZTMdaDlTcNk,70
+red_connector_xnat/http.py,sha256=hLHhGAuOAfvmuMxeIEpMpX92gx3Qq4odCivFyJKIf1s,11904
+red_connector_xnat/version.py,sha256=K_E9n2f3ja1oCyPaM2C_5K8IYTrebheu6J9FT3gzx0k,16
+red_connector_xnat-0.5.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+red_connector_xnat-0.5.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+red_connector_xnat-0.5.dist-info/WHEEL,sha256=tvK973RUi4LzQSHDxPwhdKmEBUziij3RaNrgndLIb3w,84
+red_connector_xnat-0.5.dist-info/METADATA,sha256=bLGYKv9qcxwaEfh6l87APzNa0ag4DzsRlPFsuYyokVA,1346
+red_connector_xnat-0.5.dist-info/RECORD,,
