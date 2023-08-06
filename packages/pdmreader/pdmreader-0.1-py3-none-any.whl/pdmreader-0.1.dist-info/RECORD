@@ -1,0 +1,17 @@
+pdmreader/__init__.py,sha256=B5gaXa_iv3KKAmR9gppWSb7F1Iaba-sVO-73URL8e70,20
+pdmreader/command_executor.py,sha256=53uHs5CtoJWbSlT4UivrYpw_b39NmqZBqB3xffkxFR8,11232
+pdmreader/main.py,sha256=3IfhFn-pboov0TRpPJZfg8YUVK71j_TD1LJ6RbU9bRQ,1031
+pdmreader/models.py,sha256=djBIOdacrVT6ZropgEea2Y_ojYcaH4M-qrPt908S4-4,780
+pdmreader/parser.py,sha256=KWszUd0mtfD1di93ht2tS1A21w2njAquddFeHZZIjV0,7003
+pdmreader/unicode_formatter.py,sha256=8S0zAs0Vpgehi30DfpYnxim2o7NLYqE-cX4H8xsbc4c,2703
+pdmreader/typemapping/__init__.py,sha256=oMh84uRVdiumwAx-mjyTsraadJFhWm4HmUZlOMNfDVk,1059
+pdmreader/typemapping/base.py,sha256=hmcoKnt_jZcsziMgX-EL8kFCEtj1vRFE8I3LTM_BTao,1897
+pdmreader/typemapping/mysql2oracle.py,sha256=sNq3qE0wmiDvFnW4HovvBjq0f3lxwcCoMJ31uDMwIVA,1832
+pdmreader/typemapping/oracle2java.py,sha256=HWzc6LOTgZOXh98jjWQPk7cZX7en8EjuFW9SRLrXhz4,1546
+pdmreader/typemapping/oracle2mysql.py,sha256=GcKfgMh7LlScfypkKfzOhaqkCv3HAhUc9kc09BzqccU,4053
+pdmreader-0.1.dist-info/METADATA,sha256=nSa1RQjUaaUJ3Ytw2HJ2_UQNnKUWL_Wa3U8COtOWnGA,2514
+pdmreader-0.1.dist-info/RECORD,,
+pdmreader-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pdmreader-0.1.dist-info/entry_points.txt,sha256=ziMa7kpmBfrFv9SMykxz2elh0RAwfssUvYIcqDFh7N4,51
+pdmreader-0.1.dist-info/top_level.txt,sha256=wzqPlDvEamYlc4VdWmCPiwj3wQl_dyau049ZzGbeTkw,10
+pdmreader-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
