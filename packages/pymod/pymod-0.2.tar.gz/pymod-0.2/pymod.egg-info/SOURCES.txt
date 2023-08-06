@@ -1,0 +1,10 @@
+README.md
+setup.py
+pymod/__init__.py
+pymod/__main__.py
+pymod/manager.py
+pymod.egg-info/PKG-INFO
+pymod.egg-info/SOURCES.txt
+pymod.egg-info/dependency_links.txt
+pymod.egg-info/entry_points.txt
+pymod.egg-info/top_level.txt
