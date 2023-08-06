@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: qitian-django-starting
+Version: 0.0.1
+Summary: Qitian django web project basic apps quick setup usercenter system sites and so on.
+Home-page: https://gitee.com/qtch/starting_django_framework
+Author: Peter Han
+Author-email: peter@qitian.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6, !=3.0.*
+Requires-Dist: Django (>=2.0)
+Requires-Dist: pycryptodomex (==3.6.5)
+Requires-Dist: django-js-asset (==1.1.0)
+Requires-Dist: django-mptt (==0.9.1)
+Requires-Dist: django-smart-selects (==1.5.3)
+Requires-Dist: django-uuslug (==1.1.8)
+Requires-Dist: easy-thumbnails (==2.5)
+Requires-Dist: textrank4zh (==0.3)
+Requires-Dist: yunpian-python-sdk (==1.0.0)
+Requires-Dist: urllib3 (==1.23)
+Requires-Dist: beautifulsoup4 (==4.6.0)
+Requires-Dist: environ (==1.0)
+Requires-Dist: shortuuid (==0.5.0)
+
+UNKNOWN
+
+
