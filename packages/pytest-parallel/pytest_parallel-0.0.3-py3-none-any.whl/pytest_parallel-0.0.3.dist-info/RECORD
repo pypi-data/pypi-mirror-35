@@ -1,0 +1,6 @@
+pytest_parallel/__init__.py,sha256=BFLI21UT71-qJSsKAunf8PuZ0D92tqmLtnR_1zdLzZ8,7752
+pytest_parallel-0.0.3.dist-info/METADATA,sha256=FclzvIAVPi37zwqJPBxHRmGPsc8sTq9tA0egY9kUna4,2498
+pytest_parallel-0.0.3.dist-info/RECORD,,
+pytest_parallel-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pytest_parallel-0.0.3.dist-info/entry_points.txt,sha256=YMXg0eKljc8HLzB7osnN24z59jx541jUpZoUg03As7U,39
+pytest_parallel-0.0.3.dist-info/top_level.txt,sha256=8i9TIiPor2BauQdWTFQmx-DFpug0WF-_UQL8STFfRkc,16
