@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: slack-actions
+Version: 0.1.0
+Summary: Build custom slackbots with ease
+Home-page: https://github.com/xtream1101/slack-actions
+Author: Eddy Hintze
+Author-email: eddy@hintze.co
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
