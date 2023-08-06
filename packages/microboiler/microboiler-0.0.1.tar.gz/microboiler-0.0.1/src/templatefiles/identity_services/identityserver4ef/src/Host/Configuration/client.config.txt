@@ -1,0 +1,26 @@
+                new Client
+                {
+                    ClientId = "{{client:id}}",
+                    ClientName = "{{client:name}}",
+                    ClientUri = "{{client:url}}",
+                    AllowedGrantTypes = {{client:granttype}},
+                    AllowAccessTokensViaBrowser = true,
+                    RequireClientSecret = false,
+                    AccessTokenType = {{client:accesstokentype}},                    
+                    RedirectUris = 
+                    {
+                       {{client:redirecturls}}
+                    },
+                    PostLogoutRedirectUris =
+                    { 
+                        {{client:logoutredirecturls}}
+                    },
+                    AllowedCorsOrigins =
+                    { 
+                        {{client:corsorigins}}
+                    },
+                    AllowedScopes =
+                    {
+                        {{client:scopes}}
+                    }
+                }
