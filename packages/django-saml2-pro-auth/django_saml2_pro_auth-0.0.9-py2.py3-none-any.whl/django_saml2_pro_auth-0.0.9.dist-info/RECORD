@@ -1,0 +1,9 @@
+django_saml2_pro_auth/__init__.py,sha256=vvQTlJ_wE2AejL014i2l-n98wb6DQfivtCtUV3fkDGI,234
+django_saml2_pro_auth/auth.py,sha256=4k_wq7ze2pLprL0maiMunh3IAzg1JetAdWZAYB-k-wk,3490
+django_saml2_pro_auth/urls.py,sha256=VorAcsorTHOOmshx7P27mV1oSekcieCT0Y1gMdMon7A,506
+django_saml2_pro_auth/utils.py,sha256=zO6lvNQcK--AZRXE9yUtlfhoUiI3FZmjXx0L0qA-pJs,2489
+django_saml2_pro_auth/views.py,sha256=nyf-EevWY5Kcm3G2dJqsuECXf70pEdJdK3CPd4PseW4,3437
+django_saml2_pro_auth-0.0.9.dist-info/METADATA,sha256=2DiG43pFYZD0jwaTcHYZFiAUyre0IAxulpi5Wp-JukU,13767
+django_saml2_pro_auth-0.0.9.dist-info/RECORD,,
+django_saml2_pro_auth-0.0.9.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_saml2_pro_auth-0.0.9.dist-info/top_level.txt,sha256=0um-rBQu79vrXJIvMwnno5aB1Ng26kIfb57iTneIw6M,22
