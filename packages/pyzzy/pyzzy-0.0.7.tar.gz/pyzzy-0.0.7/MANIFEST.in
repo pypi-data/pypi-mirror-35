@@ -1,0 +1,10 @@
+include changelog.md
+include LICENSE
+include pytest.ini
+include README.md
+include requirements.txt
+include tests-requirements.txt
+include tox.ini
+
+recursive-include tests *.py
+recursive-include tests/configurations *.json
