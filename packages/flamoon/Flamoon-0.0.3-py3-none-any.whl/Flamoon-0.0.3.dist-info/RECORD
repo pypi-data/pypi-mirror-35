@@ -1,0 +1,8 @@
+Flamoon-0.0.3.dist-info/METADATA,sha256=NZ9MwqO2rC6wVhdi6u4w5S0Boqaa5lq6pt0W_PofKHs,1295
+Flamoon-0.0.3.dist-info/RECORD,,
+Flamoon-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+Flamoon-0.0.3.dist-info/entry_points.txt,sha256=LCpRIyUYczjfMRLngKozG1N4iFcMBfLf504ZglzyQe0,46
+Flamoon-0.0.3.dist-info/top_level.txt,sha256=rv81S13KRXD5KcQTQaMDKwb0LuaNd0ie-Rbu5SPOGIw,8
+flamoon/__init__.py,sha256=tzfsqvXz6KviULaxOBo1w0J6DuhdxJni3q7slF4Qh5Q,222
+flamoon/app.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flamoon/cli.py,sha256=iD0NNHfIBcrSXmkv6p5oHab8hJSpORbYukDyx7ycd10,372
