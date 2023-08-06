@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ledwall
+Version: 1.0.2
+Summary: A simple but powerfull library to control WS2812b LED panel
+Home-page: https://github.com/FirstKlaas/LEDWall/tree/master/python
+Author: Klaas Nebuhr (FirstKlaas)
+Author-email: klaas@nebuhr.de
+License: UNKNOWN
+Description: # LED Wall
+        
+        A simple but powerful python library to manipulate WS2812b LED panel.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
