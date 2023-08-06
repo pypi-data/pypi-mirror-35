@@ -1,0 +1,8 @@
+hkvwaporpy/__init__.py,sha256=ZFImMGBd_JqZhQnSpB0cue7_Mgz-q5OQsTn1DaZaJ7Y,192
+hkvwaporpy/core/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+hkvwaporpy/io/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+hkvwaporpy/io/fao_wapor_api.py,sha256=cw_5j-cO5j31CZFTAwRHBgw8ZFB33dE0uOlEkkf_ZqI,32138
+hkvwaporpy-0.6.dist-info/LICENSE,sha256=njPJaanGaxl9E8iA7_N__QBrgSmFiznRsImCViJs1Lc,1529
+hkvwaporpy-0.6.dist-info/WHEEL,sha256=Pnb1-aANNEDpiI6zZkifNVAxs3Mjlbjz3HYhduOZleI,97
+hkvwaporpy-0.6.dist-info/METADATA,sha256=L4AP-nix11kdk301a2iGcdtuYfibaDUE1bEGl4XxGtU,305
+hkvwaporpy-0.6.dist-info/RECORD,,
