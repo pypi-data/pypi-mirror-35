@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ldap-user
+Version: 0.4
+Summary: use ldap verify user
+Home-page: https://github.com/meisanggou/ldapuser
+Author: meisanggou
+Author-email: zhouheng@gene.ac
+License: MIT
+Description: use ldap verify user
+Keywords: ldap-user
+Platform: UNKNOWN
