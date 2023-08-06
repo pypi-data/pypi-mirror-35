@@ -1,0 +1,11 @@
+RemoveMedia/__init__.py,sha256=LdKqk7ff1VW3OUbOC4EAEh7dcqI-g4WitVGK8anPIFg,10
+RemoveMedia/__main__.py,sha256=vIHwsagLeO8GthOSoLmHYKAE1LxZcg7cyu8iD9XIWbM,436
+RemoveMedia/configuration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RemoveMedia/configuration/generate_config.py,sha256=Qf1-D1zrT_dRUarytbLKDdn0FwTnFF4L5bt8PrXzdKY,2458
+RemoveMedia/configuration/log.py,sha256=TYLvDjGQM6y8xiei4yiETd3e2lJkaRnBXqp75IoVg1k,2126
+RemoveMedia/configuration/mask_config.py,sha256=DvYMJ9p9HyVpo4nDTZJgHHwtOcpSxIesemvALdx3a8g,1345
+RemoveMedia/configuration/read_config.py,sha256=SRcLc0GGRs5jzS7iINhbXQfIMxls0nESLNuQ3xR9n2I,2371
+Removezmedia-0.0.1.dist-info/METADATA,sha256=taFAFb8vNQ1efnv6qvb9xG6LZLqs0MepLCP_SvrXnqw,2239
+Removezmedia-0.0.1.dist-info/RECORD,,
+Removezmedia-0.0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+Removezmedia-0.0.1.dist-info/top_level.txt,sha256=ct2N56ct8VjYVIs3KTiEwrlBnYR172bEe0XEZ960oZM,38
