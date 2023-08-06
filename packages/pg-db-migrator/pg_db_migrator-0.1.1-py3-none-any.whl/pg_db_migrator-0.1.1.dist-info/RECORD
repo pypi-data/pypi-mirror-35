@@ -1,0 +1,7 @@
+pg_db_migrator/__init__.py,sha256=6x9H_D9rNnk9aWkdXA_mKXcMJan4s1PQKnRbdnb-i7A,34
+pg_db_migrator/migrator.py,sha256=kJQMc__eQOu9X17mPlkMLH6vVjLceWBszp-JD4gdXJw,1803
+pg_db_migrator/schema_resolve.py,sha256=dtM5EjM3jZO8E1j0Bduc7JCCLgCJXfUJ8tyBogaikGc,2126
+pg_db_migrator-0.1.1.dist-info/METADATA,sha256=RETXh6tk1tN-B9egvFTR70MlSAEDZQuVa3gmw331ieo,246
+pg_db_migrator-0.1.1.dist-info/RECORD,,
+pg_db_migrator-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pg_db_migrator-0.1.1.dist-info/top_level.txt,sha256=OnJp7mWFvi58lqQFoF1ZbQsHzext38yvo4Tv52AI3X0,15
