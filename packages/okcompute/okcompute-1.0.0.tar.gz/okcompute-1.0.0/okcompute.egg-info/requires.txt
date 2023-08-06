@@ -1,0 +1,11 @@
+networkx
+
+[appdoc]
+pygraphviz
+jinja2
+
+[doc]
+sphinx
+
+[plot]
+pygraphviz
