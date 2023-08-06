@@ -1,0 +1,10 @@
+squeak/__init__.py,sha256=OEUCPjtvuyM2TzBjFfHKwxPcwDdQ2ERLYbfpZhfVh-M,1566
+squeak/messages.py,sha256=Yx52b06nnAEqj6ANZ4EyA6qP1e23r_zWwUn3tdfy-W0,10624
+squeak/net.py,sha256=rXjQWTv5VgZLW_KrDNDk5atrS21uzl9NFKaetZphLA0,2193
+squeak/core/__init__.py,sha256=H9LZyHuDaRTscJCdzCr5qVitz1NuhmEDE9mzTzyZlDo,8429
+squeak/core/encryption.py,sha256=rRkq7HuYab464Om1HOQP1oA-UvmhMiU6sOAGmCSPGwE,2900
+squeak/core/signing.py,sha256=qlGZS14I8ysQngNMHDO-gHULsLq5_hIamSdHeOgKvNU,537
+squeaklib-0.1.0.dist-info/METADATA,sha256=asc1O5ETY0Ex47aKMzgKJjk1elE4lp4CcqNfmPlV-h0,373
+squeaklib-0.1.0.dist-info/RECORD,,
+squeaklib-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+squeaklib-0.1.0.dist-info/top_level.txt,sha256=_9LKT77tjv_bzXsILCbjmle2RQc1z5GPJRCx0koOrkw,7
