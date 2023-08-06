@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Postile
+Version: 0.1.0
+Summary: Fast Vector Tile Server
+Home-page: https://github.com/ldgeo/postile
+Author: ldgeo
+Author-email: contact@oslandia.com
+License: BSD-3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: cython
+Requires-Dist: mercantile
+Requires-Dist: sanic (==0.8.1)
+Requires-Dist: sanic-cors (==0.9.5)
+Requires-Dist: pyyaml
+Requires-Dist: asyncpg (>=0.15.0)
+
+UNKNOWN
+
+

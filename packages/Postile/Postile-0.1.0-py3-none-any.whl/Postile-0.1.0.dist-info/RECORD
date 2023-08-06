@@ -1,0 +1,8 @@
+Postile-0.1.0.dist-info/METADATA,sha256=H3ZvXgoRInH_aJiI9T-BjEo-oVOLF3N7slKDXSuo8oQ,530
+Postile-0.1.0.dist-info/RECORD,,
+Postile-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+Postile-0.1.0.dist-info/entry_points.txt,sha256=cjDvTG_dxF_mBEe9wAdH0FwjGIWcWgIQ2bGghViodUs,50
+Postile-0.1.0.dist-info/top_level.txt,sha256=rf9Mos961USaFxT3rK7SZYZArNJd-GXErbNwaaBLNFg,8
+postile/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+postile/postile.py,sha256=k9kbi7fjUM4GfkgtkcnH9_h65hzbPTmVMsvE39SJzlw,6971
+postile/sql.py,sha256=AsUhgrMsNMliFL1uMnb6k9vDaFlStEfEnROQmTaihN8,602
