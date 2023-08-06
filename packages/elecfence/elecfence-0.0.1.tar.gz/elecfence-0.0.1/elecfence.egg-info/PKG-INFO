@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: elecfence
+Version: 0.0.1
+Summary: A electronic fence package
+Home-page: https://github.com/muumlover/elecfence
+Author: muumlover
+Author-email: muumlover@foxmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/muumlover/elecfence/
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Bug Reports, https://github.com/muumlover/elecfence/issues
+Description: # Example Package
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

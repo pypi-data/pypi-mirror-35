@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+elecfence.egg-info/PKG-INFO
+elecfence.egg-info/SOURCES.txt
+elecfence.egg-info/dependency_links.txt
+elecfence.egg-info/requires.txt
+elecfence.egg-info/top_level.txt
