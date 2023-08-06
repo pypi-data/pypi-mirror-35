@@ -1,0 +1,11 @@
+README.md
+setup.py
+pybrot/ComplexDraw.py
+pybrot/Examples.py
+pybrot/MandelColoring.py
+pybrot/Mandelbrot.py
+pybrot/__init__.py
+pybrot.egg-info/PKG-INFO
+pybrot.egg-info/SOURCES.txt
+pybrot.egg-info/dependency_links.txt
+pybrot.egg-info/top_level.txt
