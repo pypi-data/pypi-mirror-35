@@ -1,0 +1,9 @@
+setup.py
+bin/kirahhe
+kirahhe/__init__.py
+kirahhe/version.py
+kirahhe.egg-info/PKG-INFO
+kirahhe.egg-info/SOURCES.txt
+kirahhe.egg-info/dependency_links.txt
+kirahhe.egg-info/not-zip-safe
+kirahhe.egg-info/top_level.txt
