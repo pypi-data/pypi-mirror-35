@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Smart-Mirror
+Version: 1.0
+Summary: Smart Mirror Project
+Home-page: http://katta.xyz/SmartMirror/
+Author: Kushal Katta
+Author-email: kushal@katta.xyz
+License: UNKNOWN
+Project-URL: Bug Tracker, https://bugs.example.com/HelloWorld/
+Project-URL: Documentation, https://docs.example.com/HelloWorld/
+Project-URL: Source Code, https://code.example.com/HelloWorld/
+Keywords: smart mirror it intelligent
+Platform: UNKNOWN
+Requires-Dist: Flask (>=1.0.2)
+Requires-Dist: geocoder (>=1.38.1)
+Requires-Dist: Jinja2 (>=2.10)
+Requires-Dist: weather-api (==1.0.4)
+
+UNKNOWN
+
+
