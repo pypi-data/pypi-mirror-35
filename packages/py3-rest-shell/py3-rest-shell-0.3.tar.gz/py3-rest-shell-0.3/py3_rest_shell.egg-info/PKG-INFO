@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: py3-rest-shell
+Version: 0.3
+Summary: RESTful shell for your server without shell access
+Home-page: https://github.com/mitsukomegumi/rest-shell
+Author: Mitsuko Megumi
+Author-email: mitsukomegumii@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
