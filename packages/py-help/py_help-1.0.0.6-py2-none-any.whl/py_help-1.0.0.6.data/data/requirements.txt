@@ -1,0 +1,6 @@
+logbook
+PyYaml
+prettytable
+rpyc
+marshmallow
+better_exceptions == 0.2.1
