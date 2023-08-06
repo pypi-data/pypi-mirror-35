@@ -1,0 +1,8 @@
+craigslist_watcher/__init__.py,sha256=0FvIiAGp4y16Ww4mwwRjIJ5R8--VSFGE-sMp9Rid3yw,52
+craigslist_watcher/cli.py,sha256=JCecL6PIdX_fLDJ0QMGJ8TTAgsqKEuFgphk-011vJ0U,1452
+craigslist_watcher/watcher.py,sha256=G00JCJGSewR7MlPPwHnwwDzszStuTmzJaK6nlYW_sB4,4292
+craigslist_watcher-0.1.1.dist-info/METADATA,sha256=wetRkLwdmuwHfbSjdj37VyWxFI0AzxvIL-LCz-2AiE4,2632
+craigslist_watcher-0.1.1.dist-info/RECORD,,
+craigslist_watcher-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+craigslist_watcher-0.1.1.dist-info/entry_points.txt,sha256=GRO5wWgzemOeJiVKN7__ORLah9KlfcLA1v7zrO40QOg,68
+craigslist_watcher-0.1.1.dist-info/top_level.txt,sha256=g7dlzmgZvCue4tbjU8xDcS9TeIhSnjZ63ZwOG_MeozA,19

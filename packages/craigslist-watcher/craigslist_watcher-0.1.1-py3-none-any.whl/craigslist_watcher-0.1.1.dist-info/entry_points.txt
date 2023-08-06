@@ -1,0 +1,3 @@
+[console_scripts]
+craigslist_watcher = craigslist_watcher.cli:main
+
