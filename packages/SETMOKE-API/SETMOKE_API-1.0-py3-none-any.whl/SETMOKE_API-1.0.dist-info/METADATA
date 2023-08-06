@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: SETMOKE-API
+Version: 1.0
+Summary: An API for social media data extraction
+Home-page: https://github.com/rehabshahzadi/SETMOK_API
+Author: rehab shahzadi
+Author-email: rehab.shahzadi@kics.edu.pk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: google-api-python-client
+Requires-Dist: tweepy (==3.6.0)
+Requires-Dist: twitter (==1.18.0)
+
+UNKNOWN
+
+
