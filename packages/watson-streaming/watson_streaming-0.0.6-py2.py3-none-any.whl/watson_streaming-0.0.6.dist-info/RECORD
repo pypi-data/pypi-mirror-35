@@ -1,0 +1,9 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_sanity.py,sha256=Y5E-s3eSntARO9n7JI4BWdkzpEbMHgpAqK5Y-rLvzhM,1457
+watson_streaming/__init__.py,sha256=bfMdd0bwW7nNoWN2we0FYgUw8aXV7b5kvUQHY_cM2xI,37
+watson_streaming/transcriber.py,sha256=1ZbsGTBznhib91YQSFOtFkHjmJAJrJMBVLEWNh_EEbs,3184
+watson_streaming/utilities.py,sha256=fxGewUzzQhQuvfoaFZailtzRQlCkFXB83hWp8yXcw_M,1595
+watson_streaming-0.0.6.dist-info/METADATA,sha256=Fn3Ov2Lyf8XlB820NncJ_9cUABr5n0E3lt8zERibNqU,1551
+watson_streaming-0.0.6.dist-info/RECORD,,
+watson_streaming-0.0.6.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+watson_streaming-0.0.6.dist-info/top_level.txt,sha256=be9Muk8qlrRkO9DBuIg6m_s6UHJdjDOQtArZuCkwcDM,22
