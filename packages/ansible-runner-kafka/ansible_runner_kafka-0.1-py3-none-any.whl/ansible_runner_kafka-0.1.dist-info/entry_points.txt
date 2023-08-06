@@ -1,0 +1,3 @@
+[ansible_runner.plugins]
+kafka = ansible_runner_kafka
+
