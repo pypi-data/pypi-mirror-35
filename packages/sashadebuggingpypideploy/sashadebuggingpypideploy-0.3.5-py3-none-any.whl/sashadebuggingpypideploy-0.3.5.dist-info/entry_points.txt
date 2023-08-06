@@ -1,0 +1,3 @@
+[console_scripts]
+sashadebuggingpypideploy = sashadebuggingpypideploy.__main__:main
+

@@ -1,0 +1,13 @@
+sashadebuggingpypideploy/__init__.py,sha256=GwD2V3kJL562B9K_mdhLCMulTZqTVwLNbqFX36rZ17c,153
+sashadebuggingpypideploy/__main__.py,sha256=OuTf8mb38c-ML2epELRKajWvWQeAZDgq-dtyN74Ozhg,2341
+sashadebuggingpypideploy/eric_body.py,sha256=ncNhBmknUFWGbYKKv55sceMyou9N8QFZQgwqszQJBE4,2338
+sashadebuggingpypideploy/eric_config.py,sha256=9igrVsPmzKjnWfXpgmw6og-7C4STCcwy_3WuE32tvI4,7733
+sashadebuggingpypideploy/eric_encoding.py,sha256=D7tPWzHgkfwtarisgeuNUfkbWBsGG7E3oatODlUsz0g,5130
+sashadebuggingpypideploy/eric_eyo.py,sha256=iKIxa5YGFbAJt11sNPF6-higOyM0XDe1SgBKfY3RpzU,2438
+sashadebuggingpypideploy/eric_head.py,sha256=7sg8lwz-nbnMdBWDGFzg8vg5VeQCktIDcFrWTvxvR-k,3460
+sashadebuggingpypideploy/eric_regex.py,sha256=WA-8wTcs9bQs2z9IbBvfx9p0WDbGZ-FO2K7nuAVvE-E,10461
+sashadebuggingpypideploy-0.3.5.dist-info/METADATA,sha256=3clsE1WzFJ0x-ao7OgYfhfgdLqe8VdOJ8AnpugxfGCk,3214
+sashadebuggingpypideploy-0.3.5.dist-info/RECORD,,
+sashadebuggingpypideploy-0.3.5.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+sashadebuggingpypideploy-0.3.5.dist-info/entry_points.txt,sha256=eaZ0ghWCGVib3ocQ2S8Bi9WSdeAz1vm9dFzhgMUUQGo,85
+sashadebuggingpypideploy-0.3.5.dist-info/top_level.txt,sha256=QgwHFXNSgKwmAzZ1QBY7rxAOatR8_MmrtAbrGQ8H7bo,25
