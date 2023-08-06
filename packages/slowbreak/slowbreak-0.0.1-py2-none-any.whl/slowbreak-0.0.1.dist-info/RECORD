@@ -1,0 +1,17 @@
+slowbreak/__init__.py,sha256=z2HMsCAKLibpN9bzdk9rVzlYO-udQQaZ-DhOsQeKcxc,179
+slowbreak/__version__.py,sha256=c_fwLeLL3brlJLX1wvbfqGuEltZpdhssuA_X7gQeobE,302
+slowbreak/app.py,sha256=yItFcvvFpFUzgHN_fUHPm4h6reyY2wMZXURCVQ7ftOk,2933
+slowbreak/barebones_session.py,sha256=xZ0rTF6GnARehUMTvcu4MbKtp3dsScwaIz92MtSKcM8,2236
+slowbreak/bursty_queue.py,sha256=oIqLNC-s_mhwKHW6gV7O9JQZ3B5pNko3mZU9a9WFbig,2687
+slowbreak/comm.py,sha256=qriAPzVa6RBEBKHcoJjJFQkKpatBQCTsKmDeQCy9G1Y,1704
+slowbreak/constants.py,sha256=lVUFxNRH22U-HCV86VU9HGs6hde_xSqcgtsjZ9MWczI,48283
+slowbreak/message.py,sha256=sy4xFd6cRJqhqiFfeGRF5wTeBfFTJV4jmHarrAWQYpU,9782
+slowbreak/mock_session.py,sha256=IVDdcXEXLgcWQbDtMD7iko4oXhtXpyMiLhsX9GAbtbk,600
+slowbreak/mock_socket.py,sha256=zNkEnikVoyCz2OkQvrcNg5KrvgdM98TuNMGqyhkjNLQ,1099
+slowbreak/session.py,sha256=PhZnD2cnytbY30TeHecl9g5O3cXGuzQG9a7ASJ2UQpw,17238
+slowbreak-0.0.1.dist-info/DESCRIPTION.rst,sha256=fKPA4l9z8mN2sPUvAayLpi0_bgFLUdJPzBPxZMQ7ZBg,412
+slowbreak-0.0.1.dist-info/METADATA,sha256=XROMPd02CCYYdZjSVwtRjrad42bcs8LmVLM6hIS00Zk,921
+slowbreak-0.0.1.dist-info/RECORD,,
+slowbreak-0.0.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+slowbreak-0.0.1.dist-info/metadata.json,sha256=Uf7sw27HBO1XQrMoEVHwZwKvXeRDeiZUTNM12NxkEAE,645
+slowbreak-0.0.1.dist-info/top_level.txt,sha256=cCKI_00x7FPKmKDpAGkFAo8QnC8mN_9Klc_BetSmSK4,10

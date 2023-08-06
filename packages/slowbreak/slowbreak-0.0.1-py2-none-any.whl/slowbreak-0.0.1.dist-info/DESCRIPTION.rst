@@ -1,0 +1,11 @@
+# slowbreak
+
+Library to connect to FIX servers. We use this to connect to ROFEX and BYMA markets in Argentina, 
+and it should work on any FIX 5.1-sp2 servers. For now it works with python 2.7 (python 3.x coming soon).  
+
+For now, see the slowbreak/test directory for examples on how to use it.
+
+Developed by Aureliano Calvo for Eco Valores S.A.  
+
+Distributed under MIT license (see LICENSE file for details)  
+
