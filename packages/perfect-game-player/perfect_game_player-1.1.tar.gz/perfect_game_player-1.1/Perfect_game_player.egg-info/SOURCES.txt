@@ -1,0 +1,12 @@
+README.md
+setup.py
+Perfect_game_player.egg-info/PKG-INFO
+Perfect_game_player.egg-info/SOURCES.txt
+Perfect_game_player.egg-info/dependency_links.txt
+Perfect_game_player.egg-info/not-zip-safe
+Perfect_game_player.egg-info/top_level.txt
+perfect_game_player.egg-info/PKG-INFO
+perfect_game_player.egg-info/SOURCES.txt
+perfect_game_player.egg-info/dependency_links.txt
+perfect_game_player.egg-info/not-zip-safe
+perfect_game_player.egg-info/top_level.txt
