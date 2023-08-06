@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: networkx-neo4j
+Version: 0.0.1
+Summary: NetworkX API for Neo4j Graph Algorithms
+Home-page: http://markhneedham.com
+Author: Mark Needham
+Author-email: m.h.needham@gmal.com
+License: Apache 2
+Description-Content-Type: UNKNOWN
+Description: NetworkX API for Neo4j Graph Algorithms
+Keywords: neo4j,networkx
+Platform: All
