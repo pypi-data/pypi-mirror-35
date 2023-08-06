@@ -1,0 +1,8 @@
+tinycal/__init__.py,sha256=ptIsjIrqVLSKM0d-yl0VQ_tRuUZKYiYjNWzHWxk3K-I,17
+tinycal/__main__.py,sha256=SlvRBxhPTom14kfFZ1GnTVjYgnF9udGK-z7qjMxOeOk,32
+tinycal/tcal.py,sha256=cdaaGzlKWnkCHpwvNav7VNjAWJLSbvxZW8GmHZvMUgQ,17530
+tinycal-0.1.5.data/scripts/tcal,sha256=3R8QIoh0ffAk6ZCVexOvSxzEP94aSi9voVqou29d2lU,48
+tinycal-0.1.5.dist-info/METADATA,sha256=h-zyKOOneuly4_lnltYYBnfx8lCYyZqy7vw49gRIMFQ,670
+tinycal-0.1.5.dist-info/RECORD,,
+tinycal-0.1.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tinycal-0.1.5.dist-info/top_level.txt,sha256=dFbHt0k-0d66ejVTPxpWYuEPx2tnxCxB7S3UWu1IWMs,8
