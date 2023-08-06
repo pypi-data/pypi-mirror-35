@@ -1,0 +1,116 @@
+CHANGES
+=======
+
+* fix merge conflict
+* click add offset, support oppo install with browser
+* add oppo install method, not finished yet
+* fix str(err.data) encode error
+* Update \_\_init\_\_.py
+* add some comment
+* 1.修改截图定位线
+* raise error when error found in uiautomator2.cli install
+* catch NullPointerExceptionError on jsonrpc call
+* patch to catch UiAutomation not connect
+* use github-mirror for update-apk command
+* fix healthcheck
+* add unlock screen for healthcheck
+* add retry for objInfo
+* fix conflict
+* hot fix for update\_instance
+* add implicit\_wait function
+* remove pid file when stop atx-agent
+
+0.1.3
+-----
+
+* fix init twice error, update atx-agent t0 0.4.1
+* support vivo install
+* add cancel request support
+* fix python requires
+* update to new version
+* exclude py 3.7 version
+* make u2cli work
+* fix when no progress
+* update uiautomator2.cli install
+* show progress
+* add missing file
+* add u2cli entry
+* add qrcode of qq
+* add fail reason
+* todo: add push folder support
+* add --mirror document, ref #173
+* add retry for dump\_hierarchy, because of UiDevice NullPointer Exception
+* support github-mirror to make download faster
+* fix push to /data/local/tmp/mini... instead of /data/local/tmp
+* fix requests RemoteDisconnected error
+* support --mirror
+* fix get toast error
+* hot fix for executable dir
+* replace $ into -, fix #152
+* update document
+* use /data/local/tmp as default exec dir
+* forgot to update apk version
+* manually merge pr 46
+* add screenshot(format=raw), fix init timeoutError, close #114
+* Replace os.path.join with string format, so can run as normal on windows
+* Revert changes to install\_atx\_agent
+* Provide alternative execute directory to /data/local/tmp, so can install to devices like 'ZUK's Z2
+* Solve ZUK's no permission to /data/local/tmp problem
+* fix xpath wait, fix connect simulator bug, update apk, to make watchers faster
+* 增加init时对代理的支持
+* support install on emulator
+* suppress warning when uninstall error
+* rename examples/powerweb to webbattery
+* add webpower ^\_^
+* fix displayHeight error on Huawei
+* update atx\_agent version to 0.1.1
+* make pos\_rel2abs a little faster
+* modify http\_timeout according to wait(timeout..)
+
+0.0.2
+-----
+
+* update doc
+* update doc
+* support oppo auto install
+* add app\_install\_local, handle serial contains &
+* swipe\_points support percent points
+* long click support seconds
+* add minitouch install support
+* add minitouch but not tested
+* add FastInputIME
+* add send\_keys method
+* guesture relative pos to real, close #12
+* fix click\_exists
+* add gesture and pinch
+* add select count and fling, scroll
+* update ABOUT.rst addr
+
+0.0.1
+-----
+
+* setup travis build on all\_branches
+* add skip cleanup
+* update doc again
+* check com.github.uiautotor.test when init
+* update badge link
+* fix datetime error
+* add debug
+* add identify method
+* add default timeout to requests
+* update to new version
+* change healthcheck logic, launch com.github.uiautomator and then HOME
+* update atx-agent version to 0.0.9
+* sync with atx-agent code
+* when device ip is empty, connect\_usb will be called
+* add pull support
+* support stop in app\_start
+* add app-stop-all method
+* add unlock cli
+* add watcher support
+* update install guide
+* add pypi version badge
+* add readme
+* am\_start add stop param
+* click when exists
+* add healthcheck and connect\_usb, close #3
