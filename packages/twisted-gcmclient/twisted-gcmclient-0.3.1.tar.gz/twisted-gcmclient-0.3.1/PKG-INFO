@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: twisted-gcmclient
+Version: 0.3.1
+Summary: Twisted client for Google Cloud Messaging (GCM)
+Home-page: https://github.com/operasoftware/twisted-gcmclient
+Author: Michał Łowicki
+Author-email: mlowicki@opera.com
+License: UNKNOWN
+Download-URL: https://github.com/operasoftware/twisted-gcmclient/tarball/0.3.1
+Description: UNKNOWN
+Keywords: twisted,gcm,fcm
+Platform: UNKNOWN
