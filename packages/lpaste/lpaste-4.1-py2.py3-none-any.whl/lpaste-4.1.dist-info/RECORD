@@ -1,0 +1,12 @@
+lpaste/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lpaste/__main__.py,sha256=yT060wOrMSnt55n9cq8GHsTw0zQ0-z23EfR9LKTzOic,70
+lpaste/clipboard.py,sha256=UkbHG81K-cNSKOMJeLnDtwnWX8fcqy5y9QwAuw95S_M,1566
+lpaste/lpaste.py,sha256=3cX1bIknJQaeohDgY08HS0bYvvaMH2GWJPacWSupbqY,5589
+lpaste/source.py,sha256=n6-9s3RcjtG6SxawR2eL9b6ORO2bJzlVoEdK6-igAAI,1381
+lpaste-4.1.dist-info/LICENSE.txt,sha256=pV4v_ptEmY5iHVHYwJS-0JrMS1I27nPX3zlaM7o8GP0,1050
+lpaste-4.1.dist-info/METADATA,sha256=_H39IWzqmHXmW30EeRtiArVop94ibFc09zKNQFuLZpQ,1820
+lpaste-4.1.dist-info/RECORD,,
+lpaste-4.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+lpaste-4.1.dist-info/entry_points.txt,sha256=WDEvbL605MyBBXpDnU5EqQMH3M73GT6dZ9Q6eS5E2bI,47
+lpaste-4.1.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+lpaste-4.1.dist-info/top_level.txt,sha256=h12XOwt4c81ImcRWtC7DEVC-dgHNa57wt73bYoJ34UQ,7
