@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyajax/__init__.py
+pyajax.egg-info/PKG-INFO
+pyajax.egg-info/SOURCES.txt
+pyajax.egg-info/dependency_links.txt
+pyajax.egg-info/not-zip-safe
+pyajax.egg-info/top_level.txt
