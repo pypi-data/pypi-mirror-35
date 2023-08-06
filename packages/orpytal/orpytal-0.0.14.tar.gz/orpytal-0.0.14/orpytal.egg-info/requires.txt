@@ -1,0 +1,7 @@
+numpy
+matplotlib>=2.0
+seaborn
+matlab
+ipython
+untangle
+pint
