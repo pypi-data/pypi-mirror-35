@@ -1,0 +1,14 @@
+setup.cfg
+setup.py
+sspipeline/__init__.py
+sspipeline/cli.py
+sspipeline/core.py
+sspipeline/distributions.py
+sspipeline/gelman_rubin.py
+sspipeline/utils.py
+sspipeline/version.py
+sspipeline.egg-info/PKG-INFO
+sspipeline.egg-info/SOURCES.txt
+sspipeline.egg-info/dependency_links.txt
+sspipeline.egg-info/entry_points.txt
+sspipeline.egg-info/top_level.txt
