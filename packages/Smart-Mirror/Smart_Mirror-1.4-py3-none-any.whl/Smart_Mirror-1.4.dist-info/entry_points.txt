@@ -1,0 +1,3 @@
+[console_scripts]
+smart_mirror = smart_mirror.__main__:main
+
