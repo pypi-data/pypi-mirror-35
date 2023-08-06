@@ -1,0 +1,15 @@
+matlabreport/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matlabreport/makereport.py,sha256=6hqdjcK2Cp9-b7HdHCnniADuvCJOa3eKpnfqaxUVs40,2884
+matlabreport/openreport.py,sha256=3MSiankMN78cVq56F-aQX5nuAj0ahTv6l80bIA2FWhQ,1850
+matlabreport/publishmfile.py,sha256=tIIUjAnPGW0vAHKNY0SG9e0TQ6JuzIl77MbLNj61A20,1479
+matlabreport/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matlabreport/scripts/autoreport.py,sha256=k03XhH9EK4GXQ_FIFuwPIcc2fBhKSAzaMM7kLiBRIf8,1539
+matlabreport/scripts/matlabreport.py,sha256=wVOYRTYBy4To4zl9lHmC7dzyhivkmDWsaVtQZCLu2M0,1194
+matlabreport/scripts/mintify.py,sha256=YjcNc4UgBDxIEVtnT8d9g04nYoYntgF2T9fIhq07co0,344
+matlabreport-0.6.0.dist-info/METADATA,sha256=1bu-hbqDiXHhfFXOrMPGeK2U8yDS42C0dh4_KM6QjUc,270
+matlabreport-0.6.0.dist-info/RECORD,,
+matlabreport-0.6.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+matlabreport-0.6.0.dist-info/entry_points.txt,sha256=fCpMwDKLS1bXB13ZN4uG0amX5JfcS1iXAS5HdIelFR8,163
+matlabreport-0.6.0.dist-info/top_level.txt,sha256=uPVyK1Hl_WGxpSXbgkijxAimfpmyjZ3Yq0f2tfpqy3c,19
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_makereport.py,sha256=G57yLwakm22e0ud_40nqRddRmIc5yAgGzt20DtFl2OY,1448
