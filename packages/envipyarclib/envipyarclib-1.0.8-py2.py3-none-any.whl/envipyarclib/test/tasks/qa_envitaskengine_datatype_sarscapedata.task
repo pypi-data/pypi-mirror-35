@@ -1,0 +1,24 @@
+{
+    "name": "qa_envitaskengine_datatype_sarscapedata",
+    "displayName": "qa_envitaskengine_datatype_sarscapedata",
+    "baseClass": "ENVITaskFromProcedure",
+    "routine": "qa_envitaskengine_datatype_sarscapedata",
+    "description": "",
+    "version": "5.3",
+    "parameters": [
+        {
+            "name": "INPUT",
+            "direction": "input",
+            "parameterType": "required",
+            "description": "",
+            "dataType": "SARSCAPEDATA"
+        },
+        {
+            "name": "OUTPUT",
+            "direction": "output",
+            "parameterType": "required",
+            "description": "",
+            "dataType": "SARSCAPEDATA"
+        }
+    ]
+}
