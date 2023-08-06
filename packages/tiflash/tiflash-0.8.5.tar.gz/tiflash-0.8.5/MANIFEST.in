@@ -1,0 +1,2 @@
+include tiflash/js/*.js
+include tiflash/utils/board_ids.json
