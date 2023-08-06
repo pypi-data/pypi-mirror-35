@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: beetmoverscript
+Version: 7.8.2
+Summary: TaskCluster Beetmover Script
+Home-page: https://github.com/mozilla-releng/beetmoverscript/
+Author: Mozilla Release Engineering
+Author-email: release+python@mozilla.com
+License: MPL2
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Jinja2
+Requires-Dist: PyYAML
+Requires-Dist: arrow
+Requires-Dist: boto3
+Requires-Dist: redo
+Requires-Dist: scriptworker
+Requires-Dist: taskcluster
+
+UNKNOWN
+
+
