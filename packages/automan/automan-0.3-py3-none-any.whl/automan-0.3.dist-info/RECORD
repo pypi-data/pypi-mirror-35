@@ -1,0 +1,16 @@
+automan/__init__.py,sha256=mSEGsm3krpaP32dIC6o0jfSpVPy-WcrOfoatVvRBnV4,20
+automan/api.py,sha256=dyk6Vb8nhFCMZMop0WRxQPcAW9CB0c24BPbI_y90xrc,494
+automan/automation.py,sha256=vXa6Ji-HkTYz_h4HkYHxugBsYjf-YWOD6IaS9OvpRuo,30489
+automan/cluster_manager.py,sha256=GBdn9P3NuEAxIpcd3R3TSEyCprCxopbs5PHHYs21nPY,15505
+automan/conda_cluster_manager.py,sha256=vyPTJU00waiATmU0a-JfnKZYSJGU2W5Od6kbRHn3tMg,2013
+automan/edm_cluster_manager.py,sha256=DxCP1i4ru9tJX67sPkV7oABYhQvGu4FEWqJmt1HM-dY,2280
+automan/jobs.py,sha256=FyUJKl_aTmf3dPD1Yxem8Qd-7ZiAKEMsrOPHK666PvM,15639
+automan/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automan/tests/example.py,sha256=mee0OSqrJBNHCryboQl19CPTJl589gA3i-uPsBhez8U,992
+automan/tests/test_automation.py,sha256=Mdj1HUiYeNOUQBEE3vIVQa5aaEwCN9VEsaSJM3GRd7Q,13380
+automan/tests/test_cluster_manager.py,sha256=nXyH7un9n4UtBqyW5_-Bdi2NippDzMEwx9WUhOOeHm4,7480
+automan/tests/test_jobs.py,sha256=Duoi167etMJu9a2VUetWLKZu788IPkb7U8sA22evTEc,13509
+automan-0.3.dist-info/METADATA,sha256=PSEA4oPqh5fU79IAw_0_RHsYHfgqYX_h4xhDRnYd5ko,4094
+automan-0.3.dist-info/RECORD,,
+automan-0.3.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+automan-0.3.dist-info/top_level.txt,sha256=dlvzKJyg2RfHI9mwOmezN9E7nBAskicItqKBzGggeAQ,8
