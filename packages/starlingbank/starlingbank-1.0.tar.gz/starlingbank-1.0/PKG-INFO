@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: starlingbank
+Version: 1.0
+Summary: A python package that provides limited access to the Starling bank API.
+Home-page: https://github.com/Dullage/starlingbank
+Author: Adam Dullage
+Author-email: adam@dullage.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
