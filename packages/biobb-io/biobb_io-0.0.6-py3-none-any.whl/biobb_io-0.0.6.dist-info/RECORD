@@ -1,0 +1,16 @@
+biobb_io/__init__.py,sha256=pwQI71VxOQOz9yg-EMMfUJVncjOwHjqPMtxkjRbJctc,18
+biobb_io/mmb_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_io/mmb_api/common.py,sha256=k_yXPyuVDC-rSBzHVfmbkW6BGSl9gb7v3y5F3LafAgA,2831
+biobb_io/mmb_api/pdb.py,sha256=oUwVMxi63jdSspkvUzBmFDH1Zh_gIod3Lyawc0akG1M,2975
+biobb_io/mmb_api/pdb_cluster_zip.py,sha256=_lZhuIiUa46EvBxIPe9dPqrLai5MAGu5blt9YdlvAW0,3865
+biobb_io/mmb_api/pdb_variants.py,sha256=OGzA7otqMFU8zbtlDgOdcMCOoIG3Mb2O3vp6zCuvBWI,4519
+biobb_io/pycompss/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_io/pycompss/mmb_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_io/pycompss/mmb_api/pdb_cluster_zip_pc.py,sha256=VFBye1YRa40EAoG1St9cPqcVb32NDhWQpGN_4KXKjU0,460
+biobb_io/pycompss/mmb_api/pdb_pc.py,sha256=DZFueNhAe6Kdz9GCyLNZEriakzb30vGiTXXjUzdoSsc,465
+biobb_io/pycompss/mmb_api/pdb_variants_pc.py,sha256=SWZRsjDnFG3DMRNJa6IuapN4_zJrDVM_WZcApVcAz1w,479
+biobb_io/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_io-0.0.6.dist-info/METADATA,sha256=Nj7U5W6vKhBR0N1n99qL-s9CRN8AWMwNwn7v19k0dJA,2485
+biobb_io-0.0.6.dist-info/RECORD,,
+biobb_io-0.0.6.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+biobb_io-0.0.6.dist-info/top_level.txt,sha256=1VPldlX2AnFaqODGFJK10WN8AOQuulpX88bLSaQdoS8,9
