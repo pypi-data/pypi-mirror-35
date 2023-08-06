@@ -1,0 +1,12 @@
+engineering_tool/__init__.py,sha256=2PRCCbEEbtqCQr7c99-6be2nD1FiJDSpLwX0CMg1b0w,25
+engineering_tool/__version__.py,sha256=ZkJ4YFnqff5CwHnqUupPsAVatqD4aozkrh1u-iQrvMc,21
+engineering_tool/areas.py,sha256=XGEdQred3SRwQggSBSpkYXO1ErmnNWD1grADz9hUMGw,11663
+engineering_tool/electrics.py,sha256=yKGp7AmA7-kjWLlQkQ-EYyFEDr6ZNK69DpVlR0BZ1VU,54591
+engineering_tool/pressures.py,sha256=Ez5yTmVBn25UKenNSXdhNZX8N_hTSOmg3br-540vj34,23511
+engineering_tool/temperatures.py,sha256=RdRvyYc2hz1mh4X2MRRkJVPCc9_g5f7nrMa_yNQN4Yw,5149
+engineering_tool/units.py,sha256=eH5e0FyUA-ynjRw-Jc_ouiCbENsfibwUdDsi-LKrTQA,1884
+engineering_tool/volumes.py,sha256=LPB77L7bMk9U4b5xshv2bCYUDEN-yZv_YauZJ84tQ98,8851
+engineering_tool-0.0.2.dist-info/METADATA,sha256=ulhbpqLXYS7QcR9ZuqV6luWk1RJvnvPt1Dw8mQiK45A,1455
+engineering_tool-0.0.2.dist-info/RECORD,,
+engineering_tool-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+engineering_tool-0.0.2.dist-info/top_level.txt,sha256=fe2ryfXFnq2TOYHW0JfuzbKHlT_UMymGnFOnEEqZY4I,17
