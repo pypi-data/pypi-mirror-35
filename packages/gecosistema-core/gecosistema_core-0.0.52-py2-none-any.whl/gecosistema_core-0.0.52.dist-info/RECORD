@@ -1,0 +1,14 @@
+gecosistema_core/__init__.py,sha256=3N_wBWWgDqyENjfwQ0CkJwCupz-w7VuNtE4R-x-BUE8,1164
+gecosistema_core/excel.py,sha256=o3w9kS0Kv2xxw349XUKZ5j6DbJi5LRbEtyq6SZ-f2Bg,11164
+gecosistema_core/exceptions.py,sha256=083rc7kPCKm1nanUttiObhxWrac565UKc-91VIcRKVA,1111
+gecosistema_core/execution.py,sha256=-h0OWFKGmkXr2cAH1yEhdwWLPJEORKi_HVO9Z4AE_Ck,4370
+gecosistema_core/filesystem.py,sha256=McjcPShGciHaNY-jFudsCp4BGW1iCS8KkLSTLCCJdHQ,9532
+gecosistema_core/http.py,sha256=HNLpv1_mqbrLGIgn26ii8d73OvJJDJcGWuRCpDGmFaM,7449
+gecosistema_core/platform.py,sha256=qczHyTniDFsdyI1d4qzFp-SAE92yHqhygr0p1f4DauI,2473
+gecosistema_core/stime.py,sha256=rN3bYV_l9GvzT22LZG219UBWVOqs_YtdhMAtna5ZFt0,1335
+gecosistema_core/strings.py,sha256=uUGMKwAOlAoUf_sQ7qAKmZBZpziQVC3TfSPg1muzl0A,9076
+gecosistema_core/xml_utils.py,sha256=_y6qu27hXfKlFc54FydEiHSethoTZgD6LPvn96IFYk8,3149
+gecosistema_core-0.0.52.dist-info/METADATA,sha256=tAKYJUkoyrpLUoEfDQHJpKC08hqLkl2w6bJyPZiL_nY,639
+gecosistema_core-0.0.52.dist-info/RECORD,,
+gecosistema_core-0.0.52.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+gecosistema_core-0.0.52.dist-info/top_level.txt,sha256=zEESpId6VAlHBnv5tbOvv9EBncGz8Lm-c8RYleKG01k,17
