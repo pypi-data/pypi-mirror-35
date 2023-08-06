@@ -1,0 +1,3 @@
+pyserial
+inputs
+paho-mqtt
