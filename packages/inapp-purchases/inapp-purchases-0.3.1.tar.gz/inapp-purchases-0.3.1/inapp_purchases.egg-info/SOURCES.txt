@@ -1,0 +1,13 @@
+README.md
+setup.py
+inapp_purchases/__init__.py
+inapp_purchases/app_store.py
+inapp_purchases/google_play.py
+inapp_purchases/inapp_service.py
+inapp_purchases/response.py
+inapp_purchases/subscription_status.py
+inapp_purchases.egg-info/PKG-INFO
+inapp_purchases.egg-info/SOURCES.txt
+inapp_purchases.egg-info/dependency_links.txt
+inapp_purchases.egg-info/requires.txt
+inapp_purchases.egg-info/top_level.txt
