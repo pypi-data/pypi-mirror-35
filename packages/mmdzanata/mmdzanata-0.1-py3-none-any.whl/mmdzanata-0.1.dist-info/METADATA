@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mmdzanata
+Version: 0.1
+Summary: Tools for working with translations of modulemd
+Home-page: UNKNOWN
+Author: Stephen Gallagher
+Author-email: sgallagh@redhat.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: babel
+
+UNKNOWN
+
+
