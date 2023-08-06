@@ -1,0 +1,10 @@
+hscraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hscraper/h_core.py,sha256=jLXIVY77Cgea5iunWPNmbtG44ZbCnYFayWn6aHL7QAo,8539
+hscraper/scraper.py,sha256=FB3st8X8wWtICbO1UIRir2im4zT-mk8oSM6ia2bxaOA,5188
+hscraper/web_retriever.py,sha256=yR2qFYikLxuKfppjC47FGkY1ao53xgEsacvQVXwahNg,4064
+hscraper-0.5.data/data/LICENSE,sha256=j43JkrEV-goiVCdFBy3ehPRJt-guoU9f2AF6-Epkc7s,1086
+hscraper-0.5.dist-info/METADATA,sha256=gWLM0hAKQGjrBa-8_r1MIUEepYkRBCqJOTJ5FKWmlac,383
+hscraper-0.5.dist-info/RECORD,,
+hscraper-0.5.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+hscraper-0.5.dist-info/entry_points.txt,sha256=z7A9yAsdRsXuq9q9mj9maHjnfmPEG-_uEuYiCcwWLLI,57
+hscraper-0.5.dist-info/top_level.txt,sha256=sPf12hSo5Ya6j4q-qP_KF2rTMq-gWNJ1qVEmBbgbfUc,9

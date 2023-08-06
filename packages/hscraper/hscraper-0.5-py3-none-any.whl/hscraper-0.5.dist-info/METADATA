@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hscraper
+Version: 0.5
+Summary: A tool to rip galleries from ehentai, r34.xxx, danbooru.donmai and hitomi.la
+Home-page: https://github.com/XrossFox/hscraper
+Author: XrossFox
+Author-email: warhead_1090@hotmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4 (>=4.6.0)
+Requires-Dist: urllib3 (>=1.22)
+Requires-Dist: click (>=6.7)
+
+UNKNOWN
+
+
