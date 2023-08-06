@@ -1,0 +1,9 @@
+numpy
+pandas
+ruamel.yaml
+
+[dev]
+sphinx
+
+[test]
+pytest
