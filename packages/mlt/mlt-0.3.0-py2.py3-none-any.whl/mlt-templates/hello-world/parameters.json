@@ -1,0 +1,6 @@
+{
+  "template_parameters" : [
+    { "name": "greeting", "value": "Hello" },
+    { "name": "debug_on_fail", "value": "False" }
+  ]
+}
