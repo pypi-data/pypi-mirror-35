@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+django_model_cache/__init__.py
+django_model_cache/core.py
+django_model_cache.egg-info/PKG-INFO
+django_model_cache.egg-info/SOURCES.txt
+django_model_cache.egg-info/dependency_links.txt
+django_model_cache.egg-info/top_level.txt
