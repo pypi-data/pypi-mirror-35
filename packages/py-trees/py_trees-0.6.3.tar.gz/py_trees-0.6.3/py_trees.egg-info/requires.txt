@@ -1,0 +1,10 @@
+enum34;python_version<"3.4"
+pydot
+
+[docs]
+Sphinx
+sphinx-argparse
+sphinx_rtd_theme
+
+[test]
+nose
