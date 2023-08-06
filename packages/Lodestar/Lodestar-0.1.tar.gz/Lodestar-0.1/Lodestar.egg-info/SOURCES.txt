@@ -1,0 +1,7 @@
+setup.py
+Lodestar.egg-info/PKG-INFO
+Lodestar.egg-info/SOURCES.txt
+Lodestar.egg-info/dependency_links.txt
+Lodestar.egg-info/not-zip-safe
+Lodestar.egg-info/top_level.txt
+slashdot/__init__.py
