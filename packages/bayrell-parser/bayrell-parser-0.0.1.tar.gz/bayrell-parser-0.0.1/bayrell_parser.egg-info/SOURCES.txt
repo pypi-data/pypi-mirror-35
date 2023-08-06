@@ -1,0 +1,10 @@
+CHANGES.txt
+MANIFEST.in
+README.md
+README.rst
+setup.py
+BayrellParser/__init__.py
+bayrell_parser.egg-info/PKG-INFO
+bayrell_parser.egg-info/SOURCES.txt
+bayrell_parser.egg-info/dependency_links.txt
+bayrell_parser.egg-info/top_level.txt
