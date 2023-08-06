@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+
+import lyrics_displayer
+
+lyrics_displayer.run()
