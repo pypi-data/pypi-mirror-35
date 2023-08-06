@@ -1,0 +1,11 @@
+pin_py/__init__.py,sha256=BjqKc7cm6XbacbT3HCKKLbc-F8yfuAW9cZcQyPQqm0Q,20
+pin_py/pinterest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pin_py/pinterest/pinpy.py,sha256=xMO7KnAfGJWtRrzOyymDckQGH83WmhyICN7wpTkQ-eQ,3159
+pin_py/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pin_py/utils/config.py,sha256=kcRwdyopecrDYk9FgzHVYQDUBs8NKY_dqImDlVuloes,73
+pin_py/utils/http.py,sha256=RCORUDLatQBhmDje9-X2Yv4_RemhuhomSWD-Qrz08rA,9231
+pin_py/utils/settings.py,sha256=NG5iptvNo7LTgB1EOQsrZ3m5h_oka3dgp4LkHwPo0uk,380
+pin_py-0.0.7.dist-info/METADATA,sha256=sVVF8KPYDegYh7dScK-H6qsvQ6Z1X-VG8D7XrHlbhVA,1198
+pin_py-0.0.7.dist-info/RECORD,,
+pin_py-0.0.7.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pin_py-0.0.7.dist-info/top_level.txt,sha256=HbtfNlWeQBjkCTz0BXAqymcB2EeGzFpNoIRcdsKfdNw,7
