@@ -1,0 +1,7 @@
+README.md
+setup.py
+dalos/__init__.py
+dalos.egg-info/PKG-INFO
+dalos.egg-info/SOURCES.txt
+dalos.egg-info/dependency_links.txt
+dalos.egg-info/top_level.txt
