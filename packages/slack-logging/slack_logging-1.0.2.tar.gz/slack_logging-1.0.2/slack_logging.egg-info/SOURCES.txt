@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+slack_logging/__init__.py
+slack_logging/configuration.py
+slack_logging/formatters.py
+slack_logging/handlers.py
+slack_logging/integrations.py
+slack_logging.egg-info/PKG-INFO
+slack_logging.egg-info/SOURCES.txt
+slack_logging.egg-info/dependency_links.txt
+slack_logging.egg-info/requires.txt
+slack_logging.egg-info/top_level.txt
