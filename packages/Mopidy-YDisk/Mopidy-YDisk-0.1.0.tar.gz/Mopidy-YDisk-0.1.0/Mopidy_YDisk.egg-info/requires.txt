@@ -1,0 +1,8 @@
+setuptools
+Mopidy>=1.0
+Pykka>=1.1
+cachetools>=2.0
+furl>=1.0
+mutagen>=1.40
+requests>=2.15
+six>=1.11
