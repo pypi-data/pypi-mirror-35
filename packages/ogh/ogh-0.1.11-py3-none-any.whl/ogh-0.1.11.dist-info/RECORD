@@ -1,0 +1,14 @@
+ogh/__init__.py,sha256=O2LLDyMzcHQhVaajFCTEfs91jBD-bXNDdU2ZD8iIlag,340
+ogh/_version.py,sha256=zYfOS8U54y0llmbFDAhysy3eBsj5-bWVIjKGj5t4sV8,498
+ogh/ogh.py,sha256=NCw8-el5ld0p9oUqrytBWIajq-FyCp91ZlvReUfNj08,100404
+ogh/ogh_meta.py,sha256=emtpxYIlwQkPqfPiep_3-Tvkmdj28g-aBf29nsWz4t8,25160
+ogh/tests/__init__.py,sha256=qoEJdqFxZJGhB10M5FsefgyDxzWHkat-cYmKSZY-74o,157
+ogh/tests/test_ogh.py,sha256=aZdSXPRTfhAi9Y8XXlWd4RmufH4BzAkJL2ut1v5J8Wg,11328
+ogh-0.1.11.dist-info/METADATA,sha256=uYdhWq5hsMURnd1DKSr4YvZuCFsEyIE8wVPbPO_6ieA,5295
+ogh-0.1.11.dist-info/RECORD,,
+ogh-0.1.11.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ogh-0.1.11.dist-info/top_level.txt,sha256=LjXF4Tj1ldUG3T_a4uT3Oofvyae8Fo4-W1PG4R2zLxM,14
+tutorials/__init__.py,sha256=O2LLDyMzcHQhVaajFCTEfs91jBD-bXNDdU2ZD8iIlag,340
+tutorials/_version.py,sha256=lTLMgAynGjubcqT25_66Iw2DXvP6cyhXf9--qjO739M,18441
+tutorials/ogh.py,sha256=rggTuPoi4RsSlWN1kQNJ4P9QTG_l4HGf9g7nH-9Cw7g,100419
+tutorials/ogh_meta.py,sha256=emtpxYIlwQkPqfPiep_3-Tvkmdj28g-aBf29nsWz4t8,25160
