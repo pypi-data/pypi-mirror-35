@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: utah
+Version: 0.2
+Summary: The official module for Utah Python / SLCPython
+Home-page: http://github.com/slcpython/utah
+Author: Faris Chebib
+Author-email: faris@theluckybead.com
+License: MIT
+Keywords: utah meetup slc
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+
+# utah
+
+This module is used as an example package for the Sept 2018 meetup,
+and also used as an example on slcpy.com.
+
+## TODO
+
+- [x] Add tests
+- [ ] Integrate meetup api to find latest meetups.
+  - [ ] Research if public api exists.
+  - [ ] Figure out friendly auth flow for API key.
+
+
