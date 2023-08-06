@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+weplot/__init__.py
+weplot/figure.py
+weplot/layout.py
+weplot/plot.py
+weplot/subplot.py
+weplot/version.py
+weplot.egg-info/PKG-INFO
+weplot.egg-info/SOURCES.txt
+weplot.egg-info/dependency_links.txt
+weplot.egg-info/requires.txt
+weplot.egg-info/top_level.txt
