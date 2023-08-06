@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: LeshanRestAPI
+Version: 0.0.2
+Summary: Wrapper for Leshan IOT RESTful API
+Home-page: https://github.com/lundbird/LeshanRestAPI
+Author: Alex Lundberg
+Author-email: alex.lundberg@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: bs4
+
+# LRest
+RESTful Library Wrapper for Leshan IOT.
+
+
