@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "extractini"
+version = "1.0.1"
+description = "extractini is a command-line application to extract a single option from an INI file"
+license = 'MIT'
+authors = ["Matt Magin <matt.magin@cmv.com.au>"]
+readme = 'README.rst'
+repository = 'https://github.com/AzMoo/extractini/'
+
+[tool.poetry.dependencies]
+python = "^3.5"
+click = "^6.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[tool.poetry.scripts]
+extractini = 'extractini.console:extract_from_inifile'
