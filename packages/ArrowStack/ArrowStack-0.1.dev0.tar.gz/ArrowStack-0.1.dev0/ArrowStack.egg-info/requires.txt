@@ -1,0 +1,6 @@
+Jinja2
+docker
+gunicorn
+pymist
+routes
+webob
