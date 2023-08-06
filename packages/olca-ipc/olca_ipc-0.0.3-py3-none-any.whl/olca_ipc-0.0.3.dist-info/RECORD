@@ -1,0 +1,8 @@
+olca/__init__.py,sha256=YKR9fMO4inQAJdiaIBT27II9UNJBu4TJTZw7km_uhDY,228
+olca/ipc.py,sha256=9_PMXrX8_0CkPolQoXQABI09ThgLKmA5e4ZGQwTPGxY,4514
+olca/pack.py,sha256=igyG8APTRHW0NTIkTO89urKhZWqAHTJVBK-ttsA0HVQ,2366
+olca/schema.py,sha256=C_xawFpY5q773I4b2q3BfK7QjFQ5gb8uQxWrDSvDXp8,76700
+olca_ipc-0.0.3.dist-info/METADATA,sha256=5PW_JPSqaDoBcJyWVXPC5MQQz9BZF-NB4kF-ZeZsDjU,2429
+olca_ipc-0.0.3.dist-info/RECORD,,
+olca_ipc-0.0.3.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+olca_ipc-0.0.3.dist-info/top_level.txt,sha256=bGDtAReS-xlS0F6MM-DyD0IQUqjNdWmgemnM3vNtrpI,5
