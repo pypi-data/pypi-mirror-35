@@ -1,0 +1,11 @@
+numpy
+matplotlib
+PyQt5
+pyqtgraph
+appdirs
+tabulate
+psutil
+diskcache
+jedi==0.9
+pyqode.python
+pyaml

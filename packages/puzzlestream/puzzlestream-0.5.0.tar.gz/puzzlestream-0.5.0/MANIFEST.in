@@ -1,0 +1,5 @@
+# icons
+include puzzlestream/icons/*
+
+# misc
+include LICENSE.txt
