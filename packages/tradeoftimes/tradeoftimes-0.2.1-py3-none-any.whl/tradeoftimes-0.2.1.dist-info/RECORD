@@ -1,0 +1,10 @@
+tradeoftimes-0.2.1.dist-info/METADATA,sha256=lwtn_HstBIbLpBzcpNqq1RWTE9gtEvmpaW_K8bYrRQQ,845
+tradeoftimes-0.2.1.dist-info/RECORD,,
+tradeoftimes-0.2.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+tradeoftimes-0.2.1.dist-info/top_level.txt,sha256=kSBfZ0nDirLkPvkbyhz9msF3vLnp9rGsh7Ln-CszBtc,7
+tradet/__init__.py,sha256=hlcWepW_rQUHDGZvd5I4a_j7dgFiiSE2pinsUqLIdAg,9101
+tradet/__main__.py,sha256=8QRCbMt8uPfsSrDxqC2BNmjPxoQK7hkhuoOP7Ui3mYo,114
+tradet/game_diag.py,sha256=EpNWPV5sDH2PgCWRhOVMFQ4O_JyFJ266oxnOfGoOd-k,3831
+tradet/main_window.py,sha256=uHPU_rmKrb8dGk9TIzdz_UC4z_3Q0GQtUiGJFhze7DU,6028
+tradet/nick_diag.py,sha256=kNKdCLM4jjdX1GUzAHSzU4ZPymtNxJKwdXA1npBrjOI,3296
+tradet/settings_diag.py,sha256=wYvxa7HfsPBXXCemgCZcIpxFodNcpvQfHhgQjfn1PBE,7355
