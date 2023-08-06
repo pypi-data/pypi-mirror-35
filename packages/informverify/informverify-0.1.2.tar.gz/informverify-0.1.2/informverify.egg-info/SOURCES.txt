@@ -1,0 +1,9 @@
+README.md
+setup.py
+informverify/__init__.py
+informverify.egg-info/PKG-INFO
+informverify.egg-info/SOURCES.txt
+informverify.egg-info/dependency_links.txt
+informverify.egg-info/entry_points.txt
+informverify.egg-info/requires.txt
+informverify.egg-info/top_level.txt
