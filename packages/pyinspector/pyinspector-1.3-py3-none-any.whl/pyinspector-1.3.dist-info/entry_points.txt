@@ -1,0 +1,3 @@
+[console_scripts]
+pyinspector = pyinspector.__main__:main
+
