@@ -1,0 +1,11 @@
+README.md
+setup.py
+mec_plugin_cloudify/__init__.py
+mec_plugin_cloudify/mec_platform_client.py
+mec_plugin_cloudify/tasks.py
+mec_plugin_cloudify.egg-info/PKG-INFO
+mec_plugin_cloudify.egg-info/SOURCES.txt
+mec_plugin_cloudify.egg-info/dependency_links.txt
+mec_plugin_cloudify.egg-info/not-zip-safe
+mec_plugin_cloudify.egg-info/requires.txt
+mec_plugin_cloudify.egg-info/top_level.txt
