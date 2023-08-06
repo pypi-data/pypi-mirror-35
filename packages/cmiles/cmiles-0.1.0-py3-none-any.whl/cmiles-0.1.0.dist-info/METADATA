@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: cmiles
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Chaya D. Stern
+Author-email: chaya.stern@choderalab.org
+License: MIT
+Platform: UNKNOWN
+
+Generate canonical, isomeric, explicit hydrogen, mapped SMILES
+
+

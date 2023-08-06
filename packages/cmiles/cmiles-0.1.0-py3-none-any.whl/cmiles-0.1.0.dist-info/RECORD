@@ -1,0 +1,15 @@
+cmiles/__init__.py,sha256=Q2Q2cIMRYzWwXbdU9VdRuU2lFrEoE4vy9NMBCW7IaF4,458
+cmiles/_version.py,sha256=8gxjrIDL6CYXKjLyFaCgMFKmbpMqmnrEPKXxfpr1dUI,498
+cmiles/generator.py,sha256=ibvFO0jjWDaQC0zEnwNvFXpkqxwm49bbCGaXJs6A4CI,11775
+cmiles/utils.py,sha256=L-6RYuljEKIXY_0hn2fEYF21W_lUg8JU8FKBaSEiuxQ,4583
+cmiles/data/look_and_say.dat,sha256=dp65R2oy2pZQvLuRLeAxw7gWbIfhv3omNFXP7DpsPVU,333
+cmiles/tests/__init__.py,sha256=tlIleLX_7zJFwQuwnqP9fJ0nQXdD1uA-l8uX8w4KUKM,112
+cmiles/tests/test_cmiles.py,sha256=7tw3RMM-ZTtmDoNJY8FfuxkZ4lWaFfaR76AChBF6-bI,16617
+cmiles/tests/test_utils.py,sha256=m0tPUJOLMFuRHB-7uJIu9q0AHrP7KoE-j05T3eWZBB0,473
+cmiles/tests/utils.py,sha256=8xN3w1t1R18TFVjqeSbLmLPhHXwJ6J4hkadvZLYpsFM,1074
+cmiles-0.1.0.dist-info/DESCRIPTION.rst,sha256=utLLiAgQngNLY-S4f1xsZce3iNyFSkiIAvQbwfsMLBY,65
+cmiles-0.1.0.dist-info/METADATA,sha256=5wRHlKlmZJjt1YSvKOX-DQ0aXwU6fhvSk3s6GVDZwqM,247
+cmiles-0.1.0.dist-info/RECORD,,
+cmiles-0.1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+cmiles-0.1.0.dist-info/metadata.json,sha256=EHwUyiCcL5R-t3leIa9kmqelBdAxedHSKC4yD4chCDM,331
+cmiles-0.1.0.dist-info/top_level.txt,sha256=dA7KejqE3bQ0xCLQJiMMn0Vr1IxdYqRq_hypXZhOqN8,7
