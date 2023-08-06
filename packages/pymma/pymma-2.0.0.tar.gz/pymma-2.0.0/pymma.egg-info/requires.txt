@@ -1,0 +1,4 @@
+aprslib
+requests
+pynmea2 >= 1.4.2
+pyserial >= 2.7
