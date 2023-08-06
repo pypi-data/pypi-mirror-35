@@ -1,0 +1,9 @@
+Flask_Spec-0.0.0a1.dev5.dist-info/METADATA,sha256=kArCseeIQr9Ip7eAuRX4wfGq96YQwkkPoAjJNj2vV-E,1006
+Flask_Spec-0.0.0a1.dev5.dist-info/RECORD,,
+Flask_Spec-0.0.0a1.dev5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+Flask_Spec-0.0.0a1.dev5.dist-info/top_level.txt,sha256=xxnTszuGT_ynVNIAAEk-BDRHmsl9cfrn2NwwivvZTy8,11
+flask_spec/__init__.py,sha256=9-JpnazU0uq1HpPEIk01v4bMo7tSgQgSTVgiPOyOMo4,179
+flask_spec/extensions.py,sha256=-Us1aTnHlAN4bpoYm6bNuxqsZpxROFi8JmIL8vpntrY,2770
+flask_spec/registars.py,sha256=u214Wvg_6K7Eurzk4j1lPiFEg3cMDPD0VYD_4CEHeNI,11579
+flask_spec/utils.py,sha256=jak3mhAI48D6Q_D6sQQAOi1eNUogwKxUhtvuv20TpYM,1609
+flask_spec/templates/envs.html,sha256=9RpmLcEl4xoDYZl2ZEoU7bsJWrm7Wd9rExEnFGQzjo8,2640
