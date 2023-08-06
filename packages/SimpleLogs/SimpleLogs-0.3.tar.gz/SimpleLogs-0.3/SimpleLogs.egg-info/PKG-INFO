@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: SimpleLogs
+Version: 0.3
+Summary: Wrapper that simplifies logging
+Home-page: http://github.com/amahlaka/py_simple_logs
+Author: Arttu Mahlakaarto
+Author-email: Arttu.mahlakaarto@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/amahlaka/py_simple_logs/tarball/0.1
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
