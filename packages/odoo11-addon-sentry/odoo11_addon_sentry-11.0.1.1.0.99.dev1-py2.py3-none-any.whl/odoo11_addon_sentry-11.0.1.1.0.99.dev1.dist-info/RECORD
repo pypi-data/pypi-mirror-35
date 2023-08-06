@@ -1,0 +1,14 @@
+odoo/addons/sentry/README.rst,sha256=gy1ohkX32yje5fzWpfpf1lDR2Ycc7oJUg4xrepU5Wzs,9184
+odoo/addons/sentry/__init__.py,sha256=IbqkQx-RkrbY-Dob_GHq8tdrWxLxzdBhVt5BxKqNchU,2636
+odoo/addons/sentry/__manifest__.py,sha256=1wt2fRMJk2-bEig74g-vHh65pZCtCJOcP7AFxfEAjBQ,638
+odoo/addons/sentry/const.py,sha256=jt5Zmlya0xzvEdVBvvACZGCvThISbvfO0au8kfxxGPg,3088
+odoo/addons/sentry/logutils.py,sha256=w_XNMJr-5SiSdSfF9nEuTCGPq2pwxdZfrPOrFE_RCII,3052
+odoo/addons/sentry/i18n/sentry.pot,sha256=N54JHX-XC2BQOfdHJah2y4SvlTwG7A9vY8R52uQgoMU,344
+odoo/addons/sentry/static/description/icon.png,sha256=Rnw-3miThiaAtUNl1DNsLjt20f_lhgI0aHyQVx_Paok,2220
+odoo/addons/sentry/tests/__init__.py,sha256=aBNugamIfZ7oSAUahBhfjeZIdOFnuR1g7S1kxF3hzOY,171
+odoo/addons/sentry/tests/test_client.py,sha256=521D-y2bClHNA2agaB1Sep56htxV-N2IrC0C3R7OvZA,4127
+odoo/addons/sentry/tests/test_logutils.py,sha256=hJXoSNTDfvSbM9ePx6XiW4VRwt2gOve1O6qat75U-AM,2167
+odoo11_addon_sentry-11.0.1.1.0.99.dev1.dist-info/METADATA,sha256=WaFgmwr5DF74QX2h1MpGYZf_R9Yu3yOnsUnajCzSVMY,9770
+odoo11_addon_sentry-11.0.1.1.0.99.dev1.dist-info/RECORD,,
+odoo11_addon_sentry-11.0.1.1.0.99.dev1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+odoo11_addon_sentry-11.0.1.1.0.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
