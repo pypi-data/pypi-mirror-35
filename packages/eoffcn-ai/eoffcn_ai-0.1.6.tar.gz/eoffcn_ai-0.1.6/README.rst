@@ -1,0 +1,24 @@
+ocr_api
+^^^^^^^^^^^
+::
+
+    xf = XunFei(appid="xxx", api_key="xxxxxxxxx")
+    status, result = xf.get("./image/2.5.2.jpg", product="handwriting", code_key="code", right_value="0")
+    baidu = Baidu(client_id="xxxxxx", client_secret="xxxxxxx")
+    status, result = baidu.get("../image/2.5.3.jpg", product="handwriting", code_key="error_code")
+    aliyun = Aliyun(appcode="xxxxxxxxxx")
+    result = aliyun.get("../image/2.5.3.jpg", "handwriting", code_key="error_code")
+
+image
+^^^^^^^^^^^
+::
+
+    0.1.3: 新增二维码识别, 需要有java或php环境
+
+tool
+^^^^^^^^^^^
+::
+
+    get_value()             v0.1.2  获取嵌套字典或列表对应位置的值
+    amount_conversion()     v0.1.3  将大写数字转换为数值
+
