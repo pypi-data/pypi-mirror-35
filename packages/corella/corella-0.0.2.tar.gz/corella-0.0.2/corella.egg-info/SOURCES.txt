@@ -1,0 +1,11 @@
+README.md
+setup.py
+corella/__init__.py
+corella/cli.py
+corella.egg-info/PKG-INFO
+corella.egg-info/SOURCES.txt
+corella.egg-info/dependency_links.txt
+corella.egg-info/entry_points.txt
+corella.egg-info/not-zip-safe
+corella.egg-info/requires.txt
+corella.egg-info/top_level.txt
