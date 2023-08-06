@@ -1,0 +1,8 @@
+setup.py
+sensegame/__init__.py
+sensegame/joystick.py
+sensegame.egg-info/PKG-INFO
+sensegame.egg-info/SOURCES.txt
+sensegame.egg-info/dependency_links.txt
+sensegame.egg-info/requires.txt
+sensegame.egg-info/top_level.txt
