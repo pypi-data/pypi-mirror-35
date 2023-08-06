@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: napalm-dellos10
+Version: 1.0.6
+Summary: NAPALM driver for Dell EMC Networking OS10 Operating System.
+Home-page: https://github.com/napalm-automation-community/napalm-dellos10
+Author: Senthil Kumar Ganesan, Mohamed Javeed
+Author-email: skg.dev.net@gmail.com, javeedf.dev@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
