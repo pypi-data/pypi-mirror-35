@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: algotrading-api
+Version: 0.0.1
+Summary: A package to test trading algorithms.
+Home-page: https://github.com/jdry1729/algo-trading
+Author: Jack Dry
+Author-email: jack_dry@outlook.com
+License: UNKNOWN
+Description: # algo_trading
+        
+        This package allows you test trading algorithms.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
