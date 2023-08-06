@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: log-splitter
+Version: 0.0.1
+Summary: A Python Logging Handler that splits output between two other handlers.
+Home-page: https://github.com/thibaultdelor/pyLogSplitter
+Author: Tibo Delor
+Author-email: delor.thibault@gmail.com
+License: LGPLv3
+Description: # pyLogSplitter
+        
+        [![Build Status](https://travis-ci.org/thibaultdelor/pyLogSplitter.svg?branch=master)](https://travis-ci.org/thibaultdelor/pyLogSplitter)
+        [![Coverage Status](https://coveralls.io/repos/github/thibaultdelor/pyLogSplitter/badge.svg?branch=master)](https://coveralls.io/github/thibaultdelor/pyLogSplitter?branch=master)
+        
+        A Python Logging Handler that splits output between two other handlers
+        
+Keywords: logging handler
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Logging
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
