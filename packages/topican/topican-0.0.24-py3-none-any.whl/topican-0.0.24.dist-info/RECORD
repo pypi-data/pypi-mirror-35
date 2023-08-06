@@ -1,0 +1,13 @@
+topican/__init__.py,sha256=fIHWQEiY1WFIJRBavz0aMbc5QRAEIHCWSqC0PwnQ6NA,84
+topican/topican_by_nouns.py,sha256=h4BGT6gJ_pHqo4ZHzg1w6Rwa8GT-Gv9dHiwgAk9WagU,45490
+topican/topican_by_nouns_on_csv.py,sha256=BFcMBktyHD0bYkcpYbT8whONBZowsI0gB5hTV3vgzok,3263
+topican/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+topican/tests/topican_test_usage.py,sha256=tXJ2kBS4_BBW0iDl30cVMecHa46iM27udU0I_FVsmvE,722
+topican-0.0.24.data/data/images/readme_usage_output.png,sha256=eOe8plbviU-kr2lhalSXMrE0EnCmEfOwyjMmJknJf2E,73647
+topican-0.0.24.dist-info/DESCRIPTION.rst,sha256=N_FD9iTzoW92JnZ_vAFCHU06pcvJgnlknaGcVTlAYNU,6842
+topican-0.0.24.dist-info/METADATA,sha256=Vy7SatT5HIrVwRMPZ2i44_2t-YUYwbULXRxmMfPvioE,7349
+topican-0.0.24.dist-info/RECORD,,
+topican-0.0.24.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+topican-0.0.24.dist-info/entry_points.txt,sha256=yj5pMI5sWvvwF95J3BgrQTUOZXj8jHT15lUGy6b4lBw,82
+topican-0.0.24.dist-info/metadata.json,sha256=nN0a-NGfgqDV2lpdTXlgry-ZQlsOtQtVt9roPDZSNu0,905
+topican-0.0.24.dist-info/top_level.txt,sha256=FY0sE4XqlGXnyhXMuWUJlKjSXO7sEBS402-3wPx3lYQ,8

@@ -1,0 +1,3 @@
+[console_scripts]
+topican_by_nouns_on_csv = topican.topican_by_nouns_on_csv:main
+
