@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: neochain
+Version: 1.1
+Summary: neochain - Network Evolution Observation for Blockchain
+Home-page: https://github.com/dharif23/neochain
+Author: Dalwar Hossain
+Author-email: dalwar.hossain@protonmail.com
+Maintainer: Dalwar Hossain
+Maintainer-email: dalwar.hossain@protonmail.com
+License: MIT
+Download-URL: https://github.com/dharif23/neochain
+Keywords: Network,Evolution,Community,Blockchain
+Platform: Linux
+Platform: Mac OSX
+Platform: Windows
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pip (>=18.0)
+Requires-Dist: numpy (!=1.15.0)
+Requires-Dist: pandas (>=0.23.4)
+Requires-Dist: networkx (>=2.1)
+Requires-Dist: python-louvain (>=0.11)
+Requires-Dist: pyrainbowterm (>=1.0)
+Requires-Dist: setuptools (>=40.1.0)
+Requires-Dist: six (>=1.10.0)
+Requires-Dist: wheel (>=0.31.1)
+Requires-Dist: python-dateutil (>=2.7.3)
+Requires-Dist: pytz (>=2018.5)
+Requires-Dist: sphinx (>=1.7.1)
+Requires-Dist: recommonmark (>=0.4.0)
+Requires-Dist: sphinx-rtd-theme (>=0.4.1)
+
+neochain
+========
+Network Evolution Observation for Blockchain
+
+.. image:: https://badge.fury.io/py/neochain.svg
+    :alt: pypi version
+    :target: https://badge.fury.io/py/neochain
+
+.. image:: https://img.shields.io/packagist/l/doctrine/orm.svg
+    :alt: license
+    :target: https://opensource.org/licenses/MIT
+
+.. image:: https://travis-ci.org/dharif23/neochain.svg?branch=master
+    :alt: Build Status
+    :target: https://travis-ci.org/dharif23/neochain
+
+.. image:: https://readthedocs.org/projects/neochain/badge/?version=latest
+    :alt: Documentation Status
+    :target: https://neochain.readthedocs.io/?badge=latest
+
+Description
+===========
+
+`NEOChain <https://www.neochain.readthedocs.io>`_ (neochain) is a Network Evolution Observation library for Blockchain networks.
+This specially designed python library can provide tools to detect community structures in massive networks like **Blockchain**
+and also capable of merging one or more timed snapshot of transaction data into one large snapshot without losing any nodes to
+better understand the evolution of the network.
+
+Getting Started
+===============
+.. code-block:: python
+
+   python setup.py install
+
+
+Documentation
+=============
+For more details please see: `NEOChain Documentation <http://neochain.readthedocs.io/>`_
+
+
+
