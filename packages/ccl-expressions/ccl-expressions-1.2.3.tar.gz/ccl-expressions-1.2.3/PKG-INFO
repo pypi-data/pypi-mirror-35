@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ccl-expressions
+Version: 1.2.3
+Summary: Python implementation of the RapidPro expression and templating system
+Home-page: https://github.com/greatnonprofits-nfp/ccl-expressions
+Author: Nyaruka, CCL
+Author-email: code@nyaruka.com, support@communityconnectlabs.com
+License: BSD
+Description: UNKNOWN
+Keywords: rapidpro templating
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
