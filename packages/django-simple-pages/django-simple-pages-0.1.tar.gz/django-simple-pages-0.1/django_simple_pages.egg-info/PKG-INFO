@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: django-simple-pages
+Version: 0.1
+Summary: Model-based HTML pages and redirects.
+Home-page: https://github.com/teapow/django-simple-pages
+Author: Thomas Power
+Author-email: thomaspwr@gmail.com
+License: MIT
+Description: ===================
+        django-simple-pages
+        ===================
+        
+        TODO
+        
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
