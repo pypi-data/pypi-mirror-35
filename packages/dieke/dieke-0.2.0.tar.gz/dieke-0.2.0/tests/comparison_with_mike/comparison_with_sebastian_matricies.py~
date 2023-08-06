@@ -1,0 +1,8 @@
+#!/usr/bin/python2
+
+#note: python3 pickle doesn't like python2 pickles
+
+import pickle
+import gzip
+
+sebmats =  pickle.load(gzip.open('f11cf_matel.p.gz','rb'))
