@@ -1,0 +1,108 @@
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_3: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 0.2
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_3 completed successfully
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_4: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 0.1 Error
+libensemble.controller(Manager) (DEBUG): Killing job job_my_simjob.x.simfunc_4
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_5: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 10
+libensemble.controller(Manager) (DEBUG): Killing job job_my_simjob.x.simfunc_5
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_6: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 0.3
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_7: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 0.5
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_8: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 0.7
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_6 completed successfully
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_7 completed successfully
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_8 completed successfully
+libensemble.controller(Manager) (WARNING): Job a not found in joblist. Joblist is empty
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_9: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 0
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_9 completed successfully
+libensemble.controller(Manager) (WARNING): Job 10 not found in joblist
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_10: mpirun -machinefile my_machinefile ./my_simjob.x sleep 0
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_10 completed successfully
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_11: mpirun -np 6 --ppn 3 ./my_simjob.x sleep 0
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_11 completed successfully
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_12: mpirun -np 6 --ppn 3 ./my_simjob.x sleep 0
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_12 completed successfully
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_13: mpirun -np 2 --ppn 2 ./my_simjob.x sleep 0
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_13 completed successfully
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_14: mpirun -np 2 --ppn 2 ./my_simjob.x sleep 0
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_14 completed successfully
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_15: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 2.0
+libensemble.controller(Manager) (DEBUG): Killing job job_my_simjob.x.simfunc_15
+libensemble.controller(Manager) (WARNING): Trying to kill job that is no longer running. Job job_my_simjob.x.simfunc_15: Status is USER_KILLED
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_16: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 0.1
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_16 completed successfully
+libensemble.controller(Manager) (WARNING): Trying to kill job that is no longer running. Job job_my_simjob.x.simfunc_16: Status is FINISHED
+libensemble.controller(Manager) (WARNING): Polled job job_my_simjob.x.simfunc_16 has already finished. Not re-polling. Status is FINISHED
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_17: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 2.0
+libensemble.controller(Manager) (DEBUG): Killing job job_my_simjob.x.simfunc_17
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_18: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 2.0
+libensemble.controller(Manager) (DEBUG): Killing job job_my_simjob.x.simfunc_18
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_19: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 2.0
+libensemble.controller(Manager) (DEBUG): Killing job job_my_simjob.x.simfunc_19
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_20: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 2.0
+libensemble.controller(Manager) (DEBUG): Killing job job_my_simjob.x.simfunc_20
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_21: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 2.0
+libensemble.controller(Manager) (DEBUG): Killing job job_my_simjob.x.simfunc_21
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.genfunc_22: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 0.1
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.genfunc_22 completed successfully
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_23: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 0.1
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_23 completed successfully
+libensemble.controller(Manager) (WARNING): wait_time set but will have no effect while wait_and_kill is False
+libensemble.controller(Manager) (DEBUG): Launching job job_my_simjob.x.simfunc_26: mpirun -np 1 --ppn 1 ./my_simjob.x sleep 1.0 Fail
+libensemble.controller(Manager) (DEBUG): Job job_my_simjob.x.simfunc_26 failed
+libensemble.libE_manager (INFO): Manager initiated on MPI rank 0 on node shuds
+libensemble.libE_manager (INFO): Manager exit_criteria: {'sim_max': 1}
+libensemble.libE_manager (INFO): Term test tripped: stop_val
+libensemble.libE_manager (INFO): Term test tripped: sim_max
+libensemble.libE_manager (INFO): Term test tripped: elapsed_wallclock_time
+libensemble.resources (DEBUG): No worker_list found - searching for nodelist in environment
+libensemble.resources (DEBUG): Slurm env found - getting nodelist from Slurm
+libensemble.resources (DEBUG): No worker_list found - searching for nodelist in environment
+libensemble.resources (DEBUG): Cobalt env found - getting nodelist from Cobalt
+libensemble.resources (DEBUG): worker_list found - getting nodelist from worker_list
+libensemble.resources (DEBUG): worker_list found - getting nodelist from worker_list
+libensemble.resources (DEBUG): worker_list found - getting nodelist from worker_list
+libensemble.resources (DEBUG): No worker_list found - searching for nodelist in environment
+libensemble.resources (DEBUG): Slurm env found - getting nodelist from Slurm
+libensemble.resources (DEBUG): local_nodelist is ['knl-0020']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0021']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0022']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0036']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0137']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0138']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0139']
+libensemble.resources (DEBUG): local_nodelist is ['knl-1234']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0020', 'knl-0021']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0022', 'knl-0036']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0137', 'knl-0138']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0139', 'knl-1234']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0020', 'knl-0021', 'knl-0022', 'knl-0036', 'knl-0137', 'knl-0138', 'knl-0139', 'knl-1234']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0020', 'knl-0021', 'knl-0022']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0036', 'knl-0137', 'knl-0138']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0139', 'knl-1234']
+libensemble.resources (DEBUG): worker_list found - getting nodelist from worker_list
+libensemble.resources (DEBUG): local_nodelist is ['knl-0020']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0021']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0022']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0036']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0137']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0138']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0139']
+libensemble.resources (DEBUG): local_nodelist is ['knl-1234']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0020', 'knl-0021']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0022', 'knl-0036']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0137', 'knl-0138']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0139', 'knl-1234']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0020', 'knl-0021', 'knl-0022', 'knl-0036', 'knl-0137', 'knl-0138', 'knl-0139', 'knl-1234']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0020', 'knl-0021', 'knl-0022']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0036', 'knl-0137', 'knl-0138']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0139', 'knl-1234']
+libensemble.resources (DEBUG): No worker_list found - searching for nodelist in environment
+libensemble.resources (DEBUG): Slurm env found - getting nodelist from Slurm
+libensemble.resources (DEBUG): worker_list found - getting nodelist from worker_list
+libensemble.resources (DEBUG): local_nodelist is ['shuds']
+libensemble.resources (DEBUG): local_nodelist is ['knl-0020', 'knl-0021', 'knl-0022', 'knl-0036', 'shuds', 'knl-0137', 'knl-0138', 'knl-0139']
+libensemble.resources (DEBUG): local_nodelist is ['shuds', 'knl-0137']
+libensemble.resources (DEBUG): local_nodelist is ['shuds']
+libensemble.resources (DEBUG): local_nodelist is ['shuds']
+libensemble.resources (DEBUG): worker_list found - getting nodelist from worker_list
+libensemble.resources (WARNING): Nodes to workers not evenly distributed. Wasted nodes. 2 workers and 9 nodes
+libensemble.resources (DEBUG): local_nodelist is ['knl-0137', 'shuds', 'knl-0138', 'knl-0139']

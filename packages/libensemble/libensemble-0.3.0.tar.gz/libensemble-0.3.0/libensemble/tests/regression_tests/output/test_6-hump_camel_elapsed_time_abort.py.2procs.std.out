@@ -1,0 +1,12 @@
+Termination due to elapsed_wallclock_time has occurred.
+A last attempt has been made to receive any completed work.
+Posting nonblocking receives and kill messages for all active workers
+
+
+libEnsemble manager total time: 1.0002353191375732
+2 {'elapsed_wallclock_time': 1}
+
+
+
+Run completed.
+Saving results to file: 6-hump_camel_elapsed_time_abort_results_History_length=5_evals=0_ranks=2

@@ -1,0 +1,536 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">0%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">b</span>
+        <span class="key">p</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>2506</td>
+                <td>2506</td>
+                <td>7</td>
+                
+                <td>786</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 3292">0%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble___init___py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/__init__.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_alloc_funcs___init___py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/alloc_funcs/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_alloc_funcs_fast_alloc_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/alloc_funcs/fast_alloc.py</a></td>
+                <td>15</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 21">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_alloc_funcs_fast_alloc_to_aposmm_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/alloc_funcs/fast_alloc_to_aposmm.py</a></td>
+                <td>20</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 28">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_alloc_funcs_give_sim_work_first_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/alloc_funcs/give_sim_work_first.py</a></td>
+                <td>38</td>
+                <td>38</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 56">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_alloc_funcs_inverse_bayes_allocf_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/alloc_funcs/inverse_bayes_allocf.py</a></td>
+                <td>30</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 42">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_alloc_funcs_start_only_persistent_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/alloc_funcs/start_only_persistent.py</a></td>
+                <td>23</td>
+                <td>23</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 35">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_alloc_funcs_start_persistent_local_opt_gens_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/alloc_funcs/start_persistent_local_opt_gens.py</a></td>
+                <td>49</td>
+                <td>49</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 75">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_alloc_funcs_support_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/alloc_funcs/support.py</a></td>
+                <td>18</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 22">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_calc_info_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/calc_info.py</a></td>
+                <td>74</td>
+                <td>74</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 84">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_controller_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/controller.py</a></td>
+                <td>432</td>
+                <td>432</td>
+                <td>0</td>
+                
+                <td>198</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 630">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_gen_funcs___init___py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/gen_funcs/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_gen_funcs_aposmm_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/gen_funcs/aposmm.py</a></td>
+                <td>358</td>
+                <td>358</td>
+                <td>1</td>
+                
+                <td>134</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 492">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_gen_funcs_persistent_inverse_bayes_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/gen_funcs/persistent_inverse_bayes.py</a></td>
+                <td>31</td>
+                <td>31</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 41">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_gen_funcs_persistent_uniform_sampling_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/gen_funcs/persistent_uniform_sampling.py</a></td>
+                <td>17</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 19">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_gen_funcs_support_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/gen_funcs/support.py</a></td>
+                <td>17</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 19">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_gen_funcs_uniform_or_localopt_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/gen_funcs/uniform_or_localopt.py</a></td>
+                <td>75</td>
+                <td>75</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 93">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_gen_funcs_uniform_sampling_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/gen_funcs/uniform_sampling.py</a></td>
+                <td>44</td>
+                <td>44</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 50">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_history_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/history.py</a></td>
+                <td>73</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 97">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_libE_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/libE.py</a></td>
+                <td>94</td>
+                <td>94</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 122">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_libE_fields_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/libE_fields.py</a></td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 1">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_libE_manager_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/libE_manager.py</a></td>
+                <td>212</td>
+                <td>212</td>
+                <td>0</td>
+                
+                <td>68</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 280">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_libE_worker_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/libE_worker.py</a></td>
+                <td>162</td>
+                <td>162</td>
+                <td>0</td>
+                
+                <td>40</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 202">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_message_numbers_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/message_numbers.py</a></td>
+                <td>18</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 18">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_register_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/register.py</a></td>
+                <td>76</td>
+                <td>76</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 102">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_resources_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/resources.py</a></td>
+                <td>185</td>
+                <td>185</td>
+                <td>0</td>
+                
+                <td>64</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 249">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_sim_funcs___init___py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/sim_funcs/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_sim_funcs_branin___init___py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/sim_funcs/branin/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_sim_funcs_branin_branin_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/sim_funcs/branin/branin.py</a></td>
+                <td>11</td>
+                <td>11</td>
+                <td>5</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 11">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_sim_funcs_branin_branin_obj_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/sim_funcs/branin/branin_obj.py</a></td>
+                <td>16</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 20">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_sim_funcs_chwirut1_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/sim_funcs/chwirut1.py</a></td>
+                <td>246</td>
+                <td>246</td>
+                <td>1</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 258">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_sim_funcs_comms_testing_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/sim_funcs/comms_testing.py</a></td>
+                <td>11</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 11">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_sim_funcs_helloworld_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/sim_funcs/helloworld.py</a></td>
+                <td>7</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 7">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_sim_funcs_inverse_bayes_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/sim_funcs/inverse_bayes.py</a></td>
+                <td>20</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 22">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_sim_funcs_job_control_hworld_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/sim_funcs/job_control_hworld.py</a></td>
+                <td>74</td>
+                <td>74</td>
+                <td>0</td>
+                
+                <td>34</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 108">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_shudson_libensemble_rsync-to-clusters_nkag-fresh-checkout_libensemble_master_libensemble_sim_funcs_six_hump_camel_py.html">/home/shudson/libensemble/rsync-to-clusters/nkag-fresh-checkout/libensemble_master/libensemble/sim_funcs/six_hump_camel.py</a></td>
+                <td>56</td>
+                <td>56</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 74">0%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.1</a>,
+            created at 2018-09-07 19:32
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

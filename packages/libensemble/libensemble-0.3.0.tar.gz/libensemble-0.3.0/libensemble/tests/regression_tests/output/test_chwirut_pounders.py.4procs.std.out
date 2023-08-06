@@ -1,0 +1,17 @@
+
+*******************************************************************************
+User generator script will be creating sim_id.
+Take care to do this sequentially.
+Also, any information given back for existing sim_id values will be overwritten!
+So everything in gen_out should be in gen_in!
+*******************************************************************************
+
+
+
+libEnsemble manager total time: 0.1267414093017578
+4 {'sim_max': 10}
+
+
+
+Run completed.
+Saving results to file: chwirut_pounders_results_after_evals=10_ranks=4

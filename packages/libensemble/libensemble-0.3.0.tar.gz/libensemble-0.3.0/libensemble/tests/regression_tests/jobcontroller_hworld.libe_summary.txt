@@ -1,0 +1,19 @@
+Worker 1:
+   Calc 0: gen Time: 0.00 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Completed
+   Calc 1: sim Time: 4.01 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Completed
+   Calc 2: sim Time: 4.12 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status:  Worker killed job on Error
+   Calc 3: sim Time: 3.12 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Worker killed job on Timeout
+   Calc 4: sim Time: 1.01 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Job Failed
+   Calc 5: sim Time: 3.12 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Manager killed on finish
+Worker 2:
+   Calc 0: sim Time: 4.01 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Completed
+   Calc 1: sim Time: 4.12 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status:  Worker killed job on Error
+   Calc 2: sim Time: 3.12 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Worker killed job on Timeout
+   Calc 3: sim Time: 1.01 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Job Failed
+   Calc 4: sim Time: 3.12 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Manager killed on finish
+Worker 3:
+   Calc 0: sim Time: 4.01 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Completed
+   Calc 1: sim Time: 4.12 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status:  Worker killed job on Error
+   Calc 2: sim Time: 3.12 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Worker killed job on Timeout
+   Calc 3: sim Time: 1.01 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Job Failed
+   Calc 4: sim Time: 3.12 Start: 2018-09-07 19:32 End: 2018-09-07 19:32 Status: Manager killed on finish

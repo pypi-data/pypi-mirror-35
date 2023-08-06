@@ -1,0 +1,8 @@
+
+libEnsemble manager total time: 0.037779808044433594
+4 {'sim_max': 10}
+
+
+
+Run completed.
+Saving results to file: 6-hump_camel_active_persistent_worker_abort_results_History_length=10_evals=10_ranks=4

@@ -1,0 +1,9 @@
+WARNING: No machine file provided - defaulting to local node
+
+libEnsemble manager total time: 4.294055938720703
+4 {'sim_max': 10}
+
+
+
+Run completed.
+Saving results to file: 6-hump_camel_with_different_nodes_uniform_sample_results_History_length=10_evals=10_ranks=4

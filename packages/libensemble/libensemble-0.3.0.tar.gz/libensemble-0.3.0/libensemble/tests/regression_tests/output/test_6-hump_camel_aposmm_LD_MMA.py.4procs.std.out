@@ -1,0 +1,45 @@
+
+*******************************************************************************
+User generator script will be creating sim_id.
+Take care to do this sequentially.
+Also, any information given back for existing sim_id values will be overwritten!
+So everything in gen_out should be in gen_in!
+*******************************************************************************
+
+
+
+libEnsemble manager total time: 4.765989780426025
+4 {'sim_max': 1000}
+
+
+
+Run completed.
+Saving results to file: 6-hump_camel_aposmm_LD_MMA_results_History_length=1000_evals=1000_ranks=4
+1.7332627266999232e-07
+3.392788104064467e-07
+4.1434202016893865e-06
+4.530975123023639e-07
+4.21245849449985e-05
+8.343526477431452e-06
+
+libEnsemble with APOSMM using a gradient-based localopt method has identified the 6 minima within a tolerance 0.0001
+
+*******************************************************************************
+User generator script will be creating sim_id.
+Take care to do this sequentially.
+Also, any information given back for existing sim_id values will be overwritten!
+So everything in gen_out should be in gen_in!
+*******************************************************************************
+
+
+
+libEnsemble manager total time: 6.651575326919556
+4 {'sim_max': 1000}
+
+
+
+Run completed.
+Saving results to file: 6-hump_camel_aposmm_LD_MMA_results_History_length=1000_evals=1000_ranks=4
+0.0
+
+libEnsemble with APOSMM using a gradient-based localopt method has identified the 1 minima within a tolerance 0.0001

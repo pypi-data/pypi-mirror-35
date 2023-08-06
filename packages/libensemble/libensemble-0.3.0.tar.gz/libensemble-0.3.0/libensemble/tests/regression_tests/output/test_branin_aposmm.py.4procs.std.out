@@ -1,0 +1,22 @@
+
+*******************************************************************************
+User generator script will be creating sim_id.
+Take care to do this sequentially.
+Also, any information given back for existing sim_id values will be overwritten!
+So everything in gen_out should be in gen_in!
+*******************************************************************************
+
+
+
+libEnsemble manager total time: 1.988548994064331
+4 {'sim_max': 150, 'elapsed_wallclock_time': 100, 'stop_val': ('f', -1)}
+
+
+
+Run completed.
+Saving results to file: branin_aposmm_History_length=152_evals=150_ranks=3
+3.319855277716495e-07
+2.6906386153205035e-10
+1.2163746245160415e-09
+
+libEnsemble with APOSMM has identified the 3 best minima within a tolerance 1e-05

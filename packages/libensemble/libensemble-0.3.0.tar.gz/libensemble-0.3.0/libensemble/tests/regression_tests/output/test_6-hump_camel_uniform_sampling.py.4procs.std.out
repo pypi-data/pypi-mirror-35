@@ -1,0 +1,10 @@
+
+libEnsemble manager total time: 0.03198528289794922
+4 {'gen_max': 501}
+
+
+
+Run completed.
+Saving results to file: 6-hump_camel_uniform_sampling_results_History_length=1500_evals=0_ranks=4
+
+libEnsemble with Uniform random sampling has identified the 6 minima within a tolerance 0.1
