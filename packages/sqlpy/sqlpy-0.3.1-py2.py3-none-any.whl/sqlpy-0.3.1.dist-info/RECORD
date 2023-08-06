@@ -1,0 +1,11 @@
+sqlpy/__init__.py,sha256=sBuPFr3zfFm59CIST2orDwv3LDQkn_Q5lYejp8kbyiY,642
+sqlpy/config.py,sha256=pvKA5vP5QOf5qa9yDTbhL334j_cItZr2i3ZkQVSXJkQ,1009
+sqlpy/exceptions.py,sha256=nk_ZUd_RkBH5qbUy7_-_I1ZehCHl_6ciuDmc2OEBBOA,867
+sqlpy/sqlpy.py,sha256=l6kzDF9P1kjQW_-v1_hzkiymJrupBfkSulAOTu5ym1s,17942
+sqlpy-0.3.1.dist-info/DESCRIPTION.rst,sha256=6RUflQgo9wDf6ovSXTeIdQ-zMsFARMds0e1Tc5H9BHc,708
+sqlpy-0.3.1.dist-info/METADATA,sha256=qWWWUypqpWGoAghzGV4lYt3Z7VMZUjhQQ2DrdjAyw-Q,1304
+sqlpy-0.3.1.dist-info/RECORD,,
+sqlpy-0.3.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+sqlpy-0.3.1.dist-info/entry_points.txt,sha256=QwpY1LUtKaiwvJKyq42kCu0jrmDEtt5rbdsDnyWOq8Y,38
+sqlpy-0.3.1.dist-info/metadata.json,sha256=Grf1ls5ebA3y-OWRASXK03ZQLWYiyvJDCxKAotgm_Tk,912
+sqlpy-0.3.1.dist-info/top_level.txt,sha256=UIObbJJJ1vPNzxHufl4F33BB5gUqmWBMHAqlC9FWR3s,6
