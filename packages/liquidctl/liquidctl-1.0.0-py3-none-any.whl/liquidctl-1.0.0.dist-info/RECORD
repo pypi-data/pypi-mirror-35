@@ -1,0 +1,10 @@
+liquidctl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+liquidctl/cli.py,sha256=RAREJwUBD2s7UB4BueXZFbB9eXrdjL5HRTZ7BBdvYKk,4392
+liquidctl/util.py,sha256=1DjgO_4HUlIhDsHiW0QV1y_CTOvL3EL2Vp0JOM5m9Ng,4738
+liquidctl/driver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+liquidctl/driver/kraken_two.py,sha256=m-jUt3N0Ia-_PECdf-OJ-abgF1yGzYhfLCn2kpiFWg0,8386
+liquidctl-1.0.0.dist-info/METADATA,sha256=cqeylKKN6irCODifI_sgKlknfckKtwtRythKgzxnEb4,1864
+liquidctl-1.0.0.dist-info/RECORD,,
+liquidctl-1.0.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+liquidctl-1.0.0.dist-info/entry_points.txt,sha256=k8JHdjFKvL-frE2iF_kypI26EiamrRl_ngjJOIykos4,50
+liquidctl-1.0.0.dist-info/top_level.txt,sha256=o1DA0ki3ztlTPBUKnFQ4kVfCobmWNYXeKwVg8WgqzD8,10

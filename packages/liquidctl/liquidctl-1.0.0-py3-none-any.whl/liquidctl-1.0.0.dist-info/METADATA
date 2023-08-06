@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: liquidctl
+Version: 1.0.0
+Summary: Control liquid coolers, starting with NZXT's Kraken X
+Home-page: https://github.com/jonasmalacofilho/liquidctl
+Author: Jonas Malaco
+Author-email: jonas@protocubo.io
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/jonasmalacofilho/liquidctl/blob/v1.0.0/README.md
+Project-URL: Changelog, https://github.com/jonasmalacofilho/liquidctl/blob/v1.0.0/CHANGELOG.md
+Keywords: cross-platform driver nzxt kraken x42 x52 x62 x72
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: docopt
+Requires-Dist: pyusb
+
+# liquidctl – liquid cooler control
+
+*liquidctl* is an open-source and cross-platform command-line tool to configure and query third generation Kraken X liquid coolers from NZXT and, in the future, more devices.
+
+```
+# liquidctl list
+Device 0, NZXT Kraken X (X42, X52, X62 or X72) at bus:address 2:3
+
+# liquidctl status
+NZXT Kraken X (X42, X52, X62 or X72), device 0
+Liquid temperature      28.8  °C
+Fan speed                849  rpm
+Pump speed              2780  rpm
+Firmware version       4.0.2
+
+# liquidctl set pump speed 90
+# liquidctl set fan speed  20 30  30 50  34 80  40 90  50 100
+# liquidctl set ring color fading 350017 ff2608
+# liquidctl set logo color fixed af5a2f
+```
+
+The embedded `--help` lists all available commands and their syntax.
+
+In the case of multiple devices the intended target can be specified with `--device <number>`.
+
+Check the documentation for more details.
+
+
+
