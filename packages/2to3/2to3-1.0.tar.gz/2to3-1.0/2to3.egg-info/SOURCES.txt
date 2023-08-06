@@ -1,0 +1,8 @@
+setup.py
+2to3.egg-info/PKG-INFO
+2to3.egg-info/SOURCES.txt
+2to3.egg-info/dependency_links.txt
+2to3.egg-info/entry_points.txt
+2to3.egg-info/top_level.txt
+cmd_2to3/__init__.py
+cmd_2to3/__main__.py
