@@ -1,0 +1,8 @@
+python-http-client
+dataclasses
+
+[dev]
+check-manifest
+
+[test]
+coverage
