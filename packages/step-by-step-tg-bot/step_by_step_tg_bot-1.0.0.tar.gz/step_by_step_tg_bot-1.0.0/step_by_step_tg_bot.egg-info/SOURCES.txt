@@ -1,0 +1,7 @@
+README.md
+setup.py
+step_by_step_tg_bot.egg-info/PKG-INFO
+step_by_step_tg_bot.egg-info/SOURCES.txt
+step_by_step_tg_bot.egg-info/dependency_links.txt
+step_by_step_tg_bot.egg-info/requires.txt
+step_by_step_tg_bot.egg-info/top_level.txt
