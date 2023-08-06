@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: datawig
+Version: 0.0.2
+Summary: Imputation for tables with missing values
+Home-page: https://github.com/awslabs/datawig
+Author: datawig-dev
+Author-email: datawig-dev@amazon.com
+Maintainer-email: datawig-dev@amazon.com
+License: Apache License 2.0
+Description: DataWig - Imputation for Tables
+        ================================
+        
+        DataWig learns models to impute missing values in tables. 
+        
+        For each to-be-imputed column, DataWig trains a supervised machine learning model
+        to predict the observed values in that column from the values in other columns  
+        
+        # Installation with pip
+        
+        ```
+        pip install datawig
+        ```
+        
+        # Running Tests
+        
+        Set up virtualenv in the root dir of the package:
+        
+        ```
+        python3 -m venv venv
+        ```
+        
+        Install the package from local sources:
+        
+        ```
+        ./venv/bin/pip install -e .
+        ```
+        
+        Run tests:
+        
+        ```
+        ./venv/bin/pip install -r requirements/requirements.dev.txt
+        ./venv/bin/python -m pytest
+        ```
+         
+         ### Acknowledgments
+         Thanks to [David Greenberg](https://github.com/dgreenberg) for the package name. 
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3
+Description-Content-Type: text/markdown
