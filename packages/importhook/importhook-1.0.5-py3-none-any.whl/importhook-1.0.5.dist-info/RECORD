@@ -1,0 +1,11 @@
+importhook/__init__.py,sha256=62IG9_Nj-sWf78VGpYU56anzmJ13m_bPSopn8UI29pw,4113
+importhook/finder.py,sha256=6h6t3d_HgpP4EFDnj3b009rg4vdlpCv_ivTwputthC0,1810
+importhook/loader.py,sha256=CWtcwwtDr82JgH4-VWsptEvry8Tn0gUdB-1-UI_7wHA,1126
+importhook/logger.py,sha256=6fYah2ETgr4kwqG-HzJTBETv4b94txsuAwTttPUaN-s,82
+importhook/meta_paths.py,sha256=kkC1f4JLeXFye7niL-C-ss04f3IPaZnA2hbOs2iCTrU,427
+importhook/registry.py,sha256=zVNePBKAD1gMHEhXCKt3HpnkVv7AHV8UZhYy0mS8Xxw,1378
+importhook/utils.py,sha256=nABDMRnBgrtRp5zJ8GDRYOsQqY4muKPTqeItDX6W-LI,177
+importhook-1.0.5.dist-info/METADATA,sha256=AWfcLRU7Z8B6Jv8ZNG4_0bYInLua5toJfgdAsA1XMmQ,3174
+importhook-1.0.5.dist-info/RECORD,,
+importhook-1.0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+importhook-1.0.5.dist-info/top_level.txt,sha256=soU8thsJvJsE0GNKIfmYiw5JyZj8xDFJcesK6iqWTqg,11
