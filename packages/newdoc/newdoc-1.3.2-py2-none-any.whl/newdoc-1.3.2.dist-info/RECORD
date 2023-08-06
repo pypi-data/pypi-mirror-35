@@ -1,0 +1,13 @@
+newdoc/__init__.py,sha256=sJbcTyNi34e4ycOAWAwSSkbE1wWJNKi88YiQL1AUhGU,17
+newdoc/newdoc.py,sha256=sDSgSzRuDI_64E9Jeq4-aZnQgjpSRttkKdDtOt5Ea-E,11783
+newdoc/templates/assembly_title.adoc,sha256=jhfeKky5GfWXFj5EILhPVzJP7eq6zh6Z3Am9x_rbPIE,3620
+newdoc/templates/con_title.adoc,sha256=5UXZ598UWHrB5caLWCgs3uXSGi2_sil2_Uujkc292RM,2283
+newdoc/templates/proc_title.adoc,sha256=jH_cLM56fE7KnAdC566tEAAtwPUUc2rTee-Is6CxuTY,2113
+newdoc/templates/ref_title.adoc,sha256=iD1DxhE1_mSu8UdwPwrWiXCC0N1N3uIcjL0tD8X9IwE,2071
+newdoc-1.3.2.dist-info/DESCRIPTION.rst,sha256=WUsf0FQmfKbdPGIPHUQCV4df6gmY1nqdP07B_wXgnHA,4294
+newdoc-1.3.2.dist-info/METADATA,sha256=1GLnk_HNHQ4Tty3RiUIhaYr-mtQrE78y9KTC9UyBXfU,4976
+newdoc-1.3.2.dist-info/RECORD,,
+newdoc-1.3.2.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+newdoc-1.3.2.dist-info/entry_points.txt,sha256=T4O0cqWZwCUwgZXUH7uY8MDVwOgFCAWHTnCz1LpNIEw,47
+newdoc-1.3.2.dist-info/metadata.json,sha256=1yScgPqcwx-rPatThYLX0JDNVdfXW3MxM63gj2sq2wg,978
+newdoc-1.3.2.dist-info/top_level.txt,sha256=jJwbsHSVOP6s1ok_2PGOWtoEPVbhC_8BEKgt0WjBCmU,7
