@@ -1,0 +1,9 @@
+README.md
+setup.py
+magic_markdown/MagicMarkdown.py
+magic_markdown/__init__.py
+magic_markdown.egg-info/PKG-INFO
+magic_markdown.egg-info/SOURCES.txt
+magic_markdown.egg-info/dependency_links.txt
+magic_markdown.egg-info/requires.txt
+magic_markdown.egg-info/top_level.txt

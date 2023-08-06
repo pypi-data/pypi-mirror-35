@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: magic_markdown
+Version: 1.0.0
+Summary: IPython cell magic to create markdown cells that contain content from python expressions
+Home-page: https://github.com/transfluxus/magic_markdown
+Author: Ramin Soleymani
+Author-email: transfluxus@posteo.de
+License: UNKNOWN
+Description: IPython cell magic with the `%%mmd` command allows to include python expressions (and other things) in a markdown text.
+        The cells can be edited as markdown, python expression are indicated by the double mustaches. 
+        
+        [See the notebook example](https://github.com/transfluxus/magic_markdown/blob/master/example/magic_markdown_test.ipynb)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
