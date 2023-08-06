@@ -1,0 +1,10 @@
+whippy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whippy/main.py,sha256=Ngp0yYVp-82M5NVGdU4loAiDTygPv5C5H19KSp66nug,472
+whippy/settings.py,sha256=eKu0wbD68NH0eVRBksHC4EHYhj3BwFaNooD-_i7XuW8,47
+whippy/whippy.py,sha256=Q5Q2IDPuJh4ja5mzxYAbbTl-q8vSC7SEBygD6invly8,9383
+whippy/classes/WPPy.py,sha256=Z-lCxRUItTNmtYoLmJOgDdzlhyifr5lcWXiittLeSUs,9493
+whippy/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whippy-0.8.1.dist-info/METADATA,sha256=weftwI7HqebbtoXzggH6amTnbEHc6frIEzXnKvAyaUU,504
+whippy-0.8.1.dist-info/RECORD,,
+whippy-0.8.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+whippy-0.8.1.dist-info/top_level.txt,sha256=GJLq_J7ZTB7cIaRmoKT1Pcco5EQ9164dK_hGsf0eaGA,7
