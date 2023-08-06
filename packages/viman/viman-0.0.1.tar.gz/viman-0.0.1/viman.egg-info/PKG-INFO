@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: viman
+Version: 0.0.1
+Summary: The vim plugin manager based on git and pathogen!
+Home-page: https://github.com/Shylock-Hg/viman.git
+Author: Shylock Hg
+Author-email: tcath2s@gmail.com
+License: GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
