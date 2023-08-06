@@ -1,0 +1,3 @@
+[console_scripts]
+msikeyboardd = msikeyboard.msikblightd:main
+
