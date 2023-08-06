@@ -1,0 +1,12 @@
+clcache/__init__.py,sha256=5xjGzYqoZjbjId-8Diwim2nTsIsZSIKgeWTAKG3TWWQ,30
+clcache/__main__.py,sha256=Yjguvff_NRdWEhe8e_XfXwhun_nn7jZjvw2hLdsPl5w,63056
+clcache/monkey.py,sha256=aj9ZCYDt-wXJx-JTLSHuO5Cq4PpP4jMTCc1xcnXmspY,1456
+clcache/storage.py,sha256=9GVny3AaK8FV4cBJqLLqP3_LbS3Jhe3yfTopd64LgC0,8540
+clcache/server/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+clcache/server/__main__.py,sha256=TLo6dHS7ird9JAdQCvLYM41XXEzsR_78-1NQ-nzD2Ow,5598
+clcache-4.2.0.data/data/clcache.pth,sha256=TRoQxja-lOituJi-Vk3JGoTEESapHW0-9DwewxuUILs,111
+clcache-4.2.0.dist-info/METADATA,sha256=4nAV0RLWcYhrdyJhzJ80eXhQMMSRCWyQKbqthOaxxv4,370
+clcache-4.2.0.dist-info/RECORD,,
+clcache-4.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+clcache-4.2.0.dist-info/entry_points.txt,sha256=fouMgwdraFQAdA2lO6lDeu5YwbIrPxPmHMNRX8TKIaM,97
+clcache-4.2.0.dist-info/top_level.txt,sha256=PMqybHwVf7QUxEthKcYWRv0r818x-emUAqvRD9Mbyng,8
