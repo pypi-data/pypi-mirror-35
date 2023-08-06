@@ -1,0 +1,9 @@
+botstat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botstat/botstat.py,sha256=PzgvpLa1FkdWpQtsd_DL5zEY2sakxXh8o7X2RCCVGGk,14269
+botstat/log_processing.py,sha256=9GinbW434kXgAdr-WSUdHhLeihCKn5FJHZ51t4u_EOY,4902
+botstat/mail.py,sha256=D8WTCQgP9fXahpfSaUS2SWCK9ZKo2VmwXqWPgpPFJxM,902
+botstat-0.0.3.dist-info/METADATA,sha256=o7TVSYNO6MCG4lBNYVGcPMoeyn_LGREYGb52JhzDpnY,5626
+botstat-0.0.3.dist-info/RECORD,,
+botstat-0.0.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+botstat-0.0.3.dist-info/entry_points.txt,sha256=3V5qOOetn7Zq6IVOeFzMAE1SOW258FIEK4iyoPkq0HQ,50
+botstat-0.0.3.dist-info/top_level.txt,sha256=1mWwBstt2Nog-qsXTfmyXPDvNPm0pHzzAfin03_dWt0,8
