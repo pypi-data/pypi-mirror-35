@@ -1,0 +1,8 @@
+jinja2
+pillow
+requests
+shapely
+
+[dev]
+pytest
+xmltodict
