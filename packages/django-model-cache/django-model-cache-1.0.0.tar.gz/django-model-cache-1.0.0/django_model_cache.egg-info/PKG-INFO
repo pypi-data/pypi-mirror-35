@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: django-model-cache
+Version: 1.0.0
+Summary: An easy-to-use cache for Django models.
+Home-page: https://github.com/patriciaborges/django-model-cache
+Author: Patrícia Borges
+Author-email: pattyborges17@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
