@@ -1,0 +1,28 @@
+Metadata-Version: 2.0
+Name: histopy
+Version: 0.5.1
+Summary: Bash-style history for Python interactive interpreter
+Home-page: https://github.com/dwpaley/history
+Author: Daniel W. Paley
+Author-email: dwpaley@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+# History
+
+BASH-inspired history for the Python3 interactive interpreter.
+
+Daniel W. Paley, 2018.  
+Contact: dwpaley@gmail.com  
+Github: https://github.com/dwpaley/history  
+
+
+Quickstart: 
+* Try history.history(), equivalent to $ history
+* Try history.recall(n), equivalent to $ !n
+
+
+
