@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: timestampy
+Version: 0.1.2
+Summary: Automatic timestamp generation on the blockchain.
+Home-page: https://github.com/reale/timestampy
+Author: Roberto Reale
+Author-email: rober.reale@gmail.com
+License: MIT license
+Keywords: timestampy
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Click (>=6.0)
+Requires-Dist: inotify
+Requires-Dist: opentimestamps-client
+
+============================================================
+TimestamPy: Automatic timestamp generation on the blockchain
+============================================================
+
+.. image:: https://img.shields.io/pypi/v/timestampy.svg
+           :target: https://pypi.python.org/pypi/timestampy
+
+.. image:: https://img.shields.io/travis/robertoreale/timestampy.svg
+           :target: https://travis-ci.org/robertoreale/timestampy
+
+.. image:: https://readthedocs.org/projects/timestampy/badge/?version=latest
+           :target: https://timestampy.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/robertoreale/timestampy/shield.svg
+        :target: https://pyup.io/repos/github/robertoreale/timestampy/
+     :alt: Updates
+
+
+
+Usage
+-----
+
+TimestamPy is based on the `OpenTimestamps`_ project and on the ``inotify`` Linux kernel facility.
+
+Install the package as follows:
+
+    $ pip3 install timestampy
+
+Then run:
+
+    $ timestampy
+
+By default, TimestamPy will watch the ``~/timestampy`` folder; each time a file is created and/or moved into it, a timestamp will be created on the Bitcoin blockchain.
+
+.. _OpenTimestamps: https://opentimestamps.org/
+
+
+=======
+History
+=======
+
+0.1.2 (2018-09-02)
+------------------
+
+* Change default timestamp folder (and add option).
+
+0.1.1 (2018-08-21)
+------------------
+
+* Minimal command line operations.
+
+0.1.0 (2018-08-21)
+------------------
+
+* First release on PyPI.
+
+
