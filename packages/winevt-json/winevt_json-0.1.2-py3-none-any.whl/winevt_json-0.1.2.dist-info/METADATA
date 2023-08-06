@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: winevt-json
+Version: 0.1.2
+Summary: A utility to convert windows system event logs into json objects.
+Home-page: https://github.com/LevelEffect/winevt_json
+Author: Rob Noeth
+Author-email: oss@leveleffect.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/LevelEffect/winevt_json/issues
+Project-URL: Source, https://github.com/LevelEffect/winevt_json/
+Keywords: infosec forensics threathunting
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Logging
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: click (>=6lxml>=4)
+Requires-Dist: python-evtx (<1)
+
+# WinevtJSON
+
+

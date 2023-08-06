@@ -1,0 +1,3 @@
+[console_scripts]
+winevt_json = winevt_json:main
+
