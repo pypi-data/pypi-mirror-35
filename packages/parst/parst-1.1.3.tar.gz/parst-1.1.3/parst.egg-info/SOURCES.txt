@@ -1,0 +1,7 @@
+README.md
+parst.py
+setup.py
+parst.egg-info/PKG-INFO
+parst.egg-info/SOURCES.txt
+parst.egg-info/dependency_links.txt
+parst.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: parst
+Version: 1.1.3
+Summary: String parsing with common regexes without needing to know Regex
+Home-page: https://github.com/bussierem/parst/
+Author: Max Bussiere
+Author-email: max.bussiere@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
