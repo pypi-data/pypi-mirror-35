@@ -1,0 +1,8 @@
+README.md
+setup.py
+gallos/__init__.py
+gallos/gallos.py
+gallos.egg-info/PKG-INFO
+gallos.egg-info/SOURCES.txt
+gallos.egg-info/dependency_links.txt
+gallos.egg-info/top_level.txt
