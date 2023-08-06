@@ -1,0 +1,12 @@
+rdial/__init__.py,sha256=sXW7E3tEEZidgp6cIjb1-Ad5PQHdDiQcFFKtvrA8_Qw,1016
+rdial/_version.py,sha256=boYSjadOW6vWgUAZpz5Z7t5pWHLYwvvkUbjAfZkXyPE,216
+rdial/cmdline.py,sha256=z6VR17Yl2ip0x7jemEQUmFw_n5xyn8JZ6elvC9sbEA4,25801
+rdial/config,sha256=GzdNWXzLMxBwLCormTxTV0-LeJlVmh4ioZ6rWkklRdU,103
+rdial/events.py,sha256=o9bqM3reD0i_eLcB_Gi8TJerVWmwrgyf67dqUU7jBCs,14719
+rdial/utils.py,sha256=tjQ_QMc0dX1p8LWs9ccC9eMNbgEgMlKTlg9eHTMJok8,6045
+rdial/locale/rdial.pot,sha256=b7g48SdN3yxF1wKRRbNZPH8V8jqpsDggD9OVHDLaSC8,5098
+rdial-1.0.0.dist-info/METADATA,sha256=bnQ3IvrujKzfSUW1yLoRe8RIGxUcs5ewsVkFPpUJe2I,5604
+rdial-1.0.0.dist-info/RECORD,,
+rdial-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+rdial-1.0.0.dist-info/entry_points.txt,sha256=32eC4YhYFoeFR8Gf5_K5CooZg3OEdwqzFWJgMnBlnhs,46
+rdial-1.0.0.dist-info/top_level.txt,sha256=dd6C4QSF6qCvLajbPF62k7JnVgOYAgFu0pJ3Qfcsjcw,6
