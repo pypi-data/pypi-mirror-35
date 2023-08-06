@@ -1,0 +1,13 @@
+alosi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alosi/api_client.py,sha256=lDtc40UcU4fqMLykuNK7lNPXl1d3h5Egkzd-80OGeKg,1538
+alosi/bridge_api.py,sha256=jPoSHpHt0bcdZ_uhPj71ReGOZqvRB34lsYQew_BYYZg,1310
+alosi/engine.py,sha256=90f7cPoyY5tsYHn_SZX-VzGxErwMzAXOM1vvYZ2c-g0,26750
+alosi/engine_api.py,sha256=NPi6lwbzw3ImC3YU5txUK7XKsEDrd214EdrHRpQmMuw,1227
+alosi/google_drive.py,sha256=3QlpXkwruq5uy82xPd9wdP4d3jgKPATwc17cEUO_wgg,3874
+alosi/initializer.py,sha256=A-kpkhNj0Ir3Xf1AtS9nxuj7oH7iJ0oHRvhHVv7mdxs,674
+alosi/olx.py,sha256=PmNKk9zRtd3pssXrVRWG2gkN5-UOhYDBHfyvBbvCJXc,7566
+alosi-1.1.2.dist-info/LICENSE.txt,sha256=cM-mX6_QhBdsT47tCfNIOT3lwLRQyiOJ6VWtrQ1cxFo,11370
+alosi-1.1.2.dist-info/METADATA,sha256=vdA6rsuDaP8I5oUFvz8MC4qZ52wuCYeIbPB86QWB4uM,477
+alosi-1.1.2.dist-info/RECORD,,
+alosi-1.1.2.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+alosi-1.1.2.dist-info/top_level.txt,sha256=cTxNtx52tE3zDGN43dg5EzHZeqLcPv8VHxJ2BPzy28A,6
