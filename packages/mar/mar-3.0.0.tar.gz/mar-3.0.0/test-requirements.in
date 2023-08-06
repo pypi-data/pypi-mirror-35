@@ -1,0 +1,6 @@
+pytest
+pytest-travis-fold
+pytest-random-order
+hypothesis
+mock
+-rrequirements.txt
