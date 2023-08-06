@@ -1,0 +1,1 @@
+from .critswhitelist import CritsWhitelist
