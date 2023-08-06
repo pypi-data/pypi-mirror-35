@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: trawler
+Version: 1.3.6
+Summary: A data gathering framework to search and get information from web sources
+Home-page: https://github.com/rrmerugu/trawler
+Author: Ravi RT Merugu
+Author-email: rrmerugu@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: cssselect (==1.0.1)
+Requires-Dist: lxml (==4.1.0)
+Requires-Dist: selenium (==3.6.0)
+Requires-Dist: six (==1.11.0)
+Requires-Dist: beautifulsoup4 (==4.6.0)
+Requires-Dist: requests (==2.18.4)
+Requires-Dist: user-agent (==0.1.9)
+
+UNKNOWN
+
+
