@@ -1,0 +1,3 @@
+[console_scripts]
+darkmute.py = darkmute:dark_mute
+
