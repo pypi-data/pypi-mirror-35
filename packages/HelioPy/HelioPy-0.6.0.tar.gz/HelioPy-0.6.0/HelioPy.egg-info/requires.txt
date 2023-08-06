@@ -1,0 +1,14 @@
+numpy
+astropy
+
+[coordinates]
+sunpy
+
+[data]
+pandas
+sunpy
+requests
+cdflib
+
+[spice]
+spiceypy
