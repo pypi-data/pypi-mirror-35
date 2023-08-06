@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: acdh-django-sirad
+Version: 0.1.0
+Summary: Django App to create a django-app out of a SIRAD Package.
+Home-page: https://github.com/acdh-oeaw/acdh-django-sirad
+Author: Peter Andorfer
+Author-email: peter.andorfer@oeaw.ac.at
+License: MIT License
+Description: acdh-django-sirad
+        =================
+        
+        parse a SIRAD-ARCHIV and generates a django-app out of it. Also imports the data from the SIRAD-ARCHIV into your django app.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
