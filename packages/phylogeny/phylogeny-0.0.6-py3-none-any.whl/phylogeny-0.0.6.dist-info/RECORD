@@ -1,0 +1,11 @@
+phylogeny/__init__.py,sha256=_AwCEJ07v_Hp22iqyXD7jphvg8lzSA-eMh-H9QMvOKk,34
+phylogeny/core/__init__.py,sha256=ZT1Z66lYVM668FwfkZTZSh88M8LJz6cIz5t2Rz-4CFQ,59
+phylogeny/core/distance.py,sha256=kwebjxolvxtzRDSz5c4qCgcXHQOfuv5M4qXnv6ghXUA,3707
+phylogeny/core/fpc.py,sha256=SxJKP84uxcfkeSnjGTS4w8_4WJG4lN3s-7qHiPkxgWw,2286
+phylogeny/core/tree.py,sha256=lwTSsQoU5pJIFsZPkmuClkyHwJxi8T1SuqvLABWMQQw,4480
+phylogeny-0.0.6.dist-info/DESCRIPTION.rst,sha256=V5LVe8kua9QgkbFXKBN5SxoiCa-5m407Vx4eOcvDdV0,15460
+phylogeny-0.0.6.dist-info/METADATA,sha256=i15xUktuRJiN-ZBcZNeof-opeQ7j8kuXrVpDJt42RFA,16569
+phylogeny-0.0.6.dist-info/RECORD,,
+phylogeny-0.0.6.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+phylogeny-0.0.6.dist-info/metadata.json,sha256=U4vn49zMtnb-O6Fac10Zk56S71SZXkUIcijLFOpdqLs,1036
+phylogeny-0.0.6.dist-info/top_level.txt,sha256=FiGPRRrYUHVWbX2hU8ZVY_uaXhXcrYBa_G0NMBYlfpE,10
