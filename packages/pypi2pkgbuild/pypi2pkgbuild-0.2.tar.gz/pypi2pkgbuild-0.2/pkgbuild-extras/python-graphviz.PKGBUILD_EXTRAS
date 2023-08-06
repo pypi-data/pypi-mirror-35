@@ -1,0 +1,3 @@
+# python-graphviz
+depends+=('graphviz')
+# vim: set ft=PKGBUILD :

@@ -1,0 +1,3 @@
+# python-pylibftdi
+depends+=('libftdi')
+# vim: set ft=PKGBUILD :

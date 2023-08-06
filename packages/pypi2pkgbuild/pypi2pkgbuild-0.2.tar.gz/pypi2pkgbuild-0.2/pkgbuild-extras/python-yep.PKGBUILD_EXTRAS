@@ -1,0 +1,3 @@
+# python-yep
+depends+=('gperftools')
+# vim: set ft=PKGBUILD :
