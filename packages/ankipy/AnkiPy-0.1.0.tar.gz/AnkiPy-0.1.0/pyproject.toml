@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "AnkiPy"
+version = "0.1.0"
+description = "Create anki decks and cards from your Python application"
+authors = ["patarapolw <patarapolw@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "*"
+importlib_resources = "^1.0"
+bs4 = "^0.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.7"
+nonrepeat = "^0.1.0"
