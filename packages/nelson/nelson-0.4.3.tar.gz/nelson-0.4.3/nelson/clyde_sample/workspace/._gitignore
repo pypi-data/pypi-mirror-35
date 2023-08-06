@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Don't ignore directories, so we can recurse into them
+!*/
+
+# Don't ignore .gitignore other needed files
+!.gitignore
+helloworld.c
+main.c
+
