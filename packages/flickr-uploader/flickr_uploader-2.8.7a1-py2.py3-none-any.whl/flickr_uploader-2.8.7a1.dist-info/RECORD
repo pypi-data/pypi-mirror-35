@@ -1,0 +1,17 @@
+flickr_uploader-2.8.7a1.data/data/etc/uploadr.cron,sha256=HDgG3fZLAxSujT28ymPcXbnPYG-fCY3xClog-QwqSIY,1436
+flickr_uploader-2.8.7a1.data/data/etc/uploadr.ini,sha256=G4yFu-xU3WEsg_rcx9eIwD_b9EaxWsYn3dkjSuebyfg,7307
+flickr_uploader-2.8.7a1.data/scripts/uploadr.py,sha256=nARBCY8RduOux939vrM6hL7hoVkxGbM3iZCU5M7A2bs,28491
+flickr_uploader-2.8.7a1.dist-info/METADATA,sha256=X9dEcPZYv4Nzbi1a98c1gAeAOuiNfs3iaR2jKK0zBao,26839
+flickr_uploader-2.8.7a1.dist-info/RECORD,,
+flickr_uploader-2.8.7a1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+flickr_uploader-2.8.7a1.dist-info/top_level.txt,sha256=oyXcrLgLICoBS0ILk_wZBhkAAY-M4hbQoMsA1hDsf5c,4
+lib/FlickrApiWrapper.py,sha256=4SnWGsUuVswrP-DJfE1NCUI3uWRXkxZ7PQCDYXbTY1w,18504
+lib/FlickrUploadr.py,sha256=zU6YXCRt4JgzIq5Qpm07rMM6o4l1jBqt94EK7XUeShs,152983
+lib/Konstants.py,sha256=4PmknCWEeydabSPQBElgRl2riL0wlTr8HXwG2wfmvNA,3284
+lib/MyConfig.py,sha256=_XHPwHdzbGfG4bYdzkoq4iaB9R7b0WrK6w88c9RDcnM,24646
+lib/NicePrint.py,sha256=_7qB6-hbuppEQCwfcEYgXsJT4--B96l78GhEqzrD4mk,10495
+lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib/__version__.py,sha256=yuWynWhUNLUXFShceHZIet3zS30VHLmqc-k0RVxENZI,275
+lib/mprocessing.py,sha256=joSSMYHCxMh-1JFMBdxHw0-SDFYY_QLx9CsQnllZAnE,10830
+lib/multiprocessing_logging.py,sha256=s1AhJ-0MeuZN3T81MLLrd1HiviOl5NxM6slqdmkD70g,3567
+lib/rate_limited.py,sha256=DrqSNBKem3kaAoFSgoFxEBewBjtbjMqApJHLrWDY24E,14800
