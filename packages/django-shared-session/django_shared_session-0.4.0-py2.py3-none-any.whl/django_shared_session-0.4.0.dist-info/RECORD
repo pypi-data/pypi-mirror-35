@@ -1,0 +1,9 @@
+django_shared_session-0.4.0.dist-info/METADATA,sha256=Am7B0ZZHULAqrjmnnGCc2CzJl5zng5WuuVO9OW5WHYc,762
+django_shared_session-0.4.0.dist-info/RECORD,,
+django_shared_session-0.4.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_shared_session-0.4.0.dist-info/top_level.txt,sha256=SEaCsol0gp2rNdlbt7MlaVbeaOAFxnq2aA7IFRae8Zk,15
+shared_session/__init__.py,sha256=x04ZyR4JkxAWGIgN-G0w_ZAoZ2_yf_tfxiRJPaA-nkQ,203
+shared_session/signals.py,sha256=Y2xxPaqgfUC9OoEo3ckHDV44gRr3U0SGtvGqXpOE3J4,137
+shared_session/views.py,sha256=ho3PFmmh0gfaFw4jAyBxgg0JzyxNVKbtFAXshi-_gkI,2675
+shared_session/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shared_session/templatetags/shared_session.py,sha256=e3-UfvW_-b8M5EdKQzHTRvTq-f3ySz7K9Zad7FA4Kj0,2440
