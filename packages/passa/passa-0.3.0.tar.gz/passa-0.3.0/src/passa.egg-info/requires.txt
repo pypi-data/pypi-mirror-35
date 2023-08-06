@@ -1,0 +1,16 @@
+appdirs
+distlib
+packaging
+pip-shims>=0.1.2
+plette[validation]>=0.1.1
+requests
+resolvelib!=1.0.0.dev0,>=0.2.1
+requirementslib>=1.1.1
+six
+vistir>=0.1.4
+
+[tests]
+pytest-xdist
+pytest-timeout
+pytest-cov
+pytest
