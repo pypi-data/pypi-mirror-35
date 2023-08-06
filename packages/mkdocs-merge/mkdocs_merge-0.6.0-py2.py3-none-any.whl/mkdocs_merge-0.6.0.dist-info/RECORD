@@ -1,0 +1,15 @@
+mkdocs_merge-0.6.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+mkdocs_merge-0.6.0.dist-info/LICENSE.txt,sha256=BXUBUUglpFV6q3Mi0vq2OmvK_WDM7wCZ3ubiLLfcvS8,1091
+mkdocs_merge-0.6.0.dist-info/METADATA,sha256=SyzoRcZGrwGB7tzOdtBQGlyDLFH5cEvMx1hZ-1pupIM,1217
+mkdocs_merge-0.6.0.dist-info/RECORD,,
+mkdocs_merge-0.6.0.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+mkdocs_merge-0.6.0.dist-info/entry_points.txt,sha256=EQhCWrCS-JG8PEpbjLidenOskWVTnWUqDaaauaJ4p4s,59
+mkdocs_merge-0.6.0.dist-info/metadata.json,sha256=hGopCefd8FfnNGMRAPokf87imolLetKiUsiLtJYJk18,1434
+mkdocs_merge-0.6.0.dist-info/top_level.txt,sha256=W8CksVAq5iOfO7EgrOpLy9IJ52FXqR-1mYqF4U0Frvs,12
+mkdocsmerge/__init__.py,sha256=E7AQ6SJwSEHEJMElDUQNOhezmt01RgUefE36fuMJqtY,74
+mkdocsmerge/__main__.py,sha256=caOwEbFW7ZR2RZ2XYqIh1yL4y39EtdHvBaUptOLt0Bw,1540
+mkdocsmerge/merge.py,sha256=AOZD0zU4i0bFffBScC1B-TkSjeGbkN1oNEG7M-dAJ7g,6382
+mkdocsmerge/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocsmerge/tests/merge_test.py,sha256=p-_rbNehwlZ42-8DbcuL4SR15ubyQYPVl5ZZAOaNCLw,4275
+mkdocsmerge/tests/run_merge_test.py,sha256=Xv7xdDWzVB3A1LaXXgdOZlZ7qi_TsH9GkHSgVBUqOIc,1969
+mkdocsmerge/tests/utils.py,sha256=fO7_Aqu15F3YRFrj9y0aCD0Z2OS9uVvkOjSS5ZwnOBY,1267
