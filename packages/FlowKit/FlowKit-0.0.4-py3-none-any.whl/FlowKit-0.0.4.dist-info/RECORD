@@ -1,0 +1,10 @@
+FlowKit-0.0.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+FlowKit-0.0.4.dist-info/METADATA,sha256=JXWyXAXTOSu79DrVN0evJgr4WQPVR0BIeiDFYNtxhq0,355
+FlowKit-0.0.4.dist-info/RECORD,,
+FlowKit-0.0.4.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+FlowKit-0.0.4.dist-info/metadata.json,sha256=tyHPOlVhHeMp-kQlL8SYqvtXqLPJrAOyJ7bXiTX5qM0,402
+FlowKit-0.0.4.dist-info/top_level.txt,sha256=k1QXRcHgwc-emviDZ7QsM_9BOptlkh2N65D5EOre52c,8
+flowkit/__init__.py,sha256=aBsU5RqF3CJaXUdYhbTcEmbKEctNHg9wNzylUPMcGRw,34
+flowkit/utils.py,sha256=ZXpRaBSr93Aaaot06yR_yB8UVmJ8rZsj5KaKF-Bo3fk,13370
+flowkit/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flowkit/models/sample.py,sha256=Qv_xZ34H_tiRH94iDmA6PRxgx40_v7ZE06ymTKx0PcQ,18412

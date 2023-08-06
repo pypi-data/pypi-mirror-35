@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: FlowKit
+Version: 0.0.4
+Summary: Flow Cytometry Toolkit
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: BSD
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: flowio
+Requires-Dist: flowutils
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: pandas
+
+UNKNOWN
+
+
