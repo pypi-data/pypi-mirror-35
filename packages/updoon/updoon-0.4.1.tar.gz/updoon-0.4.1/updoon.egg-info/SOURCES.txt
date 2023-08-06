@@ -1,0 +1,15 @@
+CHANGES.txt
+MANIFEST.in
+README.md
+setup.py
+test/__init__.py
+test/test_demoexample.py
+updoon/__init__.py
+updoon/fred_apikey.py
+updoon/quandl_apikey.py
+updoon.egg-info/PKG-INFO
+updoon.egg-info/SOURCES.txt
+updoon.egg-info/dependency_links.txt
+updoon.egg-info/not-zip-safe
+updoon.egg-info/requires.txt
+updoon.egg-info/top_level.txt
