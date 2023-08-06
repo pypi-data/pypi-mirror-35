@@ -1,0 +1,3 @@
+[console_scripts]
+mousetrap = mousetrap.mousetrap:main
+

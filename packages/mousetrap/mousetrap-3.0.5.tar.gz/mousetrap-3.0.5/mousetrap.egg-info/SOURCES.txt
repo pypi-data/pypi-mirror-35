@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+mousetrap/__init__.py
+mousetrap/mousetrap.py
+mousetrap.egg-info/PKG-INFO
+mousetrap.egg-info/SOURCES.txt
+mousetrap.egg-info/dependency_links.txt
+mousetrap.egg-info/entry_points.txt
+mousetrap.egg-info/not-zip-safe
+mousetrap.egg-info/requires.txt
+mousetrap.egg-info/top_level.txt
