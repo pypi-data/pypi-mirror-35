@@ -1,0 +1,114 @@
+{% extends 'foirequest/base.html' %}
+{% load i18n %}
+{% load humanize %}
+
+{% block extra_head %}
+  <link href="./rss/" rel="alternate nofollow" type="application/rss+xml" title="{% blocktrans %}RSS Feed for these requests{% endblocktrans %}">
+  <link rel="alternate nofollow" type="application/atom+xml" title="{% blocktrans %}Atom feed for these request{% endblocktrans %}" href="./feed/" />
+{% endblock %}
+
+{% block app_body %}
+{% block headline %}
+
+
+<div class="mb-3 mt-3">
+  <h2>
+  {% if filtered_objects.publicbody or filtered_objects.tag or filtered_objects.topic %}
+    {% trans "Requests" %}
+    {% if filtered_objects.publicbody %}
+      <small>
+        {% blocktrans with name=filtered_objects.publicbody.name %}to {{ name }}{% endblocktrans %}
+      </small>
+    {% endif %}
+    {% if filtered_objects.tag %}
+      <small>
+        {% blocktrans with name=filtered_objects.tag.name %}with tag “{{ name }}”{% endblocktrans %}
+      </small>
+    {% endif %}
+    {% if filtered_objects.topic %}
+      <small>
+        {% blocktrans with name=filtered_objects.topic.name %}in topic “{{ name }}”{% endblocktrans %}
+      </small>
+    {% endif %}
+  {% else %}
+    {{ page_title }}
+  {% endif %}
+  </h2>
+</div>
+
+{% endblock headline %}
+
+<div class="row mb-5 align-items-start">
+  {% if form.jurisdiction.field.choices|length > 1 %}
+    <div class="col-md-3">
+      {{ form.jurisdiction }}
+    </div>
+  {% endif %}
+
+  <div class="col-md-3">
+    {{ form.status }}
+  </div>
+
+  {% comment %}
+  <div class="col-auto">
+    {{ form.topic }}
+  </div>
+  {% endcomment %}
+
+
+
+  {% if filtered_objects %}
+    <div class="ml-auto col-auto">
+      <a class="btn btn btn-light" href="{% url 'foirequest-list' %}">
+        {% trans "Show all FoI requests" %}
+      </a>
+    </div>
+  {% endif %}
+
+  <div class="ml-auto col-auto">
+    {% blocktrans with num=count|intcomma count counter=count %}One request{% plural %}{{ num }} requests{% endblocktrans %}
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-lg-12">
+    {% block col-8-headline %}{% endblock col-8-headline %}
+    <ul class="list-unstyled">
+      {% for object in object_list %}
+        <li>
+          {% include "foirequest/snippets/request_item.html" %}
+        </li>
+      {% empty %}
+        <li>
+          {% if filtered_objects %}
+            {% trans "No requests with these filters." %}
+          {% else %}
+            {% trans "No requests yet." %}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    {% if object_list.paginator.num_pages > 1 %}
+      {% include "pagination/pagination.html" with page_obj=object_list %}
+    {% endif %}
+
+    <ul class="nav nav-compact flex-column">
+      <li class="nav-header">{% blocktrans %}Feeds for these requests{% endblocktrans %}</li>
+       <li class="nav-item">
+        <a class="nav-link" href="./rss/">
+          <i class="fa fa-rss" aria-hidden="true"></i>
+          {% trans "RSS Feed" %}
+        </a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="./feed/">
+          <i class="fa fa-rss-square" aria-hidden="true"></i>
+          {% trans "Atom Feed" %}
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+{% endblock %}

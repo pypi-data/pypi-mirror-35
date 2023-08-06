@@ -1,0 +1,178 @@
+{% extends 'foirequest/base.html' %}
+{% load i18n %}
+{% load static %}
+{% load markup %}
+{% load searchtags %}
+{% load block_helper %}
+{% load form_helper %}
+
+{% block foisite_advice %}
+  {% include "foisite/banner.html" %}
+{% endblock %}
+
+{% block messages %}
+{% endblock messages %}
+
+{% block body %}
+  <form method="post" action="{% url 'foirequest-make_request' %}" novalidate>
+
+    {% csrf_token %}
+    {{ request_form.reference }}
+    {{ request_form.draft }}
+    {{ request_form.redirect_url }}
+
+    {% for k, v in config.items %}
+      {% if v %}
+        <input type="hidden" name="{{ k }}" value="1"/>
+      {% endif %}
+    {% endfor %}
+
+      <request-form
+        id="make-request" 
+        v-cloak
+        publicbody-default-search="{{ public_body_search }}"
+        :publicbodies="{{ publicbodies_json }}"
+        :request-form="{{ request_form.as_json }}"
+        {% if request.user.is_authenticated %}:user-info="{{ request.user.as_json }}"{% endif %}
+        {% if publicbody_form %}:publicbody-form="{{ publicbody_form.as_json }}"{% endif %}
+        {% if not request.user.is_authenticated %}:user-form="{{ user_form.as_json }}"{% endif %}
+        {% if not config.hide_similar %}:show-similar="true"{% endif %}
+        {% if not config.hide_draft %}:show-draft="true"{% endif %}
+        {% if config.hide_publicbody %}:hide-publicbody-chooser="true"{% endif %}
+        {% if config.hide_full_text %}:hide-full-text="true"{% endif %}
+        {% if config.hide_editing %}:hide-editing="true"{% endif %}
+        {% if multi_request %}:multi-request="true"{% endif %}
+        :config="{{ js_config }}"
+        >
+
+        <div slot="messages">
+          {% include "snippets/messages.html" %}
+        </div>
+
+        <legend slot="publicbody-legend-title">
+          {% blocktrans %}Choose a public body{% endblocktrans %}
+        </legend>
+
+        <p slot="publicbody-help-text">
+          {% blocktrans %}Please type <strong>the name of the public body</strong> you'd like to request information from into the search box.{% endblocktrans %}
+        </p>
+
+        <div slot="publicbody-missing">
+          <h6>{% trans "Can't find what you're looking for?" %}</h6>
+          <p>
+            {% url 'publicbody-list' as pb_search_url %}
+            {% url 'publicbody-propose' as pb_propose_url %}
+            {% blocktrans with search_url=pb_search_url propose_url=pb_propose_url %}
+              <a href="{{ search_url }}">Search in all public bodies</a> or <a href="{{ propose_url }}">suggest a new one</a>.
+            {% endblocktrans %}
+          </p>
+        </div>
+
+        <legend slot="request-legend-title">
+          {% blocktrans %}Write the request{% endblocktrans %}
+        </legend>
+
+        <div slot="requesthints" class="">
+          <div class="request-hints">
+            <h6>
+              {% blocktrans %}Important Notes:{% endblocktrans %}
+            </h6>
+            <ul class="list-compact">
+              <li>
+                {% blocktrans %}Write your request in <strong>simple, precise language</strong>.{% endblocktrans %}
+              </li>
+              <li>
+                {% blocktrans %}Ask for <strong>specific</strong> documents or information.{% endblocktrans %}
+              </li>
+              <li>
+                {% blocktrans %}Keep it <strong>focused and concise</strong>.{% endblocktrans %}
+              </li>
+              <li>
+                {% blocktrans %}This site is <strong>public</strong>. Everything you type and any response will be published.{% endblocktrans %}
+              </li>
+              <li>
+                {% blocktrans %}Do <strong>not include</strong> personal information in your request.{% endblocktrans %}
+              </li>
+              <li>
+                {% blocktrans %}Do <strong>not ask</strong> for personal information.{% endblocktrans %}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div slot="public">
+          {{ request_form.hide_public }}
+          {% if config.hide_public %}
+            <div style="display: none">
+              {{ request_form.public }}
+            </div>
+          {% else %}
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="checkbox">
+                  <label>
+                    {{ request_form.public }}
+                    {{ request_form.public.label }}
+                  </label>
+                  <small class="form-text text-muted">
+                    {{ request_form.public.help_text }}
+                  </small>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+        <div slot="terms">
+          {% if not user.is_authenticated and user_form.terms%}
+            <div class="card mb-3">
+              <div class="card-body">
+                {% render_field user_form.terms horizontal=False %}
+              </div>
+            </div>
+          {% endif %}
+        </div>
+
+      </request-form>
+
+    </form>
+
+    <noscript>
+      <div class="container">
+        <div class="alert alert-danger">
+          {% trans "You have JavaScript disabled. For an better experience please enable JavaScript." %}
+        </div>
+        {% if not user.is_authenticated %}
+          <div class="alert alert-warning">
+            <a href="{% url 'account-login' %}">
+              {% trans "You have to login or signup first in order to make a request." %}
+            </a>
+          </div>
+        {% else %}
+          {% if publicbodies %}
+            <h2>{% blocktrans with name=publicbodies.0.name %}To: {{ name }}{% endblocktrans %}</h2>
+            <form method="post" action="{% url 'foirequest-make_request' %}">
+              {% csrf_token %}
+              <input type="hidden" name="publicbody" value="{{ publicbodies.0.pk }}"/>
+              {% render_form request_form %}
+              <input type="submit">
+            </form>
+          {% else %}
+            <a href="{% url 'publicbody-list' %}">
+              {% trans "Please choose a public body first and click on the «Make a request» button." %}
+            </a>
+          {% endif %}
+        {% endif %}
+      </div>
+    </noscript>
+
+{% addtoblock "js" %}
+  <script src="{% static "js/common.js" %}"></script>
+{% endaddtoblock %}
+{% addtoblock "js" %}
+  <script src="{% static 'js/makerequest.js' %}" charset="utf-8"></script>
+{% endaddtoblock %}
+
+{% addtoblock "css" %}
+  <link rel="stylesheet" href="{% static 'css/makerequest.css' %}">
+{% endaddtoblock %}
+
+{% endblock %}
