@@ -1,0 +1,11 @@
+Mastodon.py
+TextBlob
+beautifulsoup4
+feedparser
+nose
+olipy
+pytumblr
+pyyaml
+requests
+sqlalchemy
+tweepy
