@@ -1,0 +1,15 @@
+pyshopee/__init__.py,sha256=CDg6Oq35YETi2eR3zNMsC_Bw1B3N4-VuNHGa9Rm21P4,48
+pyshopee/base.py,sha256=E6WC2GrHghB9Arvb2NhQBKcGaqdycLp4MkY1XuSBReI,129
+pyshopee/category.py,sha256=wW_TedEvatYnx7z3ZAzI71c9oN5Xb7G4cTyUNrKZ3nE,530
+pyshopee/client.py,sha256=cp_VwnbToAO-YPzGvwYQcufzANleSvyFvfmFjlZdSw8,3244
+pyshopee/logistic.py,sha256=VhVyka9g3cyZGw3DUhqsJCxek4hFQRGj2jnsLkzleyE,3475
+pyshopee/order.py,sha256=K-BV_MhgkRCc1KbNO6AFHfRJ0TCKSHNgkgKW7mmj8wU,2555
+pyshopee/product.py,sha256=BDTlZIeX0bc9eeDk0Vhf91wwOe7kRKcJseQ-wlZdyMI,2507
+pyshopee/rma.py,sha256=JwpljeOm8UsKleP8clnwV_ZPdf0GCK9tTS2hUs6pH1E,691
+pyshopee/shop.py,sha256=jtB8ZF_hY1NZ9IEQt0_GTqQwaWibazP2aZ7Z1oZ3PIk,1137
+pyshopee/variation.py,sha256=mYOm5qPVbVc2nrEi3aYHhiPXbiQMn7QDpFo9MO6a6eg,993
+pyshopee-1.0.0.dist-info/METADATA,sha256=FW4tiO6kZeRv7UXqJeWubsC5yoH8r9kaXH-bMw4T4fk,608
+pyshopee-1.0.0.dist-info/RECORD,,
+pyshopee-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pyshopee-1.0.0.dist-info/top_level.txt,sha256=siuKS55qubEg5DtQ7ESt5b6hUdnp0eTtQ2lDFVQdAtY,9
+pyshopee-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
