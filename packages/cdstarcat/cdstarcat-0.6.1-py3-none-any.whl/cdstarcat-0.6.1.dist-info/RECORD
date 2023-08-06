@@ -1,0 +1,9 @@
+cdstarcat/__init__.py,sha256=26s-oLZAyoiXgYlmAzSuSv3-Ns5_Lcs-R1OzEWa-OS4,104
+cdstarcat/__main__.py,sha256=ibusRQlK3oHNRTMmZpdI_pz28xrF35oU8HObmA7MHkA,4380
+cdstarcat/catalog.py,sha256=DQ-EzahDBFCMMJ7qb1R8oVRIORUXXePQD8vuSOIUt7k,8654
+cdstarcat/resources.py,sha256=UvQSVN1Mh0EkH7KRBnzHFbiyCsGLBYVbKlmZ2bDSlpk,2502
+cdstarcat-0.6.1.dist-info/METADATA,sha256=oNHpHxX6GCRCRgP2RhkjY724ksYgk7Ojhfew_wcmois,3280
+cdstarcat-0.6.1.dist-info/RECORD,,
+cdstarcat-0.6.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+cdstarcat-0.6.1.dist-info/entry_points.txt,sha256=OIRyfZpWKzphNDDCZ-uM6ylnFNdxaHICTzkq5sGK34k,55
+cdstarcat-0.6.1.dist-info/top_level.txt,sha256=GNZ96Y-zheRQj69OQNhc5PagdoQIPlcJoT3wSInGlEE,10
