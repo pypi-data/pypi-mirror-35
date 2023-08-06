@@ -1,0 +1,8 @@
+fix_author/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fix_author/cli.py,sha256=viVm5dTyGq_meyxRBmbwVBVXzgaO_Gx_nEZyOtxtHLg,1474
+fix_author/parser.py,sha256=TylgCTNUinZc-rq_4pZbgnvXkMgRT4SdIlCH5ZjpMqw,935
+fix_author-1.1.dist-info/METADATA,sha256=WZdQP7q44jGqp_qWCqaRUmAef6k6bQqoy05jbmBRzB8,1814
+fix_author-1.1.dist-info/RECORD,,
+fix_author-1.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+fix_author-1.1.dist-info/entry_points.txt,sha256=aSZKXFwOfQOzF1lelAs0v9ehe7lG76CPn_WLCq3FGWU,52
+fix_author-1.1.dist-info/top_level.txt,sha256=e5VuF4e5VjSz4bW7lBBNi42wgmbGLQNbR1lBtZCt7kg,11
