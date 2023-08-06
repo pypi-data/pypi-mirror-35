@@ -1,0 +1,8 @@
+README.md
+setup.py
+ga_storage_manager/__init__.py
+ga_storage_manager/exceptions.py
+ga_storage_manager.egg-info/PKG-INFO
+ga_storage_manager.egg-info/SOURCES.txt
+ga_storage_manager.egg-info/dependency_links.txt
+ga_storage_manager.egg-info/top_level.txt
