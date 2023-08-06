@@ -1,0 +1,7 @@
+kiali/__init__.py,sha256=9vU4wjblHhjdq1IK3dgUTgoW9wpxcQoIXX2H3qm3MMw,702
+kiali/api.py,sha256=qVMN6eCX0lx5ZUqt1AfwnbgakBMBk4qwxh9PhOYXtzQ,2035
+kiali/client.py,sha256=x9lRS4NAVbTWiPDD1kl0Up6bSeZm5cQC0u8xI364b78,6720
+kiali_client-0.4.7.dist-info/METADATA,sha256=ODbDJ7TMJwFkMx7yEUPPtyIT4Z1UgMojEvhS6hNscjg,112365
+kiali_client-0.4.7.dist-info/RECORD,,
+kiali_client-0.4.7.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+kiali_client-0.4.7.dist-info/top_level.txt,sha256=o9K8uDiOiIOgQyqp1LAQvUgMTIIPDHe_FrtHAVq0m-E,6
