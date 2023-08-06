@@ -1,0 +1,3 @@
+[console_scripts]
+py-whedon = whedon.cli:main
+

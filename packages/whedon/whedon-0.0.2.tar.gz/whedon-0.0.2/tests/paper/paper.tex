@@ -1,0 +1,438 @@
+\documentclass[10pt,a4paper,onecolumn]{article}
+\usepackage{marginnote}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{authblk,etoolbox}
+\usepackage{titlesec}
+\usepackage{calc}
+\usepackage{tikz}
+\usepackage{hyperref}
+\hypersetup{colorlinks,breaklinks,
+            urlcolor=[rgb]{0.0, 0.5, 1.0},
+            linkcolor=[rgb]{0.0, 0.5, 1.0}}
+\usepackage{caption}
+\usepackage{tcolorbox}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{seqsplit}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage[
+  backend=biber,
+%  style=alphabetic,
+%  citestyle=numeric
+]{biblatex}
+\bibliography{paper.bib}
+
+
+% --- Page layout -------------------------------------------------------------
+\usepackage[top=3.5cm, bottom=3cm, right=1.5cm, left=1.0cm,
+            headheight=2.2cm, reversemp, includemp, marginparwidth=4.5cm]{geometry}
+
+% --- Default font ------------------------------------------------------------
+% \renewcommand\familydefault{\sfdefault}
+
+% --- Style -------------------------------------------------------------------
+\renewcommand{\bibfont}{\small \sffamily}
+\renewcommand{\captionfont}{\small\sffamily}
+\renewcommand{\captionlabelfont}{\bfseries}
+
+% --- Section/SubSection/SubSubSection ----------------------------------------
+\titleformat{\section}
+  {\normalfont\sffamily\Large\bfseries}
+  {}{0pt}{}
+\titleformat{\subsection}
+  {\normalfont\sffamily\large\bfseries}
+  {}{0pt}{}
+\titleformat{\subsubsection}
+  {\normalfont\sffamily\bfseries}
+  {}{0pt}{}
+\titleformat*{\paragraph}
+  {\sffamily\normalsize}
+
+
+% --- Header / Footer ---------------------------------------------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+%\renewcommand{\headrulewidth}{0.50pt}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{\hspace{-0.75cm}\includegraphics[width=5.5cm]{logo.png}}
+\fancyhead[C]{}
+\fancyhead[R]{}
+\renewcommand{\footrulewidth}{0.25pt}
+
+\fancyfoot[L]{\footnotesize{\sffamily , (). . \textit{}, (), . \href{https://doi.org/10.21105/joss.00850}{https://doi.org/10.21105/joss.00850}}}
+
+
+\fancyfoot[R]{\sffamily \thepage}
+\makeatletter
+\let\ps@plain\ps@fancy
+\fancyheadoffset[L]{4.5cm}
+\fancyfootoffset[L]{4.5cm}
+
+% --- Macros ---------
+
+\definecolor{linky}{rgb}{0.0, 0.5, 1.0}
+
+\newtcolorbox{repobox}
+   {colback=red, colframe=red!75!black,
+     boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=3pt, bottom=3pt}
+
+\newcommand{\ExternalLink}{%
+   \tikz[x=1.2ex, y=1.2ex, baseline=-0.05ex]{%
+       \begin{scope}[x=1ex, y=1ex]
+           \clip (-0.1,-0.1)
+               --++ (-0, 1.2)
+               --++ (0.6, 0)
+               --++ (0, -0.6)
+               --++ (0.6, 0)
+               --++ (0, -1);
+           \path[draw,
+               line width = 0.5,
+               rounded corners=0.5]
+               (0,0) rectangle (1,1);
+       \end{scope}
+       \path[draw, line width = 0.5] (0.5, 0.5)
+           -- (1, 1);
+       \path[draw, line width = 0.5] (0.6, 1)
+           -- (1, 1) -- (1, 0.6);
+       }
+   }
+
+% --- Title / Authors ---------------------------------------------------------
+% patch \maketitle so that it doesn't center
+\patchcmd{\@maketitle}{center}{flushleft}{}{}
+\patchcmd{\@maketitle}{center}{flushleft}{}{}
+% patch \maketitle so that the font size for the title is normal
+\patchcmd{\@maketitle}{\LARGE}{\LARGE\sffamily}{}{}
+% patch the patch by authblk so that the author block is flush left
+\def\maketitle{{%
+  \renewenvironment{tabular}[2][]
+    {\begin{flushleft}}
+    {\end{flushleft}}
+  \AB@maketitle}}
+\makeatletter
+\renewcommand\AB@affilsepx{ \protect\Affilfont}
+%\renewcommand\AB@affilnote[1]{{\bfseries #1}\hspace{2pt}}
+\renewcommand\AB@affilnote[1]{{\bfseries #1}\hspace{3pt}}
+\makeatother
+\renewcommand\Authfont{\sffamily\bfseries}
+\renewcommand\Affilfont{\sffamily\small\mdseries}
+\setlength{\affilsep}{1em}
+
+
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={The Experiment Factory: Reproducible Experiment Containers},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\title{The Experiment Factory: Reproducible Experiment Containers}
+
+        \author[1]{Vanessa Sochat}
+    
+      \affil[1]{Stanford University Research Computing}
+  \date{\vspace{-5ex}}
+
+\begin{document}
+\maketitle
+
+\marginpar{
+  %\hrule
+  \sffamily\small
+
+  {\bfseries DOI:} \href{https://doi.org/10.21105/joss.00850}{\color{linky}{10.21105/joss.00850}}
+
+  \vspace{2mm}
+
+  {\bfseries Software}
+  \begin{itemize}
+    \setlength\itemsep{0em}
+    \item \href{https://github.com/openjournals/joss-reviews/issues/}{\color{linky}{Review}} \ExternalLink
+    \item \href{}{\color{linky}{Repository}} \ExternalLink
+    \item \href{http://dx.doi.org/10.21105/zenodo.1400822}{\color{linky}{Archive}} \ExternalLink
+  \end{itemize}
+
+  \vspace{2mm}
+
+  {\bfseries Submitted:} \\
+  {\bfseries Published:} 
+
+  \vspace{2mm}
+  {\bfseries License}\\
+  Authors of papers retain copyright and release the work under a Creative Commons Attribution 4.0 International License (\href{http://creativecommons.org/licenses/by/4.0/}{\color{linky}{CC-BY}}).
+}
+
+\hypertarget{summary}{%
+\section{Summary}\label{summary}}
+
+The Experiment Factory (Sochat 2017) is Open Source software that makes
+it easy to generate reproducible behavioral experiments. It offers a
+browsable, and tested
+\href{https://expfactory.github.io/experiments/}{library} of
+experiments, games, and surveys, support for multiple kinds of
+databases, and \href{https://expfactory.github.io/expfactory/}{robust
+documentation} for the provided tools. A user interested in deploying a
+behavioral assessment can simply select a grouping of paradigms from the
+web interface, and build a container to serve them.
+
+\begin{figure}
+\centering
+\includegraphics{img/portal.png}
+\caption{img/portal.png}
+\end{figure}
+
+\hypertarget{challenges-with-behavioral-research}{%
+\section{Challenges with Behavioral
+Research}\label{challenges-with-behavioral-research}}
+
+The reproducibility crisis (Ram 2013, @Stodden2010-cu,
+@noauthor\_2015-ig, @noauthor\_undated-sn, @Baker\_undated-bx,
+@Open\_Science\_Collaboration2015-hb) has been well met by many efforts
+(Belmann et al. 2015, @Moreews2015-dy, @Boettiger2014-cz,
+@Santana-Perez2015-wo, @Wandell2015-yt) across scientific disciplines to
+capture dependencies required for a scientific analysis. Behavioral
+research is especially challenging, historically due to the need to
+bring a study participant into the lab, and currently due to needing to
+develop and validate a well-tested set of paradigms. A common format for
+these paradigms is a web-based format that can be done on a computer
+with an internet connection, without one if all resources are provided
+locally. However, while many great tools exist for creating the
+web-based paradigms (Leeuw 2015, @McDonnell2012-ns), still lacking is
+assurance that the generated paradigms will be reproducible.
+Specifically, the following challenges remain:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dependencies} such as software, experiment static files, and
+  runtime variables must be captured for reproduciblity.
+\item
+  Individual experiments and the library must be \textbf{version
+  controlled.}
+\item
+  Each experiment could benefit from being maintianed and tested in an
+  \textbf{Open Source} fashion. This means that those knowledgable about
+  the paradigm can easily collaborate on code, and others can file
+  issues and ask questions.
+\item
+  Tools must allow for \textbf{flexibility} to allow different libraries
+  (e.g., JavaScript).
+\item
+  The final product should be \textbf{easy to deploy} exactly as the
+  creator intended.
+\end{itemize}
+
+The early version of the Experiment Factory (Sochat et al. 2016) did a
+good job to develop somewhat modular paradigms, and offered a small set
+of Python tools to generate local, static batteries from a single
+repository. Unfortunately, it was severely limited in its ability to
+scale, and provide reproducible deployments via linux containers (Merkel
+2014). The experiments were required to conform to specific set of
+software, the lack of containerization meant that installation was
+challenging and error prone, and importantly, it did not meet the
+complete set of goals outlined above. While the
+\texttt{expfactory-docker} (Sochat and Blair, n.d., @Sochat2016-pu)
+image offered a means to deploy experiments to Amazon Mechanical Turk,
+it required substantial setup and was primarily developed to meet the
+specific needs of one lab.
+
+\begin{figure}
+\centering
+\includegraphics{img/expfactory.png}
+\caption{img/expfactory.png}
+\end{figure}
+
+\hypertarget{experiment-container-generation}{%
+\section{Experiment Container
+Generation}\label{experiment-container-generation}}
+
+The software outlined here, ``expfactory,'' shares little with the
+original implementation beyond the name. Specifically, it allows for
+encapsulation of all dependencies and static files required for
+behavioral experimentation, and flexibility to the user for
+configuration of the deployment. For usage of a pre-existing experiment
+container, the user simply needs to run the Docker image. For generation
+of a new, custom container the generation workflow is typically the
+following:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Selection} The user browses a
+  \href{https://expfactory.github.io/experiments/}{library} of available
+  experiments, surveys, and games. A preview is available directly in
+  the browser, and data saved to the local machine for inspection. The
+  preview reflects exactly what will be installed into the container.
+\item
+  \textbf{Generation} The user selects one or more paradigms to add to
+  the container, and clicks ``Generate.'' The user runs the command
+  shown in the browser on his or her local machine to produce the custom
+  recipe for the container, called a Dockerfile.
+\item
+  \textbf{Building} The user builds the container (and optionally adds
+  the Dockerfile to version control or automated building on Docker Hub)
+  and uses it in production. The same container is then available for
+  others that want to reproduce the experiment.
+\end{itemize}
+
+At runtime, the user is then able to select deployment customization
+such as database (MySQL, PostgreSQL, sqlite3, or default of filesystem),
+and a study identifier.
+
+\hypertarget{experiment-container-usage}{%
+\section{Experiment Container Usage}\label{experiment-container-usage}}
+
+Once a container is generated and it's unique identifier and image
+layers served in a registry like Docker Hub, it can be cited in a paper
+with confidence that others can run and reproduce the work simply by
+using it.
+
+More information on experiment development and contribution to the
+expfactory tools, containers, or library is provided at the Experiment
+Factory official documentation. This is an Open Source project, and so
+feedback and contributions are encouraged and welcome.
+
+\hypertarget{references}{%
+\section*{References}\label{references}}
+\addcontentsline{toc}{section}{References}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-Baker_undated-bx}{}%
+Baker, Monya. n.d. ``Over Half of Psychology Studies Fail
+Reproducibility Test.'' \emph{Nature News}.
+
+\leavevmode\hypertarget{ref-Belmann2015-eb}{}%
+Belmann, Peter, Johannes Dröge, Andreas Bremges, Alice C McHardy,
+Alexander Sczyrba, and Michael D Barton. 2015. ``Bioboxes: Standardised
+Containers for Interchangeable Bioinformatics Software.''
+\emph{Gigascience} 4 (October). gigascience.biomedcentral.com:47.
+\url{https://doi.org/10.1186/s13742-015-0087-0}.
+
+\leavevmode\hypertarget{ref-Boettiger2014-cz}{}%
+Boettiger, Carl. 2014. ``An Introduction to Docker for Reproducible
+Research, with Examples from the R Environment,'' October.
+\url{https://doi.org/10.1145/2723872.2723882}.
+
+\leavevmode\hypertarget{ref-noauthor_2015-ig}{}%
+``Docker-Based Solutions to Reproducibility in Science - Seven
+Bridges.'' 2015.
+\url{https://blog.sbgenomics.com/docker-based-solutions-to-reproducibility-in-science/}.
+
+\leavevmode\hypertarget{ref-De_Leeuw2015-zw}{}%
+Leeuw, Joshua R de. 2015. ``JsPsych: A JavaScript Library for Creating
+Behavioral Experiments in a Web Browser.'' \emph{Behav. Res. Methods} 47
+(1):1--12.
+
+\leavevmode\hypertarget{ref-McDonnell2012-ns}{}%
+McDonnell, J V, J B Martin, D B Markant, A Coenen, A S Rich, and T M
+Gureckis. 2012. ``PsiTurk (Version 1.02){[}Software{]}. New York, NY:
+New York University.''
+
+\leavevmode\hypertarget{ref-Merkel2014-da}{}%
+Merkel, Dirk. 2014. ``Docker: Lightweight Linux Containers for
+Consistent Development and Deployment.'' \emph{Linux J.} Houston, TX:
+Belltown Media.
+
+\leavevmode\hypertarget{ref-Moreews2015-dy}{}%
+Moreews, François, Olivier Sallou, Hervé Ménager, Yvan Le Bras, Cyril
+Monjeaud, Christophe Blanchet, and Olivier Collin. 2015. ``BioShaDock: A
+Community Driven Bioinformatics Shared Docker-Based Tools Registry.''
+\emph{F1000Res.} 4 (December). ncbi.nlm.nih.gov:1443.
+\url{https://doi.org/10.12688/f1000research.7536.1}.
+
+\leavevmode\hypertarget{ref-Open_Science_Collaboration2015-hb}{}%
+Open Science Collaboration. 2015. ``PSYCHOLOGY. Estimating the
+Reproducibility of Psychological Science.'' \emph{Science} 349
+(6251):aac4716.
+
+\leavevmode\hypertarget{ref-Ram2013-km}{}%
+Ram, Karthik. 2013. ``Git Can Facilitate Greater Reproducibility and
+Increased Transparency in Science.'' \emph{Source Code Biol. Med.} 8
+(1):7.
+
+\leavevmode\hypertarget{ref-Santana-Perez2015-wo}{}%
+Santana-Perez, Idafen, and María S Pérez-Hernández. 2015. ``Towards
+Reproducibility in Scientific Workflows: An Infrastructure-Based
+Approach.'' \emph{Sci. Program.} 2015 (February). Hindawi Publishing
+Corporation.
+\url{https://doi.org/http://dx.doi.org/10.1155/2015/243180}.
+
+\leavevmode\hypertarget{ref-noauthor_undated-sn}{}%
+``Science Is in a Reproducibility Crisis: How Do We Resolve It?'' n.d.
+\url{http://phys.org/news/2013-09-science-crisis.html}.
+
+\leavevmode\hypertarget{ref-vanessa_sochat_2017_1059119}{}%
+Sochat, Vanessa. 2017. ``expfactory/expfactory: The Experiment Factory
+(v3.0) Release.'' \url{https://doi.org/10.5281/zenodo.1059119}.
+
+\leavevmode\hypertarget{ref-noauthor_undated-pi}{}%
+Sochat, Vanessa V, and Ross W. Blair. n.d. ``Expfactory-Docker.''
+Github.
+
+\leavevmode\hypertarget{ref-Sochat2016-pu}{}%
+Sochat, Vanessa V, Ian W Eisenberg, A Zeynep Enkavi, Jamie Li, Patrick G
+Bissett, and Russell A Poldrack. 2016. ``The Experiment Factory:
+Standardizing Behavioral Experiments.'' \emph{Front. Psychol.} 7
+(April). Frontiers.
+
+\leavevmode\hypertarget{ref-Stodden2010-cu}{}%
+Stodden, Victoria. 2010. ``The Scientific Method in Practice:
+Reproducibility in the Computational Sciences,'' February.
+papers.ssrn.com.
+
+\leavevmode\hypertarget{ref-Wandell2015-yt}{}%
+Wandell, B A, A Rokem, L M Perry, G Schaefer, and R F Dougherty. 2015.
+``Data Management to Support Reproducible Research,'' February.
+
+\end{document}
