@@ -1,0 +1,10 @@
+README.md
+setup.py
+VarOperHelper/__init__.py
+VarOperHelper/datamodel.py
+VarOperHelper/operHelper.py
+hc_varoperhelper.egg-info/PKG-INFO
+hc_varoperhelper.egg-info/SOURCES.txt
+hc_varoperhelper.egg-info/dependency_links.txt
+hc_varoperhelper.egg-info/requires.txt
+hc_varoperhelper.egg-info/top_level.txt

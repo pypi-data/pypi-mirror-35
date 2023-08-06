@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: hc-varoperhelper
+Version: 1.0.2
+Summary: hc-varoperhelper
+Home-page: http://www.haocang.com
+Author: HC
+Author-email: jiyungen@haocang.com
+License: MIT
+Description: Description
+        ===========
+        
+        通过调用相应接口可对系统内变量进行信息查询、设置值等操作
+        
+        How to Use
+        ===========
+        
+        **sample:**
+        
+        ::
+        
+            from VarOperHelper import operHelper
+            from VarOperHelper.datamodel import StatisticsType
+            
+            varhelper=operHelper.VarOper('127.0.0.1',8899)
+            varnames = ['CGS_CMD_AUTO', 'CGS_CMD_TOTAL', 'CGS_CMD_SCADA', 'CGS_CMD_MOBILE', 'CGS_PCR', 'CGS_CRR', 'CGS_CQE','xxxx']
+            
+            #返回VarValue对象列表
+            lstvarvalues=varhelper.getVarValue(varnames)
+            if lstvarvalues is not None:
+               print('打印VarValue信息如下：')
+               for item in lstvarvalues:
+                   print('Name:{0} IsOK:{1} RawValue:{2} Value:{3} Date:{4}'.format(item.Name,item.IsOk,item.RawValue,item.Value,item.Date))
+                         
+            #返回VarSummary对象列表
+            lstvarSummary = varhelper.getVarSummary(varclass='IO,MEM',rwmode='rw')
+            if lstvarSummary is not None:
+               print('打印VarSummary信息如下：')
+               for item in lstvarSummary:
+                   print('Name:{0} Desc:{1} Type:{2} RW:{3} Unit:{4} Quality:{5} TagName:{6}'.format(item.Name, item.Desc, item.Type, item.RW,
+             
+            # 返回VarDetail对象列表（BasicInfo为VarSummary类型  ValueInfo为VarValue类型)
+            lstvarDetails = varhelper.getVarDetail(varnames)
+            if lstvarDetails is not None:
+                print('打印VarDetail信息如下:')
+                for item in lstvarDetails:
+                    print('Name:{0} IsOK:{1} Desc:{2} Value:{3}'.format(item.Name, item.IsOk, item.BasicInfo.Desc, item.ValueInfo.Value)                                                                  item.Unit,item.Quality,item.TagName))
+        
+            # 返回VarValue对象列表
+            lstVarValueBuffer = varhelper.getValueBuffer('CGS_CMD_TOTAL', 0, 5)
+            if lstVarValueBuffer is not None:
+                print('打印ValueBuffer信息如下：数据共:', len(lstVarValueBuffer), '条')
+                for item in lstVarValueBuffer:
+                    print('Name:{0} IsOK:{1} RawValue:{2} Value:{3} Date:{4}'.format(item.Name, item.IsOk, item.RawValue, item.Value,item.Date))
+        
+            # 返回 VarStatisticsResult类型对象
+            varstaticresult = varhelper.getValueStatistics('CGS_CMD_TOTAL', StatisticsType.RawValueAvg)
+            if varstaticresult is not None:
+                print('打印ValueStatistics信息如下：')
+                print(varstaticresult.IsOk, varstaticresult.Result)
+                
+             varnames = [{'Name': 'CGS_CMD_AUTO', 'Value': '20'}, {'Name': 'CGS_CMD_TOTAL', 'Value': '20'},
+                    {'Name': 'CGS_CMD_SCADA', 'Value': '20'}, {'Name': 'CGS_PCR', 'Value': '20'}]
+             # 返回 SetVarValue对象列表
+             lstRet = varhelper.setVarValue(varnames)
+             if lstRet is not None:
+                print('打印SetVarValue信息如下： 共：', len(lstRet), '条\n')
+                for x in lstRet:
+                    print(x.Name, x.IsOk)
+        
+        **The above sample output:**
+        
+        ::
+        
+              打印VarValue信息如下：
+              Name:CGS_CMD_AUTO IsOK:True RawValue:0.0 Value:0.0 Date:2018-09-03 13:17:14
+              Name:CGS_CQE IsOK:True RawValue:0.0 Value:0.0 Date:2018-09-03 09:02:36
+              Name:xxxx IsOK:False RawValue:None Value:None Date:0001-01-01 00:00:00
+          
+              打印VarSummary信息如下：
+              Name:CGS_YEWEI_2 Desc:粗格栅后液位 Type:e_IO_float RW:e_RW Unit:m Quality:e_Bad TagName:Sample.Device1.CGS_YEWEI_2
+              Name:CGS_CMD_TOTAL Desc:当月发出的控制指令总数量 Type:e_IO_Int RW:e_RW Unit:条 Quality:e_Bad TagName:Sample.Device1.CGS_CMD_TOTAL
+              Name:CGS_CMD_AUTO Desc:当月由程序自动发出的控制指令数量 Type:e_IO_Int RW:e_RW Unit:条 Quality:e_Bad TagName:Sample.Device1.CGS_CMD_AUTO
+        
+              打印VarDetail信息如下:
+              Name:xxxx IsOK:False Desc:None Value:None
+              Name:CGS_CMD_AUTO IsOK:True Desc:当月由程序自动发出的控制指令数量 Value:0.0
+              Name:CGS_CQE IsOK:True Desc:该闭环控制品质达标率（实时） Value:0.0
+          
+              打印ValueBuffer信息如下：数据共: 5条
+              CGS_CMD_TOTAL 0.0 2018-09-03 10:10:11
+              CGS_CMD_TOTAL 0.0 2018-09-03 10:10:11
+              CGS_CMD_TOTAL 0.0 2018-09-03 10:10:11
+              CGS_CMD_TOTAL 0.0 2018-09-03 10:10:11
+              CGS_CMD_TOTAL 0.0 2018-09-03 10:10:11
+          
+              打印ValueStatistics信息如下：
+              True 0.0
+          
+              打印SetVarValue信息如下： 共： 4 条
+              CGS_CMD_AUTO True
+              CGS_CMD_TOTAL True
+              CGS_CMD_SCADA True
+              CGS_PCR True
+          
+        
+          
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
