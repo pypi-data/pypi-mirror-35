@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+Makefile
+README.rst
+pictools.py
+setup.py
+pictools.egg-info/PKG-INFO
+pictools.egg-info/SOURCES.txt
+pictools.egg-info/dependency_links.txt
+pictools.egg-info/entry_points.txt
+pictools.egg-info/requires.txt
+pictools.egg-info/top_level.txt
