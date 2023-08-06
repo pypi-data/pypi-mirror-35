@@ -1,0 +1,16 @@
+spyder_modelx/__init__.py,sha256=j3iw3cHavDLa6t9Ldr2M6VgifQf6Iv3N8DwrVyPizFY,920
+spyder_modelx/_version.py,sha256=kv66IyBIN-npkamkWVD0pYKUjlxU38WfFS8CT2f9Ts4,773
+spyder_modelx/kernelspec.py,sha256=QZNyKVaWlbbMJ_jDUqHYNdVFb76_JRaKCwar5Z6HbJo,2527
+spyder_modelx/modelx_kernel.py,sha256=ooIiHtGOZK6h-TOaHvUs9IMTJl_rRLDA7W-MzFLqcSw,2323
+spyder_modelx/modelxplugin.py,sha256=ddCahC3AU8Nw5MMB9-jIop1Nbk7--AsOzBHw7PNTRz8,11390
+spyder_modelx/start_kernel.py,sha256=sVEDvJKfqbQ_413oCvPB7JdGUQ90u8_svS50hEkjRBs,3737
+spyder_modelx/tests/__init__.py,sha256=-vxLs-Ehtsjw5kQnyRQbmN9xXGjTl8nnW0hsnBtCNjg,724
+spyder_modelx/tests/test_plugin.py,sha256=FlaTdimC7CkTh6wszfieS2Jr93pd_Ox55nF7evOcYl4,2556
+spyder_modelx/widgets/__init__.py,sha256=_qfYC1Q-jFKukr3hfQpPxOcvxjhz7I_GDuWLYT7wdfo,729
+spyder_modelx/widgets/modelxgui.py,sha256=Zx-PO055C_mMC6h-kUqvlOSIR6vpHrsm0DDvBxI1JLk,11534
+spyder_modelx-0.0.4.dist-info/DESCRIPTION.rst,sha256=8jes30ZuC-DKOdkf6ES9R5nsxx47LLtB-eQN0mzCUuM,1968
+spyder_modelx-0.0.4.dist-info/METADATA,sha256=0eFG8qXP6QcoEYjxiwQeR3CG6ioeTY8GqQ9siw5hq78,2824
+spyder_modelx-0.0.4.dist-info/RECORD,,
+spyder_modelx-0.0.4.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+spyder_modelx-0.0.4.dist-info/metadata.json,sha256=EakBrFavkKSQsLCr7L0Zp9lwjNtzjx317LKWbiTCpX8,1012
+spyder_modelx-0.0.4.dist-info/top_level.txt,sha256=hg28zIw2oh0tlH_B-Ni9M2cY-q1ii5FAV071QHjlCgA,14
