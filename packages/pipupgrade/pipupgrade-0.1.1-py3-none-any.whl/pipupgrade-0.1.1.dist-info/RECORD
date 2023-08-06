@@ -1,0 +1,13 @@
+pipupgrade/__attr__.py,sha256=2vQ-JqbUj5eID6AJvkcHaQfc0AGrZvjSAP8YmJUIhiU,350
+pipupgrade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipupgrade/__main__.py,sha256=VAI8mfzYBZXBFiaarqguieP2zEzT_7o6IZ3T9ee5L48,180
+pipupgrade/_pip.py,sha256=WWit8IdyO6xqbEWUiHgCUQVtdPo6y7NQsL_ZKMF0U3M,279
+pipupgrade/cli.py,sha256=RDyDt1B0MYtIUG5_mC7l-OpPpiDBXVYvAJtWf13lxNI,388
+pipupgrade/util.py,sha256=FKiNxLIXCuoSkfZnWWqSr71zyrRKsBy5BCr7y8bkf3g,113
+pipupgrade/commands/__init__.py,sha256=YDe8t98XXo6gWlZ-0yS_zPhmTlmIRZCeVRCm7ysXNtQ,1107
+pipupgrade/commands/parser.py,sha256=NM6Zmw4LcBdPTgs39WA6wuCssgq4r_BM8Nwz4vT6Pio,724
+pipupgrade-0.1.1.dist-info/METADATA,sha256=KdIaj-p8JbMM1UsRud1e1uHDs0OoPSahYeB5PuLkEpQ,1969
+pipupgrade-0.1.1.dist-info/RECORD,,
+pipupgrade-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pipupgrade-0.1.1.dist-info/entry_points.txt,sha256=WIF8DnGUQ5zHtSUrBMnw8HnCERUMUswR2IJU27PI1io,57
+pipupgrade-0.1.1.dist-info/top_level.txt,sha256=RL2qg3hDp5-RUm_VGJe3mmgbE8KB1OhUA84Nb-uIwkM,11
