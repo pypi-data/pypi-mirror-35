@@ -1,0 +1,11 @@
+como/__init__.py,sha256=1r3gzHQzxc92roZleYVm4HNcZCq5Ge-JerccC1AFziM,188
+como/battery.py,sha256=OdatKgDS-15iAmaJjFtieZxGc16Nm9JEJRotCmWt4g8,6438
+como/cli.py,sha256=3rs70UsAq47ZcQ-vLHMCz6Sj1LLzi0RhAknXctiwHhc,531
+como/core.py,sha256=Yg2ASZREXot6wULDzdRsxij6vxPIOIrGzen9CVIsOOU,12118
+como/help.py,sha256=71TQd_bpOYUAyetti4SPxYkQArPJzy6glmUyWzg719w,1336
+como/settings.py,sha256=eOuZ98bZNaeRLQtej2qjn7RjMWk8b_5-YyHCQVQaNT8,550
+como-0.6.1.dist-info/METADATA,sha256=kAGCtNUgKstv97tlSeBmGV6FeFbTcaT3Rebh_2uvov4,4477
+como-0.6.1.dist-info/RECORD,,
+como-0.6.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+como-0.6.1.dist-info/entry_points.txt,sha256=nk10iQZKPIgsuzmKK2AIiFon6h-tIHhQD6Nvg0WEsnE,40
+como-0.6.1.dist-info/top_level.txt,sha256=xglrIXU9NQwj3gpVXOanukdyfFk47MBIq1IBJUdpqBM,5
