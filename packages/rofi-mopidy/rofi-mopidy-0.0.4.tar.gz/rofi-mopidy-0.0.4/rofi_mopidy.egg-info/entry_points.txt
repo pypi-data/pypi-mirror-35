@@ -1,0 +1,3 @@
+[console_scripts]
+rofi-mopidy = rofi_mopidy.rofi_mopidy:main
+

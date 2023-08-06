@@ -1,0 +1,1 @@
+https://github.com/bcbnz/python-rofi.git@d20b3a2ba4ba1b294b002f25a8fb526c5115d0d4#egg=python_rofi

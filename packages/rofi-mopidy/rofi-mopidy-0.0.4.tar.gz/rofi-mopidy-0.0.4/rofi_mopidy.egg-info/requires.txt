@@ -1,0 +1,5 @@
+ConfigArgParse
+python-mpd2
+spotipy
+tinytag
+python-rofi

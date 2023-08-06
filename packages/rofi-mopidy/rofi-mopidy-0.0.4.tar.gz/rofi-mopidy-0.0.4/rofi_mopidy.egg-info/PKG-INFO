@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: rofi-mopidy
+Version: 0.0.4
+Summary: Add spotify and local albums to current mopidy playlist using rofi
+Home-page: https://github.com/sharktamer/rofi-mopidy
+Author: Shane Donohoe
+Author-email: donohoe.shane@gmail.com
+License: UNKNOWN
+Description: # rofi-mopidy
+        
+        A rofi frontend for mopidy, allowing caching and adding to playlist of spotify and local albums.
+        
+        Google play music support is planned.
+        
+Platform: UNKNOWN
