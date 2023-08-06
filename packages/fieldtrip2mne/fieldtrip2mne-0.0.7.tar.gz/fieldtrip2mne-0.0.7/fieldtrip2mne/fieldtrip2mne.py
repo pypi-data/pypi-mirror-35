@@ -1,0 +1,179 @@
+# -*- coding: UTF-8 -*-
+# Authors: Thomas Hartmann <thomas.hartmann@th-ht.de>
+#          Dirk Gütlin <dirk.guetlin@stud.sbg.ac.at>
+#
+# License: BSD (3-clause)
+
+import numpy as np
+from mne.epochs import EpochsArray
+from mne.evoked import EvokedArray
+from mne.io import RawArray
+
+from .utils import _create_info, _set_tmin, _create_events, \
+    _create_event_metadata
+
+
+def read_raw(fname, info, data_name='data'):
+    """Load continuous (raw) data from a FieldTrip preprocessing structure.
+
+    This function expects to find single trial raw data (FT_DATATYPE_RAW) in
+    the structure data_name is pointing at.
+
+    .. warning:: FieldTrip does not normally store the original information
+                 concerning channel location, orientation, type etc. It is
+                 therefore **highly recommended** to provide the info field.
+                 This can be obtained by reading the original raw data file
+                 with MNE functions (without preload). The returned object
+                 contains the necessary info field.
+
+    Parameters
+    ----------
+    fname: str
+        Path and filename of the .mat file containing the data.
+    info: dict or None
+        The info dict of the raw data file corresponding to the data to import.
+        If this is set to None, limited information is extracted from the
+        FieldTrip structure.
+    data_name: str
+        Name of heading dict/ variable name under which the data was originally
+        saved in MATLAB.
+
+    Returns
+    -------
+    mne.io.RawArray
+        A MNE RawArray structure consisting of the raw array and measurement
+        info
+
+    """
+    from pymatreader.pymatreader import read_mat
+
+    ft_struct = read_mat(fname,
+                         ignore_fields=['previous'],
+                         variable_names=[data_name])
+
+    # load data and set ft_struct to the heading dictionary
+    ft_struct = ft_struct[data_name]
+
+    info = _create_info(ft_struct, info)  # create info structure
+    data = np.array(ft_struct['trial'])  # create the main data array
+
+    if data.ndim > 2:
+        data = np.squeeze(data)
+
+    if data.ndim == 1:
+        data = data[np.newaxis, ...]
+
+    if data.ndim != 2:
+        raise RuntimeError('The data you are trying to load does not seem to'
+                           'be raw data')
+
+    custom_raw = RawArray(data, info)  # create an MNE RawArray
+    return custom_raw
+
+
+def read_epoched(fname, info, data_name='data',
+                          trialinfo_column=0):
+    """Load epoched data from a FieldTrip preprocessing structure.
+
+    This function expects to find epoched data in the structure data_name is
+    pointing at.
+
+    .. warning:: Only epochs with the same amount of channels and samples are
+                 supported!
+
+    .. warning:: FieldTrip does not normally store the original information
+                 concerning channel location, orientation, type etc. It is
+                 therefore **highly recommended** to provide the info field.
+                 This can be obtained by reading the original raw data file
+                 with MNE functions (without preload). The returned object
+                 contains the necessary info field.
+
+    Parameters
+    ----------
+    fname: str
+        Path and filename of the .mat file containing the data.
+    info: dict or None
+        The info dict of the raw data file corresponding to the data to import.
+        If this is set to None, limited information is extracted from the
+        FieldTrip structure.
+    data_name: str
+        Name of heading dict/ variable name under which the data was originally
+        saved in MATLAB.
+    trialinfo_column: int
+        Column of the trialinfo matrix to use for the event codes
+
+
+    Returns
+    -------
+    mne.EpochsArray
+        A MNE EpochsArray structure consisting of the epochs arrays, an event
+        matrix, start time before event (if possible, else defaults to 0) and
+        measurement info.
+
+
+    """
+    from pymatreader.pymatreader import read_mat
+    ft_struct = read_mat(fname,
+                         ignore_fields=['previous'],
+                         variable_names=[data_name])
+
+    # load data and set ft_struct to the heading dictionary
+    ft_struct = ft_struct[data_name]
+
+    info = _create_info(ft_struct, info)  # create info structure
+    data = np.array(ft_struct['trial'])  # create the epochs data array
+    events = _create_events(ft_struct, trialinfo_column)
+    metadata = _create_event_metadata(ft_struct)
+    tmin = _set_tmin(ft_struct)  # create start time
+
+    custom_epochs = EpochsArray(data=data, info=info, tmin=tmin,
+                                events=events, metadata=metadata, proj=False)
+    return custom_epochs
+
+
+def read_avg(fname, info, comment=None,
+                          data_name='data'):
+    """Load evoked data from a FieldTrip timelocked structure.
+
+    This function expects to find timelocked data in the structure data_name is
+    pointing at.
+
+    .. warning:: FieldTrip does not normally store the original information
+                 concerning channel location, orientation, type etc. It is
+                 therefore **highly recommended** to provide the info field.
+                 This can be obtained by reading the original raw data file
+                 with MNE functions (without preload). The returned object
+                 contains the necessary info field.
+
+    Parameters
+    ----------
+    fname: str
+        Path and filename of the .mat file containing the data.
+    info: dict or None
+        The info dict of the raw data file corresponding to the data to import.
+        If this is set to None, limited information is extracted from the
+        FieldTrip structure.
+    comment: str
+        Comment on dataset. Can be the condition.
+    data_name: str
+        Name of heading dict/ variable name under which the data was originally
+        saved in MATLAB.
+
+    Returns
+    -------
+    mne.EvokedArray
+        A MNE EvokedArray structure consisting of the averaged data array,
+         comment and measurement info.
+
+    """
+    from pymatreader.pymatreader import read_mat
+    ft_struct = read_mat(fname,
+                         ignore_fields=['previous'],
+                         variable_names=[data_name])
+    ft_struct = ft_struct[data_name]
+
+    info = _create_info(ft_struct, info)  # create info structure
+    data_evoked = ft_struct['avg']  # create evoked data
+
+    evoked_array = EvokedArray(data_evoked, info, comment=comment)
+    return evoked_array
