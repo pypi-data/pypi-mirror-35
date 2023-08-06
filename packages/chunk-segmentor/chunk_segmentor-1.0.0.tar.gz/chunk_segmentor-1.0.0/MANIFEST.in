@@ -1,0 +1,5 @@
+include chunk_segmentor/segmentor/static/hanlp.properties
+include chunk_segmentor/segmentor/static/hanlp-test-1.6.7.jar
+include chunk_segmentor/data/dict/*
+include README.md
+include requirements.txt
