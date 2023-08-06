@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: sashadebuggingpypideploy
+Version: 0.3.6
+Summary: Validation packages for Eric's rooms
+Home-page: https://github.com/Kristinita/Erichek
+Author: Sasha Chernykh
+Author-email: SashaChernykhEmpressOfUniverse@kristinita.ru
+License: MIT
+Description: UNKNOWN
+Keywords: gingerinas erichek erics_rooms validation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
