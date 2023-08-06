@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: j2s3-cli
+Version: 1.0.1
+Summary: A cli for publishing Java maven projects to an S3 maven repository
+Home-page: https://github.com/jackmahoney/j2s3-cli
+Author: jackmahoney
+Author-email: jackmahoney212@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: j2s3 (==1.0.2)
+Requires-Dist: click (==6.7)
+
+# Java 2 S3 CLI
+Python CLI for publish maven projects to an S3 maven repository. Requires maven installed in your path.
+
+## Install
+`pip install j2s3-cli`
+
+## Usage
+```
+j2s3 --help
+Usage: j2s3 [OPTIONS]
+
+Options:
+  -i TEXT  Input directory containing Java source and pom.xml file
+  -u TEXT  AWS_ACCESS_KEY_ID
+  -p TEXT  AWS_SECRET_ACCESS_KEY
+  -b TEXT  AWS S3 bucket name
+  --help   Show this message and exit.
+```
+
+## Contributing
+
+Pull requests and bug reports welcome on the [github repository](https://github.com/jackmahoney/j2s3-cli) and the [underlying library](https://pypi.org/project/j2s3/). 
+
+
