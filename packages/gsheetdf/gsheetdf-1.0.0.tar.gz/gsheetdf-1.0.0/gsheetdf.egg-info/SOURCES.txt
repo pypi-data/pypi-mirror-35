@@ -1,0 +1,9 @@
+README.md
+setup.py
+gsheetdf/__init__.py
+gsheetdf/gsheetdf.py
+gsheetdf.egg-info/PKG-INFO
+gsheetdf.egg-info/SOURCES.txt
+gsheetdf.egg-info/dependency_links.txt
+gsheetdf.egg-info/requires.txt
+gsheetdf.egg-info/top_level.txt
