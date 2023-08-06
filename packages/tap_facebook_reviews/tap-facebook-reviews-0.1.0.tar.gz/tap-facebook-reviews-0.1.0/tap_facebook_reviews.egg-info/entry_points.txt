@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-facebook-reviews=tap_facebook_reviews:main
+    
