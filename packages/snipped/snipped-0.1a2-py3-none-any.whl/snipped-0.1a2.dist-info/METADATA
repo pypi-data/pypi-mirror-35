@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: snipped
+Version: 0.1a2
+Summary: A small snippets manager.
+Home-page: https://github.com/dexpota/snip
+Author: Fabrizio Destro
+Author-email: destro.fabrizio@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+Requires-Dist: docopt
+Requires-Dist: pyyaml
+Requires-Dist: pygments
+Requires-Dist: requests
+
+# snipped
+
+> **snippet** helps you organize, synchronize and use your snippets.
+
+
+[![Build Status](http://img.shields.io/travis/com/dexpota/snipped.svg?style=flat-square)](https://travis-ci.com/dexpota/snipped)
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://dexpota.mit-license.org)
+
+
+## Installation
+
+You can install the latest released version of **snipped** using `pip`.
+
+`pip install snipped`
+
+Alternativaly you can install it from the source code.
+
+```bash
+git clone git@github.com:dexpota/snipped.git
+cd snipped
+pip install -e .
+```
+
+
