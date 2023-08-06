@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: sensegame
+Version: 0.0.1
+Summary: Helper library for developing games with the SenseHAT on the Raspberry PI
+Home-page: https://github.com/jornb/sensegame
+Author: Jorn Bersvendsen
+License: MIT
+Description: UNKNOWN
+Keywords: sense hat,raspberrypi,game
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Education
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3
