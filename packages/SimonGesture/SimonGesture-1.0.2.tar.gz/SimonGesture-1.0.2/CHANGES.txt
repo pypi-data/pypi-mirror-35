@@ -1,0 +1,3 @@
+v1.0.2, 2014/08/31 -- Fixed mp3 being left out of the install.
+v1.0.1, 2014/08/30 -- Fixed manifest to include background music.
+v1.0.0, 2014/08/30 -- Initial release.
