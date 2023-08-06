@@ -1,0 +1,12 @@
+README.rst
+setup.py
+AudioLib/SoundManager.py
+AudioLib/Stream.py
+AudioLib/WaveForm.py
+AudioLib/__init__.py
+AudioLib/_pyaudio.py
+AudioLib.egg-info/PKG-INFO
+AudioLib.egg-info/SOURCES.txt
+AudioLib.egg-info/dependency_links.txt
+AudioLib.egg-info/requires.txt
+AudioLib.egg-info/top_level.txt
