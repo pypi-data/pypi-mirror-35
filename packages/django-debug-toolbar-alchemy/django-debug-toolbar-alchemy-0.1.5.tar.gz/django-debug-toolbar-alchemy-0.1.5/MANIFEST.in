@@ -1,0 +1,4 @@
+include *.rst *.txt Makefile .editorconfig .importanizerc
+recursive-include debug_toolbar_alchemy *.html
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
