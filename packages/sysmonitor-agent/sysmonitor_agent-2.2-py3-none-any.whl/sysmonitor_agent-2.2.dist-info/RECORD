@@ -1,0 +1,16 @@
+sysmonitor/__init__.py,sha256=VzwUFjnw__Pl2_MUqLtWxW_nTM4cHGYwmeMBBnooIeA,57
+sysmonitor/agent/__init__.py,sha256=fyd71xzlH-deFLd1c7Hue_E8CeESlobi2djNYyvyBkE,727
+sysmonitor/agent/__main__.py,sha256=IzQPYnIpbfQPct7ur15zPDj7Z0B5v1wHuonjCud3nIo,319
+sysmonitor/agent/auth.py,sha256=7mFbecQ1WhPImjHVnEVTFd2lXCZ9itamtHon-PeHHr4,2067
+sysmonitor/agent/configuration.py,sha256=IXWxUyIDiblW_312qhjC1ANamlsrNRBuLR0f0GMPLJU,6162
+sysmonitor/agent/interface.py,sha256=qCCjaM7xWWQtq-8EqceU3L6J4EaAxJj2U70H0hourng,7548
+sysmonitor/agent/release.py,sha256=1xq9N4StG0eLm2sVYT2B6Zvidf1bTHCfN9H_FCXQ6Sk,1164
+sysmonitor/agent/utils.py,sha256=wXsPfOqCn2I_TU3dJjJ57w3VZwwKO7FY4R1bNP8xxaI,1359
+sysmonitor/agent/interfaces/__init__.py,sha256=Fs72_vuUsqhpx4nLrApEiyxjorIX0UwPS6JXYVfhkWE,176
+sysmonitor/agent/interfaces/push.py,sha256=M7Du7sDRBokOGh_Mf-bPI8x6j47FqmTATTK1O1T5fLc,2102
+sysmonitor/agent/interfaces/rest.py,sha256=WKQuvO-YGHhKb9IJuzZzCyWiaaQPJfTBVjYdIRnairs,4946
+sysmonitor_agent-2.2.dist-info/LICENSE.txt,sha256=Pf7rk6Rjmqz9G-u9hUfbPdKT9CN01gu-LY5WsjxiezU,1514
+sysmonitor_agent-2.2.dist-info/METADATA,sha256=l92h7_o0uBlSmSroM1PBUsVBwa7QFq2Xhe2lj05axAg,758
+sysmonitor_agent-2.2.dist-info/RECORD,,
+sysmonitor_agent-2.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sysmonitor_agent-2.2.dist-info/top_level.txt,sha256=L_xTLTVIVOUJgLbrnTPLmMMpmdrVHgZ71nxUgBvp-3Q,11
