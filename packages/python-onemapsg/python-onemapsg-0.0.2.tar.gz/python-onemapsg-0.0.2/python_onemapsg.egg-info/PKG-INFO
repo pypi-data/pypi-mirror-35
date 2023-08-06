@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: python-onemapsg
+Version: 0.0.2
+Summary: Python Client for OneMap SG
+Home-page: https://github.com/windspeed-io/python-onemapsg
+Author: Thomas Jiang
+Author-email: thomasjiangcy@gmail.com
+License: MIT
+Description: Python OneMap SG API
+        ====================
+        
+        .. image:: https://travis-ci.org/windspeed-io/python-onemapsg.svg?branch=master
+            :target: https://travis-ci.org/windspeed-io/python-onemapsg
+        
+        .. image:: https://coveralls.io/repos/github/windspeed-io/python-onemapsg/badge.svg?branch=master
+            :target: https://coveralls.io/github/windspeed-io/python-onemapsg?branch=master
+        
+        .. image:: https://badge.fury.io/py/python-onemapsg.svg
+            :target: https://badge.fury.io/py/python-onemapsg
+        
+        Python Client for OneMapSG.
+        
+        Only supports Python 3.6 and up.
+        
+        This package is still work-in-progress. Please do not use it in production.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
