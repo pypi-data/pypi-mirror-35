@@ -1,0 +1,3 @@
+[console_scripts]
+wh-gitd = webhooks_git_automata.webhooks:main_func
+
