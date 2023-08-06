@@ -1,0 +1,8 @@
+README.md
+setup.py
+python-multiprocess-crawler/__init__.py
+python-multiprocess-crawler/crawler.py
+python_multiprocess_crawler.egg-info/PKG-INFO
+python_multiprocess_crawler.egg-info/SOURCES.txt
+python_multiprocess_crawler.egg-info/dependency_links.txt
+python_multiprocess_crawler.egg-info/top_level.txt
