@@ -1,0 +1,8 @@
+README.md
+setup.py
+ConfigFilesManager/__init__.py
+ConfigFilesManager/configFilesManager.py
+ConfigFilesManager.egg-info/PKG-INFO
+ConfigFilesManager.egg-info/SOURCES.txt
+ConfigFilesManager.egg-info/dependency_links.txt
+ConfigFilesManager.egg-info/top_level.txt
