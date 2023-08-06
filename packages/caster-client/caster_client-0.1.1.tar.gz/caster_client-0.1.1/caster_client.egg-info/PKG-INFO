@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: caster-client
+Version: 0.1.1
+Summary: client of Caster_Union
+Home-page: UNKNOWN
+Author: zhenyu.yin
+Author-email: 823243347@qq.com
+License: Yitu Licence
+Description: It's the client of Caster_Union, which is a MockServer framework.
+Keywords: pip,Mock_Server,Caster_Union,caster
+Platform: any
