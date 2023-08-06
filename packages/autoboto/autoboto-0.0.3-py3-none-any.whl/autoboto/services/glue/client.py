@@ -1,0 +1,2009 @@
+import datetime
+import typing
+import boto3
+import autoboto
+from . import shapes
+
+
+class Client:
+    def __init__(self, *args, **kwargs):
+        self._boto_client = boto3.client("glue", *args, **kwargs)
+
+    def batch_create_partition(
+        self,
+        _request: shapes.BatchCreatePartitionRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        partition_input_list: typing.List[shapes.PartitionInput],
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.BatchCreatePartitionResponse:
+        """
+        Creates one or more partitions in a batch operation.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if partition_input_list is not autoboto.ShapeBase._NOT_SET:
+                _params['partition_input_list'] = partition_input_list
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.BatchCreatePartitionRequest(**_params)
+        response = self._boto_client.batch_create_partition(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.BatchCreatePartitionResponse.from_boto_dict(response)
+
+    def batch_delete_connection(
+        self,
+        _request: shapes.BatchDeleteConnectionRequest = None,
+        *,
+        connection_name_list: typing.List[str],
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.BatchDeleteConnectionResponse:
+        """
+        Deletes a list of connection definitions from the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if connection_name_list is not autoboto.ShapeBase._NOT_SET:
+                _params['connection_name_list'] = connection_name_list
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.BatchDeleteConnectionRequest(**_params)
+        response = self._boto_client.batch_delete_connection(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.BatchDeleteConnectionResponse.from_boto_dict(response)
+
+    def batch_delete_partition(
+        self,
+        _request: shapes.BatchDeletePartitionRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        partitions_to_delete: typing.List[shapes.PartitionValueList],
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.BatchDeletePartitionResponse:
+        """
+        Deletes one or more partitions in a batch operation.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if partitions_to_delete is not autoboto.ShapeBase._NOT_SET:
+                _params['partitions_to_delete'] = partitions_to_delete
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.BatchDeletePartitionRequest(**_params)
+        response = self._boto_client.batch_delete_partition(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.BatchDeletePartitionResponse.from_boto_dict(response)
+
+    def batch_delete_table(
+        self,
+        _request: shapes.BatchDeleteTableRequest = None,
+        *,
+        database_name: str,
+        tables_to_delete: typing.List[str],
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.BatchDeleteTableResponse:
+        """
+        Deletes multiple tables at once.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if tables_to_delete is not autoboto.ShapeBase._NOT_SET:
+                _params['tables_to_delete'] = tables_to_delete
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.BatchDeleteTableRequest(**_params)
+        response = self._boto_client.batch_delete_table(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.BatchDeleteTableResponse.from_boto_dict(response)
+
+    def batch_delete_table_version(
+        self,
+        _request: shapes.BatchDeleteTableVersionRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        version_ids: typing.List[str],
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.BatchDeleteTableVersionResponse:
+        """
+        Deletes a specified batch of versions of a table.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if version_ids is not autoboto.ShapeBase._NOT_SET:
+                _params['version_ids'] = version_ids
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.BatchDeleteTableVersionRequest(**_params)
+        response = self._boto_client.batch_delete_table_version(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.BatchDeleteTableVersionResponse.from_boto_dict(response)
+
+    def batch_get_partition(
+        self,
+        _request: shapes.BatchGetPartitionRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        partitions_to_get: typing.List[shapes.PartitionValueList],
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.BatchGetPartitionResponse:
+        """
+        Retrieves partitions in a batch request.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if partitions_to_get is not autoboto.ShapeBase._NOT_SET:
+                _params['partitions_to_get'] = partitions_to_get
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.BatchGetPartitionRequest(**_params)
+        response = self._boto_client.batch_get_partition(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.BatchGetPartitionResponse.from_boto_dict(response)
+
+    def batch_stop_job_run(
+        self,
+        _request: shapes.BatchStopJobRunRequest = None,
+        *,
+        job_name: str,
+        job_run_ids: typing.List[str],
+    ) -> shapes.BatchStopJobRunResponse:
+        """
+        Stops one or more job runs for a specified job definition.
+        """
+        if _request is None:
+            _params = {}
+            if job_name is not autoboto.ShapeBase._NOT_SET:
+                _params['job_name'] = job_name
+            if job_run_ids is not autoboto.ShapeBase._NOT_SET:
+                _params['job_run_ids'] = job_run_ids
+            _request = shapes.BatchStopJobRunRequest(**_params)
+        response = self._boto_client.batch_stop_job_run(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.BatchStopJobRunResponse.from_boto_dict(response)
+
+    def create_classifier(
+        self,
+        _request: shapes.CreateClassifierRequest = None,
+        *,
+        grok_classifier: shapes.CreateGrokClassifierRequest = autoboto.
+        ShapeBase._NOT_SET,
+        xml_classifier: shapes.CreateXMLClassifierRequest = autoboto.ShapeBase.
+        _NOT_SET,
+        json_classifier: shapes.CreateJsonClassifierRequest = autoboto.
+        ShapeBase._NOT_SET,
+    ) -> shapes.CreateClassifierResponse:
+        """
+        Creates a classifier in the user's account. This may be a `GrokClassifier`, an
+        `XMLClassifier`, or abbrev `JsonClassifier`, depending on which field of the
+        request is present.
+        """
+        if _request is None:
+            _params = {}
+            if grok_classifier is not autoboto.ShapeBase._NOT_SET:
+                _params['grok_classifier'] = grok_classifier
+            if xml_classifier is not autoboto.ShapeBase._NOT_SET:
+                _params['xml_classifier'] = xml_classifier
+            if json_classifier is not autoboto.ShapeBase._NOT_SET:
+                _params['json_classifier'] = json_classifier
+            _request = shapes.CreateClassifierRequest(**_params)
+        response = self._boto_client.create_classifier(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.CreateClassifierResponse.from_boto_dict(response)
+
+    def create_connection(
+        self,
+        _request: shapes.CreateConnectionRequest = None,
+        *,
+        connection_input: shapes.ConnectionInput,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.CreateConnectionResponse:
+        """
+        Creates a connection definition in the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if connection_input is not autoboto.ShapeBase._NOT_SET:
+                _params['connection_input'] = connection_input
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.CreateConnectionRequest(**_params)
+        response = self._boto_client.create_connection(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.CreateConnectionResponse.from_boto_dict(response)
+
+    def create_crawler(
+        self,
+        _request: shapes.CreateCrawlerRequest = None,
+        *,
+        name: str,
+        role: str,
+        database_name: str,
+        targets: shapes.CrawlerTargets,
+        description: str = autoboto.ShapeBase._NOT_SET,
+        schedule: str = autoboto.ShapeBase._NOT_SET,
+        classifiers: typing.List[str] = autoboto.ShapeBase._NOT_SET,
+        table_prefix: str = autoboto.ShapeBase._NOT_SET,
+        schema_change_policy: shapes.SchemaChangePolicy = autoboto.ShapeBase.
+        _NOT_SET,
+        configuration: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.CreateCrawlerResponse:
+        """
+        Creates a new crawler with specified targets, role, configuration, and optional
+        schedule. At least one crawl target must be specified, in the _s3Targets_ field,
+        the _jdbcTargets_ field, or the _DynamoDBTargets_ field.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if role is not autoboto.ShapeBase._NOT_SET:
+                _params['role'] = role
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if targets is not autoboto.ShapeBase._NOT_SET:
+                _params['targets'] = targets
+            if description is not autoboto.ShapeBase._NOT_SET:
+                _params['description'] = description
+            if schedule is not autoboto.ShapeBase._NOT_SET:
+                _params['schedule'] = schedule
+            if classifiers is not autoboto.ShapeBase._NOT_SET:
+                _params['classifiers'] = classifiers
+            if table_prefix is not autoboto.ShapeBase._NOT_SET:
+                _params['table_prefix'] = table_prefix
+            if schema_change_policy is not autoboto.ShapeBase._NOT_SET:
+                _params['schema_change_policy'] = schema_change_policy
+            if configuration is not autoboto.ShapeBase._NOT_SET:
+                _params['configuration'] = configuration
+            _request = shapes.CreateCrawlerRequest(**_params)
+        response = self._boto_client.create_crawler(**_request.to_boto_dict())
+
+        return shapes.CreateCrawlerResponse.from_boto_dict(response)
+
+    def create_database(
+        self,
+        _request: shapes.CreateDatabaseRequest = None,
+        *,
+        database_input: shapes.DatabaseInput,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.CreateDatabaseResponse:
+        """
+        Creates a new database in a Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if database_input is not autoboto.ShapeBase._NOT_SET:
+                _params['database_input'] = database_input
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.CreateDatabaseRequest(**_params)
+        response = self._boto_client.create_database(**_request.to_boto_dict())
+
+        return shapes.CreateDatabaseResponse.from_boto_dict(response)
+
+    def create_dev_endpoint(
+        self,
+        _request: shapes.CreateDevEndpointRequest = None,
+        *,
+        endpoint_name: str,
+        role_arn: str,
+        security_group_ids: typing.List[str] = autoboto.ShapeBase._NOT_SET,
+        subnet_id: str = autoboto.ShapeBase._NOT_SET,
+        public_key: str = autoboto.ShapeBase._NOT_SET,
+        public_keys: typing.List[str] = autoboto.ShapeBase._NOT_SET,
+        number_of_nodes: int = autoboto.ShapeBase._NOT_SET,
+        extra_python_libs_s3_path: str = autoboto.ShapeBase._NOT_SET,
+        extra_jars_s3_path: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.CreateDevEndpointResponse:
+        """
+        Creates a new DevEndpoint.
+        """
+        if _request is None:
+            _params = {}
+            if endpoint_name is not autoboto.ShapeBase._NOT_SET:
+                _params['endpoint_name'] = endpoint_name
+            if role_arn is not autoboto.ShapeBase._NOT_SET:
+                _params['role_arn'] = role_arn
+            if security_group_ids is not autoboto.ShapeBase._NOT_SET:
+                _params['security_group_ids'] = security_group_ids
+            if subnet_id is not autoboto.ShapeBase._NOT_SET:
+                _params['subnet_id'] = subnet_id
+            if public_key is not autoboto.ShapeBase._NOT_SET:
+                _params['public_key'] = public_key
+            if public_keys is not autoboto.ShapeBase._NOT_SET:
+                _params['public_keys'] = public_keys
+            if number_of_nodes is not autoboto.ShapeBase._NOT_SET:
+                _params['number_of_nodes'] = number_of_nodes
+            if extra_python_libs_s3_path is not autoboto.ShapeBase._NOT_SET:
+                _params['extra_python_libs_s3_path'] = extra_python_libs_s3_path
+            if extra_jars_s3_path is not autoboto.ShapeBase._NOT_SET:
+                _params['extra_jars_s3_path'] = extra_jars_s3_path
+            _request = shapes.CreateDevEndpointRequest(**_params)
+        response = self._boto_client.create_dev_endpoint(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.CreateDevEndpointResponse.from_boto_dict(response)
+
+    def create_job(
+        self,
+        _request: shapes.CreateJobRequest = None,
+        *,
+        name: str,
+        role: str,
+        command: shapes.JobCommand,
+        description: str = autoboto.ShapeBase._NOT_SET,
+        log_uri: str = autoboto.ShapeBase._NOT_SET,
+        execution_property: shapes.ExecutionProperty = autoboto.ShapeBase.
+        _NOT_SET,
+        default_arguments: typing.Dict[str, str] = autoboto.ShapeBase._NOT_SET,
+        connections: shapes.ConnectionsList = autoboto.ShapeBase._NOT_SET,
+        max_retries: int = autoboto.ShapeBase._NOT_SET,
+        allocated_capacity: int = autoboto.ShapeBase._NOT_SET,
+        timeout: int = autoboto.ShapeBase._NOT_SET,
+        notification_property: shapes.NotificationProperty = autoboto.ShapeBase.
+        _NOT_SET,
+    ) -> shapes.CreateJobResponse:
+        """
+        Creates a new job definition.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if role is not autoboto.ShapeBase._NOT_SET:
+                _params['role'] = role
+            if command is not autoboto.ShapeBase._NOT_SET:
+                _params['command'] = command
+            if description is not autoboto.ShapeBase._NOT_SET:
+                _params['description'] = description
+            if log_uri is not autoboto.ShapeBase._NOT_SET:
+                _params['log_uri'] = log_uri
+            if execution_property is not autoboto.ShapeBase._NOT_SET:
+                _params['execution_property'] = execution_property
+            if default_arguments is not autoboto.ShapeBase._NOT_SET:
+                _params['default_arguments'] = default_arguments
+            if connections is not autoboto.ShapeBase._NOT_SET:
+                _params['connections'] = connections
+            if max_retries is not autoboto.ShapeBase._NOT_SET:
+                _params['max_retries'] = max_retries
+            if allocated_capacity is not autoboto.ShapeBase._NOT_SET:
+                _params['allocated_capacity'] = allocated_capacity
+            if timeout is not autoboto.ShapeBase._NOT_SET:
+                _params['timeout'] = timeout
+            if notification_property is not autoboto.ShapeBase._NOT_SET:
+                _params['notification_property'] = notification_property
+            _request = shapes.CreateJobRequest(**_params)
+        response = self._boto_client.create_job(**_request.to_boto_dict())
+
+        return shapes.CreateJobResponse.from_boto_dict(response)
+
+    def create_partition(
+        self,
+        _request: shapes.CreatePartitionRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        partition_input: shapes.PartitionInput,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.CreatePartitionResponse:
+        """
+        Creates a new partition.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if partition_input is not autoboto.ShapeBase._NOT_SET:
+                _params['partition_input'] = partition_input
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.CreatePartitionRequest(**_params)
+        response = self._boto_client.create_partition(**_request.to_boto_dict())
+
+        return shapes.CreatePartitionResponse.from_boto_dict(response)
+
+    def create_script(
+        self,
+        _request: shapes.CreateScriptRequest = None,
+        *,
+        dag_nodes: typing.List[shapes.CodeGenNode
+                              ] = autoboto.ShapeBase._NOT_SET,
+        dag_edges: typing.List[shapes.CodeGenEdge
+                              ] = autoboto.ShapeBase._NOT_SET,
+        language: shapes.Language = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.CreateScriptResponse:
+        """
+        Transforms a directed acyclic graph (DAG) into code.
+        """
+        if _request is None:
+            _params = {}
+            if dag_nodes is not autoboto.ShapeBase._NOT_SET:
+                _params['dag_nodes'] = dag_nodes
+            if dag_edges is not autoboto.ShapeBase._NOT_SET:
+                _params['dag_edges'] = dag_edges
+            if language is not autoboto.ShapeBase._NOT_SET:
+                _params['language'] = language
+            _request = shapes.CreateScriptRequest(**_params)
+        response = self._boto_client.create_script(**_request.to_boto_dict())
+
+        return shapes.CreateScriptResponse.from_boto_dict(response)
+
+    def create_table(
+        self,
+        _request: shapes.CreateTableRequest = None,
+        *,
+        database_name: str,
+        table_input: shapes.TableInput,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.CreateTableResponse:
+        """
+        Creates a new table definition in the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_input is not autoboto.ShapeBase._NOT_SET:
+                _params['table_input'] = table_input
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.CreateTableRequest(**_params)
+        response = self._boto_client.create_table(**_request.to_boto_dict())
+
+        return shapes.CreateTableResponse.from_boto_dict(response)
+
+    def create_trigger(
+        self,
+        _request: shapes.CreateTriggerRequest = None,
+        *,
+        name: str,
+        type: shapes.TriggerType,
+        actions: typing.List[shapes.Action],
+        schedule: str = autoboto.ShapeBase._NOT_SET,
+        predicate: shapes.Predicate = autoboto.ShapeBase._NOT_SET,
+        description: str = autoboto.ShapeBase._NOT_SET,
+        start_on_creation: bool = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.CreateTriggerResponse:
+        """
+        Creates a new trigger.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if type is not autoboto.ShapeBase._NOT_SET:
+                _params['type'] = type
+            if actions is not autoboto.ShapeBase._NOT_SET:
+                _params['actions'] = actions
+            if schedule is not autoboto.ShapeBase._NOT_SET:
+                _params['schedule'] = schedule
+            if predicate is not autoboto.ShapeBase._NOT_SET:
+                _params['predicate'] = predicate
+            if description is not autoboto.ShapeBase._NOT_SET:
+                _params['description'] = description
+            if start_on_creation is not autoboto.ShapeBase._NOT_SET:
+                _params['start_on_creation'] = start_on_creation
+            _request = shapes.CreateTriggerRequest(**_params)
+        response = self._boto_client.create_trigger(**_request.to_boto_dict())
+
+        return shapes.CreateTriggerResponse.from_boto_dict(response)
+
+    def create_user_defined_function(
+        self,
+        _request: shapes.CreateUserDefinedFunctionRequest = None,
+        *,
+        database_name: str,
+        function_input: shapes.UserDefinedFunctionInput,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.CreateUserDefinedFunctionResponse:
+        """
+        Creates a new function definition in the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if function_input is not autoboto.ShapeBase._NOT_SET:
+                _params['function_input'] = function_input
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.CreateUserDefinedFunctionRequest(**_params)
+        response = self._boto_client.create_user_defined_function(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.CreateUserDefinedFunctionResponse.from_boto_dict(response)
+
+    def delete_classifier(
+        self,
+        _request: shapes.DeleteClassifierRequest = None,
+        *,
+        name: str,
+    ) -> shapes.DeleteClassifierResponse:
+        """
+        Removes a classifier from the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            _request = shapes.DeleteClassifierRequest(**_params)
+        response = self._boto_client.delete_classifier(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.DeleteClassifierResponse.from_boto_dict(response)
+
+    def delete_connection(
+        self,
+        _request: shapes.DeleteConnectionRequest = None,
+        *,
+        connection_name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.DeleteConnectionResponse:
+        """
+        Deletes a connection from the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if connection_name is not autoboto.ShapeBase._NOT_SET:
+                _params['connection_name'] = connection_name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.DeleteConnectionRequest(**_params)
+        response = self._boto_client.delete_connection(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.DeleteConnectionResponse.from_boto_dict(response)
+
+    def delete_crawler(
+        self,
+        _request: shapes.DeleteCrawlerRequest = None,
+        *,
+        name: str,
+    ) -> shapes.DeleteCrawlerResponse:
+        """
+        Removes a specified crawler from the Data Catalog, unless the crawler state is
+        `RUNNING`.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            _request = shapes.DeleteCrawlerRequest(**_params)
+        response = self._boto_client.delete_crawler(**_request.to_boto_dict())
+
+        return shapes.DeleteCrawlerResponse.from_boto_dict(response)
+
+    def delete_database(
+        self,
+        _request: shapes.DeleteDatabaseRequest = None,
+        *,
+        name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.DeleteDatabaseResponse:
+        """
+        Removes a specified Database from a Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.DeleteDatabaseRequest(**_params)
+        response = self._boto_client.delete_database(**_request.to_boto_dict())
+
+        return shapes.DeleteDatabaseResponse.from_boto_dict(response)
+
+    def delete_dev_endpoint(
+        self,
+        _request: shapes.DeleteDevEndpointRequest = None,
+        *,
+        endpoint_name: str,
+    ) -> shapes.DeleteDevEndpointResponse:
+        """
+        Deletes a specified DevEndpoint.
+        """
+        if _request is None:
+            _params = {}
+            if endpoint_name is not autoboto.ShapeBase._NOT_SET:
+                _params['endpoint_name'] = endpoint_name
+            _request = shapes.DeleteDevEndpointRequest(**_params)
+        response = self._boto_client.delete_dev_endpoint(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.DeleteDevEndpointResponse.from_boto_dict(response)
+
+    def delete_job(
+        self,
+        _request: shapes.DeleteJobRequest = None,
+        *,
+        job_name: str,
+    ) -> shapes.DeleteJobResponse:
+        """
+        Deletes a specified job definition. If the job definition is not found, no
+        exception is thrown.
+        """
+        if _request is None:
+            _params = {}
+            if job_name is not autoboto.ShapeBase._NOT_SET:
+                _params['job_name'] = job_name
+            _request = shapes.DeleteJobRequest(**_params)
+        response = self._boto_client.delete_job(**_request.to_boto_dict())
+
+        return shapes.DeleteJobResponse.from_boto_dict(response)
+
+    def delete_partition(
+        self,
+        _request: shapes.DeletePartitionRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        partition_values: typing.List[str],
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.DeletePartitionResponse:
+        """
+        Deletes a specified partition.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if partition_values is not autoboto.ShapeBase._NOT_SET:
+                _params['partition_values'] = partition_values
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.DeletePartitionRequest(**_params)
+        response = self._boto_client.delete_partition(**_request.to_boto_dict())
+
+        return shapes.DeletePartitionResponse.from_boto_dict(response)
+
+    def delete_table(
+        self,
+        _request: shapes.DeleteTableRequest = None,
+        *,
+        database_name: str,
+        name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.DeleteTableResponse:
+        """
+        Removes a table definition from the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.DeleteTableRequest(**_params)
+        response = self._boto_client.delete_table(**_request.to_boto_dict())
+
+        return shapes.DeleteTableResponse.from_boto_dict(response)
+
+    def delete_table_version(
+        self,
+        _request: shapes.DeleteTableVersionRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        version_id: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.DeleteTableVersionResponse:
+        """
+        Deletes a specified version of a table.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if version_id is not autoboto.ShapeBase._NOT_SET:
+                _params['version_id'] = version_id
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.DeleteTableVersionRequest(**_params)
+        response = self._boto_client.delete_table_version(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.DeleteTableVersionResponse.from_boto_dict(response)
+
+    def delete_trigger(
+        self,
+        _request: shapes.DeleteTriggerRequest = None,
+        *,
+        name: str,
+    ) -> shapes.DeleteTriggerResponse:
+        """
+        Deletes a specified trigger. If the trigger is not found, no exception is
+        thrown.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            _request = shapes.DeleteTriggerRequest(**_params)
+        response = self._boto_client.delete_trigger(**_request.to_boto_dict())
+
+        return shapes.DeleteTriggerResponse.from_boto_dict(response)
+
+    def delete_user_defined_function(
+        self,
+        _request: shapes.DeleteUserDefinedFunctionRequest = None,
+        *,
+        database_name: str,
+        function_name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.DeleteUserDefinedFunctionResponse:
+        """
+        Deletes an existing function definition from the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if function_name is not autoboto.ShapeBase._NOT_SET:
+                _params['function_name'] = function_name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.DeleteUserDefinedFunctionRequest(**_params)
+        response = self._boto_client.delete_user_defined_function(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.DeleteUserDefinedFunctionResponse.from_boto_dict(response)
+
+    def get_catalog_import_status(
+        self,
+        _request: shapes.GetCatalogImportStatusRequest = None,
+        *,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetCatalogImportStatusResponse:
+        """
+        Retrieves the status of a migration operation.
+        """
+        if _request is None:
+            _params = {}
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.GetCatalogImportStatusRequest(**_params)
+        response = self._boto_client.get_catalog_import_status(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.GetCatalogImportStatusResponse.from_boto_dict(response)
+
+    def get_classifier(
+        self,
+        _request: shapes.GetClassifierRequest = None,
+        *,
+        name: str,
+    ) -> shapes.GetClassifierResponse:
+        """
+        Retrieve a classifier by name.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            _request = shapes.GetClassifierRequest(**_params)
+        response = self._boto_client.get_classifier(**_request.to_boto_dict())
+
+        return shapes.GetClassifierResponse.from_boto_dict(response)
+
+    def get_classifiers(
+        self,
+        _request: shapes.GetClassifiersRequest = None,
+        *,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetClassifiersResponse:
+        """
+        Lists all classifier objects in the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            _request = shapes.GetClassifiersRequest(**_params)
+        response = self._boto_client.get_classifiers(**_request.to_boto_dict())
+
+        return shapes.GetClassifiersResponse.from_boto_dict(response)
+
+    def get_connection(
+        self,
+        _request: shapes.GetConnectionRequest = None,
+        *,
+        name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetConnectionResponse:
+        """
+        Retrieves a connection definition from the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.GetConnectionRequest(**_params)
+        response = self._boto_client.get_connection(**_request.to_boto_dict())
+
+        return shapes.GetConnectionResponse.from_boto_dict(response)
+
+    def get_connections(
+        self,
+        _request: shapes.GetConnectionsRequest = None,
+        *,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+        filter: shapes.GetConnectionsFilter = autoboto.ShapeBase._NOT_SET,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetConnectionsResponse:
+        """
+        Retrieves a list of connection definitions from the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            if filter is not autoboto.ShapeBase._NOT_SET:
+                _params['filter'] = filter
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            _request = shapes.GetConnectionsRequest(**_params)
+        response = self._boto_client.get_connections(**_request.to_boto_dict())
+
+        return shapes.GetConnectionsResponse.from_boto_dict(response)
+
+    def get_crawler(
+        self,
+        _request: shapes.GetCrawlerRequest = None,
+        *,
+        name: str,
+    ) -> shapes.GetCrawlerResponse:
+        """
+        Retrieves metadata for a specified crawler.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            _request = shapes.GetCrawlerRequest(**_params)
+        response = self._boto_client.get_crawler(**_request.to_boto_dict())
+
+        return shapes.GetCrawlerResponse.from_boto_dict(response)
+
+    def get_crawler_metrics(
+        self,
+        _request: shapes.GetCrawlerMetricsRequest = None,
+        *,
+        crawler_name_list: typing.List[str] = autoboto.ShapeBase._NOT_SET,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetCrawlerMetricsResponse:
+        """
+        Retrieves metrics about specified crawlers.
+        """
+        if _request is None:
+            _params = {}
+            if crawler_name_list is not autoboto.ShapeBase._NOT_SET:
+                _params['crawler_name_list'] = crawler_name_list
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            _request = shapes.GetCrawlerMetricsRequest(**_params)
+        response = self._boto_client.get_crawler_metrics(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.GetCrawlerMetricsResponse.from_boto_dict(response)
+
+    def get_crawlers(
+        self,
+        _request: shapes.GetCrawlersRequest = None,
+        *,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetCrawlersResponse:
+        """
+        Retrieves metadata for all crawlers defined in the customer account.
+        """
+        if _request is None:
+            _params = {}
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            _request = shapes.GetCrawlersRequest(**_params)
+        response = self._boto_client.get_crawlers(**_request.to_boto_dict())
+
+        return shapes.GetCrawlersResponse.from_boto_dict(response)
+
+    def get_database(
+        self,
+        _request: shapes.GetDatabaseRequest = None,
+        *,
+        name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetDatabaseResponse:
+        """
+        Retrieves the definition of a specified database.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.GetDatabaseRequest(**_params)
+        response = self._boto_client.get_database(**_request.to_boto_dict())
+
+        return shapes.GetDatabaseResponse.from_boto_dict(response)
+
+    def get_databases(
+        self,
+        _request: shapes.GetDatabasesRequest = None,
+        *,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetDatabasesResponse:
+        """
+        Retrieves all Databases defined in a given Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            _request = shapes.GetDatabasesRequest(**_params)
+        response = self._boto_client.get_databases(**_request.to_boto_dict())
+
+        return shapes.GetDatabasesResponse.from_boto_dict(response)
+
+    def get_dataflow_graph(
+        self,
+        _request: shapes.GetDataflowGraphRequest = None,
+        *,
+        python_script: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetDataflowGraphResponse:
+        """
+        Transforms a Python script into a directed acyclic graph (DAG).
+        """
+        if _request is None:
+            _params = {}
+            if python_script is not autoboto.ShapeBase._NOT_SET:
+                _params['python_script'] = python_script
+            _request = shapes.GetDataflowGraphRequest(**_params)
+        response = self._boto_client.get_dataflow_graph(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.GetDataflowGraphResponse.from_boto_dict(response)
+
+    def get_dev_endpoint(
+        self,
+        _request: shapes.GetDevEndpointRequest = None,
+        *,
+        endpoint_name: str,
+    ) -> shapes.GetDevEndpointResponse:
+        """
+        Retrieves information about a specified DevEndpoint.
+        """
+        if _request is None:
+            _params = {}
+            if endpoint_name is not autoboto.ShapeBase._NOT_SET:
+                _params['endpoint_name'] = endpoint_name
+            _request = shapes.GetDevEndpointRequest(**_params)
+        response = self._boto_client.get_dev_endpoint(**_request.to_boto_dict())
+
+        return shapes.GetDevEndpointResponse.from_boto_dict(response)
+
+    def get_dev_endpoints(
+        self,
+        _request: shapes.GetDevEndpointsRequest = None,
+        *,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetDevEndpointsResponse:
+        """
+        Retrieves all the DevEndpoints in this AWS account.
+        """
+        if _request is None:
+            _params = {}
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            _request = shapes.GetDevEndpointsRequest(**_params)
+        response = self._boto_client.get_dev_endpoints(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.GetDevEndpointsResponse.from_boto_dict(response)
+
+    def get_job(
+        self,
+        _request: shapes.GetJobRequest = None,
+        *,
+        job_name: str,
+    ) -> shapes.GetJobResponse:
+        """
+        Retrieves an existing job definition.
+        """
+        if _request is None:
+            _params = {}
+            if job_name is not autoboto.ShapeBase._NOT_SET:
+                _params['job_name'] = job_name
+            _request = shapes.GetJobRequest(**_params)
+        response = self._boto_client.get_job(**_request.to_boto_dict())
+
+        return shapes.GetJobResponse.from_boto_dict(response)
+
+    def get_job_run(
+        self,
+        _request: shapes.GetJobRunRequest = None,
+        *,
+        job_name: str,
+        run_id: str,
+        predecessors_included: bool = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetJobRunResponse:
+        """
+        Retrieves the metadata for a given job run.
+        """
+        if _request is None:
+            _params = {}
+            if job_name is not autoboto.ShapeBase._NOT_SET:
+                _params['job_name'] = job_name
+            if run_id is not autoboto.ShapeBase._NOT_SET:
+                _params['run_id'] = run_id
+            if predecessors_included is not autoboto.ShapeBase._NOT_SET:
+                _params['predecessors_included'] = predecessors_included
+            _request = shapes.GetJobRunRequest(**_params)
+        response = self._boto_client.get_job_run(**_request.to_boto_dict())
+
+        return shapes.GetJobRunResponse.from_boto_dict(response)
+
+    def get_job_runs(
+        self,
+        _request: shapes.GetJobRunsRequest = None,
+        *,
+        job_name: str,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetJobRunsResponse:
+        """
+        Retrieves metadata for all runs of a given job definition.
+        """
+        if _request is None:
+            _params = {}
+            if job_name is not autoboto.ShapeBase._NOT_SET:
+                _params['job_name'] = job_name
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            _request = shapes.GetJobRunsRequest(**_params)
+        response = self._boto_client.get_job_runs(**_request.to_boto_dict())
+
+        return shapes.GetJobRunsResponse.from_boto_dict(response)
+
+    def get_jobs(
+        self,
+        _request: shapes.GetJobsRequest = None,
+        *,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetJobsResponse:
+        """
+        Retrieves all current job definitions.
+        """
+        if _request is None:
+            _params = {}
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            _request = shapes.GetJobsRequest(**_params)
+        response = self._boto_client.get_jobs(**_request.to_boto_dict())
+
+        return shapes.GetJobsResponse.from_boto_dict(response)
+
+    def get_mapping(
+        self,
+        _request: shapes.GetMappingRequest = None,
+        *,
+        source: shapes.CatalogEntry,
+        sinks: typing.List[shapes.CatalogEntry] = autoboto.ShapeBase._NOT_SET,
+        location: shapes.Location = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetMappingResponse:
+        """
+        Creates mappings.
+        """
+        if _request is None:
+            _params = {}
+            if source is not autoboto.ShapeBase._NOT_SET:
+                _params['source'] = source
+            if sinks is not autoboto.ShapeBase._NOT_SET:
+                _params['sinks'] = sinks
+            if location is not autoboto.ShapeBase._NOT_SET:
+                _params['location'] = location
+            _request = shapes.GetMappingRequest(**_params)
+        response = self._boto_client.get_mapping(**_request.to_boto_dict())
+
+        return shapes.GetMappingResponse.from_boto_dict(response)
+
+    def get_partition(
+        self,
+        _request: shapes.GetPartitionRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        partition_values: typing.List[str],
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetPartitionResponse:
+        """
+        Retrieves information about a specified partition.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if partition_values is not autoboto.ShapeBase._NOT_SET:
+                _params['partition_values'] = partition_values
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.GetPartitionRequest(**_params)
+        response = self._boto_client.get_partition(**_request.to_boto_dict())
+
+        return shapes.GetPartitionResponse.from_boto_dict(response)
+
+    def get_partitions(
+        self,
+        _request: shapes.GetPartitionsRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+        expression: str = autoboto.ShapeBase._NOT_SET,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+        segment: shapes.Segment = autoboto.ShapeBase._NOT_SET,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetPartitionsResponse:
+        """
+        Retrieves information about the partitions in a table.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            if expression is not autoboto.ShapeBase._NOT_SET:
+                _params['expression'] = expression
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            if segment is not autoboto.ShapeBase._NOT_SET:
+                _params['segment'] = segment
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            _request = shapes.GetPartitionsRequest(**_params)
+        response = self._boto_client.get_partitions(**_request.to_boto_dict())
+
+        return shapes.GetPartitionsResponse.from_boto_dict(response)
+
+    def get_plan(
+        self,
+        _request: shapes.GetPlanRequest = None,
+        *,
+        mapping: typing.List[shapes.MappingEntry],
+        source: shapes.CatalogEntry,
+        sinks: typing.List[shapes.CatalogEntry] = autoboto.ShapeBase._NOT_SET,
+        location: shapes.Location = autoboto.ShapeBase._NOT_SET,
+        language: shapes.Language = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetPlanResponse:
+        """
+        Gets code to perform a specified mapping.
+        """
+        if _request is None:
+            _params = {}
+            if mapping is not autoboto.ShapeBase._NOT_SET:
+                _params['mapping'] = mapping
+            if source is not autoboto.ShapeBase._NOT_SET:
+                _params['source'] = source
+            if sinks is not autoboto.ShapeBase._NOT_SET:
+                _params['sinks'] = sinks
+            if location is not autoboto.ShapeBase._NOT_SET:
+                _params['location'] = location
+            if language is not autoboto.ShapeBase._NOT_SET:
+                _params['language'] = language
+            _request = shapes.GetPlanRequest(**_params)
+        response = self._boto_client.get_plan(**_request.to_boto_dict())
+
+        return shapes.GetPlanResponse.from_boto_dict(response)
+
+    def get_table(
+        self,
+        _request: shapes.GetTableRequest = None,
+        *,
+        database_name: str,
+        name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetTableResponse:
+        """
+        Retrieves the `Table` definition in a Data Catalog for a specified table.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.GetTableRequest(**_params)
+        response = self._boto_client.get_table(**_request.to_boto_dict())
+
+        return shapes.GetTableResponse.from_boto_dict(response)
+
+    def get_table_version(
+        self,
+        _request: shapes.GetTableVersionRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+        version_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetTableVersionResponse:
+        """
+        Retrieves a specified version of a table.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            if version_id is not autoboto.ShapeBase._NOT_SET:
+                _params['version_id'] = version_id
+            _request = shapes.GetTableVersionRequest(**_params)
+        response = self._boto_client.get_table_version(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.GetTableVersionResponse.from_boto_dict(response)
+
+    def get_table_versions(
+        self,
+        _request: shapes.GetTableVersionsRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetTableVersionsResponse:
+        """
+        Retrieves a list of strings that identify available versions of a specified
+        table.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            _request = shapes.GetTableVersionsRequest(**_params)
+        response = self._boto_client.get_table_versions(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.GetTableVersionsResponse.from_boto_dict(response)
+
+    def get_tables(
+        self,
+        _request: shapes.GetTablesRequest = None,
+        *,
+        database_name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+        expression: str = autoboto.ShapeBase._NOT_SET,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetTablesResponse:
+        """
+        Retrieves the definitions of some or all of the tables in a given `Database`.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            if expression is not autoboto.ShapeBase._NOT_SET:
+                _params['expression'] = expression
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            _request = shapes.GetTablesRequest(**_params)
+        response = self._boto_client.get_tables(**_request.to_boto_dict())
+
+        return shapes.GetTablesResponse.from_boto_dict(response)
+
+    def get_trigger(
+        self,
+        _request: shapes.GetTriggerRequest = None,
+        *,
+        name: str,
+    ) -> shapes.GetTriggerResponse:
+        """
+        Retrieves the definition of a trigger.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            _request = shapes.GetTriggerRequest(**_params)
+        response = self._boto_client.get_trigger(**_request.to_boto_dict())
+
+        return shapes.GetTriggerResponse.from_boto_dict(response)
+
+    def get_triggers(
+        self,
+        _request: shapes.GetTriggersRequest = None,
+        *,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+        dependent_job_name: str = autoboto.ShapeBase._NOT_SET,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetTriggersResponse:
+        """
+        Gets all the triggers associated with a job.
+        """
+        if _request is None:
+            _params = {}
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            if dependent_job_name is not autoboto.ShapeBase._NOT_SET:
+                _params['dependent_job_name'] = dependent_job_name
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            _request = shapes.GetTriggersRequest(**_params)
+        response = self._boto_client.get_triggers(**_request.to_boto_dict())
+
+        return shapes.GetTriggersResponse.from_boto_dict(response)
+
+    def get_user_defined_function(
+        self,
+        _request: shapes.GetUserDefinedFunctionRequest = None,
+        *,
+        database_name: str,
+        function_name: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetUserDefinedFunctionResponse:
+        """
+        Retrieves a specified function definition from the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if function_name is not autoboto.ShapeBase._NOT_SET:
+                _params['function_name'] = function_name
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.GetUserDefinedFunctionRequest(**_params)
+        response = self._boto_client.get_user_defined_function(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.GetUserDefinedFunctionResponse.from_boto_dict(response)
+
+    def get_user_defined_functions(
+        self,
+        _request: shapes.GetUserDefinedFunctionsRequest = None,
+        *,
+        database_name: str,
+        pattern: str,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+        next_token: str = autoboto.ShapeBase._NOT_SET,
+        max_results: int = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.GetUserDefinedFunctionsResponse:
+        """
+        Retrieves a multiple function definitions from the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if pattern is not autoboto.ShapeBase._NOT_SET:
+                _params['pattern'] = pattern
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            if next_token is not autoboto.ShapeBase._NOT_SET:
+                _params['next_token'] = next_token
+            if max_results is not autoboto.ShapeBase._NOT_SET:
+                _params['max_results'] = max_results
+            _request = shapes.GetUserDefinedFunctionsRequest(**_params)
+        response = self._boto_client.get_user_defined_functions(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.GetUserDefinedFunctionsResponse.from_boto_dict(response)
+
+    def import_catalog_to_glue(
+        self,
+        _request: shapes.ImportCatalogToGlueRequest = None,
+        *,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.ImportCatalogToGlueResponse:
+        """
+        Imports an existing Athena Data Catalog to AWS Glue
+        """
+        if _request is None:
+            _params = {}
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.ImportCatalogToGlueRequest(**_params)
+        response = self._boto_client.import_catalog_to_glue(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.ImportCatalogToGlueResponse.from_boto_dict(response)
+
+    def reset_job_bookmark(
+        self,
+        _request: shapes.ResetJobBookmarkRequest = None,
+        *,
+        job_name: str,
+    ) -> shapes.ResetJobBookmarkResponse:
+        """
+        Resets a bookmark entry.
+        """
+        if _request is None:
+            _params = {}
+            if job_name is not autoboto.ShapeBase._NOT_SET:
+                _params['job_name'] = job_name
+            _request = shapes.ResetJobBookmarkRequest(**_params)
+        response = self._boto_client.reset_job_bookmark(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.ResetJobBookmarkResponse.from_boto_dict(response)
+
+    def start_crawler(
+        self,
+        _request: shapes.StartCrawlerRequest = None,
+        *,
+        name: str,
+    ) -> shapes.StartCrawlerResponse:
+        """
+        Starts a crawl using the specified crawler, regardless of what is scheduled. If
+        the crawler is already running, returns a
+        [CrawlerRunningException](https://docs.aws.amazon.com/glue/latest/dg/aws-glue-
+        api-exceptions.html#aws-glue-api-exceptions-CrawlerRunningException).
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            _request = shapes.StartCrawlerRequest(**_params)
+        response = self._boto_client.start_crawler(**_request.to_boto_dict())
+
+        return shapes.StartCrawlerResponse.from_boto_dict(response)
+
+    def start_crawler_schedule(
+        self,
+        _request: shapes.StartCrawlerScheduleRequest = None,
+        *,
+        crawler_name: str,
+    ) -> shapes.StartCrawlerScheduleResponse:
+        """
+        Changes the schedule state of the specified crawler to `SCHEDULED`, unless the
+        crawler is already running or the schedule state is already `SCHEDULED`.
+        """
+        if _request is None:
+            _params = {}
+            if crawler_name is not autoboto.ShapeBase._NOT_SET:
+                _params['crawler_name'] = crawler_name
+            _request = shapes.StartCrawlerScheduleRequest(**_params)
+        response = self._boto_client.start_crawler_schedule(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.StartCrawlerScheduleResponse.from_boto_dict(response)
+
+    def start_job_run(
+        self,
+        _request: shapes.StartJobRunRequest = None,
+        *,
+        job_name: str,
+        job_run_id: str = autoboto.ShapeBase._NOT_SET,
+        arguments: typing.Dict[str, str] = autoboto.ShapeBase._NOT_SET,
+        allocated_capacity: int = autoboto.ShapeBase._NOT_SET,
+        timeout: int = autoboto.ShapeBase._NOT_SET,
+        notification_property: shapes.NotificationProperty = autoboto.ShapeBase.
+        _NOT_SET,
+    ) -> shapes.StartJobRunResponse:
+        """
+        Starts a job run using a job definition.
+        """
+        if _request is None:
+            _params = {}
+            if job_name is not autoboto.ShapeBase._NOT_SET:
+                _params['job_name'] = job_name
+            if job_run_id is not autoboto.ShapeBase._NOT_SET:
+                _params['job_run_id'] = job_run_id
+            if arguments is not autoboto.ShapeBase._NOT_SET:
+                _params['arguments'] = arguments
+            if allocated_capacity is not autoboto.ShapeBase._NOT_SET:
+                _params['allocated_capacity'] = allocated_capacity
+            if timeout is not autoboto.ShapeBase._NOT_SET:
+                _params['timeout'] = timeout
+            if notification_property is not autoboto.ShapeBase._NOT_SET:
+                _params['notification_property'] = notification_property
+            _request = shapes.StartJobRunRequest(**_params)
+        response = self._boto_client.start_job_run(**_request.to_boto_dict())
+
+        return shapes.StartJobRunResponse.from_boto_dict(response)
+
+    def start_trigger(
+        self,
+        _request: shapes.StartTriggerRequest = None,
+        *,
+        name: str,
+    ) -> shapes.StartTriggerResponse:
+        """
+        Starts an existing trigger. See [Triggering
+        Jobs](http://docs.aws.amazon.com/glue/latest/dg/trigger-job.html) for
+        information about how different types of trigger are started.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            _request = shapes.StartTriggerRequest(**_params)
+        response = self._boto_client.start_trigger(**_request.to_boto_dict())
+
+        return shapes.StartTriggerResponse.from_boto_dict(response)
+
+    def stop_crawler(
+        self,
+        _request: shapes.StopCrawlerRequest = None,
+        *,
+        name: str,
+    ) -> shapes.StopCrawlerResponse:
+        """
+        If the specified crawler is running, stops the crawl.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            _request = shapes.StopCrawlerRequest(**_params)
+        response = self._boto_client.stop_crawler(**_request.to_boto_dict())
+
+        return shapes.StopCrawlerResponse.from_boto_dict(response)
+
+    def stop_crawler_schedule(
+        self,
+        _request: shapes.StopCrawlerScheduleRequest = None,
+        *,
+        crawler_name: str,
+    ) -> shapes.StopCrawlerScheduleResponse:
+        """
+        Sets the schedule state of the specified crawler to `NOT_SCHEDULED`, but does
+        not stop the crawler if it is already running.
+        """
+        if _request is None:
+            _params = {}
+            if crawler_name is not autoboto.ShapeBase._NOT_SET:
+                _params['crawler_name'] = crawler_name
+            _request = shapes.StopCrawlerScheduleRequest(**_params)
+        response = self._boto_client.stop_crawler_schedule(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.StopCrawlerScheduleResponse.from_boto_dict(response)
+
+    def stop_trigger(
+        self,
+        _request: shapes.StopTriggerRequest = None,
+        *,
+        name: str,
+    ) -> shapes.StopTriggerResponse:
+        """
+        Stops a specified trigger.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            _request = shapes.StopTriggerRequest(**_params)
+        response = self._boto_client.stop_trigger(**_request.to_boto_dict())
+
+        return shapes.StopTriggerResponse.from_boto_dict(response)
+
+    def update_classifier(
+        self,
+        _request: shapes.UpdateClassifierRequest = None,
+        *,
+        grok_classifier: shapes.UpdateGrokClassifierRequest = autoboto.
+        ShapeBase._NOT_SET,
+        xml_classifier: shapes.UpdateXMLClassifierRequest = autoboto.ShapeBase.
+        _NOT_SET,
+        json_classifier: shapes.UpdateJsonClassifierRequest = autoboto.
+        ShapeBase._NOT_SET,
+    ) -> shapes.UpdateClassifierResponse:
+        """
+        Modifies an existing classifier (a `GrokClassifier`, `XMLClassifier`, or
+        `JsonClassifier`, depending on which field is present).
+        """
+        if _request is None:
+            _params = {}
+            if grok_classifier is not autoboto.ShapeBase._NOT_SET:
+                _params['grok_classifier'] = grok_classifier
+            if xml_classifier is not autoboto.ShapeBase._NOT_SET:
+                _params['xml_classifier'] = xml_classifier
+            if json_classifier is not autoboto.ShapeBase._NOT_SET:
+                _params['json_classifier'] = json_classifier
+            _request = shapes.UpdateClassifierRequest(**_params)
+        response = self._boto_client.update_classifier(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.UpdateClassifierResponse.from_boto_dict(response)
+
+    def update_connection(
+        self,
+        _request: shapes.UpdateConnectionRequest = None,
+        *,
+        name: str,
+        connection_input: shapes.ConnectionInput,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.UpdateConnectionResponse:
+        """
+        Updates a connection definition in the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if connection_input is not autoboto.ShapeBase._NOT_SET:
+                _params['connection_input'] = connection_input
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.UpdateConnectionRequest(**_params)
+        response = self._boto_client.update_connection(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.UpdateConnectionResponse.from_boto_dict(response)
+
+    def update_crawler(
+        self,
+        _request: shapes.UpdateCrawlerRequest = None,
+        *,
+        name: str,
+        role: str = autoboto.ShapeBase._NOT_SET,
+        database_name: str = autoboto.ShapeBase._NOT_SET,
+        description: str = autoboto.ShapeBase._NOT_SET,
+        targets: shapes.CrawlerTargets = autoboto.ShapeBase._NOT_SET,
+        schedule: str = autoboto.ShapeBase._NOT_SET,
+        classifiers: typing.List[str] = autoboto.ShapeBase._NOT_SET,
+        table_prefix: str = autoboto.ShapeBase._NOT_SET,
+        schema_change_policy: shapes.SchemaChangePolicy = autoboto.ShapeBase.
+        _NOT_SET,
+        configuration: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.UpdateCrawlerResponse:
+        """
+        Updates a crawler. If a crawler is running, you must stop it using `StopCrawler`
+        before updating it.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if role is not autoboto.ShapeBase._NOT_SET:
+                _params['role'] = role
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if description is not autoboto.ShapeBase._NOT_SET:
+                _params['description'] = description
+            if targets is not autoboto.ShapeBase._NOT_SET:
+                _params['targets'] = targets
+            if schedule is not autoboto.ShapeBase._NOT_SET:
+                _params['schedule'] = schedule
+            if classifiers is not autoboto.ShapeBase._NOT_SET:
+                _params['classifiers'] = classifiers
+            if table_prefix is not autoboto.ShapeBase._NOT_SET:
+                _params['table_prefix'] = table_prefix
+            if schema_change_policy is not autoboto.ShapeBase._NOT_SET:
+                _params['schema_change_policy'] = schema_change_policy
+            if configuration is not autoboto.ShapeBase._NOT_SET:
+                _params['configuration'] = configuration
+            _request = shapes.UpdateCrawlerRequest(**_params)
+        response = self._boto_client.update_crawler(**_request.to_boto_dict())
+
+        return shapes.UpdateCrawlerResponse.from_boto_dict(response)
+
+    def update_crawler_schedule(
+        self,
+        _request: shapes.UpdateCrawlerScheduleRequest = None,
+        *,
+        crawler_name: str,
+        schedule: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.UpdateCrawlerScheduleResponse:
+        """
+        Updates the schedule of a crawler using a `cron` expression.
+        """
+        if _request is None:
+            _params = {}
+            if crawler_name is not autoboto.ShapeBase._NOT_SET:
+                _params['crawler_name'] = crawler_name
+            if schedule is not autoboto.ShapeBase._NOT_SET:
+                _params['schedule'] = schedule
+            _request = shapes.UpdateCrawlerScheduleRequest(**_params)
+        response = self._boto_client.update_crawler_schedule(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.UpdateCrawlerScheduleResponse.from_boto_dict(response)
+
+    def update_database(
+        self,
+        _request: shapes.UpdateDatabaseRequest = None,
+        *,
+        name: str,
+        database_input: shapes.DatabaseInput,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.UpdateDatabaseResponse:
+        """
+        Updates an existing database definition in a Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if database_input is not autoboto.ShapeBase._NOT_SET:
+                _params['database_input'] = database_input
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.UpdateDatabaseRequest(**_params)
+        response = self._boto_client.update_database(**_request.to_boto_dict())
+
+        return shapes.UpdateDatabaseResponse.from_boto_dict(response)
+
+    def update_dev_endpoint(
+        self,
+        _request: shapes.UpdateDevEndpointRequest = None,
+        *,
+        endpoint_name: str,
+        public_key: str = autoboto.ShapeBase._NOT_SET,
+        add_public_keys: typing.List[str] = autoboto.ShapeBase._NOT_SET,
+        delete_public_keys: typing.List[str] = autoboto.ShapeBase._NOT_SET,
+        custom_libraries: shapes.DevEndpointCustomLibraries = autoboto.
+        ShapeBase._NOT_SET,
+        update_etl_libraries: bool = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.UpdateDevEndpointResponse:
+        """
+        Updates a specified DevEndpoint.
+        """
+        if _request is None:
+            _params = {}
+            if endpoint_name is not autoboto.ShapeBase._NOT_SET:
+                _params['endpoint_name'] = endpoint_name
+            if public_key is not autoboto.ShapeBase._NOT_SET:
+                _params['public_key'] = public_key
+            if add_public_keys is not autoboto.ShapeBase._NOT_SET:
+                _params['add_public_keys'] = add_public_keys
+            if delete_public_keys is not autoboto.ShapeBase._NOT_SET:
+                _params['delete_public_keys'] = delete_public_keys
+            if custom_libraries is not autoboto.ShapeBase._NOT_SET:
+                _params['custom_libraries'] = custom_libraries
+            if update_etl_libraries is not autoboto.ShapeBase._NOT_SET:
+                _params['update_etl_libraries'] = update_etl_libraries
+            _request = shapes.UpdateDevEndpointRequest(**_params)
+        response = self._boto_client.update_dev_endpoint(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.UpdateDevEndpointResponse.from_boto_dict(response)
+
+    def update_job(
+        self,
+        _request: shapes.UpdateJobRequest = None,
+        *,
+        job_name: str,
+        job_update: shapes.JobUpdate,
+    ) -> shapes.UpdateJobResponse:
+        """
+        Updates an existing job definition.
+        """
+        if _request is None:
+            _params = {}
+            if job_name is not autoboto.ShapeBase._NOT_SET:
+                _params['job_name'] = job_name
+            if job_update is not autoboto.ShapeBase._NOT_SET:
+                _params['job_update'] = job_update
+            _request = shapes.UpdateJobRequest(**_params)
+        response = self._boto_client.update_job(**_request.to_boto_dict())
+
+        return shapes.UpdateJobResponse.from_boto_dict(response)
+
+    def update_partition(
+        self,
+        _request: shapes.UpdatePartitionRequest = None,
+        *,
+        database_name: str,
+        table_name: str,
+        partition_value_list: typing.List[str],
+        partition_input: shapes.PartitionInput,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.UpdatePartitionResponse:
+        """
+        Updates a partition.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_name is not autoboto.ShapeBase._NOT_SET:
+                _params['table_name'] = table_name
+            if partition_value_list is not autoboto.ShapeBase._NOT_SET:
+                _params['partition_value_list'] = partition_value_list
+            if partition_input is not autoboto.ShapeBase._NOT_SET:
+                _params['partition_input'] = partition_input
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.UpdatePartitionRequest(**_params)
+        response = self._boto_client.update_partition(**_request.to_boto_dict())
+
+        return shapes.UpdatePartitionResponse.from_boto_dict(response)
+
+    def update_table(
+        self,
+        _request: shapes.UpdateTableRequest = None,
+        *,
+        database_name: str,
+        table_input: shapes.TableInput,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+        skip_archive: bool = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.UpdateTableResponse:
+        """
+        Updates a metadata table in the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if table_input is not autoboto.ShapeBase._NOT_SET:
+                _params['table_input'] = table_input
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            if skip_archive is not autoboto.ShapeBase._NOT_SET:
+                _params['skip_archive'] = skip_archive
+            _request = shapes.UpdateTableRequest(**_params)
+        response = self._boto_client.update_table(**_request.to_boto_dict())
+
+        return shapes.UpdateTableResponse.from_boto_dict(response)
+
+    def update_trigger(
+        self,
+        _request: shapes.UpdateTriggerRequest = None,
+        *,
+        name: str,
+        trigger_update: shapes.TriggerUpdate,
+    ) -> shapes.UpdateTriggerResponse:
+        """
+        Updates a trigger definition.
+        """
+        if _request is None:
+            _params = {}
+            if name is not autoboto.ShapeBase._NOT_SET:
+                _params['name'] = name
+            if trigger_update is not autoboto.ShapeBase._NOT_SET:
+                _params['trigger_update'] = trigger_update
+            _request = shapes.UpdateTriggerRequest(**_params)
+        response = self._boto_client.update_trigger(**_request.to_boto_dict())
+
+        return shapes.UpdateTriggerResponse.from_boto_dict(response)
+
+    def update_user_defined_function(
+        self,
+        _request: shapes.UpdateUserDefinedFunctionRequest = None,
+        *,
+        database_name: str,
+        function_name: str,
+        function_input: shapes.UserDefinedFunctionInput,
+        catalog_id: str = autoboto.ShapeBase._NOT_SET,
+    ) -> shapes.UpdateUserDefinedFunctionResponse:
+        """
+        Updates an existing function definition in the Data Catalog.
+        """
+        if _request is None:
+            _params = {}
+            if database_name is not autoboto.ShapeBase._NOT_SET:
+                _params['database_name'] = database_name
+            if function_name is not autoboto.ShapeBase._NOT_SET:
+                _params['function_name'] = function_name
+            if function_input is not autoboto.ShapeBase._NOT_SET:
+                _params['function_input'] = function_input
+            if catalog_id is not autoboto.ShapeBase._NOT_SET:
+                _params['catalog_id'] = catalog_id
+            _request = shapes.UpdateUserDefinedFunctionRequest(**_params)
+        response = self._boto_client.update_user_defined_function(
+            **_request.to_boto_dict()
+        )
+
+        return shapes.UpdateUserDefinedFunctionResponse.from_boto_dict(response)
