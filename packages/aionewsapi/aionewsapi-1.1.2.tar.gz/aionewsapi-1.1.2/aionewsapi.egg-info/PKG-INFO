@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: aionewsapi
+Version: 1.1.2
+Summary: Asyncio client for interacting with newsapi.org
+Home-page: https://github.com/mfdeux/aionewsapi
+Author: Marc Ford
+License: MIT
+Description: # aionewsapi
+        
+        Asyncio client for interacting with newsapi.org
+        
+        Installation instructions:
+        
+        ```bash
+        pip install aionewsapi
+        ```
+        
+        Usage:
+        ```python
+        
+        from aionewsapi import NewsAPI
+        
+        client = NewsAPI()
+        
+        ```
+        
+        Note
+        ---------
+        aionewsapi is not affiliated or endorsed by any of the web services it interacts with.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
