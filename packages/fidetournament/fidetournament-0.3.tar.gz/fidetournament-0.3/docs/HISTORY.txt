@@ -1,0 +1,23 @@
+Changelog
+===========
+
+0.3 (2018-09-05)
+----------------
+
+- Testing infrastructure.
+  [erral]
+
+
+0.2 (2018-09-05)
+----------------
+
+- Remove setup.cfg.
+  [erral]
+
+
+0.1 (2018-09-05)
+----------------
+
+- Initial release
+  [erral]
+
