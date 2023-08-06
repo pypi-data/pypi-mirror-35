@@ -1,0 +1,8 @@
+veriservice/__init__.py,sha256=Iv5GEXpufsRUeFH9N3bf6kJnZ5peJq27n_hnWC4H7mM,971
+veriservice/veriservice_pb2.py,sha256=AYBR8Y_LQecfwIFx3rHWwdQ7SjPjYHzDSgAPGqFlFhU,25866
+veriservice/veriservice_pb2_grpc.py,sha256=XTrAl7PbwtJk-kdV1b_veULCRYoCKuW7NzN6ZSZJ2Rk,5517
+veriservice-0.0.4.dist-info/LICENSE.txt,sha256=dvLz5JNn79lnFjc783tytC3cX69lLnwBTCsw3dKAo4M,52418
+veriservice-0.0.4.dist-info/METADATA,sha256=024P-cB3kN4CRUOxFdhZZ3IfAX2u1KUjtBYE8l0olvc,418
+veriservice-0.0.4.dist-info/RECORD,,
+veriservice-0.0.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+veriservice-0.0.4.dist-info/top_level.txt,sha256=2bVbcoT9Q6A4En6cXHyJfnUANlplf5uFYjVu9mxAwUs,12
