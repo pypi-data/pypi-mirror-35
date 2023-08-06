@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        csskrt=csskrt.main:freshify
+    
