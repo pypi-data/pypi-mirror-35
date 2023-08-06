@@ -1,0 +1,1 @@
+git+https://github.com/naderm/genemap.git@develop#egg=genemap-0.2.0
