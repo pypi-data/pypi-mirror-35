@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CNFgen
+Version: 0.7.3
+Summary: CNF formula generator
+Home-page: https://massimolauria.github.io/cnfgen
+Author: Massimo Lauria
+Author-email: lauria.massimo@gmail.com
+License: GPL-3
+Platform: UNKNOWN
+Requires-Python: >=2.7,<3.0
+Requires-Dist: networkx (<2.0,>=1.9)
+Requires-Dist: pydotplus
+
+UNKNOWN
+
+
