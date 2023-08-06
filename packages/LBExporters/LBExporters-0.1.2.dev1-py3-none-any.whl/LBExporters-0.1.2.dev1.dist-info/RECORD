@@ -1,0 +1,7 @@
+LBExporters-0.1.2.dev1.dist-info/METADATA,sha256=wDF_EtxFsfrHHtgq48pOIFmeFN0MjLybWX-hKhrDo2E,2402
+LBExporters-0.1.2.dev1.dist-info/RECORD,,
+LBExporters-0.1.2.dev1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+LBExporters-0.1.2.dev1.dist-info/top_level.txt,sha256=vATfaEfEIOazMQF9qFTof1E8l1GwplhYoo62GT12EUQ,30
+labelbox2coco/__init__.py,sha256=VB8JJWwG4KF7PvStMdurh9PMp35P49PLh0AQZIAI86A,4390
+labelbox2pascal/__init__.py,sha256=aJ8QJ1FIH0XGDy0V90qKlewlqnWfIa4e-lvkZBHD76s,4790
+labelbox2pascal/pascal_voc_writer/__init__.py,sha256=fXI7m-jWdnNXf7dvFladjszdHDxiiZXxTUZ6Z7Nub9c,1876
