@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pycodechef
+Version: 0.0.2
+Summary: Python Wrapper fo Codechef REST API
+Home-page: https://github.com/appi147/pycodechef
+Author: Arpit Choudhary
+Author-email: arpitkumar147@gmail.com
+License: MIT License
+Requires-Dist: requests
+
+Copyright (c) 2018 Arpit Choudhary
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Description: # pycodechef
+        Python wrapper for CodeChef API 1.0.0
+        
+        Goal of this library is to map codechef's endpoints one-to-one.
+        
+        Dependencies:
+        * requests
+        
+        ## Installation
+        Install via pip:
+        ```
+        $ pip install pycodechef
+        ```
+        Install from source:
+        ```
+        $ git clone https://github.com/appi147/pycodechef.git
+        $ cd pycodechef
+        $ python setup.py install
+        ```
+        
+        ## Usage
+        ```
+        from pycodechef import Codechef
+        
+        c = Codechef("client_id", "client_secret")
+        
+        r = c.method_name(parameters)
+        ```
+        Client id and client secret can be found here: [https://developers.codechef.com/](https://developers.codechef.com/)
+        
+        **Contributions are welcome**
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
