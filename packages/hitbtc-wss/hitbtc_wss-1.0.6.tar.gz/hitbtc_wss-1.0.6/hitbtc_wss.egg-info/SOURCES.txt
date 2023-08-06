@@ -1,0 +1,12 @@
+README.md
+setup.py
+hitbtc_wss/__init__.py
+hitbtc_wss/client.py
+hitbtc_wss/connector.py
+hitbtc_wss/utils.py
+hitbtc_wss/wss.py
+hitbtc_wss.egg-info/PKG-INFO
+hitbtc_wss.egg-info/SOURCES.txt
+hitbtc_wss.egg-info/dependency_links.txt
+hitbtc_wss.egg-info/requires.txt
+hitbtc_wss.egg-info/top_level.txt
