@@ -1,0 +1,24 @@
+envipyarc/__init__.py,sha256=4CTeztuVh53bE0Yy2T_t9jlXutxRjIUn0vIbmwMaqkU,139
+envipyarc/gptoolbox.py,sha256=yQ75Ll3h-DIBIO0qTMPuZAm1FDCz3x4PL_07n0ihc58,1677
+envipyarc/esri/projecttemplates/ENVIPyManagement.aptx,sha256=RI2-CTjztN6kOPsZqXXMrpQlLTDfVBD28IC-3ZEDnco,119256
+envipyarc/esri/projecttemplates/README.md,sha256=r2dbreUrU-4dPjxPiNTQsdQ4xk7rEaOFKISdC5i1jOg,1235
+envipyarc/esri/toolboxes/ENVI Management Tools.ConfigureENVIEnvironment.pyt.xml,sha256=2GZwsUc2jMrDuo9OHyr3vnlOyWYAiPcb9Hz4n7y3hvE,5433
+envipyarc/esri/toolboxes/ENVI Management Tools.CreateENVIToolbox.pyt.xml,sha256=VCAoFu8wGYcBC5qMm0L4N7dP34tdFu9DEYGGPVjFgQ4,3093
+envipyarc/esri/toolboxes/ENVI Management Tools.pyt,sha256=MnUvzw3LEMypWZ-093VKr5-bsM9yfAU7rEpvlJTJLwU,7636
+envipyarc/esri/toolboxes/ENVI Management Tools.pyt.xml,sha256=ORZX_2KvPS-hBOrA5ewIgV2VjGr6kmJDk56VPEzXHoE,1184
+envipyarc/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+envipyarc/templates/enviagcrops.py,sha256=DjtrK9pid__OKpuWqx6GVN3NkHXtlwwcOT6ecfYd6ms,1785
+envipyarc/templates/enviraster.py,sha256=gyCDJeOeOivDJr2w513GXpnLbUwBAGSJKCwf3AjgAJw,2109
+envipyarc/templates/envirasterarray.py,sha256=VpvlHB7X-AexXffr2ik1v4_25pvfO8fm6KGUQwntegg,2495
+envipyarc/templates/enviroi.py,sha256=0ecwrZJkjBlMk-rxje74LZJYZOfk3BLgrPP83YRBzck,1791
+envipyarc/templates/enviroiarray.py,sha256=S28uwCPaMGiqe8U5WuNm-r7wC0WrZ3r-cQpd1P9xoXA,2168
+envipyarc/templates/envivector.py,sha256=GptW8QyoX87J972UQWOgMJTzZ8pnmmB4UH03x_TmyWk,1784
+envipyarc/templates/sarscapedata.py,sha256=o8GbhNfTL-pJRKBd_LSIe1Wp4BcGu2Hk8-AoS-N7V2Y,1883
+envipyarc/templates/sarscapedataarray.py,sha256=gUogfp0nRZOE3buG2BtomOG_ROGKKbZ8kycwy2fRJcg,1911
+envipyarc-1.0.10.data/scripts/createenvitoolbox.py,sha256=eorlGB52dSSmrcT5VOLQTCG_TdEXLEPHI2jZZ1SVm3U,927
+envipyarc-1.0.10.dist-info/DESCRIPTION.rst,sha256=Vf-OvJq4KBaTa5uBi1UpP0k0032ZEWAXDr7V-AuGdwQ,263
+envipyarc-1.0.10.dist-info/METADATA,sha256=s0p_wynbAAKLfwIE6vCSUXcMmiw0Z-c8biCy2SOxCFA,616
+envipyarc-1.0.10.dist-info/RECORD,,
+envipyarc-1.0.10.dist-info/WHEEL,sha256=BTHHj6QhsHpWhRUrxioIvCAgjx81u-a8gkPTO6bi_A0,116
+envipyarc-1.0.10.dist-info/metadata.json,sha256=Oa_JCt6kG0iYrrZXnhDOTqulhrrD0DpvAUJ45Ey7Ryk,522
+envipyarc-1.0.10.dist-info/top_level.txt,sha256=ByfLNM1GylKARlOkFGsA53PWsYb_Fyki91dNV3Zgy80,10
