@@ -1,0 +1,14 @@
+include README.rst LICENSE CHANGELOG
+include crontab requirements.txt
+
+graft xelpaste
+graft libpaste
+global-exclude *.py[cod] __pycache__
+global-exclude .*.swp *.*~
+
+prune dev
+graft docs
+graft frontend
+prune node_modules
+include .coveragerc 
+include example_settings.ini Makefile manage.py package.json runtests.py
