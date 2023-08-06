@@ -1,0 +1,11 @@
+finxos/__init__.py,sha256=-mnyJgLjZkHd0GYqqFhK3MYoqzuuTCDBqmhgTnUYe04,276
+finxos/data/__init__.py,sha256=_hUaf3Mtpd4qC5-eCl5RhI5UwXVKiaP1y_mIgLs64Bs,44
+finxos/data/data_api.py,sha256=HY2Q5MFyYyWawBhUTQCURdut0roDtp6FTQlwI1kfpeA,18982
+finxos/data/jrpc_py.py,sha256=YGlxwxhfdKjS5UqlL06O4tq-wDUlA-UkZ5fR4c7LBcE,10621
+finxos/data/utils.py,sha256=wukk6uQjlNbGcGLHRxPiLFbqQAzEDie7m9a1DWMCO_g,4136
+finxos-0.5.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+finxos-0.5.0.dist-info/METADATA,sha256=yll-5eGdRaioUV0HkYLZ2tTxDQ1b1cQiATQ28P_YxBA,920
+finxos-0.5.0.dist-info/RECORD,,
+finxos-0.5.0.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+finxos-0.5.0.dist-info/metadata.json,sha256=E3Pn5I9AroFZojK2rgyLmZQbQ7U_3txoQKOjTpqbQWg,1025
+finxos-0.5.0.dist-info/top_level.txt,sha256=Sqrv_zc3topsRj4uN4l5KovuhAD03SBZvO9-XgDxkxk,7
