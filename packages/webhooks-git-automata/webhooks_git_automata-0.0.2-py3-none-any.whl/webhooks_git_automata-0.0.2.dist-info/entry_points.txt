@@ -1,0 +1,4 @@
+[console_scripts]
+wh-git-trigger = webhooks_git_automata.webhooks:manual_trigger
+wh-gitd = webhooks_git_automata.webhooks:main_func
+

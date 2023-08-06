@@ -1,0 +1,11 @@
+webhooks_git_automata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhooks_git_automata/automata.py,sha256=my45fYtSxUNxYkOE_9mURyxBC5BNCcq-CQ2fWj6g2aE,2934
+webhooks_git_automata/providers.py,sha256=VjUSiV-5sW4Y3o7Kc4z-EcmwyDCCMVT6y_XGDE1CGK4,2945
+webhooks_git_automata/settings.py,sha256=zRjBIsW-15-ygeTfrfi5rk47BLoJnnFeFj2ZRyG_hVI,1614
+webhooks_git_automata/webhooks.py,sha256=Gx5_Fi_U8qCBzFdERZB-F4hvOz4Nm4WNOQo0by0G9Zc,1718
+webhooks_git_automata/worker.py,sha256=jTQEFAxDtPv07E-uoY2Xp_ugg7Hlgb4wqJx4a8jQcOM,1277
+webhooks_git_automata-0.0.2.dist-info/METADATA,sha256=_ViUB0EAX3XANo2v8NNPjt9cU7AMixk2EXx2RnfbFTY,2845
+webhooks_git_automata-0.0.2.dist-info/RECORD,,
+webhooks_git_automata-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+webhooks_git_automata-0.0.2.dist-info/entry_points.txt,sha256=QPv0AvrIPVFd3sx2tQoNujBxVUe45Ih70lXTGUOSNkc,133
+webhooks_git_automata-0.0.2.dist-info/top_level.txt,sha256=8ctcaJWu6zm6Ei5NFoLy6eItLnEypdLf-5VhOzaAFLc,22
