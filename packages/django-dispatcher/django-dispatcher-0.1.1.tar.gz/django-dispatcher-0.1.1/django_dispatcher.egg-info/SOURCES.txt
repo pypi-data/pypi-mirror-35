@@ -1,0 +1,14 @@
+README.md
+setup.py
+dispatcher/__init__.py
+dispatcher/dispatcher.py
+dispatcher/models.py
+dispatcher/transition.py
+dispatcher/migrations/0001_initial.py
+dispatcher/migrations/__init__.py
+django_dispatcher.egg-info/PKG-INFO
+django_dispatcher.egg-info/SOURCES.txt
+django_dispatcher.egg-info/dependency_links.txt
+django_dispatcher.egg-info/not-zip-safe
+django_dispatcher.egg-info/requires.txt
+django_dispatcher.egg-info/top_level.txt
