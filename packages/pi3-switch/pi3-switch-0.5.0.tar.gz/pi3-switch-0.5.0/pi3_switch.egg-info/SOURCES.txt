@@ -1,0 +1,11 @@
+README.rst
+setup.py
+pi3/__init__.py
+pi3/switch.py
+pi3_switch.egg-info/PKG-INFO
+pi3_switch.egg-info/SOURCES.txt
+pi3_switch.egg-info/dependency_links.txt
+pi3_switch.egg-info/entry_points.txt
+pi3_switch.egg-info/requires.txt
+pi3_switch.egg-info/top_level.txt
+pi3_switch.egg-info/zip-safe
