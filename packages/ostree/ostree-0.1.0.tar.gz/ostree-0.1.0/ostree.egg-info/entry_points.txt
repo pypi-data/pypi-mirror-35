@@ -1,0 +1,3 @@
+[console_scripts]
+ostree=ostree.cli:cli
+
