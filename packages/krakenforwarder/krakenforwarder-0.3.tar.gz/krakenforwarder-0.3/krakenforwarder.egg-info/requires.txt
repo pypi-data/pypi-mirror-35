@@ -1,0 +1,4 @@
+pyzmq
+schema
+pyyaml
+krakenex
