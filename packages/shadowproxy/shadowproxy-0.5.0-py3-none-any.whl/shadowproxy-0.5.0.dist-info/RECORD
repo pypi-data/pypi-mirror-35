@@ -1,0 +1,11 @@
+shadowproxy.py,sha256=2hlqCXq2L8eqw7QBTN_HOVnX5J67qedNf3r6Wxbwyek,34156
+shadowproxy/__init__.py,sha256=mDfaPwK-_92ezGRsMBt1biv2vBWHjjTmRRdWz1a7ri8,1543
+shadowproxy/ciphers.py,sha256=LnfNvinclJxs7ckoSj43KV02XghJ9bCepiuGUCA1HhQ,4972
+shadowproxy/cli.py,sha256=6G906P7J6ztAK2f8iRyame8GVEI36g_R91Kp80n3UgQ,6458
+shadowproxy/gvars.py,sha256=wfJKF2JFzoqFDTRg1JlkItMqL4fSCZrTGGYmlWWVbZY,244
+shadowproxy/utils.py,sha256=izA-cJl86wO78DZJ7b4OTQDzINufqKJ1MMi1_OH0CsY,3291
+shadowproxy-0.5.0.dist-info/METADATA,sha256=cagHR2lQIQ0i9GlrsxR5j9nlVufsk8I1ikup33Z3rLc,3815
+shadowproxy-0.5.0.dist-info/RECORD,,
+shadowproxy-0.5.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+shadowproxy-0.5.0.dist-info/entry_points.txt,sha256=dwQEgWVZavBWk-0UvgZ64KUZUVjW37n-X-gINqolOnc,54
+shadowproxy-0.5.0.dist-info/top_level.txt,sha256=J_c282YbvSo8YfYR9hI-GLqhkeQciLIkBF73VvXxBKU,12
