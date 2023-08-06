@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: dojo-referee
+Version: 0.0.1
+Summary: Just another Coding Dojo assistant tool (but with GUI)
+Home-page: https://github.com/cacarrara/dojo-referee
+Author: Caio Carrara
+Author-email: eu@caiocarrara.com.br
+License: UNKNOWN
+Description: Dojo Referee
+        ============
+        
+        Dojo Referee is just another Coding Dojo assistant tool, but with GUI.
+        
+        
+        How to use
+        ----------
+        ::
+        
+          $ pip install dojo-referee
+          $ dojo-referee
+        
+        
+        Features
+        --------
+        - Countdown for pilot iteration
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Utilities

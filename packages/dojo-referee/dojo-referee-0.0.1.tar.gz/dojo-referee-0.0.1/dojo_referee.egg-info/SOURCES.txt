@@ -1,0 +1,9 @@
+README.rst
+setup.py
+dojo_referee/__init__.py
+dojo_referee/__main__.py
+dojo_referee.egg-info/PKG-INFO
+dojo_referee.egg-info/SOURCES.txt
+dojo_referee.egg-info/dependency_links.txt
+dojo_referee.egg-info/entry_points.txt
+dojo_referee.egg-info/top_level.txt
