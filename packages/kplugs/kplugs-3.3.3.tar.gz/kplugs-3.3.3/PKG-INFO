@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: kplugs
+Version: 3.3.3
+Summary: The KPlugs Python module
+Home-page: https://github.com/avielw/kplugs-python3.7
+Author: Aviel Warschawski
+Author-email: contact@kplugs.org
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: kplugs,kernel,linux,debug
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
