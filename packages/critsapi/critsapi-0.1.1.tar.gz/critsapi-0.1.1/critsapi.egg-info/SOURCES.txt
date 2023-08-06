@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+critsapi/__init__.py
+critsapi/critsapi.py
+critsapi/critsdbapi.py
+critsapi/exceptions.py
+critsapi/vocabulary.py
+critsapi.egg-info/PKG-INFO
+critsapi.egg-info/SOURCES.txt
+critsapi.egg-info/dependency_links.txt
+critsapi.egg-info/requires.txt
+critsapi.egg-info/top_level.txt

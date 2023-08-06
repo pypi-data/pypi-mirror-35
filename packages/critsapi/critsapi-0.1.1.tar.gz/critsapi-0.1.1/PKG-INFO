@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: critsapi
+Version: 0.1.1
+Summary: Library to interface with the CRITs API and raw MongoDB
+Home-page: https://github.com/IntegralDefense/critsapi
+Author: Matthew Wilson
+Author-email: automationator@runbox.com
+License: Apache 2.0
+Description: # critsapi
+        Python library for interfacing with the CRITs API and raw MongoDB
+        
+Keywords: critsapi critsdbapi crits
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
