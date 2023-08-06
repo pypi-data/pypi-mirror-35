@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: ramlpy
+Version: 0.0.5
+Summary:  RAML parsing library 
+Home-page: UNKNOWN
+Author: Alexander Vasin <hi@alvass.in>
+Author-email: hi@alvass.in
+License: MIT
+Description: ramlpy
+        ======
+        
+        RAML parsing library for python at early dev stage.
+        
+        
+        Versioning
+        ==========
+        
+        This software follows `Semantic Versioning`_
+        
+        
+        .. _Semantic Versioning: http://semver.org/
+        
+Platform: all
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Provides-Extra: develop
