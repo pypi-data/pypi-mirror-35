@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/> 
+<title>Reverse Geocoding</title> 
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAMWZ9mfPXpai32B1RkwHct4g7l88coaHo&sensor=false"></script>
+<script src="{{ url_for('static', filename='js/weather.js') }}"></script>
+
+</head> 
+<body onload="initialize(function(){urlVar = '{{ url_for('getWeather', city='cityName') }}'.replace('cityName', cityName); window.location.href=urlVar;});">
+    <button onclick="urlVar = '{{ url_for('getWeather', city='cityName') }}'.replace('cityName', cityName); window.location.href=urlVar;">Weather</button>
+</body> 
+</html>
+
