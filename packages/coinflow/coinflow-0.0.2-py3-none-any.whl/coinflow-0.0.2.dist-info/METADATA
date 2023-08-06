@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: coinflow
+Version: 0.0.2
+Summary: give dicreption
+Home-page: https://github.com/AmienKhaled/zoldyck
+Author: Klaus Glueckert
+Author-email: wfskmoney@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
