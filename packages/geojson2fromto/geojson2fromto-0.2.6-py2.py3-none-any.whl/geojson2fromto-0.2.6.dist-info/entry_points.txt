@@ -1,0 +1,3 @@
+[console_scripts]
+geojson2fromto=geojson2fromto.library.geojson2fromto:main
+
