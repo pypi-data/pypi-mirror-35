@@ -1,0 +1,5 @@
+setup.py
+caster_client.egg-info/PKG-INFO
+caster_client.egg-info/SOURCES.txt
+caster_client.egg-info/dependency_links.txt
+caster_client.egg-info/top_level.txt
