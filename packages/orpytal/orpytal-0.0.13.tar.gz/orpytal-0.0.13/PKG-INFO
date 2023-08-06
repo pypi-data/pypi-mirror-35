@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: orpytal
+Version: 0.0.13
+Summary: Python Package for Two-Body Orbital Mechanics
+Home-page: http://nicklafarge.space/orpytal
+Author: Nick LaFarge
+Author-email: nick.lafarge@gmail.com
+License: MIT
+Download-URL: https://github.com/nicklafarge/OrPytal
+Description: UNKNOWN
+Keywords: aero,aerospace,engineering,astrodynamics,orbits,kepler,orbital mechanics
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.5
