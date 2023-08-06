@@ -1,0 +1,8 @@
+numpy
+scipy
+cvxopt
+cffi
+IsoSpecPy<2.0
+networkx>=2.0
+matplotlib
+intervaltree
