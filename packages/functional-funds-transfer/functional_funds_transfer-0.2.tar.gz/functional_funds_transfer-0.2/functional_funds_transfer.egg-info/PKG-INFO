@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: functional-funds-transfer
+Version: 0.2
+Summary: Teaching functional programming with a funds transfer example
+Home-page: https://github.com/cmdimkpa/functional-funds-transfer/archive/v0.2.tar.gz
+Author: Monty Dimkpa
+Author-email: cmdimkpa@gmail.com
+License: UNKNOWN
+Description: # functional-funds-transfer
+        Teaching Functional Programming with a funds transfer problem
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
