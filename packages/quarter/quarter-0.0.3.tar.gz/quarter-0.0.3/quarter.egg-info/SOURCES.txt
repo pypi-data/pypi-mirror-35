@@ -1,0 +1,8 @@
+README.md
+setup.py
+quarter/__init__.py
+quarter/quarter.py
+quarter.egg-info/PKG-INFO
+quarter.egg-info/SOURCES.txt
+quarter.egg-info/dependency_links.txt
+quarter.egg-info/top_level.txt
