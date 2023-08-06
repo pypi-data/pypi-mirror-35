@@ -1,0 +1,3 @@
+include README.md LICENSE.txt CHANGES.txt DESCRIPTION.rst
+global-exclude *.pyc
+global-exclude .git
