@@ -1,0 +1,3 @@
+[console_scripts]
+multiinfo = multiinfo.cli:main
+
