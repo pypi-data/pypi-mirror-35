@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: ramadda-publish
+Version: 1.4
+Summary: python script to make automated entries to ramadda
+Home-page: https://github.com/suvarchal/RAMADDA_publish
+Author: Suvarchal
+Author-email: suvarchal.kumar@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
