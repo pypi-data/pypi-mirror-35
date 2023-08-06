@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: examapp
+Version: 0.0.5
+Summary: Generator for exam at Logic Pondok Programmer
+Home-page: https://github.com/moslog/exam-app
+Author: Muhammad Muizzsuddin
+Author-email: m.muizzsuddin@windowslive.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Exam App with Python
+
+This logic notebook generator was built with python.
+
+
+```shell
+pip install examapp
+cd ~/Desktop
+echo 'import examapp' > run.py
+echo '' >> run.py
+echo 'examapp.run()' >> run.py
+python3 run.py
+```
+
