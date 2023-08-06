@@ -1,0 +1,7 @@
+README.md
+ldaprc.py
+setup.py
+ldaprc.egg-info/PKG-INFO
+ldaprc.egg-info/SOURCES.txt
+ldaprc.egg-info/dependency_links.txt
+ldaprc.egg-info/top_level.txt
