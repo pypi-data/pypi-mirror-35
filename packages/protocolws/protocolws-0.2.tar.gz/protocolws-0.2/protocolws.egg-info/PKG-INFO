@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: protocolws
+Version: 0.2
+Summary: Simple protocol websocket server
+Home-page: https://github.com/panmpan17/ProtocolWebsocket
+Author: Michael Pan
+Author-email: panmpan@gmail.com
+License: UNKNOWN
+Description: # Protocol Websocket
+        ### About
+        `protocolws` is a library handle basic data transfer using JSON.
+        
+        
+        
+Keywords: websocket protocol socket
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
