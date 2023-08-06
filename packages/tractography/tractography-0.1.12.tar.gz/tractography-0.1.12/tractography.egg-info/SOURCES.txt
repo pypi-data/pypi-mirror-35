@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+tractography/__init__.py
+tractography/io.py
+tractography/registration.py
+tractography.egg-info/PKG-INFO
+tractography.egg-info/SOURCES.txt
+tractography.egg-info/dependency_links.txt
+tractography.egg-info/top_level.txt
