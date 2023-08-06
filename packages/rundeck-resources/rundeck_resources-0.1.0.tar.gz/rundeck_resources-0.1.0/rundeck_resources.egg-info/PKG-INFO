@@ -1,0 +1,72 @@
+Metadata-Version: 1.1
+Name: rundeck-resources
+Version: 0.1.0
+Summary: Rundeck Resources Generator
+Home-page: https://gitlab.com/elazkani/rundeck-resources
+Author: Elia El Lazkani
+Author-email: eliaellazkani@gmail.com
+License: BSD
+Description: Rundeck Resources
+        =================
+        
+        Python tool to query resources from different sources and export them into a data structure that ``Rundeck`` can consume.
+        
+        Installation
+        ------------
+        
+        ::
+        
+            pip install rundeck-resources
+              
+        Usage
+        -----
+        
+        ::
+        
+            $ rundeck-resources -h
+            usage: rundeck-resources [-h] [-V] config
+        
+            Generates rundeck resources file from different API sources
+            
+            positional arguments:
+              config         Configuration file
+            
+            optional arguments:
+              -h, --help     show this help message and exit
+              -V, --version  Prints version
+        
+        
+        The ``rundeck-resources`` requires an INI configuration file.
+        You can see the example configuration in the `example.ini <https://gitlab.com/elazkani/rundeck-resources/blob/master/config/example.ini>`_.
+        
+        Importers
+        ---------
+        
+        ``rundeck-resources`` currently offer the following **importers**:
+        
+        * Chef: ``ChefImporter``
+        
+        
+        Exporters
+        ---------
+        
+        ``rundeck-resources`` currently offers the following **exporters**:
+        
+        * YAML: ``YAMLExporter``
+        
+        Contributors:
+        -------------
+        
+        * `Andrew Rabert <https://gitlab.com/nvllsvm>`_
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
