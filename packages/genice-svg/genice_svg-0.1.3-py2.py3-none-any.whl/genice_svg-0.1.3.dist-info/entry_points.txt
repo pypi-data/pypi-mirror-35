@@ -1,0 +1,6 @@
+[genice_format_hook0]
+svg_poly = genice_svg.formats.svg_poly:hook0
+
+[genice_format_hook2]
+svg_poly = genice_svg.formats.svg_poly:hook2
+
