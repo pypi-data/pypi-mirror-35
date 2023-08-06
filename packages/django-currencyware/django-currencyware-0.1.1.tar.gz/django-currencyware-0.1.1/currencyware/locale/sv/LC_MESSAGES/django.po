@@ -1,0 +1,509 @@
+# Translation of ISO 4217 (currency names) to Swedish
+# Copyright © various authors, see list below.
+# This file is distributed under the same license as the iso-codes package.
+#
+# Richard Hult <rhult@codefactory.se>, 1999, 2000, 2001.
+# Andreas Hyden <a.hyden@cyberpoint.se>, 2000.
+# Jörgen Tegnér <jorgen.tegner@telia.com>, 2001.
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+# Christian Rose <menthos@menthos.com>, 2000, 2001, 2006.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2015-08-12 11:20+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+
+msgid "ISO_4217.AED"
+msgstr "UAE Dirham"
+
+msgid "ISO_4217.AFN"
+msgstr "afghansk"
+
+msgid "ISO_4217.ALL"
+msgstr "Lek"
+
+msgid "ISO_4217.AMD"
+msgstr "Armeniska drama"
+
+msgid "ISO_4217.ANG"
+msgstr "Nederländska Antillian Guilder"
+
+msgid "ISO_4217.AOA"
+msgstr "Kwanza"
+
+msgid "ISO_4217.ARS"
+msgstr "Argentinska peso"
+
+msgid "ISO_4217.AUD"
+msgstr "Australiensiska dollar"
+
+msgid "ISO_4217.AWG"
+msgstr "Aruban Florin"
+
+msgid "ISO_4217.AZN"
+msgstr "Azerbajdzjansk manat"
+
+msgid "ISO_4217.BAM"
+msgstr "Cabriolet Mark"
+
+msgid "ISO_4217.BBD"
+msgstr "Barbados Dollar"
+
+msgid "ISO_4217.BDT"
+msgstr "Taka"
+
+msgid "ISO_4217.BGN"
+msgstr "Bulgariska lev"
+
+msgid "ISO_4217.BHD"
+msgstr "Bahraini Dinar"
+
+msgid "ISO_4217.BIF"
+msgstr "Burundi Franc"
+
+msgid "ISO_4217.BMD"
+msgstr "Bermudian Dollar"
+
+msgid "ISO_4217.BND"
+msgstr "Brunei Dollar"
+
+msgid "ISO_4217.BOB"
+msgstr "boliviano"
+
+msgid "ISO_4217.BRL"
+msgstr "Brasilianska verkliga"
+
+msgid "ISO_4217.BSD"
+msgstr "Bahamian Dollar"
+
+msgid "ISO_4217.BTN"
+msgstr "Ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "Pula"
+
+msgid "ISO_4217.BYR"
+msgstr "Vitryska rubel"
+
+msgid "ISO_4217.BZD"
+msgstr "Belize Dollar"
+
+msgid "ISO_4217.CAD"
+msgstr "Kanadensisk dollar"
+
+msgid "ISO_4217.CDF"
+msgstr "Kongolesisk franc"
+
+msgid "ISO_4217.CHF"
+msgstr "Schweizer franc"
+
+msgid "ISO_4217.CLP"
+msgstr "Chilenska peso"
+
+msgid "ISO_4217.CNY"
+msgstr "Yuan Renminbi"
+
+msgid "ISO_4217.COP"
+msgstr "Colombianska peso"
+
+msgid "ISO_4217.CRC"
+msgstr "Costa Rica Colon"
+
+msgid "ISO_4217.CUC"
+msgstr "Peso Cabriolet"
+
+msgid "ISO_4217.CUP"
+msgstr "Kubanska peso"
+
+msgid "ISO_4217.CVE"
+msgstr "Cabo Verde Escudo"
+
+msgid "ISO_4217.CZK"
+msgstr "Tjeckiska koruna"
+
+msgid "ISO_4217.DJF"
+msgstr "Djibouti Franc"
+
+msgid "ISO_4217.DKK"
+msgstr "Danska kronan"
+
+msgid "ISO_4217.DOP"
+msgstr "Dominikanska Peso"
+
+msgid "ISO_4217.DZD"
+msgstr "Algeriska dinar"
+
+msgid "ISO_4217.EGP"
+msgstr "Egyptisk pund"
+
+msgid "ISO_4217.ERN"
+msgstr "Nakfa"
+
+msgid "ISO_4217.ETB"
+msgstr "Etiopiska Birr"
+
+msgid "ISO_4217.EUR"
+msgstr "Euro"
+
+msgid "ISO_4217.FJD"
+msgstr "Fiji Dollar"
+
+msgid "ISO_4217.FKP"
+msgstr "Falklandsöarna Pound"
+
+msgid "ISO_4217.GBP"
+msgstr "Pundet"
+
+msgid "ISO_4217.GEL"
+msgstr "Lari"
+
+msgid "ISO_4217.GHS"
+msgstr "Ghana Cedi"
+
+msgid "ISO_4217.GIP"
+msgstr "Gibraltar pund"
+
+msgid "ISO_4217.GMD"
+msgstr "dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "Guinea Franc"
+
+msgid "ISO_4217.GTQ"
+msgstr "quetzal"
+
+msgid "ISO_4217.GYD"
+msgstr "Guyana Dollar"
+
+msgid "ISO_4217.HKD"
+msgstr "Hongkong-dollar"
+
+msgid "ISO_4217.HNL"
+msgstr "Lempira"
+
+msgid "ISO_4217.HTG"
+msgstr "Kuna"
+
+msgid "ISO_4217.HUF"
+msgstr "Gourde"
+
+msgid "ISO_4217.IDR"
+msgstr "forint"
+
+msgid "ISO_4217.ILS"
+msgstr "Rupiah"
+
+msgid "ISO_4217.INR"
+msgstr "Nya israeliska Sheqel"
+
+msgid "ISO_4217.IQD"
+msgstr "Indisk rupi"
+
+msgid "ISO_4217.IRR"
+msgstr "Irakisk dinar"
+
+msgid "ISO_4217.ISK"
+msgstr "Iranska rialet"
+
+msgid "ISO_4217.JMD"
+msgstr "Island Krona"
+
+msgid "ISO_4217.JOD"
+msgstr "Jamaicansk dollar"
+
+msgid "ISO_4217.JPY"
+msgstr "Jordansk dinar"
+
+msgid "ISO_4217.KES"
+msgstr "Yen"
+
+msgid "ISO_4217.KGS"
+msgstr "Kenyansk shilling"
+
+msgid "ISO_4217.KHR"
+msgstr "Som"
+
+msgid "ISO_4217.KMF"
+msgstr "Riel"
+
+msgid "ISO_4217.KPW"
+msgstr "Comoro Franc"
+
+msgid "ISO_4217.KRW"
+msgstr "Nordkoreanska vann"
+
+msgid "ISO_4217.KWD"
+msgstr "Vann"
+
+msgid "ISO_4217.KYD"
+msgstr "Kuwaiti Dinar"
+
+msgid "ISO_4217.KZT"
+msgstr "Caymanöarna Dollar"
+
+msgid "ISO_4217.LAK"
+msgstr "tenge"
+
+msgid "ISO_4217.LBP"
+msgstr "Slaf"
+
+msgid "ISO_4217.LKR"
+msgstr "Libanesiska pundet"
+
+msgid "ISO_4217.LRD"
+msgstr "Sri Lanka rupi"
+
+msgid "ISO_4217.LSL"
+msgstr "Liberian Dollar"
+
+msgid "ISO_4217.LYD"
+msgstr "Loti"
+
+msgid "ISO_4217.MAD"
+msgstr "Libysk dinar"
+
+msgid "ISO_4217.MDL"
+msgstr "Marockansk dirham"
+
+msgid "ISO_4217.MGA"
+msgstr "Moldaviska leu"
+
+msgid "ISO_4217.MKD"
+msgstr "Malagasiska Ariary"
+
+msgid "ISO_4217.MMK"
+msgstr "denar"
+
+msgid "ISO_4217.MNT"
+msgstr "kyat"
+
+msgid "ISO_4217.MOP"
+msgstr "Tugrik"
+
+msgid "ISO_4217.MRO"
+msgstr "Pataca"
+
+msgid "ISO_4217.MUR"
+msgstr "Ouguiya"
+
+msgid "ISO_4217.MVR"
+msgstr "Mauritius Rupee"
+
+msgid "ISO_4217.MWK"
+msgstr "rufiyaa"
+
+msgid "ISO_4217.MXN"
+msgstr "Malawi Kwacha"
+
+msgid "ISO_4217.MYR"
+msgstr "Mexikanska peso"
+
+msgid "ISO_4217.NAD"
+msgstr "Malaysiska Ringgit"
+
+msgid "ISO_4217.NGN"
+msgstr "Moçambique Metical"
+
+msgid "ISO_4217.NIO"
+msgstr "Namibia Dollar"
+
+msgid "ISO_4217.NOK"
+msgstr "Naira"
+
+msgid "ISO_4217.NPR"
+msgstr "Cordoba Oro"
+
+msgid "ISO_4217.NZD"
+msgstr "Norska kronan"
+
+msgid "ISO_4217.OMR"
+msgstr "Nepalesisk rupi"
+
+msgid "ISO_4217.PAB"
+msgstr "Nya Zeeland Dollar"
+
+msgid "ISO_4217.PEN"
+msgstr "Rial Omani"
+
+msgid "ISO_4217.PGK"
+msgstr "Balboa"
+
+msgid "ISO_4217.PHP"
+msgstr "sol"
+
+msgid "ISO_4217.PKR"
+msgstr "kina"
+
+msgid "ISO_4217.PLN"
+msgstr "Filippinska peso"
+
+msgid "ISO_4217.PYG"
+msgstr "Pakistan Rupee"
+
+msgid "ISO_4217.QAR"
+msgstr "zloty"
+
+msgid "ISO_4217.RSD"
+msgstr "Guarani"
+
+msgid "ISO_4217.RUB"
+msgstr "Qatari Rial"
+
+msgid "ISO_4217.RWF"
+msgstr "Rumänska leu"
+
+msgid "ISO_4217.SAR"
+msgstr "Serbiska dinar"
+
+msgid "ISO_4217.SBD"
+msgstr "Ryska rubel"
+
+msgid "ISO_4217.SCR"
+msgstr "Rwanda Franc"
+
+msgid "ISO_4217.SDG"
+msgstr "Saudiarabien Riyal"
+
+msgid "ISO_4217.SEK"
+msgstr "Solomon Islands Dollar"
+
+msgid "ISO_4217.SGD"
+msgstr "Seychellerna rupi"
+
+msgid "ISO_4217.SHP"
+msgstr "Sudanesiska pundet"
+
+msgid "ISO_4217.SLL"
+msgstr "Svenska kronan"
+
+msgid "ISO_4217.SOS"
+msgstr "Singapore Dollar"
+
+msgid "ISO_4217.SRD"
+msgstr "Saint Helena Pound"
+
+msgid "ISO_4217.SSP"
+msgstr "Leone"
+
+msgid "ISO_4217.STD"
+msgstr "Somalisk shilling"
+
+msgid "ISO_4217.SVC"
+msgstr "Surinam Dollar"
+
+msgid "ISO_4217.SYP"
+msgstr "Södra sudanesiska pundet"
+
+msgid "ISO_4217.SZL"
+msgstr "dobra"
+
+msgid "ISO_4217.THB"
+msgstr "El Salvador Colon"
+
+msgid "ISO_4217.TJS"
+msgstr "Syriska pund"
+
+msgid "ISO_4217.TND"
+msgstr "Lilangeni"
+
+msgid "ISO_4217.TOP"
+msgstr "baht"
+
+msgid "ISO_4217.TRY"
+msgstr "somoni"
+
+msgid "ISO_4217.TTD"
+msgstr "Turkmenistan New Manat"
+
+msgid "ISO_4217.TWD"
+msgstr "Tunisisk dinar"
+
+msgid "ISO_4217.TZS"
+msgstr "pa&#39;anga"
+
+msgid "ISO_4217.UAH"
+msgstr "Turkiska lire"
+
+msgid "ISO_4217.UGX"
+msgstr "Trinidad och Tobago Dollar"
+
+msgid "ISO_4217.USD"
+msgstr "Ny Taiwan Dollar"
+
+msgid "ISO_4217.UYU"
+msgstr "Tanzanian Shilling"
+
+msgid "ISO_4217.UZS"
+msgstr "hryvnia"
+
+msgid "ISO_4217.VND"
+msgstr "Uganda Shilling"
+
+msgid "ISO_4217.VUV"
+msgstr "Amerikanska dollar"
+
+msgid "ISO_4217.WST"
+msgstr "Peso Uruguayo"
+
+msgid "ISO_4217.XAF"
+msgstr "Uzbekistan Summan"
+
+msgid "ISO_4217.XAG"
+msgstr "Bolívar"
+
+msgid "ISO_4217.XAU"
+msgstr "Dong"
+
+msgid "ISO_4217.XBA"
+msgstr "Vatu"
+
+msgid "ISO_4217.XBB"
+msgstr "Tala"
+
+msgid "ISO_4217.XBC"
+msgstr "CFA Franc BEAC"
+
+msgid "ISO_4217.XBD"
+msgstr "Silver"
+
+msgid "ISO_4217.XCD"
+msgstr "Guld"
+
+msgid "ISO_4217.XDR"
+msgstr "Bond Markets Unit European Composite Unit (EURCO)"
+
+msgid "ISO_4217.XOF"
+msgstr "Bondmarknadsenhet Europeiska monetära enheten (EMU-6)"
+
+msgid "ISO_4217.XPD"
+msgstr "Obligationsmarknadsenhet Europeiska kontonummer 9 (EUA-9)"
+
+msgid "ISO_4217.XPF"
+msgstr "Obligationsmarknadsenhet Europeisk kontonummer 17 (EUA-17)"
+
+msgid "ISO_4217.XPT"
+msgstr "Östkaribiska dollar"
+
+msgid "ISO_4217.XTS"
+msgstr "SDR (Special Draw Right)"
+
+msgid "ISO_4217.YER"
+msgstr "CFA Franc BCEAO"
+
+msgid "ISO_4217.ZAR"
+msgstr "Palladium"
+
+msgid "ISO_4217.ZMW"
+msgstr "CFP Franc"
+
+msgid "ISO_4217.ZWL"
+msgstr "Platina"

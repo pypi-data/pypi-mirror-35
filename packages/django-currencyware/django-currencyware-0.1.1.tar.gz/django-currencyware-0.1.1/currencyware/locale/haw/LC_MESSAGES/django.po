@@ -1,0 +1,529 @@
+# Translation of ISO 4217 to LANGUAGE
+# Codes for the representation of currencies
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright ©
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "UAE Dirham"
+
+msgid "ISO_4217.AFN"
+msgstr "ʻO Afghani"
+
+msgid "ISO_4217.ALL"
+msgstr "Lek"
+
+msgid "ISO_4217.AMD"
+msgstr "ʻO Armenia Dram"
+
+msgid "ISO_4217.ANG"
+msgstr "Netherlands Antillean Guilder"
+
+msgid "ISO_4217.AOA"
+msgstr "Kwanza"
+
+msgid "ISO_4217.ARS"
+msgstr "Peso Argentine"
+
+msgid "ISO_4217.AUD"
+msgstr "ʻO ka Dollar&#39;Aselika"
+
+msgid "ISO_4217.AWG"
+msgstr "ʻO Aruban Florin"
+
+msgid "ISO_4217.AZN"
+msgstr "Manatā Azerbaijan"
+
+msgid "ISO_4217.BAM"
+msgstr "Mark Mark"
+
+msgid "ISO_4217.BBD"
+msgstr "ʻO ke kālā pāpaʻi"
+
+msgid "ISO_4217.BDT"
+msgstr "Taka"
+
+msgid "ISO_4217.BGN"
+msgstr "ʻO Bulgarian Lev"
+
+msgid "ISO_4217.BHD"
+msgstr "Bahraini Dinar"
+
+msgid "ISO_4217.BIF"
+msgstr "ʻO Burundi Franc"
+
+msgid "ISO_4217.BMD"
+msgstr "Ke dala Bermudian"
+
+msgid "ISO_4217.BND"
+msgstr "Uku Dolla"
+
+msgid "ISO_4217.BOB"
+msgstr "Boliviano"
+
+msgid "ISO_4217.BRL"
+msgstr "ʻO Brazil maoli"
+
+msgid "ISO_4217.BSD"
+msgstr "Ka uku Bahamia"
+
+msgid "ISO_4217.BTN"
+msgstr "ʻO Ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "Pula"
+
+msgid "ISO_4217.BYR"
+msgstr "Belarusian Ruble"
+
+msgid "ISO_4217.BZD"
+msgstr "Uku Belize"
+
+msgid "ISO_4217.CAD"
+msgstr "ʻO ke kālā Kanada"
+
+msgid "ISO_4217.CDF"
+msgstr "ʻO Congolese Franc"
+
+msgid "ISO_4217.CHF"
+msgstr "Swiss Franc"
+
+msgid "ISO_4217.CLP"
+msgstr "Peso Chilina"
+
+msgid "ISO_4217.CNY"
+msgstr "Yuan Renminbi"
+
+msgid "ISO_4217.COP"
+msgstr "Peso o Colombian"
+
+msgid "ISO_4217.CRC"
+msgstr "ʻO Costa Rican Colon"
+
+msgid "ISO_4217.CUC"
+msgstr "Hoʻololi hoʻololi Peso"
+
+msgid "ISO_4217.CUP"
+msgstr "Ka Peso Pītini"
+
+msgid "ISO_4217.CVE"
+msgstr "Cabo Verde Hōʻike"
+
+msgid "ISO_4217.CZK"
+msgstr "ʻO Koruna"
+
+msgid "ISO_4217.DJF"
+msgstr "ʻO Djibouti Franc"
+
+msgid "ISO_4217.DKK"
+msgstr "ʻO Kekena Danish"
+
+msgid "ISO_4217.DOP"
+msgstr "ʻO ka Pesohana Dominican"
+
+msgid "ISO_4217.DZD"
+msgstr "ʻO ka Dinarian Algeria"
+
+msgid "ISO_4217.EGP"
+msgstr "ʻO ka paona oʻAigupita"
+
+msgid "ISO_4217.ERN"
+msgstr "Nakfa"
+
+msgid "ISO_4217.ETB"
+msgstr "ʻO koʻAitiopa Birr"
+
+msgid "ISO_4217.EUR"
+msgstr "Euro"
+
+msgid "ISO_4217.FJD"
+msgstr "Dollar Fila"
+
+msgid "ISO_4217.FKP"
+msgstr "Māhele Pākēʻo Falkland"
+
+msgid "ISO_4217.GBP"
+msgstr "Pound Sterling"
+
+msgid "ISO_4217.GEL"
+msgstr "Lari"
+
+msgid "ISO_4217.GHS"
+msgstr "ʻO Ghana Cedi"
+
+msgid "ISO_4217.GIP"
+msgstr "ʻO Gibraltar Pound"
+
+msgid "ISO_4217.GMD"
+msgstr "ʻO Dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "ʻO Guinea Franc"
+
+msgid "ISO_4217.GTQ"
+msgstr "ʻO Quetzal"
+
+msgid "ISO_4217.GYD"
+msgstr "ʻO Guiana Dolla"
+
+msgid "ISO_4217.HKD"
+msgstr "ʻO ka Hong Kong Dollar"
+
+msgid "ISO_4217.HNL"
+msgstr "Lempira"
+
+msgid "ISO_4217.HRK"
+msgstr "Kuna"
+
+msgid "ISO_4217.HTG"
+msgstr "ʻO Gourde"
+
+msgid "ISO_4217.HUF"
+msgstr "Pōʻalima"
+
+msgid "ISO_4217.IDR"
+msgstr "ʻO Rupiah"
+
+msgid "ISO_4217.ILS"
+msgstr "ʻO ka New Israel Sheqel"
+
+msgid "ISO_4217.INR"
+msgstr "ʻO Indian Rupee"
+
+msgid "ISO_4217.IQD"
+msgstr "Iraqi Dinar"
+
+msgid "ISO_4217.IRR"
+msgstr "ʻO Rial Iranian"
+
+msgid "ISO_4217.ISK"
+msgstr "Iceland Krona"
+
+msgid "ISO_4217.JMD"
+msgstr "ʻO ka Hui Jamaica"
+
+msgid "ISO_4217.JOD"
+msgstr "ʻO ka Jordanian Dinar"
+
+msgid "ISO_4217.JPY"
+msgstr "Yen"
+
+msgid "ISO_4217.KES"
+msgstr "Kaapuni Kenyan"
+
+msgid "ISO_4217.KGS"
+msgstr "&#39;An"
+
+msgid "ISO_4217.KHR"
+msgstr "Riel"
+
+msgid "ISO_4217.KMF"
+msgstr "ʻO Comoro Franc"
+
+msgid "ISO_4217.KPW"
+msgstr "North Korean Won"
+
+msgid "ISO_4217.KRW"
+msgstr "Nā"
+
+msgid "ISO_4217.KWD"
+msgstr "Kuwait Dinar"
+
+msgid "ISO_4217.KYD"
+msgstr "Ka Mokupuniʻo Cayman"
+
+msgid "ISO_4217.KZT"
+msgstr "Nalu"
+
+msgid "ISO_4217.LAK"
+msgstr "Kip"
+
+msgid "ISO_4217.LBP"
+msgstr "ʻO Lebanona Pā"
+
+msgid "ISO_4217.LKR"
+msgstr "Sri Lanka Rupee"
+
+msgid "ISO_4217.LRD"
+msgstr "ʻO ke kālā Liberian"
+
+msgid "ISO_4217.LSL"
+msgstr "Loti"
+
+msgid "ISO_4217.LYD"
+msgstr "Libar Dinar"
+
+msgid "ISO_4217.MAD"
+msgstr "Moroccan Dirham"
+
+msgid "ISO_4217.MDL"
+msgstr "ʻO Leu"
+
+msgid "ISO_4217.MGA"
+msgstr "Malagasy Ariary"
+
+msgid "ISO_4217.MKD"
+msgstr "ʻO Denar"
+
+msgid "ISO_4217.MMK"
+msgstr "ʻO Kyat"
+
+msgid "ISO_4217.MNT"
+msgstr "Hoʻokik"
+
+msgid "ISO_4217.MOP"
+msgstr "Pataca"
+
+msgid "ISO_4217.MRO"
+msgstr "Ouguiya"
+
+msgid "ISO_4217.MUR"
+msgstr "ʻO Mauritius Rupee"
+
+msgid "ISO_4217.MVR"
+msgstr "ʻO Rufiyaa"
+
+msgid "ISO_4217.MWK"
+msgstr "ʻO Malawi Kwacha"
+
+msgid "ISO_4217.MXN"
+msgstr "ʻO Peso"
+
+msgid "ISO_4217.MYR"
+msgstr "ʻO Malaysian Ringgit"
+
+msgid "ISO_4217.MZN"
+msgstr "Mozambique Metical"
+
+msgid "ISO_4217.NAD"
+msgstr "Nānā Namibia"
+
+msgid "ISO_4217.NGN"
+msgstr "Naira"
+
+msgid "ISO_4217.NIO"
+msgstr "ʻO Cordoba&#39;Oro"
+
+msgid "ISO_4217.NOK"
+msgstr "Keleka Norwegian Krone"
+
+msgid "ISO_4217.NPR"
+msgstr "ʻO Nepalese Rupee"
+
+msgid "ISO_4217.NZD"
+msgstr "Nā Dollar Niu Sila"
+
+msgid "ISO_4217.OMR"
+msgstr "RialʻOhana"
+
+msgid "ISO_4217.PAB"
+msgstr "ʻO Balboa"
+
+msgid "ISO_4217.PEN"
+msgstr "Sol"
+
+msgid "ISO_4217.PGK"
+msgstr "Kina"
+
+msgid "ISO_4217.PHP"
+msgstr "Peso Peso"
+
+msgid "ISO_4217.PKR"
+msgstr "Pakistani Rupee"
+
+msgid "ISO_4217.PLN"
+msgstr "Zloty"
+
+msgid "ISO_4217.PYG"
+msgstr "ʻO Guarani"
+
+msgid "ISO_4217.QAR"
+msgstr "Kūleʻa Qatari"
+
+msgid "ISO_4217.RON"
+msgstr "ʻO Leu"
+
+msgid "ISO_4217.RSD"
+msgstr "ʻO ka Dinar Serbian"
+
+msgid "ISO_4217.RUB"
+msgstr "Russian Ruble"
+
+msgid "ISO_4217.RWF"
+msgstr "Rwanda Franc"
+
+msgid "ISO_4217.SAR"
+msgstr "Saudi Riyal"
+
+msgid "ISO_4217.SBD"
+msgstr "Nā Māla o Solomona"
+
+msgid "ISO_4217.SCR"
+msgstr "ʻO Seychelles Rupee"
+
+msgid "ISO_4217.SDG"
+msgstr "Paʻa Sudanese"
+
+msgid "ISO_4217.SEK"
+msgstr "Kekena Kepena"
+
+msgid "ISO_4217.SGD"
+msgstr "ʻO ka Dolla kālā"
+
+msgid "ISO_4217.SHP"
+msgstr "Saint Helena Pound"
+
+msgid "ISO_4217.SLL"
+msgstr "Leone"
+
+msgid "ISO_4217.SOS"
+msgstr "Palepa Somali"
+
+msgid "ISO_4217.SRD"
+msgstr "ʻO ke kālā Surinam"
+
+msgid "ISO_4217.SSP"
+msgstr "Ka Palena o South Sudan"
+
+msgid "ISO_4217.STD"
+msgstr "Dobra"
+
+msgid "ISO_4217.SVC"
+msgstr "ʻO El Salvador Colon"
+
+msgid "ISO_4217.SYP"
+msgstr "Ka Puni Piliane"
+
+msgid "ISO_4217.SZL"
+msgstr "ʻO Lilangeni"
+
+msgid "ISO_4217.THB"
+msgstr "ʻO ia"
+
+msgid "ISO_4217.TJS"
+msgstr "ʻO Somoni"
+
+msgid "ISO_4217.TMT"
+msgstr "ʻO Turkmenistan New Manat"
+
+msgid "ISO_4217.TND"
+msgstr "Hui Dinariania"
+
+msgid "ISO_4217.TOP"
+msgstr "Palena"
+
+msgid "ISO_4217.TRY"
+msgstr "ʻO Turkish Lira"
+
+msgid "ISO_4217.TTD"
+msgstr "Trinidad a me Tobago Dolla"
+
+msgid "ISO_4217.TWD"
+msgstr "ʻO New Dollar Taiwan"
+
+msgid "ISO_4217.TZS"
+msgstr "Ka Puʻupuʻu Tanzanian"
+
+msgid "ISO_4217.UAH"
+msgstr "Hrynia"
+
+msgid "ISO_4217.UGX"
+msgstr "Uganda Kaopuiki"
+
+msgid "ISO_4217.USD"
+msgstr "ʻO ka US"
+
+msgid "ISO_4217.UYU"
+msgstr "ʻO Peso Uruguayo"
+
+msgid "ISO_4217.UZS"
+msgstr "Ka Nui o Uzbekistan"
+
+msgid "ISO_4217.VEF"
+msgstr "Hoʻoponopono"
+
+msgid "ISO_4217.VND"
+msgstr "Dong"
+
+msgid "ISO_4217.VUV"
+msgstr "ʻO Vatu"
+
+msgid "ISO_4217.WST"
+msgstr "Kālā"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA Franc BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "ʻO ke kālā"
+
+msgid "ISO_4217.XAU"
+msgstr "ʻO ke gula"
+
+msgid "ISO_4217.XBA"
+msgstr "Māhele Bond Unit Unit Unit European Union Composite Unit (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "Nā Pāna Bond UnitʻEleʻele Europa Mokuna (EMU-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Māhele Bond Unit Unit European Unit of Account 9 (EUA-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Nā Pāna Bond Unit Unit European Unit of Account 17 (EUA-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "ʻO ka Dollar Karipiano Kipuka"
+
+msgid "ISO_4217.XDR"
+msgstr "SDR (Kākau pololei)"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA Franc BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "Palladium"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP&#39;Oiho"
+
+msgid "ISO_4217.XPT"
+msgstr "Paʻapala"
+
+msgid "ISO_4217.XSU"
+msgstr "Kāne"
+
+msgid "ISO_4217.XTS"
+msgstr "Nā code e kau nei no nā kumu hoʻokolohua"
+
+msgid "ISO_4217.XUA"
+msgstr "ADB Pūʻulu Pūnaewele"
+
+msgid "ISO_4217.XXX"
+msgstr "ʻO nā wae i hoʻoiliʻia no nā&#39;ahamele ināʻaʻole kahi kālā i komo"
+
+msgid "ISO_4217.YER"
+msgstr "ʻO ka Rial Yemen"
+
+msgid "ISO_4217.ZAR"
+msgstr "ʻO Rand"
+
+msgid "ISO_4217.ZMW"
+msgstr "Zambian Kwacha"
+
+msgid "ISO_4217.ZWL"
+msgstr "ʻO Zimbabwe Dolla"

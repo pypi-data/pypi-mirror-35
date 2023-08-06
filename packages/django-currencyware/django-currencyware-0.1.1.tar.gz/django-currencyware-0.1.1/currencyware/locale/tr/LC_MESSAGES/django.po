@@ -1,0 +1,427 @@
+# Translation of ISO 4217 (currency names) to Turkish
+# Copyright © various authors, see list below.
+# This file is distributed under the same license as the iso-codes package.
+#
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+# Görkem Çetin <gorkem@gelecek.com.tr>, 2000.
+# Nilgün Belma Bugüner <nilgun@buguner.name.tr>, 2001-2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2007-07-09 11:29+0300\n"
+"Last-Translator: Nilgün Belma Bugüner <nilgun@buguner.name.tr>\n"
+"Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "ISO_4217.AED"
+msgstr "BAE dirhem"
+
+msgid "ISO_4217.AFN"
+msgstr "Afgani"
+
+msgid "ISO_4217.AMD"
+msgstr "Ermeni Dirhemi"
+
+msgid "ISO_4217.ANG"
+msgstr "Hollanda Antilleri Gulden"
+
+msgid "ISO_4217.AOA"
+msgstr "Angola Kvanza"
+
+msgid "ISO_4217.ARS"
+msgstr "Arjantin Pesosu"
+
+msgid "ISO_4217.AUD"
+msgstr "Avustralya Doları"
+
+msgid "ISO_4217.AWG"
+msgstr "Aruban Guldeni"
+
+msgid "ISO_4217.AZN"
+msgstr "Azerbaycan Manat"
+
+msgid "ISO_4217.BAM"
+msgstr "Değiştirilebilir Paralar"
+
+msgid "ISO_4217.BBD"
+msgstr "Barbados Doları"
+
+msgid "ISO_4217.BGN"
+msgstr "Bulgar Levası"
+
+msgid "ISO_4217.BHD"
+msgstr "Bahreyn Dinarı"
+
+msgid "ISO_4217.BIF"
+msgstr "Burundi Frangı"
+
+msgid "ISO_4217.BMD"
+msgstr "Bermuda Doları"
+
+msgid "ISO_4217.BND"
+msgstr "Bruney Doları"
+
+msgid "ISO_4217.BOB"
+msgstr "Bolivyano"
+
+msgid "ISO_4217.BRL"
+msgstr "Brezilya Reali"
+
+msgid "ISO_4217.BSD"
+msgstr "Bahama Doları"
+
+msgid "ISO_4217.BTN"
+msgstr "Bütan Gultrumu"
+
+msgid "ISO_4217.BYR"
+msgstr "Belarus Rublesi"
+
+msgid "ISO_4217.BZD"
+msgstr "Belize Doları"
+
+msgid "ISO_4217.CAD"
+msgstr "Kanada Doları"
+
+msgid "ISO_4217.CDF"
+msgstr "Komoro Frangı"
+
+msgid "ISO_4217.CHF"
+msgstr "İsviçre Frangı"
+
+msgid "ISO_4217.CLP"
+msgstr "Şili Pezosu"
+
+msgid "ISO_4217.CNY"
+msgstr "Çin Yuan Renminbi"
+
+msgid "ISO_4217.COP"
+msgstr "Kolombiya Pesosu"
+
+msgid "ISO_4217.CRC"
+msgstr "Kostarika Kolonu"
+
+msgid "ISO_4217.CUC"
+msgstr "Değiştirilebilir Paralar"
+
+msgid "ISO_4217.CUP"
+msgstr "Küba Pezosu"
+
+msgid "ISO_4217.CVE"
+msgstr "Keypverde Esküdosu"
+
+msgid "ISO_4217.CZK"
+msgstr "Çek Kronu"
+
+msgid "ISO_4217.DJF"
+msgstr "Cibuti Frangı"
+
+msgid "ISO_4217.DKK"
+msgstr "Danimarka Kronu"
+
+msgid "ISO_4217.DOP"
+msgstr "Dominik Pezosu"
+
+msgid "ISO_4217.DZD"
+msgstr "Cezayir Dinarı"
+
+msgid "ISO_4217.EGP"
+msgstr "Mısır Lirası"
+
+msgid "ISO_4217.ETB"
+msgstr "Etyopya Biri"
+
+msgid "ISO_4217.EUR"
+msgstr "Euro"
+
+msgid "ISO_4217.FJD"
+msgstr "Fiji Doları"
+
+msgid "ISO_4217.FKP"
+msgstr "Falkland Adaları Poundu"
+
+msgid "ISO_4217.GBP"
+msgstr "İngiliz Sterlini"
+
+msgid "ISO_4217.GHS"
+msgstr "Gana Sedisi"
+
+msgid "ISO_4217.GIP"
+msgstr "Cebelitarık Poundu"
+
+msgid "ISO_4217.GMD"
+msgstr "Gambiya Dalaşı"
+
+msgid "ISO_4217.GNF"
+msgstr "Gine Frangı"
+
+msgid "ISO_4217.GYD"
+msgstr "Güyan Doları"
+
+msgid "ISO_4217.HKD"
+msgstr "Hong Kong Doları"
+
+msgid "ISO_4217.HNL"
+msgstr "Honduras Lempirası"
+
+msgid "ISO_4217.HTG"
+msgstr "Haiti Gurdesi"
+
+msgid "ISO_4217.ILS"
+msgstr "Yeni İsrail Şekeli"
+
+msgid "ISO_4217.INR"
+msgstr "Hint Rublesi"
+
+msgid "ISO_4217.IQD"
+msgstr "Irak Dinarı"
+
+msgid "ISO_4217.IRR"
+msgstr "İran Riyali"
+
+msgid "ISO_4217.ISK"
+msgstr "İzlanda Kronu"
+
+msgid "ISO_4217.JMD"
+msgstr "Jameyka Doları"
+
+msgid "ISO_4217.JOD"
+msgstr "Ürdün Dinarı"
+
+msgid "ISO_4217.KES"
+msgstr "Kenya Şilini"
+
+msgid "ISO_4217.KMF"
+msgstr "Komoro Frangı"
+
+msgid "ISO_4217.KPW"
+msgstr "Kuzey Kore Vonu"
+
+msgid "ISO_4217.KWD"
+msgstr "Kuveyt Dinarı"
+
+msgid "ISO_4217.KYD"
+msgstr "Seyman Adaları Doları"
+
+msgid "ISO_4217.KZT"
+msgstr "Leone"
+
+msgid "ISO_4217.LAK"
+msgstr "Laos Kipi"
+
+msgid "ISO_4217.LBP"
+msgstr "Lübnan Poundu"
+
+msgid "ISO_4217.LKR"
+msgstr "Srilanka Rublesi"
+
+msgid "ISO_4217.LRD"
+msgstr "Liberya Doları"
+
+msgid "ISO_4217.LYD"
+msgstr "Libya Dinarı"
+
+msgid "ISO_4217.MAD"
+msgstr "Fas Dirhemi"
+
+msgid "ISO_4217.MDL"
+msgstr "Moldovya Levası"
+
+msgid "ISO_4217.MGA"
+msgstr "Malagaski Ariarisi"
+
+msgid "ISO_4217.MMK"
+msgstr "Kıyat"
+
+msgid "ISO_4217.MOP"
+msgstr "Makau Patakası"
+
+msgid "ISO_4217.MUR"
+msgstr "Moritanya Rublesi"
+
+msgid "ISO_4217.MVR"
+msgstr "Maldiv Rublesi"
+
+msgid "ISO_4217.MWK"
+msgstr "Malavi Kvaçası"
+
+msgid "ISO_4217.MXN"
+msgstr "Meksika Pezosu"
+
+msgid "ISO_4217.MYR"
+msgstr "Malezya Ringiti"
+
+msgid "ISO_4217.NAD"
+msgstr "Namibya Doları"
+
+msgid "ISO_4217.NGN"
+msgstr "Zaire"
+
+msgid "ISO_4217.NIO"
+msgstr "Nikaragua Kordoba Orosu"
+
+msgid "ISO_4217.NOK"
+msgstr "Norveç Kronu"
+
+msgid "ISO_4217.NPR"
+msgstr "Nepal Rublesi"
+
+msgid "ISO_4217.NZD"
+msgstr "Yeni Zellanda Doları"
+
+msgid "ISO_4217.OMR"
+msgstr "Riyal Omeni"
+
+msgid "ISO_4217.PHP"
+msgstr "Filipin Pezosu"
+
+msgid "ISO_4217.PKR"
+msgstr "Pakistan Rupisi"
+
+msgid "ISO_4217.PYG"
+msgstr "Gine Frangı"
+
+msgid "ISO_4217.QAR"
+msgstr "Katar Riyali"
+
+msgid "ISO_4217.RSD"
+msgstr "Sırp Dinarı"
+
+msgid "ISO_4217.RUB"
+msgstr "Rus Rublesi"
+
+msgid "ISO_4217.RWF"
+msgstr "Ruanda Frangı"
+
+msgid "ISO_4217.SAR"
+msgstr "Arabistan Riyali"
+
+msgid "ISO_4217.SBD"
+msgstr "Solomon Adaları Doları"
+
+msgid "ISO_4217.SCR"
+msgstr "Seyşel Adaları Rublesi"
+
+msgid "ISO_4217.SDG"
+msgstr "Sudan Poundu"
+
+msgid "ISO_4217.SEK"
+msgstr "İsveç Kronu"
+
+msgid "ISO_4217.SGD"
+msgstr "Singapur Doları"
+
+msgid "ISO_4217.SHP"
+msgstr "Senhelen Poundu"
+
+msgid "ISO_4217.SLL"
+msgstr "Leone"
+
+msgid "ISO_4217.SOS"
+msgstr "Somali Şilini"
+
+msgid "ISO_4217.SRD"
+msgstr "Surinam Doları"
+
+msgid "ISO_4217.SSP"
+msgstr "Sudan Poundu"
+
+msgid "ISO_4217.SVC"
+msgstr "El Salvador Kolonu"
+
+msgid "ISO_4217.SYP"
+msgstr "Suriye Lirası"
+
+msgid "ISO_4217.SZL"
+msgstr "Swaziland Lilangeni"
+
+msgid "ISO_4217.THB"
+msgstr "Thai Baht"
+
+msgid "ISO_4217.TJS"
+msgstr "Tacik Somonu"
+
+msgid "ISO_4217.TND"
+msgstr "Tunus Dinarı"
+
+msgid "ISO_4217.TOP"
+msgstr "Tongan Pangası"
+
+msgid "ISO_4217.TRY"
+msgstr "Yeni Türk Lirası"
+
+msgid "ISO_4217.TTD"
+msgstr "Trinidad ve Tobago Doları"
+
+msgid "ISO_4217.TWD"
+msgstr "Yeni Tayvan Doları"
+
+msgid "ISO_4217.TZS"
+msgstr "Tanzanya Şilini"
+
+msgid "ISO_4217.UGX"
+msgstr "Uganda Şilini"
+
+msgid "ISO_4217.USD"
+msgstr "Amerikan Doları"
+
+msgid "ISO_4217.UYU"
+msgstr "Uruguay Pesosu"
+
+msgid "ISO_4217.UZS"
+msgstr "Özbek Sumu"
+
+msgid "ISO_4217.XAF"
+msgstr "Orta Afrika Mali İşbirliği Frangı"
+
+msgid "ISO_4217.XAG"
+msgstr "Gümüş"
+
+msgid "ISO_4217.XAU"
+msgstr "Altın"
+
+msgid "ISO_4217.XBA"
+msgstr "Tahvil Piyasaları Birimi Avrupa Birleşik birimi (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "Avrupa Para Birimi (E.M.U.-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Avrupa Ödeme Birimi 9 (E.U.A.-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Avrupa Ödeme Birimi 17 (E.U.A.-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "Doğu Karayip Doları"
+
+msgid "ISO_4217.XOF"
+msgstr "Afrika Finans Topluluğu Frangı"
+
+msgid "ISO_4217.XPD"
+msgstr "Palladyum"
+
+msgid "ISO_4217.XPF"
+msgstr "Fransız Pasifik Kolonileri Frangı"
+
+msgid "ISO_4217.XPT"
+msgstr "Platin"
+
+msgid "ISO_4217.XTS"
+msgstr "Sınama amaçlı kod"
+
+msgid "ISO_4217.YER"
+msgstr "Yemen Riyali"
+
+msgid "ISO_4217.ZMW"
+msgstr "Malavi Kvaçası"
+
+msgid "ISO_4217.ZWL"
+msgstr "Zimbabve Doları"

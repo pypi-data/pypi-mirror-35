@@ -1,0 +1,529 @@
+# Translation of ISO 4217 to LANGUAGE
+# Codes for the representation of currencies
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright ©
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "ዩአይኤል ዲርሃም"
+
+msgid "ISO_4217.AFN"
+msgstr "አፍጋኒ"
+
+msgid "ISO_4217.ALL"
+msgstr "ሌክ"
+
+msgid "ISO_4217.AMD"
+msgstr "የአርሜኒያ ድራም"
+
+msgid "ISO_4217.ANG"
+msgstr "ኔዘርላንድ አንቲሊን ጉሬይ"
+
+msgid "ISO_4217.AOA"
+msgstr "Kwanza"
+
+msgid "ISO_4217.ARS"
+msgstr "የአርጀንቲና ፔሶ"
+
+msgid "ISO_4217.AUD"
+msgstr "የአውስትራሊያ ዶላር"
+
+msgid "ISO_4217.AWG"
+msgstr "አሩባን ፍሎሪን"
+
+msgid "ISO_4217.AZN"
+msgstr "አዘርባጃዊያን ማናት"
+
+msgid "ISO_4217.BAM"
+msgstr "መለወጥ ምልክት"
+
+msgid "ISO_4217.BBD"
+msgstr "ባርባዶስ ዶላር"
+
+msgid "ISO_4217.BDT"
+msgstr "ታካ"
+
+msgid "ISO_4217.BGN"
+msgstr "ቡልጋሪያዊ ሌ"
+
+msgid "ISO_4217.BHD"
+msgstr "የባህርሬዲ ዲናር"
+
+msgid "ISO_4217.BIF"
+msgstr "ቡሩንዲ ፍራንት"
+
+msgid "ISO_4217.BMD"
+msgstr "የቤርሚዲ ዶላር"
+
+msgid "ISO_4217.BND"
+msgstr "የብሩኒይ ዶላር"
+
+msgid "ISO_4217.BOB"
+msgstr "ቦሊቪያኖ"
+
+msgid "ISO_4217.BRL"
+msgstr "የብራዚል ሪል"
+
+msgid "ISO_4217.BSD"
+msgstr "የባሃሙን ዶላር"
+
+msgid "ISO_4217.BTN"
+msgstr "ኔሉምረም"
+
+msgid "ISO_4217.BWP"
+msgstr "ፑላ"
+
+msgid "ISO_4217.BYR"
+msgstr "ቤላሩሪያ ሮል"
+
+msgid "ISO_4217.BZD"
+msgstr "የቤሊዝ ዶላር"
+
+msgid "ISO_4217.CAD"
+msgstr "የካናዳ ዶላር"
+
+msgid "ISO_4217.CDF"
+msgstr "ኮንጐሽ ፍራንክ"
+
+msgid "ISO_4217.CHF"
+msgstr "የስዊስ ፍራንክ"
+
+msgid "ISO_4217.CLP"
+msgstr "የቺላ ፔሶ"
+
+msgid "ISO_4217.CNY"
+msgstr "ዩዋን ሬንሚቢ"
+
+msgid "ISO_4217.COP"
+msgstr "የኮሎምቢያ ፔሶ"
+
+msgid "ISO_4217.CRC"
+msgstr "ኮስታሪካ ኮሎን"
+
+msgid "ISO_4217.CUC"
+msgstr "Peso Convertible"
+
+msgid "ISO_4217.CUP"
+msgstr "የኩባ ፔሶ"
+
+msgid "ISO_4217.CVE"
+msgstr "ካቦ ቨርዴ ስደተኞች"
+
+msgid "ISO_4217.CZK"
+msgstr "ቼክ ኮሩና"
+
+msgid "ISO_4217.DJF"
+msgstr "ጅቡቲ ፍራንክ"
+
+msgid "ISO_4217.DKK"
+msgstr "የዴንማርክ ክሮን"
+
+msgid "ISO_4217.DOP"
+msgstr "ዶሚኒካን ፔሶ"
+
+msgid "ISO_4217.DZD"
+msgstr "የአልጄሪያ ዲናር"
+
+msgid "ISO_4217.EGP"
+msgstr "የግብጽ ፓውንድ"
+
+msgid "ISO_4217.ERN"
+msgstr "Nakfa"
+
+msgid "ISO_4217.ETB"
+msgstr "የኢትዮጵያ ብር"
+
+msgid "ISO_4217.EUR"
+msgstr "ዩሮ"
+
+msgid "ISO_4217.FJD"
+msgstr "የፊጂ ዶላር"
+
+msgid "ISO_4217.FKP"
+msgstr "የፎክላንድ ደሴቶች ፓን"
+
+msgid "ISO_4217.GBP"
+msgstr "ፓውንድ ስተርሊንግ"
+
+msgid "ISO_4217.GEL"
+msgstr "ላሪ"
+
+msgid "ISO_4217.GHS"
+msgstr "ጋና ሲዲ"
+
+msgid "ISO_4217.GIP"
+msgstr "የጅብራልታር ፓውንድ"
+
+msgid "ISO_4217.GMD"
+msgstr "Dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "ጊኒ ፍራንት"
+
+msgid "ISO_4217.GTQ"
+msgstr "Quetzal"
+
+msgid "ISO_4217.GYD"
+msgstr "የጉያና ዶላር"
+
+msgid "ISO_4217.HKD"
+msgstr "የሆንግ ኮንግ ዶላር"
+
+msgid "ISO_4217.HNL"
+msgstr "Lempira"
+
+msgid "ISO_4217.HRK"
+msgstr "ኩና"
+
+msgid "ISO_4217.HTG"
+msgstr "ጉርፍ"
+
+msgid "ISO_4217.HUF"
+msgstr "ፎንት"
+
+msgid "ISO_4217.IDR"
+msgstr "ሩፒ"
+
+msgid "ISO_4217.ILS"
+msgstr "አዲስ የእስራኤል ሼከል"
+
+msgid "ISO_4217.INR"
+msgstr "የህንድ ሩፒ"
+
+msgid "ISO_4217.IQD"
+msgstr "ኢራቃ ዲናር"
+
+msgid "ISO_4217.IRR"
+msgstr "የኢራን ሪአል"
+
+msgid "ISO_4217.ISK"
+msgstr "አይስላንድ ክሮና"
+
+msgid "ISO_4217.JMD"
+msgstr "የጃማይካ ዶላር"
+
+msgid "ISO_4217.JOD"
+msgstr "ዮርዳኖስ ዲናር"
+
+msgid "ISO_4217.JPY"
+msgstr "ያንት"
+
+msgid "ISO_4217.KES"
+msgstr "የኬኒያ ሺሊንግ"
+
+msgid "ISO_4217.KGS"
+msgstr "ሶም"
+
+msgid "ISO_4217.KHR"
+msgstr "Riel"
+
+msgid "ISO_4217.KMF"
+msgstr "ኮሞሮ ፍራንት"
+
+msgid "ISO_4217.KPW"
+msgstr "ሰሜን ኮሪያ ዊን"
+
+msgid "ISO_4217.KRW"
+msgstr "ዋነ"
+
+msgid "ISO_4217.KWD"
+msgstr "ኩዌቲ ዲናር"
+
+msgid "ISO_4217.KYD"
+msgstr "የካይማን ደሴቶች ዶላር"
+
+msgid "ISO_4217.KZT"
+msgstr "Tenge"
+
+msgid "ISO_4217.LAK"
+msgstr "ኬፕ"
+
+msgid "ISO_4217.LBP"
+msgstr "የሊባኖስ ፓውንድ"
+
+msgid "ISO_4217.LKR"
+msgstr "ስሪ ላንካ ሩፒ"
+
+msgid "ISO_4217.LRD"
+msgstr "የሊባሪያ ዶላር"
+
+msgid "ISO_4217.LSL"
+msgstr "ሊቲ"
+
+msgid "ISO_4217.LYD"
+msgstr "ሊቢያ ዲናር"
+
+msgid "ISO_4217.MAD"
+msgstr "የሞሮክ ዲርሀም"
+
+msgid "ISO_4217.MDL"
+msgstr "ሞልዶቫን ሉ"
+
+msgid "ISO_4217.MGA"
+msgstr "ማላጋሲ አንሪየሪ"
+
+msgid "ISO_4217.MKD"
+msgstr "Denar"
+
+msgid "ISO_4217.MMK"
+msgstr "ኪያት"
+
+msgid "ISO_4217.MNT"
+msgstr "Tugrik"
+
+msgid "ISO_4217.MOP"
+msgstr "ፓታካ"
+
+msgid "ISO_4217.MRO"
+msgstr "ኦውጉያ"
+
+msgid "ISO_4217.MUR"
+msgstr "ሞሪሸስ ሩፒ"
+
+msgid "ISO_4217.MVR"
+msgstr "ሩፊያ"
+
+msgid "ISO_4217.MWK"
+msgstr "ማላዊ ክዋቻ"
+
+msgid "ISO_4217.MXN"
+msgstr "የሜክሲኮ ፔሶ"
+
+msgid "ISO_4217.MYR"
+msgstr "የማሌይዝ ሪንጊት"
+
+msgid "ISO_4217.MZN"
+msgstr "ሞዛምቢክ ሜቲካል"
+
+msgid "ISO_4217.NAD"
+msgstr "የናሚቢያ ዶላር"
+
+msgid "ISO_4217.NGN"
+msgstr "ናሃ"
+
+msgid "ISO_4217.NIO"
+msgstr "ኮርዶዶ ኦሮ"
+
+msgid "ISO_4217.NOK"
+msgstr "የኖርዊጂያን ክሮን"
+
+msgid "ISO_4217.NPR"
+msgstr "የኔፓል ሩፒ"
+
+msgid "ISO_4217.NZD"
+msgstr "የኒውዚላንድ ዶላር"
+
+msgid "ISO_4217.OMR"
+msgstr "ሪአል ኦይማኒ"
+
+msgid "ISO_4217.PAB"
+msgstr "ባሎባ"
+
+msgid "ISO_4217.PEN"
+msgstr "ሶል"
+
+msgid "ISO_4217.PGK"
+msgstr "ኪና"
+
+msgid "ISO_4217.PHP"
+msgstr "የፊሊፒንስ ፔሶ"
+
+msgid "ISO_4217.PKR"
+msgstr "የፓ ኪስታን ሩፒ"
+
+msgid "ISO_4217.PLN"
+msgstr "ዝሎቲ"
+
+msgid "ISO_4217.PYG"
+msgstr "ጓራኒ"
+
+msgid "ISO_4217.QAR"
+msgstr "ካታሪ ሪአል"
+
+msgid "ISO_4217.RON"
+msgstr "ሮማንያ ዩው"
+
+msgid "ISO_4217.RSD"
+msgstr "ሰርቢያኛ ዲናር"
+
+msgid "ISO_4217.RUB"
+msgstr "ራሽያ ሩብል"
+
+msgid "ISO_4217.RWF"
+msgstr "ሩዋንዳ ፍራንት"
+
+msgid "ISO_4217.SAR"
+msgstr "የሳውዲ ሪያል"
+
+msgid "ISO_4217.SBD"
+msgstr "የሰለሞን ደሴቶች ዶላር"
+
+msgid "ISO_4217.SCR"
+msgstr "ሲሸልስ ሪፐኛ"
+
+msgid "ISO_4217.SDG"
+msgstr "የሱዳን ፓውንድ"
+
+msgid "ISO_4217.SEK"
+msgstr "የስዊድን ክሮና"
+
+msgid "ISO_4217.SGD"
+msgstr "የሲንጋፖር ዶላር"
+
+msgid "ISO_4217.SHP"
+msgstr "ሴንት ሄለና ፓውንድ"
+
+msgid "ISO_4217.SLL"
+msgstr "አሮን"
+
+msgid "ISO_4217.SOS"
+msgstr "የሶማሊ ሺሊንግ"
+
+msgid "ISO_4217.SRD"
+msgstr "Surinam Dollar"
+
+msgid "ISO_4217.SSP"
+msgstr "የደቡብ ሱዳን ፓውንድ"
+
+msgid "ISO_4217.STD"
+msgstr "Dobra"
+
+msgid "ISO_4217.SVC"
+msgstr "ኤል ሳልቫዶር ኮሎን"
+
+msgid "ISO_4217.SYP"
+msgstr "የሶሪያ ፓውንድ"
+
+msgid "ISO_4217.SZL"
+msgstr "ሊሊንጂን"
+
+msgid "ISO_4217.THB"
+msgstr "ባይት"
+
+msgid "ISO_4217.TJS"
+msgstr "ሱሚኒ"
+
+msgid "ISO_4217.TMT"
+msgstr "ቱርክሚኒስታን ኒው ማድ"
+
+msgid "ISO_4217.TND"
+msgstr "የቱኒዚያ ዲናር"
+
+msgid "ISO_4217.TOP"
+msgstr "ፓናጋ"
+
+msgid "ISO_4217.TRY"
+msgstr "የቱርክ ሊራ"
+
+msgid "ISO_4217.TTD"
+msgstr "ትሪኒዳድና ቶባዶ ዶላር"
+
+msgid "ISO_4217.TWD"
+msgstr "ኒው ታይዋን ዶላር"
+
+msgid "ISO_4217.TZS"
+msgstr "የታንዛኒያው ሺሊንግ"
+
+msgid "ISO_4217.UAH"
+msgstr "Hryvnia"
+
+msgid "ISO_4217.UGX"
+msgstr "የኡጋንዳ ሺሊንግ"
+
+msgid "ISO_4217.USD"
+msgstr "የአሜሪካ ዶላር"
+
+msgid "ISO_4217.UYU"
+msgstr "ፔሶ ኡራጓዩ"
+
+msgid "ISO_4217.UZS"
+msgstr "የኡዝቤኪስታን ድምር"
+
+msgid "ISO_4217.VEF"
+msgstr "ቦሊቫር"
+
+msgid "ISO_4217.VND"
+msgstr "ዶን"
+
+msgid "ISO_4217.VUV"
+msgstr "ቫቱ"
+
+msgid "ISO_4217.WST"
+msgstr "ታላ"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA ፍራንክ BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "ብር"
+
+msgid "ISO_4217.XAU"
+msgstr "ወርቅ"
+
+msgid "ISO_4217.XBA"
+msgstr "የቢንሰር ገበያዎች ዩኒት የአውሮፓ ኮምፕሌት ዩኒት (ዩሮኮ)"
+
+msgid "ISO_4217.XBB"
+msgstr "የቢንደ ገበያዎች ዩኒት የአውሮፓ የገንዘብ ተመን (ኢዩዩ-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "የቢስነስ ገበያዎች ክፍል ዩሮፒን መለያ ቁጥር 9 (EUA-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "የቢንደ ገበያዎች ክፍል ዩኒየን የሒሳብ ቁጥር 17 (EUA-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "የምስራቅ ካሪቢያን ዶላር"
+
+msgid "ISO_4217.XDR"
+msgstr "SDR (ልዩ የቀኝ ቀኝ)"
+
+msgid "ISO_4217.XOF"
+msgstr "ሲኤፍአይ ፍራንክ BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "ፓላዲድ"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP ፈረንሳይ"
+
+msgid "ISO_4217.XPT"
+msgstr "ፕላቲኒየም"
+
+msgid "ISO_4217.XSU"
+msgstr "ሱቅ"
+
+msgid "ISO_4217.XTS"
+msgstr "ኮዶች ለሙከራ ዓላማዎች ብቻ የተዘጋጁ ናቸው"
+
+msgid "ISO_4217.XUA"
+msgstr "የባንክ ሂሳብ ዩኒት"
+
+msgid "ISO_4217.XXX"
+msgstr "ምንም ምንዛሬ የማይኖርባቸው ግብሮች የተመደቡ ኮዶች"
+
+msgid "ISO_4217.YER"
+msgstr "የየመን ሪአል"
+
+msgid "ISO_4217.ZAR"
+msgstr "ራንድ"
+
+msgid "ISO_4217.ZMW"
+msgstr "የዛምቢያን ክዋቻ"
+
+msgid "ISO_4217.ZWL"
+msgstr "ዚምባብዌ ዶላር"

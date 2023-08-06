@@ -1,0 +1,510 @@
+# Translation of ISO 4217 (currency names) to Ukrainian
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C) 2010 Free Software Foundation, Inc.
+#
+# Maxim V. Dziumanenko <dziumanenko@gmail.com>, 2010.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2015-08-12 11:51+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "ISO_4217.AED"
+msgstr "Дірхам (ОАЕ)"
+
+msgid "ISO_4217.AFN"
+msgstr "Афгані"
+
+msgid "ISO_4217.ALL"
+msgstr "Лек"
+
+msgid "ISO_4217.AMD"
+msgstr "Вірменський драм"
+
+msgid "ISO_4217.ANG"
+msgstr "Гульден Нідерландських Антильських Островів"
+
+msgid "ISO_4217.AOA"
+msgstr "Кванза"
+
+msgid "ISO_4217.ARS"
+msgstr "Аргентинське песо"
+
+msgid "ISO_4217.AUD"
+msgstr "Австралійський долар"
+
+msgid "ISO_4217.AWG"
+msgstr "Гульден Аруби"
+
+msgid "ISO_4217.AZN"
+msgstr "Азербайджанський манат"
+
+msgid "ISO_4217.BAM"
+msgstr "Конвертовані марки"
+
+msgid "ISO_4217.BBD"
+msgstr "Барбадоський долар"
+
+msgid "ISO_4217.BDT"
+msgstr "Така"
+
+msgid "ISO_4217.BGN"
+msgstr "Болгарський лев"
+
+msgid "ISO_4217.BHD"
+msgstr "Бахрейнський динар"
+
+msgid "ISO_4217.BIF"
+msgstr "Бурундійський франк"
+
+msgid "ISO_4217.BMD"
+msgstr "Бермудський долар"
+
+msgid "ISO_4217.BND"
+msgstr "Брунейський долар"
+
+msgid "ISO_4217.BOB"
+msgstr "Болівіано"
+
+msgid "ISO_4217.BRL"
+msgstr "Бразильський реал"
+
+msgid "ISO_4217.BSD"
+msgstr "Багамський долар"
+
+msgid "ISO_4217.BTN"
+msgstr "Нгультрум"
+
+msgid "ISO_4217.BWP"
+msgstr "Пула"
+
+msgid "ISO_4217.BYR"
+msgstr "Білоруський рубль"
+
+msgid "ISO_4217.BZD"
+msgstr "Белізький долар"
+
+msgid "ISO_4217.CAD"
+msgstr "Канадський долар"
+
+msgid "ISO_4217.CDF"
+msgstr "Конголезький франк"
+
+msgid "ISO_4217.CHF"
+msgstr "Швейцарський франк"
+
+msgid "ISO_4217.CLP"
+msgstr "Чилійське песо"
+
+msgid "ISO_4217.CNY"
+msgstr "Китайський юань"
+
+msgid "ISO_4217.COP"
+msgstr "Колумбійське песо"
+
+msgid "ISO_4217.CRC"
+msgstr "Костариканський колон"
+
+msgid "ISO_4217.CUC"
+msgstr "Конвертовані марки"
+
+msgid "ISO_4217.CUP"
+msgstr "Кубинське песо"
+
+msgid "ISO_4217.CVE"
+msgstr "Ескудо Кабо-Верде"
+
+msgid "ISO_4217.CZK"
+msgstr "Чеська крона"
+
+msgid "ISO_4217.DJF"
+msgstr "Франк Джибуті"
+
+msgid "ISO_4217.DKK"
+msgstr "Данська крона"
+
+msgid "ISO_4217.DOP"
+msgstr "Домініканське песо"
+
+msgid "ISO_4217.DZD"
+msgstr "Алжирський динар"
+
+msgid "ISO_4217.EGP"
+msgstr "Єгипетський фунт"
+
+msgid "ISO_4217.ERN"
+msgstr "Накфа"
+
+msgid "ISO_4217.ETB"
+msgstr "Ефіопський бир"
+
+msgid "ISO_4217.EUR"
+msgstr "Євро"
+
+msgid "ISO_4217.FJD"
+msgstr "Долар Фіджі"
+
+msgid "ISO_4217.FKP"
+msgstr "Фунт Фолклендських островів"
+
+msgid "ISO_4217.GBP"
+msgstr "Фунт стерлінгів"
+
+msgid "ISO_4217.GEL"
+msgstr "Ларі"
+
+msgid "ISO_4217.GHS"
+msgstr "Ганське седі"
+
+msgid "ISO_4217.GIP"
+msgstr "Гібралтарський фунт"
+
+msgid "ISO_4217.GMD"
+msgstr "Даласі"
+
+msgid "ISO_4217.GNF"
+msgstr "Гвінейський франк"
+
+msgid "ISO_4217.GTQ"
+msgstr "Кецаль"
+
+msgid "ISO_4217.GYD"
+msgstr "Гайянський долар"
+
+msgid "ISO_4217.HKD"
+msgstr "Гонконгський долар"
+
+msgid "ISO_4217.HNL"
+msgstr "Лемпіра"
+
+msgid "ISO_4217.HTG"
+msgstr "Гурд"
+
+msgid "ISO_4217.HUF"
+msgstr "Форинт"
+
+msgid "ISO_4217.IDR"
+msgstr "Рупія"
+
+msgid "ISO_4217.ILS"
+msgstr "Новий ізраїльський шекель"
+
+msgid "ISO_4217.INR"
+msgstr "Індійська рупія"
+
+msgid "ISO_4217.IQD"
+msgstr "Іракський динар"
+
+msgid "ISO_4217.IRR"
+msgstr "Іранський ріал"
+
+msgid "ISO_4217.ISK"
+msgstr "Ісландська крона"
+
+msgid "ISO_4217.JMD"
+msgstr "Ямайський долар"
+
+msgid "ISO_4217.JOD"
+msgstr "Йорданський динар"
+
+msgid "ISO_4217.JPY"
+msgstr "Єна"
+
+msgid "ISO_4217.KES"
+msgstr "Кенійський шилінг"
+
+msgid "ISO_4217.KGS"
+msgstr "Сом"
+
+msgid "ISO_4217.KHR"
+msgstr "Ріель"
+
+msgid "ISO_4217.KMF"
+msgstr "Коморський франк"
+
+msgid "ISO_4217.KPW"
+msgstr "Північнокорейський вона"
+
+msgid "ISO_4217.KRW"
+msgstr "Вона"
+
+msgid "ISO_4217.KWD"
+msgstr "Кувейтський динар"
+
+msgid "ISO_4217.KYD"
+msgstr "Долар Кайманових островів"
+
+msgid "ISO_4217.KZT"
+msgstr "Тенге"
+
+msgid "ISO_4217.LAK"
+msgstr "Кіп"
+
+msgid "ISO_4217.LBP"
+msgstr "Ліванський фунт"
+
+msgid "ISO_4217.LKR"
+msgstr "Рупія Шрі-Ланки"
+
+msgid "ISO_4217.LRD"
+msgstr "Ліберійський долар"
+
+msgid "ISO_4217.LSL"
+msgstr "Лоті"
+
+msgid "ISO_4217.LYD"
+msgstr "Лівійський динар"
+
+msgid "ISO_4217.MAD"
+msgstr "Марокканський дірхам"
+
+msgid "ISO_4217.MDL"
+msgstr "Молдовський лей"
+
+msgid "ISO_4217.MGA"
+msgstr "Малагасійське аріарі"
+
+msgid "ISO_4217.MKD"
+msgstr "Денар"
+
+msgid "ISO_4217.MMK"
+msgstr "К’ят"
+
+msgid "ISO_4217.MNT"
+msgstr "Тугрик"
+
+msgid "ISO_4217.MOP"
+msgstr "Патака"
+
+msgid "ISO_4217.MRO"
+msgstr "Угія"
+
+msgid "ISO_4217.MUR"
+msgstr "Маврикійська рупія"
+
+msgid "ISO_4217.MVR"
+msgstr "Руфія"
+
+msgid "ISO_4217.MWK"
+msgstr "Замбійська квача"
+
+msgid "ISO_4217.MXN"
+msgstr "Мексиканське песо"
+
+msgid "ISO_4217.MYR"
+msgstr "Малайзійський рінгіт"
+
+msgid "ISO_4217.NAD"
+msgstr "Долар Намібії"
+
+msgid "ISO_4217.NGN"
+msgstr "Найра"
+
+msgid "ISO_4217.NIO"
+msgstr "Золота кордова"
+
+msgid "ISO_4217.NOK"
+msgstr "Норвезька крона"
+
+msgid "ISO_4217.NPR"
+msgstr "Непальська рупія"
+
+msgid "ISO_4217.NZD"
+msgstr "Новозеландський долар"
+
+msgid "ISO_4217.OMR"
+msgstr "Оманський ріал"
+
+msgid "ISO_4217.PAB"
+msgstr "Бальбоа"
+
+msgid "ISO_4217.PEN"
+msgstr "Сом"
+
+msgid "ISO_4217.PGK"
+msgstr "Кіна"
+
+msgid "ISO_4217.PHP"
+msgstr "Філіппінське песо"
+
+msgid "ISO_4217.PKR"
+msgstr "Пакистанська рупія"
+
+msgid "ISO_4217.PLN"
+msgstr "Злотий"
+
+msgid "ISO_4217.PYG"
+msgstr "Гуарані"
+
+msgid "ISO_4217.QAR"
+msgstr "Катарський ріал"
+
+msgid "ISO_4217.RSD"
+msgstr "Сербський динар"
+
+msgid "ISO_4217.RUB"
+msgstr "Російський рубель"
+
+msgid "ISO_4217.RWF"
+msgstr "Франк Руанди"
+
+msgid "ISO_4217.SAR"
+msgstr "Саудівський ріал"
+
+msgid "ISO_4217.SBD"
+msgstr "Долар Соломонових островів"
+
+msgid "ISO_4217.SCR"
+msgstr "Сейшельська рупія"
+
+msgid "ISO_4217.SDG"
+msgstr "Суданський фунт"
+
+msgid "ISO_4217.SEK"
+msgstr "Шведська крона"
+
+msgid "ISO_4217.SGD"
+msgstr "Сингапурський долар"
+
+msgid "ISO_4217.SHP"
+msgstr "Фунт острова Святої Єлени"
+
+msgid "ISO_4217.SLL"
+msgstr "Леоне"
+
+msgid "ISO_4217.SOS"
+msgstr "Сомалійський шилінг"
+
+msgid "ISO_4217.SRD"
+msgstr "Суринамський долар"
+
+msgid "ISO_4217.SSP"
+msgstr "Суданський фунт"
+
+msgid "ISO_4217.STD"
+msgstr "Добра"
+
+msgid "ISO_4217.SVC"
+msgstr "Сальвадорський колон"
+
+msgid "ISO_4217.SYP"
+msgstr "Сирійський фунт"
+
+msgid "ISO_4217.SZL"
+msgstr "Лілангені"
+
+msgid "ISO_4217.THB"
+msgstr "Бат"
+
+msgid "ISO_4217.TJS"
+msgstr "Сомоні"
+
+msgid "ISO_4217.TND"
+msgstr "Туніський динар"
+
+msgid "ISO_4217.TOP"
+msgstr "Паанга"
+
+msgid "ISO_4217.TRY"
+msgstr "Нова турецька ліра"
+
+msgid "ISO_4217.TTD"
+msgstr "Долар Тринідаду та Тобаго"
+
+msgid "ISO_4217.TWD"
+msgstr "Новий тайванський долар"
+
+msgid "ISO_4217.TZS"
+msgstr "Танзанійський шилінг"
+
+msgid "ISO_4217.UAH"
+msgstr "Гривня"
+
+msgid "ISO_4217.UGX"
+msgstr "Шилінг Уганди"
+
+msgid "ISO_4217.USD"
+msgstr "Долар США"
+
+msgid "ISO_4217.UYU"
+msgstr "Уругвайське песо"
+
+msgid "ISO_4217.UZS"
+msgstr "Узбецький сум"
+
+msgid "ISO_4217.VND"
+msgstr "Донг"
+
+msgid "ISO_4217.VUV"
+msgstr "Вату"
+
+msgid "ISO_4217.WST"
+msgstr "Тала"
+
+msgid "ISO_4217.XAF"
+msgstr "Франк КФА BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "Срібло"
+
+msgid "ISO_4217.XAU"
+msgstr "Золото"
+
+msgid "ISO_4217.XBA"
+msgstr "Європейська складена одиниця (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "Європейська грошова одиниця (E.M.U.-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "Європейська одиниця розрахунків 9 (E.U.A.-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "Європейська одиниця розрахунків 17 (E.U.A.-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "Східно-карибський долар"
+
+msgid "ISO_4217.XDR"
+msgstr "Спеціальні права запозичення"
+
+msgid "ISO_4217.XOF"
+msgstr "Франк КФА BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "Паладій"
+
+msgid "ISO_4217.XPF"
+msgstr "Франк CFP"
+
+msgid "ISO_4217.XPT"
+msgstr "Платина"
+
+msgid "ISO_4217.XTS"
+msgstr "Код для тестування"
+
+msgid "ISO_4217.YER"
+msgstr "Єменський ріал"
+
+msgid "ISO_4217.ZAR"
+msgstr "Ранд"
+
+msgid "ISO_4217.ZMW"
+msgstr "Замбійська квача"
+
+msgid "ISO_4217.ZWL"
+msgstr "Долар Зімбабве"

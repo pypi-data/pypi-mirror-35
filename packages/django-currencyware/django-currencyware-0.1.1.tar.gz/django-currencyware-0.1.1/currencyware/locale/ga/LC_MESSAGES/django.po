@@ -1,0 +1,291 @@
+# Translation of ISO 4217 (currency names) to Irish (Gaeilge)
+# Copyright © various authors, see list below.
+# This file is distributed under the same license as the iso-codes package.
+#
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2006-10-04 11:38:13+0100\n"
+"Last-Translator: Alastair McKinstry <mckinstry@debian.org>\n"
+"Language-Team: Gaeilge <ga@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AFN"
+msgstr "Afgainí"
+
+msgid "ISO_4217.AMD"
+msgstr "Dram Airméanach"
+
+msgid "ISO_4217.ARS"
+msgstr "Peso na Airgintíne"
+
+msgid "ISO_4217.AUD"
+msgstr "Dollar Astrálach"
+
+msgid "ISO_4217.AWG"
+msgstr "Guilder Aruba"
+
+msgid "ISO_4217.AZN"
+msgstr "Manat Asarbaiseánach"
+
+msgid "ISO_4217.BBD"
+msgstr "Dollar Bharbadóis"
+
+msgid "ISO_4217.BHD"
+msgstr "Dínear na Bairéine"
+
+msgid "ISO_4217.BIF"
+msgstr "Franc na Burúine"
+
+msgid "ISO_4217.BND"
+msgstr "Dollar Bhrúiné"
+
+msgid "ISO_4217.BOB"
+msgstr "Boliviano"
+
+msgid "ISO_4217.BRL"
+msgstr "Real Brasaíleach"
+
+msgid "ISO_4217.BSD"
+msgstr "Dollar na mBahámaí"
+
+msgid "ISO_4217.BTN"
+msgstr "Ngultrum Bútánach"
+
+msgid "ISO_4217.BYR"
+msgstr "Rúbal Laitviach"
+
+msgid "ISO_4217.BZD"
+msgstr "Dollar na Beilíse"
+
+msgid "ISO_4217.CAD"
+msgstr "Dollar Ceanada"
+
+msgid "ISO_4217.CDF"
+msgstr "Franc Chomóra"
+
+msgid "ISO_4217.CHF"
+msgstr "Franc na hEilvéise"
+
+msgid "ISO_4217.CLP"
+msgstr "Peso na Sile"
+
+msgid "ISO_4217.CNY"
+msgstr "Yuan Renminbi Síneach"
+
+msgid "ISO_4217.COP"
+msgstr "Peso na Colóime"
+
+msgid "ISO_4217.CRC"
+msgstr "Colon Chósta Ríce"
+
+msgid "ISO_4217.CUP"
+msgstr "Peso Cúba"
+
+msgid "ISO_4217.DJF"
+msgstr "Franc Djibouti"
+
+msgid "ISO_4217.DKK"
+msgstr "Krone Danmhargach"
+
+msgid "ISO_4217.DOP"
+msgstr "Peso Doimineacach"
+
+msgid "ISO_4217.DZD"
+msgstr "Dínear na hAilgéire"
+
+msgid "ISO_4217.EGP"
+msgstr "Punt na hÉigipte"
+
+msgid "ISO_4217.ETB"
+msgstr "Birr na hAetóipe"
+
+msgid "ISO_4217.EUR"
+msgstr "Euro"
+
+msgid "ISO_4217.FJD"
+msgstr "Dollar Fhidsí"
+
+msgid "ISO_4217.GIP"
+msgstr "Punt Ghiobráltair"
+
+msgid "ISO_4217.GNF"
+msgstr "Franc Guine"
+
+msgid "ISO_4217.GYD"
+msgstr "Dollar na Guáine"
+
+msgid "ISO_4217.HKD"
+msgstr "Dollar Hong Cong"
+
+msgid "ISO_4217.HTG"
+msgstr "Gourde Háití"
+
+msgid "ISO_4217.INR"
+msgstr "Rúipí India"
+
+msgid "ISO_4217.IQD"
+msgstr "Dínear Irácach"
+
+msgid "ISO_4217.IRR"
+msgstr "Rial Iaránach"
+
+msgid "ISO_4217.JMD"
+msgstr "Dollar Iamácach"
+
+msgid "ISO_4217.JOD"
+msgstr "Dínear Iordánach"
+
+msgid "ISO_4217.KES"
+msgstr "Scilling Céiniach"
+
+msgid "ISO_4217.KMF"
+msgstr "Franc Chomóra"
+
+msgid "ISO_4217.KPW"
+msgstr "Won na Cóiré Thuaidh"
+
+msgid "ISO_4217.KWD"
+msgstr "Dínear Cuátach"
+
+msgid "ISO_4217.KYD"
+msgstr "Dollar Oileáin Cayman"
+
+msgid "ISO_4217.LBP"
+msgstr "Punt na Liobáine"
+
+msgid "ISO_4217.LKR"
+msgstr "Rúipí Srí Lanca"
+
+msgid "ISO_4217.LRD"
+msgstr "Dollar na Libéire"
+
+msgid "ISO_4217.LYD"
+msgstr "Dínear Libia"
+
+msgid "ISO_4217.MAD"
+msgstr "Dirham Mharacó"
+
+msgid "ISO_4217.MDL"
+msgstr "Leu Moldóvach"
+
+msgid "ISO_4217.MUR"
+msgstr "Rúipí Oileán Mhuirís"
+
+msgid "ISO_4217.MWK"
+msgstr "Kwacha na Maláive"
+
+msgid "ISO_4217.MXN"
+msgstr "Peso Meicsiceo"
+
+msgid "ISO_4217.MYR"
+msgstr "Ringgit Malaeisia"
+
+msgid "ISO_4217.NAD"
+msgstr "Dollar na mBahámaí"
+
+msgid "ISO_4217.NIO"
+msgstr "Cordoba Oro Nicearagua"
+
+msgid "ISO_4217.NOK"
+msgstr "Krone Ioruach"
+
+msgid "ISO_4217.NPR"
+msgstr "Rúipí Neipeáil"
+
+msgid "ISO_4217.NZD"
+msgstr "Dollar na Nua-Shéalainne"
+
+msgid "ISO_4217.PKR"
+msgstr "Rúipí na Pacastáine"
+
+msgid "ISO_4217.PYG"
+msgstr "Franc Guine"
+
+msgid "ISO_4217.RUB"
+msgstr "Rúbal Laitviach"
+
+msgid "ISO_4217.SAR"
+msgstr "Riyal Sádach"
+
+msgid "ISO_4217.SBD"
+msgstr "Dollar Oileáin Solomon"
+
+msgid "ISO_4217.SCR"
+msgstr "Rúipí na Séiséil"
+
+msgid "ISO_4217.SDG"
+msgstr "Punt na Súdáine"
+
+msgid "ISO_4217.SEK"
+msgstr "Krona Sualannach"
+
+msgid "ISO_4217.SGD"
+msgstr "Dollar Siombábach"
+
+msgid "ISO_4217.SHP"
+msgstr "Punt San Héilin"
+
+msgid "ISO_4217.SSP"
+msgstr "Punt na Súdáine"
+
+msgid "ISO_4217.SVC"
+msgstr "Colon na Salvadóire"
+
+msgid "ISO_4217.SYP"
+msgstr "Punt Siria"
+
+msgid "ISO_4217.SZL"
+msgstr "Lilangeni na Suasalainne"
+
+msgid "ISO_4217.THB"
+msgstr "Baht na Téalainne"
+
+msgid "ISO_4217.TND"
+msgstr "Dínear na Túinéise"
+
+msgid "ISO_4217.TRY"
+msgstr "Lira Turcach Nua"
+
+msgid "ISO_4217.TTD"
+msgstr "Dollar Oileáin na Tríonóide agus Tobága"
+
+msgid "ISO_4217.UGX"
+msgstr "Scilling Céiniach"
+
+msgid "ISO_4217.USD"
+msgstr "Dollar S.A.M."
+
+msgid "ISO_4217.UZS"
+msgstr "Sum na hÚisbéiceastáine"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA Franc BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "Geal"
+
+msgid "ISO_4217.XAU"
+msgstr "Ór"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA Franc BCEAO"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP Franc"
+
+msgid "ISO_4217.YER"
+msgstr "Rial Éimin"
+
+msgid "ISO_4217.ZMW"
+msgstr "Kwacha na Maláive"
+
+msgid "ISO_4217.ZWL"
+msgstr "Dollar Siombábach"

@@ -1,0 +1,529 @@
+# Translation of ISO 4217 to LANGUAGE
+# Codes for the representation of currencies
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright ©
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "阿联酋迪拉姆"
+
+msgid "ISO_4217.AFN"
+msgstr "阿富汗"
+
+msgid "ISO_4217.ALL"
+msgstr "沥"
+
+msgid "ISO_4217.AMD"
+msgstr "亚美尼亚德拉姆"
+
+msgid "ISO_4217.ANG"
+msgstr "荷属安的列斯盾"
+
+msgid "ISO_4217.AOA"
+msgstr "宽扎"
+
+msgid "ISO_4217.ARS"
+msgstr "阿根廷比索"
+
+msgid "ISO_4217.AUD"
+msgstr "澳元"
+
+msgid "ISO_4217.AWG"
+msgstr "阿鲁巴弗罗林"
+
+msgid "ISO_4217.AZN"
+msgstr "阿塞拜疆马纳特"
+
+msgid "ISO_4217.BAM"
+msgstr "可兑换马克"
+
+msgid "ISO_4217.BBD"
+msgstr "巴巴多斯元"
+
+msgid "ISO_4217.BDT"
+msgstr "塔卡"
+
+msgid "ISO_4217.BGN"
+msgstr "保加利亚列弗"
+
+msgid "ISO_4217.BHD"
+msgstr "巴林第纳尔"
+
+msgid "ISO_4217.BIF"
+msgstr "布隆迪法郎"
+
+msgid "ISO_4217.BMD"
+msgstr "百慕大元"
+
+msgid "ISO_4217.BND"
+msgstr "文莱元"
+
+msgid "ISO_4217.BOB"
+msgstr "诺"
+
+msgid "ISO_4217.BRL"
+msgstr "巴西雷亚尔"
+
+msgid "ISO_4217.BSD"
+msgstr "巴哈马元"
+
+msgid "ISO_4217.BTN"
+msgstr "努尔特鲁姆"
+
+msgid "ISO_4217.BWP"
+msgstr "普拉"
+
+msgid "ISO_4217.BYR"
+msgstr "白俄罗斯卢布"
+
+msgid "ISO_4217.BZD"
+msgstr "伯利兹元"
+
+msgid "ISO_4217.CAD"
+msgstr "加元"
+
+msgid "ISO_4217.CDF"
+msgstr "刚果法郎"
+
+msgid "ISO_4217.CHF"
+msgstr "瑞士法郎"
+
+msgid "ISO_4217.CLP"
+msgstr "智利比索"
+
+msgid "ISO_4217.CNY"
+msgstr "人民币"
+
+msgid "ISO_4217.COP"
+msgstr "哥伦比亚比索"
+
+msgid "ISO_4217.CRC"
+msgstr "哥斯达黎加科隆"
+
+msgid "ISO_4217.CUC"
+msgstr "比索敞篷车"
+
+msgid "ISO_4217.CUP"
+msgstr "古巴比索"
+
+msgid "ISO_4217.CVE"
+msgstr "Cabo Verde Escudo"
+
+msgid "ISO_4217.CZK"
+msgstr "捷克克朗"
+
+msgid "ISO_4217.DJF"
+msgstr "吉布提法郎"
+
+msgid "ISO_4217.DKK"
+msgstr "丹麦克朗"
+
+msgid "ISO_4217.DOP"
+msgstr "多米尼加比索"
+
+msgid "ISO_4217.DZD"
+msgstr "阿尔及利亚第纳尔"
+
+msgid "ISO_4217.EGP"
+msgstr "埃及镑"
+
+msgid "ISO_4217.ERN"
+msgstr "纳克法"
+
+msgid "ISO_4217.ETB"
+msgstr "埃塞俄比亚比尔"
+
+msgid "ISO_4217.EUR"
+msgstr "欧元"
+
+msgid "ISO_4217.FJD"
+msgstr "斐济元"
+
+msgid "ISO_4217.FKP"
+msgstr "福克兰群岛磅"
+
+msgid "ISO_4217.GBP"
+msgstr "英镑"
+
+msgid "ISO_4217.GEL"
+msgstr "拉里"
+
+msgid "ISO_4217.GHS"
+msgstr "加纳塞地"
+
+msgid "ISO_4217.GIP"
+msgstr "直布罗陀庞德"
+
+msgid "ISO_4217.GMD"
+msgstr "达拉斯"
+
+msgid "ISO_4217.GNF"
+msgstr "几内亚法郎"
+
+msgid "ISO_4217.GTQ"
+msgstr "长尾的美鸟"
+
+msgid "ISO_4217.GYD"
+msgstr "圭亚那元"
+
+msgid "ISO_4217.HKD"
+msgstr "港币"
+
+msgid "ISO_4217.HNL"
+msgstr "伦皮拉"
+
+msgid "ISO_4217.HRK"
+msgstr "库纳"
+
+msgid "ISO_4217.HTG"
+msgstr "古德"
+
+msgid "ISO_4217.HUF"
+msgstr "福林"
+
+msgid "ISO_4217.IDR"
+msgstr "印尼盾"
+
+msgid "ISO_4217.ILS"
+msgstr "新的以色列谢克尔"
+
+msgid "ISO_4217.INR"
+msgstr "印度卢比"
+
+msgid "ISO_4217.IQD"
+msgstr "伊拉克第纳尔"
+
+msgid "ISO_4217.IRR"
+msgstr "伊朗里亚尔"
+
+msgid "ISO_4217.ISK"
+msgstr "冰岛克朗"
+
+msgid "ISO_4217.JMD"
+msgstr "牙买加元"
+
+msgid "ISO_4217.JOD"
+msgstr "约旦第纳尔"
+
+msgid "ISO_4217.JPY"
+msgstr "日元"
+
+msgid "ISO_4217.KES"
+msgstr "肯尼亚先令"
+
+msgid "ISO_4217.KGS"
+msgstr "索姆"
+
+msgid "ISO_4217.KHR"
+msgstr "瑞尔"
+
+msgid "ISO_4217.KMF"
+msgstr "科摩罗法郎"
+
+msgid "ISO_4217.KPW"
+msgstr "朝鲜元"
+
+msgid "ISO_4217.KRW"
+msgstr "韩元"
+
+msgid "ISO_4217.KWD"
+msgstr "科威特第纳尔"
+
+msgid "ISO_4217.KYD"
+msgstr "开曼群岛元"
+
+msgid "ISO_4217.KZT"
+msgstr "坚戈"
+
+msgid "ISO_4217.LAK"
+msgstr "基普"
+
+msgid "ISO_4217.LBP"
+msgstr "黎巴嫩镑"
+
+msgid "ISO_4217.LKR"
+msgstr "斯里兰卡卢比"
+
+msgid "ISO_4217.LRD"
+msgstr "利比里亚元"
+
+msgid "ISO_4217.LSL"
+msgstr "洛蒂"
+
+msgid "ISO_4217.LYD"
+msgstr "利比亚第纳尔"
+
+msgid "ISO_4217.MAD"
+msgstr "摩洛哥迪拉姆"
+
+msgid "ISO_4217.MDL"
+msgstr "摩尔多瓦列伊"
+
+msgid "ISO_4217.MGA"
+msgstr "马达加斯加阿里亚里"
+
+msgid "ISO_4217.MKD"
+msgstr "代纳尔"
+
+msgid "ISO_4217.MMK"
+msgstr "缅元"
+
+msgid "ISO_4217.MNT"
+msgstr "图格里克"
+
+msgid "ISO_4217.MOP"
+msgstr "帕塔卡"
+
+msgid "ISO_4217.MRO"
+msgstr "乌吉亚"
+
+msgid "ISO_4217.MUR"
+msgstr "毛里求斯卢比"
+
+msgid "ISO_4217.MVR"
+msgstr "拉菲亚"
+
+msgid "ISO_4217.MWK"
+msgstr "马拉维克瓦查"
+
+msgid "ISO_4217.MXN"
+msgstr "墨西哥比索"
+
+msgid "ISO_4217.MYR"
+msgstr "马来西亚林吉特"
+
+msgid "ISO_4217.MZN"
+msgstr "莫桑比克Metical"
+
+msgid "ISO_4217.NAD"
+msgstr "纳米比亚元"
+
+msgid "ISO_4217.NGN"
+msgstr "奈拉"
+
+msgid "ISO_4217.NIO"
+msgstr "科尔多瓦奥罗"
+
+msgid "ISO_4217.NOK"
+msgstr "挪威克朗"
+
+msgid "ISO_4217.NPR"
+msgstr "尼泊尔卢比"
+
+msgid "ISO_4217.NZD"
+msgstr "新西兰元"
+
+msgid "ISO_4217.OMR"
+msgstr "里亚尔阿曼"
+
+msgid "ISO_4217.PAB"
+msgstr "巴尔博亚"
+
+msgid "ISO_4217.PEN"
+msgstr "索尔"
+
+msgid "ISO_4217.PGK"
+msgstr "基那"
+
+msgid "ISO_4217.PHP"
+msgstr "菲律宾比索"
+
+msgid "ISO_4217.PKR"
+msgstr "巴基斯坦卢比"
+
+msgid "ISO_4217.PLN"
+msgstr "兹罗提"
+
+msgid "ISO_4217.PYG"
+msgstr "瓜拉尼"
+
+msgid "ISO_4217.QAR"
+msgstr "卡塔尔里亚尔"
+
+msgid "ISO_4217.RON"
+msgstr "罗马尼亚列伊"
+
+msgid "ISO_4217.RSD"
+msgstr "塞尔维亚第纳尔"
+
+msgid "ISO_4217.RUB"
+msgstr "俄罗斯卢布"
+
+msgid "ISO_4217.RWF"
+msgstr "卢旺达法郎"
+
+msgid "ISO_4217.SAR"
+msgstr "沙特里亚尔"
+
+msgid "ISO_4217.SBD"
+msgstr "所罗门群岛元"
+
+msgid "ISO_4217.SCR"
+msgstr "塞舌尔卢比"
+
+msgid "ISO_4217.SDG"
+msgstr "苏丹镑"
+
+msgid "ISO_4217.SEK"
+msgstr "瑞典克朗"
+
+msgid "ISO_4217.SGD"
+msgstr "新加坡元"
+
+msgid "ISO_4217.SHP"
+msgstr "圣赫勒拿磅"
+
+msgid "ISO_4217.SLL"
+msgstr "塞拉利昂"
+
+msgid "ISO_4217.SOS"
+msgstr "索马里先令"
+
+msgid "ISO_4217.SRD"
+msgstr "苏里南元"
+
+msgid "ISO_4217.SSP"
+msgstr "南苏丹镑"
+
+msgid "ISO_4217.STD"
+msgstr "多布拉"
+
+msgid "ISO_4217.SVC"
+msgstr "萨尔瓦多科隆"
+
+msgid "ISO_4217.SYP"
+msgstr "叙利亚镑"
+
+msgid "ISO_4217.SZL"
+msgstr "吉尼"
+
+msgid "ISO_4217.THB"
+msgstr "铢"
+
+msgid "ISO_4217.TJS"
+msgstr "索莫尼"
+
+msgid "ISO_4217.TMT"
+msgstr "土库曼斯坦新马纳特"
+
+msgid "ISO_4217.TND"
+msgstr "突尼斯第纳尔"
+
+msgid "ISO_4217.TOP"
+msgstr "加潘加"
+
+msgid "ISO_4217.TRY"
+msgstr "土耳其里拉"
+
+msgid "ISO_4217.TTD"
+msgstr "特立尼达和多巴哥元"
+
+msgid "ISO_4217.TWD"
+msgstr "新台币"
+
+msgid "ISO_4217.TZS"
+msgstr "坦桑尼亚先令"
+
+msgid "ISO_4217.UAH"
+msgstr "赫夫纳"
+
+msgid "ISO_4217.UGX"
+msgstr "乌干达先令"
+
+msgid "ISO_4217.USD"
+msgstr "美元"
+
+msgid "ISO_4217.UYU"
+msgstr "比索乌拉圭"
+
+msgid "ISO_4217.UZS"
+msgstr "乌兹别克斯坦Sum"
+
+msgid "ISO_4217.VEF"
+msgstr "玻利瓦尔"
+
+msgid "ISO_4217.VND"
+msgstr "董"
+
+msgid "ISO_4217.VUV"
+msgstr "瓦图"
+
+msgid "ISO_4217.WST"
+msgstr "塔拉"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA Franc BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "银"
+
+msgid "ISO_4217.XAU"
+msgstr "金"
+
+msgid "ISO_4217.XBA"
+msgstr "债券市场单位欧洲复合股（EURCO）"
+
+msgid "ISO_4217.XBB"
+msgstr "债券市场单位欧洲货币单位（EMU-6）"
+
+msgid "ISO_4217.XBC"
+msgstr "债券市场单位欧洲账户9（EUA-9）"
+
+msgid "ISO_4217.XBD"
+msgstr "债券市场单位欧洲账户17（EUA-17）"
+
+msgid "ISO_4217.XCD"
+msgstr "东加勒比元"
+
+msgid "ISO_4217.XDR"
+msgstr "SDR（特别提款权）"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA Franc BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "钯"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP法郎"
+
+msgid "ISO_4217.XPT"
+msgstr "铂"
+
+msgid "ISO_4217.XSU"
+msgstr "苏克雷"
+
+msgid "ISO_4217.XTS"
+msgstr "代码专门用于测试目的"
+
+msgid "ISO_4217.XUA"
+msgstr "亚行帐户单位"
+
+msgid "ISO_4217.XXX"
+msgstr "分配给不涉及货币的交易的代码"
+
+msgid "ISO_4217.YER"
+msgstr "也门里亚尔"
+
+msgid "ISO_4217.ZAR"
+msgstr "兰德"
+
+msgid "ISO_4217.ZMW"
+msgstr "赞比亚克瓦查"
+
+msgid "ISO_4217.ZWL"
+msgstr "津巴布韦元"

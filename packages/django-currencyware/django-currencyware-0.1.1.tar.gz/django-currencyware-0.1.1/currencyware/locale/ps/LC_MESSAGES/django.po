@@ -1,0 +1,530 @@
+# Translation of ISO 4217 to LANGUAGE
+# Codes for the representation of currencies
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright ©
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "د متحده عربي اماراتو دره"
+
+msgid "ISO_4217.AFN"
+msgstr "افغانی"
+
+msgid "ISO_4217.ALL"
+msgstr "لیک"
+
+msgid "ISO_4217.AMD"
+msgstr "ارماني ډرام"
+
+msgid "ISO_4217.ANG"
+msgstr "هالینډ انټلین ګالر"
+
+msgid "ISO_4217.AOA"
+msgstr "کوانزا"
+
+msgid "ISO_4217.ARS"
+msgstr "ارجنټاین پیسو"
+
+msgid "ISO_4217.AUD"
+msgstr "آسترالیا ډالر"
+
+msgid "ISO_4217.AWG"
+msgstr "ارون فلورنین"
+
+msgid "ISO_4217.AZN"
+msgstr "آذربايجان منات"
+
+msgid "ISO_4217.BAM"
+msgstr "د بدل وړ نښه"
+
+msgid "ISO_4217.BBD"
+msgstr "بارباډوس ډالر"
+
+msgid "ISO_4217.BDT"
+msgstr "تاکا"
+
+msgid "ISO_4217.BGN"
+msgstr "بلغاریا لی"
+
+msgid "ISO_4217.BHD"
+msgstr "بحریني دینار"
+
+msgid "ISO_4217.BIF"
+msgstr "بروننډ فرانسه"
+
+msgid "ISO_4217.BMD"
+msgstr "Bermudian Dollar"
+
+msgid "ISO_4217.BND"
+msgstr "د بروني ډالر"
+
+msgid "ISO_4217.BOB"
+msgstr "بولیوانو"
+
+msgid "ISO_4217.BRL"
+msgstr "برازیل ريښتیا"
+
+msgid "ISO_4217.BSD"
+msgstr "بهرامین ډالر"
+
+msgid "ISO_4217.BTN"
+msgstr "دګلوټرام"
+
+msgid "ISO_4217.BWP"
+msgstr "پولو"
+
+msgid "ISO_4217.BYR"
+msgstr "بیلاروس روبل"
+
+msgid "ISO_4217.BZD"
+msgstr "بیلیز ډالر"
+
+msgid "ISO_4217.CAD"
+msgstr "کاناډا ډالر"
+
+msgid "ISO_4217.CDF"
+msgstr "کانګیګی فرانس"
+
+msgid "ISO_4217.CHF"
+msgstr "سوئس فرانک"
+
+msgid "ISO_4217.CLP"
+msgstr "چیلی پیسو"
+
+msgid "ISO_4217.CNY"
+msgstr "یوان رینبینبی"
+
+msgid "ISO_4217.COP"
+msgstr "کولمبیا پیرو"
+
+msgid "ISO_4217.CRC"
+msgstr "کوسټا ریکیک ډنمارک"
+
+msgid "ISO_4217.CUC"
+msgstr "د پیسو بدلولو وړ"
+
+msgid "ISO_4217.CUP"
+msgstr "کیوبا پیسو"
+
+msgid "ISO_4217.CVE"
+msgstr "کیوبا ویډی اسکودو"
+
+msgid "ISO_4217.CZK"
+msgstr "چک کورونا"
+
+msgid "ISO_4217.DJF"
+msgstr "جبوتي فرانسي"
+
+msgid "ISO_4217.DKK"
+msgstr "ډنمارک کرون"
+
+msgid "ISO_4217.DOP"
+msgstr "ډومینیکن پیسو"
+
+msgid "ISO_4217.DZD"
+msgstr "الجزائر دینار"
+
+msgid "ISO_4217.EGP"
+msgstr "د مصر پونډ"
+
+msgid "ISO_4217.ERN"
+msgstr "نغده"
+
+msgid "ISO_4217.ETB"
+msgstr "ایتوپیا برر"
+
+msgid "ISO_4217.EUR"
+msgstr "یورو"
+
+msgid "ISO_4217.FJD"
+msgstr "فیجی ډیری"
+
+msgid "ISO_4217.FKP"
+msgstr "فاکلند ټاپو"
+
+msgid "ISO_4217.GBP"
+msgstr "پونډ سټلینګ"
+
+msgid "ISO_4217.GEL"
+msgstr "لاري"
+
+msgid "ISO_4217.GHS"
+msgstr "غانا سیدي"
+
+msgid "ISO_4217.GIP"
+msgstr "جبرالډ پوند"
+
+msgid "ISO_4217.GMD"
+msgstr "Dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "ګینا فرانسي"
+
+msgid "ISO_4217.GTQ"
+msgstr "کوټزال"
+
+msgid "ISO_4217.GYD"
+msgstr "د ګیانا ډالر"
+
+msgid "ISO_4217.HKD"
+msgstr "هانګ کانګ ډالر"
+
+msgid "ISO_4217.HNL"
+msgstr "لیمیریا"
+
+msgid "ISO_4217.HRK"
+msgstr "کوونا"
+
+msgid "ISO_4217.HTG"
+msgstr "ګورډ"
+
+msgid "ISO_4217.HUF"
+msgstr "فورټینټ"
+
+msgid "ISO_4217.IDR"
+msgstr "روپیا"
+
+msgid "ISO_4217.ILS"
+msgstr "د اسراییل نوی شکیق"
+
+msgid "ISO_4217.INR"
+msgstr "هندي روپیه"
+
+msgid "ISO_4217.IQD"
+msgstr "د عراق دین"
+
+msgid "ISO_4217.IRR"
+msgstr "ایراني ریال"
+
+msgid "ISO_4217.ISK"
+msgstr "آیس لینڈ کرو"
+
+msgid "ISO_4217.JMD"
+msgstr "جمیکایک ډالر"
+
+msgid "ISO_4217.JOD"
+msgstr "د اردن دینار"
+
+msgid "ISO_4217.JPY"
+msgstr "Yen"
+
+msgid "ISO_4217.KES"
+msgstr "د کینیا شیلنګ"
+
+msgid "ISO_4217.KGS"
+msgstr "سوم"
+
+msgid "ISO_4217.KHR"
+msgstr "ریلیل"
+
+msgid "ISO_4217.KMF"
+msgstr "کامورو فرانک"
+
+msgid "ISO_4217.KPW"
+msgstr "شمالي کوريا وان"
+
+msgid "ISO_4217.KRW"
+msgstr "هو"
+
+msgid "ISO_4217.KWD"
+msgstr "کویتي دینار"
+
+msgid "ISO_4217.KYD"
+msgstr "د کیمن ټاپوز ډالر"
+
+msgid "ISO_4217.KZT"
+msgstr "تور"
+
+msgid "ISO_4217.LAK"
+msgstr "کپ"
+
+msgid "ISO_4217.LBP"
+msgstr "لبنان پونډ"
+
+msgid "ISO_4217.LKR"
+msgstr "سريلانکا روپیه"
+
+msgid "ISO_4217.LRD"
+msgstr "لیبرینډ ډالر"
+
+msgid "ISO_4217.LSL"
+msgstr "لوټي"
+
+msgid "ISO_4217.LYD"
+msgstr "لیبیا دینار"
+
+msgid "ISO_4217.MAD"
+msgstr "مراکش دره"
+
+msgid "ISO_4217.MDL"
+msgstr "د مالولوف لیو"
+
+msgid "ISO_4217.MGA"
+msgstr "ملګریال اریری"
+
+msgid "ISO_4217.MKD"
+msgstr "ډارار"
+
+msgid "ISO_4217.MMK"
+msgstr "کیټ"
+
+msgid "ISO_4217.MNT"
+msgstr "ټګریک"
+
+msgid "ISO_4217.MOP"
+msgstr "پټهکا"
+
+msgid "ISO_4217.MRO"
+msgstr "اوګیایا"
+
+msgid "ISO_4217.MUR"
+msgstr "ماریسیس روپیه"
+
+msgid "ISO_4217.MVR"
+msgstr "روفیا"
+
+msgid "ISO_4217.MWK"
+msgstr "مالوی کوچاچا"
+
+msgid "ISO_4217.MXN"
+msgstr "مکسیکو پیسو"
+
+msgid "ISO_4217.MYR"
+msgstr "ملائیشیا رګیتټ"
+
+msgid "ISO_4217.MZN"
+msgstr "موزبیکیک میټیکل"
+
+msgid "ISO_4217.NAD"
+msgstr "نامیبیا ډالر"
+
+msgid "ISO_4217.NGN"
+msgstr "نیرا"
+
+msgid "ISO_4217.NIO"
+msgstr "کوردوبا Oro"
+
+msgid "ISO_4217.NOK"
+msgstr "ناروې کرون"
+
+msgid "ISO_4217.NPR"
+msgstr "نیپال روپیه"
+
+msgid "ISO_4217.NZD"
+msgstr "نیوزی لینڈ ډالر"
+
+msgid "ISO_4217.OMR"
+msgstr "ریال اومان"
+
+msgid "ISO_4217.PAB"
+msgstr "بالبو"
+
+msgid "ISO_4217.PEN"
+msgstr "سول"
+
+msgid "ISO_4217.PGK"
+msgstr "کیینا"
+
+msgid "ISO_4217.PHP"
+msgstr "فلپین پیسو"
+
+msgid "ISO_4217.PKR"
+msgstr "د پاکستان روپیه"
+
+msgid "ISO_4217.PLN"
+msgstr "زولو"
+
+msgid "ISO_4217.PYG"
+msgstr "ګوراني"
+
+msgid "ISO_4217.QAR"
+msgstr "قاري ریل"
+
+msgid "ISO_4217.RON"
+msgstr "رومانیا لیو"
+
+msgid "ISO_4217.RSD"
+msgstr "سربي دینار"
+
+msgid "ISO_4217.RUB"
+msgstr "روسي روبل"
+
+msgid "ISO_4217.RWF"
+msgstr "رونډا فرانس"
+
+msgid "ISO_4217.SAR"
+msgstr "سعودی ریل"
+
+msgid "ISO_4217.SBD"
+msgstr "د سلیمان ټاپو ډالر"
+
+msgid "ISO_4217.SCR"
+msgstr "سیچیلز روپیه"
+
+msgid "ISO_4217.SDG"
+msgstr "سوډانیان پوند"
+
+msgid "ISO_4217.SEK"
+msgstr "سویډن کرون"
+
+msgid "ISO_4217.SGD"
+msgstr "سنګاپور ډالر"
+
+msgid "ISO_4217.SHP"
+msgstr "سینټ هلینا پونډ"
+
+msgid "ISO_4217.SLL"
+msgstr "لیون"
+
+msgid "ISO_4217.SOS"
+msgstr "سومالیا شیلنګ"
+
+msgid "ISO_4217.SRD"
+msgstr "سورینام ډالر"
+
+msgid "ISO_4217.SSP"
+msgstr "سویل سوډانیان پونډ"
+
+msgid "ISO_4217.STD"
+msgstr "ډوبرا"
+
+msgid "ISO_4217.SVC"
+msgstr "ال سلواډور ډنمارک"
+
+msgid "ISO_4217.SYP"
+msgstr "سوریه پونډ"
+
+msgid "ISO_4217.SZL"
+msgstr "Lilangeni"
+
+msgid "ISO_4217.THB"
+msgstr "بات"
+
+msgid "ISO_4217.TJS"
+msgstr "سومونی"
+
+msgid "ISO_4217.TMT"
+msgstr "ترکمانستان نوی منات"
+
+msgid "ISO_4217.TND"
+msgstr "تونسیان دینار"
+
+msgid "ISO_4217.TOP"
+msgstr "پاانګ"
+
+msgid "ISO_4217.TRY"
+msgstr "ترکي ليرا"
+
+msgid "ISO_4217.TTD"
+msgstr "ټرینینډاد او ټوبوگو ډالر"
+
+msgid "ISO_4217.TWD"
+msgstr "نوی تائیوان ډالر"
+
+msgid "ISO_4217.TZS"
+msgstr "تنزاني شیلنگ"
+
+msgid "ISO_4217.UAH"
+msgstr "رويان"
+
+msgid "ISO_4217.UGX"
+msgstr "یوګنډا شیلنگ"
+
+msgid "ISO_4217.USD"
+msgstr "امريکايي ډالر"
+
+msgid "ISO_4217.UYU"
+msgstr "پیرو اووروګوای"
+
+msgid "ISO_4217.UZS"
+msgstr "د ازبکستان سوم"
+
+msgid "ISO_4217.VEF"
+msgstr "بولیور"
+
+msgid "ISO_4217.VND"
+msgstr "ډون"
+
+msgid "ISO_4217.VUV"
+msgstr "Vatu"
+
+msgid "ISO_4217.WST"
+msgstr "تاالا"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA فرانک BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "سپینه"
+
+msgid "ISO_4217.XAU"
+msgstr "سرو زرو"
+
+msgid "ISO_4217.XBA"
+msgstr "د بانډ مارکیټ واحد د اروپایي مرکب واحد (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "د بانډ مارکیټ واحد د اروپا پیسو څانګه (EMU-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "د بانډ مارکیټ واحد د اروپایی واحد واحد 9 (EU-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "د بانډ مارکیټ واحد د اروپایی واحد واحد 17 (EU-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "ختیځ کیریبین ډالر"
+
+msgid "ISO_4217.XDR"
+msgstr "SDR (ځانګړي نقاشي حق)"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA فرانسي BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "پالیلیم"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP فرانسه"
+
+msgid "ISO_4217.XPT"
+msgstr "پلاټینم"
+
+msgid "ISO_4217.XSU"
+msgstr "سکیک"
+
+msgid "ISO_4217.XTS"
+msgstr "هغه کودونه چې په ځانګړې توګه د ازموینې لپاره ټاکل شوي دي"
+
+msgid "ISO_4217.XUA"
+msgstr "د آسیا پرمختیایی بانک څانګه"
+
+msgid "ISO_4217.XXX"
+msgstr ""
+"هغه پیسې چې د راکړې ورکړې لپاره ټاکل شوي دي، چیرته چې پیسو په کې شامل نه وي"
+
+msgid "ISO_4217.YER"
+msgstr "یمن ریل"
+
+msgid "ISO_4217.ZAR"
+msgstr "رینډ"
+
+msgid "ISO_4217.ZMW"
+msgstr "زامبیا کیچچا"
+
+msgid "ISO_4217.ZWL"
+msgstr "زمبابوې ډالر"

@@ -1,0 +1,529 @@
+# Translation of ISO 4217 to LANGUAGE
+# Codes for the representation of currencies
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright ©
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "درهم الإمارات"
+
+msgid "ISO_4217.AFN"
+msgstr "الأفغاني"
+
+msgid "ISO_4217.ALL"
+msgstr "ليك"
+
+msgid "ISO_4217.AMD"
+msgstr "الدراما الأرمنية"
+
+msgid "ISO_4217.ANG"
+msgstr "هولندا جزر الأنتيل الغيلدر"
+
+msgid "ISO_4217.AOA"
+msgstr "كوانزا"
+
+msgid "ISO_4217.ARS"
+msgstr "البيزو الأرجنتيني"
+
+msgid "ISO_4217.AUD"
+msgstr "دولار استرالي"
+
+msgid "ISO_4217.AWG"
+msgstr "أروبا فلورين"
+
+msgid "ISO_4217.AZN"
+msgstr "مانات أذربيجان"
+
+msgid "ISO_4217.BAM"
+msgstr "مارك للتحويل"
+
+msgid "ISO_4217.BBD"
+msgstr "دولار بربادوس"
+
+msgid "ISO_4217.BDT"
+msgstr "تاكا"
+
+msgid "ISO_4217.BGN"
+msgstr "ليف بلغاري"
+
+msgid "ISO_4217.BHD"
+msgstr "دينار بحريني"
+
+msgid "ISO_4217.BIF"
+msgstr "فرنك بوروندي"
+
+msgid "ISO_4217.BMD"
+msgstr "الدولار البرمودي"
+
+msgid "ISO_4217.BND"
+msgstr "دولار بروناي"
+
+msgid "ISO_4217.BOB"
+msgstr "البوليفي"
+
+msgid "ISO_4217.BRL"
+msgstr "ريال برازيلي"
+
+msgid "ISO_4217.BSD"
+msgstr "الدولار البهامي"
+
+msgid "ISO_4217.BTN"
+msgstr "بوتاني"
+
+msgid "ISO_4217.BWP"
+msgstr "بولا"
+
+msgid "ISO_4217.BYR"
+msgstr "البيلوروسية الروبل"
+
+msgid "ISO_4217.BZD"
+msgstr "الدولار بليز"
+
+msgid "ISO_4217.CAD"
+msgstr "الدولار الكندي"
+
+msgid "ISO_4217.CDF"
+msgstr "فرنك كونغولي"
+
+msgid "ISO_4217.CHF"
+msgstr "الفرنك السويسري"
+
+msgid "ISO_4217.CLP"
+msgstr "البيزو التشيلي"
+
+msgid "ISO_4217.CNY"
+msgstr "يوان رنمينبي"
+
+msgid "ISO_4217.COP"
+msgstr "البيزو الكولومبي"
+
+msgid "ISO_4217.CRC"
+msgstr "الكوستاريكي كولون"
+
+msgid "ISO_4217.CUC"
+msgstr "بيزو مكشوفة"
+
+msgid "ISO_4217.CUP"
+msgstr "البيزو الكوبي"
+
+msgid "ISO_4217.CVE"
+msgstr "Cabo Verde Escudo"
+
+msgid "ISO_4217.CZK"
+msgstr "الكرونا التشيكية"
+
+msgid "ISO_4217.DJF"
+msgstr "فرنك جيبوتي"
+
+msgid "ISO_4217.DKK"
+msgstr "كرونة دانمركية"
+
+msgid "ISO_4217.DOP"
+msgstr "البيزو الدومينيكي"
+
+msgid "ISO_4217.DZD"
+msgstr "الدينار الجزائري"
+
+msgid "ISO_4217.EGP"
+msgstr "الجنيه المصري"
+
+msgid "ISO_4217.ERN"
+msgstr "نافكا"
+
+msgid "ISO_4217.ETB"
+msgstr "بر اثيوبي"
+
+msgid "ISO_4217.EUR"
+msgstr "اليورو"
+
+msgid "ISO_4217.FJD"
+msgstr "دولار فيجي"
+
+msgid "ISO_4217.FKP"
+msgstr "جزر فوكلاند الجنيه"
+
+msgid "ISO_4217.GBP"
+msgstr "الجنيه الاسترليني"
+
+msgid "ISO_4217.GEL"
+msgstr "لاري"
+
+msgid "ISO_4217.GHS"
+msgstr "غانا سيدي"
+
+msgid "ISO_4217.GIP"
+msgstr "جبل طارق باوند"
+
+msgid "ISO_4217.GMD"
+msgstr "الجديد في تايوان دولار"
+
+msgid "ISO_4217.GNF"
+msgstr "فرنك غينيا"
+
+msgid "ISO_4217.GTQ"
+msgstr "جواتيمالي"
+
+msgid "ISO_4217.GYD"
+msgstr "غيانا الدولار"
+
+msgid "ISO_4217.HKD"
+msgstr "الدولار هونج كونج"
+
+msgid "ISO_4217.HNL"
+msgstr "هندوراسي"
+
+msgid "ISO_4217.HRK"
+msgstr "كونا"
+
+msgid "ISO_4217.HTG"
+msgstr "غورد"
+
+msgid "ISO_4217.HUF"
+msgstr "فورنت"
+
+msgid "ISO_4217.IDR"
+msgstr "روبية"
+
+msgid "ISO_4217.ILS"
+msgstr "شيكل إسرائيلي جديد"
+
+msgid "ISO_4217.INR"
+msgstr "الروبية الهندية"
+
+msgid "ISO_4217.IQD"
+msgstr "الدينار العراقي"
+
+msgid "ISO_4217.IRR"
+msgstr "الريال الإيراني"
+
+msgid "ISO_4217.ISK"
+msgstr "أيسلندا كرونا"
+
+msgid "ISO_4217.JMD"
+msgstr "الدولار الجامايكي"
+
+msgid "ISO_4217.JOD"
+msgstr "الدينار الاردني"
+
+msgid "ISO_4217.JPY"
+msgstr "ين"
+
+msgid "ISO_4217.KES"
+msgstr "الشلن الكيني"
+
+msgid "ISO_4217.KGS"
+msgstr "سوم"
+
+msgid "ISO_4217.KHR"
+msgstr "رييل"
+
+msgid "ISO_4217.KMF"
+msgstr "كومورو الفرنك"
+
+msgid "ISO_4217.KPW"
+msgstr "وون كوريا الشمالية"
+
+msgid "ISO_4217.KRW"
+msgstr "وون"
+
+msgid "ISO_4217.KWD"
+msgstr "دينار كويتي"
+
+msgid "ISO_4217.KYD"
+msgstr "جزر كايمان الدولار"
+
+msgid "ISO_4217.KZT"
+msgstr "تنغي"
+
+msgid "ISO_4217.LAK"
+msgstr "سرير"
+
+msgid "ISO_4217.LBP"
+msgstr "الليرة اللبنانية"
+
+msgid "ISO_4217.LKR"
+msgstr "سريلانكا الروبية"
+
+msgid "ISO_4217.LRD"
+msgstr "الدولار الليبيري"
+
+msgid "ISO_4217.LSL"
+msgstr "لوتي"
+
+msgid "ISO_4217.LYD"
+msgstr "الدينار الليبي"
+
+msgid "ISO_4217.MAD"
+msgstr "الدرهم المغربي"
+
+msgid "ISO_4217.MDL"
+msgstr "ليو مولدوفى"
+
+msgid "ISO_4217.MGA"
+msgstr "مدغشقر أرياري"
+
+msgid "ISO_4217.MKD"
+msgstr "بالدينار"
+
+msgid "ISO_4217.MMK"
+msgstr "كيات"
+
+msgid "ISO_4217.MNT"
+msgstr "التوغريك"
+
+msgid "ISO_4217.MOP"
+msgstr "باتاكا"
+
+msgid "ISO_4217.MRO"
+msgstr "أوقية"
+
+msgid "ISO_4217.MUR"
+msgstr "موريشيوس روبي"
+
+msgid "ISO_4217.MVR"
+msgstr "ماليدفية"
+
+msgid "ISO_4217.MWK"
+msgstr "ملاوي كواشا"
+
+msgid "ISO_4217.MXN"
+msgstr "البيزو المكسيكي"
+
+msgid "ISO_4217.MYR"
+msgstr "رينغيت ماليزي"
+
+msgid "ISO_4217.MZN"
+msgstr "موزمبيق ميتيكال"
+
+msgid "ISO_4217.NAD"
+msgstr "دولار ناميبيا"
+
+msgid "ISO_4217.NGN"
+msgstr "نايرا"
+
+msgid "ISO_4217.NIO"
+msgstr "قرطبة أورو"
+
+msgid "ISO_4217.NOK"
+msgstr "كرونة نرويجية"
+
+msgid "ISO_4217.NPR"
+msgstr "الروبية النيبالية"
+
+msgid "ISO_4217.NZD"
+msgstr "الدولار النيوزيلندي"
+
+msgid "ISO_4217.OMR"
+msgstr "الريال العماني"
+
+msgid "ISO_4217.PAB"
+msgstr "بالبوا"
+
+msgid "ISO_4217.PEN"
+msgstr "محلول"
+
+msgid "ISO_4217.PGK"
+msgstr "كينا"
+
+msgid "ISO_4217.PHP"
+msgstr "بيزو فلبيني"
+
+msgid "ISO_4217.PKR"
+msgstr "الروبية الباكستانية"
+
+msgid "ISO_4217.PLN"
+msgstr "زلوتي"
+
+msgid "ISO_4217.PYG"
+msgstr "غواراني"
+
+msgid "ISO_4217.QAR"
+msgstr "الريال القطري"
+
+msgid "ISO_4217.RON"
+msgstr "ليو الروماني"
+
+msgid "ISO_4217.RSD"
+msgstr "دينار صربي"
+
+msgid "ISO_4217.RUB"
+msgstr "الروبل الروسي"
+
+msgid "ISO_4217.RWF"
+msgstr "رواندا رواندا"
+
+msgid "ISO_4217.SAR"
+msgstr "الريال السعودي"
+
+msgid "ISO_4217.SBD"
+msgstr "جزر سليمان الدولار"
+
+msgid "ISO_4217.SCR"
+msgstr "سيشيل روبي"
+
+msgid "ISO_4217.SDG"
+msgstr "جنيه سوداني"
+
+msgid "ISO_4217.SEK"
+msgstr "كرونة سويدية"
+
+msgid "ISO_4217.SGD"
+msgstr "دولار سينغافوري"
+
+msgid "ISO_4217.SHP"
+msgstr "سانت هيلينا باوند"
+
+msgid "ISO_4217.SLL"
+msgstr "سيراليون"
+
+msgid "ISO_4217.SOS"
+msgstr "شلن صومالي"
+
+msgid "ISO_4217.SRD"
+msgstr "سورينام دولار"
+
+msgid "ISO_4217.SSP"
+msgstr "جنيه جنوب السودان"
+
+msgid "ISO_4217.STD"
+msgstr "دوبرا"
+
+msgid "ISO_4217.SVC"
+msgstr "السلفادور القولون"
+
+msgid "ISO_4217.SYP"
+msgstr "الليرة السورية"
+
+msgid "ISO_4217.SZL"
+msgstr "يلانجيني"
+
+msgid "ISO_4217.THB"
+msgstr "باهت"
+
+msgid "ISO_4217.TJS"
+msgstr "سوموني"
+
+msgid "ISO_4217.TMT"
+msgstr "تركمانستان مانات جديدة"
+
+msgid "ISO_4217.TND"
+msgstr "دينار تونسي"
+
+msgid "ISO_4217.TOP"
+msgstr "Pa&#39;anga سعر"
+
+msgid "ISO_4217.TRY"
+msgstr "الليرة التركية"
+
+msgid "ISO_4217.TTD"
+msgstr "دولار ترينيداد وتوباغو"
+
+msgid "ISO_4217.TWD"
+msgstr "الدولار التايواني الجديد"
+
+msgid "ISO_4217.TZS"
+msgstr "شلن التنزاني"
+
+msgid "ISO_4217.UAH"
+msgstr "الهريفنيا"
+
+msgid "ISO_4217.UGX"
+msgstr "أوغندا الشلن"
+
+msgid "ISO_4217.USD"
+msgstr "الدولار الأمريكي"
+
+msgid "ISO_4217.UYU"
+msgstr "بيزو أوروغواي"
+
+msgid "ISO_4217.UZS"
+msgstr "مجموع أوزبكستان"
+
+msgid "ISO_4217.VEF"
+msgstr "بوليفار"
+
+msgid "ISO_4217.VND"
+msgstr "دونغ"
+
+msgid "ISO_4217.VUV"
+msgstr "فاتو"
+
+msgid "ISO_4217.WST"
+msgstr "تالا"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA Franc BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "فضة"
+
+msgid "ISO_4217.XAU"
+msgstr "ذهب"
+
+msgid "ISO_4217.XBA"
+msgstr "وحدة أسواق السندات الوحدة الأوروبية المركبة (EURCO)"
+
+msgid "ISO_4217.XBB"
+msgstr "وحدة أسواق السندات الوحدة النقدية الأوروبية (EMU-6)"
+
+msgid "ISO_4217.XBC"
+msgstr "وحدة أسواق السندات الوحدة الأوروبية للحساب 9 (EUA-9)"
+
+msgid "ISO_4217.XBD"
+msgstr "وحدة أسواق السندات الوحدة الأوروبية للحساب 17 (EUA-17)"
+
+msgid "ISO_4217.XCD"
+msgstr "دولار شرق الكاريبي"
+
+msgid "ISO_4217.XDR"
+msgstr "حقوق السحب الخاصة (حق السحب الخاص)"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA Franc BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "البلاديوم"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP الفرنك"
+
+msgid "ISO_4217.XPT"
+msgstr "بلاتين"
+
+msgid "ISO_4217.XSU"
+msgstr "سوكري"
+
+msgid "ISO_4217.XTS"
+msgstr "الرموز المحجوزة خصيصا لأغراض الاختبار"
+
+msgid "ISO_4217.XUA"
+msgstr "ADB وحدة الحساب"
+
+msgid "ISO_4217.XXX"
+msgstr "الرموز المخصصة للمعاملات التي لا توجد فيها عملة"
+
+msgid "ISO_4217.YER"
+msgstr "الريال اليمني"
+
+msgid "ISO_4217.ZAR"
+msgstr "راند"
+
+msgid "ISO_4217.ZMW"
+msgstr "زامبيا كواشا"
+
+msgid "ISO_4217.ZWL"
+msgstr "الدولار زيمبابوي"

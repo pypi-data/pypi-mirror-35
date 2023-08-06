@@ -1,0 +1,3 @@
+include README.md
+include currencyware/currency.json
+recursive-include currencyware/locale *
