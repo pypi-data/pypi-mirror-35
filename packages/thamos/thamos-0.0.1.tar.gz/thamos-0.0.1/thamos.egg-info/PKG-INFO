@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: thamos
+Version: 0.0.1
+Summary: A CLI tool and library for interacting with Thoth
+Home-page: UNKNOWN
+Author: Fridolin Pokorny
+Author-email: fridolin@redhat.com
+License: GPLv3+
+Description-Content-Type: UNKNOWN
+Description: A CLI tool and library for interacting with Thoth
+Platform: UNKNOWN
