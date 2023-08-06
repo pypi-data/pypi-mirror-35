@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: dataclass_factory
+Version: 0.3
+Summary: An utility class for creating instances of dataclasses
+Home-page: https://github.com/tishka17/dataclass_factory
+Author: A. Tikhonov
+Author-email: 17@itishka.org
+License: Apache2
+Description: An utility class for creating instances of dataclasses previously converted using with asdict()
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
