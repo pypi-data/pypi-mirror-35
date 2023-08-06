@@ -1,0 +1,36 @@
+Metadata-Version: 2.0
+Name: homekit-mqtt
+Version: 0.1.9
+Summary: This is a lightweight bridge between HomeKit and MQTT.
+Home-page: https://github.com/titus-leistner/homekit_mqtt
+Author: Titus Leistner
+Author-email: mail@titus-leistner.de
+License: GNU General Public License v3
+Keywords: homekit_mqtt
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Requires-Dist: Click
+Requires-Dist: HAP-python
+Requires-Dist: base36
+Requires-Dist: pyqrcode
+Requires-Dist: paho-mqtt
+
+# HomeKit MQTT
+
+This is a lightweight bridge between HomeKit and MQTT.
+
+
+# History
+
+## 0.1.0 (2018-08-19)
+* First release on PyPI.
+
+
