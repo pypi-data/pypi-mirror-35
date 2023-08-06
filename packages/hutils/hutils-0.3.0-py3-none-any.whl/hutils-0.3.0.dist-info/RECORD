@@ -1,0 +1,13 @@
+hutils/__init__.py,sha256=ufHQvF-_9cRDx6rc67ePhNVLhYyTeA2E-gmUJyOE8hk,910
+hutils/classes.py,sha256=50fz0B2I5Uyq_6aspgQ7cFtW4R-3n0dxyPUt7y2ybec,1504
+hutils/data_types.py,sha256=WdAYmVIOLPsCTGRQf5Qm9Wx5fA98xS7GV-PmCjuDKKU,3309
+hutils/schemas.py,sha256=P4l8VkZCQLB5-TGHQzBJswIecQqxFSIZxY4ONjIgZZU,2029
+hutils/shortcuts.py,sha256=DoZdgi50EFKIJWV-Z_90Z-TquaRDmhZJhEI91btwfyU,2400
+hutils/validators.py,sha256=4pTfBgkA4Apv5WRMDfYlY6Z5PPbY4EZwttdSIwlo4J8,1027
+hutils/django/__init__.py,sha256=04hFr_RCizMB5yqjTb0tHDEXirnbfzmjPYKweZyBpNU,370
+hutils/django/apis.py,sha256=-egtkj4Uh7AftbgsMbNkwlKKC6zJ-nV3zHIgzEb97gU,1563
+hutils/django/databases.py,sha256=u9bX7Otc801mNnpM5Tkblk8zDv5CMGRudt5prENgiIM,4955
+hutils-0.3.0.dist-info/METADATA,sha256=r7i91eC531dsvj4tlCZzUIT-80QKPTO86iqNGz1f-qg,2545
+hutils-0.3.0.dist-info/RECORD,,
+hutils-0.3.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+hutils-0.3.0.dist-info/top_level.txt,sha256=RO_5bKI5oUpINZTFxyN23SSaLX4sE6ObqVKtg93XDCM,7
