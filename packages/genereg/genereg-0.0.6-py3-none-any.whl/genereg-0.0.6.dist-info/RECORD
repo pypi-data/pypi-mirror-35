@@ -1,0 +1,15 @@
+genereg/DataMatrixes.py,sha256=70JNCbm7140wIIXo4smbXNjXjxBsx68w_pwQASLG520,42884
+genereg/FeatureSelection.py,sha256=V_7xy2T7VDqZzlwc_e1Wfuhz4QwPp5QaSYlhV6i-9n4,22594
+genereg/GeneExpression.py,sha256=U0H0nn6BRi93UhCRlDrjtoXfbA23gevpNPj7tNKV_-Y,20003
+genereg/GenesMapping.py,sha256=xWt5OgFOetalPgu7tb6ngYs-g-4oIrTX3AZDKV5P8cU,9911
+genereg/Initialize.py,sha256=Pk_ZosL91jy94LWzCx5EH-v6w-Qfh7MbYoJlGnNxb9M,6956
+genereg/LinearRegression.py,sha256=GwJFw-8doN0ypjVhFclXmM_k83MTfMavnyU4fQUEp3k,7897
+genereg/Methylation.py,sha256=U9LguiAJmoNwWplWznRDm9zejNSvWXw39WAryXKY7vk,20367
+genereg/RegulatoryGenes.py,sha256=pY6e3WCPOjaVbTsnDCA9roYbN1ycqWreoW-HClqyzGQ,12864
+genereg/SummaryResults.py,sha256=PH_-0qwQ7xFUExBq1yafvPntOJK_mbqV1Jc_7_6jkdQ,20193
+genereg/TranscriptionFactors.py,sha256=hX9te2_LxiIRSQVHWuMCTZR0iu-V1V-1X30qCSZGpCk,14448
+genereg/__init__.py,sha256=ko0OUVVeoBgbZmopY0_230NWfgnrN7f5AXIyZjWQO0w,328
+genereg-0.0.6.dist-info/METADATA,sha256=8mDQWZQ1RHP5Ry4iYMwiQnAWo_g7lmEjxSflEgJ3n7s,1771
+genereg-0.0.6.dist-info/RECORD,,
+genereg-0.0.6.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+genereg-0.0.6.dist-info/top_level.txt,sha256=5WFUaFTzWocNpoUd6Ufn1lJUdIz2aXyAX5YdtZaaWnE,8
