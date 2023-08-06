@@ -1,0 +1,6 @@
+README.md
+setup.py
+windstorm.egg-info/PKG-INFO
+windstorm.egg-info/SOURCES.txt
+windstorm.egg-info/dependency_links.txt
+windstorm.egg-info/top_level.txt
