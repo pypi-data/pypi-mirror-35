@@ -1,0 +1,11 @@
+nimbus_postoffice/__init__.py,sha256=ZaC9TjdVySS0nTpoHJRVLzLYBL7XhexAg213o9IWZgg,468
+nimbus_postoffice/backends.py,sha256=N5QcrSPaAYXbSXD_tPj4SNd7SQ4cjYnzsTDCOCIQWOY,6504
+nimbus_postoffice/utils.py,sha256=vpbYz6AZVldomsDLLQ26s4vV3oigGv7sFyMj8xG8cso,4185
+nimbus_postoffice/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nimbus_postoffice-0.1.0.dist-info/DESCRIPTION.rst,sha256=5DBonuuIJdnTcstY4NEVx0P46eUAE7HT8nEVSfi0b9U,759
+nimbus_postoffice-0.1.0.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+nimbus_postoffice-0.1.0.dist-info/METADATA,sha256=E5ZwFtPkPHXYLmcu5LAIgzaRhd9Pcg-6hbfriKK04Bs,1935
+nimbus_postoffice-0.1.0.dist-info/RECORD,,
+nimbus_postoffice-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+nimbus_postoffice-0.1.0.dist-info/metadata.json,sha256=K3SH2nLe2HhlbQ_zARc1SYaZrMmvmjplfMxrau3gcSE,1260
+nimbus_postoffice-0.1.0.dist-info/top_level.txt,sha256=0SnKjjrjCZnu9OqdrGwe71K1lyEYD9rNW5YobYA8cBQ,47
