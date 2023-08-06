@@ -1,0 +1,6 @@
+setup.py
+PyCharmSync/__init__.py
+PyCharmSync.egg-info/PKG-INFO
+PyCharmSync.egg-info/SOURCES.txt
+PyCharmSync.egg-info/dependency_links.txt
+PyCharmSync.egg-info/top_level.txt
