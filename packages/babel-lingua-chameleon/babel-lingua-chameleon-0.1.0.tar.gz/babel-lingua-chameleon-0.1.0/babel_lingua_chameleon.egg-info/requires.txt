@@ -1,0 +1,4 @@
+lingua
+
+[test]
+zope.testrunner

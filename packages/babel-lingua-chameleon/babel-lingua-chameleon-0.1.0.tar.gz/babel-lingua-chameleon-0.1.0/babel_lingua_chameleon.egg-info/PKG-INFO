@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: babel-lingua-chameleon
+Version: 0.1.0
+Summary: Babel extractor for Chameleon templates
+Home-page: https://github.com/mete0r/babel-lingua-chameleon
+Author: mete0r
+Author-email: arbeitmachtfrei77@gmail.com
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Description: babel-lingua-chameleon
+        ======================
+        
+        Babel extractor for Chameleon templates
+        
+        Just provides `lingua`_'s `Chameleon`_ message extractor functionality through
+        `Babel`_ interface.
+        
+        .. _Babel: https://pypi.org/project/Babel/
+        .. _Chameleon: https://pypi.org/project/Chameleon/
+        .. _lingua: https://pypi.org/project/lingua/
+        
+        
+        Usage
+        -----
+        
+        The `extraction method`_ name is ``lingua-chameleon``.
+        
+        .. _extraction method: http://babel.pocoo.org/en/latest/messages.html#extraction-method-mapping-and-configuration
+        
+        So in your mapping/configuration files::
+        
+           [lingua-chameleon: **/templates/**.pt]
+        
+        And/or in your setup.py::
+        
+            'message_extractors': {
+                'MYPACKAGE': [
+                    ('**.pt', 'lingua-chameleon', None),
+                ]
+            },
+        
+        
+        Development environment
+        -----------------------
+        
+        To setup development environment::
+        
+           python setup.py virtualenv
+           make
+        
+        Changes
+        =======
+        
+        0.1.0 (2018-09-08)
+        ------------------
+        
+        - Initial release.
+        
+Keywords: babel,chameleon,lingua
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Provides-Extra: test
