@@ -1,0 +1,3 @@
+[console_scripts]
+cryptpy = src.main:main
+
