@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cpen
+Version: 0.1.0
+Summary: Hacky Downloader for Codepens
+Home-page: https://github.com/kajchang/CodePen-Downloader
+Author: Kai Chang
+Author-email: kaijchang@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Requires-Dist: Jinja2 (==2.10)
+Requires-Dist: beautifulsoup4 (==4.6.3)
+Requires-Dist: requests (==2.19.1)
+
+CodePen Downloader
+
+
