@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gossip
+Version: 2.3.1
+Summary: Signaling and hooking library
+Home-page: http://github.com/getslash/gossip
+Author: Rotem Yaari
+Author-email: vmalloc@gmail.com
+License: BSD3
+Description: Signaling and hooking library
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: testing
