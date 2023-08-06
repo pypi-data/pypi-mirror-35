@@ -1,0 +1,17 @@
+DESCRIPTION.rst
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+gitsane/__init__.py
+gitsane/_version.py
+gitsane/about.py
+gitsane/cli.py
+gitsane/colors.py
+gitsane/create_config.py
+gitsane/help_menu.py
+gitsane/logd.py
+gitsane/oscodes_unix.py
+gitsane/oscodes_win.py
+gitsane/script_utils.py
+gitsane/statics.py
