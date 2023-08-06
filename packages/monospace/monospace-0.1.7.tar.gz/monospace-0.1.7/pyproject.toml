@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "monospace"
+version = "0.1.7"
+description = "Book typesetter for the terminal"
+readme = "README.md"
+authors = ["Hamza Haiken <tenchi@team2xh.net>"]
+keywords = ["typesetting", "terminal"]
+repository = "https://github.com/Tenchi2xh/monospace"
+
+[tool.poetry.scripts]
+monospace = 'monospace.cli:monospace'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^6.7"
+pypandoc = "^1.4"
+pyphen = "^0.9.5"
+ptpython = "=0.41.0"
+Jinja2 = "^2.10"
+cursebox-lib = "^1.0"
+Pillow = "^5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+ptpython = "^0.41.0"
+better-exceptions = "^0.2.1"
+flake8 = "^3.5"
+mypy = "^0.620.0"
+pytest-cov = "^2.5"
