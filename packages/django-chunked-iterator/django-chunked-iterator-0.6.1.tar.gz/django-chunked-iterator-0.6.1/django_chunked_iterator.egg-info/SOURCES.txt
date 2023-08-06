@@ -1,0 +1,7 @@
+README.md
+django_chunked_iterator.py
+setup.py
+django_chunked_iterator.egg-info/PKG-INFO
+django_chunked_iterator.egg-info/SOURCES.txt
+django_chunked_iterator.egg-info/dependency_links.txt
+django_chunked_iterator.egg-info/top_level.txt
