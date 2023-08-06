@@ -1,0 +1,158 @@
+swagger: "2.0"
+info:
+  description: Remote solver driver for AMPL based on a REST API.
+  version: "0.1.0"
+  title: AMPL Remote Driver
+consumes:
+  - application/json
+produces:
+  - application/json
+
+basePath: /api
+
+# Paths supported by the server application
+paths:
+  /jobs:
+    get:
+      operationId: amplremote.jobs.read_all
+      tags:
+        - Jobs
+      summary: Read the entire list of jobs
+      description: Read the list of jobs
+      security:
+        - basic: []
+      parameters:
+        - name: length
+          in: query
+          type: integer
+          description: Number of jobs to get from jobs
+          required: false
+        - name: offset
+          in: query
+          type: integer
+          description: Offset from beginning of list where to start gathering jobs
+          required: false
+      responses:
+        200:
+          description: Successfully read jobs list operation
+          schema:
+            type: array
+            items:
+              properties:
+                user:
+                  type: string
+                id:
+                  type: string
+                timestamp:
+                  type: string
+
+    post:
+      operationId: amplremote.jobs.create
+      tags:
+        - Jobs
+      summary: Create a job and add it to the jobs list
+      description: Create a new job in the jobs list
+      security:
+        - basic: []
+      parameters:
+        - name: job
+          in: body
+          description: Job to create
+          required: True
+          schema:
+            type: object
+            properties:
+              user:
+                type: string
+                description: Owner of the job
+              model:
+                type: string
+                description: Model to solve
+              solver:
+                type: string
+                description: Solver to use
+              options:
+                type: object
+                description: Job options
+              solver_options:
+                type: string
+                description: Solver options
+      responses:
+        201:
+          description: Successfully created job in list
+
+  /jobs/{id}:
+    get:
+      operationId: amplremote.jobs.read_one
+      tags:
+        - Jobs
+      summary: Read one job from the jobs list
+      description: Read one job from the jobs list
+      security:
+        - basic: []
+      parameters:
+        - name: id
+          in: path
+          description: Last name of the job to get from the list
+          type: string
+          required: True
+      responses:
+        200:
+          description: Successfully read job from jobs list operation
+          schema:
+            properties:
+              user:
+                type: string
+              id:
+                type: string
+              timestamp:
+                type: string
+
+    put:
+      operationId: amplremote.jobs.update
+      tags:
+        - Jobs
+      summary: Update a job in the jobs list
+      description: Update a job in the jobs list
+      security:
+        - basic: []
+      parameters:
+        - name: id
+          in: path
+          description: Last name of the job to update in the list
+          type: string
+          required: True
+        - name: job
+          in: body
+          schema:
+            type: object
+            properties:
+              user:
+                type: string
+              id:
+                type: string
+      responses:
+        200:
+          description: Successfully updated job in jobs list
+
+    delete:
+      operationId: amplremote.jobs.delete
+      tags:
+        - Jobs
+      summary: Delete a job from the jobs list
+      description: Delete a job
+      security:
+        - basic: []
+      parameters:
+        - name: id
+          in: path
+          type: string
+          required: True
+      responses:
+        200:
+          description: Successfully deleted a job from jobs list
+
+
+securityDefinitions:
+  basic:
+    type: basic
