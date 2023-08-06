@@ -1,0 +1,8 @@
+README.md
+setup.py
+seqrepo.egg-info/PKG-INFO
+seqrepo.egg-info/SOURCES.txt
+seqrepo.egg-info/dependency_links.txt
+seqrepo.egg-info/requires.txt
+seqrepo.egg-info/top_level.txt
+seqrepo.egg-info/zip-safe
