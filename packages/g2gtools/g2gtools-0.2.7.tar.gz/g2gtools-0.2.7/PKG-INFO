@@ -1,0 +1,125 @@
+Metadata-Version: 1.1
+Name: g2gtools
+Version: 0.2.7
+Summary: A suite of tools for the reconstruction of personal diploid genomes and better coordinate conversion
+Home-page: http://churchill-lab.github.io/g2gtools/
+Author: Matthew J. Vincent and Kwangbom "KB" Choi, The Jackson Laboratory
+Author-email: kb.choi@jax.org
+License: MIT
+Description: ===============================
+        g2gtools
+        ===============================
+        
+        .. image:: https://badge.fury.io/py/g2gtools.png
+            :target: http://badge.fury.io/py/g2gtools
+        
+        .. image:: https://travis-ci.org/churchill-lab/g2gtools.png?branch=master
+            :target: https://travis-ci.org/churchill-lab/g2gtools
+        
+        .. image:: https://anaconda.org/kbchoi/g2gtools/badges/version.svg
+            :target: https://anaconda.org/kbchoi/g2gtools
+        
+        .. image:: https://readthedocs.org/projects/g2gtools/badge/?version=latest
+            :target: http://g2gtools.readthedocs.org/en/latest/?badge=latest
+            :alt: Documentation Status
+        
+        .. image:: https://zenodo.org/badge/39776319.svg
+            :target: https://zenodo.org/badge/latestdoi/39776319
+        
+        **g2gtools** creates custom genomes by incorporating SNPs and indels into reference genome, extracts regions of interest, e.g., exons or transcripts, , and converts coordinates of files (bam, gtf, bed) between two genomes. Unlike other liftover tools, g2gtools does not throw away alignments that land on indel regions. Release Version 0.2 can now create personal **diploid** genomes. The new version still lifts over diploid alignments on personal genome coordinates back to that of reference so we can compare alignments from among samples in a population.
+        
+        * Free software: MIT License
+        * Documentation for Release Ver. 0.2.XX: http://churchill-lab.github.io/g2gtools/.
+        * Documentation for Release Ver. 0.1.XX: https://g2gtools.readthedocs.org.
+        
+        
+        Reference
+        ~~~~~~~~~
+        
+        Manuscript in preparation (expected in 2018)
+        
+        
+        
+        History
+        -------
+        
+        0.2.5 (06/06/2018)
+        ~~~~~~~~~~~~~~~~~~
+        
+        * Fixed error of always generating index file
+        
+        0.2.4 (06/05/2018)
+        ~~~~~~~~~~~~~~~~~~
+        
+        * Automtically generates file index if not found
+        
+        0.2.3 (06/05/2018)
+        ~~~~~~~~~~~~~~~~~~
+        
+        * Fixed end of contig tree mapping
+        
+        0.2.2 (06/04/2018)
+        ~~~~~~~~~~~~~~~~~~
+        
+        * Fixed extract transcripts
+        
+        0.2.1 (05/30/2018)
+        ~~~~~~~~~~~~~~~~~~
+        
+        * Hotfix to solve gtf parsing problem in python 3
+        
+        0.2.0 (05/09/2018)
+        ~~~~~~~~~~~~~~~~~~
+        
+        * Support for diploid VCF
+        * Reimplemented to support G2G VCI (Variant Call Information)
+        * Support python3
+        
+        0.1.31 (02/17/2017)
+        ~~~~~~~~~~~~~~~~~~~
+        
+        * Final release for custom haploid reconstruction
+        
+        0.1.29 (05/17/2016)
+        ~~~~~~~~~~~~~~~~~~~
+        
+        * Fixed parsing issue with GATK-generated VCF files
+        
+        0.1.27 (05/04/2016)
+        ~~~~~~~~~~~~~~~~~~~
+        
+        * Uploaded the package to Anaconda Cloud
+        * Fixed Travis CI fail
+        
+        0.1.23 (02/15/2016)
+        ~~~~~~~~~~~~~~~~~~~
+        
+        * Setup Travis CI for automated building
+        
+        0.1.22 (02/15/2016)
+        ~~~~~~~~~~~~~~~~~~~
+        
+        * Updated documentation
+        
+        0.1.20 (02/03/2016)
+        ~~~~~~~~~~~~~~~~~~~
+        
+        * Released to public with documentation at g2gtools.readthedocs.org
+        
+        0.1.0 (02/09/2015)
+        ~~~~~~~~~~~~~~~~~~
+        
+        * Started github repository
+        
+Keywords: g2gtools,personal genomes,liftover
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

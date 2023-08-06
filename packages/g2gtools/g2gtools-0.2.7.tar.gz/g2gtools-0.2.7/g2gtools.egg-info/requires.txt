@@ -1,0 +1,6 @@
+future>=0.15
+Cython
+numpy>=1.14
+natsort>=5.0.1
+pysam>=0.14
+bx-python>=0.8
