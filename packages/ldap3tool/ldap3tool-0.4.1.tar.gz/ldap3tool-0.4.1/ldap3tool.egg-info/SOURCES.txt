@@ -1,0 +1,8 @@
+setup.py
+ldap3tool/__init__.py
+ldap3tool.egg-info/PKG-INFO
+ldap3tool.egg-info/SOURCES.txt
+ldap3tool.egg-info/dependency_links.txt
+ldap3tool.egg-info/not-zip-safe
+ldap3tool.egg-info/requires.txt
+ldap3tool.egg-info/top_level.txt
