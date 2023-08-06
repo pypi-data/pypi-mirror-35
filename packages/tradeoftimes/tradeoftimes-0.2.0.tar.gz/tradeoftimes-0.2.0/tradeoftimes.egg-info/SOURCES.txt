@@ -1,0 +1,13 @@
+README.md
+setup.py
+tradeoftimes.egg-info/PKG-INFO
+tradeoftimes.egg-info/SOURCES.txt
+tradeoftimes.egg-info/dependency_links.txt
+tradeoftimes.egg-info/requires.txt
+tradeoftimes.egg-info/top_level.txt
+tradet/__init__.py
+tradet/__main__.py
+tradet/game_diag.py
+tradet/main_window.py
+tradet/nick_diag.py
+tradet/settings_diag.py
