@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: FilesOperationLibrary
+Version: 1.0.0
+Summary: Robot Framework test library Files Operation
+Home-page: https://github.com
+Author: leo
+Author-email: liyaowang518@gmail.com
+License: Apache License 2.0
+Description: sut_configuration
+        ==================
+        
+        Basic files operation package with Robot Framework interface.
+        
+        Requirements
+        ============
+        
+        * Python 2.7.x
+        * setuptools >= 2.1
+        * pip >= 1.5
+        
+        
+        NON UTE testline installation
+        =============================
+        
+        | pip install -U -i http:// pip
+        
+        
+        
+Keywords: robotframework testing testautomation Files Operation
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Testing
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
