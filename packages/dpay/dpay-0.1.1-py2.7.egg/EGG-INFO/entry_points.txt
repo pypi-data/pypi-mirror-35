@@ -1,0 +1,5 @@
+[console_scripts]
+dpaycli = dpay.cli:legacyentry
+dpaypy = dpay.cli:legacyentry
+dpaytail = dpay.cli:dpaytailentry
+

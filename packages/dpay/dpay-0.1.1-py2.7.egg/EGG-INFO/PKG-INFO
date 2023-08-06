@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dpay
+Version: 0.1.1
+Summary: Official Python dPay library.
+Home-page: https://github.com/dpays/dpay-python
+Author: dPay DAO
+Author-email: jared@benchx.io
+License: MIT
+Description: UNKNOWN
+Keywords: dpay,dsite,cryptocurrency,blockchain
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 4 - Beta
+Provides-Extra: test
+Provides-Extra: build
+Provides-Extra: dev
