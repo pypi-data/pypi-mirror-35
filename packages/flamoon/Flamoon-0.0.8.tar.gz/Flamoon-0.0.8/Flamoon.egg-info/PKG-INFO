@@ -1,0 +1,142 @@
+Metadata-Version: 2.1
+Name: Flamoon
+Version: 0.0.8
+Summary: Надстройка над Flask, для быстрой и удобной web-разработки.
+Home-page: https://github.com/volitilov/flamoon
+Author: volitilov
+Author-email: volitilov@gmail.com
+License: MIT
+Description: # flamoon
+        ------
+        
+        Надстройка над Flask, для быстрой и удобной web-разработки. При инициализации
+        формирует уже готовый набор данных необходиммых для старта web-разработки на
+        Flask.
+        Вот дерево коталогов и файлов после комманды инициализации `flamoon init`:
+        
+        ```bash
+        .
+        ├── app
+        │   ├── email.py
+        │   ├── ex
+        │   │   ├── data.py
+        │   │   ├── forms.py
+        │   │   ├── __init__.py
+        │   │   ├── templates
+        │   │   │   └── ex.html
+        │   │   └── views.py
+        │   ├── extensions.py
+        │   ├── __init__.py
+        │   ├── models
+        │   │   └── user.py
+        │   ├── static
+        │   │   └── img
+        │   │       └── favicon.ico
+        │   └── templates
+        │       └── base.html
+        ├── config.py
+        ├── manage.py
+        └── tests
+            ├── app
+            │   └── test_app.py
+            └── client
+                └── test_client.py
+        ```
+        
+        
+        ### technical requirements
+        ------
+        
+        По умолчанию конфигурация настроена на работу с PostgreSQL, поэтому удачного
+        старта можно добится только после установки и добавления своих авторизационных
+        данных в файл `.env`.
+        
+        
+        ### install
+        ------
+        
+        ```bash
+        $ pip install flamoon
+        ```
+        
+        ### usage
+        ------
+        #### create new project
+        
+        ```bash
+        $ flamoon init
+        ```
+        
+        #### run project
+        
+        ```bash
+        $ export $FLASK_APP=manage.py
+        $ flask db init
+        $ flask db migrate -m 'initial commit'
+        $ flask run
+        ```
+        
+        #### run tests
+        
+        run all tests
+        ```bash
+        $ flask test all
+        ```
+        
+        run client tests
+        ```bash
+        $ flask test client
+        ```
+        
+        run models test
+        ```bash
+        $ flask test models
+        ```
+        
+        run basic tests
+        ```bash
+        $ flask test app
+        ```
+        
+        
+        #### run shell
+        
+        ```bash
+        $ flask shell
+        ```
+        
+        
+        #### run coverage
+        
+        ```bash
+        $ flask test_cov
+        ```
+        
+        
+        #### run profiling
+        
+        ```bash
+        $ flask profile
+        ```
+        
+        
+        #### work with database
+        
+        run migration
+        ```bash
+        $ flask db migrate -m 'message'
+        ```
+        
+        run upgrade
+        ```bash
+        $ flask db upgrade
+        ```
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Russian
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
