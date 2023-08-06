@@ -1,0 +1,6 @@
+trio_scgi/__init__.py,sha256=QMC8lHlmoJ5IsDPf7RYlubzC9OuBsDnYZgi4q-u3KF8,7495
+trio_scgi-0.1.0.dist-info/METADATA,sha256=qDCRPQO59Sqn5W18UtM1Jm28JH-hhfDqy7chMrpQV1o,1087
+trio_scgi-0.1.0.dist-info/RECORD,,
+trio_scgi-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+trio_scgi-0.1.0.dist-info/top_level.txt,sha256=gJTMW4xshtY6O-xBnMk0NLwIJtPWo5Agu_ueAqcTDWE,10
+trio_scgi-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
