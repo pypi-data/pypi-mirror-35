@@ -1,0 +1,11 @@
+wagtail_managed404/__init__.py,sha256=KBt6K0cSlCtrJqWbenwKE01by9Zl1hU64YJTLva1bPs,169
+wagtail_managed404/apps.py,sha256=Q-lGFwl4pHt5hQKGbPPP-eQoGkqwoSQoSPGXOSx43Do,103
+wagtail_managed404/middleware.py,sha256=7pBr9CLxw9jUR6FeGA5Kguno7X0bHOEcpX3JKzz3rbg,1619
+wagtail_managed404/models.py,sha256=3qOuu6ZE7WftEqtU0hpwoubk8DrbvFYtofvJjqBhbRU,1628
+wagtail_managed404/wagtail_hooks.py,sha256=mWmF8pr2PGZJWOovOTlJELYqI99LohUPJIrwtQ8Wsqc,641
+wagtail_managed404/migrations/0001_initial.py,sha256=r2V50biAu-AeirHBkuKPe_h0AWprTY-5URXVlCuVYA0,1413
+wagtail_managed404/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_managed404-0.1.1.dist-info/METADATA,sha256=N3PaA4DVgy3E3b1Rv_RPKFgBT1bB_UxXs8K-hckNVys,1929
+wagtail_managed404-0.1.1.dist-info/RECORD,,
+wagtail_managed404-0.1.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+wagtail_managed404-0.1.1.dist-info/top_level.txt,sha256=5TwOE-NCEtifn3LHOGjoIeu0TTC2s1zwsYxupky1Vbk,19
