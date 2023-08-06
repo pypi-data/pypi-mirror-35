@@ -1,0 +1,6 @@
+include *.py
+include LICENSE
+recursive-include external *.gz
+recursive-include pyapron *.c
+include *.sh
+recursive-include tests *.py
