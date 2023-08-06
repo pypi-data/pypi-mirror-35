@@ -1,0 +1,16 @@
+nameparser/__init__.py,sha256=Kys4_V1hY1nNGMAinUJPVBGlNUMRJBp9zxenJFcW1JE,253
+nameparser/parser.py,sha256=HwHpcRNtURqYBc7jep2bHXjQx1fNVQPesIk0jpIM2CA,32786
+nameparser/util.py,sha256=JITnNFF5izI3CQZ6OJSqhXur8r7MdRt-713vu66SM78,870
+nameparser/config/__init__.py,sha256=uyiCESUm0wXcqIp-2co86bgxJQXGVHv-LfHqa1nGH4Y,7818
+nameparser/config/capitalization.py,sha256=VXqMJDLXzsnNu8chHHdum08cR6wUKrfQGwYDXyHDw5A,270
+nameparser/config/conjunctions.py,sha256=ukZVODBrFI5V_GhHet7qOTJQu33GmsBrjRgKPB7UchM,364
+nameparser/config/prefixes.py,sha256=zxh0Kiw8CmCWhxvf7QGlYXTcVQWwy_jd9Tli2CWRSyE,1099
+nameparser/config/regexes.py,sha256=RMOu2AZf6cRpthB1tzmYbPc2325mtQTFvZd8QwQg_04,1333
+nameparser/config/suffixes.py,sha256=gkmZaRhkt1xaznDwr9bYX7bpeWmdWJngSDM1xxVZy2c,1622
+nameparser/config/titles.py,sha256=TizlnJr19IA6bzrsFHFCy-qoh9em1aXNH1xfj4rrYcw,9717
+nameparser-1.0.1.dist-info/DESCRIPTION.rst,sha256=iKZZbz5MTNd5yrztuaITbEp2wj-yaALBd2G0Q0RHdwQ,4623
+nameparser-1.0.1.dist-info/METADATA,sha256=HSW7BGuppLuRo4uBE0amTqnu_4mrl6WNNShvHlc6z4I,5813
+nameparser-1.0.1.dist-info/RECORD,,
+nameparser-1.0.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+nameparser-1.0.1.dist-info/metadata.json,sha256=kWuj7o5RqaXqY46aq_C6pfMkbrGW_27t581jYUipvEg,1264
+nameparser-1.0.1.dist-info/top_level.txt,sha256=ymOIbs7a20R7EVL7_0LNZrwshcEmPbueeKYI4je38Oo,11
