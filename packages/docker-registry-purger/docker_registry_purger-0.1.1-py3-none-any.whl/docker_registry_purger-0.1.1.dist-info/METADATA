@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: docker-registry-purger
+Version: 0.1.1
+Summary: A simple docker registry cleaner
+Home-page: http://github.com/polyconseil/docker-registry-purger
+Author: Polyconseil
+Author-email: opensource+docker-registry-purger@polyconseil.fr
+License: BSD 3-Clause License
+Keywords: docker,docker-registry,cleaner
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: System :: Software Distribution
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Dist: click
+Requires-Dist: daiquiri
+Requires-Dist: isodate
+Requires-Dist: requests
+
+Docker Registry Purger
+======================
+
+A simple cleaner for private docker-registries.
+
+Installation
+------------
+
+.. code-block:: console
+
+    $ pip install docker-registry-purger
+
+Usage
+-----
+
+Clean registry using standard options (i.e keep at less 7 versions, drop only
+packages older than 180 days, developement packages older than 30 days and rc
+packages older than 90 days).
+
+.. code-block:: console
+
+    $ docker-registry-purger 'https://[username]:[password]@[your_repository]'
+    $ # OR if you have your credentials in ``.netrc``
+    $ docker-registry-purger 'https://[your_repository]'
+
+This script only drops references to blobs, the blobs themself are not deleted,
+to remove them you have to follow the procedure describe on
+https://docs.docker.com/registry/garbage-collection/#run-garbage-collection.
+
+You can test this script with the ``dry-run`` option:
+
+.. code-block:: console
+
+    $ docker-registry-purger --dry-run 'https://[username]:[password]@[your_repository]'
+
+
