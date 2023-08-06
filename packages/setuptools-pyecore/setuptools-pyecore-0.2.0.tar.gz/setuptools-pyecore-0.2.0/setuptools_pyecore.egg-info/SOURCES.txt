@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+setuptools_pyecore/__init__.py
+setuptools_pyecore/command.py
+setuptools_pyecore.egg-info/PKG-INFO
+setuptools_pyecore.egg-info/SOURCES.txt
+setuptools_pyecore.egg-info/dependency_links.txt
+setuptools_pyecore.egg-info/entry_points.txt
+setuptools_pyecore.egg-info/requires.txt
+setuptools_pyecore.egg-info/top_level.txt
