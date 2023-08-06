@@ -1,0 +1,13 @@
+LICENCE.txt
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+line_formater/__init__.py
+line_formater/line_formater.py
+line_formater.egg-info/PKG-INFO
+line_formater.egg-info/SOURCES.txt
+line_formater.egg-info/dependency_links.txt
+line_formater.egg-info/top_level.txt
+line_formater.egg-info/zip-safe
