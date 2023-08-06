@@ -1,0 +1,12 @@
+webgme_bindings/__init__.py,sha256=8mlv06idOwkAvCHSeqgQO2BDBQe--fn99kWJEQr-vv8,197
+webgme_bindings/core.py,sha256=jqUUdswoSCbIbUaL0FuBu6nvGvsZxwFRwMuweven2Nw,153449
+webgme_bindings/exceptions.py,sha256=mr7Bta4bbs2P6O_UisSRqRHSvFiTZ7pfaWu6Q3s3YxI,1919
+webgme_bindings/pluginbase.py,sha256=6A1kAuxdeUhWw_TIp-K4-GoRVd0P1aLmn3YHe4I02II,7772
+webgme_bindings/project.py,sha256=CvgC4Y3pBSDGolckzQW2pky8QtRpGMQ0MS7BS1zI2pM,9848
+webgme_bindings/test.py,sha256=mt8KXAJr1tfowOdgYDf2-xHkw3G3F1JbBMqon_axbWA,43722
+webgme_bindings/util.py,sha256=UI48Rq44Jwm6QBXR2WXqFkcLEw9_EMB4-fHf6CjXdtk,4976
+webgme_bindings/webgme.py,sha256=xhro170LURUnryNj2k6TunbNHrqW3MoblEZ2rhUGBIY,3411
+webgme_bindings-1.0.1.dist-info/METADATA,sha256=_v23RhEcY6AS56icIJAz8UZNTAlTHQZTudfokKWlEtk,1451
+webgme_bindings-1.0.1.dist-info/RECORD,,
+webgme_bindings-1.0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+webgme_bindings-1.0.1.dist-info/top_level.txt,sha256=BaS1Cc-1C0ySUWIq1f50FAVr3yT1_FMLYgAwrikuNVw,16
