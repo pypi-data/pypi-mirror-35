@@ -1,0 +1,14 @@
+-r requirements.txt
+
+# autocompletion for emacs
+jedi
+
+pbr
+pip-tools
+pycodestyle
+pytest
+pytest-cov
+setuptools-markdown
+sphinx
+tox
+twine
