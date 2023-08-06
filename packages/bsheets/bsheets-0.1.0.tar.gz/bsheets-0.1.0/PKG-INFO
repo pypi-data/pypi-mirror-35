@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bsheets
+Version: 0.1.0
+Summary: Library for working with spreadsheets
+Home-page: https://gitlab.com/BlackEarth/bsheets
+Author: Sean Harrison
+Author-email: sah@bookgenesis.com
+License: MPL 2.0
+Description: # 
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: dev
+Provides-Extra: test
