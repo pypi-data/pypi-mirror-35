@@ -1,0 +1,43 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Item numbers}{}% 2
+\BOOKMARK [2][-]{subsection*.1}{Spare parts}{section.2}% 3
+\BOOKMARK [2][-]{subsection*.2}{System}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Compatibility}{}% 5
+\BOOKMARK [1][-]{section.4}{Links}{}% 6
+\BOOKMARK [1][-]{section.5}{Contact}{}% 7
+\BOOKMARK [1][-]{section.6}{Cleaning instructions}{}% 8
+\BOOKMARK [2][-]{subsection*.3}{Disk}{section.6}% 9
+\BOOKMARK [2][-]{subsection*.4}{System}{section.6}% 10
+\BOOKMARK [1][-]{section.7}{Hardware overview}{}% 11
+\BOOKMARK [2][-]{subsection*.6}{Specifications}{section.7}% 12
+\BOOKMARK [2][-]{subsection*.7}{Inputs and Outputs}{section.7}% 13
+\BOOKMARK [2][-]{subsection*.9}{Ground connection}{section.7}% 14
+\BOOKMARK [2][-]{subsection*.10}{Height adjustment }{section.7}% 15
+\BOOKMARK [2][-]{subsection*.13}{Position adjustment}{section.7}% 16
+\BOOKMARK [3][-]{subsubsection*.14}{Sideways adjustment}{subsection*.13}% 17
+\BOOKMARK [3][-]{subsubsection*.16}{Back-and-forth adjustment}{subsection*.13}% 18
+\BOOKMARK [1][-]{section.8}{Software installation}{}% 19
+\BOOKMARK [2][-]{subsection*.18}{Drivers}{section.8}% 20
+\BOOKMARK [2][-]{subsection*.19}{Python interpreter }{section.8}% 21
+\BOOKMARK [2][-]{subsection*.27}{Python modules}{section.8}% 22
+\BOOKMARK [3][-]{subsubsection*.28}{Updating}{subsection*.27}% 23
+\BOOKMARK [2][-]{subsection*.29}{Associating .py files with the Python interpreter}{section.8}% 24
+\BOOKMARK [2][-]{subsection*.30}{Associating .vlg files with the GramophoneTools Recorder}{section.8}% 25
+\BOOKMARK [1][-]{section.9}{Software overview}{}% 26
+\BOOKMARK [1][-]{section.10}{Recorder module}{}% 27
+\BOOKMARK [2][-]{subsection*.32}{Useage}{section.10}% 28
+\BOOKMARK [3][-]{subsubsection*.33}{Hardware setup}{subsection*.32}% 29
+\BOOKMARK [3][-]{subsubsection*.34}{Microscope configuration}{subsection*.32}% 30
+\BOOKMARK [3][-]{subsubsection*.35}{Software setup}{subsection*.32}% 31
+\BOOKMARK [2][-]{subsection*.36}{Recording results }{section.10}% 32
+\BOOKMARK [1][-]{section.11}{LinMaze module}{}% 33
+\BOOKMARK [2][-]{subsection*.37}{Levels}{section.11}% 34
+\BOOKMARK [2][-]{subsection*.38}{Frames}{section.11}% 35
+\BOOKMARK [2][-]{subsection*.40}{Events}{section.11}% 36
+\BOOKMARK [2][-]{subsection*.41}{Rules }{section.11}% 37
+\BOOKMARK [2][-]{subsection*.42}{Saving a preview image}{section.11}% 38
+\BOOKMARK [2][-]{subsection*.43}{Saving a summary}{section.11}% 39
+\BOOKMARK [2][-]{subsection*.44}{Playing the Level}{section.11}% 40
+\BOOKMARK [2][-]{subsection*.45}{Manual output control}{section.11}% 41
+\BOOKMARK [2][-]{subsection*.46}{Examples}{section.11}% 42
+\BOOKMARK [2][-]{subsection*.47}{Simulation results}{section.11}% 43
