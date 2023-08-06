@@ -1,0 +1,12 @@
+atomate
+tinydb
+phonopy
+ase
+pymatgen
+numpy
+
+[dev]
+sphinx
+sphinx_rtd_theme
+pytest
+twine
