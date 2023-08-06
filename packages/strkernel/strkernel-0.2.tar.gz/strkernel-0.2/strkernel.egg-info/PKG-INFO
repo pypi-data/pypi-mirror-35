@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: strkernel
+Version: 0.2
+Summary: Collection of string kernels
+Home-page: https://github.com/jakobhertzberg/string-kernel
+Author: Meng Zhang, Mitra Darvish, Jakob Hertzberg
+Author-email: jakob.hertzberg@gmail.com, mdarvish@posteo.de
+License: UNKNOWN
+Description: This packages includes a variety of string kernel methods. Each method transforms the list of input strings into a format that can be used by machine learning algorithm (e.g. SVM).
+Keywords: string kernel SVM machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Text Processing
