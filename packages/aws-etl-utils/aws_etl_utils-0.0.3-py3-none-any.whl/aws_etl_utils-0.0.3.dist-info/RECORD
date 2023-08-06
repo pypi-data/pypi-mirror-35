@@ -1,0 +1,7 @@
+aws_etl/__init__.py,sha256=htpxdlDlsxUx65jOavzOQKVql6iPgoLcfOVjZlyPJRw,48
+aws_etl/redshift.py,sha256=N0NumYuGnseeONpYXPuiXOWuwblOrk-j8dNDEybhLkA,1920
+aws_etl/utils.py,sha256=LZH-uZGhABktYyVe7LX2LN8ZmuzBLhOfvNGJz4K-OB4,2948
+aws_etl_utils-0.0.3.dist-info/METADATA,sha256=QhZ50onAhGBcWQm5xOxKv3n4ShI7XoJPRuL4ywG7GaY,1032
+aws_etl_utils-0.0.3.dist-info/RECORD,,
+aws_etl_utils-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+aws_etl_utils-0.0.3.dist-info/top_level.txt,sha256=N13_3liUTCHoY9U5G-ub5r9tX6i7y5zlBBsMnCXUqWw,8

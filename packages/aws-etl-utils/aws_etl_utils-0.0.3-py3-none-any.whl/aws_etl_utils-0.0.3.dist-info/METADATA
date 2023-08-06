@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: aws-etl-utils
+Version: 0.0.3
+Summary: AWS ETL Utility
+Home-page: https://github.com/mferi/aws-etl-utils
+Author: Maria Feria
+Author-email: mferiaa@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: psycopg2-binary
+
+# AWS ETL Utils
+Set of utilities to construct *data pipeline units in Amazon Web Services*.
+
+
+## Redshift module: RedshiftETLBuilder
+Methods to build ETL in Redshift.
+
+### Features
+
+RedshiftETLBuilder currently has these features:
+
+- Connect to a given redshift cluster
+- Passes parameters to sql scripts
+- Execute sql scripts
+
+
+## Test
+Unit tests: python -m unittest discover
+
+## Version
+This utility uses bumpversion to update version on '.bumpversion.cfg', 'setup.py' and '.properties' files.
+>> bumpversion --current-version 0.1.0 [major, minor, patch]
+
+
