@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: jelleprebenlol
+Version: 1.0.5
+Summary: short desc
+Home-page: http://www.github.com/brentpayne/phrase
+Author: Brent Payne
+Author-email: brent.payne@gmail.com
+License: UNKNOWN
+Keywords: phrase,noun phrase,verb phrase,nlp,natural language processing,language,language processing,phrases,nltk
+Platform: UNKNOWN
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Dist: requests
+
+long desc
+
+
