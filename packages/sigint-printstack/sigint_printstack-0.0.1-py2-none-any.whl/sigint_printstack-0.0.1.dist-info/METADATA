@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: sigint-printstack
+Version: 0.0.1
+Summary: a small debug tool, invoke trackback.print_stack when received sigint.
+Home-page: https://github.com/yangyangxcf/sigint_printstack
+Author: Yana
+Author-email: fhsxfhsx@126.com
+License: MIT License
+Keywords: sigint print_stack
+Platform: any
+
+UNKNOWN
+
+
