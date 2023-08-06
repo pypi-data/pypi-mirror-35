@@ -1,0 +1,65 @@
+PyRaftLog
+=========
+``pyraftlog`` is a RAFT consensus algorithm implementation that provides direct access to the consensus log.
+
+Mock Server
+-----------
+There is a mock server that can be run by calling ``pyraftlog-mock``::
+
+-h, --help              show the help message
+-t TYPE, --type TYPE    Type of the node {active,reluctant,passive}
+-n NODE, --node NODE   (host:)?port of this node. e.g.: 7001 or localhost:7001
+-b NEIGHBOURS, --neighbours NEIGHBOURS  Port(s) of neighbours.
+-c COMMAND, --command COMMAND   Port for receiving commands
+-l LOG_LEVEL, --log-level LOG_LEVEL Logging level
+-f FILE, --file FILE    File to be used as storage (default ./<node_name>.pickle)
+
+Create SSL certs (for mock)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The following set of commands (performed in ``pyraftlog/certs/``) will create a set a CA and device certificate for running the mock cluster on localhost::
+
+    # Only do once: generate the root CA key:
+    > openssl genrsa -out ca.key 4096
+
+    # Generate the root CA certificate:
+    ## Country Name (2 letter code) []:GB
+    ## State or Province Name (full name) []:.
+    ## Locality Name (eg, city) []:.
+    ## Organization Name (eg, company) []:.
+    ## Organizational Unit Name (eg, section) []:.
+    ## Common Name (eg, fully qualified host name) []:PyRaftLog
+    ## Email Address []:.
+    > openssl req -x509 -new -nodes -key ca.key -sha256 -days 1024 -out ca.pem
+
+    # Generate device certificates
+    # Only do once: generate device key:
+    > openssl genrsa -out localhost.key 4096
+
+    # Generate device certificate signing request:
+    ## Country Name (2 letter code) []:GB
+    ## State or Province Name (full name) []:.
+    ## Locality Name (eg, city) []:.
+    ## Organization Name (eg, company) []:.
+    ## Organizational Unit Name (eg, section) []:.
+    ## Common Name (eg, fully qualified host name) []:localhost
+    ## Email Address []:.
+    > openssl req -new -key localhost.key -out localhost.csr
+
+    # Generate a signed device certificate:
+    > openssl x509 -req -in localhost.csr -CA ca.pem -CAkey ca.key -CAcreateserial -out localhost.crt -days 500 -sha256
+
+
+
+Also See
+--------
+- `Raft Github`_
+- `Raft Paper`_
+- `Raft Thesis`_
+- `Raft lecture`_  (Raft user study)
+- `Raft Optimisations`_
+
+.. _Raft Github: https://raft.github.io/
+.. _Raft Paper: https://raft.github.io/raft.pdf
+.. _Raft Thesis: https://ramcloud.stanford.edu/~ongaro/thesis.pdf
+.. _Raft lecture: https://www.youtube.com/watch?v=YbZ3zDzDnrw
+.. _Raft Optimisations: https://www.cl.cam.ac.uk/~ms705/pub/papers/2015-osr-raft.pdf
