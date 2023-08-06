@@ -1,0 +1,9 @@
+aiohttp
+SQLAlchemy
+
+[admin]
+aiohttp_jinja2
+aiohttp_session
+WTForms
+WTForms-Alchemy
+WTForms-Components
