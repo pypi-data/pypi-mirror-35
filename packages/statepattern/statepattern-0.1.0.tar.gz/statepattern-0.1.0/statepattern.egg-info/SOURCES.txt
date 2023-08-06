@@ -1,0 +1,7 @@
+README.md
+setup.py
+statepattern.py
+statepattern.egg-info/PKG-INFO
+statepattern.egg-info/SOURCES.txt
+statepattern.egg-info/dependency_links.txt
+statepattern.egg-info/top_level.txt
