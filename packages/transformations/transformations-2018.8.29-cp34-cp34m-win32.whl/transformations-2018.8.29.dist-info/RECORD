@@ -1,0 +1,7 @@
+transformations/__init__.py,sha256=f7EdCs60p6_lHWctAThZEtPqDJdVxBYYjPKd4SQlWgI,157
+transformations/_transformations.pyd,sha256=ZS85pFiIFKDg66H_66CXBG89gE9aoM1BhLyPp5rYMlI,55296
+transformations/transformations.py,sha256=QhguOTCe2cHPELyc9CdCePFG8tJ515qXwgLGQ5wnZu4,68654
+transformations-2018.8.29.dist-info/METADATA,sha256=KRQIdWemjLte13tz2X8Tzcj1fKtCTZ0Fp_wlZ-4U_lg,7895
+transformations-2018.8.29.dist-info/RECORD,,
+transformations-2018.8.29.dist-info/WHEEL,sha256=4lCkXad4fP9iU34qabAaBPitocf75KLjw0MaNLtVcLk,102
+transformations-2018.8.29.dist-info/top_level.txt,sha256=aLjIe_YXrdETEWfWoV1Ld7rLmK0F5cB6W9jYDymktOE,16
