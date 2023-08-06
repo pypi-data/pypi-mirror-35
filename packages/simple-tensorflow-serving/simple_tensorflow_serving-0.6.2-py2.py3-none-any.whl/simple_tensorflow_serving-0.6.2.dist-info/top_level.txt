@@ -1,0 +1,3 @@
+simple_tensorflow_serving
+simple_tensorflow_serving_latest
+simple_tensorflow_serving_work
