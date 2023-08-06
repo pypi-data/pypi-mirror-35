@@ -1,0 +1,12 @@
+MicroInverse/MicroInverse_examples.py,sha256=UhY4x6HriL4Qt4oohGQcU-VH6aFZXFsrBsjkNmnynT0,5354
+MicroInverse/MicroInverse_utils.py,sha256=0lIiJgT_LiXJ1XxoWUfineNP1td35lBSg5GxRd1o6cY,57700
+MicroInverse/__init__.py,sha256=qm5QCuvf3K6rhOdMaJlgFH27PTccdH0f41e2le2IcFY,167
+MicroInverse/adv_diff_fipy_solve_1000_vel0.05_r005_dx5000_dt1000.npz,sha256=SPhFs_n7zScszH9w77H31FuYyIdVQ9bsDOinmutArj0,18664180
+MicroInverse/cli.py,sha256=4932mDrFO7gkVKwZ48GZzTDrWROcFOmuDY0ten-ZuWo,428
+MicroInverse/dist.py,sha256=Zz9DbSn3BAmfUv4wcwNchiCmFp33RY4FCSA137PW7uw,839
+MicroInverse/tests/adv_diff_fipy_solve_1000_vel0.05_r005_dx5000_dt1000.npz,sha256=SPhFs_n7zScszH9w77H31FuYyIdVQ9bsDOinmutArj0,18664180
+MicroInverse-0.3.0.dist-info/METADATA,sha256=qc3gZENlyjq8KsUreAxTn9-H6BdXFvrw9tXhgwlzq5M,3798
+MicroInverse-0.3.0.dist-info/RECORD,,
+MicroInverse-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+MicroInverse-0.3.0.dist-info/entry_points.txt,sha256=Sa6bMIJeYZOMnS5FQ73sR-w1DUOMCTr1_jnWJciGLF0,56
+MicroInverse-0.3.0.dist-info/top_level.txt,sha256=2NG8AoHcq15GPr3Pbgo6R1Gv1QHjpme0rmWJlf-klps,13
