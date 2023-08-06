@@ -1,0 +1,13 @@
+VWS_Python_Mock-2018.9.10.6.dist-info/LICENSE.txt,sha256=3f-Eg9I7wNs9Ka37pighRJX8_ehhf-TCgHqLCsMFNKk,1041
+VWS_Python_Mock-2018.9.10.6.dist-info/METADATA,sha256=y2xsg29L42RJO5m5VWVpy3pUg6k-W7d5DYJAbSDiyq8,10048
+VWS_Python_Mock-2018.9.10.6.dist-info/RECORD,,
+VWS_Python_Mock-2018.9.10.6.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+VWS_Python_Mock-2018.9.10.6.dist-info/top_level.txt,sha256=ZM_u8TQO53nPg6timoI2AgUE0BhxIZrXkpT4s46DGlo,9
+mock_vws/__init__.py,sha256=MUguuxYB9ND546dS7V-I4mjNb_O4vDpNPuN2KoKG-G4,6587
+mock_vws/_constants.py,sha256=g7GeeW5CCxKXaqdCA53wmwg9-cfA_aLzL-54_xsobwY,1850
+mock_vws/_mock_common.py,sha256=ogPq9afbx2AN2r24VMkfFZeA7poJ8TrUDOuHWvuuIew,2206
+mock_vws/_mock_web_query_api.py,sha256=aVY1OwvxQNCVOow7_5Moakncbr4GSdP2GChtJg5osjg,27223
+mock_vws/_mock_web_services_api.py,sha256=ou4sMk9NaHBZEh714ZPVd31NrNwh5R39IRgLCVZSHhk,25588
+mock_vws/_validators.py,sha256=MJ2Lps7_pPugNkGTTxQCzQ1pYxV2N-5KqmF0bTkhpcw,30722
+mock_vws/_version.py,sha256=17QvdeC7wJrPbIJXNil_1kHonoFzAKe5aosgANhNt7g,504
+mock_vws/resources/match_processing_response,sha256=J6fZH0T0ZrJaQG7BzNBq9_PEg5etnz-WnIgzF6HMiY0,9259
