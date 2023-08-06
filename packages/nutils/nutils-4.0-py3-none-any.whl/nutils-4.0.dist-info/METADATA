@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: nutils
+Version: 4.0
+Summary: Numerical Utilities for Finite Element Analysis
+Home-page: http://nutils.org
+Author: Evalf
+Author-email: info@nutils.org
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Provides-Extra: docs
+Provides-Extra: test
+Provides-Extra: readthedocs
+Provides-Extra: mkl
+Requires-Dist: numpy (>=1.12)
+Requires-Dist: matplotlib (>=1.3)
+Requires-Dist: scipy (>=0.13)
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=1.6); extra == 'docs'
+Provides-Extra: mkl
+Requires-Dist: mkl; extra == 'mkl'
+Provides-Extra: readthedocs
+Requires-Dist: pillow (>2.6); extra == 'readthedocs'
+Provides-Extra: test
+Requires-Dist: Sphinx (>=1.6); extra == 'test'
+Requires-Dist: pillow (>2.6); extra == 'test'
+
+
+Nutils is a Free and Open Source Python programming library for Finite Element
+Method computations, developed by `Evalf Computing <http://evalf.com>`_ and
+distributed under the permissive MIT license. Key features are a readable, math
+centric syntax, an object oriented design, strict separation of topology and
+geometry, and high level function manipulations with support for automatic
+differentiation.
+
+Nutils provides the tools required to construct a typical simulation workflow
+in just a few lines of Python code, while at the same time leaving full
+flexibility to build novel workflows or interact with third party tools. With
+native support for Isogeometric Analysis (IGA), the Finite Cell method (FCM),
+multi-physics, mixed methods, and hierarchical refinement, Nutils is at the
+forefront of numerical discretization science. Efficient under-the-hood
+vectorization and built-in parallellisation provide for an effortless
+transition from academic research projects to full scale, real world
+applications.
+
+
