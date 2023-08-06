@@ -1,0 +1,13 @@
+README.md
+setup.py
+kpi_repository_client/__init__.py
+kpi_repository_client/dot4_client.py
+kpi_repository_client/kpi_client_exception.py
+kpi_repository_client/kpi_definition.py
+kpi_repository_client/kpi_repository_client.py
+kpi_repository_client/kpi_values.py
+kpi_repository_client/service.py
+kpi_repository_client.egg-info/PKG-INFO
+kpi_repository_client.egg-info/SOURCES.txt
+kpi_repository_client.egg-info/dependency_links.txt
+kpi_repository_client.egg-info/top_level.txt
