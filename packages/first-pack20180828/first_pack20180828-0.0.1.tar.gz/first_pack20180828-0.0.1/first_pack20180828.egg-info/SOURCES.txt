@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+first_pack20180828/__init__.py
+first_pack20180828/first_pack20180828.py
+first_pack20180828.egg-info/PKG-INFO
+first_pack20180828.egg-info/SOURCES.txt
+first_pack20180828.egg-info/dependency_links.txt
+first_pack20180828.egg-info/top_level.txt
