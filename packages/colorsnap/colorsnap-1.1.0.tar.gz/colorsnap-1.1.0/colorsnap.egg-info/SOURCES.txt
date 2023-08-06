@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+colorsnap/__init__.py
+colorsnap/color_snap.py
+colorsnap.egg-info/PKG-INFO
+colorsnap.egg-info/SOURCES.txt
+colorsnap.egg-info/dependency_links.txt
+colorsnap.egg-info/top_level.txt
+colorsnap/palettes/__init__.py
+colorsnap/palettes/css_2.py
+colorsnap/palettes/css_2_1.py
+colorsnap/palettes/css_3.py
+colorsnap/palettes/css_4.py
