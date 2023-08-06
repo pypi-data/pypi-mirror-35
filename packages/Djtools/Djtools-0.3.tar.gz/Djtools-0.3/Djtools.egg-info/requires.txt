@@ -1,0 +1,4 @@
+bpylist2==2.0.3
+
+[:python_version < "3.7"]
+dataclasses
