@@ -1,0 +1,38 @@
+Metadata-Version: 2.0
+Name: dokr
+Version: 0.4
+Summary: A Docker and AWS utility package
+Home-page: https://github.com/javatechy/dokr
+Author: Deepak Kumar
+Author-email: deepak.kumar.iet@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: ecs-deploy
+
+# dokr
+
+Package for ECS help and docker tasks
+
+
+
+
+```
+pip install virtualenv
+```
+### Create one
+
+```
+virtualenv my_env
+
+source my_env/bin/activate
+```
+### turn off
+
+```
+deactivate
+```
+
