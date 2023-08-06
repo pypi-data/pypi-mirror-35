@@ -1,0 +1,5 @@
+pypeerassets
+terminaltables
+appdirs
+fire
+keyring
