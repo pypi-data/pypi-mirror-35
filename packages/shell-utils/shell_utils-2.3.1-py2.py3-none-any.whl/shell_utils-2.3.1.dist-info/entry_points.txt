@@ -1,0 +1,5 @@
+[console_scripts]
+notify=shell_utils.notify:notify_command
+run=shell_utils.cli:invoke_runner
+shell_utils=shell_utils.cli:cli
+
