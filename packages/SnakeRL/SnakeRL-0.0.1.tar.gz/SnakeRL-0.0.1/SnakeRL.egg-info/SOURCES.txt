@@ -1,0 +1,7 @@
+README.md
+setup.py
+SnakeRL.egg-info/PKG-INFO
+SnakeRL.egg-info/SOURCES.txt
+SnakeRL.egg-info/dependency_links.txt
+SnakeRL.egg-info/top_level.txt
+snakerl/__init__.py
