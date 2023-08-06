@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: haychecker
+Version: 0.0.1
+Summary: a small library to check for data quality, either with spark or pandas
+Home-page: https://github.com/fruttasecca/hay_checker
+Author: Jacopo Gobbi, Kateryna Konotopska
+Author-email: jacopo.gobbi@studenti.unitn.it, kateryna.konotopska@studenti.unitn.it
+License: MIT
+Description: Description at https://github.com/fruttasecca/hay_checker
+Keywords: data quality,completeness,deduplication,timeliness,freshness,constraint,rule,entropy,mutual information,spark,pandas
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
