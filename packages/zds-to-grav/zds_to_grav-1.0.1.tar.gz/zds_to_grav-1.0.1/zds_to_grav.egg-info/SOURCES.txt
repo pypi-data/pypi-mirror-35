@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+zds_to_grav/__init__.py
+zds_to_grav/zds_to_grav.py
+zds_to_grav.egg-info/PKG-INFO
+zds_to_grav.egg-info/SOURCES.txt
+zds_to_grav.egg-info/dependency_links.txt
+zds_to_grav.egg-info/entry_points.txt
+zds_to_grav.egg-info/requires.txt
+zds_to_grav.egg-info/top_level.txt

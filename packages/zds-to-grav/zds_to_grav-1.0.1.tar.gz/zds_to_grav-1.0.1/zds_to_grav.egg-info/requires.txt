@@ -1,0 +1,6 @@
+click>=6
+requests
+path.py>=2.19
+bs4
+awesome-slugify
+pyyaml
