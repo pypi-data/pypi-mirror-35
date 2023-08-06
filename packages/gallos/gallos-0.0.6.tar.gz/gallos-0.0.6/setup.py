@@ -1,0 +1,24 @@
+"""
+"""
+import setuptools
+
+with open("README.md", "r") as RM:
+    LONG_DESCRIPTION = RM.read()
+
+setuptools.setup(
+    name='gallos',
+    version='0.0.6',
+    # packages=['gallos'],
+    description="A sample package",
+    long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
+    url="https://github.com/Stegallo",
+    packages=setuptools.find_packages(),
+    install_requires=[
+    ],
+    classifiers=(
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    )
+)
