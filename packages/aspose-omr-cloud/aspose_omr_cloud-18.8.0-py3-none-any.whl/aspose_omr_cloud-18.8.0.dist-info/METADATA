@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: aspose-omr-cloud
+Version: 18.8.0
+Summary: Python library for communicating with the Aspose.OMR Cloud API
+Home-page: https://github.com/aspose-omr-cloud/aspose-omr-cloud-python
+Author: Aspose
+Author-email: UNKNOWN
+License: MIT
+Keywords: aspose,aspose cloud,omr
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+Aspose.OMR for Cloud is a REST API that helps you to perform optical mark recognition in the cloud. We provide a series of SDKs. Along with that, you can get binaries to start working immediately and recognize various OMR forms.
+
+Developers can embed optical recognition in any type of application to extract data from images of tests, exams, questionnaires, surveys, etc. In the repository you can find examples on how to start using Aspose.OMR API in your project.
+
+
