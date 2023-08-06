@@ -1,0 +1,16 @@
+setup.py
+bin/evolve-agent
+evolve_agent.egg-info/PKG-INFO
+evolve_agent.egg-info/SOURCES.txt
+evolve_agent.egg-info/dependency_links.txt
+evolve_agent.egg-info/requires.txt
+evolve_agent.egg-info/top_level.txt
+evolveagent/__init__.py
+evolveagent/iws/__init__.py
+evolveagent/iws/caller.py
+evolveagent/iws/iwsclient.py
+evolveagent/iws/agent/__init__.py
+evolveagent/iws/agent/config.py
+evolveagent/iws/agent/logger.py
+evolveagent/iws/agent/module.py
+evolveagent/iws/agent/service.py
