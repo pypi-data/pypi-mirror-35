@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: cromlech.sessions.jwt
+Version: 0.0.1
+Summary: HTTP Session using JWT and Cookies.
+Home-page: http://gitweb.dolmen-project.org/
+Author: The Cromlech Team
+Author-email: dolmen@list.dolmen-project.org
+License: ZPL
+Description: cromlech.sessions.jwt
+        #####################
+        
+        HTTP server side sessions using JWT and Cookies.
+        
+        
+        Changelog
+        =========
+        
+        0.1 (unreleased)
+        ----------------
+        
+        * ...
+        
+Keywords: Cromlech Session
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python

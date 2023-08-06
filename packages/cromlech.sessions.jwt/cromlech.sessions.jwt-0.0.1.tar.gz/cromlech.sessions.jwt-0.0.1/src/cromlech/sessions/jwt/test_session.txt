@@ -1,0 +1,143 @@
+JWT Key
+--------
+
+The JWT secret key is usually generated programmatically and stored in
+a file. The `cromlech.jwt` package contains all the helpers to handle
+the creation and loading or said key in a JSON format. See the
+`cromlech.jwt`documentation and tests for more info.
+
+In order to run our test, we hard code the JWT key JSON string right here :
+
+  >>> from cromlech.sessions.jwt import load_key
+
+  >>> jk = '{"k":"H9TCJTNhZu9kvISfNmb0eATfCDbp7F92LxnBPK_VUhc","kty":"oct"}'
+  >>> key = load_key(jk)
+  >>> key
+  <jwcrypto.jwk.JWK object at ...>
+
+
+The middleware scenario
+------------------------
+
+In order to test the session cookie and general application flow,
+we'll start by testing the middleware. The middleware handles the
+creation of a cookie and stores a JWT inside. This JWT is encoded and
+signed, in order to keep the data 'safe'.
+
+The middleware is a class instanciated with the key (loaded or created
+earlier) and a timeout for the cookie and token lifespan. The timeout is
+expressed as an integer representing the number of minutes before
+expiration.
+
+    >>> from cromlech.sessions.jwt import JWTCookieSession
+    >>> session_wrapper = JWTCookieSession(key, 60)
+
+The middleware will, at the reception of an HTTP request, create a
+token if there's no cookie OR load the token present in the
+cookie. This decoded token will then be pushed in the environ. The
+cookie name and the environ key are customizable too:
+
+    >>> session_wrapper = JWTCookieSession(
+    ...     key, 60, cookie_name="my_cookie_name", environ_key="my_session")
+  
+By default, the cookie_name is `jwt` and the environ key `session`. 
+
+We can now create our application and use this middleware.
+
+    >>> def simple_app(environ, start_response):
+    ...     """retained visited path, raise exception if path contain 'fail'
+    ...     """
+    ...     session = environ['my_session']
+    ...     visited = session.get('visited', [])
+    ...     visited.append(environ['PATH_INFO'])
+    ...     session['visited'] = visited
+    ...     if 'fail' in environ['PATH_INFO']:
+    ...         raise ValueError
+    ...     start_response('200 OK', [('Content-type', 'text/plain')])
+    ...     return [b', '.join((v.encode('utf-8') for v in visited))]
+
+
+Wrapping the application is the middleware is done using the `__call__`
+method of the `JWTCookieSession` instance:
+
+    >>> from webtest import TestApp
+
+    >>> wrapped_app = session_wrapper(simple_app)
+    >>> wsgi_app = TestApp(wrapped_app)
+    >>> result = wsgi_app.get('/foo')
+    >>> result.status
+    '200 OK'
+    >>> result.body
+    '/foo'
+    
+    >>> result = wsgi_app.get('/bar')
+    >>> result.status
+    '200 OK'
+    >>> result.body
+    '/foo, /bar'
+
+    >>> import pytest
+    >>> with pytest.raises(ValueError) as invalid:
+    ...     result = wsgi_app.get('/fail')
+
+Notice here that the `fail` causes an error. This path should NOT
+appear in the history :
+
+    >>> result = wsgi_app.get('/baz')
+    >>> result.status
+    '200 OK'
+    >>> result.body
+    '/foo, /bar, /baz'
+
+
+Lower level analysis
+--------------------
+
+The cookie contains our JWT, that is the encoded and signed
+representation of our session. Its name was manually set at the
+beggining of the tests. Let's analyse it :
+
+    >>> wsgi_app.cookies
+    {'my_cookie_name': '...'}
+
+Let's manually unpile this, to understand what's going on :
+
+    >>> cookie = wsgi_app.cookies['my_cookie_name']
+    >>> sorted(session_wrapper.check_token(cookie).keys())
+    [u'exp', u'uid', u'visited']
+
+We can see that our session also has metadatas : the `uid` that is the
+unique identifier of the session and an `exp` property that is the
+timestamp representing the time boundaries of the token validity.
+
+Provided a wrong value, the `check_token` method will fail :
+
+    >>> with pytest.raises(ValueError) as invalid:
+    ...     session_wrapper.check_token('MyCorruptedToken')
+
+    >>> invalid.value
+    ValueError('Token format unrecognized',)
+
+
+Cookie size
+-----------
+
+A cookie is not a limiteless storage. The JWT session cookie should be
+used for small and limited sessions. It's recommanded when you need to
+save the user id and user-related information. It might be too limited
+for large uses like online cart for e-shops or other heavilyy
+sessionned applications. The middleware will raise an error if the
+cookie overflows :
+
+    >>> def overflowing_app(environ, start_response):
+    ...     session = environ['my_session']
+    ...     session['data'] = 'Some heavy load' * 1000
+    ...     start_response('200 OK', [('Content-type', 'text/plain')])
+    ...     return [', '.join((v.encode('utf-8') for v in visited))]
+
+    >>> wsgi_app = TestApp(session_wrapper(overflowing_app))
+    >>> with pytest.raises(ValueError) as invalid:
+    ...     wsgi_app.get('/')
+
+    >>> invalid.value
+    ValueError('Cookie exceeds the 4096 bytes limit',)
