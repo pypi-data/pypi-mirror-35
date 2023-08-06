@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: pyvie
+Version: 1.0.0
+Summary: A module for making videos in Python
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: davidbutts96@gmail.com
+License: UNKNOWN
+Description: Pyvie is a module designed to close the gap in movie making using Python.
+        
+        Information about useage can be found at https://python-pyvie.github.io
+        
+Keywords: Python movies animation
+Platform: UNKNOWN

@@ -1,0 +1,9 @@
+README.txt
+pyvie.py
+setup.cfg
+setup.py
+pyvie.egg-info/PKG-INFO
+pyvie.egg-info/SOURCES.txt
+pyvie.egg-info/dependency_links.txt
+pyvie.egg-info/requires.txt
+pyvie.egg-info/top_level.txt
