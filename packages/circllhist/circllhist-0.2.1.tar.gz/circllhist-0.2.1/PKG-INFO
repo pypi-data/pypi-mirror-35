@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: circllhist
+Version: 0.2.1
+Summary: Circonus log-linear histogram library
+Home-page: https://github.com/circonus-labs/libcircllhist
+Author: Heinrich Hartmann
+Author-email: heinrich.hartmann@circonus.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
