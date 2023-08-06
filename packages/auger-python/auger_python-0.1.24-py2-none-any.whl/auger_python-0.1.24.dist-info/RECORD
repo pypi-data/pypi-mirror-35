@@ -1,0 +1,10 @@
+auger/__init__.py,sha256=XvcriG-ZOAxEpUCK1pMSNtP3decT5zGZcrd_YR5oqIA,3562
+auger/runtime.py,sha256=hQ84C9snO1sWeEIdIw6e-WqxqtIObVXU7iDgZd-PDxA,578
+auger/tracer.py,sha256=n2FxzqX7Bz-7gt7gJGvEzCuW5zl0WZ6wD1OYGrRcAgU,1338
+auger/generator/__init__.py,sha256=YV8TG1oW4YTohSL8XonH-ARm46SoGBV-wjOrW-wsi8I,39
+auger/generator/default.py,sha256=uQiIUq9z6hVjpAStJ-5YYiPi-tGZQDiq_ejN_HsGXQg,8457
+auger/generator/generator.py,sha256=pw30lZ9JZl-R96OXLeuPdnhUn24RcAmP7l2THFvt_jM,781
+auger_python-0.1.24.dist-info/METADATA,sha256=IDp5NzN7hbld7yDPHEwQAmBotrWGl0ZtG3At7xOHIG8,3511
+auger_python-0.1.24.dist-info/RECORD,,
+auger_python-0.1.24.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+auger_python-0.1.24.dist-info/top_level.txt,sha256=v091ubdYYCQC7ZT9Agu9PvULlZanBny3erUP7vMz0Uk,6
