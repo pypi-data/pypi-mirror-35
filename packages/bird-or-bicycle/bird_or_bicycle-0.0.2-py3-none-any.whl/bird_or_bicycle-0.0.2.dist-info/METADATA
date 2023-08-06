@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bird-or-bicycle
+Version: 0.0.2
+Summary: Two-class unambiguous images. Follow the same dimensionality as ILSVRC 2012
+Home-page: https://github.com/google/unrestricted-adversarial-examples/bird-or-bicycle
+Author: Tom Brown
+Author-email: tombrown@google.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: awscli (~=1.0)
+Requires-Dist: torchvision (~=0.2.0)
+Requires-Dist: Pillow (~=5.2)
+
+UNKNOWN
+
+

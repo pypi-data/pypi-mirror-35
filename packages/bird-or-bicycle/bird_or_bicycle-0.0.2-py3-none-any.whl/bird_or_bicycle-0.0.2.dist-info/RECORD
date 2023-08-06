@@ -1,0 +1,9 @@
+bird_or_bicycle-0.0.2.data/scripts/bird-or-bicycle-download,sha256=lvmScKGft3WY_993Yle7ApGqrrpt6NyqSJc5aTYltBI,396
+bird_or_bicycle-0.0.2.data/scripts/bird-or-bicycle-verify,sha256=BrLaUNjr4nkJyu89joTkyLBf2u_T-8jMmxFtLBggHCw,380
+bird_or_bicycle-0.0.2.dist-info/METADATA,sha256=gDxPIOA-M5oDS0JXovEuyTjU1wkhc9t78zn0QMIk17Y,426
+bird_or_bicycle-0.0.2.dist-info/RECORD,,
+bird_or_bicycle-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+bird_or_bicycle-0.0.2.dist-info/top_level.txt,sha256=MlEJ-WBTWXHNzvox8MwAj0xd68GDSmrcU0-zmFMkFvI,15
+bird_or_bicyle/__init__.py,sha256=0FSOhJpSCmtHlgBdvpdVKB7E1eYFZJgr9MossuVhpGI,190
+bird_or_bicyle/dataset.py,sha256=9XrvTAr_0q34s-xteQTxkur7lLWrJ-Mrz7aEtr20Xy8,8617
+bird_or_bicyle/iterator.py,sha256=5eRGGUSl3cacHXTM1Q2sirfQFadXFg-Zsuzha1Yz1IQ,1191
