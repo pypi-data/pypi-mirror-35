@@ -1,0 +1,8 @@
+kinto_changes/__init__.py,sha256=-82VzZ9KqydfnyY8TpgxS0gfTGjMStjo7lnAj0asGcE,1688
+kinto_changes/listener.py,sha256=Wu-6vaP6ZFQTEdXuHfUHXvS1ypYav-PY_Mr3W6RDqeg,2598
+kinto_changes/utils.py,sha256=VwNlfBOr7toAt91wjeaTzhbAcppefD7lwzKJKk-nDUA,2118
+kinto_changes/views.py,sha256=UmTMfH74nNxuSHnXq3p09V4bjV9q3wolEklbUnU7TIc,3108
+kinto_changes-1.2.0.dist-info/METADATA,sha256=mFReuHoCC7XyyL8jcMIqEq-iKAnScLt4hhust6b-kmk,4625
+kinto_changes-1.2.0.dist-info/RECORD,,
+kinto_changes-1.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+kinto_changes-1.2.0.dist-info/top_level.txt,sha256=WFW04J9rN_ZFPpI8Scn5s4UHWy-3YR0a7vV-pvY-f0o,14
