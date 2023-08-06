@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: masstodon
+Version: 0.1
+Summary: Investigate mass spectra for chemical substances, especially ETD products.
+Home-page: https://github.com/MatteoLacki/masstodon
+Author: Mateusz Krzysztof Łącki
+Author-email: matteo.lacki@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Mass Spectrometry,Mass spectra annotation.Analytical Chemistry,ETD,Electron Transfer Dissociation,Fragmentation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Programming Language :: Python :: 3.6
