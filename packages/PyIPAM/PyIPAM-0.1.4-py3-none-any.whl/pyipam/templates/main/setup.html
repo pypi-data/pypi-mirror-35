@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block body %}
+<p>Welcome to PyIPAM, the simple IP address manager.</p>
+<p>Please fill out the below details to get started:</p>
+<form class="general-form" action="" method="post">
+    <fieldset class="form-details"> 
+        <legend>Database:</legend> 
+        <label>Hostname:</label>
+        <input tabindex="1" type="text" name="host">
+        <label>Database:</label>
+        <input tabindex="2" type="text" name="database">
+        <label>Username:</label>
+        <input tabindex="3" type="text" name="user">
+        <label>Password:</label>
+        <input tabindex="4" type="password" name="password">
+        <br></br>
+    </fieldset>
+    <fieldset class="form-action">
+        <input type="submit" class="button" name="submit" value="Submit Details">
+    </fieldset>
+</form>
+{% endblock %}

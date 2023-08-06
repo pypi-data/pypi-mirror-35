@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block body %}
+{% if error == True %}
+    {% include "main/error.html" %}
+{% endif %}
+<form class="general-form" action="" method="post">
+    <fieldset class="form-details"> 
+        <legend>Details</legend> 
+        <label>Subnet:</label>
+        <input tabindex="1" type="text" name="subnet" alt="Subnet" {{ 'readonly' if subnet else '' }} value="{{ subnet[0][1] if subnet else '' }}">
+        <label>VLAN:</label>
+        <input tabindex="1" type="text" name="vlan" alt="VLAN" value="{{ subnet[0][2] if subnet else '' }}">
+        <legend>Other</legend> 
+        <label>Description:</label>
+        <textarea name="description" alt="Description">{{ subnet[0][3] if subnet else '' }}</textarea>
+        <br></br>
+    </fieldset>
+    <fieldset class="form-action">
+        <input type="submit" class="button" name="submit" alt="Submit" value="{{ btn_text }}">
+        <button type="button" class="button" alt="Cancel" onclick="window.close();">Cancel</button>
+    </fieldset>
+</form>
+{% endblock %}

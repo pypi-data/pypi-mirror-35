@@ -1,0 +1,3 @@
+[console_scripts]
+pyipam = pyipam.server:run
+

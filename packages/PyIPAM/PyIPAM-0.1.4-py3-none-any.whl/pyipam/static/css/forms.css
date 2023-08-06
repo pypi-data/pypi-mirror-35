@@ -1,0 +1,80 @@
+/* Fieldset to hold all form objects */
+fieldset {border: 0; margin: 0; padding: 0;}
+
+/* Form header */
+legend {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* Input label */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+/* Form view that sits in the Fieldset */
+form.general-form {
+    border: 1px solid #c6c7cc;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 540px;
+}
+
+/* Details section and inputs */
+fieldset.form-details {padding: 10px 10px 0 10px;}
+fieldset.form-details input {
+    border-radius: 1px;
+    border: 1px solid #c6c7cc;
+    margin: 2px;
+    margin-bottom: 6px;
+}
+
+/* Action secion where buttons sit */
+fieldset.form-action {
+    background: #f0f0f2;
+    padding: 10px 10px 0 10px;
+    border-top: 1px solid #c6c7cc;
+}
+
+/* Radio button specific formatting */
+input[type="radio"]:checked+label{font-weight: bold;}
+label[for="radio"]{display: inline-block;}
+
+/* Not checked state */
+input[type='radio']:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+} 
+
+/* Checked state */
+input[type='radio']:checked:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #34945d;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.checks_container { 
+    border:2px solid #ccc; 
+    width: 98%; 
+    height: 100px; 
+    overflow-y: scroll; 
+}

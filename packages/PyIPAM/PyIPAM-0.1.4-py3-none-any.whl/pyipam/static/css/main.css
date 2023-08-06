@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* Page header container */
+#header {
+    text-align:left;
+    display: inline-block;
+    padding:5px;
+    background-color: #262626;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    height: 47px;
+    width: 100%;
+
+}
+
+#header img {
+    height: 100%;
+}
+
+#logo {
+    padding-left: 5px;
+    height:45px; 
+    width: 50px; 
+    float: left;
+}
+
+#page_title {
+    margin-left: 5px;
+    height: 45px; 
+    float: left;
+}
+
+#searchbox_container {
+    height: 35px;
+    float: right;
+    margin-top: 6px;
+    margin-right: 12px;
+}
+
+#searchbox {
+    font-size: 14px;
+    color: white;
+    height: 40px;
+    width: 200px;
+    padding: 4px;
+    border: 1px solid #2b2828;
+    border-radius: 2px;
+    background-color: #3f3a3a;
+}
+
+/* Page content container */
+#content {
+    min-height: 400px;
+    margin-top: 65px;
+    margin-bottom: 90px;
+    margin-left: 6px;
+    margin-right: 6px;
+    clear: both;
+ }
+
+body {
+    font-family:'Open Sans', sans-serif;
+}
+
+ /* Create a side by side column view */
+ div.column {
+     width: 25%;
+     float: left;
+ }
+
+/* Page footer container */
+#footer {
+    background-color:#262626;
+    box-shadow: 0px -3px 5px rgba(0,0,0,0.2);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:1px; 
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:60px;
+    width:100%;
+    z-index: 99;
+}
+
+#footer p {padding: 3px; margin: 2px;}
+
+/* Header styling
+h1 - Page header
+h2 - Section header
+h3 - Sub-section header
+*/
+
+h1 {
+    color:white;
+    font-size: 1.2em;
+    font-weight: normal;
+    letter-spacing: -1px; 
+    line-height: 1;
+    display: inline-block;
+    margin:auto;
+    padding: 16px;
+}
+
+h2 {
+    font-weight: 350;
+    color: #021524;
+    letter-spacing: -1px; 
+    line-height: 1;
+}
+
+h3 {
+    font-weight: 100;
+    color: #111;
+    letter-spacing: -1px; 
+    line-height: 1; 
+}
+
+/* Hyperlink styling */
+a:link {color: #0e6700;}
+a:visited {color: darkgreen;}
+a:hover {text-decoration: underline; color: seagreen;}
+a:active {color: #ff0000;text-decoration: none}
+
+/* Fancy button styling! */
+.button {
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 8px 18px 8px 18px;
+    color: #fff;
+    background: #3cb371;
+    background-image: -webkit-linear-gradient(top, #3cb371, #34945d);
+    background-image: -moz-linear-gradient(top, #3cb371, #34945d);
+    background-image: -ms-linear-gradient(top, #3cb371, #34945d);
+    background-image: -o-linear-gradient(top, #3cb371, #34945d);
+    background-image: linear-gradient(to bottom, #3cb371, #34945d);
+    border-radius: 3px;
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+}
+.button:hover {
+    background: #42c77b;
+    background-image: -webkit-linear-gradient(top, #42c77b, #3cab6a);
+    background-image: -moz-linear-gradient(top, #42c77b, #3cab6a);
+    background-image: -ms-linear-gradient(top, #42c77b, #3cab6a);
+    background-image: -o-linear-gradient(top, #42c77b, #3cab6a);
+    background-image: linear-gradient(to bottom, #42c77b, #3cab6a);
+    text-decoration: none;
+}
+
+/* menu control styling */
+button.menu {
+    background-color: #262626;
+    color: white;
+    padding: 8px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+
+button.menu:hover, .menu:focus {background-color: #333;}
+
+.offline {
+    background-color:#b35c5c;
+}
+
+.online {
+    background-color: #62a563;
+}

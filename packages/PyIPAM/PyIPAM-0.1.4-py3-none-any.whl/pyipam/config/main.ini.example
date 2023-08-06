@@ -1,0 +1,5 @@
+[postgresql]
+host=hostname
+database=pyipam
+user=pyipam
+password=password

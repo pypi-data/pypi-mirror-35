@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+{% if info == True %}
+    {% include "main/info.html" %}
+{% endif %}
+<p>Welcome to PyIPAM, the simple IP address manager.</p>
+<table id='subnets' class="subnets">
+    <thead>
+        <tr>
+            <th>IP Subnets</th>
+            <th>Description</th>
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% if subnets == None %}
+        <strong>ERROR: Database connection couldn't be established.</strong>
+        {% else %}
+            {% for subnet in subnets %}
+                <tr>
+                    <td><a href='subnet/view/{{ subnet[0] }}?page=1'>{{ subnet[1] }}</a></td>
+                    <td>{{ subnet[3] }}</td>
+                    <td><a onclick="window.open('subnet/edit/{{ subnet[0] }}', 'targetWindow', 'directories=no,toolbar=no, location=no, status=no, menubar=no, scrollbars=no, resizable=no, width=580, height=460'); return false;" href=''>Edit Subnet</a> / <a onClick="javascript: return confirm('Please confirm deletion');" href='subnet/delete/{{ subnet[0] }}'>Delete Subnet</a></td>
+                </tr>
+            {% endfor %}
+        {% endif %}
+    </tbody>
+</table>
+{% endblock %}

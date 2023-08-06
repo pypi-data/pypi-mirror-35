@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block body %}
+<script src="/res/js/ip_edit.js" type="application/javascript"></script>
+<script src="/res/js/ip_check.js" type="application/javascript"></script>
+<script src="/res/js/ip_table_nav.js" type="application/javascript"></script>
+<button type="button" class="button" id="back" onclick='back_page("{{ subnet[0][0] }}")'><</button>
+<button type="button" class="button" id="forward" onclick='next_page("{{ subnet[0][0] }}")'>></button>
+<strong>{{ subnet[0][1] }} - {{ subnet[0][3] }}</strong>
+<table id='ip_addresses' class="subnets">
+    <thead>
+        <tr>
+            <th>IP Address</th>
+            <th>Status</th>
+            <th>Host</th>
+            <th>Notes</th>
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% if ip_addresses == None %}
+        <strong>ERROR: Database connection couldn't be established.</strong>
+        {% else %}
+            {% for row_start_num in range(row_start_num, row_finish_num) %}
+                {% if row_start_num <= last_id %}
+                    <tr>
+                        <td>{{ ip_addresses[row_start_num][1] }}</td>
+                        <td>{{ ip_addresses[row_start_num][2] }}</td>
+                        <td><a onClick="enableEdit('{{ subnet[0][0] }}', '{{ ip_addresses[row_start_num][0] }}', 'host', '{{ ip_addresses[row_start_num][3] }}')" id='host_{{ ip_addresses[row_start_num][0] }}'>{{ ip_addresses[row_start_num][3] }}</a></td>
+                        <td><a onClick="enableEdit('{{ subnet[0][0] }}', '{{ ip_addresses[row_start_num][0] }}', 'note', '{{ ip_addresses[row_start_num][4] }}')" id='note_{{ ip_addresses[row_start_num][0] }}'>{{ ip_addresses[row_start_num][4] }}</a></td>
+                        <td><a href='/subnet/ip/scan/{{ subnet[0][0] }}/{{ ip_addresses[row_start_num][0] }}'>Re-Scan IP</a></td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    </tbody>
+</table>
+{% endblock %}

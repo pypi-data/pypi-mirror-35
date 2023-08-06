@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>PyIPAM</title>
+        <link rel="shortcut icon" href="/res/img/icons8-networking-manager-100.png">
+        <link rel='stylesheet' type='text/css' href='/res/css/main.css'>
+        <link rel='stylesheet' type='text/css' href='/res/css/alerts.css'>
+        <link rel='stylesheet' type='text/css' href='/res/css/table.css'>
+        <link rel='stylesheet' type='text/css' href='/res/css/forms.css'>
+        <script src="/res/js/search.js" type="application/javascript"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="logo">
+                <a href='/'><img src="/res/img/icons8-networking-manager-100.png"></img></a>
+            </div>
+            <div id="page_title">
+                <h1>PyIPAM</h1>
+            </div>
+            <div>
+                <button onclick="window.open('/subnet/add', 'targetWindow', 'directories=no,toolbar=no, location=no, status=no, menubar=no, scrollbars=no, resizable=no, width=580, height=460'); return false;" class='menu'>Add Subnet</button>
+                <button onclick="location.href = '/about'" class='menu'>About</button>
+            </div>
+            <div id='searchbox_container'>
+                <input type='text' id='searchbox' onkeyup="seachAddresses()" placeholder='Type to search..' title='Type in a subnet or address'>
+            </div>
+        </div>
+
+        <div id="content">
+            {% block body %}
+            {% endblock %}
+        </div>
+
+        <div id='footer'>
+            <p>PyIPAM v0.1.4 -  &#169; Mark Woolley 2018</p>
+            <p>
+                <a style='text-decoration: none;' target='_blank' href='https://github.com/marknet15/pyipam'>
+                    <img width='16' height='16' src='/res/img/GitHub-Mark-Light-32px.png'></img>
+                </a>
+                &nbsp; marknet15.com
+            </p>
+        </div>
+    </body>
+</html>
