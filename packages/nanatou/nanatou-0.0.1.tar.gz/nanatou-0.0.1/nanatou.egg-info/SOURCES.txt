@@ -1,0 +1,8 @@
+setup.py
+nanatou/__init__.py
+nanatou/main.py
+nanatou.egg-info/PKG-INFO
+nanatou.egg-info/SOURCES.txt
+nanatou.egg-info/dependency_links.txt
+nanatou.egg-info/not-zip-safe
+nanatou.egg-info/top_level.txt
