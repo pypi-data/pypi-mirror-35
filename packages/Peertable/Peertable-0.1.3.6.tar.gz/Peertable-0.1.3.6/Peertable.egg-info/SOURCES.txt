@@ -1,0 +1,8 @@
+README.md
+setup.py
+Peertable.egg-info/PKG-INFO
+Peertable.egg-info/SOURCES.txt
+Peertable.egg-info/dependency_links.txt
+Peertable.egg-info/top_level.txt
+peertable/__init__.py
+peertable/__main__.py
