@@ -1,0 +1,7 @@
+README.md
+setup.py
+romajitable/__init__.py
+romajitable.egg-info/PKG-INFO
+romajitable.egg-info/SOURCES.txt
+romajitable.egg-info/dependency_links.txt
+romajitable.egg-info/top_level.txt
