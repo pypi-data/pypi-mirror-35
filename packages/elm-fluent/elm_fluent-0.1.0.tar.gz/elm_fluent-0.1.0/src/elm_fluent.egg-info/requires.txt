@@ -1,0 +1,6 @@
+Click>=6.0
+fluent>=0.8.0
+attrs>=18
+language-tags>=0.4.4
+beautifulsoup4>=4.6.3
+lxml>=4.2.4
