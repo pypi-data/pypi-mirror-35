@@ -1,0 +1,2 @@
+include quail/data/*
+include requirements.txt

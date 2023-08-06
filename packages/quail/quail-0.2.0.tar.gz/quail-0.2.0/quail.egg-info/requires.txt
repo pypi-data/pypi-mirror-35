@@ -1,0 +1,17 @@
+numpy>=1.10.4
+scipy>=0.17.1
+matplotlib>=1.5.1
+seaborn>=0.9.0
+pandas>=0.18.1
+future
+six
+deepdish
+joblib
+
+[efficient-learning]
+sqlalchemy
+
+[speech-decoding]
+pydub
+google-cloud-speech<0.31dev,>=0.30.0
+google-cloud>=0.32.0,<0.34.0

@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: quail
+Version: 0.2.0
+Summary: A python toolbox for analyzing and plotting free recall data
+Home-page: https://github.com/ContextLab/quail
+Author: Contextual Dynamics Lab
+Author-email: contextualdynamics@gmail.com
+License: MIT
+Description: Quail is a Python package that facilitates analyses of behavioral data from memory experiments. (The current focus is on free recall experiments.) Key features include:
+        
+        - Serial position curves (probability of recalling items presented at each presentation position)
+        Probability of Nth recall curves (probability of recalling items at each presentation position as the Nth recall in the recall sequence)
+        - Lag-Conditional Response Probability curves (probability of transitioning between items in the recall sequence, as a function of their relative presentation positions)
+        - Clustering metrics (e.g. single-number summaries of how often participants transition from recalling a word to another related word, where "related" can be user-defined.)
+        - Many nice plotting functions
+        - Convenience functions for loading in data
+        - Automatically parse speech data (audio files) using wrappers for the Google Cloud Speech to Text API
+        
+        The intended user of this toolbox is a memory researcher who seeks an easy way to analyze and visualize data from free recall psychology experiments.
+        
+Platform: UNKNOWN
