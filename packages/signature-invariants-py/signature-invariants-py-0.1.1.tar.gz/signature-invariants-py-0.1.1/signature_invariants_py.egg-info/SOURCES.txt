@@ -1,0 +1,9 @@
+README.rst
+setup.py
+signature_invariants/__init__.py
+signature_invariants/invariants.py
+signature_invariants_py.egg-info/PKG-INFO
+signature_invariants_py.egg-info/SOURCES.txt
+signature_invariants_py.egg-info/dependency_links.txt
+signature_invariants_py.egg-info/requires.txt
+signature_invariants_py.egg-info/top_level.txt
