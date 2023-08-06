@@ -1,0 +1,7 @@
+tweak
+pyjwt
+requests
+prompt-toolkit
+click
+cryptography
+python-dateutil
