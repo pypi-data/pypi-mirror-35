@@ -1,0 +1,17 @@
+torsiondrive/__init__.py,sha256=E8CL238bn7tWd5UPKgFM8Mq5unjN1e8LsbgH5xEV7i4,242
+torsiondrive/_version.py,sha256=3wARM0ZGWlvyse--chR9pfCnYgMcPbg5fzyABviOUC4,498
+torsiondrive/dihedral_scanner.py,sha256=VlTy1Pclkk25oiVwzVWCTuET00OD43Smtt43qKdxKqY,26050
+torsiondrive/launch.py,sha256=-tEacEZ9VV1c3slX0I7iuqwI8UYbBT9FKhV7MEBZoiM,5408
+torsiondrive/priority_queue.py,sha256=r0r_qI207gtohsct5KePX7uZ8jsHzFDpvHqkEUenuHo,1003
+torsiondrive/qm_engine.py,sha256=sRt0Up6VUZRHY0n8rmkcxjS1Trhw_FsE5aQefwEdQxY,20056
+torsiondrive/td_api.py,sha256=gP1K4DWIHMy2pEXGYTSN-m6x4v1XjwPBRVbQI3J3PM0,15917
+torsiondrive/wq_tools.py,sha256=6fo4sEvI5yUIWLAGgA6k3NBZZ9O6ApQhWpTXOVbwOL4,3864
+torsiondrive/tests/__init__.py,sha256=tlIleLX_7zJFwQuwnqP9fJ0nQXdD1uA-l8uX8w4KUKM,112
+torsiondrive/tests/test_stack.py,sha256=e32uRayYXVPVUBenhBSgXg9JmUGG9N21euOO4yeV06o,3721
+torsiondrive/tests/test_stack_api.py,sha256=bRMj45gDzqvOXNcgXwD3PIq1Nvt-FZ50cQNoTEyW3sE,5069
+torsiondrive/tests/test_torsiondrive.py,sha256=rSUe_HsH-6DggzH2pVzhgvMa6ojDhcl8hK3_pivC3hc,13648
+torsiondrive-0.8.2.dist-info/METADATA,sha256=kJf4g6psTxUAkgZPF4lgiC0EG4nvWWCTEnNSaOyjPnY,318
+torsiondrive-0.8.2.dist-info/RECORD,,
+torsiondrive-0.8.2.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+torsiondrive-0.8.2.dist-info/entry_points.txt,sha256=2wJSo7sJ4TFdm_VOtMVfnl06yGfLyhz1R6U1Hj8fdj4,110
+torsiondrive-0.8.2.dist-info/top_level.txt,sha256=VcDzUAJ2XC3UpRwYsuZBukNF4Kx4gEcCcEjP1LkKII8,13
