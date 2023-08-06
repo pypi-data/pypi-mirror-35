@@ -1,0 +1,5 @@
+keyrings.alt>=3.1
+keyring>=13.2.1
+requests>=2.19.1
+boltons>=18.0.0
+ujson>=1.35
