@@ -1,0 +1,15 @@
+surfinBH/__init__.py,sha256=DUhX6HGIL2ugOiJDaU5toq_Bs7E9jAd97xDAlxz5KEY,2220
+surfinBH/_dataPath.py,sha256=vJPOe6NYPm06KLnDI82HvVv7j2VE9IeR-TjuWInfE-M,254
+surfinBH/_lal_spin_evolution.py,sha256=poo__5k6B2o9Ahxnm45EcGfxrkXdAva0OYy8CSZZxx0,9424
+surfinBH/_loadFits.py,sha256=VxteQCUOKbeQD9-IDnNx4az5pZTbxuSDdro5dH7kbek,2851
+surfinBH/_utils.py,sha256=6qZ7JRPPdqKY-p1rNVA86fMB1xfwTOSEMo-e8n8H3os,3751
+surfinBH/surfinBH.py,sha256=JlprVxbCnXPeiacGNMR5OTP-2VBkugB9phvHMpJhz1U,8242
+surfinBH/_eval_pysur/__init__.py,sha256=fTQPhNsH5jFY2-hfO9LH0i8w2oo8i_hMoLI9qiFwb5Q,20
+surfinBH/_eval_pysur/evaluate_fit.py,sha256=Uau4yA-vw8U019soNSmLeB4wz46-pEIJIceEkIiQGFg,9895
+surfinBH/_fit_evaluators/__init__.py,sha256=EZwWDVOF__qjxW2hcwjjw0PVivRXiiSY8WxOyxIRdEg,58
+surfinBH/_fit_evaluators/fit_3dq8.py,sha256=l7TiIAqPEgXwsRSkj1eNQs4fJJFdyoXOZakWk9iP0Io,4373
+surfinBH/_fit_evaluators/fit_7dq2.py,sha256=F0VbZud9515IccNxpAvOjhC3RwfNcX-AmkU4OMH8ci8,12854
+surfinBH-0.0.8.dev0.dist-info/METADATA,sha256=Tn2RIjwjNeDC0TDZXe9aToUYGH2awtoDFFoeGAcaNVs,4171
+surfinBH-0.0.8.dev0.dist-info/RECORD,,
+surfinBH-0.0.8.dev0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+surfinBH-0.0.8.dev0.dist-info/top_level.txt,sha256=Kf_15sBHjrMiMQJIITOfO_PO2whfgMzAH5-ZurQtuyI,9
