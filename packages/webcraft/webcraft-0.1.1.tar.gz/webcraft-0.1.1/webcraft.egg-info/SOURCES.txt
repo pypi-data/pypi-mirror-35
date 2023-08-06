@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+webcraft/__init__.py
+webcraft/apiview.py
+webcraft.egg-info/PKG-INFO
+webcraft.egg-info/SOURCES.txt
+webcraft.egg-info/dependency_links.txt
+webcraft.egg-info/not-zip-safe
+webcraft.egg-info/requires.txt
+webcraft.egg-info/top_level.txt
