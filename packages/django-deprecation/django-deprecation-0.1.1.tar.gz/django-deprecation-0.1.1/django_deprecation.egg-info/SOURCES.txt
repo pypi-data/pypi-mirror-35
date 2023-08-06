@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+django_deprecation/__init__.py
+django_deprecation/deprecated_field.py
+django_deprecation.egg-info/PKG-INFO
+django_deprecation.egg-info/SOURCES.txt
+django_deprecation.egg-info/dependency_links.txt
+django_deprecation.egg-info/top_level.txt
