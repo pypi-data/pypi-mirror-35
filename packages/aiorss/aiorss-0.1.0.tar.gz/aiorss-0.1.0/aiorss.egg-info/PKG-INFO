@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: aiorss
+Version: 0.1.0
+Summary: Asyncio client for interacting with rss feeds
+Home-page: https://github.com/mfdeux/aiorss
+Author: Marc Ford
+License: MIT
+Description: # aiorss
+        
+        Asyncio client for interacting with rss feeds
+        
+        Installation instructions:
+        
+        ```bash
+        pip install aiorss
+        ```
+        
+        Usage:
+        ```python
+        from aiorss import RSSFeed
+        
+        async def main():
+        	url = 'http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml'
+        	feed = RSSFeed(url)
+        	return await feed.parse()
+        
+        ```
+        
+        Note
+        ---------
+        aiorss is not affiliated or endorsed by any of the web services it interacts with.
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
