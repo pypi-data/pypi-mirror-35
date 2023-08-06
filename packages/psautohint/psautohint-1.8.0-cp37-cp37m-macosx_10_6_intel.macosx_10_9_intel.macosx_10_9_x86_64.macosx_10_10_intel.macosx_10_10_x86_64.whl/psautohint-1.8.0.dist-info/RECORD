@@ -1,0 +1,14 @@
+psautohint/__init__.py,sha256=npyJg2oL1kdbXviXIY9ClRxexKUOqE9mKoCZkhWhv0U,2576
+psautohint/__main__.py,sha256=4rYMwD-B1fHMSGzwFzDqZIR9KruYYa19Nk7uIe38fOo,24482
+psautohint/_psautohint.cpython-37m-darwin.so,sha256=g1_P4J1xe2YRhltXbE4bOdRh_OgR2Z3mmviJsYngtbE,383640
+psautohint/autohint.py,sha256=6-vqax9bcNmg8-l9n7V8_vR1FnU8tykkJ-dN2knI0nU,13369
+psautohint/autohintexe,sha256=2SmuCsEWzJCbgWf3zKd7n3wCk5qaDvmPtNup81c4Pm0,395652
+psautohint/fdTools.py,sha256=iGIFaUCcSAcmlit2dSyXIWxOT_0j9LPZtYn9cQ6q65I,19984
+psautohint/otfFont.py,sha256=ETjzy0Y7XtfY2tgcBvz69K09kWtgi8Rz_3cUXQtwR3M,32971
+psautohint/ufoFont.py,sha256=P1Nv4FImkgRgtydLf7hpvZM3MF-gEijlY6BYg7_-5mE,47227
+psautohint-1.8.0.dist-info/entry_points.txt,sha256=VIifTFEXo6-dG-yU04bIoKM-tg4SlZUAKCpcqDgkDaw,57
+psautohint-1.8.0.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+psautohint-1.8.0.dist-info/METADATA,sha256=T2SnQGKfAJGw1PUdwfhLXKuyvFwihnqLAR8Irk_mw54,2780
+psautohint-1.8.0.dist-info/RECORD,,
+psautohint-1.8.0.dist-info/top_level.txt,sha256=qjPoTzjcI1WsEohIiqKa3vHqb8rxM296e_uTh-fzE00,11
+psautohint-1.8.0.dist-info/WHEEL,sha256=VUgiLi0_ag0bBLL7DPKGck7Ptb2qpMkh_t8-WZdf87Y,249
