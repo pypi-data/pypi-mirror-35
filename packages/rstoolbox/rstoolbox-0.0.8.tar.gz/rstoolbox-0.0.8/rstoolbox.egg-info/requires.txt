@@ -1,0 +1,6 @@
+pandas>=0.23
+pyyaml
+seaborn
+libconfig
+six
+networkx
