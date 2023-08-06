@@ -1,0 +1,9 @@
+tkMagicGrid-1.0.dist-info/DESCRIPTION.rst,sha256=ggmuw8k1WPSR404q6h4wrMPA0X-5Ww3xgAOlK84BJmY,1968
+tkMagicGrid-1.0.dist-info/METADATA,sha256=B2rFLHp9TAO3YTRdh7FqVvxbQWndXeOXrKaimaawYbc,2446
+tkMagicGrid-1.0.dist-info/RECORD,,
+tkMagicGrid-1.0.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+tkMagicGrid-1.0.dist-info/metadata.json,sha256=Wo8El4xXKBK5uy8la4BaeQ1-hNS1lgBN1MgGlFebO6U,617
+tkMagicGrid-1.0.dist-info/top_level.txt,sha256=K8ntKH8374OSe-MwHNBZ-KXPF5xtMJHTA4S_i29n-Gs,12
+tkmagicgrid/__init__.py,sha256=xe7I9f4Z28XwlONLUDiPg8FdU7uHPrNZWZrKVl7zJXM,726
+tkmagicgrid/__main__.py,sha256=LtShTCKl6IvDcPYs_4tf62tGyuj5k3qN4d6KkXGd3AE,4209
+tkmagicgrid/widget.py,sha256=QiDC00QIX623KtRIznPK87IVR37_6Uj3ssXy20xB9Pk,21918
