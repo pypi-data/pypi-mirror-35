@@ -1,0 +1,11 @@
+sanic<0.8
+schematics
+ujson
+
+[setup]
+pytest-runner
+
+[test]
+pytest
+pytest-cov
+pytest-sanic
