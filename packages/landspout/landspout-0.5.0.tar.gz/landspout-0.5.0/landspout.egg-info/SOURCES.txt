@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+landspout/__init__.py
+landspout/cli.py
+landspout/core.py
+landspout/modules.py
+landspout.egg-info/PKG-INFO
+landspout.egg-info/SOURCES.txt
+landspout.egg-info/dependency_links.txt
+landspout.egg-info/entry_points.txt
+landspout.egg-info/requires.txt
+landspout.egg-info/top_level.txt
+landspout.egg-info/zip-safe
