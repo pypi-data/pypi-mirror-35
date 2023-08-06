@@ -1,0 +1,12 @@
+pyconnect/__init__.py,sha256=Zy1CzlvB20uWpKFA-hCnW6Tj-no8nHf11BGAMap0xjU,325
+pyconnect/avroparser.py,sha256=tfXBZ3S9kAxJA9GGkZhlxIfOE-niU_AOfTP-xwhXKvk,4692
+pyconnect/config.py,sha256=KnQgAVxz1GF0Y-BoTi-PDGVXYZA6WxuraIuj2lKq574,18977
+pyconnect/core.py,sha256=SolAPQxAY9K5YMbb2j3QKWZ2zCyj7nNFiC-HQY-8UOQ,9763
+pyconnect/pyconnectsink.py,sha256=fzs9pf9XM-e09v6w3xt-hlNjf1VaekD5MOOp_j4jz2A,12045
+pyconnect/pyconnectsource.py,sha256=c5pfEaBQ9edwKbtTAwOApDlbcoWklGp7sSyIqee6erw,7637
+pyconnect-0.0.5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pyconnect-0.0.5.dist-info/METADATA,sha256=f6cOcALIxGBp905AjEhMIySqo8FxpT1N7kwBD-swo_E,690
+pyconnect-0.0.5.dist-info/RECORD,,
+pyconnect-0.0.5.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+pyconnect-0.0.5.dist-info/metadata.json,sha256=UYaAUlPH4JLsooa4x_ZMWVQw_EUwZ2TGKHq_nN-2Mks,855
+pyconnect-0.0.5.dist-info/top_level.txt,sha256=ndASijGy7FMoynHuwYheLS0uUnigWbhWk4kdl_HerOU,10
