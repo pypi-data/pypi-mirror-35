@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyjason/__init__.py
+pyjason/shop.py
+pyjason/test.py
+pyjason.egg-info/PKG-INFO
+pyjason.egg-info/SOURCES.txt
+pyjason.egg-info/dependency_links.txt
+pyjason.egg-info/not-zip-safe
+pyjason.egg-info/top_level.txt
