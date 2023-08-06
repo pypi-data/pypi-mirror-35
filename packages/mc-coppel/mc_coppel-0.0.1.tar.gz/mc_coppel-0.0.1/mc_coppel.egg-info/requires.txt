@@ -1,0 +1,6 @@
+simplejson
+pymongo
+kafka
+requests
+aiokafka
+uuid
