@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: grave
+Version: 0.0.3
+Summary: Dead simple graph visualization
+Home-page: http://github.com/networkx/grave
+Author: Grave Developers
+Author-email: networkx-discuss@googlegroups.com
+License: BSD
+Platform: UNKNOWN
+
+Grave is a Graph Visualization Package combining ideas from Matplotlib and NetworkX
+
+
