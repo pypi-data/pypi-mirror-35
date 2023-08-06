@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: steven_private_package_for_python
+Version: 0.1.0
+Summary: Testing to see if I can make a package.
+Home-page: https://github.com/myclubisclub6/python-package
+Author: Steven Nguyen
+Author-email: myclubisclub6@gmail.com
+License: UNKNOWN
+Description: Hello Everyone to my new package, I am just practicing making a package
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6

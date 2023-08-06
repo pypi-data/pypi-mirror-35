@@ -1,0 +1,7 @@
+README.rst
+setup.py
+steven_private_package_for_python.egg-info/PKG-INFO
+steven_private_package_for_python.egg-info/SOURCES.txt
+steven_private_package_for_python.egg-info/dependency_links.txt
+steven_private_package_for_python.egg-info/top_level.txt
+test/test_package.py
