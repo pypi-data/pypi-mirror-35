@@ -1,0 +1,8 @@
+README.md
+setup.py
+BorgPod/__init__.py
+BorgPod/borg_pod.py
+borg_pod.egg-info/PKG-INFO
+borg_pod.egg-info/SOURCES.txt
+borg_pod.egg-info/dependency_links.txt
+borg_pod.egg-info/top_level.txt
