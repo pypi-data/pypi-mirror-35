@@ -1,0 +1,57 @@
+Metadata-Version: 1.1
+Name: chords2midi
+Version: 0.1.0
+Summary: Create MIDI files from chord progressions
+Home-page: https://github.com/Miserlou/chords2midi
+Author: Rich Jones
+Author-email: rich@openwatch.net
+License: MIT License
+Description: ![chords2midi](https://i.imgur.com/rvXoXOf.png)
+        # chord2midi
+        
+        Given it a chord progression, get a MIDI file!
+        
+        ## Installation
+        
+            $ pip install chord2midi
+        
+        ## Usage
+        
+            $ c2m I V vi IV --key C
+            $ ls
+            C-I-V-vi-IV.mid
+        
+        Further options:
+        
+        ```
+        usage: c2m.py [-h] [-i] [-b BPM] [-t OCTAVE] [-k KEY] [-d DURATION] [-v]
+                      [U [U ...]]
+        
+        chords2midi - Create MIDI files from written chord progressions.
+        
+        positional arguments:
+          U                     Please supply chord progression!. See --help for more
+                                options.
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -i, --install         Install into Ableton directory
+          -b BPM, --bpm BPM     Set the BPM (default 160)
+          -t OCTAVE, --octave OCTAVE
+                                Set the octave (default 4)
+          -k KEY, --key KEY     Set the key (default C)
+          -d DURATION, --duration DURATION
+                                Set the chord duraction (default 1)
+          -v, --version         Display the current version of chords2midi
+        ```
+        
+        Rich Jones, 2018. MIT.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
