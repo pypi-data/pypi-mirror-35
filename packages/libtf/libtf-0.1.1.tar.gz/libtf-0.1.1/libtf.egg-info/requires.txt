@@ -1,0 +1,4 @@
+pytz
+python-dateutil<3,>=2
+requests<3,>=2
+six
