@@ -1,0 +1,16 @@
+rcfc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rcfc/button.py,sha256=f951oYh4UbIXFjyJvNk1wWybNzb_ejyVnwYVQKkGpoA,766
+rcfc/demo.py,sha256=3t8G4be9MzsXThC7nTrfjanEYR-eFl0xy_uKjXF7HUI,2151
+rcfc/groups.py,sha256=CSv61HeK_WeyKieXaCusc0oM7DQQ-VtcqDRv9JEp9n4,243
+rcfc/input_methods.py,sha256=kxN8asqm3Ut8zTB4YT4vwe2pokxzDXNxHMSYOMRto5E,1204
+rcfc/server.py,sha256=qjPSBu93afnbEgPHJ-FpYRTPb9LTY0hALJ1VQiJQlCk,3709
+rcfc/static/index.html,sha256=BJ_JwRfa-24VNcCySU7NgX5ZDHXlO1slBWGgt3Pihis,705
+rcfc/static/index.js,sha256=iuHyCzGQAwqFWKEJK2eldqA9hqsBi51qd1c518xJPcM,5891
+rcfc/static/static.css,sha256=hroMdAEIaNmI749GZ7V2cGgEiOEipW_Dyjpw8M81RJg,3484
+rcfc-1.2.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+rcfc-1.2.0.dist-info/METADATA,sha256=uHuDo0GvCSb5Rf5KavE2fG4ocsOjyTliI0qFMY01Mvw,341
+rcfc-1.2.0.dist-info/RECORD,,
+rcfc-1.2.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+rcfc-1.2.0.dist-info/entry_points.txt,sha256=8WAUkCwWk5jDRzgn0eHmYEZUvr_ZmHZBhrcUTTx2bNk,46
+rcfc-1.2.0.dist-info/metadata.json,sha256=VBoGa55s8sowzlpTJSW6N57H3EjcBU8nYkmT7jGh7-c,700
+rcfc-1.2.0.dist-info/top_level.txt,sha256=WR_RREfxnYUUpUE8ss6WfWtRatpj2YgEvI7PTwItP7k,5
