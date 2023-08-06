@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+README.txt
+setup.py
+data/housing.csv
+data/iris_test.csv
+data/iris_training.csv
+exercise/__init__.py
+exercise/cali_house.py
+exercise/iris.py
+tensorflow_exercise_hx.egg-info/PKG-INFO
+tensorflow_exercise_hx.egg-info/SOURCES.txt
+tensorflow_exercise_hx.egg-info/dependency_links.txt
+tensorflow_exercise_hx.egg-info/top_level.txt
+tensorflow_exercise_hx.egg-info/zip-safe
