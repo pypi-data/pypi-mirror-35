@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fitna
+Version: 0.0.1
+Summary: Data fitting algorithms
+Home-page: https://github.com/plexoos/toufy
+Author: Dmitri Smirnov
+Author-email: dmixsmi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/plexoos/toufy/master?filepath=binder%2Ffitna.ipynb)
+
+
