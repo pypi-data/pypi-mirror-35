@@ -1,0 +1,8 @@
+scrap_imdb-0.1.1.dist-info/DESCRIPTION.rst,sha256=TrVfimi8Oxt9pVE2nCKZrNKaU3EuMZAXgPi_hKtI-A4,1230
+scrap_imdb-0.1.1.dist-info/METADATA,sha256=ee_TX3jKNzZZ7WrVrk6jZT4Zm_-rwZTfJksbSK_Yb2k,2030
+scrap_imdb-0.1.1.dist-info/RECORD,,
+scrap_imdb-0.1.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+scrap_imdb-0.1.1.dist-info/metadata.json,sha256=089ABKJ2A5XeADS7S_dCtO-LGiKtCGuwJf4VtA8lsEs,965
+scrap_imdb-0.1.1.dist-info/top_level.txt,sha256=r7CP8tJ_NtWV7OQ147AoHSH29tg2bbncmOvwxo1OMB4,10
+scrapimdb/__init__.py,sha256=yFVRJmzrbM94pVPiaSs-c2JfDq7l46YPwR6PMKDLOzk,224
+scrapimdb/spider.py,sha256=Y_2h5lVeF9YBNoG7RjVyZ-AnIV4g022v-cowhonQ2lc,2214
