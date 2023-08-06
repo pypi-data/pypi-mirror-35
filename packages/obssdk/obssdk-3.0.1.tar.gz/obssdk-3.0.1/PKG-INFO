@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: obssdk
+Version: 3.0.1
+Summary: OBS Python SDK
+Home-page: https://developer.huaweicloud.com/sdk?OBS
+Author: HUAWEI
+Author-email: esdk@huawei.com
+License: GPL
+Description: OBS Python SDK
+Keywords: obs,python
+Platform: Independant
