@@ -1,0 +1,4 @@
+mne>=0.14
+nipype
+configparser
+h5py
