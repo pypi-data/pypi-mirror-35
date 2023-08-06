@@ -1,0 +1,10 @@
+README.md
+setup.py
+github_release/__init__.py
+github_release/github_release.py
+github_tagged_release.egg-info/PKG-INFO
+github_tagged_release.egg-info/SOURCES.txt
+github_tagged_release.egg-info/dependency_links.txt
+github_tagged_release.egg-info/entry_points.txt
+github_tagged_release.egg-info/requires.txt
+github_tagged_release.egg-info/top_level.txt
