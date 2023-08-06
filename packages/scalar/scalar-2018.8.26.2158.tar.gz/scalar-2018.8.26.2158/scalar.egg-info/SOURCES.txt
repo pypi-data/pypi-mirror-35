@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+scalar/__init__.py
+scalar.egg-info/PKG-INFO
+scalar.egg-info/SOURCES.txt
+scalar.egg-info/dependency_links.txt
+scalar.egg-info/entry_points.txt
+scalar.egg-info/not-zip-safe
+scalar.egg-info/requires.txt
+scalar.egg-info/top_level.txt
