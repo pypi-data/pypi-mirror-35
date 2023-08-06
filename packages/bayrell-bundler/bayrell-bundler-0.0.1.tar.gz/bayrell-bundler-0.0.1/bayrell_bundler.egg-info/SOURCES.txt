@@ -1,0 +1,10 @@
+CHANGES.txt
+MANIFEST.in
+README.md
+README.rst
+setup.py
+BayrellBundler/__init__.py
+bayrell_bundler.egg-info/PKG-INFO
+bayrell_bundler.egg-info/SOURCES.txt
+bayrell_bundler.egg-info/dependency_links.txt
+bayrell_bundler.egg-info/top_level.txt
