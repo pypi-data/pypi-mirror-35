@@ -1,0 +1,8 @@
+README.md
+setup.py
+protocolws/__init__.py
+protocolws/protocol.py
+protocolws.egg-info/PKG-INFO
+protocolws.egg-info/SOURCES.txt
+protocolws.egg-info/dependency_links.txt
+protocolws.egg-info/top_level.txt
