@@ -1,0 +1,10 @@
+Flask
+Pillow
+click
+jsonschema
+lxml
+numpy
+opencv-python
+pyyaml
+requests
+Deprecated==1.2.0
