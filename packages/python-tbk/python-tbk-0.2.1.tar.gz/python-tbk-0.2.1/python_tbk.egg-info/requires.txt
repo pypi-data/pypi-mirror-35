@@ -1,0 +1,8 @@
+zeep>=3.0.0
+xmlsec>=0.6.1
+
+[examples]
+flask
+
+[lxml]
+lxml>=4.1.1
