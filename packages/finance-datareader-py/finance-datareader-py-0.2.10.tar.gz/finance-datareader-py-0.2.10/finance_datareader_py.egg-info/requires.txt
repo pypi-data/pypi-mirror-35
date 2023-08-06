@@ -1,0 +1,6 @@
+xlrd
+pandas
+pandas-datareader
+numpy
+beautifulsoup4
+requests
