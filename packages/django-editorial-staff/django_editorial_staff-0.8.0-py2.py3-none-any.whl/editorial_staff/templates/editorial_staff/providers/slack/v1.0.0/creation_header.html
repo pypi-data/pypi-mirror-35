@@ -1,0 +1,52 @@
+<div class="tab-bar-holder among-content">
+    <nav id="basic-tab-bar" class="tab-bar">
+        <div class="tab tab-active" data-tab="slack-entry">Add from Slack profile</div>
+        <div class="tab" data-tab="manual-entry">Add manually</div>
+
+        <script type="text/javascript">
+            var tabs = document.getElementsByClassName('tab');
+
+            var currentTab = document.querySelector('.tab.tab-active');
+
+            for (var i = 0; i < tabs.length; i++) {
+                var el = tabs[i];
+
+                el.addEventListener(
+                    'click',
+                    (e) => {
+                        if (!e.target.classList.contains('has-js')) {
+                            e.preventDefault();
+
+                            currentTab.classList.remove('tab-active');
+
+                            e.target.classList.add('tab-active');
+
+                            currentTab = e.target;
+
+                            var activated = e.target.getAttribute('data-tab');
+
+                            var newEl = document.getElementById(activated);
+
+                            var tabsToHide = Array.from(
+                                document.querySelectorAll('.tab:not(.has-js)')
+                            ).map(
+                                el => el.getAttribute('data-tab')
+                            ).filter(e => e !== activated);
+
+                            if (!newEl.classList.contains('shown')) {
+                                tabsToHide.forEach((tabToHide) => {
+                                    document.getElementById(tabToHide).classList.remove('shown');
+                                });
+
+                                newEl.classList.add('shown');
+                            }
+                        }
+                    },
+                    false
+                );
+            };
+        </script>
+
+        <span class="tab-bar-indicator"></span>
+    </nav>
+</div>
