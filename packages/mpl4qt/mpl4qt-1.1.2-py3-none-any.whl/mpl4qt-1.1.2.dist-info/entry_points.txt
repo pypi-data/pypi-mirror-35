@@ -1,0 +1,3 @@
+[gui_scripts]
+run_designer = mpl4qt.launchers.designer:main
+
