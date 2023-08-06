@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: vexbot
+Version: 0.4.5
+Summary: Python personal assistant
+Home-page: https://github.com/benhoff/vexbot
+Author: Ben Hoff
+Author-email: beohoff@gmail.com
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: POSIX :: Linux
+Provides-Extra: system
+Provides-Extra: digitalocean
+Provides-Extra: socket_io
+Provides-Extra: microphone
+Provides-Extra: command_line
+Provides-Extra: summarization
+Provides-Extra: database
+Provides-Extra: nlp
+Provides-Extra: process_name
+Provides-Extra: process_manager
+Provides-Extra: gui
+Provides-Extra: youtube
+Provides-Extra: entity
+Provides-Extra: dev
+Provides-Extra: irc
+Provides-Extra: speechtotext
+Provides-Extra: xmpp
