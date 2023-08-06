@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+cli/lstorage.py
+lztools.storage.egg-info/PKG-INFO
+lztools.storage.egg-info/SOURCES.txt
+lztools.storage.egg-info/dependency_links.txt
+lztools.storage.egg-info/entry_points.txt
+lztools.storage.egg-info/not-zip-safe
+lztools.storage.egg-info/requires.txt
+lztools.storage.egg-info/top_level.txt
