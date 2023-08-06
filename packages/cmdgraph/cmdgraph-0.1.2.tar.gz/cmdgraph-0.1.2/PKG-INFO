@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cmdgraph
+Version: 0.1.2
+Summary: A small set of complimentary tools for exploratory computational research
+Home-page: http://github.com/MasonMcGill/cmdgraph
+Author: Mason McGill
+Author-email: mmcgill@caltech.edu
+License: MIT
+Description: CommandGraph is a small set of complimentary tools for exploratory computational research. It provides functionality to simplify the following tasks:
+        
+        - Routing, validating, and storing command configurations
+        - Keeping track of command states and executing command dependencies when necessary
+        - Storing and accessing command outputs
+        - Generating command-line and web-based user interfaces
+        
+        The full documentation is available [here](https://masonmcgill.github.io/cmdgraph/).
+        
+Platform: any
+Description-Content-Type: text/markdown
