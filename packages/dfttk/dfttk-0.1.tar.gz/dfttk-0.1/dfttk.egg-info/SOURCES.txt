@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+dfttk/__init__.py
+dfttk/_version.py
+dfttk/ftasks.py
+dfttk/fworks.py
+dfttk/input_sets.py
+dfttk/utils.py
+dfttk/wflows.py
+dfttk.egg-info/PKG-INFO
+dfttk.egg-info/SOURCES.txt
+dfttk.egg-info/dependency_links.txt
+dfttk.egg-info/requires.txt
+dfttk.egg-info/top_level.txt
