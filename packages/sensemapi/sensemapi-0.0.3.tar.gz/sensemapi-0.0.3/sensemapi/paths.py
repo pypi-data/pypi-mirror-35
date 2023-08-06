@@ -1,0 +1,5 @@
+SIGN_IN = "https://api.opensensemap.org/users/sign-in"
+SIGN_OUT = "https://api.opensensemap.org/users/sign-out"
+REFRESH = "https://api.opensensemap.org/users/refresh-auth"
+USER_DETAILS =  "https://api.opensensemap.org/users/me"
+BOXES =  "https://api.opensensemap.org/boxes"
