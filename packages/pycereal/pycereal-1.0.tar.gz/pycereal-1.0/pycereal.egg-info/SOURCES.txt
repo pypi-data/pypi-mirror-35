@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cereal/__init__.py
+cereal/apps.py
+cereal/fields.py
+cereal/serializer.py
+cereal/utils.py
+pycereal.egg-info/PKG-INFO
+pycereal.egg-info/SOURCES.txt
+pycereal.egg-info/dependency_links.txt
+pycereal.egg-info/top_level.txt
