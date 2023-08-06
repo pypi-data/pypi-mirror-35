@@ -1,0 +1,3 @@
+[console_scripts]
+whmcs-restapi = whmcsrestapi:main
+

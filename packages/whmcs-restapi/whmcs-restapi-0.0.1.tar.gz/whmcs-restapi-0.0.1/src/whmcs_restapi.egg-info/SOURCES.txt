@@ -1,0 +1,13 @@
+MANIFEST.in
+NEWS.txt
+README.rst
+setup.py
+src/whmcs_restapi.egg-info/PKG-INFO
+src/whmcs_restapi.egg-info/SOURCES.txt
+src/whmcs_restapi.egg-info/dependency_links.txt
+src/whmcs_restapi.egg-info/entry_points.txt
+src/whmcs_restapi.egg-info/not-zip-safe
+src/whmcs_restapi.egg-info/requires.txt
+src/whmcs_restapi.egg-info/top_level.txt
+src/whmcsrestapi/__init__.py
+src/whmcsrestapi/tests.py

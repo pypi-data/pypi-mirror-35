@@ -1,0 +1,13 @@
+News
+====
+
+0.0.1
+---
+
+Release date: 8/29/2018
+
+* client CRUD operations implemented
+* all responses are application/json typed
+* dropped XML response type support.
+* "XML is a giant step to no direction at all" Eric Naggum
+
