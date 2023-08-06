@@ -1,0 +1,232 @@
+#!python
+
+import click
+import yaml
+import itsyouonline
+import requests
+
+SCOPES = ["admin"]
+
+
+@click.group()
+def cli():
+    pass
+
+@cli.command()
+@click.option("--config-file", "-c", default="./config.yaml")
+def remove_members_blacklist(config_file):
+    cfg = _unmarshal_yaml(config_file)
+    blacklist = _blacklist_from_file(cfg['black_list_file'])
+    client = _get_iyo_client(cfg['client_id'], cfg['client_secret'], SCOPES)
+
+    res, _ = client.organizations.GetOrganizationTree(cfg['organization'])
+
+    # add root to tree
+    res.children.insert(0, type('',(object,),{'globalid': cfg['organization'], 'children': []})())
+    for child in res.children:  
+        _remove_members_child(client, blacklist, child, cfg['replace_member'])
+
+def _remove_members_child(client, blacklist, child, replace_member):
+    print("Checking {org}".format(org=child.globalid))
+    res, _ = client.organizations.GetOrganization(child.globalid)
+    if res.members:
+        _remove_member_in_blacklist(client, blacklist, res.members, child.globalid,"members", replace_member)
+    if res.owners:
+        _remove_member_in_blacklist(client, blacklist, res.owners, child.globalid, "owners", replace_member)
+    if res.orgmembers:
+        _remove_member_in_blacklist(client, blacklist, res.orgmembers, child.globalid, "orgmembers", replace_member)
+    if res.orgowners:
+        _remove_member_in_blacklist(client, blacklist, res.orgmembers, child.globalid, "orgowners", replace_member)
+
+    for c in child.children:
+        _remove_members_child(client, blacklist, c, replace_member)
+
+def _remove_member_in_blacklist(client, blacklist, members, org, role, replace_member):
+    for m in members:
+        if m in blacklist:
+            last_owner = True if role == "owners" and len(members) == 1 else False
+            if _prompt_to_remove(m, org, role, last_owner, replace_member):
+                if last_owner:
+                    _add_owner(client, replace_member, org)
+                _remove_member(client, m, org, role)
+
+# For debugging
+@cli.command()
+@click.argument("org")
+@click.argument("username")
+@click.option("--config-file", "-c", default="./config.yaml")
+def add_owner(org, username, config_file):
+    cfg = _unmarshal_yaml(config_file)
+    client = _get_iyo_client(cfg['client_id'], cfg['client_secret'], SCOPES)
+    _add_owner(client, username, org)
+
+def _add_owner(client, member, org):
+    print("Adding {member} to {org} as owner".format(member=member, org=org))
+    try:
+        client.organizations.AddOrganizationOwner({'searchstring': member}, org)
+    except requests.exceptions.HTTPError as e:
+        if e.response.status_code == 409:
+            print("{member} already seems to be owner of the org, skip adding the new owner".format(member=member))
+        else:
+            raise e
+
+# For debugging
+@cli.command()
+@click.argument("org")
+@click.argument("username")
+@click.argument("role")
+@click.option("--config-file", "-c", default="./config.yaml")
+def remove_member(org, username, role, config_file):
+    cfg = _unmarshal_yaml(config_file)
+    client = _get_iyo_client(cfg['client_id'], cfg['client_secret'], SCOPES)
+    _remove_member(client, username, org, role)
+
+def _remove_member(client, member, org, role):
+    print("Removing {member} from {org}".format(member=member, org=org))
+    if role == "owners":
+        client.organizations.RemoveOrganizationOwner(member, org)
+    elif role == "members":
+        client.organizations.RemoveOrganizationMember(member, org)
+    elif role == "orgowners":
+        client.organizations.DeleteOrgOwner(member, org)
+    elif role == "orgmembers":
+        client.organizations.DeleteOrgMember(member, org)
+    else:
+        raise RuntimeError("role {role} not recognized".format(role=role))
+
+def _prompt_to_remove(member_to_remove, org, role, last_owner, replace_member):
+    attempts = 0
+    while True:
+        answer = input("{member} ({role}) will be removed from {org} (enter yes/y to comfirm or n/no to decline)".format(
+            member=member_to_remove,
+            role=role,
+            org=org,
+        ))
+
+        if answer.lower() == "n" or answer.lower() == "no":
+            return False
+
+        if last_owner:
+            answer = input("{member} seems to be the last owner of the organization, do you want to replace him with {replace_member}? (enter yes/y to comfirm or n/no to decline)".format(
+                member=member_to_remove,
+                replace_member="",
+            ))
+
+        if answer.lower() == "n" or answer.lower() == "no":
+            return False
+
+        if answer.lower() == "y" or answer.lower() == "yes":
+            return True
+
+        if attempts >= 2:
+            print("Answer not recognized too many times. Declining member removal.")
+            return False
+        print("Answer not recognized.")
+        attempts +=1
+
+def _blacklist_from_file(black_list_file):
+    with open(black_list_file) as file:
+        content = file.readlines()
+    return [line.strip() for line in content]
+
+@cli.command()
+@click.option("--config-file", "-c", default="./config.yaml")
+@click.option("--summary/--no-summary", "-s", default=False, help="Adds a summary at the end of output that shows a list of (unique) users and orgs found in the tree")
+def list_all_members(config_file, summary):
+    """Lists all members in the root organisation and it's sub organistations"""
+    cfg = _unmarshal_yaml(config_file)
+
+    client = _get_iyo_client(cfg['client_id'], cfg['client_secret'], SCOPES)
+
+    res, _ = client.organizations.GetOrganizationTree(cfg['organization'])
+
+    orgs = []
+    users = []
+    
+    # add root to tree
+    res.children.insert(0, type('',(object,),{'globalid': cfg['organization'], 'children': []})())
+    for child in res.children:  
+        n_users, n_orgs = _print_members_children(client, child)
+        users.extend(n_users)
+        orgs.extend(n_orgs)
+
+    if summary:
+        # remove duplicates from lists
+        users = set(users)
+        users = list(users)
+        orgs = set(orgs)
+        orgs = list(orgs)
+
+        _print_summary(users, orgs)
+
+def _print_summary(users, orgs):
+    print("\n--Summary--")
+    print("- Users:")
+    for u in users:
+        print(u)
+    print("\n- Organizations:")
+    for o in orgs:
+        print(o)
+
+def _print_members_children(client, child):
+    print("%s:" % child.globalid)
+    res, _ = client.organizations.GetOrganization(child.globalid)
+    users = []
+    orgs = []
+    if res.members:
+        for m in res.members:
+            print("\t%s (member)" % m)
+            users.append(m)
+    if res.owners:
+        for o in res.owners:
+            print("\t%s (owner)" % o)
+            users.append(o)
+    if res.orgmembers:
+        for m in res.orgmembers:
+            print("\t%s (organization member)" % m)
+            orgs.append(m)
+    if res.orgowners:
+        for o in res.orgowners:
+            print("\t%s (organization owner)" % o)
+            orgs.append(o)
+
+    for c in child.children:
+        n_users, n_orgs = _print_members_children(client, c)
+        users.extend(n_users)
+        orgs.extend(n_orgs)
+    
+    return users, orgs
+
+def _get_iyo_client(client_id, client_secret, scopes):
+    """[summary]
+    
+    Arguments:
+        client_id str -- client ID 
+        client_secret str -- client secret
+        scopes [str] -- List of requesting scopes
+    
+    Returns:
+        itsyouonline.client -- IYO client
+    """
+    client = itsyouonline.Client()
+    res = client.security_schemes.oauth2_client_oauth_2_0.get_access_token(
+        client_id=client_id,
+        client_secret=client_secret,
+        scopes=scopes)
+    client.security_schemes.oauth2_client_oauth_2_0.set_auth_header(res.json()['access_token'])
+
+    return client
+
+def _unmarshal_yaml(config_file):
+    """Reads the config yaml file and returns it as a dict
+    
+    Arguments:
+        config_file str -- Location of the yaml config file
+    Returns:
+        dict{} -- Dict that represents the yaml file
+    """
+    with open(config_file) as file:
+        return yaml.load(file)
+
+if __name__ == '__main__':
+    cli()
