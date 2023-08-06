@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: papermill
+Version: 0.15.0
+Summary: Parametrize and run Jupyter and nteract Notebooks
+Home-page: https://github.com/nteract/papermill
+Author: nteract contributors
+Author-email: nteract@googlegroups.com
+License: BSD
+Project-URL: Documentation, https://papermill.readthedocs.io
+Project-URL: Funding, https://nteract.io
+Project-URL: Source, https://github.com/nteract/papermill/
+Project-URL: Tracker, https://github.com/nteract/papermill/issues
+Description: UNKNOWN
+Keywords: jupyter mapreduce nteract pipeline notebook
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Provides-Extra: test
+Provides-Extra: dev
