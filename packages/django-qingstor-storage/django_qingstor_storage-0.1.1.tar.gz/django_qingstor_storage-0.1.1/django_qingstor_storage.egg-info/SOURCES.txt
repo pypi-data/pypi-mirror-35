@@ -1,0 +1,9 @@
+README.md
+setup.py
+django_qingstor_storage/__init__.py
+django_qingstor_storage/backends.py
+django_qingstor_storage.egg-info/PKG-INFO
+django_qingstor_storage.egg-info/SOURCES.txt
+django_qingstor_storage.egg-info/dependency_links.txt
+django_qingstor_storage.egg-info/requires.txt
+django_qingstor_storage.egg-info/top_level.txt
