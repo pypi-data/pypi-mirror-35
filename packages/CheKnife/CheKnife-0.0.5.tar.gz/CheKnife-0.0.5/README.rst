@@ -1,0 +1,161 @@
+CheKnife
+========
+
+Python utilities compilation.
+
+-  Free software: MIT license
+
+Install
+=======
+
+-  TODO
+
+Features
+========
+
+hashing
+-------
+
+.. code:: python
+
+    from CheKnife.hashing import textmd5sum, filemd5sum
+    textmd5sum('Hello')
+    '8b1a9953c4611296a827abf8c47804d7'
+
+    filemd5sum('README.md')
+    '00ddcc5ef19040b9d7921008afcfa5bb'
+
+PKI
+---
+
+Generate CA
+~~~~~~~~~~~
+
+.. code:: python
+
+    from CheKnife.pki import DistinguishedName, CA
+    dn = DistinguishedName('ES', 'Madrid', 'Madrid', 'Empire', 'RootCA')
+    ca = CA(dn, working_dir='./test_ca/')
+    ca.gen_ca()
+
+Generate IntermediaryCA
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+    from CheKnife.pki import DistinguishedName, CA, IntermediaryCA
+    dn = DistinguishedName('ES', 'Madrid', 'Madrid', 'Empire', 'RootCA')
+    ca = CA(dn, working_dir='./test_ca/')
+    # ca.gen_ca()   # If not generated yet
+    intermediary_dn = DistinguishedName('ES', 'Madrid', 'Madrid', 'Empire', 'IntermediateCA')
+    intermediary_ca = IntermediaryCA(intermediary_dn, ca, working_dir='./test_ca/')
+    intermediary_ca.gen_ca()
+
+Generate Server Certificate signed with intermediary CA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Creating RootCA and IntermediaryCA
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code:: python
+
+    from CheKnife.pki import DistinguishedName, CA, IntermediaryCA, ServerCertificate
+    dn = DistinguishedName('ES', 'Madrid', 'Madrid', 'Empire', 'RootCA')
+    ca = CA(dn, working_dir='./test_ca/')
+    ca.gen_ca()   # If not generated yet
+    intermediary_dn = DistinguishedName('ES', 'Madrid', 'Madrid', 'Empire', 'IntermediateCA')
+    intermediary_ca = IntermediaryCA(intermediary_dn, ca, working_dir='./test_ca/')
+    intermediary_ca.gen_ca()
+    server_dn = DistinguishedName('ES', 'Madrid', 'Madrid', 'Empire', 'example.com', subject_alt_names=['www.example.com', 'web.example.com'])
+    server_cert = ServerCertificate(server_dn, intermediary_ca, working_dir='./test_ca/')
+    server_cert.gen_cert()
+    print(server_cert.check_crt())
+
+Using existing RootCA and IntermediaryCA
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code:: python
+
+    from CheKnife.pki import DistinguishedName, ServerCertificate, IntermediaryCAFactory
+    intermediary_ca = IntermediaryCAFactory().from_file('./test_ca/CA/certs/IntermediateCA.crt')  # optional argument ca_path='./test_ca/CA/certs/RootCA.crt
+
+    server_dn = DistinguishedName('ES', 'Madrid', 'Madrid', 'Empire', 'example3.com', subject_alt_names=['www.example3.com', 'web.example3.com'])
+    server_cert = ServerCertificate(server_dn, intermediary_ca, working_dir='./test_ca/')
+    server_cert.gen_cert()
+    print(server_cert.check_crt())
+
+Check Keys, CSR and certificates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+    from CheKnife.pki import OpenSSL
+    openssl = OpenSSL
+
+Distinguished Name from crt
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+    from CheKnife.pki import DistinguishedNameFactory
+    factory = DistinguishedNameFactory()
+
+    crt_path = './test_ca/CA/certs/IntermediateCA.crt'
+    dn = factory.from_crt(crt_path)
+
+Intermediary CA from path
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+    from CheKnife.pki import IntermediaryCAFactory
+    intermediary_ca_factory = IntermediaryCAFactory()
+    intermediary_ca = intermediary_ca_factory.from_file('./test_ca/CA/certs/IntermediateCA.crt')  # optional argument ca_path='./test_ca/CA/certs/RootCA.crt
+
+Check Connection
+~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+    from CheKnife.pki import OpenSSL
+    openssl = OpenSSL()
+    out, err = openssl.check_connect('www.google.com', 443)
+
+Distinguished Name Cheatsheet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++---------+--------------------------+
+| Short   | Long                     |
++=========+==========================+
+| DN      | Distinguished Name       |
++---------+--------------------------+
+| CN      | CommonName               |
++---------+--------------------------+
+| L       | LocalityName             |
++---------+--------------------------+
+| ST      | StateOrProvinceName      |
++---------+--------------------------+
+| O       | OrganizationName         |
++---------+--------------------------+
+| OU      | OrganizationalUnitName   |
++---------+--------------------------+
+| C       | CountryName              |
++---------+--------------------------+
+
+| DN Example:
+| C=PT, ST=Lisboa, L=Lisboa, O=Foo Org, OU=Bar Sector,
+  CN=foo.org/emailAddress=admin@foo.org
+
+Tests
+=====
+
+.. code:: bash
+
+    nosetests --with-coverage --cover-inclusive --cover-package=CheKnife --cover-html
+
+Upload to PyPi
+==============
+
+.. code:: bash
+
+    python setup.py sdist upload -r pypi
