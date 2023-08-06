@@ -1,0 +1,3 @@
+[console_scripts]
+pi3-switch = pi3.switch:main
+
