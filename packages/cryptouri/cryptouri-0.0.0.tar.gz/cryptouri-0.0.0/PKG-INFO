@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: cryptouri
+Version: 0.0.0
+Summary: URI-based format for encoding cryptographic objects (keys, signatures, etc) using bech32 encoding/checksums
+Home-page: https://github.com/cryptouri/cryptouri-py/
+Author: Tony Arcieri
+Author-email: bascule@gmail.com
+License: Apache-2.0
+Description: 
+                CryptoURI is a URN-like namespace for encoding various cryptographic objects,
+                including keys, signatures, and fingerprints/digests. It leverages the bech32
+                serialization format to provide a human-friendly encoding and checksums.
+            
+Keywords: cryptography,security,serialization
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English

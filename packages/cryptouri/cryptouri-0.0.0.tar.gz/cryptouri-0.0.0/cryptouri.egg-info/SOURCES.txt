@@ -1,0 +1,8 @@
+README.md
+setup.py
+cryptouri/__init__.py
+cryptouri.egg-info/PKG-INFO
+cryptouri.egg-info/SOURCES.txt
+cryptouri.egg-info/dependency_links.txt
+cryptouri.egg-info/not-zip-safe
+cryptouri.egg-info/top_level.txt
