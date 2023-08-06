@@ -1,0 +1,90 @@
+Metadata-Version: 2.0
+Name: easyimages
+Version: 0.5.5
+Summary: Images made easy
+Home-page: https://github.com/i008/easyimages
+Author: Jakub Cieslik
+Author-email: kubacieslik@gmail.com
+License: MIT license
+Keywords: easyimages
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pip
+Requires-Dist: bumpversion (==0.5.3)
+Requires-Dist: wheel (==0.30.0)
+Requires-Dist: watchdog (==0.8.3)
+Requires-Dist: flake8 (==3.5.0)
+Requires-Dist: tox (==2.9.1)
+Requires-Dist: coverage (==4.5.1)
+Requires-Dist: Sphinx (==1.7.1)
+Requires-Dist: twine (==1.10.0)
+Requires-Dist: pytest (==3.4.2)
+Requires-Dist: pytest-runner (==2.11.1)
+Requires-Dist: torch (==0.4.1)
+Requires-Dist: torchvision (==0.2.1)
+Requires-Dist: imutils (==0.4.6)
+Requires-Dist: matplotlib (==2.1.2)
+Requires-Dist: requests (==2.11.1)
+Requires-Dist: numpy (==1.14.5)
+Requires-Dist: ipython (==6.5.0)
+Requires-Dist: Pillow (==5.2.0)
+Requires-Dist: opencv-python
+Requires-Dist: tox-travis
+Requires-Dist: tqdm
+
+
+# easyimages
+
+[![Foo](https://img.shields.io/pypi/v/easyimages.svg)](https://pypi.python.org/pypi/easyimages)
+[![Foo](https://img.shields.io/travis/i008/easyimages.svg)](https://travis-ci.org/i008/easyimages)
+[![Foo](https://pyup.io/repos/github/i008/easyimages/shield.svg)](https://pyup.io/repos/github/i008/easyimages/)
+
+
+# Images made easy
+
+This small but handy package solves several issues i had while working with images and image datasets - especially in the context
+of exploring datsets,training neural networks and exploring results.
+Keep in mind that  his package is not directly related to the training process and loading
+image data, for that i found pytorch dataloading patterns work very well.
+
+
+Features
+--------
+- Simple API
+- Easy image exploration
+- Inteligent behaviour based on execution context (terminal, jupyter etc)
+- Lazy evaluation
+- Loading images from many different sources (filesystem, pytorch, numpy, web-urls, etc)
+- Storing annotations (tags, bounding boxes) allong the image in the same object
+- Visualizing labels (drawing boxes and drawing the label onto the image)
+- Visualizing images as Grids (ImagesLists)
+- Visualizing huge amounts of images at once (by leveraging fast html rendering)
+- Displaying images while working in jupyter notebook
+- Displaying images inline in console mode (iterm)
+
+
+
+Examples
+--------
+
+For detailed examples check the examples notebook
+
+
+
+
+
+=======
+History
+=======
+
+0.1.0 (2018-08-24)
+------------------
+
+* First release on PyPI.
+
+
