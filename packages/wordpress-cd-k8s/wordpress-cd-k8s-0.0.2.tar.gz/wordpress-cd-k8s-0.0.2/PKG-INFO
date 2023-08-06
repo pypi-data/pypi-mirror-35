@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: wordpress-cd-k8s
+Version: 0.0.2
+Summary: Wordpress CD driver to deploy sites via Kubernetes deployments.
+Home-page: https://github.com/rossigee/wordpress-cd-k8s
+Author: Ross Golder
+Author-email: ross@golder.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

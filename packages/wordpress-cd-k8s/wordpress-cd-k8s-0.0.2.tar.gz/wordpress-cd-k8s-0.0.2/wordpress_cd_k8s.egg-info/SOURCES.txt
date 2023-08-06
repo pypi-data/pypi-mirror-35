@@ -1,0 +1,9 @@
+README.md
+setup.py
+wordpress_cd_k8s/__init__.py
+wordpress_cd_k8s/k8s.py
+wordpress_cd_k8s.egg-info/PKG-INFO
+wordpress_cd_k8s.egg-info/SOURCES.txt
+wordpress_cd_k8s.egg-info/dependency_links.txt
+wordpress_cd_k8s.egg-info/requires.txt
+wordpress_cd_k8s.egg-info/top_level.txt
