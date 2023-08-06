@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: skymapper
+Version: 0.1
+Summary: Mapping astronomical survey data on the sky, handsomely
+Home-page: https://github.com/pmelchior/skymapper
+Author: Peter Melchior
+Author-email: peter.m.melchior@gmail.com
+License: MIT
+Description: Mapping astronomical survey data on the sky, handsomely
+Platform: UNKNOWN
+Requires: matplotlib
+Requires: numpy

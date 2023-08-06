@@ -1,0 +1,17 @@
+README.md
+aea_vs_lc_south_pole.py
+custom_projection_example.py
+example.py
+example2.py
+example3.py
+setup.py
+skymapper/__init__.py
+skymapper/aea_projection.py
+skymapper/skymapper.py
+skymapper.egg-info/PKG-INFO
+skymapper.egg-info/SOURCES.txt
+skymapper.egg-info/dependency_links.txt
+skymapper.egg-info/top_level.txt
+skymapper/surveys/__init__.py
+skymapper/surveys/des-round13-poly.txt
+skymapper/surveys/des-round17-poly.txt
