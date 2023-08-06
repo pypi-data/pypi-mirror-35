@@ -1,0 +1,13 @@
+README.md
+setup.py
+sorm/__init__.py
+sorm/engine.py
+sorm/errors.py
+sorm/objects.py
+sorm/orm.py
+sorm/types.py
+sorm/utils.py
+sorm.egg-info/PKG-INFO
+sorm.egg-info/SOURCES.txt
+sorm.egg-info/dependency_links.txt
+sorm.egg-info/top_level.txt
