@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: climate-indices
+Version: 1.0.0
+Summary: Community reference implementations of climate index algorithms in Python. Including Palmers (PDSI, scPDSI,  PHDI, and Z-Index), SPI, SPEI, PET, and PNP.
+Home-page: https://github.com/monocongo/climate_indices
+Author: James Adams
+Author-email: monocongo@gmail.com
+License: Unlicense
+Description: UNKNOWN
+Keywords: indices climate climate_indices drought drought_indices pdsi spi spei evapotranspiration
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Physics
