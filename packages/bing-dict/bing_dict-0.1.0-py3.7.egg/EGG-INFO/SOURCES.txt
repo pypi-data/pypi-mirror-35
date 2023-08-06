@@ -1,0 +1,9 @@
+README.txt
+setup.py
+bing-dict/__init__.py
+bing-dict/bd
+bing_dict.egg-info/PKG-INFO
+bing_dict.egg-info/SOURCES.txt
+bing_dict.egg-info/dependency_links.txt
+bing_dict.egg-info/requires.txt
+bing_dict.egg-info/top_level.txt

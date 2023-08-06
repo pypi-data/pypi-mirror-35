@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: bing-dict
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Wang Kai
+Author-email: kaiwkx@gmail.com
+License: MIT
+Description: A utility for getting Chinese translation from bing dictionary.
+        
+Platform: UNKNOWN
