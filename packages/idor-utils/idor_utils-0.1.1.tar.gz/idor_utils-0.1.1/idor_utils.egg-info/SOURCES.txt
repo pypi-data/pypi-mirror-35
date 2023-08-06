@@ -1,0 +1,9 @@
+README.md
+setup.py
+idor_utils/__init__.py
+idor_utils/compress.py
+idor_utils/json.py
+idor_utils.egg-info/PKG-INFO
+idor_utils.egg-info/SOURCES.txt
+idor_utils.egg-info/dependency_links.txt
+idor_utils.egg-info/top_level.txt

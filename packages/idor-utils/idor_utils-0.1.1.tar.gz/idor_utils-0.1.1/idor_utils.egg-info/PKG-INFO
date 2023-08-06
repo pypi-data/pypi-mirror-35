@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: idor-utils
+Version: 0.1.1
+Summary: Package with utilities used in some projects.
+Home-page: https://github.com/InstitutoDOr/utils_python.git
+Author: Bruno Melo
+Author-email: bruno.melo@idor.org
+License: UNKNOWN
+Description: # idor_utils
+        Package with utilities used in some projects.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
