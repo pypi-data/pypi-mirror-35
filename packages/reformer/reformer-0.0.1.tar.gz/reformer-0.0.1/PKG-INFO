@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: reformer
+Version: 0.0.1
+Summary: The tool for creating notes
+Home-page: https://github.com/Krukov/reformer
+Author: Dmitry Krukov
+Author-email: glebov.ru@gmail.com
+License: MIT
+Download-URL: https://github.com/Krukov/reformer/tarball/0.0.1
+Description: UNKNOWN
+Keywords: reformat format transform serializer schema
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
