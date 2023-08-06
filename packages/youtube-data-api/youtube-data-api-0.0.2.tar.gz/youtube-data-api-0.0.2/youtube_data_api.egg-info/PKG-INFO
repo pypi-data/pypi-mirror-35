@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: youtube-data-api
+Version: 0.0.2
+Summary: youtube-data-api is a Python wrapper for the YouTube Data API.
+Home-page: https://github.com/mabrownnyu/youtube-data-api
+Author: Leon Yin, Megan Brown
+License: MIT
+Description: # Youtube Data API
+        This is a Python client and wrapper for the Python Data API. It was written to accomodate v3 of the API.<br>
+        
+        ## Install
+        
+        It is recommended to [install this module by using pip](https://pypi.org/project/youtube-data-api/):
+        
+        ```
+        pip install youtube-data-api
+        ```
+        
+        If you want to use it from source, you'll have to install the dependencies manually:
+        
+        ```
+        pip install -r requirements.txt
+        ```
+        
+        ## Testing
+        Static json files used for test are stored in `./tests/data`.
+        To test, command line input `make test`.
+        
+        Written by Leon Yin and Megan Brown
+        
+Keywords: youtube-data-api youtube-data youtube-api wrapper youtube tweepy social-media
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
