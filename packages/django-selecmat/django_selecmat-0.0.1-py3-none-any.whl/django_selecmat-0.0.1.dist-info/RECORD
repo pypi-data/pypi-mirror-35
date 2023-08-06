@@ -1,0 +1,13 @@
+django_selecmat-0.0.1.dist-info/METADATA,sha256=Rm5I_Fa2WzdlEt67SYOSUgNXVBEhymiekBmEesOOl28,3579
+django_selecmat-0.0.1.dist-info/RECORD,,
+django_selecmat-0.0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+django_selecmat-0.0.1.dist-info/top_level.txt,sha256=rdyzSQbSTSzGPYpU-ore7QC6H5-GoD37ko2C7dp2BAY,9
+selecmat/__init__.py,sha256=JsPameOxrnZlVwV1FvBHiVNkiwIr9NJ85d1ka_wd8To,56
+selecmat/config.py,sha256=xek7WbAt5YwXypStxYdupIBCNgcYozbi8962VUMd0hY,198
+selecmat/meta.py,sha256=7bRxEtkpkOu8JPWzaszep1_-MkrwyNkg0f4O-2n6vEc,79
+selecmat/templates/selecmat/attrs.html,sha256=glUlgFdQWRneX_Wyq5SaAGkyyv4P8a1Eripl1hIdDUc,206
+selecmat/templates/selecmat/field.html,sha256=KeD7rsvhjn-iVAzL1Yih8AeE9PzlhJ-Rcq9XG80mevQ,8291
+selecmat/templates/selecmat/form.html,sha256=tCpfvJvRNwjFVoHeIe2BLnYC1QNuq_c58RptyPfK8CM,355
+selecmat/templates/selecmat/formset.html,sha256=xb9V7aa9lJdU3ZSDHLCBM5H1SXwHHI9motohyB9UqxQ,124
+selecmat/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selecmat/templatetags/selecmat.py,sha256=IdkTmFbRTeCi2VLRnr0DeD__HT6FRM0U-O7ASV9bubU,3738
