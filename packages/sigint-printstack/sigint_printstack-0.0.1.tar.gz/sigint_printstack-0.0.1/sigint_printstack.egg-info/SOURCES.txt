@@ -1,0 +1,7 @@
+setup.py
+sigint_printstack/__init__.py
+sigint_printstack.egg-info/PKG-INFO
+sigint_printstack.egg-info/SOURCES.txt
+sigint_printstack.egg-info/dependency_links.txt
+sigint_printstack.egg-info/pbr.json
+sigint_printstack.egg-info/top_level.txt
