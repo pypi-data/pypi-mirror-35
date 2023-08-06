@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: gampy
+Version: 0.0.0
+Summary: Abstract the flow of your programs.
+Home-page: https://git.fmind.me/fmind/gampy
+Author: Médéric Hurier
+Author-email: dev@fmind.me
+License: EUPL-1.2
+Keywords: abstract execution environment
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX
+Classifier: Natural Language :: English
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dist
+Provides-Extra: repl
+Provides-Extra: test
+Provides-Extra: dist
+Requires-Dist: pip; extra == 'dist'
+Requires-Dist: setuptools; extra == 'dist'
+Requires-Dist: twine; extra == 'dist'
+Requires-Dist: wheel; extra == 'dist'
+Provides-Extra: repl
+Requires-Dist: ipython; extra == 'repl'
+Requires-Dist: jedi; extra == 'repl'
+Requires-Dist: ptpdb; extra == 'repl'
+Requires-Dist: ptpython; extra == 'repl'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-black; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-flakes; extra == 'test'
+Requires-Dist: pytest-mypy; extra == 'test'
+
+# gampy
+
+[![pypi](https://img.shields.io/pypi/v/gampy.svg)](https://pypi.python.org/pypi/gampy)
+[![python](https://img.shields.io/pypi/pyversions/gampy.svg)](https://pypi.python.org/pypi/gampy)
+[![license](https://img.shields.io/pypi/l/gampy.svg)](https://pypi.python.org/pypi/gampy)
+
+## Motivation
+
+Abstract the flow of your programs.
+
+## Installation
+
+```bash
+pip install gampy
+```
+
+## Documentation
+
+```bash
+pydoc gampy
+```
+
+## Initialization
+
+```bash
+make init
+```
+
+
