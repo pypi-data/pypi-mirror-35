@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: SimpleHTTPAuthServer
+Version: 1.3
+Summary: Simple HTTP and HTTPS Auth Server
+Home-page: https://github.com/tianhuil/SimpleHTTPAuthServer/
+Author: Michael Li
+Author-email: me@tianhui.li
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
