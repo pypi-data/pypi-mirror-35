@@ -1,0 +1,12 @@
+README.md
+setup.py
+django_expiry.egg-info/PKG-INFO
+django_expiry.egg-info/SOURCES.txt
+django_expiry.egg-info/dependency_links.txt
+django_expiry.egg-info/not-zip-safe
+django_expiry.egg-info/top_level.txt
+expiry/__init__.py
+expiry/apps.py
+expiry/middleware.py
+expiry/rules.py
+expiry/signals.py
