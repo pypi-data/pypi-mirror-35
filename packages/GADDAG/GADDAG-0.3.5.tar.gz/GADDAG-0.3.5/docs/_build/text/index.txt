@@ -1,0 +1,217 @@
+GADDAG Documentation
+********************
+
+GADDAG is a Python wrapper around cGADDAG.
+
+A GADDAG data structure provides rapid word lookups for prefixes,
+suffixes and substrings, making it ideal for use in applications such
+as move generation in word games such as Scrabble.
+
+GADDAG currently only supports the ASCII alphabet.
+
+
+Installation
+============
+
+From PyPI:
+
+   $ pip install gaddag
+
+
+Usage
+=====
+
+   >>> import gaddag
+   >>> words = ["foo", "bar", "foobar", "baz"]
+   >>> gdg = gaddag.GADDAG(words)
+   >>> "foo" in gdg
+   True
+   >>> "bor" in gdg
+   False
+   >>> gdg.contains("ba")
+   ['bar', 'foobar', 'baz']
+
+Words stored in the GADDAG can be iterated over:
+
+   >>> for word in gdg:
+   ...     print(word)
+   ...
+   foobar
+   foo
+   baz
+   bar
+
+
+Searching
+---------
+
+More advanced searching features are available, such as finding words
+starting with, ending with, or containing a given substring:
+
+   >>> gdg.starts_with("foo")
+   ['foobar', 'foo']
+
+   >>> gdg.ends_with("bar")
+   ['foobar', 'bar']
+
+   >>> gdg.contains("ba")
+   ['bar', 'foobar', 'baz']
+
+
+Low level access
+----------------
+
+Low level access is provided, which allows for the GADDAG to be
+traversed manually.
+
+The root node of the GADDAG can be accessed:
+
+   >>> root_node = gdg.root
+   >>> root_node.edges
+   ['a', 'b', 'f', 'o', 'r', 'z']
+
+Edges can be followed:
+
+   >>> a_node = root_node["a"]
+   >>> a_node.edges
+   ['b']
+
+Following an edge which does not exist throws *KeyError*:
+
+   >>> a_node["f"]
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+     File ".../gaddag/node.py", line 73, in __getitem__
+       raise KeyError(char)
+   KeyError: 'f'
+
+Following edges in succession can become tedious, so a method is
+provided for ease of use:
+
+   >>> root_node.follow("ab") == root_node["a"]["b"]
+   True
+
+The “+” character is the *break* character, which signifies that the
+start of the word has been reached and that the subsequent edges (if
+any) now form the suffix. A node’s letter set shows the characters
+which will end a word:
+
+   >>> break_node = root_node.follow("ab+")
+   >>> break_node.letter_set
+   ['r', 'z']
+
+The words “bar” and “baz” have been found.
+
+Using these features, **GADDAG** can be used for more specialised
+applications, such as move generation in word games.
+
+
+API
+===
+
+gaddag.load(path)
+
+   Load a GADDAG from file.
+
+   Args:
+      path: path to saved GADDAG to be loaded.
+
+   Returns:
+      Loaded GADDAG.
+
+class gaddag.GADDAG(words=None)
+
+   A data structure allowing for extremely fast prefix, suffix and
+   substring searching of words.
+
+   add_word(word)
+
+      Add a word to the GADDAG.
+
+      Args:
+         word: A word to be added to the GADDAG.
+
+   contains(sub)
+
+      Find all words containing a substring.
+
+      Args:
+         sub: A substring to be searched for.
+
+      Returns:
+         A list of all words found.
+
+   ends_with(suffix)
+
+      Find all words ending with a suffix.
+
+      Args:
+         suffix: A suffix to be searched for.
+
+      Returns:
+         A list of all words found.
+
+   load(path)
+
+      Load a GADDAG from file, replacing the words currently in this
+      GADDAG.
+
+      Args:
+         path: path to saved GADDAG to be loaded.
+
+   root
+
+      Returns the root node of the GADDAG.
+
+   save(path, compressed=True, exist_ok=False)
+
+      Save the GADDAG to file.
+
+      Args:
+         path: path to save the GADDAG to. compressed: compress the
+         saved GADDAG using gzip. exist_ok: overwrite existing file at
+         *path*.
+
+   starts_with(prefix)
+
+      Find all words starting with a prefix.
+
+      Args:
+         prefix: A prefix to be searched for.
+
+      Returns:
+         A list of all words found.
+
+class gaddag.Node(gdg, node)
+
+   A node in a GADDAG.
+
+   edges
+
+      Return the edges of this node.
+
+   follow(chars)
+
+      Traverse the GADDAG to the node at the end of the given
+      characters.
+
+      Args:
+         chars: An string of characters to traverse in the GADDAG.
+
+      Returns:
+         The Node which is found by traversing the tree.
+
+   is_end(char)
+
+      Return *True* if this *char* is part of this node’s letter set,
+      *False* otherwise.
+
+   letter_set
+
+      Return the letter set of this node.
+
+
+License
+=======
+
+Licensed under the MIT License, see LICENSE.

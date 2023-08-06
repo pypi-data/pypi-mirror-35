@@ -1,0 +1,6 @@
+include LICENSE
+graft gaddag/cGADDAG*
+graft docs/_build/html
+graft docs/_build/text
+recursive-include docs index.html search.html index.txt
+recursive-include tests *.py
