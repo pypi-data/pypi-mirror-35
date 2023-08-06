@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+piety/__init__.py
+piety.egg-info/PKG-INFO
+piety.egg-info/SOURCES.txt
+piety.egg-info/dependency_links.txt
+piety.egg-info/top_level.txt
