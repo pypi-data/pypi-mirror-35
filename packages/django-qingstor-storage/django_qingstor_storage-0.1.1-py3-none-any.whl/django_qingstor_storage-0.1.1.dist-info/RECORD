@@ -1,0 +1,6 @@
+django_qingstor_storage/__init__.py,sha256=p_a0xjCiNWud8a4vLMJV-LRDISGm-Qsshi6wBJfMwQw,247
+django_qingstor_storage/backends.py,sha256=1Rr2wRRoaJbSfbsFQULmOSOGF8DXFA3PVUlHO5UTZ20,5228
+django_qingstor_storage-0.1.1.dist-info/METADATA,sha256=beMPxHMAsTGayPzcHEJsi4kp1udHhVdBAKJc9SkAFTw,2341
+django_qingstor_storage-0.1.1.dist-info/RECORD,,
+django_qingstor_storage-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_qingstor_storage-0.1.1.dist-info/top_level.txt,sha256=a1URpAPGQlWswjzC8k147zNdg2WEA7Q4krZk5vy2B2s,24
