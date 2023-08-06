@@ -1,0 +1,3 @@
+[console_scripts]
+django_multiinfo = django_multiinfo.cli:main
+
