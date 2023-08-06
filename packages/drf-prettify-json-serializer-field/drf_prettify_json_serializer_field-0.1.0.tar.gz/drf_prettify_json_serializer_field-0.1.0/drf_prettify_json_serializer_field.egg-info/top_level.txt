@@ -1,0 +1,1 @@
+drf_prettify_json_serializer_field
