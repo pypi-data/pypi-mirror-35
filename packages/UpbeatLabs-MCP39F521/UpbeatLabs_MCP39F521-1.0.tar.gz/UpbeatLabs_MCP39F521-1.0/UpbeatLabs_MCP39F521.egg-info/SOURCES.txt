@@ -1,0 +1,9 @@
+README.md
+setup.py
+UpbeatLabs_MCP39F521/UpbeatLabs_MCP39F521.py
+UpbeatLabs_MCP39F521/__init__.py
+UpbeatLabs_MCP39F521.egg-info/PKG-INFO
+UpbeatLabs_MCP39F521.egg-info/SOURCES.txt
+UpbeatLabs_MCP39F521.egg-info/dependency_links.txt
+UpbeatLabs_MCP39F521.egg-info/requires.txt
+UpbeatLabs_MCP39F521.egg-info/top_level.txt
