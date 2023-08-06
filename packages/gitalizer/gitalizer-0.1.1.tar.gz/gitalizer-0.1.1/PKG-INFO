@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: gitalizer
+Version: 0.1.1
+Summary: A git/github repository data collector for Git to analyse privacy implications of exposing Git metadata
+Home-page: http://github.com/nukesor/gitalizer
+Author: Arne Beer
+Author-email: privat@arne.beer
+License: MIT
+Description: UNKNOWN
+Keywords: git aggregator metadata github
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Console
