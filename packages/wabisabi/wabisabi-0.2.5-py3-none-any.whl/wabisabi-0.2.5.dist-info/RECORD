@@ -1,0 +1,15 @@
+wabisabi/__init__.py,sha256=k8FKYkYvwkPUJxI2edjtPEYJSEnapXPJ2Wi-o0Ykdvg,270
+wabisabi/_version.py,sha256=rXBkbZ45ckPxrBuwp_os8aXNh1UNFiU0-TUksDCz88Y,536
+wabisabi/default_parameter_change.py,sha256=EQa62gE8bjur3UpYkhfVxZw50D1a-aqssueSRNbxXcU,7653
+wabisabi/docscrape.py,sha256=wTd38NCRbivsyFZvSxoUbbxdeTdFXXYBafPd4lHWOoY,4828
+wabisabi/kwonly_change.py,sha256=jceMC66NGhJOANfmUWvWmqLYrdAJlH9oz8XgomPYAWc,9512
+wabisabi/merge_docstrings.py,sha256=SNYRjjV0hBki0Jc1u6Nhk7b7T5rJpOG4l3YNl-DdHok,1005
+wabisabi/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wabisabi/tests/test_default_parameter_change.py,sha256=9u0zBAHu8hsLukLPVQrHeGgW9MC2WbHuLPfntyO8Yr8,6941
+wabisabi/tests/test_default_parameter_change_numpydoc.py,sha256=Mm6fm-ItJu4Udo5d2RZt3vsxSk2Vs9Ukuwm9C1u3KqE,2410
+wabisabi/tests/test_kwonly_deprecation.py,sha256=4TS7YvSUb2GKFOvh8Elcg-4e9pdYpq3L7BIm8m3U4Sk,3783
+wabisabi-0.2.5.dist-info/LICENSE.txt,sha256=gxRfgZ6jegaAn94Q5Xp0-FSiSsEQgoO07EnRjuP1VXQ,1514
+wabisabi-0.2.5.dist-info/METADATA,sha256=JRP9GUyjHij94gWWc7CUEdbSJZQVtV4-9XhcX4jlp-M,5136
+wabisabi-0.2.5.dist-info/RECORD,,
+wabisabi-0.2.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+wabisabi-0.2.5.dist-info/top_level.txt,sha256=Ml3qnB-qSlio2x4_Y0MJzP6tJxoHQmYvPp3lWEnulPE,9
