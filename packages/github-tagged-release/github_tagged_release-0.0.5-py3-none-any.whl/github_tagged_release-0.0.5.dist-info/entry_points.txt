@@ -1,0 +1,3 @@
+[console_scripts]
+github_tagged_release = github_release:main
+
