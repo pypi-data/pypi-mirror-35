@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+torch_scope/__init__.py
+torch_scope/wrapper.py
+torch_scope.egg-info/PKG-INFO
+torch_scope.egg-info/SOURCES.txt
+torch_scope.egg-info/dependency_links.txt
+torch_scope.egg-info/not-zip-safe
+torch_scope.egg-info/requires.txt
+torch_scope.egg-info/top_level.txt
