@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nats-python
+Version: 0.1.0
+Summary: Python client for NATS messaging system
+Home-page: https://github.com/Gr1N/nats-python
+Author: Nikita Grishko
+Author-email: gr1n@protonmail.com
+Keywords: nats,nats-client,messaging
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: dataclasses; python_version >= "3.6" and python_version < "3.7"
