@@ -1,0 +1,7 @@
+setup.py
+pythonTdexApi.egg-info/PKG-INFO
+pythonTdexApi.egg-info/SOURCES.txt
+pythonTdexApi.egg-info/dependency_links.txt
+pythonTdexApi.egg-info/not-zip-safe
+pythonTdexApi.egg-info/top_level.txt
+tdexApi/__init__.py
