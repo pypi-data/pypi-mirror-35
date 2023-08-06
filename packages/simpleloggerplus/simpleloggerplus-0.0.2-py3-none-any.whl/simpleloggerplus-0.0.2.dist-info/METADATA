@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: simpleloggerplus
+Version: 0.0.2
+Summary: A simple, easy to use logging tool
+Home-page: https://github.com/TheTesla/simpleloggerplus
+Author: Stefan Helmert
+Author-email: stefan.helmert@t-online.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Simplelogger
+
+
