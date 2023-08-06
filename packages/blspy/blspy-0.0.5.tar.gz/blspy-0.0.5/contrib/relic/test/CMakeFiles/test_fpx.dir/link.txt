@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -pipe -std=c99 -m64 -Wall   -O2 -funroll-loops -fomit-frame-pointer -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/Users/mariano/Chia/Programs/bls-signatures/contrib/relic/src/low/easy/  -static CMakeFiles/test_fpx.dir/test_fpx.c.o  -o ../bin/test_fpx ../lib/librelic_s.a 
