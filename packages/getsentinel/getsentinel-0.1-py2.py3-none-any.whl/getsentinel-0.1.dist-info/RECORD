@@ -1,0 +1,10 @@
+getsentinel/__init__.py,sha256=P9dyfqbWKAF0Au0IJoV-Bbb4GBnSmkotvP6iAy7Ydko,21
+getsentinel/gs_config.py,sha256=N0k4SLJeUWsWggRF1pXKLaSlt8Qwz0LfGlaolvLSJYg,6372
+getsentinel/gs_downloader.py,sha256=37Wfzk4GPRL3esGo4yoKnNF7SS9Xmo1ZlDGfRkqN0os,37344
+getsentinel/gs_localmanager.py,sha256=ZDjGRN_fQfPYDRTav52rJ8va3dzYHMbagkws-L1vQYI,9647
+getsentinel/gs_processor.py,sha256=OCQMlILodoQ6FyWxXmrzVtRcSHF1BMdQkkQYiaqcPpk,5707
+getsentinel/gs_stacker.py,sha256=wur4NGOc803QRrilK0ybINB57K1k1PSJWTaAxs3s3gE,27891
+getsentinel-0.1.dist-info/METADATA,sha256=25B7lj4itPvra0eVHAfzDo8Nr0vovBIxabH8m-M2iWk,2036
+getsentinel-0.1.dist-info/RECORD,,
+getsentinel-0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+getsentinel-0.1.dist-info/top_level.txt,sha256=7TEFPhOkQSY4KDQq-pKC0ulmicIx58uc1yzm1z2X_3Y,12
