@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ipinfo-django
+Version: 0.1.0
+Summary: Official Django library for IPInfo
+Home-page: https://github.com/ipinfo/django
+Author: James Timmins
+Author-email: jameshtimmins@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: django
+Requires-Dist: ipinfo-wrapper
+
+UNKNOWN
+
+
