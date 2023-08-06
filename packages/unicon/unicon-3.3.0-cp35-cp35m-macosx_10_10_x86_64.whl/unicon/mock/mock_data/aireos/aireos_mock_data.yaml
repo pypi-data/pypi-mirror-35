@@ -1,0 +1,18 @@
+
+aireos_exec:
+  prompt: "(Cisco Capwap Simulator) >"
+  commands:
+    "config":
+      new_state: aireos_config
+
+
+aireos_config:
+  prompt: "(Cisco Capwap Simulator) config>"
+  commands:
+    "exit":
+      new_state: aireos_exec
+    "end":
+      new_state: aireos_exec
+    "paging disable": ""
+    "sessions timeout 0": ""
+    "serial timeout 0": ""
