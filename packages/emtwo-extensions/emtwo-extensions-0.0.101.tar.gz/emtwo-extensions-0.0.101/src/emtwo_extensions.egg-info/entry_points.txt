@@ -1,0 +1,6 @@
+[redash.extensions]
+datasource_health = redash_stmo.health:datasource_health
+datasource_link = redash_stmo.datasource_link:datasource_link
+dockerflow = redash_stmo.dockerflow:dockerflow
+test = redash_stmo.test:test
+
