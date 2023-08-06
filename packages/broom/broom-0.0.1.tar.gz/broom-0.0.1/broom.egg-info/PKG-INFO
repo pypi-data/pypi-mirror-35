@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: broom
+Version: 0.0.1
+Summary: Keep your desktop clutter-free.
+Home-page: https://github.com/umluizlima/broom
+Author: Luiz Lima
+Author-email: umluizlima@gmail.com
+License: MIT License
+Description: # Broom
+        > Keep your desktop clutter-free.
+        
+        ## Description
+        
+        This script is a simple Desktop organizer that moves all files and folders from /Desktop to /Downloads/Rug.
+        
+        ## Installation
+        
+        ```sh
+        > pip install broom
+        ```
+        
+        ## Usage
+        
+        - On Windows
+        
+          Hit **Win + R**, then
+          ```sh
+          > broom
+          ```
+          Admire your wallpaper once again.
+        
+        ## Links
+        - Repository: https://github.com/umluizlima/broom
+        - References:
+          - os module: https://docs.python.org/3/library/os.html#module-os
+          - shutil module: https://docs.python.org/3/library/shutil.html
+        
+        ## Licensing
+        Distributed under the MIT license. See `LICENSE` for more information.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
