@@ -1,0 +1,11 @@
+README.md
+setup.py
+nochi/__init__.py
+nochi/calculatorTkinter.py
+nochi/decimalBinaryHexadecimalConvertions.py
+nochi/login.py
+nochi/searchSortAlgorithms.py
+nochi.egg-info/PKG-INFO
+nochi.egg-info/SOURCES.txt
+nochi.egg-info/dependency_links.txt
+nochi.egg-info/top_level.txt
