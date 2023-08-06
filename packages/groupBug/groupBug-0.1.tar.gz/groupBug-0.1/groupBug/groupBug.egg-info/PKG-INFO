@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: groupBug
+Version: 0.1
+Summary: Clustering heatmap tool for kraken-style reports
+Home-page: https://gitlab.com/ModernisingMedicalMicrobiology/groupBug
+Author: ['Nick Sanderson']
+Author-email: nicholas.sanderson@ndm.ox.ac.uk
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
