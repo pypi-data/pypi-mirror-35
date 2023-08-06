@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+wagtail_news_image.egg-info/PKG-INFO
+wagtail_news_image.egg-info/SOURCES.txt
+wagtail_news_image.egg-info/dependency_links.txt
+wagtail_news_image.egg-info/requires.txt
+wagtail_news_image.egg-info/top_level.txt
+wagtailnewsimage/__init__.py
+wagtailnewsimage/monkey_patch.py
+wagtailnewsimage/rich_text.py
+wagtailnewsimage/serializers.py
+wagtailnewsimage/urls.py
+wagtailnewsimage/views.py
+wagtailnewsimage/wagtail_hooks.py
+wagtailnewsimage/static/wagtailnewsimage/js/wagtailnewsimage.js
