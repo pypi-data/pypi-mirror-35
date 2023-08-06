@@ -1,0 +1,16 @@
+CONTRIBUTORS
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+toad/__init__.py
+toad/detector.py
+toad/merge.py
+toad/stats.py
+toad/utils.py
+toad.egg-info/PKG-INFO
+toad.egg-info/SOURCES.txt
+toad.egg-info/dependency_links.txt
+toad.egg-info/requires.txt
+toad.egg-info/top_level.txt
