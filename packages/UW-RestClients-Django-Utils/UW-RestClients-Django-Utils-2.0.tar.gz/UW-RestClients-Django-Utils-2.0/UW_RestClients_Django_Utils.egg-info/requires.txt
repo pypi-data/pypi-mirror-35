@@ -1,0 +1,5 @@
+Django<2.0,>=1.11
+UW-RestClients-Core<2.0,>1.0
+django-userservice<4.0,>3.0
+python-binary-memcached
+python-dateutil
