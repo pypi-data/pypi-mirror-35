@@ -1,0 +1,2 @@
+dash>=0.22.0
+dash-responsive-grid-layout>=0.0.1
