@@ -1,0 +1,16 @@
+README.rst
+setup.py
+pychargifysimple/__init__.py
+pychargifysimple/base.py
+pychargifysimple/context_manager.py
+pychargifysimple/subscription.py
+pychargifysimple/web.py
+pychargifysimple.egg-info/PKG-INFO
+pychargifysimple.egg-info/SOURCES.txt
+pychargifysimple.egg-info/dependency_links.txt
+pychargifysimple.egg-info/entry_points.txt
+pychargifysimple.egg-info/requires.txt
+pychargifysimple.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/subscription_test.py
