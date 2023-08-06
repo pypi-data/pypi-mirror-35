@@ -1,0 +1,132 @@
+#!/bin/bash
+
+cat <<'EOF'
+
+export MPIENV_ROOT="$HOME/.mpienv"
+
+if [ -z "${MPIENV_VERSIONS_DIR:-}" ]; then
+    export MPIENV_VERSIONS_DIR=$MPIENV_ROOT/versions
+fi
+
+mkdir -p ${MPIENV_VERSIONS_DIR}
+mkdir -p ${MPIENV_VERSIONS_DIR}/shims
+
+if [ ! -f $MPIENV_VERSIONS_DIR/shims ]; then
+    G=$MPIENV_VERSIONS_DIR/version_global
+    if [ -f $G ]; then
+        ln -s $(cat $G) $MPIENV_VERSIONS_DIR/shims
+    fi
+fi
+
+export PATH=$MPIENV_VERSIONS_DIR/shims/bin:${PATH:-}
+export LD_LIBRARY_PATH=${MPIENV_VERSIONS_DIR}/shims/lib:${MPIENV_VERSIONS_DIR}/shims/lib64:${LD_LIBRARY_PATH:-}
+
+function usage() {
+    echo "Usage: mpienv [command] [options...]"
+}
+
+function mpienv() {
+    if [ "0" = "${#*}" ]; then
+        usage
+        return -1
+    fi
+
+    declare -r root=$MPIENV_ROOT
+    declare -r command="$1"
+    shift
+
+    case "$command" in
+        "use" )
+            {
+                eval $(env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                           mpienv-use.py $*)
+                if [ -z "${BASH_VERSION:-}" -a ! -z "${ZSH_VERSION:-}" ]; then
+                    rehash
+                fi
+            }
+            ;;
+        "configure" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-configure.py "$@"
+            }
+            ;;
+        "build" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-build.py "$@"
+            }
+            ;;
+        "install" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-install.py "$@"
+            }
+            ;;
+        "clean" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-clean.py "$@"
+            }
+            ;;
+        "add" )
+            {
+               env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                   mpienv-add.py $*
+            }
+            ;;
+        "rm" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-rm.py "$@"
+            }
+            ;;
+        "rename" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-rename.py "$@"
+            }
+            ;;
+        "list" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-list.py "$@"
+            }
+            ;;
+        "info" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-info.py "$@"
+            }
+            ;;
+        "autodiscover" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-autodiscover.py "$@"
+            }
+            ;;
+        "prefix" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-prefix.py "$@"
+            }
+            ;;
+        "exec" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-exec.py "$@"
+            }
+            ;;
+        "help" )
+            {
+                env PYTHONPATH=$MPIENV_ROOT:${PYTHONPATH:-} \
+                    mpienv-help.py "$@"
+            }
+            ;;
+        * )
+            echo "mpienv [ERROR]: Unknown command '$command'"
+            ;;
+    esac
+}
+EOF
+
