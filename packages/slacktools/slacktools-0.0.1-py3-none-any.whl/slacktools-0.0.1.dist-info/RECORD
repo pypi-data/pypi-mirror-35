@@ -1,0 +1,8 @@
+slacktools/__init__.py,sha256=b4069FPH6xVu25nWHAwQQekSNrW9FwaqDfjC_eQXD8Y,34
+slacktools/slack.py,sha256=i-kniUI6YCGiD1FG9X-L5k_A2JRFzbgEAAXuQlRIvxM,1989
+slacktools/verify.py,sha256=gB_g7-r_nlfcbznGgTd-iCnb_hR_3MtE0blnohOVYC4,1289
+slacktools/version.py,sha256=vZPfA1XEF7Sg1_KeXvUvFZhhKn4A3iz_6XYWoe_7x2I,99
+slacktools-0.0.1.dist-info/METADATA,sha256=r3x3TSbM3oP5iFW6mXbQSNn9DRCzXC4D5yLa9HAkdbg,819
+slacktools-0.0.1.dist-info/RECORD,,
+slacktools-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+slacktools-0.0.1.dist-info/top_level.txt,sha256=I2PVVFAxYmh6mSeOCbV6cmfDbiGWiKRLFkLVfZZBTxE,11
