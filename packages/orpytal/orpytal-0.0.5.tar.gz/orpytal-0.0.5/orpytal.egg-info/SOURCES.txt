@@ -1,0 +1,8 @@
+README.md
+setup.py
+orpytal.egg-info/PKG-INFO
+orpytal.egg-info/SOURCES.txt
+orpytal.egg-info/dependency_links.txt
+orpytal.egg-info/not-zip-safe
+orpytal.egg-info/requires.txt
+orpytal.egg-info/top_level.txt
