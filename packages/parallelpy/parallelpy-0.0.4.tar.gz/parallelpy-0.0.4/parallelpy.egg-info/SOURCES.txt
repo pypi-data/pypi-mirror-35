@@ -1,0 +1,10 @@
+README.md
+setup.py
+parallelpy/__init__.py
+parallelpy/parallelpy.py
+parallelpy.egg-info/PKG-INFO
+parallelpy.egg-info/SOURCES.txt
+parallelpy.egg-info/dependency_links.txt
+parallelpy.egg-info/entry_points.txt
+parallelpy.egg-info/top_level.txt
+parallelpy.egg-info/zip-safe
