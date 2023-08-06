@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+IMDBAPI/__init__.py
+IMDBAPI.egg-info/PKG-INFO
+IMDBAPI.egg-info/SOURCES.txt
+IMDBAPI.egg-info/dependency_links.txt
+IMDBAPI.egg-info/not-zip-safe
+IMDBAPI.egg-info/requires.txt
+IMDBAPI.egg-info/top_level.txt
