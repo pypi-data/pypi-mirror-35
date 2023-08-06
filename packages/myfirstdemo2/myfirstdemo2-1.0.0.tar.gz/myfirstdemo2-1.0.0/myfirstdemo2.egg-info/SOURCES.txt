@@ -1,0 +1,10 @@
+README.md
+setup.py
+demo1/__init__.py
+demo1/command_line.py
+demo1/helloworld.py
+demo2/__init__.py
+myfirstdemo2.egg-info/PKG-INFO
+myfirstdemo2.egg-info/SOURCES.txt
+myfirstdemo2.egg-info/dependency_links.txt
+myfirstdemo2.egg-info/top_level.txt
