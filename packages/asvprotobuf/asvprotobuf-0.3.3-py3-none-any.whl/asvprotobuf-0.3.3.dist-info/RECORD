@@ -1,0 +1,8 @@
+asvprotobuf/__init__.py,sha256=8KcCYTXH99C2-gCLuPILJvtT9YftRWJsartIx6TQ2ZY,22
+asvprotobuf/sensor_pb2.py,sha256=XLvNYkJBEOaceFNpL4axW7gv7aaZRLpbxcJeY4EdsG0,18779
+asvprotobuf/std_pb2.py,sha256=G4zdpzhWKFKr4Z9IqjbbhiTisUdABa5Youyta90Lfac,7781
+asvprotobuf-0.3.3.dist-info/METADATA,sha256=C0pt2FGPLUtGihBaCpD1r3x8TAXLkSiHoXk8aHt7e_k,865
+asvprotobuf-0.3.3.dist-info/RECORD,,
+asvprotobuf-0.3.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+asvprotobuf-0.3.3.dist-info/top_level.txt,sha256=NGCU-rjYdr_vuthyCwrnT0-Uo7DOSN6sZjsI1rDTkS4,12
+asvprotobuf-0.3.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
