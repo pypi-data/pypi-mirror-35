@@ -1,0 +1,11 @@
+kakaobot/__init__.py,sha256=5CZLDm774VCx2-x-99ZusvH7479gv1GBqIl0pQPpvOI,7526
+kakaobot/kboard.py,sha256=XI9D78HluMtbbyThgxPc4I9gYa86R5OVYUsyOieBIDE,740
+kakaobot/log_append.py,sha256=v9ETe9x761Rf42ViD-VSX08-EgJFkzTP6I62QEQ3t6g,1231
+kakaobot/mbutton.py,sha256=v7VDY3iHSnG-XQmpdhVo3qAb6b7FwnbGx7qi8r9FMUc,422
+kakaobot/message.py,sha256=IEebHquGIvBvwj9MX1Emw7OXCp74ajpUFoB4ioGpczY,1243
+kakaobot/photo.py,sha256=ZTl5NcWfN7Sck2xWgGU9IqPlyWTLNshRGGk8mNB1n_M,514
+kakaobot/resp_param.py,sha256=Ts7RU0bzJCdf09YIVlmRDXoL6VPJUBmbVwPkYvCT3PY,205
+kakaobot.py-1.1.dist-info/METADATA,sha256=vT0rSkVVMBfbOugHu5dNneKwASNoh_rngGEjzePDd8Y,859
+kakaobot.py-1.1.dist-info/RECORD,,
+kakaobot.py-1.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+kakaobot.py-1.1.dist-info/top_level.txt,sha256=2qOvlPh6xxfjQ9y4DoUgPzu4vlcFnbKZJY9lqlGpHAg,9
