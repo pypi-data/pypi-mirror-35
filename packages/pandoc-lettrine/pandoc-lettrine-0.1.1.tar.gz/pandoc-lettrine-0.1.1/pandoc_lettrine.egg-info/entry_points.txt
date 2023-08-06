@@ -1,0 +1,3 @@
+[console_scripts]
+lettrine = lettrine:main
+

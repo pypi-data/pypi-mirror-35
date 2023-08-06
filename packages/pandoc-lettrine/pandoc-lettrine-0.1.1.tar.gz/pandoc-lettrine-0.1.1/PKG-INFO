@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pandoc-lettrine
+Version: 0.1.1
+Summary: A pandoc filter for lettrine (drop caps) styling.
+
+Home-page: https://github.com/tomduck/pandoc-lettrine
+Author: Thomas J. Duck
+Author-email: tomduck@tomduck.ca
+License: GPL
+Download-URL: https://github.com/tomduck/pandoc-lettrine/tarball/0.1.1
+Description: A pandoc filter for lettrine (drop caps) styling.
+        
+Keywords: pandoc lettrine drop caps filter
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
