@@ -1,0 +1,15 @@
+README.md
+setup.py
+requests_spider/Asker.py
+requests_spider/Const.py
+requests_spider/Logger.py
+requests_spider/Model.py
+requests_spider/Queue.py
+requests_spider/Spider.py
+requests_spider/__init__.py
+requests_spider.egg-info/PKG-INFO
+requests_spider.egg-info/SOURCES.txt
+requests_spider.egg-info/dependency_links.txt
+requests_spider.egg-info/not-zip-safe
+requests_spider.egg-info/requires.txt
+requests_spider.egg-info/top_level.txt
