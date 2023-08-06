@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ldaprc
+Version: 1.0.3
+Summary: Library for reading OpenLDAP settings in Python
+Home-page: https://github.com/skurfer/ldaprc
+Author: Rob McBroom
+Author-email: python-ldaprc@skurfer.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: configuration settings ldap3 ldap openldap
+Platform: UNKNOWN
