@@ -1,0 +1,12 @@
+ml/__init__.py,sha256=OcMVAO-xzPk9dO1dYS7Ca_9iDMrcTTc19xeEn1OjqGM,110
+ml/cnn_mnist.py,sha256=iZ6Qnj7ccke1ILdvXGf2fb6fpokUDDHMK8ELjsOg8vE,3731
+ml/for_blog_dnn_on_mnist_with_tf.py,sha256=cPcEBZm6a_-qaF3iv_7SMOV-PpfY4LZd7J8FGtPiXcw,1934
+ml/for_blog_gbdt_with_sklearn.py,sha256=SbdjWQvcZA3ZWUFuLhInwnF5f9YT3bhADGFXoZmVkjA,1215
+ml/for_blog_gbdt_with_tf.py,sha256=WhMjzYtufqBjaCgzrFXb0g8SNtOG6IrKQMFOFTm6La8,1484
+ml/for_blog_softmax_with_tf.py,sha256=JZzFvoe1-h5u7uu02mNhyEN7EKQCB6rN1LsEVqmCr-U,2267
+ml/ml_basics_sklearn.py,sha256=b0MaEzm8YagSUyNDUPPOpZXnyf4zZ75-BE-dZW-GRt0,2345
+ml/my_cross_val.py,sha256=n45lE1jPjIw9eJ_8Crx9vzvg2hPe3LkJ7RWaH3n9oYw,2809
+pipicat-0.0.1.dist-info/METADATA,sha256=1DagfzAFAIv0hDujLbx39y-UTfm0GFm5nFp4V--vCHc,267
+pipicat-0.0.1.dist-info/RECORD,,
+pipicat-0.0.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+pipicat-0.0.1.dist-info/top_level.txt,sha256=_vaXyYKginl-vpzs5avsdyABxjy-K0_KyvBr9RDpjIc,3
