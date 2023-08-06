@@ -1,0 +1,3 @@
+numpy
+setuptools
+sympy==1.1.1
