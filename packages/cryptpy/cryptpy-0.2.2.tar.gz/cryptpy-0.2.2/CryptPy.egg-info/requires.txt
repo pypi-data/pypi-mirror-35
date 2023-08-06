@@ -1,0 +1,4 @@
+ipgetter
+py3-rest-shell
+simplejson
+miniupnpc
