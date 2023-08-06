@@ -1,0 +1,8 @@
+include *.rst
+include *.txt
+include *.yml
+include .coveragerc
+include Makefile
+recursive-include tests *.py
+recursive-include tests *.xml
+recursive-include tests *.rml
