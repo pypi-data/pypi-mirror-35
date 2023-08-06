@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: Drapion
+Version: 0.1.0.dev0
+Summary: A Simple library to facilitate consuming web API's
+Home-page: https://github.com/giancarlopro/drapion
+Author: Giancarlo Rocha
+Author-email: giancarlorochapro@gmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
