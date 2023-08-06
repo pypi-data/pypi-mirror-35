@@ -1,0 +1,7 @@
+setup.py
+slashdot/__init__.py
+tokenx.egg-info/PKG-INFO
+tokenx.egg-info/SOURCES.txt
+tokenx.egg-info/dependency_links.txt
+tokenx.egg-info/not-zip-safe
+tokenx.egg-info/top_level.txt
