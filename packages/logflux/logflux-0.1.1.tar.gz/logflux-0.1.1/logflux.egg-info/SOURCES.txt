@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+logflux/__init__.py
+logflux/main.py
+logflux.egg-info/PKG-INFO
+logflux.egg-info/SOURCES.txt
+logflux.egg-info/dependency_links.txt
+logflux.egg-info/entry_points.txt
+logflux.egg-info/requires.txt
+logflux.egg-info/top_level.txt
+logflux.egg-info/zip-safe

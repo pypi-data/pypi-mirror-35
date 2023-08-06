@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: logflux
+Version: 0.1.1
+Summary: (r)syslog-to-influxdb translator
+Home-page: https://github.com/natefoo/logflux
+Author: Nate Coraor
+Author-email: nate@bx.psu.edu
+License: MIT
+Description: Read messages from rsyslog via a socket and send regex-parsed values to InfluxDB
+Keywords: syslog rsyslog influx influxdb grafana
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
