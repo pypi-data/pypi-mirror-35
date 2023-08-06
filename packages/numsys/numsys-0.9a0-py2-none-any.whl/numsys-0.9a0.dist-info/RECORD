@@ -1,0 +1,9 @@
+numsys/__init__.py,sha256=IzDzrcvT4o5FBoloo8HIP8D9xhH6-qS3mqGp_vSnhb8,9072
+numsys/complex_decimal.py,sha256=KS_es_idcByivXIaKoOf4E2UV1JpsjNNnc19nHIVFr0,19046
+numsys/nonstandard.py,sha256=Y9N9IUruRHusBP0Ovrhq3kXWjWRyKjxt0pqXbTcXhQc,6369
+numsys/standard.py,sha256=TLv1kJvRIyVgSPna8WGTN2V2WcxMjxbsMggMnLsg9Hc,8701
+numsys/support.py,sha256=cEYPD69VL_XNJxm3y8W9xp2pF9Y23AjJG28XbNecCqM,9515
+numsys-0.9a0.dist-info/METADATA,sha256=YpbrzBtLfiUetz9j-c94W9ZJhqxFSIlt2mQ7HfQowYw,3013
+numsys-0.9a0.dist-info/RECORD,,
+numsys-0.9a0.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+numsys-0.9a0.dist-info/top_level.txt,sha256=btRW6IiKoh5JG03ACCjplwt7oqnB6_UV4Vi0-HPJ_7A,7
