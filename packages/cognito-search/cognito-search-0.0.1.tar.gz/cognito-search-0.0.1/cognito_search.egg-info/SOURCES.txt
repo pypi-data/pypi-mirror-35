@@ -1,0 +1,11 @@
+README.md
+setup.py
+cognito_search/__init__.py
+cognito_search/__main__.py
+cognito_search/cognito_search.py
+cognito_search/version.py
+cognito_search.egg-info/PKG-INFO
+cognito_search.egg-info/SOURCES.txt
+cognito_search.egg-info/dependency_links.txt
+cognito_search.egg-info/entry_points.txt
+cognito_search.egg-info/top_level.txt

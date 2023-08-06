@@ -1,0 +1,3 @@
+[console_scripts]
+cognito-search = cognito_search.cognito_search:main
+
