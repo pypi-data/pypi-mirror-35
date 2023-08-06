@@ -1,0 +1,3 @@
+[console_scripts]
+spankins = spankins.__init__:main
+
