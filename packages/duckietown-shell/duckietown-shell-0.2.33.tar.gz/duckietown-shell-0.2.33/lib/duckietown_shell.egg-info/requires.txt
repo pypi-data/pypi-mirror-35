@@ -1,0 +1,14 @@
+GitPython
+texttable
+base58
+ecdsa
+python-dateutil
+SystemCmd
+PyContracts
+whichcraft
+termcolor
+PyYAML
+docker
+ruamel.yaml
+ruamel.ordereddict
+urllib2
