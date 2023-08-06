@@ -1,0 +1,13 @@
+hermes_python/__init__.py,sha256=Ukc_HaBwUjwUKuaR5yNyd3gP0WCKCevObBLhs6GzBOE,30
+hermes_python/hermes.py,sha256=phBI6B3f6NFrCNosw-e1kZJzgSv-tIp0wTvnneD4D7I,12243
+hermes_python/ontology.py,sha256=Ingnfjr11rOlDzszamzkr4T_zAVOc9zBHBwCinG55z8,13712
+hermes_python/dylib/libhermes_mqtt_ffi.so,sha256=qwQvUbFk76uCTdErn2DGjg3Rsv0fEgUz7IzV1VzMFiQ,6782224
+hermes_python/ffi/__init__.py,sha256=8Ats8CkLK_-K4hdhCwd_hnlr6_Jo19Qmjp8JqGzQemk,28
+hermes_python/ffi/ontology.py,sha256=3joL_d2bUpEnpWHD59QnDk6TAhZQCHYxbm32pX07yxA,5961
+hermes_python/ffi/utils.py,sha256=CeTS7wtB7UlTXARL7WyS0UbRgzBH64n6iMvvNr_oHto,2614
+hermes_python-0.1.19.dist-info/METADATA,sha256=ghh024QB6kYc673b5xnt5Gr2_UxKefHhnfv_voBbKJM,898
+hermes_python-0.1.19.dist-info/RECORD,,
+hermes_python-0.1.19.dist-info/WHEEL,sha256=E7h_NvWONoAywoiRcPgmQQYxqqC7ZkGd-t87isyR3zM,105
+hermes_python-0.1.19.dist-info/top_level.txt,sha256=QPS-eGfyHKJ2cvciUrsKE5hRNKrUa7EjKMjISiz2Tmk,20
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hermes.py,sha256=_PyemlNR3jKctcME3cfN-FTwQ8qsJX-h982BdzPHy4c,2505
