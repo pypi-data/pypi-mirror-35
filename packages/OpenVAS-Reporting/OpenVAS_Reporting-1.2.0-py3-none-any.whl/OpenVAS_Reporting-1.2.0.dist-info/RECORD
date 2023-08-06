@@ -1,0 +1,8 @@
+OpenVAS_Reporting-1.2.0.dist-info/METADATA,sha256=2qU53otBsrhFdUetBPzcusHyYE84u05S4h6pJqLDb3A,5797
+OpenVAS_Reporting-1.2.0.dist-info/RECORD,,
+OpenVAS_Reporting-1.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+OpenVAS_Reporting-1.2.0.dist-info/entry_points.txt,sha256=SZyZ1dUjXnntcuOQDMY6VWstopWa9aKxn1kXzqmSWNI,60
+OpenVAS_Reporting-1.2.0.dist-info/top_level.txt,sha256=D8LKUTJcMDVXr3pqL7jSQpNzvRSq8jukIOem5CEyvOw,17
+openvasreporting/__init__.py,sha256=K1dkBfsdoyF66NnkPAyjc6vAU0o28BkK4Q3aQQw5wlI,1908
+openvasreporting/__main__.py,sha256=zRGq3B8FegOjksDE2qcENUwfFOf5vIP4ldu_-YRxkXk,501
+openvasreporting/openvasreporting.py,sha256=AFK6YndNoMo9eC3Ov3wswIl14Q9wYHzbLwa8SkbtaWA,2513
