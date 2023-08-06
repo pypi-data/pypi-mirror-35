@@ -1,0 +1,20 @@
+examples.child_logger_main              : INFO    :  2018-08-30 17:46:00,937: Starting up... 
+examples.child_logger_main              : DEBUG   :  2018-08-30 17:46:00,937: Doing something boring with 0
+examples.child_logger_main.sub_noprop   : DEBUG   :  2018-08-30 17:46:00,937: Doing something boring with 0
+examples.child_logger_main.sub_prop     : DEBUG   :  2018-08-30 17:46:00,937: Doing something boring with 0
+examples.child_logger_main              : INFO    :  2018-08-30 17:46:00,937: Doing something special with 0
+examples.child_logger_main.sub_noprop   : INFO    :  2018-08-30 17:46:00,937: Doing something SPECIAL with 0
+examples.child_logger_main.sub_prop     : INFO    :  2018-08-30 17:46:00,937: Doing something SPECIAL with 0
+examples.child_logger_main              : DEBUG   :  2018-08-30 17:46:00,938: Doing something boring with 1
+examples.child_logger_main.sub_noprop   : DEBUG   :  2018-08-30 17:46:00,938: Doing something boring with 1
+examples.child_logger_main.sub_prop     : DEBUG   :  2018-08-30 17:46:00,938: Doing something boring with 1
+examples.child_logger_main              : INFO    :  2018-08-30 17:46:00,938: Doing something special with 1
+examples.child_logger_main.sub_noprop   : INFO    :  2018-08-30 17:46:00,938: Doing something SPECIAL with 1
+examples.child_logger_main.sub_prop     : INFO    :  2018-08-30 17:46:00,938: Doing something SPECIAL with 1
+examples.child_logger_main              : DEBUG   :  2018-08-30 17:46:00,938: Doing something boring with 2
+examples.child_logger_main.sub_noprop   : DEBUG   :  2018-08-30 17:46:00,938: Doing something boring with 2
+examples.child_logger_main.sub_prop     : DEBUG   :  2018-08-30 17:46:00,938: Doing something boring with 2
+examples.child_logger_main              : INFO    :  2018-08-30 17:46:00,938: Doing something special with 2
+examples.child_logger_main.sub_noprop   : INFO    :  2018-08-30 17:46:00,938: Doing something SPECIAL with 2
+examples.child_logger_main.sub_prop     : INFO    :  2018-08-30 17:46:00,938: Doing something SPECIAL with 2
+examples.child_logger_main              : INFO    :  2018-08-30 17:46:00,939: ... shutting down.
