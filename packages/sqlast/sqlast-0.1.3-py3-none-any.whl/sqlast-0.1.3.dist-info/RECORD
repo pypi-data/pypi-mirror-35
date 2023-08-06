@@ -1,0 +1,15 @@
+grammar/grammar.ebnf,sha256=0HEVot6_BVd54gc1T1jvtUc6SjOaqHqqiDD1wAy5UCo,1426
+sqlast/App.py,sha256=gZcqwGT7TceM5pYX_TWv5OrajrqbVFIkpMasr9Cnb-8,230
+sqlast/Cli.py,sha256=xxC9JBprLKh6XOkbMintZKSV7FZcpNluL2TH27wFN04,251
+sqlast/Grammar.py,sha256=qhBOJWFtR8oc2rxeemRGAsURZjuEUHfE8-7u9MpEDHU,170
+sqlast/Indenter.py,sha256=retVgFj8ih9DuP9mGWhVaTdKZResidSYBDlb7ro7kRg,238
+sqlast/Parser.py,sha256=xdN_DHWYs3JQdXvjcX_R6CGGKJYMXoNtvweiS8Jd6kg,1147
+sqlast/Transformer.py,sha256=6Uh8yD0hywk1kXfhn8dD_OQVg5nsv1Toj92AbAomTuo,236
+sqlast/Tree.py,sha256=dqFnuuA9I-1sEoN6kz-sILyEKU-jDJrvk-0xWd-UfKI,1158
+sqlast/Version.py,sha256=TblMI5iyHZx0JsRAGJ_8um7kNTLnH-WbAhoLb-jtAd4,42
+sqlast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlast-0.1.3.dist-info/METADATA,sha256=WCttNCTlXEmxvnp3koscXVse3zbhe7FDnoQeOP5d3E0,1497
+sqlast-0.1.3.dist-info/RECORD,,
+sqlast-0.1.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sqlast-0.1.3.dist-info/entry_points.txt,sha256=VhZxRANblh84oSktWwlrcgus-BMFyI59MCiVf99kqJo,48
+sqlast-0.1.3.dist-info/top_level.txt,sha256=hQE0_rkgZa2Hpo8Ov80iWv3e3X_FwoMAdPpPddZYO2M,15
