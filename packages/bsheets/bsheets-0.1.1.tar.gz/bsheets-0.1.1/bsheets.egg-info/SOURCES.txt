@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+bsheets/__init__.py
+bsheets/excel.py
+bsheets.egg-info/PKG-INFO
+bsheets.egg-info/SOURCES.txt
+bsheets.egg-info/dependency_links.txt
+bsheets.egg-info/requires.txt
+bsheets.egg-info/top_level.txt

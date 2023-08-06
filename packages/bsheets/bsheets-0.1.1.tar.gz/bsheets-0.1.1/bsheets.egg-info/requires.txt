@@ -1,0 +1,7 @@
+openpyxl
+cchardet
+
+[dev]
+twine
+
+[test]
