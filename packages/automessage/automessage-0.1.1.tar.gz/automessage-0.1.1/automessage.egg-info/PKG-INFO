@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: automessage
+Version: 0.1.1
+Summary: Automatic protorpc message types for ndb.Model subclasses (Google App Engine only)
+Home-page: https://github.com/romannurik/automessage
+Author: Roman Nurik
+Author-email: roman@nurik.net
+License: UNKNOWN
+Description: `automessage` is a library that helps you quickly create `protorpc`-based web services that
+        interact with `ndb` models (Google Cloud Datastore) by automatically generating `Message` classes
+        for your `ndb.Model` subclasses, along with easy serialization/deserialization.
+Keywords: Google App Engine,GAE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
