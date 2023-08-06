@@ -1,0 +1,12 @@
+setup.py
+formatting/__init__.py
+formatting/apa.py
+labels/__init__.py
+labels/apa.py
+names/__init__.py
+names/firstlast.py
+pybtex_apa_style.egg-info/PKG-INFO
+pybtex_apa_style.egg-info/SOURCES.txt
+pybtex_apa_style.egg-info/dependency_links.txt
+pybtex_apa_style.egg-info/entry_points.txt
+pybtex_apa_style.egg-info/top_level.txt
