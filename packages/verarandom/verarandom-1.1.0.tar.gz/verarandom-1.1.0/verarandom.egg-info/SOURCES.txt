@@ -1,0 +1,9 @@
+README.md
+setup.py
+verarandom/__init__.py
+verarandom/verarandom.py
+verarandom.egg-info/PKG-INFO
+verarandom.egg-info/SOURCES.txt
+verarandom.egg-info/dependency_links.txt
+verarandom.egg-info/requires.txt
+verarandom.egg-info/top_level.txt
