@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: pyraidx
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: gzxultra
+Author-email: UNKNOWN
+License: MIT License
+Description: # pyradix
+        Radix sort in Python
+        
+        ![Building](https://travis-ci.org/gzxultra/pyradix.svg?branch=master)
+Platform: UNKNOWN
