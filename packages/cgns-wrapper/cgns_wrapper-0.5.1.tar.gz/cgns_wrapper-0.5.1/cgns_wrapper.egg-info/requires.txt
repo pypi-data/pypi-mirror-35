@@ -1,0 +1,5 @@
+numpy
+setuptools
+wget
+Cython>=0.25
+future
