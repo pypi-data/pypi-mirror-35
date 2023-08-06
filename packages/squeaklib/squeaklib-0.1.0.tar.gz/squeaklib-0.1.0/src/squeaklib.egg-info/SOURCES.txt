@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/squeak/__init__.py
+src/squeak/messages.py
+src/squeak/net.py
+src/squeak/core/__init__.py
+src/squeak/core/encryption.py
+src/squeak/core/signing.py
+src/squeaklib.egg-info/PKG-INFO
+src/squeaklib.egg-info/SOURCES.txt
+src/squeaklib.egg-info/dependency_links.txt
+src/squeaklib.egg-info/not-zip-safe
+src/squeaklib.egg-info/top_level.txt
