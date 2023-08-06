@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+gensimplus/__init__.py
+gensimplus/__version__.py
+gensimplus/core.py
+gensimplus.egg-info/PKG-INFO
+gensimplus.egg-info/SOURCES.txt
+gensimplus.egg-info/dependency_links.txt
+gensimplus.egg-info/top_level.txt
