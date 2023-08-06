@@ -1,0 +1,31 @@
+0.8-1 - 07/09/2018
+
+	* Fix error installing due to a non included README file
+
+0.7-1 - 06/09/2018
+
+	* Create a new upstream signature and ensure that the whole process is rightly
+	signed and verified with the GPG signature
+
+0.6-1 - 05/09/2018
+
+	* First version of signed upstream tar
+
+0.5-1 - 05/09/2018
+
+	* Add consistency to the Debian Packaging
+
+0.4-1 - 04/09/2018
+
+	* Fix all the lintian issues as well followed good practice proposals by the Debian Mentors.
+
+0.4-0 - 22/08/2018
+
+	* Moved the sources and upstream on GitLab following the Python Git Packaging Guide.
+	* Fix bug that wasn't removing the loop device after a sucessfull image unmount. Forced.
+
+0.3-0 - 10/08/2018
+
+	* Merge of the branch 'master' from https://github.com/kanocomputing/fsdiff to the GitLab
+
+ -- Ioannis Valasakis <code@wizofe.uk>
