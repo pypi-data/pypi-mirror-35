@@ -1,0 +1,12 @@
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sakaio/__init__.py
+sakaio/sakaio.py
+sakaio.egg-info/PKG-INFO
+sakaio.egg-info/SOURCES.txt
+sakaio.egg-info/dependency_links.txt
+sakaio.egg-info/not-zip-safe
+sakaio.egg-info/top_level.txt
