@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+critswhitelist/__init__.py
+critswhitelist/critswhitelist.py
+critswhitelist.egg-info/PKG-INFO
+critswhitelist.egg-info/SOURCES.txt
+critswhitelist.egg-info/dependency_links.txt
+critswhitelist.egg-info/requires.txt
+critswhitelist.egg-info/top_level.txt
