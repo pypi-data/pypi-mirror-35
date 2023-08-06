@@ -1,0 +1,3 @@
+[console_scripts]
+m64ssb = mario_battle.main:main
+
