@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+
+# Copyright (C) 2018 Ioannis Valasakis <code@wizofe.uk>
+# Licensed under the GNU GPL-3
+# The GNU Public License can be found in `/usr/share/common-licenses/GPL-3'.
+
+# Debian Package Version
+__version__ = "0.5"
+
+import argparse
+from fsdiff.main import main
+
+
+def get_args(argv=None):
+    """ Parse command line arguments
+    and pass them to the main function of fsdiff"""
+    parser = argparse.ArgumentParser(description="fsdiff: compare two filesystems or images for file differences")
+    parser.add_argument("-v", "--version", action="version"
+                        , version="%(prog)s " + __version__ +
+                                  " Copyright (C) 2018 Ioannis Valasakis")
+    parser.add_argument("from_loc", type=str, action="store",
+                        help="filesystem or image to compare from")
+    parser.add_argument("to_loc", type=str, help="filesystem or image to compare against")
+    parser.add_argument("-x", dest="extract", help="extract a compressed image", action='store_true',
+                        default=False)
+    parser.add_argument("-i", "--img", dest="img", help="sets the comparison type to local image",
+                        action='store_true', default=False)
+    parser.add_argument("-vv", "--verbose", dest="verbose", help="set verbosity to full detail on output",
+                        action='store_true', default=False)
+
+    return parser.parse_args(argv)
+
+
+if __name__ == '__main__':
+    argvals = None
+    args = get_args(argvals)
+
+    main(args.from_loc, args.to_loc, args.img, args.extract, args.verbose)
