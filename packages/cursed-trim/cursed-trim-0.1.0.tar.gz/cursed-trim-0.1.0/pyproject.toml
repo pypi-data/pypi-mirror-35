@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "cursed-trim"
+version = "0.1.0"
+description = "Add a trim attribute to str builtin type"
+authors = ["nqrse <jerome.vlarouche@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+forbiddenfruit = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"

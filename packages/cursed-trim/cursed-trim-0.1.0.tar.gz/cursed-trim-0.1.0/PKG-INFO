@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cursed-trim
+Version: 0.1.0
+Summary: Add a trim attribute to str builtin type
+Home-page: None
+Author: nqrse
+Author-email: jerome.vlarouche@gmail.com
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: forbiddenfruit (>=0.1.2,<0.2.0)
