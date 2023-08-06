@@ -1,0 +1,31 @@
+autonomous-data-warehouse
+*************************
+
+
+Description
+===========
+
+An Oracle Autonomous Data Warehouse.
+
+**Warning:** Oracle recommends that you avoid using any confidential
+information when you supply string values using the API.
+
+
+Available Commands
+==================
+
+* create
+
+* delete
+
+* get
+
+* list
+
+* restore
+
+* start
+
+* stop
+
+* update
