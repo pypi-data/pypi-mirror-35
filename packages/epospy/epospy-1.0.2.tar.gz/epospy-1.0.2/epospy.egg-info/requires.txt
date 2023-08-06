@@ -1,0 +1,7 @@
+pytest>=2.8
+numpy>=1.13
+scipy
+matplotlib>=2.0
+astropy
+emcee
+corner
