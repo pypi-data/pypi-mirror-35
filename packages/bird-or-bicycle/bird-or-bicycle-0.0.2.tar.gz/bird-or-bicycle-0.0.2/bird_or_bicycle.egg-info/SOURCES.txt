@@ -1,0 +1,12 @@
+README.md
+setup.py
+bin/bird-or-bicycle-download
+bin/bird-or-bicycle-verify
+bird_or_bicycle.egg-info/PKG-INFO
+bird_or_bicycle.egg-info/SOURCES.txt
+bird_or_bicycle.egg-info/dependency_links.txt
+bird_or_bicycle.egg-info/requires.txt
+bird_or_bicycle.egg-info/top_level.txt
+bird_or_bicyle/__init__.py
+bird_or_bicyle/dataset.py
+bird_or_bicyle/iterator.py
