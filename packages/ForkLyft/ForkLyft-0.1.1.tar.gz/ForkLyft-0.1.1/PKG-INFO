@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: ForkLyft
+Version: 0.1.1
+Summary: Automates AWS Multi-Account and enforces naming conventions for an organization.
+Home-page: https://github.com/DjangoFett/ForkLyft
+Author: Jake Myshrall
+Author-email: jmyshrall@cvent.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
