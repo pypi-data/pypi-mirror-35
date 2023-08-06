@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+aiolimit/__init__.py
+aiolimit/aiolimit.py
+aiolimit.egg-info/PKG-INFO
+aiolimit.egg-info/SOURCES.txt
+aiolimit.egg-info/dependency_links.txt
+aiolimit.egg-info/requires.txt
+aiolimit.egg-info/top_level.txt
+test/test_aiolimit.py
+test/test_only_check_failed.py
