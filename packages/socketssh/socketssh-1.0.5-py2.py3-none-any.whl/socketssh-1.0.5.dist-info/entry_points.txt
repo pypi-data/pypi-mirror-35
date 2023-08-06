@@ -1,0 +1,3 @@
+[console_scripts]
+socketssh = socketssh.interface:main
+
