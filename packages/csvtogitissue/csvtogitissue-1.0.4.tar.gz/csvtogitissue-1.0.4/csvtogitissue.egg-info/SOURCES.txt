@@ -1,0 +1,8 @@
+README.md
+setup.py
+csvtogitissue/__init__.py
+csvtogitissue/csvtogitissue.py
+csvtogitissue.egg-info/PKG-INFO
+csvtogitissue.egg-info/SOURCES.txt
+csvtogitissue.egg-info/dependency_links.txt
+csvtogitissue.egg-info/top_level.txt
