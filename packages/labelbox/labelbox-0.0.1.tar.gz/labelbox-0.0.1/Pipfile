@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"jinja2" = "*"
+pillow = "*"
+requests = "*"
+shapely = "*"
+simplification = "*"
+rasterio = "*"
+
+[dev-packages]
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+tox = "*"
+xmltodict = "*"
+check-manifest = "*"
+mypy = "*"
+docutils = "*"
+"flake8" = "*"
+sphinx = "*"
+sphinxcontrib-napoleon = "*"
+
+[requires]
+python_version = "3.6"

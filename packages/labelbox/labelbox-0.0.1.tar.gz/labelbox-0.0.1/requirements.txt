@@ -1,0 +1,10 @@
+-i https://pypi.org/simple
+certifi==2018.8.24
+chardet==3.0.4
+idna==2.7
+jinja2==2.10
+markupsafe==1.0
+requests==2.19.1
+shapely==1.6.4.post2
+urllib3==1.23; python_version != '3.1.*'
+xmltodict==0.11.0

@@ -1,0 +1,15 @@
+jinja2
+pillow
+rasterio
+requests
+shapely
+simplification
+
+[testing]
+mypy
+numpy
+pylint
+pytest
+pytest-cov
+tox
+xmltodict
