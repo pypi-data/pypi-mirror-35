@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: avgem
+Version: 0.0.4
+Summary: Average a tabulated function to bins; Re-average them into different bins.
+Home-page: https://github.com/eelregit/avgem
+Author: Yin Li
+Author-email: eelregit@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: average binning
+Platform: UNKNOWN

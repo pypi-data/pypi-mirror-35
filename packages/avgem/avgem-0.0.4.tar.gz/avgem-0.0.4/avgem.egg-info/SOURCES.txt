@@ -1,0 +1,10 @@
+README.rst
+setup.py
+avgem/__init__.py
+avgem/avg.py
+avgem/reavg.py
+avgem.egg-info/PKG-INFO
+avgem.egg-info/SOURCES.txt
+avgem.egg-info/dependency_links.txt
+avgem.egg-info/requires.txt
+avgem.egg-info/top_level.txt
