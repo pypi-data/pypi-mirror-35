@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jobwrapper
+Version: 0.1.1
+Summary: Wrappe slurm utilies for python
+Home-page: https://github.com/antoinelpp/jobWrapper
+Author: Antoine Tavant
+Author-email: antoinetavant@hotmail.fr
+License: UNKNOWN
+Description: # jobWrapper
+        Wraps `slurm` manager commands to launch, watch and notify for HPC simulation
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
