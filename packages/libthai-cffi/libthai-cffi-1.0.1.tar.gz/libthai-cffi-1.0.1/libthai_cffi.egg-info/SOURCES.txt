@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+libthai_cffi/__init__.py
+libthai_cffi/exception.py
+libthai_cffi.egg-info/PKG-INFO
+libthai_cffi.egg-info/SOURCES.txt
+libthai_cffi.egg-info/dependency_links.txt
+libthai_cffi.egg-info/requires.txt
+libthai_cffi.egg-info/top_level.txt
+package/build_cffi.py
+test/test_break.py
+test/test_normalize.py
