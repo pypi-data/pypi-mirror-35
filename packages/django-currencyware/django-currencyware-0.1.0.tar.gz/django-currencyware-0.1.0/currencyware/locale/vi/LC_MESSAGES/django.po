@@ -1,0 +1,505 @@
+# Vietnamese translation for iso_4217.
+# Copyright © 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the iso-codes package.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2013-08-18 00:06+0100\n"
+"Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
+"Language-Team: The MOST project <du-an-most@lists.hanoilug.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "ISO_4217.AED"
+msgstr "UAE Dirham"
+
+msgid "ISO_4217.AFN"
+msgstr "Afghani"
+
+msgid "ISO_4217.ALL"
+msgstr "Lek"
+
+msgid "ISO_4217.AMD"
+msgstr "Kịch Armenia"
+
+msgid "ISO_4217.ANG"
+msgstr "Hà Lan Antillean Guilder"
+
+msgid "ISO_4217.AOA"
+msgstr "Kwanza"
+
+msgid "ISO_4217.ARS"
+msgstr "Peso Argentina"
+
+msgid "ISO_4217.AUD"
+msgstr "Đô la Úc"
+
+msgid "ISO_4217.AWG"
+msgstr "Aruban Florin"
+
+msgid "ISO_4217.AZN"
+msgstr "Đồng Manat Azerbaijan"
+
+msgid "ISO_4217.BAM"
+msgstr "Convertible Mark"
+
+msgid "ISO_4217.BBD"
+msgstr "Đô la Barbados"
+
+msgid "ISO_4217.BDT"
+msgstr "Taka"
+
+msgid "ISO_4217.BGN"
+msgstr "Lev Bungari"
+
+msgid "ISO_4217.BHD"
+msgstr "Dinar Bahrain"
+
+msgid "ISO_4217.BIF"
+msgstr "Franc Burundi"
+
+msgid "ISO_4217.BMD"
+msgstr "Đô la Bermudian"
+
+msgid "ISO_4217.BND"
+msgstr "Đô la Brunei"
+
+msgid "ISO_4217.BOB"
+msgstr "Boliviano"
+
+msgid "ISO_4217.BRL"
+msgstr "Brazil Real"
+
+msgid "ISO_4217.BSD"
+msgstr "Đô la Bahamian"
+
+msgid "ISO_4217.BTN"
+msgstr "Ngultrum"
+
+msgid "ISO_4217.BWP"
+msgstr "Pula"
+
+msgid "ISO_4217.BYR"
+msgstr "Đồng rúp của Belarus"
+
+msgid "ISO_4217.BZD"
+msgstr "Đô la Belize"
+
+msgid "ISO_4217.CAD"
+msgstr "Đô la Canada"
+
+msgid "ISO_4217.CDF"
+msgstr "Franc Congo"
+
+msgid "ISO_4217.CHF"
+msgstr "Franc Thụy Sĩ"
+
+msgid "ISO_4217.CLP"
+msgstr "Peso Chilê"
+
+msgid "ISO_4217.CNY"
+msgstr "Yuan Renminbi"
+
+msgid "ISO_4217.COP"
+msgstr "Peso Colombia"
+
+msgid "ISO_4217.CRC"
+msgstr "Colon Costa Rica"
+
+msgid "ISO_4217.CUC"
+msgstr "Peso Convertible"
+
+msgid "ISO_4217.CUP"
+msgstr "Peso Cuba"
+
+msgid "ISO_4217.CVE"
+msgstr "Cabo Verde Escudo"
+
+msgid "ISO_4217.CZK"
+msgstr "Đồng Koruna của Séc"
+
+msgid "ISO_4217.DJF"
+msgstr "Franc Djibouti"
+
+msgid "ISO_4217.DKK"
+msgstr "Krone Đan Mạch"
+
+msgid "ISO_4217.DOP"
+msgstr "Đồng Peso của Dominican"
+
+msgid "ISO_4217.DZD"
+msgstr "Dinar Algeria"
+
+msgid "ISO_4217.EGP"
+msgstr "Bảng Ai Cập"
+
+msgid "ISO_4217.ERN"
+msgstr "Nakfa"
+
+msgid "ISO_4217.ETB"
+msgstr "Birr Ethiopia"
+
+msgid "ISO_4217.EUR"
+msgstr "Euro"
+
+msgid "ISO_4217.FJD"
+msgstr "Đô la Fiji"
+
+msgid "ISO_4217.FKP"
+msgstr "Bảng đảo Falkland"
+
+msgid "ISO_4217.GBP"
+msgstr "Bảng Anh"
+
+msgid "ISO_4217.GEL"
+msgstr "Lari"
+
+msgid "ISO_4217.GHS"
+msgstr "Ghana Cedi"
+
+msgid "ISO_4217.GIP"
+msgstr "Bảng Gibraltar"
+
+msgid "ISO_4217.GMD"
+msgstr "Dalasi"
+
+msgid "ISO_4217.GNF"
+msgstr "Guinea Franc"
+
+msgid "ISO_4217.GTQ"
+msgstr "Quetzal"
+
+msgid "ISO_4217.GYD"
+msgstr "Đô la Guyana"
+
+msgid "ISO_4217.HKD"
+msgstr "Đôla Hong Kong"
+
+msgid "ISO_4217.HNL"
+msgstr "Lempira"
+
+msgid "ISO_4217.HTG"
+msgstr "Kuna"
+
+msgid "ISO_4217.HUF"
+msgstr "Gourde"
+
+msgid "ISO_4217.IDR"
+msgstr "Forint"
+
+msgid "ISO_4217.ILS"
+msgstr "Rupiah"
+
+msgid "ISO_4217.INR"
+msgstr "New Sheqel Israel"
+
+msgid "ISO_4217.IQD"
+msgstr "Rupi Ấn Độ"
+
+msgid "ISO_4217.IRR"
+msgstr "Dinar của Iraq"
+
+msgid "ISO_4217.ISK"
+msgstr "Rial Iran"
+
+msgid "ISO_4217.JMD"
+msgstr "Iceland Krona"
+
+msgid "ISO_4217.JOD"
+msgstr "Đô la Jamaica"
+
+msgid "ISO_4217.JPY"
+msgstr "Dinar Jordan"
+
+msgid "ISO_4217.KES"
+msgstr "Yên"
+
+msgid "ISO_4217.KGS"
+msgstr "Shilling Kenya"
+
+msgid "ISO_4217.KHR"
+msgstr "Som"
+
+msgid "ISO_4217.KMF"
+msgstr "Riel"
+
+msgid "ISO_4217.KPW"
+msgstr "Franc Comoro"
+
+msgid "ISO_4217.KRW"
+msgstr "Bắc Triều Tiên Won"
+
+msgid "ISO_4217.KWD"
+msgstr "Đã thắng"
+
+msgid "ISO_4217.KYD"
+msgstr "Đồng dinar Kuwait"
+
+msgid "ISO_4217.KZT"
+msgstr "Đô la Cayman Islands"
+
+msgid "ISO_4217.LAK"
+msgstr "Tenge"
+
+msgid "ISO_4217.LBP"
+msgstr "Kip"
+
+msgid "ISO_4217.LKR"
+msgstr "Bảng Lebanon"
+
+msgid "ISO_4217.LRD"
+msgstr "Đồng Rupi Sri Lanka"
+
+msgid "ISO_4217.LSL"
+msgstr "Đô la Liberia"
+
+msgid "ISO_4217.LYD"
+msgstr "Loti"
+
+msgid "ISO_4217.MAD"
+msgstr "Dinar Libya"
+
+msgid "ISO_4217.MDL"
+msgstr "Dirham Ma-rốc"
+
+msgid "ISO_4217.MGA"
+msgstr "Moldovan Leu"
+
+msgid "ISO_4217.MKD"
+msgstr "Ariary Malagasy"
+
+msgid "ISO_4217.MMK"
+msgstr "Denar"
+
+msgid "ISO_4217.MNT"
+msgstr "Kyat"
+
+msgid "ISO_4217.MOP"
+msgstr "Tugrik"
+
+msgid "ISO_4217.MRO"
+msgstr "Pataca"
+
+msgid "ISO_4217.MUR"
+msgstr "Ouguiya"
+
+msgid "ISO_4217.MVR"
+msgstr "Mauritius Rupee"
+
+msgid "ISO_4217.MWK"
+msgstr "Rufiyaa"
+
+msgid "ISO_4217.MXN"
+msgstr "Malawi Kwacha"
+
+msgid "ISO_4217.MYR"
+msgstr "Đồng peso Mexican"
+
+msgid "ISO_4217.NAD"
+msgstr "Đồng Ringgit Mã Lai"
+
+msgid "ISO_4217.NGN"
+msgstr "Mozambique Metical"
+
+msgid "ISO_4217.NIO"
+msgstr "Đô la Namibia"
+
+msgid "ISO_4217.NOK"
+msgstr "Naira"
+
+msgid "ISO_4217.NPR"
+msgstr "Cordoba Oro"
+
+msgid "ISO_4217.NZD"
+msgstr "Krone Na Uy"
+
+msgid "ISO_4217.OMR"
+msgstr "Đồng rupi của Nepal"
+
+msgid "ISO_4217.PAB"
+msgstr "Đô la New Zealand"
+
+msgid "ISO_4217.PEN"
+msgstr "Rial Omani"
+
+msgid "ISO_4217.PGK"
+msgstr "Balboa"
+
+msgid "ISO_4217.PHP"
+msgstr "Sol"
+
+msgid "ISO_4217.PKR"
+msgstr "Kina"
+
+msgid "ISO_4217.PLN"
+msgstr "Đồng Peso Philippine"
+
+msgid "ISO_4217.PYG"
+msgstr "Rupi Pakistan"
+
+msgid "ISO_4217.QAR"
+msgstr "Zloty"
+
+msgid "ISO_4217.RSD"
+msgstr "Guarani"
+
+msgid "ISO_4217.RUB"
+msgstr "Rial Qatari"
+
+msgid "ISO_4217.RWF"
+msgstr "Đồng Leu Rumani"
+
+msgid "ISO_4217.SAR"
+msgstr "Dinar Serbia"
+
+msgid "ISO_4217.SBD"
+msgstr "Đồng rúp Nga"
+
+msgid "ISO_4217.SCR"
+msgstr "Franc Rwanda"
+
+msgid "ISO_4217.SDG"
+msgstr "Saudi Riyal"
+
+msgid "ISO_4217.SEK"
+msgstr "Đô la quần đảo Solomon"
+
+msgid "ISO_4217.SGD"
+msgstr "Đồng Rupee Seychelles"
+
+msgid "ISO_4217.SHP"
+msgstr "Đồng bảng Sudan"
+
+msgid "ISO_4217.SLL"
+msgstr "Đồng curon Thụy Điển"
+
+msgid "ISO_4217.SOS"
+msgstr "Đô la Singapore"
+
+msgid "ISO_4217.SRD"
+msgstr "Saint Helena Pound"
+
+msgid "ISO_4217.SSP"
+msgstr "Leone"
+
+msgid "ISO_4217.STD"
+msgstr "Shilling Somali"
+
+msgid "ISO_4217.SVC"
+msgstr "Đô la Surinam"
+
+msgid "ISO_4217.SYP"
+msgstr "Đồng bảng Nam Sudan"
+
+msgid "ISO_4217.SZL"
+msgstr "Dobra"
+
+msgid "ISO_4217.THB"
+msgstr "El Salvador Colon"
+
+msgid "ISO_4217.TJS"
+msgstr "Đồng bảng Syria"
+
+msgid "ISO_4217.TND"
+msgstr "Lilangeni"
+
+msgid "ISO_4217.TOP"
+msgstr "Baht"
+
+msgid "ISO_4217.TRY"
+msgstr "Somoni"
+
+msgid "ISO_4217.TTD"
+msgstr "Turkmenistan New Manat"
+
+msgid "ISO_4217.TWD"
+msgstr "Dinar Tunisia"
+
+msgid "ISO_4217.TZS"
+msgstr "Pa&#39;anga"
+
+msgid "ISO_4217.UAH"
+msgstr "Lira Thổ Nhĩ Kỳ"
+
+msgid "ISO_4217.UGX"
+msgstr "Đô la Trinidad và Tobago"
+
+msgid "ISO_4217.USD"
+msgstr "Đô la Đài Loan mới"
+
+msgid "ISO_4217.UYU"
+msgstr "Shilling Tanzania"
+
+msgid "ISO_4217.UZS"
+msgstr "Hryvnia"
+
+msgid "ISO_4217.VND"
+msgstr "Uganda Shilling"
+
+msgid "ISO_4217.VUV"
+msgstr "Đô la Mỹ"
+
+msgid "ISO_4217.WST"
+msgstr "Peso Uruguayo"
+
+msgid "ISO_4217.XAF"
+msgstr "Uzbekistan Sum"
+
+msgid "ISO_4217.XAG"
+msgstr "Bolívar"
+
+msgid "ISO_4217.XAU"
+msgstr "Đồng"
+
+msgid "ISO_4217.XBA"
+msgstr "Vatu"
+
+msgid "ISO_4217.XBB"
+msgstr "Tala"
+
+msgid "ISO_4217.XBC"
+msgstr "CFA Franc BEAC"
+
+msgid "ISO_4217.XBD"
+msgstr "Bạc"
+
+msgid "ISO_4217.XCD"
+msgstr "Vàng"
+
+msgid "ISO_4217.XDR"
+msgstr "Đơn vị hỗn hợp Châu Âu (EURCO)"
+
+msgid "ISO_4217.XOF"
+msgstr "Đơn vị tiền tệ châu Âu đơn vị tiền tệ (EMU-6)"
+
+msgid "ISO_4217.XPD"
+msgstr "Đơn vị thị trường trái phiếu Đơn vị tài khoản Châu Âu 9 (EUA-9)"
+
+msgid "ISO_4217.XPF"
+msgstr "Đơn vị Tài khoản Châu Âu của Đơn vị Thị trường Châu Âu 17 (EUA-17)"
+
+msgid "ISO_4217.XPT"
+msgstr "Đô la Đông Caribê"
+
+msgid "ISO_4217.XTS"
+msgstr "SDR (Quyền vẽ đặc biệt)"
+
+msgid "ISO_4217.YER"
+msgstr "CFA Franc BCEAO"
+
+msgid "ISO_4217.ZAR"
+msgstr "Palladium"
+
+msgid "ISO_4217.ZMW"
+msgstr "Franc CFP"
+
+msgid "ISO_4217.ZWL"
+msgstr "Bạch kim"

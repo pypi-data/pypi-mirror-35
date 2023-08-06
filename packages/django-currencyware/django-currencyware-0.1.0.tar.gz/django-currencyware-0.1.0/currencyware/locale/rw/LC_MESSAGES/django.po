@@ -1,0 +1,420 @@
+# Translation of ISO 4217 (currency names) to Kinyarwanda
+# Copyright © various authors, see list below.
+# This file is distributed under the same license as the iso-codes package.
+#
+# Viateur MUGENZI <muvia@hotmail.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2004-11-15 15:00+0200\n"
+"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
+"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"Language: rw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "Idiramu UAE"
+
+msgid "ISO_4217.AFN"
+msgstr "Afugani"
+
+msgid "ISO_4217.AMD"
+msgstr "Idiramu rya Arumeniya"
+
+msgid "ISO_4217.ANG"
+msgstr "Igwilida Antiye Nederilande"
+
+msgid "ISO_4217.AOA"
+msgstr "Ikwanza ry'Angola"
+
+msgid "ISO_4217.ARS"
+msgstr "Ipezo ry'Arijantine"
+
+msgid "ISO_4217.AUD"
+msgstr "Idolari rya Ositaraliya"
+
+msgid "ISO_4217.AWG"
+msgstr "Igwilida Nyarubani"
+
+msgid "ISO_4217.AZN"
+msgstr "Imanati Nyazeribayijani"
+
+msgid "ISO_4217.BAM"
+msgstr "Amamarike Ahindurwa"
+
+msgid "ISO_4217.BBD"
+msgstr "Idolari rya Barubadosi"
+
+msgid "ISO_4217.BGN"
+msgstr "Ilevi Nyabulugariya"
+
+msgid "ISO_4217.BHD"
+msgstr "Idenari rya Bahireyini"
+
+msgid "ISO_4217.BIF"
+msgstr "Ifaranga ry'Uburundi"
+
+msgid "ISO_4217.BMD"
+msgstr "Idolari rya Berimuda"
+
+msgid "ISO_4217.BND"
+msgstr "Idorali rya Buruneyi"
+
+msgid "ISO_4217.BOB"
+msgstr "Boliviyano"
+
+msgid "ISO_4217.BRL"
+msgstr "Irili rya Burezile"
+
+msgid "ISO_4217.BSD"
+msgstr "Idolari rya Bahamasi"
+
+msgid "ISO_4217.BTN"
+msgstr "Ingulutirumu rya Butani"
+
+msgid "ISO_4217.BYR"
+msgstr "Irubule rya Belarusi"
+
+msgid "ISO_4217.BZD"
+msgstr "Idolari rya Belize"
+
+msgid "ISO_4217.CAD"
+msgstr "Idolari rya Kanada"
+
+msgid "ISO_4217.CDF"
+msgstr "Ifaranga rya Komore"
+
+msgid "ISO_4217.CHF"
+msgstr "Ifaranga ry'Ubusuwisi"
+
+msgid "ISO_4217.CLP"
+msgstr "Ipezo rya Shili"
+
+msgid "ISO_4217.CNY"
+msgstr "Iyeni Reniminibi ry'Ubushinwa"
+
+msgid "ISO_4217.COP"
+msgstr "Ipezo rya Kolombiya"
+
+msgid "ISO_4217.CRC"
+msgstr "Ikoloni rya Cosita Rika"
+
+msgid "ISO_4217.CUC"
+msgstr "Amamarike Ahindurwa"
+
+msgid "ISO_4217.CUP"
+msgstr "Ipezo rya Kiba"
+
+msgid "ISO_4217.CVE"
+msgstr "Esikudo rya Kapu Veride"
+
+msgid "ISO_4217.CZK"
+msgstr "Ikoruna rya Ceke"
+
+msgid "ISO_4217.DJF"
+msgstr "Ifaranga rya Jibuti"
+
+msgid "ISO_4217.DKK"
+msgstr "Ikorone rya Danemarike"
+
+msgid "ISO_4217.DOP"
+msgstr "Ipezo rya Dominika"
+
+msgid "ISO_4217.DZD"
+msgstr "Idenari rya Aligeriya"
+
+msgid "ISO_4217.EGP"
+msgstr "Ipawundi rya Misiri"
+
+msgid "ISO_4217.ETB"
+msgstr "Ibiri rya Etiyopiya"
+
+msgid "ISO_4217.EUR"
+msgstr "Ero"
+
+msgid "ISO_4217.FJD"
+msgstr "Idolari Fiji"
+
+msgid "ISO_4217.FKP"
+msgstr "Ipawundi by'Ibirwa bya Falukilande"
+
+msgid "ISO_4217.GBP"
+msgstr "Ipawundi Siterilingi"
+
+msgid "ISO_4217.GHS"
+msgstr "Isedi rya Gana"
+
+msgid "ISO_4217.GIP"
+msgstr "Ipawundi rya Giburalitari"
+
+msgid "ISO_4217.GMD"
+msgstr "Idalasi rya Gambiya"
+
+msgid "ISO_4217.GNF"
+msgstr "Ifaranga rya Gineya"
+
+msgid "ISO_4217.GYD"
+msgstr "Idolari rya Guyana"
+
+msgid "ISO_4217.HKD"
+msgstr "Idolari Hongo Kongo"
+
+msgid "ISO_4217.HNL"
+msgstr "Ilempira rya Hondurasi"
+
+msgid "ISO_4217.HTG"
+msgstr "Igurude rya Hayiti"
+
+msgid "ISO_4217.ILS"
+msgstr "Ishekeli rya Isirayeli"
+
+msgid "ISO_4217.INR"
+msgstr "Rupi ry'Ubuhinde"
+
+msgid "ISO_4217.IQD"
+msgstr "Idenari rya Iraki"
+
+msgid "ISO_4217.IRR"
+msgstr "Iriyali ry'Irani"
+
+msgid "ISO_4217.ISK"
+msgstr "Ikorona rya Isilande"
+
+msgid "ISO_4217.JMD"
+msgstr "Idolari rya Jamayika"
+
+msgid "ISO_4217.JOD"
+msgstr "Idenari rya Yorudaniya"
+
+msgid "ISO_4217.KES"
+msgstr "Ishilingi rya Kenya"
+
+msgid "ISO_4217.KMF"
+msgstr "Ifaranga rya Komore"
+
+msgid "ISO_4217.KPW"
+msgstr "Iwani rya Koreya y'Amajyaruguru"
+
+msgid "ISO_4217.KWD"
+msgstr "Idenari rya Koweti"
+
+msgid "ISO_4217.KYD"
+msgstr "Idolari ry'Ibirwa bya Kayimani"
+
+msgid "ISO_4217.KZT"
+msgstr "Ilewone"
+
+msgid "ISO_4217.LAK"
+msgstr "Ikipu rya Lawosi"
+
+msgid "ISO_4217.LBP"
+msgstr "Ipawundi rya Libani"
+
+msgid "ISO_4217.LKR"
+msgstr "Irupi rya Siri Lanka"
+
+msgid "ISO_4217.LRD"
+msgstr "Idolari rya Liberiya"
+
+msgid "ISO_4217.LYD"
+msgstr "Idenari rya Libiya"
+
+msgid "ISO_4217.MAD"
+msgstr "Idiramu rya Maroke"
+
+msgid "ISO_4217.MDL"
+msgstr "Ilewu rya Moludova"
+
+msgid "ISO_4217.MGA"
+msgstr "Ifaranga rya Madagasikari"
+
+msgid "ISO_4217.MOP"
+msgstr "Ipataka rya Makawo"
+
+msgid "ISO_4217.MUR"
+msgstr "Irupi ry'Ibirwa bya Morise"
+
+msgid "ISO_4217.MVR"
+msgstr "Irufiya rya Malidive"
+
+msgid "ISO_4217.MWK"
+msgstr "Ikwaca rya Malawi"
+
+msgid "ISO_4217.MXN"
+msgstr "Ipezo rya Megizike"
+
+msgid "ISO_4217.MYR"
+msgstr "Iringiti rya Maleziya"
+
+msgid "ISO_4217.NAD"
+msgstr "Idolari rya Namibiya"
+
+msgid "ISO_4217.NGN"
+msgstr "Izayire"
+
+msgid "ISO_4217.NIO"
+msgstr "Ikorudoba Oro rya Nikaragwa"
+
+msgid "ISO_4217.NOK"
+msgstr "Ikorone rya Noruveje"
+
+msgid "ISO_4217.NPR"
+msgstr "Irupi rya Nepali"
+
+msgid "ISO_4217.NZD"
+msgstr "Idolari Zelande Nshya"
+
+msgid "ISO_4217.OMR"
+msgstr "Iriyali rya Omani"
+
+msgid "ISO_4217.PHP"
+msgstr "Ipezo rya Filipine"
+
+msgid "ISO_4217.PKR"
+msgstr "Irupi rya Pakisitani"
+
+msgid "ISO_4217.PYG"
+msgstr "Ifaranga rya Gineya"
+
+msgid "ISO_4217.QAR"
+msgstr "Iriyali rya Katari"
+
+msgid "ISO_4217.RSD"
+msgstr "Idenari rya Aligeriya"
+
+msgid "ISO_4217.RUB"
+msgstr "Irubule ry'Uburusiya"
+
+msgid "ISO_4217.RWF"
+msgstr "Ifaranga ry'Urwanda"
+
+msgid "ISO_4217.SAR"
+msgstr "Iriyali ry'Arabiya Sawudite"
+
+msgid "ISO_4217.SBD"
+msgstr "Idolari ry'Ibirwa bya Salomoni"
+
+msgid "ISO_4217.SCR"
+msgstr "Irupi rya Seyishele"
+
+msgid "ISO_4217.SDG"
+msgstr "Ipawundi rya Sudani"
+
+msgid "ISO_4217.SEK"
+msgstr "Ikorona rya Swede"
+
+msgid "ISO_4217.SGD"
+msgstr "Idolari rya Singapuru"
+
+msgid "ISO_4217.SHP"
+msgstr "Ipawundi rya Mutagatifu Helena"
+
+msgid "ISO_4217.SLL"
+msgstr "Ilewone"
+
+msgid "ISO_4217.SOS"
+msgstr "Ishilingi rya Somaliya"
+
+msgid "ISO_4217.SRD"
+msgstr "Idolari rya Singapuru"
+
+msgid "ISO_4217.SSP"
+msgstr "Ipawundi rya Sudani"
+
+msgid "ISO_4217.SVC"
+msgstr "Ikoloni rya Eli Saluvadoro"
+
+msgid "ISO_4217.SYP"
+msgstr "Ipawundi rya Siriya"
+
+msgid "ISO_4217.SZL"
+msgstr "Ililangeni rya Swazilande"
+
+msgid "ISO_4217.THB"
+msgstr "Ibahiti rya Tayilande"
+
+msgid "ISO_4217.TJS"
+msgstr "Isomoni rya Tajiki"
+
+msgid "ISO_4217.TND"
+msgstr "Idenari rya Tunisiya"
+
+msgid "ISO_4217.TOP"
+msgstr "Ipanga rya Tonga"
+
+msgid "ISO_4217.TRY"
+msgstr "Ilira rya Turukiya"
+
+msgid "ISO_4217.TTD"
+msgstr "Idolari rya Tirinida na Tobago"
+
+msgid "ISO_4217.TWD"
+msgstr "Idolari rya Tayiwani Nshya"
+
+msgid "ISO_4217.TZS"
+msgstr "Ishilingi rya Tanzaniya"
+
+msgid "ISO_4217.UGX"
+msgstr "Ishilingi rya Yuganda"
+
+msgid "ISO_4217.USD"
+msgstr "Idolari rya Leta Zunze Ubumwe z'Amerika"
+
+msgid "ISO_4217.UYU"
+msgstr "Ipezo rya Irigwe"
+
+msgid "ISO_4217.UZS"
+msgstr "Isamu rya Uzubekisitani"
+
+msgid "ISO_4217.XAF"
+msgstr "Ifaranga CFA BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "Ifeza"
+
+msgid "ISO_4217.XAU"
+msgstr "Zahabu"
+
+msgid "ISO_4217.XBA"
+msgstr "Urugero Rukomatanije Nyaburayi EUROCO"
+
+msgid "ISO_4217.XBB"
+msgstr "Urugero rw'Ifaranga ry'Iburayi EUM"
+
+msgid "ISO_4217.XBC"
+msgstr "Urugero rwa konte Nyaburayi EUA"
+
+msgid "ISO_4217.XBD"
+msgstr "Urugero rwa konte Nyaburayi EUA"
+
+msgid "ISO_4217.XCD"
+msgstr "Idolari rya Karayibe y'Uburasirazuba"
+
+msgid "ISO_4217.XOF"
+msgstr "Ifaranga CFA BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "Paladiyumu"
+
+msgid "ISO_4217.XPF"
+msgstr "Ifaranga CFP"
+
+msgid "ISO_4217.XPT"
+msgstr "Pulatinumu"
+
+msgid "ISO_4217.XTS"
+msgstr "Itegekongenga ku mpamvu z'igerageza"
+
+msgid "ISO_4217.YER"
+msgstr "Iriyali rya Yemeni"
+
+msgid "ISO_4217.ZMW"
+msgstr "Ikwaca rya Malawi"
+
+msgid "ISO_4217.ZWL"
+msgstr "Idolari rya Zimbabwe"

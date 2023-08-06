@@ -1,0 +1,505 @@
+# Translation of ISO 4217 (currency names) to Thai
+# Copyright © various authors, see list below.
+# This file is distributed under the same license as the iso-codes package.
+#
+# Val Neekman <val@neekware.com>, 2018.
+# Theppitak Karoonboonyanan <theppitak@gmail.com>, 2005-2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2015-07-16 10:00+0700\n"
+"Last-Translator: Theppitak Karoonboonyanan <theppitak@gmail.com>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "ดีแรห์ม สหรัฐอาหรับเอมิเรตส์"
+
+msgid "ISO_4217.AFN"
+msgstr "อัฟกานิ"
+
+msgid "ISO_4217.ALL"
+msgstr "เลค"
+
+msgid "ISO_4217.AMD"
+msgstr "ดีแรห์ม อาร์เมเนีย"
+
+msgid "ISO_4217.ANG"
+msgstr "กิลเดอร์ เนเธอร์แลนด์แอนทิลลิส"
+
+msgid "ISO_4217.AOA"
+msgstr "ควันซา"
+
+msgid "ISO_4217.ARS"
+msgstr "เปโซ อาร์เจนตินา"
+
+msgid "ISO_4217.AUD"
+msgstr "ดอลลาร์ ออสเตรเลีย"
+
+msgid "ISO_4217.AWG"
+msgstr "กิลเดอร์ อารูบา"
+
+msgid "ISO_4217.AZN"
+msgstr "มานาท อาเซอร์ไบจาน"
+
+msgid "ISO_4217.BAM"
+msgstr "มาร์ก บอสเนียและเฮอร์เซโกวีนา"
+
+msgid "ISO_4217.BBD"
+msgstr "ดอลลาร์ บาร์เบโดส"
+
+msgid "ISO_4217.BDT"
+msgstr "ตากา"
+
+msgid "ISO_4217.BGN"
+msgstr "เลฟ บัลแกเรีย"
+
+msgid "ISO_4217.BHD"
+msgstr "ดีนาร์ บาห์เรน"
+
+msgid "ISO_4217.BIF"
+msgstr "ฟรังก์ บุรุนดี"
+
+msgid "ISO_4217.BMD"
+msgstr "ดอลลาร์ เบอร์มิวดา"
+
+msgid "ISO_4217.BND"
+msgstr "ดอลลาร์ บรูไน"
+
+msgid "ISO_4217.BOB"
+msgstr "โบลิเวียโน"
+
+msgid "ISO_4217.BRL"
+msgstr "เรียล บราซิล"
+
+msgid "ISO_4217.BSD"
+msgstr "ดอลลาร์ บาฮามาส"
+
+msgid "ISO_4217.BTN"
+msgstr "เองกัลทรัม"
+
+msgid "ISO_4217.BWP"
+msgstr "พูลา"
+
+msgid "ISO_4217.BYR"
+msgstr "รูเบิล เบลารุส"
+
+msgid "ISO_4217.BZD"
+msgstr "ดอลลาร์ เบลีซ"
+
+msgid "ISO_4217.CAD"
+msgstr "ดอลลาร์ แคนาดา"
+
+msgid "ISO_4217.CDF"
+msgstr "ฟรังก์ คองโก"
+
+msgid "ISO_4217.CHF"
+msgstr "ฟรังก์ สวิส"
+
+msgid "ISO_4217.CLP"
+msgstr "เปโซ ชิลี"
+
+msgid "ISO_4217.CNY"
+msgstr "หยวน เหรินหมินปี้"
+
+msgid "ISO_4217.COP"
+msgstr "เปโซ โคลอมเบีย"
+
+msgid "ISO_4217.CRC"
+msgstr "โคโลน คอสตาริกา"
+
+msgid "ISO_4217.CUC"
+msgstr "มาร์ก บอสเนียและเฮอร์เซโกวีนา"
+
+msgid "ISO_4217.CUP"
+msgstr "เปโซ คิวบา"
+
+msgid "ISO_4217.CVE"
+msgstr "เอสคูโด เคปเวิร์ด"
+
+msgid "ISO_4217.CZK"
+msgstr "โครูนา เช็ก"
+
+msgid "ISO_4217.DJF"
+msgstr "ฟรังก์ จิบูตี"
+
+msgid "ISO_4217.DKK"
+msgstr "โครน เดนมาร์ก"
+
+msgid "ISO_4217.DOP"
+msgstr "เปโซ โดมินิกัน"
+
+msgid "ISO_4217.DZD"
+msgstr "ดีนาร์ แอลจีเรีย"
+
+msgid "ISO_4217.EGP"
+msgstr "ปอนด์ อียิปต์"
+
+msgid "ISO_4217.ERN"
+msgstr "นาคฟา"
+
+msgid "ISO_4217.ETB"
+msgstr "เปอร์ เอธิโอเปีย"
+
+msgid "ISO_4217.EUR"
+msgstr "ยูโร"
+
+msgid "ISO_4217.FJD"
+msgstr "ดอลลาร์ ฟิจิ"
+
+msgid "ISO_4217.FKP"
+msgstr "ปอนด์ หมู่เกาะฟอล์กแลนด์"
+
+msgid "ISO_4217.GBP"
+msgstr "ปอนด์ สเตอร์ลิง"
+
+msgid "ISO_4217.GEL"
+msgstr "ลารี"
+
+msgid "ISO_4217.GHS"
+msgstr "เซดี กานา"
+
+msgid "ISO_4217.GIP"
+msgstr "ปอนด์ ยิบรอลตาร์"
+
+msgid "ISO_4217.GMD"
+msgstr "ดาลาซี"
+
+msgid "ISO_4217.GNF"
+msgstr "ฟรังก์ กินี"
+
+msgid "ISO_4217.GTQ"
+msgstr "เก็ตซาล"
+
+msgid "ISO_4217.GYD"
+msgstr "ดอลลาร์ กายอานา"
+
+msgid "ISO_4217.HKD"
+msgstr "ดอลลาร์ ฮ่องกง"
+
+msgid "ISO_4217.HNL"
+msgstr "เลมพีรา ฮอนดูรัส"
+
+msgid "ISO_4217.HTG"
+msgstr "กอร์ด"
+
+msgid "ISO_4217.HUF"
+msgstr "ฟอรินท์"
+
+msgid "ISO_4217.IDR"
+msgstr "รูเปีย"
+
+msgid "ISO_4217.ILS"
+msgstr "เชคเกิล อิสราเอล"
+
+msgid "ISO_4217.INR"
+msgstr "รูปี อินเดีย"
+
+msgid "ISO_4217.IQD"
+msgstr "ดีนาร์ อิรัก"
+
+msgid "ISO_4217.IRR"
+msgstr "เรียล อิหร่าน"
+
+msgid "ISO_4217.ISK"
+msgstr "โครนา ไอซ์แลนด์"
+
+msgid "ISO_4217.JMD"
+msgstr "ดอลลาร์ จาเมกา"
+
+msgid "ISO_4217.JOD"
+msgstr "ดีนาร์ จอร์แดน"
+
+msgid "ISO_4217.JPY"
+msgstr "เยน"
+
+msgid "ISO_4217.KES"
+msgstr "ชิลลิง เคนยา"
+
+msgid "ISO_4217.KGS"
+msgstr "ซอม"
+
+msgid "ISO_4217.KHR"
+msgstr "เรียล กัมพูชา"
+
+msgid "ISO_4217.KMF"
+msgstr "ฟรังก์ คอโมโรส"
+
+msgid "ISO_4217.KPW"
+msgstr "วอน เกาหลีเหนือ"
+
+msgid "ISO_4217.KRW"
+msgstr "วอน เกาหลีใต้"
+
+msgid "ISO_4217.KWD"
+msgstr "ดีนาร์ คูเวต"
+
+msgid "ISO_4217.KYD"
+msgstr "ดอลลาร์ หมู่เกาะเคย์แมน"
+
+msgid "ISO_4217.KZT"
+msgstr "เทงเก"
+
+msgid "ISO_4217.LAK"
+msgstr "กีบ"
+
+msgid "ISO_4217.LBP"
+msgstr "ปอนด์ เลบานอน"
+
+msgid "ISO_4217.LKR"
+msgstr "รูปี ศรีลังกา"
+
+msgid "ISO_4217.LRD"
+msgstr "ดอลลาร์ ไลบีเรีย"
+
+msgid "ISO_4217.LSL"
+msgstr "โลตี"
+
+msgid "ISO_4217.LYD"
+msgstr "ดีนาร์ ลิเบีย"
+
+msgid "ISO_4217.MAD"
+msgstr "ดีแรห์ม โมร็อกโก"
+
+msgid "ISO_4217.MDL"
+msgstr "ลิว มอลโดวา"
+
+msgid "ISO_4217.MGA"
+msgstr "อเรียรี มาดากัสการ์"
+
+msgid "ISO_4217.MKD"
+msgstr "ดีนาร์ มาซิโดเนีย"
+
+msgid "ISO_4217.MMK"
+msgstr "จัต"
+
+msgid "ISO_4217.MNT"
+msgstr "ทูกริค"
+
+msgid "ISO_4217.MOP"
+msgstr "พาทากา"
+
+msgid "ISO_4217.MRO"
+msgstr "อูกุยยา"
+
+msgid "ISO_4217.MUR"
+msgstr "รูปี มอริเชียส"
+
+msgid "ISO_4217.MVR"
+msgstr "รูฟียา"
+
+msgid "ISO_4217.MWK"
+msgstr "ควาซา แซมเบีย"
+
+msgid "ISO_4217.MXN"
+msgstr "เปโซ เม็กซิโก"
+
+msgid "ISO_4217.MYR"
+msgstr "ริงกิต มาเลเซีย"
+
+msgid "ISO_4217.NAD"
+msgstr "ดอลลาร์ นามิเบีย"
+
+msgid "ISO_4217.NGN"
+msgstr "ไนรา"
+
+msgid "ISO_4217.NIO"
+msgstr "คอร์โดบา"
+
+msgid "ISO_4217.NOK"
+msgstr "โครน นอร์เวย์"
+
+msgid "ISO_4217.NPR"
+msgstr "รูปี เนปาล"
+
+msgid "ISO_4217.NZD"
+msgstr "ดอลลาร์ นิวซีแลนด์"
+
+msgid "ISO_4217.OMR"
+msgstr "เรียล โอมาน"
+
+msgid "ISO_4217.PAB"
+msgstr "บัลโบอา"
+
+msgid "ISO_4217.PEN"
+msgstr "ซอม"
+
+msgid "ISO_4217.PGK"
+msgstr "คีนา"
+
+msgid "ISO_4217.PHP"
+msgstr "เปโซ ฟิลิปปินส์"
+
+msgid "ISO_4217.PKR"
+msgstr "รูปี ปากีสถาน"
+
+msgid "ISO_4217.PLN"
+msgstr "สล็อตตี"
+
+msgid "ISO_4217.PYG"
+msgstr "กวารานี"
+
+msgid "ISO_4217.QAR"
+msgstr "เรียล กาตาร์"
+
+msgid "ISO_4217.RSD"
+msgstr "ดีนาร์ เซอร์เบีย"
+
+msgid "ISO_4217.RUB"
+msgstr "รูเบิล รัสเซีย"
+
+msgid "ISO_4217.RWF"
+msgstr "ฟรังก์ รวันดา"
+
+msgid "ISO_4217.SAR"
+msgstr "ริยัล ซาอุดีอาระเบีย"
+
+msgid "ISO_4217.SBD"
+msgstr "ดอลลาร์ หมู่เกาะโซโลมอน"
+
+msgid "ISO_4217.SCR"
+msgstr "รูปี เซเชลส์"
+
+msgid "ISO_4217.SDG"
+msgstr "ปอนด์ ซูดาน"
+
+msgid "ISO_4217.SEK"
+msgstr "โครนา สวีเดน"
+
+msgid "ISO_4217.SGD"
+msgstr "ดอลลาร์ สิงคโปร์"
+
+msgid "ISO_4217.SHP"
+msgstr "ปอนด์ เซนต์เฮเลนา"
+
+msgid "ISO_4217.SLL"
+msgstr "ลีโอน"
+
+msgid "ISO_4217.SOS"
+msgstr "ชิลลิง โซมาเลีย"
+
+msgid "ISO_4217.SRD"
+msgstr "ดอลลาร์ ซูรินาเม"
+
+msgid "ISO_4217.SSP"
+msgstr "ปอนด์ ซูดาน"
+
+msgid "ISO_4217.STD"
+msgstr "โดบรา"
+
+msgid "ISO_4217.SVC"
+msgstr "โคโลน เอลซัลวาดอร์"
+
+msgid "ISO_4217.SYP"
+msgstr "ปอนด์ ซีเรีย"
+
+msgid "ISO_4217.SZL"
+msgstr "ลิลอนเกนี"
+
+msgid "ISO_4217.THB"
+msgstr "บาท"
+
+msgid "ISO_4217.TJS"
+msgstr "โซโมนิ"
+
+msgid "ISO_4217.TND"
+msgstr "ดีนาร์ ตูนิเซีย"
+
+msgid "ISO_4217.TOP"
+msgstr "พาอานกา ตองกา"
+
+msgid "ISO_4217.TRY"
+msgstr "ลีร์ ตุรกี"
+
+msgid "ISO_4217.TTD"
+msgstr "ดอลลาร์ ตรินิแดดและโตเบโก"
+
+msgid "ISO_4217.TWD"
+msgstr "ดอลลาร์ ไต้หวัน"
+
+msgid "ISO_4217.TZS"
+msgstr "ชิลลิง แทนซาเนีย"
+
+msgid "ISO_4217.UAH"
+msgstr "รีฟเนีย"
+
+msgid "ISO_4217.UGX"
+msgstr "ชิลลิง ยูกันดา"
+
+msgid "ISO_4217.USD"
+msgstr "ดอลลาร์ สหรัฐ"
+
+msgid "ISO_4217.UYU"
+msgstr "เปโซ อุรุกวัย"
+
+msgid "ISO_4217.UZS"
+msgstr "โซม อุซเบกิสถาน"
+
+msgid "ISO_4217.VND"
+msgstr "ดอง"
+
+msgid "ISO_4217.VUV"
+msgstr "วาตู"
+
+msgid "ISO_4217.WST"
+msgstr "ทาลา"
+
+msgid "ISO_4217.XAF"
+msgstr "ฟรังก์ ซีเอฟเอ บีอีเอซี"
+
+msgid "ISO_4217.XAG"
+msgstr "เงิน"
+
+msgid "ISO_4217.XAU"
+msgstr "ทองคำ"
+
+msgid "ISO_4217.XBA"
+msgstr "อียูอาร์ซีโอ"
+
+msgid "ISO_4217.XBB"
+msgstr "อีเอ็มยู 6"
+
+msgid "ISO_4217.XBC"
+msgstr "บัญชี อียู 9"
+
+msgid "ISO_4217.XBD"
+msgstr "บัญชี อียู 17"
+
+msgid "ISO_4217.XCD"
+msgstr "ดอลลาร์ แคริบเบียนตะวันออก"
+
+msgid "ISO_4217.XDR"
+msgstr "สิทธิพิเศษถอนเงิน"
+
+msgid "ISO_4217.XOF"
+msgstr "ฟรังก์ ซีเอฟเอ บีซีอีเอโอ"
+
+msgid "ISO_4217.XPD"
+msgstr "แพลเลเดียม"
+
+msgid "ISO_4217.XPF"
+msgstr "ฟรังก์ ซีเอฟพี"
+
+msgid "ISO_4217.XPT"
+msgstr "แพลทินัม"
+
+msgid "ISO_4217.XTS"
+msgstr "รหัสสำหรับทดสอบ"
+
+msgid "ISO_4217.YER"
+msgstr "เรียล เยเมน"
+
+msgid "ISO_4217.ZAR"
+msgstr "แรนด์"
+
+msgid "ISO_4217.ZMW"
+msgstr "ควาซา แซมเบีย"
+
+msgid "ISO_4217.ZWL"
+msgstr "ดอลลาร์ ซิมบับเว"

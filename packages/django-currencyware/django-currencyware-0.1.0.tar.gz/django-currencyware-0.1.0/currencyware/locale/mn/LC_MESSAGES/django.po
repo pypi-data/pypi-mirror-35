@@ -1,0 +1,418 @@
+# Translation of ISO 4217 (currency names) to Mongolian
+# Copyright © various authors, see list below.
+# This file is distributed under the same license as the iso-codes package.
+#
+# Alastair McKinstry <mckinstry@computer.org>, 2003.
+# Badral Sanlig <badral@chinggis.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_4217\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
+"PO-Revision-Date: 2003-02-21 13:34+0000\n"
+"Last-Translator: Badral Sanlig <badral@chinggis.com>\n"
+"Language-Team: Mongolian <mn@li.org>\n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ISO_4217.AED"
+msgstr "UAE Дирхам"
+
+msgid "ISO_4217.AFN"
+msgstr "Афган"
+
+msgid "ISO_4217.AMD"
+msgstr "Армен Драм"
+
+msgid "ISO_4217.ANG"
+msgstr "Недэрланд Антиллиан Гүйлдэр"
+
+msgid "ISO_4217.AOA"
+msgstr "Ангол Кванза"
+
+msgid "ISO_4217.ARS"
+msgstr "Аргентин Писо"
+
+msgid "ISO_4217.AUD"
+msgstr "Австрали Доллар"
+
+msgid "ISO_4217.AWG"
+msgstr "Арубан Гүйлдэр"
+
+msgid "ISO_4217.AZN"
+msgstr "Азарбайжан Манат"
+
+msgid "ISO_4217.BAM"
+msgstr "Хөрвөх Марк"
+
+msgid "ISO_4217.BBD"
+msgstr "Барбадос Доллар"
+
+msgid "ISO_4217.BGN"
+msgstr "Болгар Лев"
+
+msgid "ISO_4217.BHD"
+msgstr "Бахрайн Динар"
+
+msgid "ISO_4217.BIF"
+msgstr "Бурунди Франк"
+
+msgid "ISO_4217.BMD"
+msgstr "Бермудиан Доллар"
+
+msgid "ISO_4217.BND"
+msgstr "Бруней Доллар"
+
+msgid "ISO_4217.BOB"
+msgstr "Боливиано"
+
+msgid "ISO_4217.BRL"
+msgstr "Бразил Реал"
+
+msgid "ISO_4217.BSD"
+msgstr "Бахамай Доллар"
+
+msgid "ISO_4217.BTN"
+msgstr "Бутан Нгултрум"
+
+msgid "ISO_4217.BYR"
+msgstr "Беларусс Рубль"
+
+msgid "ISO_4217.BZD"
+msgstr "Белиз Доллар"
+
+msgid "ISO_4217.CAD"
+msgstr "Канад Доллар"
+
+msgid "ISO_4217.CDF"
+msgstr "Коморо Франк"
+
+msgid "ISO_4217.CHF"
+msgstr "Швецарь Франк"
+
+msgid "ISO_4217.CLP"
+msgstr "Чили Писо"
+
+msgid "ISO_4217.CNY"
+msgstr "Хятад Юан"
+
+msgid "ISO_4217.COP"
+msgstr "Колумб Писо"
+
+msgid "ISO_4217.CRC"
+msgstr "Коста Рика Колон"
+
+msgid "ISO_4217.CUC"
+msgstr "Хөрвөх Марк"
+
+msgid "ISO_4217.CUP"
+msgstr "Куба Писо"
+
+msgid "ISO_4217.CVE"
+msgstr "Кап Верде Эскудо"
+
+msgid "ISO_4217.CZK"
+msgstr "Чех Крон"
+
+msgid "ISO_4217.DJF"
+msgstr "Жиботи Франк"
+
+msgid "ISO_4217.DKK"
+msgstr "Дани Крон"
+
+msgid "ISO_4217.DOP"
+msgstr "Доминикан Писо"
+
+msgid "ISO_4217.DZD"
+msgstr "Алжир Динар"
+
+msgid "ISO_4217.EGP"
+msgstr "Египт Фунт"
+
+msgid "ISO_4217.ETB"
+msgstr "Этоп Бирр"
+
+msgid "ISO_4217.EUR"
+msgstr "Евро"
+
+msgid "ISO_4217.FJD"
+msgstr "Фижи Доллар"
+
+msgid "ISO_4217.FKP"
+msgstr "Фалкланд Исланд Фунт"
+
+msgid "ISO_4217.GBP"
+msgstr "Фунт Стерлинг"
+
+msgid "ISO_4217.GHS"
+msgstr "Гана Цеди"
+
+msgid "ISO_4217.GIP"
+msgstr "Гибралтар Фунт"
+
+msgid "ISO_4217.GMD"
+msgstr "Гамби Даласи"
+
+msgid "ISO_4217.GNF"
+msgstr "Гуинеа Франк"
+
+msgid "ISO_4217.GYD"
+msgstr "Гуана Доллар"
+
+msgid "ISO_4217.HKD"
+msgstr "Хонг Конг Доллар"
+
+msgid "ISO_4217.HNL"
+msgstr "Гондурас Лемпира"
+
+msgid "ISO_4217.HTG"
+msgstr "Хайт Гоурдэ"
+
+msgid "ISO_4217.ILS"
+msgstr "Израйл Шекел"
+
+msgid "ISO_4217.INR"
+msgstr "Энэтхэг Рупээ"
+
+msgid "ISO_4217.IQD"
+msgstr "Ирак Динар"
+
+msgid "ISO_4217.IRR"
+msgstr "Иран Риал"
+
+msgid "ISO_4217.ISK"
+msgstr "Исланд Крон"
+
+msgid "ISO_4217.JMD"
+msgstr "Ямайк Доллар"
+
+msgid "ISO_4217.JOD"
+msgstr "Иордан Динар"
+
+msgid "ISO_4217.KES"
+msgstr "Кени Шиллинг"
+
+msgid "ISO_4217.KMF"
+msgstr "Коморо Франк"
+
+msgid "ISO_4217.KPW"
+msgstr "Хойд солонгос Вон"
+
+msgid "ISO_4217.KWD"
+msgstr "Кувейт Динар"
+
+msgid "ISO_4217.KYD"
+msgstr "Кауман Исланд Доллар"
+
+msgid "ISO_4217.KZT"
+msgstr "Лионэ"
+
+msgid "ISO_4217.LAK"
+msgstr "Лао Кип"
+
+msgid "ISO_4217.LBP"
+msgstr "Либаны Фунт"
+
+msgid "ISO_4217.LKR"
+msgstr "Шири Ланка Рупээ"
+
+msgid "ISO_4217.LRD"
+msgstr "Либери Доллар"
+
+msgid "ISO_4217.LYD"
+msgstr "Либ Динар"
+
+msgid "ISO_4217.MAD"
+msgstr "Морокко Дирхам"
+
+msgid "ISO_4217.MDL"
+msgstr "Молдав Леу"
+
+msgid "ISO_4217.MGA"
+msgstr "Малайз Франк"
+
+msgid "ISO_4217.MOP"
+msgstr "Макао Патака"
+
+msgid "ISO_4217.MUR"
+msgstr "Мавритиус Рупээ"
+
+msgid "ISO_4217.MVR"
+msgstr "Малдив Рифияа"
+
+msgid "ISO_4217.MWK"
+msgstr "Малави Кваха"
+
+msgid "ISO_4217.MXN"
+msgstr "Мексик Писо"
+
+msgid "ISO_4217.MYR"
+msgstr "Малайз Ринггит"
+
+msgid "ISO_4217.NAD"
+msgstr "Намби Доллар"
+
+msgid "ISO_4217.NIO"
+msgstr "Никрагуа Кордоба Оро"
+
+msgid "ISO_4217.NOK"
+msgstr "Норвег Крон"
+
+msgid "ISO_4217.NPR"
+msgstr "Непал Рупээ"
+
+msgid "ISO_4217.NZD"
+msgstr "Шинэ зеланд Доллар"
+
+msgid "ISO_4217.OMR"
+msgstr "Риал Омани"
+
+msgid "ISO_4217.PHP"
+msgstr "Флиппин Писо"
+
+msgid "ISO_4217.PKR"
+msgstr "Пакистан Рупээ"
+
+msgid "ISO_4217.PYG"
+msgstr "Гуинеа Франк"
+
+msgid "ISO_4217.QAR"
+msgstr "Кватар Риял"
+
+msgid "ISO_4217.RSD"
+msgstr "Алжир Динар"
+
+msgid "ISO_4217.RUB"
+msgstr "Орос Рубль"
+
+msgid "ISO_4217.RWF"
+msgstr "Рванда Франк"
+
+msgid "ISO_4217.SAR"
+msgstr "Сауди Риял"
+
+msgid "ISO_4217.SBD"
+msgstr "Соломон Исланд Доллар"
+
+msgid "ISO_4217.SCR"
+msgstr "Сеухеллэс Рупээ"
+
+msgid "ISO_4217.SDG"
+msgstr "Либаны Фунт"
+
+msgid "ISO_4217.SEK"
+msgstr "Швед Крон"
+
+msgid "ISO_4217.SGD"
+msgstr "Сингапур Доллар"
+
+msgid "ISO_4217.SHP"
+msgstr "Сайнт Хелэн Фунт"
+
+msgid "ISO_4217.SLL"
+msgstr "Лионэ"
+
+msgid "ISO_4217.SOS"
+msgstr "Сомали Шиллинг"
+
+msgid "ISO_4217.SRD"
+msgstr "Сингапур Доллар"
+
+msgid "ISO_4217.SSP"
+msgstr "Либаны Фунт"
+
+msgid "ISO_4217.SVC"
+msgstr "Эл Салвадор Колон"
+
+msgid "ISO_4217.SYP"
+msgstr "Сири Фунт"
+
+msgid "ISO_4217.SZL"
+msgstr "Швецарь Лиланжени"
+
+msgid "ISO_4217.THB"
+msgstr "Тай Бахт"
+
+msgid "ISO_4217.TJS"
+msgstr "Тажик Сомони"
+
+msgid "ISO_4217.TND"
+msgstr "Тунис Динар"
+
+msgid "ISO_4217.TOP"
+msgstr "Тонга Паанга"
+
+msgid "ISO_4217.TRY"
+msgstr "Турк Лира"
+
+msgid "ISO_4217.TTD"
+msgstr "Тринидад ба Тобаго Доллар"
+
+msgid "ISO_4217.TWD"
+msgstr "Шинэ Тайван Доллар"
+
+msgid "ISO_4217.TZS"
+msgstr "Тазан Шиллинг"
+
+msgid "ISO_4217.UGX"
+msgstr "Уганда Шиллинг"
+
+msgid "ISO_4217.USD"
+msgstr "АНУ Доллар"
+
+msgid "ISO_4217.UYU"
+msgstr "Писо Уругвай"
+
+msgid "ISO_4217.UZS"
+msgstr "Узбекстан Сум"
+
+msgid "ISO_4217.XAF"
+msgstr "CFA Франк BEAC"
+
+msgid "ISO_4217.XAG"
+msgstr "Мөнгө"
+
+msgid "ISO_4217.XAU"
+msgstr "Алт"
+
+msgid "ISO_4217.XBA"
+msgstr "Европын нийлмэл нэгж EURCO"
+
+msgid "ISO_4217.XBB"
+msgstr "Европын мөнгөний нэгж EUM"
+
+msgid "ISO_4217.XBC"
+msgstr "Европын дансны нэгж EUA"
+
+msgid "ISO_4217.XBD"
+msgstr "Европын дансны нэгж EUA"
+
+msgid "ISO_4217.XCD"
+msgstr "Зүүн Карибын Доллар"
+
+msgid "ISO_4217.XOF"
+msgstr "CFA Франк BCEAO"
+
+msgid "ISO_4217.XPD"
+msgstr "Палладиум"
+
+msgid "ISO_4217.XPF"
+msgstr "CFP Франк"
+
+msgid "ISO_4217.XPT"
+msgstr "Платин"
+
+msgid "ISO_4217.XTS"
+msgstr "Тестлэх зорилгын код"
+
+msgid "ISO_4217.YER"
+msgstr "Иеман Риал"
+
+msgid "ISO_4217.ZMW"
+msgstr "Малави Кваха"
+
+msgid "ISO_4217.ZWL"
+msgstr "Замбабив Доллар"
