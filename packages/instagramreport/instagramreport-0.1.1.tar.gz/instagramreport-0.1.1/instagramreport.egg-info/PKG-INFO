@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: instagramreport
+Version: 0.1.1
+Summary: App for creating an Instagram Business account performance report (in spanish)
+Home-page: https://github.com/corvalanlara/
+Author: Daniel Corvalán
+Author-email: corvalanlara@protonmail.com
+License: UNKNOWN
+Description: # Social Media Report
+        
+        Pequeño programa para generar un documento .docx con datos relevantes para juzgar el desempeño de una cuenta de empresa de Instagram y/o de una fanpage de Facebook. Ambas cuentas deben estar vinculadas previamente.
+        
+        ## Uso
+        
+        El programa requiere entregar un token de acceso a la fanpage de Facebook asociada a la cuenta de Instagram. Para ello es necesario crear una cuenta en Facebook for developers (http://developers.facebook.com).
+        
+         
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
