@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: tupak
+Version: 0.2.2
+Summary: The User friendly Parameter estimAtion Kode
+Home-page: https://git.ligo.org/Monash/tupak
+Author: Greg Ashton, Moritz Huebner, Paul Lasky, Colm Talbot
+Author-email: paul.lasky@monash.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: future
+Requires-Dist: dynesty
+Requires-Dist: corner
+Requires-Dist: numpy (>=1.9)
+Requires-Dist: matplotlib (>=2.0)
+Requires-Dist: deepdish
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+|pipeline status| |coverage report|
+
+Tupak
+=====
+
+Fulfilling all your gravitational wave dreams.
+
+-  `Installation
+   instructions <https://monash.docs.ligo.org/tupak/installation.html>`__
+-  `Documentation <https://monash.docs.ligo.org/tupak/index.html>`__.
+-  `Issue tracker <https://git.ligo.org/Monash/tupak/issues>`__
+
+We encourage you to contribute to the development via a merge request.  For
+help in creating a merge request, see `this page
+<https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html>`__ or contact
+us directly.
+
+.. |pipeline status| image:: https://git.ligo.org/Monash/tupak/badges/master/pipeline.svg
+   :target: https://git.ligo.org/Monash/tupak/commits/master
+.. |coverage report| image:: https://monash.docs.ligo.org/tupak/coverage_badge.svg
+   :target: https://monash.docs.ligo.org/tupak/htmlcov/
+
+
