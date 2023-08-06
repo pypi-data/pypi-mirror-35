@@ -1,0 +1,11 @@
+aioftp/__init__.py,sha256=YzVDK6dJhhtggnQtsy93hL1Q5sVq98ManKJSKMrHRMc,387
+aioftp/__main__.py,sha256=B61docMaY9JtG8R3oZS-TbWLAMj1ihaKw__t2l-R5Mc,2244
+aioftp/client.py,sha256=p4fxuU0aswnvJs1o2giMNXU-AZsJwx1Sbw_zOe1QVGY,35450
+aioftp/common.py,sha256=yvYcbD8nbg7NoNoGc-Nep71f4pcHPd9aIOVdEQFLmwc,15448
+aioftp/errors.py,sha256=JxwWZpHJwu2t7LucOf0wl8thSzZa_mrAK7GxHi-psO4,2246
+aioftp/pathio.py,sha256=pkYd6j_LTZzw-0E9g6sx7IlRuep9la-1m2L_67awCwQ,22372
+aioftp/server.py,sha256=0bsFyryrn3W9XFXFylky7jE1BNxutaSRgRkinzOCG6g,52018
+aioftp-0.11.1.dist-info/METADATA,sha256=U_xSJIV9rBtLGt5mcsholx-FxNyzRwnCyLo5dbuXRUk,4708
+aioftp-0.11.1.dist-info/RECORD,,
+aioftp-0.11.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+aioftp-0.11.1.dist-info/top_level.txt,sha256=tBEQiAE5sB1CdYUrzWynGna8dV_OHRzkGUJiZ2IcAn0,7
