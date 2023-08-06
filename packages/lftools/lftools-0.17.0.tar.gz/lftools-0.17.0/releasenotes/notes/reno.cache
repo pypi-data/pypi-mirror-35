@@ -1,0 +1,120 @@
+---
+file-contents:
+  releasenotes/notes/debug-e80d591d478e69cc.yaml:
+    features: ['Add a new ``--debug`` flag to enable extra troubleshooting information.
+
+        This flag can also be set via environment variable ``DEBUG=True``.
+
+        ']
+  releasenotes/notes/docs-cad1f396741b9526.yaml:
+    fixes: ['Fix broken openstack and sign help command output in docs.
+
+        ']
+  releasenotes/notes/jenkins-25629106553ebbd5.yaml:
+    features: ['Add support to the **jenkins** command to parse ``jenkins_jobs.ini``
+        for
+
+        configuration if **server** parameter passed is not a URL.
+
+        ']
+  releasenotes/notes/jenkins-c247796de6390391.yaml:
+    features: ['Add a **jobs** sub-command to **jenkins** command to enable or disable
+        Jenkins
+
+        Jobs that match a regular expression.
+
+        ']
+  releasenotes/notes/ldap-b50f699fc066890f.yaml:
+    fixes: ['The v0.16.0 pulled in a new ldap module which breaks if the ldap devel
+
+        libraries are not available on the system trying to use it. This hotfix
+
+        makes the ldap module optional.
+
+        ']
+  releasenotes/notes/ldap-info-017df79c3c8f9585.yaml:
+    features: ["$ lftools ldap\n\nUsage: lftools ldap [OPTIONS] COMMAND [ARGS]...\n\
+        \n.. code-block:: none\n\n   Commands:\n     autocorrectinfofile  Verify INFO.yaml\
+        \ against LDAP group.\n     csv                  Query an Ldap server.\n \
+        \    inactivecommitters   Check committer participation.\n     yaml4info \
+        \           Build yaml of commiters for your INFO.yaml.\n", "$ lftools infofile\n\
+        \n.. code-block:: none\n\n   Commands:\n     get-committers   Extract Committer\
+        \ info from INFO.yaml or LDAP...\n     sync-committers  Sync committer information\
+        \ from LDAP into...\n"]
+  releasenotes/notes/logger-1aa26520f6d39fcb.yaml:
+    deprecations: ['Remove support for modifying the logger via logging.ini. It was
+        a good idea
+
+        but in practice this is not really used and adds extra complexity to
+
+        lftools.
+
+        ']
+  releasenotes/notes/logger-c53984ef7b1da53f.yaml:
+    other: ['Enhance logger subsystem to work better as a CLI program. This is a first
+
+        step to migrating all lftools subsystems to use the logger instead of print
+
+        statements everywhere.
+
+        ']
+  releasenotes/notes/openstack-stack-08f643f16b75bfb8.yaml:
+    features: ['Add stack command.
+
+        https://jira.linuxfoundation.org/browse/RELENG-235
+
+        ', 'Add stack create sub-command.
+
+        https://jira.linuxfoundation.org/browse/RELENG-235
+
+
+        Usage: lftools openstack stack create NAME TEMPLATE_FILE PARAMETER_FILE
+
+        ', 'Add stack delete sub-command.
+
+        https://jira.linuxfoundation.org/browse/RELENG-235
+
+
+        Usage: lftools openstack stack create NAME
+
+        ']
+    prelude: 'Add new stack command feature to allow creation and deletion of stacks
+      using lftools.
+
+      Usage: lftools openstack stack create|delete <params>
+
+      '
+notes:
+- files:
+  - - releasenotes/notes/jenkins-25629106553ebbd5.yaml
+    - !!binary |
+      NTRjMGJkYjA4OTYzODQxZWVjZDAxY2M4MTZkNDg1ZDE1ZjFlOWRlMQ==
+  - - releasenotes/notes/jenkins-c247796de6390391.yaml
+    - !!binary |
+      N2QyYjE1NWZmNzhkNTJhOTRhZGE5NDljZjg1ZmZkMTc1MTJjYmM0NQ==
+  - - releasenotes/notes/logger-c53984ef7b1da53f.yaml
+    - !!binary |
+      NGVkZjQ1OTE2MWZhZWFlYmUxNjE0ZmYxNmYxODEwMWYwNzg1YWRjNg==
+  - - releasenotes/notes/openstack-stack-08f643f16b75bfb8.yaml
+    - !!binary |
+      MGE1OTQyMjk5ZjgzYWFhNzRkYTNiZjFmZGY5ODVkNDAwM2NlMzBmMw==
+  version: v0.17.0
+- files:
+  - - releasenotes/notes/ldap-b50f699fc066890f.yaml
+    - !!binary |
+      M2E0MDllMTViNWFkMTY3MTU1MjVmYzg2YWQxNjNmNjFiODkwNjQ1Zg==
+  version: v0.16.1
+- files:
+  - - releasenotes/notes/debug-e80d591d478e69cc.yaml
+    - !!binary |
+      MjM4MGI0ZTA1NmM1NGIwMjU4YmZmYTQzOTcyZmJjMTcxYjRhZjQ4MQ==
+  - - releasenotes/notes/docs-cad1f396741b9526.yaml
+    - !!binary |
+      MzIyNzVmZDJlNTFlNzU5YjRiMmM0YzRiNWY2YzZlYTRiYWFmZmE2Yw==
+  - - releasenotes/notes/ldap-info-017df79c3c8f9585.yaml
+    - !!binary |
+      NGQ3Y2UyOTUxMjFlMTY2ZjJmYjE4NDE3YWNkOGY1MTkzZDRiMzgyYw==
+  - - releasenotes/notes/logger-1aa26520f6d39fcb.yaml
+    - !!binary |
+      MjhmYzU3MDg0ZDIyZGQ5NmRiMTQ5MDY5NjY2ZTk0NWIwMzliNDc0YQ==
+  version: v0.16.0
