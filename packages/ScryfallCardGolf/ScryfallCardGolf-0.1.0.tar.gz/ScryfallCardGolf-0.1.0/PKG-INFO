@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ScryfallCardGolf
+Version: 0.1.0
+Summary: Facilitate the Scryfall Card Golf games!
+Home-page: https://github.com/zeldazach/scryfallcardgolf
+Author: Zach Halpern
+Author-email: zahalpern+pypi@gmail.com
+License: GPL-3.0
+Description: # ScryfallCardGolf
+        Card Golf: Get a set of two random cards in as few characters as possible
+        
+        Every day, a randomly selected pair of cards will be posted to Twitter. You then need to use [ScryFall](https://scryfall.com)'s search feature to get only the two specified cards as the return results. The catch is to do this in as few characters as possible AND without using an 'or' modifier (whether it be the word 'or' or a regex '|' operator)
+        
+        You can check out all the contests, winners, and responses via the twitter hashtag [#ScryfallCardGolf](https://twitter.com/search?f=tweets&vertical=default&q=ScryfallCardGolf&src=typd). Feel free to join along!!
+        
+Keywords: Magic: The Gathering,MTG,JSON,Card Games,Collectible,Trading Cards
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown

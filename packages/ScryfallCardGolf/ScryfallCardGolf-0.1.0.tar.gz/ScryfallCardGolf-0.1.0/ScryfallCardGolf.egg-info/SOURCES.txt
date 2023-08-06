@@ -1,0 +1,10 @@
+README.md
+scryfallcardgolf.properties
+setup.py
+ScryfallCardGolf/__init__.py
+ScryfallCardGolf/card_golf.py
+ScryfallCardGolf.egg-info/PKG-INFO
+ScryfallCardGolf.egg-info/SOURCES.txt
+ScryfallCardGolf.egg-info/dependency_links.txt
+ScryfallCardGolf.egg-info/requires.txt
+ScryfallCardGolf.egg-info/top_level.txt
