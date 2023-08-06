@@ -1,0 +1,12 @@
+page_scrapers/__init__.py,sha256=Mlm4Gvmb_6yQxwUbv2Ksc-BJFXLPg9H1Vt2iV7wXrA4,22
+page_scrapers/roman_numerals.py,sha256=6gJnt8G1BmzLxxTOWh0THAdDtrbxZOPXhlZEXcDj0PA,1177
+page_scrapers/wikipedia.py,sha256=ETDgHzC1alHd4bwR7U8yRz3O9z6kbYEqFej7tnJj0ck,5552
+page_scrapers/wikipedia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+page_scrapers/wikipedia/scraper.py,sha256=r07tWgFFyEeRv_GF8OYdWMZnT07IySksHeoXxUPGVH4,6035
+page_scrapers/wikipedia/filters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+page_scrapers/wikipedia/filters/base.py,sha256=KWh1v_GYiFRYSC-G47aRrKozRbBuqTKJiDgWZPmayqI,2768
+page_scrapers/wikipedia/filters/film.py,sha256=0AYGeQf_Xoadjat97Y-NYLkpx6-xWbyNnZMsrWm7LYU,284
+page_scrapers-1.2.1.dist-info/METADATA,sha256=7hlTO_-cK5DeOmy-ZChFBkmSj_PTxsKZOf6qvegM9nU,1186
+page_scrapers-1.2.1.dist-info/RECORD,,
+page_scrapers-1.2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+page_scrapers-1.2.1.dist-info/top_level.txt,sha256=TKLrkYcxcRq4okYy9cislv4QbLsv9stpGyHGOy9T7mI,14
