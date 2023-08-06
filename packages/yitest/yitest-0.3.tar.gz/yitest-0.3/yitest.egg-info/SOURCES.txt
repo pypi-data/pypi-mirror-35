@@ -1,0 +1,7 @@
+setup.py
+yitest/__init__.py
+yitest.egg-info/PKG-INFO
+yitest.egg-info/SOURCES.txt
+yitest.egg-info/dependency_links.txt
+yitest.egg-info/not-zip-safe
+yitest.egg-info/top_level.txt
