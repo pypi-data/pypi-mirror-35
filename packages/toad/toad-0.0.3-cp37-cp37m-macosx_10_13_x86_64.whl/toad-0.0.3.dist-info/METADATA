@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: toad
+Version: 0.0.3
+Summary: python utils for detect data
+Home-page: UNKNOWN
+Author: Secbone
+Author-email: secbone@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: cython
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: sklearn
+
+# 数据探查工具
+
+[![Pypi version][pypi-image]][pypi-url]
+[![Build Status][travis-image]][travis-url]
+[![Version][version-image]][version-url]
+
+ESC Team 数据探查工具合集
+### 环境配置
+```
+未安装vc++的，先通过该链接https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15下载vc安装工具，
+下载好后点击安装，安装过程中根据显示的勾选需要安装的组件vc++生产工具和旁边的可选中的C++/CLI支持即可，然后重启电脑。
+```
+## Install
+
+```
+make install
+```
+or
+```
+python setup.py install
+```
+
+## Usage
+
+```
+import detector
+
+
+data = pd.read_csv('test.csv')
+
+detector.detect(data)
+
+detect.quality(data, target = 'TARGET', iv_only = True)
+
+detect.IV(feature, target, method = 'dt', min_samples = 0.1)
+```
+
+## Documents
+
+working...
+
+[npm-image]: https://img.shields.io/pypi/v/toad.svg?style=flat-square
+[npm-url]: https://pypi.org/project/toad/
+[version-image]: https://img.shields.io/pypi/pyversions/toad.svg?style=flat-square
+[version-url]: https://pypi.org/project/toad/
+[travis-image]: https://img.shields.io/travis/Secbone/toad/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/Secbone/toad
+
+

@@ -1,0 +1,8 @@
+toad/__init__.py,sha256=EgmNbEOs0AWxboM6fWOaD7urW8Zg0TCklLNVLqsrVWw,164
+toad/detector.py,sha256=UqCK4DPWqJ6YVylGfhvAVY3-N3cq-dqmoimwSbdKm6c,4114
+toad/merge.cpython-37m-darwin.so,sha256=Uc6ngeGTP5fOugoigsO1z70xT5srsODpdPHRr6yQzYY,226696
+toad/utils.cpython-37m-darwin.so,sha256=x1W6HukEejdSoWw5WhTKD51ha1ZiSUl-_m9cTRiTyls,225560
+toad-0.0.3.dist-info/METADATA,sha256=RONPENI4wVqj7ksgZlrkO3ZmreqVulaxB1SYVp5hyG0,1583
+toad-0.0.3.dist-info/RECORD,,
+toad-0.0.3.dist-info/WHEEL,sha256=LKgIB7mcdH5tS4Fbr9iatkFt-G5yvCrYWM614rC9JZE,111
+toad-0.0.3.dist-info/top_level.txt,sha256=9K8YWnYbjxSnRVWtXAhxWzYlfmM1qbOrNQvAobxIDG4,5
