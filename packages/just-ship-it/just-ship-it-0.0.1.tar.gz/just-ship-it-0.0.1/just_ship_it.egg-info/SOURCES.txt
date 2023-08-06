@@ -1,0 +1,8 @@
+README.md
+just_ship_it.py
+setup.py
+just_ship_it.egg-info/PKG-INFO
+just_ship_it.egg-info/SOURCES.txt
+just_ship_it.egg-info/dependency_links.txt
+just_ship_it.egg-info/requires.txt
+just_ship_it.egg-info/top_level.txt
