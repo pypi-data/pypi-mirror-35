@@ -1,0 +1,3 @@
+[console_scripts]
+gentool = src.cli:gentool
+
