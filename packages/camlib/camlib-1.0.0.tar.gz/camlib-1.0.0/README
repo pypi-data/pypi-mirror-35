@@ -1,0 +1,14 @@
+
+
+How to deliver a new version
+============================
+
+- Adjust version in setup.py
+- commit
+git tag -a release-<version> <commit>
+git push origin release-<version>
+
+rm -rf dist
+python setup.py sdist
+twine upload --repository testpypi dist/*
+
