@@ -1,0 +1,9 @@
+pycmds/__init__.py,sha256=VOeADofRHzh4QqnbapS9Hz5fldkMJCmtX0PnLbG5oqk,522
+pycmds/completer.py,sha256=ID1tXw26rew0Az5bp-lSzUodkxunUw6f-HUSgHGJ2BE,9030
+pycmds/core.py,sha256=bn5Oxi_XqIEMxkCgOZd1W1rjpaXWoia-bqkDhhovKNw,5243
+pycmds/extratypes.py,sha256=NUZ0MFVaG1imSD2sTnQ5cLIii_y5YfDyV4lgOkfn-uA,8421
+pycmds/utils.py,sha256=A6ZS-e6RrjDVx2yNaTArJyOZkGZwyzmMIE6J8vkwLNM,4623
+pycmds-1.0.1.dist-info/METADATA,sha256=_EbLiVCWzA0lTByeIFkYQzSZs6m4A3VU2AAmSm3hqG4,1996
+pycmds-1.0.1.dist-info/RECORD,,
+pycmds-1.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pycmds-1.0.1.dist-info/top_level.txt,sha256=dA8Q9GrjHHtDotsPygDg1vkEBXJ5xffuPY3iFQFuNqQ,7
