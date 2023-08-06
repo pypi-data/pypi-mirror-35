@@ -1,0 +1,4 @@
+[console_scripts]
+ob-icons = openbases.cli.icons:main
+ob-paper = openbases.cli.paper:main
+
