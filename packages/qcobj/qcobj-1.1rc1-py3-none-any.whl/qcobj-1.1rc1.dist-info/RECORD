@@ -1,0 +1,10 @@
+qcobj/__init__.py,sha256=m_aLNuNAu3pAFyIG5576Ip6tglgykltNDFe0722usQE,22
+qcobj/cfggui.py,sha256=JSEyjw7d8IEDP9w4Uya5XjuM2cW_oXrp1AbrvK2ddvg,26552
+qcobj/qconfigobj.py,sha256=3rQRLfis3zpPOFlgz0fX8ntFCa9uX5Ow0LkfGMzCnDc,44209
+qcobj/qtCompat.py,sha256=HwHUXIzYgefmBvjFT6zYesnGVRBqDgJgCzxNufO4Zdk,3293
+qcobj-1.1rc1.dist-info/DESCRIPTION.rst,sha256=hhrpU-NEuPafYaZpAbnH844yaSZdhfd_4ys3YGFBUhs,822
+qcobj-1.1rc1.dist-info/METADATA,sha256=_fvXKRPlKltWV9rhg4X-agGz_1EudifR1AYMAS41ME0,1450
+qcobj-1.1rc1.dist-info/RECORD,,
+qcobj-1.1rc1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+qcobj-1.1rc1.dist-info/metadata.json,sha256=dZ4R7pVfCmlMC9njW55D0uz_Kek_YvBRDNMTiFUTyqo,766
+qcobj-1.1rc1.dist-info/top_level.txt,sha256=5nM6rpQyZVhdpVfZ5LXT5H0E3FAjceYYwLW75FPWVoM,6
