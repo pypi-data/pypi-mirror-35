@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+calysto_hy/__init__.py
+calysto_hy/__main__.py
+calysto_hy/kernel.py
+calysto_hy/version.py
+calysto_hy.egg-info/PKG-INFO
+calysto_hy.egg-info/SOURCES.txt
+calysto_hy.egg-info/dependency_links.txt
+calysto_hy.egg-info/requires.txt
+calysto_hy.egg-info/top_level.txt
