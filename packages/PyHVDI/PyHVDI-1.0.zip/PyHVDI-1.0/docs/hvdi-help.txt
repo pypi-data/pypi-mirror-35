@@ -1,0 +1,432 @@
+Help on package hvdi:
+
+NAME
+    hvdi
+
+DESCRIPTION
+    HawkVoice Direct Interface (HVDI) cross platform network voice library
+    Copyright (C) 2001-2004 Phil Frisbie, Jr. (phil@hawksoft.com)
+    
+    This is Python ctypes bindings for HawkVoiceDI
+    Copyright (C) 2018 by Dalen Bernaca
+                          dbernaca@gmail.com
+    
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Library General Public
+    License as published by the Free Software Foundation; either
+    version 2 of the License, or (at your option) any later version.
+    
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+    
+    You should have received a copy of the GNU Library General Public
+    License along with this library; if not, write to the
+    Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+    Boston, MA  02111-1307, USA.
+    
+    Or go to http://www.gnu.org/copyleft/lgpl.html
+    
+    The disclaimer above applies both to the HawkVoiceDI C part and the Python bindings as well.
+
+CTYPES FUNCTIONS
+    AGC(LP_hvdi_agc agc, LP_c_short buffer, c_long len)
+     |  void AGC(hvdi_agc *agc, short *buffer, int len)
+     |    Performs the AGC function on buffer. AGC is adjusted 10 times per second.
+    
+    c_long AuthenticatePacket(LP_c_ubyte _in, c_long buflen, LP_hcrypt_key key)
+     |  int AuthenticatePacket(unsigned char *in, int buflen, hcrypt_key *key)
+     |    Using key, compares the MD5 hash with the last 4 bytes of in. If they match it
+     |    returns 1, otherwise it returns 0. Make sure you either discard or do not use
+     |    the last 4 bytes of the packet since they were added by SignPacket.
+    
+    c_ubyte DecStateGetCodec(LP_hvdi_dec_state state)
+     |  unsigned char DecStateGetCodec(hvdi_dec_state *state)
+     |    Get the codec that is being used for decoding.
+    
+    DecryptPacket(LP_c_ubyte _in, LP_c_ubyte out, c_long buflen, LP_hcrypt_key key)
+     |  void DecryptPacket(unsigned char *in, unsigned char *out, int buflen,
+     |                           hcrypt_key *key)
+     |    Decrypts a packet from in to out. buflen is the number of bytes to decrypt.
+     |    in and out may be the same buffer.
+    
+    DecryptStream(LP_c_ubyte _in, LP_c_ubyte out, c_long buflen, LP_hcrypt_key key)
+     |  void DecryptStream(unsigned char *in, unsigned char *out, int buflen,
+     |                           hcrypt_key *key)
+     |    Decrypts a byte stream from in to out. buflen is the number of bytes to decrypt.
+     |    This should only be used for files, TCP streams, or other reliable streams.
+     |    in and out may be the same buffer.
+    
+    DeleteAGC(LP_hvdi_agc agc)
+     |  void DeleteAGC(hvdi_agc *agc)
+     |    Delete the hvdi_agc object.
+    
+    DeleteDecState(LP_hvdi_dec_state state)
+     |  void DeleteDecState(hvdi_dec_state *state)
+     |    Frees a decoder state.
+    
+    DeleteEncState(LP_hvdi_enc_state state)
+     |  void DeleteEncState(hvdi_enc_state *state)
+     |    Frees an encoder state.
+    
+    DeleteKey(LP_hcrypt_key key)
+     |  void DeleteKey(hcrypt_key *key)
+     |    Deletes the key.
+    
+    DeleteRate(LP_hvdi_rate rate)
+     |  void DeleteRate(hvdi_rate *rate)
+     |    Delete the hvdi_rate object.
+    
+    DeleteSalt(LP_hcrypt_salt salt)
+     |  void DeleteSalt(hcrypt_salt *salt)
+     |    Deletes the salt.
+    
+    DeleteVOX(LP_hvdi_vox vox)
+     |  void DeleteVOX(hvdi_vox *vox)
+     |    Delete the hvdi_vox object.
+    
+    c_long EncStateSetCodec(LP_hvdi_enc_state state, c_ubyte codec)
+     |  int EncStateSetCodec(hvdi_enc_state *state, unsigned char codec)
+     |    Sets the codec for the encoder state. You must call this before you attempt
+     |    to encode a voice packet. You can call this at ANY time to change your
+     |    encoder codec. It returns either the buffer frame size the codec requires,
+     |    or NL_INVALID if an error occurred. The buffer can be a multiple of the
+     |    frame size and a frame size of '0' means any EVEN buffer size can be used.
+     |    For example, the GSM codec will return a frame size of 160, so a buffer of
+     |    800 samples would be valid and encode 1/10 of a second of sound.
+    
+    EncryptPacket(LP_c_ubyte _in, LP_c_ubyte out, c_long buflen, LP_hcrypt_key key)
+     |  void EncryptPacket(unsigned char *in, unsigned char *out, int buflen,
+     |                           hcrypt_key *key)
+     |    Encrypts a packet from in to out. buflen is the number of bytes to encrypt.
+     |    in and out may be the same buffer.
+    
+    EncryptStream(LP_c_ubyte _in, LP_c_ubyte out, c_long buflen, LP_hcrypt_key key)
+     |  void EncryptStream(unsigned char *in, unsigned char *out, int buflen,
+     |                           hcrypt_key *key)
+     |    Encrypts a byte stream from in to out. buflen is the number of bytes to encrypt.
+     |    This should only be used for files, TCP streams, or other reliable streams.
+     |    in and out may be the same buffer.
+    
+    Hint(c_long name, c_long arg)
+     |  void Hint(int name, int arg)
+     |    The first three change the encoding performance/quality of some codecs.
+     |
+     |               codec |      GSM LPT_CUT     CELP_CODEBOOK_LEN   CELP_FAST_GAIN
+     |  -----------------------------------------------------------------------------
+     |    option           |
+     |  --------------------
+     |  NORMAL        |          No               256                 No
+     |
+     |  FAST          |         Yes               128                Yes
+     |
+     |  FASTEST       |         Yes                32                Yes
+     |
+     |
+     |
+     |    CELP_CODEBOOK directly sets the CELP codebook length from 32 to 256.
+     |
+     |    SEQUENCE enables/disables sequence numbers added to packets. To disable,
+     |    arg = 0, to enable (default), arg != 0. The sequence adds 2 bytes to each packet.
+     |
+     |    AUTO_VOX enables/disables automatic VOX processing inside PacketEncode().
+     |    To disable (default), arg = 0, to enable, arg != 0. If COMFORT_NOISE is
+     |    enabled then PacketEncode() will create silence packets when the VOX does not
+     |    pass, otherwise PacketEncode() will return 0.
+     |
+     |    VOX_LEVEL sets the VOX level when AUTO_VOX is enabled. Valid range is
+     |    0 to 1000, and the default 300.
+     |
+     |    VOX_SPEED sets the VOX speed when AUTO_VOX is enabled. Default VOX_FAST.
+     |
+     |    COMFORT_NOISE enables/disables silence packets when AUTO_VOX is enabled
+     |    when encoding, and enables/disables comfort noise when decoding.
+     |
+     |    NOISE_LEVEL sets the comfort noise level when COMFORT_NOISE is enabled.
+     |    Valid range 0 to 1000, default 100.
+    
+    Mix(LP_c_short outbuf, LP_LP_c_short inbuf, c_long number, c_long inlen)
+     |  void Mix(short *outbuf, short **inbuf, int number, int inlen)
+     |    Mixes two or more buffers into outbuf. inbuf is an array of pointers to
+     |    the inbuf buffers, number is the number of inbuf buffers, and inlen is
+     |    the number of samples in each inbuf buffer.
+    
+    LP_hvdi_agc NewAGC(c_float level)
+     |  hvdi_agc* NewAGC(float level)
+     |    Create a new hvdi_agc object. level is the percent of max volume for the
+     |    sound buffer. The valid range is 0.5f to 1.0f, but the recomended
+     |    range is 0.8f to 0.95f. At 1.0f, some clipping might be experienced.
+    
+    LP_hvdi_dec_state NewDecState()
+     |  hvdi_dec_state* NewDecState(void)
+     |    Creates a decoder state. You must create a decoder state for each incoming
+     |    voice stream.
+    
+    LP_hvdi_enc_state NewEncState()
+     |  hvdi_enc_state* NewEncState(void)
+     |    Creates an encoder state. You must create one encoder state to encode your
+     |    out going voice stream. For each encoder state you MUST set the codec with
+     |    EncStateSetCodec().
+    
+    LP_hcrypt_key NewKey(String password, LP_hcrypt_salt salt)
+     |  hcrypt_key* NewKey(const char *password, const hcrypt_salt* salt)
+     |    Creates an encryption key from a password and an optional salt. Both the
+     |    sender and receiver must use the same password and optional salt to create
+     |    the key. The salt is created by hcryptNewSalt and sent to each
+     |    client. If salt is None then only the password will be used to create the key,
+     |    and it will be easier for a hacker to use a dictionary attack.
+    
+    LP_hvdi_rate NewRate(c_long inrate, c_long outrate)
+     |  hvdi_rate* NewRate(int inrate, int outrate)
+     |    Create a hvdi_rate object for the sample rates supplied. Sample rates
+     |    are in samples per second.
+    
+    LP_hcrypt_salt NewSalt()
+     |  hcrypt_salt* NewSalt(void)
+     |    Creates a salt value (or salt for short) that can be used with NewKey()
+     |    to create hacker resistant keys. The hcrypt_salt is an array of 16 unsigned
+     |    bytes (128 bits). The creator of the salt must send it to the other clients
+     |    so that they may use it along with the password to create the key.
+    
+    LP_hvdi_vox NewVOX(c_long voxspeed, c_long noisethreshold)
+     |  hvdi_vox* NewVOX(int voxspeed, int noisethreshold)
+     |    Create a new hvdi_vox object. voxspeed is the number of samples of silence
+     |    before hvdiVOX returns 0(false), and noisethreshold is an int between
+     |    0(always pass) to 1000(never pass). 300 is a good starting point.
+    
+    c_long PacketDecode(LP_c_ubyte packet, c_long packlen, LP_c_short buffer, c_long buflen, LP_hcrypt_key key, LP_hvdi_dec_state state)
+     |  int PacketDecode(unsigned char *packet, int paclen, short *buffer,
+     |                         int buflen, hcrypt_key *key, hvdi_dec_state *state)
+     |    Decrypts and decodes a voice packet into buffer. It returns the number of
+     |    samples in buffer, or NL_FALSE if an error occured. buflen is the number of
+     |    decoded short voice samples that can be written to buffer, it is NOT the
+     |    length in bytes. Note that it will drop UDP packets that are out of order.
+     |    If key is not None, it will be used to decrypt and validate the packet.
+    
+    c_long PacketEncode(LP_c_ubyte packet, c_long packlen, LP_c_short buffer, c_long buflen, LP_hcrypt_key key, LP_hvdi_enc_state state)
+     |  int hvdiPacketEncode(unsigned char *packet, int paclen, short *buffer,
+     |                         int buflen, hcrypt_key *key, hvdi_enc_state *state)
+     |    Encodes and encrypts buffer into a voice packet. Buflen is the number of
+     |    voice samples in buffer. It returns the size of the encoded packet in bytes.
+     |    If key is not None, it will be used to encrypt and validate the packet.
+    
+    c_long PacketIsVoice(LP_c_ubyte packet, c_long length)
+     |  int PacketIsVoice(unsigned char *packet, int length)
+     |    Checks for a valid voice packet. Returns NL_TRUE is packet is valid, otherwise
+     |    returns NL_FALSE.
+    
+    RateFlow(LP_hvdi_rate rate, LP_c_short inbuf, LP_c_short outbuf, LP_c_long inlen, LP_c_long outlen)
+     |  void RateFlow(hvdi_rate *rate, short *inbuf, short *outbuf, int *inlen,
+     |                      int *outlen)
+     |    Resamples inbuf to outbuf. inlen and outlen are updated with the actual
+     |    number of samples processed. Note that inlen may return less than the
+     |    length of inbuf, so you may need to save several samples to add to the
+     |    beginning of the next buffer.
+    
+    SignPacket(LP_c_ubyte _in, c_long buflen, LP_hcrypt_key key)
+     |  void SignPacket(unsigned char *in, int buflen, hcrypt_key *key)
+     |    Using key, appends a 4 byte MD5 hash to the end of in. You MUST make sure
+     |    that it is long enough to store 4 more bytes, and make sure you add 4 bytes
+     |    to buflen after the call!
+    
+    c_long VOX(LP_hvdi_vox vox, LP_c_short buffer, c_long buflen)
+     |  int VOX(hvdi_vox *vox, short *buffer, int buflen)
+     |    Process a voice buffer with VOX, or voice activated transmission. It
+     |    returns 1 if the buffer should be sent, or 0 if it is silent (or at least
+     |    unvoiced).
+
+CTYPES STRUCTURES
+    structure BF_KEY
+        A BlowFish key structure. Used privately in hcrypt_key structure.
+        Not really relevant as part of the API as there is no need
+        for a developer to access it or its attributes directly.
+    
+        FIELDS
+         |  BF_KEY.P = c_ulong_Array_18
+         |  BF_KEY.S = c_ulong_Array_1024
+    
+    structure hcrypt_key
+        A structure that holds a key for packet encryption/decryption.
+        Use the hvdi.crypt.NewKey() function to get its properly initialized
+        and usable instance, and hvdi.crypt.DeleteKey() to remove it from memory.
+        There is no need for a developer to access any of its attributes directly,
+        just to pass its instance as an argument to:
+        hvdi.crypt.[EncryptPacket(), DecryptPacket(), SignPacket(), AuthenticatePacket()] and
+        to some more functions of the same nature, and possibly to the higher level
+        interface class hvdi.crypt.Key().
+    
+        FIELDS
+         |  hcrypt_key.bf = BF_KEY
+         |  hcrypt_key.iv = c_ubyte_Array_8
+         |  hcrypt_key.digest = c_ubyte_Array_16
+         |  hcrypt_key.n = c_long
+    
+    structure hcrypt_salt
+        A structure that holds a salt for packet encryption/decryption.
+        It is used in the key creation by the
+        hvdi.crypt.NewKey() function or possibly by the higher level
+        interface class hvdi.crypt.Key().
+        Use the hvdi.crypt.NewSalt() function to get its properly initialized
+        and usable instance, and hvdi.crypt.DeleteSalt() to remove it from memory.
+        As the salt is necessary on the receiving end of encrypted packets,
+        along with the password, to recreate the decryption key,
+        a developer can extract its 16-byte value from hcrypt_salt's
+        single attribute data. Also, the structure may be manually initialized
+        and filled on the receiving end to pass it to the
+        hvdi.crypt.NewKey() function by setting the said data attribute.
+    
+        FIELDS
+         |  hcrypt_salt.data = c_ubyte_Array_16
+    
+    structure hvdi_agc
+        A structure used to hold AGC information.
+        Use hvdi.hvdi.NewAGC() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteAGC() to remove it from memory.
+        It is used by the hvdi.hvdi.AGC() function and
+        there is generally no need for a developer to access
+        any of its attributes directly.
+    
+        FIELDS
+         |  hvdi_agc.sample_max = c_ulong
+         |  hvdi_agc.counter = c_long
+         |  hvdi_agc.igain = c_long
+         |  hvdi_agc.ipeak = c_long
+         |  hvdi_agc.silence_counter = c_long
+    
+    structure hvdi_dec_state
+        A structure representing the decoder state.
+        Use hvdi.hvdi.NewDecState() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteDecState() to remove it from memory.
+        It is used by the hvdi.hvdi.PacketDecode() function and its codec
+        attribute can be checked via the hvdi.hvdi.DecStateGetCodec().
+        There is generally no need for a developer to access its attributes directly.
+    
+        FIELDS
+         |  hvdi_dec_state.codec = c_ubyte
+         |  hvdi_dec_state.sequence = c_ushort
+         |  hvdi_dec_state.state = c_void_p
+    
+    structure hvdi_enc_state
+        A structure representing the encoder state.
+        Use hvdi.hvdi.NewEncState() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteEncState() to remove it from memory.
+        It is used by the hvdi.hvdi.PacketEncode() function and changed
+        via the hvdi.hvdi.EncStateSetCodec().
+        There is generally no need for a developer to access its attributes directly.
+    
+        FIELDS
+         |  hvdi_enc_state.codec = c_ubyte
+         |  hvdi_enc_state.sequence = c_ushort
+         |  hvdi_enc_state.state = c_void_p
+         |  hvdi_enc_state.vox = LP_hvdi_vox
+    
+    structure hvdi_rate
+        A structure used to hold rate information.
+        Use hvdi.hvdi.NewRate() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteRate() to remove it from memory.
+        It is used by the hvdi.hvdi.RateFlow() function and
+        there is generally no need for a developer to access
+        any of its attributes directly.
+    
+        FIELDS
+         |  hvdi_rate.lcmrate = c_long
+         |  hvdi_rate.inskip = c_long
+         |  hvdi_rate.outskip = c_long
+         |  hvdi_rate.total = c_long
+         |  hvdi_rate.intot = c_long
+         |  hvdi_rate.outtot = c_long
+         |  hvdi_rate.lastsamp = c_long
+    
+    structure hvdi_state
+        A structure used privately in hvdi_enc_state and hvdi_dec_state structures
+        to hold the state's properties. There is generally no need
+        for a developer to access it or its attributes directly.
+    
+        FIELDS
+         |  hvdi_state.gsm_lpt = c_long
+         |  hvdi_state.celp_codebook = c_long
+         |  hvdi_state.celp_fast_gain = c_long
+         |  hvdi_state.sequence = c_long
+         |  hvdi_state.autoVOX = c_long
+         |  hvdi_state.VOXlevel = c_long
+         |  hvdi_state.VOXspeed = c_long
+         |  hvdi_state.comfortnoise = c_long
+         |  hvdi_state.noiselevel = c_long
+    
+    structure hvdi_vox
+        A structure used to hold VOX information.
+        Use hvdi.hvdi.NewVOX() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteVOX() to remove it from memory.
+        It is used by the hvdi.hvdi.VOX() function and
+        there is generally no need for a developer to access
+        any of its attributes directly.
+    
+        FIELDS
+         |  hvdi_vox.rate = c_long
+         |  hvdi_vox.noisethreshold = c_long
+         |  hvdi_vox.samplecount = c_long
+
+PYTHON FUNCTIONS
+    codec(c)
+        Simplifies usage of the codec constants.
+        c may be a constant number of the codec or the codec's name as returned by list_codecs() function
+        or any of longer versions from CODECS dictionary.
+        The function is case insensitive.
+        The returned value is the constant and the existance
+        of the codec is always checked.
+        Raises the KeyError() if the codec does not exist.
+    
+    list_codecs lambda
+        Lists all possible shortened codec names.
+
+DATA
+    ADPCM_32_CODEC = 4
+    AUTO_VOX = 6
+    CELP_2_3_CODEC = 10
+    CELP_3_0_CODEC = 9
+    CELP_4_5_CODEC = 8
+    CELP_CODEBOOK = 4
+    CODECS = {'13_2K': 3, '13_2K_CODEC': 3, '1_4K': 6, '1_4K_CODEC': 6, '1...
+    COMFORT_NOISE = 9
+    FAST = 2
+    FASTEST = 3
+    GSM_CODEC = 3
+    G_711_CODEC = 5
+    HV_13_2K_CODEC = 3
+    HV_1_4K_CODEC = 6
+    HV_1_8K_CODEC = 7
+    HV_2_3K_CODEC = 10
+    HV_2_4K_CODEC = 1
+    HV_32K_CODEC = 4
+    HV_3_0K_CODEC = 9
+    HV_4_5K_CODEC = 8
+    HV_4_8K_CODEC = 2
+    HV_64K_CODEC = 5
+    HV_SILENCE_CODEC = 31
+    HV_VBR_2_4K_CODEC = 11
+    LPC10_CODEC = 1
+    LPC_1_4_CODEC = 6
+    LPC_1_8_CODEC = 7
+    LPC_CODEC = 2
+    MAJOR_VERSION = 0
+    MINOR_VERSION = 91
+    NL_FALSE = 0
+    NL_INVALID = -1
+    NL_MAX_PACKET_LENGTH = 16384
+    NL_TRUE = 1
+    NOISE_LEVEL = 10
+    NORMAL = 1
+    PCM_64_CODEC = 5
+    SEQUENCE = 5
+    ULAW_CODEC = 5
+    VBR_LPC10_CODEC = 11
+    VERSION_STRING = 'HVDI 0.91 beta'
+    VOX_FAST = 4000
+    VOX_LEVEL = 7
+    VOX_MEDIUM = 8000
+    VOX_SLOW = 12000
+    VOX_SPEED = 8
+    hcrypt_funcs = ['NewKey', 'EncryptPacket', 'AuthenticatePacket', 'Decr...
+    hvdi_funcs = ['DeleteAGC', 'PacketDecode', 'NewRate', 'DeleteRate', 'H...
+    libpath = str() # Full path to the HawkVoiceDI shared library

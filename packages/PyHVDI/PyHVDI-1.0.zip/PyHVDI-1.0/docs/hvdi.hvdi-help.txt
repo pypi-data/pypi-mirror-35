@@ -1,0 +1,578 @@
+Help on module hvdi.hvdi:
+
+NAME
+    hvdi.hvdi - HawkVoiceDI API Python bindings by Dalen Bernaca
+
+DESCRIPTION
+    hvdi.c  Version: 0.91 beta
+    hvdi.py Version: 1.0  beta
+    
+    * For encryption functions and classes see:
+      >>> import hvdi.crypt as hcrypt
+      >>> help(hcrypt)
+      >>>
+    
+    * Higher level encoding and decoding classes are added by Dalen
+      to simplify use of the encryption/decryption and
+      provide more Pythonic interface.
+    
+    General notes for low-level part by Phil Frisbie:
+    
+    This is a no nonsense API that wraps all codec and encryption details for
+    the developer.
+    
+    There is a lot of error detection, but I have not decided how to report the
+    errors yet. I will either define multiple return codes, or add a 'getError'
+    type function.
+    
+    Note that ALL codecs except ADPCM and U-Law require 8 KHz sample rate, and ALL require
+    16 bit (short) samples.
+    
+    Be careful of encoding voice buffer sizes. If you ignore the frame size from
+    EncStateSetCodec(), your buffer may be truncated, and you will have breaks of
+    silence between your voice packets.
+    
+    I recommend the following codecs: On a LAN, use u-law or ADPCM for best quality
+    (they even do very well with music and multiple voices). On the open 'net, use
+    GSM if you have the extra 13.2 K of bandwidth, CELP, or LPC-10. Use LPC only if you
+    don't have enough bandwidth for GSM, and you don't have the CPU cycles for
+    CELP or LPC-10. The quality of LPC is MUCH worse than CELP or LPC-10.
+    
+    For Windows CE and other platforms that do not have hardware floating point
+    instructions you should only use the u-law, ADPCM, or GSM codecs. The other codecs
+    will not run in real-time even on a 400 MHz StongArm PocketPC.
+
+CTYPES FUNCTIONS
+    AGC(LP_hvdi_agc agc, LP_c_short buffer, c_long len)
+     |  void AGC(hvdi_agc *agc, short *buffer, int len)
+     |    Performs the AGC function on buffer. AGC is adjusted 10 times per second.
+    
+    c_ubyte DecStateGetCodec(LP_hvdi_dec_state state)
+     |  unsigned char DecStateGetCodec(hvdi_dec_state *state)
+     |    Get the codec that is being used for decoding.
+    
+    DeleteAGC(LP_hvdi_agc agc)
+     |  void DeleteAGC(hvdi_agc *agc)
+     |    Delete the hvdi_agc object.
+    
+    DeleteDecState(LP_hvdi_dec_state state)
+     |  void DeleteDecState(hvdi_dec_state *state)
+     |    Frees a decoder state.
+    
+    DeleteEncState(LP_hvdi_enc_state state)
+     |  void DeleteEncState(hvdi_enc_state *state)
+     |    Frees an encoder state.
+    
+    DeleteRate(LP_hvdi_rate rate)
+     |  void DeleteRate(hvdi_rate *rate)
+     |    Delete the hvdi_rate object.
+    
+    DeleteVOX(LP_hvdi_vox vox)
+     |  void DeleteVOX(hvdi_vox *vox)
+     |    Delete the hvdi_vox object.
+    
+    c_long EncStateSetCodec(LP_hvdi_enc_state state, c_ubyte codec)
+     |  int EncStateSetCodec(hvdi_enc_state *state, unsigned char codec)
+     |    Sets the codec for the encoder state. You must call this before you attempt
+     |    to encode a voice packet. You can call this at ANY time to change your
+     |    encoder codec. It returns either the buffer frame size the codec requires,
+     |    or NL_INVALID if an error occurred. The buffer can be a multiple of the
+     |    frame size and a frame size of '0' means any EVEN buffer size can be used.
+     |    For example, the GSM codec will return a frame size of 160, so a buffer of
+     |    800 samples would be valid and encode 1/10 of a second of sound.
+    
+    Hint(c_long name, c_long arg)
+     |  void Hint(int name, int arg)
+     |    The first three change the encoding performance/quality of some codecs.
+     |
+     |               codec |      GSM LPT_CUT     CELP_CODEBOOK_LEN   CELP_FAST_GAIN
+     |  -----------------------------------------------------------------------------
+     |    option           |
+     |  --------------------
+     |  NORMAL        |          No               256                 No
+     |
+     |  FAST          |         Yes               128                Yes
+     |
+     |  FASTEST       |         Yes                32                Yes
+     |
+     |
+     |
+     |    CELP_CODEBOOK directly sets the CELP codebook length from 32 to 256.
+     |
+     |    SEQUENCE enables/disables sequence numbers added to packets. To disable,
+     |    arg = 0, to enable (default), arg != 0. The sequence adds 2 bytes to each packet.
+     |
+     |    AUTO_VOX enables/disables automatic VOX processing inside PacketEncode().
+     |    To disable (default), arg = 0, to enable, arg != 0. If COMFORT_NOISE is
+     |    enabled then PacketEncode() will create silence packets when the VOX does not
+     |    pass, otherwise PacketEncode() will return 0.
+     |
+     |    VOX_LEVEL sets the VOX level when AUTO_VOX is enabled. Valid range is
+     |    0 to 1000, and the default 300.
+     |
+     |    VOX_SPEED sets the VOX speed when AUTO_VOX is enabled. Default VOX_FAST.
+     |
+     |    COMFORT_NOISE enables/disables silence packets when AUTO_VOX is enabled
+     |    when encoding, and enables/disables comfort noise when decoding.
+     |
+     |    NOISE_LEVEL sets the comfort noise level when COMFORT_NOISE is enabled.
+     |    Valid range 0 to 1000, default 100.
+    
+    Mix(LP_c_short outbuf, LP_LP_c_short inbuf, c_long number, c_long inlen)
+     |  void Mix(short *outbuf, short **inbuf, int number, int inlen)
+     |    Mixes two or more buffers into outbuf. inbuf is an array of pointers to
+     |    the inbuf buffers, number is the number of inbuf buffers, and inlen is
+     |    the number of samples in each inbuf buffer.
+    
+    LP_hvdi_agc NewAGC(c_float level)
+     |  hvdi_agc* NewAGC(float level)
+     |    Create a new hvdi_agc object. level is the percent of max volume for the
+     |    sound buffer. The valid range is 0.5f to 1.0f, but the recomended
+     |    range is 0.8f to 0.95f. At 1.0f, some clipping might be experienced.
+    
+    LP_hvdi_dec_state NewDecState()
+     |  hvdi_dec_state* NewDecState(void)
+     |    Creates a decoder state. You must create a decoder state for each incoming
+     |    voice stream.
+    
+    LP_hvdi_enc_state NewEncState()
+     |  hvdi_enc_state* NewEncState(void)
+     |    Creates an encoder state. You must create one encoder state to encode your
+     |    out going voice stream. For each encoder state you MUST set the codec with
+     |    EncStateSetCodec().
+    
+    LP_hvdi_rate NewRate(c_long inrate, c_long outrate)
+     |  hvdi_rate* NewRate(int inrate, int outrate)
+     |    Create a hvdi_rate object for the sample rates supplied. Sample rates
+     |    are in samples per second.
+    
+    LP_hvdi_vox NewVOX(c_long voxspeed, c_long noisethreshold)
+     |  hvdi_vox* NewVOX(int voxspeed, int noisethreshold)
+     |    Create a new hvdi_vox object. voxspeed is the number of samples of silence
+     |    before hvdiVOX returns 0(false), and noisethreshold is an int between
+     |    0(always pass) to 1000(never pass). 300 is a good starting point.
+    
+    c_long PacketDecode(LP_c_ubyte packet, c_long packlen, LP_c_short buffer, c_long buflen, LP_hcrypt_key key, LP_hvdi_dec_state state)
+     |  int PacketDecode(unsigned char *packet, int paclen, short *buffer,
+     |                         int buflen, hcrypt_key *key, hvdi_dec_state *state)
+     |    Decrypts and decodes a voice packet into buffer. It returns the number of
+     |    samples in buffer, or NL_FALSE if an error occured. buflen is the number of
+     |    decoded short voice samples that can be written to buffer, it is NOT the
+     |    length in bytes. Note that it will drop UDP packets that are out of order.
+     |    If key is not None, it will be used to decrypt and validate the packet.
+    
+    c_long PacketEncode(LP_c_ubyte packet, c_long packlen, LP_c_short buffer, c_long buflen, LP_hcrypt_key key, LP_hvdi_enc_state state)
+     |  int hvdiPacketEncode(unsigned char *packet, int paclen, short *buffer,
+     |                         int buflen, hcrypt_key *key, hvdi_enc_state *state)
+     |    Encodes and encrypts buffer into a voice packet. Buflen is the number of
+     |    voice samples in buffer. It returns the size of the encoded packet in bytes.
+     |    If key is not None, it will be used to encrypt and validate the packet.
+    
+    c_long PacketIsVoice(LP_c_ubyte packet, c_long length)
+     |  int PacketIsVoice(unsigned char *packet, int length)
+     |    Checks for a valid voice packet. Returns NL_TRUE is packet is valid, otherwise
+     |    returns NL_FALSE.
+    
+    RateFlow(LP_hvdi_rate rate, LP_c_short inbuf, LP_c_short outbuf, LP_c_long inlen, LP_c_long outlen)
+     |  void RateFlow(hvdi_rate *rate, short *inbuf, short *outbuf, int *inlen,
+     |                      int *outlen)
+     |    Resamples inbuf to outbuf. inlen and outlen are updated with the actual
+     |    number of samples processed. Note that inlen may return less than the
+     |    length of inbuf, so you may need to save several samples to add to the
+     |    beginning of the next buffer.
+    
+    c_long VOX(LP_hvdi_vox vox, LP_c_short buffer, c_long buflen)
+     |  int VOX(hvdi_vox *vox, short *buffer, int buflen)
+     |    Process a voice buffer with VOX, or voice activated transmission. It
+     |    returns 1 if the buffer should be sent, or 0 if it is silent (or at least
+     |    unvoiced).
+
+CTYPES STRUCTURES
+    structure hvdi_agc
+        A structure used to hold AGC information.
+        Use hvdi.hvdi.NewAGC() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteAGC() to remove it from memory.
+        It is used by the hvdi.hvdi.AGC() function and
+        there is generally no need for a developer to access
+        any of its attributes directly.
+    
+        FIELDS
+         |  hvdi_agc.sample_max = c_ulong
+         |  hvdi_agc.counter = c_long
+         |  hvdi_agc.igain = c_long
+         |  hvdi_agc.ipeak = c_long
+         |  hvdi_agc.silence_counter = c_long
+    
+    structure hvdi_dec_state
+        A structure representing the decoder state.
+        Use hvdi.hvdi.NewDecState() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteDecState() to remove it from memory.
+        It is used by the hvdi.hvdi.PacketDecode() function and its codec
+        attribute can be checked via the hvdi.hvdi.DecStateGetCodec().
+        There is generally no need for a developer to access its attributes directly.
+    
+        FIELDS
+         |  hvdi_dec_state.codec = c_ubyte
+         |  hvdi_dec_state.sequence = c_ushort
+         |  hvdi_dec_state.state = c_void_p
+    
+    structure hvdi_enc_state
+        A structure representing the encoder state.
+        Use hvdi.hvdi.NewEncState() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteEncState() to remove it from memory.
+        It is used by the hvdi.hvdi.PacketEncode() function and changed
+        via the hvdi.hvdi.EncStateSetCodec().
+        There is generally no need for a developer to access its attributes directly.
+    
+        FIELDS
+         |  hvdi_enc_state.codec = c_ubyte
+         |  hvdi_enc_state.sequence = c_ushort
+         |  hvdi_enc_state.state = c_void_p
+         |  hvdi_enc_state.vox = LP_hvdi_vox
+    
+    structure hvdi_rate
+        A structure used to hold rate information.
+        Use hvdi.hvdi.NewRate() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteRate() to remove it from memory.
+        It is used by the hvdi.hvdi.RateFlow() function and
+        there is generally no need for a developer to access
+        any of its attributes directly.
+    
+        FIELDS
+         |  hvdi_rate.lcmrate = c_long
+         |  hvdi_rate.inskip = c_long
+         |  hvdi_rate.outskip = c_long
+         |  hvdi_rate.total = c_long
+         |  hvdi_rate.intot = c_long
+         |  hvdi_rate.outtot = c_long
+         |  hvdi_rate.lastsamp = c_long
+    
+    structure hvdi_state
+        A structure used privately in hvdi_enc_state and hvdi_dec_state structures
+        to hold the state's properties. There is generally no need
+        for a developer to access it or its attributes directly.
+    
+        FIELDS
+         |  hvdi_state.gsm_lpt = c_long
+         |  hvdi_state.celp_codebook = c_long
+         |  hvdi_state.celp_fast_gain = c_long
+         |  hvdi_state.sequence = c_long
+         |  hvdi_state.autoVOX = c_long
+         |  hvdi_state.VOXlevel = c_long
+         |  hvdi_state.VOXspeed = c_long
+         |  hvdi_state.comfortnoise = c_long
+         |  hvdi_state.noiselevel = c_long
+    
+    structure hvdi_vox
+        A structure used to hold VOX information.
+        Use hvdi.hvdi.NewVOX() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteVOX() to remove it from memory.
+        It is used by the hvdi.hvdi.VOX() function and
+        there is generally no need for a developer to access
+        any of its attributes directly.
+    
+        FIELDS
+         |  hvdi_vox.rate = c_long
+         |  hvdi_vox.noisethreshold = c_long
+         |  hvdi_vox.samplecount = c_long
+
+PYTHON FUNCTIONS
+    Decode(instream, key=False, outstream=None)
+        Decodes packets from instream object and writes them into the outstream object using the crypt.Key() object from key argument for decryption.
+        If key is 0/False (default), no decryption will be performed.
+    
+        The instream object must have one of following methods:
+            readframes(), read(), recv() or get(), or be an iterable/generator object or a string.
+        One of above mentioned methods will be called per iteration (without arguments) and must return a string with encoded packet.
+        The decoding will stop when used method returns an empty string, or the iterable is at an end.
+        If instream is a string, whole string will be considered one packet. Same will happen with the regular file.
+    
+        If outstream is None (default) the output will be a list of decoded packets.
+        The outstream object must have one of following methods:
+            writeframes(), write(), append(), push() or send(), or be a str(), buffer() or bytes object.
+        Therefore you can use writers from wave, aifc and sunau modules, opened regular files in write mode, sockets or lists, queues and strings
+        or any object supporting one of above mentioned object's protocols i.e. storing/sending methods.
+    
+        Decode() returns a reference to the outstream object
+        so that you can access the returned list or string or use it in chained operations.
+    
+    Encode(instream, codec='GSM', key=False, chunksize=None, outstream=None)
+        Encodes chunks of linear PCM audio, 16bit, 8000 Hz, mono samples in bytes read from instream object
+        into packets written to the outstream object using the specified codec and
+        crypt.Key() object from key argument for encryption.
+    
+        codec can be a human-readable string name of a codec as returned by the
+        hvdi.constants.list_codecs() function, or a HVDI numeric constant itself.
+    
+        If key argument is 0/False (default), no encryption will be applied.
+    
+        chunksize is a number of *samples* that will be read from the instream object.
+        If it is None (default), the minimal required number of *samples* for the used codec will be chosen automatically.
+        If instream is an iterable/generator object, then chunksize will be ignored and each item taken as an input chunk.
+        The instream object must have one of following methods:
+            readframes(), read(), recv() or get(), or be an iterable/generator object or a string.
+        One of above mentioned methods will be called per iteration (with chunksize or number of bytes as an argument) and must return a string with
+        linear PCM 16bit, 8000 Hz, mono audio samples.
+        The encoding will stop when used method returns an empty string, or the iterable is at an end.
+        If instream is a string it will be wrapped locally into the StringIO() object.
+        Any supported method of the instream object, except writeframes(), will be used to extract chunksize 16bit *samples* per iteration.
+        That means chunksize*2 bytes, but writeframes() is expected to return chunksize*2 bytes for chunksize as the argument.
+        You can use one of readers from wave, aifc and sunau modules from Python stdlib for the instream object.
+    
+        If outstream is None (default) the output will be a list of encoded packets.
+        The outstream object must have one of following methods:
+            writeframes(), write(), append(), push() or send(), or be a str(), buffer() or bytes object.
+        Therefore you can use sockets, lists, arrays, queues and strings
+        or any object supporting one of above mentioned object's protocols i.e. storing/sending methods.
+        The output packets will not be of the same length, so storing them using
+        some of built-in storage objects like files, StringIO() or a string object, although possible,
+        is practically useless.
+    
+        Encode() returns a reference to the outstream object
+        so that you can access the returned list or string or use it in chained operations.
+    
+    IterDecode(instream, key=False)
+        Same as Decode() but it returns a generator object instead of using the outstream object.
+        Handy in loops.
+
+    IterEncode(instream, codec='GSM', key=False, chunksize=None)
+        Same as Encode() but it returns a generator object instead of using the outstream object.
+        Handy in loops.
+
+    codec(c)
+        Simplifies usage of the codec constants.
+        c may be a constant number of the codec or the codec's name as returned by list_codecs() function
+        or any of longer versions from CODECS dictionary.
+        The function is case insensitive.
+        The returned value is the constant and the existance
+        of the codec is always checked.
+        Raises the KeyError() if the codec does not exist.
+    
+    list_codecs lambda
+        Lists all possible shortened codec names.
+
+PYTHON CLASSES
+    class Decoder
+     |  High level decoder class.
+     |
+     |  Methods defined here:
+     |
+     |  __init__(self, key=None, password=None, salt=None)
+     |      key --> hvdi.crypt.Key() object to use as default key in packet decryption
+     |              If None, password and salt are used to construct the key.
+     |              If 0 or False, the decryption will not be used at all.
+     |
+     |  __del__(self)     |
+     |
+     |  decode(self, packet)
+     |      Decodes a compressed audio packet.
+     |      Returns 16bit, 8000 Hz, mono, linear PCM audio samples as bytes in a string.
+     |
+     |  getcodec(self)
+     |      Returns the audio codec that was used to decode the last packet.
+     |      The returned value is the codec's human-readable name.
+     |
+     |  isvoiced(self, packet)
+     |      Checks whether an audio packet is voiced or not.
+     |      Returns True if it is, False otherwise.
+     |
+     |  iterdec(self, packs)
+     |      Decodes an iterable of audio packets.
+     |      Returns a generator object that has to be iterated over.
+     |
+     |  setcomfortnoise(self, onoff=1)
+     |      Turns comfort noise on or off for silent packets.
+     |      1 is on, 0 is off (1 default).
+     |
+     |  ----------------------------------------------------------------------
+    
+    class Encoder
+     |  High level encoder class.
+     |
+     |  Methods defined here:
+     |
+     |  __init__(self, codec='GSM', key=None, password=None, salt=None)
+     |      codec --> Default codec of the encoder
+     |      key   --> hvdi.crypt.Key() object to use as default key in encryption
+     |                If None, password and salt are used to construct the key.
+     |                If 0 or False, the encryption will not be used at all.
+     |
+     |  __del__(self)
+     |
+     |  encode(self, data)
+     |      Encodes the data into a packet.
+     |      The data must be at least Encoder().framesize samples long.
+     |      Otherwise, the result is unpredictable.
+     |      The samples must be 16bit, 8000 Hz, mono linear PCM encoded audio bytes in a string or an iterable
+     |      containing the signed short integers (Python ints from -2**15 to 2**15).
+     |      Returns a string containing the packet.
+     |
+     |  isvoiced(self, buffer)
+     |      Checks whether audio data in buffer is voiced or not.
+     |      Uses the default VOX set by the setvox() method.
+     |      If VOX is not set, it will be set with defaults of the setvox() method.
+     |      Returns True if the buffer contains voiced audio, False otherwise.
+     |      If True, the segment should be encoded and sent, and it should be ignored if isvoiced() is False.
+     |      Note that voice activated transmission, when autovox is enabled uses the hvdi.hvdi.VOX()
+     |      function, as does the isvoiced() method, which returns 0 when audio shouldn't be sent and 1 if it should.
+     |      Do not accidentally mix up the results of two different outputs if you ever use both low-level
+     |      function VOX() and the isvoiced() method as they are complementary.
+     |
+     |  iterenc(self, bufs)
+     |      Encodes an iterable of audio chunks.
+     |      Each chunk must be at least Encoder().framesize samples long.
+     |      Otherwise, the results are unpredictable.
+     |      Returns a generator object that has to be iterated over.
+     |
+     |  setagc(self, value=0.6)
+     |      Sets an auto gain control.
+     |      value --> A float between 0.5 and 1.0.
+     |                Recommended values range from 0.8 to 0.95.
+     |                At 1.0 some clipping might be experienced.
+     |      If value is 0, AGC will be turned off as on Encoder()'s initialization.
+     |      If AGC is set, it will be performed on the input data before each encoding.
+     |
+     |  setcodec(self, codec='GSM')
+     |      Sets a currently used codec.
+     |
+     |  setsequence(self, onoff=1)
+     |      Turns packet sequencing on or off.
+     |      1 for on, 0 for off (1 default).
+     |      If it is on, each packet returned by the encode() method will have its ordinal number attached.
+     |      If a packet that came out of order is encountered while decoding, it will be ignored.
+     |
+     |  setvox(self, speed=4000, noisethreshold=300, autovox=None, comfortnoise=None)
+     |      Sets the VOX to be used with isvoiced() method.
+     |      Also, turns automatic VOX on or off and sets the comfort noise.
+     |      If you want different values for autovox and manual VOX for isvoiced(),
+     |      then you set the autovox first, and then call setvox() again with autovox=None and comfortnoise=None (defaults).
+     |      speed          --> The VOX and/or autovox speed.
+     |                         It is number of samples of silence before isvoiced() returns True.
+     |                         Or autovox ignores the encoding or generates a silent packet (depends on comfortnoise being set).
+     |                         There are 3 preset constants to help you:
+     |                         VOX_FAST   = 4000 (default),
+     |                         VOX_MEDIUM = 8000 and
+     |                         VOX_SLOW   = 12000.
+     |      noisethreshold --> An integer between 0 and 1000.
+     |                         0 - always pass, 1000 never pass. 300 is a good starting point (default).
+     |      autovox        --> Turns automatic VOX upon encoding on or off.
+     |                         If None (default) setting it is ignored, if a boolean the switching action is taken.
+     |                         1/True - On, 0/False - off.
+     |      comfortnoise   --> Turns silent packets upon encoding on or off.
+     |                         If None (default), setting it is ignored, if an integer, it is a comfort noise level.
+     |                         If 0/False, the silent packets are turned off.
+     |                         If autovox is set, and comfort noise is off, the encode() method
+     |                         will return an empty string when automatic VOX is triggered with a silence.
+     |                         If autovox is on, and comfort noise set, an empty packet will be generated.
+     |
+     |  ----------------------------------------------------------------------
+
+    class Mixer
+     |  High level mixer class.
+     |
+     |  Methods defined here:
+     |
+     |  agc(self, buffer, level=0.6)
+     |      Applies the automatic gain control to audio source in the input buffer.
+     |      buffer --> 16bit, 8000 Hz,mono audio samples in a string or iterable
+     |                 The samples must be 16bit, 8000 Hz, mono, linear PCM encoded audio bytes in a string or an iterable
+     |                 containing signed short integers (Python ints from -2**15 to 2**15).
+     |      level  --> The AGC level as a float between 0.5 and 1.0
+     |                 Recommended values range from 0.8 to 0.95.
+     |                 At 1.0 some clipping might be experienced.
+     |      Returns the AGCed version of the input buffer as a 16bit, 8000 Hz, mono, linear PCM audio samples as bytes in a string.
+     |
+     |  interleave(self, left, right)
+     |      Interleaves two mono audio channels into single stereo channel.
+     |      left  --> Audio samples for the left channel
+     |      right --> Audio samples for the right channel
+     |      The samples must be 16bit, mono linear PCM encoded audio bytes in a string or an iterable
+     |      containing signed short integers (Python ints from -2**15 to 2**15).
+     |      The sample rate does not matter.
+     |      Returns a string of bytes containing 16bit, stereo, PCM linear audio samples.
+     |
+     |  mix(self, *args)
+     |      Mixes all given audio sources into a single source.
+     |      The audio samples in each of the input buffers must be 16bit, mono linear PCM encoded audio bytes in a string or an iterable
+     |      containing signed short integers (Python ints from -2**15 to 2**15).
+     |      The sample rate does not matter.
+     |      Returns the mix of all input buffers as a 16bit, mono linear PCM audio samples as bytes in a string.
+     |
+     |  pan(self, buffer, angle)
+     |      Pans a 16bit mono audio buffer into two channels.
+     |      The algorithm derives from:
+     |          https://dsp.stackexchange.com/questions/21691/algorithm-to-pan-audio
+     |      buffer --> Audio data as iterable of signed short samples or an 16bit audio stream as bytes in a string
+     |                 The samples must be 16bit, mono linear PCM encoded audio bytes in a string or an iterable
+     |                 containing signed short integers (Python ints from -2**15 to 2**15).
+     |                 The sample rate does not matter.
+     |      angle  --> The angle in degrees
+     |                 At which angle to pan the mono audio source in the stereo output.
+     |                 At 0 and 180 degrees the left channel equals the right.
+     |                 Audible inclination to the right starts around 25 degrees.
+     |      Returns a tuple with two audio channels (left, right) of which each is 16bit, mono, PCM linear audio samples as bytes in a string.
+     |
+     |  resample(self, inbuf, inrate=22050, outrate=8000)
+     |      Resamples the audio source from inbuf sampled at inrate
+     |      to the new sample rate set by outrate.
+     |      inbuf   --> 16bit, 8000 Hz,mono audio samples in a string or iterable
+     |                  The samples must be 16bit, 8000 Hz, mono, linear PCM encoded audio bytes in a string or an iterable
+     |                  containing signed short integers (Python ints from -2**15 to 2**15).
+     |      inrate  --> The original sample rate in Hz (22050 default)
+     |      outrate --> The desired sample rate in Hz (8000 default)
+     |      Returns the resampled version of the input buffer as a 16bit, outrate Hz, mono, linear PCM audio samples as bytes in a string.
+     |
+     |  uninterleave(self, buffer)
+     |      Uninterleaves a single stereo audio channel into two separate mono channels.
+     |      buffer --> 16bit, stereo audio samples in a string or iterable
+     |                 The samples must be 16bit, stereo linear PCM encoded audio bytes in a string or an iterable
+     |                 containing signed short integers (Python ints from -2**15 to 2**15).
+     |                 The sample rate does not matter.
+     |      Returns a tuple with two audio channels (left, right) of which each is 16bit, mono, PCM linear audio samples as bytes in a string.
+     |
+     |  ----------------------------------------------------------------------
+
+DATA
+    ADPCM_32_CODEC = 4
+    AUTO_VOX = 6
+    CELP_2_3_CODEC = 10
+    CELP_3_0_CODEC = 9
+    CELP_4_5_CODEC = 8
+    CELP_CODEBOOK = 4
+    CODECS = {'13_2K': 3, '13_2K_CODEC': 3, '1_4K': 6, '1_4K_CODEC': 6, '1...
+    COMFORT_NOISE = 9
+    FAST = 2
+    FASTEST = 3
+    GSM_CODEC = 3
+    G_711_CODEC = 5
+    HV_13_2K_CODEC = 3
+    HV_1_4K_CODEC = 6
+    HV_1_8K_CODEC = 7
+    HV_2_3K_CODEC = 10
+    HV_2_4K_CODEC = 1
+    HV_32K_CODEC = 4
+    HV_3_0K_CODEC = 9
+    HV_4_5K_CODEC = 8
+    HV_4_8K_CODEC = 2
+    HV_64K_CODEC = 5
+    HV_SILENCE_CODEC = 31
+    HV_VBR_2_4K_CODEC = 11
+    LPC10_CODEC = 1
+    LPC_1_4_CODEC = 6
+    LPC_1_8_CODEC = 7
+    LPC_CODEC = 2
+    NL_FALSE = 0
+    NL_INVALID = -1
+    NL_MAX_PACKET_LENGTH = 16384
+    NL_TRUE = 1
+    NOISE_LEVEL = 10
+    NORMAL = 1
+    PCM_64_CODEC = 5
+    SEQUENCE = 5
+    ULAW_CODEC = 5
+    VBR_LPC10_CODEC = 11
+    VOX_FAST = 4000
+    VOX_LEVEL = 7
+    VOX_MEDIUM = 8000
+    VOX_SLOW = 12000
+    VOX_SPEED = 8

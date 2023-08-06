@@ -1,0 +1,135 @@
+Help on module hvdi.structures:
+
+NAME
+    hvdi.structures - # HawkVoiceDI structures from hvdi.h, hcrypt.h and rate.c
+
+CTYPES STRUCTURES
+    structure BF_KEY
+        A BlowFish key structure. Used privately in hcrypt_key structure.
+        Not really relevant as part of the API as there is no need
+        for a developer to access it or its attributes directly.
+    
+        FIELDS
+         |  BF_KEY.P = c_ulong_Array_18
+         |  BF_KEY.S = c_ulong_Array_1024
+    
+    structure hcrypt_key
+        A structure that holds a key for packet encryption/decryption.
+        Use the hvdi.crypt.NewKey() function to get its properly initialized
+        and usable instance, and hvdi.crypt.DeleteKey() to remove it from memory.
+        There is no need for a developer to access any of its attributes directly,
+        just to pass its instance as an argument to:
+        hvdi.crypt.[EncryptPacket(), DecryptPacket(), SignPacket(), AuthenticatePacket()] and
+        to some more functions of the same nature, and possibly to the higher level
+        interface class hvdi.crypt.Key().
+    
+        FIELDS
+         |  hcrypt_key.bf = BF_KEY
+         |  hcrypt_key.iv = c_ubyte_Array_8
+         |  hcrypt_key.digest = c_ubyte_Array_16
+         |  hcrypt_key.n = c_long
+    
+    structure hcrypt_salt
+        A structure that holds a salt for packet encryption/decryption.
+        It is used in the key creation by the
+        hvdi.crypt.NewKey() function or possibly by the higher level
+        interface class hvdi.crypt.Key().
+        Use the hvdi.crypt.NewSalt() function to get its properly initialized
+        and usable instance, and hvdi.crypt.DeleteSalt() to remove it from memory.
+        As the salt is necessary on the receiving end of encrypted packets,
+        along with the password, to recreate the decryption key,
+        a developer can extract its 16-byte value from hcrypt_salt's
+        single attribute data. Also, the structure may be manually initialized
+        and filled on the receiving end to pass it to the
+        hvdi.crypt.NewKey() function by setting the said data attribute.
+    
+        FIELDS
+         |  hcrypt_salt.data = c_ubyte_Array_16
+    
+    structure hvdi_agc
+        A structure used to hold AGC information.
+        Use hvdi.hvdi.NewAGC() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteAGC() to remove it from memory.
+        It is used by the hvdi.hvdi.AGC() function and
+        there is generally no need for a developer to access
+        any of its attributes directly.
+    
+        FIELDS
+         |  hvdi_agc.sample_max = c_ulong
+         |  hvdi_agc.counter = c_long
+         |  hvdi_agc.igain = c_long
+         |  hvdi_agc.ipeak = c_long
+         |  hvdi_agc.silence_counter = c_long
+    
+    structure hvdi_dec_state
+        A structure representing the decoder state.
+        Use hvdi.hvdi.NewDecState() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteDecState() to remove it from memory.
+        It is used by the hvdi.hvdi.PacketDecode() function and its codec
+        attribute can be checked via the hvdi.hvdi.DecStateGetCodec().
+        There is generally no need for a developer to access its attributes directly.
+    
+        FIELDS
+         |  hvdi_dec_state.codec = c_ubyte
+         |  hvdi_dec_state.sequence = c_ushort
+         |  hvdi_dec_state.state = c_void_p
+    
+    structure hvdi_enc_state
+        A structure representing the encoder state.
+        Use hvdi.hvdi.NewEncState() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteEncState() to remove it from memory.
+        It is used by the hvdi.hvdi.PacketEncode() function and changed
+        via the hvdi.hvdi.EncStateSetCodec().
+        There is generally no need for a developer to access its attributes directly.
+    
+        FIELDS
+         |  hvdi_enc_state.codec = c_ubyte
+         |  hvdi_enc_state.sequence = c_ushort
+         |  hvdi_enc_state.state = c_void_p
+         |  hvdi_enc_state.vox = LP_hvdi_vox
+    
+    structure hvdi_rate
+        A structure used to hold rate information.
+        Use hvdi.hvdi.NewRate() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteRate() to remove it from memory.
+        It is used by the hvdi.hvdi.RateFlow() function and
+        there is generally no need for a developer to access
+        any of its attributes directly.
+    
+        FIELDS
+         |  hvdi_rate.lcmrate = c_long
+         |  hvdi_rate.inskip = c_long
+         |  hvdi_rate.outskip = c_long
+         |  hvdi_rate.total = c_long
+         |  hvdi_rate.intot = c_long
+         |  hvdi_rate.outtot = c_long
+         |  hvdi_rate.lastsamp = c_long
+    
+    structure hvdi_state
+        A structure used privately in hvdi_enc_state and hvdi_dec_state structures
+        to hold the state's properties. There is generally no need
+        for a developer to access it or its attributes directly.
+    
+        FIELDS
+         |  hvdi_state.gsm_lpt = c_long
+         |  hvdi_state.celp_codebook = c_long
+         |  hvdi_state.celp_fast_gain = c_long
+         |  hvdi_state.sequence = c_long
+         |  hvdi_state.autoVOX = c_long
+         |  hvdi_state.VOXlevel = c_long
+         |  hvdi_state.VOXspeed = c_long
+         |  hvdi_state.comfortnoise = c_long
+         |  hvdi_state.noiselevel = c_long
+    
+    structure hvdi_vox
+        A structure used to hold VOX information.
+        Use hvdi.hvdi.NewVOX() function to get its properly initialized
+        and usable instance, and hvdi.hvdi.DeleteVOX() to remove it from memory.
+        It is used by the hvdi.hvdi.VOX() function and
+        there is generally no need for a developer to access
+        any of its attributes directly.
+    
+        FIELDS
+         |  hvdi_vox.rate = c_long
+         |  hvdi_vox.noisethreshold = c_long
+         |  hvdi_vox.samplecount = c_long
