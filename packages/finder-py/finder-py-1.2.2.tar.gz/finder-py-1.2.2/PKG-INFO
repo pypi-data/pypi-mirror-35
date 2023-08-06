@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: finder-py
+Version: 1.2.2
+Summary: LAN file sharing
+Home-page: https://github.com/hyxf/finder-py
+Author: hyxf
+Author-email: 1162584980@qq.com
+License: Apache 2.0
+Description: LAN file sharing, make it easy
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7.*
