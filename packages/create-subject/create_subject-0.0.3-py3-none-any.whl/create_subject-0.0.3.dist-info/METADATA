@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: create-subject
+Version: 0.0.3
+Summary: Package to expose subject with next, filter, and subscribe methods - based on yurikoex's npm subject-with-filter package
+Home-page: https://github.com/aj03794/create-subject
+Author: Adam Johnston
+Author-email: adamjohnston151@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+#### Why do I exist?
+
+Code is ported from `yurikoex`'s javascript project `https://github.com/yurikoex/create-subject-with-filter`.
+
+His code is also available for js via `npm` at `https://www.npmjs.com/package/subject-with-filter`
+
