@@ -1,0 +1,10 @@
+README.md
+setup.py
+socialpy/__init__.py
+socialpy.egg-info/PKG-INFO
+socialpy.egg-info/SOURCES.txt
+socialpy.egg-info/dependency_links.txt
+socialpy.egg-info/entry_points.txt
+socialpy.egg-info/not-zip-safe
+socialpy.egg-info/requires.txt
+socialpy.egg-info/top_level.txt

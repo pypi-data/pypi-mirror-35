@@ -1,0 +1,5 @@
+[console_scripts]
+socialpy-client = socialpy.client.__main__:main
+socialpy-data = socialpy.data.__main__:main
+socialpy-server = socialpy.server.__main__:main
+

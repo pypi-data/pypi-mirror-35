@@ -1,0 +1,5 @@
+InstagramAPI
+django
+facepy
+tabulate
+tweepy
