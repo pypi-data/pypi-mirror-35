@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: mpack
+Version: 1.0.0
+Summary: Python binding to libmpack
+Home-page: https://github.com/libmpack/libmpack-python
+Author: Thiago de Arruda
+Author-email: tpadilha84@gmail.com
+License: MIT
+Download-URL: https://github.com/libmpack/libmpack-python/archive/1.0.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
