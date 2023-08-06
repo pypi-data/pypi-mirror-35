@@ -1,0 +1,10 @@
+symspellpy/__init__.py,sha256=XwYpsEqyYXu_jxpRbPp9WR-nU7Bxhj1g5KooIMH_NAE,185
+symspellpy/__version__.py,sha256=nGxVVnWrrERHLznxMDf0LHiRhzOdA27h1wm7aS0Yzb8,224
+symspellpy/editdistance.py,sha256=8IRAHpMopl242lBsQfBXhXVhnOMDvRnB3L1HrSBbXXo,8187
+symspellpy/helpers.py,sha256=P8UApe8c1fKfLERLfg0jaO-NGQPNEzXQGLXYwmMAwFE,2373
+symspellpy/sandbox.py,sha256=smoYR7nFxDA-RMjpMcl-LIKZ20YedVJIk0LsPzExOZc,396
+symspellpy/symspellpy.py,sha256=RvfM32x7V-Aqq4bd2yDHCl_Nb5YiE3FZUotg7dCKf9A,30441
+symspellpy-6.3.1.dist-info/METADATA,sha256=Se2nrHZ35BNRkQDQSvoDTEigLw_HdfjIDz77Ut487XI,4280
+symspellpy-6.3.1.dist-info/RECORD,,
+symspellpy-6.3.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+symspellpy-6.3.1.dist-info/top_level.txt,sha256=hb-nPXvZQJvZDxiCH2yXmCXc4hzFBKZbC8L2360n8mI,11
