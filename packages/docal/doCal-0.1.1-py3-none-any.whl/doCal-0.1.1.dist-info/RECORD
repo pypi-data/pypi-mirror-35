@@ -1,0 +1,9 @@
+doCal-0.1.1.dist-info/METADATA,sha256=qPKJ5WPU7qAcxJYc29BfyPd_1OqA_lp-AhTf6KWo_NQ,2748
+doCal-0.1.1.dist-info/RECORD,,
+doCal-0.1.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+doCal-0.1.1.dist-info/top_level.txt,sha256=6zSaVcfQlO5xNU-bIxLMV-OFQKmYVId8BeuLJWdWoEE,6
+docal/__init__.py,sha256=BfoV_tWoDVZbBja5KRsS7BmOc2_6bNj7d3ga1DET8hY,107
+docal/calculation.py,sha256=Fvw-KQBB9MT14im11uZ1CGvwWmRH51zHf-zcHPuCQto,11026
+docal/docal.py,sha256=KD9Pzjr6r062iMShlc90A_r2qV3KLtsRER8raYGGrOs,13560
+docal/equation.py,sha256=mS7b7vEmi6q_AVPNPs4LK-8lyc_TrgP_wLh3GsFbvV8,3817
+docal/procedure.py,sha256=O9L67g8Iib-VKnoTODgcZFw6dDL2BoBthXZ3sCInRWU,162
