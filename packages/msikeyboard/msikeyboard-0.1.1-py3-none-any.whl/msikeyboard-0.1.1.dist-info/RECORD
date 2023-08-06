@@ -1,0 +1,11 @@
+etc/msikeyboard/config.yaml,sha256=Ite_xSkWjPW5wq37T20fNA4Irf3HqbGbghaoTERW_kU,1510
+msikeyboard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msikeyboard/__main__.py,sha256=E1a3YnQo5ZPyCp6eQc4YOLvZggNjw-7fERVzp1SnVzc,80
+msikeyboard/msikbapi.py,sha256=puMCfZzAGBl56on5dtIJAqSVFuDjUt2kvfDr3ZAoCMk,6333
+msikeyboard/msikblightd.py,sha256=U1wXnHeyMPZ7aUZ6sdZyn4H5bbzVSOZodTgV6pUC29s,22034
+msikeyboard-0.1.1.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+msikeyboard-0.1.1.dist-info/METADATA,sha256=mPYAw27rjaq3NDmWssibjRaM-6Yv3GIMaMbTxKnwnMc,5984
+msikeyboard-0.1.1.dist-info/RECORD,,
+msikeyboard-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+msikeyboard-0.1.1.dist-info/entry_points.txt,sha256=imWeFGIiRfFkfgNansZIpvZZlgFkc8ep_vpVD1k0GMk,63
+msikeyboard-0.1.1.dist-info/top_level.txt,sha256=ctlv-SWytgnH7GigL0KIN6fj9ko1QStOi3wJzUzHXeg,12
