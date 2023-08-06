@@ -1,0 +1,11 @@
+funpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funpy/fn.py,sha256=S5L81RDtLtgtLtWol2mJ8r_nI8DHow0YAExeDL-fQG0,5348
+funpy/io.py,sha256=er58xtAy0J_nDz8Y2mJF4UMPLrTQGnFYJEOLS5m99ek,2338
+funpy/it.py,sha256=k6CRPKJPNPFPxWRZnEDH1A3KjGD2oUpj5xQNqKijbaI,13566
+funpy/mm.py,sha256=IijAKLweXZ21KVI6PdPSqArGvPM9YjjVZduduRnCVVk,366
+funpy/op.py,sha256=ps8pmL8Hi4FM70T778suXmc4KCIrgSjKpbPJMOmccmc,4006
+funpy/pp.py,sha256=JFMF753JIwYtR3Ra2JG-6paa1MW8TbRiNuYEQmfKAWo,1445
+funpy-0.5.5.dist-info/METADATA,sha256=_swXumI1n3yy_0_F9CtJiVKVTk9YZpHzgdy8aWvHfqc,1747
+funpy-0.5.5.dist-info/RECORD,,
+funpy-0.5.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+funpy-0.5.5.dist-info/top_level.txt,sha256=I_mjmwVMk8gBs6UiC35zTsZNpsRP8Bqotip3Yn8MbOs,6
