@@ -1,0 +1,9 @@
+ForkPoolWorker-43: 2018-08-20 22:04:45,336: root                : INFO    : processing lat, lon = 5, 2
+	              5, 2
+ForkPoolWorker-41: 2018-08-20 22:04:45,426: root                : INFO    : processing lat, lon = 5, 3
+	              5, 3
+ForkPoolWorker-42: 2018-08-20 22:04:45,431: root                : INFO    : processing lat, lon = 5, 4
+	              5, 4
+ForkPoolWorker-43: 2018-08-20 22:04:45,442: root                : INFO    : processing lat, lon = 5, 5
+	              5, 5
+MainProcess: 2018-08-20 22:43:10,091: root                : INFO    : lat, lon = 0, 0
