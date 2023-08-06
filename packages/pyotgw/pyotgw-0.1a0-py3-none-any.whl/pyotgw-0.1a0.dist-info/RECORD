@@ -1,0 +1,8 @@
+pyotgw/__init__.py,sha256=3iV6YW17bZ5Gpvhnij13c6CUUnrYlT0mhtMdeZoEcVw,748
+pyotgw/protocol.py,sha256=BIjhnfDNWqvBJLrOjaBY3K-JXBtQ9roM3xmnOlZuxuA,18129
+pyotgw/pyotgw.py,sha256=X2NSIF-SaG2Xmu7oXMcYKy0LIrKVj63SOBKYC-2ISus,29501
+pyotgw/vars.py,sha256=MrRm_wpQPl-py8irXDDnvosYh2DpNtlG8okDVN_nwQ4,11821
+pyotgw-0.1a0.dist-info/METADATA,sha256=B7zEKen5WaoXhbqSknhA7prsxRlr35B8cuhjwsPK0vc,1070
+pyotgw-0.1a0.dist-info/RECORD,,
+pyotgw-0.1a0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pyotgw-0.1a0.dist-info/top_level.txt,sha256=fCK9swmzUv5yDBq5DPp8sEOcXuNengKHKiD5H4hIcSI,7
