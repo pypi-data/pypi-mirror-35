@@ -1,0 +1,4 @@
+djangorestframework
+django
+py_mini_racer
+termcolor
