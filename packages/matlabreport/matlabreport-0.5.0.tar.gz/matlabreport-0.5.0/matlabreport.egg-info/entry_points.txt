@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        matlabreport=matlabreport.scripts.matlabreport:matlabreport
+        autoreport=matlabreport.scripts.autoreport:autoreport
+      
