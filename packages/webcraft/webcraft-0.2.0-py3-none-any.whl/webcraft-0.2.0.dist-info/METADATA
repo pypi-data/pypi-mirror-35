@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: webcraft
+Version: 0.2.0
+Summary: Async python framework for creating beautiful REST APIs using aiohttp.
+Home-page: http://github.com/xen/webcraft
+Author: Mikhail Kashkin
+Author-email: m@xen.ru
+License: BSD 3
+Keywords: webcraft,admin,rest,framework,api,api-framework
+Platform: UNKNOWN
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Provides-Extra: admin
+Requires-Dist: aiohttp
+Requires-Dist: SQLAlchemy
+Provides-Extra: admin
+Requires-Dist: aiohttp-jinja2; extra == 'admin'
+Requires-Dist: aiohttp-session; extra == 'admin'
+Requires-Dist: WTForms; extra == 'admin'
+Requires-Dist: WTForms-Alchemy; extra == 'admin'
+Requires-Dist: WTForms-Components; extra == 'admin'
+
+# webcraft
+
+Async python framework for creating beautiful REST APIs using `aiohttp`.
+
+Full featured REST API demo with schema validation, Open API (aka Swagger) documentation with database access check out [Messenger API](https://github.com/xen/webcraft/blob/master/demo/messenger-api.py) example.
+
