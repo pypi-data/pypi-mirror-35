@@ -1,0 +1,9 @@
+s3_site_maker/__init__.py,sha256=Z2nuq5DP40zlhKZIIqivjAZYF7mMcwTCUZ0I9gl0Y78,614
+s3_site_maker/aws_controller.py,sha256=Ii3k3whJK7L7QrIcSeR5EJ9Fz78pPstMiEiQYFuQpGY,5197
+s3_site_maker/cli.py,sha256=aixNQ7U3_OoCM6j9R1tWXbqvuwiGYDDSCbtuviWyxP4,3024
+s3_site_maker/core.py,sha256=1V_S5LXIO39nDc1el_iSiwkRjg7-V7OXTAQZ-9KNoxI,2565
+s3_site_maker-0.0.3.dist-info/METADATA,sha256=5co0Xnazi1us_X-uaavQUD1lqrOGIb0wEMs_DpVnd_M,3153
+s3_site_maker-0.0.3.dist-info/RECORD,,
+s3_site_maker-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+s3_site_maker-0.0.3.dist-info/entry_points.txt,sha256=OGYp3P0N-P4F9q4xocRC8z8kGA_FKun17E7-4tTB2GU,61
+s3_site_maker-0.0.3.dist-info/top_level.txt,sha256=0qU-bwLQtKFY2EaKf9Lz-DGPkH6LjdCunxMk991ELrs,14
