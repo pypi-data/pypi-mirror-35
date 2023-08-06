@@ -1,0 +1,8 @@
+README.rst
+setup.py
+sparsedlist.py
+sparsedlist.egg-info/PKG-INFO
+sparsedlist.egg-info/SOURCES.txt
+sparsedlist.egg-info/dependency_links.txt
+sparsedlist.egg-info/requires.txt
+sparsedlist.egg-info/top_level.txt
