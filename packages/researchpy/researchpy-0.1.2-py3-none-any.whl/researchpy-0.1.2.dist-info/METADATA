@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: researchpy
+Version: 0.1.2
+Summary: researchpy produces Pandas DataFrames that contain relevant statistical testing information that is commonly required for academic research.
+Home-page: http://researchpy.readthedocs.io/
+Author: Corey Bryant
+Author-email: ResearchPy@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: statsmodels
+
+UNKNOWN
+
+
