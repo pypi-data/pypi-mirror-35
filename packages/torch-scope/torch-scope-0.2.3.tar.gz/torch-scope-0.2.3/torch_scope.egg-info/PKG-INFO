@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: torch-scope
+Version: 0.2.3
+Summary: A Toolkit for Training, Tracking and Saving PyTorch Models
+Home-page: https://github.com/LiyuanLucasLiu/Torch-Scope
+Author: Lucas Liu
+Author-email: llychinalz@gmail.com
+License: Apache License 2.0
+Description-Content-Type: UNKNOWN
+Description: History
+        =======
+        
+        0.1.0 (2018-09-06)
+        ------------------
+        * Support Environment Tracking;
+        * Provide logger wrapper;
+        * Provide tensorboardX wrapper;
+        * Support auto-device; 
+        
+        0.1.1 (2017-09-07)
+        ------------------
+        * Change name; 
+        
+        0.2.0 (2017-09-08)
+        ------------------
+        * Create basic-wrapper class;
+        
+        0.2.1 (2017-09-08)
+        ------------------
+        * Debug and write in the history;
+        * Include the history file in the package;
+        
+        0.2.2 (2017-09-09)
+        ------------------
+        * Support ignore when encounters existing path folder;
+        
+        0.2.3 (2017-09-10)
+        ------------------
+        * Fixing bug for "CUDA_DEVICE_ORDER" not set in os.environ; 
+        * Adding the feature for selective nvidia-smi logging
+        * Use color logging formatter (not fully supported by all bashes environments).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
