@@ -1,0 +1,6 @@
+README.md
+setup.py
+areaCalculatorCdp.egg-info/PKG-INFO
+areaCalculatorCdp.egg-info/SOURCES.txt
+areaCalculatorCdp.egg-info/dependency_links.txt
+areaCalculatorCdp.egg-info/top_level.txt
