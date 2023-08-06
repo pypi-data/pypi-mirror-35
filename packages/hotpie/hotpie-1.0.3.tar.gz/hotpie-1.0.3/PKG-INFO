@@ -1,0 +1,85 @@
+Metadata-Version: 1.1
+Name: hotpie
+Version: 1.0.3
+Summary: OATH HOTP/TOTP implementation in python
+Home-page: https://github.com/gingerlime/hotpie
+Author: Yoav Aner
+Author-email: yoav@gingerlime.com
+License: Copyright (C) 2010 Yoav Aner
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Description: hotpie
+        ======
+        
+        |Build Status| |PyPI|
+        
+        `read more <http://blog.gingerlime.com/2010/once-upon-a-time/>`__
+        
+        OATH HOTP/TOTP implementation in python
+        
+        based on http://tools.ietf.org/html/rfc4226
+        http://tools.ietf.org/html/rfc6238
+        
+        parameter and function names kept inline with the rfc (e.g. hotp,
+        truncate, k, c etc)
+        
+        also including a simple unit test based on test vectors in the RFC
+        
+        usage
+        =====
+        
+        .. code:: bash
+        
+            pip install hotpie
+        
+        .. code:: python
+        
+            from hotpie import HOTP, TOTP
+        
+            key = 'secret'
+            HOTP(key, 0)             # '814628'
+            HOTP(key, 0, digits=8)   # '31814628'
+            HOTP(key, 13, digits=8)  # '81315566'
+            TOTP(key, digits=6)      # <time-based-value>
+        
+            # you can also use different hash implementations by passing `digestmod`
+            # (RFC4226 only specifies SHA-1,
+            #  but RFC6238 explicitly mentions SHA-256 and SHA-512)
+            from hashlib import sha512, sha256
+        
+            HOTP(key, 0, digits=8, digestmod=sha512)
+            TOTP(key, digits=8, digestmod=sha256)
+        
+        tests
+        =====
+        
+        To run the tests, simply run ``python ./hotpie.py``
+        
+        .. |Build Status| image:: https://secure.travis-ci.org/gingerlime/hotpie.png?branch=master
+           :target: http://travis-ci.org/gingerlime/hotpie
+        .. |PyPI| image:: https://img.shields.io/pypi/v/hotpie.svg
+           :target: https://pypi.python.org/pypi/hotpie
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5

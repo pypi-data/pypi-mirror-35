@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+hotpie.py
+setup.py
+hotpie.egg-info/PKG-INFO
+hotpie.egg-info/SOURCES.txt
+hotpie.egg-info/dependency_links.txt
+hotpie.egg-info/not-zip-safe
+hotpie.egg-info/top_level.txt
