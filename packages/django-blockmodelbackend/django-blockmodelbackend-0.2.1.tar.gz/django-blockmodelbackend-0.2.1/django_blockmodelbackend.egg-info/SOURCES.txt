@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+blockmodelbackend/__init__.py
+blockmodelbackend/apps.py
+blockmodelbackend/modelbackend.py
+blockmodelbackend/models.py
+django_blockmodelbackend.egg-info/PKG-INFO
+django_blockmodelbackend.egg-info/SOURCES.txt
+django_blockmodelbackend.egg-info/dependency_links.txt
+django_blockmodelbackend.egg-info/requires.txt
+django_blockmodelbackend.egg-info/top_level.txt
