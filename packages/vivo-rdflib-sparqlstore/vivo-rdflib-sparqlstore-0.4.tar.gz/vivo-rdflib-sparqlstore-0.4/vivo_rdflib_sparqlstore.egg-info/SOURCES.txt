@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+scripts/__init__.py
+scripts/command.py
+tests/__init__.py
+tests/test_graph_utils.py
+vivo_rdflib_sparqlstore.egg-info/PKG-INFO
+vivo_rdflib_sparqlstore.egg-info/SOURCES.txt
+vivo_rdflib_sparqlstore.egg-info/dependency_links.txt
+vivo_rdflib_sparqlstore.egg-info/entry_points.txt
+vivo_rdflib_sparqlstore.egg-info/requires.txt
+vivo_rdflib_sparqlstore.egg-info/top_level.txt
+vstore/__init__.py
+vstore/graph_utils.py
+vstore/vstore.py
