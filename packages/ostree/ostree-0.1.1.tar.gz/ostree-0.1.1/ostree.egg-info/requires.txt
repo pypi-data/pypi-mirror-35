@@ -1,0 +1,9 @@
+cached_property
+click
+google-auth
+requests
+
+[test]
+coverage
+flake8
+pytest
