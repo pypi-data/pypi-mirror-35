@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: layer-py
+Version: 0.0.1
+Summary: Layer sdk for LRX
+Home-page: https://github.com/LayerProtocol/layer-py
+Author: NoRestLabs
+Author-email: galen@norestlabs.com
+License: MIT
+Keywords: layer node protocol cryptography provider identity
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: markdown
+Requires-Dist: eth-abi (==1.1.1)
+Requires-Dist: eth-account (==0.2.3)
+Requires-Dist: eth-hash (==0.1.4)
+Requires-Dist: eth-keyfile (==0.5.1)
+Requires-Dist: eth-keys (==0.2.0b3)
+Requires-Dist: eth-rlp (==0.1.2)
+Requires-Dist: eth-utils (==1.0.3)
+Requires-Dist: web3 (==4.4.1)
+Requires-Dist: requests (==2.19.1)
+
+# LayerProtocol SDK
+
+## python-packaging test
+
+- test on python shell
+> import layer  
+> print(layer.command())
+
+- test on console
+> layer-command
+
+## Installing the Package
+
+> pip install layer-py
+
+
