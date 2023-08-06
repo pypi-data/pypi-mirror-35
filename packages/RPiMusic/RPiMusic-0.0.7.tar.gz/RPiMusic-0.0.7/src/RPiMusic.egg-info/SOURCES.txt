@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/RPiMusic/__init__.py
+src/RPiMusic/rpimusicd.py
+src/RPiMusic.egg-info/PKG-INFO
+src/RPiMusic.egg-info/SOURCES.txt
+src/RPiMusic.egg-info/dependency_links.txt
+src/RPiMusic.egg-info/entry_points.txt
+src/RPiMusic.egg-info/requires.txt
+src/RPiMusic.egg-info/top_level.txt
