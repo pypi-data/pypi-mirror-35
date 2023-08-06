@@ -1,0 +1,9 @@
+aioinflux/__init__.py,sha256=-58LBCRAQgO5pn9hWWUWJvILcwNB4zm1n5b39pEYgM8,448
+aioinflux/client.py,sha256=bKkVPYB8Bce2gSES3pjTOTEdBotePrrfOUjejodptvU,15409
+aioinflux/iterutils.py,sha256=5ciI4dLCK3P7PYXwc4Vt60x8f_XuSBfOmzh5RXWH2no,3220
+aioinflux/serialization.py,sha256=JNnNf3Rf8MMB2b4xw8w0rFgdtPQYdmiiLqIXMo6-DaE,8238
+aioinflux/testing_utils.py,sha256=-B4xMZDHG7xTdSrA8ALcfElKa84-UgpKTUj6ZrNLI6o,2463
+aioinflux-0.3.4.dist-info/METADATA,sha256=7W9YDPmeWwaN9fxKOHunR_K8sHnS9XvattIDo_Uyigs,3541
+aioinflux-0.3.4.dist-info/RECORD,,
+aioinflux-0.3.4.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+aioinflux-0.3.4.dist-info/top_level.txt,sha256=Vly0LPLa3XwEcnXAGMQ1hr5wGfyBo9KpfpvVUE2c0Ug,10
