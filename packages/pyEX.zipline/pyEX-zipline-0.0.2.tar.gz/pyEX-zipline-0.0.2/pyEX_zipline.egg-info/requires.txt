@@ -1,0 +1,5 @@
+IPython
+pandas
+pillow
+pyEX==0.0.4
+socketIO-client-nexus
