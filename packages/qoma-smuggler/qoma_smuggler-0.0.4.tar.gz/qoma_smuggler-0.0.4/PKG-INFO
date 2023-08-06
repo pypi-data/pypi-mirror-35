@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: qoma_smuggler
+Version: 0.0.4
+Summary: Transport Data and Commands Across the FAME / Python Border
+Home-page: http://github.com/qomaio
+Author: Qoma LLC
+Author-email: info@qoma.io
+License: AGPLv3
+Description: Transport data and commands across the FAME / Python border. A set of utilities for: reading FAME databases into R; writing Python data into FAME databases; executing FAME commands in the Python environment; and, executing Python commands in the FAME environment.
+Platform: any
