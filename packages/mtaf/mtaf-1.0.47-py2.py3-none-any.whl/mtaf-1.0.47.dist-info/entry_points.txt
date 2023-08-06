@@ -1,0 +1,4 @@
+[console_scripts]
+mtaf-inspector = mtaf:start_inspector
+mtaf-web-inspector = mtaf:start_web_inspector
+
