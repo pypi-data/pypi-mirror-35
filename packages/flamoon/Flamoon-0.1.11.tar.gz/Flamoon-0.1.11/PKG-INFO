@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: Flamoon
+Version: 0.1.11
+Summary: Надстройка над Flask, для быстрой и удобной web-разработки.
+Home-page: https://github.com/volitilov/flamoon
+Author: volitilov
+Author-email: volitilov@gmail.com
+License: MIT
+Description: # flamoon
+        
+        [![Foo](https://badges.gitter.im/flamoon/Lobby.svg)](https://gitter.im/japronto/Lobby)
+        [![Foo](https://img.shields.io/pypi/v/flamoon.svg)](https://pypi.python.org/pypi/flamoon)
+        [![Foo](https://img.shields.io/pypi/pyversions/flamoon.svg)](https://pypi.python.org/pypi/flamoon/)
+        [![Foo](https://travis-ci.org/volitilov/flamoon.svg?branch=master)](https://travis-ci.org/volitilov/flamoon)
+        
+        ---
+        
+        Надстройка над Flask, для быстрой и удобной web-разработки. При инициализации
+        формирует уже готовый набор данных необходиммых для старта web-разработки на
+        Flask.
+        Вот дерево коталогов и файлов после комманды инициализации `flamoon init`:
+        
+        ```bash
+        .
+        ├── app
+        │   ├── email.py
+        │   ├── ex
+        │   │   ├── data.py
+        │   │   ├── forms.py
+        │   │   ├── __init__.py
+        │   │   ├── templates
+        │   │   │   └── ex.html
+        │   │   └── views.py
+        │   ├── extensions.py
+        │   ├── __init__.py
+        │   ├── models
+        │   │   └── user.py
+        │   ├── static
+        │   │   └── img
+        │   │       └── favicon.ico
+        │   └── templates
+        │       └── base.html
+        ├── config.py
+        ├── manage.py
+        └── tests
+            ├── app
+            │   └── test_app.py
+            └── client
+                └── test_client.py
+        ```
+        
+        
+        ### technical requirements
+        
+        По умолчанию конфигурация настроена на работу с PostgreSQL, поэтому удачного
+        старта можно добится только после установки и добавления своих авторизационных
+        данных в файл `.env`.
+        
+        
+        ### install
+        
+        ```bash
+        $ pip install flamoon
+        ```
+        
+        ### create new project
+        
+        ```bash
+        $ flamoon init
+        ```
+        
+        ### run project
+        
+        ```bash
+        $ export $FLASK_APP=manage.py
+        $ flask db init
+        $ flask db migrate -m 'initial commit'
+        $ flask run
+        ```
+        
+        ### run tests
+        
+        ```bash
+        $ flask test all
+        $ flask test client
+        $ flask test app
+        ```
+        
+        
+        ### run shell
+        
+        ```bash
+        $ flask shell
+        ```
+        
+        
+        ### run coverage
+        
+        ```bash
+        $ flask test_cov
+        ```
+        
+        
+        ### run profiling
+        
+        ```bash
+        $ flask profile
+        ```
+        
+        
+        ### work with database
+        
+        ```bash
+        $ flask db migrate -m 'message'
+        $ flask db upgrade
+        ```
+        
+        
+        ## Donate
+        
+        Я разрабатываю и поддерживаю Flamoon. Чтобы развить сообщество пользователей и позволить 
+        сопровождающим уделять больше времени проекту, пожалуйста, [пожертвуйте](http://donatepay.ru/widgets/page/65c7d0fed574c049f36ec01891046772780862e52d60651dc3ebb2884cc6201c?widget_id=356617).
+        
+        
+        
+        ### Links
+        
+        - License: [MIT https://github.com/volitilov/flamoon/blob/master/LICENSE](https://github.com/volitilov/flamoon/blob/master/LICENSE)
+        - Releases: [https://pypi.org/project/flamoon/](https://pypi.org/project/flamoon/)
+        - Code: [https://github.com/volitilov/flamoon](https://github.com/volitilov/flamoon)
+        - Issue tracker: [https://github.com/volitilov/flamoon/issues](https://github.com/volitilov/flamoon/issues)
+        - Test status:
+        
+          - Linux: [https://travis-ci.org/volitilov/flamoon](https://travis-ci.org/volitilov/flamoon)
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Russian
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
