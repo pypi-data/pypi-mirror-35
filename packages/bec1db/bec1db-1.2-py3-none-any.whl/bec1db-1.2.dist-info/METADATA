@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bec1db
+Version: 1.2
+Summary: The hackiest database reader ever
+Home-page: https://github.com/biswaroopmukherjee/bec1db
+Author: biswaroop
+Author-email: mail.biswaroop@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas
+
+UNKNOWN
+
+
