@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+jupyterlab_autoversion/__init__.py
+jupyterlab_autoversion/extension.py
+jupyterlab_autoversion/handlers.py
+jupyterlab_autoversion/hook.py
+jupyterlab_autoversion.egg-info/PKG-INFO
+jupyterlab_autoversion.egg-info/SOURCES.txt
+jupyterlab_autoversion.egg-info/dependency_links.txt
+jupyterlab_autoversion.egg-info/not-zip-safe
+jupyterlab_autoversion.egg-info/requires.txt
+jupyterlab_autoversion.egg-info/top_level.txt
