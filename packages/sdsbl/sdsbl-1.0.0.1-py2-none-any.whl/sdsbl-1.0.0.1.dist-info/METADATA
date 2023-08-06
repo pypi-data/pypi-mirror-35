@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: sdsbl
+Version: 1.0.0.1
+Summary: practice python packaging
+Home-page: UNKNOWN
+Author: chlee
+Author-email: leech230@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+
+# Example Package
+
+This is a simple example package. 
+
