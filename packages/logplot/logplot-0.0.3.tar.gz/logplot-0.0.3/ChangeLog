@@ -1,0 +1,17 @@
+CHANGES
+=======
+
+0.0.3
+-----
+
+* Try to make win compatible
+
+0.0.1
+-----
+
+* Add codecov badge
+* Initial commit
+* Install codecov as part of travis stuff
+* Add build badge
+* Add pypi passw for deployment
+* Initial commit

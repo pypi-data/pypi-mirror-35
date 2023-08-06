@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: logplot
+Version: 0.0.3
+Summary: Awesome plot from custom logs
+Home-page: https://github.com/jerry-git/logplot
+Author: Jerry Pussinen
+Author-email: jerry.pussinen@gmail.com
+License: UNKNOWN
+Description: # LogPlot
+        
+        [![Build Status](https://travis-ci.org/jerry-git/logplot.svg?branch=master)](https://travis-ci.org/jerry-git/logplot)
+        [![codecov](https://codecov.io/gh/jerry-git/logplot/branch/master/graph/badge.svg)](https://codecov.io/gh/jerry-git/logplot)
+        
+        
+        > WIP: hold your horses boi 🐎
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
