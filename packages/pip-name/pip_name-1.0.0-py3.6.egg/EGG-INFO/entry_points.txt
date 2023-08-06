@@ -1,0 +1,3 @@
+[console_scripts]
+pip-name = pip_name.pip_name:main
+
