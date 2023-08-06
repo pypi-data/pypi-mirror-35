@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: file-organizer
+Version: 0.2.0
+Summary: A file organizer based on file suffixes and user chosen file extensions
+Home-page: https://github.com/xlbruce/file-organizer
+Author: Gilson de Paula
+Author-email: gilsonsvieira93@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: file,organizer
+Platform: UNKNOWN
