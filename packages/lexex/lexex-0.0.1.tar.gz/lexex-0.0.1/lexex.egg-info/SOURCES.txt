@@ -1,0 +1,7 @@
+README.md
+lexex.py
+setup.py
+lexex.egg-info/PKG-INFO
+lexex.egg-info/SOURCES.txt
+lexex.egg-info/dependency_links.txt
+lexex.egg-info/top_level.txt

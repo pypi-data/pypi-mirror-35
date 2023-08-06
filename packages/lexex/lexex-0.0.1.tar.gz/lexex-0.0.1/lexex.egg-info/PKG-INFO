@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: lexex
+Version: 0.0.1
+Summary: Basic state-based lexer for parsing DSLs into tokens.
+Home-page: https://github.com/lainproliant/lexex
+Author: Lain Supe (lainproliant)
+Author-email: lainproliant@gmail.com
+License: BSD
+Description: This is a basic state-based lexer.  See `test.py` for sample usage.
+        
+        
+Keywords: lexer language parser
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Bottle
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
