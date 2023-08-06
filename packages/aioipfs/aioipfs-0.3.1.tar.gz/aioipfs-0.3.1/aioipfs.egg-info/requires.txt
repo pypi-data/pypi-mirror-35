@@ -1,0 +1,5 @@
+aiohttp==3.3.2
+aiofiles==0.3.2
+async_generator==1.10
+yarl==1.2.6
+base58==1.0.0
