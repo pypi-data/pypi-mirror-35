@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mobius-client
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Mobius Team
+Author-email: developers@mobius.network
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyJWT
+Requires-Dist: stellar-base
+
+UNKNOWN
+
+
