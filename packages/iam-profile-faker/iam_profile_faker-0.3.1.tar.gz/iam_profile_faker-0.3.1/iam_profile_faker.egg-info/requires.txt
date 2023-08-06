@@ -1,0 +1,13 @@
+Click>=6.0
+Faker
+tinydb
+
+[api]
+flask
+flask_restful
+flask-graphql
+graphene
+requests
+ipdb
+aniso8601
+flask-cors
