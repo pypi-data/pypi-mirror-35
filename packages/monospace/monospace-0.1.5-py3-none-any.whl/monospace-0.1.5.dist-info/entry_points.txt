@@ -1,0 +1,3 @@
+[console_scripts]
+monospace=monospace.cli:monospace
+
