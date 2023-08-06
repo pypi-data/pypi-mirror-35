@@ -1,0 +1,9 @@
+webcraft/__init__.py,sha256=5eNvugNAVYpJ-cPiDwDcKqiNm3YOlC1TVCisnIefEDo,40
+webcraft/apiview.py,sha256=k2-PhMhHhPoQwzaHocMjD3E8h3TxobqX2_f4_SJbVDs,3578
+webcraft/admin/__init__.py,sha256=sr0Bu6IEVSQpVMbIh6LJ1wIKN9iJfVhArkmvOb0cyAE,83
+webcraft/admin/classbased.py,sha256=Rh7CyQXslAptf7BMT4dup7KaG2L55_l08wDWkiv6pkE,7682
+webcraft/admin/saform.py,sha256=cjNvWdZMGYOAdPOdgEqCj0EiyUR_0kt_BIFQXM9_dVk,3488
+webcraft-0.1.4.dist-info/METADATA,sha256=rqBckTkHBYWm2tdPw1D7BaaDxX1WaLsK7eDtM_cEwP0,1152
+webcraft-0.1.4.dist-info/RECORD,,
+webcraft-0.1.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+webcraft-0.1.4.dist-info/top_level.txt,sha256=nYKYC-sRkyq4clLmpJGkz8rxtA6MgA6x-BaMsiDinOs,9
