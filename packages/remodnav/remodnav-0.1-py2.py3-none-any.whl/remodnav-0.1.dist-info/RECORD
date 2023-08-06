@@ -1,0 +1,14 @@
+remodnav/__init__.py,sha256=ttPvn1eQoPvKWmEbGVDRNOFqrE6yVhMzIODuhJgKNhw,6362
+remodnav/clf.py,sha256=UD4Q5jntcnqfSLZmqGyYFTHSZb6_HWelGZg0LtwK2vE,30580
+remodnav/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remodnav/tests/test_detect.py,sha256=iPtPczN1wFfsBhj6pvoJhLU7F7OTcJ1jNT3SKnyhdJ4,4451
+remodnav/tests/test_nystrom.py,sha256=9rvUa04eByZHOP-BG0JcBl9XeQj6grkICA3Vqz2cdq4,3430
+remodnav/tests/test_preproc.py,sha256=18_54FOCiBiKDHrCKu4T2eDSRefX6iwhuLPWxkpQrTA,3034
+remodnav/tests/utils.py,sha256=gGDg0Qm3vVaF_IrEwG8vofJrq62P7C77qygNRyFnoQE,3297
+remodnav-0.1.dist-info/DESCRIPTION.rst,sha256=1lEZc9aJZDQtL2jmi3HPMcbQee6AwODKTVTUYtLg4TE,2260
+remodnav-0.1.dist-info/METADATA,sha256=a8hJMss8sv8I-eu1KA5K57gn1LrmkR6Xp9zTXg3gCnc,2708
+remodnav-0.1.dist-info/RECORD,,
+remodnav-0.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+remodnav-0.1.dist-info/entry_points.txt,sha256=Q33geqwgj1cjhfr_rD9_Xpp-ttU14hoORTMqqOP_KYU,44
+remodnav-0.1.dist-info/metadata.json,sha256=53w6xHD4DMacscPLJq0gKyDzilOb2Osv3agt_KSo5Ds,707
+remodnav-0.1.dist-info/top_level.txt,sha256=bdXiGp1hUFYNXQ2w0TD9DqNZirDkQWjkZBoAG7Vu9oE,9
