@@ -1,0 +1,11 @@
+arquea/__init__.py,sha256=pVXNbhAygE1m1e3GCOvY9Zr-K6Ew85azlThIoABzYqs,33
+arquea/__main__.py,sha256=sZhpP4WBiyBCNr6iYSQZtEZWOw6pCVbk_EgTCCCBgDU,1070
+arquea/arquea.py,sha256=dTROab5Zk7Fuuz9-WDSSpuZJ6TI29IPiDtUJfAfP928,5540
+arquea/data.py,sha256=4GUMUYUCCFHEYZlrAG1uKJpU1BRfZaFFA_CgdJjMwrQ,5815
+arquea/error.py,sha256=2t4GOrTDGR5VOTQ9suso_NNZSXPtF0VJ9-YQjMS2Tws,1632
+arquea/files.py,sha256=YBIILtgOQ_vFWWKMwDZFF4B_hiWT5Q9T2k7q0oe7kUA,2406
+arquea/info.py,sha256=2y99Fa_2RYh5JtyqpORS06Mb3gd9tOeiyD5TNwUMthI,717
+arquea-0.1.0.dist-info/METADATA,sha256=Pnsg9ATD0mqNkWdi3q1f1OeoNOWoE5Mq1PPDwQoKffM,3847
+arquea-0.1.0.dist-info/RECORD,,
+arquea-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+arquea-0.1.0.dist-info/top_level.txt,sha256=Pk-vMcO86sjnSHgsdWy00H9aaacdnsclq-0_dbTpiY0,7
