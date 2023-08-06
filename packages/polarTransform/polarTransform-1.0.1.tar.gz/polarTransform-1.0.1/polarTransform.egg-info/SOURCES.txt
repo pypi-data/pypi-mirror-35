@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+polarTransform.py
+setup.py
+polarTransform.egg-info/PKG-INFO
+polarTransform.egg-info/SOURCES.txt
+polarTransform.egg-info/dependency_links.txt
+polarTransform.egg-info/requires.txt
+polarTransform.egg-info/top_level.txt
