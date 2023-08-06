@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: llnl-scraper
+Version: 0.4.0
+Summary: Package for extracting software repository metadata
+Home-page: https://github.com/llnl/scraper
+Author: Ian Lee
+Author-email: lee1001@llnl.gov
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: github3.py (==1.0.0a4)
+Requires-Dist: python-gitlab (>=1.6.0)
+Requires-Dist: stashy (>=0.3)
+
+UNKNOWN
+
+
