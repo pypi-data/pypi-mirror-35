@@ -1,0 +1,8 @@
+setup.py
+splitplots/__init__.py
+splitplots/facetgrid.py
+splitplots.egg-info/PKG-INFO
+splitplots.egg-info/SOURCES.txt
+splitplots.egg-info/dependency_links.txt
+splitplots.egg-info/requires.txt
+splitplots.egg-info/top_level.txt
