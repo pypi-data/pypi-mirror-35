@@ -1,0 +1,204 @@
+CHANGES
+=======
+
+1.1.0
+-----
+
+* release: make v1.1.0 release
+* CI: update appveyor config
+* doc: add .mailmap for pbr for AUTHORS generation
+* Update required version of Numpy to 1.13.0
+* doc: add correct Wallach et al. citation
+* limit allowed versions of pbr
+* function searchsorted: binary search, change  to
+
+1.0.6
+-----
+
+* doc: update release notes
+* Minor updates for 2018, Python 3.7
+* Update required version of Numpy to 1.9.0
+* vectorized implementation to speed up function  and
+* Hyperlink DOI to preferred resolver
+* doc: update links to repository
+* doc: use readthedocs; pythonhosted.org is no more
+
+1.0.5
+-----
+
+* Add release notes for 1.0.5
+* ci: use numpy and scipy wheels from alternate repository
+* CI: update download\_wheels.sh
+* ci: update appveyor, Python 3.6
+* TST: test against Python 3.6
+* DOC: remove pypi downloads shield
+* CI: use wheelhouse-uploader to upload windows wheels
+* DOC: update zenodo DOI
+
+1.0.4
+-----
+
+* CI: update release utility scripts
+* DOC: update release notes, release HOWTO
+* DOC: Update docs for manylinux1 era
+* DOC: add full citation for Buntine (2009)
+* DOC: minor edits in README
+* DOC: update zenodo link
+* DOC: Add Python 3.5 to trove classifiers
+
+1.0.3
+-----
+
+* CI: appveyor do not use wheelhouse\_uploader
+
+1.0.3rc1
+--------
+
+* CI: appveyor fix
+* DOC: add reminder to update whats\_new.rst
+* CI: appveyor adjustments
+* CI: appveyor do not build Python 2.7.0
+* CI: appveyor fixes for Python 3.5
+* DOC: Add release notes
+* CI: appveyor, attempt to build msi
+* CI: appveyor updates for Python 3.5
+* Release the GIL during sampling
+* DOC: add link to scikit-learn's online LDA
+* corrected range in example
+* Add comment
+* Split computation of PZS\_new into multiple lines for clarity
+* Don't need to copy PZS\_new
+* Don't need to initialize PZS\_new with vectorization
+* Skip initialization (rather, initialize to 0)
+* Vectorize a loop
+* Compute PZS\_sum in fewer steps
+* Compute theta\_doc in one line
+* Rename variable for clarity
+* Break out loop of transform() method into a new method
+* Rely on fewer local variables (use object members instead)
+* Add build instructions
+* Fix size of ndz\_ in docstring
+* Allow any version of pbr
+* Remove errant comment
+* Transform now handles sparse data
+* Make dtm2ldac errors more informative
+* Raise error if user passes sparse matrix of floats
+* DOC: Update pypi downloads shield
+* Allow use of pbr 0.7
+* DOC: setup.py build\_ext must be run before sdist
+* Revert "Removes pbr pre\_hook pending investigation"
+* NumPy /= is integer division even in Python 3
+* Remove waffle.io badge
+* DOC: fix RST formatting
+
+1.0.2
+-----
+
+* Release 1.0.2
+
+1.0.1
+-----
+
+* Release lda 1.0.1
+
+1.0.0
+-----
+
+* Removes pbr pre\_hook pending investigation
+* Ignore .testrepository
+* Make lda.datasets available after import lda
+* Remove errant comment in CI script
+* DOC: Update docs to cover new features
+* Set default n\_iter to be 2000
+* TST: add test for loglikelihoods\_
+* Track of loglikelihoods for convergence monitoring
+* Minor speedup for transform
+* TST: Improve and simplify transform tests
+* Add transform() via iterated-pseudocount method
+* Configure logging following Python guidelines
+* DOC: List supported versions of Python
+* Reduce number of pre-allocated random variates
+* Trim unused code
+* Work on copies of random variates during sampling
+* Increase number of random variates allocated in advance
+* Add Waffle.io badge
+* CI: Update Miniconda used by Travis
+* TST: add additional tests
+* Additional speedup in matrix to list conversion
+* DOC: improve docstring and comment in utils
+* Minor optimizations
+* TST: Add additional tests for matrix to lists
+* DOC: add zenodo link
+* DOC: Fix link to Pritchard et al. (2000)
+* CI: Only build and test Windows wheels on releases, not every commit
+
+0.3.2
+-----
+
+* TST: Fix TypeError arising only when using a sparse matrix in Python 3.3
+* DOC: update release instructions to reflect change in c code generation
+* CI: Fix appveyor, fetch Windows scipy wheels needed for tests
+* PEP8
+* CI: Generate .c files using Cython in CI setups
+* DOC: Mention lda-users mailing list
+* Support sparse document-term matrices
+* TST: Add tests covering case when user provides sparse matrix
+* Remove \_lda.c from repository, should be generated using cython
+* CI: Add script to help download wheels
+* DOC: add more details about release steps
+* DOC: Improve documentation index
+* DOC: Add PPA install instructions for Ubuntu
+
+0.3.1
+-----
+
+* CI: Test against Python 2.7 on Travis
+* Reference additional files in MANIFEST.in for Debian packaging
+* Flake8 is needed for running tests with tox
+* Use wheelhouse-uploader to upload Windows wheels
+* DOC: update release howto
+* Minor C style adjustments
+* Raises error if zero or negative value passed to lgamma
+* Check that malloc succeeds during sampling
+* DOC: Improve documentation and correct numpydoc errors
+
+0.3.0
+-----
+
+* CI: build wheels for Python 3.3 on Windows
+* Avoid use of numpy keepdims=True for compatibility with older numpy
+* PEP8, order of imports
+* Remove dependency on scipy
+* DOC: fix typo
+* DOC: use apidoc to generate sphinx files
+* Update pypi classifiers
+* DOC: expand documentation
+* DOC: Add note about OS support
+
+0.2.0
+-----
+
+* Remove unused import
+* Improve getting started example, add supporting data
+* Add Windows CI configuration
+* Namespace C functions gamma and lgamma
+* DOC: Fix typo in README
+* Minimally validate eta and alpha
+* Remove unused import
+* Improve formatting in setup.py
+* DOC: minor edits to README
+* Generate code with new version of Cython
+* Improve Makefile
+* Add benchmarking scripts
+* Use John Cook's lgamma rather than scipy's gammaln to reduce dependencies
+* Rewrite loglikelihood calculation in Cython
+* DOC: minor README edits
+* Reorder LDA's methods
+* Comply with PEP8
+* DOC: Add release instructions
+
+0.1.0
+-----
+
+* Use oslotest package to simplify tests
+* Initial commit
