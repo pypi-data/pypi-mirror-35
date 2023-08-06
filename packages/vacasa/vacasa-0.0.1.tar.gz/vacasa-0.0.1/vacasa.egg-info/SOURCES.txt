@@ -1,0 +1,9 @@
+README.md
+setup.py
+vacasa/__init__.py
+vacasa/api.py
+vacasa.egg-info/PKG-INFO
+vacasa.egg-info/SOURCES.txt
+vacasa.egg-info/dependency_links.txt
+vacasa.egg-info/requires.txt
+vacasa.egg-info/top_level.txt
