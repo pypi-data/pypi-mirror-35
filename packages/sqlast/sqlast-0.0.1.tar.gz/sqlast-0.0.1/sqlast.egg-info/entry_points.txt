@@ -1,0 +1,3 @@
+[console_scripts]
+sqlast = sqlast.Cli:Cli.main
+
