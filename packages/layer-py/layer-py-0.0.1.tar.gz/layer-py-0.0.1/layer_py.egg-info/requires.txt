@@ -1,0 +1,10 @@
+markdown
+eth-abi==1.1.1
+eth-account==0.2.3
+eth-hash==0.1.4
+eth-keyfile==0.5.1
+eth-keys==0.2.0b3
+eth-rlp==0.1.2
+eth-utils==1.0.3
+web3==4.4.1
+requests==2.19.1

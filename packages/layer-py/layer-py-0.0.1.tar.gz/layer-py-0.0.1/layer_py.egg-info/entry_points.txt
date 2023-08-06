@@ -1,0 +1,3 @@
+[console_scripts]
+layer-command = layer.command_line:main
+

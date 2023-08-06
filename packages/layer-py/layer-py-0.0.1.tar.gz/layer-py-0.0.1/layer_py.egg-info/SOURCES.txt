@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.py
+layer/__init__.py
+layer/command_line.py
+layer/common.py
+layer/contracts.py
+layer/layernode.py
+layer/provider.py
+layer/signer.py
+layer_py.egg-info/PKG-INFO
+layer_py.egg-info/SOURCES.txt
+layer_py.egg-info/dependency_links.txt
+layer_py.egg-info/entry_points.txt
+layer_py.egg-info/not-zip-safe
+layer_py.egg-info/requires.txt
+layer_py.egg-info/top_level.txt
