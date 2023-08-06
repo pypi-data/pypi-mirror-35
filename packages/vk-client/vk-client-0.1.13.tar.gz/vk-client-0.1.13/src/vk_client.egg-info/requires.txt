@@ -1,0 +1,12 @@
+arrow
+cached-property
+six
+enum34
+more-itertools
+vk
+requests
+Pillow
+
+[tests]
+tox
+pytest
