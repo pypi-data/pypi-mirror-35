@@ -1,0 +1,15 @@
+babel_lingua_chameleon/__init__.py,sha256=O25pTVBAcBTrtIyhf7msOiJesrIEHe4gmNu2z3dlXCg,952
+babel_lingua_chameleon/extractors.py,sha256=_YrwjviNRvmYDEuHHQ1xxo9c9WmGJZLZ4IN0rzUPvPU,1606
+babel_lingua_chameleon/locale/en/LC_MESSAGES/babel-lingua-chameleon.mo,sha256=LL3EVcMB3cq358M-Q5FBQ4c89d2VeiyatL0WsijeQ-E,612
+babel_lingua_chameleon/locale/ko/LC_MESSAGES/babel-lingua-chameleon.mo,sha256=uney18-owo9NLqS83re4zdL1t1SEbp32VdAlrX7ScsM,630
+babel_lingua_chameleon/tests/__init__.py,sha256=NtWp_mmwk-3l6HCsagAdaR6QXTLLvb0UKKHWGOs2U0A,928
+babel_lingua_chameleon/tests/test_extractors.py,sha256=2FtqCXs646J64UscOnndhivPfv9tDWoo-rpi-50o2DA,1680
+babel_lingua_chameleon/tests/utils.py,sha256=LqWJnfXayhkEAh8Cp8NZsMc6TTy6OgLqZovM3Q2n-Q0,1367
+babel_lingua_chameleon/tests/fixtures/__init__.py,sha256=E7s-p1v4o-8JKVoiBog0O41ZSAoZKkWbUw64gM9PlNY,1020
+babel_lingua_chameleon/tests/fixtures/html-page-template.pt,sha256=wEu6OeUm3JLECQfwK2pnE2M6RmBNyGKYpFaFUhX3oyI,259
+babel_lingua_chameleon/tests/layers/__init__.py,sha256=E7s-p1v4o-8JKVoiBog0O41ZSAoZKkWbUw64gM9PlNY,1020
+babel_lingua_chameleon-0.1.0.dist-info/METADATA,sha256=sWC8RctZSDeRQRDfwoj01ySItSF_qGGCNNE9ENuAxZo,1854
+babel_lingua_chameleon-0.1.0.dist-info/RECORD,,
+babel_lingua_chameleon-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+babel_lingua_chameleon-0.1.0.dist-info/entry_points.txt,sha256=1jxws90cPmRUjpEdmCURPe9D9heNyz9QttePrnuBgyU,91
+babel_lingua_chameleon-0.1.0.dist-info/top_level.txt,sha256=pC2oqgRnMwNamKRTME9jp7ZU3tZwqummejtgXeSyitU,23

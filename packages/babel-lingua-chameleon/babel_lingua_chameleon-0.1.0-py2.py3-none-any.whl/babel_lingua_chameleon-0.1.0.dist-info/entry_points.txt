@@ -1,0 +1,3 @@
+[babel.extractors]
+lingua-chameleon = babel_lingua_chameleon.extractors:extract_chameleon
+
