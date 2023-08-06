@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: drf-prettify-json-serializer-field
+Version: 0.2.0
+Summary: You got ugly json, we got a serializer that can massage that data into something useful
+Home-page: https://github.com/rosscdh/drf-prettify-json_serializer-field/
+Author: Ross Crawford-d'Heureuse
+Author-email: sendrossemail@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: Serialize ugly json to pretty json
+Keywords: djangorestframework serializer field json massage presenter-pattern
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
