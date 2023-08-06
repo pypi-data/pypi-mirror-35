@@ -1,0 +1,5 @@
+click==6.*
+pyyaml==3.*
+requests==2.*
+six==1.*
+python-dateutil==2.*
