@@ -1,0 +1,5 @@
+phonenumbers
+pillow==5.0.0
+django<2.1,>=1.11
+django-oscar>=1.6
+django-phonenumber-field<2.1,>=2.0
