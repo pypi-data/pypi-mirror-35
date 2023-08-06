@@ -1,0 +1,13 @@
+pyromaths_qt-18.9.3-py3.6-nspkg.pth,sha256=cZZiqU7Sb28kuK6AIw60n3NWaaUM1mZuilDEJFPJqQU,554
+pyromaths/qt/__init__.py,sha256=wjz3ulUsIWn8xaC3NUOUMr2VIdr_F3fRR3CLx75Ht4E,35295
+pyromaths/qt/__main__.py,sha256=LOtCPbTK9EU52BaV4vyYfkkKpThguhPQl7pB33vUOmw,2944
+pyromaths/qt/config.py,sha256=-bBfUEnv1AHjC-1RC5DpU3QO3xEiZRCQJWBnn9HUciw,4886
+pyromaths/qt/directories.py,sha256=I_RRpVxnu_0EGSgjeJFYW8A5kwbcL4sTJ498Z3WVZQ4,259
+pyromaths/qt/testenv.py,sha256=HYr1SV8qcLeABgiZkTh9DXEuXl8VvOin5x1Set3pzb0,1591
+pyromaths/qt/version.py,sha256=sSJ7gcAnwOIx7np95KC8eVxVQ51y_fTtmjutXlWLKos,563
+pyromaths_qt-18.9.3.dist-info/METADATA,sha256=SQkCdhodQE5VRVMCEIXCGGTekJIigkf05rB5Rn9jTl4,2528
+pyromaths_qt-18.9.3.dist-info/RECORD,,
+pyromaths_qt-18.9.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pyromaths_qt-18.9.3.dist-info/entry_points.txt,sha256=bryiyhxCjO0OR-z5A5TRKJmMZMehy0nodUx5Wq-helg,57
+pyromaths_qt-18.9.3.dist-info/namespace_packages.txt,sha256=TQu1zKKR6vIZ7r_JaKe6MPmdSttZ71rpXsiYUxe_od8,10
+pyromaths_qt-18.9.3.dist-info/top_level.txt,sha256=TQu1zKKR6vIZ7r_JaKe6MPmdSttZ71rpXsiYUxe_od8,10
