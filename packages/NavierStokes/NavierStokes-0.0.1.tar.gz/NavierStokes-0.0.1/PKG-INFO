@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: NavierStokes
+Version: 0.0.1
+Summary: Navier Stokes Calculator
+Home-page: http://rickykim.net
+Author: Kyu Mok (Ricky) Kim
+Author-email: rickykim93@hotmail.com
+License: UNKNOWN
+Description: # NavierStokes
+        
+        ver: 0.0.1
+        
+        ```python
+        python -m unittest tests.test_test
+Platform: UNKNOWN
