@@ -1,0 +1,123 @@
+Metadata-Version: 2.0
+Name: anadb-tools
+Version: 0.12.2
+Summary: A collection tools for managing the analytics databases
+Home-page: https://github.aweber.com/dba/anadb-tools/
+Author: Gavin M. Roy
+Author-email: gavinr@aweber.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: arrow
+Requires-Dist: boto3
+Requires-Dist: consulate
+Requires-Dist: pgpasslib
+Requires-Dist: psycopg2
+Requires-Dist: redis
+Requires-Dist: requests
+
+Analytics Database Tools
+------------------------
+A suite of tools and libraries for managing the analytics database servers.
+
+Installation
+------------
+
+Applications
+------------
+The following command-line applications are installed as part of ``anadb-tools``:
+
++--------------------------+-----------------------------------------------------------+
+| Command                  | Description                                               |
++==========================+===========================================================+
+| ``anadb-analyze``        | Inspect each analytics server via CloudFormation and each |
+|                          | analytics database in PostgreSQL, updating statistics in  |
+|                          | the analytics broker database.                            |
++--------------------------+-----------------------------------------------------------+
+| ``anadb-assign``         | Create &  assign a new analytics database for a customer. |
++--------------------------+-----------------------------------------------------------+
+| ``anadb-cleanup``        | Backup & Delete analytics databases for closed accounts.  |
++--------------------------+-----------------------------------------------------------+
+| ``anadb-deploy``         | Deploy DDL to all of the analytics databases.             |
++--------------------------+-----------------------------------------------------------+
+| ``anadb-migrate``        | Move multiple analytics databases to a different server.  |
++--------------------------+-----------------------------------------------------------+
+| ``anadb-move``           | Move an analytics database to a different server.         |
++--------------------------+-----------------------------------------------------------+
+| ``anadb-orphans``        | Cleanup orphaned analytics databases.                     |
++--------------------------+-----------------------------------------------------------+
+| ``anadb-pageview-audit`` | Examine all analytics databases to determine which have   |
+|                          | pageview data.                                            |
++--------------------------+-----------------------------------------------------------+
+| ``anadb-s3backup``       | Backup the data in an analytics database to Amazon S3.    |
++--------------------------+-----------------------------------------------------------+
+| ``anadb-sequence-fix``   | Reset all of the sequences in an analytics database.      |
++--------------------------+-----------------------------------------------------------+
+| ``anadb-skeleton``       | Create a skeleton CLI application using anadb-tools.      |
++--------------------------+-----------------------------------------------------------+
+
+Common Environment Variables
+----------------------------
+
+The following environment variables allow for overriding the database connection
+information that can be provided by command line switches:
+
++----------------------+---------------------------------------------------------------+
+| Variable             | Description                                                   |
++======================+===============================================================+
+| ``ANABROKER_HOST``   | The database server to connect to the analytics broker on     |
++----------------------+---------------------------------------------------------------+
+| ``ANABROKER_PORT``   | The port to connect to the analytics broker database on       |
++----------------------+---------------------------------------------------------------+
+| ``ANABROKER_DBNAME`` | The analytics broker database name.                           |
+|                      | Default: analytics_broker                                     |
++----------------------+---------------------------------------------------------------+
+| ``ANABROKER_USER``   | The user to connect as to the analytics broker db server.     |
+|                      | Default: the current shell user                               |
++----------------------+---------------------------------------------------------------+
+| ``ANADB_USER``       | The user to connect to an analytics database server as.       |
+|                      | Default: the current shell user                               |
++----------------------+---------------------------------------------------------------+
+| ``APPDB_HOST``       | The database server to connect to for the app database.       |
++----------------------+---------------------------------------------------------------+
+| ``APPDB_PORT``       | The database server port to connect on for the app database.  |
++----------------------+---------------------------------------------------------------+
+| ``APPDB_DBNAME``     | The database name to connect to for the app database.         |
+|                      | Default: ``app``                                              |
++----------------------+---------------------------------------------------------------+
+| ``APPDB_USER``       | The user to connect to the app database server as.            |
+|                      | Default: the current shell user                               |
++----------------------+---------------------------------------------------------------+
+
+Library Modules
+---------------
+
++----------------------------+-----------------------------------------------------------+
+| Module                     | Description                                               |
++============================+===========================================================+
+| ``anadb_tools.anabroker``  | Methods for connecting to and interacting with anabroker. |
++----------------------------+-----------------------------------------------------------+
+| ``anadb_tools.anadb``      | Methods for connecting to and interacting with account    |
+|                            | specified analytics databases.                            |
++----------------------------+-----------------------------------------------------------+
+| ``anadb_tools.appdb``      | Methods for connecting to and interacting with the app    |
+|                            | database.                                                 |
++----------------------------+-----------------------------------------------------------+
+| ``anadb_tools.common``     | Misc common methods including argument parsing and        |
+|                            | logging configuration.                                    |
++----------------------------+-----------------------------------------------------------+
+| ``anadb_tools.database``   | Low-level database commands, including backup.            |
++----------------------------+-----------------------------------------------------------+
+| ``anadb_tools.exceptions`` | Common exceptions for the anadb-tools package.            |
++----------------------------+-----------------------------------------------------------+
+| ``anadb_tools.memcached``  | Clears caching keys for analytics broker assignment info. |
++----------------------------+-----------------------------------------------------------+
+
+Development
+-----------
+
+
