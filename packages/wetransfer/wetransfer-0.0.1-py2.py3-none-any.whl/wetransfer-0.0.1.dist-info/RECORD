@@ -1,0 +1,13 @@
+wetransfer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wetransfer/api_requests.py,sha256=krVdZL4piE_A7zuEXk-s1YHczxI6I2Tn9FG2LZeXgNA,6332
+wetransfer/client.py,sha256=qcTYf6OgohZUxJ0vR7zmkTaR6OCgDHNV4rOltkNtMOU,1595
+wetransfer/items.py,sha256=ex7fmfFLfFdmE-2c5VcAHauV7x4vtjAxygJFO9QHyHk,5039
+wetransfer/logger.py,sha256=5rIaFKA8dHP-4wUkRT4Iwk5tqXBZhik9tyXkz-6awEM,172
+wetransfer/transfer.py,sha256=pSoZzwPKRhROOpRbwc9S7rgFfXHN22z4fdheNgnwUoI,4032
+wetransfer/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+wetransfer-0.0.1.dist-info/LICENSE.txt,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+wetransfer-0.0.1.dist-info/METADATA,sha256=wRrxM42WcbbLVG7rfwGSQls4J-Bzrvb8PktRPm4IAS4,3811
+wetransfer-0.0.1.dist-info/RECORD,,
+wetransfer-0.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+wetransfer-0.0.1.dist-info/top_level.txt,sha256=3kbhM6czvYCyA6gL3HwZM2m8UF4uxQDCn4qn7p5HofU,11
+wetransfer-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
