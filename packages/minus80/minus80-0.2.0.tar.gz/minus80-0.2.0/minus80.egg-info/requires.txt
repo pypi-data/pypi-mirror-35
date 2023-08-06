@@ -1,0 +1,14 @@
+pandas>=0.22.0
+bcolz>=1.2.1
+blaze>=0.10.1
+termcolor>=1.1.0
+pyyaml>=3.12
+click>=6.7
+asyncssh>=1.12.2
+networkx==1.11
+boto3>=1.7.84
+apsw
+
+[docs]
+ipython>=6.5.0
+matplotlib>=2.2.3
