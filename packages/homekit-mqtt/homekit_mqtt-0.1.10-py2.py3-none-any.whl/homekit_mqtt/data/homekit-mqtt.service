@@ -1,0 +1,10 @@
+[Unit]
+Description = HomeKit MQTT Daemon
+After = local-fs.target network-online.target
+
+[Service]
+WorkingDirectory=/etc/homekit-mqtt
+ExecStart = /usr/local/bin/homekit-mqtt
+
+[Install]
+WantedBy = multi-user.target
