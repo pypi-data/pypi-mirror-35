@@ -1,0 +1,14 @@
+django_user_fields-0.1.0.dist-info/METADATA,sha256=okH8x8DnwN7FZmn8Aj8M0F9R6RTBOpWjG-OacFMwKzU,6389
+django_user_fields-0.1.0.dist-info/RECORD,,
+django_user_fields-0.1.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+django_user_fields-0.1.0.dist-info/top_level.txt,sha256=oIcrwSnLsWLgbijY0ZMhEzYEpb6DnidScEH0mqhcXAk,12
+user_fields/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+user_fields/apps.py,sha256=RYeEdC63Wkl5tGgjAtuSfdAj2m1Ke-OrCQu_uRUWacc,102
+user_fields/decorators.py,sha256=c5SIiw3YLFL9rlU_X_Rtj5_qxRmrlhx9kTt42QZlC9A,1851
+user_fields/mixins.py,sha256=6Ob_n-XrviJdI1f6lV_8yoFWRouBRMb2d8WZnWPzmEE,2587
+user_fields/models.py,sha256=DCmI5nTKwgwbYWemaqTEZnGxcXy_PRYqbfvJAhBmSA4,2654
+user_fields/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+user_fields/utils.py,sha256=QaqAlZ62Wei4LGUxKwjdaO0wysSHe9CTlz9wZBDYHGk,861
+user_fields/views.py,sha256=u0FhL7RT5byf5IlcnZEMrcH2TOnQkdfRQU2SjtA26m0,66
+user_fields/migrations/0001_initial.py,sha256=8EmyF2BXAephp6j1UDfBRNznToxIoS3CiwdfETUUqPo,1729
+user_fields/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
