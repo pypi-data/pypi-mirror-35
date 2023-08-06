@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: easyq
+Version: 0.2.1b2
+Summary: Simple and easy message queue tcp server
+Home-page: http://github.com/pylover/easyq
+Author: Vahid Mardani
+Author-email: vahid.mardani@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: System :: Networking :: Monitoring :: Hardware Watchdog
+Classifier: Topic :: Terminals :: Telnet
