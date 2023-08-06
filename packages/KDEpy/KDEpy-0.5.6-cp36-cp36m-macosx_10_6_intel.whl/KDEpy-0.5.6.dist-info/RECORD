@@ -1,0 +1,17 @@
+cutils.cpython-36m-darwin.so,sha256=3qd0o3e51-mATGZEAZJpsNpSb0PkSu7lW0oZ49WtE4g,387672
+KDEpy/BaseKDE.py,sha256=qVgqRg0x6bqmSwYeL_Fww_mkVubMcF8UilIdYhtCH38,8753
+KDEpy/FFTKDE.py,sha256=aqizGAeCDYtTZcso--Yi57FDeBuoPyciDRhNF38dUHs,7325
+KDEpy/NaiveKDE.py,sha256=0MSb2if71ouIiwQWy-yf8QnmgAv3fhhMfjEeIz4vKOs,8214
+KDEpy/TreeKDE.py,sha256=oSsiEOCd6CcOutfGlyttXAJfbulEHsKMKIiwGxcclvU,11000
+KDEpy/__init__.py,sha256=lVCqeC69beZxApBC18ixjMKOKLx4-NIhaeHLBweryhU,252
+KDEpy/binning.py,sha256=hav7kBcuZE-Q13GOFrZeomho03A1vENUCLN3s6wYLLw,15036
+KDEpy/bw_selection.py,sha256=jCnYt_zYwSEINQCXsgRjjyPFiA4GzV23TaDT-YEMuK0,8407
+KDEpy/examples.py,sha256=qWGdJPkVRmwfoNNyYnML_qnSYJCAhU7QNrcaLSYsoZI,6221
+KDEpy/kde.py,sha256=ns6Z5rdZyGR0jhE40vNu6zoWdiqdBilK08CINMdNaN4,3688
+KDEpy/kernel_funcs.py,sha256=PnkpUPzFQ4GQsnuqT-yz6aUdj195w8cCsYfqcQc-qUk,12328
+KDEpy/profiling.py,sha256=IYDBveMtBEy3Rsq9qCs4zHdWmHT3nejbyKvI9WGbTXE,9439
+KDEpy/utils.py,sha256=Bl99C6T-YPKA9hZxETKiFbvLbKqokNzHlEuqvRMAWJQ,3983
+KDEpy-0.5.6.dist-info/METADATA,sha256=TcRMIk04IOy_qjdlPGENvF42EcE0S9WrkjLcGN6c9eg,531
+KDEpy-0.5.6.dist-info/RECORD,,
+KDEpy-0.5.6.dist-info/WHEEL,sha256=lx06sLWNl7U6OABNP9EWDqGNT2LbGyG1l5xyFnYYudo,109
+KDEpy-0.5.6.dist-info/top_level.txt,sha256=fdiSxzDw2t14fbc3jVq8WIMxLzHE9-dSzruc-w6D1Ik,13
