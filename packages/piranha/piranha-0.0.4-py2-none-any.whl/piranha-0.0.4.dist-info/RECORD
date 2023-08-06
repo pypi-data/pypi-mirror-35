@@ -1,0 +1,10 @@
+piranha/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+piranha/__version__.py,sha256=P4We07T6OW_G9molEvPPNalRo8nn-PZpo1XjOhVnp-4,24
+piranha/client.py,sha256=EngcoqAevkZ0uNTYx7Ri-fS50-n62beYh_vHbOOt6ok,272
+piranha/s3.py,sha256=zejutGlfaLw12GL9ku5kYokohzEZ1Wpao-kUolcBFuM,681
+piranha-0.0.4.dist-info/DESCRIPTION.rst,sha256=3god6lrzC6L3xzvs0Gr0REog3TI1-BYbbtJbuSLsgPM,63
+piranha-0.0.4.dist-info/METADATA,sha256=9PG0TjIQj0Uty7TAgK1p-S9j8wiQwJdMQdIRHllOmj8,475
+piranha-0.0.4.dist-info/RECORD,,
+piranha-0.0.4.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+piranha-0.0.4.dist-info/metadata.json,sha256=YSC1OJv-sh0jkFBXmAdt8DxFMfhOd19u6QbaN-Ln-0s,557
+piranha-0.0.4.dist-info/top_level.txt,sha256=eZIhXk1UKkKBXFR7pS00bZp79ngMY_QJijlVJ8CnUlM,8
