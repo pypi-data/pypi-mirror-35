@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        tap-campaign-monitor=tap_campaign_monitor:main
+    
