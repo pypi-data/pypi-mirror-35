@@ -1,0 +1,12 @@
+pdf_shuffle/__init__.py,sha256=lxLOOyq6bS88xFlX9E76FaK_cVkMJPaqyZGhCKUjyHk,1125
+pdf_shuffle/__main__.py,sha256=wYJbk0aIU26RdNoR6vt5RyvGr-gm-clUlUQ9mkASa18,686
+pdf_shuffle/static/index.css,sha256=A9F006e5PBrIDP_a6qBaZQlWSOE1HZfCSq_lz6jFuI4,726
+pdf_shuffle/static/index.js,sha256=EWr7dlDxcqwn_Tn_jb4SMFG64JjTrFtKLI50sk6v7eM,4312
+pdf_shuffle/templates/index.html,sha256=UCySqXbj0wy-dZ8RVZvUvuZndtnkh-2UctemNoMpgYs,1329
+pdf_shuffle/util.py,sha256=d-2KwnyPVHh_JjnGWMBxme3zi8isRMnl7I2nDUB2HGg,257
+pdf_shuffle/views.py,sha256=455idW52iU3RF7Ec_LAvll9b2J6q6runXt5TwK6WIho,608
+pdf_shuffle-0.1.0.dist-info/entry_points.txt,sha256=3SxpXPGXHnmNA57Rt-q638PMiLi2hJM64ljLLUucOrs,103
+pdf_shuffle-0.1.0.dist-info/LICENSE,sha256=8UmO4O0vGEotUnolM6lBCFtXf-s4veRYVbiM9ZCKrQg,1082
+pdf_shuffle-0.1.0.dist-info/WHEEL,sha256=iHNYzPUVYRtgtTQ6cDC8dDHik6tPtlP28oe-A5gfgbQ,88
+pdf_shuffle-0.1.0.dist-info/METADATA,sha256=wHF_5MUJmm1SgtSyYc5uvC-brTQvmkOUAqCURcHbgS0,2133
+pdf_shuffle-0.1.0.dist-info/RECORD,,
