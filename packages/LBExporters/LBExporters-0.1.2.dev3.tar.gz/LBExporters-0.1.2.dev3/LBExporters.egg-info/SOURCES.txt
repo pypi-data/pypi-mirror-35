@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+LBExporters.egg-info/PKG-INFO
+LBExporters.egg-info/SOURCES.txt
+LBExporters.egg-info/dependency_links.txt
+LBExporters.egg-info/requires.txt
+LBExporters.egg-info/top_level.txt
+labelbox2coco/__init__.py
+labelbox2pascal/__init__.py
+labelbox2pascal/pascal_voc_writer/__init__.py
+labelbox2pascal/pascal_voc_writer/templates/annotation.xml
