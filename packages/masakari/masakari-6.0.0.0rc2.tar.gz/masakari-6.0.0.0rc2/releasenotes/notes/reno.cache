@@ -1,0 +1,20 @@
+---
+file-contents:
+  releasenotes/notes/recovery-method-customization-3438b0e26e322b88.yaml:
+    features: ["Operator can now customize workflows to process each type of failure\n\
+        notifications (hosts, instance and process) as per their requirements.\nAdded\
+        \ below new config section for customized recovery flow in a new conf\nfile\
+        \ masakari-custom-recovery-methods.conf\n\n- [taskflow_driver_recovery_flows]\n\
+        \nUnder [taskflow_driver_recovery_flows] is added below five new config options\n\
+        \n- 'instance_failure_recovery_tasks' is a dict of tasks which will recover\n\
+        \  instance failure.\n- 'process_failure_recovery_tasks' is a dict of tasks\
+        \ which will recover\n  process failure.\n- 'host_auto_failure_recovery_tasks'\
+        \ is a dict of tasks which will recover\n  host failure for auto recovery.\n\
+        - 'host_rh_failure_recovery_tasks' is a dict of tasks which will recover\n\
+        \  host failure for rh recovery on failure host.\n"]
+notes:
+- files:
+  - - releasenotes/notes/recovery-method-customization-3438b0e26e322b88.yaml
+    - !!binary |
+      YWQzZGM3MzdjOTg0YzI2Nzk4MGU3NDc5YWNjMmJmODg1NmI1NTZkNQ==
+  version: 6.0.0.0rc1
