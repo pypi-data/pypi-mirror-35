@@ -1,0 +1,14 @@
+alignak_module_nsca/__init__.py,sha256=vAQHOaQ5A0TSu3h3y1tbJGDkDFbfF8KNWXSbHg44Hj4,978
+alignak_module_nsca/nsca.py,sha256=Gq3LGJu94l-SUGf5rNAPLHjlZQtRDhZ7mM4Ebl48KkM,14278
+alignak_module_nsca/etc/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+alignak_module_nsca/etc/alignak.d/alignak-module-nsca.ini,sha256=DtjhhltisemLEDIt4S72fxsGSmLoh3QAPvzZjFXXduk,1412
+alignak_module_nsca/etc/arbiter/modules/mod-nsca.cfg,sha256=WEqVfv6qpoH2C8rQkfROlTHdYQoIQTPdyZA33P7Vlew,1610
+alignak_module_nsca-2.0.0.data/data/share/alignak/etc/alignak.d/alignak-module-nsca.ini,sha256=DtjhhltisemLEDIt4S72fxsGSmLoh3QAPvzZjFXXduk,1412
+alignak_module_nsca-2.0.0.data/data/share/alignak/etc/arbiter/modules/mod-nsca.cfg,sha256=WEqVfv6qpoH2C8rQkfROlTHdYQoIQTPdyZA33P7Vlew,1610
+alignak_module_nsca-2.0.0.dist-info/METADATA,sha256=nevVENLup8W1TOyk0BxdFHbeuylbXyCGeWgB4-GRhuI,5765
+alignak_module_nsca-2.0.0.dist-info/RECORD,,
+alignak_module_nsca-2.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+alignak_module_nsca-2.0.0.dist-info/top_level.txt,sha256=x61Ehd9DrY3H8TQM9kFJL7E5ZtKnbGKNqvXjBkeC7cU,25
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/alignak_test.py,sha256=YUMmCwkmzcwR1M9_-ZSYqwDK96kc36HokilcvxGb3d8,77934
+test/test_module.py,sha256=X8DEW8VsGjolbsE2d9aHS8T9f_iqF2aW6D2TAox6hQk,15603
