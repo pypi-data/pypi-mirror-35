@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: Flask-PonyAPI
+Version: 0.0.3
+Summary: API creation for Pony ORM Entities with no effort.
+Home-page: https://github.com/fuzzyelements/Flask-PonyAPI
+Author: Stavros Anastasiadis
+Author-email: anastasiadis.st00@gmail.com
+License: BSD
+Description: 
+        Flask-PonyAPI
+        -------------
+        
+        API creation for Pony ORM Entities with no effort.
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
