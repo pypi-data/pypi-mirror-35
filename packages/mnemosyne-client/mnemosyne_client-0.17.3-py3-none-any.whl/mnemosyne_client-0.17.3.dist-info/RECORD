@@ -1,0 +1,7 @@
+mnemosyne_client-0.17.3.dist-info/METADATA,sha256=x9kZWvfmXoh7b85vwHlUKicwVIX9MqaQX3rjKLMPqwk,444
+mnemosyne_client-0.17.3.dist-info/RECORD,,
+mnemosyne_client-0.17.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+mnemosyne_client-0.17.3.dist-info/top_level.txt,sha256=QZJxPsI5rNpXLmh6-TByvTHX2pIQKWkre2H8l5-KlIU,13
+mnemosynerpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mnemosynerpc/session_pb2.py,sha256=zN5rN0G4wTY9oRX9vlq9yYg2iaSy6WIe5446UC8Sd_c,32432
+mnemosynerpc/session_pb2_grpc.py,sha256=hhXG1bR6Pj6YvT_XdsRY1MLOt8HNCTG8Osh_NsnDMTc,7457
