@@ -1,0 +1,5 @@
+numpy>=1.13.1
+awkward
+uproot-methods
+cachetools
+lz4
