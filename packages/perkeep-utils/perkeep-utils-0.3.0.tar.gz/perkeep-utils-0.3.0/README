@@ -1,0 +1,81 @@
+python-perkeep-utils
+
+1) Installation
+2) Usage
+3) Probe Types
+3.1) Basic Types
+3.2) image
+3.3) audio
+4) Testing
+5) Release
+6) License
+
+
+------------------------------------------------------------------------
+Installation
+
+$ python3 setup.py install --home ~/.local
+
+
+-----------------------------------------------------------------------
+Usage
+
+$ python3
+    import pkutils.datasets as datasets
+    help(datasets)
+
+
+-----------------------------------------------------------------------
+Probe Types
+
+Probe types defines which types can be used for probes within datasets.
+All dataset readers and writers should support these types.
+
+
+-----------------------------------------------------------------------
+Probe Types - Basic Types
+
+The following basic probe types are supported in datasets:
+- boolean
+- float
+- string
+- float[]
+
+
+-----------------------------------------------------------------------
+Probe Types - image
+
+Images are in memery represented as PIL.Image class instances.
+
+
+-----------------------------------------------------------------------
+Probe Types - audio
+
+The representation of audio files in memory is not yet defined. The
+format used in perkeep is ogg files.
+
+
+-----------------------------------------------------------------------
+Release
+
+For a release perform the following steps:
+- Make sure your workspace is clean.
+- Execute tests.
+- Bounce version.
+$ python3 setup.py sdist upload
+- git tag v0.1.0
+- git push
+- git push --tags
+
+
+-----------------------------------------------------------------------
+Testing
+
+Run the tests:
+$ python3 -m unittest discover pkutils '*_spec.py'
+
+
+-----------------------------------------------------------------------
+License
+
+See file COPYING.
