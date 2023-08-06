@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: tftf
+Version: 0.0.21
+Summary: TensorFlow TransFormer
+Home-page: https://github.com/yusugomori/tftf
+Author: Yusuke Sugomori
+Author-email: me@yusugomori.com
+License: Apache 2.0
+Keywords: tensorflow keras machine deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: numpy (>=1.13.3)
+Requires-Dist: scikit-learn (>=0.19.1)
+
+UNKNOWN
+
+
