@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tmn
+Version: 0.1.0
+Summary: 
+Home-page: https://tomochain.com
+Author: Etienne Napoleone
+Author-email: etienne@tomochain.com
+Keywords: tomochain,blockchain,masternode,node
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=6.7,<7.0)
+Requires-Dist: clint (>=0.5.1,<0.6.0)
+Requires-Dist: docker (>=3.4,<4.0)
+Requires-Dist: pastel (>=0.1.0,<0.2.0)
+Requires-Dist: validators (>=0.12.2,<0.13.0)
