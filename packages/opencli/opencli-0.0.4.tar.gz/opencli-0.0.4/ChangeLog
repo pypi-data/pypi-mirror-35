@@ -1,0 +1,30 @@
+CHANGES
+=======
+
+v0.0.4
+------
+
+* Bug fixes & headers support
+* Add license
+* Update README.md
+
+v0.0.3
+------
+
+* Python 2.7 compatibility
+* Add demo gif
+
+v0.0.2
+------
+
+* Fix completer shlex failures
+* Update README.md
+* Update README.md
+* Update README.md
+
+v0.0.1
+------
+
+* Update README.md
+* Add initial code
+* Initial commit
