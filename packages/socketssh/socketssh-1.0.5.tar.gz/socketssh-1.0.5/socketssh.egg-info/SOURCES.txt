@@ -1,0 +1,12 @@
+README.md
+setup.py
+socketssh/__init__.py
+socketssh/client.py
+socketssh/interface.py
+socketssh/server.py
+socketssh.egg-info/PKG-INFO
+socketssh.egg-info/SOURCES.txt
+socketssh.egg-info/dependency_links.txt
+socketssh.egg-info/entry_points.txt
+socketssh.egg-info/requires.txt
+socketssh.egg-info/top_level.txt
