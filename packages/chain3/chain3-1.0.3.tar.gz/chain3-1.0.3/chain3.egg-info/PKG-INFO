@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: chain3
+Version: 1.0.3
+Summary: Chain3.py for moac
+Home-page: https://github.com/moac/chain3.py
+Author: Michael Wang
+Author-email: wangxi@moacchina.com
+License: MIT
+Description: UNKNOWN
+Keywords: moac
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5, <4
