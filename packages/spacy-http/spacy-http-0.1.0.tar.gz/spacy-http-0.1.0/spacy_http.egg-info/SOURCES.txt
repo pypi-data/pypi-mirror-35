@@ -1,0 +1,8 @@
+README.md
+setup.py
+spacyHttp/__main__.py
+spacy_http.egg-info/PKG-INFO
+spacy_http.egg-info/SOURCES.txt
+spacy_http.egg-info/dependency_links.txt
+spacy_http.egg-info/requires.txt
+spacy_http.egg-info/top_level.txt

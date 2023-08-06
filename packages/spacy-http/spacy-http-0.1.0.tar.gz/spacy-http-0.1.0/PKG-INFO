@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: spacy-http
+Version: 0.1.0
+Summary: spaCy as a HTTP service
+Home-page: https://github.com/turbolent/spacy-http
+Author: Bastian Mueller
+Author-email: bastian@turbolent.com
+License: UNKNOWN
+Description: # spacy-http
+        
+        [spaCy](https://github.com/explosion/spaCy) as a HTTP service
+        
+        
+        ## Usage
+        
+        Download spaCy's parser model for English:
+        
+        - `python3 -m spacy download en`
+        
+        Run the service:
+        
+        - `python3 -m spacyHttp`
+        
+        Pass the `--ner` option to perform named-entity recognition.
+        
+        
+Keywords: natural language processing,nlp
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing
+Description-Content-Type: text/markdown
