@@ -1,0 +1,3 @@
+[console_scripts]
+jinja2-dev-server = jinja2_dev_server.command_line:main
+
