@@ -1,0 +1,12 @@
+aws_web_builder/__init__.py,sha256=gbydkmfj3jvb0qw5pCMVEhQaJth1lCuyjKIcwDJGhTc,176
+aws_web_builder/aws_acm.py,sha256=aBCSmBHi2ZVEupqmI620_f5i9iEbNX5GoMhdG5c-MrQ,1699
+aws_web_builder/aws_cdn.py,sha256=Ma3IHRQ_cylkhlVmoMXsmu6SqKcmzZP03nvdDUtWYHs,3062
+aws_web_builder/aws_route53.py,sha256=ztufNl5PqLjRzvLiHh5KMpbeGVPm27g-f7n4opb8Mv8,2785
+aws_web_builder/aws_s3.py,sha256=YFnsoqAwp4VT_6car2KImIfkUtKJsZH-D3C_figXcFo,6029
+aws_web_builder/aws_util.py,sha256=fNdoR-Zd2cz2r1iOK1Fv_qK4MAELdSfKwcTgA7NaSBY,2309
+aws_web_builder/aws_web_builder.py,sha256=9P57hKOI5vn2fRzmy0PVnp2YlipDNaPcdrtCeH_SnJ4,4441
+aws_web_builder-0.1.dist-info/METADATA,sha256=UFglfyY4fELXp5RkyhjcEDFUIxWjt6qkcHBjxSouy10,447
+aws_web_builder-0.1.dist-info/RECORD,,
+aws_web_builder-0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+aws_web_builder-0.1.dist-info/entry_points.txt,sha256=TJZCAhRaqxu1_20IQHMiwf9lbxZK7DSe9JCxwn_zCTE,91
+aws_web_builder-0.1.dist-info/top_level.txt,sha256=h-GNMfmgsMBe0ECi7inr_geu0QSJN7N5pEfRw2zeNQ4,16
