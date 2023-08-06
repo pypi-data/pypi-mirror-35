@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: django-translations
+Version: 1.0.0a1
+Summary: A Django app which provides support for model translation.
+Home-page: https://github.com/perplexionist/django-translations
+Author: Behzad B. Mokhtari
+Author-email: 35877268+perplexionist@users.noreply.github.com
+License: UNKNOWN
+Project-URL: Documentation, https://perplexionist.github.io/django-translations
+Project-URL: Funding, https://blockchain.info/address/1FcPBamd6mVrHBNvjB5PqjbnGCBhdY7Rtm
+Project-URL: Source, https://github.com/perplexionist/django-translations
+Project-URL: Tracker, https://github.com/perplexionist/django-translations/issues
+Description: Translations
+        ============
+        
+        .. image:: https://travis-ci.com/perplexionist/django-translations.svg?branch=master
+            :target: https://travis-ci.com/perplexionist/django-translations
+        
+        Translations app provides an *easy*, *efficient* and *modular* way of
+        translating django models.
+        
+        Requirements
+        ------------
+        
+        * Python (>=3.5)
+        * Django (1.11, >=2.0)
+        
+        Installation
+        ------------
+        
+        1. Install Translations using PIP (use ``--pre``, still in development)::
+        
+           $ pip install --pre django-translations
+        
+        2. Add ``'translations'`` to ``INSTALLED_APPS`` in the settings of your Django
+           project::
+        
+               INSTALLED_APPS = [
+                   ...
+                   'translations',
+                   ...
+               ]
+        
+        3. Run ``migrate``::
+        
+           $ python manage.py migrate
+        
+        Basic Usage
+        -----------
+        
+        Model
+        ~~~~~
+        
+        Inherit ``Translatable`` in any model you want translated::
+        
+            from translations.models import Translatable
+        
+            class Continent(Translatable):
+                ...
+        
+            class Country(Translatable):
+                ...
+        
+            class City(Translatable):
+                ...
+        
+        **No Migrations** needed afterwards!
+        
+        Query
+        ~~~~~
+        
+        Use the queryset extensions::
+        
+            >>> continents = Continent.objects.prefetch_related(
+            ...     'countries',
+            ...     'countries__cities',
+            ... ).apply_translations(
+            ...     'countries',
+            ...     'countries__cities',
+            ...     lang='de'
+            ... )
+            >>> continents[0].name
+            Europa
+            >>> continents[0].countries.all()[0].name
+            Deutschland
+        
+        This does **Only One Query** for the queryset and relations translations!
+        
+        Admin
+        ~~~~~
+        
+        Use the admin extensions::
+        
+            from django.contrib import admin
+            from translations.admin import TranslatableAdmin, TranslationInline
+        
+            from .models import Continent
+        
+            class ContinentAdmin(TranslatableAdmin):
+                inlines = [TranslationInline,]
+        
+            admin.site.register(Continent, ContinentAdmin)
+        
+        This provides admin inlines for the translations of the model.
+        
+        Documentation
+        -------------
+        
+        For more interesting capabilities browse through the `documentation`_.
+        
+        .. _documentation: http://perplexionist.github.io/django-translations
+        
+Keywords: django internationalization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Internationalization
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/x-rst
