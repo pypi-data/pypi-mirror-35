@@ -1,0 +1,5 @@
+setup.py
+GuessItTemplateEngine.egg-info/PKG-INFO
+GuessItTemplateEngine.egg-info/SOURCES.txt
+GuessItTemplateEngine.egg-info/dependency_links.txt
+GuessItTemplateEngine.egg-info/top_level.txt
