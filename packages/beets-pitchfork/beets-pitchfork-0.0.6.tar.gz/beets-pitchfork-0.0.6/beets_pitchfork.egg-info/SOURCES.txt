@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+beets_pitchfork.egg-info/PKG-INFO
+beets_pitchfork.egg-info/SOURCES.txt
+beets_pitchfork.egg-info/dependency_links.txt
+beets_pitchfork.egg-info/namespace_packages.txt
+beets_pitchfork.egg-info/requires.txt
+beets_pitchfork.egg-info/top_level.txt
+beetsplug/__init__.py
+beetsplug/pitchfork.py
+test/test_cli.py
