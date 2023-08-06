@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Perform undercloud upgrade and related steps
+set -euo pipefail
+
+sudo yum update -y python-tripleoclient
+{% if containerized_undercloud_upgrade|bool %}
+openstack undercloud upgrade -y
+{% else %}
+openstack undercloud upgrade
+{% endif %}
