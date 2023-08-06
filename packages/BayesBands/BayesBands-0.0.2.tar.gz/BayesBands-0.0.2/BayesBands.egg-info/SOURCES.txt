@@ -1,0 +1,9 @@
+setup.py
+BayesBands/__init__.py
+BayesBands/confidence.py
+BayesBands/experimental.py
+BayesBands.egg-info/PKG-INFO
+BayesBands.egg-info/SOURCES.txt
+BayesBands.egg-info/dependency_links.txt
+BayesBands.egg-info/not-zip-safe
+BayesBands.egg-info/top_level.txt
