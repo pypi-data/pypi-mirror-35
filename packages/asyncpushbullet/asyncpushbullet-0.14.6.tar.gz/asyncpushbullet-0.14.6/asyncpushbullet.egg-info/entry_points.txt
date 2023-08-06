@@ -1,0 +1,5 @@
+[console_scripts]
+pblisten = asyncpushbullet.command_line_listen:main
+pbpush = asyncpushbullet.command_line_push:main
+pbtransfer = asyncpushbullet.command_line_push:main_file_transfer_mode
+
