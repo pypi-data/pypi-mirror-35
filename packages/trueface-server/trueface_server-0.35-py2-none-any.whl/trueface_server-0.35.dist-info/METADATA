@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: trueface-server
+Version: 0.35
+Summary: Trueface.ai Server SDK
+Home-page: https://github.com/getchui/truefacesdk
+Author: Nezare Chafni
+Author-email: nchafni@truface.ai
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pubnub
+Requires-Dist: imutils
+Requires-Dist: opencv-python
+Requires-Dist: mxnet
+Requires-Dist: requests
+Requires-Dist: requests-futures
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: docker
+
+UNKNOWN
+
+
