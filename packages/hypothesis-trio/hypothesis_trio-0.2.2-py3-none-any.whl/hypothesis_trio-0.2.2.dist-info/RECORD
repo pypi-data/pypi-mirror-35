@@ -1,0 +1,10 @@
+hypothesis_trio/__init__.py,sha256=wYvaZWa_ID9nCt3HfVB4DYJxHlaYh2dj3bD8UfnsDy0,80
+hypothesis_trio/_version.py,sha256=CyrNcMCmd37I4SYNXeIIXeirGBcMx77bag0yz4473Ys,89
+hypothesis_trio/stateful.py,sha256=CqyeVN-iBwt83znL7iAVcZcFKj5yQxDw6SRG0-HNhcs,6009
+hypothesis_trio/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hypothesis_trio/_tests/test_async_stateful.py,sha256=IX5Zr_IgUZdUu1obOJyHlWf_ZDHgR5bIpk3AOZI6oYE,6186
+hypothesis_trio/_tests/test_stateful.py,sha256=FOlDHekYlp7QggRNjckp9AgLAhQble8y7eBrChX3BpU,1257
+hypothesis_trio-0.2.2.dist-info/METADATA,sha256=Y535CtQLXxh293bkalNm0fr3NTzQ6qDKgCvft1Y_Ywo,1434
+hypothesis_trio-0.2.2.dist-info/RECORD,,
+hypothesis_trio-0.2.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+hypothesis_trio-0.2.2.dist-info/top_level.txt,sha256=W4XQKCwaZwpWYFITedVfNfpYQpqT_xm1SBGArKHTMNk,16
