@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: gtar
+Version: 0.6.1
+Summary: Read and write archive-based trajectory formats
+Home-page: https://libgetar.readthedocs.io
+Author: Matthew Spellings
+Author-email: mspells@umich.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
