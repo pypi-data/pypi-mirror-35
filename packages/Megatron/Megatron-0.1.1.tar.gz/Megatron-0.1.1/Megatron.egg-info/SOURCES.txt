@@ -1,0 +1,15 @@
+README.md
+setup.py
+Megatron.egg-info/PKG-INFO
+Megatron.egg-info/SOURCES.txt
+Megatron.egg-info/dependency_links.txt
+Megatron.egg-info/top_level.txt
+megatron/__init__.py
+megatron/core.py
+megatron/utils.py
+megatron/transforms/__init__.py
+megatron/transforms/common.py
+megatron/transforms/image.py
+megatron/transforms/numeric.py
+megatron/transforms/text.py
+megatron/transforms/wrappers.py
