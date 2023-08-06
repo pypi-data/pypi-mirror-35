@@ -1,0 +1,429 @@
+#!/usr/bin/env python3
+
+import argparse
+import glob
+import hashlib
+import logging
+import mimetypes
+import multiprocessing
+import os
+import queue as lib_queue
+import shutil
+import sqlite3
+import subprocess
+import sys
+import tqdm
+
+def check_command(command):
+    """Return True if a command was found and run, False if not"""
+    try:
+        subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=10)
+        return True
+    except OSError as e:
+        if e.errno == os.errno.ENOENT:
+            return False
+        else:
+            raise
+
+def compare_dict(dict1, dict2):
+    """Compare two dicts and return the unique keys"""
+    d1_keys = set(dict1.keys())
+    d2_keys = set(dict2.keys())
+    d1 = d1_keys - d2_keys
+    d2 = d2_keys - d1_keys
+    return d1, d2
+
+def check_dicts_identical(dict1, dict2):
+    """Return True if two dicts are identical"""
+    if dict1.keys() != dict2.keys():
+        return False
+    for key in dict1:
+        if dict1[key] == dict2[key]:
+            continue
+        else:
+            return False
+    return True
+
+def copyfile(src, dest):
+    """Copy a file, making sure the directory exists. Return true on success, false on failure"""
+    mkdir_from_file_path(dest)
+    logging.debug("Copying file %s to %s", src, dest)
+    try:
+        shutil.copy2(src, dest)
+        return True
+    except Exception:
+        logging.warning("Error durnig copying of file %s", src)
+        return False
+    return
+
+def get_hash(path, mode):
+    """Get hash of a file, using one of the following modes: md5, sha1, sha256, date
+    "date" returns mtime of the file, the other modes create and return a hash of the file
+    """
+    if mode == "date":
+        return str(os.path.getmtime(path))
+    try:
+        f = open(path, 'rb').read()
+    except Exception:
+        raise
+    if mode == "md5":
+        return hashlib.md5(f).hexdigest()
+    elif mode == "sha1":
+        return hashlib.sha1(f).hexdigest()
+    elif mode == "sha256":
+            return hashlib.sha256(f).hexdigest()
+
+def get_true_false_dict(dict, pos):
+    """Iterate through a dict and return two dicts, containing all keys
+    for which the value at pos was True/False respectively"""
+    true_d = {}
+    false_d = {}
+    for key in dict:
+        if dict[key][pos]:
+            true_d[key] = dict[key]
+        else:
+            false_d[key] = dict[key]
+    return true_d, false_d
+
+def mkdir_from_file_path(path):
+    """Create directory from a full path if it doesn't exist yet"""
+    if not os.path.exists(os.path.dirname(path)):
+        logging.debug("Creating directory %s", path)
+        try:
+            os.makedirs(os.path.dirname(path))
+        except FileExistsError:
+            logging.warning("Attemted to create already existing directory %s", path)
+        except:
+            raise
+
+def queue_to_dict(queue):
+    """Convert a multiprocessing Queue to a dictionary"""
+    dic = {}
+    while True:
+        try:
+            key, value = queue.get_nowait()
+        except lib_queue.Empty:
+            return dic
+        dic[key] = value
+
+def remove_dict_from_dict(target, mod):
+    """Remove all keys that are in source form the target dict"""
+    for key in mod:
+        try:
+            del target[key]
+        except KeyError:
+            pass
+    return target
+
+def transcode_worker(fargs):
+    path = fargs[0]
+    args = fargs[1]
+    opus_map = {
+                0 : "256k",
+                1 : "225k",
+                2 : "190k",
+                3 : "175k",
+                4 : "165k",
+                5 : "130k",
+                6 : "115k",
+                7 : "100k",
+                8 : "85k",
+                9:  "65k"
+            }
+    # Replace base dir and file extension
+    target = path.replace(args.source_path, args.target_path)
+    target = target.replace(os.path.splitext(path)[1], "." + args.output)
+    mkdir_from_file_path(target)
+    if args.output == "mp3":
+        logging.debug("Transcoding %s to %s", path, target)
+        try:
+            subprocess.run(["ffmpeg", "-i", path, "-q:a", str(args.quality),
+                            "-map_metadata", "0", "-id3v2_version", "3", "-y", target],
+                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except OSError as e:
+            logging.warning("Could not transocde %s", path)
+            return (False, (path, e))
+    elif args.output == "opus":
+        logging.debug("Transcoding %s to %s", path, target)
+        try:
+            subprocess.run(["ffmpeg", "-i", path, "-b:a", str(opus_map[args.quality]), "-y", target],
+                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except OSError as e:
+            logging.warning("Could not transocde %s", path)
+            return (False, (path, e))
+    logging.info("Encoded file %s", path)
+    return True, None
+
+def rm(path):
+    """Remove a file"""
+    logging.debug("Removig file %s", path)
+    try:
+        os.remove(path)
+    except OSError as e:
+        if e.errno == os.errno.ENOENT:
+            logging.warn("Tried removing non-existing file %s", path)
+    except:
+        raise
+
+def main():
+    assert sys.version_info >= (3,5)
+    version = "0.9.3"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("source_path")
+    parser.add_argument("target_path")
+    parser.add_argument("-C", "--copy_files",
+                        action="store_true",
+                        help="Copy all files incapable of being transcoded to the target path")
+    parser.add_argument("-D", "--database",
+                        help="Track changes using a database at the specified path")
+    parser.add_argument("-O", "--output",
+                        choices=["mp3", "opus"], default="mp3",
+                        help="Set output format")
+    parser.add_argument("-Q", "--quality",
+                        type=int, choices=range(0,10), default=0,
+                        help="Set output quality. 0 = Best -> 9 = Worst")
+    parser.add_argument("-R", "--remove",
+                        action="store_true",
+                        help="Track removal of files (only available with -D set)")
+    parser.add_argument("-l", "--loglevel",
+                        choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"], default="WARNING",
+                        help="Only print error messages")
+    parser.add_argument("-t", "--threads",
+                        type=int,
+                        help="Set ammount of threads used for encoding")
+    parser.add_argument("--hash_mode",
+                        choices=["md5", "sha1", "sha256", "date"], default="date",
+                        help="Set hash type used for tracking changes")
+    parser.add_argument("--noprogressbar",
+                        action="store_true",
+                        help="Disable the fancy progress bars")
+    parser.add_argument("--version",
+                        action="store_true",
+                        help="Show AutoTranscode version and exit")
+    args = parser.parse_args()
+    # Setup logging
+    loglevel = getattr(logging, args.loglevel, None)
+    logging.basicConfig(level=loglevel, format="%(levelname)s: %(message)s")
+    logging.debug("Start parsing arguments")
+    if args.version:
+        print("AutoTranscode Version:", version)
+        sys.exit()
+    path_char = {
+        "nt": "\\",
+        "posix": "/"
+    }
+    if not args.source_path.endswith(path_char[os.name]):
+        args.source_path = args.source_path + path_char[os.name]
+    if not args.target_path.endswith(path_char[os.name]):
+        args.target_path = args.target_path + path_char[os.name]
+    if not check_command("ffmpeg"):
+        logging.critical("ffmpeg not found. Please make sure that ffmpeg is installed and in $PATH")
+        sys.exit(1)
+    if not args.threads:
+        args.threads = multiprocessing.cpu_count()
+    if args.remove and not args.database:
+        logging.critical("Cannot use --remove without specifying a database (-D)")
+        raise ValueError
+    if not os.path.isdir(args.source_path):
+        logging.critical("No such directory (or permission denied): %s", args.source_path)
+        raise FileNotFoundError
+    if not os.path.isdir(args.target_path):
+        logging.critical(("No such directory (or permission denied): %s", args.target_path))
+        raise FileNotFoundError
+    if args.database:
+        try:
+            # Open("*", "a+") will access a file if it exists and create it if it doesnt.
+            open(args.database, 'a+')
+        except Exception:
+            logging.critical("No such file (or permission denied): %s", args.database)
+            raise FileNotFoundError
+    new_settings = {
+        "source_path":  args.source_path,
+        "target_path":  args.target_path,
+        "hash_mode":    args.hash_mode,
+        "quality":      str(args.quality), # Prevents type mismatch with DB
+        "output":       args.output
+    }
+    logging.info("Done parsing arguments")
+
+    if args.database:
+        current_db = {}
+        logging.debug("Initializing DB at %s", args.database)
+        con = sqlite3.connect(args.database)
+        with con:
+            cur = con.cursor()
+            try:
+                cur.execute("SELECT Name FROM Settings")
+            except sqlite3.OperationalError:
+                # Table doesn't exist yet, db is new -> create tables
+                cur.execute("CREATE TABLE Settings("
+                            "Name   TEXT    NOT NULL PRIMARY KEY,"
+                            "Value TEXT    NOT NULL)"
+                )
+                cur.execute("CREATE TABLE Files("
+                            "Path   TEXT    NOT NULL PRIMARY KEY,"
+                            "Hash   TEXT)"
+                )
+                logging.info("Created new database tables")
+            else:
+                cur.execute("SELECT Name, Value FROM Settings")
+                old_settings = dict(cur.fetchall())
+                if check_dicts_identical(old_settings, new_settings):
+                    # Only load the Files if the settings are identical
+                    # All files will be rehashed if the settings are differnt
+                    cur.execute("SELECT Path, Hash FROM Files")
+                    current_db = dict(cur.fetchall())
+                else:
+                    logging.info("Settings mode mismatch - path, hash or encode settings have changed "
+                                "since the script was last run. Reinizializing DB...")
+                logging.info("Done fetching database %s", args.database)
+
+    # Iterate through args.source_path and put files into queus for
+    # hashing, or transcoding/copying, if database set/unset
+    to_hash = []
+    to_copy = []
+    to_transcode = []
+    transcode_mimes = [
+        "audio/flac",
+        "audio/x-flac",
+        "audio/wav",
+        "audio/x-wav",
+        "audio/pcm",
+        "audio/x-pcm"
+    ]
+    logging.debug("Start scanning %s", args.source_path)
+    for path in glob.iglob(args.source_path + "/**", recursive=True):
+        if os.path.isdir(path):
+                logging.debug("Ignoring directory %s", path)
+                continue
+        elif os.path.isfile(path):
+            if args.database:
+                if mimetypes.guess_type(path)[0] in transcode_mimes:
+                    logging.debug("Queueing up %s for hashing", path)
+                    to_hash.append(path)
+                elif args.copy_files:
+                    # Do not add files for hashing if copy is not set
+                    logging.debug("Queueing up %s for hashing", path)
+                    to_hash.append(path)
+            else:
+                if mimetypes.guess_type(path)[0] in transcode_mimes:
+                    to_transcode.append(path)
+                elif args.copy_files:
+                    to_copy.append(path)
+    logging.info("Done scanning %s", args.source_path)
+
+    # Hash all objects and put them into transcode_queue/copy_queue.
+    # Also append sucessful hashes to the new db. Failures are removed later
+    fails = {}
+    if args.database:
+        new_db = {}
+        logging.debug("Start hashing files")
+        for path in to_hash:
+            logging.debug("Creating hash for %s", path)
+            file_hash = get_hash(path, args.hash_mode)
+            try:
+                previous_hash = current_db[path]
+            except KeyError:
+                logging.debug("Hash for %s not found in db - adding as new file", path)
+                new_db[path] = file_hash
+                if mimetypes.guess_type(path)[0] in transcode_mimes:
+                    to_transcode.append(path)
+                elif args.copy_files:
+                    to_copy.append(path)
+                continue
+            except Exception as e:
+                logging.warning("Could not hash %s", path)
+                fails[path] = "Hashing Error " + e
+                continue
+            if file_hash != previous_hash:
+                logging.debug("Hash mismatch for %s - queuing for transcoding", path)
+                new_db[path] = file_hash
+                if mimetypes.guess_type(path)[0] in transcode_mimes:
+                    to_transcode.append(path)
+                elif args.copy_files:
+                    to_copy.append(path)
+            elif file_hash == previous_hash:
+                logging.debug("Hash match for %s - no action required", path)
+                new_db[path] = file_hash
+
+    # Copy non-transcode files if copy is set
+    if to_copy:
+        logging.debug("Start copying files")
+        if not args.noprogressbar:
+            print("Copying files...")
+            for path in tqdm.tqdm(to_copy):
+                target = path.replace(args.source_path, args.target_path)
+                copyfile(path, target)
+        else:
+            for path in to_copy:
+                target = path.replace(args.source_path, args.target_path)
+                copyfile(path, target)
+                logging.info("Copied file %s", path)
+        logging.info("Done copying files")
+
+    # Create a list of tuples to map to the transcode workers
+    transcode_args = []
+    if to_transcode:
+        for path in to_transcode:
+            transcode_args.append((path, args))
+        with multiprocessing.Pool(args.threads) as transcode_pool:
+            if not args.noprogressbar:
+                print("Encoding Files...")
+                for i in tqdm.tqdm(transcode_pool.imap(transcode_worker, transcode_args), total=len(to_transcode)):
+                    # Append failed transcodes to fails
+                    if i[0] == False:
+                        fails[[i][1][0]] = i[1][1]
+            else:
+                for i in transcode_pool.imap(transcode_worker, transcode_args):
+                    if i[0] == False :
+                        fails[[i][1][0]] = i[1][1]
+        transcode_pool.close()
+        transcode_pool.join()
+    logging.info("Done transcoding files")
+
+    # Add all sucessful hashes to new db, then remove fails and commit to DB
+    if args.database:
+        new_db = remove_dict_from_dict(new_db, fails)
+        with con:
+            con.execute("DELETE FROM Files")
+            for key in new_db:
+                con.execute("REPLACE INTO Files VALUES (?,?)", (key, new_db[key]))
+            for key in new_settings:
+                con.execute("REPLACE INTO Settings VALUES (?,?)", (key, new_settings[key]))
+
+    # Remove all files in delete_list
+    to_delete = []
+    if args.database:
+        to_delete = compare_dict(current_db, new_db)[0]
+    if to_delete and args.remove:
+        # All hashed files are in new_db. We then compare new_db and current_db and look for files only in current_db.
+        # These files were not found and must have thus been removed. We do the same on the target path
+        logging.debug("Start removing files")
+        if not args.noprogressbar:
+            print("Removing files...")
+            for path in tqdm.tqdm(to_delete):
+                target_path = path.replace(args.source_path, args.target_path)
+                if mimetypes.guess_type(path)[0] in transcode_mimes:
+                    target_path = target_path.replace(os.path.splitext(path)[1], "." + args.output)
+                rm(target_path)
+                if not os.listdir(os.path.dirname(path)):
+                    logging.debug("Removing directory tree from %s", os.path.dirname(path))
+                    os.removedirs(os.path.dirname(path))
+        else:
+            for path in to_delete:
+                target_path = path.replace(args.source_path, args.target_path)
+                if mimetypes.guess_type(path)[0] in transcode_mimes:
+                    target_path = target_path.replace(os.path.splitext(path)[1], "." + args.output)
+                rm(target_path)
+                if not os.listdir(os.path.dirname(path)):
+                    logging.debug("Removing directory tree from %s", os.path.dirname(path))
+                    os.removedirs(os.path.dirname(path))
+        logging.info("Done removing files")
+
+    #Print failed actions
+    if fails:
+        logging.warning("Some files could not be processed. They are not being tracked for this reason\n"
+        "List of files:\n%s", fails)
+
+if __name__ == "__main__":
+    main()
