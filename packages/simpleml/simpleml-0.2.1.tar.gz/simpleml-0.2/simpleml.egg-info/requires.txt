@@ -1,0 +1,6 @@
+sqlalchemy
+sqlalchemy_mixins
+psycopg2
+scikit-learn
+numpy
+dill
