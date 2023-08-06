@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: petastorm
+Version: 0.3.1
+Summary: petastorm library TODO: more info
+Home-page: UNKNOWN
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
+Provides-Extra: tf_gpu
+Provides-Extra: opencv
+Provides-Extra: tf
