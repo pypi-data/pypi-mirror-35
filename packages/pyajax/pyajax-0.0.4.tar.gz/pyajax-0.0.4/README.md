@@ -1,0 +1,1 @@
+Develop ajax based analytical dashboard without writing any javascript.
