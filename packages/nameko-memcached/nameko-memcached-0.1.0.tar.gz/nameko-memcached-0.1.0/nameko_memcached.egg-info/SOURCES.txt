@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+nameko_memcached.py
+setup.py
+nameko_memcached.egg-info/PKG-INFO
+nameko_memcached.egg-info/SOURCES.txt
+nameko_memcached.egg-info/dependency_links.txt
+nameko_memcached.egg-info/requires.txt
+nameko_memcached.egg-info/top_level.txt
