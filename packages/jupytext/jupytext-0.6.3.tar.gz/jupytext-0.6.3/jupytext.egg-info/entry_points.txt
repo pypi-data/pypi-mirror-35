@@ -1,0 +1,8 @@
+[console_scripts]
+jupytext = jupytext.cli:jupytext
+
+[nbconvert.exporters]
+pynotebook = jupytext:PyNotebookExporter
+rmarkdown = jupytext:RMarkdownExporter
+rnotebook = jupytext:RNotebookExporter
+
