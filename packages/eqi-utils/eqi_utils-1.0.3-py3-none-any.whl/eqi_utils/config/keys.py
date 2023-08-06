@@ -1,0 +1,8 @@
+DATA_DIR = 'data_storage_path'
+AWS_PROFILE_NAME = 'aws_profile'
+HTTP_PROXY = 'http_proxy'
+HTTPS_PROXY = 'https_proxy'
+USER_NAME = 'user_name'
+DB_USER = 'db_username'
+DB_PASSWORD = 'db_password'
+DB_NAME = 'db_name'
