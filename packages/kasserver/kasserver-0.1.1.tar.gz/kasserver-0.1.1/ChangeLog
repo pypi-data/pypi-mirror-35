@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+v0.1.1
+------
+
+* travis: Update password
+
+v0.1.0
+------
+
+* readme: Add Travis CI and Coveralls build badges
+* travis: Use Python 3.5
+* tox: Set basepython to Python3
+* readme: Convert to rst
+* project: Initial import
