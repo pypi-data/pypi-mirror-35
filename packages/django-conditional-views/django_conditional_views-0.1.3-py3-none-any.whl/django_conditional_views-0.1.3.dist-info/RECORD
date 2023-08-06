@@ -1,0 +1,11 @@
+django_conditional_views/__init__.py,sha256=40MsI8EfTOAin_-32ip8hs2me3sPzlFYv0ZBH57ToD0,341
+django_conditional_views/elements/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_conditional_views/elements/base.py,sha256=IzIGHTge9t5-FGr8yN5VZ5WbWcVsSvxWEYCiDWQtJSU,1226
+django_conditional_views/elements/etag.py,sha256=NnK_w8_KR_BYO3rNNix88OqRE6Q8BeHZVhs30ExhqEE,603
+django_conditional_views/elements/last_modified.py,sha256=yFz406EqyR5cY8Q7inN8xScBYMwivZhF0dmAPoICaKg,2527
+django_conditional_views/helpers.py,sha256=eocKrarAo5GzLdI4JX1h79HXAVlXmHYu38IiUAjW3nY,371
+django_conditional_views/views.py,sha256=uoY62PCFSnIb1RGc99Msqjf7b160reBg6z1Yt3FKip8,11526
+django_conditional_views-0.1.3.dist-info/LICENSE.md,sha256=n4ZF0LfP3huYN7VhSr3pQQWshzxxKJrrPmddgxb7x4Q,1070
+django_conditional_views-0.1.3.dist-info/WHEEL,sha256=kHdCpTJzhyw1N1frf4kV6yKKRXuffzPY8J9zMFxvyGg,84
+django_conditional_views-0.1.3.dist-info/METADATA,sha256=sTF0x3EEWemxP8Y1CM_Wluf2_CDGGq1yJNX6NI78Ofs,4214
+django_conditional_views-0.1.3.dist-info/RECORD,,
