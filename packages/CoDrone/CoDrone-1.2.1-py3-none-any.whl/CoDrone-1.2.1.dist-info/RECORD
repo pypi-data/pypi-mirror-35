@@ -1,0 +1,11 @@
+CoDrone/__init__.py,sha256=DWwjEdzfMJ67118riopia7h2_kpli_GKM1WEVH-OLOk,136
+CoDrone/codrone.py,sha256=HtUPZU_lUWT92e-AOihhfFPn7jSerqlK1lPuX7zMvbU,88107
+CoDrone/crc.py,sha256=FUJyJQ8--M8QJZwV3y6XMp4xjGLRSuFGLUeYip4mY_U,4442
+CoDrone/protocol.py,sha256=jDUgR1aA-PY8Ae6d4mRdkKpa2MZf7UdcoGCqybncfME,50488
+CoDrone/receiver.py,sha256=fEQuEpyUpYsTP3fMJs34kJgIfuTQpvDvirVVpope4jk,5500
+CoDrone/storage.py,sha256=fJ_ePnzMJmqqGOgt0fy49IuuJvX3qk9ijkalpAFCQS4,2259
+CoDrone/system.py,sha256=Fpbs4Mzvbab-MIIINEoxDksy-sOdLmdeM6OZqG_UMmY,6484
+CoDrone-1.2.1.dist-info/METADATA,sha256=H8lFFFW1Dpaq3a9gCKCClruEqvMmuPDCF47ywlLmUpA,366
+CoDrone-1.2.1.dist-info/RECORD,,
+CoDrone-1.2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+CoDrone-1.2.1.dist-info/top_level.txt,sha256=fqFzYAshfY_55khISI2L47HlEY8O0G5M68pVIV78UEk,8
