@@ -1,0 +1,1 @@
+DIE_ON_EXCEPTION = True
