@@ -1,0 +1,12 @@
+README.md
+setup.py
+scripts/transpopy
+transpopy/__init__.py
+transpopy/po_data.py
+transpopy/transparse.py
+transpopy.egg-info/PKG-INFO
+transpopy.egg-info/SOURCES.txt
+transpopy.egg-info/dependency_links.txt
+transpopy.egg-info/not-zip-safe
+transpopy.egg-info/requires.txt
+transpopy.egg-info/top_level.txt
