@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+freecad.workbench_starterkit.egg-info/PKG-INFO
+freecad.workbench_starterkit.egg-info/SOURCES.txt
+freecad.workbench_starterkit.egg-info/dependency_links.txt
+freecad.workbench_starterkit.egg-info/requires.txt
+freecad.workbench_starterkit.egg-info/top_level.txt
+freecad/workbench_starterkit/__init__.py
+freecad/workbench_starterkit/init_gui.py
+freecad/workbench_starterkit/my_numpy_function.py
+freecad/workbench_starterkit/version.py
+freecad/workbench_starterkit/resources/template_resource.svg

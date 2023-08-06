@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: freecad.workbench_starterkit
+Version: 0.8.1
+Summary: template for a freecad extensions, installable with pip
+Home-page: https://github.com/FreeCAD/Workbench-Starterkit
+Maintainer: looooo
+Maintainer-email: sppedflyer@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
