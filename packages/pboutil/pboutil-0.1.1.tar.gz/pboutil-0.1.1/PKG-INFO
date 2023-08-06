@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pboutil
+Version: 0.1.1
+Summary: Read and write ArmA PBO files.
+Home-page: https://gitlab.com/arma3-server-tools/pboutil
+Author: Taneli Kaivola
+Author-email: dist@ihme.org
+License: GPLv3
+Description: # pboutil
+        
+        ArmA PBO editing utility.
+        
+        Currently maintained here:
+        
+        - Source repository: https://gitlab.com/arma3-server-tools/pboutil
+        - Python module in PyPI: https://pypi.org/project/pboutil/
+        
+        ## Resources
+        
+        ## PBO File format
+        
+        - https://resources.bisimulations.com/wiki/PBO_File_Format
+        
+        ### arma_pbo.ksy
+        
+        - arma_pbo.ksy is maintained in this repository
+        - Kaitai parser based on the ArmA PBO File Format
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment :: First Person Shooters
+Classifier: Topic :: System :: Archiving
+Description-Content-Type: text/markdown
