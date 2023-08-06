@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: crawlab
+Version: 0.1.0a6
+Summary: Jupyter tools for scrapy
+Home-page: https://github.com/fabiocariati/crawlab
+Author: Fabio Ariati
+Author-email: fabiocariati@gmail.com
+License: UNKNOWN
+Keywords: ipython,jupyter,widgets
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: python-owasp-zap-v2.4 (==0.0.14)
+Requires-Dist: scrapy (>=1.5.0)
+Requires-Dist: scrapydo (>=0.2.2)
+Requires-Dist: jupyter (>=1.0.0)
+Requires-Dist: ipywidgets (>=7)
+Requires-Dist: validators (>=0.12.0)
+Requires-Dist: wget (>=3.2)
+Requires-Dist: beautifulsoup4
+Requires-Dist: fabric3
+
+Jupyter tools for scrapy
+
+
