@@ -1,0 +1,69 @@
+Metadata-Version: 1.1
+Name: django-accountutils
+Version: 0.3
+Summary: A django app for basic utilities - user registration, login, change password, reset password
+Home-page: https://github.com/tusharcoder/accountutils, http://devtech.in
+Author: Tushar Agarwal
+Author-email: tamyworld@gmail.com
+License: BSD License
+Description: =====
+        Account Utils
+        =====
+        
+        Accountutils is a simple django application to facilitate basic functionalities, like forgot password, change password, for api based projects.
+        
+        Quick start
+        -----------
+        
+        1. Add "accountutils" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'accountutils',
+            ]
+        
+        2. Include the accountutils URLconf in your project urls.py like this::
+        
+            url('utils/', include('accountutils.urls')),
+        
+        3. Run `python manage.py migrate` to create the accountutils models.
+        
+        4. Add required settings in settings.py::
+        
+                USEEMAIL='youremail@somewhere.com'
+                EMAIL_USE_TLS = True or False
+                EMAIL_HOST = 'your host'
+                EMAIL_PORT = <port>
+                EMAIL_HOST_USER = USEEMAIL
+                EMAIL_HOST_PASSWORD ='your password'
+                DEFAULT_FROM_EMAIL = USEEMAIL
+                DEFAULT_TO_EMAIL = ''
+                EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+                #if communication mails has to be send
+                SEND_REGISTRATION_MAILS = True or False #dafault True
+        
+        5. Now you will have the api endpoints for registration, login, change password, forgot password etc.
+                #incase, use use the utils in step 2
+                /utils/request/forgot/password/  #post request
+                /utils/check/forgot_password_code/  #post request
+                /utils/reset/password/    #post request
+                /utils/change/password/    #post request
+                #login user
+                /utils/login/    #post request
+                #register user
+                /utils/register/    #post request
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 2.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
