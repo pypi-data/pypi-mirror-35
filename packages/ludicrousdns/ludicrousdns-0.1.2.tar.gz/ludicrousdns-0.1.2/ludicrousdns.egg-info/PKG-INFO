@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: ludicrousdns
+Version: 0.1.2
+Summary: The fastest DNS resolver in the universe
+Home-page: https://gitlab.com/sheddow/ludicrousdns
+Author: Sigurd Kolltveit
+Author-email: sigurd.kolltveit@gmx.com
+License: MIT
+Description: ludicrousdns
+        ============
+        
+        Installation
+        ------------
+        .. code-block:: text
+        
+            pip install ludicrousdns
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
