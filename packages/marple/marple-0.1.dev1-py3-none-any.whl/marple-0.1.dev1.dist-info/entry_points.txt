@@ -1,0 +1,4 @@
+[console_scripts]
+marple = marple.__main__:main
+marple_test = marple.test:main
+
