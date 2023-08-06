@@ -1,0 +1,51 @@
+Metadata-Version: 1.2
+Name: superslacker
+Version: 0.3
+Summary: superslacker plugin for supervisord
+Home-page: https://github.com/MTSolutions/superslacker
+Author: Sebastian Lara Menares
+Author-email: slaramen@gmail.com
+Maintainer: Sebastian Lara Menares
+Maintainer-email: slaramen@gmail.com
+License: BSD-derived (http://www.repoze.org/LICENSE.txt)
+Description: 
+        
+        0.3 (2018-09-01)
+        ----------------
+        - Make events to watch configurable (Thanks to Ifiok Idiang @ifiok)
+        
+        
+        0.2 (2017-07-18)
+        ----------------
+        - Add support for incoming webhooks (Thanks to Roman Zhuzha)
+        
+        0.1 (2016-06-27)
+        ----------------
+        - refactor
+        
+        0.02 (2015-10-30)
+        ----------------
+        - Copyright and Package fixes.
+        
+        
+        0.01 (2015-10-30)
+        ----------------
+        - Initial release
+        
+Keywords: supervisor slack monitoring
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: System :: Boot
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Systems Administration
