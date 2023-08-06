@@ -1,0 +1,11 @@
+setup.py
+django_ses/__init__.py
+django_ses/apps.py
+django_ses/models.py
+django_ses/views.py
+django_ses/migrations/__init__.py
+django_ses_email_backend.egg-info/PKG-INFO
+django_ses_email_backend.egg-info/SOURCES.txt
+django_ses_email_backend.egg-info/dependency_links.txt
+django_ses_email_backend.egg-info/requires.txt
+django_ses_email_backend.egg-info/top_level.txt
