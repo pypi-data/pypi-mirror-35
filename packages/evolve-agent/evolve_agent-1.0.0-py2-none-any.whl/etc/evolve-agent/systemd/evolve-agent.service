@@ -1,0 +1,10 @@
+[Unit]
+Description=evolve-agent
+
+[Service]
+ExecStart=/usr/bin/python /usr/bin/evolve-agent -d
+Type=forking
+PIDFile=/var/run/evolve-agent.pid
+
+[Install]
+WantedBy=multi-user.target

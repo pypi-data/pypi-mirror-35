@@ -1,0 +1,17 @@
+etc/evolve-agent/systemd/evolve-agent.service,sha256=GvAAjxUXTCAsS0g1zwqfPPi0qR65XT2-o-sZeCnllHQ,179
+etc/evolve-agent/sysvinit/evolve-agent,sha256=6Ljc27OY1O0JLIPnzFnPtdtR5I-_92rOIOJ0XPgtqkE,1429
+etc/evolve-agent/upstart/evolve-agent.conf,sha256=ZGKhGU0Ga74_brnwnf0sloxsGymkUs-mVcSt094T06k,173
+evolve_agent-1.0.0.data/scripts/evolve-agent,sha256=8mXDb8h6GxTCSvg3lxzOHplraDdoQAd9jDkYgiI61X8,15871
+evolve_agent-1.0.0.dist-info/METADATA,sha256=AIjClg2SI7VOkyD1BD9kHKcrWSZB4wz4cF9zh0hK-TQ,6095
+evolve_agent-1.0.0.dist-info/RECORD,,
+evolve_agent-1.0.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+evolve_agent-1.0.0.dist-info/top_level.txt,sha256=o0PcIyW8stLMcBAOdo87Y_eL_4nmN7kIczGY8oHI9YA,12
+evolveagent/__init__.py,sha256=9yjObUXVgBfCD97Fm2r-xKhYny1Al225fK7Lb20EL_Q,99
+evolveagent/iws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evolveagent/iws/caller.py,sha256=qfydAQ2KszVzdNrKPH_pTPzapCdcI6VpJPABkeKskNE,7166
+evolveagent/iws/iwsclient.py,sha256=Jnvqu6nZU2Z52j45glSRBDBBOBHFr1RGtuFMNCRYlSk,37482
+evolveagent/iws/agent/__init__.py,sha256=n-FtOkJHVafIvuEIAq3H3dFW-2mM-6MCj0hn8Gnra2c,24071
+evolveagent/iws/agent/config.py,sha256=uvykFopcvBsNs3yVL3LnxgkEKjjZiHDqTXpYKVipeTk,6376
+evolveagent/iws/agent/logger.py,sha256=VuPlqAnlixSZBpRx6AMwNEgByNSaJL8FQpVclpnUF6w,1323
+evolveagent/iws/agent/module.py,sha256=LS_Nv7PxaVBZApU6Cyl8iBzJamTTq9lLjPsWXMsES-o,13872
+evolveagent/iws/agent/service.py,sha256=T0XV6Jafm3zBKSajqVf3VDQiTAPNcuRM3DIOWSNea1c,7684
