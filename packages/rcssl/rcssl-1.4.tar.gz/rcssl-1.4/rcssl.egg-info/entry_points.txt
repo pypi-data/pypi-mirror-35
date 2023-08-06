@@ -1,0 +1,3 @@
+[console_scripts]
+rcssl = rcssl.rcssl:main
+
