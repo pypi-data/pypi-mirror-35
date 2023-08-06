@@ -1,0 +1,7 @@
+django_slugger-1.1.2.dist-info/LICENSE.txt,sha256=q2jLK9tywZZ3uQW6HdlxwjX78OqWP6wUdHGuXFz_itA,1078
+django_slugger-1.1.2.dist-info/METADATA,sha256=jqdPINbafdNV9BiL8aBc0ELTiTprukq8A2zVKEwRd4Q,3586
+django_slugger-1.1.2.dist-info/RECORD,,
+django_slugger-1.1.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_slugger-1.1.2.dist-info/top_level.txt,sha256=AQUITr_JWAhxEeySVaYWymnf1ftGTaZATEbIj1qui3w,8
+slugger/__init__.py,sha256=lBP4GwSCBx5KqQ4dF3DPpyo-nAX7A19qZquxHoWerp4,77
+slugger/fields.py,sha256=zgt5fAVHMCmalLLiiVkZ48KqHVfLo6G1bKvoObyiD5w,5031
