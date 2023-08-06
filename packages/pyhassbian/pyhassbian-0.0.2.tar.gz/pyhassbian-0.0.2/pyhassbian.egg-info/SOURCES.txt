@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+pyhassbian/__init__.py
+pyhassbian.egg-info/PKG-INFO
+pyhassbian.egg-info/SOURCES.txt
+pyhassbian.egg-info/dependency_links.txt
+pyhassbian.egg-info/top_level.txt
