@@ -1,0 +1,8 @@
+bacpacs/__init__.py,sha256=W1T62Q2TPqJL7nnymp879t3Mt-GOowpk3_x4yEzWwoY,118
+bacpacs/bacpacs.py,sha256=mCcXaUdSNNuMo21IOLoLOi_s_1ghzyoIyHtRWAQ2fXs,14706
+bacpacs/cli.py,sha256=FCoHBdRFy4efU3SFKcCDm0dw6DEbWyowlmgR-rgAuYQ,4703
+bacpacs/util.py,sha256=NC0CFRscfKtNoQ5_ViGj5fNGbW2Cy3gYgmgYuoM6VkA,9369
+bacpacs-0.1.1.dist-info/METADATA,sha256=GDAVuyJ7-g7BThI3xwBjcf9jm9PVo2X8KRfnyvS_6W4,21139
+bacpacs-0.1.1.dist-info/RECORD,,
+bacpacs-0.1.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+bacpacs-0.1.1.dist-info/top_level.txt,sha256=L-047_lWootv-E-5yrB_zugrV4HdEHN9PEPvXhxUEdE,8
