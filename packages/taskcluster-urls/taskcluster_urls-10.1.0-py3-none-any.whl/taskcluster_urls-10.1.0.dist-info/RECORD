@@ -1,0 +1,5 @@
+taskcluster_urls/__init__.py,sha256=JVI1cb4vLZVdkRikle1GNWWMVBBkvcfgKhgy81D2PAw,2410
+taskcluster_urls-10.1.0.dist-info/METADATA,sha256=-HvCAVzG6FxGXoMXi8MAyaSblI1sYR3oQ_c5zuDHvsk,5156
+taskcluster_urls-10.1.0.dist-info/RECORD,,
+taskcluster_urls-10.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+taskcluster_urls-10.1.0.dist-info/top_level.txt,sha256=ZOahZE9aH516RGht4_177HGJ9cJg6JgsD9PVUdwnATo,17
