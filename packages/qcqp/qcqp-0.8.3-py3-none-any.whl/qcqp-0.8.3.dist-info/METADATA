@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: qcqp
+Version: 0.8.3
+Summary: CVXPY extension for nonconvex QCQPs.
+Home-page: http://github.com/cvxgrp/qcqp/
+Author: Jaehyun Park, Stephen Boyd
+Author-email: jpark@cs.stanford.edu, boyd@stanford.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: cvxpy (>=0.4.8)
+Requires-Dist: cvxpy (<1.0)
+Requires-Dist: CVXcanon (>=0.1.1)
+
+A CVXPY extension for nonconvex quadratically constrained quadratic programs.
+
+

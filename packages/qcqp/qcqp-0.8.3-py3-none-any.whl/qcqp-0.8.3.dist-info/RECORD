@@ -1,0 +1,9 @@
+qcqp/__init__.py,sha256=6a8f0OVWHJWuE_OkwLNAQVejv5-MJJZ0hWRhrmGCQW8,1214
+qcqp/coeff_extractor.py,sha256=0vsbUh3u0YAaNsngpwhOjSzeHUl5gAJSeGJJZSEjezI,6680
+qcqp/qcqp.py,sha256=HOX0QeN5TCfn-5Y-ojAEffkJj_bhvN1hIKLlGTTDC7A,14350
+qcqp/settings.py,sha256=HCAcOoZJIvHjMIIA6qjE3BksFewnUeOBwZaOfQjST94,1305
+qcqp/utilities.py,sha256=-HMc3EjeajdZGtjyxVevAszq8NgsAymAzBM8wtpi6EI,11547
+qcqp-0.8.3.dist-info/METADATA,sha256=g3-JWFI_B6dC7ptMcCXdXb5V8lxAQJus4N_gHxjMqaU,431
+qcqp-0.8.3.dist-info/RECORD,,
+qcqp-0.8.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+qcqp-0.8.3.dist-info/top_level.txt,sha256=QsfQswIVpqTZR8Ya47vwApcWGm8Gql4jqNk5pb-evYI,5
