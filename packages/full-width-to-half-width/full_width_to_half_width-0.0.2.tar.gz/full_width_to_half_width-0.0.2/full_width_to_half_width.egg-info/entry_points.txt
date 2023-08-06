@@ -1,0 +1,3 @@
+[console_scripts]
+full_width_to_half_width = full_width_to_half_width:main
+
