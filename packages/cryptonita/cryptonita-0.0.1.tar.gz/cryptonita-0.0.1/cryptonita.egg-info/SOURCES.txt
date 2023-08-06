@@ -1,0 +1,12 @@
+setup.py
+cryptonita/__init__.py
+cryptonita/attacks.py
+cryptonita/bytestring.py
+cryptonita/fuzzy_set.py
+cryptonita/scoring.py
+cryptonita/stats.py
+cryptonita.egg-info/PKG-INFO
+cryptonita.egg-info/SOURCES.txt
+cryptonita.egg-info/dependency_links.txt
+cryptonita.egg-info/requires.txt
+cryptonita.egg-info/top_level.txt
