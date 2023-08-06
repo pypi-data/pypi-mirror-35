@@ -1,0 +1,7 @@
+README.md
+setup.py
+ndtamr.egg-info/PKG-INFO
+ndtamr.egg-info/SOURCES.txt
+ndtamr.egg-info/dependency_links.txt
+ndtamr.egg-info/requires.txt
+ndtamr.egg-info/top_level.txt
