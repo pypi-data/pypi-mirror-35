@@ -1,0 +1,8 @@
+pavlova/__init__.py,sha256=LrWzfpVpsS7NrEMQIy9TqLNdJMaC9q7XLb5QVbCvkoA,6019
+pavlova/base.py,sha256=r1bTfi5WtxUj20kr4dyf9oMZikNHRFcy6tMxEOR_7hk,812
+pavlova/flask.py,sha256=iqwxt7gsz9B6HZw116DOPwAtVvSgc74XtBws6q2lhzc,1091
+pavlova/parsers.py,sha256=rkqo2YP5TpCVrMd7abd6wduxGQSeL-d0fLA0c71UI8M,5888
+pavlova-0.1.1.dist-info/METADATA,sha256=wH4lkkDoIXF37DCvauKoW7gwXge0UnNdbRfdfzvl8t4,4301
+pavlova-0.1.1.dist-info/RECORD,,
+pavlova-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pavlova-0.1.1.dist-info/top_level.txt,sha256=ZG2Daae8Fi1CBVpajIvyoU_4V0bOerS7KlhzB1kEvHo,8
