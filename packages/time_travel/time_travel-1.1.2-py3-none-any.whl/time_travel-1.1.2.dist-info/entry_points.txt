@@ -1,0 +1,6 @@
+[time_travel.patchers]
+datetime_patcher = time_travel.patchers.datetime_patcher:DatetimePatcher
+poll_patcher = time_travel.patchers.poll_patcher:PollPatcher
+select_patcher = time_travel.patchers.select_patcher:SelectPatcher
+time_patcher = time_travel.patchers.time_patcher:TimePatcher
+
