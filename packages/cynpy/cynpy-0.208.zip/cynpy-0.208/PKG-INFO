@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: cynpy
+Version: 0.208
+Summary: Ray's DVT utilities
+Home-page: http://canyon-semi.com.tw
+Author: Ray Huang
+Author-email: rayjhuang@msn.com
+License: UNKNOWN
+Description: # DVT Utility (cynpy)
+        
+        USB-to-I2C bridge as the I2C master
+        
+        
+        # 20180817
+        ## add MacOS X support
+        ## move to .csh
+        # 20180830
+        ## re-arrange cynpy and rapy structure
+        ## let users focus on only isp and csp
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: IDLE
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Utilities
