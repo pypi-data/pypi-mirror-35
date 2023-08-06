@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+coinflow/__init__.py
+coinflow/coinflowClient.py
+coinflow.egg-info/PKG-INFO
+coinflow.egg-info/SOURCES.txt
+coinflow.egg-info/dependency_links.txt
+coinflow.egg-info/not-zip-safe
+coinflow.egg-info/requires.txt
+coinflow.egg-info/top_level.txt
