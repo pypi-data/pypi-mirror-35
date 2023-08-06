@@ -1,0 +1,7 @@
+[console_scripts]
+overwatchDQMReceiver = overwatch.receiver.run:runDevelopment
+overwatchDeploy = overwatch.base.deploy:run
+overwatchProcessing = overwatch.processing.run:run
+overwatchUpdateUsers = overwatch.base.updateDBUsers:updateDBUsers
+overwatchWebApp = overwatch.webApp.run:runDevelopment
+
