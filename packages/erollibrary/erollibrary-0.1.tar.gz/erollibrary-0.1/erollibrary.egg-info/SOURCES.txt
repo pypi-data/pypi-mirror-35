@@ -1,0 +1,6 @@
+erol.py
+setup.py
+erollibrary.egg-info/PKG-INFO
+erollibrary.egg-info/SOURCES.txt
+erollibrary.egg-info/dependency_links.txt
+erollibrary.egg-info/top_level.txt
