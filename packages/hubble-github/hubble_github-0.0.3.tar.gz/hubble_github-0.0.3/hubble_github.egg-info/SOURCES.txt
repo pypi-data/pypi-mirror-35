@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+hubble/__init__.py
+hubble/__main__.py
+hubble/display.py
+hubble/search.py
+hubble_github.egg-info/PKG-INFO
+hubble_github.egg-info/SOURCES.txt
+hubble_github.egg-info/dependency_links.txt
+hubble_github.egg-info/entry_points.txt
+hubble_github.egg-info/requires.txt
+hubble_github.egg-info/top_level.txt
