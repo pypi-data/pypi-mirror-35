@@ -1,0 +1,59 @@
+Metadata-Version: 1.2
+Name: pykew
+Version: 0.0.1
+Summary: Python interface to Kew data
+Home-page: https://github.com/RBGKew/pykew
+Author: John Iacona
+Author-email: j.iacona@kew.org
+License: MIT
+Description: 
+        =======================================================
+        pykew: Python library for accessing Kew's data services
+        =======================================================
+        
+        ----
+        IPNI
+        ----
+        
+        Library for searching IPNI data and looking up individual records. Hides the intracacies
+        of usign the HTTP API. 
+        
+        Searching
+        ---------
+        
+        Simple search:
+        
+        .. code-block:: python
+            import pykew.ipni as ipni
+        
+            result = ipni.search('Poa annua')
+        
+        Advanced search:
+        
+        .. code-block:: python
+            import pykew.ipni as ipni
+            from pykew.ipni.terms import Name
+        
+            query = { Name.genus: 'Poa', Name.species: 'annua' }
+            res = ipni.search(query)
+        
+        Using results:
+        
+        .. code-block:: python
+            import pykew.ipni as ipni
+            from pykew.ipni.terms import Name
+        
+            query = { Name.genus: 'Poa', Name.species: 'annua' }
+            res = ipni.search(query)
+        
+        		res.size() # 12
+            [r['name'] for r in res if 'name' in r]
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5.0
