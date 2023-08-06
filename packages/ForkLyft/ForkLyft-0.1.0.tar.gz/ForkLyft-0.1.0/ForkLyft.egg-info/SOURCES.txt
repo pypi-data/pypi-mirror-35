@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+ForkLyft.egg-info/PKG-INFO
+ForkLyft.egg-info/SOURCES.txt
+ForkLyft.egg-info/dependency_links.txt
+ForkLyft.egg-info/entry_points.txt
+ForkLyft.egg-info/top_level.txt
+forklyft/cli.py
