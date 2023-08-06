@@ -1,0 +1,9 @@
+README.md
+setup.py
+bored/__init__.py
+bored/bored.py
+bored.egg-info/PKG-INFO
+bored.egg-info/SOURCES.txt
+bored.egg-info/dependency_links.txt
+bored.egg-info/requires.txt
+bored.egg-info/top_level.txt
