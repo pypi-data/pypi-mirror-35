@@ -1,0 +1,4 @@
+numpy
+mountainlab_pytools
+numpydoc
+h5py
