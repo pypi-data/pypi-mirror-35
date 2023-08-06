@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: sitm
+Version: 0.1
+Summary: Python SI Trademark search api wrapper
+Home-page: http://github.com/si/
+Author: Simple Intelligence
+Author-email: dev@simpleintelligence.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >= 3

@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+si/__init__.py
+si/api.py
+si/errors.py
+sitm.egg-info/PKG-INFO
+sitm.egg-info/SOURCES.txt
+sitm.egg-info/dependency_links.txt
+sitm.egg-info/top_level.txt
+sitm.egg-info/zip-safe
