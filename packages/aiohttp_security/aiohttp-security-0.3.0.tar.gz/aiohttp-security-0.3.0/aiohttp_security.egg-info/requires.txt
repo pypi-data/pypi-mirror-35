@@ -1,0 +1,4 @@
+aiohttp>=3.0.0
+
+[session]
+aiohttp-session
