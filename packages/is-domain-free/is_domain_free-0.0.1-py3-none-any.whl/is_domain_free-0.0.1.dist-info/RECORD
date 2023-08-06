@@ -1,0 +1,9 @@
+is_domain_free/__init__.py,sha256=3qUDcrsHC6MoGW770JaznUkWf9OGXbpOwQXWwnaLZm4,298
+is_domain_free/base.py,sha256=n1utu6f0AFE2BaezRlLB3EIFIkxZj3NEt2SGJ0JZytw,5550
+is_domain_free/exceptions.py,sha256=iWuDG4SI8Fg57M9eDEEpYicd7lCuLL4Sc5Oy1JIrwnM,135
+is_domain_free/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+is_domain_free/tests/tests.py,sha256=-tynBJ6cyN9VbWIzP4gwu0jOdd4bLNaruSUOpsTKzGM,6305
+is_domain_free-0.0.1.dist-info/METADATA,sha256=JtXb4LipIXtgDUO3Rsf8NJHi7izr8Kx2AzoeMAk3evc,1021
+is_domain_free-0.0.1.dist-info/RECORD,,
+is_domain_free-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+is_domain_free-0.0.1.dist-info/top_level.txt,sha256=BqLrb0e6qjCKEweVUZKSYnbW45T3BiUCVsO8o4B15bE,15
