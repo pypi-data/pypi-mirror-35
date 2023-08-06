@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: beaker-redis
+Version: 1.1.0
+Summary: Beaker backend for redis
+Home-page: https://github.com/zzzsochi/beaker_redis
+Author: Zelenyak "ZZZ" Aleksander
+Author-email: zzz.sochi@gmail.com
+License: BSD
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: beaker
+Requires-Dist: redis
+
+========================
+Beaker backend for redis
+========================
+
+This module created for work with `pyramid_beaker`.
+
+.. code block: ini
+
+    session.type = redis
+    session.dsn = localhost:6379/0
+    session.ttl = 86400
+    session.hkey_prefix = proj-sessions
+
+
