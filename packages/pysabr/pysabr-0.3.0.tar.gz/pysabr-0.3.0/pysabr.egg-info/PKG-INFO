@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: pysabr
+Version: 0.3.0
+Summary: SABR volatility model for interest rates options
+Home-page: https://github.com/ynouri/pysabr
+Author: Yacine Nouri
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
