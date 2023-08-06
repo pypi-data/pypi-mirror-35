@@ -1,0 +1,1 @@
+from shortest_library.shortest_library import ShortestLibrary
