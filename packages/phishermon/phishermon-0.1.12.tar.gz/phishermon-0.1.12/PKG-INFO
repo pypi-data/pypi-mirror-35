@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: phishermon
+Version: 0.1.12
+Summary: A tool to create and take action on behavioural signatures from sysmon data.
+Home-page: https://gitlab.com/gclenden/phishermon
+Author: Graham Clendenning
+Author-email: graham.clendenning@uoit.net
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

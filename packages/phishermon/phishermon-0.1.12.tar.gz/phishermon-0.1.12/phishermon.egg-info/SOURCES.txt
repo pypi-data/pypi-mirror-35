@@ -1,0 +1,16 @@
+setup.py
+phishermon/__init__.py
+phishermon/action.py
+phishermon/commandline.py
+phishermon/constants.py
+phishermon/mitigations.py
+phishermon/phishermon.py
+phishermon/sysmon_helper.py
+phishermon/utils.py
+phishermon.egg-info/PKG-INFO
+phishermon.egg-info/SOURCES.txt
+phishermon.egg-info/dependency_links.txt
+phishermon.egg-info/entry_points.txt
+phishermon.egg-info/not-zip-safe
+phishermon.egg-info/requires.txt
+phishermon.egg-info/top_level.txt
