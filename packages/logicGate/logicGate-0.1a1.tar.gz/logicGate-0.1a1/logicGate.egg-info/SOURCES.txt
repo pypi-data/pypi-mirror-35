@@ -1,0 +1,8 @@
+README.md
+__init__.py
+gates.py
+setup.py
+logicGate.egg-info/PKG-INFO
+logicGate.egg-info/SOURCES.txt
+logicGate.egg-info/dependency_links.txt
+logicGate.egg-info/top_level.txt
