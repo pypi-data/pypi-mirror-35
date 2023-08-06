@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+dojo_referee/__init__.py
+dojo_referee/__main__.py
+dojo_referee/logging.conf
+dojo_referee/settings.py
+dojo_referee/sound.py
+dojo_referee.egg-info/PKG-INFO
+dojo_referee.egg-info/SOURCES.txt
+dojo_referee.egg-info/dependency_links.txt
+dojo_referee.egg-info/entry_points.txt
+dojo_referee.egg-info/top_level.txt
+dojo_referee/assets/begin.wav
+dojo_referee/assets/finish.wav
