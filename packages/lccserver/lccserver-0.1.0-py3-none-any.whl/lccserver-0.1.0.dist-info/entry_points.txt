@@ -1,0 +1,4 @@
+[console_scripts]
+indexserver = lccserver.frontend.indexserver:main
+lcc-server = lccserver.cli:main
+
