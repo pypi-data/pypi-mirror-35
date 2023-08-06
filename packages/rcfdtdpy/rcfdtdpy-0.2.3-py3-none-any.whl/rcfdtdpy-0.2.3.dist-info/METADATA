@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rcfdtdpy
+Version: 0.2.3
+Summary: UNKNOWN
+Home-page: https://rcfdtdpy.readthedocs.io/en/latest/index.html
+Author: Jack Roth
+Author-email: jroth@slac.stanford.edu
+License: UNKNOWN
+Project-URL: Documentation, https://rcfdtdpy.readthedocs.io/en/latest/index.html
+Project-URL: Source, https://github.com/jroth137/rcfdtdpy
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: numpy (>=1.15.0)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: matplotlib (>=2.2.3)
+Requires-Dist: tqdm (>=4.24.0)
+
+UNKNOWN
+
+
