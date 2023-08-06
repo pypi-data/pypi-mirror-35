@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PyRational
+Version: 0.0.1
+Summary: A package for rational modelling and dual probabilisitc programming
+Home-page: https://github.com/PyRational/PyRational
+Author: Alessio Benavoli
+Author-email: benavoli@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# PyRational Package
+
+This is the PyRational package: a package for rational choice modelling.
+
+
