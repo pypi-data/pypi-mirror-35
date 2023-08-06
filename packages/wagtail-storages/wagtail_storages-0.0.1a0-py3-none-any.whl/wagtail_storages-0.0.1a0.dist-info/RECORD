@@ -1,0 +1,13 @@
+wagtail_storages/__init__.py,sha256=N5t5zZFkkO-1Mt2_GEHmfAvO2fDP1doK7PGMLZf38uY,67
+wagtail_storages/apps.py,sha256=ku7AtsjcJcY-H28oITfmql3MBixRjYPk5YrPXeJzhoI,263
+wagtail_storages/backends.py,sha256=PIkLz57WREfA0GxtpQw5UurXCfIITjrMsTYIsWM1drg,269
+wagtail_storages/signals.py,sha256=1vIA3x3dzCH8_ayswywJEZmiIBnOtyHQgueQqqtoNws,2731
+wagtail_storages/utils.py,sha256=-hiPMCGaV2xySuAhjrrMOrBcUJUN2swMy76qH1bw2Yk,203
+wagtail_storages/wagtail_hooks.py,sha256=lJIR3jjcUvnOlN7CGTmbh8Bn9Zs9fn8HbNBnGOPYKEM,1134
+wagtail_storages/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_storages/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_storages/management/commands/fix_documents_acls.py,sha256=Hg_fuUyq3cVibqoVUEs_6wYbipBxyMiwY7ds06wH_CM,1483
+wagtail_storages-0.0.1a0.dist-info/METADATA,sha256=jf2Tr6m8SR1Gmvm65aZx7FoE-Yr15_gFE381LLXxcVw,1824
+wagtail_storages-0.0.1a0.dist-info/RECORD,,
+wagtail_storages-0.0.1a0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+wagtail_storages-0.0.1a0.dist-info/top_level.txt,sha256=ex4CSbGwQ1QOFWWENpYrwSdZ8xcKD7R02-NiV_xnaWg,17
