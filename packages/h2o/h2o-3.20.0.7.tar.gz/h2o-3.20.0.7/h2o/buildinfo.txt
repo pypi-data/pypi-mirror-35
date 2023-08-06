@@ -1,0 +1,1 @@
+versionFromGradle='3.20.0',projectVersion='3.20.0.7',branch='rel-wright',lastCommitHash='fd010dcc75d22268976d755bcbfa3d119c99d88a',gitDescribe='jenkins-3.20.0.6-21-gfd010dc',compiledOn='2018-09-01 02:07:13',compiledBy='jenkins'
