@@ -1,0 +1,10 @@
+shell_utils/__init__.py,sha256=lLqA4uGCCxB-cf3_krVevfWTmRHdL3kZHwnziFqRuIo,151
+shell_utils/cli.py,sha256=kgFI8U8awbrsIu12RA1pYZ3uUPZujfkjFkmNuejANp8,1067
+shell_utils/notify.py,sha256=aYke8qEz3Euj4wi4yOwrpBOeStOGomk4kbIVBEDJB4o,3246
+shell_utils/runner.py,sha256=2P6cr9uNcrkdrzZJ6c3beu224GdczbIhAOyR5GvS0f0,537
+shell_utils/shell_utils.py,sha256=5R9vgLpJxF77KrYFjGi4mjPxDyevhOHuIWbxyIwq4GE,4973
+shell_utils-2.3.dist-info/entry_points.txt,sha256=dO3ZbZgSoupKMlNy5UeYpBzgCG4z_BprQZCt7JuzfKE,126
+shell_utils-2.3.dist-info/LICENSE,sha256=cvyCEyTP2A1VA3H-n8lrmEgBfkh1Z-Mh85ZQGcwtsy4,559
+shell_utils-2.3.dist-info/WHEEL,sha256=4p5tkGYU5jgQ_R_MzjRyfjVTOldk8ADioKgp0j9QG_U,88
+shell_utils-2.3.dist-info/METADATA,sha256=SLhsWGqE3hmG5WmawHr32uYkOGfnKFv6MguPD776O0g,5886
+shell_utils-2.3.dist-info/RECORD,,
