@@ -1,0 +1,3 @@
+[console_scripts]
+sonarbblfsh = bblfsh_sonar_checks.__main__:main
+
