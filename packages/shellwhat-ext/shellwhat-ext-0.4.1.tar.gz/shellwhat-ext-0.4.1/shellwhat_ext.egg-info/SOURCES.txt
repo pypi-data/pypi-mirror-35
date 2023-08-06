@@ -1,0 +1,8 @@
+README.md
+setup.py
+shellwhat_ext/__init__.py
+shellwhat_ext.egg-info/PKG-INFO
+shellwhat_ext.egg-info/SOURCES.txt
+shellwhat_ext.egg-info/dependency_links.txt
+shellwhat_ext.egg-info/requires.txt
+shellwhat_ext.egg-info/top_level.txt
