@@ -1,0 +1,9 @@
+setup.py
+arasents/__init__.py
+arasents/arasents.py
+arasents/emos.db
+arasents/stop_words.txt
+arasents.egg-info/PKG-INFO
+arasents.egg-info/SOURCES.txt
+arasents.egg-info/dependency_links.txt
+arasents.egg-info/top_level.txt

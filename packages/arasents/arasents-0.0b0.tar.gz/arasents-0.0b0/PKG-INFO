@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: arasents
+Version: 0.0b0
+Summary: A small package for sentiments analysis
+Home-page: UNKNOWN
+Author: muhamed hachoum
+Author-email: arab@muslim.com
+License: UNKNOWN
+Description: <h3 dir="rtl">Arasents : طھط­ظ„ظٹظ„ ط§ظ„ظ…ط´ط§ط¹ط± ظپظٹ ط§ظ„ظ†طµظˆطµ ط§ظ„ط¹ط±ط¨ظٹط© </h3>
+        <p dir="rtl">Arasents ظ…ظƒطھط¨ط© ط¨ط³ظٹط·ط© ظ„ط§ط³طھظ†طھط§ط¬ ط§ظ„ظ…ط´ط§ط¹ط± ظ…ظ† ط§ظ„ظ†طµ ط§ظ„ط¹ط±ط¨ظٹ طŒ ظ„ط§ طھط³طھط®ط¯ظ… nltk ظˆظ„ط§ ط£ظٹط© ط®ظˆط§ط±ط²ظ…ظٹط© ظ„طھط­ظ„ظٹظ„ ط§ظ„ظ†طµظˆطµ .</p>
+        
+        <h3 dir="rtl">ط£ظ†ظ…ط§ط· ط§ظ„ظ…ط´ط§ط¹ط± ط§ظ„طھظٹ ظٹطھظ… ط§ط³طھط®ط±ط§ط¬ظ‡ط§ :</h3>
+        
+        <li dir="rtl">Negative : ظ…ط´ط§ط¹ط± ط³ظ„ط¨ظٹط© .</li>
+        <li dir="rtl">positive : ظ…ط´ط§ط¹ط± ط§ظٹط¬ط§ط¨ظٹط©.</li>
+        <li dir="rtl">neutral : ظ…ط´ط§ط¹ط± ظ…ط­ط§ظٹط¯ط© .</li>
+        
+        
+        <h3 dir="rtl">ط·ط±ظٹظ‚ط© ط§ظ„ط§ط³طھط®ط¯ط§ظ… :</h3>
+        
+        ```python
+        import arasents
+        
+        my_text = arasents.text("ط£ظ†طھ ظ‚ط§ط±ط¦ ط¬ظٹط¯")
+        
+        print ( my_text.sentiments() )
+        
+        ```
+        { 'positive': 100.0 , 'text': 'ط£ظ†طھ ظ‚ط§ط±ط¦ ط¬ظٹط¯' }
+        
+        
+        
+         ```python
+        import arasents
+        
+        my_text = arasents.text('ظ‡ظˆ ظƒط³ظˆظ„ ط¬ط¯ط§')
+        
+        print ( my_text.sentiments() )
+        
+        ```
+        { 'negative': 100.0, 'text': 'ظ‡ظˆ ظƒط³ظˆظ„ ط¬ط¯ط§' }
+        
+        
+        
+         ```python
+        import arasents
+        
+        my_text = arasents.text('ط°ظƒط±ظٹط§طھ ..')
+        
+        print ( my_text.sentiments() )
+        
+        ```
+        {'neutral': 100.0, 'text': 'ط°ظƒط±ظٹط§طھ ..'}
+        
+         ```python
+        import arasents
+        
+        my_text = arasents.text('ظ‡ظٹ ط¬ظ…ظٹظ„ط© ظˆظ„ظƒظ†ظ‡ط§ ط³ظٹط¦ط©')
+        
+        print ( my_text.sentiments() )
+        
+        ```
+        {'positive': 50.0, 'negative': 50.0, 'text': 'ظ‡ظٹ ط¬ظ…ظٹظ„ط© ظˆظ„ظƒظ†ظ‡ط§ ط³ظٹط¦ط©'}
+        
+        
+        <h3 dir="rtl">ظ…ظ„ط§ط­ط¸ط§طھ ظ…ظ‡ظ…ط© : </h3>
+        <h3 dir="rtl">ط§ظ„ظ…ظƒطھط¨ط© طھط¬ط±ظٹط¨ظٹط© ظˆطھظ… ط§ظ†ط´ط§ط¦ظ‡ط§ ظپظٹ ظ…ط±ط­ظ„ط© ط§ظ„طھط¹ظ„ظ… طŒ ظپظٹ ط§ظ†طھط¸ط§ط± ط§ظ„طھط·ظˆظٹط±  .</h3>
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
