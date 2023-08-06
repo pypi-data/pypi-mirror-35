@@ -1,0 +1,6 @@
+scipy
+lxml
+python-dateutil
+numpy
+six
+scikit-learn
