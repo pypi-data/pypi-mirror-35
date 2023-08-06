@@ -1,0 +1,12 @@
+{
+    "rights": {
+        "display": false,
+        "home": false,
+        "ssh": false,
+        "pwd": false,
+        "sound": false,
+	"root": false,
+        "daemon": false
+    },
+    "cmd": "vim"
+}
