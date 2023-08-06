@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: qmenta-sdk-lib
+Version: 1.5.2393
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: enum34
+Requires-Dist: future
+Requires-Dist: requests
+Requires-Dist: humanfriendly
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: peakutils
+Requires-Dist: nose
+Requires-Dist: nose-xunitmp
+
+UNKNOWN
+
+
