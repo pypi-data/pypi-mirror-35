@@ -1,0 +1,3 @@
+[console_scripts]
+cloudless-test = cloudless.testutils.cli:main
+
