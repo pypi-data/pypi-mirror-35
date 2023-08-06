@@ -1,0 +1,11 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+virtualmod.py
+virtualmod.egg-info/PKG-INFO
+virtualmod.egg-info/SOURCES.txt
+virtualmod.egg-info/dependency_links.txt
+virtualmod.egg-info/not-zip-safe
+virtualmod.egg-info/top_level.txt
