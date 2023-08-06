@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: vk-client
+Version: 0.1.12
+Summary: Python 2/3 high level VK API.
+Home-page: https://github.com/Suenweek/vk-client
+Author: Roman Novatorov
+Author-email: roman.novatorov@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tests
