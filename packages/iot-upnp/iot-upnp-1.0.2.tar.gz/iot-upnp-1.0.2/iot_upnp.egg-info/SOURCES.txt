@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+iot_upnp.egg-info/PKG-INFO
+iot_upnp.egg-info/SOURCES.txt
+iot_upnp.egg-info/dependency_links.txt
+iot_upnp.egg-info/requires.txt
+iot_upnp.egg-info/top_level.txt
+upnp/HTTP.py
+upnp/Objects.py
+upnp/SSDP.py
+upnp/UPnP.py
+upnp/__init__.py
+upnp/__main__.py
+upnp/test_ssdp.py
