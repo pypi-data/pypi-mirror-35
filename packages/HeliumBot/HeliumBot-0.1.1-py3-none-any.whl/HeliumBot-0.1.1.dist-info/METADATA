@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: HeliumBot
+Version: 0.1.1
+Summary: A Discord bot framework in Hy. Supports loading Hy and Python plugins
+Home-page: https://github.com/handicraftsman/heliumbot
+Author: Nickolay Ilyushin
+Author-email: nickolay02@inbox.ru
+License: MIT
+Keywords: discord,bot,framework,hy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Lisp
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Communications :: Chat
+Requires-Dist: discord.py
+Requires-Dist: hy
+Requires-Dist: log4py
+Requires-Dist: redis
+
+UNKNOWN
+
+
