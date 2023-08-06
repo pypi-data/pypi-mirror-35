@@ -1,0 +1,9 @@
+README.md
+setup.py
+log_splitter/__init__.py
+log_splitter.egg-info/PKG-INFO
+log_splitter.egg-info/SOURCES.txt
+log_splitter.egg-info/dependency_links.txt
+log_splitter.egg-info/top_level.txt
+tests/__init__.py
+tests/test_split_handler.py
