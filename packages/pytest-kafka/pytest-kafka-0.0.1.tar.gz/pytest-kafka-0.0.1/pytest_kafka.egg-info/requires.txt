@@ -1,0 +1,10 @@
+pytest
+port_for>=0.4
+kafka>=1.3.5
+
+[dev]
+flake8
+pyflakes>=1.6.0
+flake8-docstrings
+flake8_tuple
+mypy
