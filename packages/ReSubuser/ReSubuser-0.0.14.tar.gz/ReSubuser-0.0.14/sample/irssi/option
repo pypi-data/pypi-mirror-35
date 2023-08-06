@@ -1,0 +1,11 @@
+{
+    "rights": {
+        "display": false,
+        "home": true,
+        "ssh": false,
+        "pwd": false,
+        "sound": false,
+        "daemon": false
+    },
+    "cmd": "/bin/sh"
+}
