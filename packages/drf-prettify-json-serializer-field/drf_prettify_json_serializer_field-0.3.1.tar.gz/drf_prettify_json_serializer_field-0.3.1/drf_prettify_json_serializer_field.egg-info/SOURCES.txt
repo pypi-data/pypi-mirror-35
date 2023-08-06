@@ -1,0 +1,8 @@
+README.md
+setup.py
+drf_prettify_json_serializer_field/__init__.py
+drf_prettify_json_serializer_field/fields.py
+drf_prettify_json_serializer_field.egg-info/PKG-INFO
+drf_prettify_json_serializer_field.egg-info/SOURCES.txt
+drf_prettify_json_serializer_field.egg-info/dependency_links.txt
+drf_prettify_json_serializer_field.egg-info/top_level.txt
