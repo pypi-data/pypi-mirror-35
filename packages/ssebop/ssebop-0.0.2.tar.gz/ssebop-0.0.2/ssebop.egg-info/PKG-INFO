@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ssebop
+Version: 0.0.2
+Summary: The Operational Simplified Surface Energy Balance
+Home-page: https://github.com/dgketchum
+Author: David Ketchum (code), Gabriel Senay (algorithm)
+Author-email: dgketchum@gmail.com
+License: Apache
+Download-URL: https://github.com/dgketchum/ssebop/archive/0.0.2.tar.gz
+Description: UNKNOWN
+Keywords: SSEB operational evapotranspiration algorithm
+Platform: Posix; MacOS X; Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5

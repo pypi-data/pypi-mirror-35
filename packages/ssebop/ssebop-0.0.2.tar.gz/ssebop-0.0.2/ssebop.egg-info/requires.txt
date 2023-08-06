@@ -1,0 +1,7 @@
+numpy
+requests
+netCDF4
+future
+pandas
+rasterio
+fiona
