@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: neuromorpholib
+Version: 0.1.0
+Summary: Library for manipulating neuromorpho resources.
+Home-page: UNKNOWN
+Author: Jordan Matelsky
+Author-email: jordan@matelsky.com
+License: Apache 2.0
+Download-URL: https://github.com/j6k4m8/neuromorpholib/tarball/0.1.0
+Keywords: neuron,morphology,neuroscience,graph
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+
+# neuromorpholib
+
+
+## Usage
+A simple download of known dataset and name:
+```python
+from neuromorpholib import neuromorpho
+
+nmo = neuromorpho.NeuroMorpho()
+acc1 = nmo.download_swc("martone", "ACC1")
+```
+
+A query for all species=mouse neurons:
+```python
+mouse_neurons = nmo.search({"species": "mouse"})
+```
+
+Download a SWC for a mouse neuron:
+```python
+swc_demo = nmo.download_swc(
+    mouse_neurons[0]
+)
+```
+
+If you know the archive name and neuron name, you can also download the swc directly by passing `archive` and `neuron_name` arguments.
+
+If you only want the SWC text and don't want it to be converted into a `NeuronMorphology` object, you can pass `text_only=True`.
+
+
