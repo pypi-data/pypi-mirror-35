@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/fantasy-draft
+vbd/VBD.py
+vbd/__init__.py
+vbd.egg-info/PKG-INFO
+vbd.egg-info/SOURCES.txt
+vbd.egg-info/dependency_links.txt
+vbd.egg-info/top_level.txt
