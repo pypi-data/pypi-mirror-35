@@ -1,0 +1,12 @@
+rustcsv-0.1.0a2.dist-info/METADATA,sha256=k5zdeinC7Et0iSj3qcfOsaPp4Jsg-oq1r5M2I6-YKR0,3734
+rustcsv-0.1.0a2.dist-info/RECORD,,
+rustcsv-0.1.0a2.dist-info/top_level.txt,sha256=kjsjAyXHQYHmIbVBvB43RlmeDh9nWudYSf2VdL-h03s,8
+rustcsv-0.1.0a2.dist-info/entry_points.txt,sha256=C9tZ1skD0ICLLboFBLOdPiowPuvBgYmfKvaoOXdFIGw,50
+rustcsv-0.1.0a2.dist-info/WHEEL,sha256=AhV6RMqZ2IDfreRJKo44QWYxYeP-0Jr0bezzBLQ1eog,109
+rustcsv/_version.py,sha256=M82InjHPDlS1ektyHWlxgYnhEBhqSr7l_GQSjAfQw9k,118
+rustcsv/__init__.py,sha256=yfXIowOeVxyOcsLmYvrfg1FZb1h3qGpoC1h1DCHQxbo,213
+rustcsv/test_benchmark.py,sha256=6TKn9HGi0qpyGV4HPZmxLTjKvdZNa9ytQKBkKFC6DRk,4537
+rustcsv/_rustcsv.cpython-37m-x86_64-linux-gnu.so,sha256=yg92QhiihXJedg0ij_jcvj-xBTN0keb7C69Oz2zM0uU,2172720
+rustcsv/test_rustcsv.py,sha256=sHh2xqCGPZCLgZ9nV1l0k7yS0iWjN5mP_tFNSfdlATA,5200
+rustcsv/error.py,sha256=SizBymSPrABjwtC5GGdEQ1BPO1gre_jsUlKHInI36Fw,485
+rustcsv/__main__.py,sha256=zE2doGx5UAMrMqFuQydE7FbyQCDfxApWgTNYDRX-ppA,216
