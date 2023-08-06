@@ -1,0 +1,15 @@
+docopt
+isort
+pycodestyle
+pydocstyle
+pylint
+
+[dev]
+bandit
+coverage<4.4
+eradicate
+pip-tools
+pipenv
+rstcheck
+safety
+tox
