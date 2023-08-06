@@ -1,0 +1,16 @@
+CHANGES.txt
+README.md
+setup.py
+classes/Track.py
+classes/TrackUnprocessed.py
+classes/__init__.py
+functions/DataAnalysis.py
+functions/InputProcessing.py
+functions/InterfaceChimeraX.py
+functions/TiffBoxDrawing.py
+functions/TiffProcessing.py
+functions/__init__.py
+pylattice.egg-info/PKG-INFO
+pylattice.egg-info/SOURCES.txt
+pylattice.egg-info/dependency_links.txt
+pylattice.egg-info/top_level.txt
