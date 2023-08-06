@@ -1,0 +1,8 @@
+cloudbridge>=1.0.1
+requests
+
+[dev]
+tox
+sphinx
+flake8
+flake8-import-order
