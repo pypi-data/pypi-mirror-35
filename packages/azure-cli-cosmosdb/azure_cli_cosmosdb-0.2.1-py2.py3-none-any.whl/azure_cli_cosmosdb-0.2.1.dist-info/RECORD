@@ -1,0 +1,13 @@
+azure/cli/command_modules/cosmosdb/__init__.py,sha256=oL1XpdbvTK4w9z0vNDNsQeJB8p_DK2G_4aLVbH1xTf4,2059
+azure/cli/command_modules/cosmosdb/_client_factory.py,sha256=szVOyBLG7nuMClt15CJQnqLSSWRV1MbHKU0q0t2d88w,2822
+azure/cli/command_modules/cosmosdb/_command_type.py,sha256=VY3xdMOGr9j4bM6JkhtJT9eiSGrFMTITzN9cQGFeQjo,3159
+azure/cli/command_modules/cosmosdb/_exception_handler.py,sha256=hNgUTfWfJoU1sNP3s9hpDZHButfggcv2VRkXfRqsN8E,3673
+azure/cli/command_modules/cosmosdb/_help.py,sha256=93hTZv6QjVsw4vW92aI1zm8kTytz_Mos_-zo8TlvJvQ,2210
+azure/cli/command_modules/cosmosdb/_params.py,sha256=rlAQoRNBvxflt35ZFtQ7g8r7-EHSu1dSI1ka44rJAkQ,4849
+azure/cli/command_modules/cosmosdb/_validators.py,sha256=bCbpLts-rhe0eJZW70D6iouAF9GwtwByGkJFHim36vs,2123
+azure/cli/command_modules/cosmosdb/commands.py,sha256=nslUWXGQN-4P_Wc_vSiRo2UEPSxj6NNuQh6FQQ0B3GI,2356
+azure/cli/command_modules/cosmosdb/custom.py,sha256=C8cCSL41yeoYK0axX7uJSi8ZFI1Czw1YPQxTo6iHE7s,14092
+azure_cli_cosmosdb-0.2.1.dist-info/METADATA,sha256=QHyxF6H6eRT8v3tKLKLHNHMWoUQR2i__LnHnxg4Hr0M,3084
+azure_cli_cosmosdb-0.2.1.dist-info/RECORD,,
+azure_cli_cosmosdb-0.2.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+azure_cli_cosmosdb-0.2.1.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
