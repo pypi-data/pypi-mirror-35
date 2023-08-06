@@ -1,0 +1,12 @@
+pantsbuild.pants.contrib.mypy-1.9.0rc2-py2.7-nspkg.pth,sha256=sQDrkkium0KHgf/GZuPdBI16HTZk+T/neL+vMKcZ2dE=,4072
+pants/contrib/mypy/register.py,sha256=MrHl5DHN_YwDhhPAmU5hgSqswfdlCFmUIfbDIasXEkA,425
+pants/contrib/mypy/tasks/mypy_task.py,sha256=M_zXn8nauT41afBkP3QlHynanGiWRHPjaMQAbGqYSSo,6207
+pantsbuild.pants.contrib.mypy-1.9.0rc2.dist-info/DESCRIPTION.rst,sha256=kkNzwUSIQ6vqeuh1aE33X7ZPBQo9LKGtdtMsUWyq0Cs=,15729
+pantsbuild.pants.contrib.mypy-1.9.0rc2.dist-info/METADATA,sha256=GM0QFCz/CibqQ/kHNJGsXvEswHxu7jh0u03DgDUzROg=,16391
+pantsbuild.pants.contrib.mypy-1.9.0rc2.dist-info/RECORD,,
+pantsbuild.pants.contrib.mypy-1.9.0rc2.dist-info/WHEEL,sha256=HeRoWS7ius0A3s57FTPBUxoE7B2vUyiPaLp98AUBVmc=,93
+pantsbuild.pants.contrib.mypy-1.9.0rc2.dist-info/entry_points.txt,sha256=lX1Ziil95EKCXkqQrC6ipD/8ZMe4H57o+KQTyawjPBw=,81
+pantsbuild.pants.contrib.mypy-1.9.0rc2.dist-info/metadata.json,sha256=Q68SFbn98jANBJ18Giz5PJEJQ0EUNgFAwjzq8Z53tbk=,857
+pantsbuild.pants.contrib.mypy-1.9.0rc2.dist-info/namespace_packages.txt,sha256=MrCWZXu1fgNr8hws7VojJQKEBvgHefC+ezjpVNpBArk=,64
+pantsbuild.pants.contrib.mypy-1.9.0rc2.dist-info/top_level.txt,sha256=2Q8psuu2hJtsFCjjCwiV13hd9u3l423C+k0dbNSWQC8=,6
+pantsbuild.pants.contrib.mypy-1.9.0rc2.dist-info/zip-safe,sha256=AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=,1
