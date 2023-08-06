@@ -1,0 +1,5 @@
+Click
+google-cloud-texttospeech
+pillow
+pyperclip
+requests
