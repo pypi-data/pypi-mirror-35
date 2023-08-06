@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rc-ssl-logtools
+Version: 0.0.2
+Summary: Tools to convert SSL logs to usable Python formats
+Home-page: https://github.com/jpfeltracco/rc-ssl-logtools
+Author: Jeremy Feltracco
+Author-email: jpfeltracco@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: protobuf
+
+# RoboCup Small Size League Python Log Tools
+
+
