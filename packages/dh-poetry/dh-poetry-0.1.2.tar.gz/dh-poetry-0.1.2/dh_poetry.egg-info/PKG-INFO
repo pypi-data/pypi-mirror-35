@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dh-poetry
+Version: 0.1.2
+Summary: Shim between dh-virtualenv and poetry
+Home-page: http://github.com/maikelwever/dh-poetry
+Author: Maikel Wever
+Author-email: maikelwever@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
