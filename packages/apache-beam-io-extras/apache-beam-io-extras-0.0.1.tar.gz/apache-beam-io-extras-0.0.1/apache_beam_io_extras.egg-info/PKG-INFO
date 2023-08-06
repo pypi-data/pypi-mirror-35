@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: apache-beam-io-extras
+Version: 0.0.1
+Summary: The missing I/O Transforms in python which already exist in Java SDK based on https://beam.apache.org/documentation/io/built-in/
+Home-page: https://github.com/invanatech/apache-beam-python-ptransforms
+Author: rrmerugu
+Author-email: rrmerugu@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
