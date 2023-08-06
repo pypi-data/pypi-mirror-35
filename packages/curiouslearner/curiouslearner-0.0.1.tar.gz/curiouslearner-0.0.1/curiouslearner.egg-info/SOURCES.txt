@@ -1,0 +1,8 @@
+README.md
+setup.py
+curiouslearner/__init__.py
+curiouslearner/__main__.py
+curiouslearner.egg-info/PKG-INFO
+curiouslearner.egg-info/SOURCES.txt
+curiouslearner.egg-info/dependency_links.txt
+curiouslearner.egg-info/top_level.txt

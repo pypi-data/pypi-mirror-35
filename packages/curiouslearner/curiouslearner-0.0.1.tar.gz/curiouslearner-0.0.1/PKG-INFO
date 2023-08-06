@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: curiouslearner
+Version: 0.0.1
+Summary: Meet Sanyam Khurana (CuriousLearner)
+Home-page: https://github.com/curiouslearner/curiouslearner
+Author: Sanyam Khurana
+Author-email: sanyam@sanyamkhurana.com
+License: UNKNOWN
+Description: # CuriousLearner
+        
+        Meet Sanyam Khurana (CuriousLearner).
+        
+        Find more details at https://www.SanyamKhurana.com
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
