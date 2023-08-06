@@ -1,0 +1,11 @@
+mpiutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mpiutils/dispatcher.py,sha256=qAslYq6O3NjVBFGFwGiDLENL-gVddsD5C8dxDPErfYc,5134
+mpiutils/mpi_logging.py,sha256=fKoz5N86TlCQTBaVlBtZvzUOBmf58LjCWLtj12Yiq5Q,3066
+mpiutils/mpimap.py,sha256=5wHPxCc3B5G6mBrU0FBU6rmdPnlYLYkOGtM7tHav0kc,11146
+mpiutils-0.1.1.dist-info/DESCRIPTION.rst,sha256=B9MmdWLnlo-14PfWWbmBcYYXzHRivJhKVKbbu7V0r9Q,72
+mpiutils-0.1.1.dist-info/METADATA,sha256=bkgUaw2b1HT3MI2xKj_2E8PtRlRhfIvdZktkt3O-P60,424
+mpiutils-0.1.1.dist-info/RECORD,,
+mpiutils-0.1.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+mpiutils-0.1.1.dist-info/entry_points.txt,sha256=XY7ORfNFBll3xvBVThHh9ZHWsGgvKfOdUT0EnCbD52E,87
+mpiutils-0.1.1.dist-info/metadata.json,sha256=E6H1mZOCT0Ewd7KByp2EbqsqpRnyw8BuE1SG9E7QuOk,799
+mpiutils-0.1.1.dist-info/top_level.txt,sha256=jsuYVXugKJEX2adWlwTK0uTL1bEaTsXf80DnEJZz2Ac,9
