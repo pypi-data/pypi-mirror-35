@@ -1,0 +1,13 @@
+tdtypes/__init__.py,sha256=9Hnz-uC5ECJwO7N0S2A3IlByHtX5YbpSBhiIIQdybpU,222
+tdtypes/column.py,sha256=Yockv3HnghHLr1B01-JOQFL1znfW296hIGivYAXjABo,9637
+tdtypes/index.py,sha256=Sk1sS1-Wm1saWhuTgBaLHL9wxQxMO0B9LxHxA2cCLHk,5061
+tdtypes/sqlcsr.py,sha256=YwCwnn6GbEqfc_WiGU7x9JtLtMc5bWe1VDFwF-E2BA0,2979
+tdtypes/table.py,sha256=-SFm4XHbRihKEMGNwgLqy5qLsFCFYP_fVbadeu5iba4,10020
+tdtypes/tdconn_default.py,sha256=BwjZupuQ4SDHec7UjE33cKphm5iH_qHRUly6dE0R_Tk,600
+tdtypes/tdtypes.py,sha256=TIMF-afSaxVtFdrsLfWm4zDpIvY5SHaHeGcBmfopn5w,213
+tdtypes/tpt.py,sha256=Qr1uatVt805Mf6SAKnvBVjoi51vgrG3XsyOoccXGmW0,9312
+tdtypes/util.py,sha256=iGOVxsi20gDpa1BHxjk8jh2sxHEdMTQvFcWueW2eM8I,1560
+tdtypes-0.2.0.dist-info/METADATA,sha256=yVSkgcfF6ScpzysErHfD_9vwtcrAfohwqPqf5ZaNOTk,3217
+tdtypes-0.2.0.dist-info/RECORD,,
+tdtypes-0.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tdtypes-0.2.0.dist-info/top_level.txt,sha256=flnlxYtkX0eL4YtgwpbRX74qesxvMb2q_SSOJH1BivE,8
