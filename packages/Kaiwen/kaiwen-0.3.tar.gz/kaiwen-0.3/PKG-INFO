@@ -1,0 +1,62 @@
+Metadata-Version: 1.1
+Name: kaiwen
+Version: 0.3
+Summary: kaiwen's package, mainly for personal use
+Home-page: http://github.com/kxue4/kaiwen
+Author: kaiwen Xue
+Author-email: yixian.xue@gmail.com
+License: BSD License
+Description: Github
+        ======
+        
+        https://github.com/kxue4/kaiwen
+        
+        kaiwen
+        ==================
+        
+        Mainly for personal use
+        
+        version
+        ==================
+        
+        v0.3
+        
+        how to install
+        ==============
+        
+        ::
+        
+            pip install kaiwen
+        
+        What's include
+        ==========
+        
+        **Two easy re functions:**
+        type: return type, include [list or None]
+        ext: [reversed or None]
+        
+        ::
+                extract_chinese_characters(string, type=None, ext=None)
+                extract_numbers(string, type=None, ext=None)
+        
+        **Some other useful functions:**
+        
+        ::
+        
+                bubble_sort(list)
+                calculate_pi(digits)
+                english_format_checker(string)
+                generate_coupon(num, digit_num)
+                merge_dicts(*args)
+                multiline_input()
+                recursion.sum_it(list)
+                recursion.quick_sort(list)
+                word_filter(string)
+Platform: all
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
