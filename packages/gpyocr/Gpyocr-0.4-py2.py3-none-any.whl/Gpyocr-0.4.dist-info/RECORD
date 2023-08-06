@@ -1,0 +1,9 @@
+Gpyocr-0.4.dist-info/METADATA,sha256=BxM0_LBL6yg0D_2XENtx4f4FzTvq52I9C0ul61uiN8s,4912
+Gpyocr-0.4.dist-info/RECORD,,
+Gpyocr-0.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+Gpyocr-0.4.dist-info/entry_points.txt,sha256=QI-8tsvF8akQWHyXu21LQ2RWqrxpwHuBHamXLFOhhW4,49
+Gpyocr-0.4.dist-info/top_level.txt,sha256=-cNbJPiXnjg79x_4CdGNVggQeS49vTJuZmsuCc9YyoU,13
+gpyocr/__init__.py,sha256=PWh8Yts-6dXqUO3XHlUkRInxCFGcX4Lpu4j14EgXcxo,230
+gpyocr/__main__.py,sha256=-_mo0fU-RTIDIADutJv35WKyPkx0UmJf4fKtJrtvoHU,1538
+gpyocr/_gpyocr.py,sha256=H-HPGw3IQXTzD03sHbxpqyZQ9G42h1gmifjdtSg9zRo,6201
+tests/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
