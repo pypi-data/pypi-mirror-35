@@ -1,0 +1,264 @@
+CHANGES
+=======
+
+1.8.20
+------
+
+* Don't need to verify flow since verifying functionality
+* Verify hairpin routing
+* Mark ZodiacGX testable with meters
+* macvlan mode default should be vepa
+* Simplify hairpin test
+* add\_macvlan() allows configuration of mode
+* Bump version for release
+* Global router test verifies routing performance between VLAN/subnets
+* Use macvlan VEPA mode in global test for MAC address diversity and enable verification of routing flow counters
+* Revert "https://github.com/google/pytype/issues/133 is fixed so don't have to run under parallel."
+* Revert "Run pytype by top level directory to limit memory usage."
+* Revert "Still need to use parallel for pytype as pytype uses lots of memory."
+* Still need to use parallel for pytype as pytype uses lots of memory
+* Run pytype by top level directory to limit memory usage
+* https://github.com/google/pytype/issues/133 is fixed so don't have to run under parallel
+* Update pytype from 2018.8.10 to 2018.9.7.1
+* Update sphinx from 1.7.8 to 1.7.9
+* verify push\_vlan()
+* ACLs should verify set\_fields
+* Revert "ACLs also verify set\_fields."
+* ACLs also verify set\_fields
+* set\_field() should verify table config
+* Verify all goto\_tables()
+* Verify goto table/miss table config
+* Fix unit tests for goto fix
+* Set eth\_dst/hairpin/vip consistently
+* Global router pylint
+* Add link to pytype issue
+* pass extra options for chewie v0.0.7
+* removed catch exception
+* Revert "Pregenerate pyi for mainline faucet."
+* Pregenerate pyi for mainline faucet
+* Global router test should have hairpin\_unicast enabled
+* missed next table for port\_acl
+* Port ACLs can skip VLAN validation
+* Need to check py3 version later
+* build matrix python 3.[46], but run docker tests under 3.6 only
+* Log resolution attempt for non-connected network
+* Handle packet not in faucet\_vip network
+* pylint
+* Add hairpin\_unicast config
+* Add config for hairpin table size
+* Configure next tables for hairpinning
+* Port hairpinning now uses hairpin table
+* Make DP output table dynamic
+* eth\_dst\_hairpin should match on VLAN also (so same MAC in different VLANs handled)
+* Further reservation of eth\_dst\_hairpin table
+* route manager doesn't need to know flood table
+* Reserve eth\_dst\_hairpin table
+* revert - revert dot1x tests with chewie v0.0.5 (radius & statehandlers)
+* revert - revert chewie-multivalves
+* Pre-version 1.8.20
+
+1.8.19
+------
+
+* Revert "Merge pull request #2377 from Bairdo/chewie-radius"
+* Rollback to chewie 0.0.2
+* Revert "Merge pull request #2380 from Bairdo/chewie-multi-valves"
+* Chewie 0.0.7
+* chewie 0.0.6
+* Preversion 1.8.19
+
+1.8.18
+------
+
+* Need to key off of table\_name, not ID
+* pylint
+* Confusion of missing/unregistered tags
+* chewie version 0.0.6
+* run dot1x tests in parallel
+* Log labels incorrect for diagnosis
+* Fix unit test for VIP table
+* TFM autosizer more generous with VLAN table
+* Rightsize L3 test
+* VIP table can goto flood
+* next tables must be iterable
+* Rightsize scale L2/L3 tests for mostly TCAM hardware
+* chewie config options for radius server ip/port/secret & chewie id
+* maybe fix pytype error?
+* Only flood down one member of LACP bundle
+* vip table can forward to eth\_dst
+* missed reference to new\_tables
+* Actually use the next tables
+* Bump README for release
+* Handle configuration of very short maximum backoff interval
+* Need to share state on table based variables so labels can be synchronized across all DPs
+* handle cases where dot1x not enabled on first (or any) DPs
+* Add random jitter to nexthop retry time
+* Test delayed resolution
+* Make resolution\_due() clearer
+* pylint
+* Use common resolution\_due() method for nexthops
+* Update sphinx from 1.7.7 to 1.7.8
+* Targeted nexthop resolution uses unicast address
+* IPv6 neighbor timeout should be much shorter
+* Use different IPv6 neighbor timeout
+* Revert "Revert "Separate timer for ND from ARP.""
+* Need to check next retry time on unresolved nexthop
+* Revert "Separate timer for ND from ARP."
+* Simplify multicast address calculation
+* Test repeated NS
+* Separate timer for ND from ARP
+* pylint
+* pylint
+* IPv6 hop limit critical
+* Hop limit in advert must be 255
+* Rename arp\_neighbor\_timeout to generic
+* Don't reset cache entry every time when proactively resolving
+* Missed ref. to cache gaurd time
+* Reset ND timeout to 250s Allow configuration of L2 cache guard time
+* need main() in check\_faucet\_config
+* Make IPv6 ND timeout separate from ARP
+* Set RA hop limit to 64 not 255
+* pylint
+* Raise min lint score to 9.4
+* pylint
+* pylint
+* Spelling
+* pylint
+* pylint
+* pylint
+* pylint
+* pylint
+* pylint
+* FAUCET should reply to unicast ARP requests
+* missed reference to new\_tables
+* pylint
+* pylint.,
+* pylint
+* pylint
+* pylint
+* pylint
+* pylint
+* Actually use the next tables
+* pylint
+* pylint
+* pylint
+* Raise min lint to 9.3
+* pylint
+* pylint
+* Move minimal pipeline definition to faucet\_pipeline. pylint
+* update to chewie v0.0.5
+* Should not have tags/metrics as class attribute
+* lint
+* Handle switch sending us unknown VLAN ID in FAUCET MAC when global routing is enabled
+* dot1x on multiple ports
+* Add tests for configuring next\_tables
+* next\_tables must be tuples
+* get table\_id and next\_tables from default for acls
+* Have easily accessible default configs
+* Tidy FAUCET\_PIPELINE
+* Include next\_tables in valve\_table\_config
+* Include table\_id in ValveTableConfig
+* calculate vlan\_port\_factor when needed
+* Add config tests validating dp.tables
+* Dont build table config options for tables that wont be used
+* include vlan and port match in acl.build
+* Move all table configuration into \_configure\_tables
+* Store matches, set\_fields and meter in acl object
+* remove mininet pty workaround (fixed upstream)
+* Test name was too long. Timeout flow removed check. Start radius in setup
+* dot1x tests with chewie v0.0.3 (radius & state handlers). Tests check all dot1x prometheus variables
+* Should use next retry time, primarily when considering resolving
+* Use cached nexthop type deque
+* Pre-version 1.8.18
+
+1.8.17
+------
+
+* copy canonical table config
+* flow is most likely a packet out so check that first
+* global\_routing
+* Make \_stateful\_gw() cheaper
+* Only log ND/ARP activity if causes a state change
+* Simplify icmpv6 checks
+* Simplify CPN checks
+* Reuse of gw advertisement
+* Protocol independant VIP response handler
+* Reuse resolve\_gw\_on\_vlan/port
+* Add support for pip versions >= 10
+* move part of valve.\_inc\_var() to faucet\_metrics.inc\_var()
+* rename valve.\_port\_labels() valve.port\_labels()
+* More use of ip\_pkt()
+* Re-use \_ip\_pkt()
+* Add dp & port metrics for failure/logoff/success. Add handlers for failure/logoff. Add partial test for logoff
+* Catch problem with resolver not trying to resolve a gateway from coldstart
+* Redo avoid double lookups
+* Should check that cache entry is placeholder when resolving
+* Revert "Avoid double lookup."
+* Fix versions to match requirements.txt
+* Add packaging test for comparing versions
+* Test mirror port resolution
+* use hex to remind me that this is a dictionary not a list
+* validate valid mac validation
+* Add test\_override\_port object validation
+* Avoid double lookup
+* Provoke default route add
+* Mark 8021X test software only
+* Remove notify event for 8021X
+* 8021X test cleanup
+* pylint
+* Yakkety and zesty are EOL
+* Recursively include requirements.txt in test-requirements.txt
+* add a 1x success/failure counter
+* distlib, packaging et al still fail
+* Force deterministic python version for pytype
+* Bump version for release
+* pytype
+* pylint
+* Don't skip test\_packaging.py (works fine when -V3.5 is specified)
+* Update sphinx from 1.7.6 to 1.7.7
+* pytype
+* Remove resolve request from pending list if we received a response recently
+* Unnecessary condition for nexthop sorter
+* Make nexthop refresh check cheaper
+* More efficient nexthop fresh
+* Use "instant" for grafana table
+* Reduce calls to dedupe\_ofmsgs()
+* Missing unresolved\_gateways
+* Packet outs are always output in random order
+* list/list()
+* Minimum version for ZodiacGX
+* Use no-op packet in to clear resolver queue
+* Keep unresolved gateway list in VLAN
+* Revert "Use no-op packet in as opportunity to clear resolver queue."
+* Use no-op packet in as opportunity to clear resolver queue
+* Shuffle nexthop retries always no matter how many retries
+* pylint
+* Import cleanup
+* Need to preserve DP status across reloads
+* DPID variables incorrectly set to 0 on config reload
+* add \_get\_dps\_as\_dict and tests for stack config
+* Verify DP, Port and Vlan objects with basic config
+* List ZodiacGX in vendor documentation
+* wildcard\_table used by multiple conf objects
+* check eapol host receives success/failure message
+* remove no longer used methods/classes from dp.py
+* increase tcpdump timeout to 30s, and removed print tcpdump
+* remove sleep from test
+* Initial ZodiacGX docs
+* Another ignore of stale descriptor
+* Don't worry about OSError on socket when cleaning up
+* Move config failure tests to the end of config tests
+* NoviFlow Valve must use barriers
+* Preversion 1.8.17
+* Reduce repetition; add timing for tests
+* Run IPv6 test\_fuzz\_controller() as long as we can
+
+1.8.16
+------
+
+* Set locale to keep python read() happy
+* Verify ICMPv6 payload type
+* Don't check test\_packaging:
+* add test for 802.1x that fails (wrong password)
+* unit test for chewie+faucet. Added new variable for setting a hosts 'inNamespace'
+* Alternate drop rule verifier
