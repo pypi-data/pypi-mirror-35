@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hmpnester
+Version: 1.2.0
+Summary: Tutorial package from HeadFirst series
+Home-page: UNKNOWN
+Author: hmperez
+Author-email: betomperez@gmail.com
+License: UNKNOWN
+Description: # Tutorial do livro HeadFirst Python
+        
+        ### * Versão 1.0.0
+              * Capítulo 2 p49
+        ### * Versão 1.1.0
+              * Capítulo 2 p60
+        ### * Versão 1.2.0
+              * Capítulo 2 p65
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
