@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: lookout-sdk
+Version: 0.0.1
+Summary: SDK for writing lookout analyzers
+Home-page: https://github.com/src-d/lookout-sdk
+Author: source{d}
+Author-email: applications@sourced.tech
+License: Apache 2.0
+Download-URL: https://github.com/src-d/lookout-sdk
+Description-Content-Type: UNKNOWN
+Keywords: analyzer,code-reivew
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: grpcio (>=1.13.0)
+Requires-Dist: protobuf (>=3.6.0)
+Requires-Dist: bblfsh
+
+UNKNOWN
+
+
