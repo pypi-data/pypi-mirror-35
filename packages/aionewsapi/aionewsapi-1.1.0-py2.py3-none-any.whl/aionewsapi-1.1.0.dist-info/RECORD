@@ -1,0 +1,10 @@
+aionewsapi/__init__.py,sha256=OT8SFu8tT_21ohLnpsODAK3N5ozENXCrfeCtm9tbe3A,27
+aionewsapi/articles.py,sha256=vTcSABNOtkrMyqqnnMLA02fNQl4GpeOhh3UJrQsIUWQ,2934
+aionewsapi/client.py,sha256=HyDkPS2GeztMF9tw8FOSYBHFRkdbYPnxRAQJW7cxq_I,4819
+aionewsapi/exceptions.py,sha256=sVb4ZVC0rbQwn8sgh5j-kOLsUsqM31JYJ4H5hBVP0YM,48
+aionewsapi/http_client.py,sha256=xcK_jDAhJK8H8bBEEDUKaTDPnPpeItE8oUic7TLtZwE,4302
+aionewsapi/schema.py,sha256=eEbrbO_14_Ek0__FnonsaHCZqBmjQXnhECShfeq_tr4,1180
+aionewsapi-1.1.0.dist-info/METADATA,sha256=6h9MQzR4XBbo8GEM9Kz8o_lI5Lx4oOFzTWYzZLsRxlI,495
+aionewsapi-1.1.0.dist-info/RECORD,,
+aionewsapi-1.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+aionewsapi-1.1.0.dist-info/top_level.txt,sha256=5Qs4q8okd7VsLLYdCBCir5lvqcAimWq8k71UFo4757M,11
