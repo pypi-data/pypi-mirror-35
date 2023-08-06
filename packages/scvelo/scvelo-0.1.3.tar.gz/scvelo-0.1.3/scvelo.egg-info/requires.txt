@@ -1,0 +1,15 @@
+anndata
+scanpy
+scikit-learn~=0.19.1
+matplotlib~=2.2
+loompy~=2.0.12
+pandas~=0.21
+h5py
+joblib
+natsort
+networkx
+numba
+scipy
+seaborn
+statsmodels
+tables
