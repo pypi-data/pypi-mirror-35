@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: statepattern
+Version: 0.1.0
+Summary: Object used to maintain state.
+Home-page: https://github.com/segfaultsourcery/state-pattern
+Author: Kim Hermansson
+Author-email: 
+License: BSD
+Keywords: productivity development method-chains functional
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: ~=3.5
+
+# state-pattern
+State pattern.
+
+http://segfaultsourcery.com/post/state-pattern
+
+
