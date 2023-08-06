@@ -1,0 +1,3 @@
+[console_scripts]
+pyschemaconf = pyschemaconf:main
+

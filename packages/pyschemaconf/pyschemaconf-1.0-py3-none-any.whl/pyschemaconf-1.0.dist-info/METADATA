@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyschemaconf
+Version: 1.0
+Summary: Configuration File Handle Module for Python. It supports varieties of data type such as JSON, YAML, PYTHON DICT. 
+Home-page: https://github.com/RavenKyu/PySchemaConf
+Author: Duk-kyu Lim
+Author-email: hong18s@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/RavenKyu/PySchemaConf/archive/0.9.tar.gz
+Keywords: yaml,json,json-schema,conf,configure
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Requires-Dist: apitools (==0.1.4)
+Requires-Dist: genson (==1.0.1)
+Requires-Dist: jsonschema (==2.6.0)
+Requires-Dist: PyYAML (==3.13)
+Requires-Dist: rstr (==2.2.6)
+
+UNKNOWN
+
+
