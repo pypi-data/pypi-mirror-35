@@ -1,0 +1,9 @@
+pancakes/__init__.py,sha256=2YV3mbLONQDUztiBII-O7VwZC7oo0vvJxmPVBqT4W4w,168
+pancakes/cli.py,sha256=OsM536xfl78oqPzOAunil5xlLzew9KhAReM7edPGKeQ,401
+pancakes/pancakes.py,sha256=v3bwr5NjODQLByqPb6msEXOjcbmxEt-v8KUw__iuoyE,1418
+pancakes/version.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+pancakes-0.2.0.dist-info/METADATA,sha256=aQgJG9ZXsrDDHe_V_3_tkS7FxTdl6PzBVF69o4haOlg,1857
+pancakes-0.2.0.dist-info/RECORD,,
+pancakes-0.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pancakes-0.2.0.dist-info/entry_points.txt,sha256=Im29qIlBcUxgSuJJXPlRg0Kwq-KQM0A1uNo4P6BmM04,48
+pancakes-0.2.0.dist-info/top_level.txt,sha256=k_Y5izkozTC_xGK-0LqXPKzubM5LFCUjVzi0nvlTZpY,9
