@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: yuriko
+Version: 0.0.1
+Summary: Encrypted notes
+Home-page: https://github.com/nanvel/yuriko
+Author: Oleksandr Polieno
+Author-email: polyenoom@gmail.com
+License: The MIT License
+Keywords: encrypted,notes
+Platform: OS Independent
+Requires-Dist: pycrypto
+
+Encrypted notes
+
+
