@@ -1,0 +1,13 @@
+CHANGES.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bin/B_mode
+bin/rtl_to_npz
+rtl_ultrasound/__init__.py
+rtl_ultrasound/obsoleteversion.py
+rtl_ultrasound.egg-info/PKG-INFO
+rtl_ultrasound.egg-info/SOURCES.txt
+rtl_ultrasound.egg-info/dependency_links.txt
+rtl_ultrasound.egg-info/top_level.txt
