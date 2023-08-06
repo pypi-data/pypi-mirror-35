@@ -1,0 +1,3 @@
+[console_scripts]
+prometheus_ml = prometheus_ml.cli:main
+
