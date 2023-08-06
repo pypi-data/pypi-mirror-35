@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: shellerate
+Version: 0.0.1
+Summary: A shellcode generator with encryption, encoding and polymorphism facilities built-in
+Home-page: https://github.com/thesp0nge/shellerate
+Author: Paolo Perego
+Author-email: paolo@codiceinsicuro.it
+License: UNKNOWN
+Description: # Shellerate
+        
+        This the Changelog file for the shellerate project. 'shellerate' is pun between
+        'shell' and 'scellerato', the Italian word for 'wicked'.
+        
+        'shellerate' is a shellcode generation framework born from the assignments I
+        took for the SecurityTube Linux Assembly Expert certification process.
+        
+        You can feature custom encoders, custom crypters, polymorphism and all stuff I
+        learnt in the SLAE certification process.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
