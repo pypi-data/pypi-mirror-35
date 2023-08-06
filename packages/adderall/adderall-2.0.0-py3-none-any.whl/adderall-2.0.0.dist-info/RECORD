@@ -1,0 +1,15 @@
+adderall/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adderall/bitnum.hy,sha256=akV35b1QYe7VoRGE-xjfnBVDVdOmF9STLGtmdsmvrw8,3837
+adderall/debug.hy,sha256=znuyQwcxmgNrihYbiYJh9mW2D7x4Rj18OvnqEFokpf4,973
+adderall/dsl.hy,sha256=HDHDQSXCDHaI3NVsxVXyukLTdBCdqoZx2ZE0Koej8YQ,9517
+adderall/internal.hy,sha256=hES9MinTG28W-wGiQ5tiBvAXZtDjvdGbhQek7G4HAgY,6962
+adderall/extra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adderall/extra/misc.hy,sha256=DWURqjkZftrKTG-DA1rzbI1oD2FcC9a4PxfDkvJVDEY,1190
+adderall/extra/zebra.hy,sha256=xniVHXOHyp8bX0dftkxo74OHMTWl9JZwR2XmrtUItxo,2672
+adderall/extra/cheezburger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adderall/extra/cheezburger/grumpy_cat.hy,sha256=QBmRtnyL60pwPx0SNlHlkkyGcEqB5i5HZbIcQIgMtrk,882
+adderall/extra/cheezburger/kitteh.hy,sha256=JYkzecGBCSNgV5FqbFK_b-cguBet_pqz-SgsJQAUDPo,863
+adderall-2.0.0.dist-info/METADATA,sha256=rUD8TTfL30xwTCrw51FQLMr1Scf8xb0aSdqwDmfhbJ4,686
+adderall-2.0.0.dist-info/RECORD,,
+adderall-2.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+adderall-2.0.0.dist-info/top_level.txt,sha256=tQIoiyVIP3b5OJg1nAscLojR7zy5PpxcykFViWJD0RQ,9
