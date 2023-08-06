@@ -1,0 +1,3 @@
+[console_scripts]
+feisty=feisty.command_line:main
+
