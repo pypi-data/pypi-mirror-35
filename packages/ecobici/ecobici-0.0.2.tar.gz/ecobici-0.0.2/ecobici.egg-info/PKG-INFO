@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: ecobici
+Version: 0.0.2
+Summary: This is a python wrapper for the ecobici api
+Home-page: https://github.com/sainoba/ecobici_py
+Author: Marco Nila
+Author-email: contact.marconila@gmail.com
+License: UNKNOWN
+Description: # Ecobici python wrapper
+        
+        [![Build Status](https://travis-ci.com/sainoba/ecobici_py.svg?branch=master)](https://travis-ci.com/sainoba/ecobici_py)
+        [![PyPI version](https://badge.fury.io/py/ecobici.svg)](https://badge.fury.io/py/ecobici)
+        ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+        
+        ![Ecobici logo](https://raw.githubusercontent.com/sainoba/ecobici_py/master/img/ecobici.jpg)
+        
+        ## Installation
+        `pip install ecobici`
+        
+        ## Usage
+        
+        ```python3
+        # Import module
+        from ecobici import Ecobici
+        
+        # Initialize client
+        client = Ecobici(your_client_id, your_client_secret)
+        
+        # Get list of stations
+        list_of_stations = client.get_stations_list()
+        
+        # Get status of stations
+        stations_status = client.get_stations_status()
+        
+        # (Optional) Force refresh token
+        client.refresh_token()
+        
+        ```
+        
+        ## Notes
+        There's no need to refresh the token when it expires. The client does it automatically.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
