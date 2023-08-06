@@ -1,0 +1,7 @@
+rfc5424-logging-handler
+daiquiri
+requests
+
+[openshift]
+openshift==0.6.2
+kubernetes==6.0.0
