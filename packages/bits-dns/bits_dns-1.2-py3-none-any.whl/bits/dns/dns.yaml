@@ -1,0 +1,185 @@
+# Static DNS Configuration
+
+# defaults used by other configs
+defaults:
+
+  # broadinstitute.org A record
+  broad_a_record:
+    kind: dns#resourceRecordSet
+    name: broadinstitute.org.
+    rrdatas:
+      - 69.173.93.33
+    ttl: 300
+    type: A
+
+  # broadinstitute.org MX record
+  broad_mx_record:
+    kind: dns#resourceRecordSet
+    name: broadinstitute.org.
+    rrdatas:
+      - 1 aspmx.l.google.com.
+      - 5 alt1.aspmx.l.google.com.
+      - 5 alt2.aspmx.l.google.com.
+      - 10 aspmx2.googlemail.com.
+      - 10 aspmx3.googlemail.com.
+    ttl: 300
+    type: MX
+
+
+  # broadinstitute.org NS record
+  broad_ns_record:
+    kind: dns#resourceRecordSet
+    name: broadinstitute.org.
+    rrdatas:
+      - ns-cloud-c1.googledomains.com.
+      - ns-cloud-c2.googledomains.com.
+      - ns-cloud-c3.googledomains.com.
+      - ns-cloud-c4.googledomains.com.
+    ttl: 21600
+    type: NS
+
+  # broadinstitute.org SOA record
+  broad_soa_record:
+    kind: dns#resourceRecordSet
+    name: broadinstitute.org.
+    rrdatas:
+      - ns-cloud-c1.googledomains.com. cloud-dns-hostmaster.google.com. 5 21600 3600 259200 300
+    ttl: 21600
+    type: SOA
+
+  # broadinstitute.org TXT record - external
+  broad_txt_record_external:
+    kind: dns#resourceRecordSet
+    name: broadinstitute.org.
+    rrdatas:
+      # SPF record
+      - '"v=spf1 include:_spf.google.com" " ip4:69.173.64.0/19 ip4:69.173.96.0/20 ip4:69.173.112.0/21" " ip4:69.173.120.0/22 ip4:69.173.124.0/23 ip4:69.173.126.0/24" " ip4:69.173.127.0/25 ip4:69.173.127.128/26 ip4:69.173.127.192/27" " ip4:69.173.127.224/30 ip4:69.173.127.228/32 ip4:69.173.127.230/31" " ip4:69.173.127.232/29 ip4:69.173.127.240/28" " ip4:199.91.140.26/32 ip4:199.91.136.26/32 ip4:199.91.136.28/32" " ip4:66.45.4.80/32" " include:spf.mandrillapp.com include:sendgrid.net" " ip4:12.38.207.30/32 ip4:12.159.76.40/32" " -all"'
+      # Blackbaud site verification
+      - 47VSOW7JW7DBE9JC5B3E6LH4473054X7DTVUVBOEH
+      # Google site verification
+      - google-site-verification=cMHWpT4dQyMPSUDiYSMd06lh3xr7aLUpSquocWu6WUw
+      # Microsoft site verification
+      - MS=ms42340533
+    ttl: 300
+    type: TXT
+
+  # broadinstitute.org TXT record - internal
+  broad_txt_record_internal:
+    kind: dns#resourceRecordSet
+    name: broadinstitute.org.
+    rrdatas:
+      # SPF record
+      - '"v=spf1 include:_spf.google.com" " ip4:69.173.64.0/19 ip4:69.173.96.0/20 ip4:69.173.112.0/21" " ip4:69.173.120.0/22 ip4:69.173.124.0/23 ip4:69.173.126.0/24" " ip4:69.173.127.0/25 ip4:69.173.127.128/26 ip4:69.173.127.192/27" " ip4:69.173.127.224/30 ip4:69.173.127.228/32 ip4:69.173.127.230/31" " ip4:69.173.127.232/29 ip4:69.173.127.240/28" " ip4:199.91.140.26/32 ip4:199.91.136.26/32 ip4:199.91.136.28/32" " ip4:66.45.4.80/32" " include:spf.mandrillapp.com include:sendgrid.net" " ip4:12.38.207.30/32 ip4:12.159.76.40/32" " ip4:192.168.0.0/16 ip4:172.16.0.0/12 ip4:10.0.0.0/8" " -all"'
+    ttl: 300
+    type: TXT
+
+  # broad jabber records
+  broad_jabber_srv_record:
+    kind: dns#resourceRecordSet
+    name: _xmpp-server._tcp.broadinstitute.org.
+    rrdatas:
+      - 5 0 5269 xmpp-server.l.google.com.
+      - 20 0 5269 xmpp-server1.l.google.com.
+      - 20 0 5269 xmpp-server2.l.google.com.
+      - 20 0 5269 xmpp-server3.l.google.com.
+      - 20 0 5269 xmpp-server4.l.google.com.
+    ttl: 300
+    type: SRV
+
+  # broad skype sip records
+  broad_skype_sip_record:
+    kind: dns#resourceRecordSet
+    name: _sip._tls.broadinstitute.org.
+    rrdatas:
+      - 100 1 443 sipdir.online.lync.com.
+    ttl: 1h
+    type: SRV
+
+  # broad skype federation records
+  broad_skype_federation_record:
+    kind: dns#resourceRecordSet
+    name: _sipfederationtls._tcp.broadinstitute.org.
+    rrdatas:
+      - 100 1 5061 sipfed.online.lync.com.
+    ttl: 1h
+    type: SRV
+
+  # broad XMPP records for Google Talk
+  broad_xmpp_srv_record:
+    kind: dns#resourceRecordSet
+    name: _jabber._tcp.broadinstitute.org.
+    rrdatas:
+      - 5 0 5269 xmpp-server.l.google.com.
+      - 20 0 5269 xmpp-server1.l.google.com.
+      - 20 0 5269 xmpp-server2.l.google.com.
+      - 20 0 5269 xmpp-server3.l.google.com.
+      - 20 0 5269 xmpp-server4.l.google.com.
+    ttl: 300
+    type: SRV
+
+  # broad.mit.edu NS record
+  mit_ns_record:
+    kind: dns#resourceRecordSet
+    name: broad.mit.edu.
+    rrdatas:
+      - bitsy.mit.edu.
+      - strawb.mit.edu.
+      - w20ns.mit.edu.
+    ttl: 21600
+    type: NS
+
+  # vdesktop - external IP
+  vdesktop_external:
+    kind: dns#resourceRecordSet
+    name: vdesktop.broadinstitute.org.
+    rrdatas:
+      - 69.173.93.25
+    ttl: 0
+    type: A
+
+  # vdesktop - internal IP
+  vdesktop_internal:
+    kind: dns#resourceRecordSet
+    name: vdesktop.broadinstitute.org.
+    rrdatas:
+      - 69.173.93.24
+    ttl: 0
+    type: A
+
+# Broad.mit.edu - internal
+broad.mit.edu:
+  - broad_a_record
+  - broad_jabber_srv_record
+  - broad_mx_record
+  - broad_soa_record
+  - broad_txt_record_internal
+  - broad_xmpp_srv_record
+  - mit_ns_record
+  - vdesktop_internal
+
+# Broadinstitute.org - internal
+broadinstitute.org:
+  - broad_a_record
+  - broad_jabber_srv_record
+  - broad_mx_record
+  - broad_ns_record
+  - broad_skype_federation_record
+  - broad_skype_sip_record
+  - broad_soa_record
+  - broad_txt_record_internal
+  - broad_xmpp_srv_record
+  - vdesktop_internal
+
+# Broadinstitute.org - external
+broadinstitute.org-external:
+  - broad_a_record
+  - broad_jabber_srv_record
+  - broad_mx_record
+  - broad_ns_record
+  - broad_skype_federation_record
+  - broad_skype_sip_record
+  - broad_soa_record
+  - broad_txt_record_external
+  - broad_xmpp_srv_record
+  - vdesktop_external
+
