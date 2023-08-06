@@ -1,0 +1,10 @@
+Flask_Wings-0.4.1.dist-info/METADATA,sha256=0ohgyfHvGUDgyBBZINzEbUbUtq-DjMo9cnuhhAHiBmQ,1360
+Flask_Wings-0.4.1.dist-info/RECORD,,
+Flask_Wings-0.4.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+Flask_Wings-0.4.1.dist-info/top_level.txt,sha256=E18ozM9gfaK8Lj9bNXoYSSBt1ie5RN6T6flUsgPywlc,12
+flask_wings/FlaskWings.py,sha256=8c6Csnt7N4Z6V83OLwY4wcSU6UYAVDvtZtLpVnMeWQc,661
+flask_wings/__init__.py,sha256=FigADoQpIfemo_mTEEu28tR1x_5K1ubcHDRKMK8GCRo,68
+flask_wings/version.py,sha256=qBs4HqYsPn6yUHWEuCN4rGUC05gABbl800d8LBd8h9w,22
+flask_wings/views.py,sha256=X-di0WSS-YYoTEpuZVTQF91GGCu_u_4_XgVOk2bxNpg,556
+flask_wings/templates/index.html,sha256=gubvI9XXvVfsmE8zfmoAqZHxwidxL0Oaodi6wREiFDg,125
+flask_wings/templates/login.html,sha256=haMAbXC1dsWLldaZCVAE4P3BM8ZXtP7JvjxikY88yNk,137
