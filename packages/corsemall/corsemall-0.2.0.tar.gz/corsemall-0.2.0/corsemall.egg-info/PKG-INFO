@@ -1,0 +1,44 @@
+Metadata-Version: 1.1
+Name: corsemall
+Version: 0.2.0
+Summary: Serves JSON data with CORS allowed from *.json files at given path.
+Home-page: https://github.com/hvnsweeting/corsemall
+Author: Viet Hung Nguyen
+Author-email: hvn@familug.org
+License: MIT
+Description: corsemall - serve JSON CORS for local JS dev
+        ============================================
+        
+        corsemall - CORS 'em all
+        
+        .. image:: https://travis-ci.org/hvnsweeting/corsemall.svg?branch=master
+            :target: https://travis-ci.org/hvnsweeting/corsemall
+        
+        Installation
+        ------------
+        
+        By using pip::
+        
+            pip install corsemall
+        
+        Usage
+        -----
+        
+        To serve JSON files at path with CORS allowed for all, run::
+        
+          corsemall PATH
+        
+        Features
+        --------
+        
+        - Supports both Python2 and Python3
+        - Run on Linux, OSX, Windows
+        
+        Authors
+        -------
+        
+        Viet Hung Nguyen <hvn@familug.org>
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Topic :: Terminals :: Terminal Emulators/X Terminals

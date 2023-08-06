@@ -1,0 +1,9 @@
+README.rst
+corsemall.py
+setup.py
+corsemall.egg-info/PKG-INFO
+corsemall.egg-info/SOURCES.txt
+corsemall.egg-info/dependency_links.txt
+corsemall.egg-info/entry_points.txt
+corsemall.egg-info/requires.txt
+corsemall.egg-info/top_level.txt
