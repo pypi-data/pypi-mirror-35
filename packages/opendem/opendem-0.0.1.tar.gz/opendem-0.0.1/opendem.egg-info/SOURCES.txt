@@ -1,0 +1,7 @@
+README.md
+setup.py
+opendem.egg-info/PKG-INFO
+opendem.egg-info/SOURCES.txt
+opendem.egg-info/dependency_links.txt
+opendem.egg-info/requires.txt
+opendem.egg-info/top_level.txt

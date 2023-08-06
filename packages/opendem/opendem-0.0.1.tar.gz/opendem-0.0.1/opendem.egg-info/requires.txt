@@ -1,0 +1,6 @@
+numpy
+requests
+scipy
+future
+rasterio
+xarray
