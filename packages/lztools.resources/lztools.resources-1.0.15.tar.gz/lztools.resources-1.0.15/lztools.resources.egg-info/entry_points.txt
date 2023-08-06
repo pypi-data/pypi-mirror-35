@@ -1,0 +1,4 @@
+[console_scripts]
+__lztools_resources = cli.__lztools_resources:main
+lvault = cli.lvault:main
+
