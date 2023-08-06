@@ -1,0 +1,11 @@
+lcboapi/__init__.py,sha256=hVBK3X4EWhB3kbF11eZF6t4uGhxUvI5e6zK1HXxC_fg,5030
+lcboapi-0.2.1.dist-info/METADATA,sha256=XKME-DkdZUM9krdXO80ys1ssWAPr_oNfnXD_dXk3YP8,1920
+lcboapi-0.2.1.dist-info/RECORD,,
+lcboapi-0.2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+lcboapi-0.2.1.dist-info/top_level.txt,sha256=RLRd8rkWfDHoUF6N_WBYgIf5d8de6f3PylOiY7M75xI,14
+tests/__init__.py,sha256=Mgn3TcblnIAiAOyMD4qF5sifIagUIseXKk9KIFrGLZc,246
+tests/constants.py,sha256=Eock27rk1P68pXSePZO-9MG8W8Vzxr7vJRujmT_d_ww,181
+tests/test_datasets.py,sha256=zd_LHRkGW60Cr8HTjj_Qb9TMiahw-oZuZeo6a0QIreE,1607
+tests/test_inventories.py,sha256=gqeu4lEzHOl7JH-vh7Bpuw6tLm7janW5zesqb6czzwY,1935
+tests/test_products.py,sha256=8Naui6bpNQBEOLcdTu6rcjhHUYARWZ6s_oGcasoyPhg,1156
+tests/test_stores.py,sha256=NEArdM9gQNvqsoJIHJrysJcVu2tZ9_1Aoet9dRlAaOM,1209
