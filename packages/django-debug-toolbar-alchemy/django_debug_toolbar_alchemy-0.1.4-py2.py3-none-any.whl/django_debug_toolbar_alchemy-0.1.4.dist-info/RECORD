@@ -1,0 +1,14 @@
+debug_toolbar_alchemy/__init__.py,sha256=WWTX0L1URZ8AGrggqfFd0S47KpmxhWoxQ0puHrFGz2k,159
+debug_toolbar_alchemy/explain.py,sha256=7OsAX4TWWjdDXRzb-7Y-L6uZLQGs-DdnBDuvB3Xa-kc,1564
+debug_toolbar_alchemy/panels/__init__.py,sha256=iSdX8FWXqzvUYGzDquZyGCtANhcEnpuUoFKluvA_olw,97
+debug_toolbar_alchemy/panels/sql/__init__.py,sha256=0WOudCBMagiaOpYJwnLQy5YrK87yZuRwZa1o3w2FsAU,134
+debug_toolbar_alchemy/panels/sql/forms.py,sha256=PVB9kgJHphFUsXNB8HFkaPY8_sXYLxUlI1EncJYhwyQ,1312
+debug_toolbar_alchemy/panels/sql/panel.py,sha256=HHas-bjyV4pEjvFCTqSrmzjv8xej937lr_SL75IlpJE,1320
+debug_toolbar_alchemy/panels/sql/tracking.py,sha256=_3ul-snjan0bM_x_nqhEHithO-evMWqKcYnLjoHVa1U,4931
+debug_toolbar_alchemy/panels/sql/utils.py,sha256=GrQ-XU48JtgPJB40n_yPIOaEKPUN0eS91DxK_LR1gsg,1745
+debug_toolbar_alchemy/panels/sql/views.py,sha256=TynQ7XC5zYnJ2UxZ58a6WPBiM6uy5K4Z9uiJFdnc-lA,1941
+debug_toolbar_alchemy/templates/debug_toolbar/panels/sql-alchemy.html,sha256=hj4ix0oOvRKa9rA7ZhVBicJ4Lutw0f7S9TipdcPcn1k,6751
+django_debug_toolbar_alchemy-0.1.4.dist-info/METADATA,sha256=jIYuONyjkZO6_J8q_f5wTIpXR23I3owVLMNt1BrJw94,4372
+django_debug_toolbar_alchemy-0.1.4.dist-info/RECORD,,
+django_debug_toolbar_alchemy-0.1.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_debug_toolbar_alchemy-0.1.4.dist-info/top_level.txt,sha256=C7a-rFQCetAVlOboL3oIQAK734kv5HokQOF8bP8VdoA,22
