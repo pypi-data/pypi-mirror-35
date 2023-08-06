@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.png') }}" type="images/png">
+		<link rel="icon" href="{{ url_for('static', filename='img/favicon.png') }}" type="images/png">
+
+		<title>
+			{% if data %}
+				 {{ data.page_title }}
+			{% else %}
+				Tests
+			{% endif %}
+		</title>
+		{% block style %}{% endblock %}
+	</head>
+	<body>
+		{% with messages = get_flashed_messages(with_categories=true) %} 
+			{% if messages %}
+				<ul>
+					{% for category, message in messages %}
+						<l>
+							{{ message|safe }}
+							<button>&times;</button>
+						</l>
+					{% endfor %}
+				</ul>
+			{% endif %}
+		{% endwith %}
+		{% block content %}{% endblock %}
+
+		<!-- Optional JavaScript -->
+		
+		{% block scripts %}{% endblock %}
+	</body>
+</html>
