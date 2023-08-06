@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: bb_utils
+Version: 0.0.11b1
+Summary: Bit Breakers Utilities
+Home-page: https://gitlab.com/bitbreakers/python-libs/bb_utils
+Author: Sebastian Dămian
+Author-email: owner@damiancs.ro
+License: MIT License
+Description: ## BitBreakers Utilities
+        
+        ### Packages
+        
+        * `aiohttp`:
+            * `aiohttp.headers`: utilities for checking http headers when needed
+            * `aiohttp.paginator`: paginator utility to use whenever you need to paginate your data (eg. from the database)
+            * `aiohttp.responses`: utilities for structuring your http responses. 
+        * `crypto`: cryptographic utilities such as PasswordManager
+        * `env`: utilities for using the OS environment
+        * `migrations`: utilities for checking and running yoyo migrations
+         
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
