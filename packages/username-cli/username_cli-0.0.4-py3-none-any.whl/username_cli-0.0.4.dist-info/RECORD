@@ -1,0 +1,8 @@
+username_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+username_cli/__main__.py,sha256=E-9CJ8Gh8GtcucrDDtwR6BpJcClAj40xTe2sYGMM11I,38
+username_cli/username_cli.py,sha256=qE7TFPxY4BEYfv4LjhAbEJTIwXy6NLy8vjbvdEBm-3U,51
+username_cli-0.0.4.dist-info/METADATA,sha256=btLKJqXOaT4F5GsIvxxeBKyNoi6CrqO8KST9EnBaQl0,2100
+username_cli-0.0.4.dist-info/RECORD,,
+username_cli-0.0.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+username_cli-0.0.4.dist-info/entry_points.txt,sha256=uASbigs4i7Y881m5EADo8ctp7xk1rdd40K3VXELfemo,61
+username_cli-0.0.4.dist-info/top_level.txt,sha256=QFqdUv0A6aI-ZW3ZBxZBDKFp8__tD5CwrW1d-zePxJs,13
