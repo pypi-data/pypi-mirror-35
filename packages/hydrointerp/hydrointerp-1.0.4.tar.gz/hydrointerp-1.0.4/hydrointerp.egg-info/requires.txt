@@ -1,0 +1,8 @@
+pandas
+geopandas
+scipy
+pycrsx
+hydrolm
+xarray
+rasterio
+pydap
