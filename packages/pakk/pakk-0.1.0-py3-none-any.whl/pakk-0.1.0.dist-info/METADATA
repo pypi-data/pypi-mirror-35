@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pakk
+Version: 0.1.0
+Summary: A package for encrypting and packing files into a single uncompressed file.
+Home-page: https://github.com/pakk/pakk
+Author: Tristen Horton
+Author-email: tristen@tristenhorton.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pakk
+
+Encrypt and pack several files or folders into a single invokable file.
+
+## CLI
+
+
+
+## Package
+
+
