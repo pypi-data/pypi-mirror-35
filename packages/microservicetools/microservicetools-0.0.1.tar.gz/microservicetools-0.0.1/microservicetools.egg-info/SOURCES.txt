@@ -1,0 +1,8 @@
+README.md
+setup.py
+drf/filters.py
+drf/mixins.py
+microservicetools.egg-info/PKG-INFO
+microservicetools.egg-info/SOURCES.txt
+microservicetools.egg-info/dependency_links.txt
+microservicetools.egg-info/top_level.txt

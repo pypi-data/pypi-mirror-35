@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: microservicetools
+Version: 0.0.1
+Summary: General purpose tools for python microservices with DRF
+Home-page: https://gitlab.com/SchoolOrchestration/libs/microservicetool
+Author: Christo Crampton
+Author-email: christo@appointmentguru.co
+License: UNKNOWN
+Description: # microservicetool
+        
+        Various useful re-usable tools for School-style microservices
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
