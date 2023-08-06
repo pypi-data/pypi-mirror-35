@@ -1,0 +1,14 @@
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/command.py,sha256=nKdRxpdeAywP6P1wDfsS8nZLZTttW_Vg5FIxIP377I8,2053
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_graph_utils.py,sha256=JElD5ABluR7q3ECzfjzHlTtW88EIyqUE5vcIpQ14Bsc,4725
+vivo_rdflib_sparqlstore-0.4.dist-info/DESCRIPTION.rst,sha256=wjW4DNJUwTku-tXLKTWcLUDi1VBXCgw1getaVkLU4wc,506
+vivo_rdflib_sparqlstore-0.4.dist-info/METADATA,sha256=NXYr1udZd5AALik2zy456yq9UMcBFrFJkyvxMlMQKdw,917
+vivo_rdflib_sparqlstore-0.4.dist-info/RECORD,,
+vivo_rdflib_sparqlstore-0.4.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+vivo_rdflib_sparqlstore-0.4.dist-info/entry_points.txt,sha256=WB2voGSNGqfR0iRwW22mfqVDaiUEKeaod2_NnFf0TfY,74
+vivo_rdflib_sparqlstore-0.4.dist-info/metadata.json,sha256=4SvN4jrv-dnUPZtLwUsvF6MjQ9tO1BWgjGQzWlaoVy8,754
+vivo_rdflib_sparqlstore-0.4.dist-info/top_level.txt,sha256=wxhoqBKNpvaoWAnflYrvY9nxuSGooCbgX4MxxUu3GTw,21
+vstore/__init__.py,sha256=cewNPhKA-zznIOtyA8uf34ygXIecflcw9sIJ5dTR3so,47
+vstore/graph_utils.py,sha256=p36gJA-JWuAUYD9asyQIsoWgyeQ3D7DKkig-5sNzB0c,3488
+vstore/vstore.py,sha256=2FqkQPJxOvJlHjyTF5W3QXBNHG8zM6sIJbZZAhFVARM,1386

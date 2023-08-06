@@ -1,0 +1,28 @@
+Metadata-Version: 2.0
+Name: vivo-rdflib-sparqlstore
+Version: 0.4
+Summary: RDFLib SPARQLStore and SPARQLUpdateStore implementation for VIVO.
+Home-page: https://github.com/lawlesst/rdflib-vivo-sparqlstore
+Author: Ted Lawless
+Author-email: lawlesst@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7
+Requires-Dist: rdflib (>=4.2)
+Requires-Dist: SPARQLWrapper (>=1.8)
+Requires-Dist: click (>=5.0)
+
+
+=======================
+rdflib-vivo-sparqlstore
+=======================
+
+A `RDFLib SPARQLStore implementation <http://rdflib.readthedocs.org/en/latest/apidocs/rdflib.plugins.stores.html#rdflib.plugins.stores.sparqlstore.SPARQLUpdateStore>`_ for the
+`VIVO <http://vivoweb.org/>`_ `SPARQL query and update <https://wiki.duraspace.org/display/VIVODOC110x/VIVO+APIs>`_ APIs.
+
+This library supports Python 2.7 and 3.5+.
+
+See `Github <https://github.com/lawlesst/rdflib-vivo-sparqlstore>`_ for more details.
+
+
+

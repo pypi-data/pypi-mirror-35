@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        vivoUpdate=scripts.command:process
+    
