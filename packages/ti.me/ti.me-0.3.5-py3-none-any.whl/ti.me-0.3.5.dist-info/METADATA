@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ti.me
+Version: 0.3.5
+Summary: Manage, organize, share and plan your tasks using ti.me task manager.
+Home-page: https://bitbucket.org/byport/ti.me
+Author: Vladimir Sernatsky
+Author-email: byport1112@gmail.com
+License: UNKNOWN
+Keywords: alpha time management cli
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: sqlalchemy
+Requires-Dist: python-dateutil
+Requires-Dist: termcolors
+
+UNKNOWN
+
+
