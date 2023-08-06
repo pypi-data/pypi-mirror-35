@@ -1,0 +1,4 @@
+cortexpy>=0.41.0
+snakemake
+pandas
+progressbar2
