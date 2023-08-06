@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: j2s3
+Version: 1
+Summary: A lib for publishing Java maven projects to an S3 maven repository
+Home-page: UNKNOWN
+Author: jackmahoney
+Author-email: jackmahoney212@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: pytest (==3.8.0)
+Requires-Dist: lxml (==4.2.4)
+
+UNKNOWN
+
+
