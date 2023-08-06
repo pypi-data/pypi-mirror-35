@@ -1,0 +1,4 @@
+clipboard
+colour
+loremipsum
+future
