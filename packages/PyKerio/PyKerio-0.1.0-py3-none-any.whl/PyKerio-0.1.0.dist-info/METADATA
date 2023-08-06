@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: PyKerio
+Version: 0.1.0
+Summary: API for Kerio products
+Home-page: http://www.muflone.com/pykerio/
+Author: Fabio Castelli
+Author-email: muflone@muflone.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning 
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Networking :: Firewalls
+Description-Content-Type: text/markdown
+
+PyKerio
+-------
+
+**Description:** API for Kerio products
+
+**Copyright:** 2018 Fabio Castelli (Muflone) <muflone(at)vbsimple.net>
+
+**License:** GPL-2+
+
+**Source code:** https://github.com/muflone/pykerio
+
+**Documentation:** http://www.muflone.com/pykerio/
+
+System Requirements
+-------------------
+
+* Python 3.x
+
+
