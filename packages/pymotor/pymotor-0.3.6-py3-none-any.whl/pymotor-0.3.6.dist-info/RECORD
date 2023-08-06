@@ -1,0 +1,11 @@
+pymotor/__init__.py,sha256=MR-aD1ewunaQzTFHZ1yj1fVHUpVSa9s3IK48pvfIrHg,105
+pymotor/conversions.py,sha256=D0ercaqCHnNS3w0xTUgHjiS4ywT_rSIW4FIcGd_xHWE,2564
+pymotor/drivetrain.py,sha256=aQNd2MLOsxmYxIzV1paZaKnIZuxokdM0ha8wVPxlarg,1081
+pymotor/files.py,sha256=JGU7T0pbJKy6zJ3vtv8aGhJwMsAG0mBhs-MZ87h4eOY,672
+pymotor/motors.py,sha256=xkgKQh69rq8xq0Xf3RVLT6wN1RyzxvnCBZwEZg0o36c,5471
+pymotor/plots.py,sha256=W0baWTOGrD1SgZ_zqKB-_CDzQOLpwbLh72kXNO00M_s,2237
+pymotor/profiles.py,sha256=SPZ6FidQTifAW7nr-Hwu5kUaRPsHBsEkgOIFZLFLtNo,14502
+pymotor-0.3.6.dist-info/METADATA,sha256=HiWdAMFWtkB8am4rDVFAn-OXduoJ-nQHcrWduckzvro,6444
+pymotor-0.3.6.dist-info/RECORD,,
+pymotor-0.3.6.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+pymotor-0.3.6.dist-info/top_level.txt,sha256=5sqY4UlvZH7h1HxZ6ZwUP1fg1deRMHAWFW_POAr1IuI,8
