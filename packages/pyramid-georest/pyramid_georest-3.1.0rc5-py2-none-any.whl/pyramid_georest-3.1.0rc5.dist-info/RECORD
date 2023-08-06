@@ -1,0 +1,12 @@
+pyramid_georest/__init__.py,sha256=Odr7hrjmpamXU21ZSivsFEOafPmB4cnVGWJDZEM5K2w,3597
+pyramid_georest/routes.py,sha256=UAK6gHScl7xdUBLjd9GXSl0MaaOroLAqP8_zoM9Ur2Q,4543
+pyramid_georest/lib/__init__.py,sha256=UUzUhh0Q42G7hrqK6SKAkfthDtl25LATjiHahbZH24c,1016
+pyramid_georest/lib/database.py,sha256=aMjWOKtIwdEg6Yv7yop8LeC5XYvqzMzaT9erC6OtyE0,1833
+pyramid_georest/lib/description.py,sha256=Fv4Gu9YcLy0E9-UyY2PNX4jUH6097iPIb6JdBAiaFQw,13294
+pyramid_georest/lib/renderer.py,sha256=NKs6F8kZoiMPKZrl1alIdqsbObG2bR_unsgho4kXzHY,21906
+pyramid_georest/lib/rest.py,sha256=6JfktqL6CVVsKF7ixovKgx0HY8muv6RB3cAM75TbmsM,50905
+pyramid_georest-3.1.0rc5.dist-info/METADATA,sha256=MYJuXCj-jvVMojVLm-1qegoNh8-h1d7hW8t3fqHObvs,10670
+pyramid_georest-3.1.0rc5.dist-info/RECORD,,
+pyramid_georest-3.1.0rc5.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+pyramid_georest-3.1.0rc5.dist-info/entry_points.txt,sha256=MU8ei8jAW216BZoLt_dWvXRihyUg-Bcsl0uraSncjr4,61
+pyramid_georest-3.1.0rc5.dist-info/top_level.txt,sha256=C16YjQiQm0gh9iSXlnA6yS9ZC9NpuHVmilmsPptklzU,16
