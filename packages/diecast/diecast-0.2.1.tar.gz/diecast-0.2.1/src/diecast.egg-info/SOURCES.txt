@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/diecast/__init__.py
+src/diecast/component.py
+src/diecast/inject.py
+src/diecast/registry.py
+src/diecast/types.py
+src/diecast.egg-info/PKG-INFO
+src/diecast.egg-info/SOURCES.txt
+src/diecast.egg-info/dependency_links.txt
+src/diecast.egg-info/top_level.txt
+src/diecast.egg-info/zip-safe
