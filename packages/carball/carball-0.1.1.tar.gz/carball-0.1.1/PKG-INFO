@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: carball
+Version: 0.1.1
+Summary: Rocket League replay parsing and analysis.
+Home-page: https://github.com/SaltieRL/ReplayAnalysis
+Author: Matthew Mage, Harry Xie, David Turner
+Author-email: sciguymjm@gmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Keywords: rocket-league
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
