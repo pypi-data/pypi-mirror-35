@@ -1,0 +1,4 @@
+pydantic==0.13.0
+yamlcfg==0.5.3
+tabulate==0.8.2
+click==6.7
