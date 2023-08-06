@@ -1,0 +1,10 @@
+CHANGES.txt
+MANIFEST.in
+README.md
+README.rst
+setup.py
+BayrellTemplate/__init__.py
+bayrell_template.egg-info/PKG-INFO
+bayrell_template.egg-info/SOURCES.txt
+bayrell_template.egg-info/dependency_links.txt
+bayrell_template.egg-info/top_level.txt
