@@ -1,0 +1,10 @@
+inapp_purchases/__init__.py,sha256=7a4Feg9JeNdOOiIm5FeHFgHXZY8p3R_tMaR3mzo3P0A,68
+inapp_purchases/app_store.py,sha256=jxkw_5P85PfRT7YgDoVPNQQPBmVImVaOxxuzbTJVY4k,7280
+inapp_purchases/google_play.py,sha256=0PON99hpmm6JXsRh6R-ZUG_TcIHW1AxhG5GLxpB0gWY,9068
+inapp_purchases/inapp_service.py,sha256=aLBRmAVcLNVQiprvTNVlN2_W2yfPJ_nDMv2PXy44aaM,791
+inapp_purchases/response.py,sha256=4_YL9Qs828kI4lBf91X0VJBLhVvfUCuEwQTB8KiAbXQ,670
+inapp_purchases/subscription_status.py,sha256=3xdmCnayd6I_F2bFOHBkWpDjkAWDqdJRm-UNp3PD3Jo,156
+inapp_purchases-0.3.1.dist-info/METADATA,sha256=p3Y5EfUBMzfxRfhs-Z4Uz1-c8Jz2KD4PMSAJ2kRiKSY,2647
+inapp_purchases-0.3.1.dist-info/RECORD,,
+inapp_purchases-0.3.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+inapp_purchases-0.3.1.dist-info/top_level.txt,sha256=EG_p0lc-d_CJPAozZ_5ehJVUW_UcIScPxX1OhSEWtag,16
