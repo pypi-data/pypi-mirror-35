@@ -1,0 +1,13 @@
+Owls/FoamFrame.py,sha256=8wAurYt7WwXHgJDXOndZ4qTFv06_wVQlvbL2NMobfj4,25778
+Owls/MultiFrame.py,sha256=FVfd-Su85N1_Lr2HraHZmuCNSqPZ_OAQ5Zt_bGToH_E,11865
+Owls/__init__.py,sha256=LtPl-_gyiZyRpp8xeGVYvwe9u4EZRePLoJ_upZykPmY,457
+Owls/foam.py,sha256=igGpERqfG8DySdFNIx2ibgHbIJYB6pYPV_w89Ia9r-o,1281
+Owls/io.py,sha256=15OZT9HtGplKwXm10PRU7S8HqDyWZlo3qVvLMpp1HhY,21564
+Owls/mesh.py,sha256=Ki2jYJQ1N76CKm6nAP4QQYy0WM1sFBys2NDLwXzIDcs,1701
+Owls/plot.py,sha256=7sCCfU9aVueMWFZ0PfNGD64kEgAcIJfGgj7Hjys5Qd4,11583
+Owls/version.py,sha256=g-bxwnvd24oPqTzqb8uNQR0eAoItJs0i4UXoHfWc3oo,88
+Owls-0.9.1.data/data/scripts/snap.py,sha256=LUX0BOGSXpGWdSEkB__j4deRnKFoOpZSoXHcSCuuBPQ,14629
+Owls-0.9.1.dist-info/METADATA,sha256=xHLK7zPf662EpVDdMmx6TmbXvfxxwpuoBJQQMrSL3Rs,363
+Owls-0.9.1.dist-info/RECORD,,
+Owls-0.9.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+Owls-0.9.1.dist-info/top_level.txt,sha256=wGULqWWIqcO3yuyOLMGpTRzfG5zcwPlWZlLtkwuKoVQ,5

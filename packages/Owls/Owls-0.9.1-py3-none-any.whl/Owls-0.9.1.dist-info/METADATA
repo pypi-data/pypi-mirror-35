@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Owls
+Version: 0.9.1
+Summary: A simple library for reading and processing OpenFOAM data
+Home-page: UNKNOWN
+Author: Gregor Olenik
+Author-email: itvgo@itv.uni-stuttgart.de
+License: BSD
+Platform: UNKNOWN
+Requires-Dist: future
+Requires-Dist: numpy
+Requires-Dist: pandas (==0.17.1)
+Requires-Dist: functional
+Requires-Dist: Salvia
+
+UNKNOWN
+
+
