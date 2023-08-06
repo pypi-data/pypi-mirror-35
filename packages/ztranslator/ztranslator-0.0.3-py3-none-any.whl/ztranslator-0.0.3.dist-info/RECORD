@@ -1,0 +1,10 @@
+translator/__init__.py,sha256=1RRzTEP5R8H_wS8lFARBxdJEX62rOMEsz0k0iZxx634,57
+translator/__main__.py,sha256=6LO51Y8uIwgHK4qxX7HEtCtfhcZ08c0UorfT6PuJNaA,33
+translator/scripts.py,sha256=uSuFZWHZ7Rfi7sQtFpGLwDqH2nZxCGTBfBe7cmdDFPY,589
+translator/tests.py,sha256=uBu8NV8iipewxGuD8F6GGjeWXgabF0hvrSgPB-vRnjk,29
+translator/translate.py,sha256=SqrFFB_-GRF9FqkAqUiFlLp5eCadw_HoND2PKpY5pOo,2128
+ztranslator-0.0.3.dist-info/METADATA,sha256=gm1QO9AuRmFO_Uwq3vP5xIKDGSHH1C81qnkR16mkCf8,2368
+ztranslator-0.0.3.dist-info/RECORD,,
+ztranslator-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ztranslator-0.0.3.dist-info/entry_points.txt,sha256=twp00Y9AJOrmjSntJnf5gCII6weZpfuBX_mTAfj6BnM,58
+ztranslator-0.0.3.dist-info/top_level.txt,sha256=TstlcpN5V_LQaCMBHw2BiRQXtexg1Cq7SC8lIwymH_c,11
