@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: ipyLogger
+Version: 0.0.1.dev2
+Summary: Efficient Logging in Jupyter Notebook
+Home-page: https://github.com/echo5india/ipyLogger.git
+Author: echo5india
+Author-email: elior.illouz@gmail.com
+License: MIT
+Description: See README
+Keywords: logger,logging,notebook,jupyter
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
