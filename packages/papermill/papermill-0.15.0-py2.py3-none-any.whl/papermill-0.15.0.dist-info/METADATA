@@ -1,0 +1,74 @@
+Metadata-Version: 2.0
+Name: papermill
+Version: 0.15.0
+Summary: Parametrize and run Jupyter and nteract Notebooks
+Home-page: https://github.com/nteract/papermill
+Author: nteract contributors
+Author-email: nteract@googlegroups.com
+License: BSD
+Project-URL: Documentation, https://papermill.readthedocs.io
+Project-URL: Funding, https://nteract.io
+Project-URL: Source, https://github.com/nteract/papermill/
+Project-URL: Tracker, https://github.com/nteract/papermill/issues
+Keywords: jupyter mapreduce nteract pipeline notebook
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Provides-Extra: test
+Provides-Extra: dev
+Requires-Dist: ansiwrap
+Requires-Dist: boto3
+Requires-Dist: click
+Requires-Dist: future
+Requires-Dist: ipython (>=5.0)
+Requires-Dist: pyyaml
+Requires-Dist: nbformat
+Requires-Dist: nbconvert
+Requires-Dist: six
+Requires-Dist: tqdm
+Requires-Dist: jupyter-client
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: azure-datalake-store (>=0.0.30)
+Requires-Dist: futures; python_version < "3.0"
+Provides-Extra: dev
+Requires-Dist: codecov; extra == 'dev'
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: notebook; extra == 'dev'
+Requires-Dist: mock; extra == 'dev'
+Requires-Dist: pytest (>=3.3); extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: pytest-mock; extra == 'dev'
+Requires-Dist: moto (>=1.2.0); extra == 'dev'
+Requires-Dist: check-manifest; extra == 'dev'
+Requires-Dist: attrs (>=17.4.0); extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: boto3 (<1.8.0); extra == 'dev'
+Requires-Dist: botocore (<1.11.0); extra == 'dev'
+Provides-Extra: dev
+Requires-Dist: black; python_version >= "3.6" and extra == 'dev'
+Provides-Extra: test
+Requires-Dist: codecov; extra == 'test'
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: notebook; extra == 'test'
+Requires-Dist: mock; extra == 'test'
+Requires-Dist: pytest (>=3.3); extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-mock; extra == 'test'
+Requires-Dist: moto (>=1.2.0); extra == 'test'
+Requires-Dist: check-manifest; extra == 'test'
+Requires-Dist: attrs (>=17.4.0); extra == 'test'
+Requires-Dist: pre-commit; extra == 'test'
+Requires-Dist: boto3 (<1.8.0); extra == 'test'
+Requires-Dist: botocore (<1.11.0); extra == 'test'
+Provides-Extra: test
+Requires-Dist: black; python_version >= "3.6" and extra == 'test'
+
+UNKNOWN
+
+
