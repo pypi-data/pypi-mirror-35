@@ -1,0 +1,10 @@
+aws_bucket_creator/BucketCreator.py,sha256=X6kuEOsU2JwbHp-rqWoEh854wpodtU0jzDpPnCMjNkU,20123
+aws_bucket_creator/__init__.py,sha256=esm2KU1n08md9fBcdt1rJbMzXfT-NOaHZyNlqwm5IFA,366
+aws_bucket_creator/command.py,sha256=2JZthjXP4q5ull3us0fFp7FLkwVw1k715ac6kYfJPys,5858
+aws_bucket_creator-0.0.13.dist-info/METADATA,sha256=4bYwhOIIx3QlyLZ5s63P2tB5KidEDkB9kJWqnM7jn90,3613
+aws_bucket_creator-0.0.13.dist-info/RECORD,,
+aws_bucket_creator-0.0.13.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+aws_bucket_creator-0.0.13.dist-info/entry_points.txt,sha256=oFAOv7VLAI5qSjajz889Qy7VIZiem_Gb7p-o7PBSvmY,85
+aws_bucket_creator-0.0.13.dist-info/top_level.txt,sha256=vvHdVm-a4O_7dbhY2Qd0oUGvF5PZ50HnNTlMK0k3tCo,24
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_cloudfront_distribution.py,sha256=bmG0wNqroA-uaNazUHtEtJFsnnLCNxVCbOmQ7dX6Qdw,3891
