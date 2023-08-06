@@ -1,0 +1,12 @@
+Click
+numpy==1.12.1
+requests
+netCDF4
+xlrd
+future
+setuptools-yaml
+xarray
+pandas
+rasterio
+fiona
+climata
