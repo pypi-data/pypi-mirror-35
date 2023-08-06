@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: page_scrapers
+Version: 1.2.0
+Summary: Scrapes pages like wikipedia for for urls, descriptions, and images
+Home-page: https://github.com/alexseitsinger/page_scrapers
+Author: Alex Seitsinger
+Author-email: alexseitsinger@gmail.com
+License: BSD 2-Clause License
+Description: # Page Scrapers
+        
+        ## Description
+        
+        Scrapes pages for for urls, descriptions, and images data.
+        
+        ## Installation
+        
+        ```
+        pip install page-scrapers
+        ```
+        
+        or
+        
+        ```
+        pipenv install page-scrapers
+        ```
+        
+        ## Usage
+        
+        ```python
+        from page_scrapers import wikipedia
+        
+        scraper = wikipedia.Scraper(string="batman begins", limit=1)
+        scraped = scraper.scrape()
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/markdown
