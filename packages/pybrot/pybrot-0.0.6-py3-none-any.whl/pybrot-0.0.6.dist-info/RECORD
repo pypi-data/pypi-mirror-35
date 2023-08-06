@@ -1,0 +1,9 @@
+pybrot/ComplexDraw.py,sha256=lzE4jKtS73yhlJIP161K84Nus4GHNL1nSYQ3Wss4-uk,2886
+pybrot/Examples.py,sha256=M5B79puvWsHgUOOR9BRRQmY4r3vm0U7-satXPaLkMSg,584
+pybrot/MandelColoring.py,sha256=dbTVWnA-CybLEH41EDjcEEgyBb1a5UOZ2EVNY837k5I,1378
+pybrot/Mandelbrot.py,sha256=N9vE7lb7f834zHKkDRh4-0CrJbiVV2emqSFBcsFQ84o,7842
+pybrot/__init__.py,sha256=WnCElEHdh4jbgoeZnc_kXZKwO1n451QskDBhPBKPbm0,15
+pybrot-0.0.6.dist-info/METADATA,sha256=vmvx_p6Z2kh1cllSGd3znGrb0xl_tOukVy32O9w3sPo,3664
+pybrot-0.0.6.dist-info/RECORD,,
+pybrot-0.0.6.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+pybrot-0.0.6.dist-info/top_level.txt,sha256=28r5vSV0HHb3R6G97snr18I_lhKTtIquKdH0L37vDgk,7
