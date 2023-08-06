@@ -1,0 +1,8 @@
+boto3>=1.7.45
+pandas>=0.23.1
+botocore>=1.10.45
+pyyaml>=3.12
+cx_Oracle>=6.0b2
+sqlalchemy>=1.2.8
+pyarrow>=0.9.0
+fastparquet>=0.1.5
