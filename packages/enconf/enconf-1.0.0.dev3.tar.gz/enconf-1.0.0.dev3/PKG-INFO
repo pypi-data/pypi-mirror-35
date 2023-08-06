@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: enconf
+Version: 1.0.0.dev3
+Summary: Easy config setup from the environment
+Home-page: https://github.com/danielunderwood/envconf
+Author: Daniel Underwood
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
