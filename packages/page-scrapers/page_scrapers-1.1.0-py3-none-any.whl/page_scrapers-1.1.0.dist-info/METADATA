@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: page-scrapers
+Version: 1.1.0
+Summary: Scrapes pages like wikipedia for for urls, descriptions, and images
+Home-page: https://github.com/alexseitsinger/page_scrapers
+Author: Alex Seitsinger
+Author-email: alexseitsinger@gmail.com
+License: BSD 2-Clause License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: bs4
+
+# Page Scrapers
+
+## Description
+
+Scrapes pages for for urls, descriptions, and images data.
+
+## Installation
+
+```python
+pip install page-scrapers
+```
+
+or
+
+```python
+pipenv install page-scrapers
+```
+
+## Methods
+
+1. wikipedia.scrape_page(url) - Scrapes the page for data and returns it as a dictionary.
+2. wikipedia.scrape_pages(string, limit) - Finds URL's to pages and then scrapes each page for their data, limiting results to the number specified, or 10 if not provided.
+
+## Usage
+
+```python
+from page_scrapers import wikipedia
+url = "https://en.wikipedia.org/wiki/Batman_Begins"
+scraped_data = wikipedia.scrape_page(url)
+```
+
+```python
+from page_scrapers import wikipedia
+scraped_data = wikipedia.scrape_pages("american gangster film", 3)
+```
+
