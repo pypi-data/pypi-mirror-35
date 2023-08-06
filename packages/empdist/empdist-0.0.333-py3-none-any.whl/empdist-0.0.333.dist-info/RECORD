@@ -1,0 +1,9 @@
+empdist/__init__.py,sha256=QKx3735SBtiORK9XLYGi8J7j_PsHGhsVp5R_L2WXXWA,122
+empdist/empirical_distribution.py,sha256=-YCsBG4cb7GVcvYxstFr1TVuwPyxj-Nm2MjFnX3t-OQ,5205
+empdist/empirical_distributions.py,sha256=Lcyeki6DeW3UYnAAsuAueMV5lOISvhq6ZowO7bTh5G0,6073
+empdist/empirical_pval.py,sha256=mAwoBHkwMOfOc_9fgtwUUIbHOWlvpis7iODrcCzsE04,3193
+empdist/helper_funcs.py,sha256=P7uyUmcvWza2gJGPsOr3vd8XNRndT5xim9tuFGWsH_M,6802
+empdist-0.0.333.dist-info/METADATA,sha256=mbScsFiDFlH4rYnfgUJliH5YGVvN-vjkwdYbTqa8kz0,660
+empdist-0.0.333.dist-info/RECORD,,
+empdist-0.0.333.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+empdist-0.0.333.dist-info/top_level.txt,sha256=Pq8MTl4nl-ekXNRLr5MGtmmjM-skuK9kkdYtPsEMybI,8
