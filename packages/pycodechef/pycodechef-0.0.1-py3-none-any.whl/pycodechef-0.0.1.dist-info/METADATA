@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pycodechef
+Version: 0.0.1
+Summary: Python Wrapper fo Codechef REST API
+Home-page: https://github.com/appi147/pycodechef
+Author: Arpit Choudhary
+Author-email: arpitkumar147@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pycodechef
+Wrapper for CodeChef API 1.0.0
+
+
