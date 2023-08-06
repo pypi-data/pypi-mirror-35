@@ -1,0 +1,17 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+naughty_string_validator/__init__.py
+naughty_string_validator/naughty_string_validator.py
+naughty_string_validator.egg-info/PKG-INFO
+naughty_string_validator.egg-info/SOURCES.txt
+naughty_string_validator.egg-info/dependency_links.txt
+naughty_string_validator.egg-info/not-zip-safe
+naughty_string_validator.egg-info/top_level.txt
+naughty_string_validator/naughty_string_db/blns.json
+naughty_string_validator/naughty_string_db/emoji.json
