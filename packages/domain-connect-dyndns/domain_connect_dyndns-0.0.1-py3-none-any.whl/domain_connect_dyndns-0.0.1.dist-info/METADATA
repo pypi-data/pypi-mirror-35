@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: domain-connect-dyndns
+Version: 0.0.1
+Summary: Python client library for Dynamic DNS using Domain Connect
+Home-page: https://github.com/Domain-Connect/DomainConnectDDNS-Python
+Author: Andreea Dima
+Author-email: andreea.dima@1and1.ro
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: validators (>=0.12.2)
+Requires-Dist: requests (>=2.19.1)
+Requires-Dist: dnspython (>=1.15.0)
+Requires-Dist: domain-connect (>=0.0.4)
+
+Usage
+=====
+
+```
+domain-connect-dyndns [-h] {setup,update,status} domain
+```
+
+Positional arguments:
+- {setup,update, status} --- action on domain
+- domain --- full name domain to keep up to date
+
+Optional arguments:
+- -h --- display help and exit
+
+
+Installation
+============
+
+`pip install domain-connect-dyndns`
+
