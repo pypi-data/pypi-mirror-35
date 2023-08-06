@@ -1,0 +1,10 @@
+tqdm
+requests
+
+[dev]
+check-manifest
+sphinx
+sphinx_rtd_theme
+
+[test]
+coverage
