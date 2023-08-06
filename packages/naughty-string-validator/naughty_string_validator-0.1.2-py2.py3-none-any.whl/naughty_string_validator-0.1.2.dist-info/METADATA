@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: naughty-string-validator
+Version: 0.1.2
+Summary: A library that returns naughty strings from an offline database of Big List of Naughty Strings & emojis
+Home-page: https://github.com/shashikumarraja/naughty_string_validator_python
+Author: Shashi Kumar Raja
+Author-email: shashiraja92@gmail.com
+License: MIT
+Keywords: naughty_string_validator strings emoji
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+
+==========================================================
+naughty_string_validator
+==========================================================
+
+.. image:: https://badge.fury.io/py/naughty-string-validator.svg
+    :target: https://badge.fury.io/py/naughty-string-validator
+
+.. image:: https://travis-ci.org/shashikumarraja/naughty_string_validator_python.svg?branch=master
+    :target: https://travis-ci.org/shashikumarraja/naughty_string_validator_python
+
+.. image:: https://coveralls.io/repos/github/shashikumarraja/naughty_string_validator_python/badge.svg?branch=master
+    :target: https://coveralls.io/github/shashikumarraja/naughty_string_validator_python?branch=master
+
+.. image:: https://pyup.io/repos/github/shashikumarraja/naughty_string_validator_python/shield.svg
+     :target: https://pyup.io/repos/github/shashikumarraja/naughty_string_validator_python/
+     :alt: Updates
+
+.. image:: https://pyup.io/repos/github/shashikumarraja/naughty_string_validator_python/python-3-shield.svg
+     :target: https://pyup.io/repos/github/shashikumarraja/naughty_string_validator_python/
+     :alt: Python 3
+
+A python library that returns `naughty strings` from an offline database of `Big List of Naughty Strings <https://github.com/minimaxir/big-list-of-naughty-strings>`_ and emojis. The db will be continuously growing with each release.
+
+The Big List of Naughty Strings is an evolving list of strings which have a high probability of causing issues when used as user-input data.
+
+This library can be inluded in the test automation framework for API, UI, or DB testing to validate them against naughty strings.
+
+
+Installation
+*************
+  pip install naughty_string_validator
+
+Usage
+***********
+.. code-block:: python
+
+    from naughty_string_validator import *
+
+* To get a random naughty string from the list
+
+.. code-block:: python
+
+    print(get_random_naughty_string())
+
+    #output
+    "<a href=\"\\xE2\\x80\\x88javascript…(1)\" id=\"fuzzelement1\">test</a>"
+
+
+* To get entire naughty string list 
+
+.. code-block:: python
+
+    print(get_naughty_string_list())
+
+    #output
+    ["", "undefined", "undef", "null", "NULL", "(null)", "nil", …]
+
+* To get a random emoji from the emoji list
+
+.. code-block:: python
+
+    print(get_random_emoji())
+
+    #output
+    "😃"
+
+* To get a entire emoji list
+
+.. code-block:: python
+
+    print(get_emoji_list())
+
+    #output
+    ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "☺️", "😊", …]
+
+Tests
+***********
+* To run tests
+
+    py.test --cov=naughty_string_validator test/ --verbose
+
+
+
+
+
+
+
+Documentation
+-------------
+
+The full documentation is at https://naughty-string-validator-python.readthedocs.io/en/latest/index.html.
+
+
+
+History
+-------
+
+0.1.1 (2018-09-03)
+++++++++++++++++++
+* Removed test from build.
+
+0.1.0 (2018-09-03)
+++++++++++++++++++
+
+* First release on PyPI.
+
+
