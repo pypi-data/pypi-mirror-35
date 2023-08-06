@@ -1,0 +1,14 @@
+tornado==4.5.3
+rio-tiler>=1.0rc1
+click
+rio-color
+
+[dev]
+pytest
+pytest-cov
+pre-commit
+
+[test]
+mock
+pytest
+pytest-cov
