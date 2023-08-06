@@ -1,0 +1,9 @@
+python-owasp-zap-v2.4==0.0.14
+scrapy>=1.5.0
+scrapydo>=0.2.2
+jupyter>=1.0.0
+ipywidgets>=7
+validators>=0.12.0
+wget>=3.2
+beautifulsoup4
+fabric3
