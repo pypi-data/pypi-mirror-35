@@ -1,0 +1,10 @@
+lyrics_displayer/__init__.py,sha256=SVPVW_TIhWCAEs7CHY7Bp9A95A2r5bjXgrsZ-KcTt9Y,3120
+lyrics_displayer/utils.py,sha256=0LxQBge2e7wAuQOqpaGH15CjkFzTItgkYe_m-9CKVJ4,688
+lyrics_displayer/players/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lyrics_displayer/players/main.py,sha256=e8rr0RbMIvZqD8Ss4eH-R3czsRUbWh99bVUDVi5kTRs,423
+lyrics_displayer/players/sonos.py,sha256=udwrrYMjhXmuO3d0WGOucfRp-uVXKWYuOxCJi354cUI,2041
+lyrics_displayer-0.7.8.data/scripts/sing-along,sha256=nwHAqss6helf1uHZS2YmP0g7GFZEilYPGdY1yWKbH8s,58
+lyrics_displayer-0.7.8.dist-info/METADATA,sha256=EFod_xAMiyoVlFd7OYfF3sePycrFTIVGCbJvUbd-QCg,1333
+lyrics_displayer-0.7.8.dist-info/RECORD,,
+lyrics_displayer-0.7.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+lyrics_displayer-0.7.8.dist-info/top_level.txt,sha256=PXLrA9gnxLPFni24mLlNf4djHQYvr2lFKC8FxXkl0Qw,17
