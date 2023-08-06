@@ -1,0 +1,3 @@
+sphinx>=1.5.1
+nbconvert!=5.4
+ipykernel
