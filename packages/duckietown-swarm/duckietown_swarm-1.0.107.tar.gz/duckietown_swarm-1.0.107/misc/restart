@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+set -x
+
+dt-swarm --host singapore.co-design.science quit &
+dt-swarm --host nutonomy-P50.local quit &
+dt-swarm --host frankfurt.co-design.science quit &
+dt-swarm --host idsc-rudolf.ethz.ch quit &
+dt-swarm --host emma.local  quit &

@@ -1,0 +1,24 @@
+version: '3'
+services:
+  duckietown-swarm:
+    image: duckietown/duckietown-swarm-rpi
+    network_mode: host
+
+    volumes:
+    - ipfs-data:/root/ipfs
+#    deploy:
+#      resources:
+#        limits:
+#          cpus: '0.25'
+#          memory: 300M
+#        reservations:
+#          cpus: '0.25'
+#          memory: 200M
+volumes:
+  ipfs-data:
+#   CHALLENGE_SOLUTION_OUTPUT_DIR:
+#   CHALLENGE_EVALUATION_OUTPUT_DIR:
+#   CHALLENGE_DESCRIPTION_DIR:
+#   CHALLENGE_RESULTS_DIR:
+#
+#

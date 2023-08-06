@@ -1,0 +1,70 @@
+FROM ubuntu:18.04
+MAINTAINER Andrea Censi
+
+ENV refreshed_ON=20180609
+RUN apt-get update
+
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get install -y dialog apt-utils
+
+RUN apt-get install -y\
+    software-properties-common \
+    gnupg \
+    curl \
+    git \
+    git-extras \
+    ssh \
+    bibtex2html \
+    libxml2-dev \
+    libxslt1-dev \
+    libffi6 \
+    libffi-dev \
+    libxml2-dev \
+    libxslt1-dev \
+    build-essential \
+    graphviz \
+    idle \
+    virtualenv \
+    python-pmw \
+    python-yaml \
+    python-dev \
+    python-numpy \
+    python-matplotlib \
+    python-setproctitle \
+    python-psutil \
+    python-lxml \
+    python-pillow \
+    python-matplotlib \
+    python-pip \
+    python-tk \
+    python-scipy \
+    python-frozendict \
+    python-tables \
+    python-sklearn \
+    python-termcolor \
+    python-setproctitle \
+    python-psutil\
+    byobu \
+    atop \
+    htop \
+    imagemagick \
+    graphviz \
+    ghostscript \
+    ntpdate  \
+    libatlas-base-dev \
+    vim\
+    apt-file\
+    iftop
+
+
+RUN wget https://dist.ipfs.io/go-ipfs/v0.4.17/go-ipfs_v0.4.17_linux-amd64.tar.gz
+RUN tar xvzf go-ipfs_v0.4.17_linux-amd64.tar.gz
+RUN cp go-ipfs/ipfs /usr/bin
+RUN ipfs version
+
+COPY src /project/src
+COPY setup.py /project/setup.py
+RUN cd /project && python setup.py install
+
+
+CMD dt-swarm daemon
