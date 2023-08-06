@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+memedict/__init__.py
+memedict.egg-info/PKG-INFO
+memedict.egg-info/SOURCES.txt
+memedict.egg-info/dependency_links.txt
+memedict.egg-info/requires.txt
+memedict.egg-info/top_level.txt
