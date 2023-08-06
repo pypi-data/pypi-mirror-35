@@ -1,0 +1,14 @@
+pyham/TreeProfile.py,sha256=swM6T3x96UCaUsRCDFK_TU5jh9d7eFQ62z2k_yf3TjQ,17637
+pyham/__init__.py,sha256=fUkjXib5vSZawZyjh4_ipDIdzM3BnbXYMFyKDNtk78o,449
+pyham/abstractgene.py,sha256=e_BCTE327zSMJm2XxsU7iaOVC1P3XxmeaMQvMTnvreo,18603
+pyham/genome.py,sha256=5ChY9OAZSDqRiC1mX0ze7QGgBHcWYOhJo6tAxfv1P6g,4764
+pyham/ham.py,sha256=grGxWs6WUAmJ_N9cEE5hR__eeJh04IYKpkUa6_WpbcQ,32246
+pyham/iham.py,sha256=UF1gNwkP7rfmsIbBUAoFECKnpJjjiXN4UOfd_Fwi9y4,12340
+pyham/mapper.py,sha256=kFB3mG9i4xaSbGtHgTVfKE8ukZIhEd6T_UE5YcDRmJ8,14459
+pyham/parsers.py,sha256=E_Wz7rOj46g-V-7siHNaya8qNcaJzbWyKhOKBWWrRvM,13563
+pyham/taxonomy.py,sha256=okX-JVSI_pYdAhekFDF7jwFfU4KHMHKH18TYKuxfO5I,9314
+pyham/utils.py,sha256=SFyglv7chhagnAnxmPjGc5oJYVSWFyDhoaRdft0Vr9Q,1200
+pyham-1.1.0.dist-info/METADATA,sha256=kRjSRgcyyvz27O2ToIqvTWNvg4VwMuXIlesND62vBBo,2862
+pyham-1.1.0.dist-info/RECORD,,
+pyham-1.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pyham-1.1.0.dist-info/top_level.txt,sha256=3jLxN12DGuZoDJr2RXlsRjEKBFHT8OWEhUSAwvEgqEY,6
