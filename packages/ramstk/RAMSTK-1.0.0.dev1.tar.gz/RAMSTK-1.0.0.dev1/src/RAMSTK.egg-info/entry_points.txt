@@ -1,0 +1,3 @@
+[console_scripts]
+ramstk = rtk.RAMSTK:main
+

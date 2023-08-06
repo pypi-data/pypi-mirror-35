@@ -1,0 +1,14 @@
+defusedxml
+lifelines
+matplotlib==1.4.3
+numpy
+pandas
+PyPubSub==3.3.0
+scipy
+sortedcontainers==1.5.9
+SQLAlchemy
+SQLAlchemy-Utils
+statsmodels
+treelib
+xlrd
+xlwt
