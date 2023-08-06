@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: prelogging
+Version: 0.4.0
+Summary: streamlines the configuration of Python logging, includes multiprocessing-safe handlers
+Home-page: http://github.com/Twangist/prelogging
+Author: Brian O'Neill
+Author-email: twangist@gmail.com
+License: MIT
+Keywords: logging config dictConfig dict configuration multiprocessing rotating file syslog SMTP queue handler
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Logging
+
+`prelogging` streamlines the configuration of Python logging, provides
+better error checking, and offers easy multiprocessing-safe
+logging to streams, files, rotating files and the system log.
+
+

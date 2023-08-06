@@ -1,0 +1,12 @@
+prelogging/__init__.py,sha256=h0wite0PpJ_YMf__jF3nugEUU9EuUXyDh6atujnXZAo,551
+prelogging/_version.py,sha256=jkb6S_WfTzQ7SerGTtHHHbHXyh005AUXNLcp2NVVwHs,79
+prelogging/formatter_presets.py,sha256=2cSLP5aPI0HeGr-22VUE23yNAs_erKXhHvfArOx2B7E,7687
+prelogging/lcdict.py,sha256=eT83I56C0Wx28Kalp999PQqcbbaKEflqfcw4FqGU2Ms,27424
+prelogging/lcdict_builder_abc.py,sha256=mL_9xsQIQ1qjsXqYXoL52CMAf_K-isrsCBHTF3UYba8,4993
+prelogging/lcdictbasic.py,sha256=yFJJ3iAv6s_gF84643rtBlY2Wbkccz01dybkZVeaFu0,42447
+prelogging/locking_handlers.py,sha256=mKba7-FgzzHYrrboArFAsqQEfp1fWjix5_X7LyQhCt8,5922
+prelogging/six.py,sha256=A6hdJZVjI3t_geebZ9BzUvwRrIXo0lfwzQlM2LcKyas,30098
+prelogging-0.4.0.dist-info/METADATA,sha256=nbWKIXlPF9xn_tH5lM7rNHvNdhIhrBiLzH33rBIJ-mE,1429
+prelogging-0.4.0.dist-info/RECORD,,
+prelogging-0.4.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+prelogging-0.4.0.dist-info/top_level.txt,sha256=zQSJ8wsHwPAPOi4HZoS1OboAPDYKmdzxSYuAzzdajh4,11
