@@ -1,0 +1,80 @@
+<tal:block i18n:domain="plone"
+           tal:define="status request/form/status">
+<tal:comment replace="nothing"><!--
+Anmerkung:
+Die explizite Zuweisung von "display: block" zu den label-Elementen ist natürlich ein Hack;
+er sorgt aber dafür, daß die Eingabefelder die gewünschte volle Breite haben.
+Besser wäre natürlich eine rein bootstrap-basierte Lösung.
+--></tal:comment>
+    <div class="area-title">
+        <h1 i18n:translate=""
+            tal:condition="python:status=='1'">
+            Add lesson
+        </h1>
+        <h1 i18n:translate=""
+            tal:condition="python:status=='2'">
+            Edit lesson
+        </h1>
+    </div>
+    <form method="post" action="#" class="course-edit-form form">
+        <div class="form-group">
+            <label class="control-label" style="display: block">
+                <div>
+                <i class="glyphicon glyphicon-exclamation-sign"></i> 
+                <span i18n:translate="">Title</span>
+                </div>
+            <input type="text" name="title"
+                   class="form-control"
+                   tal:attributes="value request/form/title | nothing"/>
+            </label>
+        </div>
+        <div class="form-group">
+            <label class="control-label" style="display: block">
+            <div i18n:translate="">Duration</div>
+            <input type="text" name="duration"
+                   class="form-control"
+                   tal:attributes="value request/form/duration | nothing"/>
+            </label>
+        </div>
+        <div class="form-group">
+            <label class="control-label" style="display: block">
+            <div i18n:translate="">Summary</div>
+            <textarea name="summary"
+                   id="summary"
+                   class="form-control"
+                   rows="10"
+                   tal:content="request/form/summary | nothing">
+                   Zusammenfassung mit
+                   etwaigen Zeilenumbruechen
+            </textarea>
+            </label>
+        </div>
+        <div class="form-group">
+            <label class="control-label" style="display: block">
+            <div i18n:translate="">Objectives</div>
+            <textarea name="objective"
+                   id="objective"
+                   class="form-control"
+                   rows="10"
+                   tal:content="request/form/objective | nothing">
+                   Beschreibungstext mit
+                   etwaigen Zeilenumbruechen
+            </textarea>
+            </label>
+        </div>
+        <input type="hidden" name="uid"
+               tal:attributes="value request/form/uid"/>
+        <tal:block tal:condition="python:status=='1'">
+            <input class="button-object-actions button-lesson-create btn btn-default"
+                   type="button" value="Create"
+                   i18n:attributes="value"/>
+        </tal:block>
+        <tal:block tal:condition="python:status=='2'">
+            <input class="button-object-actions button-lesson-edit btn btn-default"
+                   type="button" value="Save"
+                   i18n:attributes="value"/>
+        </tal:block>
+
+
+    </form>
+</tal:block>

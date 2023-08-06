@@ -1,0 +1,10 @@
+graft src/visaplan
+graft docs
+include *.rst
+include VERSION
+global-exclude *.pyc
+prune src/visaplan/plone/browsers/export
+prune src/visaplan/plone/browsers/hubandinfo
+prune src/visaplan/plone/browsers/unitraccfeature
+prune src/visaplan/plone/browsers/versioninformation
+prune src/visaplan/plone/browsers/mogrify

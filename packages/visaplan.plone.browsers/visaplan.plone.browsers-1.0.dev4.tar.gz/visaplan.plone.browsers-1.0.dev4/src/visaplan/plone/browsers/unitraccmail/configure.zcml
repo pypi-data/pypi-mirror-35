@@ -1,0 +1,17 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:five="http://namespaces.zope.org/five">
+
+  <browser:page
+      for="*"
+      name="unitraccmail"
+      class=".browser.Browser"
+      permission="zope2.View"
+      allowed_interface=".browser.IUnitraccMail"
+      />
+    <include package="bs4" />
+    <include package="visaplan.tools" />
+    <include package="visaplan.plone.tools" />
+    <include package="visaplan.kitchen" />
+
+</configure>
