@@ -1,0 +1,9 @@
+httptest/__init__.py,sha256=P_pPZZBn1Kpg02MhqSKtUaeXayH4cSRkCXWb70xylFM,32
+httptest/httptest.py,sha256=BidttsIfgDAtXOdr2st2ByEdEL_Ktjxya_lTWjh5Izg,6106
+httptest/test_httptest.py,sha256=0cZquS-BzJen4o_D1bnFSVuLxXRgbdEQ5JVmLDcGzbo,1709
+httptest/version.py,sha256=L7GvvUt6k9Qs87qi3XGd0AmXDEHiHAf7ndNW05Xq2i0,70
+httptest-0.0.7.data/data/LICENSE,sha256=R7Zt5ZA7qHEBbBaiZtRSD2x5Rbu1tOTGp2tI_3jd-2s,1053
+httptest-0.0.7.dist-info/METADATA,sha256=3RXcRJajNbf0YmdGD-14gLU3-j_yJZ_FcKmAZaaPVbc,1346
+httptest-0.0.7.dist-info/RECORD,,
+httptest-0.0.7.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+httptest-0.0.7.dist-info/top_level.txt,sha256=cOPvre9yD0Pf88K6LRy5EtD-MI3bYJS-3UROswEQ_cc,9
