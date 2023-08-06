@@ -1,0 +1,3 @@
+boringmindmachine==23
+requests_oauthlib>=1.0
+PyGithub>=1.39
