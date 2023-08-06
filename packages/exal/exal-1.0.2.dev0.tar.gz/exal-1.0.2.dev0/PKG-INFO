@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: exal
+Version: 1.0.2.dev0
+Summary: Excel abstraction layer
+Home-page: https://github.com/KevinGliewe/exal
+Author: Kevin Gliewe
+Author-email: kevingliewe@gmail.com
+License: UNKNOWN
+Description: 
+              Abstraction layer for multible Excel wrapper.
+              Supports:
+               - win32com
+               - xlwings
+               - comtype
+               - openpyxl
+        
+Keywords: xls,excel,spreadsheet,workbook
+Platform: UNKNOWN
