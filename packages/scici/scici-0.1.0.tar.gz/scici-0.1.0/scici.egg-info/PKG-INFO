@@ -1,0 +1,47 @@
+Metadata-Version: 1.2
+Name: scici
+Version: 0.1.0
+Summary: design, automate and share any lab experiment
+Home-page: https://github.com/scici/sci
+Author: scici
+Author-email: sci@sci.ci
+License: UNKNOWN
+Description: sci
+        ===
+        
+        .. image:: https://img.shields.io/pypi/v/sci.svg
+            :target: https://pypi.python.org/pypi/sci
+            :alt: Latest PyPI version
+        
+        .. image:: https://gitlab.com/marcos_felt/sci/badges/master/pipeline.svg
+           :target: https://gitlab.com/marcos_felt/sci/commits/master
+           :alt: Gitlab CI/CD Pipeline
+        
+        Design, automate and share any science experiment.
+        
+        Usage
+        -----
+        
+        Installation
+        ------------
+        
+        Requirements
+        ^^^^^^^^^^^^
+        
+        Compatibility
+        -------------
+        
+        Licence
+        -------
+        
+        Authors
+        -------
+        
+        `sci` was written by `scici <sci@sci.ci>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >= 3.6
