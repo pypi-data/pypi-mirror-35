@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: kabaret
+Version: 2.0.0b5
+Summary: VFX/Animation Studio Framework
+Home-page: http://www.kabaretstudio.com
+Author: Damien dee Coureau
+Author-email: kabaret-dev@googlegroups.com
+License: LGPLv3+
+Description-Content-Type: UNKNOWN
+Keywords: vfx animation framewok dataflow workflow asset manager production tracker
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Desktop Environment :: File Managers
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Office/Business :: Groupware
+Classifier: Topic :: Office/Business :: Scheduling
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Requires-Python: >=2.7,>=3
+Requires-Dist: redis
+Requires-Dist: six
+Requires-Dist: qtpy
+
+=======
+Kabaret
+=======
+
+VFX/Animation Studio Framework tailored for TDs/Scripters managing pipelines and workflows used by Production Managers and CGI Artists.
+
+Read the doc here: http://kabaret.readthedocs.io
+
+Beware: Albeit being used on a few productions, this version is still a beta.
+
+
