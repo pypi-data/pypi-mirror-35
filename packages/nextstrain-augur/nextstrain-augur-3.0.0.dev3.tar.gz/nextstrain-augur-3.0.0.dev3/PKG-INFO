@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nextstrain-augur
+Version: 3.0.0.dev3
+Summary: Pipelines for real-time phylogenetic analysis
+Home-page: https://github.com/nextstrain/augur
+Author: nextstrain developers
+Author-email: trevor@bedford.io, richard.neher@unibas.ch
+License: MIT
+Description: UNKNOWN
+Keywords: nextstrain,molecular epidemiology
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.4
+Provides-Extra: dev
