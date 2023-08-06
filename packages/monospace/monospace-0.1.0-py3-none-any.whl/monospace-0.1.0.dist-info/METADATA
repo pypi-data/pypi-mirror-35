@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: monospace
+Version: 0.1.0
+Summary: Book typesetter for the terminal
+Home-page: UNKNOWN
+License: UNKOWN
+Keywords: typesetting,terminal
+Author: Hamza Haiken
+Author-email: tenchi@team2xh.net
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=6.7,<7.0)
+Requires-Dist: ptpython (==0.41.0)
+Requires-Dist: pypandoc (>=1.4,<2.0)
+Requires-Dist: pyphen (>=0.9.5,<0.10.0)
+Description-Content-Type: text/markdown
+
+<pre>
+
+
+
+                                          ┌─────┬───┬───┬───┐
+                                          │ ╷ ╷ │ · │ ╷ │ · │
+                                          └─┴─┴─┴───┴─┴─┴───┘
+                                                             
+                                      <i>A monospace book typesetter</i>
+
+                         Now re-implementing from scratch, powered by <a href="https://pandoc.org/">ᴘᴀɴᴅᴏᴄ</a>.
+
+
+   ━━━━━━━━━━━━━━━━━━
+           <b>About mono</b>    While this readme is incomplete, you can read about the concept
+                         for the project in the <a href="poc/README.md">ᴏʟᴅ ʀᴇᴀᴅᴍᴇ</a>. 
+              <i>A short</i>    
+         <i>introduction</i>    Or maybe you can get a preview of what is to come¹ with some
+                         mockups of the current rendering target:
+             ¹: Soon™
+                         <img width="520" alt="page1" src="https://user-images.githubusercontent.com/4116708/44863793-64b15480-ac7e-11e8-9957-3f760c9b0e74.png">
+
+                                       <i>Figure 1: first page of the mockup</i>
+
+
+                         <img width="520" alt="page2" src="https://user-images.githubusercontent.com/4116708/44863794-64b15480-ac7e-11e8-91d3-36a17805270a.png">
+
+                                      <i>Figure 2: second page of the mockup</i>
+
+
+</pre>
