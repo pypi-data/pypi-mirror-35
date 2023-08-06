@@ -1,0 +1,7 @@
+groupBug-0.2.data/scripts/groupBug.py,sha256=0poL0dD9dPozIfmXmICrbK6CWBnVaAUbFt7K9ffwV30,5544
+groupBug-0.2.dist-info/METADATA,sha256=Q_WRMP2FvLhTpjBuuaXiT-EkHdaUgXi2mLjgwnm98f4,3555
+groupBug-0.2.dist-info/RECORD,,
+groupBug-0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+groupBug-0.2.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_getDomain.py,sha256=x_szoCI4KC_Uc9wsvXyqIz9nbPn1nQSYWPv8MgrBKiE,3137
