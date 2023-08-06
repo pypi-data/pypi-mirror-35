@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+HashHeap.egg-info/PKG-INFO
+HashHeap.egg-info/SOURCES.txt
+HashHeap.egg-info/dependency_links.txt
+HashHeap.egg-info/entry_points.txt
+HashHeap.egg-info/top_level.txt
