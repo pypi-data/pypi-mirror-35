@@ -1,0 +1,6 @@
+click==6.7
+face-recognition-models==0.3.0
+opencv-python>=3.4.0.12
+
+[dlib]
+dlib>=19.9.0
