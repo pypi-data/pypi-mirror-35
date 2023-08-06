@@ -1,0 +1,8 @@
+README.md
+setup.py
+wsgimagic/__init__.py
+wsgimagic/aws_lambda.py
+wsgimagic.egg-info/PKG-INFO
+wsgimagic.egg-info/SOURCES.txt
+wsgimagic.egg-info/dependency_links.txt
+wsgimagic.egg-info/top_level.txt
