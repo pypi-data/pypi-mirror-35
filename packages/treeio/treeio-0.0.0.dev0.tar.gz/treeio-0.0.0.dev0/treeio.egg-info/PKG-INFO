@@ -1,0 +1,69 @@
+Metadata-Version: 1.1
+Name: treeio
+Version: 0.0.0.dev0
+Summary: A pure python parser for tree data format IO
+Home-page: https://github.com/yech1990/treeio
+Author: Ye Chang
+Author-email: yech1990@gmail.com
+License: MIT license
+Description: ======
+        treeio
+        ======
+        
+        
+        .. image:: https://img.shields.io/pypi/v/treeio.svg
+                :target: https://pypi.python.org/pypi/treeio
+        
+        .. image:: https://img.shields.io/travis/yech1990/treeio.svg
+                :target: https://travis-ci.org/yech1990/treeio
+        
+        .. image:: https://readthedocs.org/projects/treeio/badge/?version=latest
+                :target: https://treeio.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        A pure python parser for tree data format IO
+        
+        
+        * Free software: MIT license
+        * Documentation: https://treeio.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.0.0.dev0 (2018-09-06)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: treeio
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
