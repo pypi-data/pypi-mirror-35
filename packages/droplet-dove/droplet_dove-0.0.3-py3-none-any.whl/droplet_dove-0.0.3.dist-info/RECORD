@@ -1,0 +1,9 @@
+dove/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dove/dove.py,sha256=Qj9M2jNUwNmfr0wbTXAfj-MJkp_3al_xyARCi_SaSvI,7932
+dove/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dove/tests/test_dove.py,sha256=mMsFHadqFhB7wg2XL4GNu1gBeEsrbxZgWnfps408wL0,8244
+droplet_dove-0.0.3.dist-info/METADATA,sha256=YNkybAz9O_C3oyHp_y2lZuFTOfKH9mAKuwSoUGiADmk,2415
+droplet_dove-0.0.3.dist-info/RECORD,,
+droplet_dove-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+droplet_dove-0.0.3.dist-info/entry_points.txt,sha256=PUixkAMlisT8za07cKOeW0hyzXwu9YmuyNwpPR7RNVc,40
+droplet_dove-0.0.3.dist-info/top_level.txt,sha256=jlANgYCvgSl-tKUrS3aAANoKAUiFtdelI0rPV6uhYKs,5
