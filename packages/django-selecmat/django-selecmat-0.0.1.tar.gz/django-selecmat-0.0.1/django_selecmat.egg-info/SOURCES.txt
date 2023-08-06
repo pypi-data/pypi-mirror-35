@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+django_selecmat.egg-info/PKG-INFO
+django_selecmat.egg-info/SOURCES.txt
+django_selecmat.egg-info/dependency_links.txt
+django_selecmat.egg-info/not-zip-safe
+django_selecmat.egg-info/top_level.txt
+selecmat/__init__.py
+selecmat/config.py
+selecmat/meta.py
+selecmat/templates/selecmat/attrs.html
+selecmat/templates/selecmat/field.html
+selecmat/templates/selecmat/form.html
+selecmat/templates/selecmat/formset.html
+selecmat/templatetags/__init__.py
+selecmat/templatetags/selecmat.py
