@@ -1,0 +1,6 @@
+Click>=6.0
+requests
+jieba
+thulac
+pynlpir
+pyltp
