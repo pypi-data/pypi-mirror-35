@@ -1,0 +1,75 @@
+# Omnis
+Deep Learning for Everyone
+
+------------------
+
+
+## You have just found Omnis.
+
+Omnis is an API of deep neural network applications, written in Python and capable of running on top of [Keras](https://github.com/keras-team/keras). It was developed with a focus on enabling fast application of deep learning.
+
+Use Omnis if you need a deep learning library that:
+
+- Is EASY to learn and use.
+- Allows for easy and fast prototyping.
+- Supports CNN, LSTM, GAN, RL application.(TBA)
+- Runs seamlessly on CPU and GPU.
+
+Omnis is compatible with: __Python 2.7-3.6__.
+
+------------------
+
+
+## Guiding principles
+
+- __Simplicity.__ Omnis pursues a simple architecture. Designing a software with simple architecture not only helps you to understand the code easily but also helps your painful debugging.
+
+- __Easiness.__ Don't worry about complicated algorithms or theories or mathematics. Omnis will handle difficult stuffs for you. Just learn how to use deep neural networks and USE THIS!
+
+- __Modularity.__ No spaghetti code!
+
+------------------
+
+
+## Installation
+
+Before installing Omnis, please install Keras. We recommend the TensorFlow backend for Keras.
+
+Then, you can install Omnis itself. There are two ways to install Omnis:
+
+- **Install Omnis from PyPI (recommended):**
+
+If you don't use a virtual environment, you can run the command below (not recommended):
+
+```sh
+sudo pip install omnis
+```
+
+If you are using a virtual environment, you may want to avoid using sudo (conda virtual environment recommended):
+
+```sh
+pip install omnis
+```
+
+- **Alternatively: install Omnis from the GitHub source:**
+
+First, clone Omnis using `git`:
+
+```sh
+git clone https://github.com/mkh48v/omnis.git
+```
+
+ Then, `cd` to the Omnis folder and run the install command:
+```sh
+cd omnis
+sudo python setup.py install
+```
+
+------------------
+
+
+## Why this name, Omnis?
+
+Omnis means _EVERY_ in Latin. The goal of Omnis is to make deep learning technologies easier so that _EVERY_ one can use deep learning technologies without headache.
+
+------------------
