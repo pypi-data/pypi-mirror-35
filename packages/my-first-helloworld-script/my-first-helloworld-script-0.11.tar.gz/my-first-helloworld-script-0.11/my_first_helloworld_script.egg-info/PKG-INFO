@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: my-first-helloworld-script
+Version: 0.11
+Summary: This is my first pip package
+Home-page: https://github.com/LeonLian/pipPackagingTest.git
+Author: lian zheng
+Author-email: lianzheng07@163.com
+License: UNKNOWN
+Description: This is a test packaging to pip.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
