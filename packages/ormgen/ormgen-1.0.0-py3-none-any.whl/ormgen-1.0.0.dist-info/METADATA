@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: ormgen
+Version: 1.0.0
+Summary: generate sqlalchemy orm class automatically from existing database
+Home-page: https://github.com/irgb/ormgen
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyMySQL (>=0.7.11)
+
+orm_gen
+---------
+
+generate sqlalchemy orm class automatically from existing database tables
+
+- easy to use and extend
+- support column table
+- support composite index, besides composite primary key
+
+Usage:
+------
+
+::
+
+  ormgen --help:
+
+
+  usage: ormgen [--help] [-v] [-h HOST] [-u USER] [-p PASSWORD] [-s SCHEMA]
+              [-o OUTFILE]
+
+  Generates SQLAlchemy model code from an existing database.
+
+  optional arguments:
+    --help                show help
+    -v, --version         show version
+    -h HOST, --host HOST  mysql host
+    -u USER, --user USER  username
+    -p PASSWORD, --password PASSWORD
+                        password
+    -s SCHEMA, --schema SCHEMA
+                        schema
+    -o OUTFILE, --outfile OUTFILE
+                          file to write output to (default: stdout)
+
+

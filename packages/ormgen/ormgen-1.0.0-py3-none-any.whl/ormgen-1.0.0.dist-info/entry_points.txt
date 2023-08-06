@@ -1,0 +1,3 @@
+[console_scripts]
+ormgen = ormgen.main:main
+
