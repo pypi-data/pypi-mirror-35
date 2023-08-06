@@ -1,0 +1,27 @@
+issuer: Switcher India LLP, India
+fields:
+  amount: Grand\sTotal.+\s+\`\s+([0-9]+[,[0-9]+]*\.\d{2})
+  date: Dated\s+\:\s+(\d{2}\-\d{2}\-\d{4})
+  place_of_supply: Place\sof\s+\w+\s+\:\s+([\w ]+)
+  #reverse_charge: Reverse\sCharge\s+\:\s+(\w)
+  invoice_number: Invoice\sNo\.\s+\:\s+([A-Za-z]+\s[\-A-Za-z0-9]+) #Invoice\sNo\.\s+\:\s+([A-Z,a-z]+\s+\-?\d+)
+  bank_details: Bank\sDetails\s\:\s(.+)
+  #total_tax: IGST\s+@\s+\d+.\d+\s+%\s+(\d+\.\d+)
+lines:
+  start: .+Description of Goods\s+HSN/SAC\sCode\s+Qty.\sUnit\s+Price\s+Amount\(\`\s\)\n+
+  end: \n\n\n\n\n
+  line: (?P<description>.+)\s+(?P<code>\d+\s\d+\s\d+)\s+(?P<quantity>[0-9]+[,[0-9]+]*\.\d{2})\s+(?P<unit>\w+\.)\s+(?P<price>[0-9]+[,[0-9]+]*\.\d{2})\s+(?P<item_amount>[0-9]+[,[0-9]+]*\.\d{2})
+types:
+  quantity: float
+  price: float
+  amount: float
+  #total_tax: float
+keywords:
+- 07ABZFS7039K1Z7
+options:
+  currency: INR
+  date_formats:
+    - '%d-%m-%y'
+  languages:
+    - en
+  decimal_separator: '.'

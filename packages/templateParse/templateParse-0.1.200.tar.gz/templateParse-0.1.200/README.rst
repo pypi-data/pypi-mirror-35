@@ -1,0 +1,16 @@
+Data extractor for PDF invoices - templateparse
+==============================================
+
+Download: 
+    1. pip install templateparse
+       (Only one time): This will install all the dependency and library to be used later on.
+       
+invoice.py: It conntans sample function to call template based parsing engine and persist in the database
+(import has to be modified as per the build folder location)
+    Function 1: parse_invoice(org_id, user_id, file_loc, type_of_invoice, template_folder)
+                Create dictionary "row" and returns True?false if it parse correctly
+                The function call: dump_data(organization_id, row, type_of_invoice) can be called
+                inside to save data.
+    Function 2: dump_data(organization_id, row, type_of_invoice)   
+
+Give location of template_folder else it will take default template location

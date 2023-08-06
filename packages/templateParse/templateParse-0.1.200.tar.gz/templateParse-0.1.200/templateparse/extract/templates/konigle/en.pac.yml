@@ -1,0 +1,30 @@
+issuer: PAC DISTRICENTRE PTE LTD
+fields:
+  amount: Balance\s+Due\s+([,[0-9]+]*\.\d{2}) # Total\s+([0-9]+[,[0-9]+]*\.\d{2}) #net_amount
+  date: Date\s+\:\s+(\d{2}\-\d{2}\-\d{2})
+  #place_of_supply: Place\sof\s+\w+\s+\:\s+([\w ]+)
+  invoice_number: Invoice\sNo\s+\:\s+([\-A-Za-z0-9]+)
+  billing_address: Bill\sTo:\n+\s+\s([A-Za-z0-9\ ]+\n) #Bill\sTo:\n+\s+\s([A-Za-z0-9\ ]+\n\s+[,A-Za-z0-9\ ]+)
+  shipping_address: Bill\sTo:\n+\s+\s([A-Za-z0-9\ ]+\n) #Bill\sTo:\n+\s+\s([A-Za-z0-9\ ]+\n\s+[,A-Za-z0-9\ ]+)
+  total_tax: Add\s+GST\s+([,[0-9]+]*\.\d{2})
+  discount_amount: Less\s+Deposit\s+([,[0-9]+]*\.\d{2})
+  net_amount: Balance\s+Due\s+([0-9]+[,[0-9]+]*\.\d{2})  #net_amount = amount - discount_amount + total_tax
+
+lines:
+  start: Description\s+Amount\s+\(S\$\)\s+
+  end: \n\n\n\nRemarks:\s+
+  line: (?P<description>.+)\s+(?P<item_amount>[,[0-9]+]*\.\d{2})
+types:
+  #quantity: float
+  #price: float
+  #amount: float
+  #total_tax: float
+keywords:
+- 200104167N
+options:
+  currency: S$
+  date_formats:
+    - '%d-%m-%y'
+  languages:
+    - en
+  decimal_separator: '.'

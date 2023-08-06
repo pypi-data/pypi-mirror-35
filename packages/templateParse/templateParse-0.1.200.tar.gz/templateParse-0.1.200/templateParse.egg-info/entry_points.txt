@@ -1,0 +1,3 @@
+[console_scripts]
+templateparse = templateparse.main:main
+

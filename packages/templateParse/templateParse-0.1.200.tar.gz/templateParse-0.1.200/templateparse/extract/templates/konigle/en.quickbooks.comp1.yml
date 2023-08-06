@@ -1,0 +1,25 @@
+issuer: Dummy Quickbooks Invoicer, Singapore
+fields:
+  amount: BALANCE\s+DUE\n+\s+\w+\W+([[0-9]+]*\.\d{2})
+  date: DATE\s+(\d+\/\d{2}\/\d{4})\n+\s+DUE
+  invoice_number: INVOICE\s+NO\.\s+(.+)
+  due_date: DUE\s+DATE\s+(\d+\/\d{2}\/\d{4})
+
+lines:
+  start: SERVICE\s+DESCRIPTION\s+QTY\s+RATE\s+AMOUNT\s+\n+\s+
+  end: \s+BALANCE\sDUE
+  line: (?P<item_name>((\w+\s?)+))\s+(?P<item_description>((\w+\s?)+))\s+(?P<item_quantity>[[0-9]+]*(\.\d{2})?)\s+(?P<item_unit_price>[[0-9]+]*(\.\d{2})?)\s+(?P<item_amount>[[0-9]+]*(\.\d{2})?)
+types:
+  #quantity: float
+  #price: float
+  amount: float
+
+keywords:
+- Template Trial
+options:
+  currency: SGD
+  date_formats:
+    - '%d-%m-%y'
+  languages:
+    - en
+  decimal_separator: '.'
