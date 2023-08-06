@@ -1,0 +1,4 @@
+[console_scripts]
+autohintexe = psautohint.__main__:autohintexe
+psautohint = psautohint.__main__:main
+
