@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pconfig
+Version: 0.0.2
+Summary: LinuxCNC 2.8 Parallel Port Configuration Tool
+Home-page: https://github.com/jethornton/pconfig
+Author: John Thornton
+Author-email: bjt128@gmail.com
+License: UNKNOWN
+Description: # pconfig
+        LinuxCNC Parallel Port Configuration Tool for 2.8
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
