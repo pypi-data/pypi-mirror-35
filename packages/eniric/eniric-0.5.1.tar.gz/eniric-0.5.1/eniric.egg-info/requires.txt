@@ -1,0 +1,11 @@
+pytest
+
+[dev]
+check-manifest
+
+[test]
+coverage
+pytest
+pytest-cov
+python-coveralls
+hypothesis
