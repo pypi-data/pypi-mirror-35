@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+cli/ltext.py
+lztools/Ansi.py
+lztools/BlockWriter.py
+lztools/ColumnWriter.py
+lztools/MatchType.py
+lztools/text.py
+lztools.text.egg-info/PKG-INFO
+lztools.text.egg-info/SOURCES.txt
+lztools.text.egg-info/dependency_links.txt
+lztools.text.egg-info/entry_points.txt
+lztools.text.egg-info/not-zip-safe
+lztools.text.egg-info/top_level.txt
