@@ -1,0 +1,17 @@
+sphere_engine/__init__.py,sha256=Gt_s4FOps7mT0QZfYdHblxHsw5cwWDg57gsmiC9fB_0,53
+sphere_engine/api.py,sha256=W02JfhdIfoT-1fPSGUC7YMFhTlcPPuRCuiDId9PtJso,1863
+sphere_engine/api_client.py,sha256=hx-6t5VBFm0LhRcDvEUU3b0U6L5EryWnD8bmVWH1Myw,10584
+sphere_engine/exceptions.py,sha256=fAO8oW-6Tao5i5Qm0GwavYCrJVlKhTlGggWwGlc5Ol0,179
+sphere_engine/apis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphere_engine/apis/base.py,sha256=i7NaCTTOhvmqafN7ecsN7j04UhkGD3KE8tLO5_2kbC0,208
+sphere_engine/apis/compilers.py,sha256=kOubRHzfzm0RVuFtK5qXJ1hK-n7TEZMR4C4-h5_AC54,7152
+sphere_engine/apis/problems.py,sha256=rxlL_wTNbw1k8g2LA2pmo6oWtuQoAgN1nIrD7jOvZpM,23159
+sphere_engine-0.14.dist-info/DESCRIPTION.rst,sha256=Q9vMUdOfU3k9O6gAVci5Yio5AooHLasJCZc_m91thw0,204
+sphere_engine-0.14.dist-info/METADATA,sha256=zztGGBDELJjN-de4VK0cXC9XhIEggArIBBDxvwBk8pA,801
+sphere_engine-0.14.dist-info/RECORD,,
+sphere_engine-0.14.dist-info/WHEEL,sha256=JTb7YztR8fkPg6aSjc571Q4eiVHCwmUDlX8PhuuqIIE,92
+sphere_engine-0.14.dist-info/metadata.json,sha256=TWf9i0c2YBGNwmsFfrVCycl7yydcxLrI2ogDs7wvexM,806
+sphere_engine-0.14.dist-info/top_level.txt,sha256=B6IoQESK9MM0limxRsEJ8jVmefKOeLxLFgp_RiO-ptE,19
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_compilers.py,sha256=kg1H-l8ZhAqLOxpRjU_qv5c6CBnU_D4riXG2ibGa3T4,5457
+test/test_problems.py,sha256=GFf_qsVThpL4T7HQq6T3cw7_4mDZWQ0et83QPHDD8l8,25994
