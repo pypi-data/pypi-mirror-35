@@ -1,0 +1,7 @@
+setup.py
+paritytech.egg-info/PKG-INFO
+paritytech.egg-info/SOURCES.txt
+paritytech.egg-info/dependency_links.txt
+paritytech.egg-info/not-zip-safe
+paritytech.egg-info/top_level.txt
+slashdot/__init__.py
