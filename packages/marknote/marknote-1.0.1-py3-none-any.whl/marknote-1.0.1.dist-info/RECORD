@@ -1,0 +1,15 @@
+marknote/__init__.py,sha256=P6rg8z0gpv6yPoCPOpBPXZOglyisrTbxMq9canH9Jvw,51
+marknote/apps.py,sha256=yrAaq8KeLIyTHEFhBZTKdVx7OEQ0TIHSc4Vv5bsOeE4,91
+marknote/models.py,sha256=RmunmxMoaLXkymowgHjD7agaGmDimyy2iTXmHZAe0-E,795
+marknote/serializers.py,sha256=jmvFW1GBdUiEXnNr41XLco3sBCiGZCzkqOWmQt2zj04,1886
+marknote/urls.py,sha256=XTceyG32mlS3Mf3v7fGkN3f_r1_c1RB8vcov1OIw-xM,550
+marknote/views.py,sha256=0vKl4LRrhQ4R2yTmAtCEolIKNW2Uf4n_6nayI1DKYfw,3109
+marknote/migrations/0001_initial.py,sha256=v6d26FvRe5Cu_mjW1HqXbYJYKu5a2_tTI11uXyZJDWU,1929
+marknote/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marknote/tests/__init__.py,sha256=UGQvRzb9UCYbU8zNq1P5dCKkNRfKfclVtZ6BjXOnM8s,28
+marknote/tests/test_folder.py,sha256=YFNyFKGsI3sMDPGOfr-XLqb8MAFh6KeAoVBc9VcpcFA,22722
+marknote/tests/test_note.py,sha256=PYiTBV8WP1uaQd-Uk8IV6rH2GC6cV6jv5pUnewcWeyc,26008
+marknote-1.0.1.dist-info/METADATA,sha256=1fY8T9hsQNt9oR45hpYlwLHz1C7J23POqBHfhuR6fTs,4089
+marknote-1.0.1.dist-info/RECORD,,
+marknote-1.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+marknote-1.0.1.dist-info/top_level.txt,sha256=EsGCsSroqzcay7CyoUD5jEfqNaOf8pgfLY6fJC765zo,9
