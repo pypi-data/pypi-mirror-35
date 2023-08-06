@@ -1,0 +1,14 @@
+include *.txt
+include cynet/*.py
+include cynet/README.md
+include cynet/*.pyc
+include cynet/bin/*
+include bin/*
+include bin/example1/*
+include bin/example1/models/*
+include bin/example1/split/*
+include bokeh_pipe/*.csv
+include bokeh_pipe/*.py
+include viscynet/*.py
+include *.py
+include logo.png
