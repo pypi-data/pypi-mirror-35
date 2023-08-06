@@ -1,0 +1,11 @@
+compose/__init__.py,sha256=Uc0bhBiLDhmTAo3pAkhRgEgUHbTGeBsXW9I9Icba0eU,86
+compose/args.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compose/empty.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compose/kwargs.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compose/mkmeth.py,sha256=Bo-acWzPA0XnGq83oUx04NHdJAikXjSQobrRdnvDfTU,1697
+compose/structs.py,sha256=OP1rcAgEEQeWebCAv8sds67dcNV8k1_3hHNTyKeG5no,7472
+compose/templates.py,sha256=k_LcJ41bRDLaH3ydhd4594tnCmPgElEdmyOAUL58Qjk,3196
+compose_struct-0.7.4.dist-info/METADATA,sha256=ndAVXF6ZeyQO9VPomPpnBJ2QRwcIZOqAZcrZjGCJLN0,9209
+compose_struct-0.7.4.dist-info/RECORD,,
+compose_struct-0.7.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+compose_struct-0.7.4.dist-info/top_level.txt,sha256=jLmhBR06QFGLqfBVdNJ3JPy-7jr7nSl7LgGemw-WiZw,8
