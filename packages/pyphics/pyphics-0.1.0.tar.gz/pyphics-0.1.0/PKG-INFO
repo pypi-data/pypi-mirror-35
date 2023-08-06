@@ -1,0 +1,70 @@
+Metadata-Version: 1.1
+Name: pyphics
+Version: 0.1.0
+Summary: Python graphics library based on D3js
+Home-page: https://github.com/amitjha21/pyphics
+Author: Amit Jha
+Author-email: amit@amit-jha.com
+License: MIT license
+Description-Content-Type: UNKNOWN
+Description: =======
+        pyphics
+        =======
+        
+        
+        .. image:: https://img.shields.io/pypi/v/pyphics.svg
+                :target: https://pypi.python.org/pypi/pyphics
+        
+        .. image:: https://img.shields.io/travis/amitjha21/pyphics.svg
+                :target: https://travis-ci.org/amitjha21/pyphics
+        
+        .. image:: https://readthedocs.org/projects/pyphics/badge/?version=latest
+                :target: https://pyphics.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Python graphics library based on D3js
+        
+        
+        * Free software: MIT license
+        * Documentation: https://pyphics.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2018-09-01)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: pyphics
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

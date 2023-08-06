@@ -1,0 +1,3 @@
+[console_scripts]
+pyphics = pyphics.cli:main
+
