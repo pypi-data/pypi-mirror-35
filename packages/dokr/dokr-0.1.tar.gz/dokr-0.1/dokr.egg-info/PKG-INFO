@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: dokr
+Version: 0.1
+Summary: A Docker and AWS utility package
+Home-page: https://github.com/javatechy/dokr
+Author: Deepak Kumar
+Author-email: deepak.kumar.iet@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: # dokr
+        
+        
+        #### to create a new package 
+        
+        ```
+         python setup.py sdist
+        ``` 
+        
+        ##### to Upload
+        
+        ```
+         python -m twine upload dist/*
+        
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
