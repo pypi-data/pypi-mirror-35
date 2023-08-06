@@ -1,0 +1,12 @@
+README.md
+setup.py
+bin/tigmint
+bin/tigmint-arcs-tsv
+bin/tigmint-cut
+bin/tigmint-make
+bin/tigmint-molecule
+tigmint.egg-info/PKG-INFO
+tigmint.egg-info/SOURCES.txt
+tigmint.egg-info/dependency_links.txt
+tigmint.egg-info/requires.txt
+tigmint.egg-info/top_level.txt
