@@ -1,0 +1,15 @@
+requests
+numpy
+scipy
+pandas
+scikit_learn
+lightfm
+implicit
+psutil
+scikit_optimize
+gmaps
+boto3
+redis
+sklearn_pandas
+matplotlib
+flask
