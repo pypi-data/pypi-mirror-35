@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pygcp.egg-info/PKG-INFO
+pygcp.egg-info/SOURCES.txt
+pygcp.egg-info/dependency_links.txt
+pygcp.egg-info/entry_points.txt
+pygcp.egg-info/requires.txt
+pygcp.egg-info/top_level.txt
+test/test.py
