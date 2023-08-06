@@ -1,0 +1,9 @@
+README.md
+setup.py
+python-common/Switcher.py
+python-common/__init__.py
+python-common/__version__.py
+python_common.egg-info/PKG-INFO
+python_common.egg-info/SOURCES.txt
+python_common.egg-info/dependency_links.txt
+python_common.egg-info/top_level.txt
