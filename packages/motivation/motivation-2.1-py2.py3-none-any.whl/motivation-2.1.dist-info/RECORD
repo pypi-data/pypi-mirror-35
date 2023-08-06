@@ -1,0 +1,10 @@
+motivation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+motivation/commands.py,sha256=nxcyhhAp34LAljm5w4JXGZQ-HvnlwL41KXZ8HtRpDOM,4491
+motivation/test_commands.py,sha256=EdI0Vqnmyz9TIzzpLZk86UfOkcwUyig2Rp8Jm-tI67g,1878
+motivation-2.1.dist-info/LICENSE.txt,sha256=pV4v_ptEmY5iHVHYwJS-0JrMS1I27nPX3zlaM7o8GP0,1050
+motivation-2.1.dist-info/METADATA,sha256=ArqWmh45VfPacN3i6qKgDm0Vr5OKfNL7UYlFugid3qA,1586
+motivation-2.1.dist-info/RECORD,,
+motivation-2.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+motivation-2.1.dist-info/entry_points.txt,sha256=TJH39RvgDxBT01g8EytUT_OxOQ99kRb1sJNQqFGHtY8,52
+motivation-2.1.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+motivation-2.1.dist-info/top_level.txt,sha256=p9d255JArb1DkSxxtmAkqjIFI1sdFM8vae37jRF8yHo,11
