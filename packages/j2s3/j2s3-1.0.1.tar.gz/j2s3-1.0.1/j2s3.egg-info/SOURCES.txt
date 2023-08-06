@@ -1,0 +1,15 @@
+README.md
+setup.py
+j2s3/__init__.py
+j2s3/file_service.py
+j2s3/iam_policy.py
+j2s3/main.py
+j2s3/maven_service.py
+j2s3/pom.py
+j2s3/settings.py
+j2s3/xml_service.py
+j2s3.egg-info/PKG-INFO
+j2s3.egg-info/SOURCES.txt
+j2s3.egg-info/dependency_links.txt
+j2s3.egg-info/requires.txt
+j2s3.egg-info/top_level.txt
