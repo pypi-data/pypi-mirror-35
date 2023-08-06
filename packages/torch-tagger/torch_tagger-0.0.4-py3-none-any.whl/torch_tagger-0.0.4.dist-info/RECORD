@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__main__.py,sha256=WCe5huYgIeKqsvFgxpghFsrWEyBUYJ-I3wYTwETZFwY,1215
+tests/test_ner.py,sha256=aG9ihi5MZTHrNJX7v1exvKP79kjRUOXktNG-DgiHX5o,1106
+torch_tagger/__init__.py,sha256=XWOeVEcO8JSt9g0zn8LQRWTuPffCS-orbv7Qrevh0W8,40
+torch_tagger/rnn_crf.py,sha256=pZCq3tZlEWZ0jeRP3Eb4q_1hR1QQueT1WZYZDjcDoiQ,15246
+torch_tagger/tagger.py,sha256=L8s4gYHSKau3CTlCO6R3jrfjF2jS7X-W4N-2fJ2Qj-8,9315
+torch_tagger/utils.py,sha256=vGIu5meR-QosUJA29A1tY-3q-AygrFxEcNoz9VQzo6g,4693
+torch_tagger-0.0.4.dist-info/DESCRIPTION.rst,sha256=Kfeiv9rBxeorh3f2jgZENv_8LSiDIk6AB2t4RfyKcPU,21
+torch_tagger-0.0.4.dist-info/METADATA,sha256=hAwfsWz9adCPw2o42SXZ7Z2tFlxW6FyLXqSxv2hjrig,398
+torch_tagger-0.0.4.dist-info/RECORD,,
+torch_tagger-0.0.4.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+torch_tagger-0.0.4.dist-info/metadata.json,sha256=rQTr3Fr3OqZQOJy_3aVHz-CzCfH-zQm_h20xdVMj4LM,590
+torch_tagger-0.0.4.dist-info/top_level.txt,sha256=XHetA_FVI442PzOypah77sHcsR3BoaxM1MZWjmDVQ2g,19
