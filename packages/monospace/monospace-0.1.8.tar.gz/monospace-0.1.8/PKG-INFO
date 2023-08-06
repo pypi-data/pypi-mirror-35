@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: monospace
+Version: 0.1.8
+Summary: Book typesetter for the terminal
+Home-page: https://github.com/Tenchi2xh/monospace
+Author: Hamza Haiken
+Author-email: tenchi@team2xh.net
+Keywords: typesetting,terminal
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Jinja2 (>=2.10,<3.0)
+Requires-Dist: Pillow (>=5.2,<6.0)
+Requires-Dist: click (>=6.7,<7.0)
+Requires-Dist: cursebox-lib (>=1.0,<2.0)
+Requires-Dist: ptpython (==0.41.0)
+Requires-Dist: pypandoc (>=1.4,<2.0)
+Requires-Dist: pyphen (>=0.9.5,<0.10.0)
