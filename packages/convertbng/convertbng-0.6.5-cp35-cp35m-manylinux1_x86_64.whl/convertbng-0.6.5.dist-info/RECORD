@@ -1,0 +1,11 @@
+convertbng/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+convertbng/cutil.c,sha256=IwKk5cCT0dNNKBBbVJfX-Oe4Vuj86l_XXevey1hw-9w,825481
+convertbng/util.py,sha256=tXw19jZFFa1T5NsuQKgQcrRHGsT5PMh0Rzl-ZNzvo4A,8034
+convertbng/cutil.cpython-35m-x86_64-linux-gnu.so,sha256=XkgfRXtJpfiXQ69EOLzWZ0LrBz6-cNVTQ6xZ7oTyZKM,990712
+convertbng/.libs/liblonlat_bng-9455b0d0.so,sha256=Ms8rGS7pOimsiLQYxw3GSP8FBbtP3kcpx9qoHj0seWQ,29752048
+convertbng/test/test_convertbng.py,sha256=7zWJf3sCAvBIUun7bWmZpdUlpAI53e9FRDUOg28tqnE,8297
+convertbng/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+convertbng-0.6.5.dist-info/WHEEL,sha256=c8uKbdQypV832y6wpTaH7LmB9UQOPgqCSt-bcR7krHw,109
+convertbng-0.6.5.dist-info/top_level.txt,sha256=ZA5wNCZX43S7PiOcF-VmQARqcr4mshDaAE8Xcbfc5Ug,11
+convertbng-0.6.5.dist-info/METADATA,sha256=rXdjtAEtaVig2fHEyQli_1WTvL5mfQG4tSlDkQpopv0,12331
+convertbng-0.6.5.dist-info/RECORD,,
