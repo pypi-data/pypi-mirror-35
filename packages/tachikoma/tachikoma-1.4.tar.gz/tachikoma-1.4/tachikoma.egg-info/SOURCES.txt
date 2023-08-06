@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+tachikoma/__init__.py
+tachikoma/differs.py
+tachikoma/pipeline.py
+tachikoma/settings.py
+tachikoma/util.py
+tachikoma.egg-info/PKG-INFO
+tachikoma.egg-info/SOURCES.txt
+tachikoma.egg-info/dependency_links.txt
+tachikoma.egg-info/requires.txt
+tachikoma.egg-info/top_level.txt
