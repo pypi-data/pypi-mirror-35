@@ -1,0 +1,3 @@
+class TestOpenLogViewer:
+    # TODO
+    pass
