@@ -1,0 +1,20 @@
+Environment:
+  Production:
+    Builder:
+      Files:
+        MainWindow: ui/main_window.glade
+        PreferencesDialog: ui/preferences_dialog.glade
+    
+    Preferences:
+      Doubleclick_Execute: /usr/bin/firefox 
+     
+  Development:
+    Builder:
+      Files:
+        MainWindow: ui/main_window.glade
+        PreferencesDialog: ui/preferences_dialog.glade
+    
+    Preferences:
+      Doubleclick_Execute: /usr/bin/firefox 
+  
+  

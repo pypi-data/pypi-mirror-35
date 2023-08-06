@@ -1,0 +1,36 @@
+Metadata-Version: 1.0
+Name: bookman
+Version: 0.2
+Summary: A tool to manage your bookmarks.
+Home-page: UNKNOWN
+Author: Richard Paul Baeck
+Author-email: richard.baeck@free-your-pc.com
+License: GPLv2
+Description: # bookman
+        
+        bookman is a non-webapp, standalone bookmark managing software. It gives you the ability to store any link you want and open it instantly.
+        
+        
+        ## Dependencies
+        
+        * Python 3
+        * Python 3 - GTK3
+        * Python 3 - Yaml
+        * Python 3 - SQL Alchemy
+        
+        
+        ## Building for Debian
+        
+        ```bash
+        make debian
+        ```
+        
+        ## Author
+        
+        Richard Bäck <richard.baeck@free-your-pc.com>
+        
+        ## License
+        
+        GPLv2
+        
+Platform: UNKNOWN
