@@ -1,0 +1,2 @@
+recursive-include tsumiki/template *.tpl
+recursive-include tsumiki/static *.css

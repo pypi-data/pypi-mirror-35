@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: tsumiki
+Version: 0.0.1b1
+Summary: Jupyter(IPython) cell magic for display multiple columns [Markdown/HTML].
+Home-page: https://github.com/drillan/tsumiki
+Author: driller
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
