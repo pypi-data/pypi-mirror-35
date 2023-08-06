@@ -1,0 +1,12 @@
+emus/__init__.py,sha256=ZXXy5djG2_DEtI5eHkpdFNm8YT5LLfATOS1aOJuOJbE,359
+emus/_defaults.py,sha256=KOnUd7XnFtF6tr7G5Zxne9JqL7YIbn7cyrH2yoJUkuU,364
+emus/autocorrelation.py,sha256=SGRXzwSH71csuupNpIWlqQeBkpUj6pIk2WwA80rEoKE,7664
+emus/avar.py,sha256=tAe5fN-DVLslRFs-yPQ3NOPsMbKfeXH6V0lov4PhN3A,22366
+emus/emus.py,sha256=fwb2hquGqmZIDU__IjWmhObZZlm-m3O1OhOAlptV4mw,17024
+emus/linalg.py,sha256=mREca_zCMkOTxYbz_XotxnQoQ5-1E2AyCHRbjFqVZSQ,4276
+emus/usutils.py,sha256=QH2Plp_RUSbCKionDdn7Np-GoDeiXo1UbEcqze1OSu8,13663
+emus-0.9.4.data/scripts/wemus.py,sha256=S4Mkd7kseoKuY9D11KCgLb8OF2g2-KfhGoky4s1G-BA,10664
+emus-0.9.4.dist-info/METADATA,sha256=hay3P0e5_YPuc-CTfHm92Ram6vnNDPMGW2z4p0XWHWI,629
+emus-0.9.4.dist-info/RECORD,,
+emus-0.9.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+emus-0.9.4.dist-info/top_level.txt,sha256=K8hJ_lieDMTJ_7uLgl4-siARNsJ5n5gij7FRheZQBDs,5
