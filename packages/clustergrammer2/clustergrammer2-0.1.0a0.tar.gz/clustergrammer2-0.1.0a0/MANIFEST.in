@@ -1,0 +1,2 @@
+recursive-include clustergrammer2/static *.*
+include clustergrammer2.json
