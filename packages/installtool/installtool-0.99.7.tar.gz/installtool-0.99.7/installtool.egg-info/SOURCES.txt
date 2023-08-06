@@ -1,0 +1,10 @@
+README.md
+installtool.py
+mylog.py
+setup.py
+installtool.egg-info/PKG-INFO
+installtool.egg-info/SOURCES.txt
+installtool.egg-info/dependency_links.txt
+installtool.egg-info/entry_points.txt
+installtool.egg-info/requires.txt
+installtool.egg-info/top_level.txt
