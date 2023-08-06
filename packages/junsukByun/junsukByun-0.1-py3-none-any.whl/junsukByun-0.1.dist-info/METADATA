@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: junsukByun
+Version: 0.1
+Summary: Deeplearning_Process
+Home-page: https://github.com/junsukByun
+Author: junsukByun
+Author-email: junsukbyun91@gmail.com
+License: LGCNS
+Download-URL: https://github.com/junsukByun
+Description-Content-Type: UNKNOWN
+Keywords: Machine Vision,DeepLeaning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
+Requires-Dist: requests
+
+# DeepLearning
+
+
