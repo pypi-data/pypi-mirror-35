@@ -1,0 +1,4 @@
+requests>=2.7.0
+pyaml>=3.11
+jinja2>=2.8
+clint>=0.5
