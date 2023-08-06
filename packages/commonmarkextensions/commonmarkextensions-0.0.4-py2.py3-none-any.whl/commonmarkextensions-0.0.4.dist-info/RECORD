@@ -1,0 +1,12 @@
+CommonMarkExtensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CommonMarkExtensions/make_reference_output.py,sha256=rWftcPjcq847peq70pd4SaVRSf3Dfj5CezOWtjt-EMQ,3008
+CommonMarkExtensions/plaintext.py,sha256=7cE1VD_jriVzil3xZxYfmGDqAdubDdwysq0z9wotyU8,15943
+CommonMarkExtensions/tables.py,sha256=3OcKcuwN9xymqTCzSOCF65eVQUd21gMlRWZNKb50eRw,9857
+CommonMarkExtensions/tests.py,sha256=TC_lAH7dm1dGbSgwLI-SJKv3rWLtn89XY6HpMjdv5Ro,4023
+commonmarkextensions-0.0.4.dist-info/DESCRIPTION.rst,sha256=bpDWb1sAh2ks2ML_T_qvEeQOjR3Vtu1p5CfYjxfOjCk,6560
+commonmarkextensions-0.0.4.dist-info/METADATA,sha256=OIWvKAJpgCQkd3qUzlrejz2XWGw4Y7t6AT4vRpE89uM,7327
+commonmarkextensions-0.0.4.dist-info/RECORD,,
+commonmarkextensions-0.0.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+commonmarkextensions-0.0.4.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+commonmarkextensions-0.0.4.dist-info/metadata.json,sha256=j7XIu_ud93P2OYVtvWNM1wIDMEu3EpbB_gpBsgdlJjw,1014
+commonmarkextensions-0.0.4.dist-info/top_level.txt,sha256=aUzp844SqugoEAkQ_zyLbbTKqen0nCuYnruIWArwDYA,21
