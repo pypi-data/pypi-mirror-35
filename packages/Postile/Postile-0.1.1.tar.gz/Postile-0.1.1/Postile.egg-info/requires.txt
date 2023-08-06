@@ -1,0 +1,6 @@
+cython
+mercantile
+sanic==0.8.1
+sanic-cors==0.9.5
+pyyaml
+asyncpg>=0.15.0
