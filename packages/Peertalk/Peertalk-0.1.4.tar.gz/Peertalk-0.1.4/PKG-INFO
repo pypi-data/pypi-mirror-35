@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Peertalk
+Version: 0.1.4
+Summary: An experimental, demonstrative chat protocol and implementation for use in Peertable networks
+Home-page: UNKNOWN
+Author: Gustavo6046
+Author-email: gugurehermann@gmail.com
+License: MIT
+Description: # Peertalk
+        
+        Peertalk is an experimental, demonstrative chat protocol
+        and implementation for use in Peertable networks. Please
+        see the Peertable project for more.
+Keywords: p2p peer-to-peer peer network infrastructure chat test experimental protocol demo talk
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
