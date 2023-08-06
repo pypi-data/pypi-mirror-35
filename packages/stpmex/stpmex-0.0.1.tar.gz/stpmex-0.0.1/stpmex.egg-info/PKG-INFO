@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: stpmex
+Version: 0.0.1
+Summary: Integration to stpmex.com
+Home-page: https://github.com/cuenca-mx/stpmex-python
+Author: Cuenca
+Author-email: dev@cuenca.io
+License: UNKNOWN
+Description: ## STP client python3 client library
+        
+        demo wsdl: http://demo.stpmex.com:7004/speidemo/webservices/SpeiActualizaServices?wsdl
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
