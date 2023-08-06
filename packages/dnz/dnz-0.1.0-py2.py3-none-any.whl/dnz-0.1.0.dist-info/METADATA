@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: dnz
+Version: 0.1.0
+Summary: Client for determining domains/subdomains.
+Home-page: https://github.com/mfdeux/dnz
+Author: Marc Ford
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: tldextract
+Requires-Dist: requests
+Requires-Dist: dnspython
+
+# dnz
+
+Client for determining domains/subdomains.
+
+Installation instructions:
+
+```bash
+pip install dnz
+```
+
+```
+
+Note
+---------
+dnz is not affiliated or endorsed by any of the web services it interacts with.
+
