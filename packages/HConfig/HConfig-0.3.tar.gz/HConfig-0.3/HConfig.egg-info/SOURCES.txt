@@ -1,0 +1,9 @@
+README.md
+setup.py
+HConfig.egg-info/PKG-INFO
+HConfig.egg-info/SOURCES.txt
+HConfig.egg-info/dependency_links.txt
+HConfig.egg-info/requires.txt
+HConfig.egg-info/top_level.txt
+hconfig/__init__.py
+scripts/hconfig
