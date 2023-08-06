@@ -1,0 +1,9 @@
+README.md
+setup.py
+geek_translate/__init__.py
+geek_translate.egg-info/PKG-INFO
+geek_translate.egg-info/SOURCES.txt
+geek_translate.egg-info/dependency_links.txt
+geek_translate.egg-info/requires.txt
+geek_translate.egg-info/top_level.txt
+geek_translate.egg-info/zip-safe
