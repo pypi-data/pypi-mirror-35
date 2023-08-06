@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+cmiles/__init__.py
+cmiles/_version.py
+cmiles/generator.py
+cmiles/utils.py
+cmiles.egg-info/PKG-INFO
+cmiles.egg-info/SOURCES.txt
+cmiles.egg-info/dependency_links.txt
+cmiles.egg-info/top_level.txt
+cmiles/data/look_and_say.dat
+cmiles/tests/__init__.py
+cmiles/tests/test_cmiles.py
+cmiles/tests/test_utils.py
+cmiles/tests/utils.py
