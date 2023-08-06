@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+udevbackup/__init__.py
+udevbackup/cli.py
+udevbackup/rule.py
+udevbackup.egg-info/PKG-INFO
+udevbackup.egg-info/SOURCES.txt
+udevbackup.egg-info/dependency_links.txt
+udevbackup.egg-info/entry_points.txt
+udevbackup.egg-info/not-zip-safe
+udevbackup.egg-info/requires.txt
+udevbackup.egg-info/top_level.txt
+udevbackup/__pycache__/__init__.cpython-36.pyc
+udevbackup/__pycache__/cli.cpython-36.pyc
+udevbackup/__pycache__/rule.cpython-36.pyc
