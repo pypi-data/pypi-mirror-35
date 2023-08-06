@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+toml.py
+toml.pyi
+toml.egg-info/PKG-INFO
+toml.egg-info/SOURCES.txt
+toml.egg-info/dependency_links.txt
+toml.egg-info/top_level.txt
