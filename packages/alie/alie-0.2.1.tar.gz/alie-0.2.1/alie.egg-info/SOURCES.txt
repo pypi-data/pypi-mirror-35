@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.json
+setup.py
+alie/VERSION
+alie/__init__.py
+alie/__main__.py
+alie/cli.py
+alie.egg-info/PKG-INFO
+alie.egg-info/SOURCES.txt
+alie.egg-info/dependency_links.txt
+alie.egg-info/entry_points.txt
+alie.egg-info/requires.txt
+alie.egg-info/top_level.txt
+alie/data/README.md
