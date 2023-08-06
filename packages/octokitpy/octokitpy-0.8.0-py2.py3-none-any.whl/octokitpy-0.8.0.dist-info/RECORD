@@ -1,0 +1,12 @@
+octokit/__init__.py,sha256=c8l4FfZfStRaXnA-pfUpNJbWF9oRaBilz2kR2Sgnnwg,10056
+octokit/errors.py,sha256=h7kHOvH_Gg5iaeTZZ6fhUc81La8SLZ_n-TeLEK-e-hA,49
+octokit/utils.py,sha256=VHA21OifwoDkGV_VRRsgyCOVMIdEi9v0VQ173CzU2hA,365
+octokit/webhook.py,sha256=in8ekOiTg761JHfAwwlAEuj2JzGYGmpOr0dyCI_ZYKc,1459
+octokit/data/events.json,sha256=uliPrwlIOcVm2imbQATT9jbN6aZ8zWMB8RPYG4xgFc4,2737
+octokit/data/rest.json,sha256=rZMTa2LzWRg2vU-ONXoohUoSFDkmE5whMrQNkVgwGzk,297048
+octokitpy-0.8.0.dist-info/DESCRIPTION.rst,sha256=XWwbfzJgnEn1j7ZHoBTsDhMJUGm02QtjOxJB3E9kz2A,4094
+octokitpy-0.8.0.dist-info/METADATA,sha256=BC-5xdWR4Z1OVhR4eJoTSlHnQ2uGJI1nf4Bh1iPMaUc,5081
+octokitpy-0.8.0.dist-info/RECORD,,
+octokitpy-0.8.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+octokitpy-0.8.0.dist-info/metadata.json,sha256=L7gCbxkc-VYtNFD7iSdlQZ8Q4mH2T910Qngh0a0DG-s,1115
+octokitpy-0.8.0.dist-info/top_level.txt,sha256=s1GMc5jHWBMv4sYGynq4qXAaZhAa9nR9oCJmPp6nqhQ,8
