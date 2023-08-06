@@ -1,0 +1,10 @@
+scopes/__init__.py,sha256=QBBUaqIUHA71f-Kg8PczhJBXRmE_gyjh7g1z1SNYmOc,152
+scopes/cli.py,sha256=edrCa_R9PR8qOknbX26IVK-mxzCXY_GVYAt0l6QLniE,410
+scopes/scopes.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+scopes_py-0.1.0.dist-info/DESCRIPTION.rst,sha256=UISytU9yl2kMc5pMRCxnufmS3LYL14Qp8R4fcqTGJWE,817
+scopes_py-0.1.0.dist-info/METADATA,sha256=PvcGPTa5LU3PWBa1bx6YidLmT5mbCqO1W_ePCMZ4SOM,1633
+scopes_py-0.1.0.dist-info/RECORD,,
+scopes_py-0.1.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+scopes_py-0.1.0.dist-info/entry_points.txt,sha256=lcCXaPatMFmJ2yO_EjQDdikZtZ8FwE2TvDh2fX5hWS4,44
+scopes_py-0.1.0.dist-info/metadata.json,sha256=B6lKgPkAlxJGEqPbD7tuSq8fr4pPANo9YwPGbZNjanc,1146
+scopes_py-0.1.0.dist-info/top_level.txt,sha256=0Dww4Tziw_DPGCo4NUqojYkKaI8kYHxFbTwDZkgP96U,7
