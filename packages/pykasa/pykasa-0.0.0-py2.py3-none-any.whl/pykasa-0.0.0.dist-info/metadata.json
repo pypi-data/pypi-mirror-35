@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"contacts": [{"email": "gary@touch.asn.au", "name": "Gary Reynolds", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}, "project_urls": {"Home": "https://github.com/goodtune/pykasa"}}}, "generator": "bdist_wheel (0.29.0)", "metadata_version": "2.0", "name": "pykasa", "summary": "UNKNOWN", "version": "0.0.0"}
