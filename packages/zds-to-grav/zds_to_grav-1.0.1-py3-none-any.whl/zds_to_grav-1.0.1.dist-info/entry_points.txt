@@ -1,0 +1,3 @@
+[console_scripts]
+zds-to-grav = zds_to_grav:zds_to_grav
+
