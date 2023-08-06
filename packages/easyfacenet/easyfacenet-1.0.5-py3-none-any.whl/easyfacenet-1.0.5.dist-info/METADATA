@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: easyfacenet
+Version: 1.0.5
+Summary: A simple facenet interface
+Home-page: https://github.com/taflahi/facenet
+Maintainer: Tirmidzi Aflahi
+Maintainer-email: taflahi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (==1.7)
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: opencv-python
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: Pillow
+Requires-Dist: requests
+Requires-Dist: psutil
+
+Simple interface for face recognition with Google's FaceNet deep neural network & TensorFlow
+
+
