@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fplcli
+Version: 0.1.1
+Summary: A CLI tool for Fantasy Premier League
+Home-page: https://github.com/janerikcarlsen/fpl-cli
+Author: Jan-Erik Carlsen
+Author-email: jan.erik.carlsen@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/janerikcarlsen/fpl-cli
+Description: [![Build Status](https://travis-ci.org/janerikcarlsen/fpl-cli.svg?branch=master)](https://travis-ci.org/janerikcarlsen/fpl-cli)
+        
+        # fpl-cli
+        Better Fantasy Premier League CLI Tool
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
