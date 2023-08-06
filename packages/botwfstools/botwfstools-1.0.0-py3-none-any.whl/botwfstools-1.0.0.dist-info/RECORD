@@ -1,0 +1,10 @@
+botwfstools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botwfstools/botw_contentfs.py,sha256=5lbhO77qEN-eZjHGCiez_9qgDr-S4oukaxbCip8R1js,14803
+botwfstools/botw_edit.py,sha256=VTLfktVAO-z8ql_YGRcLK8a2SX_m5hMaOJlsjIV0QIs,5206
+botwfstools/botw_overlayfs.py,sha256=JmJREOVfCbQ_yT2Akr1-pcODDk17smkA1WMDladb7Y4,6912
+botwfstools/botw_patcher.py,sha256=IPvtqYP1UcuIp_UYyqjXOQ-HNVQYNxcH_jmsDUzVoss,10116
+botwfstools-1.0.0.dist-info/METADATA,sha256=CzH42-nz1k0LAH71GDS2ekOrksqFA7LfwDZovHyhZ-4,5553
+botwfstools-1.0.0.dist-info/RECORD,,
+botwfstools-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+botwfstools-1.0.0.dist-info/entry_points.txt,sha256=yAQBPVGsR_3TLlQeGJ2Zd3584z4Q9c67XDDLXiCKyEs,217
+botwfstools-1.0.0.dist-info/top_level.txt,sha256=avmkR4EFq7zc6WntPvBxYAg4L6AGomwy0eoZeeZtxsk,12
