@@ -1,0 +1,9 @@
+README.rst
+setup.py
+pypledge/__init__.py
+pypledge/py.typed
+pypledge.egg-info/PKG-INFO
+pypledge.egg-info/SOURCES.txt
+pypledge.egg-info/dependency_links.txt
+pypledge.egg-info/not-zip-safe
+pypledge.egg-info/top_level.txt
