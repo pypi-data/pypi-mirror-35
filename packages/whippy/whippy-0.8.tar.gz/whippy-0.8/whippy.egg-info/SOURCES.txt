@@ -1,0 +1,11 @@
+README.md
+setup.py
+whippy/__init__.py
+whippy/main.py
+whippy/settings.py
+whippy.egg-info/PKG-INFO
+whippy.egg-info/SOURCES.txt
+whippy.egg-info/dependency_links.txt
+whippy.egg-info/top_level.txt
+whippy/classes/WPPy.py
+whippy/classes/__init__.py
