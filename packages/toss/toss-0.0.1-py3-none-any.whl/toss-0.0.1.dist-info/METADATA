@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: toss
+Version: 0.0.1
+Summary: Toss payment client library
+Home-page: https://github.com/styleshare/toss
+Author: Sungyong Kang
+Author-email: hiye@styleshare.kr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: inflection (==0.3.1)
+Requires-Dist: pytz (==2018.5)
+Requires-Dist: requests (==2.19.1)
+
+# toss
+Toss 결제를 위한 python client library wrapper
+
+
