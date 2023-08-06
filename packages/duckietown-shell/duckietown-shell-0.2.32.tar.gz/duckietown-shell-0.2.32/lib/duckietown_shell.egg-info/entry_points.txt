@@ -1,0 +1,4 @@
+[console_scripts]
+dt = dt_shell:cli_main
+dts = dt_shell:cli_main
+
