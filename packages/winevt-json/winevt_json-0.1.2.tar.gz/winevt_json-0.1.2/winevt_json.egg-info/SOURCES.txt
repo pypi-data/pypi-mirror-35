@@ -1,0 +1,10 @@
+README.md
+setup.py
+winevt_json/__init__.py
+winevt_json/main.py
+winevt_json.egg-info/PKG-INFO
+winevt_json.egg-info/SOURCES.txt
+winevt_json.egg-info/dependency_links.txt
+winevt_json.egg-info/entry_points.txt
+winevt_json.egg-info/requires.txt
+winevt_json.egg-info/top_level.txt

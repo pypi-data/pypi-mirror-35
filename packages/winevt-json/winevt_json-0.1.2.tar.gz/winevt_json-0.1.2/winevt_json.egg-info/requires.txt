@@ -1,0 +1,2 @@
+click>=6lxml>=4
+python-evtx<1
