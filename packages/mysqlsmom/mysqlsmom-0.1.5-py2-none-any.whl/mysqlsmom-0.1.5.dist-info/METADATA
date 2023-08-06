@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: mysqlsmom
+Version: 0.1.5
+Summary: sync data from mysql to elasticsearch
+Home-page: https://github.com/m358807551/mysqlsmom
+Author: MCTW
+Author-email: m358807551@163.com
+License: MIT License
+Keywords: mysql elasticsearch es sync
+Platform: any
+Requires-Dist: appnope (==0.1.0)
+Requires-Dist: APScheduler (==3.5.1)
+Requires-Dist: asn1crypto (==0.24.0)
+Requires-Dist: backports.shutil-get-terminal-size (==1.0.0)
+Requires-Dist: blinker (==1.4)
+Requires-Dist: certifi (==2018.4.16)
+Requires-Dist: cffi (==1.11.5)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: click (==6.7)
+Requires-Dist: cryptography (==2.2.2)
+Requires-Dist: decorator (==4.3.0)
+Requires-Dist: elasticsearch (==2.4.0)
+Requires-Dist: enum34 (==1.1.6)
+Requires-Dist: funcsigs (==1.0.2)
+Requires-Dist: futures (==3.2.0)
+Requires-Dist: idna (==2.7)
+Requires-Dist: ipaddress (==1.0.22)
+Requires-Dist: ipython (==5.0.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: mysql-replication (==0.18)
+Requires-Dist: mysqlsmom (==0.1.4)
+Requires-Dist: pathlib2 (==2.3.2)
+Requires-Dist: peewee (==3.5.2)
+Requires-Dist: pexpect (==4.6.0)
+Requires-Dist: pickleshare (==0.7.4)
+Requires-Dist: prompt-toolkit (==1.0.15)
+Requires-Dist: ptyprocess (==0.6.0)
+Requires-Dist: pycparser (==2.18)
+Requires-Dist: Pygments (==2.2.0)
+Requires-Dist: PyMySQL (==0.9.2)
+Requires-Dist: pytz (==2018.5)
+Requires-Dist: redis (==2.10.6)
+Requires-Dist: requests (==2.19.1)
+Requires-Dist: scandir (==1.7)
+Requires-Dist: simplegeneric (==0.8.1)
+Requires-Dist: six (==1.11.0)
+Requires-Dist: traitlets (==4.3.2)
+Requires-Dist: tzlocal (==1.5.1)
+Requires-Dist: urllib3 (==1.23)
+Requires-Dist: wcwidth (==0.1.7)
+Requires-Dist: yolk (==0.4.3)
+
+UNKNOWN
+
+
