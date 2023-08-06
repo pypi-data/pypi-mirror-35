@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-chunked-iterator
+Version: 0.5
+Summary: Iterates Django querysets by chunks, saving memory and allows to start faster.
+Home-page: https://github.com/homm/django-chunked-iterator
+Author: Alexander Karpinsky
+Author-email: homm86@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
