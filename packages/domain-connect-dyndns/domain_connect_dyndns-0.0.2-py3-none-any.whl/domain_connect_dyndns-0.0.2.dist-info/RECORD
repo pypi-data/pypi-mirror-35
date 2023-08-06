@@ -1,0 +1,10 @@
+domain_connect_dyndns-0.0.2.dist-info/METADATA,sha256=inw1cHHkUeeX2hLLjB_htqJuSwJcZShE1qOM_H10eY4,1334
+domain_connect_dyndns-0.0.2.dist-info/RECORD,,
+domain_connect_dyndns-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+domain_connect_dyndns-0.0.2.dist-info/entry_points.txt,sha256=ePtDu3HQY8jd5--X7xSEPco1MXDr1IFx3EmkA7E1o9M,68
+domain_connect_dyndns-0.0.2.dist-info/top_level.txt,sha256=_8EEq2xp_3LjVRkrEGoxJEWn3GbEEvu4l0XLC-9XNSw,7
+dyndns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dyndns/command_line.py,sha256=TGhQL1i9_E-WVodwfHgpeRRtdZbuBndA-YSVS1o4PDA,1752
+dyndns/domain_setup.py,sha256=3hVgbv6-jUNDQOEUVn_ONMWyeJzB1T43tddQEhXNrRE,2997
+dyndns/domain_status.py,sha256=iARwsfY7lfMge381pqOL_BV1v9MRlcSMPYE2wWAbDoA,1264
+dyndns/domain_update.py,sha256=jkd3q8_piV-Fl0CLqBxnHvnUQCw1N_-ek36ZL2FqH7Q,4004
