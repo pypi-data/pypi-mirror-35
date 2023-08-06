@@ -1,0 +1,86 @@
+language: python
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+
+sudo: required
+dist: trusty
+
+env:
+  global:
+    - MODE="test"
+    - PYTHON_VERSION="3.6"
+    - NENGO_DL_TEST_PRECISION="32"
+    - NENGO_DL_TEST_UNROLL="1"
+    - NENGO_DL_TEST_INFERENCE_ONLY="False"
+    - NUMPY_VERSION="numpy<1.15"  # TODO: remove restriction once TensorFlow is compatible with >=1.15
+    - TF_VERSION="tensorflow"
+    - NENGO_VERSION="nengo"
+    - TEST_ARGS=""
+
+  matrix:
+    - MODE="static"
+    - MODE="docs"
+    - # default build
+    - MODE="coverage"
+      NENGO_VERSION="git+https://github.com/nengo/nengo.git"
+      TF_VERSION="tensorflow --pre"
+    - MODE="coverage"
+      NENGO_VERSION="nengo==2.7.0"
+      TF_VERSION="tensorflow==1.4.0"
+      PYTHON_VERSION="2.7"
+    - MODE="examples"
+    - NENGO_DL_TEST_PRECISION="64"
+      TEST_ARGS="--simulator-only"
+    - NENGO_DL_TEST_UNROLL="5"
+      TEST_ARGS="--simulator-only"
+    - NENGO_DL_TEST_INFERENCE_ONLY="True"
+      TEST_ARGS="--inference-only --simulator-only"
+    - NENGO_VERSION="git+https://github.com/nengo/nengo.git"
+      TF_VERSION="tensorflow --pre"
+    - NENGO_VERSION="nengo==2.7.0"
+      TF_VERSION="tensorflow==1.4.0"
+      NUMPY_VERSION="numpy==1.12.1"
+      PYTHON_VERSION="3.4"
+    - PYTHON_VERSION="2.7"
+
+#matrix:
+#  include:
+#    - dist: xenial # gives us a more up-to-date glibc (required by tensorflow)
+#      env: TF_VERSION="tf-nightly" NENGO_VERSION="git+https://github.com/nengo/nengo.git"
+
+# set up miniconda
+before_install:
+  - wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update -q conda
+  - conda info -a
+  - chmod +x .ci/*.sh
+
+# install python requirements
+install:
+  - conda create -q -n test python=$PYTHON_VERSION pip
+  - source activate test
+  # note: we install things in reverse dependency order, so that we can be
+  # sure we end up with the version we specify (and not the version specified
+  # by a downstream dependency)
+  - pip install -e .[tests]
+  - .ci/$MODE.sh install
+  - pip install $TF_VERSION
+  - pip install $NENGO_VERSION
+  - pip uninstall -y numpy  # can conflict with conda numpy install
+  - conda install $NUMPY_VERSION
+  - conda list -e
+  - pip freeze
+
+before_script:
+  - .ci/$MODE.sh before_script
+
+script:
+  - .ci/$MODE.sh script
+
+after_success:
+  - .ci/$MODE.sh after_success
