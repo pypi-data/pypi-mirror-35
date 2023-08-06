@@ -1,0 +1,641 @@
+Metadata-Version: 2.1
+Name: qlite
+Version: 0.0.3
+Summary: QLite is a lite project of SQLite ORM at Python3 for SQLite, as lite ORM for lite SQL.
+Home-page: https://github.com/BorisPlus/otus_webpython_005
+Author: BorisPlus
+Author-email: boris-plus@mail.ru
+License: UNKNOWN
+Description: # QLite - ORM for SQLite, as lite ORM for lite SQL
+        
+        Проект объектно-реляционной связки объектов классов (сущностей) Python3 и таблиц (сущностей) БД SQLite (реализация без метаклассов). 
+        
+        ## Описание
+        **QLite** позволяет производить: 
+        * создание/удаление таблиц;
+        * insert/update данных;
+        * select с указанием необходимых столбцов;
+        * select с поддержкой foreign key и автоджоин таблиц, на которые есть fk;
+        * обрабатку базовых ошибок.
+        
+        ### Требования
+        
+        * Python 3.4
+        * Наличие Python-модуля sqlite3. Удостовертесь в работоспособности:
+            ```python
+              import sqlite3
+            ```
+        
+        ### Установка
+        
+        Скопируйте к себе в проект папку **_qlite_** или установите иным возможным образом.
+        
+        Например так:
+        ```
+        $ cd <your_project_dir>
+        $ git clone git://github.com/BorisPlus/otus_webpython_003.git
+        ```
+        
+        Ссылка для скачивания master-ветки [Zip](https://github.com/BorisPlus/otus_webpython_003/archive/master.zip)
+        
+        ### Использование
+        
+        В рамках проекта:
+        * разработаны классы сущностей, позволяющие работать с таблицами этих сущностей БД SQLite как с классами Python3, а со строками таблиц БД SQLite как с объектами этих классов Python3;
+        * разработаны классы типов данных полей сущностей, используемые в работе с объектами классов Python3;
+        * определены различные виды исключений. 
+         
+        Для понимания:
+        * СУЩНОСТЬ - это и класс в Python3, и таблица БД SQLite
+        * ПОЛЕ СУЩНОСТИ - это и атрибут класса в Python3, и столбец таблицы в БД SQLite (тип данных и внешний ключ в т.ч.)
+        * ОБЪЕКТ СУЩНОСТИ - это и объект класса в Python3, и запись в таблице БД SQLite
+        
+        ### Немного о содержимом ORM-фреймворка
+        
+        Данный ORM фреймворк максимально использует возможности python3-драйвера _sqlite3_, например, в части касающейся:
+        * безопасного исполнения SQL-кода при передаче параметров в SQL-запросы (если только разработчику, использующему данный ORM, в методах работы с ним специально не предоставлена возможность принудительно формировать SQL-инъекцию, ведь иногда это полезно);
+        * определения формата вывода данных (т.н. row_factory) при работе с выводом результатов запросов к БД.
+          
+        Среди разработанных классов:
+         1. **BaseSQLiteDbFieldType** - класс, описывающий наиболее общий вид типа поля сущности, то есть соотетствующего типа данных у столбца таблиц БД. На его основе через наследование стало возможным создать два требуемых по ДЗ типа данных TEXT и INTEGER, а также как пример, не опирающегося на имя класса, тип данных BLOB.
+         
+            Пример создания класса типа данных поля сущности:
+         
+            ```python
+                from qlite.orm.base_classes.base_db_fileld_type import BaseSQLiteDbFieldType
+                
+                class QLText(BaseSQLiteDbFieldType):  # Тип данных TEXT - отсечено QL и переведено в верх.регистр
+                   pass
+                
+                class QLInteger(BaseSQLiteDbFieldType):  # Тип данных INTEGER - отсечено QL и переведено в верх.регистр
+                   pass
+                
+                class QLAsIs(BaseSQLiteDbFieldType):  # Тип данных BLOB
+                   _mapped_sqlite_type = 'BLOB'  # Принудительное строковое наименование типа данных столбца
+            ```
+         
+            Да-да, **это все, что нужно** для типа данных, хотя там много атрибутов, которые Вы можете использовать у себя:
+            ```python
+                _length = None  # длина типа у столбца БД
+                _nullable = True  # допускает ли NULL
+                _default = 'NULL'  # значение по умолчанию
+                _unique = False  # ограничение уникальности
+                _primary = False  # первичный ключ
+                _autoincrement = False  # автоинкремент
+                _mapped_column_name = None  # имя столбца БД, можно задать принудительно или же будет сконструировано
+                _additional_raw_sql_for_column_create = None  # дополнительные SQL данные
+            ```
+            **_Внимание_**: Защиты от "дурака" нет, вля логика проверки валидности создаваемой конструкиции типа данных с использованием комбинаций перечисленных опций ложится на плечи БД (как и многое другое в последующем: например, повторное сохранение тех же данных при наличии ограничения уникальности на них). Если БД ругнется, то где-то Вы не правы.
+         
+         2. **ForeignKey** - класс полей сущностей, являющихся внешними ключами. Все сведения по типу данного поля будут взяты из сведений соответствующего "родительского" поля, то есть указанного Вами класса сущности (либо по его первичному ключу, либо по принудительно указанному Вами названию отсылочного поля).
+         
+         3. **BaseSQLileDbEntityClass** - базовый класс сущностей, то есть самих таблиц БД. Он описывается набором полей  вышеупомянутых типов (_BaseSQLiteDbFieldType_ и _ForeignKey_) и иными дополнительными атрибутами (например, __mapped_table_name_ - принудительное имя таблицы БД). На его основе стало возможным создать базовый класс сущности, имеющей первичный ключ с автоинерементом.
+            ```python
+                from qlite.orm.db_fileld_types import QLInteger
+                from qlite.orm.base_classes.base_db_entity import (
+                    BaseSQLileDbEntityClass
+                )
+                
+                class QLEntityWithPK(BaseSQLileDbEntityClass):
+                    id = QLInteger(mapped_column='__id', primary=True, autoincrement=True)
+                
+            ```
+            , наследование от которого в вашем проекте избавит вас от некоторых тонкостей по работе с БД SQLite.
+         
+            Да-да, это **это все, что нужно** для описания сущности с первичным ключем. Рекомендую Вам использовать этот класс, наследуя свои классы от этого. 
+         
+         4. **QLSessionManager** - класс менеджера запросов к БД. Чтобы в проекте экземпляр сессии всегда был один, где бы Вы его не захотели использовать (вызвать), здесь был применен шаблон проектирования _Singleton_ (экземпляр всегда один и тот же, и если Вы его меняете, он меняется везде). Так как Python3 драйвер для работы с SQLite3 позволяет использовать различные форматы представления итоговых данных, в том числе опираясь на реализуемые сторонними разработчиками функции форматирования данных:
+         
+             ```python
+                connection = sqlite3.connect(connection_string)
+                connection.row_factory = <function_or_class>
+             ```
+            , то была добавлена соответствующая возможность и к _QLSessionManager_ для метода _.get_session()_.
+            Так, например, для запроса (пока не обращайте внимание на суть данных, пример будет подробно рассмотрен в конце)
+            ```sqlite-sql
+            SELECT 
+                "mark"."id" as __mark_id, 
+                "mark"."name" as __mark_name, 
+                "model"."id" as __model_id,
+                "model"."name" as __model_name, 
+                lower("car"."number") as d
+             FROM 
+                "mark", "model", "car" 
+             WHERE 
+                1=1 AND 
+                "model"."id" = "car"."model_id" AND
+                "mark"."id" = "model"."mark_id" 
+            ```
+            Возможные варианты результатов
+            - стандартный \ tuple
+            ```python 
+            QLSessionManager.get_session(file_name)
+            # (2, 'Lada', 8, 'XRay', 'm001mm777')
+            # (2, 'Lada', 8, 'XRay', 'm002mm777')
+            # (1, 'Renault', 2, 'Koleos', 'x003xx86')
+            ```
+            - словарный
+            ```python 
+            QLSessionManager.get_session(file_name, 'as_dictionary')
+            # {'__mark_name': 'Lada', 'd': 'm001mm777', '__mark_id': 2, '__model_id': 8, '__model_name': 'XRay'}
+            # {'__mark_name': 'Lada', 'd': 'm002mm777', '__mark_id': 2, '__model_id': 8, '__model_name': 'XRay'}
+            # {'__mark_name': 'Renault', 'd': 'x003xx86', '__mark_id': 1, '__model_id': 2, '__model_name': 'Koleos'}
+             ```
+            - иной пользовательский, как пример фабрика _sqlite3.Row_
+            ```python
+            QLSessionManager.get_session(file_name, sqlite3.Row)
+            # <sqlite3.Row object at 0x7f04997a74b0>
+            # <sqlite3.Row object at 0x7f04997a7dd0>
+            # <sqlite3.Row object at 0x7f04997a72f0>
+            ```
+         
+            При этом в классе сессий реализованы методы для CREATE/DROP списка сущностей и COMMIT данных сеанса взаимодействия с БД (_пункт ДЗ: создание/удаление таблиц_).
+            То есть, вместо
+            ```python
+            User.create_entity()
+            Place.create_entity()
+            User.drop_entity()
+            ```
+            можно использовать
+            ```python
+            session.create_all_entities(User, Place)
+            session.drop_all_entities(User, )
+            ```
+            , а вместо коммита промежуточного в объекте (**будте осторожны, Вы же помните, что сессия тут всегда одна?!**)
+            ```python
+            me = User(name='BorisPlus', description='Developer')
+            me.save()
+            me.commit()
+            ```
+            можно использовать COMMIT сессии (_пункт ДЗ: insert/update данных_)
+            ```python
+            
+            User(name='SomeOneElse').save()
+            
+            any_other = User(name='SomeOneElse')
+            any_other.save()
+            
+            me.description.set_value('Developer')
+            me.save()
+            
+            session.commit()
+            ```
+        
+            При этом в методах _create_entity_ и _drop_entity_ возможно установление флагов _check_if_not_exists_ и _check_if_exists_ соответственно (по умолчанию они True), которые добавят\удалят в CREATE TABLE инструкцию IF NOT EXISTS и в DROP TABLE инструкцию IF EXISTS соответственно.
+         
+            А в методе _save_ имеется флаг _or_update_ (по умолчанию он True). То есть на самом деле это метод _save_or_update_, описрающийся на наличие значения первичного ключа у объекта класса сущности: если есть значение, то Update, нет - тогда Insert.
+          
+         5. **QLuery** - класс формирования SQL запроса к БД с использованием автоматической связки данных по внешнему ключу или же без них, смотря как укажите (_пункт ДЗ: select с поддержкой foreign key_). 
+         
+        ### Пример базового использования
+        
+        Это разбор [этого](https://github.com/BorisPlus/otus_webpython_005/tree/master/examples_usage/example_001_ddl_crud_operations.py) примера. 
+         
+        Имеются два класса сущностей (далее - просто сущности):
+        
+         ```python
+            class Group(QLEntityWithPK):
+                name = QLText()
+        
+        
+            class User(QLEntityWithPK):
+                _mapped_table_name = 'persons'
+                name = QLText()
+                description = QLAsIs()
+                group = ForeignKey(Group, mapped_column_name='group_id')
+         ```
+         
+         Сущность **_User_** будет связана с таблицей **_persons_** (указали принудительно, если не указывать, то таблица будет называться **_user_**) и иметь внешний ключ на **_Group_** в столбце **_group_id_** (указали принудительно, можно не указывать, если не указывать, то столбец будет называться **_group_**). Есть возможность расширения связи по внешнему ключу, задавая в ForeignKey параметр **\__mapped_foreign_entity_field_\_**, Вы указываете на какое поле в "родительской" сущности будет ссылаться данный внешний ключ.
+            
+         Откроем сессию
+         ```python
+            session = QLSessionManager.get_session(file_name, AS_DICT)
+            ...
+            session.create_all_entities(Group, User)
+         ```
+         что приведет к исполнению
+         
+         ```sqlite-sql
+            CREATE TABLE IF NOT EXISTS "group" ( 
+                "__id" INTEGER PRIMARY KEY AUTOINCREMENT, 
+                "name" TEXT
+            );
+            CREATE TABLE IF NOT EXISTS "persons" (
+                "__id" INTEGER PRIMARY KEY AUTOINCREMENT, 
+                "name" TEXT, 
+                "description" BLOB,
+                "group_id" INTEGER NOT NULL, 
+                FOREIGN KEY("group_id") REFERENCES "group"("__id")
+            );
+         ```
+         _**Ремарка для гуру**_: Мне нравится, когда результат SELECT представляется в виде словаря **_"имя cтолбца": "данные в ячейке"_**, поэтому я использую **_AS_DICT_** параметр в вызове **_get_session_**. Вы можете, как говорил ранее, использовать любой, который позволяет **_sqlite3.connection.row_factory_**, или не указывать его вообще. Однако, есть нюанс. Если Вы хотите использовать не реализованный в Qlite форматированный вывод, то Вам необходимо также реализовать функцию перевода полученного столбца результата (по названию или номеру столбца) в данные поля сущности (пример реализации и интерфейс вызова данной функйии определены в **_sessions.py_**). Это связано с моим желанием загружать именно объекты соответствующих классов по их первичным ключам, а не довольствоваться "сырыми" данными выборки. (Иначе, я считаю, это не "честным" ORM в полном смысле этого слова, где первое "О" - это "объект").
+         
+         Итак.
+         
+         Создадим дружных Алису и Боба и аутсайдера Чарли (с целью повышения наглядности вызовы методов сохранения и коммита в данной демострации и далее опущены, они есть в примере).
+         ```python
+            friendship = Group(name='Friends')
+            outsiders = Group(name='Outsider')
+        
+            alice = User(name='Alice', description='Girl', group=friendship)
+            bob = User(name='Bob', description='Boy', group=friendship)
+            charlie = User(name='Charlie', description='Man', group=outsiders)
+        ```
+         
+        Внесенные данные в таблице _**group**_ сущности _**Group**_
+        * {'name': 'Friends', '__id': 1}
+        * {'name': 'Outsider', '__id': 2}
+        
+        Внесенные данные в таблице _**persons**_ сущности _**User**_
+        * {'name': 'Alice', 'description': 'Girl', 'group_id': 1, '__id': 1}
+        * {'name': 'Bob', 'description': 'Boy', 'group_id': 1, '__id': 2}
+        * {'name': 'Charlie', 'description': 'Man', 'group_id': 2, '__id': 3}
+         
+        Внесем изменения в БД, такие как: подружим Чарли и Алису (ну и Чарли и Боба, Боб же в группе Друзей), потом удалим группу аутсайдеров (она же пуста теперь), а потом и Боба тоже удалим (как-то нехорошо звучит "_удалим Боба_", лучше "_удалим запись о Бобе_"). 
+        
+        ```python
+            charlie.group.set_value(friendship)  # Все дружат
+            outsiders.delete()  # Аутсайдеров больше нет, и группа не нужна
+            bob.delete()  # Боба больше нет :(
+        ```
+        
+        Данные после изменений в таблице group сущности Group
+        * {'name': 'Friends', '__id': 1}
+        
+        Данные после изменений в таблице persons сущности User
+        * {'name': 'Alice', 'description': 'Girl', 'group_id': 1, '__id': 1}
+        * {'name': 'Charlie', 'description': 'Man', 'group_id': **1**, '__id': 3}
+        
+        А вот как "выглядят" объекты (переопределен вызов \_\_str\_\_):
+        ```python
+        
+            print(alice)
+            
+            # {
+            #   'USER': {
+            #       'name': 'Alice', 
+            #       'description': 'Girl', 
+            #       'id': 1, 
+            #       'group': {
+            #           'GROUP': {
+            #               'name': 'Friends', 
+            #               'id': 1
+            #           }
+            #       }
+            #   }
+            # }
+            
+            print(bob)
+            
+            # {
+            #   'USER': {
+            #       'name': 'Bob', 
+            #       'description': 'Boy', 
+            #       'id': **None**,  <--- так как он уже удален из БД
+            #       'group': {
+            #           'GROUP': {
+            #               'name': 'Friends', 
+            #               'id': 1
+            #           }
+            #       }
+            #   }
+            # }
+            
+            print(charlie)
+            
+            # {
+            #   'USER': {
+            #       'name': 'Charlie', 
+            #       'description': 'Man', 
+            #       'id': 3,
+            #       'group': {
+            #           'GROUP': {
+            #               'name': 'Friends', 
+            #               'id': 1
+            #           }
+            #       }
+            #   }
+            # }
+        ```
+        
+        Инициализируем объекта "some_user" только по _id_ Чарли, и загрузим все данные (**load_me_by_pk()**)
+        
+        
+         ```python
+            some_user = User(id=charlie.id.get_value())
+            
+         ```
+         Чтобы подгрузить данные из БД необходимо 
+         ```python
+            some_user.load_me_by_pk()
+            
+         ```
+         Получим
+         ```
+            {
+                'USER': {
+                    'name': 'Charlie', 
+                    'description': 'Man', 
+                    'group': {
+                        'GROUP': {
+                            'name': None, <--- не подгрузился FK, но это ничего, Qlite поможет
+                            'id': 1
+                        }
+                    }, 
+                    'id': 3
+                }
+            }
+         ```
+         Обратите внимание на **_None_** значение имени группы. Да, объект **_User_** загружен, значение его внешнего ключа на объект **Group** имеется (... 'GROUP': { ... 'id': **1** .. } ... ). Но для полной загрузки данных по внешним ключам нужно отменить ленивую загруку данных об объекте по его первичному ключу (_пункт ДЗ: автоджоин таблиц, на которые есть fk_).
+         
+         Продемонстироую это на примере объекта, имеющего два внешних ключа, которые в свою очередь тоже имеют внешние ключи.
+         
+         Давайте поженим Чарли с Алисой (мало того, что мы их подружили, весь "криптомир" над этим бьется), и загрузим данные по бракосочестанию, имея только данные о его первичном ключе, установив загрузку всех внешних ключей и их данных _load_me_by_pk(lazy=**False**)_
+         
+         ```python
+            class Married(QLEntityWithPK):
+                husband = ForeignKey(User)
+                wife = ForeignKey(User)
+                value = QLAsIs()
+        
+            Married.create_entity()  # CREATE TABLE IF NOT EXISTS "married" (
+            #                               "__id" INTEGER PRIMARY KEY AUTOINCREMENT, "value" BLOB,
+            #                               "husband" INTEGER NOT NULL,
+            #                               "wife" INTEGER NOT NULL,
+            #                               FOREIGN KEY("husband") REFERENCES "persons"("__id"),
+            #                               FOREIGN KEY("wife") REFERENCES "persons"("__id")
+            #                          );
+        
+            Married(wife=alice, husband=charlie, value='congratulations!!!').save()
+        
+            just_married = Married(id=1).load_me_by_pk(lazy=False)
+            print(just_married)
+            
+            # {
+            #   'MARRIED':{
+            #       'id': 1,
+            #       'value': 'congratulations!!!',
+            #       'husband': {
+            #           'USER': {
+            #               'id': 3,
+            #               'description': 'WTF',
+            #               'group': {
+            #                  'GROUP': {
+            #                       'id': 1,
+            #                       'name': 'Friends'
+            #                   }
+            #               },
+            #           'name': 'Charlie'
+            #           }
+            #       },
+            #       'wife': {
+            #           'USER': {
+            #               'id': 1,
+            #               'description': 'Girl',
+            #               'group': {
+            #                   'GROUP': {
+            #                       'id': 1,
+            #                       'name': 'Friends'
+            #                   }
+            #               },
+            #               'name': 'Alice'
+            #           }
+            #       }
+            #   }
+            # }
+        
+        ```
+        Так, каскадно, (_**Married(id=1).load_me_by_pk(lazy=False)**_), получим абсолютно полные данные об участниках бракосочетания и их группы.
+        
+        Надеюсь, Вы обратили внимание, что в данном ORM реализован возврат ОБЪЕКТА (**just_married** это ОБЪЕКТ, а не tuple или dict или т.п.).
+         
+        ### Пример работы с "плоскими" запросами
+        
+        Это разбор [этого](https://github.com/BorisPlus/otus_webpython_005/tree/master/examples_usage/example_002_query_with_foreign_key.py) примера.
+        
+        Пусть у нас есть марки автомобилей, модели автомобилей, сведения о самих машинах и используемом ими топливе.
+        
+        ```python
+            class Mark(QLEntityWithPK):
+                name = QLText(nullable=False)
+        
+        
+            class Model(QLEntityWithPK):
+                mark = ForeignKey(Mark, mapped_column_name='mark_id')
+                name = QLText(nullable=False)
+        
+        
+            class FuelType(QLEntityWithPK):
+                name = QLText(nullable=False)
+        
+        
+            class Car(QLEntityWithPK):
+                model = ForeignKey(Model, mapped_column_name='model_id')
+                fuel_type = ForeignKey(FuelType, mapped_column_name='fuel_type_id')
+                number = QLText(nullable=False)
+        
+           ...
+        
+            electricity = FuelType(name='Volt')
+            diesel = FuelType(name='Diesel')
+            renault = Mark(name='Renault')
+            renault_logan = Model(name='Logan', mark=renault)
+            renault_koleos = Model(name='Koleos', mark=renault)
+            renault_megane = Model(name='Megane', mark=renault)
+            renault_master = Model(name='Master', mark=renault)
+            lada = Mark(name='Lada')
+            lada_kalina = Model(name='Kalina', mark=lada)
+            lada_kalina_sport = Model(name='Kalina Sport', mark=lada)
+            lada_vesta = Model(name='Vesta', mark=lada)
+            lada_xray = Model(name='XRay', mark=lada)
+            car_renault_koleos = Car(number='X003XX86', model=renault_koleos, fuel_type=diesel)
+            car_lada_vesta = Car(number='M002MM777', model=lada_xray, fuel_type=electricity)  # Как Вам вариант :)
+        		 
+        ```
+        Сопоставим модели и марки автомобилей:
+        ```python
+            query_0 = QLuery(entities=(Model, Mark))
+            sql_statement_0 = query_0.build_sql_select_statement()
+        ```
+        , что приведет к генерации SQL:
+        ```sqlite-sql
+             SELECT 
+                "model"."__id" as "__model___id", 
+                "model"."name" as "__model_name", 
+                "model"."mark_id" as "__model_mark", 
+                "mark"."__id" as "__mark___id", 
+                "mark"."name" as "__mark_name" 
+            FROM 
+                "model", "mark" 
+            WHERE 1=1 AND 
+                "mark"."__id" = "model"."mark_id" 
+        ```
+        
+        Вы видите, автоматически задействован внешний ключ: **"mark"."__id" = "model"."mark_id"** (_пункт ДЗ: select с поддержкой foreign key и автоджоин таблиц, на которые есть fk_ (но тут нужно уточнить "имеющихся" таблиц-кандидатов из переданногосписка на автоджоин по fk, в варианте выше, объект сам дополнял "не ленясь" себя данными, не зная всех таблиц "в грубину"). 
+        
+        Поучим:
+        ```
+        * {'__model_id': 1, '__mark_name': 'Renault', '__model_mark': 1, '__mark_id': 1, '__model_name': 'Logan'}
+        * {'__model_id': 2, '__mark_name': 'Renault', '__model_mark': 1, '__mark_id': 1, '__model_name': 'Koleos'}
+        * {'__model_id': 3, '__mark_name': 'Renault', '__model_mark': 1, '__mark_id': 1, '__model_name': 'Megane'}
+        * {'__model_id': 4, '__mark_name': 'Renault', '__model_mark': 1, '__mark_id': 1, '__model_name': 'Master'}
+        * {'__model_id': 5, '__mark_name': 'Lada', '__model_mark': 2, '__mark_id': 2, '__model_name': 'Kalina'}
+        * {'__model_id': 6, '__mark_name': 'Lada', '__model_mark': 2, '__mark_id': 2, '__model_name': 'Kalina Sport'}
+        * {'__model_id': 7, '__mark_name': 'Lada', '__model_mark': 2, '__mark_id': 2, '__model_name': 'Vesta'}
+        * {'__model_id': 8, '__mark_name': 'Lada', '__model_mark': 2, '__mark_id': 2, '__model_name': 'XRay'}
+        ```
+        
+        Сопоставление возможно с указанием результирующих столбцов (_пункт ДЗ: select с указанием необходимых столбцов_):
+        ```python
+            query_1 = QLuery(entities=(Model, Mark), fields_full_names=['Mark.name', 'Model.name'])
+            sql_statement_1 = query_1.build_sql_select_statement()
+        ```
+        , что приведет к генерации SQL:
+        ```sqlite-sql
+        SELECT 
+            "mark"."name" as "__mark_name", 
+            "model"."name" as "__model_name" 
+        FROM 
+            "model" as "model", "mark" as "mark" 
+        WHERE 
+            1=1 AND 
+            "mark"."__id" = "model"."mark_id"
+        ```
+        
+        Запросы к сущностям можно раширять, используя метод _join_:
+        ```python
+            query_2_1 = query_1.join(
+                entities=(Car, FuelType), 
+                fields_full_names=['Car.number', 'FuelType.name']
+            )
+            sql_statement_2_1 = query_2_1.build_sql_select_statement()
+        ```
+        , что приведет к
+        ```sqlite-sql
+        SELECT 
+            "mark"."name" as "__mark_name", 
+            "model"."name" as "__model_name", 
+            "car"."number" as "__car_number", 
+            "fueltype"."name" as "__fueltype_name" 
+        FROM 
+            "model" as "model", "mark" as "mark", "car" as "car", "fueltype" as "fueltype" 
+        WHERE 
+            1=1 AND 
+            "model"."__id" = "car"."model_id" AND 
+            "mark"."__id" = "model"."mark_id" AND 
+            "fueltype"."__id" = "car"."fuel_type_id" 
+        
+        ```
+        Вы заметили, что внешние ключи автоматически нашлись как для Car и FuelType из join (_"fueltype"."\_\_id" = "car"."fuel_type_id"_), так и для Model и Car (_"model"."\_\_id" = "car"."model_id"_), хотя _**Model**_ находится в запросе _query_1_.
+        
+        Обратите внимание на автоматическое сохранение порядка следования столбцов в SQL, все согласно переданному их списку.
+        
+        Получим (так как формат представления результирующих данных "словарный", порядок следования ключей не имеет значения):
+        ```
+        * {'__car_number': 'X003XX86', '__model_name': 'Koleos', '__mark_name': 'Renault', '__fueltype_name': 'Diesel'}
+        * {'__car_number': 'M002MM777', '__model_name': 'XRay', '__mark_name': 'Lada', '__fueltype_name': 'Volt'}
+        ```
+        
+        Метод **_join_** гораздо "хитрее", он может содержать в себе указание стратегии расширения внешними ключами
+        текущей выборки, например
+         - **_UseFK.ALL_** (он же **_UseFK.DEFAULT_**) - при поиске внешних ключей сопоставлениея будет между всеми
+          сущностями (_Все сущности_ **=** _сущности в QLuery_ **+** _сущности в его join_).
+         - **_UseFK.THIS_** - поиск внешних ключей будет только у сущностей переданных в join, который лишь дополнит 
+         внешние ключи _QLuery_. Если между сущностями из объекта _QLuery_ и сущносятми, переданными в его метод _join_, существует связь по внешнему ключу, то она в этой стратегии будет проигнорирована
+         - **_UseFK.NONE_** - просто дополнит выборку полным скалярным произведением данных из _QLuery_ абсолютно со всеми данными от переданных в _join_ сущностей.
+        
+         Например, вышеописанный join, имея параметр _foreign_key_research_strategy=**UseFK.THIS**_
+         ```python
+            QLuery(entities=(Model, Mark), fields_full_names=['Model.name', 'Mark.name']).join(
+                entities=(Car, FuelType), foreign_key_research_strategy=UseFK.THIS 
+            )
+        ```
+        привел к:
+        ```sqlite-sql
+            ...
+            WHERE 1=1 AND 
+                "mark"."__id" = "model"."mark_id" AND 
+                "fueltype"."__id" = "car"."fuel_type_id" 
+        ```
+        То есть модели (из **_query_**) и автомобили (из _**join**_) не "срослись" по внешнему ключу, но при этом как внутри **_query_**, так и внутри **_join_** сопоставление по внешнему ключу произведено автоматически.
+        
+        В запросах возможно использование т.н. "SQL-инъекции". Имена столбцов для выборки с префиксом "_**__QL:**_" будут использованы как есть, то есть
+        ```python
+            QLuery(entities=(Model, Mark), fields_full_names=['Model.name', 'Mark.name']).join(
+                entities=(Car, FuelType), 
+                fields_full_names=['Car.number', 'FuelType.name', '__QL:upper("mark"."name") as UPPERCASE_MARK_NAME']
+            )
+        ```
+        приведет к:
+        ```sqlite-sql
+            SELECT 
+                "mark"."name" as "__mark_name", 
+                "model"."name" as "__model_name", 
+                "car"."number" as "__car_number", 
+                "fueltype"."name" as "__fueltype_name", 
+                upper("mark"."name") as UPPERCASE_MARK_NAME 
+            FROM 
+                "model" as "model", "mark" as "mark", "car" as "car", "fueltype" as "fueltype"
+             WHERE 
+                1=1 AND 
+                "model"."__id" = "car"."model_id" AND 
+                "mark"."__id" = "model"."mark_id" AND 
+                "fueltype"."__id" = "car"."fuel_type_id" 
+        ```
+        Получим:
+        ```
+        * {'__car_number': 'X003XX86', '__model_name': 'Koleos', '__mark_name': 'Renault', '__fueltype_name': 'Diesel', 'UPPERCASE_MARK_NAME': 'RENAULT'}
+        * {'__car_number': 'M002MM777', '__model_name': 'XRay', '__mark_name': 'Lada', '__fueltype_name': 'Volt', 'UPPERCASE_MARK_NAME': 'LADA'}
+        ```
+        Разве это не замечательно?.. 
+        
+        да-да, замечательно, что Лада XRay - электромобиль! а Вы о чем подумали?
+        
+        Возможно огриничить итоговый список столбцов большого каскада join, указав список конкретных полей (_пункт ДЗ: select с указанием необходимых столбцов_):
+        ```python
+            ... .fields(fields_full_names=('Car.number', 'Mark.name'))
+        ```
+        , что приведет к:
+        ```sqlite-sql
+            SELECT 
+                "car"."number" as "__car_number", 
+                "mark"."name" as "__mark_name" 
+            FROM 
+                "model" as "model", "mark" as "mark", "car" as "car", "fueltype" as "fueltype" 
+            WHERE 
+                1=1 AND 
+                "model"."__id" = "car"."model_id" AND 
+                "fueltype"."__id" = "car"."fuel_type_id" AND 
+                "mark"."__id" = "model"."mark_id"
+        ```
+        Получим (при этом Вы помните, что изначально Car в **_join_**, а Mark в первоначальном запросе **_query_**):
+        ```
+        * {'__car_number': 'X003XX86', '__mark_name': 'Renault'}
+        * {'__car_number': 'M002MM777', '__mark_name': 'Lada'}
+        ```
+        ### Послесловие
+        
+        А, ну да... есть еще возможность как в _QLuery_, так и в _join_, так и в _fields_ передать SQL-инъекцию в аргументе _where_raw_sql_injection_, например, для дополнительного условия у WHERE. Будте внимательны, _where_raw_sql_injection_, последующий в вызове методов, переопределит такую инъекцию предыдущей выборки. А у классов есть параметр декларированной SQL-инъекции - __additional_sql_of_create_table_. И у классов полей сущностей так же __additional_raw_sql_for_column_create_, который можно использовать, например, у ForeignKey для указания каскадного удаления\изменения данных при удалении родителя внешнего ключа.
+        
+        ## Чего нет в этом ORM фреймворке:
+        
+        - хотелось бы в Qluery возвращать не "плоские" значения из запросов к БД, а именно объекты классов (У нас же
+        ОБЪЕКТНО-реляционное связывание)
+        - необходим конструктор SQL-условий _Where_, накладываемых на выборку, чтоб оперировать и AND, и OR, и NOT, и т.п.
+        - хотелось бы иметь доступ к объектам внешнего ключа через точку _car.mark_, а _не car.mark.get_value()_ и _не car.mark.set_value()_ (нужно расширить и переопределить в ForeignKey метод __get__ или в конце концов использовать метаклассы).
+        
+        ## Авторы
+        
+        * **BorisPlus** - [https://github.com/BorisPlus/otus_webpython_005](https://github.com/BorisPlus/otus_webpython_005)
+        
+        ## Лицензия
+        
+        Распространяется свободно.
+        
+        ## Дополнительные сведения
+        
+        Проект в рамках двухнедельного домашнего задания курса "Web-разработчик на Python" на https://otus.ru/learning
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
