@@ -1,0 +1,7 @@
+requests
+future
+click
+pyfiglet
+six
+Prettytable
+termcolor
