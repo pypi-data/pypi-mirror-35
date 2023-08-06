@@ -1,0 +1,5 @@
+numpy
+tables!=3.4.1,>=3.0
+six
+textinput
+path.py>=11
