@@ -1,0 +1,3 @@
+[console_scripts]
+fits-to-stamps = fits_to_stamps.fits_to_stamps:main
+

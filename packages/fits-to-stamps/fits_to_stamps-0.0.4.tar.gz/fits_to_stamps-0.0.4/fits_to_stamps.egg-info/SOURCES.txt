@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+fits_to_stamps/__init__.py
+fits_to_stamps/fits_to_stamps.py
+fits_to_stamps.egg-info/PKG-INFO
+fits_to_stamps.egg-info/SOURCES.txt
+fits_to_stamps.egg-info/dependency_links.txt
+fits_to_stamps.egg-info/entry_points.txt
+fits_to_stamps.egg-info/not-zip-safe
+fits_to_stamps.egg-info/requires.txt
+fits_to_stamps.egg-info/top_level.txt
