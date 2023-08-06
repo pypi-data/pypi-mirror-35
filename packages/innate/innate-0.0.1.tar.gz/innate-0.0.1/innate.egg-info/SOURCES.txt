@@ -1,0 +1,8 @@
+README.md
+setup.py
+innate/__init__.py
+innate/__version__.py
+innate.egg-info/PKG-INFO
+innate.egg-info/SOURCES.txt
+innate.egg-info/dependency_links.txt
+innate.egg-info/top_level.txt
