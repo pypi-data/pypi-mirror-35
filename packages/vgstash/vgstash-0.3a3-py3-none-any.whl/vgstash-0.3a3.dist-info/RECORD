@@ -1,0 +1,9 @@
+vgstash_cli.py,sha256=WugUQGco4nkOlfFdmOs4Lzk86YJpRQA64dWEI1D_Hro,2008
+vgstash/__init__.py,sha256=sVFcH4s--QZfIKYZ3aIZ4UAXOjBxV-dzqT86RNHQa_o,10909
+vgstash/test_vgstash.py,sha256=mAbfVJdg-fWW2pt_jYFyCegjbc0u1Qj5vDa2Apia_68,5499
+vgstash/test_vgstash_cli.py,sha256=UFzBbo1KvzdKpnpbzxijNnx2gHZg4zYWHDtD9mJXD_c,2396
+vgstash-0.3a3.dist-info/METADATA,sha256=RnIy19J44Gxi9QcZUkMX6LL-YxDxvmisB0tKyTTgoNc,4094
+vgstash-0.3a3.dist-info/RECORD,,
+vgstash-0.3a3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+vgstash-0.3a3.dist-info/entry_points.txt,sha256=FEW8eSDS77nxBz73vmtZBzMs9eVEuFqj7-rEM5Om3J8,74
+vgstash-0.3a3.dist-info/top_level.txt,sha256=3w8jhXypuM8hS6O2MiwkulkXscLV49xguvaXewG1Q0g,20
