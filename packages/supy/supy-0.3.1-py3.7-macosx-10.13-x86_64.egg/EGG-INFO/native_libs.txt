@@ -1,0 +1,2 @@
+supy/SUEWS_driver.cpython-37m-darwin.so
+supy/SUEWS_driver.cpython-37m-darwin.so.dSYM/Contents/Resources/DWARF/SUEWS_driver.cpython-37m-darwin.so
