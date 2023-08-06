@@ -1,0 +1,9 @@
+README.md
+setup.py
+treetagger-xml/__init__.py
+treetagger-xml/process.py
+treetagger_xml.egg-info/PKG-INFO
+treetagger_xml.egg-info/SOURCES.txt
+treetagger_xml.egg-info/dependency_links.txt
+treetagger_xml.egg-info/requires.txt
+treetagger_xml.egg-info/top_level.txt
