@@ -1,0 +1,7 @@
+ecdsa==0.13
+flask<2,>=1.0.2
+PyJWT<2,>=1.6.4
+SQLAlchemy<2,>=1.2
+Cerberus<2,>=1.2
+pycryptodome<4,>=3.6
+mysql-connector<3,>=2.1.6
