@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: elastico
+Version: 0.0.56
+Summary: Elasticsearch Companion - a commandline tool
+Home-page: https://github.com/klorenz/python-elastico
+Author: Kay-Uwe (Kiwi) Lorenz
+Author-email: kiwi@franka.dyndns.org
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
