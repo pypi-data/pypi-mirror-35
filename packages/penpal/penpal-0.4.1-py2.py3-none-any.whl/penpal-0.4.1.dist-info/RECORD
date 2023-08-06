@@ -1,0 +1,10 @@
+pen/__init__.py,sha256=S6DlwDtIiXMQDsfx0eAZ9eLqW7m8gATtA5ehNh0w57E,182
+pen/cli.py,sha256=NUp5fo9jiKWukXAJRk0dt6s-R5G04bb5ciH3L7zOfR4,389
+pen/core.py,sha256=_-mv0Yz-nED5hnbeGHdebiOATG50dDCPtfbHxoSvt6w,2918
+pen/edit.py,sha256=0ODIcv4xYax-RoTuSRcTucQjGa0kgqBJC3oL_kr6O4Q,5678
+pen/storage.py,sha256=uRN4E0T8Cg3A3k1t6FnG6znoIw-lHBQ56o2HfpMQNLM,962
+penpal-0.4.1.dist-info/METADATA,sha256=90x0ZdhvvlQmRC6n8VFcPcbWAMahWWzCdvTkdY3cWHs,3262
+penpal-0.4.1.dist-info/RECORD,,
+penpal-0.4.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+penpal-0.4.1.dist-info/entry_points.txt,sha256=p5i015R0c_pPDJkjLn110t-0Pob4sb9unRpKzNsZPuo,38
+penpal-0.4.1.dist-info/top_level.txt,sha256=-zusVjv9XSgI-Sh_MUObT8HKp59uDhysWPCQibh9nJE,4
