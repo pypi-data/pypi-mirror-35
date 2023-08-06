@@ -1,0 +1,3 @@
+[console_scripts]
+lias = lias:command_line_runner
+

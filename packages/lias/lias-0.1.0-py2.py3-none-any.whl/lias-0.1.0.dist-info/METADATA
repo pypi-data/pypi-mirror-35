@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lias
+Version: 0.1.0
+Summary: reformatted imports via the command line.
+Home-page: https://github.com/chenjiandongx/lias
+Author: chenjiandongx
+Author-email: chenjiandongx@qq.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: isort
+Requires-Dist: glob2
+
+UNKNOWN
+
+
