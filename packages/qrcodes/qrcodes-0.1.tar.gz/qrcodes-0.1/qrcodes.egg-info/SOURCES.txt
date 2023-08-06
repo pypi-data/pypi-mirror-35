@@ -1,0 +1,7 @@
+setup.py
+qrcodes.egg-info/PKG-INFO
+qrcodes.egg-info/SOURCES.txt
+qrcodes.egg-info/dependency_links.txt
+qrcodes.egg-info/not-zip-safe
+qrcodes.egg-info/top_level.txt
+slashdot/__init__.py
