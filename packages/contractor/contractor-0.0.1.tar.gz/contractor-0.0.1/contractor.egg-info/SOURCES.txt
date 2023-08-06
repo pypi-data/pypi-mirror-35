@@ -1,0 +1,6 @@
+README.md
+setup.py
+contractor.egg-info/PKG-INFO
+contractor.egg-info/SOURCES.txt
+contractor.egg-info/dependency_links.txt
+contractor.egg-info/top_level.txt
