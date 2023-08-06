@@ -1,0 +1,9 @@
+simple_spider/__init__.py,sha256=bRaw833-6uOe5YL9fOmKx_YpJBuHKr8aJVM1t52TgqU,90
+simple_spider/base_spider.py,sha256=TTd7OpZ7uQn68bPxaVzU0P3AnlztZY0MGUwsabaCWME,6341
+simple_spider/fetcher.py,sha256=t1863hNuL5yK6OoNRe0pTZZ3gBr5naeiWx0F6_PdE8Y,1940
+simple_spider/proxy.py,sha256=aaX3Cz51GxusU2kkYQ1UfU0OyZQM9McCmRMt2ZlOWZ4,1987
+simple_spider/utils.py,sha256=dl_V5VdvOu8h8rv21sQIVm0RJo-nK60mvgy-Y5aiW94,311
+simple_spider-1.3.2.dist-info/METADATA,sha256=9pIcpwaq0LBPUl8Qw2Nz84pRncBK_VcCPQzmpUNbHiw,614
+simple_spider-1.3.2.dist-info/RECORD,,
+simple_spider-1.3.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+simple_spider-1.3.2.dist-info/top_level.txt,sha256=EknCWg25vAELlNBmQhhnsB1AOXUwY5xG90EV-21vHqs,14
