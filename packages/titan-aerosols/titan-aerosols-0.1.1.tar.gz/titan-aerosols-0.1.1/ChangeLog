@@ -1,0 +1,35 @@
+CHANGES
+=======
+
+0.1.1
+-----
+
+* Add zenodo doi
+* Fix pypi target url
+
+0.1
+---
+
+* Push Development status to beta
+* Add pytest approx
+* Fix travis CI
+* Fix travis config stages
+* Add new Tholins Doose optical indexes
+* Track database with lfs
+* Add travis CI
+* Udpate README Python and CLI usages
+* Change CLI fractal order args
+* Change package name
+* Add fractal tholins cli output
+* Remove empty parenthesis
+* Remove #!/bin/python header
+* Add fractals aggreagtes
+* Move mie\_tholins to tholins
+* Add mie from Bohren and Huffman
+* Update requirements
+* Add Tholins CVD optical indexes interpolation
+* Drop python 2.7 support
+* Add optical index db
+* Update print for Python 3
+* Add .gitignore
+* Initial commit
