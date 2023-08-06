@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lookout-style
+Version: 0.0.2
+Summary: Machine learning-based assisted code review - code style analyzers.
+Home-page: https://github.com/src-d/style-analyzer
+Author: source{d}
+Author-email: machine-learning@sourced.tech
+License: AGPL-3.0
+Download-URL: https://github.com/src-d/style-analyzer
+Description: UNKNOWN
+Keywords: machine learning on source code,babelfish
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Quality Assurance
+Provides-Extra: tf
+Provides-Extra: tf_gpu
+Provides-Extra: test
