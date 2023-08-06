@@ -1,0 +1,10 @@
+README.md
+setup.py
+instagram_api_wrapper/__init__.py
+instagram_api_wrapper/client.py
+instagram_api_wrapper/exceptions.py
+instagram_api_wrapper.egg-info/PKG-INFO
+instagram_api_wrapper.egg-info/SOURCES.txt
+instagram_api_wrapper.egg-info/dependency_links.txt
+instagram_api_wrapper.egg-info/requires.txt
+instagram_api_wrapper.egg-info/top_level.txt
