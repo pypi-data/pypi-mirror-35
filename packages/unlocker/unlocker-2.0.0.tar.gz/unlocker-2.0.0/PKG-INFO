@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: unlocker
+Version: 2.0.0
+Summary: CLI credentials manager
+Home-page: https://github.com/lexndru/unlocker
+Author: Alexandru Catrina
+Author-email: alex@codeissues.net
+License: MIT
+Download-URL: https://github.com/lexndru/unlocker/archive/v2.0.0.tar.gz
+Description: Unlocker is a keychain and a CLI credentials manager. Useful when you use a terminal often than GUI applications for remote connections (e.g. databases, SSH, rsync). It can store passwords and private keys. It comes with addons to encrypt keychain and fast passwordless connect to servers.
+Keywords: credentials manager,keychain,remote connection
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Education
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Unix Shell
+Classifier: Operating System :: POSIX
