@@ -1,0 +1,4 @@
+[console_scripts]
+mpimagic = mpiutils.mpimap:mpimagic
+mpimap = mpiutils.mpimap:mpimap
+
