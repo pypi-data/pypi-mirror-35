@@ -1,0 +1,13 @@
+shibboleth_authenticator/__init__.py,sha256=ULMjz_AVirdpbPbHZ7E_1oELdnYoIQiRSJAckSBPYaY,3159
+shibboleth_authenticator/_compat.py,sha256=62tkYZRdn4Uz5dWsHoOtP29dqgx6Oh42WLX7YubQLq4,1087
+shibboleth_authenticator/config.py,sha256=jFNNmRoRsAh-NMMHXDT7Jh8M7gr0Gr5wRWsAYYNxKL4,4401
+shibboleth_authenticator/ext.py,sha256=52NmDbIVXDxU_4zRdBtN91FzCSSV_yuS7qfp_9E480w,1549
+shibboleth_authenticator/handlers.py,sha256=oNz5brE-r5Sppn6iWGwmlDYT02N_6Wbl41nKhk0h3kc,3700
+shibboleth_authenticator/utils.py,sha256=95K0UqYHGZgAE3wcr92zeYmyHdG9bPk7BVC-cM5qSqQ,2488
+shibboleth_authenticator/version.py,sha256=IJWBDnmtPw64sBUApfMb-ssSfFEwyqe1TeSF2S_nfp4,968
+shibboleth_authenticator/views.py,sha256=7uQVaUbcRecPpbFovZl__LecUNpStY0JCqT0P00dXLA,7372
+shibboleth_authenticator-0.1.4.dist-info/METADATA,sha256=d0Lwu65zc8pfopmfN6jY3qcLrjwCTf40ihVzwhHPSUk,6571
+shibboleth_authenticator-0.1.4.dist-info/RECORD,,
+shibboleth_authenticator-0.1.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+shibboleth_authenticator-0.1.4.dist-info/entry_points.txt,sha256=LYQdxoOfQpzvYo5I7HUpcQPvc-hcJMig00Zf2rWMvyI,196
+shibboleth_authenticator-0.1.4.dist-info/top_level.txt,sha256=cAfXKf3hHdHcQCVfA0MV1E9wcWUCmZSnWVf97cfMuOY,25
