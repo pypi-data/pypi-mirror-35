@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pynleq2
+Version: 0.1.0
+Summary: Python binding for NLEQ2
+Home-page: https://github.com/bjodah/pynleq2
+Author: Björn Dahlgren
+Author-email: bjodah@DELETEMEgmail.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Fortran
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires: numpy
