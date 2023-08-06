@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: ISEE_SiPM
+Version: 1.1.0
+Summary: Commont Python toolset for SiPM analysis
+Home-page: https://github.com/akira-okumura/ISEE_SiPM
+Author: Akira Okumura
+Author-email: oxon@mac.com
+License: MIT License
+Description: Common Python toolset for SiPM analysis
+Platform: MacOS :: MacOS X
+Platform: POSIX
+Platform: Windows
+Classifier: Topic :: Terminals :: Serial
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
