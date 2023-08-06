@@ -1,0 +1,9 @@
+README.md
+polycode.py
+setup.py
+polycode.egg-info/PKG-INFO
+polycode.egg-info/SOURCES.txt
+polycode.egg-info/dependency_links.txt
+polycode.egg-info/entry_points.txt
+polycode.egg-info/requires.txt
+polycode.egg-info/top_level.txt
