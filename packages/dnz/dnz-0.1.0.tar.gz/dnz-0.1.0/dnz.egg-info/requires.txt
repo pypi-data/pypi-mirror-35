@@ -1,0 +1,4 @@
+click
+tldextract
+requests
+dnspython
