@@ -1,0 +1,12 @@
+j2s3/__init__.py,sha256=ijq_7tbbTz8T1sKE6X44c8WVFWM6CVBGNd1gHwdCzko,18
+j2s3/file_service.py,sha256=vPALct4cN1Lc3AhLMyZm4s9IfNZKXDln8fVFfxvspJA,208
+j2s3/iam_policy.py,sha256=Ej1wHWBxOaFt89p7vXInQsyS9h2qe6tgOoKj7FBVsn8,413
+j2s3/main.py,sha256=4rIrCSDjPRXdx_VRLgbrLwSmjypBGjj10tYVBsQhcRQ,887
+j2s3/maven_service.py,sha256=O6LLthMcgS9tp-m-bQAtisCXjWCgoVQ3QbGmw9tC1QY,473
+j2s3/pom.py,sha256=R1D5EY6GHsKL91NsIdEl07fYPyHcNNTJqhFBcqRFu7c,2941
+j2s3/settings.py,sha256=4uhFXNIZCEsTexb-OJfVR7yB7bprlBoXs5rIRBl1Mjo,960
+j2s3/xml_service.py,sha256=NyqLJGZzEjSvSAXkcohtkt2NOWlDafesTzNcX67nobM,95
+j2s3-1.0.2.dist-info/METADATA,sha256=8jamdj-YkaYP6iwRBk3prAWrQA7tVvr6AYmeRVyVp0w,787
+j2s3-1.0.2.dist-info/RECORD,,
+j2s3-1.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+j2s3-1.0.2.dist-info/top_level.txt,sha256=f9pAl9faxTNSIQ8pREPOEvkILWEDgwopVSyyWgtX5rM,5
