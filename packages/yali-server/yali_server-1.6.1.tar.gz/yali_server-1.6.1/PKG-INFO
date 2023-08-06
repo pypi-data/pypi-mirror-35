@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: yali_server
+Version: 1.6.1
+Summary: this is for log record for ios or android
+Home-page: https://github.com/wenyali/yali_server.git
+Author: wenyali
+Author-email: 2917073217@qq.com
+License: UNKNOWN
+Description: this is for log record for ios or android,有问题可以联系我，温亚莉
+Keywords: keyword
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
