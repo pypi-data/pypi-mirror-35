@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+bin/py-noter
+pynoter/__init__.py
+pynoter.egg-info/PKG-INFO
+pynoter.egg-info/SOURCES.txt
+pynoter.egg-info/dependency_links.txt
+pynoter.egg-info/not-zip-safe
+pynoter.egg-info/requires.txt
+pynoter.egg-info/top_level.txt
+pynoter/fcn/__init__.py
+pynoter/fcn/conv_raw.py
+pynoter/tests/markup.json
