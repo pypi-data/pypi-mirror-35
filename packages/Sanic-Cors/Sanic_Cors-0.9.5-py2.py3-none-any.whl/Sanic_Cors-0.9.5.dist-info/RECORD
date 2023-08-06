@@ -1,0 +1,9 @@
+Sanic_Cors-0.9.5.dist-info/METADATA,sha256=W4dAD3ICGuZaXYzYrOEFnWsxwfPlTdDBMJIDLIpCvc4,6557
+Sanic_Cors-0.9.5.dist-info/RECORD,,
+Sanic_Cors-0.9.5.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+Sanic_Cors-0.9.5.dist-info/top_level.txt,sha256=Sbj9hXeNPMJWOuXy1SsYezhoOuzpKeZjFDGgKxEESak,11
+sanic_cors/__init__.py,sha256=_rKCSXFi05xb4xxjGAZs-j8Fh5TOT1nBvX0YXgG2Qgg,964
+sanic_cors/core.py,sha256=0mlqfZSNrf1J5iVUUEkAiMiXWwFHxFxQMa0al1UZHDY,14355
+sanic_cors/decorator.py,sha256=dwrJHsaLjJ34cDX9Tr1xeKTumW8wFsjiB0in8gls3G0,4312
+sanic_cors/extension.py,sha256=RZVI80EWa-CQSLeqNauUoznabyh7C1AqpALvO7Mbt_Q,13247
+sanic_cors/version.py,sha256=KdjdLD2Ih8isiZGr12GUg7fDzQKGgS2c2XOqkmiFJOM,22
