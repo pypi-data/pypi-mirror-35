@@ -1,0 +1,1 @@
+from .suzuripy import SuzuriClient
