@@ -1,0 +1,66 @@
+#! /usr/bin/env python
+#
+# Remove wildcard imports from Python code.
+#
+# Takes Python code on stdin and copies it to stdout,
+# replacing any 'from foo import *' with a multi-line
+# import of all the symbols in foo.
+#
+# You can then use pylint or similar to identify and
+# delete the unneeded symbols.
+#
+# See http://github.com/quentinsf/dewildcard for info.
+#
+# Quentin Stafford-Fraser, 2015
+
+import argparse
+import importlib
+import re
+import sys
+
+def import_all_string(module_name, single_line):
+    importlib.import_module(module_name)
+    if single_line:
+        import_line = 'from %s import %%s\n' % module_name
+        length = 0
+        separator = ', '
+    else:
+        import_line = 'from %s import ( %%s )\n' % module_name
+        length = len(import_line) - 5
+        separator = ',\n'
+
+    return import_line % (separator + length * ' ').join(
+        [a for a in dir(sys.modules[module_name]) if not a.startswith('_')] )
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('file', help='input file')
+    parser.add_argument('-w', '--write', action='store_true',
+            help='write in place instead of stdout')
+    parser.add_argument( '--single-line', action="store_true",
+            help="write imports on a single line")
+    args = parser.parse_args()
+
+    try:
+        open(args.file)
+        if args.write:
+            open(args.file, 'a')
+    except IOError as e:
+        sys.stderr.write(str(e) + '\n')
+        sys.exit(1)
+
+    import_all_re = re.compile(r'^\s*from\s*([\w.]*)\s*import\s*[*]')
+    parsed_lines = []
+    with open(args.file) as f:
+        for line in f:
+            match = import_all_re.match(line)
+            if match:
+                line = import_all_string(match.group(1), args.single_line)
+            parsed_lines.append(line)
+
+    dest = open(args.file, 'w') if args.write else sys.stdout
+    dest.writelines(parsed_lines)
+    dest.close()
+
+if __name__ == '__main__':
+    main()
