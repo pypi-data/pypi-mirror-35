@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: thamos
+Version: 0.0.1
+Summary: A CLI tool and library for interacting with Thoth
+Home-page: UNKNOWN
+Author: Fridolin Pokorny
+Author-email: fridolin@redhat.com
+License: GPLv3+
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: certifi
+Requires-Dist: six
+Requires-Dist: python-dateutil
+Requires-Dist: setuptools
+Requires-Dist: urllib3
+Requires-Dist: daiquiri
+Requires-Dist: click
+
+A CLI tool and library for interacting with Thoth
+
+
