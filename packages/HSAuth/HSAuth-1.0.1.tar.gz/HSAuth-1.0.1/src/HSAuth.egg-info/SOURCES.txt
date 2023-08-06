@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/HSAuth.egg-info/PKG-INFO
+src/HSAuth.egg-info/SOURCES.txt
+src/HSAuth.egg-info/dependency_links.txt
+src/HSAuth.egg-info/requires.txt
+src/HSAuth.egg-info/top_level.txt
+src/hs_auth/__init__.py
+src/hs_auth/decor_token.py
