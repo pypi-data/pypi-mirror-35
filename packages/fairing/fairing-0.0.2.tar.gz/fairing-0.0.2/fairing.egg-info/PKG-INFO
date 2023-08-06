@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fairing
+Version: 0.0.2
+Summary: Easily train and serve ML models on Kubernetes, directly from your python code.
+Home-page: https://github.com/wbuchwalter/fairing
+Author: William Buchwalter
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: dev
