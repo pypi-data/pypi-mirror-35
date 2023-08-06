@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: geojson2fromto
+Version: 0.2.2
+Summary: Python module to convert GeoJSON to the 'from-to' format used by deck.gl's LineLayer
+Home-page: https://github.com/weaselandfox/geojson2fromto
+License: UNKNOWN
+Author: Weasel & Fox
+Author-email: hello@weaselandfox.com
+Classifier: License :: OSI Approved :: MIT License
