@@ -1,0 +1,2 @@
+https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.0.0/en_core_web_lg-2.0.0.tar.gz#egg=en_core_web_lg-2.0.0
+https://github.com/clips/pattern/tarball/53245196139c6ef26dc9c34873dda8a16f236d23#egg=pattern-2.6
