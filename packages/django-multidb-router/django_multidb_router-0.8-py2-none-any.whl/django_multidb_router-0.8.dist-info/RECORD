@@ -1,0 +1,8 @@
+django_multidb_router-0.8.dist-info/METADATA,sha256=9rEZeuCnxGfpMNkY8e4vdfp2_LN6YvEmddLSQHXXG5s,4861
+django_multidb_router-0.8.dist-info/RECORD,,
+django_multidb_router-0.8.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+django_multidb_router-0.8.dist-info/top_level.txt,sha256=mJePhcTQTSps64pxEkIl1bcu-WXw77w_jOfznoWgKB0,8
+multidb/__init__.py,sha256=9Re5HWINBIbBkoPOqzu2FbFKrWTOvpjVj9GaPbK3w_Q,3010
+multidb/middleware.py,sha256=ha0N9Ul4JedouWibIzalgIuamAMB8D5j3nFAR185ZeI,1968
+multidb/pinning.py,sha256=vuAqAMNHIpi6P06q4YngCNwwLB4Uo9Zb5azmJYOJmfM,1595
+multidb/tests.py,sha256=oQ6BQwMbmjEhiuQ1OP7qNehFG_Jor_JUFf3Av7a8AZs,8161
