@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: FortniteTrackerAPI
+Version: 0.0.1
+Summary: A simple package to grab stats via Fortnite Tracker and place them into an easy to use stats object
+Home-page: https://github.com/tww0003/Fortnite-Tracker-Python-Wrapper
+Author: Tyler Williamson
+Author-email: tylerwil@gmail.com
+License: UNKNOWN
+Description: A simple package to grab stats via Fortnite Tracker and place them into an easy to use stats object
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3

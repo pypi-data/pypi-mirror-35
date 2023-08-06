@@ -1,0 +1,8 @@
+setup.py
+FortniteAPI/FortniteAPI.py
+FortniteAPI/Stats.py
+FortniteAPI/__init__.py
+FortniteTrackerAPI.egg-info/PKG-INFO
+FortniteTrackerAPI.egg-info/SOURCES.txt
+FortniteTrackerAPI.egg-info/dependency_links.txt
+FortniteTrackerAPI.egg-info/top_level.txt
