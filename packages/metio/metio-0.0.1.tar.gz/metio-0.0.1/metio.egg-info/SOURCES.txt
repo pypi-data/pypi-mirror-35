@@ -1,0 +1,7 @@
+README.txt
+setup.py
+metio.egg-info/PKG-INFO
+metio.egg-info/SOURCES.txt
+metio.egg-info/dependency_links.txt
+metio.egg-info/requires.txt
+metio.egg-info/top_level.txt
