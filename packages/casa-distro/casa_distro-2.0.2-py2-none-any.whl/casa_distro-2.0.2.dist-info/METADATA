@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: casa-distro
+Version: 2.0.2
+Summary: CASA-DISTRO
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: CeCILL-B
+Platform: UNKNOWN
+Requires-Dist: six
+
+========
+CASA-DISTRO 
+========
+
+CASA : CATI and BrainVISA DevOps platform
+CASA-DISTRO : powerful tool to manage the distribution of BrainVISA 
+
+

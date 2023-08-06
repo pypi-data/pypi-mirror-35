@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"document_names": {"description": "DESCRIPTION.rst"}}}, "extras": [], "generator": "bdist_wheel (0.30.0)", "license": "CeCILL-B", "metadata_version": "2.0", "name": "casa-distro", "run_requires": [{"requires": ["six"]}], "summary": "CASA-DISTRO", "version": "2.0.2"}
