@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+ludicrousdns/__init__.py
+ludicrousdns/ludicrousdns.py
+ludicrousdns.egg-info/PKG-INFO
+ludicrousdns.egg-info/SOURCES.txt
+ludicrousdns.egg-info/dependency_links.txt
+ludicrousdns.egg-info/not-zip-safe
+ludicrousdns.egg-info/requires.txt
+ludicrousdns.egg-info/top_level.txt
