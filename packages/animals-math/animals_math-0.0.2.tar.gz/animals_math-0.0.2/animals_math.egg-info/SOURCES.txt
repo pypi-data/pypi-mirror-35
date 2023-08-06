@@ -1,0 +1,6 @@
+README.md
+setup.py
+animals_math.egg-info/PKG-INFO
+animals_math.egg-info/SOURCES.txt
+animals_math.egg-info/dependency_links.txt
+animals_math.egg-info/top_level.txt
