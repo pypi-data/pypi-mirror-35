@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pointless
+Version: 0.3.4
+Summary: A read-only relocatable data structure for JSON like data, with C and Python APIs
+Home-page: https://github.com/arnimarj/py-pointless
+Maintainer: Arni Mar Jonsson
+Maintainer-email: arnimarj@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/arnimarj/py-pointless/archive/v0.2.8.2.tar.gz
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+
+UNKNOWN
+
+
