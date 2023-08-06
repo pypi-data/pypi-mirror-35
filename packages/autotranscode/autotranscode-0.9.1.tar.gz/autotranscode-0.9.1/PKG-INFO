@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: autotranscode
+Version: 0.9.1
+Summary: A simple, fast and reliable music library transcoder
+Home-page: http://gitlab.litbird.de/Thane_DE/AutoTranscode
+Author: Thane
+Author-email: thane@gitlab.litbird.de
+License: GNU GPL v3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
