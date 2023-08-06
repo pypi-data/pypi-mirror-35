@@ -1,0 +1,7 @@
+requests
+python-magic
+aiohttp
+tqdm
+
+[GUI]
+pillow
