@@ -1,0 +1,6 @@
+psycopg2
+SQLAlchemy
+
+[testing]
+pytest
+pytest-cov
