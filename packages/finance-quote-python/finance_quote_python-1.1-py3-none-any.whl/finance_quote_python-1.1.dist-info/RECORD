@@ -1,0 +1,10 @@
+finance_quote_python/__init__.py,sha256=a99ooMwOgW6GhpY2LF_I9JXZ5RIlGJ8e7aATUJHOG0g,26
+finance_quote_python/alphavantage.py,sha256=KAx2UyiWOxcoT6lLsZZwk3B60lNbNm1ywGE7I7Su4ww,1450
+finance_quote_python/finance.py,sha256=uQDrl1oEwgtCegOsxlYgxSPFCFPz3ncGxJKoxU8ZXFY,4143
+finance_quote_python/fixerio.py,sha256=T-aUuaXAQiCuSa-chnKxSs0CGDaU97vagKXeyV7is44,6255
+finance_quote_python/morningstar.py,sha256=0kAdPRAPm5ZJtPHS6LcNUzsR4MQ3gD86fzr4Vx7Omok,2967
+finance_quote_python/vanguard_au.py,sha256=Lc882ONI9eMlYR9I7SsfeMKTk3p9DF5zTrTpP_2YrpE,5051
+finance_quote_python-1.1.dist-info/METADATA,sha256=8tcf0VIj_KBpejQNRIgvei6DkN9BboXifoW0EPmk6T8,267
+finance_quote_python-1.1.dist-info/RECORD,,
+finance_quote_python-1.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+finance_quote_python-1.1.dist-info/top_level.txt,sha256=driRAaVBqXMc5S2u74NC6fPmoMXshvF0y7SP3IHrzRA,21
