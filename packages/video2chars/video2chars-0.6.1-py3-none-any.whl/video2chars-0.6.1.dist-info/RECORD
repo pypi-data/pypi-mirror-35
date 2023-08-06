@@ -1,0 +1,9 @@
+video2chars/DroidSansMono.ttf,sha256=ErVS3nZdwSZdZPn1VmZJkw3eTboH2gJR2fkoAecKEEc,119380
+video2chars/__init__.py,sha256=Tnp22QNZeFPSL0CD9UqcDA4kp-W9K11kC9qRyCP7Uoo,1200
+video2chars/__main__.py,sha256=GhM2C0SAl3xL81kvXOwBwvbWC3ycPdPqct59HyjVs8k,74
+video2chars/converter.py,sha256=c3sAcfrYb6tFAXaXJlWQnUYieACF_qLS5Eg3XYXaZTo,2842
+video2chars-0.6.1.dist-info/METADATA,sha256=jQEtKilDC9_HDCMiVM7Q3Wmg96pumGqde_6BuBj_Ulo,1999
+video2chars-0.6.1.dist-info/RECORD,,
+video2chars-0.6.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+video2chars-0.6.1.dist-info/entry_points.txt,sha256=b7dXzTOEcZleDGuo-RLTP36HT11aY3PHB8itqcgX3kg,53
+video2chars-0.6.1.dist-info/top_level.txt,sha256=8YrJ8IFiR9KuTmggUuHyiKS-J2419cMaiopzNKkwvk4,12
