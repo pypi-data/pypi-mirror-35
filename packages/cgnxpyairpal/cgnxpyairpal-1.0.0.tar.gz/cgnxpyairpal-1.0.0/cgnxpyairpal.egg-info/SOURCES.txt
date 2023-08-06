@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+cgnxpyairpal/__init__.py
+cgnxpyairpal.egg-info/PKG-INFO
+cgnxpyairpal.egg-info/SOURCES.txt
+cgnxpyairpal.egg-info/dependency_links.txt
+cgnxpyairpal.egg-info/requires.txt
+cgnxpyairpal.egg-info/top_level.txt
