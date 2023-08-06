@@ -1,0 +1,16 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+medicalsegment.egg-info/PKG-INFO
+medicalsegment.egg-info/SOURCES.txt
+medicalsegment.egg-info/dependency_links.txt
+medicalsegment.egg-info/not-zip-safe
+medicalsegment.egg-info/top_level.txt
+segment/__init__.py
+segment/segment.py
+test/test_segment.py

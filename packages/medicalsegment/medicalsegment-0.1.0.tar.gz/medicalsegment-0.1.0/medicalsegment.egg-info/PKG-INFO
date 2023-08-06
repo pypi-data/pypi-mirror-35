@@ -1,0 +1,55 @@
+Metadata-Version: 1.1
+Name: medicalsegment
+Version: 0.1.0
+Summary: Medical imaging segmentation
+Home-page: https://github.com/yngtodd/segment
+Author: Todd Young
+Author-email: youngmt1@ornl.gov
+License: MIT
+Description: .. raw:: html
+        
+            <embed>
+                <p align="center">
+                    <img width="200" src="https://github.com/yngtodd/segment/blob/master/img/segment_crop.png">
+                </p>
+            </embed>
+        
+        --------------------------
+        
+        .. image:: https://badge.fury.io/py/segment.png
+            :target: http://badge.fury.io/py/segment
+        
+        .. image:: https://travis-ci.org/yngtodd/segment.png?branch=master
+            :target: https://travis-ci.org/yngtodd/segment
+        
+        
+        Segment
+        -------
+        
+        Medical imaging segmentation
+        
+        
+        
+        Documentation
+        -------------
+        
+        The full documentation is at http://segment.rtfd.org.
+        
+        
+        
+        History
+        -------
+        
+        0.1.0 (2018-08-27)
+        ++++++++++++++++++
+        
+        * First release on PyPI.
+        
+Keywords: segment
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: PyPy
