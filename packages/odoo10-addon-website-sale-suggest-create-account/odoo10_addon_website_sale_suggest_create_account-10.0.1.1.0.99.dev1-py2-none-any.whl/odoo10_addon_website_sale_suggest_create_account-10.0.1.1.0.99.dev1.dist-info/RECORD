@@ -1,0 +1,16 @@
+odoo10_addon_website_sale_suggest_create_account-10.0.1.1.0.99.dev1-py2.7-nspkg.pth,sha256=BRP8mvEvEhIFmA57wbSTfAVbaAesjZh6WbtWMKUVv1c,1118
+odoo/addons/website_sale_suggest_create_account/README.rst,sha256=1A5InXlyl7-3k9TCQrfJcvCEh2_4VFxGYLF2pTCQ0aI,2103
+odoo/addons/website_sale_suggest_create_account/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/website_sale_suggest_create_account/__manifest__.py,sha256=tdQCsq-rKZRvP68WatlxnDXQIrwiYPQCbmiSRH3orSE,627
+odoo/addons/website_sale_suggest_create_account/i18n/es.po,sha256=Ttfscq3tm3-Dvft6nlkGksePU1vACtOr4bSvEzTb_9g,1526
+odoo/addons/website_sale_suggest_create_account/i18n/hr.po,sha256=3Gr_NL1ZZ84LJBfgPezsnJf3fWCvOb0yZHGyTlUCeVk,1602
+odoo/addons/website_sale_suggest_create_account/i18n/it.po,sha256=dbOZ48dbGWZOCOqZYxEj-WZ8xEUGw6hb7_BRGvaJUX4,2081
+odoo/addons/website_sale_suggest_create_account/i18n/sl.po,sha256=B-dQa7XLUR0Iqu8GIxyfaFhouCyVDX2_Kxu4rfVMcXA,2217
+odoo/addons/website_sale_suggest_create_account/i18n/website_sale_suggest_create_account.pot,sha256=jM6QzPmng6P_YSrICqO86PvOJzRlU3_faeFOHtR4fgg,1020
+odoo/addons/website_sale_suggest_create_account/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/website_sale_suggest_create_account/views/website_sale.xml,sha256=ByuhA0uH5ZIe7-KB0jjab1PmsVL6j_eByM2genhxTAU,2111
+odoo10_addon_website_sale_suggest_create_account-10.0.1.1.0.99.dev1.dist-info/METADATA,sha256=oedwA0Ka72XJTSo5ckgDef-zpw7Ur-PltEl6CMhWlC0,2674
+odoo10_addon_website_sale_suggest_create_account-10.0.1.1.0.99.dev1.dist-info/RECORD,,
+odoo10_addon_website_sale_suggest_create_account-10.0.1.1.0.99.dev1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+odoo10_addon_website_sale_suggest_create_account-10.0.1.1.0.99.dev1.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_website_sale_suggest_create_account-10.0.1.1.0.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
