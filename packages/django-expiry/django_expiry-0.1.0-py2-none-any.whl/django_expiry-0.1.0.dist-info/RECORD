@@ -1,0 +1,9 @@
+django_expiry-0.1.0.dist-info/METADATA,sha256=YAPHscdZqsGUD1xWCQpLKJhk_ej7XgoCLlA7ZJgsGnc,3467
+django_expiry-0.1.0.dist-info/RECORD,,
+django_expiry-0.1.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+django_expiry-0.1.0.dist-info/top_level.txt,sha256=iolsC5y-YQ_ZQreef2zSm1qtdcQEJLBZTQ8hn9x4YZQ,7
+expiry/__init__.py,sha256=MMjI21gsrE8ZJ-7uC3vg_3uTA3wyooeICEc77A2bUVg,48
+expiry/apps.py,sha256=kffPmbAMLYwFUCDc_n-21EOJVG_jI1PkiTEzifzn7J8,147
+expiry/middleware.py,sha256=phig1LDF3ag1D2TsoDcvjiwafWzs4MrHPYCOuvx1l2c,1003
+expiry/rules.py,sha256=2PmZCiPGRIPqrTpX2JFQqnd9aHjikH69nug46eY-tAE,1379
+expiry/signals.py,sha256=SQjPTt0Dyw4qpmOkp2gGrVgoR7IPQGz49CLFeWr1k6w,306
