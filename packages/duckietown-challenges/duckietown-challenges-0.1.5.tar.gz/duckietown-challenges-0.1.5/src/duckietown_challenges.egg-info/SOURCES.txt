@@ -1,0 +1,16 @@
+.bumpversion.cfg
+.gitignore
+Makefile
+README.md
+requirements.txt
+setup.py
+src/duckietown_challenges/__init__.py
+src/duckietown_challenges/runner.py
+src/duckietown_challenges/solution_interface.py
+src/duckietown_challenges.egg-info/PKG-INFO
+src/duckietown_challenges.egg-info/SOURCES.txt
+src/duckietown_challenges.egg-info/dependency_links.txt
+src/duckietown_challenges.egg-info/entry_points.txt
+src/duckietown_challenges.egg-info/not-zip-safe
+src/duckietown_challenges.egg-info/requires.txt
+src/duckietown_challenges.egg-info/top_level.txt
