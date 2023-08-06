@@ -1,0 +1,17 @@
+uproot_methods/__init__.py,sha256=wpXDpCja6x0SgOoLLzpSZk60wKwFhqxvPHOTjYrDmzE,1787
+uproot_methods/base.py,sha256=GIbLPARl2szOU0tItoJUP5WPFRyojJwspRHPyQe-Z5g,1685
+uproot_methods/version.py,sha256=Fpg1cFtFa2ZY0RuX_LXjM2EoPEo72XRyOvGPhjuKrH0,1682
+uproot_methods/classes/TH1.py,sha256=IBLZ1PB2UruMNcbkrGMeF4MsavCxlvJG1o06uMrJwCI,9026
+uproot_methods/classes/TH2.py,sha256=btSBRABnZ-bUT7fOztGaApk0gqdVstkOfdA2QJytn3I,13538
+uproot_methods/classes/THnSparse.py,sha256=NTsSzTOwtCT2y9gygxtNgw3AqqFxfstXEkHZqaQPqwA,1715
+uproot_methods/classes/TLorentzVector.py,sha256=pofaspbABE03iQ6e7rS6rCuuii7Sfwr29Ixfr63bqH4,20260
+uproot_methods/classes/TVector2.py,sha256=rkfiSvRuzQWtzJnSUs1GNoAbh3erhDKeoDQAwAHpxyw,6729
+uproot_methods/classes/TVector3.py,sha256=DC9mABjPZQnHmTre4ICnwZg7qnwTy8Jh63jItMNL0S4,10978
+uproot_methods/classes/__init__.py,sha256=zhXFSasKTOvkZTHFoG629FJv5kLeaTcXnlnt1K2kP2c,1983
+uproot_methods/common/TVector.py,sha256=AQv2N6NygHoLd5dxjd03oh-mxO8uiNqtziBI9J-xwec,8391
+uproot_methods/common/__init__.py,sha256=4tGkgKvFavCUoVX5ksqiHGAH_UNr8rKYoxnbPsDznjQ,1564
+uproot_methods-0.0.4.data/data/README.rst,sha256=ArJIVqrJovxp6-aXVoYQriINNNXt9syir_M0Birbmmg,795
+uproot_methods-0.0.4.dist-info/METADATA,sha256=va4W4t9YC7oTB78F--PxUdbDP6jUfNJe_QY4YAqG86o,1869
+uproot_methods-0.0.4.dist-info/RECORD,,
+uproot_methods-0.0.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+uproot_methods-0.0.4.dist-info/top_level.txt,sha256=Bss1zC6PbtIEOODdXviI0lPtL302LLZ8ebxTBmmF6YE,15
