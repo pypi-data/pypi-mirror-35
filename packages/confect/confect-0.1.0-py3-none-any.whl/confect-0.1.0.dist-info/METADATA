@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: confect
+Version: 0.1.0
+Summary: Python configuration library that provides pleasant configuration definition and access interface, and it reads unrestricted python configuration file.
+Home-page: https://github.com/d2207197/confect
+License: Apache-2.0
+Keywords: setting,configuration
+Author: 顏孜羲
+Author-email: joseph.yen@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+
+
