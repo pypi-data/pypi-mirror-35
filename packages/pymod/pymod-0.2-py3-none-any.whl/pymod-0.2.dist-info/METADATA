@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pymod
+Version: 0.2
+Summary: Simple Environment Variable Manager
+Home-page: https://github.com/chengscott/pymod
+Author: chengscott
+Maintainer: chengscott
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: System :: Shells
+Description-Content-Type: text/markdown
+
+# pymod
+
+## Installation
+
+```shell
+pip install pymod
+```
+
+### config search path
+
+1. `/usr/local/etc/pymod`
+2. ` ~/.config/pymod`
+3. `.`
+
+## Usage
+
+### shell
+
+- invoke shell function under `profile.d`
+
+```shell
+pymod info
+pymod use cuda cudnn
+```
+
+### direct
+
+- take advantage of command substitution
+
+#### bash
+
+```shell
+$(pymod use cuda cudnn)
+```
+
+#### fish
+
+```shell
+eval (pymod use cuda cudnn)
+```
+
+
