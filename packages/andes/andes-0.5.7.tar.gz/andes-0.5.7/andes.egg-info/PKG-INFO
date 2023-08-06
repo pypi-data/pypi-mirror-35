@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: andes
+Version: 0.5.7
+Summary: Another Power System Simulator
+Home-page: https://github.com/cuihantao/andes
+Author: Hantao Cui
+Author-email: cuihantao@gmail.com
+License: Apache
+Description: ===============================
+        Andes
+        ===============================
+        
+        .. image:: https://img.shields.io/travis/cuihantao/andes.svg
+                :target: https://travis-ci.org/cuihantao/andes
+        
+        .. image:: https://img.shields.io/pypi/v/andes.svg
+                :target: https://pypi.python.org/pypi/andes
+        
+        
+        A Python package for power system research
+        
+        * Open-source software: Apache License
+        * Documentation: (COMING SOON!) https://cuihantao.github.io/andes.
+        
+        Features
+        --------
+        
+        * TODO
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Environment :: Console
