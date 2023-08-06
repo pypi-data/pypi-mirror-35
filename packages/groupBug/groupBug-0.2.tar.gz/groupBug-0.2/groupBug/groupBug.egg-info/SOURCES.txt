@@ -1,0 +1,10 @@
+README.md
+setup.py
+groupBug/groupBug.py
+groupBug/groupBug.egg-info/PKG-INFO
+groupBug/groupBug.egg-info/SOURCES.txt
+groupBug/groupBug.egg-info/dependency_links.txt
+groupBug/groupBug.egg-info/requires.txt
+groupBug/groupBug.egg-info/top_level.txt
+groupBug/tests/__init__.py
+groupBug/tests/test_getDomain.py
