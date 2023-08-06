@@ -1,0 +1,9 @@
+README.md
+setup.py
+lesync/__init__.py
+lesync/core.py
+lesync.egg-info/PKG-INFO
+lesync.egg-info/SOURCES.txt
+lesync.egg-info/dependency_links.txt
+lesync.egg-info/requires.txt
+lesync.egg-info/top_level.txt
