@@ -1,0 +1,14 @@
+README.md
+setup.py
+photoarchive/__init__.py
+photoarchive/__main__.py
+photoarchive/archive.py
+photoarchive/filedata.py
+photoarchive/persist.py
+photoarchive/photocopy.py
+photoarchive.egg-info/PKG-INFO
+photoarchive.egg-info/SOURCES.txt
+photoarchive.egg-info/dependency_links.txt
+photoarchive.egg-info/not-zip-safe
+photoarchive.egg-info/requires.txt
+photoarchive.egg-info/top_level.txt
