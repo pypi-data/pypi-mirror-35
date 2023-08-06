@@ -1,0 +1,11 @@
+eratools/__init__.py,sha256=tVCgPjJtwQ3jj9_BsHiXB7luTdD9ecLoYjIl3_UdDRg,18
+eratools/_version.py,sha256=K-4UvlgfKOi5XEggSY9RpXOIunOUn_TUkNElIjymCzM,18455
+eratools/accessor.py,sha256=sIcrQeRDBKVkRPk0qJKJLNYG_EyHEzWNWZlm_ITwoeM,2476
+eratools/geopotential.py,sha256=pntL--K67w6ke3udT7VcDtz5MSKzBoMh48OYxaQifFQ,1732
+eratools/modeldefs.py,sha256=KAufqtG-ea-g5tcpjSomqFb-qwaAHaGKU4tI_5Li_vA,6851
+eratools/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eratools/utils/fetchERA.py,sha256=GabRvCrPv3icglHr1U3D2qCJZKqJsWzfSfeL3kABDwo,2902
+eratools-0.1.0.dist-info/METADATA,sha256=lTCWBDHTtN7Dl6PTzc6Ir5GGGE9RI8aQszo-Ek0x2CE,1763
+eratools-0.1.0.dist-info/RECORD,,
+eratools-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+eratools-0.1.0.dist-info/top_level.txt,sha256=nKhrMTbkqadmWqHkL3dz8yKAxzL24v_piYXcQ1h3mMk,9
