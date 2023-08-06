@@ -1,0 +1,66 @@
+Metadata-Version: 1.2
+Name: dpay-lib
+Version: 0.1.1
+Summary: Python library for dPay
+Home-page: http://docs.dpays.io
+Author: Jared Rice Sr.
+Author-email: jared@benchx.io
+Maintainer: Jared Rice Sr.
+Maintainer-email: jared@benchx.io
+License: UNKNOWN
+Download-URL: https://github.com/dpays/dpay-python-lib/tarball/0.1.1
+Description: # dPayLib (Python)
+        
+        This library is unmaintained, do not build productive buisness with it!
+        Please not the disclaimer in the license file!
+        
+        
+        Python Library for dPay
+        ========================
+        
+        Python 3 library for dPay!
+        
+        Installation
+        ------------
+        
+        Install with `pip3`:
+        
+            $ sudo apt-get install libffi-dev libssl-dev python-dev python3-pip
+            $ pip3 install dpay-lib
+        
+        Manual installation:
+        
+            $ git clone https://github.com/dpays/dpay-python-lib/
+            $ cd dpay-python-lib
+            $ python3 setup.py install --user
+        
+        Upgrade
+        -------
+        
+            $ pip3 install dpay --user --upgrade
+        
+        Additional dependencies
+        -----------------------
+        
+        `dpayapi.dpayasyncclient`:
+         * `asyncio==3.4.3`
+         * `pyyaml==3.11`
+        
+        Documentation
+        -------------
+        
+        Documentation is written with the help of sphinx and can be compile to
+        html with:
+        
+            cd docs
+            make html
+        
+Keywords: dpay,library,api,rpc,transactions
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business :: Financial
