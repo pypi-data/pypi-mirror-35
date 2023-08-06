@@ -1,0 +1,12 @@
+pyscaffoldext/__init__.py,sha256=vXgXMgYCDkxR9ifnsCGWSHLloiNxhHjy0mpN2L-EspA,80
+pyscaffoldext/markdown/__init__.py,sha256=hrG9v2umd19sWncjHcx8Nmctyjb2hAZxrAM8720jZyg,379
+pyscaffoldext/markdown/extension.py,sha256=6K5mACjfogYvZVhy-zWy8Wsk8qG_WFV-ZUN6ombD8XI,3938
+pyscaffoldext/markdown/templates/__init__.py,sha256=QF3WybhWQs4SQvv0L5rk-vnh2F3_BwrCWmldvXVs2B8,1291
+pyscaffoldext/markdown/templates/authors.template,sha256=y2dE8hwTIvKoFJOzJ6hdMrTvVtxA_X1g7CzGCdeudEg,39
+pyscaffoldext/markdown/templates/changelog.template,sha256=7AEULMhc27NlMMmcOUJHPM6Q88RtUsRa3_0RIFfuoBs,101
+pyscaffoldext/markdown/templates/readme.template,sha256=XTiWiBPvkJTKIlTbj3oKV8wwqP6jAtoUzQP-DEYYAeU,244
+pyscaffoldext_markdown-0.1.dist-info/METADATA,sha256=UpORDdAtC_7csZVTsIESmwW2iNSYv6eXep6p3pHZ6rA,1820
+pyscaffoldext_markdown-0.1.dist-info/RECORD,,
+pyscaffoldext_markdown-0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pyscaffoldext_markdown-0.1.dist-info/entry_points.txt,sha256=Dc8AGfQmP3rFTC_WYMNM9dSda75MpqpUv45LOTYr4_U,71
+pyscaffoldext_markdown-0.1.dist-info/top_level.txt,sha256=zac9JJq83qBJe5oCWbtXhQVr8mJ5TZFW2jCFlSQ6n0Y,14
