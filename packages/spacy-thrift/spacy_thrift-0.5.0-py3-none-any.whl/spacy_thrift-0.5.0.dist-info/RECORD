@@ -1,0 +1,9 @@
+spacyThrift/SpacyThrift.py,sha256=4rziF6BI-ZB6nyGdIYuLVFhZA6OYbAMBRnXOPZk3P1g,14270
+spacyThrift/__init__.py,sha256=eY0_L9uo2GSafe78XkqYIdlBQLPUni3-soa21SF4wAo,49
+spacyThrift/constants.py,sha256=9_gPwyVW5NSI_lywitQLGROYtTZ-5WGyE-ZD-qy649o,366
+spacyThrift/service.py,sha256=d3he8X3YSH9ik_4kIWksTiiZdezrd-wuQDYrxr6o3LA,2654
+spacyThrift/ttypes.py,sha256=1TkB3wfYxw0eqn6US_wTE1IMlYoluNDPflRcr9bxD6Y,4168
+spacy_thrift-0.5.0.dist-info/METADATA,sha256=Hcvmi8ySaLJZkjGJvFv2xu9D9fb2g15NyUwKrbz1BJY,1043
+spacy_thrift-0.5.0.dist-info/RECORD,,
+spacy_thrift-0.5.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+spacy_thrift-0.5.0.dist-info/top_level.txt,sha256=Fceu7rF0Iacm33zllt03yBaGptxGPcPNMKB-qAnV7Es,12
