@@ -1,0 +1,7 @@
+README.md
+setup.py
+geekpark_translates.egg-info/PKG-INFO
+geekpark_translates.egg-info/SOURCES.txt
+geekpark_translates.egg-info/dependency_links.txt
+geekpark_translates.egg-info/top_level.txt
+geekpark_translates.egg-info/zip-safe
