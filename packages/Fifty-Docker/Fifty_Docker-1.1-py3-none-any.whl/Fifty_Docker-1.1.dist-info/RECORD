@@ -1,0 +1,7 @@
+Fifty_Docker-1.1.dist-info/METADATA,sha256=xyiN-03JtZDJ1kWZXevyMypNNeQZ8kSEnIW6jKUgXGk,1171
+Fifty_Docker-1.1.dist-info/RECORD,,
+Fifty_Docker-1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+Fifty_Docker-1.1.dist-info/entry_points.txt,sha256=V95v1lcLY_Njw62_MMUYvdV3EsLi3CjuZv0x94O5Qus,58
+Fifty_Docker-1.1.dist-info/top_level.txt,sha256=t2ty28ePJ1XjqWeGjkyqzvKcHZQt_RIy-Tmv42IfDR0,13
+fifty_docker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fifty_docker/main.py,sha256=TM8OIoBg5AXN6yphsnTV6kgcngNKwjc6SHYwiqybA2c,1855
