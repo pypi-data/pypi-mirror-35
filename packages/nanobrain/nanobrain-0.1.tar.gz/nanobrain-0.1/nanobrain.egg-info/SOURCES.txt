@@ -1,0 +1,8 @@
+nb.py
+setup.py
+nanobrain.egg-info/PKG-INFO
+nanobrain.egg-info/SOURCES.txt
+nanobrain.egg-info/dependency_links.txt
+nanobrain.egg-info/entry_points.txt
+nanobrain.egg-info/requires.txt
+nanobrain.egg-info/top_level.txt
