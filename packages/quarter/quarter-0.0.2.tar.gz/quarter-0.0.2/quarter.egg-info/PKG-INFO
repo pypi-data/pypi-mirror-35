@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: quarter
+Version: 0.0.2
+Summary: datetime-like package to work with financial quarters.
+Home-page: https://github.com/PatrickFant/quarter
+Author: Patrick Fant
+Author-email: patrick.fant@recordedfuture.com
+License: UNKNOWN
+Description: # quarter
+        datetime-like framework for dealing with financial quarters in programs.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
