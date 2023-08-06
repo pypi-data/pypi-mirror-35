@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pakk-flask
+Version: 1.0.0
+Summary: Utilities for working with pakk files in a flask web application.
+Home-page: https://github.com/pakk/pakk-flask
+Author: Tristen Horton
+Author-email: tristen@tristenhorton.com
+License: UNKNOWN
+Description: # pakk flask
+        
+        Utilities for working with pakk files in a flask web application.
+        
+        ## Getting Started
+        
+        Install pakk and pakk_flask:
+        
+        ```sh
+        $ python3 -m pip install pakk pakk_flask
+        ```
+        
+        Then you can use pakk_flask to send pakked assets as static files in a flask web application:
+        
+        ```py
+        from pakk_flask import send_from_directory
+        
+        @APP.route("/static/<path:path>")
+        def get_static_file(path):
+            with open("./files.pakk", "rb") as in_file:
+                unpakked = unpakk(KEY, in_file)
+                if unpakked.has_blob(path):
+                    return send_from_directory(unpakked, path)
+                else:
+                    return send_from_directory("./static", path)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
