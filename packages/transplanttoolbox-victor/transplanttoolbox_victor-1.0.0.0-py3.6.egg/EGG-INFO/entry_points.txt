@@ -1,0 +1,5 @@
+
+[console_scripts]
+# script_name = transplanttoolbox_victor.module:function
+# For example:
+# fibonacci = transplanttoolbox_victor.skeleton:run
