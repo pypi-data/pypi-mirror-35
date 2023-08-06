@@ -1,0 +1,7 @@
+README.rst
+setup.py
+add_demo.egg-info/PKG-INFO
+add_demo.egg-info/SOURCES.txt
+add_demo.egg-info/dependency_links.txt
+add_demo.egg-info/top_level.txt
+add_demo.egg-info/zip-safe
