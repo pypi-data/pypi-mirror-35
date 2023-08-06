@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: sangarak
+Version: 0.1
+Summary: Python library for reading matrices from many files and generating a single numpy matrix
+Home-page: https://github.com/rioyokotalab/sangarak
+Author: Sameer Deshmukh
+Author-email: sameer.desmukh93@gmail.com
+License: BSD 3-clause
+Description: UNKNOWN
+Keywords: numpy,mpi,matrix
+Platform: UNKNOWN
