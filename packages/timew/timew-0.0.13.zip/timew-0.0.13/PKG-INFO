@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: timew
+Version: 0.0.13
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Tjaart van der Walt
+Author-email: tjaart@tjaart.org
+License: MIT
+Project-URL: Homepage, https://tjaart.gitlab.io/python-timew
+Project-URL: Bug Tracker, https://gitlab.com/tjaart/python-timew/issues
+Project-URL: Documentation, https://gitlab.com/tjaart/python-timew
+Project-URL: Source Code, https://gitlab.com/tjaart/python-timew
+Description: UNKNOWN
+Keywords: timewarrior
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
