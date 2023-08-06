@@ -1,0 +1,5 @@
+nameko
+pytest
+
+[dev]
+coverage==4.4.1

@@ -1,0 +1,11 @@
+README.md
+nameko_worker_postmortem.py
+setup.cfg
+setup.py
+nameko_worker_postmortem.egg-info/PKG-INFO
+nameko_worker_postmortem.egg-info/SOURCES.txt
+nameko_worker_postmortem.egg-info/dependency_links.txt
+nameko_worker_postmortem.egg-info/entry_points.txt
+nameko_worker_postmortem.egg-info/requires.txt
+nameko_worker_postmortem.egg-info/top_level.txt
+nameko_worker_postmortem.egg-info/zip-safe
