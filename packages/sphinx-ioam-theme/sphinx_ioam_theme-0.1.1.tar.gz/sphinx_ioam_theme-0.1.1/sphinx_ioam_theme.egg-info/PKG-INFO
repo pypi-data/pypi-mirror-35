@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: sphinx-ioam-theme
+Version: 0.1.1
+Summary: For nbsite
+Home-page: https://github.com/ioam/sphinx_ioam_theme
+License: BSD-3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7
