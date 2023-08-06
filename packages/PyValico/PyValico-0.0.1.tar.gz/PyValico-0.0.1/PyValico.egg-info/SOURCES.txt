@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyValico.egg-info/PKG-INFO
+PyValico.egg-info/SOURCES.txt
+PyValico.egg-info/dependency_links.txt
+PyValico.egg-info/not-zip-safe
+PyValico.egg-info/top_level.txt
+valico/__init__.py
