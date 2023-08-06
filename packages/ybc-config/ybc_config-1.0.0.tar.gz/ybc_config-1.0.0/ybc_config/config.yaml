@@ -1,0 +1,8 @@
+online:
+  prefix: www.yuanfudao.com
+
+test:
+  prefix: ke.yuanfudao.ws
+
+local:
+  prefix: ke.yuanfudao.ws
