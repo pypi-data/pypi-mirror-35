@@ -1,0 +1,12 @@
+pydemult/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydemult/buffered_reader.py,sha256=635-FfuJj3URfHXmL09OECF7hCo9HHMgW_E5tm8vUPk,594
+pydemult/mutationhash.py,sha256=bOA0n_iQ-hjRk8LIv-0UJIjUvVMW0WKwHnUnQQGcWa4,2294
+pydemult/pydemult.py,sha256=gW8XatQ-FCmhc-Augxw3Lzre0yYntb8gssw2C0RoHhc,5384
+pydemult/worker.py,sha256=8nAZ2BIlyJuJ3-U5IHaOBWgyJGBFCxK7WnKFsW9nP9U,1975
+pydemult-0.2.dist-info/DESCRIPTION.rst,sha256=gbmMVBVpdIBIAfG5ixgQUkCIm76kFIjcuewYMGQYh8w,1970
+pydemult-0.2.dist-info/METADATA,sha256=bWhX8guEnSjlxIdrz0NbhUFEOCLPHjiQ4GzcGmq8YHE,2492
+pydemult-0.2.dist-info/RECORD,,
+pydemult-0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pydemult-0.2.dist-info/entry_points.txt,sha256=OaVeCvuBl8dDu15MDMm_BTZvOQ__gpiudGjnoS3asn0,60
+pydemult-0.2.dist-info/metadata.json,sha256=5mcO-1A1jvs9i9fKWUNVfFAA2Rrinzn0USSTh9NhyvU,883
+pydemult-0.2.dist-info/top_level.txt,sha256=2_uyYXYmvf9ocm3DAAqY9zG3WZNx4nKuSJYrlKLDWJ4,9
