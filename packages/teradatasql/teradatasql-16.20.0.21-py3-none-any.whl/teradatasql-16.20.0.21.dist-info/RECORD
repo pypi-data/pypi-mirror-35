@@ -1,0 +1,12 @@
+teradatasql/__init__.py,sha256=HCR7tvfFkH-ypgMNAyBvq0ZlD2jT0KpymeDl6Xnsbgg,27780
+teradatasql/teradatasql.dll,sha256=zTy4-Jzr2PXQsvDDr7Z0fwG1_iYWDsborVY6Ay53CFA,9914080
+teradatasql/teradatasql.dylib,sha256=vyDG88I0ThVD3xVVuLybVQBTbLs7XKm48MM-JZ4vIEY,13390684
+teradatasql/teradatasql.so,sha256=zG_zQp20o-NWMjNlnnBRWu4L9uPbs7nO3WehomFrEb4,13272014
+teradatasql/vernumber.py,sha256=6ivw0uMoBHxyffqxkLcPE1PZFOBJDqd41FkRH0SXQDA,97
+teradatasql-16.20.0.21.data/data/teradatasql/LICENSE,sha256=yzNmc_NWb_K75P1NQPkdigAJEjZ9gmBqi-LSvIGmYyk,13938
+teradatasql-16.20.0.21.data/data/teradatasql/README.md,sha256=VVVftpkIjOPh5Jd0U8EiDAPmhUf5fZWCp9cNCHSo_z0,11552
+teradatasql-16.20.0.21.data/data/teradatasql/THIRDPARTYLICENSE,sha256=PcjpBvHSOZzEa2AR_1-3mVGyuoSEQmv5Bz3vTUwkuz0,8550
+teradatasql-16.20.0.21.dist-info/METADATA,sha256=BerydqEsAy5VtFevSG1edfRevdqLn342fKDcwidW14g,12084
+teradatasql-16.20.0.21.dist-info/RECORD,,
+teradatasql-16.20.0.21.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+teradatasql-16.20.0.21.dist-info/top_level.txt,sha256=DpMYxefWP3qw2HoWA15vZzDyIogb-6e08htXO2z-0yg,12
