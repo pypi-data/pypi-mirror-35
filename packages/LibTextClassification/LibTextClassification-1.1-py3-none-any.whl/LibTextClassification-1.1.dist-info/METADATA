@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: LibTextClassification
+Version: 1.1
+Summary: Text Classification
+Home-page: http://example.com/HelloWorld/
+Author: Chong Wang
+Author-email: 1147833662@qq.com
+License: PSF
+Description-Content-Type: UNKNOWN
+Keywords: Text Classification
+Platform: UNKNOWN
+Requires-Dist: bs4
+Requires-Dist: gensim
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: tflearn
+
+UNKNOWN
+
+

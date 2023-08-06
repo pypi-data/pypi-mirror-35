@@ -1,0 +1,16 @@
+LibTextClassification-1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+LibTextClassification-1.1.dist-info/METADATA,sha256=xzqBKpUZiMAh3SKheFS4FPHyraYBxim6gRNu5Xiqqww,422
+LibTextClassification-1.1.dist-info/RECORD,,
+LibTextClassification-1.1.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+LibTextClassification-1.1.dist-info/metadata.json,sha256=Nj9PTyVYzYyeKBrIjcVcqpMapRwF79ns5EkZgfvmXbI,589
+LibTextClassification-1.1.dist-info/top_level.txt,sha256=hGfF0eNSFWYE-TQ-WYlgYVB3WGYqF4zPdX8U7tinxvM,16
+data_util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_util/data.py,sha256=1x1OLec_Trninl2NMrPkzPHT12WrtcL8gXE-6j5t3E4,3638
+data_util/preprocess_data.py,sha256=4lAq7r7kIMBZXlt-qB_hTBAQtT-SR3BAZajVwsa8PGI,9500
+data_util/pretrain.py,sha256=GevXW5qJCsIjrI-5ZaF_LexiZasHimmvX7elI9r02S4,2529
+model/__init__.py,sha256=TYbsBwM_tNsoewE6FK1zsgH-24GSJikXdmNw-caMHeI,189
+model/averagePooling.py,sha256=dtuO6wawQKkArmOpPkI285s6eUTHSIBHg_wcpLEl69A,5217
+model/predict.py,sha256=sARA1B-27yuIPQtRrGFq-x4Goa7f4nhGVwxN48nhNF0,3417
+model/textCNN.py,sha256=vTAYpbzskPonNGSUEx18a4NA6BUv9wjezV_Cpx4fXDo,4470
+model/textRNN.py,sha256=bz9FHswHdfjis8ydsMU-12q48DaArTNpT16nnX0MTM4,4203
+model/train.py,sha256=rPENw5f9bMD1PhWonznil_x-saFv5x2Ndur3Z6ZaiGU,8088
