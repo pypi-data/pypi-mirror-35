@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: miko
+Version: 0.1.dev9021825
+Summary: A cross-platform tool
+Home-page: https://repo.spanda.io/ysicing/miko-cli
+Author: ysicing
+Author-email: i@spanda.io
+License: AGPLv3
+Description: # miko-cli
+        
+        cli
+        
+        
+Keywords: miko,cli,docker
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Bottle
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Provides-Extra: docker
+Provides-Extra: cpuinfo
+Provides-Extra: ip
