@@ -1,0 +1,13 @@
+COPYING
+MANIFEST.in
+README.md
+setup.py
+mmdzanata/__init__.py
+mmdzanata/cli.py
+mmdzanata.egg-info/PKG-INFO
+mmdzanata.egg-info/SOURCES.txt
+mmdzanata.egg-info/dependency_links.txt
+mmdzanata.egg-info/entry_points.txt
+mmdzanata.egg-info/requires.txt
+mmdzanata.egg-info/top_level.txt
+mmdzanata/fedora/__init__.py
