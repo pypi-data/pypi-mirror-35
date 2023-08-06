@@ -1,0 +1,14 @@
+numpy
+scipy
+scikit-image
+scikit-learn
+matplotlib
+nd2reader==2.1.3
+sympy
+ruamel.yaml
+h5py
+dask
+distributed
+mpi4py
+cython
+loompy
