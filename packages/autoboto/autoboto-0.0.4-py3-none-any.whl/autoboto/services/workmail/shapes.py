@@ -1,0 +1,2562 @@
+import datetime
+import typing
+import autoboto
+from enum import Enum
+import dataclasses
+
+
+@dataclasses.dataclass
+class AssociateDelegateToResourceRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "resource_id",
+                "ResourceId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "entity_id",
+                "EntityId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The organization under which the resource exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The resource for which members are associated.
+    resource_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The member (user or group) to associate to the resource.
+    entity_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class AssociateDelegateToResourceResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class AssociateMemberToGroupRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "group_id",
+                "GroupId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "member_id",
+                "MemberId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The organization under which the group exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The group for which the member is associated.
+    group_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The member to associate to the group.
+    member_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class AssociateMemberToGroupResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class BookingOptions(autoboto.ShapeBase):
+    """
+    At least one delegate must be associated to the resource to disable automatic
+    replies from the resource.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "auto_accept_requests",
+                "AutoAcceptRequests",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "auto_decline_recurring_requests",
+                "AutoDeclineRecurringRequests",
+                autoboto.TypeInfo(bool),
+            ),
+            (
+                "auto_decline_conflicting_requests",
+                "AutoDeclineConflictingRequests",
+                autoboto.TypeInfo(bool),
+            ),
+        ]
+
+    # The resource's ability to automatically reply to requests. If disabled,
+    # delegates must be associated to the resource.
+    auto_accept_requests: bool = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The resource's ability to automatically decline any recurring requests.
+    auto_decline_recurring_requests: bool = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The resource's ability to automatically decline any conflicting requests.
+    auto_decline_conflicting_requests: bool = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class CreateAliasRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "entity_id",
+                "EntityId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "alias",
+                "Alias",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The organization under which the member exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The alias is added to this Amazon WorkMail entity.
+    entity_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The alias to add to the user.
+    alias: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class CreateAliasResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class CreateGroupRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The organization under which the group is to be created.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The name of the group.
+    name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class CreateGroupResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "group_id",
+                "GroupId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The ID of the group.
+    group_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class CreateResourceRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "type",
+                "Type",
+                autoboto.TypeInfo(ResourceType),
+            ),
+        ]
+
+    # The identifier associated with the organization for which the resource is
+    # created.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The name of the created resource.
+    name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The type of the created resource.
+    type: "ResourceType" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class CreateResourceResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "resource_id",
+                "ResourceId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier of the created resource.
+    resource_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class CreateUserRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "display_name",
+                "DisplayName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "password",
+                "Password",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier of the organization for which the user is created.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The name for the user to be created.
+    name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The display name for the user to be created.
+    display_name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The password for the user to be created.
+    password: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class CreateUserResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "user_id",
+                "UserId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The information regarding the newly created user.
+    user_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class Delegate(autoboto.ShapeBase):
+    """
+    The name of the attribute, which is one of the values defined in the
+    UserAttribute enumeration.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "id",
+                "Id",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "type",
+                "Type",
+                autoboto.TypeInfo(MemberType),
+            ),
+        ]
+
+    # The identifier for the user or group is associated as the resource's
+    # delegate.
+    id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The type of the delegate: user or group.
+    type: "MemberType" = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DeleteAliasRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "entity_id",
+                "EntityId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "alias",
+                "Alias",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier for the organization under which the user exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier for the Amazon WorkMail entity to have the aliases removed.
+    entity_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The aliases to be removed from the user's set of aliases. Duplicate entries
+    # in the list are collapsed into single entries (the list is transformed into
+    # a set).
+    alias: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DeleteAliasResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class DeleteGroupRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "group_id",
+                "GroupId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The organization that contains the group.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier of the group to be deleted.
+    group_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DeleteGroupResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class DeleteMailboxPermissionsRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "entity_id",
+                "EntityId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "grantee_id",
+                "GranteeId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier of the organization under which the entity (user or group)
+    # exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier of the entity (user or group) for which to delete mailbox
+    # permissions.
+    entity_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The identifier of the entity (user or group) for which to delete granted
+    # permissions.
+    grantee_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DeleteMailboxPermissionsResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class DeleteResourceRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "resource_id",
+                "ResourceId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier associated with the organization for which the resource is
+    # deleted.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier of the resource to be deleted.
+    resource_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DeleteResourceResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class DeleteUserRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "user_id",
+                "UserId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The organization that contains the user.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier of the user to be deleted.
+    user_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DeleteUserResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class DeregisterFromWorkMailRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "entity_id",
+                "EntityId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier for the organization under which the Amazon WorkMail entity
+    # exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier for the entity to be updated.
+    entity_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DeregisterFromWorkMailResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class DescribeGroupRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "group_id",
+                "GroupId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier for the organization under which the group exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier for the group to be described.
+    group_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeGroupResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "group_id",
+                "GroupId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "email",
+                "Email",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "state",
+                "State",
+                autoboto.TypeInfo(EntityState),
+            ),
+            (
+                "enabled_date",
+                "EnabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "disabled_date",
+                "DisabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+        ]
+
+    # The identifier of the described group.
+    group_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The name of the described group.
+    name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The email of the described group.
+    email: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The state of the user: enabled (registered to Amazon WorkMail) or disabled
+    # (deregistered or never registered to Amazon WorkMail).
+    state: "EntityState" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date and time when a user was registered to Amazon WorkMail, in UNIX
+    # epoch time format.
+    enabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date and time when a user was deregistered from Amazon WorkMail, in
+    # UNIX epoch time format.
+    disabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class DescribeOrganizationRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier for the organization to be described.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class DescribeOrganizationResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "alias",
+                "Alias",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "state",
+                "State",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "directory_id",
+                "DirectoryId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "directory_type",
+                "DirectoryType",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "default_mail_domain",
+                "DefaultMailDomain",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "completed_date",
+                "CompletedDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "error_message",
+                "ErrorMessage",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier of an organization.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The alias for an organization.
+    alias: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The state of an organization.
+    state: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The identifier for the directory associated with an Amazon WorkMail
+    # organization.
+    directory_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The type of directory associated with the Amazon WorkMail organization.
+    directory_type: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The default mail domain associated with the organization.
+    default_mail_domain: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date at which the organization became usable in the Amazon WorkMail
+    # context, in UNIX epoch time format.
+    completed_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The (optional) error message indicating if unexpected behavior was
+    # encountered with regards to the organization.
+    error_message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeResourceRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "resource_id",
+                "ResourceId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier associated with the organization for which the resource is
+    # described.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier of the resource to be described.
+    resource_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeResourceResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "resource_id",
+                "ResourceId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "email",
+                "Email",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "type",
+                "Type",
+                autoboto.TypeInfo(ResourceType),
+            ),
+            (
+                "booking_options",
+                "BookingOptions",
+                autoboto.TypeInfo(BookingOptions),
+            ),
+            (
+                "state",
+                "State",
+                autoboto.TypeInfo(EntityState),
+            ),
+            (
+                "enabled_date",
+                "EnabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "disabled_date",
+                "DisabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+        ]
+
+    # The identifier of the described resource.
+    resource_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The email of the described resource.
+    email: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The name of the described resource.
+    name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The type of the described resource.
+    type: "ResourceType" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The booking options for the described resource.
+    booking_options: "BookingOptions" = dataclasses.field(
+        default_factory=dict,
+    )
+
+    # The state of the resource: enabled (registered to Amazon WorkMail) or
+    # disabled (deregistered or never registered to Amazon WorkMail).
+    state: "EntityState" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date and time when a resource was registered to Amazon WorkMail, in
+    # UNIX epoch time format.
+    enabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date and time when a resource was registered from Amazon WorkMail, in
+    # UNIX epoch time format.
+    disabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class DescribeUserRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "user_id",
+                "UserId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier for the organization under which the user exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier for the user to be described.
+    user_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DescribeUserResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "user_id",
+                "UserId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "email",
+                "Email",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "display_name",
+                "DisplayName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "state",
+                "State",
+                autoboto.TypeInfo(EntityState),
+            ),
+            (
+                "user_role",
+                "UserRole",
+                autoboto.TypeInfo(UserRole),
+            ),
+            (
+                "enabled_date",
+                "EnabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "disabled_date",
+                "DisabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+        ]
+
+    # The identifier for the described user.
+    user_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The name for the user.
+    name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The email of the user.
+    email: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The display name of the user.
+    display_name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The state of a user: enabled (registered to Amazon WorkMail) or disabled
+    # (deregistered or never registered to Amazon WorkMail).
+    state: "EntityState" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # In certain cases other entities are modeled as users. If interoperability
+    # is enabled, resources are imported into Amazon WorkMail as users. Because
+    # different Amazon WorkMail organizations rely on different directory types,
+    # administrators can distinguish between a user that is not registered to
+    # Amazon WorkMail (is disabled and has a user role) and the administrative
+    # users of the directory. The values are USER, RESOURCE, and SYSTEM_USER.
+    user_role: "UserRole" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date and time at which the user was enabled for Amazon WorkMail usage,
+    # in UNIX epoch time format.
+    enabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date and time at which the user was disabled for Amazon WorkMail usage,
+    # in UNIX epoch time format.
+    disabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class DirectoryServiceAuthenticationFailedException(autoboto.ShapeBase):
+    """
+    The Directory Service doesn't recognize the credentials supplied by the Amazon
+    WorkMail service.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DirectoryUnavailableException(autoboto.ShapeBase):
+    """
+    The directory that you are trying to perform operations on isn't available.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DisassociateDelegateFromResourceRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "resource_id",
+                "ResourceId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "entity_id",
+                "EntityId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier for the organization under which the resource exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier of the resource from which delegates' set members are
+    # removed.
+    resource_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The identifier for the member (user, group) to be removed from the
+    # resource's delegates.
+    entity_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DisassociateDelegateFromResourceResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class DisassociateMemberFromGroupRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "group_id",
+                "GroupId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "member_id",
+                "MemberId",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier for the organization under which the group exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier for the group from which members are removed.
+    group_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The identifier for the member to be removed to the group.
+    member_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class DisassociateMemberFromGroupResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class EmailAddressInUseException(autoboto.ShapeBase):
+    """
+    The email address that you're trying to assign is already created for a
+    different user, group, or resource.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class EntityAlreadyRegisteredException(autoboto.ShapeBase):
+    """
+    The user, group, or resource that you're trying to register is already
+    registered.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class EntityNotFoundException(autoboto.ShapeBase):
+    """
+    The identifier supplied for the entity is valid, but it does not exist in your
+    organization.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+class EntityState(Enum):
+    ENABLED = "ENABLED"
+    DISABLED = "DISABLED"
+    DELETED = "DELETED"
+
+
+@dataclasses.dataclass
+class EntityStateException(autoboto.ShapeBase):
+    """
+    You are performing an operation on an entity that isn't in the expected state,
+    such as trying to update a deleted user.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class Group(autoboto.ShapeBase):
+    """
+    The representation of an Amazon WorkMail group.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "id",
+                "Id",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "email",
+                "Email",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "state",
+                "State",
+                autoboto.TypeInfo(EntityState),
+            ),
+            (
+                "enabled_date",
+                "EnabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "disabled_date",
+                "DisabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+        ]
+
+    # The identifier of the group.
+    id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The email of the group.
+    email: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The name of the group.
+    name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The state of the group, which can be ENABLED, DISABLED, or DELETED.
+    state: "EntityState" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date indicating when the group was enabled for Amazon WorkMail use.
+    enabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date indicating when the group was disabled from Amazon WorkMail use.
+    disabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+
+@dataclasses.dataclass
+class InvalidConfigurationException(autoboto.ShapeBase):
+    """
+    The configuration for a resource isn't valid. A resource must either be able to
+    auto-respond to requests or have at least one delegate associated that can do it
+    on its behalf.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class InvalidParameterException(autoboto.ShapeBase):
+    """
+    One or more of the input parameters don't match the service's restrictions.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class InvalidPasswordException(autoboto.ShapeBase):
+    """
+    The supplied password doesn't match the minimum security constraints, such as
+    length or use of special characters.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListAliasesRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "entity_id",
+                "EntityId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_results",
+                "MaxResults",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The identifier for the organization under which the entity exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier for the entity for which to list the aliases.
+    entity_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The token to use to retrieve the next page of results. The first call does
+    # not contain any tokens.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The maximum number of results to return in a single call.
+    max_results: int = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListAliasesResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "aliases",
+                "Aliases",
+                autoboto.TypeInfo(typing.List[str]),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The entity's paginated aliases.
+    aliases: typing.List[str] = dataclasses.field(default_factory=list, )
+
+    # The token to use to retrieve the next page of results. The value is "null"
+    # when there are no more results to return.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListGroupMembersRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "group_id",
+                "GroupId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_results",
+                "MaxResults",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The identifier for the organization under which the group exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier for the group to which the members are associated.
+    group_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The token to use to retrieve the next page of results. The first call does
+    # not contain any tokens.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The maximum number of results to return in a single call.
+    max_results: int = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListGroupMembersResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "members",
+                "Members",
+                autoboto.TypeInfo(typing.List[Member]),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The members associated to the group.
+    members: typing.List["Member"] = dataclasses.field(default_factory=list, )
+
+    # The token to use to retrieve the next page of results. The first call does
+    # not contain any tokens.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListGroupsRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_results",
+                "MaxResults",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The identifier for the organization under which the groups exist.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The token to use to retrieve the next page of results. The first call does
+    # not contain any tokens.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The maximum number of results to return in a single call.
+    max_results: int = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListGroupsResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "groups",
+                "Groups",
+                autoboto.TypeInfo(typing.List[Group]),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The overview of groups for an organization.
+    groups: typing.List["Group"] = dataclasses.field(default_factory=list, )
+
+    # The token to use to retrieve the next page of results. The value is "null"
+    # when there are no more results to return.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListMailboxPermissionsRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "entity_id",
+                "EntityId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_results",
+                "MaxResults",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The identifier of the organization under which the entity (user or group)
+    # exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier of the entity (user or group) for which to list mailbox
+    # permissions.
+    entity_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The token to use to retrieve the next page of results. The first call does
+    # not contain any tokens.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The maximum number of results to return in a single call.
+    max_results: int = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListMailboxPermissionsResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "permissions",
+                "Permissions",
+                autoboto.TypeInfo(typing.List[Permission]),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # One page of the entity's mailbox permissions.
+    permissions: typing.List["Permission"] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # The token to use to retrieve the next page of results. The value is "null"
+    # when there are no more results to return.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListOrganizationsRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_results",
+                "MaxResults",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The token to use to retrieve the next page of results. The first call does
+    # not contain any tokens.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The maximum number of results to return in a single call.
+    max_results: int = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListOrganizationsResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_summaries",
+                "OrganizationSummaries",
+                autoboto.TypeInfo(typing.List[OrganizationSummary]),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The overview of owned organizations presented as a list of organization
+    # summaries.
+    organization_summaries: typing.List["OrganizationSummary"
+                                       ] = dataclasses.field(
+                                           default_factory=list,
+                                       )
+
+    # The token to use to retrieve the next page of results. The value is "null"
+    # when there are no more results to return.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListResourceDelegatesRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "resource_id",
+                "ResourceId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_results",
+                "MaxResults",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The identifier for the organization that contains the resource for which
+    # delegates are listed.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier for the resource whose delegates are listed.
+    resource_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The token used to paginate through the delegates associated with a
+    # resource.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The number of maximum results in a page.
+    max_results: int = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListResourceDelegatesResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "delegates",
+                "Delegates",
+                autoboto.TypeInfo(typing.List[Delegate]),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # One page of the resource's delegates.
+    delegates: typing.List["Delegate"] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # The token used to paginate through the delegates associated with a
+    # resource. While results are still available, it has an associated value.
+    # When the last page is reached, the token is empty.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListResourcesRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_results",
+                "MaxResults",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The identifier for the organization under which the resources exist.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The token to use to retrieve the next page of results. The first call does
+    # not contain any tokens.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The maximum number of results to return in a single call.
+    max_results: int = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListResourcesResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "resources",
+                "Resources",
+                autoboto.TypeInfo(typing.List[Resource]),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # One page of the organization's resource representation.
+    resources: typing.List["Resource"] = dataclasses.field(
+        default_factory=list,
+    )
+
+    # The token used to paginate through all the organization's resources. While
+    # results are still available, it has an associated value. When the last page
+    # is reached, the token is empty.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListUsersRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "max_results",
+                "MaxResults",
+                autoboto.TypeInfo(int),
+            ),
+        ]
+
+    # The identifier for the organization under which the users exist.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # TBD
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The maximum number of results to return in a single call.
+    max_results: int = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ListUsersResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "users",
+                "Users",
+                autoboto.TypeInfo(typing.List[User]),
+            ),
+            (
+                "next_token",
+                "NextToken",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The overview of users for an organization.
+    users: typing.List["User"] = dataclasses.field(default_factory=list, )
+
+    # The token to use to retrieve the next page of results. This value is `null`
+    # when there are no more results to return.
+    next_token: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class MailDomainNotFoundException(autoboto.ShapeBase):
+    """
+    For an email or alias to be created in Amazon WorkMail, the included domain must
+    be defined in the organization.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class MailDomainStateException(autoboto.ShapeBase):
+    """
+    After a domain has been added to the organization, it must be verified. The
+    domain is not yet verified.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class Member(autoboto.ShapeBase):
+    """
+    The representation of a group member (user or group).
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "id",
+                "Id",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "type",
+                "Type",
+                autoboto.TypeInfo(MemberType),
+            ),
+            (
+                "state",
+                "State",
+                autoboto.TypeInfo(EntityState),
+            ),
+            (
+                "enabled_date",
+                "EnabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "disabled_date",
+                "DisabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+        ]
+
+    # The identifier of the member.
+    id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The name of the member.
+    name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # A member can be a user or group.
+    type: "MemberType" = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The state of the member, which can be ENABLED, DISABLED, or DELETED.
+    state: "EntityState" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date indicating when the member was enabled for Amazon WorkMail use.
+    enabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date indicating when the member was disabled from Amazon WorkMail use.
+    disabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+
+class MemberType(Enum):
+    GROUP = "GROUP"
+    USER = "USER"
+
+
+@dataclasses.dataclass
+class NameAvailabilityException(autoboto.ShapeBase):
+    """
+    The entity (user, group, or user) name isn't unique in Amazon WorkMail.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class OrganizationNotFoundException(autoboto.ShapeBase):
+    """
+    An operation received a valid organization identifier that either doesn't belong
+    or exist in the system.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class OrganizationStateException(autoboto.ShapeBase):
+    """
+    The organization must have a valid state (Active or Synchronizing) to perform
+    certain operations on the organization or its entities.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class OrganizationSummary(autoboto.ShapeBase):
+    """
+    The brief overview associated with an organization.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "alias",
+                "Alias",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "error_message",
+                "ErrorMessage",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "state",
+                "State",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier associated with the organization.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The alias associated with the organization.
+    alias: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The error message associated with the organization. It is only present if
+    # unexpected behavior has occurred with regards to the organization. It
+    # provides insight or solutions regarding unexpected behavior.
+    error_message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The state associated with the organization.
+    state: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class Permission(autoboto.ShapeBase):
+    """
+    Permission granted to an entity (user, group) to access a certain aspect of
+    another entity's mailbox.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "grantee_id",
+                "GranteeId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "grantee_type",
+                "GranteeType",
+                autoboto.TypeInfo(MemberType),
+            ),
+            (
+                "permission_values",
+                "PermissionValues",
+                autoboto.TypeInfo(typing.List[PermissionType]),
+            ),
+        ]
+
+    # The identifier of the entity (user or group) to which the permissions are
+    # granted.
+    grantee_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The type of entity (user, group) of the entity referred to in GranteeId.
+    grantee_type: "MemberType" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The permissions granted to the grantee. SEND_AS allows the grantee to send
+    # email as the owner of the mailbox (the grantee is not mentioned on these
+    # emails). SEND_ON_BEHALF allows the grantee to send email on behalf of the
+    # owner of the mailbox (the grantee is not mentioned as the physical sender
+    # of these emails). FULL_ACCESS allows the grantee full access to the
+    # mailbox, irrespective of other folder-level permissions set on the mailbox.
+    permission_values: typing.List["PermissionType"] = dataclasses.field(
+        default_factory=list,
+    )
+
+
+class PermissionType(Enum):
+    FULL_ACCESS = "FULL_ACCESS"
+    SEND_AS = "SEND_AS"
+    SEND_ON_BEHALF = "SEND_ON_BEHALF"
+
+
+@dataclasses.dataclass
+class PutMailboxPermissionsRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "entity_id",
+                "EntityId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "grantee_id",
+                "GranteeId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "permission_values",
+                "PermissionValues",
+                autoboto.TypeInfo(typing.List[PermissionType]),
+            ),
+        ]
+
+    # The identifier of the organization under which the entity (user or group)
+    # exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier of the entity (user or group) for which to update mailbox
+    # permissions.
+    entity_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The identifier of the entity (user or group) to which to grant the
+    # permissions.
+    grantee_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The permissions granted to the grantee. SEND_AS allows the grantee to send
+    # email as the owner of the mailbox (the grantee is not mentioned on these
+    # emails). SEND_ON_BEHALF allows the grantee to send email on behalf of the
+    # owner of the mailbox (the grantee is not mentioned as the physical sender
+    # of these emails). FULL_ACCESS allows the grantee full access to the
+    # mailbox, irrespective of other folder-level permissions set on the mailbox.
+    permission_values: typing.List["PermissionType"] = dataclasses.field(
+        default_factory=list,
+    )
+
+
+@dataclasses.dataclass
+class PutMailboxPermissionsResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class RegisterToWorkMailRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "entity_id",
+                "EntityId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "email",
+                "Email",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier for the organization under which the Amazon WorkMail entity
+    # exists.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier for the entity to be updated.
+    entity_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The email for the entity to be updated.
+    email: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class RegisterToWorkMailResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class ReservedNameException(autoboto.ShapeBase):
+    """
+    This entity name is not allowed in Amazon WorkMail.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ResetPasswordRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "user_id",
+                "UserId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "password",
+                "Password",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The identifier of the organization that contains the user for which the
+    # password is reset.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier of the user for whom the password is reset.
+    user_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The new password for the user.
+    password: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class ResetPasswordResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class Resource(autoboto.ShapeBase):
+    """
+    The overview for a resource containing relevant data regarding it.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "id",
+                "Id",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "email",
+                "Email",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "type",
+                "Type",
+                autoboto.TypeInfo(ResourceType),
+            ),
+            (
+                "state",
+                "State",
+                autoboto.TypeInfo(EntityState),
+            ),
+            (
+                "enabled_date",
+                "EnabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "disabled_date",
+                "DisabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+        ]
+
+    # The identifier of the resource.
+    id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The email of the resource.
+    email: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The name of the resource.
+    name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The type of the resource: equipment or room.
+    type: "ResourceType" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The state of the resource, which can be ENABLED, DISABLED, or DELETED.
+    state: "EntityState" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date indicating when the resource was enabled for Amazon WorkMail use.
+    enabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date indicating when the resource was disabled from Amazon WorkMail
+    # use.
+    disabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+
+class ResourceType(Enum):
+    ROOM = "ROOM"
+    EQUIPMENT = "EQUIPMENT"
+
+
+@dataclasses.dataclass
+class UnsupportedOperationException(autoboto.ShapeBase):
+    """
+    You can't perform a write operation against a read-only directory.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "message",
+                "Message",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    message: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class UpdatePrimaryEmailAddressRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "entity_id",
+                "EntityId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "email",
+                "Email",
+                autoboto.TypeInfo(str),
+            ),
+        ]
+
+    # The organization that contains the entity to update.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The entity to update (user, group, or resource).
+    entity_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The value of the email to be updated as primary.
+    email: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+
+@dataclasses.dataclass
+class UpdatePrimaryEmailAddressResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class UpdateResourceRequest(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "organization_id",
+                "OrganizationId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "resource_id",
+                "ResourceId",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "booking_options",
+                "BookingOptions",
+                autoboto.TypeInfo(BookingOptions),
+            ),
+        ]
+
+    # The identifier associated with the organization for which the resource is
+    # updated.
+    organization_id: str = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The identifier of the resource to be updated.
+    resource_id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The name of the resource to be updated.
+    name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The resource's booking options to be updated.
+    booking_options: "BookingOptions" = dataclasses.field(
+        default_factory=dict,
+    )
+
+
+@dataclasses.dataclass
+class UpdateResourceResponse(autoboto.ShapeBase):
+    @classmethod
+    def _get_boto_mapping(cls):
+        return []
+
+
+@dataclasses.dataclass
+class User(autoboto.ShapeBase):
+    """
+    The representation of an Amazon WorkMail user.
+    """
+
+    @classmethod
+    def _get_boto_mapping(cls):
+        return [
+            (
+                "id",
+                "Id",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "email",
+                "Email",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "name",
+                "Name",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "display_name",
+                "DisplayName",
+                autoboto.TypeInfo(str),
+            ),
+            (
+                "state",
+                "State",
+                autoboto.TypeInfo(EntityState),
+            ),
+            (
+                "user_role",
+                "UserRole",
+                autoboto.TypeInfo(UserRole),
+            ),
+            (
+                "enabled_date",
+                "EnabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+            (
+                "disabled_date",
+                "DisabledDate",
+                autoboto.TypeInfo(datetime.datetime),
+            ),
+        ]
+
+    # The identifier of the user.
+    id: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The email of the user.
+    email: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The name of the user.
+    name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The display name of the user.
+    display_name: str = dataclasses.field(default=autoboto.ShapeBase.NOT_SET, )
+
+    # The state of the user, which can be ENABLED, DISABLED, or DELETED.
+    state: "EntityState" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The role of the user.
+    user_role: "UserRole" = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date indicating when the user was enabled for Amazon WorkMail use.
+    enabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+    # The date indicating when the user was disabled from Amazon WorkMail use.
+    disabled_date: datetime.datetime = dataclasses.field(
+        default=autoboto.ShapeBase.NOT_SET,
+    )
+
+
+class UserRole(Enum):
+    USER = "USER"
+    RESOURCE = "RESOURCE"
+    SYSTEM_USER = "SYSTEM_USER"
