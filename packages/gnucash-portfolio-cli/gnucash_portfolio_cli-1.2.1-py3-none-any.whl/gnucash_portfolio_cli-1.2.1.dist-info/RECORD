@@ -1,0 +1,12 @@
+gnucash_portfolio_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gnucash_portfolio_cli/account_search.py,sha256=pxuWYWhsD1grXkHy69xuuT0YyIFBtsPzZp6q7kFlmh4,754
+gnucash_portfolio_cli/favourite-accounts.py,sha256=54phC3bPsBZujs9ERvNR3ZaYc9RhYMVdWsZXf5p88pY,821
+gnucash_portfolio_cli/portfolio_value.py,sha256=s0DWQ47gN8cyKUGdLZwDbzhOUcI7AShbez4iBygMqSg,1472
+gnucash_portfolio_cli/security_info.py,sha256=ZODNVq9hv1lr6E5hyhAnKN_NuHwwPW825abXDLu8G5k,3205
+gnucash_portfolio_cli/security_search.py,sha256=_ZuNHGFKm5jR8adP3SPF-nEqmSIuSMoQ_0aUZmwsHcg,792
+gnucash_portfolio_cli/upcoming_scheduled_transactions.py,sha256=m7MHl0A362O57zSK0gBLRN2nPCSaKosXHxD99aesMJk,397
+gnucash_portfolio_cli/webview.py,sha256=wB_dS-qkGsEYuY76RFpKZUnjCp-LGK3AZQSgkpu1TNw,137
+gnucash_portfolio_cli-1.2.1.dist-info/METADATA,sha256=9jJl2jf21Mz_jrYGt45fWjRoxeiZirNui1aKKikmQnA,317
+gnucash_portfolio_cli-1.2.1.dist-info/RECORD,,
+gnucash_portfolio_cli-1.2.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+gnucash_portfolio_cli-1.2.1.dist-info/top_level.txt,sha256=w6KyVXinqSLIhziShXvmn2Ri2qSdr2r8YwIr32KccAY,22
