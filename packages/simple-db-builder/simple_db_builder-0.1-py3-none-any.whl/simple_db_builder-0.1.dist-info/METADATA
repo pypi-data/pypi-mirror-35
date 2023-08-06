@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: simple-db-builder
+Version: 0.1
+Summary: A SQL task manager.
+Home-page: https://github.com/Nunie123/simple_db_builder
+Author: Edward Nunes
+Author-email: ed.a.nunes@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: mysql-connector-python (==8.0.12)
+Requires-Dist: SQLAlchemy (==1.2.10)
+
+UNKNOWN
+
+

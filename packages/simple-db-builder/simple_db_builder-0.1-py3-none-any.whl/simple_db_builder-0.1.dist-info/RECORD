@@ -1,0 +1,8 @@
+simple_db_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_db_builder/builder.py,sha256=GbUw3vKDDEPlAnusDbxJHkn14bAvU-LtePQtAUZLhtg,2839
+simple_db_builder/connections.py,sha256=pLwA2rMmHFkbGh70vBYBErTJWpqk0VYblNqzcrG9ZJY,2352
+simple_db_builder/helpers.py,sha256=t2n93IlxMiQTlneRzqzbA64WLKhSi-SnxXPu-yhAlfA,737
+simple_db_builder-0.1.dist-info/METADATA,sha256=14HKHKfC89DFiFvt60j8HVggkeluSzw9in8ICWlGyFc,333
+simple_db_builder-0.1.dist-info/RECORD,,
+simple_db_builder-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+simple_db_builder-0.1.dist-info/top_level.txt,sha256=YMu6Szk379XRjxukCQ2_IG8GDVu7_vfamixcbXsNJvs,18
