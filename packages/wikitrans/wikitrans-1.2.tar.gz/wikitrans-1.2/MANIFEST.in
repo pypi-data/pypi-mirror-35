@@ -1,0 +1,7 @@
+exclude .gitignore
+include COPYING.txt
+include CHANGES.txt
+recursive-include testdata *.wiki
+recursive-include testdata *.texi
+recursive-include testdata *.text
+recursive-include testdata *.html
