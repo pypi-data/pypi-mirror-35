@@ -1,0 +1,11 @@
+nimbus_post_office/__init__.py,sha256=V4PB8WBGdwzFWK1F_pJQn-VtYY8HJK6zbrsH9Sv1Ae4,468
+nimbus_post_office/backends.py,sha256=N5QcrSPaAYXbSXD_tPj4SNd7SQ4cjYnzsTDCOCIQWOY,6504
+nimbus_post_office/utils.py,sha256=SHdgvt00ZVRl5fOu_hHEBxSlg6YTrcLwQWIsUJpL39A,7006
+nimbus_post_office/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nimbus_post_office-0.1.2.dist-info/DESCRIPTION.rst,sha256=0Gx_pn6eVD6RtKCPWOg381EgQPY6tBpZLv7rsDsbePA,763
+nimbus_post_office-0.1.2.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+nimbus_post_office-0.1.2.dist-info/METADATA,sha256=AzSNuDLysQxVcQfY4TupZzWrt1_nUvcphwQWrgA_qJo,1941
+nimbus_post_office-0.1.2.dist-info/RECORD,,
+nimbus_post_office-0.1.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+nimbus_post_office-0.1.2.dist-info/metadata.json,sha256=7lohRFqYWm4XK2xR7_l8_f4rwtlgr1qMegAdCAwsunM,1262
+nimbus_post_office-0.1.2.dist-info/top_level.txt,sha256=zKaYon67hyMUvbnfxHnohqp7XFz7oIESru5uuD5T6AE,49
