@@ -1,0 +1,16 @@
+README.md
+setup.py
+pylattice/__init__.py
+pylattice.egg-info/PKG-INFO
+pylattice.egg-info/SOURCES.txt
+pylattice.egg-info/dependency_links.txt
+pylattice.egg-info/top_level.txt
+pylattice/classes/Track.py
+pylattice/classes/TrackUnprocessed.py
+pylattice/classes/__init__.py
+pylattice/functions/DataAnalysis.py
+pylattice/functions/InputProcessing.py
+pylattice/functions/InterfaceChimeraX.py
+pylattice/functions/TiffBoxDrawing.py
+pylattice/functions/TiffProcessing.py
+pylattice/functions/__init__.py
