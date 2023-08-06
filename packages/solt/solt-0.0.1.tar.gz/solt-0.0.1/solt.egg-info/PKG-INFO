@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: solt
+Version: 0.0.1
+Summary: Optimized data augmentation library for Deep Learning
+Home-page: https://github.com/mipt-oulu/solt
+Author: Aleksei Tiulpin
+Author-email: aleksei.tiulpin@oulu.fi
+License: MIT license
+Description: UNKNOWN
+Keywords: data augmentations,deeep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
