@@ -1,0 +1,4 @@
+[console_scripts]
+lztools = cli.lztools:main
+¤lz = cli.lztools:main
+
