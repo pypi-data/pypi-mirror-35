@@ -1,0 +1,17 @@
+six
+pathlib
+numpy==1.14.5
+pandas
+chainmap
+pyfunctional
+fn
+tqdm
+typing
+dirtyjson
+filelike
+mockito
+tornado
+requests
+
+[:python_version < "3"]
+futures
