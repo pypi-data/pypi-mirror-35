@@ -1,0 +1,10 @@
+wapi/__init__.py,sha256=rben0KNVKtaYTy-O2VEMd83UB0JfDhVMvMBVtkr0LQU,148
+wapi/auth.py,sha256=kpBFbwWlA0VUwx8Mtbx_zjxgNt4FdXuk5Qa5F47Ro4E,2137
+wapi/curves.py,sha256=5oIi2Olnd3vnbFK8BS0cD3OcdZarZU7mesM6BHUjK_Y,57664
+wapi/events.py,sha256=pjJG7krcmDC_PxdsSaFxQ13RdeT934SzkNCp97BVjH8,4547
+wapi/session.py,sha256=L18rqt0pTJ--c1X4VAZCsbrFoMbSFLgQfyPP1ZxvqK4,11478
+wapi/util.py,sha256=_eTIDQOXUnG_qiWS9DaL9SoMyFDIdXqyLzvelrk63cs,8144
+wapi_python-0.2.0.dist-info/METADATA,sha256=ppB5KplOLOlmf_uVBpvB-vR_zBO1V8x2DoFy6zs8DBM,636
+wapi_python-0.2.0.dist-info/RECORD,,
+wapi_python-0.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+wapi_python-0.2.0.dist-info/top_level.txt,sha256=Yw2tD_VBpHu2xV4CRIBSTQm_zpx4wSI5zHBHU3ZJ5aM,5
