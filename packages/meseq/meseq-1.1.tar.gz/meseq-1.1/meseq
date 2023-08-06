@@ -1,0 +1,1670 @@
+#! /usr/bin/env python2
+# coding: utf-8
+import cairo
+import math
+import sys
+import os
+import pango
+import pangocairo
+import argparse
+
+VERSION = '1.1'
+STEP = None
+
+# Test alignment
+V_ALIGN_BOTTOM         = 'bottom'
+V_ALIGN_CENTER         = 'center'
+V_ALIGN_TOP            = 'top'
+V_ALIGN_ONE_LINE_ABOVE = 'line-above'
+H_ALIGN_LEFT   = 'left'
+H_ALIGN_RIGHT  = 'right'
+H_ALIGN_CENTER = 'center'
+# center_left used to align to left side of a box
+H_ALIGN_LEFT_CENTER = 'center_left' # center the text, and then align left
+
+ARROW_NORMAL = 1 << 3
+ARROW_LOST   = 1 << 4
+
+ARROW_HEAD_LEFT  = 1
+ARROW_HEAD_RIGHT = 2
+ARROW_HEAD_HUGE  = 3
+
+Verbose = 0
+GlobalFont = None
+GlobalBgcolor = 'white'
+
+def setVerbosity(n):
+    global Verbose
+    Verbose = n
+
+def log(*args):
+    msg = ''
+    for arg in args:
+        if len(msg) != 0: msg += ' '
+        msg += '%s' % (arg)
+    print(msg)
+
+def info(*args):
+    log('Info:', *args)
+
+def debug(*args):
+    if Verbose < 1: return
+    log('Debug:', *args)
+
+def error(*args):
+    log('Error:', *args)
+
+def setGlobalFont(fontObject):
+    global GlobalFont
+    GlobalFont = fontObject
+
+def setGlobalBgcolor(c):
+    global GlobalBgcolor
+    GlobalBgcolor = c
+
+class TextAlignment:
+    def __init__(self, halign = H_ALIGN_CENTER, valign = V_ALIGN_CENTER):
+        self.halign = halign
+        self.valign = valign
+
+Colors = { 'white'   : 'fff',
+           'grey'    : '444',
+           'gray'    : '444',
+           'red'     : 'F00',
+           'orange'  : 'fb0',
+           'yellow'  : 'ff0',
+           'green'   : '0f0',
+           'blue'    : '00F',
+           'black'   : '000'
+           }
+
+class Color:
+    def __init__(self, colorspec):
+        """
+        @param colorspec
+            A string that specifies the color, either:
+            - a 3-hex-digit string RGB. Eg: '00F'
+            - a 6-hex-digit string RGB. Eg: '0000FF'
+            - a color name: 'red', 'green', etc. (see Colors)
+        """
+
+        colorspec = colorspec.lower()
+
+        if Colors.has_key(colorspec):
+            colorspec = Colors[colorspec]
+
+        if len(colorspec) == 3:
+            colorspec = colorspec[0] * 2 + colorspec[1] * 2 + colorspec[2] * 2
+
+        # now colorspec must be a 6-hex-digit string
+        try:
+            self._red = ord(colorspec[0:2].decode('hex'))
+            self._green = ord(colorspec[2:4].decode('hex'))
+            self._blue = ord(colorspec[4:6].decode('hex'))
+        except:
+            # error, use a grey
+            error("error colorspec=", colorspec)
+            self._red = 0x88
+            self._green = 0x88
+            self._blue = 0x88
+
+    def red(self):
+        return self._red * 1.0 / 0xFF
+
+    def green(self):
+        return self._green * 1.0 / 0xFF
+
+    def blue(self):
+        return self._blue * 1.0 / 0xFF
+
+    def __str__(self):
+        return "<Color:%02x%02x%02x>" % (self._red, self._green, self._blue)
+
+
+class Options(dict):
+    def __init__(self):
+        self['label'] = ''
+        self['color'] = 'black'
+        self['bgcolor'] = None
+        self['halign'] = H_ALIGN_CENTER
+
+    def update(self, otherOpts):
+        """Options are taken from 'otherOpts', that must be a dictionnary."""
+        for key in otherOpts:
+            self.add(key, otherOpts[key])
+
+    def add(self, key, value):
+        self[key] = value
+
+    def getLabel(self):
+        return self['label']
+
+    def getColor(self):
+        return self['color']
+
+    def getBgcolor(self):
+        if self['bgcolor'] in [ None, 'none' ]: return GlobalBgcolor
+        return self['bgcolor']
+
+def setSourceColor(cairoCtx, colorName):
+    if colorName in [ None, 'none' ]:
+        cairoCtx.set_source_rgba(0, 0, 0, 0)
+    else:
+        colorObject = Color(colorName)
+        cairoCtx.set_source_rgb(colorObject.red(), colorObject.green(), colorObject.blue())
+
+class SequenceDiagram(object):
+
+    def __init__(self, filename, matrix, pixWidth, imgFormat, mscInit):
+        global STEP
+
+        self.matrix = matrix
+
+        nActors = len(matrix.rows[-1])
+        nxTiles = 3 * nActors + 1 + 2
+        STEP = 1.0 * pixWidth / nxTiles
+
+        # pr compute the size taken by the text (for autoadjust)
+
+        # use a temporary cairo context
+        tmpSurface = cairo.SVGSurface(None, 1, 1)
+        self.cr = cairo.Context(tmpSurface)
+        rowsHeight = self.adjustMatrix()
+
+        nMessages = rowsHeight
+
+        width = pixWidth;
+        nyTiles = nMessages + 2
+        height = nyTiles * STEP
+
+        debug("width=", width, ", height=", height, ", STEP=", STEP)
+
+        if imgFormat == 'png': svgFilename = None
+        else: svgFilename = filename
+
+        self.surface = cairo.SVGSurface(svgFilename, width, height)
+        cr = self.cr = cairo.Context(self.surface)
+
+        #cr.scale(width/100.0, height/100.0)
+        cr.set_line_width(STEP/40)
+
+        if GlobalBgcolor:
+            # draw background
+            cr.rectangle(0, 0, width, height)
+            c = GlobalBgcolor
+            setSourceColor(cr, c)
+            cr.fill()
+
+        self.draw()
+
+        if mscInit.border:
+            # draw black border
+            cr.set_line_width( max(cr.device_to_user_distance(2, 2)) )
+            setSourceColor(cr, 'black')
+            cr.rectangle(0, 0, width, height)
+            cr.stroke()
+
+
+        if imgFormat == 'png':
+            self.surface.write_to_png(filename)
+
+        cr.show_page()
+        self.surface.finish()
+
+    def adjustMatrix(self):
+        rowShift = 0
+        for rowid in range(0, len(self.matrix.rows)):
+            # compute the height of the row (after the size of the text)
+            row = self.matrix.rows[rowid]
+            rowHeight = row.height # original height
+            debug("rowHeight: ", rowHeight, "STEP: ", STEP)
+            for i in range(len(row)):
+                node = row[i]
+                if node is None: continue
+
+                # shift 'y' of nodes of the current row
+                if hasattr(node, 'y'):
+                    node.y += rowShift - rowid
+
+                # compute height
+                nodopts = node.options
+                if node.type in [ NT_MSG_SEND, NT_MSG_LOST, NT_MSG_RETURN, NT_CREATE, NT_BIDIRECTIONAL, NT_TERMINATE, NT_ACTOR, NT_BOX ]:
+                    wText, hText = self.getTextSize(nodopts['label'])
+                    debug("label: ", nodopts['label'], "hText=", hText, "hText/STEP: ", hText/STEP)
+
+                    if hText/STEP > rowHeight: rowHeight = int(hText/STEP)+1
+
+            debug("rowHeight (after): ", rowHeight)
+
+            # store the height of the row for usage by the drawing method
+            row.height = rowHeight
+
+            rowShift += rowHeight
+        return rowShift
+
+
+    def init(self):
+        setSourceColor(self.cr, 'black')
+        self.cr.set_line_width(STEP/40)
+
+    def cross(self, x, y, color, text = None):
+        # draw an 'x'
+        self.cr.save()
+        setSourceColor(self.cr, color)
+        self.cr.translate(x, y)
+
+        if text is not None:
+            # write the text
+            self.text(STEP/2, 0, text, color, GlobalBgcolor, TextAlignment(halign=H_ALIGN_LEFT))
+
+        self.cr.rotate(math.pi/4)
+
+        size = STEP/5
+        self.cr.move_to(-size, 0)
+        self.cr.line_to(size, 0)
+
+        self.cr.move_to(0, -size)
+        self.cr.line_to(0, size)
+
+        self.cr.stroke()
+
+        self.cr.restore()
+
+    def dot(self, x, y):
+
+        self.cr.arc(x, y, STEP/20, 0, 2 * math.pi)
+        self.cr.fill()
+
+
+    def boxWithRoundSides(self, x, y, text, color, bgcolor, halign):
+
+        # the box
+        # default size
+        width = STEP * 2
+        height = STEP * 1
+
+        # adjust size to text
+        wText, hText = self.getTextSize(text)
+        if wText >= width-STEP/2: width = wText + STEP/2 # take a margin because of the rounded part
+        if hText >= height: height = STEP * int(1+hText/STEP)
+
+        angle = math.atan(height/width)
+        radius = math.sqrt(height*height + width*width)/2
+        dx = width/2
+
+        # adjust y
+        y -= STEP/2
+        # 'y' specifies now the top of the box
+
+        # draw background first
+        setSourceColor(self.cr, bgcolor)
+
+        self.cr.rectangle(x-dx, y, 2*dx, height)
+        self.cr.arc(x, y+height/2, radius, math.pi-angle, math.pi+angle)
+        self.cr.arc(x, y+height/2, radius, -angle, angle)
+        self.cr.fill()
+    
+        # border and text
+        setSourceColor(self.cr, color)
+
+        self.cr.arc(x, y+height/2, radius, -angle, angle)
+        self.cr.arc(x, y+height/2, radius, math.pi-angle, math.pi+angle)
+
+        # draw the horizontal lines
+        self.cr.move_to(x-dx, y)
+        self.cr.line_to(x+dx, y)
+
+        self.cr.move_to(x-dx, y+height)
+        self.cr.line_to(x+dx, y+height)
+        self.cr.stroke()
+
+        # the text
+        self.text(x, y+height/2, text, color, bgcolor, TextAlignment(halign=halign))
+
+    def box(self, x, y, text, color, bgcolor, halign):
+        """Draw a box around (x, y), with centered text."""
+
+        # size of the box
+        width = STEP * 2
+        height = STEP * 1
+
+        # adjust size to text
+        wText, hText = self.getTextSize(text)
+        if wText >= width-STEP/2: width = wText + STEP/2
+        if hText >= height: height = STEP * int(1+hText/STEP)
+
+        # draw the background
+        setSourceColor(self.cr, bgcolor)
+        self.cr.rectangle(x-width/2, y-STEP/2, width, height)
+        self.cr.fill()
+        self.cr.stroke()
+
+        setSourceColor(self.cr, color)
+
+        # the text
+        self.text(x, y-STEP/2+height/2, text, color, bgcolor, TextAlignment(halign=halign, valign=V_ALIGN_CENTER))
+
+        # draw the border
+        self.cr.rectangle(x-width/2, y-STEP/2, width, height)
+        self.cr.stroke()
+
+        return width, height
+    
+    def lifeLine(self, x, y0, y1):
+
+        debug("lifeLine(%d, %d, %d" % (x, y0, y1))
+        self.cr.move_to(x, y0)
+        self.cr.line_to(x, y1)
+        self.cr.stroke()
+
+    def getTextLayout(self, text):
+        pangocairoCtx = pangocairo.CairoContext(self.cr)
+        pangocairoCtx.set_antialias(cairo.ANTIALIAS_SUBPIXEL)
+        layout = pangocairoCtx.create_layout()
+        fontname = GlobalFont.family + ' ' + GlobalFont.style
+        fontname += ' %d' % GlobalFont.getSize(STEP/33) # 33 is empirical
+        font = pango.FontDescription(fontname)
+        layout.set_font_description(font)
+        layout.set_text(text)
+        layout.set_alignment(pango.ALIGN_CENTER)
+        return pangocairoCtx, layout
+
+    def getTextSize(self, text):
+        _, layout = self.getTextLayout(text)
+        w, h = layout.get_size()
+        w = w / pango.SCALE
+        h = h / pango.SCALE
+        return w, h
+
+    def text(self, x, y, text, color, bgcolor, align = TextAlignment()):
+
+        pangocairoCtx, layout = self.getTextLayout(text)
+        w, h = layout.get_size()
+        w = w / pango.SCALE
+        h = h / pango.SCALE
+
+        attr = pango.AttrList()
+
+        if bgcolor is None:
+            pass
+        else:
+            bgc = Color(bgcolor)
+            red = int(bgc.red()*65535)
+            green = int(bgc.green()*65535)
+            blue = int(bgc.blue()*65535)
+            bcAttribute = pango.AttrBackground(red, green, blue, 0, len(text))
+            attr.insert(bcAttribute)
+
+        layout.set_attributes(attr)
+
+        if align.halign == H_ALIGN_LEFT:    layout.set_alignment(pango.ALIGN_LEFT)
+        elif align.halign == H_ALIGN_RIGHT: layout.set_alignment(pango.ALIGN_RIGHT)
+        else:
+            x -= w/2
+            if align.halign == H_ALIGN_LEFT_CENTER: layout.set_alignment(pango.ALIGN_LEFT)
+            else:                                   layout.set_alignment(pango.ALIGN_CENTER)
+
+        self.cr.save()
+        
+        if align.valign == V_ALIGN_BOTTOM:
+            self.cr.translate(x, y-h)
+        
+        elif align.valign == V_ALIGN_TOP:
+            self.cr.translate(x, y)
+
+        elif align.valign == V_ALIGN_ONE_LINE_ABOVE:
+            firstLine = layout.get_line_readonly(0)
+            ((_,_,_,_),(_,_,_,firstLineHeight)) = firstLine.get_pixel_extents()
+            self.cr.translate(x, y-firstLineHeight*0.9)
+
+        else:
+            # center vertically
+            self.cr.translate(x, y-h/2)
+
+
+        pangocairoCtx.update_layout(layout)
+        pangocairoCtx.show_layout(layout)
+        self.cr.restore()
+
+
+    def bidirectional(self, x0, y0, x1, text, color, bgcolor):
+        """Draw a massive bidirectional arrow.
+        """
+        if x1 == x0:
+            error("error, bidirectional")
+            return
+
+        if x1 < x0:
+            x0, x1 = x1, x0 # swap variables
+
+        # add background
+        setSourceColor(self.cr, GlobalBgcolor)
+        self.cr.rectangle(x0+STEP/2, y0-STEP/2, x1-x0-STEP, STEP)
+        self.cr.fill()
+
+        # foreground
+        setSourceColor(self.cr, color)
+        self.arrowHead(x0, y0, [ARROW_HEAD_HUGE, ARROW_HEAD_LEFT])
+        self.arrowHead(x1, y0, [ARROW_HEAD_HUGE, ARROW_HEAD_RIGHT])
+
+        # the lines between the heads
+        self.cr.move_to(x0+STEP/2, y0-STEP/2)
+        self.cr.line_to(x1-STEP/2, y0-STEP/2)
+
+        self.cr.move_to(x0+STEP/2, y0+STEP/2)
+        self.cr.line_to(x1-STEP/2, y0+STEP/2)
+        self.cr.stroke()
+
+        # the text
+        x = x0 +(x1-x0) / 2
+        self.text(x, y0, text, color, bgcolor)
+
+    def returnArrow(self, x0, y0, x1, text, color, bgcolor):
+        if x1 == x0:
+            error("error, arrow")
+            return
+
+        elif x1 < x0:
+            sign = -1 # indicate that the arrow is from right to left
+
+        else:
+            sign = 1
+
+        size = abs(x1-x0)
+
+        # Do transforming, in order to work easily
+        self.cr.save()
+        self.cr.translate(x0, y0)
+
+        xHead = size * sign
+
+        # a small dot for the starting point of the arrow
+        self.dot(0, 0)
+
+        # text
+        # place text in the center of the arrow
+        x = xHead / 2
+        y = 0
+        self.text(x, y, text, color, bgcolor, TextAlignment(valign=V_ALIGN_ONE_LINE_ABOVE))
+
+        # the main line of the arrow
+        setSourceColor(self.cr, color)
+        self.cr.move_to(0, 0)
+        self.cr.line_to(xHead, 0)
+        self.cr.stroke()
+
+        # head of the arrow
+        if sign > 0:
+            flag = ARROW_HEAD_RIGHT
+            flagReturn = ARROW_HEAD_LEFT
+        else:
+            flag = ARROW_HEAD_LEFT
+            flagReturn = ARROW_HEAD_RIGHT
+
+        self.arrowHead(xHead, y, [flag])
+
+        yDelta = STEP/2
+
+        # a small curve to indicate the return
+        self.cr.arc(xHead, y+yDelta/2, yDelta/2, -sign*math.pi/2, sign*math.pi/2)
+
+        # the return part
+        y += yDelta
+        self.cr.move_to(0, y)
+        self.cr.line_to(xHead, y)
+        self.cr.stroke()
+        self.arrowHead(0, y, [flagReturn])
+       
+        # Revert the transforming
+        self.cr.restore()
+
+
+    def arrow(self, x0, y0, x1, y1, text, color, bgcolor, flags = ARROW_NORMAL):
+
+        if x1 == x0:
+            error("error, arrow")
+            return
+
+        elif x1 < x0:
+            sign = -1 # indicate that the arrow is from right to left
+
+        else:
+            sign = 1
+
+        angle = math.atan((y1-y0)/(x1-x0))
+
+        debug("angle=", angle, ", y0=", y0, ", y1=", y1)
+        size = math.sqrt((y1-y0)**2 + (x1-x0)**2)
+
+        if flags == ARROW_LOST: size = size * 3 / 4
+
+        # Do transforming, in order to work easily
+        self.cr.save()
+        self.cr.translate(x0, y0)
+        self.cr.rotate(angle)
+
+        xHead = size * sign
+
+        # a small dot for the starting point of the arrow
+        self.dot(0, 0)
+
+        # text
+        # place text in the center of the arrow if arrrow is horizontal
+        # else place it at first 1/3
+        # so that text of crossing arrows do not conflict too much
+        # (test that angle is close to zero, due to rounding approximation)
+        if abs(y1-y0) < 0.001: x = xHead / 2
+        else: x = xHead / 3
+        y = 0
+        self.text(x, y, text, color, bgcolor, TextAlignment(valign=V_ALIGN_ONE_LINE_ABOVE))
+
+        # the main line of the arrow
+        setSourceColor(self.cr, color)
+        self.cr.move_to(0, 0)
+
+        self.cr.line_to(xHead, 0)
+        self.cr.stroke()
+
+        yHead = 0
+
+        if flags == ARROW_NORMAL:
+            # head of the arrow
+            if sign > 0: flag = ARROW_HEAD_RIGHT
+            else: flag = ARROW_HEAD_LEFT
+            self.arrowHead(xHead, yHead, [flag])
+        elif flags == ARROW_LOST:
+            # draw an 'x'
+            self.cross(xHead, yHead, color)
+
+        else:
+            error("error, invalid flag:", flags)
+        
+        # Revert the transforming
+        self.cr.restore()
+
+
+    def arrowHead(self, x, y, flags):
+
+        if ARROW_HEAD_HUGE in flags:
+            # huge arrow head
+            arrowSize = STEP
+            hAngle = math.pi / 4
+        else:
+            # regular size and angle
+            arrowSize = STEP/4 # hypothenuse
+            hAngle = math.pi / 6
+
+        if ARROW_HEAD_RIGHT in flags: sign = 1
+        else: sign = -1
+
+        x2 = x - arrowSize * math.cos(hAngle) * sign
+        y2 = y - arrowSize * math.sin(hAngle)
+        self.cr.move_to(x, y)
+        self.cr.line_to(x2, y2)
+
+        x3 = x - arrowSize * math.cos(hAngle) * sign
+        y3 = y + arrowSize * math.sin(hAngle)
+        self.cr.move_to(x, y)
+        self.cr.line_to(x3, y3)
+        self.cr.stroke()
+
+
+    def messageToSelf(self, x0, y0, y1, text, color, bgcolor):
+
+        setSourceColor(self.cr, color)
+
+        self.cr.move_to(x0, y0)
+        self.cr.line_to(x0 + STEP, y0)
+        self.cr.line_to(x0 + STEP, y1)
+        self.cr.line_to(x0, y1)
+
+        self.arrowHead(x0, y1, [ARROW_HEAD_LEFT])
+
+        # set text
+        self.text(x0 + STEP*1.5, y0+STEP*0.5, text, color, bgcolor, TextAlignment(halign=H_ALIGN_LEFT))
+
+    def getx(self, lifelineNum):
+        """Convert a lifeline number to an x offset on the grid."""
+        marginLeft = STEP * 3
+        lifelinePadding = STEP * 3
+        return marginLeft + lifelinePadding * lifelineNum
+
+    def gety(self, yMatrix):
+        marginTop = STEP
+        return marginTop + STEP * yMatrix
+
+    def debug(self, y, msg):
+        self.dot(0, y)
+        self.text(0, y, msg, 'black', 'white')
+
+    def draw(self):
+
+        self.init()
+
+        y = 0
+        y += STEP
+        for row in self.matrix.rows:
+            debug("row.height:", row.height)
+            rowHeight = row.height * STEP
+
+            # draw lifelines first, so that they appear below the others widgets
+            for i in range(len(row)):
+                x = self.getx(i)
+                node = row[i]
+
+                if node is None: continue
+
+                color = node.lifelineOwner.options.getColor()
+                setSourceColor(self.cr, color)
+                if node.type == NT_TERMINATE:
+                    # short life line
+                    self.lifeLine(x, y-STEP/2, y)
+                    # draw an 'x'
+                    self.cross(x, y, color, node.options['label'])
+                else:
+                    # regular life line
+                    self.lifeLine(x, y-STEP/2, y-STEP/2+rowHeight)
+
+
+            # now draw the other widgets
+            for i in range(len(row)):
+                x = self.getx(i)
+                node = row[i]
+                #self.debug(y, 'xx')
+
+                if node is None:
+                    continue
+
+                nodopts = node.options
+                color = nodopts.getColor()
+                setSourceColor(self.cr, color)
+        
+                if node.type == NT_ACTOR:
+                    # the box
+                    w, h = self.box(x, y, nodopts['label'], nodopts.getColor(), nodopts.getBgcolor(), nodopts['halign'])
+
+                    # the arrow
+                    if hasattr(node, 'originator'):
+                        originator = node.originator
+                        origOpts = originator.options
+                        x0 = self.getx(originator.x)
+                        y0 = self.gety(originator.y)
+                        if originator.x < node.x: x1 = self.getx(node.x) - w/2
+                        else: x1 = self.getx(node.x) + w/2
+                        y1 = self.gety(node.y)
+                        self.arrow(x0, y0, x1, y1, origOpts['label'], origOpts.getColor(), origOpts.getBgcolor())
+
+                elif node.type == NT_MSG_SEND:
+                    y1 = self.gety(node.arrival.y)
+
+                    if node.actorSrc == node.actorDest:
+                        # message to self
+                        self.messageToSelf(x, y, y1, nodopts['label'], nodopts.getColor(), nodopts.getBgcolor())
+
+                    else:
+                        x1 = self.getx(node.arrival.x)
+                        self.arrow(x, y, x1, y1, nodopts['label'], nodopts.getColor(), nodopts.getBgcolor())
+
+                elif node.type == NT_MSG_LOST:
+                    xArrival = self.matrix.getIndex(node.actorDest)
+                    x1 = self.getx(xArrival)
+                    y1 = y
+                    self.arrow(x, y, x1, y1, nodopts['label'], nodopts.getColor(), nodopts.getBgcolor(), ARROW_LOST)
+
+                elif node.type == NT_BOX:
+                    self.boxWithRoundSides(x, y, nodopts['label'], nodopts.getColor(), nodopts.getBgcolor(), nodopts['halign'])
+
+                elif node.type == NT_MSG_RETURN:
+                    x1 = self.getx(node.arrival.x)
+                    self.returnArrow(x, y, x1, nodopts['label'], nodopts.getColor(), nodopts.getBgcolor())
+
+                elif node.type == NT_BIDIRECTIONAL:
+                    x1 = self.getx(node.arrival.x)
+                    self.bidirectional(x, y, x1, nodopts['label'], nodopts.getColor(), nodopts.getBgcolor())
+
+                elif node.type == NT_CREATE:
+                    # do not draw anything
+                    # the arrow and the actor will be drawn on the node NT_ACTOR
+                    pass
+
+                else:
+                    pass
+
+            y += rowHeight
+
+
+
+# Node types
+NT_ACTOR     = 'actor'
+NT_MSG_SEND  = 'send-message'
+NT_MSG_RECV  = 'recv-message'
+NT_MSG_LOST  = 'lost-message'
+NT_MSG_RETURN = 'return-message'
+NT_CREATE    = 'create'
+NT_BOX       = 'box'
+NT_BIDIRECTIONAL = "bidirectional"
+NT_TERMINATE = 'terminate'
+NT_REF_NOTE  = 'ref_note'
+NT_COLON     = 'colon'
+NT_LIFELINE  = 'lifeline'
+
+class Node:
+    def __init__(self, type):
+        self.type = type
+        self.actorSrc = None
+        self.actorDest = None
+        self.options = Options()
+        self.id = None # used for 'goto'
+        self.isTall = False # indicate if the picture is vertically tall (box, etc.)
+
+        if self.type == NT_ACTOR: self.lifelineOwner = self
+        else: self.lifelineOwner = None
+
+        if self.type in [ NT_ACTOR, NT_BOX, NT_BIDIRECTIONAL ]: self.isTall = True
+
+    def __repr__(self):
+        return '<%s:%s->%s(%s)>' % (self.type, self.actorSrc, self.actorDest, self.options['label'])
+
+def readInput(file):
+    pass
+
+def die(msg):
+    sys.stderr.write('Error: ' + msg + '\n')
+    sys.exit(1)
+
+def lexerConsolidateLines(data):
+    """Concatenate lines ending with a backslash and the line afterwards.
+    """
+    lines = data.splitlines()
+    outLines = []
+    currentLine = ''
+
+    for line in lines:
+
+        currentLine += line
+
+        if len(line) and line[-1] == '\\':
+            # remove the \
+            currentLine = currentLine[:-1]
+            # and let the next line be concatenated (on next oteration)
+        else:
+            outLines.append(currentLine)
+            currentLine = ''
+
+    if len(line) and line[-1] == '\\':
+        die('Invalid last char \'\\\' on last line')
+
+    return outLines
+
+def parseSectionName(tokens):
+    """Parse the section name."""
+    if len(tokens) != 3: die('Malformed section declaration (length): \'%s\'' % tokens)
+    if tokens[0] != '[' or tokens[2] != ']': die('Malformed section declaration: \'%s\'' % line)
+    return tokens[1]
+
+ReservedTokens = [ '=', ':', '[', ']' ]
+
+def isIdentifierChar(c):
+    return c == '_' or c.isalnum()
+    
+def lexerParseDollar(line, i):
+    """Parse a line after a dollar.
+    @param i
+        The offset of the character following the dollar.
+        
+    @return
+        The value of the env variable, and the offset after the consumed sequence.
+    """
+    if len(line) == i: die("Malformed dollar expression (too short): '%s'" % line)
+    
+    inCurlyBracket = False
+    if line[i] == '{':
+        inCurlyBracket = True
+        i += 1
+    
+    envkey = ''
+    while i < len(line) and isIdentifierChar(line[i]):
+        envkey += line[i]
+        i += 1
+    
+    if inCurlyBracket:
+        if i >= len(line): die("Missing closing '}' (short line): '%s'" % line)
+        if line[i] != '}': die("Missing closing '}': '%s'" % line)
+        i += 1
+        
+    if os.environ.has_key(envkey): envvalue = os.environ[envkey]
+    else: envvalue = ''
+    
+    return envvalue, i
+        
+
+def lexerParse(line):
+    """
+    Return the list of the tokens of the line.
+    
+    Basic tokens:
+        token ::= (identifier | string | reserved)
+
+        identifier ::=  (letter|"_") (letter | digit | "_")*
+        letter     ::=  lowercase | uppercase
+        lowercase  ::=  "a"..."z"
+        uppercase  ::=  "A"..."Z"
+        digit      ::=  "0"..."9"
+
+        string            ::=  (simplestring | quotedstring) (simplestring | quotedstring)*
+        quotedstring      ::=  '"' (quotedstringchar | escapeseq | dollarvar)* '"'
+        quotedstringchar  ::=  <any character except "\", newline, '"'>
+        escapeseq         ::=  "\" <any ASCII character>
+        simplestring      ::=  simplestringitem simplestringitem*
+        simplestringitem  ::=  (simplestringchar | escapeseq | dollarvar)
+        simplestringchar  ::=  <any character except " ", "\", newline, '"'>
+        dollarvar         ::=  "$" (identifier | "{" identifier "}")
+
+    Escape Sequences:
+        \n      \\      \"    \$
+
+    Reserved:
+        =    :    [    ]
+
+    """
+    # states
+    ST_READY = 0
+    ST_IN_TOKEN = 1 # simple string
+    ST_IN_DQUOTE = 2 # double quoted string
+    ST_ESCAPED = 3 # indicate if a \ is just before the char
+    ST_DOLLAR = 4
+
+    state = ST_READY
+    tokens = []
+    currentToken = None
+    envvar = None
+    i = 0
+    while i < len(line):
+        c = line[i]
+
+        if state == ST_READY:
+            assert currentToken == None
+            if c == '#': break # rest of the line is a comment, ignore it
+            if c.isspace():
+                i += 1
+                continue
+            if c in ReservedTokens:
+                tokens.append(c)
+                i += 1
+                continue
+                
+            currentToken = '' # the following cases shall initiate a token
+            if c == '"':
+                state = ST_IN_DQUOTE
+            elif c == '\\':
+                savedState = ST_IN_TOKEN # after the escape sequence, the state will be ST_IN_TOKEN
+                state = ST_ESCAPED
+            elif c == '$':
+                savedState = ST_IN_TOKEN # after the dollar sequence, the state will be ST_IN_TOKEN
+                state = ST_DOLLAR
+            else:
+                state = ST_IN_TOKEN
+                currentToken = c
+
+        elif state == ST_DOLLAR:
+            value, i = lexerParseDollar(line, i)
+            currentToken += value
+            state = savedState
+            continue # i already incremented
+                
+        elif state == ST_ESCAPED:
+            if c == 'n': currentToken += '\n'
+            else: currentToken += c
+            state = savedState
+
+        elif state == ST_IN_TOKEN:
+
+            if c == '\\':
+                savedState = state
+                state = ST_ESCAPED
+
+            elif c in ReservedTokens:
+                tokens.append(currentToken)
+                tokens.append(c)
+                state = ST_READY
+                currentToken = None
+
+            elif c.isspace():
+                tokens.append(currentToken)
+                state = ST_READY
+                currentToken = None
+
+            elif c == '$':
+                savedState = state
+                state = ST_DOLLAR
+                
+            elif c == '"': state = ST_IN_DQUOTE
+            else: currentToken += c
+
+        elif state == ST_IN_DQUOTE:
+            if c == '\\':
+                savedState = state
+                state = ST_ESCAPED
+            elif c == '"': state = ST_IN_TOKEN
+            elif c == '$':
+                savedState = state
+                state = ST_DOLLAR
+            else: currentToken += c
+            
+        else:
+            die("Invalid state '%s'" % state)
+            
+        i += 1
+           
+    # append last token
+    if currentToken is not None: tokens.append(currentToken)
+    
+    return tokens
+
+def tokenParseActor(tokens):
+    """Expected tokens:
+    actorid [options ...]
+
+    Options:
+        label=... ('label=' optional)
+        color=...
+        bgcolor=...
+    """
+    if len(tokens) == 0:
+        die('Invalid actor specification: %s' % tokens)
+
+    actorid = tokens[0]
+    if actorid == '': return None # this is a hidden actor
+
+    options = tokenParseKeyEqualValue(tokens[1:])
+
+    if not options.has_key('label'): options['label'] = actorid
+
+    node = Node(NT_ACTOR)
+    node.actorSrc = actorid
+    node.options.update(options)
+    return node
+
+
+def getActorOld(actorid, label):
+    """DEPRECATED (used by tokenParseActorsOld)"""
+    if actorid == '': return None
+    node = Node(NT_ACTOR)
+    node.actorSrc = actorid
+    node.options.add('label', label)
+    return node
+
+def tokenParseActorsOld(tokens):
+    """Expected tokens:
+    actorid [ '=' actorLabel ] ...
+
+    THIS FUNCTION IS DEPRECATED
+
+    """
+    actors = []
+    actorid = None
+    gotEqual = False
+    for token in tokens:
+        if token == '=':
+            if actorid is None:
+                die("tokenParseActors Invalid = without actorid: %s" % tokens)
+            gotEqual = True
+        elif gotEqual:
+            actors.append( getActorOld(actorid, token) )
+            actorid = None
+            gotEqual = False
+        elif actorid is None:
+            actorid = token
+        else:
+            # previous token was actor id without label
+            actors.append( getActorOld(actorid, actorid) )
+            actorid = token
+
+    if actorid is not None:
+        actors.append( getActorOld(actorid, actorid) )
+
+    return actors
+
+
+def tokenParseKeyEqualValue(line):
+    token1 = None
+    token2 = None
+    options = {}
+    originalLine = line[:]
+    while len(line) > 0:
+        tok = line.pop(0)
+        if tok == '=':
+
+            if token2 is None:
+                die('Invalid = in line: %s' % originalLine)
+
+            if token1 is not None:
+                options['label'] = token1
+
+            token1 = token2
+            token2 = tok
+
+        elif token1 is None and token2 is None:
+            token2 = tok
+
+        elif token2 == '=':
+            if token1 is None:
+                die('Invalid a=b wihout a, in line: %s' % originalLine)
+            key = token1
+            value = tok
+            options[key] = value
+            token1 = None
+            token2 = None
+        elif token1 is None and token2 is not None:
+            token1 = token2
+            token2 = tok
+        else:
+            die('unexpected error in line: %s' % originalLine)
+
+    if token2 is not None:
+        options['label'] = token2
+
+    return options
+
+def tokenParseScenarioLine(line):
+    """Return a Node()."""
+
+    if line[0] == ':':
+        node = Node(NT_COLON)
+        if len(line) == 1:
+            pass # anonymous label, used for isnerting a blank line
+        elif len(line) == 2:
+            # named label
+            node.id = line[1]
+        else:
+            die('Invalid goto-label, too many tokens (%d)' % len(line))
+
+        return node
+
+    elif len(line) >= 2 and line[1] == '+':
+        node = Node(NT_TERMINATE)
+        node.actorSrc = line[0]
+        # parse the options
+        options = tokenParseKeyEqualValue(line[2:])
+        node.options.update(options)
+        return node
+
+    elif len(line) < 3:
+        die('Invalid scenario line: %s' % line)
+
+    # message 
+    src = line[0]
+    dest = line[2]
+    if line[1] == '->': node = Node(NT_MSG_SEND)
+    elif line[1] == '<-':
+        node = Node(NT_MSG_SEND)
+        src, dest = dest, src # reverse src and dest
+    elif line[1] == '-x': node = Node(NT_MSG_LOST)
+    elif line[1] == 'x-':
+        node = Node(NT_MSG_LOST)
+        src, dest = dest, src
+    elif line[1] == '-*': node = Node(NT_CREATE)
+    elif line[1] == '<->': node = Node(NT_BIDIRECTIONAL)
+    elif line[1] == '-<': node = Node(NT_MSG_RETURN)
+    elif line[1] == '>-':
+        node = Node(NT_MSG_RETURN)
+        src, dest = dest, src
+    elif line[1] == '-box': node = Node(NT_BOX)
+    else:
+        die('Invalid message line: %s' % line)
+
+    node.actorSrc = src
+    if node.type != NT_BOX:
+        node.actorDest = dest
+    else:
+        node.options.add('label', dest)
+    # parse the options
+    options = tokenParseKeyEqualValue(line[3:])
+    node.options.update(options)
+
+    return node
+
+
+    
+class MsqLine:
+    pass
+
+INCLUDE_FILE_OK        = 1
+INCLUDE_FILE_NOT_FOUND = 2
+
+class MsqFile:
+    def __init__(self):
+        self.sections = {}
+        self.currentSection = None
+        self.includedFiles = []
+        self.includedSections = []
+        self.currentPath = []
+
+
+    def getWorkingDir(self):
+        return self.currentPath[0]
+
+    def pushWorkingDir(self, path):
+        self.currentPath.insert(0, path)
+
+    def popWorkingDir(self):
+        self.currentPath.pop(0)
+
+    def load(self, filename):
+        try:
+            f = open(filename)
+            data = f.read()
+            f.close()
+        except:
+            die('Cannot load file: %s' % filename)
+        return data
+        
+    def preprocess(self, filename):
+        """Load a meseq file, and preprocess:
+            - consolidate multi-lines lines
+            - resolve include files
+        """
+        # if relative path, be relative to current file
+        if os.path.isabs(filename):
+            path = filename
+        elif len(self.currentPath) == 0:
+            path = filename
+        else:
+            path = os.path.join(self.getWorkingDir(), filename)
+
+        self.pushWorkingDir(os.path.dirname(path))
+
+        # detect cyclic includes
+        abspath = os.path.abspath(path)
+        if abspath in self.includedFiles:
+            die('Cyclic include of file: %s' % (abspath))
+        self.includedFiles.append(abspath)
+
+        data = self.load(path)
+        lines = lexerConsolidateLines(data)
+        self.tokenizeLines(lines)
+
+        self.includedFiles.remove(abspath)
+        self.popWorkingDir()
+
+    def include(self, token):
+        """If token is an existing file, include it.
+        Else keep it unchanged.
+        """
+        if os.path.exists(os.path.join(self.currentPath[0], token)):
+            self.preprocess(token)
+            return INCLUDE_FILE_OK
+        else:
+            return INCLUDE_FILE_NOT_FOUND
+
+    def tokenizeLines(self, lines):
+        for line in lines:
+            tokens = lexerParse(line)
+            if len(tokens) == 0: continue
+            elif tokens[0] == '-include':
+                if len(tokens) != 2: die('Invalid include (%s)' % (tokens) )
+                r = self.include(tokens[1])
+                if r == INCLUDE_FILE_NOT_FOUND:
+                    self.sections[self.currentSection].append(tokens)
+
+            elif tokens[0] == '[':
+                self.currentSection = parseSectionName(tokens)
+                if self.sections.has_key(self.currentSection):
+                    die('Section redeclared: ' + self.currentSection)
+                self.sections[self.currentSection] = []
+
+            else:
+                self.sections[self.currentSection].append(tokens)
+
+        return tokens
+
+    def preprocessSection(self, section):
+        # detect cyclic includes
+        if section in self.includedSections:
+            die('Cyclic include of section: %s' % (section))
+        self.includedSections.append(section)
+
+        if not self.sections.has_key(section):
+            die('%s: No such file or section, thus cannot include' % (section) )
+
+        n = len(self.sections[section])
+        i = 0
+        while i < n:
+            line = self.sections[section][i]
+            if line[0] == '-include':
+                if len(line) != 2:
+                    die('Invalid syntax for -include: %s' % (line) )
+                # do the include
+                includedSection = line[1]
+                self.preprocessSection(includedSection)
+                for includedLine in self.sections[includedSection]:
+                    self.sections[section].insert(i, includedLine)
+                    i += 1
+                    n += 1
+
+                # remove the '-include' line
+                x = self.sections[section].pop(i)
+                # no need ito increment i, as the '-include' line has been removed
+                n -= 1
+
+            else: i += 1
+
+        self.includedSections.remove(section)
+
+    def preprocessIncludedSections(self):
+        """Process remaining '-include', and resolve inclusion of sections.
+        """
+        # Only preprocess the 2 sections that are really used
+        # ie: the 2 entry points 'init' and 'scenario'
+        self.preprocessSection('init')
+        self.preprocessSection('scenario')
+                
+class Font:
+    def __init__(self):
+        self.sizeRatio = 100 # percent
+        self.family = 'Georgia'
+        self.style = ''
+
+    def getSize(self, scale):
+        return self.sizeRatio / 100.0 * 10 * scale
+
+class MscInit:
+    def __init__(self):
+        self.initialActors = []
+        self.font = Font()
+        self.border = None
+
+def parseMscSizeRatio(tokens):
+    try:
+        s = tokens[0]
+        if s[-1] != '%':
+            error('Invalid font-size specification: must be a percentage')
+            return 100
+        return int(s[:-1])
+    except:
+        error('Invalid font-size specification: %s (must be a percentage)' % tokens)
+        return 100
+
+def pasrseMscInit(linesOfTokens):
+
+    mscInit = MscInit()
+    for line in linesOfTokens:
+        if line[0] == 'actors':
+            info("""
+            DEPRECATED:
+            In [init], the syntax 'actors' is deprecated
+            and will be removed in the future.
+            Use instead 'actor' (one actor description by line)
+            """)
+            initialActors = tokenParseActorsOld(line[1:])
+            
+        elif line[0] == 'actor':
+            actor = tokenParseActor(line[1:])
+            mscInit.initialActors.append(actor)
+
+        elif line[0] == 'font-size':
+            mscInit.font.sizeRatio = parseMscSizeRatio(line[1:])
+
+        elif line[0] == 'font-style':
+            mscInit.font.style = line[1]
+
+        elif line[0] == 'font-family':
+            mscInit.font.family = line[1]
+
+        elif line[0] == 'bgcolor':
+            c = line[1]
+            if c == 'none': setGlobalBgcolor(None)
+            else: setGlobalBgcolor(c)
+
+        elif line[0] == 'border':
+            mscInit.border = line[1]
+            if mscInit.border == 'none': mscInit.border = None
+
+        else:
+            die('Invalid declaration in init: %s' % line)
+
+    return mscInit
+
+def mscParse(filename):
+    """Parse the input msq file and extract the tokens.
+    """
+    msq = MsqFile()
+    msq.preprocess(filename)
+    msq.preprocessIncludedSections()
+
+    mscInit = pasrseMscInit(msq.sections['init'])
+
+    if len(mscInit.initialActors) == 0:
+        die('No initial actor')
+
+    setGlobalFont(mscInit.font)
+
+    # parse section 'scenario'
+    lifeline = []
+    for line in msq.sections['scenario']:
+        lifeline.append(tokenParseScenarioLine(line))
+
+    return mscInit, lifeline
+
+class GraphRow(list):
+    def __init__(self, nColumns, halfsize = False):
+        if halfsize: self.height = 0.5
+        else: self.height = 1
+
+        for c in range(0, nColumns):
+            self.append(None)
+
+class SequenceGraph:
+    def __init__(self):
+        self.labels = {}
+        self.rows = []
+        self.activeActors = []
+        self.pendingMessages = []
+        self.gotoLabels = {}
+
+    def setGotoLabel(self, id):
+        self.gotoLabels[id] = len(self.rows) - 1 # index of the last row (== current row)
+
+    def addActiveActor(self, actor):
+
+        for i in range(len(self.activeActors)):
+            if self.activeActors[i] is None:
+                self.activeActors[i] = actor
+                return
+
+        self.activeActors.append(actor)
+
+    def hasActor(self, actorid):
+        for a in self.activeActors:
+            if a is not None and a.actorSrc == actorid:
+                return True
+        return False
+
+    def getActiveActor(self, actorid):
+        for a in self.activeActors:
+            if a is not None and a.actorSrc == actorid:
+                return a
+        return None
+
+    def removeActor(self, actorId):
+        for i in range(len(self.activeActors)):
+            if self.activeActors[i] is not None:
+                if self.activeActors[i].actorSrc == actorId:
+                    self.activeActors[i] = None
+                    return
+
+    def getNewRow(self, halfsize):
+        nColumns = len(self.activeActors)
+        return GraphRow(nColumns, halfsize)
+
+    def getIndex(self, actorid):
+        for i in range(len(self.activeActors)):
+            if self.activeActors[i] is not None:
+                if self.activeActors[i].actorSrc == actorid:
+                    return i
+        return None
+
+    def init(self, initialActors):
+        self.activeActors = initialActors
+        row = GraphRow(0, False)
+        for a in self.activeActors:
+            row.append(a)
+        self.rows = [ row ]
+
+    def getCurrentRow(self):
+        """Return a reference to the last row."""
+        return self.rows[-1]
+
+    def updateLifeline(self):
+        """Update last row with lifelines."""
+        row = self.rows[-1]
+        for i in range(len(self.activeActors)):
+            if self.activeActors[i] is not None:
+                if row[i] is None:
+                    row[i] = Node(NT_LIFELINE)
+                    row[i].lifelineOwner = self.activeActors[i]
+
+    def insertBlankRow(self):
+        self.addNewRow(True)
+        self.addNewRow()
+
+    def addNewRow(self, halfsize = False):
+        self.updateLifeline()
+        self.rows.append(self.getNewRow(halfsize))
+        currentRow = self.getCurrentRow()
+        return currentRow
+
+    def place2(self, node1, node2, tall = False):
+        """Place 2 connected nodes on the same row.
+
+        Args:
+            tall: True if node1 or node2 is vertically tall,
+                  that implies that it should not touch any tall
+                  node of the row above.
+        """
+        currentRow = self.getCurrentRow()
+        index1 = self.getIndex(node1.actorSrc)
+        index2 = self.getIndex(node2.actorSrc)
+
+        if index1 is None:
+            die('place2: Cannot place on unknown actor: %s' % node1.actorSrc)
+
+        if index2 is None:
+            die('place2: Cannot place on unknown actor: %s' % node2.actorSrc)
+
+        #if index1 == len(currentRow) or index2 == len(currentRow):
+        #    # case of a newly created actor; the row is therefore busy
+        #    currentRow.append(None)
+
+        needNewRow = False
+        needSeparationRow = False
+
+        first = min(index1, index2)
+        second = max(index1, index2)
+        for i in range(first, second+1):
+            if currentRow[i] is not None:
+                # this row is busy, need a new row
+                needNewRow = True
+                break
+
+        if tall and len(self.rows) >= 1:
+            previousRow = self.rows[-1]
+            for i in range(first, second+1):
+                if len(previousRow) > i:
+                    nodeAbove = previousRow[i]
+                    if nodeAbove is not None and nodeAbove.isTall:
+                        needSeparationRow = True
+                        break
+
+        if needSeparationRow:
+            currentRow = self.addNewRow(True)
+
+        if needNewRow:
+            currentRow = self.addNewRow(False)
+
+        currentRow[index1] = node1
+        currentRow[index2] = node2
+        node1.x = index1
+        node2.x = index2
+        node1.y = node2.y = len(self.rows) - 1
+
+
+    def place(self, node, tall = False):
+        currentRow = self.getCurrentRow()
+        index = self.getIndex(node.actorSrc)
+        if index is None:
+            die('Cannot place on unknown actor: %s' % node.actorSrc)
+
+        if index == len(currentRow):
+            # case of a newly create actor
+            currentRow.append(None)
+
+        needNewRow = False
+        needSeparationRow = False
+
+        if currentRow[index] is not None:
+            # this row is busy, take the next one
+            needNewRow = True
+
+        if tall:
+            # check if the row just above is also tall (box, etc.)
+            if len(self.rows) >= 1 and len(self.rows[-1]) > index:
+                nodeAbove = self.rows[-1][index]
+                if nodeAbove is not None and nodeAbove.isTall:
+                    needSeparationRow = True
+
+        if needSeparationRow:
+            currentRow = self.addNewRow(True)
+
+        if needNewRow:
+            currentRow = self.addNewRow(False)
+
+        currentRow[index] = node
+        node.x = index
+        node.y = len(self.rows) - 1
+        
+    def queue(self, node):
+        self.pendingMessages.append(node)
+
+    def placePending(self, flushAll = False):
+        i = 0
+        while i < len(self.pendingMessages):
+            node = self.pendingMessages[i]
+
+            if node.options.has_key('goto'):
+                gotoId = node.options['goto']
+                # in the past, so the node can be placed
+                if self.gotoLabels.has_key(gotoId): gotoId = None
+
+            else:
+                gotoId = None
+
+            if flushAll or gotoId is None:
+                # place the node immediately
+                self.place(node)
+                self.pendingMessages.pop(i)
+            else:
+                i += 1 # keep it for later
+
+            
+def computeGraph(initialActors, data):
+    graph = SequenceGraph()
+    # init first row, with initial actors
+
+        
+    graph.init(initialActors)
+
+    # go through the lifeline
+    for nod in data:
+
+        if hasattr(nod, 'actorSrc'):
+            nod.lifelineOwner = graph.getActiveActor(nod.actorSrc)
+        else: nod.lifelineOwner = None
+
+        if nod.type in [ NT_MSG_SEND, NT_MSG_LOST ]:
+
+            graph.place(nod)
+
+            # Do the recv part
+            if nod.type == NT_MSG_SEND:
+                recvNode = Node(NT_MSG_RECV)
+                recvNode.actorSrc = nod.actorDest
+                recvNode.lifelineOwner = graph.getActiveActor(nod.actorDest)
+
+                if nod.options.has_key('goto'):
+                    recvNode.options.add('goto', nod.options['goto'])
+                nod.arrival = recvNode
+                graph.queue(recvNode)
+
+        elif nod.type in [ NT_BIDIRECTIONAL, NT_MSG_RETURN ]:
+            otherNode = Node(NT_MSG_RECV)
+            otherNode.actorSrc = nod.actorDest
+            otherNode.lifelineOwner = graph.getActiveActor(nod.actorDest)
+            nod.arrival = otherNode
+            graph.place2(nod, otherNode, tall=True)
+
+        elif nod.type == NT_CREATE:
+            # TODO check if the arrow may conflict with other message on the row
+
+            if graph.hasActor(nod.actorDest):
+                die('Cannot create already existing actor: %s' % nod.actorDest)
+
+            graph.place(nod)
+
+            # place new actor
+            newActor = Node(NT_ACTOR)
+            newActor.actorSrc = nod.actorDest
+            newActor.options.add('label', newActor.actorSrc) # possibliy oevrwritten by 'actor_label'
+            newActor.originator = nod
+            for key in nod.options:
+                # Options starting by 'actor_' are intended for the new actor
+                if key[0:6] == 'actor_':
+                    newActor.options.add(key[6:], nod.options[key])
+
+            nod.arrival = newActor
+            graph.addActiveActor(newActor)
+
+            graph.place(newActor)
+            
+        elif nod.type == NT_BOX:
+            # insert a row if previous node is a NT_BOX or NT_ACTOR
+            # so that they do not touch each other
+            graph.place(nod, tall=True)
+
+        elif nod.type == NT_TERMINATE:
+            graph.place(nod)
+            graph.removeActor(nod.actorSrc)
+
+        elif nod.type == NT_COLON:
+            if nod.id is None:
+                # insert a row
+                graph.insertBlankRow()
+            else:
+                graph.setGotoLabel(nod.id)
+
+        # Look if some pending messages can be received
+        graph.placePending()
+
+    # flush pending messages
+    graph.placePending(flushAll=True)
+    graph.updateLifeline()
+
+    return graph
+            
+        
+def main():
+    """Process a msq file and generate an image of the message sequence diagram.
+    """
+
+    parser = argparse.ArgumentParser(description=main.__doc__, prog='meseq')
+    parser.add_argument('file', nargs=1, help='msq file')
+    parser.add_argument('-V', '--version', help='print version and exit', action='version', version='%(prog)s ' + VERSION)
+    parser.add_argument('-v', '--verbose', action='store_true', help='be more verbose')
+    parser.add_argument('-f', '--format', choices=['png', 'svg'], help='format of the generated image (default: png)', default='png')
+    parser.add_argument('-o', '--output', help='name of the generated image')
+    parser.add_argument('-w', '--width', help='width in pixel of the generated image (default: 600)', default='600')
+
+    args = parser.parse_args()
+
+    if args.verbose: setVerbosity(1)
+
+    filename = args.file[0]
+    mscInit, data = mscParse(filename)
+    debug('initialActors=', mscInit.initialActors)
+    debug('data=', data)
+    matrix = computeGraph(mscInit.initialActors, data)
+    debug("matrix=", matrix.rows)
+
+    imgFormat = args.format
+
+    if args.output is None:
+        imagefile = filename + '.' + imgFormat
+    else:
+        imagefile = args.output
+
+    width = int(args.width)
+    SequenceDiagram(imagefile, matrix, width, imgFormat, mscInit)
+    info('Generated image: %s' % (imagefile) )
+
+if __name__ == '__main__':
+    main()

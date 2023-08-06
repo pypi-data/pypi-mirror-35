@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: meseq
+Version: 1.1
+Summary: Editor of Message Sequence Diagrams
+Home-page: https://github.com/goeb/meseq
+Author: Fred Hoerni
+Author-email: fhoerni@free.fr
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: cairo
+Requires: pango
+Requires: pangocairo
+Requires: argparse
+Requires: Tkinter
+Requires: ScrolledText
+Requires: tkFileDialog
+Requires: tkMessageBox
