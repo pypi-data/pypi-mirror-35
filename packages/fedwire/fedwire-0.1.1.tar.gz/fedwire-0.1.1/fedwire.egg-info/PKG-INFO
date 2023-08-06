@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fedwire
+Version: 0.1.1
+Summary: A python package that implements an interface toread/write files for the Fedwire Funds Service
+
+# Change Log
+
+## [v0.1.0](https://github.com/narmitech/fedwire-python/tree/v0.1.0) (Unreleased)
+[Full Changelog](https://github.com/narmitech/fedwire-python/compare/...v0.1.0)
+
+* Add interfaces
+
+Home-page: https://github.com/narmitech/fedwire-python
+Author: Narmi
+Author-email: support@naritech.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev

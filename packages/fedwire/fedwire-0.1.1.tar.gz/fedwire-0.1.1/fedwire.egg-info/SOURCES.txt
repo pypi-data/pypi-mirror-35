@@ -1,0 +1,10 @@
+README.md
+setup.py
+fedwire/__init__.py
+fedwire/format.py
+fedwire/generator.py
+fedwire.egg-info/PKG-INFO
+fedwire.egg-info/SOURCES.txt
+fedwire.egg-info/dependency_links.txt
+fedwire.egg-info/requires.txt
+fedwire.egg-info/top_level.txt
