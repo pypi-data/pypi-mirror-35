@@ -1,0 +1,3 @@
+[console_scripts]
+pybow = pybow.cli:pybow_cli
+

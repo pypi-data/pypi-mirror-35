@@ -1,0 +1,14 @@
+pybow/__init__.py,sha256=EaKMkpF0hMICsOO_xLB8Vsz0pjOpK6Ozrh7rOGC8GMs,106
+pybow/bow.py,sha256=l4pLxc-PAcsDlleY2gCWYaVlq31e61NpLqdr68aJOng,12666
+pybow/cli.py,sha256=IH-H1nD7T_z2P2bb0j9fO_gz8-Y1wbq6-YN4I-yhiTk,6501
+pybow/props.py,sha256=uMM1vHWk5BwtkPMvm5v8lhBPO9NM8aTwEMlQ2g79G8E,12778
+pybow/analysis/__init__.py,sha256=yeoVvp0C3hn2UhENfLxHD2n75aIVrXsAzOnsYIzwkiU,44
+pybow/analysis/beck64.py,sha256=VuDNBN5D16c0l8huvyBmLiDlDjB3PY2iZ-l-eEu8o7Y,11334
+pybow/analysis/junk13.py,sha256=8n07CTRefbs92gsRl774m79gnr7SCtuMlzxbbSV_f_c,4714
+pybow/data/__init__.py,sha256=zCyaiU_R6WB1U8RWu74iAZTG2C6vdfMNHvRJtUZutPg,20
+pybow/data/data.py,sha256=y8Nwg7nnpwbASMZFGqYz707g_rvTf-wp3PlA4YQYDao,2964
+pybow-0.1.dist-info/METADATA,sha256=DbmrDPquzj6Iiqf8OvHeAK7IoQiZqpfT5pp6OhY7sSk,2264
+pybow-0.1.dist-info/RECORD,,
+pybow-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pybow-0.1.dist-info/entry_points.txt,sha256=uq2qH1GjXhGZNHdieXvomA1v6NUSzuNvnpQ97y8IviM,47
+pybow-0.1.dist-info/top_level.txt,sha256=lJLBFJ8vo4ffV3YqB07IEPga-tzQbEzStpvHR8f6h08,6

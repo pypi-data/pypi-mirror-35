@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: pybow
+Version: 0.1
+Summary: A collection of archery-focused calculation methods
+Home-page: https://gitlab.com/gekitsu/pybow
+Author: R. Kretz
+License: UNKNOWN
+Keywords: archery archaeology bowyery
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: ruamel.yaml
+Provides-Extra: dev
+Requires-Dist: sphinx; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+
+# pybow
+
+pybow is a Python library collecting calculation methods related to archery.
+
+## Purpose
+
+pybow aims to (eventually) be a comprehensive collection of tools for archaeologists, data scientists, and maths-headed archery and bowyery enthusiasts.
+
+To this end, pybow provides the `pb.Bow` object as a convenient way to describe bows by their measurements and bundled metadata, as well as implementations of analysis methods from scientific literature for easy reuse.
+
+Eventually, the collection of methods shall be expanded, and complemented by tools helping in bow construction.
+
+### Implemented Methods and Tools
+
+* Analysis method of Beckhoff, from Beckhoff, K 1964, ‘Der Eibenbogen von Vrees’, Die Kunde N.F. 15 pp. 113–125
+* Analysis method of Junkmanns, from Junkmanns, J 2013, *Pfeil und Bogen*, Verlag Angelike Hörnig, Ludwigshafen.
+
+## Code & Installation
+
+pybow’s source code is hosted at this Gitlab repo:
+https://gitlab.com/gekitsu/pybow
+
+Installation from PyPi via pip:
+
+```sh
+$ pip install pybow
+```
+
+## Dependencies
+
+pybow has the following dependencies:
+
+* `numpy`
+* `pandas`
+* `ruamel.yaml`
+
+## Documentation
+
+pybow documentation is hosted on readthedocs:
+https://pybow.readthedocs.io/
+
+## Changelog
+
+* 0.1.0: Initial release.
+	* the `pb.Bow` object for describing bows in Python
+	* analysis methods: `beckhoff1964()` & `junkmanns2013()`
+
+
