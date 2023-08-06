@@ -1,0 +1,18 @@
+six
+click
+click-log
+envparse
+dynaconf==0.5.4
+python-box
+pyyaml
+requests
+
+[:python_version < "3.3"]
+pathlib
+pathlib2
+
+[:python_version < "3.4"]
+enum34
+
+[factories]
+factory-boy
