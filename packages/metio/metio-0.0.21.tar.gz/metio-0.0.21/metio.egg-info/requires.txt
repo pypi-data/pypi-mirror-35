@@ -1,0 +1,13 @@
+numpy
+geopy
+pandas
+requests
+fiona
+future
+xarray
+pyproj
+rasterio
+xlrd
+SatelliteImage
+bs4
+netcdf4
