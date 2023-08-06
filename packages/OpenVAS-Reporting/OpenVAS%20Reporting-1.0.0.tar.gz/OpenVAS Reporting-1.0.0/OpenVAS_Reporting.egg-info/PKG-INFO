@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: OpenVAS-Reporting
+Version: 1.0.0
+Summary: Convert OpenVAS XML report files to Excel reports.
+Home-page: https://github.com/TheGroundZero/openvas_to_report
+Author: TheGroundZero
+Author-email: 2406013+TheGroundZero@users.noreply.github.com
+License: GPL-3.0-or-later
+Project-URL: Source Code, https://github.com/TheGroundZero/openvas_to_report
+Project-URL: Documentation, https://github.com/TheGroundZero/openvas_to_report/blob/master/README.md
+Project-URL: Issues, https://github.com/TheGroundZero/openvas_to_report/issues/
+Description: file: README.md
+Keywords: OpenVAS OpenVAS-reports Excel xlsxwriter xlsx reporting reports report
+Platform: UNKNOWN
+Requires: xlsxwriter

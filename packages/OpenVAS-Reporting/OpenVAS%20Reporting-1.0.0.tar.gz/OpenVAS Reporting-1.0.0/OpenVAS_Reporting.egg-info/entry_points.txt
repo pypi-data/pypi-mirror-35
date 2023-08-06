@@ -1,0 +1,3 @@
+[console_scripts]
+openvas_reporting = openvasreporting:main
+
