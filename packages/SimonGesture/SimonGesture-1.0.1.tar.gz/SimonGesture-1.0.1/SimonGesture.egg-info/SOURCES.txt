@@ -1,0 +1,14 @@
+AUTHORS.txt
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+SimonGesture.egg-info/PKG-INFO
+SimonGesture.egg-info/SOURCES.txt
+SimonGesture.egg-info/dependency_links.txt
+SimonGesture.egg-info/requires.txt
+SimonGesture.egg-info/top_level.txt
+simongesture/__init__.py
+simongesture/__main__.py
+simongesture/simonbackground.mp3

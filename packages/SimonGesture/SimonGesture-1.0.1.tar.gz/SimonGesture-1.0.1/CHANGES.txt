@@ -1,0 +1,2 @@
+v1.0.1, 2014/08/30 -- Fixed manifest to include background music.
+v1.0.0, 2014/08/30 -- Initial release.
