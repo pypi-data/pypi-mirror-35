@@ -1,0 +1,13 @@
+lapdog/__init__.py,sha256=gGqICoE6eWCwNL6NPG_S2vk4KmyguqdDrg3Z1xBXC2M,46
+lapdog/__main__.py,sha256=nRmB-ejfv4FCUYRbDUwhzjf7qriPtXhURrPB5O6IPN4,22066
+lapdog/adapters.py,sha256=Ky3kLO69i5FSox21UegWOovwNFQrx2FR5WE8gUHEEQc,21747
+lapdog/cache.py,sha256=573ndLFHoFNC6s3_UVartCQ7PJ1yh-K6aWbfKcDgmyI,3627
+lapdog/lapdog.py,sha256=TPGxR1TQRY7aRpEblGda_Jqqm4vcOngFkktSaEfTpc4,28774
+lapdog/operations.py,sha256=GmuOTTRNcakoaJUf0Sl-x2F9iZR3R_awWfzO23l5KeM,15013
+lapdog/schema.py,sha256=ii7Y6oyfL6Yy792MZpB6vKPV0dpenzCOGJiW639-FUc,4144
+lapdog/wdl_pipeline.yaml,sha256=AJTLm-306VI3xLpYDMDg22HNujAycDdLa6zOR7ciFJk,679
+lapdog-0.1.0.dist-info/METADATA,sha256=NB053V5jyV6M3LRRqRFLDs0SwX9YElMqAUatBkrHddU,643
+lapdog-0.1.0.dist-info/RECORD,,
+lapdog-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+lapdog-0.1.0.dist-info/entry_points.txt,sha256=NSrHhVOPMG4Z9QUu8OFm63T5sFOcRW5MehDtNvfbG6Q,49
+lapdog-0.1.0.dist-info/top_level.txt,sha256=2KSaE8oJ4N_otl4D7T1YH5RQttBEtdbBVVDzQYfVIGU,7
