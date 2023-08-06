@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: s3reqs
+Version: 0.4.0a0
+Summary: Uploads zip file to S3 of requirements for Python AWS Lambda apps to get around 50MB limit.
+Home-page: https://github.com/metametricsinc/s3reqs
+Author: Brian Jinwright
+Author-email: UNKNOWN
+License: GNU GPL v3
+Description: UNKNOWN
+Keywords: requirements,lambda
+Platform: UNKNOWN
