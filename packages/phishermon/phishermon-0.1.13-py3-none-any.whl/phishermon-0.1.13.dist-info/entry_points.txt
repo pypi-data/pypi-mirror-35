@@ -1,0 +1,4 @@
+[console_scripts]
+phishermon = phishermon.commandline:phishermon_cmdline
+sysmon-parser = phishermon.commandline:sysmon_parser_cmdline
+

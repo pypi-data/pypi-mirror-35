@@ -1,0 +1,13 @@
+phishermon/__init__.py,sha256=TMekCeoNVt0wWthvhB9PlUwGSkYye5Df82UPVjl4xJM,99
+phishermon/action.py,sha256=xo3PlptDXjr9e1EFaDvTya3BUtAblb4CsPAGliL3uEU,5022
+phishermon/commandline.py,sha256=7UCoW4VxhLQge45anlCggtQW8n-OQQFrxzFcBmFb5wM,3542
+phishermon/constants.py,sha256=PpvHoEwgb0LH7KHAmXyG8EgcVH4RyocK6QV0z5QyWwU,2831
+phishermon/mitigations.py,sha256=hkmWJFJP5PmLV1EPehTolk1tYIEtMlAygmWuCpjZjdM,10031
+phishermon/phishermon.py,sha256=ovt1K7hSAdeVaZs5fnaYInN-rs4aEURm93wuWQ9wpso,7158
+phishermon/sysmon_helper.py,sha256=rwVDsgFQ67dH3VSGEbDRi3-FQNaNtSrIYvdb_nh_pNU,18854
+phishermon/utils.py,sha256=bw1LqeFjePOn0_xwJRKMHiuw6BfqkpkHSOI5vfhFV0w,2743
+phishermon-0.1.13.dist-info/METADATA,sha256=pvMDavpUDsFGF2zbwtTNwbDwwzXRjnGjuifwCXw2rBg,799
+phishermon-0.1.13.dist-info/RECORD,,
+phishermon-0.1.13.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+phishermon-0.1.13.dist-info/entry_points.txt,sha256=gkZH6l245lEm0GKC8V2hgGUM7nmnzFxstn4kdDwr_qs,135
+phishermon-0.1.13.dist-info/top_level.txt,sha256=YXwDhbYa3DybNPuSbG67gyXoytja6eiRzq86wwP_3kA,11
