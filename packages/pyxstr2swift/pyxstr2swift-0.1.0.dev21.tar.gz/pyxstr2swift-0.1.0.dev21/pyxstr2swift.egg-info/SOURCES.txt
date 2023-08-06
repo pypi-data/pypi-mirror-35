@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyxstr2swift/__init__.py
+pyxstr2swift/xstr2swift.py
+pyxstr2swift.egg-info/PKG-INFO
+pyxstr2swift.egg-info/SOURCES.txt
+pyxstr2swift.egg-info/dependency_links.txt
+pyxstr2swift.egg-info/entry_points.txt
+pyxstr2swift.egg-info/top_level.txt
