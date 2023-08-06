@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: USFM References
+Version: 1.0.0
+Summary: Tools to work with USFM references
+Home-page: https://github.com/bbelyeu/usfm-references
+Author: Brad Belyeu
+Author-email: bradleylamar@gmail.com
+License: MIT
+Download-URL: https://github.com/bbelyeu/usfm-references/archive/1.0.0.zip
+Description: 
+        USFM References Tools
+        =====================
+        
+        Tools for working with USFM references in code.
+        
+        Setup
+        -----
+        
+        .. code:: python
+        
+            import usfm_references
+        
+            usfm_references.valid('GEN.1.1')  # returns True
+            usfm_references.valid('BOO.1.1')  # returns False
+        
+        Links
+        =====
+        
+        * `Documentation <https://pythonhosted.org/usfm-references/>`_
+        * `Source Code <https://github.com/bbelyeu/usfm-references>`_
+        * `Issues <https://github.com/bbelyeu/usfm-references/issues>`_
+        * `USFM Standard Reference <http://paratext.org/about/usfm>`_
+        
+        
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
