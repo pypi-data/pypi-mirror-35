@@ -1,0 +1,9 @@
+animals/__init__.py,sha256=Q7jL1ZgP6Qbb8_4LrcDFSi0xaKSiW3aT6OGo9h7y6tY,23
+animals/animalMath.py,sha256=wSBJMIzOZzO-m6BNqJS4VajCsqxROXSymjFZ82tIfnk,101
+animals/anims/Animal.py,sha256=0mnliqWGjgDeoZWHl814LrMx89kzi0uwQN34zfYN86k,422
+animals/anims/Owl.py,sha256=enMR2aw-RkNMlITwPWAvInAFpeNDD7a-B3oQK44hPKw,230
+animals/anims/__init__.py,sha256=HogLfruhydoIsDTYHFvCJEh242yLcpRLGLkTAulj9xw,19
+animals_math-0.0.4.dist-info/METADATA,sha256=vIjRKVFLt1l9X86_OWqiyw5WsMhBexN5OpuU20MhTZ0,239
+animals_math-0.0.4.dist-info/RECORD,,
+animals_math-0.0.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+animals_math-0.0.4.dist-info/top_level.txt,sha256=otzdUaTsU01JWf5HQgcZAHTAdr64U4oI9ziNIT37utE,8
