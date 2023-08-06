@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: prometheus-ml
+Version: 0.1.0
+Summary: Machine Learning Framework, standing on the shoulders of TITANS 
+Home-page: https://github.com/netzkontrast/prometheus_ml
+Author: Michael Schimmer
+Author-email: michael@nettkontrast.de
+License: MIT license
+Keywords: prometheus_ml
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: Click (>=6.0)
+
+======================================
+Prometheus Machine Learning Framework
+======================================
+
+
+.. image:: https://img.shields.io/pypi/v/prometheus_ml.svg
+        :target: https://pypi.python.org/pypi/prometheus_ml
+
+.. image:: https://img.shields.io/travis/netzkontrast/prometheus_ml.svg
+        :target: https://travis-ci.org/netzkontrast/prometheus_ml
+
+.. image:: https://readthedocs.org/projects/prometheus-ml/badge/?version=master
+        :target: https://prometheus-ml.readthedocs.io/?badge=master
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/netzkontrast/prometheus_ml/shield.svg
+     :target: https://pyup.io/repos/github/netzkontrast/prometheus_ml/
+     :alt: Updates
+
+
+
+Machine Learning Framework, standing on the shoulders of TITANS
+
+
+* Free software: MIT license
+* Documentation: https://prometheus-ml.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+
+=======
+History
+=======
+
+0.1.0 (2018-08-25)
+------------------
+
+* First release on PyPI.
+
+
