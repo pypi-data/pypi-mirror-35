@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: shivamvu-pkg
+Version: 0.0.1
+Summary: A small test package
+Home-page: https://github.com/shivamvku/Pkg_test.git
+Author: Vineet Kumar Upadhyay
+Author-email: shivam.vku@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple test package. You can use
+[Github-flavored Markdown](https://github.com/shivamvku/Pkg_test.git)
+
+
+"A sample test packe for upload"
+
