@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: sphinx-ext-eqt
+Version: 1.4
+Summary: A sphinx extension to integrate multiple choices questionnaires
+Home-page: https://github.com/naeka/sphinx-ext-eqt
+Author: Naeka
+Author-email: contact@naeka.fr
+License: UNKNOWN
+Description: # sphinx-ext-eqt
+        
+        This is a sphinx extension to integrate multiple choices questionnaires
+        
+        
+        ## Installation
+        
+        This module is registered on pypi, simply run `pip install sphinx-ext-eqt` or add `sphinx-ext-eqt` to your requirements file.
+        
+        
+        ## Configuration
+        
+        Static files are not handled by extensions, to properly display the questionnaire, the module's *static dir* must be append to sphinx configuation:
+        
+        ```
+        from eqt_ext import get_eqt_ext_static_dir
+        html_static_path = ['<your_project_static_dir>', get_eqt_ext_static_dir()]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
