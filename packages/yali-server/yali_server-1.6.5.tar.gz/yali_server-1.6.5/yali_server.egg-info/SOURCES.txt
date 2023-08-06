@@ -1,0 +1,11 @@
+README.txt
+setup.py
+cgi-bin/log_record.py
+start_server/__init__.py
+start_server/start_server.py
+yali_server.egg-info/PKG-INFO
+yali_server.egg-info/SOURCES.txt
+yali_server.egg-info/dependency_links.txt
+yali_server.egg-info/entry_points.txt
+yali_server.egg-info/top_level.txt
+yali_server.egg-info/zip-safe
