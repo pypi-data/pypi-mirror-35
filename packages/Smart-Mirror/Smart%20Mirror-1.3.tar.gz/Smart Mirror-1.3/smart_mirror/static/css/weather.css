@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Sofia';
+}
+
+.container {
+    position: relative;
+}
+
+.topright {
+    text-align: right;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    font-family: 'Almendra';
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
