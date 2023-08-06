@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+setup.py
+custom_remote_user/__init__.py
+custom_remote_user/backends.py
+django_custom_remote_user.egg-info/PKG-INFO
+django_custom_remote_user.egg-info/SOURCES.txt
+django_custom_remote_user.egg-info/dependency_links.txt
+django_custom_remote_user.egg-info/top_level.txt
