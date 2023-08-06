@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: wired-tts
+Version: 0.2.0
+Summary: "gTTS based Wired story reader."
+Home-page: https://gitlab.com/toopy/wired-tts
+Author: Florent Pigout
+Author-email: florent@toopy.org
+License: MIT
+Keywords: wired,tts
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: release
+Requires-Dist: gtts
+Requires-Dist: html2text
+Requires-Dist: lxml
+Requires-Dist: requests
+Provides-Extra: release
+Requires-Dist: wheel[signatures]; extra == 'release'
+Requires-Dist: zest.releaser; extra == 'release'
+
+Wired Text To Speech
+====================
+
+gTTS based Wired story reader.
+
+
+Install
+-------
+
+Just `pip install` as follow:
+
+.. code:: bash
+
+    $ pip install wired-tts
+
+
+Usage
+-----
+
+Just call it with your article url as follow:
+
+.. code:: bash
+
+    $ wired-tts https://www.wired.com/story/tezos-blockchain-love-story-horror-story/
+
+
+Hacking the CLI allows you to choose the lang option as follow:
+
+.. code:: bash
+
+    $ wired-tts -l "fr-FR" https://usbeketrica.com/article/facebook-face-au-defi-de-la-moderation-des-contenus
+
+
+License
+-------
+
+MIT License
+
+

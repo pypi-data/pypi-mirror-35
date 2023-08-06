@@ -1,0 +1,3 @@
+[console_scripts]
+wired-tts = wired_tts:main
+
