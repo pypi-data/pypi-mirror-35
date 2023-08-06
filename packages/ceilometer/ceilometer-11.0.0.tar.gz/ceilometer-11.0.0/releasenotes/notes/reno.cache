@@ -1,0 +1,142 @@
+---
+file-contents:
+  releasenotes/notes/add-disk-latency-metrics-9e5c05108a78c3d9.yaml:
+    features: ['Add `disk.device.read.latency` and `disk.device.write.latency` meters
+        to
+
+        capture total time used by read or write operations.
+
+        ']
+  releasenotes/notes/add-ipmi-sensor-data-gnocchi-70573728499abe86.yaml:
+    fixes: ['Ceilometer previously did not create IPMI sensor data from IPMI agent
+        or
+
+        Ironic in Gnocchi. This data is now pushed to Gnocchi.
+
+        ']
+    upgrade: ['`ceilometer-upgrade` must be run to build IPMI sensor resource in Gnocchi.
+
+        ']
+  releasenotes/notes/gnocchi-no-metric-by-default-b643e09f5ffef2c4.yaml:
+    issues: ['Ceilometer created metrics that could never get measures depending on
+        the
+
+        polling configuration. Metrics are now created only if Ceilometer gets at
+
+        least a measure for them.
+
+        ']
+  releasenotes/notes/instance-record-launched-created-deleted-d7f44df3bbcf0790.yaml:
+    features: ['`launched_at`/`created_at`/`deleted_at` of Nova instances are now
+        tracked.
+
+        ']
+  releasenotes/notes/polling-batch-size-7fe11925df8d1221.yaml:
+    deprecations: ['The option batch_polled_samples in the [DEFAULT] section is deprecated.
+        Use batch_size option in [polling] to configure and/or disable batching.
+
+        ']
+    features: ['Add support for configuring the size of samples the poller will send
+        in each batch.
+
+        ']
+    upgrade: ['batch_size option added to [polling] section of configuration. Use
+        batch_size=0 to disable batching of samples.
+
+        ']
+  releasenotes/notes/prometheus-bcb201cfe46d5778.yaml:
+    features: ['A new pulisher have been added to push data to Prometheus Pushgateway.
+
+        ']
+  releasenotes/notes/remove-gnocchi-dispatcher-options-4f4ba2a155c1a766.yaml:
+    upgrade: ['The deprecated `gnocchi_dispatcher` option group has been removed.
+
+        ']
+  releasenotes/notes/removed-rgw-ae3d80c2eafc9319.yaml:
+    upgrade: ['Deprecated `rgw.*` meters have been removed. Use `radosgw.*` instead.
+
+        ']
+  releasenotes/notes/save-rate-in-gnocchi-66244262bc4b7842.yaml:
+    deprecations: ['cpu_util and \*.rate meters are deprecated and will be removed
+        in future
+
+        release in favor of the Gnocchi rate calculation equivalent.
+
+        ']
+    features: ['Archive policies can now be configured per metrics in gnocchi_resources.yaml.
+
+        A default list of archive policies is now created by Ceilometer.
+
+        They are called "ceilometer-low-rate" for all IOs metrics and "ceilometer-low"
+
+        for others.
+
+        ']
+    upgrade: ['Ceilometer now creates it own archive policies in Gnocchi and use them
+        to
+
+        create metrics in Gnocchi. Old metrics kept their current archive policies
+
+        and will not be updated with ceilometer-upgrade. Only newly created metrics
+
+        will be impacted. Archive policy can still be overridden with the publisher
+        url
+
+        (e.g: gnocchi://archive_policy=high).
+
+        ']
+  releasenotes/notes/transformer-ed4b1ea7d1752576.yaml:
+    deprecations: ['Usage of transformers in Ceilometer pipelines is deprecated. Transformers
+        in Ceilometer
+
+        have never computed samples correctly when you have multiple workers. This
+        functionality can
+
+        be done by the storage backend easily without all issues that Ceilometer has.
+        For example, the
+
+        rating is already computed in Gnocchi today.
+
+        ', 'Pipeline Partitioning is also deprecated. This was only useful to
+
+        workaround of some issues that tranformers has.
+
+        ']
+  releasenotes/notes/use-usable-metric-if-available-970ee58e8fdeece6.yaml:
+    features: [use memory usable metric from libvirt memoryStats if available.]
+notes:
+- files:
+  - - releasenotes/notes/add-disk-latency-metrics-9e5c05108a78c3d9.yaml
+    - !!binary |
+      OGZkZDE5ZTc4YTIwNTMyODU1NjljZGEwNWNkYzQ4NzViNzE2MTkwYw==
+  - - releasenotes/notes/add-ipmi-sensor-data-gnocchi-70573728499abe86.yaml
+    - !!binary |
+      NjYzYzUyMzMyODY5MGRmY2MzMGMxYWQ5ODZiYTU3ZTU2NmJkMTk0Yw==
+  - - releasenotes/notes/gnocchi-no-metric-by-default-b643e09f5ffef2c4.yaml
+    - !!binary |
+      ODI2YmEzNWM2ZWI5OTAwYmIwYTU1N2Y2ZTRmMDZmN2QxYjliZDM5NA==
+  - - releasenotes/notes/instance-record-launched-created-deleted-d7f44df3bbcf0790.yaml
+    - !!binary |
+      MzY0MTRlMWNlYmUzYTQzZDk2MmY4ZDJhZGZlN2NjMzQ3NDJlOTA1Nw==
+  - - releasenotes/notes/polling-batch-size-7fe11925df8d1221.yaml
+    - !!binary |
+      MmRjMjFhNWYwNWVlNjcwMjkyYThhN2Y5Nzk1MmQzOTQyYzMyZjVjZg==
+  - - releasenotes/notes/prometheus-bcb201cfe46d5778.yaml
+    - !!binary |
+      MmI4MDUyMDUyZDg2MWI4NTZiMzUyMmE4ZDdmODU3NzM1NzkzZjAxYg==
+  - - releasenotes/notes/remove-gnocchi-dispatcher-options-4f4ba2a155c1a766.yaml
+    - !!binary |
+      YzU2NzI1ODk3OTA2NGQ0YTZlODIwNTdmNjg1ODdiMTg0ZWU5MzlhYQ==
+  - - releasenotes/notes/removed-rgw-ae3d80c2eafc9319.yaml
+    - !!binary |
+      ZGQxYjdhYmYzMjk3NTVjODM3Nzg2MjMyOGY3NzBlMGI3OTc0ZjVjMg==
+  - - releasenotes/notes/save-rate-in-gnocchi-66244262bc4b7842.yaml
+    - !!binary |
+      ZTkwNmJjZGE4MjkxOGFmZjAwMGFiNzZmMDY3YTJkYzQ5NjYwZDBiNA==
+  - - releasenotes/notes/transformer-ed4b1ea7d1752576.yaml
+    - !!binary |
+      MWRjYmQ2MDdkZjA2OTYxMDFiNDBmNzdkNzcyMTQ4OTY3OWViZTBiYQ==
+  - - releasenotes/notes/use-usable-metric-if-available-970ee58e8fdeece6.yaml
+    - !!binary |
+      MmRlZTQ4NWRhN2E2ZjJjZGY5NjUyNWZhYmMxOGE4YzI3YzhiZTU3MA==
+  version: 11.0.0
