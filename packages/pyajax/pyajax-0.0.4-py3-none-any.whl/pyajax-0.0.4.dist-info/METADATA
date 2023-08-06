@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyajax
+Version: 0.0.4
+Summary: Develop ajax based analytical dashboard without writing any javascript.
+Home-page: https://github.com/washim/pyajax
+Author: Washim Ahmed
+Author-email: washim.ahmed@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+Develop ajax based analytical dashboard without writing any javascript.
+
+
