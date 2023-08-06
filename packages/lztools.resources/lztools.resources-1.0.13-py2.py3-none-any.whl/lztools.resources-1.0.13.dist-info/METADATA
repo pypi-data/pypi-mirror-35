@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lztools.resources
+Version: 1.0.13
+Summary: Template
+Home-page: UNKNOWN
+Author: Laz aka Zanzes
+Author-email: ubuntuea@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Systems Administration
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click
+Requires-Dist: lztools.bash
+Requires-Dist: sh
+
+UNKNOWN
+
+
