@@ -1,0 +1,9 @@
+README.md
+setup.py
+dprofiler/__init__.py
+dprofiler/profile.py
+dprofiler.egg-info/PKG-INFO
+dprofiler.egg-info/SOURCES.txt
+dprofiler.egg-info/dependency_links.txt
+dprofiler.egg-info/requires.txt
+dprofiler.egg-info/top_level.txt
