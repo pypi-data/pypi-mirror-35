@@ -1,0 +1,12 @@
+README.rst
+embed_pycgns.py
+hdf5_config.py
+setup.py
+cgns_wrapper/__init__.py
+cgns_wrapper/_version.py
+cgns_wrapper.egg-info/PKG-INFO
+cgns_wrapper.egg-info/SOURCES.txt
+cgns_wrapper.egg-info/dependency_links.txt
+cgns_wrapper.egg-info/requires.txt
+cgns_wrapper.egg-info/top_level.txt
+cgns_wrapper/CGNS/__init__.py
