@@ -1,0 +1,2 @@
+sanic-plugins-framework>=0.6.3.dev20180717
+sanic>=0.8.1
