@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gsheetdf
+Version: 1.1.0
+Summary: Export Google Sheet to Pandas dataframe
+Home-page: https://github.com/kunanit/gsheetdf
+Author: Andrew Ang
+Author-email: marc.kunanit@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas (==0.23.4)
+Requires-Dist: google-auth (==1.5.1)
+Requires-Dist: google-auth-oauthlib (==0.2.0)
+Requires-Dist: gspread (==3.0.1)
+
+UNKNOWN
+
+
