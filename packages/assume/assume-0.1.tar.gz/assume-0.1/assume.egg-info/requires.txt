@@ -1,0 +1,6 @@
+pyyaml~=3.12
+boto3~=1.5
+
+[dev]
+flake8
+pylint
