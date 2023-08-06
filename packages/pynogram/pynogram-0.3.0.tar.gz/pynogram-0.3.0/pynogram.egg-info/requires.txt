@@ -1,0 +1,9 @@
+six
+memoized
+svgwrite
+
+[web]
+tornado
+
+[web: python_version < "3.2"]
+futures
