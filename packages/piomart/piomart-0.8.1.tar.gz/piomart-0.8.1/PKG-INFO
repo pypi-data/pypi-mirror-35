@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: piomart
+Version: 0.8.1
+Summary: Tool to query Ensemble restful api and get gene info
+Home-page: https://gitlab.com/diegocrespo/piomart
+Author: Diego Crespo
+Author-email: diegocrespo@protonmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: bioinformatics dataframe ensembl commandline
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: ~=3.5
