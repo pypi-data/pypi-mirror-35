@@ -1,0 +1,4 @@
+[console_scripts]
+for_runners = for_runners.cli:main
+manage = for_runners.cli:manage
+
