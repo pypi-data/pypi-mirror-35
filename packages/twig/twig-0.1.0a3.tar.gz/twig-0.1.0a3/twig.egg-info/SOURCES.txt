@@ -1,0 +1,9 @@
+README.md
+setup.py
+twig/__init__.py
+twig.egg-info/PKG-INFO
+twig.egg-info/SOURCES.txt
+twig.egg-info/dependency_links.txt
+twig.egg-info/not-zip-safe
+twig.egg-info/requires.txt
+twig.egg-info/top_level.txt
