@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: cheesefactory-database
+Version: 0.1
+Summary: Wrappers for MSSQL, PostreSQL, and MongoDB interaction using dataframes or dictionaries.
+Home-page: https://bitbucket.org/hellsgrannies/cheesefactory-database
+Author: Todd Salazar
+Author-email: unixsal@yahoo.com
+License: UNKNOWN
+Description: Wrappers for MSSQL, PostreSQL, and MongoDB interaction using dataframes or dictionaries.
+        
+        ###Features
+        
+        ###Connect to the remote SFTP server
+        
+        ```python
+        from cheesefactory-database import Database
+        ...
+        
+Keywords: cheesefactory database mssql postgresql postgres mongo mongodb development pandas dataframe
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.7
