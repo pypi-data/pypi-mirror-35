@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+brunel_hand/__init__.py
+brunel_hand/brunel.py
+brunel_hand/version.py
+brunel_hand.egg-info/PKG-INFO
+brunel_hand.egg-info/SOURCES.txt
+brunel_hand.egg-info/dependency_links.txt
+brunel_hand.egg-info/requires.txt
+brunel_hand.egg-info/top_level.txt

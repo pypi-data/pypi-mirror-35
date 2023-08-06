@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: brunel_hand
+Version: 0.1.0
+Summary: Python library for controlling the Brunel hand by Open Bionics.
+Home-page: https://github.com/pollen-robotics/brunel_hand
+Author: Pollen Robotics
+Author-email: contact@pollen-robotics.com
+License: Apache License Version 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
