@@ -1,0 +1,8 @@
+README.md
+setup.py
+sapass/__init__.py
+sapass/sapass.py
+sapass.egg-info/PKG-INFO
+sapass.egg-info/SOURCES.txt
+sapass.egg-info/dependency_links.txt
+sapass.egg-info/top_level.txt
