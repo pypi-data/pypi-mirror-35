@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: incolumepy.exceptions
+Version: 0.0.0
+Summary: pacote de exceções para incolumepy
+Home-page: http://www.incolume.com.br
+Author: @britodfbr
+Author-email: contato@incolume.com.br
+License: BSD
+Project-URL: Tracker, https://gitlab.com/development-incolume/incolumepy.utils/issues
+Project-URL: Documentation, https://brito.blog.incolume.com.br/search/label/development-incolume
+Project-URL: Say Thanks!, None
+Project-URL: Oficial, https://pypi.org/project/incolumepy.utils/
+Project-URL: Git, https://gitlab.com/development-incolume/incolumepy.utils.git
+Project-URL: Funding, None
+Project-URL: Source, https://gitlab.com/development-incolume/incolumepy.utils
+Description: 
+        
+        
+        
+        
+        
+        
+        
+        
+Keywords: python incolumepy exceptions exception
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
