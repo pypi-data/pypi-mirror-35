@@ -1,0 +1,15 @@
+azure/cli/command_modules/botservice/__init__.py,sha256=UuR1xhhlcRKvLj4aw9cVioVVct6EsWcif-vvl6NigDE,2077
+azure/cli/command_modules/botservice/_client_factory.py,sha256=nBaAQTXm4w1uLt1JzEedXMBTy8J8dhgDwvX6s3dauzo,1020
+azure/cli/command_modules/botservice/_exception_handler.py,sha256=U9Np8jrxRq1NHskhi7953idtYYeRpAIRouUMkndAs_I,1372
+azure/cli/command_modules/botservice/_help.py,sha256=g501H49mrqtPUeekuOLsjkK3wLzprT8UidhRz50J7PQ,7347
+azure/cli/command_modules/botservice/_params.py,sha256=lT5Vn26x2mEN3xMLB8ds8oUm6F-H1-IXRo25-Oxd7mQ,11276
+azure/cli/command_modules/botservice/_webutils.py,sha256=WGfBzObR7Aa37DSMf9xVuqwwzYrjQGTk8gSvwBEO6ZQ,5584
+azure/cli/command_modules/botservice/channel_operations.py,sha256=IA4k33QcYQShpzeadA38g-BHkM3c9nfJqUpFAZYTnx4,8029
+azure/cli/command_modules/botservice/commands.py,sha256=AFGio4IWAFlXAL459wNHnvPw6JSoYqQIQ21IApSqn1Y,4003
+azure/cli/command_modules/botservice/custom.py,sha256=9CExeMbQPNlBMHEztShBlmH8SIno_Qielxji3hpFx6g,20793
+azure/cli/command_modules/botservice/functionapp.template.json,sha256=tp4YZCvfJqcJFJU7HIi67WKKvBiYfEV77TqLEuAfSlQ,18616
+azure/cli/command_modules/botservice/webapp.template.json,sha256=ikQeen5mwc_zDZ7LZwVJTSrDtttInsg1XYZFQuP9WYg,17657
+azure_cli_botservice-0.1.0.dist-info/METADATA,sha256=9i4a_QSbkn8r3nr4vbPTfQRtMhfY-3V5JsiqhEfjE4A,1250
+azure_cli_botservice-0.1.0.dist-info/RECORD,,
+azure_cli_botservice-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+azure_cli_botservice-0.1.0.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
