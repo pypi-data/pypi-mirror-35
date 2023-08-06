@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: fd-replay
+Version: 0.0.4
+Summary: fd-replay
+Home-page: https://github.com/decryptus/fd-replay
+Author: Adrien Delle Cave
+Author-email: pypi@doowan.net
+License: License GPL-2
+Description-Content-Type: text/markdown
+Platform: UNKNOWN
+Requires-Dist: dwho (>=0.2.33)
+Requires-Dist: pycurl
+Requires-Dist: pyyaml (>=3.10)
+Requires-Dist: sonicprobe (>=0.2.40)
+Requires-Dist: requests (>=2.0)
+
+# fd-replay project
+
+## Installation
+
+pip install fd-replay
+
+### Running daemon
+
+`fd-replay -c <conffile> -p <pidfile> --logfile <logfile>`
+
+### Running foreground
+
+`fd-replay -f -c <conffile> -p <pidfile> --logfile <logfile>`
+
+
