@@ -1,0 +1,12 @@
+README.md
+setup.py
+resample/__init__.py
+resample/bootstrap.py
+resample/permutation.py
+resample/utils.py
+resample.egg-info/PKG-INFO
+resample.egg-info/SOURCES.txt
+resample.egg-info/dependency_links.txt
+resample.egg-info/not-zip-safe
+resample.egg-info/requires.txt
+resample.egg-info/top_level.txt
