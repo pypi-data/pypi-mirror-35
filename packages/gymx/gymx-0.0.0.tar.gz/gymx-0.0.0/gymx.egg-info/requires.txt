@@ -1,0 +1,7 @@
+grpcio
+protobuf
+numpy
+
+[dev]
+grpcio-tools
+googleapis-common-protos
