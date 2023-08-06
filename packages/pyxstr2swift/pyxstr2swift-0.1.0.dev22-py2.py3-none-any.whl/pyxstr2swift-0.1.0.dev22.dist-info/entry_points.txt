@@ -1,0 +1,3 @@
+[console_scripts]
+xstr2swift = pyxstr2swift.xstr2swift:main
+
