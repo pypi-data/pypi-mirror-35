@@ -1,0 +1,7 @@
+README.md
+setup.py
+pycon/__init__.py
+pycon.egg-info/PKG-INFO
+pycon.egg-info/SOURCES.txt
+pycon.egg-info/dependency_links.txt
+pycon.egg-info/top_level.txt
