@@ -1,0 +1,12 @@
+numpy
+scipy
+scikit-learn
+six
+
+[demo]
+matplotlib
+
+[docs]
+sphinx
+shinx_rtd_theme
+numpydoc
