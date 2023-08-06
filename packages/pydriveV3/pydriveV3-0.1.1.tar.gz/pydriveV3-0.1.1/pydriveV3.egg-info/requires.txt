@@ -1,0 +1,10 @@
+cachetools
+google-api-python-client
+google-auth
+google-auth-httplib2
+httplib2
+pyasn1
+pyasn1-modules
+rsa
+six
+uritemplate
