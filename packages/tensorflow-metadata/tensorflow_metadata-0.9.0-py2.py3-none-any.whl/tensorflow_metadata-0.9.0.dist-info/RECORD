@@ -1,0 +1,12 @@
+tensorflow_metadata/__init__.py,sha256=bFRX4o0z9SamGqLQhmEhVbhZU8Z1T-bSWh-PHtSNLM4,643
+tensorflow_metadata/proto/__init__.py,sha256=COptIvIFVkZGQqEoE7KjOmsSqXt4ep-5B54srymM1-s,650
+tensorflow_metadata/proto/v0/__init__.py,sha256=2mwmgszyMqskBebKneVF7K6OYBTIl8CwbHQfEAY_IFo,653
+tensorflow_metadata/proto/v0/anomalies_pb2.py,sha256=db2Wo00OmrOa_huY-7QerZPkJjsXtxLUJWuyWUeSyVo,23951
+tensorflow_metadata/proto/v0/path_pb2.py,sha256=FOK3HjQX2UmKPYxeSk8OvGkJijOEyeac6b4LHpVf5r8,2090
+tensorflow_metadata/proto/v0/schema_pb2.py,sha256=14Y5KzAZHiNlTnuugRLW6qW0Xv5fiE8WcnUW9svOv30,54705
+tensorflow_metadata/proto/v0/statistics_pb2.py,sha256=NTFbsHCoCF5gF9--FpEgy7EFKxODh6M9Do0apRVNHUU,57168
+tensorflow_metadata-0.9.0.dist-info/METADATA,sha256=aG2Q4GbiLIMfd7ndHi-5qR7WnyXsf1y7uC3rkO4BSkk,1290
+tensorflow_metadata-0.9.0.dist-info/RECORD,,
+tensorflow_metadata-0.9.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+tensorflow_metadata-0.9.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tensorflow_metadata-0.9.0.dist-info/top_level.txt,sha256=MICqtr33n8FQrROvw9vgTf53srtogVkHE0SPbrWa9Eo,20
