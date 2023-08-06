@@ -1,0 +1,7 @@
+numpy
+numba
+scipy
+
+[docs]
+sphinx
+sphinxcontrib-napoleon
