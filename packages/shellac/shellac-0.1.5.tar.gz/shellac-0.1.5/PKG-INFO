@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: shellac
+Version: 0.1.5
+Summary: +shellac+ is an extension of the standard python library 'cmd', which aims to offer an alternative approach to nesting commands.
+Home-page: http://www.github.com/mrichar1/shellac
+Author: Matthew Richardson, Bruce Duncan
+Author-email: m.richardson@ed.ac.uk
+License: AGPL 3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 3
