@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: dicom-tools
+Version: 2.4
+Summary: Package for DICOM medical images analysis.
+Home-page: http://www.roma1.infn.it/~mancinit/Software/dicom_tools
+Author: Carlo Mancini Terracciano
+Author-email: carlo.mancini.terracciano@roma1.infn.it
+License: MIT
+Download-URL: https://github.com/carlomt/dicom_tools/archive/2.4.tar.gz
+Description: dicom_tools is a library with a Graphical User Interface (GUI), dicom_tool.py, to analyze medical images. It is possible to apply filters, perform automatic segmentation and compute several texture parameters, of both the first and second order. All the functions are available via the GUI, developed with the Qt libraries and compatible with Qt4 and Qt5. The GUI shows to the user the medical image once imported as a numpy array tensor with 3 indices. The lightness of the GUI allows an agile use of the software remotely, via an SSH connection. It is also possible to open an interactive python shell that have access to all the memory of the GUI instance and the functions of the package and can interact with the GUI. The package is interfaced with the most powerful libraries for images and medical images analysis, ensuring the opportune conversions of data types.
+Keywords: medical,image-analysis
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
