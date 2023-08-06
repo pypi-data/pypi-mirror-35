@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: scrapy-frontera
+Version: 0.2.2
+Summary: Featured Frontera scheduler for Scrapy
+Home-page: https://github.com/scrapinghub/hcf-backend
+Author: Scrapinghub
+Author-email: info@scrapinghub.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
