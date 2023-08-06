@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: mec-plugin-cloudify
+Version: 0.0.3
+Summary: A Cloudify plugin for MEC
+Home-page: https://github.com/tomahkvt/cloudify-mec-plugin
+Author: Tomakh Konstantin
+Author-email: tomahkvt@gmail.com
+License: Mirantis Inc. All rights reserved
+Platform: UNKNOWN
+Requires-Dist: cloudify-common (>=4.4)
+
+UNKNOWN
+
+

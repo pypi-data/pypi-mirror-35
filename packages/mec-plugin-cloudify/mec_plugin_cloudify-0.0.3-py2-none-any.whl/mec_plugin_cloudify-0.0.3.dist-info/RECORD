@@ -1,0 +1,9 @@
+mec_plugin_cloudify/__init__.py,sha256=-9M8m7YLIFqCJzxKWYnIP0NRCr_Va8Oid9RmIWNsyCs,671
+mec_plugin_cloudify/mec_platform_client.py,sha256=KlUDh9FlI_da7g5RTsSfaWx5XOPJizRpvzBonYJVbqQ,7435
+mec_plugin_cloudify/tasks.py,sha256=r-S9hNOS3c-eJ67mwtLCfxKh6EACIwebxUwk6Etfk3Q,7991
+mec_plugin_cloudify-0.0.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+mec_plugin_cloudify-0.0.3.dist-info/METADATA,sha256=tlKeZx5nxmoFb0MWOh5y4HoTfol5prnKlP34G3Suous,327
+mec_plugin_cloudify-0.0.3.dist-info/RECORD,,
+mec_plugin_cloudify-0.0.3.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+mec_plugin_cloudify-0.0.3.dist-info/metadata.json,sha256=0CI7hSgVQoLWSlGIzVOfkQQRe1bHCTas133qCqOETzs,539
+mec_plugin_cloudify-0.0.3.dist-info/top_level.txt,sha256=pn3hzPLJDcfxZYqXJAo-ok_mgE6fE2PoHYPlWrDd1KM,20
