@@ -1,0 +1,10 @@
+ocldev/__init__.py,sha256=xiw2I2bZYcSuPG-L9-DodwAk0_QOd9jAidpTosR0Hvs,16
+ocldev/oclbase.py,sha256=d-IAF15caLKOyj5PmkYPEacvsWSIx6bfFlRzBWBRbdU,65
+ocldev/oclconstants.py,sha256=4aB7sFXHaYxlAnUdzyrQ0cBlKPg9-J8DmnUgpzCqFWI,88
+ocldev/oclcsvtojsonconverter.py,sha256=0CI255U0sWa0u-NSQvEixITO36ZkTWii5_87lwyxPqQ,12061
+ocldev/oclexport.py,sha256=StpzZ5XfzyjnTBX7dP23bgeAYYZypoAj6_QAZVDgN1Y,4316
+ocldev/oclfleximporter.py,sha256=KZyNP7pE0FVQFq11DRJjxiUn-clf3HxqoUVGwGAwiJU,32542
+ocldev-0.1.9.dist-info/METADATA,sha256=_tI_qMC8hwarAkJPfDabrtDU34A5Vzdewh02XR_SCxk,806
+ocldev-0.1.9.dist-info/RECORD,,
+ocldev-0.1.9.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+ocldev-0.1.9.dist-info/top_level.txt,sha256=ftJJC5oVibZDBsSDfOqYlXTq-BJr7_Ccc6ghrNGpdvI,7
