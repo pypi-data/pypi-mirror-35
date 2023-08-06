@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: yappt
+Version: 0.1.0
+Summary: Yet Another Pretty Print Table
+Home-page: https://bitbucket.org/padhia/yappt
+Author: Paresh Adhia
+Author-email: UNKNOWN
+License: GPL
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+yappt
+=====
+
+.. image:: https://img.shields.io/pypi/v/yappt.svg
+     :target: https://pypi.python.org/pypi/yappt
+     :alt: PyPi
+.. image:: https://img.shields.io/badge/License-GPL%20-blue.svg
+     :target: http://www.gnu.org/licenses/gpl
+     :alt: License
+.. image:: https://img.shields.io/pypi/pyversions/yappt.svg
+     :alt: Python3.3+
+
+Yet Another Pretty Printer for Tables
+
+`yappt <https://bitbucket.org/padhia/yappt>`_ is a collection of functions and classes to pretty print tabular data.
+
+Development of this module was inspired by Inspired by https://bitbucket.org/astanin/python-tabulate"
+
+
