@@ -1,0 +1,9 @@
+README.md
+setup.py
+simpleloggerplus/__init__.py
+simpleloggerplus/deepops.py
+simpleloggerplus/simpleloggerplus.py
+simpleloggerplus.egg-info/PKG-INFO
+simpleloggerplus.egg-info/SOURCES.txt
+simpleloggerplus.egg-info/dependency_links.txt
+simpleloggerplus.egg-info/top_level.txt
