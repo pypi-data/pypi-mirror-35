@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pyoption
+Version: 0.1.2
+Summary: Add support to Option and Result types like in Rust.. but in Python.
+Home-page: https://github.com/domcorvasce/pyoption
+Author: Dom Corvasce
+Author-email: dom.corvasce@yandex.com
+License: UNKNOWN
+Download-URL: https://github.com/domcorvasce/pyoption/tarball/0.1
+Description: UNKNOWN
+Keywords: option,rust,result,unwrap,python,utilities
+Platform: UNKNOWN
