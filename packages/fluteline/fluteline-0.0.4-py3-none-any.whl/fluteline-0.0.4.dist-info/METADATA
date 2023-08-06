@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: fluteline
+Version: 0.0.4
+Summary: Easy thread based pipelines
+Home-page: https://github.com/Nagasaki45/fluteline
+Author: Tom Gurion
+Author-email: nagasaki45@gmail.com
+License: UNKNOWN
+Keywords: pipeline flow thread
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+fluteline - easy pipelines
+==========================
+
+Easy to use thread based pipelines of producers, consumers, and consumer-producers, in pure python (2 and 3) and with no dependencies.
+
+Installation
+------------
+
+.. code-block:: bash
+
+    pip install fluteline
+
+Links
+-----
+
+* Documentation: https://fluteline.readthedocs.io/en/latest/index.html
+* Source code: https://github.com/Nagasaki45/fluteline
+* PyPI releases: https://pypi.org/project/fluteline
+* License: `MIT <https://github.com/Nagasaki45/fluteline/blob/master/LICENSE>`_
+* Test status: https://travis-ci.org/Nagasaki45/fluteline
+
+
