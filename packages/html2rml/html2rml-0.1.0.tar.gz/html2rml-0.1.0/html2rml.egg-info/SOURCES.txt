@@ -1,0 +1,6 @@
+html2rml.py
+setup.py
+html2rml.egg-info/PKG-INFO
+html2rml.egg-info/SOURCES.txt
+html2rml.egg-info/dependency_links.txt
+html2rml.egg-info/top_level.txt
