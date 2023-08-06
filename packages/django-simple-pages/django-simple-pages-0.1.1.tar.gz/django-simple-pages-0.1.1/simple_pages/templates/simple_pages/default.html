@@ -1,0 +1,8 @@
+{% extends 'simple_pages/base.html' %}
+
+
+{% block main %}
+    {% if page.content %}
+        {{ page.content|safe }}
+    {% endif %}
+{% endblock main %}
