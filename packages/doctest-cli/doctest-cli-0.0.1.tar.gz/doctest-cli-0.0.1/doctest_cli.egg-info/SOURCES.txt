@@ -1,0 +1,8 @@
+README.md
+setup.py
+bin/doctest-cli
+doctest-cli/__init__.py
+doctest_cli.egg-info/PKG-INFO
+doctest_cli.egg-info/SOURCES.txt
+doctest_cli.egg-info/dependency_links.txt
+doctest_cli.egg-info/top_level.txt
