@@ -1,0 +1,10 @@
+README.md
+setup.py
+pg_db_migrator/__init__.py
+pg_db_migrator/migrator.py
+pg_db_migrator/schema_resolve.py
+pg_db_migrator.egg-info/PKG-INFO
+pg_db_migrator.egg-info/SOURCES.txt
+pg_db_migrator.egg-info/dependency_links.txt
+pg_db_migrator.egg-info/requires.txt
+pg_db_migrator.egg-info/top_level.txt
