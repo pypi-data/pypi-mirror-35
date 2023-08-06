@@ -1,0 +1,16 @@
+six
+coverage
+contextlib2
+enum34
+ipython
+flatbuffers
+future
+mock
+numpy
+pillow==5.0.0
+pyzmq
+pyyaml
+scipy
+sphinx
+sphinxcontrib-napoleon
+tox
