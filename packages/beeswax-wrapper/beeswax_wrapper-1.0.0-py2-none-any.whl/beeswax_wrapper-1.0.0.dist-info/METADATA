@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: beeswax-wrapper
+Version: 1.0.0
+Summary: Python2 Wrapper for the Beeswax API
+Home-page: https://github.com/iotgdev/beeswax_wrapper/
+Author: iotec
+Author-email: dev@dsp.io
+License: UNKNOWN
+Download-URL: https://github.com/iotgdev/beeswax_wrapper/archive/1.0.0.tar.gz
+Platform: UNKNOWN
+Requires-Dist: keyrings.alt (>=3.1)
+Requires-Dist: keyring (>=13.2.1)
+Requires-Dist: requests (>=2.19.1)
+Requires-Dist: boltons (>=18.0.0)
+Requires-Dist: ujson (>=1.35)
+
+UNKNOWN
+
+
