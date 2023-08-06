@@ -1,0 +1,25 @@
+/* Main tools table styling  */
+table.subnets {
+    border-collapse: collapse;
+    border-radius: 3px;
+    border-color: black;
+    margin: 4px;
+    width: 100%;
+}
+
+/* Header colours */
+table.subnets th {background-color:seagreen; color:white;}
+
+/* Alternating row background colour changing */
+table.subnets tr:nth-child(even){background-color:#f2f2f2}
+
+/* Setting the border radius and padding */
+table.subnets th, td {
+    border-radius: 2px;
+    border-color: grey;
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}

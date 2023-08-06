@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: PyIPAM
+Version: 0.1.4
+Summary: The Simple Python Flask IP Address Manager
+Home-page: https://github.com/marknet15/pyipam
+Author: Mark Woolley
+Author-email: mw@marknet15.com
+License: MIT
+Description: # PyIPAM - Basic Python3 IP address manager
+        Please note this application is still very much in early development!
+        
+        PyIPAM is intended to be a lightweight & basic IP address manager.
+        
+        Features:
+        * Ability to add IP subnets
+        * Scanning of added subnets to check availability of IP's
+        * In-line editing of IP entry notes and assignments to hosts 
+        
+        ## Requirements
+        PyIPAM has the following prerequisites:
+        - Package requirements:
+            - Python3
+        - A PostgreSQL DB with an application user should be created prior.
+        
+        ## Usage:
+        Navigate into the repo and run the below (Make sure you have python + pip installed prior)
+        ```
+        pip install .
+        python pyipam
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

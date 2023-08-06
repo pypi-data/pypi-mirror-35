@@ -1,0 +1,5 @@
+flask
+waitress
+psycopg2-binary
+ipaddress
+configparser

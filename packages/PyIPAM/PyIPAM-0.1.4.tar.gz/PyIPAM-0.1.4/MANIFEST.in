@@ -1,0 +1,3 @@
+recursive-include pyipam/config *
+recursive-include pyipam/static *
+recursive-include pyipam/templates *

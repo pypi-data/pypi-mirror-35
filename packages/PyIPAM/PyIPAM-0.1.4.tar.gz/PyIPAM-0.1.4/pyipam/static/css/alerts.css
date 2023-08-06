@@ -1,0 +1,30 @@
+/* Error alert message prompt */
+div.alert-message {
+    padding: 8px;
+    background-color: #f44336; 
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* Info alert message prompt */
+div.info-message {
+    padding: 8px;
+    background-color: #66d668; 
+    color: black;
+    margin-bottom: 5px;
+}
+
+/* Button to close the prompt */
+span.close-button {
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 14px;
+    line-height: 13px;
+}
+
+/* Hover event */
+span.close-button:hover {color: black;}
