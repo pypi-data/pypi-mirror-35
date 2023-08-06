@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+sal/__init__.py
+sal/cli.py
+sal/commands/__init__.py
+sal/commands/base.py
+sal/commands/best-practices.py
