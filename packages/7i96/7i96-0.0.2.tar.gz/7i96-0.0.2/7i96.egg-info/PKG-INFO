@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: 7i96
+Version: 0.0.2
+Summary: LinuxCNC 2.8 Mesa 7i96 Configuration Tool
+Home-page: https://github.com/jethornton/7i96
+Author: John Thornton
+Author-email: bjt128@gmail.com
+License: UNKNOWN
+Description: # 7i96
+        7i96 Configuration Tool
+        
+        Scope
+        
+        Read in the ini configuration file for changes.
+        
+        Create a complete configuration from scratch.
+        
+        Depends on python3-pyqt5
+        
+        sudo apt-get install python3-pqt5
+        
+        Open the sample ini file then make changes as needed then build
+        
+        You can create a configuration then run it with the Axis GUI and use
+        Machine > Calibration to tune each axis. Save the values to the ini file and
+        next time you run the 7i96 Configuration Tool it will read the values from the
+        ini file.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
