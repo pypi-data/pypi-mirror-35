@@ -1,0 +1,4 @@
+[console_scripts]
+html2xliff = xliff_converter.html2xliff:main
+xliff2html = xliff_converter.xliff2html:main
+
