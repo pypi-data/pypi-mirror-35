@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: webcraft
+Version: 0.1.0
+Summary: Async python framework for creating beautiful REST APIs using `aiohttp`.
+Home-page: http://github.com/xen/webcraft
+Author: Mikhail Kashkin
+Author-email: m@xen.ru
+License: BSD 3
+Description: # webcraft
+        
+        Async python framework for creating beautiful REST APIs using `aiohttp`.
+        
+Keywords: webcraft,admin,rest,framework,api,api-framework
+Platform: UNKNOWN
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
