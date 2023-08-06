@@ -1,0 +1,3 @@
+[console_scripts]
+cluster_check = cluster_check.cluster_check.xj:main
+

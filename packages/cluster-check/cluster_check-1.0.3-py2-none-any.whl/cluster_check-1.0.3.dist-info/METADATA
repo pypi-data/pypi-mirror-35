@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cluster-check
+Version: 1.0.3
+Summary: Storage cluster check.
+Home-page: https://github.com/huozhihui/cluster_check
+Author: Huozhihui
+Author-email: 240516816@qq.com
+License: Apache 2.0
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+Storage cluster check for Python
+=======================================
+
