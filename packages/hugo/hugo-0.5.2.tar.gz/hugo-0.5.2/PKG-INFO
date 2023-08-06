@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hugo
+Version: 0.5.2
+Summary: Discord bot library
+Home-page: https://github.com/Roolat/hugo
+Author: Nariman Safiulin
+Author-email: woofilee@gmail.com
+Keywords: discord,bot,hugo
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: discord.py
