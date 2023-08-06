@@ -1,0 +1,15 @@
+django_alive/__init__.py,sha256=FKNSX4JfsoMfXDwWeFrgaR7lbzH9QHM0_pA0PFL6T8w,46
+django_alive/checks.py,sha256=1rMTCOEWs8WG1glplivzK2RAJJjdCM5eipcj_Aq2lO4,1000
+django_alive/middleware.py,sha256=8T8BkFGJNZdeA2zd_pMn0c7w-91jMzuaxQsZ5hdnJoI,345
+django_alive/settings.py,sha256=gpUi0jgp0GKDcXVo_nsiH2RRujO-h94u748TxOnojEg,171
+django_alive/urls.py,sha256=PG7mbtp_y2zlnNH7_R7H_LweydA9lBQn-iR1RAZ8ZJA,275
+django_alive/views.py,sha256=Hw6Zr6fsChV_GXu_V23OxGEVzHmAN2SfJZz1-S3N6ds,662
+django_alive/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_alive/tests/settings.py,sha256=QHUwo0AwVxLvvdP6Z5jaDxRXcEkMenhJ5nlI9pqMdsg,527
+django_alive/tests/test_checks.py,sha256=6TryuUgyL8ea2q_7TlcDb2UXdzIlz6bHMUuanpiDusc,1079
+django_alive/tests/test_middleware.py,sha256=Er5vzeEJ9FnH7ONMJB1h83IeQWfeeBzZ9lmEDSRBurs,818
+django_alive/tests/test_views.py,sha256=Xsu_FjloDxuw84T-Ns5FZVGPPlmT69nYzr3B6XJDlu4,1213
+django_alive-1.0.1.dist-info/METADATA,sha256=-mMwokdbtGLXruEhIh-pa13pf0rUWyZ_5Koe8Ux3oIc,4725
+django_alive-1.0.1.dist-info/RECORD,,
+django_alive-1.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_alive-1.0.1.dist-info/top_level.txt,sha256=ESVoZytGYoM2Hz7gxA0ZGYkAN8Xa0ey4QJbGhaQZs60,13
