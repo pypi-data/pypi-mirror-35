@@ -1,0 +1,2 @@
+name = "spamassassin_client"
+
