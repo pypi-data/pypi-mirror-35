@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+        <param name="Window Styles" value="0x801227">
+        <param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Orange3-Prototypes  documentation">
+    <param name="Local" value="index.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Contingency Table">
+    <param name="Local" value="widgets/contingency-table.html">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Example">
+    <param name="Local" value="widgets/contingency-table.html#example">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Correlations">
+    <param name="Local" value="widgets/correlations.html">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Example">
+    <param name="Local" value="widgets/correlations.html#example">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="EnKlik Anketa">
+    <param name="Local" value="widgets/enklik-anketa.html">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Example">
+    <param name="Local" value="widgets/enklik-anketa.html#example">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Neighbors">
+    <param name="Local" value="widgets/neighbors.html">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Signals">
+    <param name="Local" value="widgets/neighbors.html#signals">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Description">
+    <param name="Local" value="widgets/neighbors.html#description">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Examples">
+    <param name="Local" value="widgets/neighbors.html#examples">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Parallel Coordinates">
+    <param name="Local" value="widgets/parallel-coordinates.html">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Example">
+    <param name="Local" value="widgets/parallel-coordinates.html#example">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Stacking">
+    <param name="Local" value="widgets/stacking.html">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Example">
+    <param name="Local" value="widgets/stacking.html#example">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Feature Statistics">
+    <param name="Local" value="widgets/feature-statistics.html">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Example">
+    <param name="Local" value="widgets/feature-statistics.html#example">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Select by Data Index">
+    <param name="Local" value="widgets/select-by-data-index.html">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Example">
+    <param name="Local" value="widgets/select-by-data-index.html#example">
+</OBJECT>
+</UL>
+</UL></BODY></HTML>
