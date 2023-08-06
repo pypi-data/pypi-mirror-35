@@ -1,0 +1,11 @@
+aiochan/__init__.py,sha256=F_X1yENyGsfrF0zrTwde-HKfyDAUIRA4xRA9_YTh-jU,23
+aiochan/_util.py,sha256=a_5D44emDUkN_RbNsbBHc1c6913QVqCWGHC6BdenbE0,1335
+aiochan/buffers.py,sha256=GibCfLoOUJNWu_REIEGhT0NNK3_4ZwPeH2HOfvaYK-E,4339
+aiochan/channel.py,sha256=iUqRPxzml4esN6dZt8UWRRUalwgyuGaGne4O6uLu5_0,62959
+aiochan/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiochan/test/test_buffer.py,sha256=LOoz9MbOPI717BSdAombTjXRj0FyiKOqD0rj4W0RAZE,2150
+aiochan/test/test_channel.py,sha256=xs5yWluiYWgBQIepc6G-p9gHScVWRCVCqvu7HHh2AjI,21231
+aiochan-0.2.4.dist-info/METADATA,sha256=pzeb3-CjJo5GKtu-phEzcF1bdoDJxqY8gQkcCaHcyd4,5811
+aiochan-0.2.4.dist-info/RECORD,,
+aiochan-0.2.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+aiochan-0.2.4.dist-info/top_level.txt,sha256=SxykeuN-71t80UaU3kOcvv0jgCd4ibpeKYjWHqi4Y6c,8
