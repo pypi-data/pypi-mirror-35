@@ -1,0 +1,61 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</head>
+<body>
+<section class="hero is-primary is-fullheight">
+  <div class="hero-body is-primary">
+    <form action="/auth?redirect_url={{ redirect_url }}" method="POST" style="width: 100%">
+      <div class="container has-text-centered">
+        <div class="column is-one-third is-offset-one-third">
+          <h3 class="title has-text-grey">登录</h3>
+          <p class="subtitle has-text-grey">想继续？先试试登录吧.</p>
+          <div class="box">
+            <form>
+              <div class="field">
+                <div class="control">
+                  {% if remember %}
+                  <input class="input is-large" type="text" value="{{ remember.split('.')[0] }}" autofocus="" name="username">
+                  {% else %}
+                  <input class="input is-large" type="text" placeholder="用户名" autofocus="" name="username">
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="field">
+                <div class="control">
+                  {% if remember %}
+                  <input class="input is-large" type="password" value="{{ remember.split('.')[1] }}" name="password">
+                  {% else %}
+                  <input class="input is-large" type="password" placeholder="密码" name="password">
+                  {% endif %}
+                </div>
+              </div>
+              <div class="field">
+                <label class="checkbox">
+                  {% if remember %}
+                  <input type="checkbox" name="remember" checked>
+                  {% else %}
+                  <input type="checkbox" name="remember" >
+                  {% endif %}
+                  记住我
+                </label>
+              </div>
+              <button class="button is-block is-info is-large is-fullwidth">登录</button>
+            </form>
+          </div>
+          <p class="has-text-grey">
+            <a href="/signup">注册</a> &nbsp;·&nbsp;
+            <a href="/help">帮助</a>
+          </p>
+        </div>
+      </div>
+    </form>
+    </div>
+</section>
+
+</body>
+</html>
