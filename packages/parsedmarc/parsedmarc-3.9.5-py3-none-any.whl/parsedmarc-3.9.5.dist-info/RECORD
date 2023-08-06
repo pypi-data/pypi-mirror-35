@@ -1,0 +1,8 @@
+parsedmarc/__init__.py,sha256=JD99s1nRL234nNbQ-Vf8spsr86C5UtmxwP9xwht6kSY,61085
+parsedmarc/cli.py,sha256=_8Nx4Vdl_H2mtuaJmnNG_ekRES7lpxSsY32JScc4pnI,10032
+parsedmarc/elastic.py,sha256=okZM_B6vL5aQcHNNWyZV1kQBRQP63vp9JUhE_3jRKBk,13653
+parsedmarc-3.9.5.dist-info/METADATA,sha256=Yaow1BEQ9HsQGk-14A85Xn5aZbe0gwj3gGu9QbKNqPc,13181
+parsedmarc-3.9.5.dist-info/RECORD,,
+parsedmarc-3.9.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+parsedmarc-3.9.5.dist-info/entry_points.txt,sha256=7mqxI1UcNoZNqekarw-oL0cuFCCSmiyfWE2b_Pm-l_8,53
+parsedmarc-3.9.5.dist-info/top_level.txt,sha256=HCKKKBRUZGFOA4OyeDclPpTRQ3GvKt2fg4BWExevCiM,11
