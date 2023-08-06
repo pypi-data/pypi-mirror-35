@@ -1,0 +1,8 @@
+setup.py
+lhptdata/__init__.py
+lhptdata.egg-info/PKG-INFO
+lhptdata.egg-info/SOURCES.txt
+lhptdata.egg-info/dependency_links.txt
+lhptdata.egg-info/not-zip-safe
+lhptdata.egg-info/requires.txt
+lhptdata.egg-info/top_level.txt
