@@ -1,0 +1,10 @@
+samplitude/__init__.py,sha256=6U9xnihGH-Yd71PdEQNTgaL7AsRoj8nrtmlZyP2x_N0,9975
+samplitude/__main__.py,sha256=RKB-azO5Yea_Z4-WYm1oJOiJXUGs8Cc-rBZC9-me6-c,35
+samplitude/_generators.py,sha256=1K1aiUWc66J9UVJ60kicK0udxyUmcO-XVBh_wqc9hxQ,325
+samplitude/_samplitude.py,sha256=110gwdH1ey9w6EQ4aVru96j-JDWMgDm6VNV9luA462U,2321
+samplitude/_utils.py,sha256=NChpqPa_exPXSAgXnAeo0sU0zysGyHdLsSbpPO3aVRU,274
+samplitude-0.0.17.dist-info/METADATA,sha256=VzaJxBRtEY_Ay-wgOjA5AXEFpl5e_5Np7k35PNxqHSk,14170
+samplitude-0.0.17.dist-info/RECORD,,
+samplitude-0.0.17.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+samplitude-0.0.17.dist-info/entry_points.txt,sha256=X9UAXDlnsgEm4tPcxalR53LSeMNh954L0ZAFVCyxv0E,70
+samplitude-0.0.17.dist-info/top_level.txt,sha256=AwQk69xeDnOk2lA2IYGYygGtjRCTxNSgsiv1-rY_9B0,11
