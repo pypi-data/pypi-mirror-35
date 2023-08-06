@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: CraftProtocol
+Version: 0.2.6
+Summary: Minecraft network protocol and NBT in Python 2.7.
+Home-page: https://github.com/Toranktto/CraftProtocol
+Author: Toranktto
+Author-email: toranktto@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
