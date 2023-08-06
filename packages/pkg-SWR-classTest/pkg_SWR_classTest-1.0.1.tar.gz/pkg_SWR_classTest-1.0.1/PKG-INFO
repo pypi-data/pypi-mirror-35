@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pkg_SWR_classTest
+Version: 1.0.1
+Summary: A small example package defining a test class
+Home-page: https://github.com/pypa/pkg_SWR_classTest
+Author: Sarah Winkler
+Author-email: sarah.winkler@initions-consulting.com
+License: UNKNOWN
+Description: # Example Package with Test class
+        
+        This is a simple example package containing a simple test class.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

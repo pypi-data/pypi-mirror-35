@@ -1,0 +1,8 @@
+README.md
+setup.py
+pkg_SWR_classTest/__init__.py
+pkg_SWR_classTest/pkg_SWR_classTest.py
+pkg_SWR_classTest.egg-info/PKG-INFO
+pkg_SWR_classTest.egg-info/SOURCES.txt
+pkg_SWR_classTest.egg-info/dependency_links.txt
+pkg_SWR_classTest.egg-info/top_level.txt
